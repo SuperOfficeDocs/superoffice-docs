@@ -24,6 +24,7 @@ items:
   - SuperOffice.Data.ETableRight.UR
   - SuperOffice.Data.ETableRight.URI
   - SuperOffice.Data.ETableRight.URU
+  - SuperOffice.Data.ETableRight.value__
   - SuperOffice.Data.ETableRight.WRITE
   langs:
   - csharp
@@ -31,7 +32,7 @@ items:
   name: ETableRight
   nameWithType: ETableRight
   fullName: SuperOffice.Data.ETableRight
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -40,29 +41,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nTable right is a combination of bits representing permissions on a row.\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ETableRight
+    content: 'public sealed class ETableRight : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ETableRight
 
-      Public Enum ETableRight
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ETableRight.EnumUtil.MapEnums``2
-  - SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ETableRight)
-  - SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.ETableRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ETableRight.value__
+  commentId: F:SuperOffice.Data.ETableRight.value__
+  id: value__
+  parent: SuperOffice.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ETableRight.value__
+  fullName: SuperOffice.Data.ETableRight.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ETableRight.None
   commentId: F:SuperOffice.Data.ETableRight.None
   id: None
@@ -82,9 +108,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: The row should be hidden from the user.\n"
   syntax:
-    content: None = 0
+    content: public const ETableRight None
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const None As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -110,9 +137,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: The user is allowed to see the row.\n"
   syntax:
-    content: Select = 1
+    content: public const ETableRight Select
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Select As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -138,9 +166,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: The user is allowed to modify the values in this row.\n"
   syntax:
-    content: Update = 2
+    content: public const ETableRight Update
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Update As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -166,9 +195,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: The user is allowed to add new rows to the table.\n"
   syntax:
-    content: Insert = 4
+    content: public const ETableRight Insert
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Insert As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -194,9 +224,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: The user is allowed to delete this row.\n"
   syntax:
-    content: Delete = 8
+    content: public const ETableRight Delete
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Delete As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -222,9 +253,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16: A flag used to indicate that some fields may be hidden.\n"
   syntax:
-    content: Filtering = 16
+    content: public const ETableRight Filtering
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Filtering As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -250,9 +282,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.\n"
   syntax:
-    content: RestrictedUpdate = 32
+    content: public const ETableRight RestrictedUpdate
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const RestrictedUpdate As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -278,9 +311,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n64: Unused value only present for serializatrion purposes\n"
   syntax:
-    content: Unused1 = 64
+    content: public const ETableRight Unused1
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Unused1 As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -306,9 +340,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n128: Magic value to indicate not\n"
   syntax:
-    content: Uninitialized = 128
+    content: public const ETableRight Uninitialized
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Uninitialized As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -334,9 +369,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n15: Select, Update, Insert, Delete - no restrictions\n"
   syntax:
-    content: FULL = 15
+    content: public const ETableRight FULL
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const FULL As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -362,9 +398,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n38: Update/RestrictedUpdate or Insert\n"
   syntax:
-    content: WRITE = 38
+    content: public const ETableRight WRITE
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const WRITE As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -390,9 +427,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n34: Update or RestrictedUpdate\n"
   syntax:
-    content: URU = 34
+    content: public const ETableRight URU
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const URU As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -418,9 +456,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: Select, Update, Delete\n"
   syntax:
-    content: UDR = 11
+    content: public const ETableRight UDR
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const UDR As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -446,9 +485,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Select or Update\n"
   syntax:
-    content: UR = 3
+    content: public const ETableRight UR
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const UR As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -474,9 +514,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Select, Update, Insert\n"
   syntax:
-    content: URI = 7
+    content: public const ETableRight URI
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const URI As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -502,9 +543,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Select only\n"
   syntax:
-    content: R = 1
+    content: public const ETableRight R
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const R As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -530,9 +572,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Select and Insert (Anonymous)\n"
   syntax:
-    content: RI = 5
+    content: public const ETableRight RI
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const RI As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -558,9 +601,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n17: Select or Filter\n"
   syntax:
-    content: RF = 17
+    content: public const ETableRight RF
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const RF As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -586,9 +630,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16: just Filtering\n"
   syntax:
-    content: F = 16
+    content: public const ETableRight F
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const F As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -614,9 +659,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n20: Filtering and Insert (Anonymous)\n"
   syntax:
-    content: FI = 20
+    content: public const ETableRight FI
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const FI As ETableRight
   modifiers.csharp:
   - public
   - const
@@ -630,6 +676,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ETableRight.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -657,84 +710,6 @@ references:
     name: MapEnums(Of ETableRight, To)
     nameWithType: EnumUtil.MapEnums(Of ETableRight, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ETableRight, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ETableRight)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ETableRight>(ETableRight)
-  nameWithType: ObjectExtensions.AssignByReflection<ETableRight>(ETableRight)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ETableRight>(SuperOffice.Data.ETableRight)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ETableRight)(ETableRight)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ETableRight)(SuperOffice.Data.ETableRight)
-  name.vb: AssignByReflection(Of ETableRight)(ETableRight)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ETableRight>
-    nameWithType: ObjectExtensions.AssignByReflection<ETableRight>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ETableRight>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    nameWithType: ETableRight
-    fullName: SuperOffice.Data.ETableRight
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ETableRight)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ETableRight)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ETableRight)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    nameWithType: ETableRight
-    fullName: SuperOffice.Data.ETableRight
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ETableRight>()
-  nameWithType: ObjectExtensions.GraphCopy<ETableRight>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ETableRight>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ETableRight)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ETableRight)()
-  name.vb: GraphCopy(Of ETableRight)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ETableRight>
-    nameWithType: ObjectExtensions.GraphCopy<ETableRight>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ETableRight>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ETableRight)
-    nameWithType: ObjectExtensions.GraphCopy(Of ETableRight)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ETableRight)
     isExternal: true
   - name: (
     nameWithType: (
@@ -776,6 +751,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -821,103 +802,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -964,18 +848,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.ETableRight
   commentId: T:SuperOffice.Data.ETableRight
   parent: SuperOffice.Data

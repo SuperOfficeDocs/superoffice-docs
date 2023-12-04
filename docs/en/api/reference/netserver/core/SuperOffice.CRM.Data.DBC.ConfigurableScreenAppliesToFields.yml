@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  id: DBC.ConfigurableScreenAppliesToFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.AppliesToKey
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.ConfigurableScreenAppliesToId
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RecipeId
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Registered
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Updated
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ConfigurableScreenAppliesToFields
+  nameWithType: DBC.ConfigurableScreenAppliesToFields
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ConfigurableScreenAppliesTo, Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on\n"
+  syntax:
+    content: 'public static class ConfigurableScreenAppliesToFields : Object'
+    content.vb: >-
+      Public Module ConfigurableScreenAppliesToFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.ConfigurableScreenAppliesToId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.ConfigurableScreenAppliesToId
+  id: ConfigurableScreenAppliesToId
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenAppliesToId
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.ConfigurableScreenAppliesToId
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.ConfigurableScreenAppliesToId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.ConfigurableScreenAppliesToId: Primary key\n"
+  syntax:
+    content: public const string ConfigurableScreenAppliesToId = "configurablescreenappliesto_id"
+    return:
+      type: System.String
+    content.vb: Public Const ConfigurableScreenAppliesToId As String = "configurablescreenappliesto_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RecipeId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RecipeId
+  id: RecipeId
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: RecipeId
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.RecipeId
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RecipeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.RecipeId: The recipe in scil that might be modified\n"
+  syntax:
+    content: public const string RecipeId = "recipeId"
+    return:
+      type: System.String
+    content.vb: Public Const RecipeId As String = "recipeId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.AppliesToKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.AppliesToKey
+  id: AppliesToKey
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: AppliesToKey
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.AppliesToKey
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.AppliesToKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.AppliesToKey: Which data will be used to differ on layouts for this recipe\n"
+  syntax:
+    content: public const string AppliesToKey = "appliesToKey"
+    return:
+      type: System.String
+    content.vb: Public Const AppliesToKey As String = "appliesToKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ConfigurableScreenAppliesToFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

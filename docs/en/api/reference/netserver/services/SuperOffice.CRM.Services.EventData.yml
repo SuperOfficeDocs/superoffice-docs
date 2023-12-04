@@ -7,11 +7,15 @@ items:
   children:
   - SuperOffice.CRM.Services.EventData.#ctor
   - SuperOffice.CRM.Services.EventData.BlockExecution
+  - SuperOffice.CRM.Services.EventData.CgiContent
+  - SuperOffice.CRM.Services.EventData.CgiVariables
   - SuperOffice.CRM.Services.EventData.Exception
   - SuperOffice.CRM.Services.EventData.InputValues
   - SuperOffice.CRM.Services.EventData.Message
   - SuperOffice.CRM.Services.EventData.NavigateTo
   - SuperOffice.CRM.Services.EventData.OutputValues
+  - SuperOffice.CRM.Services.EventData.ParserValues
+  - SuperOffice.CRM.Services.EventData.ShowDialog
   - SuperOffice.CRM.Services.EventData.StateValues
   - SuperOffice.CRM.Services.EventData.ToString
   - SuperOffice.CRM.Services.EventData.ToString(System.String)
@@ -304,6 +308,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.EventData.ShowDialog
+  commentId: P:SuperOffice.CRM.Services.EventData.ShowDialog
+  id: ShowDialog
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: ShowDialog
+  nameWithType: EventData.ShowDialog
+  fullName: SuperOffice.CRM.Services.EventData.ShowDialog
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nJSON structure of dialog to show \n"
+  syntax:
+    content: public virtual string ShowDialog { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShowDialog As String
+  overload: SuperOffice.CRM.Services.EventData.ShowDialog*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.OutputValues
   commentId: P:SuperOffice.CRM.Services.EventData.OutputValues
   id: OutputValues
@@ -403,6 +440,105 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.EventData.ParserValues
+  commentId: P:SuperOffice.CRM.Services.EventData.ParserValues
+  id: ParserValues
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: ParserValues
+  nameWithType: EventData.ParserValues
+  fullName: SuperOffice.CRM.Services.EventData.ParserValues
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nParser values sent to the event handler \n"
+  syntax:
+    content: public virtual StringDictionary ParserValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property ParserValues As StringDictionary
+  overload: SuperOffice.CRM.Services.EventData.ParserValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.CgiVariables
+  commentId: P:SuperOffice.CRM.Services.EventData.CgiVariables
+  id: CgiVariables
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: CgiVariables
+  nameWithType: EventData.CgiVariables
+  fullName: SuperOffice.CRM.Services.EventData.CgiVariables
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCgi variables sent by some events \n"
+  syntax:
+    content: public virtual StringDictionary CgiVariables { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property CgiVariables As StringDictionary
+  overload: SuperOffice.CRM.Services.EventData.CgiVariables*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.CgiContent
+  commentId: P:SuperOffice.CRM.Services.EventData.CgiContent
+  id: CgiContent
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: CgiContent
+  nameWithType: EventData.CgiContent
+  fullName: SuperOffice.CRM.Services.EventData.CgiContent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Cgi content/body, sent by some events \n"
+  syntax:
+    content: public virtual string CgiContent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CgiContent As String
+  overload: SuperOffice.CRM.Services.EventData.CgiContent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -410,13 +546,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   isExternal: true
@@ -430,12 +559,6 @@ references:
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EventData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EventData.#ctor
   isExternal: true
@@ -455,6 +578,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EventData.Type*
   commentId: Overload:SuperOffice.CRM.Services.EventData.Type
   isExternal: true
@@ -502,6 +631,12 @@ references:
   name: Message
   nameWithType: EventData.Message
   fullName: SuperOffice.CRM.Services.EventData.Message
+- uid: SuperOffice.CRM.Services.EventData.ShowDialog*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.ShowDialog
+  isExternal: true
+  name: ShowDialog
+  nameWithType: EventData.ShowDialog
+  fullName: SuperOffice.CRM.Services.EventData.ShowDialog
 - uid: SuperOffice.CRM.Services.EventData.OutputValues*
   commentId: Overload:SuperOffice.CRM.Services.EventData.OutputValues
   isExternal: true
@@ -520,3 +655,21 @@ references:
   name: Exception
   nameWithType: EventData.Exception
   fullName: SuperOffice.CRM.Services.EventData.Exception
+- uid: SuperOffice.CRM.Services.EventData.ParserValues*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.ParserValues
+  isExternal: true
+  name: ParserValues
+  nameWithType: EventData.ParserValues
+  fullName: SuperOffice.CRM.Services.EventData.ParserValues
+- uid: SuperOffice.CRM.Services.EventData.CgiVariables*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.CgiVariables
+  isExternal: true
+  name: CgiVariables
+  nameWithType: EventData.CgiVariables
+  fullName: SuperOffice.CRM.Services.EventData.CgiVariables
+- uid: SuperOffice.CRM.Services.EventData.CgiContent*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.CgiContent
+  isExternal: true
+  name: CgiContent
+  nameWithType: EventData.CgiContent
+  fullName: SuperOffice.CRM.Services.EventData.CgiContent

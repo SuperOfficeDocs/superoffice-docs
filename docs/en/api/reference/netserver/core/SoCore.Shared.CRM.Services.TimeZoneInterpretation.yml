@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  id: TimeZoneInterpretation
+  parent: SoCore.Shared.CRM.Services
+  children:
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.AbsoluteUTC
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.SalesBaseTime
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.ServiceBaseTime
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.TimeOnly
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.UTC
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.value__
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneInterpretation
+  nameWithType: TimeZoneInterpretation
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: "\nHow should a date/time field be interpreted in the database\n"
+  syntax:
+    content: 'public sealed class TimeZoneInterpretation : Enum'
+    content.vb: >-
+      Public NotInheritable Class TimeZoneInterpretation
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.EnumUtil.MapEnums``2
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.value__
+  commentId: F:SoCore.Shared.CRM.Services.TimeZoneInterpretation.value__
+  id: value__
+  parent: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TimeZoneInterpretation.value__
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.SalesBaseTime
+  commentId: F:SoCore.Shared.CRM.Services.TimeZoneInterpretation.SalesBaseTime
+  id: SalesBaseTime
+  parent: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  langs:
+  - csharp
+  - vb
+  name: SalesBaseTime
+  nameWithType: TimeZoneInterpretation.SalesBaseTime
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation.SalesBaseTime
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: "\nThis datetime should be interpreted as being relative to the Base Time Zone, defined in table BASETZLOCATION\n"
+  syntax:
+    content: public const TimeZoneInterpretation SalesBaseTime
+    return:
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    content.vb: Public Const SalesBaseTime As TimeZoneInterpretation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.ServiceBaseTime
+  commentId: F:SoCore.Shared.CRM.Services.TimeZoneInterpretation.ServiceBaseTime
+  id: ServiceBaseTime
+  parent: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  langs:
+  - csharp
+  - vb
+  name: ServiceBaseTime
+  nameWithType: TimeZoneInterpretation.ServiceBaseTime
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation.ServiceBaseTime
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: "\nThis datetime should be interpreted as being relative to the Service Base Time. Until further notice this is the same as the server local time, which is not an ideal situation; but that is how eJournal/Service <strong>actually works</strong>\n"
+  syntax:
+    content: public const TimeZoneInterpretation ServiceBaseTime
+    return:
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    content.vb: Public Const ServiceBaseTime As TimeZoneInterpretation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.UTC
+  commentId: F:SoCore.Shared.CRM.Services.TimeZoneInterpretation.UTC
+  id: UTC
+  parent: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  langs:
+  - csharp
+  - vb
+  name: UTC
+  nameWithType: TimeZoneInterpretation.UTC
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation.UTC
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: "\nThis datetime should be interpreted as UTC. Valid if and only if the <see cref=\"!:DictFieldType\"></see> is <see cref=\"!:DictFieldType.UtcDateTime\"></see>; breaking this rule\nwill cause runtime errors during database upgrade!\n"
+  syntax:
+    content: public const TimeZoneInterpretation UTC
+    return:
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    content.vb: Public Const UTC As TimeZoneInterpretation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.AbsoluteUTC
+  commentId: F:SoCore.Shared.CRM.Services.TimeZoneInterpretation.AbsoluteUTC
+  id: AbsoluteUTC
+  parent: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  langs:
+  - csharp
+  - vb
+  name: AbsoluteUTC
+  nameWithType: TimeZoneInterpretation.AbsoluteUTC
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation.AbsoluteUTC
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: "\nTreat as UTC and never convert it to or from anything. Currently only used for the synthetic BirthDate field on Person\n"
+  syntax:
+    content: public const TimeZoneInterpretation AbsoluteUTC
+    return:
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    content.vb: Public Const AbsoluteUTC As TimeZoneInterpretation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.TimeOnly
+  commentId: F:SoCore.Shared.CRM.Services.TimeZoneInterpretation.TimeOnly
+  id: TimeOnly
+  parent: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  langs:
+  - csharp
+  - vb
+  name: TimeOnly
+  nameWithType: TimeZoneInterpretation.TimeOnly
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation.TimeOnly
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: "\nOnly the Time part of this field is used; the Date part is ignored. You can set the desired Date handling through further constructor parameters\n"
+  syntax:
+    content: public const TimeZoneInterpretation TimeOnly
+    return:
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    content.vb: Public Const TimeOnly As TimeZoneInterpretation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SoCore.Shared.CRM.Services
+  commentId: N:SoCore.Shared.CRM.Services
+  isExternal: true
+  name: SoCore.Shared.CRM.Services
+  nameWithType: SoCore.Shared.CRM.Services
+  fullName: SoCore.Shared.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TimeZoneInterpretation, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneInterpretation, To>()
+  fullName: EnumUtil.MapEnums<SoCore.Shared.CRM.Services.TimeZoneInterpretation, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneInterpretation, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneInterpretation, To)()
+  name.vb: MapEnums(Of TimeZoneInterpretation, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneInterpretation, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneInterpretation, To>
+    fullName: EnumUtil.MapEnums<SoCore.Shared.CRM.Services.TimeZoneInterpretation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneInterpretation, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneInterpretation, To)
+    fullName: EnumUtil.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneInterpretation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TimeZoneInterpretation, To>()
+  nameWithType: Converters.MapEnums<TimeZoneInterpretation, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SoCore.Shared.CRM.Services.TimeZoneInterpretation, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneInterpretation, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneInterpretation, To)()
+  name.vb: MapEnums(Of TimeZoneInterpretation, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneInterpretation, To>
+    nameWithType: Converters.MapEnums<TimeZoneInterpretation, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SoCore.Shared.CRM.Services.TimeZoneInterpretation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneInterpretation, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneInterpretation, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneInterpretation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  parent: SoCore.Shared.CRM.Services
+  isExternal: true
+  name: TimeZoneInterpretation
+  nameWithType: TimeZoneInterpretation
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation

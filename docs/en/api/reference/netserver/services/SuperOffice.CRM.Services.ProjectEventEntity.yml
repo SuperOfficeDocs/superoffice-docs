@@ -318,7 +318,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EventDate As Date
+    content.vb: Public Overridable Property EventDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.EventDate*
   modifiers.csharp:
   - public
@@ -384,7 +384,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate*
   modifiers.csharp:
   - public
@@ -681,7 +681,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate*
   modifiers.csharp:
   - public
@@ -846,7 +846,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property PublishFrom As Date
+    content.vb: Public Overridable Property PublishFrom As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom*
   modifiers.csharp:
   - public
@@ -912,7 +912,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property PublishTo As Date
+    content.vb: Public Overridable Property PublishTo As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.PublishTo*
   modifiers.csharp:
   - public
@@ -1160,13 +1160,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ProjectAgent
   commentId: T:SuperOffice.CRM.Services.ProjectAgent
   isExternal: true
@@ -1180,12 +1173,6 @@ references:
   name: IProjectAgent
   nameWithType: IProjectAgent
   fullName: SuperOffice.CRM.Services.IProjectAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.#ctor
   isExternal: true
@@ -1205,6 +1192,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText
   isExternal: true
@@ -1236,8 +1229,6 @@ references:
   nameWithType: ProjectEventEntity.EventDate
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.EventDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

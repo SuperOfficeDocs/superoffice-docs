@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CallerID
+  commentId: T:SuperOffice.CRM.Services.CallerID
+  id: CallerID
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CallerID.#ctor
+  - SuperOffice.CRM.Services.CallerID.ContactId
+  - SuperOffice.CRM.Services.CallerID.ContactName
+  - SuperOffice.CRM.Services.CallerID.DialInPrefix
+  - SuperOffice.CRM.Services.CallerID.Mrmrs
+  - SuperOffice.CRM.Services.CallerID.PersonId
+  - SuperOffice.CRM.Services.CallerID.PersonName
+  - SuperOffice.CRM.Services.CallerID.PhoneNumber
+  - SuperOffice.CRM.Services.CallerID.ToString
+  - SuperOffice.CRM.Services.CallerID.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CallerID
+  nameWithType: CallerID
+  fullName: SuperOffice.CRM.Services.CallerID
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescribes a caller ID for Mobile to lookup phone calls. Can be for a person, or for a company, in which case the personId field will be 0\n<p></p>\nCarrier object for CallerID.\nServices for the CallerID Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPocketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class CallerID : Object'
+    content.vb: >-
+      Public Class CallerID
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PocketAgent
+    commentId: T:SuperOffice.CRM.Services.PocketAgent
+  - linkId: SuperOffice.CRM.Services.IPocketAgent
+    commentId: T:SuperOffice.CRM.Services.IPocketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CallerID.#ctor
+  commentId: M:SuperOffice.CRM.Services.CallerID.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: CallerID()
+  nameWithType: CallerID.CallerID()
+  fullName: SuperOffice.CRM.Services.CallerID.CallerID()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CallerID()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CallerID.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CallerID.ToString
+  commentId: M:SuperOffice.CRM.Services.CallerID.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CallerID.ToString()
+  fullName: SuperOffice.CRM.Services.CallerID.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CallerID.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CallerID.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CallerID.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CallerID.ToString(String)
+  fullName: SuperOffice.CRM.Services.CallerID.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CallerID.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CallerID.PhoneNumber
+  commentId: P:SuperOffice.CRM.Services.CallerID.PhoneNumber
+  id: PhoneNumber
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: CallerID.PhoneNumber
+  fullName: SuperOffice.CRM.Services.CallerID.PhoneNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPhone number, as a long instead of a string, to avoid parsing all the phonenumbers in Mobile CRM \n"
+  syntax:
+    content: public virtual long PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overridable Property PhoneNumber As Long
+  overload: SuperOffice.CRM.Services.CallerID.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CallerID.DialInPrefix
+  commentId: P:SuperOffice.CRM.Services.CallerID.DialInPrefix
+  id: DialInPrefix
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: DialInPrefix
+  nameWithType: CallerID.DialInPrefix
+  fullName: SuperOffice.CRM.Services.CallerID.DialInPrefix
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrefix for dialing into the country from outside (country code), empty if PhoneNumber already contains the country code \n"
+  syntax:
+    content: public virtual short DialInPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property DialInPrefix As Short
+  overload: SuperOffice.CRM.Services.CallerID.DialInPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CallerID.PersonId
+  commentId: P:SuperOffice.CRM.Services.CallerID.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: CallerID.PersonId
+  fullName: SuperOffice.CRM.Services.CallerID.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.CallerID.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CallerID.PersonName
+  commentId: P:SuperOffice.CRM.Services.CallerID.PersonName
+  id: PersonName
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: PersonName
+  nameWithType: CallerID.PersonName
+  fullName: SuperOffice.CRM.Services.CallerID.PersonName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFull name of the person \n"
+  syntax:
+    content: public virtual string PersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonName As String
+  overload: SuperOffice.CRM.Services.CallerID.PersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CallerID.Mrmrs
+  commentId: P:SuperOffice.CRM.Services.CallerID.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: CallerID.Mrmrs
+  fullName: SuperOffice.CRM.Services.CallerID.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ne.g. Mrs   sex_title \n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.CRM.Services.CallerID.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CallerID.ContactId
+  commentId: P:SuperOffice.CRM.Services.CallerID.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: CallerID.ContactId
+  fullName: SuperOffice.CRM.Services.CallerID.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.CallerID.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CallerID.ContactName
+  commentId: P:SuperOffice.CRM.Services.CallerID.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.CallerID
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: CallerID.ContactName
+  fullName: SuperOffice.CRM.Services.CallerID.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact name \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.CallerID.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.PocketAgent
+  commentId: T:SuperOffice.CRM.Services.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.CRM.Services.PocketAgent
+- uid: SuperOffice.CRM.Services.IPocketAgent
+  commentId: T:SuperOffice.CRM.Services.IPocketAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPocketAgent
+  nameWithType: IPocketAgent
+  fullName: SuperOffice.CRM.Services.IPocketAgent
+- uid: SuperOffice.CRM.Services.CallerID.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.#ctor
+  isExternal: true
+  name: CallerID
+  nameWithType: CallerID.CallerID
+  fullName: SuperOffice.CRM.Services.CallerID.CallerID
+- uid: SuperOffice.CRM.Services.CallerID.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CallerID.ToString
+  fullName: SuperOffice.CRM.Services.CallerID.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CallerID.PhoneNumber*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: CallerID.PhoneNumber
+  fullName: SuperOffice.CRM.Services.CallerID.PhoneNumber
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.CRM.Services.CallerID.DialInPrefix*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.DialInPrefix
+  isExternal: true
+  name: DialInPrefix
+  nameWithType: CallerID.DialInPrefix
+  fullName: SuperOffice.CRM.Services.CallerID.DialInPrefix
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.CallerID.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: CallerID.PersonId
+  fullName: SuperOffice.CRM.Services.CallerID.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.CallerID.PersonName*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.PersonName
+  isExternal: true
+  name: PersonName
+  nameWithType: CallerID.PersonName
+  fullName: SuperOffice.CRM.Services.CallerID.PersonName
+- uid: SuperOffice.CRM.Services.CallerID.Mrmrs*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: CallerID.Mrmrs
+  fullName: SuperOffice.CRM.Services.CallerID.Mrmrs
+- uid: SuperOffice.CRM.Services.CallerID.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: CallerID.ContactId
+  fullName: SuperOffice.CRM.Services.CallerID.ContactId
+- uid: SuperOffice.CRM.Services.CallerID.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.CallerID.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: CallerID.ContactName
+  fullName: SuperOffice.CRM.Services.CallerID.ContactName

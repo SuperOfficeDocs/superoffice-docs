@@ -15,7 +15,7 @@ items:
   name: SoGlobalFlush
   nameWithType: SoGlobalFlush
   fullName: SuperOffice.Events.SoGlobalFlush
-  type: Delegate
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -23,17 +23,24 @@ items:
   - SoCore
   namespace: SuperOffice.Events
   syntax:
-    content: public delegate void SoGlobalFlush();
-    content.vb: Public Delegate Sub SoGlobalFlush
+    content: 'public sealed class SoGlobalFlush : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class SoGlobalFlush
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Events.SoGlobalFlush.EnumUtil.MapEnums``2
   - SuperOffice.Events.SoGlobalFlush.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Events.SoGlobalFlush.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Events.SoGlobalFlush.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -162,6 +169,13 @@ references:
   name: SuperOffice.Events
   nameWithType: SuperOffice.Events
   fullName: SuperOffice.Events
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Events.SoGlobalFlush.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -230,6 +244,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -333,13 +353,6 @@ references:
   name: SoGlobalFlush
   nameWithType: SoGlobalFlush.SoGlobalFlush
   fullName: SuperOffice.Events.SoGlobalFlush.SoGlobalFlush
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -347,12 +360,6 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Events.SoGlobalFlush.Invoke*
   commentId: Overload:SuperOffice.Events.SoGlobalFlush.Invoke
   isExternal: true
@@ -366,15 +373,11 @@ references:
   nameWithType: SoGlobalFlush.BeginInvoke
   fullName: SuperOffice.Events.SoGlobalFlush.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

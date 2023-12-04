@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  id: DBC.TargetRevisionFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.AssignmentInfoId
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.LogEvent
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.Registered
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionHistoryId
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionId
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.Updated
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TargetRevisionFields
+  nameWithType: DBC.TargetRevisionFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TargetRevision, One batch of changes made to targets\n"
+  syntax:
+    content: 'public static class TargetRevisionFields : Object'
+    content.vb: >-
+      Public Module TargetRevisionFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionId
+  id: TargetRevisionId
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionId
+  nameWithType: DBC.TargetRevisionFields.TargetRevisionId
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.TargetRevisionId: Primary key\n"
+  syntax:
+    content: public const string TargetRevisionId = "target_revision_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetRevisionId As String = "target_revision_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionHistoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionHistoryId
+  id: TargetRevisionHistoryId
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionHistoryId
+  nameWithType: DBC.TargetRevisionFields.TargetRevisionHistoryId
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.TargetRevisionHistoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.TargetRevisionHistoryId: Info about the target group this history is for\n"
+  syntax:
+    content: public const string TargetRevisionHistoryId = "target_revision_history_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetRevisionHistoryId As String = "target_revision_history_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.AssignmentInfoId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.AssignmentInfoId
+  id: AssignmentInfoId
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: AssignmentInfoId
+  nameWithType: DBC.TargetRevisionFields.AssignmentInfoId
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.AssignmentInfoId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.AssignmentInfoId: The assignment info id - but it may have been deleted\n"
+  syntax:
+    content: public const string AssignmentInfoId = "assignment_info_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssignmentInfoId As String = "assignment_info_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.LogEvent
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.LogEvent
+  id: LogEvent
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: LogEvent
+  nameWithType: DBC.TargetRevisionFields.LogEvent
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.LogEvent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.LogEvent: Log event class (create, edit, delete, lock, unlock...\n"
+  syntax:
+    content: public const string LogEvent = "log_event"
+    return:
+      type: System.String
+    content.vb: Public Const LogEvent As String = "log_event"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TargetRevisionFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TargetRevisionFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TargetRevisionFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TargetRevisionFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TargetRevisionFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -153,7 +153,7 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     return:
       type: System.DateTime
-    content.vb: Function GetDateTime(field As FieldInfo) As Date
+    content.vb: Function GetDateTime(field As FieldInfo) As DateTime
   overload: SuperOffice.Data.ISoDataRecord.GetDateTime*
 - uid: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
@@ -173,7 +173,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: decimal GetDecimal(FieldInfo field)
+    content: Decimal GetDecimal(FieldInfo field)
     parameters:
     - id: field
       type: SuperOffice.Data.SQL.FieldInfo
@@ -818,8 +818,6 @@ references:
   nameWithType: ISoDataRecord.GetDateTime
   fullName: SuperOffice.Data.ISoDataRecord.GetDateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -831,8 +829,6 @@ references:
   nameWithType: ISoDataRecord.GetDecimal
   fullName: SuperOffice.Data.ISoDataRecord.GetDecimal
 - uid: System.Decimal
-  commentId: T:System.Decimal
-  parent: System
   isExternal: true
   name: Decimal
   nameWithType: Decimal
@@ -870,8 +866,6 @@ references:
   nameWithType: ISoDataRecord.GetGuid
   fullName: SuperOffice.Data.ISoDataRecord.GetGuid
 - uid: System.Guid
-  commentId: T:System.Guid
-  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid

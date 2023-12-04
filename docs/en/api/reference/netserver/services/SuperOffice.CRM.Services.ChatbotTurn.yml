@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ChatbotTurn
+  commentId: T:SuperOffice.CRM.Services.ChatbotTurn
+  id: ChatbotTurn
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ChatbotTurn.#ctor
+  - SuperOffice.CRM.Services.ChatbotTurn.Attachments
+  - SuperOffice.CRM.Services.ChatbotTurn.BotActions
+  - SuperOffice.CRM.Services.ChatbotTurn.BotResponse
+  - SuperOffice.CRM.Services.ChatbotTurn.Timestamp
+  - SuperOffice.CRM.Services.ChatbotTurn.ToString
+  - SuperOffice.CRM.Services.ChatbotTurn.ToString(System.String)
+  - SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText
+  - SuperOffice.CRM.Services.ChatbotTurn.UserPrompt
+  langs:
+  - csharp
+  - vb
+  name: ChatbotTurn
+  nameWithType: ChatbotTurn
+  fullName: SuperOffice.CRM.Services.ChatbotTurn
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChat turn contains one user question, an optional display value for the user prompt, and one chatbot response.\n<p></p>\nCarrier object for ChatbotTurn.\nServices for the ChatbotTurn Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAIAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ChatbotTurn : Object'
+    content.vb: >-
+      Public Class ChatbotTurn
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AIAgent
+    commentId: T:SuperOffice.CRM.Services.AIAgent
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ChatbotTurn.#ctor
+  commentId: M:SuperOffice.CRM.Services.ChatbotTurn.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: ChatbotTurn()
+  nameWithType: ChatbotTurn.ChatbotTurn()
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.ChatbotTurn()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ChatbotTurn()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ChatbotTurn.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatbotTurn.ToString
+  commentId: M:SuperOffice.CRM.Services.ChatbotTurn.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ChatbotTurn.ToString()
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ChatbotTurn.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ChatbotTurn.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatbotTurn.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ChatbotTurn.ToString(String)
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ChatbotTurn.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatbotTurn.Timestamp
+  commentId: P:SuperOffice.CRM.Services.ChatbotTurn.Timestamp
+  id: Timestamp
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: ChatbotTurn.Timestamp
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.Timestamp
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUTC timestamp for turn - when response was generated \n"
+  syntax:
+    content: public virtual DateTime Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Timestamp As DateTime
+  overload: SuperOffice.CRM.Services.ChatbotTurn.Timestamp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatbotTurn.UserPrompt
+  commentId: P:SuperOffice.CRM.Services.ChatbotTurn.UserPrompt
+  id: UserPrompt
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: UserPrompt
+  nameWithType: ChatbotTurn.UserPrompt
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.UserPrompt
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nText from the user \n"
+  syntax:
+    content: public virtual string UserPrompt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserPrompt As String
+  overload: SuperOffice.CRM.Services.ChatbotTurn.UserPrompt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText
+  commentId: P:SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText
+  id: UserDisplayText
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: UserDisplayText
+  nameWithType: ChatbotTurn.UserDisplayText
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional display value to use instead of the the UserPrompt \n"
+  syntax:
+    content: public virtual string UserDisplayText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserDisplayText As String
+  overload: SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatbotTurn.BotResponse
+  commentId: P:SuperOffice.CRM.Services.ChatbotTurn.BotResponse
+  id: BotResponse
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: BotResponse
+  nameWithType: ChatbotTurn.BotResponse
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.BotResponse
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nText from the chatbot \n"
+  syntax:
+    content: public virtual string BotResponse { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BotResponse As String
+  overload: SuperOffice.CRM.Services.ChatbotTurn.BotResponse*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatbotTurn.BotActions
+  commentId: P:SuperOffice.CRM.Services.ChatbotTurn.BotActions
+  id: BotActions
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: BotActions
+  nameWithType: ChatbotTurn.BotActions
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.BotActions
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\noptional dictionary of action buttons. Key = Display text, Value = Prompt text \n"
+  syntax:
+    content: public virtual StringDictionary BotActions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property BotActions As StringDictionary
+  overload: SuperOffice.CRM.Services.ChatbotTurn.BotActions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatbotTurn.Attachments
+  commentId: P:SuperOffice.CRM.Services.ChatbotTurn.Attachments
+  id: Attachments
+  parent: SuperOffice.CRM.Services.ChatbotTurn
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: ChatbotTurn.Attachments
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.Attachments
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\noptional array of attachments - can be URL or Base64 encoded data \n"
+  syntax:
+    content: public virtual string[] Attachments { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Attachments As String()
+  overload: SuperOffice.CRM.Services.ChatbotTurn.Attachments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.AIAgent
+  commentId: T:SuperOffice.CRM.Services.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.CRM.Services.AIAgent
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services.ChatbotTurn.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.#ctor
+  isExternal: true
+  name: ChatbotTurn
+  nameWithType: ChatbotTurn.ChatbotTurn
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.ChatbotTurn
+- uid: SuperOffice.CRM.Services.ChatbotTurn.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ChatbotTurn.ToString
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ChatbotTurn.Timestamp*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.Timestamp
+  isExternal: true
+  name: Timestamp
+  nameWithType: ChatbotTurn.Timestamp
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.Timestamp
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.ChatbotTurn.UserPrompt*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.UserPrompt
+  isExternal: true
+  name: UserPrompt
+  nameWithType: ChatbotTurn.UserPrompt
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.UserPrompt
+- uid: SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText
+  isExternal: true
+  name: UserDisplayText
+  nameWithType: ChatbotTurn.UserDisplayText
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.UserDisplayText
+- uid: SuperOffice.CRM.Services.ChatbotTurn.BotResponse*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.BotResponse
+  isExternal: true
+  name: BotResponse
+  nameWithType: ChatbotTurn.BotResponse
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.BotResponse
+- uid: SuperOffice.CRM.Services.ChatbotTurn.BotActions*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.BotActions
+  isExternal: true
+  name: BotActions
+  nameWithType: ChatbotTurn.BotActions
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.BotActions
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.ChatbotTurn.Attachments*
+  commentId: Overload:SuperOffice.CRM.Services.ChatbotTurn.Attachments
+  isExternal: true
+  name: Attachments
+  nameWithType: ChatbotTurn.Attachments
+  fullName: SuperOffice.CRM.Services.ChatbotTurn.Attachments
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -9,14 +9,17 @@ items:
   - SuperOffice.CRM.Lists.AdminUdefFieldsProvider
   - SuperOffice.CRM.Lists.AllPreferenceKeysProvider
   - SuperOffice.CRM.Lists.AnyTableListProviderBase
+  - SuperOffice.CRM.Lists.AppointmentCategoryListProvider
   - SuperOffice.CRM.Lists.AppointmentCautionWarningProvider
   - SuperOffice.CRM.Lists.AppointmentCompleted
   - SuperOffice.CRM.Lists.AppointmentFavouriteListProvider
   - SuperOffice.CRM.Lists.AppointmentGroupProvider
   - SuperOffice.CRM.Lists.AppointmentListProvider
+  - SuperOffice.CRM.Lists.AppointmentResource
   - SuperOffice.CRM.Lists.AppointmentTypeProvider
   - SuperOffice.CRM.Lists.ArchiveColumnsProviderBase
   - SuperOffice.CRM.Lists.ArchiveFilterType
+  - SuperOffice.CRM.Lists.ArchiveProviderList
   - SuperOffice.CRM.Lists.AssociateMDOProvider
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase
   - SuperOffice.CRM.Lists.AssociateMDOProviderType
@@ -28,6 +31,7 @@ items:
   - SuperOffice.CRM.Lists.ChatbotProvider
   - SuperOffice.CRM.Lists.ChatChannelProvider
   - SuperOffice.CRM.Lists.ChatServiceProvider
+  - SuperOffice.CRM.Lists.ChatSessionStatusProvider
   - SuperOffice.CRM.Lists.ChatUserProvider
   - SuperOffice.CRM.Lists.ColorIndexProvider
   - SuperOffice.CRM.Lists.ConsentPurposeProvider
@@ -48,6 +52,7 @@ items:
   - SuperOffice.CRM.Lists.DiaryOwnerMDOProvider
   - SuperOffice.CRM.Lists.DirectionProvider
   - SuperOffice.CRM.Lists.DisconnectPersonActionsProvider
+  - SuperOffice.CRM.Lists.DocumentCategoryListProvider
   - SuperOffice.CRM.Lists.DocumentCompletedProvider
   - SuperOffice.CRM.Lists.DocumentFavouriteListProvider
   - SuperOffice.CRM.Lists.DocumentGroupProvider
@@ -59,8 +64,12 @@ items:
   - SuperOffice.CRM.Lists.EjCategoryProvider
   - SuperOffice.CRM.Lists.EjUserProvider
   - SuperOffice.CRM.Lists.EmailAddressProvider
+  - SuperOffice.CRM.Lists.EmailFlowListProvider
   - SuperOffice.CRM.Lists.EmailFolderProvider
+  - SuperOffice.CRM.Lists.EmailFromTypeProvider
+  - SuperOffice.CRM.Lists.EmailPhoneProvider
   - SuperOffice.CRM.Lists.EMailRecipientProvider
+  - SuperOffice.CRM.Lists.EmailReplyToTypeProvider
   - SuperOffice.CRM.Lists.ErpConnections
   - SuperOffice.CRM.Lists.ErpConnectors
   - SuperOffice.CRM.Lists.EventHandlerTypeProvider
@@ -92,6 +101,7 @@ items:
   - SuperOffice.CRM.Lists.HtmlMailingProvider
   - SuperOffice.CRM.Lists.HtmlMailingTemplateProvider
   - SuperOffice.CRM.Lists.IDynamicMDOProvider
+  - SuperOffice.CRM.Lists.IgnoreGroupingAndHeadingsForAdminMdoProviderBase
   - SuperOffice.CRM.Lists.IMenuListItem
   - SuperOffice.CRM.Lists.ImportBlankActionProvider
   - SuperOffice.CRM.Lists.ImportContactDuplicateMatchProvider
@@ -106,6 +116,7 @@ items:
   - SuperOffice.CRM.Lists.ImportProductDuplicateMatchProvider
   - SuperOffice.CRM.Lists.ImportProductFieldsProvider
   - SuperOffice.CRM.Lists.InterestMDOListItem
+  - SuperOffice.CRM.Lists.InvitationTemplateLanguageProvider
   - SuperOffice.CRM.Lists.ISelectableListItem
   - SuperOffice.CRM.Lists.Iso6391LanguageProvider
   - SuperOffice.CRM.Lists.ISoList
@@ -125,17 +136,18 @@ items:
   - SuperOffice.CRM.Lists.ListTableRow.CustomSearch
   - SuperOffice.CRM.Lists.ListTableRow.IdxName
   - SuperOffice.CRM.Lists.ListTableRow.IdxTableId
-  - SuperOffice.CRM.Lists.ListTableRow.TableRowIdx
   - SuperOffice.CRM.Lists.ListTableRows
   - SuperOffice.CRM.Lists.ListTableRows.CustomSearch
-  - SuperOffice.CRM.Lists.ListTableRows.TableRowsIdx
   - SuperOffice.CRM.Lists.ListWithAllItemProvider
   - SuperOffice.CRM.Lists.ListWithLiteralItemsBase
   - SuperOffice.CRM.Lists.ListWithNoSelectionProvider
   - SuperOffice.CRM.Lists.LiteralsOnlyBase
   - SuperOffice.CRM.Lists.LocationListProvider
+  - SuperOffice.CRM.Lists.MailingDomainsProvider
   - SuperOffice.CRM.Lists.MailingFavouriteListProvider
   - SuperOffice.CRM.Lists.MailingProvider
+  - SuperOffice.CRM.Lists.MailingStatusProvider
+  - SuperOffice.CRM.Lists.MailingSubscriptionTypeProvider
   - SuperOffice.CRM.Lists.MailingTemplateProvider
   - SuperOffice.CRM.Lists.MailingTypeProvider
   - SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
@@ -163,7 +175,6 @@ items:
   - SuperOffice.CRM.Lists.PrefDescLineProvider
   - SuperOffice.CRM.Lists.PreferenceKeyProvider
   - SuperOffice.CRM.Lists.PreferenceLineItemProvider
-  - SuperOffice.CRM.Lists.PreferenceSearchProvider
   - SuperOffice.CRM.Lists.PreferenceSectionProvider
   - SuperOffice.CRM.Lists.PriceListProvider
   - SuperOffice.CRM.Lists.PrivacyTemplateProvider
@@ -191,14 +202,17 @@ items:
   - SuperOffice.CRM.Lists.QuoteVersionStateListProvider
   - SuperOffice.CRM.Lists.RecurrenceEveryMonthProvider
   - SuperOffice.CRM.Lists.RecurrenceWeekCycleProvider
+  - SuperOffice.CRM.Lists.RelatedDataFieldsProvider
   - SuperOffice.CRM.Lists.RelationListProvider
   - SuperOffice.CRM.Lists.RelationListProvider.RelationType
   - SuperOffice.CRM.Lists.RelationsSearchListProvider
+  - SuperOffice.CRM.Lists.ReplyTemplateProvider
   - SuperOffice.CRM.Lists.ReportCategoryProvider
   - SuperOffice.CRM.Lists.ReportLayoutProvider
   - SuperOffice.CRM.Lists.ResourceMDOProvider
   - SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
   - SuperOffice.CRM.Lists.RolesListProvider
+  - SuperOffice.CRM.Lists.SaleCategoryListProvider
   - SuperOffice.CRM.Lists.SaleDoneProvider
   - SuperOffice.CRM.Lists.SaleFavouriteListProvider
   - SuperOffice.CRM.Lists.SaleGuideStage
@@ -213,6 +227,7 @@ items:
   - SuperOffice.CRM.Lists.SatellitesProvider
   - SuperOffice.CRM.Lists.SelectableListHelper
   - SuperOffice.CRM.Lists.SelectableListItem
+  - SuperOffice.CRM.Lists.SelectionCriteriaMemberType
   - SuperOffice.CRM.Lists.SelectionFavouriteListProvider
   - SuperOffice.CRM.Lists.SelectionMemberTypeClean
   - SuperOffice.CRM.Lists.SelectionMemberTypeList
@@ -222,7 +237,10 @@ items:
   - SuperOffice.CRM.Lists.SelectionUnionTypeList
   - SuperOffice.CRM.Lists.SentimentScoreProvider
   - SuperOffice.CRM.Lists.ServiceAssociateMDOProvider
+  - SuperOffice.CRM.Lists.ShipmentAddrStatusProvider
+  - SuperOffice.CRM.Lists.ShipmentLinksListProvider
   - SuperOffice.CRM.Lists.ShipmentTypeProvider
+  - SuperOffice.CRM.Lists.SimpleMailingStatusProvider
   - SuperOffice.CRM.Lists.SmsMailingProvider
   - SuperOffice.CRM.Lists.SmsMailingTemplateProvider
   - SuperOffice.CRM.Lists.SmsPluginPreferenceProvider
@@ -231,21 +249,33 @@ items:
   - SuperOffice.CRM.Lists.SoListItemDeep
   - SuperOffice.CRM.Lists.SoLists
   - SuperOffice.CRM.Lists.SourceListProvider
+  - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
   - SuperOffice.CRM.Lists.StatusDefProvider
   - SuperOffice.CRM.Lists.StatusMonitorImageProvider
   - SuperOffice.CRM.Lists.SuggestedAppointmentProvider
   - SuperOffice.CRM.Lists.SuggestedDocumentProvider
   - SuperOffice.CRM.Lists.SystemEventTypeProvider
+  - SuperOffice.CRM.Lists.TargetEntityTypeProvider
+  - SuperOffice.CRM.Lists.TargetMeasurementUnitProvider
+  - SuperOffice.CRM.Lists.TargetTypeProvider
+  - SuperOffice.CRM.Lists.TargetYearProvider
+  - SuperOffice.CRM.Lists.TaskMenuGroupProvider
   - SuperOffice.CRM.Lists.TaskProvider
+  - SuperOffice.CRM.Lists.TicketAlertProvider
   - SuperOffice.CRM.Lists.TicketFavouriteListProvider
   - SuperOffice.CRM.Lists.TicketListProvider
   - SuperOffice.CRM.Lists.TicketOriginProvider
+  - SuperOffice.CRM.Lists.TicketPriorityEscalateEventsProvider
   - SuperOffice.CRM.Lists.TicketPriorityListProvider
   - SuperOffice.CRM.Lists.TicketReadStatusProvider
   - SuperOffice.CRM.Lists.TicketSLevelProvider
   - SuperOffice.CRM.Lists.TicketStatusProvider
+  - SuperOffice.CRM.Lists.TicketStatusTimeCounterProvider
+  - SuperOffice.CRM.Lists.TicketStatusWithPostponeProvider
   - SuperOffice.CRM.Lists.TicketTicketStatusProvider
+  - SuperOffice.CRM.Lists.TicketTypeProvider
   - SuperOffice.CRM.Lists.TimeListProvider
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider
   - SuperOffice.CRM.Lists.TimeZoneProvider
   - SuperOffice.CRM.Lists.TimeZoneWithCodeProvider
   - SuperOffice.CRM.Lists.TypeGroupProvider
@@ -268,6 +298,14 @@ items:
   - SuperOffice.CRM.Lists.WeekdayProvider
   - SuperOffice.CRM.Lists.WeekNumberProvider
   - SuperOffice.CRM.Lists.WildcardMDOProviderPluginAttribute
+  - SuperOffice.CRM.Lists.WorkflowDefinitionStatusProvider
+  - SuperOffice.CRM.Lists.WorkflowGoalTypeProvider
+  - SuperOffice.CRM.Lists.WorkflowInstanceStatusProvider
+  - SuperOffice.CRM.Lists.WorkflowSplitOptionTypeProvider
+  - SuperOffice.CRM.Lists.WorkflowStepTypeProvider
+  - SuperOffice.CRM.Lists.WorkflowTimeWaitAlgorithmProvider
+  - SuperOffice.CRM.Lists.WorkflowTimeWaitIntervalTypeProvider
+  - SuperOffice.CRM.Lists.WorkflowTriggerTypeProvider
   langs:
   - csharp
   - vb
@@ -390,6 +428,24 @@ references:
   name: AnyTableListProviderBase
   nameWithType: AnyTableListProviderBase
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase
+- uid: SuperOffice.CRM.Lists.AppointmentCategoryListProvider
+  commentId: T:SuperOffice.CRM.Lists.AppointmentCategoryListProvider
+  isExternal: true
+  name: AppointmentCategoryListProvider
+  nameWithType: AppointmentCategoryListProvider
+  fullName: SuperOffice.CRM.Lists.AppointmentCategoryListProvider
+- uid: SuperOffice.CRM.Lists.DocumentCategoryListProvider
+  commentId: T:SuperOffice.CRM.Lists.DocumentCategoryListProvider
+  isExternal: true
+  name: DocumentCategoryListProvider
+  nameWithType: DocumentCategoryListProvider
+  fullName: SuperOffice.CRM.Lists.DocumentCategoryListProvider
+- uid: SuperOffice.CRM.Lists.SaleCategoryListProvider
+  commentId: T:SuperOffice.CRM.Lists.SaleCategoryListProvider
+  isExternal: true
+  name: SaleCategoryListProvider
+  nameWithType: SaleCategoryListProvider
+  fullName: SuperOffice.CRM.Lists.SaleCategoryListProvider
 - uid: SuperOffice.CRM.Lists.AppointmentCautionWarningProvider
   commentId: T:SuperOffice.CRM.Lists.AppointmentCautionWarningProvider
   isExternal: true
@@ -414,12 +470,24 @@ references:
   name: AppointmentListProvider
   nameWithType: AppointmentListProvider
   fullName: SuperOffice.CRM.Lists.AppointmentListProvider
+- uid: SuperOffice.CRM.Lists.AppointmentResource
+  commentId: T:SuperOffice.CRM.Lists.AppointmentResource
+  isExternal: true
+  name: AppointmentResource
+  nameWithType: AppointmentResource
+  fullName: SuperOffice.CRM.Lists.AppointmentResource
 - uid: SuperOffice.CRM.Lists.AppointmentTypeProvider
   commentId: T:SuperOffice.CRM.Lists.AppointmentTypeProvider
   isExternal: true
   name: AppointmentTypeProvider
   nameWithType: AppointmentTypeProvider
   fullName: SuperOffice.CRM.Lists.AppointmentTypeProvider
+- uid: SuperOffice.CRM.Lists.ArchiveProviderList
+  commentId: T:SuperOffice.CRM.Lists.ArchiveProviderList
+  isExternal: true
+  name: ArchiveProviderList
+  nameWithType: ArchiveProviderList
+  fullName: SuperOffice.CRM.Lists.ArchiveProviderList
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderType
   commentId: T:SuperOffice.CRM.Lists.AssociateMDOProviderType
   parent: SuperOffice.CRM.Lists
@@ -538,6 +606,12 @@ references:
   name: ChatServiceProvider
   nameWithType: ChatServiceProvider
   fullName: SuperOffice.CRM.Lists.ChatServiceProvider
+- uid: SuperOffice.CRM.Lists.ChatSessionStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.ChatSessionStatusProvider
+  isExternal: true
+  name: ChatSessionStatusProvider
+  nameWithType: ChatSessionStatusProvider
+  fullName: SuperOffice.CRM.Lists.ChatSessionStatusProvider
 - uid: SuperOffice.CRM.Lists.ChatUserProvider
   commentId: T:SuperOffice.CRM.Lists.ChatUserProvider
   isExternal: true
@@ -678,18 +752,42 @@ references:
   name: EmailAddressProvider
   nameWithType: EmailAddressProvider
   fullName: SuperOffice.CRM.Lists.EmailAddressProvider
+- uid: SuperOffice.CRM.Lists.EmailFlowListProvider
+  commentId: T:SuperOffice.CRM.Lists.EmailFlowListProvider
+  isExternal: true
+  name: EmailFlowListProvider
+  nameWithType: EmailFlowListProvider
+  fullName: SuperOffice.CRM.Lists.EmailFlowListProvider
 - uid: SuperOffice.CRM.Lists.EmailFolderProvider
   commentId: T:SuperOffice.CRM.Lists.EmailFolderProvider
   isExternal: true
   name: EmailFolderProvider
   nameWithType: EmailFolderProvider
   fullName: SuperOffice.CRM.Lists.EmailFolderProvider
+- uid: SuperOffice.CRM.Lists.EmailFromTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.EmailFromTypeProvider
+  isExternal: true
+  name: EmailFromTypeProvider
+  nameWithType: EmailFromTypeProvider
+  fullName: SuperOffice.CRM.Lists.EmailFromTypeProvider
+- uid: SuperOffice.CRM.Lists.EmailPhoneProvider
+  commentId: T:SuperOffice.CRM.Lists.EmailPhoneProvider
+  isExternal: true
+  name: EmailPhoneProvider
+  nameWithType: EmailPhoneProvider
+  fullName: SuperOffice.CRM.Lists.EmailPhoneProvider
 - uid: SuperOffice.CRM.Lists.EMailRecipientProvider
   commentId: T:SuperOffice.CRM.Lists.EMailRecipientProvider
   isExternal: true
   name: EMailRecipientProvider
   nameWithType: EMailRecipientProvider
   fullName: SuperOffice.CRM.Lists.EMailRecipientProvider
+- uid: SuperOffice.CRM.Lists.EmailReplyToTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.EmailReplyToTypeProvider
+  isExternal: true
+  name: EmailReplyToTypeProvider
+  nameWithType: EmailReplyToTypeProvider
+  fullName: SuperOffice.CRM.Lists.EmailReplyToTypeProvider
 - uid: SuperOffice.CRM.Lists.ErpConnections
   commentId: T:SuperOffice.CRM.Lists.ErpConnections
   isExternal: true
@@ -914,6 +1012,13 @@ references:
   name: HeadingsAsItemsProvider
   nameWithType: HeadingsAsItemsProvider
   fullName: SuperOffice.CRM.Lists.HeadingsAsItemsProvider
+- uid: SuperOffice.CRM.Lists.IgnoreGroupingAndHeadingsForAdminMdoProviderBase
+  commentId: T:SuperOffice.CRM.Lists.IgnoreGroupingAndHeadingsForAdminMdoProviderBase
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: IgnoreGroupingAndHeadingsForAdminMdoProviderBase
+  nameWithType: IgnoreGroupingAndHeadingsForAdminMdoProviderBase
+  fullName: SuperOffice.CRM.Lists.IgnoreGroupingAndHeadingsForAdminMdoProviderBase
 - uid: SuperOffice.CRM.Lists.ImportFieldsProvider
   commentId: T:SuperOffice.CRM.Lists.ImportFieldsProvider
   isExternal: true
@@ -986,6 +1091,12 @@ references:
   name: ImportDuplicateActionWithoutAddProvider
   nameWithType: ImportDuplicateActionWithoutAddProvider
   fullName: SuperOffice.CRM.Lists.ImportDuplicateActionWithoutAddProvider
+- uid: SuperOffice.CRM.Lists.InvitationTemplateLanguageProvider
+  commentId: T:SuperOffice.CRM.Lists.InvitationTemplateLanguageProvider
+  isExternal: true
+  name: InvitationTemplateLanguageProvider
+  nameWithType: InvitationTemplateLanguageProvider
+  fullName: SuperOffice.CRM.Lists.InvitationTemplateLanguageProvider
 - uid: SuperOffice.CRM.Lists.Iso6391LanguageProvider
   commentId: T:SuperOffice.CRM.Lists.Iso6391LanguageProvider
   isExternal: true
@@ -1087,13 +1198,6 @@ references:
   name: ListTableRows
   nameWithType: ListTableRows
   fullName: SuperOffice.CRM.Lists.ListTableRows
-- uid: SuperOffice.CRM.Lists.ListTableRows.TableRowsIdx
-  commentId: T:SuperOffice.CRM.Lists.ListTableRows.TableRowsIdx
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  name: ListTableRows.TableRowsIdx
-  nameWithType: ListTableRows.TableRowsIdx
-  fullName: SuperOffice.CRM.Lists.ListTableRows.TableRowsIdx
 - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
   commentId: T:SuperOffice.CRM.Lists.ListTableRows.CustomSearch
   parent: SuperOffice.CRM.Lists
@@ -1108,13 +1212,6 @@ references:
   name: ListTableRow
   nameWithType: ListTableRow
   fullName: SuperOffice.CRM.Lists.ListTableRow
-- uid: SuperOffice.CRM.Lists.ListTableRow.TableRowIdx
-  commentId: T:SuperOffice.CRM.Lists.ListTableRow.TableRowIdx
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  name: ListTableRow.TableRowIdx
-  nameWithType: ListTableRow.TableRowIdx
-  fullName: SuperOffice.CRM.Lists.ListTableRow.TableRowIdx
 - uid: SuperOffice.CRM.Lists.ListTableRow.IdxName
   commentId: T:SuperOffice.CRM.Lists.ListTableRow.IdxName
   isExternal: true
@@ -1165,6 +1262,12 @@ references:
   name: LocationListProvider
   nameWithType: LocationListProvider
   fullName: SuperOffice.CRM.Lists.LocationListProvider
+- uid: SuperOffice.CRM.Lists.MailingDomainsProvider
+  commentId: T:SuperOffice.CRM.Lists.MailingDomainsProvider
+  isExternal: true
+  name: MailingDomainsProvider
+  nameWithType: MailingDomainsProvider
+  fullName: SuperOffice.CRM.Lists.MailingDomainsProvider
 - uid: SuperOffice.CRM.Lists.HtmlMailingProvider
   commentId: T:SuperOffice.CRM.Lists.HtmlMailingProvider
   isExternal: true
@@ -1189,6 +1292,18 @@ references:
   name: MailingProvider
   nameWithType: MailingProvider
   fullName: SuperOffice.CRM.Lists.MailingProvider
+- uid: SuperOffice.CRM.Lists.MailingStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.MailingStatusProvider
+  isExternal: true
+  name: MailingStatusProvider
+  nameWithType: MailingStatusProvider
+  fullName: SuperOffice.CRM.Lists.MailingStatusProvider
+- uid: SuperOffice.CRM.Lists.MailingSubscriptionTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.MailingSubscriptionTypeProvider
+  isExternal: true
+  name: MailingSubscriptionTypeProvider
+  nameWithType: MailingSubscriptionTypeProvider
+  fullName: SuperOffice.CRM.Lists.MailingSubscriptionTypeProvider
 - uid: SuperOffice.CRM.Lists.HtmlMailingTemplateProvider
   commentId: T:SuperOffice.CRM.Lists.HtmlMailingTemplateProvider
   isExternal: true
@@ -1311,12 +1426,6 @@ references:
   name: PreferenceKeyProvider
   nameWithType: PreferenceKeyProvider
   fullName: SuperOffice.CRM.Lists.PreferenceKeyProvider
-- uid: SuperOffice.CRM.Lists.PreferenceSearchProvider
-  commentId: T:SuperOffice.CRM.Lists.PreferenceSearchProvider
-  isExternal: true
-  name: PreferenceSearchProvider
-  nameWithType: PreferenceSearchProvider
-  fullName: SuperOffice.CRM.Lists.PreferenceSearchProvider
 - uid: SuperOffice.CRM.Lists.PreferenceSectionProvider
   commentId: T:SuperOffice.CRM.Lists.PreferenceSectionProvider
   isExternal: true
@@ -1504,6 +1613,12 @@ references:
   name: MonthProvider
   nameWithType: MonthProvider
   fullName: SuperOffice.CRM.Lists.MonthProvider
+- uid: SuperOffice.CRM.Lists.RelatedDataFieldsProvider
+  commentId: T:SuperOffice.CRM.Lists.RelatedDataFieldsProvider
+  isExternal: true
+  name: RelatedDataFieldsProvider
+  nameWithType: RelatedDataFieldsProvider
+  fullName: SuperOffice.CRM.Lists.RelatedDataFieldsProvider
 - uid: SuperOffice.CRM.Lists.RelationListProvider
   commentId: T:SuperOffice.CRM.Lists.RelationListProvider
   isExternal: true
@@ -1523,6 +1638,12 @@ references:
   name: RelationsSearchListProvider
   nameWithType: RelationsSearchListProvider
   fullName: SuperOffice.CRM.Lists.RelationsSearchListProvider
+- uid: SuperOffice.CRM.Lists.ReplyTemplateProvider
+  commentId: T:SuperOffice.CRM.Lists.ReplyTemplateProvider
+  isExternal: true
+  name: ReplyTemplateProvider
+  nameWithType: ReplyTemplateProvider
+  fullName: SuperOffice.CRM.Lists.ReplyTemplateProvider
 - uid: SuperOffice.CRM.Lists.ReportCategoryProvider
   commentId: T:SuperOffice.CRM.Lists.ReportCategoryProvider
   isExternal: true
@@ -1626,6 +1747,12 @@ references:
   name: SelectionMemberTypeClean
   nameWithType: SelectionMemberTypeClean
   fullName: SuperOffice.CRM.Lists.SelectionMemberTypeClean
+- uid: SuperOffice.CRM.Lists.SelectionCriteriaMemberType
+  commentId: T:SuperOffice.CRM.Lists.SelectionCriteriaMemberType
+  isExternal: true
+  name: SelectionCriteriaMemberType
+  nameWithType: SelectionCriteriaMemberType
+  fullName: SuperOffice.CRM.Lists.SelectionCriteriaMemberType
 - uid: SuperOffice.CRM.Lists.DashboardEntityList
   commentId: T:SuperOffice.CRM.Lists.DashboardEntityList
   isExternal: true
@@ -1656,12 +1783,30 @@ references:
   name: SentimentScoreProvider
   nameWithType: SentimentScoreProvider
   fullName: SuperOffice.CRM.Lists.SentimentScoreProvider
+- uid: SuperOffice.CRM.Lists.ShipmentAddrStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.ShipmentAddrStatusProvider
+  isExternal: true
+  name: ShipmentAddrStatusProvider
+  nameWithType: ShipmentAddrStatusProvider
+  fullName: SuperOffice.CRM.Lists.ShipmentAddrStatusProvider
+- uid: SuperOffice.CRM.Lists.ShipmentLinksListProvider
+  commentId: T:SuperOffice.CRM.Lists.ShipmentLinksListProvider
+  isExternal: true
+  name: ShipmentLinksListProvider
+  nameWithType: ShipmentLinksListProvider
+  fullName: SuperOffice.CRM.Lists.ShipmentLinksListProvider
 - uid: SuperOffice.CRM.Lists.ShipmentTypeProvider
   commentId: T:SuperOffice.CRM.Lists.ShipmentTypeProvider
   isExternal: true
   name: ShipmentTypeProvider
   nameWithType: ShipmentTypeProvider
   fullName: SuperOffice.CRM.Lists.ShipmentTypeProvider
+- uid: SuperOffice.CRM.Lists.SimpleMailingStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.SimpleMailingStatusProvider
+  isExternal: true
+  name: SimpleMailingStatusProvider
+  nameWithType: SimpleMailingStatusProvider
+  fullName: SuperOffice.CRM.Lists.SimpleMailingStatusProvider
 - uid: SuperOffice.CRM.Lists.SoListHeading
   commentId: T:SuperOffice.CRM.Lists.SoListHeading
   parent: SuperOffice.CRM.Lists
@@ -1681,6 +1826,12 @@ references:
   name: SourceListProvider
   nameWithType: SourceListProvider
   fullName: SuperOffice.CRM.Lists.SourceListProvider
+- uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
+  commentId: T:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
+  isExternal: true
+  name: SpecifiedMailingsListProvider
+  nameWithType: SpecifiedMailingsListProvider
+  fullName: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
 - uid: SuperOffice.CRM.Lists.StatusDefProvider
   commentId: T:SuperOffice.CRM.Lists.StatusDefProvider
   isExternal: true
@@ -1711,12 +1862,48 @@ references:
   name: SystemEventTypeProvider
   nameWithType: SystemEventTypeProvider
   fullName: SuperOffice.CRM.Lists.SystemEventTypeProvider
+- uid: SuperOffice.CRM.Lists.TargetEntityTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.TargetEntityTypeProvider
+  isExternal: true
+  name: TargetEntityTypeProvider
+  nameWithType: TargetEntityTypeProvider
+  fullName: SuperOffice.CRM.Lists.TargetEntityTypeProvider
+- uid: SuperOffice.CRM.Lists.TargetMeasurementUnitProvider
+  commentId: T:SuperOffice.CRM.Lists.TargetMeasurementUnitProvider
+  isExternal: true
+  name: TargetMeasurementUnitProvider
+  nameWithType: TargetMeasurementUnitProvider
+  fullName: SuperOffice.CRM.Lists.TargetMeasurementUnitProvider
+- uid: SuperOffice.CRM.Lists.TargetTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.TargetTypeProvider
+  isExternal: true
+  name: TargetTypeProvider
+  nameWithType: TargetTypeProvider
+  fullName: SuperOffice.CRM.Lists.TargetTypeProvider
+- uid: SuperOffice.CRM.Lists.TargetYearProvider
+  commentId: T:SuperOffice.CRM.Lists.TargetYearProvider
+  isExternal: true
+  name: TargetYearProvider
+  nameWithType: TargetYearProvider
+  fullName: SuperOffice.CRM.Lists.TargetYearProvider
+- uid: SuperOffice.CRM.Lists.TaskMenuGroupProvider
+  commentId: T:SuperOffice.CRM.Lists.TaskMenuGroupProvider
+  isExternal: true
+  name: TaskMenuGroupProvider
+  nameWithType: TaskMenuGroupProvider
+  fullName: SuperOffice.CRM.Lists.TaskMenuGroupProvider
 - uid: SuperOffice.CRM.Lists.TaskProvider
   commentId: T:SuperOffice.CRM.Lists.TaskProvider
   isExternal: true
   name: TaskProvider
   nameWithType: TaskProvider
   fullName: SuperOffice.CRM.Lists.TaskProvider
+- uid: SuperOffice.CRM.Lists.TicketAlertProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketAlertProvider
+  isExternal: true
+  name: TicketAlertProvider
+  nameWithType: TicketAlertProvider
+  fullName: SuperOffice.CRM.Lists.TicketAlertProvider
 - uid: SuperOffice.CRM.Lists.TicketListProvider
   commentId: T:SuperOffice.CRM.Lists.TicketListProvider
   isExternal: true
@@ -1729,6 +1916,12 @@ references:
   name: TicketOriginProvider
   nameWithType: TicketOriginProvider
   fullName: SuperOffice.CRM.Lists.TicketOriginProvider
+- uid: SuperOffice.CRM.Lists.TicketPriorityEscalateEventsProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketPriorityEscalateEventsProvider
+  isExternal: true
+  name: TicketPriorityEscalateEventsProvider
+  nameWithType: TicketPriorityEscalateEventsProvider
+  fullName: SuperOffice.CRM.Lists.TicketPriorityEscalateEventsProvider
 - uid: SuperOffice.CRM.Lists.TicketPriorityListProvider
   commentId: T:SuperOffice.CRM.Lists.TicketPriorityListProvider
   isExternal: true
@@ -1753,12 +1946,31 @@ references:
   name: TicketStatusProvider
   nameWithType: TicketStatusProvider
   fullName: SuperOffice.CRM.Lists.TicketStatusProvider
+- uid: SuperOffice.CRM.Lists.TicketStatusTimeCounterProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketStatusTimeCounterProvider
+  isExternal: true
+  name: TicketStatusTimeCounterProvider
+  nameWithType: TicketStatusTimeCounterProvider
+  fullName: SuperOffice.CRM.Lists.TicketStatusTimeCounterProvider
+- uid: SuperOffice.CRM.Lists.TicketStatusWithPostponeProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketStatusWithPostponeProvider
+  isExternal: true
+  name: TicketStatusWithPostponeProvider
+  nameWithType: TicketStatusWithPostponeProvider
+  fullName: SuperOffice.CRM.Lists.TicketStatusWithPostponeProvider
 - uid: SuperOffice.CRM.Lists.TicketTicketStatusProvider
   commentId: T:SuperOffice.CRM.Lists.TicketTicketStatusProvider
+  parent: SuperOffice.CRM.Lists
   isExternal: true
   name: TicketTicketStatusProvider
   nameWithType: TicketTicketStatusProvider
   fullName: SuperOffice.CRM.Lists.TicketTicketStatusProvider
+- uid: SuperOffice.CRM.Lists.TicketTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketTypeProvider
+  isExternal: true
+  name: TicketTypeProvider
+  nameWithType: TicketTypeProvider
+  fullName: SuperOffice.CRM.Lists.TicketTypeProvider
 - uid: SuperOffice.CRM.Lists.TimeListProvider
   commentId: T:SuperOffice.CRM.Lists.TimeListProvider
   isExternal: true
@@ -1778,6 +1990,12 @@ references:
   name: TimeZoneWithCodeProvider
   nameWithType: TimeZoneWithCodeProvider
   fullName: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  commentId: T:SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  isExternal: true
+  name: TimeZoneIANAProvider
+  nameWithType: TimeZoneIANAProvider
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider
 - uid: SuperOffice.CRM.Lists.TypeGroupProvider
   commentId: T:SuperOffice.CRM.Lists.TypeGroupProvider
   isExternal: true
@@ -1881,6 +2099,54 @@ references:
   name: WebPanelProvider
   nameWithType: WebPanelProvider
   fullName: SuperOffice.CRM.Lists.WebPanelProvider
+- uid: SuperOffice.CRM.Lists.WorkflowDefinitionStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowDefinitionStatusProvider
+  isExternal: true
+  name: WorkflowDefinitionStatusProvider
+  nameWithType: WorkflowDefinitionStatusProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowDefinitionStatusProvider
+- uid: SuperOffice.CRM.Lists.WorkflowGoalTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowGoalTypeProvider
+  isExternal: true
+  name: WorkflowGoalTypeProvider
+  nameWithType: WorkflowGoalTypeProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowGoalTypeProvider
+- uid: SuperOffice.CRM.Lists.WorkflowInstanceStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowInstanceStatusProvider
+  isExternal: true
+  name: WorkflowInstanceStatusProvider
+  nameWithType: WorkflowInstanceStatusProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowInstanceStatusProvider
+- uid: SuperOffice.CRM.Lists.WorkflowSplitOptionTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowSplitOptionTypeProvider
+  isExternal: true
+  name: WorkflowSplitOptionTypeProvider
+  nameWithType: WorkflowSplitOptionTypeProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowSplitOptionTypeProvider
+- uid: SuperOffice.CRM.Lists.WorkflowStepTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowStepTypeProvider
+  isExternal: true
+  name: WorkflowStepTypeProvider
+  nameWithType: WorkflowStepTypeProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowStepTypeProvider
+- uid: SuperOffice.CRM.Lists.WorkflowTimeWaitAlgorithmProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowTimeWaitAlgorithmProvider
+  isExternal: true
+  name: WorkflowTimeWaitAlgorithmProvider
+  nameWithType: WorkflowTimeWaitAlgorithmProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowTimeWaitAlgorithmProvider
+- uid: SuperOffice.CRM.Lists.WorkflowTimeWaitIntervalTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowTimeWaitIntervalTypeProvider
+  isExternal: true
+  name: WorkflowTimeWaitIntervalTypeProvider
+  nameWithType: WorkflowTimeWaitIntervalTypeProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowTimeWaitIntervalTypeProvider
+- uid: SuperOffice.CRM.Lists.WorkflowTriggerTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.WorkflowTriggerTypeProvider
+  isExternal: true
+  name: WorkflowTriggerTypeProvider
+  nameWithType: WorkflowTriggerTypeProvider
+  fullName: SuperOffice.CRM.Lists.WorkflowTriggerTypeProvider
 - uid: SuperOffice.CRM.Lists.ArchiveFilterType
   commentId: T:SuperOffice.CRM.Lists.ArchiveFilterType
   parent: SuperOffice.CRM.Lists

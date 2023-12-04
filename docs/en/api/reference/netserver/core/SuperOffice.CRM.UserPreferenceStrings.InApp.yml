@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.InApp
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.InApp
+  id: UserPreferenceStrings.InApp
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.InApp.ComResourceCentre
+  - SuperOffice.CRM.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  - SuperOffice.CRM.UserPreferenceStrings.InApp.HelpTipsLearning
+  - SuperOffice.CRM.UserPreferenceStrings.InApp.Section
+  - SuperOffice.CRM.UserPreferenceStrings.InApp.SurveysFeedback
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.InApp
+  nameWithType: UserPreferenceStrings.InApp
+  fullName: SuperOffice.CRM.UserPreferenceStrings.InApp
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nIn-App\n"
+  syntax:
+    content: 'public static class InApp : Object'
+    content.vb: >-
+      Public Module InApp
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.InApp.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.InApp.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.InApp.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.InApp.Section
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "InApp"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "InApp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.InApp.ComResourceCentre
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.InApp.ComResourceCentre
+  id: ComResourceCentre
+  parent: SuperOffice.CRM.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: ComResourceCentre
+  nameWithType: UserPreferenceStrings.InApp.ComResourceCentre
+  fullName: SuperOffice.CRM.UserPreferenceStrings.InApp.ComResourceCentre
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string ComResourceCentre = "ComResourceCentre"
+    return:
+      type: System.String
+    content.vb: Public Const ComResourceCentre As String = "ComResourceCentre"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.InApp.SurveysFeedback
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.InApp.SurveysFeedback
+  id: SurveysFeedback
+  parent: SuperOffice.CRM.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: SurveysFeedback
+  nameWithType: UserPreferenceStrings.InApp.SurveysFeedback
+  fullName: SuperOffice.CRM.UserPreferenceStrings.InApp.SurveysFeedback
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string SurveysFeedback = "SurveysFeedback"
+    return:
+      type: System.String
+    content.vb: Public Const SurveysFeedback As String = "SurveysFeedback"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  id: FeatureUpdatesNews
+  parent: SuperOffice.CRM.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: FeatureUpdatesNews
+  nameWithType: UserPreferenceStrings.InApp.FeatureUpdatesNews
+  fullName: SuperOffice.CRM.UserPreferenceStrings.InApp.FeatureUpdatesNews
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string FeatureUpdatesNews = "FeatureUpdatesNews"
+    return:
+      type: System.String
+    content.vb: Public Const FeatureUpdatesNews As String = "FeatureUpdatesNews"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.InApp.HelpTipsLearning
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.InApp.HelpTipsLearning
+  id: HelpTipsLearning
+  parent: SuperOffice.CRM.UserPreferenceStrings.InApp
+  langs:
+  - csharp
+  - vb
+  name: HelpTipsLearning
+  nameWithType: UserPreferenceStrings.InApp.HelpTipsLearning
+  fullName: SuperOffice.CRM.UserPreferenceStrings.InApp.HelpTipsLearning
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string HelpTipsLearning = "HelpTipsLearning"
+    return:
+      type: System.String
+    content.vb: Public Const HelpTipsLearning As String = "HelpTipsLearning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

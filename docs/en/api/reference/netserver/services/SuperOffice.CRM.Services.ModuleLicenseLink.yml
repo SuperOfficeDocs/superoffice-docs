@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Services.ModuleLicenseLink.Assigned
   - SuperOffice.CRM.Services.ModuleLicenseLink.CanAssign
   - SuperOffice.CRM.Services.ModuleLicenseLink.Description
+  - SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags
   - SuperOffice.CRM.Services.ModuleLicenseLink.Free
   - SuperOffice.CRM.Services.ModuleLicenseLink.InUse
   - SuperOffice.CRM.Services.ModuleLicenseLink.IsHidden
@@ -34,7 +35,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCarrier object for ModuleLicenseLink.\nServices for the ModuleLicenseLink Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ILicenseAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nLicense assignments carrier\n<p></p>\nCarrier object for ModuleLicenseLink.\nServices for the ModuleLicenseLink Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ILicenseAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: 'public class ModuleLicenseLink : Carrier'
     content.vb: >-
@@ -392,7 +393,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nIs the module license assigned to a given user \n"
+  summary: "\nIs the module license assigned to a given user? \n"
   syntax:
     content: public virtual bool Assigned { get; set; }
     parameters: []
@@ -524,7 +525,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: "\nName of module that must be active for this license to be used. \n"
   syntax:
     content: public virtual string PrerequisiteModuleName { get; set; }
     parameters: []
@@ -557,7 +558,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\n\n"
+  summary: "\nSort order of licenses. \n"
   syntax:
     content: public virtual int SortOrder { get; set; }
     parameters: []
@@ -573,6 +574,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags
+  commentId: P:SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags
+  id: ExtraFlags
+  parent: SuperOffice.CRM.Services.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: ExtraFlags
+  nameWithType: ModuleLicenseLink.ExtraFlags
+  fullName: SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLicense flags. 1 = user plan \n"
+  syntax:
+    content: public virtual int ExtraFlags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtraFlags As Integer
+  overload: SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -580,13 +614,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.LicenseAgent
   commentId: T:SuperOffice.CRM.Services.LicenseAgent
   isExternal: true
@@ -600,12 +627,6 @@ references:
   name: ILicenseAgent
   nameWithType: ILicenseAgent
   fullName: SuperOffice.CRM.Services.ILicenseAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ModuleLicenseLink.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ModuleLicenseLink.#ctor
   isExternal: true
@@ -625,6 +646,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ModuleLicenseLink.Unrestricted*
   commentId: Overload:SuperOffice.CRM.Services.ModuleLicenseLink.Unrestricted
   isExternal: true
@@ -717,3 +744,9 @@ references:
   name: SortOrder
   nameWithType: ModuleLicenseLink.SortOrder
   fullName: SuperOffice.CRM.Services.ModuleLicenseLink.SortOrder
+- uid: SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags*
+  commentId: Overload:SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags
+  isExternal: true
+  name: ExtraFlags
+  nameWithType: ModuleLicenseLink.ExtraFlags
+  fullName: SuperOffice.CRM.Services.ModuleLicenseLink.ExtraFlags

@@ -24,7 +24,7 @@ items:
   - SuperOffice.CRM.Globalization.AddressFormat.NameBeforeDepartment
   - SuperOffice.CRM.Globalization.AddressFormat.PersonFirst
   - SuperOffice.CRM.Globalization.AddressFormat.PersonLastNameFirst
-  - SuperOffice.CRM.Globalization.AddressFormat.Row
+  - SuperOffice.CRM.Globalization.AddressFormat.Record
   - SuperOffice.CRM.Globalization.AddressFormat.SeparateNameAndDepartment
   - SuperOffice.CRM.Globalization.AddressFormat.SeparateTitle
   - SuperOffice.CRM.Globalization.AddressFormat.State
@@ -46,18 +46,13 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nClass that interprets the AddressFormat table\n"
   syntax:
-    content: public sealed class AddressFormat
-    content.vb: Public NotInheritable Class AddressFormat
+    content: 'public sealed class AddressFormat : Object'
+    content.vb: >-
+      Public NotInheritable Class AddressFormat
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Globalization.AddressFormat.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Globalization.AddressFormat.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -69,16 +64,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: SuperOffice.CRM.Globalization.AddressFormat.Row
-  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Row
-  id: Row
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Record
+  commentId: P:SuperOffice.CRM.Globalization.AddressFormat.Record
+  id: Record
   parent: SuperOffice.CRM.Globalization.AddressFormat
   langs:
   - csharp
   - vb
-  name: Row
-  nameWithType: AddressFormat.Row
-  fullName: SuperOffice.CRM.Globalization.AddressFormat.Row
+  name: Record
+  nameWithType: AddressFormat.Record
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Record
   type: Property
   source:
     path: SoDataBase
@@ -86,14 +81,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nThe underlying <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: "\nThe underlying <xref href=\"SuperOffice.CRM.Rows.AddressFormatRecordData\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: public AddressFormatRow Row { get; }
+    content: public AddressFormatRecordData Record { get; }
     parameters: []
     return:
-      type: SuperOffice.CRM.Rows.AddressFormatRow
-    content.vb: Public ReadOnly Property Row As AddressFormatRow
-  overload: SuperOffice.CRM.Globalization.AddressFormat.Row*
+      type: SuperOffice.CRM.Rows.AddressFormatRecordData
+    content.vb: Public ReadOnly Property Record As AddressFormatRecordData
+  overload: SuperOffice.CRM.Globalization.AddressFormat.Record*
   modifiers.csharp:
   - public
   - get
@@ -179,7 +174,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nCorresponds to Layout id&apos;s on <xref href=\"SuperOffice.CRM.Rows.CountryRow\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nCorresponds to Layout id&apos;s on <xref href=\"SuperOffice.CRM.Rows.CountryRow\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public int LayoutId { get; }
     parameters: []
@@ -241,7 +236,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address1\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address1\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public AddressElementFormat Address1 { get; }
     parameters: []
@@ -272,7 +267,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address2\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address2\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public AddressElementFormat Address2 { get; }
     parameters: []
@@ -303,7 +298,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address3\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.Address3\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public AddressElementFormat Address3 { get; }
     parameters: []
@@ -334,7 +329,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.City\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.City\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public AddressElementFormat City { get; }
     parameters: []
@@ -365,7 +360,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.County\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.County\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public AddressElementFormat County { get; }
     parameters: []
@@ -396,7 +391,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.State\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nformatting details for <xref href=\"SuperOffice.CRM.Rows.AddressRow.State\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public AddressElementFormat State { get; }
     parameters: []
@@ -427,7 +422,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nformatting details for <see cref=\"!:AddressRow.Zip\"></see>.\n"
+  summary: "\nformatting details for <see cref=\"!:AddressRow.Zip\"></see>\n"
   syntax:
     content: public AddressElementFormat Zip { get; }
     parameters: []
@@ -889,285 +884,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Globalization.AddressFormat.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1339,19 +1055,19 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Globalization.AddressFormat.Row*
-  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Row
+- uid: SuperOffice.CRM.Globalization.AddressFormat.Record*
+  commentId: Overload:SuperOffice.CRM.Globalization.AddressFormat.Record
   isExternal: true
-  name: Row
-  nameWithType: AddressFormat.Row
-  fullName: SuperOffice.CRM.Globalization.AddressFormat.Row
-- uid: SuperOffice.CRM.Rows.AddressFormatRow
-  commentId: T:SuperOffice.CRM.Rows.AddressFormatRow
+  name: Record
+  nameWithType: AddressFormat.Record
+  fullName: SuperOffice.CRM.Globalization.AddressFormat.Record
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData
+  commentId: T:SuperOffice.CRM.Rows.AddressFormatRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  name: AddressFormatRow
-  nameWithType: AddressFormatRow
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow
+  name: AddressFormatRecordData
+  nameWithType: AddressFormatRecordData
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true

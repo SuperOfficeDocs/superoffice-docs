@@ -24,6 +24,7 @@ items:
     content: 'public interface ILoggerProviderPlugin : IPlugin'
     content.vb: >-
       Public Interface ILoggerProviderPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin.EnumUtil.MapEnums``2

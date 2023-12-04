@@ -232,7 +232,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenSubmitted As Date
+    content.vb: Public Overridable Property WhenSubmitted As DateTime
   overload: SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted*
   modifiers.csharp:
   - public
@@ -480,13 +480,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.MarketingAgent
   commentId: T:SuperOffice.CRM.Services.MarketingAgent
   isExternal: true
@@ -500,12 +493,6 @@ references:
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.CRM.Services.IMarketingAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.#ctor
   isExternal: true
@@ -525,6 +512,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId*
   commentId: Overload:SuperOffice.CRM.Services.FormSubmissionEntity.FormSubmissionId
   isExternal: true
@@ -551,8 +544,6 @@ references:
   nameWithType: FormSubmissionEntity.WhenSubmitted
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.WhenSubmitted
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -594,7 +585,6 @@ references:
   nameWithType: FormSubmissionEntity.Status
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity.Status
 - uid: SuperOffice.Data.FormSubmissionStatus
-  commentId: '!:SuperOffice.Data.FormSubmissionStatus'
   isExternal: true
   name: FormSubmissionStatus
   nameWithType: FormSubmissionStatus

@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TemporaryConfigOverride
+  commentId: T:SuperOffice.Util.TemporaryConfigOverride
+  id: TemporaryConfigOverride
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TemporaryConfigOverride.#ctor(System.String,System.String,System.String)
+  - SuperOffice.Util.TemporaryConfigOverride.Dispose
+  langs:
+  - csharp
+  - vb
+  name: TemporaryConfigOverride
+  nameWithType: TemporaryConfigOverride
+  fullName: SuperOffice.Util.TemporaryConfigOverride
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nForce a temporary value for a ConfigFile parameter, and cleanup on exit\n"
+  remarks: "\n<seealso cref=\"!:TemporaryFunctionRight\"></seealso>\n<xref href=\"SuperOffice.Util.TemporaryFeatureToggle\" data-throw-if-not-resolved=\"false\"></xref>\n<seealso cref=\"!:TemporaryModuleLicense\"></seealso>\n"
+  syntax:
+    content: 'public class TemporaryConfigOverride : Object, IDisposable'
+    content.vb: >-
+      Public Class TemporaryConfigOverride
+
+          Inherits Object
+
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  extensionMethods:
+  - SuperOffice.Util.TemporaryConfigOverride.EnumUtil.MapEnums``2
+  - SuperOffice.Util.TemporaryConfigOverride.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.TemporaryConfigOverride.#ctor(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.TemporaryConfigOverride.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: SuperOffice.Util.TemporaryConfigOverride
+  langs:
+  - csharp
+  - vb
+  name: TemporaryConfigOverride(String, String, String)
+  nameWithType: TemporaryConfigOverride.TemporaryConfigOverride(String, String, String)
+  fullName: SuperOffice.Util.TemporaryConfigOverride.TemporaryConfigOverride(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public TemporaryConfigOverride(string path, string name, string value)
+    parameters:
+    - id: path
+      type: System.String
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(path As String, name As String, value As String)
+  overload: SuperOffice.Util.TemporaryConfigOverride.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.TemporaryConfigOverride.Dispose
+  commentId: M:SuperOffice.Util.TemporaryConfigOverride.Dispose
+  id: Dispose
+  parent: SuperOffice.Util.TemporaryConfigOverride
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: TemporaryConfigOverride.Dispose()
+  fullName: SuperOffice.Util.TemporaryConfigOverride.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Util.TemporaryConfigOverride.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Util.TemporaryConfigOverride.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TemporaryConfigOverride, To>()
+  nameWithType: EnumUtil.MapEnums<TemporaryConfigOverride, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryConfigOverride, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryConfigOverride, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryConfigOverride, To)()
+  name.vb: MapEnums(Of TemporaryConfigOverride, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TemporaryConfigOverride, To>
+    nameWithType: EnumUtil.MapEnums<TemporaryConfigOverride, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryConfigOverride, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TemporaryConfigOverride, To)
+    nameWithType: EnumUtil.MapEnums(Of TemporaryConfigOverride, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryConfigOverride, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TemporaryConfigOverride.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TemporaryConfigOverride, To>()
+  nameWithType: Converters.MapEnums<TemporaryConfigOverride, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryConfigOverride, To>()
+  nameWithType.vb: Converters.MapEnums(Of TemporaryConfigOverride, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryConfigOverride, To)()
+  name.vb: MapEnums(Of TemporaryConfigOverride, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TemporaryConfigOverride, To>
+    nameWithType: Converters.MapEnums<TemporaryConfigOverride, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryConfigOverride, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TemporaryConfigOverride, To)
+    nameWithType: Converters.MapEnums(Of TemporaryConfigOverride, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryConfigOverride, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.TemporaryConfigOverride.#ctor*
+  commentId: Overload:SuperOffice.Util.TemporaryConfigOverride.#ctor
+  isExternal: true
+  name: TemporaryConfigOverride
+  nameWithType: TemporaryConfigOverride.TemporaryConfigOverride
+  fullName: SuperOffice.Util.TemporaryConfigOverride.TemporaryConfigOverride
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.TemporaryConfigOverride.Dispose*
+  commentId: Overload:SuperOffice.Util.TemporaryConfigOverride.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: TemporaryConfigOverride.Dispose
+  fullName: SuperOffice.Util.TemporaryConfigOverride.Dispose

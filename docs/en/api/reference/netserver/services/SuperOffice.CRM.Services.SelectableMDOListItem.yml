@@ -576,7 +576,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastChanged As Date
+    content.vb: Public Overridable Property LastChanged As DateTime
   overload: SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged*
   modifiers.csharp:
   - public
@@ -758,13 +758,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.MDOAgent
   commentId: T:SuperOffice.CRM.Services.MDOAgent
   isExternal: true
@@ -778,12 +771,6 @@ references:
   name: IMDOAgent
   nameWithType: IMDOAgent
   fullName: SuperOffice.CRM.Services.IMDOAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList*
   commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList
   isExternal: true
@@ -824,8 +811,7 @@ references:
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<SelectableMDOListItem>
   nameWithType: IEnumerable<SelectableMDOListItem>
@@ -867,15 +853,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -885,9 +876,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -900,21 +891,14 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
-  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}'
   definition: System.Collections.Generic.ICollection`1
   name: ICollection<SelectableMDOListItem>
   nameWithType: ICollection<SelectableMDOListItem>
@@ -957,14 +941,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
   isExternal: true
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
   spec.csharp:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
@@ -974,9 +957,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -989,9 +972,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -1082,8 +1065,6 @@ references:
   nameWithType: SelectableMDOListItem.LastChanged
   fullName: SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

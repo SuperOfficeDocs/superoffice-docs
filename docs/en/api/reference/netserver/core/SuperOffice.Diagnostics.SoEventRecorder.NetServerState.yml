@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  commentId: T:SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  id: SoEventRecorder.NetServerState
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitialized
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitializing
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoad
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoaded
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInit
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInitiated
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationCompleted
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationStarted
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParsedLoadedAssemblies
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadCompleted
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadStarted
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitialized
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitializing
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.Unititialized
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.UserAuthenticated
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.value__
+  langs:
+  - csharp
+  - vb
+  name: SoEventRecorder.NetServerState
+  nameWithType: SoEventRecorder.NetServerState
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nStates in NetServer start-up\n"
+  syntax:
+    content: 'public sealed class NetServerState : Enum'
+    content.vb: >-
+      Public NotInheritable Class NetServerState
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.value__
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.value__
+  id: value__
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SoEventRecorder.NetServerState.value__
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.Unititialized
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.Unititialized
+  id: Unititialized
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: Unititialized
+  nameWithType: SoEventRecorder.NetServerState.Unititialized
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.Unititialized
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState Unititialized
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const Unititialized As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitializing
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitializing
+  id: ClassFactoryInitializing
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: ClassFactoryInitializing
+  nameWithType: SoEventRecorder.NetServerState.ClassFactoryInitializing
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitializing
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState ClassFactoryInitializing
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const ClassFactoryInitializing As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationStarted
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationStarted
+  id: ParseConfigurationStarted
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: ParseConfigurationStarted
+  nameWithType: SoEventRecorder.NetServerState.ParseConfigurationStarted
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationStarted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState ParseConfigurationStarted
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const ParseConfigurationStarted As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParsedLoadedAssemblies
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParsedLoadedAssemblies
+  id: ParsedLoadedAssemblies
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: ParsedLoadedAssemblies
+  nameWithType: SoEventRecorder.NetServerState.ParsedLoadedAssemblies
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParsedLoadedAssemblies
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState ParsedLoadedAssemblies
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const ParsedLoadedAssemblies As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitializing
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitializing
+  id: SoContextInitializing
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: SoContextInitializing
+  nameWithType: SoEventRecorder.NetServerState.SoContextInitializing
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitializing
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState SoContextInitializing
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const SoContextInitializing As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitialized
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitialized
+  id: SoContextInitialized
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: SoContextInitialized
+  nameWithType: SoEventRecorder.NetServerState.SoContextInitialized
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SoContextInitialized
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState SoContextInitialized
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const SoContextInitialized As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadStarted
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadStarted
+  id: ParseDynamicLoadStarted
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: ParseDynamicLoadStarted
+  nameWithType: SoEventRecorder.NetServerState.ParseDynamicLoadStarted
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadStarted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState ParseDynamicLoadStarted
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const ParseDynamicLoadStarted As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadCompleted
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadCompleted
+  id: ParseDynamicLoadCompleted
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: ParseDynamicLoadCompleted
+  nameWithType: SoEventRecorder.NetServerState.ParseDynamicLoadCompleted
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseDynamicLoadCompleted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState ParseDynamicLoadCompleted
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const ParseDynamicLoadCompleted As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationCompleted
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationCompleted
+  id: ParseConfigurationCompleted
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: ParseConfigurationCompleted
+  nameWithType: SoEventRecorder.NetServerState.ParseConfigurationCompleted
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ParseConfigurationCompleted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState ParseConfigurationCompleted
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const ParseConfigurationCompleted As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitialized
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitialized
+  id: ClassFactoryInitialized
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: ClassFactoryInitialized
+  nameWithType: SoEventRecorder.NetServerState.ClassFactoryInitialized
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.ClassFactoryInitialized
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState ClassFactoryInitialized
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const ClassFactoryInitialized As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInit
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInit
+  id: DatabaseInit
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: DatabaseInit
+  nameWithType: SoEventRecorder.NetServerState.DatabaseInit
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInit
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState DatabaseInit
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const DatabaseInit As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoad
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoad
+  id: DatabaseDictionaryLoad
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: DatabaseDictionaryLoad
+  nameWithType: SoEventRecorder.NetServerState.DatabaseDictionaryLoad
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoad
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState DatabaseDictionaryLoad
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const DatabaseDictionaryLoad As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoaded
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoaded
+  id: DatabaseDictionaryLoaded
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: DatabaseDictionaryLoaded
+  nameWithType: SoEventRecorder.NetServerState.DatabaseDictionaryLoaded
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseDictionaryLoaded
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState DatabaseDictionaryLoaded
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const DatabaseDictionaryLoaded As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInitiated
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInitiated
+  id: DatabaseInitiated
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: DatabaseInitiated
+  nameWithType: SoEventRecorder.NetServerState.DatabaseInitiated
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.DatabaseInitiated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState DatabaseInitiated
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const DatabaseInitiated As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.UserAuthenticated
+  commentId: F:SuperOffice.Diagnostics.SoEventRecorder.NetServerState.UserAuthenticated
+  id: UserAuthenticated
+  parent: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  langs:
+  - csharp
+  - vb
+  name: UserAuthenticated
+  nameWithType: SoEventRecorder.NetServerState.UserAuthenticated
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.UserAuthenticated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public const SoEventRecorder.NetServerState UserAuthenticated
+    return:
+      type: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+    content.vb: Public Const UserAuthenticated As SoEventRecorder.NetServerState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoEventRecorder.NetServerState, To>()
+  nameWithType: EnumUtil.MapEnums<SoEventRecorder.NetServerState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoEventRecorder.NetServerState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To)()
+  name.vb: MapEnums(Of SoEventRecorder.NetServerState, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoEventRecorder.NetServerState, To>
+    nameWithType: EnumUtil.MapEnums<SoEventRecorder.NetServerState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoEventRecorder.NetServerState, To)
+    nameWithType: EnumUtil.MapEnums(Of SoEventRecorder.NetServerState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoEventRecorder.NetServerState, To>()
+  nameWithType: Converters.MapEnums<SoEventRecorder.NetServerState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoEventRecorder.NetServerState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To)()
+  name.vb: MapEnums(Of SoEventRecorder.NetServerState, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoEventRecorder.NetServerState, To>
+    nameWithType: Converters.MapEnums<SoEventRecorder.NetServerState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoEventRecorder.NetServerState, To)
+    nameWithType: Converters.MapEnums(Of SoEventRecorder.NetServerState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoEventRecorder.NetServerState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  commentId: T:SuperOffice.Diagnostics.SoEventRecorder.NetServerState
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoEventRecorder.NetServerState
+  nameWithType: SoEventRecorder.NetServerState
+  fullName: SuperOffice.Diagnostics.SoEventRecorder.NetServerState

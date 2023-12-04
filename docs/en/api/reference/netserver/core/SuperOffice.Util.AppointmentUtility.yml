@@ -5,23 +5,31 @@ items:
   id: AppointmentUtility
   parent: SuperOffice.Util
   children:
+  - SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription(System.String)
+  - SuperOffice.Util.AppointmentUtility.GetAgenda(System.String,System.Boolean)
+  - SuperOffice.Util.AppointmentUtility.GetAgendaHtml(System.String,System.Boolean)
   - SuperOffice.Util.AppointmentUtility.GetAllAppointmentRowsOfRecurrenceRuleID(System.Int32,System.Boolean)
   - SuperOffice.Util.AppointmentUtility.GetAppointmentIdFromRecurringId(System.Int32)
   - SuperOffice.Util.AppointmentUtility.GetAppointmentIdFromUID(System.String)
   - SuperOffice.Util.AppointmentUtility.GetConnectionInfo
+  - SuperOffice.Util.AppointmentUtility.GetDescription(System.String,System.String)
   - SuperOffice.Util.AppointmentUtility.GetExistingInvitationIdFromUID(System.String)
   - SuperOffice.Util.AppointmentUtility.GetInvitationRecordData(System.Int32)
   - SuperOffice.Util.AppointmentUtility.GetInvitationRecordDataFromUid(System.String)
   - SuperOffice.Util.AppointmentUtility.GetInvitationRowFromUid(System.String)
   - SuperOffice.Util.AppointmentUtility.GetLastModifiedDateOfAppointment(SuperOffice.CRM.Rows.AppointmentRow)
   - SuperOffice.Util.AppointmentUtility.GetOrCreateInvitationIdFromUID(System.String,System.Boolean@)
-  - SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32@)
+  - SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Int32@)
   - SuperOffice.Util.AppointmentUtility.GetOrganizerEmail(System.Int32)
   - SuperOffice.Util.AppointmentUtility.GetOrganizerInfo(System.Int32)
   - SuperOffice.Util.AppointmentUtility.GetRecurrenceRuleIdOfAppointmentId(System.Int32)
+  - SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee(System.Int32,System.Int32)
   - SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedPerson(System.Int32,System.Int32)
   - SuperOffice.Util.AppointmentUtility.GetRecurringSeriesOnlyMotherAppointments(System.Int32)
+  - SuperOffice.Util.AppointmentUtility.GetTemplateLanguage(System.Int32)
+  - SuperOffice.Util.AppointmentUtility.GetTitle(System.String,System.Boolean)
   - SuperOffice.Util.AppointmentUtility.HasCalendarAccess(System.Int32,System.Int32)
+  - SuperOffice.Util.AppointmentUtility.HaveChanged(System.String,System.String)
   - SuperOffice.Util.AppointmentUtility.TryGetNearestUidOfAppointmentId(System.Int32,System.Int32,System.String@,System.Int32@)
   - SuperOffice.Util.AppointmentUtility.TryGetOfAppointmentIdFromRecurrenceId(System.Int32)
   - SuperOffice.Util.AppointmentUtility.TryGetRelatedUidOfAppointmentId(System.Int32,System.String@)
@@ -46,18 +54,13 @@ items:
   namespace: SuperOffice.Util
   summary: "\nUtility functions for Appointment services\n"
   syntax:
-    content: public static class AppointmentUtility
-    content.vb: Public Module AppointmentUtility
+    content: 'public static class AppointmentUtility : Object'
+    content.vb: >-
+      Public Module AppointmentUtility
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -115,13 +118,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static (string email, string fullname) GetOrganizerInfo(int appointmentId)
+    content: public static ValueTuple<string, string> GetOrganizerInfo(int appointmentId)
     parameters:
     - id: appointmentId
       type: System.Int32
     return:
       type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Shared Function GetOrganizerInfo(appointmentId As Integer) As(email As String, fullname As String)
+    content.vb: Public Shared Function GetOrganizerInfo(appointmentId As Integer) As ValueTuple(Of String, String)
   overload: SuperOffice.Util.AppointmentUtility.GetOrganizerInfo*
   modifiers.csharp:
   - public
@@ -199,16 +202,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32@)
-  commentId: M:SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32@)
-  id: GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32@)
+- uid: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Int32@)
+  commentId: M:SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Int32@)
+  id: GetOrCreateUidOfAppointment(System.Int32,System.String,System.DateTime,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Int32@)
   parent: SuperOffice.Util.AppointmentUtility
   langs:
   - csharp
   - vb
-  name: GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable<DateTime>, Nullable<DateTime>, out Int32)
-  nameWithType: AppointmentUtility.GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable<DateTime>, Nullable<DateTime>, out Int32)
-  fullName: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32, System.String, System.DateTime, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, out System.Int32)
+  name: GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable<DateTime>, Nullable<DateTime>, String, out Int32)
+  nameWithType: AppointmentUtility.GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable<DateTime>, Nullable<DateTime>, String, out Int32)
+  fullName: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32, System.String, System.DateTime, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.String, out System.Int32)
   type: Method
   source:
     path: SoDataBase
@@ -217,7 +220,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static string GetOrCreateUidOfAppointment(int appointmentId, string from, DateTime lastModified, DateTime? recurringStartDate, DateTime? recurringEndDate, out int sequence)
+    content: public static string GetOrCreateUidOfAppointment(int appointmentId, string from, DateTime lastModified, Nullable<DateTime> recurringStartDate, Nullable<DateTime> recurringEndDate, string templateLanguage, out int sequence)
     parameters:
     - id: appointmentId
       type: System.Int32
@@ -229,21 +232,23 @@ items:
       type: System.Nullable{System.DateTime}
     - id: recurringEndDate
       type: System.Nullable{System.DateTime}
+    - id: templateLanguage
+      type: System.String
     - id: sequence
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Shared Function GetOrCreateUidOfAppointment(appointmentId As Integer, from As String, lastModified As Date, recurringStartDate As Date?, recurringEndDate As Date?, ByRef sequence As Integer) As String
+    content.vb: Public Shared Function GetOrCreateUidOfAppointment(appointmentId As Integer, from As String, lastModified As DateTime, recurringStartDate As Nullable(Of DateTime), recurringEndDate As Nullable(Of DateTime), templateLanguage As String, ByRef sequence As Integer) As String
   overload: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment*
-  nameWithType.vb: AppointmentUtility.GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable(Of DateTime), Nullable(Of DateTime), ByRef Int32)
+  nameWithType.vb: AppointmentUtility.GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable(Of DateTime), Nullable(Of DateTime), String, ByRef Int32)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32, System.String, System.DateTime, System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), ByRef System.Int32)
-  name.vb: GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable(Of DateTime), Nullable(Of DateTime), ByRef Int32)
+  fullName.vb: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment(System.Int32, System.String, System.DateTime, System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.String, ByRef System.Int32)
+  name.vb: GetOrCreateUidOfAppointment(Int32, String, DateTime, Nullable(Of DateTime), Nullable(Of DateTime), String, ByRef Int32)
 - uid: SuperOffice.Util.AppointmentUtility.GetAppointmentIdFromUID(System.String)
   commentId: M:SuperOffice.Util.AppointmentUtility.GetAppointmentIdFromUID(System.String)
   id: GetAppointmentIdFromUID(System.String)
@@ -710,6 +715,41 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee(System.Int32,System.Int32)
+  id: GetRecurringSeriesForInvitedEmailAttendee(System.Int32,System.Int32)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetRecurringSeriesForInvitedEmailAttendee(Int32, Int32)
+  nameWithType: AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee(Int32, Int32)
+  fullName: SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nReturns a <xref href=\"SuperOffice.Util.RecurringSeries\" data-throw-if-not-resolved=\"false\"></xref> object containing recurring subseries that are related to the given <code data-dev-comment-type=\"paramref\" class=\"paramref\">recurrenceRuleId</code>. The returned array is sorted by DoBy, ascending. I.e. the earliest subseries is the first item in the list.\n"
+  syntax:
+    content: public static RecurringSeries GetRecurringSeriesForInvitedEmailAttendee(int recurrenceRuleId, int invitedEmailId)
+    parameters:
+    - id: recurrenceRuleId
+      type: System.Int32
+    - id: invitedEmailId
+      type: System.Int32
+    return:
+      type: SuperOffice.Util.RecurringSeries
+    content.vb: Public Shared Function GetRecurringSeriesForInvitedEmailAttendee(recurrenceRuleId As Integer, invitedEmailId As Integer) As RecurringSeries
+  overload: SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.AppointmentUtility.GetRecurrenceRuleIdOfAppointmentId(System.Int32)
   commentId: M:SuperOffice.Util.AppointmentUtility.GetRecurrenceRuleIdOfAppointmentId(System.Int32)
   id: GetRecurrenceRuleIdOfAppointmentId(System.Int32)
@@ -760,10 +800,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static (ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder) GetConnectionInfo()
+    content: public static ValueTuple<ServiceAuthRecordData, ServiceAuthRecordData, string> GetConnectionInfo()
     return:
       type: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}
-    content.vb: Public Shared Function GetConnectionInfo As(imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String)
+    content.vb: Public Shared Function GetConnectionInfo As ValueTuple(Of ServiceAuthRecordData, ServiceAuthRecordData, String)
   overload: SuperOffice.Util.AppointmentUtility.GetConnectionInfo*
   modifiers.csharp:
   - public
@@ -790,7 +830,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nUpdates the last modified value, and increments the sequence number of the uid in the Invitation table. Returns the new sequence number.\n"
   syntax:
-    content: public static int UpdateLastModifiedAndIncrementSequenceOfUid(string uid, DateTime lastModified, out string organizerEmail, DateTime? recurringStartDate = default(DateTime? ), DateTime? recurringEndDate = default(DateTime? ))
+    content: public static int UpdateLastModifiedAndIncrementSequenceOfUid(string uid, DateTime lastModified, out string organizerEmail, Nullable<DateTime> recurringStartDate = null, Nullable<DateTime> recurringEndDate = null)
     parameters:
     - id: uid
       type: System.String
@@ -805,7 +845,7 @@ items:
     return:
       type: System.Int32
       description: The new sequence number. -1 if failed.
-    content.vb: Public Shared Function UpdateLastModifiedAndIncrementSequenceOfUid(uid As String, lastModified As Date, ByRef organizerEmail As String, recurringStartDate As Date? = Nothing, recurringEndDate As Date? = Nothing) As Integer
+    content.vb: Public Shared Function UpdateLastModifiedAndIncrementSequenceOfUid(uid As String, lastModified As DateTime, ByRef organizerEmail As String, recurringStartDate As Nullable(Of DateTime) = Nothing, recurringEndDate As Nullable(Of DateTime) = Nothing) As Integer
   overload: SuperOffice.Util.AppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUid*
   nameWithType.vb: AppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUid(String, DateTime, ByRef String, Nullable(Of DateTime), Nullable(Of DateTime))
   modifiers.csharp:
@@ -834,7 +874,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static int UpdateLastModifiedAndIncrementSequence(int invitationId, DateTime lastModified, out string organizerEmail, DateTime? recurringStartDate = default(DateTime? ), DateTime? recurringEndDate = default(DateTime? ))
+    content: public static int UpdateLastModifiedAndIncrementSequence(int invitationId, DateTime lastModified, out string organizerEmail, Nullable<DateTime> recurringStartDate = null, Nullable<DateTime> recurringEndDate = null)
     parameters:
     - id: invitationId
       type: System.Int32
@@ -848,7 +888,7 @@ items:
       type: System.Nullable{System.DateTime}
     return:
       type: System.Int32
-    content.vb: Public Shared Function UpdateLastModifiedAndIncrementSequence(invitationId As Integer, lastModified As Date, ByRef organizerEmail As String, recurringStartDate As Date? = Nothing, recurringEndDate As Date? = Nothing) As Integer
+    content.vb: Public Shared Function UpdateLastModifiedAndIncrementSequence(invitationId As Integer, lastModified As DateTime, ByRef organizerEmail As String, recurringStartDate As Nullable(Of DateTime) = Nothing, recurringEndDate As Nullable(Of DateTime) = Nothing) As Integer
   overload: SuperOffice.Util.AppointmentUtility.UpdateLastModifiedAndIncrementSequence*
   nameWithType.vb: AppointmentUtility.UpdateLastModifiedAndIncrementSequence(Int32, DateTime, ByRef String, Nullable(Of DateTime), Nullable(Of DateTime))
   modifiers.csharp:
@@ -877,7 +917,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static int UpdateLastModifiedAndIncrementSequenceOfRow(InvitationRow row, DateTime lastModified, out string organizerEmail, DateTime? recurringStartDate = default(DateTime? ), DateTime? recurringEndDate = default(DateTime? ))
+    content: public static int UpdateLastModifiedAndIncrementSequenceOfRow(InvitationRow row, DateTime lastModified, out string organizerEmail, Nullable<DateTime> recurringStartDate = null, Nullable<DateTime> recurringEndDate = null)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.InvitationRow
@@ -891,7 +931,7 @@ items:
       type: System.Nullable{System.DateTime}
     return:
       type: System.Int32
-    content.vb: Public Shared Function UpdateLastModifiedAndIncrementSequenceOfRow(row As InvitationRow, lastModified As Date, ByRef organizerEmail As String, recurringStartDate As Date? = Nothing, recurringEndDate As Date? = Nothing) As Integer
+    content.vb: Public Shared Function UpdateLastModifiedAndIncrementSequenceOfRow(row As InvitationRow, lastModified As DateTime, ByRef organizerEmail As String, recurringStartDate As Nullable(Of DateTime) = Nothing, recurringEndDate As Nullable(Of DateTime) = Nothing) As Integer
   overload: SuperOffice.Util.AppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRow*
   nameWithType.vb: AppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfRow(InvitationRow, DateTime, ByRef String, Nullable(Of DateTime), Nullable(Of DateTime))
   modifiers.csharp:
@@ -931,7 +971,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function GetLastModifiedDateOfAppointment(row As AppointmentRow) As Date
+      Public Shared Function GetLastModifiedDateOfAppointment(row As AppointmentRow) As DateTime
   overload: SuperOffice.Util.AppointmentUtility.GetLastModifiedDateOfAppointment*
   modifiers.csharp:
   - public
@@ -1003,6 +1043,241 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.AppointmentUtility.GetTemplateLanguage(System.Int32)
+  commentId: M:SuperOffice.Util.AppointmentUtility.GetTemplateLanguage(System.Int32)
+  id: GetTemplateLanguage(System.Int32)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateLanguage(Int32)
+  nameWithType: AppointmentUtility.GetTemplateLanguage(Int32)
+  fullName: SuperOffice.Util.AppointmentUtility.GetTemplateLanguage(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetTemplateLanguage(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetTemplateLanguage(appointmentId As Integer) As String
+  overload: SuperOffice.Util.AppointmentUtility.GetTemplateLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AppointmentUtility.GetDescription(System.String,System.String)
+  commentId: M:SuperOffice.Util.AppointmentUtility.GetDescription(System.String,System.String)
+  id: GetDescription(System.String,System.String)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(String, String)
+  nameWithType: AppointmentUtility.GetDescription(String, String)
+  fullName: SuperOffice.Util.AppointmentUtility.GetDescription(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetDescription(string title, string agenda)
+    parameters:
+    - id: title
+      type: System.String
+    - id: agenda
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDescription(title As String, agenda As String) As String
+  overload: SuperOffice.Util.AppointmentUtility.GetDescription*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription(System.String)
+  commentId: M:SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription(System.String)
+  id: CleanSynchronizerValuesFromDescription(System.String)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: CleanSynchronizerValuesFromDescription(String)
+  nameWithType: AppointmentUtility.CleanSynchronizerValuesFromDescription(String)
+  fullName: SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nCleaning function for stripping out prefix and dividing line InfoBridge added to their appointments\n"
+  syntax:
+    content: public static string CleanSynchronizerValuesFromDescription(string description)
+    parameters:
+    - id: description
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CleanSynchronizerValuesFromDescription(description As String) As String
+  overload: SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AppointmentUtility.GetTitle(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.AppointmentUtility.GetTitle(System.String,System.Boolean)
+  id: GetTitle(System.String,System.Boolean)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetTitle(String, Boolean)
+  nameWithType: AppointmentUtility.GetTitle(String, Boolean)
+  fullName: SuperOffice.Util.AppointmentUtility.GetTitle(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetTitle(string description, bool cleanDescription = false)
+    parameters:
+    - id: description
+      type: System.String
+    - id: cleanDescription
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetTitle(description As String, cleanDescription As Boolean = False) As String
+  overload: SuperOffice.Util.AppointmentUtility.GetTitle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AppointmentUtility.GetAgenda(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.AppointmentUtility.GetAgenda(System.String,System.Boolean)
+  id: GetAgenda(System.String,System.Boolean)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAgenda(String, Boolean)
+  nameWithType: AppointmentUtility.GetAgenda(String, Boolean)
+  fullName: SuperOffice.Util.AppointmentUtility.GetAgenda(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetAgenda(string description, bool cleanDescription = false)
+    parameters:
+    - id: description
+      type: System.String
+    - id: cleanDescription
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAgenda(description As String, cleanDescription As Boolean = False) As String
+  overload: SuperOffice.Util.AppointmentUtility.GetAgenda*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AppointmentUtility.GetAgendaHtml(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.AppointmentUtility.GetAgendaHtml(System.String,System.Boolean)
+  id: GetAgendaHtml(System.String,System.Boolean)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: GetAgendaHtml(String, Boolean)
+  nameWithType: AppointmentUtility.GetAgendaHtml(String, Boolean)
+  fullName: SuperOffice.Util.AppointmentUtility.GetAgendaHtml(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetAgendaHtml(string description, bool cleanDescription = false)
+    parameters:
+    - id: description
+      type: System.String
+    - id: cleanDescription
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAgendaHtml(description As String, cleanDescription As Boolean = False) As String
+  overload: SuperOffice.Util.AppointmentUtility.GetAgendaHtml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.AppointmentUtility.HaveChanged(System.String,System.String)
+  commentId: M:SuperOffice.Util.AppointmentUtility.HaveChanged(System.String,System.String)
+  id: HaveChanged(System.String,System.String)
+  parent: SuperOffice.Util.AppointmentUtility
+  langs:
+  - csharp
+  - vb
+  name: HaveChanged(String, String)
+  nameWithType: AppointmentUtility.HaveChanged(String, String)
+  fullName: SuperOffice.Util.AppointmentUtility.HaveChanged(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool HaveChanged(string dataContainerValue, string carrierValue)
+    parameters:
+    - id: dataContainerValue
+      type: System.String
+    - id: carrierValue
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HaveChanged(dataContainerValue As String, carrierValue As String) As Boolean
+  overload: SuperOffice.Util.AppointmentUtility.HaveChanged*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -1017,285 +1292,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1329,9 +1325,8 @@ references:
   nameWithType: AppointmentUtility.GetOrganizerInfo
   fullName: SuperOffice.Util.AppointmentUtility.GetOrganizerInfo
 - uid: System.ValueTuple{System.String,System.String}
-  commentId: T:System.ValueTuple{System.String,System.String}
-  parent: System
-  isExternal: true
+  commentId: '!:System.ValueTuple{System.String,System.String}'
+  definition: System.ValueTuple`2
   name: ValueTuple<String, String>
   nameWithType: ValueTuple<String, String>
   fullName: System.ValueTuple<System.String, System.String>
@@ -1388,6 +1383,56 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.ValueTuple`2
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.AppointmentUtility.GetInvitationRecordData*
   commentId: Overload:SuperOffice.Util.AppointmentUtility.GetInvitationRecordData
   isExternal: true
@@ -1427,15 +1472,12 @@ references:
   nameWithType: AppointmentUtility.GetOrCreateUidOfAppointment
   fullName: SuperOffice.Util.AppointmentUtility.GetOrCreateUidOfAppointment
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
 - uid: System.Nullable{System.DateTime}
-  commentId: T:System.Nullable{System.DateTime}
-  parent: System
+  commentId: '!:System.Nullable{System.DateTime}'
   definition: System.Nullable`1
   name: Nullable<DateTime>
   nameWithType: Nullable<DateTime>
@@ -1478,14 +1520,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1495,9 +1536,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1510,9 +1551,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -1627,6 +1668,12 @@ references:
   name: GetRecurringSeriesForInvitedPerson
   nameWithType: AppointmentUtility.GetRecurringSeriesForInvitedPerson
   fullName: SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedPerson
+- uid: SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee
+  isExternal: true
+  name: GetRecurringSeriesForInvitedEmailAttendee
+  nameWithType: AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee
+  fullName: SuperOffice.Util.AppointmentUtility.GetRecurringSeriesForInvitedEmailAttendee
 - uid: SuperOffice.Util.AppointmentUtility.GetRecurrenceRuleIdOfAppointmentId*
   commentId: Overload:SuperOffice.Util.AppointmentUtility.GetRecurrenceRuleIdOfAppointmentId
   isExternal: true
@@ -1640,9 +1687,8 @@ references:
   nameWithType: AppointmentUtility.GetConnectionInfo
   fullName: SuperOffice.Util.AppointmentUtility.GetConnectionInfo
 - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}
-  commentId: T:System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}
-  parent: System
-  isExternal: true
+  commentId: '!:System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}'
+  definition: System.ValueTuple`3
   name: ValueTuple<ServiceAuthRecordData, ServiceAuthRecordData, String>
   nameWithType: ValueTuple<ServiceAuthRecordData, ServiceAuthRecordData, String>
   fullName: System.ValueTuple<SuperOffice.CRM.Rows.ServiceAuthRecordData, SuperOffice.CRM.Rows.ServiceAuthRecordData, System.String>
@@ -1715,6 +1761,69 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.ValueTuple`3
+  commentId: '!:System.ValueTuple`3'
+  isExternal: true
+  name: ValueTuple<, , >
+  nameWithType: ValueTuple<, , >
+  fullName: System.ValueTuple<, , >
+  nameWithType.vb: ValueTuple(Of , , )
+  fullName.vb: System.ValueTuple(Of , , )
+  name.vb: ValueTuple(Of , , )
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.AppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUid*
   commentId: Overload:SuperOffice.Util.AppointmentUtility.UpdateLastModifiedAndIncrementSequenceOfUid
   isExternal: true
@@ -1765,3 +1874,45 @@ references:
   name: GetInvitationRecordDataFromUid
   nameWithType: AppointmentUtility.GetInvitationRecordDataFromUid
   fullName: SuperOffice.Util.AppointmentUtility.GetInvitationRecordDataFromUid
+- uid: SuperOffice.Util.AppointmentUtility.GetTemplateLanguage*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.GetTemplateLanguage
+  isExternal: true
+  name: GetTemplateLanguage
+  nameWithType: AppointmentUtility.GetTemplateLanguage
+  fullName: SuperOffice.Util.AppointmentUtility.GetTemplateLanguage
+- uid: SuperOffice.Util.AppointmentUtility.GetDescription*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.GetDescription
+  isExternal: true
+  name: GetDescription
+  nameWithType: AppointmentUtility.GetDescription
+  fullName: SuperOffice.Util.AppointmentUtility.GetDescription
+- uid: SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription
+  isExternal: true
+  name: CleanSynchronizerValuesFromDescription
+  nameWithType: AppointmentUtility.CleanSynchronizerValuesFromDescription
+  fullName: SuperOffice.Util.AppointmentUtility.CleanSynchronizerValuesFromDescription
+- uid: SuperOffice.Util.AppointmentUtility.GetTitle*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.GetTitle
+  isExternal: true
+  name: GetTitle
+  nameWithType: AppointmentUtility.GetTitle
+  fullName: SuperOffice.Util.AppointmentUtility.GetTitle
+- uid: SuperOffice.Util.AppointmentUtility.GetAgenda*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.GetAgenda
+  isExternal: true
+  name: GetAgenda
+  nameWithType: AppointmentUtility.GetAgenda
+  fullName: SuperOffice.Util.AppointmentUtility.GetAgenda
+- uid: SuperOffice.Util.AppointmentUtility.GetAgendaHtml*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.GetAgendaHtml
+  isExternal: true
+  name: GetAgendaHtml
+  nameWithType: AppointmentUtility.GetAgendaHtml
+  fullName: SuperOffice.Util.AppointmentUtility.GetAgendaHtml
+- uid: SuperOffice.Util.AppointmentUtility.HaveChanged*
+  commentId: Overload:SuperOffice.Util.AppointmentUtility.HaveChanged
+  isExternal: true
+  name: HaveChanged
+  nameWithType: AppointmentUtility.HaveChanged
+  fullName: SuperOffice.Util.AppointmentUtility.HaveChanged

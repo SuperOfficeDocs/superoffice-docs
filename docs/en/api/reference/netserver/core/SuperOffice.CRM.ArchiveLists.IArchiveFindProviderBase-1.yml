@@ -25,6 +25,7 @@ items:
     - id: TypedRow
     content.vb: >-
       Public Interface IArchiveFindProviderBase(Of TypedRow As ArchiveRow)
+
           Inherits IArchiveTypedProvider(Of TypedRow), IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{{TypedRow}}.GetRows(System.String)

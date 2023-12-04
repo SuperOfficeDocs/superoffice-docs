@@ -9,8 +9,6 @@ items:
   - SuperOffice.Data.NestedCollectionPersist`1.Add(`0)
   - SuperOffice.Data.NestedCollectionPersist`1.Count
   - SuperOffice.Data.NestedCollectionPersist`1.GetEnumerator
-  - SuperOffice.Data.NestedCollectionPersist`1.System#Collections#Generic#IEnumerable{TNestedPersist}#GetEnumerator
-  - SuperOffice.Data.NestedCollectionPersist`1.System#Collections#IEnumerable#GetEnumerator
   langs:
   - csharp
   - vb
@@ -30,7 +28,9 @@ items:
     - id: TNestedPersist
     content.vb: >-
       Public Class NestedCollectionPersist(Of TNestedPersist As INestedPersist)
+
           Inherits NestedCollectionPersist
+
           Implements INestedPersist, IEnumerable(Of INestedPersist), IEnumerable(Of TNestedPersist), IEnumerable
   inheritance:
   - System.Object
@@ -44,7 +44,6 @@ items:
   - System.Collections.IEnumerable
   inheritedMembers:
   - SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
-  - SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
   - SuperOffice.Data.NestedCollectionPersist.IsDeleted
   - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
@@ -63,17 +62,14 @@ items:
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.IsMarkedForDelete
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.NestedCollectionPersist`1.EnumUtil.MapEnums``2
   - SuperOffice.Data.NestedCollectionPersist`1.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NestedCollectionPersist{{TNestedPersist}})
@@ -150,64 +146,6 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: SuperOffice.Data.NestedCollectionPersist(Of TNestedPersist).Add(TNestedPersist)
-- uid: SuperOffice.Data.NestedCollectionPersist`1.System#Collections#Generic#IEnumerable{TNestedPersist}#GetEnumerator
-  commentId: M:SuperOffice.Data.NestedCollectionPersist`1.System#Collections#Generic#IEnumerable{TNestedPersist}#GetEnumerator
-  id: System#Collections#Generic#IEnumerable{TNestedPersist}#GetEnumerator
-  isEii: true
-  parent: SuperOffice.Data.NestedCollectionPersist`1
-  langs:
-  - csharp
-  - vb
-  name: IEnumerable<TNestedPersist>.GetEnumerator()
-  nameWithType: NestedCollectionPersist<TNestedPersist>.IEnumerable<TNestedPersist>.GetEnumerator()
-  fullName: SuperOffice.Data.NestedCollectionPersist<TNestedPersist>.System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: IEnumerator<TNestedPersist> IEnumerable<TNestedPersist>.GetEnumerator()
-    return:
-      type: System.Collections.Generic.IEnumerator{{TNestedPersist}}
-    content.vb: Function System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator As IEnumerator(Of TNestedPersist) Implements IEnumerable(Of TNestedPersist).GetEnumerator
-  overload: SuperOffice.Data.NestedCollectionPersist`1.System#Collections#Generic#IEnumerable{TNestedPersist}#GetEnumerator*
-  implements:
-  - System.Collections.Generic.IEnumerable{{TNestedPersist}}.GetEnumerator
-  nameWithType.vb: NestedCollectionPersist(Of TNestedPersist).System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator()
-  fullName.vb: SuperOffice.Data.NestedCollectionPersist(Of TNestedPersist).System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator()
-  name.vb: System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator()
-- uid: SuperOffice.Data.NestedCollectionPersist`1.System#Collections#IEnumerable#GetEnumerator
-  commentId: M:SuperOffice.Data.NestedCollectionPersist`1.System#Collections#IEnumerable#GetEnumerator
-  id: System#Collections#IEnumerable#GetEnumerator
-  isEii: true
-  parent: SuperOffice.Data.NestedCollectionPersist`1
-  langs:
-  - csharp
-  - vb
-  name: IEnumerable.GetEnumerator()
-  nameWithType: NestedCollectionPersist<TNestedPersist>.IEnumerable.GetEnumerator()
-  fullName: SuperOffice.Data.NestedCollectionPersist<TNestedPersist>.System.Collections.IEnumerable.GetEnumerator()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: IEnumerator IEnumerable.GetEnumerator()
-    return:
-      type: System.Collections.IEnumerator
-    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
-  overload: SuperOffice.Data.NestedCollectionPersist`1.System#Collections#IEnumerable#GetEnumerator*
-  implements:
-  - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: NestedCollectionPersist(Of TNestedPersist).System.Collections.IEnumerable.GetEnumerator()
-  fullName.vb: SuperOffice.Data.NestedCollectionPersist(Of TNestedPersist).System.Collections.IEnumerable.GetEnumerator()
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
 - uid: SuperOffice.Data.NestedCollectionPersist`1.#ctor
   commentId: M:SuperOffice.Data.NestedCollectionPersist`1.#ctor
   id: '#ctor'
@@ -313,8 +251,7 @@ references:
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<INestedPersist>
   nameWithType: IEnumerable<INestedPersist>
@@ -357,8 +294,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable{{TNestedPersist}}
-  commentId: T:System.Collections.Generic.IEnumerable{`0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{`0}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<TNestedPersist>
   nameWithType: IEnumerable<TNestedPersist>
@@ -397,8 +333,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
   isExternal: true
   name: IEnumerable
   nameWithType: IEnumerable
@@ -427,39 +361,6 @@ references:
     name: GetFacadingItems
     nameWithType: NestedCollectionPersist.GetFacadingItems
     fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-  commentId: M:SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-  parent: SuperOffice.Data.NestedCollectionPersist
-  isExternal: true
-  name: IEnumerable<INestedPersist>.GetEnumerator()
-  nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator()
-  fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  nameWithType.vb: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  name.vb: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  spec.csharp:
-  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-    name: IEnumerable<INestedPersist>.GetEnumerator
-    nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator
-    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-    name: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    nameWithType: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
     isExternal: true
   - name: (
     nameWithType: (
@@ -1031,6 +932,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
@@ -1059,285 +1124,6 @@ references:
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.NestedCollectionPersist`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1509,14 +1295,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -1526,9 +1311,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1541,24 +1326,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1799,8 +1572,6 @@ references:
   nameWithType.vb: NestedCollectionPersist(Of TNestedPersist).GetEnumerator
   fullName.vb: SuperOffice.Data.NestedCollectionPersist(Of TNestedPersist).GetEnumerator
 - uid: System.Collections.IEnumerator
-  commentId: T:System.Collections.IEnumerator
-  parent: System.Collections
   isExternal: true
   name: IEnumerator
   nameWithType: IEnumerator
@@ -1824,199 +1595,6 @@ references:
   name: TNestedPersist
   nameWithType: TNestedPersist
   fullName: TNestedPersist
-- uid: SuperOffice.Data.NestedCollectionPersist`1.System#Collections#Generic#IEnumerable{TNestedPersist}#GetEnumerator*
-  commentId: Overload:SuperOffice.Data.NestedCollectionPersist`1.System#Collections#Generic#IEnumerable{TNestedPersist}#GetEnumerator
-  isExternal: true
-  name: IEnumerable<TNestedPersist>.GetEnumerator
-  nameWithType: NestedCollectionPersist<TNestedPersist>.IEnumerable<TNestedPersist>.GetEnumerator
-  fullName: SuperOffice.Data.NestedCollectionPersist<TNestedPersist>.System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator
-  nameWithType.vb: NestedCollectionPersist(Of TNestedPersist).System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator
-  fullName.vb: SuperOffice.Data.NestedCollectionPersist(Of TNestedPersist).System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator
-- uid: System.Collections.Generic.IEnumerable{{TNestedPersist}}.GetEnumerator
-  commentId: M:System.Collections.Generic.IEnumerable{`0}.GetEnumerator
-  parent: System.Collections.Generic.IEnumerable{{TNestedPersist}}
-  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
-  name: GetEnumerator()
-  nameWithType: IEnumerable<TNestedPersist>.GetEnumerator()
-  fullName: System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator()
-  nameWithType.vb: IEnumerable(Of TNestedPersist).GetEnumerator()
-  fullName.vb: System.Collections.Generic.IEnumerable(Of TNestedPersist).GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable<TNestedPersist>.GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable<TNestedPersist>.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable(Of TNestedPersist).GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable(Of TNestedPersist).GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerator{{TNestedPersist}}
-  commentId: T:System.Collections.Generic.IEnumerator{`0}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerator`1
-  name: IEnumerator<TNestedPersist>
-  nameWithType: IEnumerator<TNestedPersist>
-  fullName: System.Collections.Generic.IEnumerator<TNestedPersist>
-  nameWithType.vb: IEnumerator(Of TNestedPersist)
-  fullName.vb: System.Collections.Generic.IEnumerator(Of TNestedPersist)
-  name.vb: IEnumerator(Of TNestedPersist)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TNestedPersist
-    nameWithType: TNestedPersist
-    fullName: TNestedPersist
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TNestedPersist
-    nameWithType: TNestedPersist
-    fullName: TNestedPersist
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: IEnumerable<T>.GetEnumerator()
-  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable<T>.GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable(Of T).GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerator`1
-  commentId: T:System.Collections.Generic.IEnumerator`1
-  isExternal: true
-  name: IEnumerator<T>
-  nameWithType: IEnumerator<T>
-  fullName: System.Collections.Generic.IEnumerator<T>
-  nameWithType.vb: IEnumerator(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
-  name.vb: IEnumerator(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NestedCollectionPersist`1.System#Collections#IEnumerable#GetEnumerator*
-  commentId: Overload:SuperOffice.Data.NestedCollectionPersist`1.System#Collections#IEnumerable#GetEnumerator
-  isExternal: true
-  name: IEnumerable.GetEnumerator
-  nameWithType: NestedCollectionPersist<TNestedPersist>.IEnumerable.GetEnumerator
-  fullName: SuperOffice.Data.NestedCollectionPersist<TNestedPersist>.System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: NestedCollectionPersist(Of TNestedPersist).System.Collections.IEnumerable.GetEnumerator
-  fullName.vb: SuperOffice.Data.NestedCollectionPersist(Of TNestedPersist).System.Collections.IEnumerable.GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.NestedCollectionPersist`1.#ctor*
   commentId: Overload:SuperOffice.Data.NestedCollectionPersist`1.#ctor
   isExternal: true

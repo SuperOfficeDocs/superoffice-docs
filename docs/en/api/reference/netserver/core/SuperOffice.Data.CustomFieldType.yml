@@ -21,13 +21,14 @@ items:
   - SuperOffice.Data.CustomFieldType.Time
   - SuperOffice.Data.CustomFieldType.TimeSpan
   - SuperOffice.Data.CustomFieldType.Unknown
+  - SuperOffice.Data.CustomFieldType.value__
   langs:
   - csharp
   - vb
   name: CustomFieldType
   nameWithType: CustomFieldType
   fullName: SuperOffice.Data.CustomFieldType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -36,19 +37,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCustom Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal, 9 = DateTime, 10 = Time, 11 = TimeSpan, 12 = Relation, 13 = Attachment\n"
   syntax:
-    content: public enum CustomFieldType
-    content.vb: Public Enum CustomFieldType
+    content: 'public sealed class CustomFieldType : Enum'
+    content.vb: >-
+      Public NotInheritable Class CustomFieldType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.CustomFieldType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.CustomFieldType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CustomFieldType)
-  - SuperOffice.Data.CustomFieldType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.CustomFieldType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.CustomFieldType.value__
+  commentId: F:SuperOffice.Data.CustomFieldType.value__
+  id: value__
+  parent: SuperOffice.Data.CustomFieldType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CustomFieldType.value__
+  fullName: SuperOffice.Data.CustomFieldType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.CustomFieldType.Unknown
   commentId: F:SuperOffice.Data.CustomFieldType.Unknown
   id: Unknown
@@ -68,9 +104,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown/Undefined field type: 0\n"
   syntax:
-    content: Unknown = 0
+    content: public const CustomFieldType Unknown
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Unknown As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -96,9 +133,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Number (32-bit integer): &apos;[I:123]&apos;\n"
   syntax:
-    content: Integer = 1
+    content: public const CustomFieldType Integer
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Integer As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -124,9 +162,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Short text, up to 255 characters: &apos;text value&apos;\n"
   syntax:
-    content: ShortText = 2
+    content: public const CustomFieldType ShortText
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const ShortText As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -152,9 +191,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Long text: &apos;long text value&apos;\n"
   syntax:
-    content: LongText = 3
+    content: public const CustomFieldType LongText
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const LongText As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -180,9 +220,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Date: &apos;[D:06/19/2019]&apos;\n"
   syntax:
-    content: Date = 4
+    content: public const CustomFieldType Date
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Date As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -208,9 +249,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Binary blob, encoded as Base64 string.\n"
   syntax:
-    content: Blob = 5
+    content: public const CustomFieldType Blob
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Blob As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -236,9 +278,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Boolean, stored as an integer, 1 = checked/true, 0 = unchecked/false: &apos;[I:1]&apos;\n"
   syntax:
-    content: Checkbox = 6
+    content: public const CustomFieldType Checkbox
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Checkbox As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -264,9 +307,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: MDO List item reference, stored as an integer ID: &apos;[I:123]&apos;\n"
   syntax:
-    content: MdoList = 7
+    content: public const CustomFieldType MdoList
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const MdoList As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -292,9 +336,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Decimal / floating point, stored as a double: &apos;[F:3.14159]&apos;\n"
   syntax:
-    content: Decimal = 8
+    content: public const CustomFieldType Decimal
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Decimal As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -320,9 +365,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: Date + Time:  &apos;[DT:06/19/2019 14:35:56.00000]&apos;\n"
   syntax:
-    content: DateTime = 9
+    content: public const CustomFieldType DateTime
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const DateTime As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -348,9 +394,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: Time only - ignore the date part: &apos;[T:06/19/2019 14:35:56.00000]&apos;\n"
   syntax:
-    content: Time = 10
+    content: public const CustomFieldType Time
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Time As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -376,9 +423,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: Timespan in some units (hours, minutes or seconds): &apos;[I:1234]&apos;\n"
   syntax:
-    content: TimeSpan = 11
+    content: public const CustomFieldType TimeSpan
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const TimeSpan As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -404,9 +452,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: Relation to another table. Stored as an int (primary key of record in other table): &apos;[I:1234]&apos;\n"
   syntax:
-    content: RelationTo = 12
+    content: public const CustomFieldType RelationTo
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const RelationTo As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -432,9 +481,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n13: File Attachment: int record id in attachment table: &apos;[I:1234]&apos;\n"
   syntax:
-    content: Attachment = 13
+    content: public const CustomFieldType Attachment
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const Attachment As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -460,9 +510,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n14: Dynamic Link: contains link redirect value: &apos;https://example.com/scripts/ticket.fcgi?action=redirectLink&amp;extraFieldId=5&amp;table=y_equipment&amp;id=2&apos;\n"
   syntax:
-    content: DynamicLink = 14
+    content: public const CustomFieldType DynamicLink
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const DynamicLink As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -488,9 +539,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n15: Text with list items to choose between: &apos;text value&apos;\n"
   syntax:
-    content: ListText = 15
+    content: public const CustomFieldType ListText
     return:
       type: SuperOffice.Data.CustomFieldType
+    content.vb: Public Const ListText As CustomFieldType
   modifiers.csharp:
   - public
   - const
@@ -504,6 +556,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.CustomFieldType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -531,84 +590,6 @@ references:
     name: MapEnums(Of CustomFieldType, To)
     nameWithType: EnumUtil.MapEnums(Of CustomFieldType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.CustomFieldType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.CustomFieldType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CustomFieldType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<CustomFieldType>(CustomFieldType)
-  nameWithType: ObjectExtensions.AssignByReflection<CustomFieldType>(CustomFieldType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CustomFieldType>(SuperOffice.Data.CustomFieldType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CustomFieldType)(CustomFieldType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CustomFieldType)(SuperOffice.Data.CustomFieldType)
-  name.vb: AssignByReflection(Of CustomFieldType)(CustomFieldType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<CustomFieldType>
-    nameWithType: ObjectExtensions.AssignByReflection<CustomFieldType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CustomFieldType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.CustomFieldType
-    name: CustomFieldType
-    nameWithType: CustomFieldType
-    fullName: SuperOffice.Data.CustomFieldType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of CustomFieldType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of CustomFieldType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CustomFieldType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.CustomFieldType
-    name: CustomFieldType
-    nameWithType: CustomFieldType
-    fullName: SuperOffice.Data.CustomFieldType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.CustomFieldType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<CustomFieldType>()
-  nameWithType: ObjectExtensions.GraphCopy<CustomFieldType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CustomFieldType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CustomFieldType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CustomFieldType)()
-  name.vb: GraphCopy(Of CustomFieldType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<CustomFieldType>
-    nameWithType: ObjectExtensions.GraphCopy<CustomFieldType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CustomFieldType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of CustomFieldType)
-    nameWithType: ObjectExtensions.GraphCopy(Of CustomFieldType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CustomFieldType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -650,6 +631,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -695,103 +682,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -838,18 +728,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.CustomFieldType
   commentId: T:SuperOffice.Data.CustomFieldType
   parent: SuperOffice.Data

@@ -5,7 +5,7 @@ items:
   id: ExportTemplateProvider
   parent: SuperOffice.CRM.Lists
   children:
-  - SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor
+  - SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor(SuperOffice.IO.Files.IFileAccess)
   - SuperOffice.CRM.Lists.ExportTemplateProvider.AddItems
   - SuperOffice.CRM.Lists.ExportTemplateProvider.ProviderName
   langs:
@@ -24,14 +24,16 @@ items:
   summary: "\nMDO provider for the list of template files for the &apos;export to file&apos; function\nin the Selection Task pane. These are .sxf files found in so_arc/template, as\nwell as in the so_arc/&lt;username> directory of the current user.\n<p></p>\nImpersonation is used if specified by the config file to access the document directories.\n<p></p>\nThe file name is returned as the list item name, while the full path is in\nthe extrainfo.\n"
   syntax:
     content: >-
-      [MDOProviderPlugin("ExportTemplate")]
+      [MDOProviderPlugin("ExportTemplate", IsAutoDiscoverable = false)]
 
       public class ExportTemplateProvider : LiteralsOnlyBase, ISoListProvider, ISoList, IPlugin
     content.vb: >-
-      <MDOProviderPlugin("ExportTemplate")>
+      <MDOProviderPlugin("ExportTemplate", IsAutoDiscoverable:=False)>
 
       Public Class ExportTemplateProvider
+
           Inherits LiteralsOnlyBase
+
           Implements ISoListProvider, ISoList, IPlugin
   inheritance:
   - System.Object
@@ -40,10 +42,12 @@ items:
   - SuperOffice.CRM.Lists.ISoListProvider
   - SuperOffice.CRM.Lists.ISoList
   inheritedMembers:
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1({TEnum},System.String,System.Boolean)
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.ForceFlatList
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
@@ -51,17 +55,8 @@ items:
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.ExportTemplateProvider.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Lists.ExportTemplateProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.ExportTemplateProvider)
-  - SuperOffice.CRM.Lists.ExportTemplateProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Lists.ExportTemplateProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
@@ -69,6 +64,10 @@ items:
     arguments:
     - type: System.String
       value: ExportTemplate
+    namedArguments:
+    - name: IsAutoDiscoverable
+      type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - class
@@ -103,6 +102,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor(SuperOffice.IO.Files.IFileAccess)
+  commentId: M:SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor(SuperOffice.IO.Files.IFileAccess)
+  id: '#ctor(SuperOffice.IO.Files.IFileAccess)'
+  parent: SuperOffice.CRM.Lists.ExportTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: ExportTemplateProvider(IFileAccess)
+  nameWithType: ExportTemplateProvider.ExportTemplateProvider(IFileAccess)
+  fullName: SuperOffice.CRM.Lists.ExportTemplateProvider.ExportTemplateProvider(SuperOffice.IO.Files.IFileAccess)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public ExportTemplateProvider(IFileAccess fileAccess)
+    parameters:
+    - id: fileAccess
+      type: SuperOffice.IO.Files.IFileAccess
+    content.vb: Public Sub New(fileAccess As IFileAccess)
+  overload: SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.ExportTemplateProvider.AddItems
   commentId: M:SuperOffice.CRM.Lists.ExportTemplateProvider.AddItems
   id: AddItems
@@ -120,7 +147,6 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: "\nImpersonate via the <xref href=\"SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext\" data-throw-if-not-resolved=\"false\"></xref>, and get user plus template items.\n"
   syntax:
     content: protected override void AddItems()
     content.vb: Protected Overrides Sub AddItems
@@ -132,31 +158,6 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor
-  commentId: M:SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Lists.ExportTemplateProvider
-  langs:
-  - csharp
-  - vb
-  name: ExportTemplateProvider()
-  nameWithType: ExportTemplateProvider.ExportTemplateProvider()
-  fullName: SuperOffice.CRM.Lists.ExportTemplateProvider.ExportTemplateProvider()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Lists
-  syntax:
-    content: public ExportTemplateProvider()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
@@ -192,6 +193,78 @@ references:
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1({TEnum},System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  definition: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+  name: AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, System.String, System.Boolean)
+  nameWithType.vb: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, System.String, System.Boolean)
+  name.vb: AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+    name: AddRawRootEnum<TEnum>
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEnum
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+    name: AddRawRootEnum(Of TEnum)
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEnum
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
@@ -343,6 +416,13 @@ references:
   name: SearchValue
   nameWithType: LiteralsOnlyBase.SearchValue
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.ForceFlatList
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.ForceFlatList
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: ForceFlatList
+  nameWithType: LiteralsOnlyBase.ForceFlatList
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.ForceFlatList
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
@@ -392,285 +472,6 @@ references:
   name: HeadingItems
   nameWithType: LiteralsOnlyBase.HeadingItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.ExportTemplateProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -698,84 +499,6 @@ references:
     name: MapEnums(Of ExportTemplateProvider, To)
     nameWithType: EnumUtil.MapEnums(Of ExportTemplateProvider, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ExportTemplateProvider, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.ExportTemplateProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.ExportTemplateProvider)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ExportTemplateProvider>(ExportTemplateProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<ExportTemplateProvider>(ExportTemplateProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.ExportTemplateProvider>(SuperOffice.CRM.Lists.ExportTemplateProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExportTemplateProvider)(ExportTemplateProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.ExportTemplateProvider)(SuperOffice.CRM.Lists.ExportTemplateProvider)
-  name.vb: AssignByReflection(Of ExportTemplateProvider)(ExportTemplateProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ExportTemplateProvider>
-    nameWithType: ObjectExtensions.AssignByReflection<ExportTemplateProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.ExportTemplateProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.ExportTemplateProvider
-    name: ExportTemplateProvider
-    nameWithType: ExportTemplateProvider
-    fullName: SuperOffice.CRM.Lists.ExportTemplateProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ExportTemplateProvider)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ExportTemplateProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.ExportTemplateProvider)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.ExportTemplateProvider
-    name: ExportTemplateProvider
-    nameWithType: ExportTemplateProvider
-    fullName: SuperOffice.CRM.Lists.ExportTemplateProvider
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.ExportTemplateProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ExportTemplateProvider>()
-  nameWithType: ObjectExtensions.GraphCopy<ExportTemplateProvider>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.ExportTemplateProvider>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExportTemplateProvider)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.ExportTemplateProvider)()
-  name.vb: GraphCopy(Of ExportTemplateProvider)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ExportTemplateProvider>
-    nameWithType: ObjectExtensions.GraphCopy<ExportTemplateProvider>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.ExportTemplateProvider>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ExportTemplateProvider)
-    nameWithType: ObjectExtensions.GraphCopy(Of ExportTemplateProvider)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.ExportTemplateProvider)
     isExternal: true
   - name: (
     nameWithType: (
@@ -823,6 +546,77 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+  isExternal: true
+  name: AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, System.String, System.Boolean)
+  nameWithType.vb: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, System.String, System.Boolean)
+  name.vb: AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+    name: AddRawRootEnum<TEnum>
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEnum
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+    name: AddRawRootEnum(Of TEnum)
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEnum
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -868,103 +662,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -1011,12 +708,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -1030,6 +721,25 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor
+  isExternal: true
+  name: ExportTemplateProvider
+  nameWithType: ExportTemplateProvider.ExportTemplateProvider
+  fullName: SuperOffice.CRM.Lists.ExportTemplateProvider.ExportTemplateProvider
+- uid: SuperOffice.IO.Files.IFileAccess
+  commentId: T:SuperOffice.IO.Files.IFileAccess
+  parent: SuperOffice.IO.Files
+  isExternal: true
+  name: IFileAccess
+  nameWithType: IFileAccess
+  fullName: SuperOffice.IO.Files.IFileAccess
+- uid: SuperOffice.IO.Files
+  commentId: N:SuperOffice.IO.Files
+  isExternal: true
+  name: SuperOffice.IO.Files
+  nameWithType: SuperOffice.IO.Files
+  fullName: SuperOffice.IO.Files
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
   commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
@@ -1067,9 +777,3 @@ references:
   name: AddItems
   nameWithType: ExportTemplateProvider.AddItems
   fullName: SuperOffice.CRM.Lists.ExportTemplateProvider.AddItems
-- uid: SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor*
-  commentId: Overload:SuperOffice.CRM.Lists.ExportTemplateProvider.#ctor
-  isExternal: true
-  name: ExportTemplateProvider
-  nameWithType: ExportTemplateProvider.ExportTemplateProvider
-  fullName: SuperOffice.CRM.Lists.ExportTemplateProvider.ExportTemplateProvider

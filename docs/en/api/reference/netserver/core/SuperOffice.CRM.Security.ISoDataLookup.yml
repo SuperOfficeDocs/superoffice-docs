@@ -28,6 +28,7 @@ items:
     content: 'public interface ISoDataLookup : ISentryIgnorable'
     content.vb: >-
       Public Interface ISoDataLookup
+
           Inherits ISentryIgnorable
   inheritedMembers:
   - SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
@@ -504,8 +505,7 @@ references:
   nameWithType: ISoDataLookup.GetKnownFields
   fullName: SuperOffice.CRM.Security.ISoDataLookup.GetKnownFields
 - uid: System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}'
   definition: System.Collections.Generic.List`1
   name: List<FieldInfo>
   nameWithType: List<FieldInfo>
@@ -548,14 +548,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -565,9 +564,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -580,15 +579,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic

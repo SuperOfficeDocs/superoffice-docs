@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  id: DBC.TargetPeriodFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.PeriodNumber
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.Registered
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetGroupId
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetPeriodId
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.Updated
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TargetPeriodFields
+  nameWithType: DBC.TargetPeriodFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TargetPeriod, A set of periods linked with target amounts for users/usergroups and the target groups/years.\n"
+  syntax:
+    content: 'public static class TargetPeriodFields : Object'
+    content.vb: >-
+      Public Module TargetPeriodFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetPeriodId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetPeriodId
+  id: TargetPeriodId
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: TargetPeriodId
+  nameWithType: DBC.TargetPeriodFields.TargetPeriodId
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetPeriodId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.TargetPeriodId: Primary key\n"
+  syntax:
+    content: public const string TargetPeriodId = "target_period_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetPeriodId As String = "target_period_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetGroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetGroupId
+  id: TargetGroupId
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: TargetGroupId
+  nameWithType: DBC.TargetPeriodFields.TargetGroupId
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.TargetGroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.TargetGroupId: The group this target belongs to\n"
+  syntax:
+    content: public const string TargetGroupId = "target_group_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetGroupId As String = "target_group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.PeriodNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.PeriodNumber
+  id: PeriodNumber
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: PeriodNumber
+  nameWithType: DBC.TargetPeriodFields.PeriodNumber
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.PeriodNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.PeriodNumber: Month number, 1...12 (or maybe quarter number 1...4 or half year number...)\n"
+  syntax:
+    content: public const string PeriodNumber = "period_number"
+    return:
+      type: System.String
+    content.vb: Public Const PeriodNumber As String = "period_number"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TargetPeriodFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TargetPeriodFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TargetPeriodFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TargetPeriodFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TargetPeriodFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

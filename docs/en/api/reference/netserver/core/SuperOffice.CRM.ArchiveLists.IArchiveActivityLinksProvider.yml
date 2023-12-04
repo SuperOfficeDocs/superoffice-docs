@@ -23,6 +23,7 @@ items:
     content: 'public interface IArchiveActivityLinksProvider : IArchiveTypedProvider<ArchiveActivityLinksRow>, IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
     content.vb: >-
       Public Interface IArchiveActivityLinksProvider
+
           Inherits IArchiveTypedProvider(Of ArchiveActivityLinksRow), IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider{SuperOffice.CRM.ArchiveLists.ArchiveActivityLinksRow}.GetRows(System.String)

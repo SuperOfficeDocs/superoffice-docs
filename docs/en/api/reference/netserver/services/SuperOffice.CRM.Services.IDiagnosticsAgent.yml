@@ -14,6 +14,9 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
@@ -130,22 +133,22 @@ items:
     parameters:
     - id: cacheNames
       type: System.String[]
-      description: Name of the cahcnes to flush
+      description: Name of the cachnes to flush
     content.vb: Sub FlushCachesByName(cacheNames As String())
   overload: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName*
   nameWithType.vb: IDiagnosticsAgent.FlushCachesByName(String())
   fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String())
   name.vb: FlushCachesByName(String())
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
-  id: PerformTasksAfterUpgrade
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
+  id: GetCacheState(System.String[])
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   langs:
   - csharp
   - vb
-  name: PerformTasksAfterUpgrade()
-  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade()
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade()
+  name: GetCacheState(String[])
+  nameWithType: IDiagnosticsAgent.GetCacheState(String[])
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
   type: Method
   source:
     path: SuperOffice.Services
@@ -153,14 +156,71 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAfter upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.\n"
+  summary: "\nGet the current generation value of the named caches. State is opaque.\n"
   syntax:
-    content: string PerformTasksAfterUpgrade()
+    content: string GetCacheState(string[] cacheNames)
+    parameters:
+    - id: cacheNames
+      type: System.String[]
+      description: Names of the caches to check
     return:
       type: System.String
-      description: Message that can be shown to the user, summarizing what has been done, if anything.
-    content.vb: Function PerformTasksAfterUpgrade As String
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
+      description: Current state of the caches named. If not the same as previous value, then it is time to flush
+    content.vb: Function GetCacheState(cacheNames As String()) As String
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState*
+  nameWithType.vb: IDiagnosticsAgent.GetCacheState(String())
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String())
+  name.vb: GetCacheState(String())
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
+  id: GetEntityCountsForCurrentUser
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEntityCountsForCurrentUser()
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUser()
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet an array of entities and number of entities created for the current associate\n"
+  syntax:
+    content: EntityCounts[] GetEntityCountsForCurrentUser()
+    return:
+      type: SuperOffice.CRM.Services.EntityCounts[]
+      description: Array of EntityCounts[] for the current associate
+    content.vb: Function GetEntityCountsForCurrentUser As EntityCounts()
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
+  id: GetEntityCountsForAllUsers
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEntityCountsForAllUsers()
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsers()
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet an array of entities and number of entities created for all associates.\n"
+  syntax:
+    content: EntityCounts[] GetEntityCountsForAllUsers()
+    return:
+      type: SuperOffice.CRM.Services.EntityCounts[]
+      description: Array of EntityCounts[] for all the users
+    content.vb: Function GetEntityCountsForAllUsers As EntityCounts()
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers*
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
   id: LogViewState(System.String)
@@ -234,102 +294,6 @@ items:
       description: Log to trace
     content.vb: Sub ChangeLogSettings(logWarning As Boolean, logInformation As Boolean, logSuccessAudit As Boolean, logFailureAudit As Boolean, logToEventLog As Boolean, logToSuperOffice As Boolean, logToFile As Boolean, logToTrace As Boolean)
   overload: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
-  id: AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
-  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
-  langs:
-  - csharp
-  - vb
-  name: AddWebAppUsage(WebAppUsage[])
-  nameWithType: IDiagnosticsAgent.AddWebAppUsage(WebAppUsage[])
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nAdds WebApp usage to existing log\n"
-  syntax:
-    content: void AddWebAppUsage(WebAppUsage[] webAppUsages)
-    parameters:
-    - id: webAppUsages
-      type: SuperOffice.CRM.Services.WebAppUsage[]
-      description: Web app usage.
-    content.vb: Sub AddWebAppUsage(webAppUsages As WebAppUsage())
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage*
-  nameWithType.vb: IDiagnosticsAgent.AddWebAppUsage(WebAppUsage())
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage())
-  name.vb: AddWebAppUsage(WebAppUsage())
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
-  id: WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
-  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
-  langs:
-  - csharp
-  - vb
-  name: WebAppUsageExistsInPeriod(Int32, String, DateTime)
-  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod(Int32, String, DateTime)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32, System.String, System.DateTime)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters\n"
-  syntax:
-    content: bool WebAppUsageExistsInPeriod(int associateId, string viewState, DateTime fromDate)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: The asscoiate id to look for webapp usage
-    - id: viewState
-      type: System.String
-      description: The viewState to search for
-    - id: fromDate
-      type: System.DateTime
-      description: The datetime to restrict webapp usage on
-    return:
-      type: System.Boolean
-      description: Returns true if viewState has been clicked at least once since FromDate
-    content.vb: Function WebAppUsageExistsInPeriod(associateId As Integer, viewState As String, fromDate As Date) As Boolean
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod*
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
-  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
-  id: GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
-  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
-  langs:
-  - csharp
-  - vb
-  name: GetWebAppUsagesForPeriod(DateTime, DateTime, String)
-  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime, DateTime, String)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime, System.DateTime, System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet all WebAppUsages for a given period, that match an optional search term\n"
-  syntax:
-    content: WebAppUsage[] GetWebAppUsagesForPeriod(DateTime fromDate, DateTime toDate, string searchTerm)
-    parameters:
-    - id: fromDate
-      type: System.DateTime
-    - id: toDate
-      type: System.DateTime
-    - id: searchTerm
-      type: System.String
-      description: ViewState search term. &apos;%&apos; is the wildcard character, for example &apos;Pocket%&apos; will match all viewstates starting with &apos;Pocket&apos;. If empty, all viewstates will be matched
-    return:
-      type: SuperOffice.CRM.Services.WebAppUsage[]
-    content.vb: Function GetWebAppUsagesForPeriod(fromDate As Date, toDate As Date, searchTerm As String) As WebAppUsage()
-  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod*
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
   id: CollectDataAdditions
@@ -440,6 +404,127 @@ items:
     content: void ResyncUsers()
     content.vb: Sub ResyncUsers
   overload: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  id: PerformTasksAfterUpgrade
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformTasksAfterUpgrade()
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade()
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAfter upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.\n"
+  syntax:
+    content: string PerformTasksAfterUpgrade()
+    return:
+      type: System.String
+      description: Message that can be shown to the user, summarizing what has been done, if anything.
+    content.vb: Function PerformTasksAfterUpgrade As String
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
+  id: AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: AddWebAppUsage(WebAppUsage[])
+  nameWithType: IDiagnosticsAgent.AddWebAppUsage(WebAppUsage[])
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdds WebApp usage to existing log\n"
+  syntax:
+    content: void AddWebAppUsage(WebAppUsage[] webAppUsages)
+    parameters:
+    - id: webAppUsages
+      type: SuperOffice.CRM.Services.WebAppUsage[]
+      description: Web app usage.
+    content.vb: Sub AddWebAppUsage(webAppUsages As WebAppUsage())
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage*
+  nameWithType.vb: IDiagnosticsAgent.AddWebAppUsage(WebAppUsage())
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage())
+  name.vb: AddWebAppUsage(WebAppUsage())
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
+  id: WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsageExistsInPeriod(Int32, String, DateTime)
+  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod(Int32, String, DateTime)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32, System.String, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters\n"
+  syntax:
+    content: bool WebAppUsageExistsInPeriod(int associateId, string viewState, DateTime fromDate)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The asscoiate id to look for webapp usage
+    - id: viewState
+      type: System.String
+      description: The viewState to search for
+    - id: fromDate
+      type: System.DateTime
+      description: The datetime to restrict webapp usage on
+    return:
+      type: System.Boolean
+      description: Returns true if viewState has been clicked at least once since FromDate
+    content.vb: Function WebAppUsageExistsInPeriod(associateId As Integer, viewState As String, fromDate As DateTime) As Boolean
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
+  id: GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWebAppUsagesForPeriod(DateTime, DateTime, String)
+  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime, DateTime, String)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime, System.DateTime, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all WebAppUsages for a given period, that match an optional search term\n"
+  syntax:
+    content: WebAppUsage[] GetWebAppUsagesForPeriod(DateTime fromDate, DateTime toDate, string searchTerm)
+    parameters:
+    - id: fromDate
+      type: System.DateTime
+    - id: toDate
+      type: System.DateTime
+    - id: searchTerm
+      type: System.String
+      description: ViewState search term. &apos;%&apos; is the wildcard character, for example &apos;Pocket%&apos; will match all viewstates starting with &apos;Pocket&apos;. If empty, all viewstates will be matched
+    return:
+      type: SuperOffice.CRM.Services.WebAppUsage[]
+    content.vb: Function GetWebAppUsagesForPeriod(fromDate As DateTime, toDate As DateTime, searchTerm As String) As WebAppUsage()
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -491,12 +576,12 @@ references:
   name: FlushCachesByName
   nameWithType: IDiagnosticsAgent.FlushCachesByName
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState
   isExternal: true
-  name: PerformTasksAfterUpgrade
-  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  name: GetCacheState
+  nameWithType: IDiagnosticsAgent.GetCacheState
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -510,6 +595,44 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
+  isExternal: true
+  name: GetEntityCountsForCurrentUser
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUser
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
+- uid: SuperOffice.CRM.Services.EntityCounts[]
+  isExternal: true
+  name: EntityCounts[]
+  nameWithType: EntityCounts[]
+  fullName: SuperOffice.CRM.Services.EntityCounts[]
+  nameWithType.vb: EntityCounts()
+  fullName.vb: SuperOffice.CRM.Services.EntityCounts()
+  name.vb: EntityCounts()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EntityCounts
+    name: EntityCounts
+    nameWithType: EntityCounts
+    fullName: SuperOffice.CRM.Services.EntityCounts
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EntityCounts
+    name: EntityCounts
+    nameWithType: EntityCounts
+    fullName: SuperOffice.CRM.Services.EntityCounts
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
+  isExternal: true
+  name: GetEntityCountsForAllUsers
+  nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsers
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState
   isExternal: true
@@ -529,6 +652,42 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
+  isExternal: true
+  name: CollectDataAdditions
+  nameWithType: IDiagnosticsAgent.CollectDataAdditions
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
+  isExternal: true
+  name: CollectWinUsage
+  nameWithType: IDiagnosticsAgent.CollectWinUsage
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
+  isExternal: true
+  name: CollectWebUsage
+  nameWithType: IDiagnosticsAgent.CollectWebUsage
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
+  isExternal: true
+  name: CollectTableSizes
+  nameWithType: IDiagnosticsAgent.CollectTableSizes
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
+  isExternal: true
+  name: ResyncUsers
+  nameWithType: IDiagnosticsAgent.ResyncUsers
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  isExternal: true
+  name: PerformTasksAfterUpgrade
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage
   isExternal: true
@@ -575,8 +734,6 @@ references:
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -587,33 +744,3 @@ references:
   name: GetWebAppUsagesForPeriod
   nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
-  isExternal: true
-  name: CollectDataAdditions
-  nameWithType: IDiagnosticsAgent.CollectDataAdditions
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
-  isExternal: true
-  name: CollectWinUsage
-  nameWithType: IDiagnosticsAgent.CollectWinUsage
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
-  isExternal: true
-  name: CollectWebUsage
-  nameWithType: IDiagnosticsAgent.CollectWebUsage
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
-  isExternal: true
-  name: CollectTableSizes
-  nameWithType: IDiagnosticsAgent.CollectTableSizes
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
-  isExternal: true
-  name: ResyncUsers
-  nameWithType: IDiagnosticsAgent.ResyncUsers
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers

@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.EventHandlerHelper
+  commentId: T:SuperOffice.CRM.EventHandlerHelper
+  id: EventHandlerHelper
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EventHandlerHelper
+  nameWithType: EventHandlerHelper
+  fullName: SuperOffice.CRM.EventHandlerHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nUtility class for event handling methods.\n"
+  syntax:
+    content: 'public static class EventHandlerHelper : Object'
+    content.vb: >-
+      Public Module EventHandlerHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
+  commentId: M:SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
+  id: GetActiveEventHandlerTypes(System.String)
+  parent: SuperOffice.CRM.EventHandlerHelper
+  langs:
+  - csharp
+  - vb
+  name: GetActiveEventHandlerTypes(String)
+  nameWithType: EventHandlerHelper.GetActiveEventHandlerTypes(String)
+  fullName: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static HashSet<EventHandlerType> GetActiveEventHandlerTypes(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: System.Collections.Generic.HashSet{SuperOffice.Data.EventHandlerType}
+    content.vb: Public Shared Function GetActiveEventHandlerTypes(entityName As String) As HashSet(Of EventHandlerType)
+  overload: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  id: ExecuteEventHandler(SuperOffice.Data.EventHandlerType,SuperOffice.CRM.Services.StringDictionary@,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.EventHandlerHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteEventHandler(EventHandlerType, ref StringDictionary, StringDictionary, StringDictionary)
+  nameWithType: EventHandlerHelper.ExecuteEventHandler(EventHandlerType, ref StringDictionary, StringDictionary, StringDictionary)
+  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType, ref SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void ExecuteEventHandler(EventHandlerType eventType, ref StringDictionary sharedState, StringDictionary parameters, StringDictionary parserValues = null)
+    parameters:
+    - id: eventType
+      type: SuperOffice.Data.EventHandlerType
+    - id: sharedState
+      type: SuperOffice.CRM.Services.StringDictionary
+    - id: parameters
+      type: SuperOffice.CRM.Services.StringDictionary
+    - id: parserValues
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Shared Sub ExecuteEventHandler(eventType As EventHandlerType, ByRef sharedState As StringDictionary, parameters As StringDictionary, parserValues As StringDictionary = Nothing)
+  overload: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler*
+  nameWithType.vb: EventHandlerHelper.ExecuteEventHandler(EventHandlerType, ByRef StringDictionary, StringDictionary, StringDictionary)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler(SuperOffice.Data.EventHandlerType, ByRef SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.StringDictionary)
+  name.vb: ExecuteEventHandler(EventHandlerType, ByRef StringDictionary, StringDictionary, StringDictionary)
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes*
+  commentId: Overload:SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes
+  isExternal: true
+  name: GetActiveEventHandlerTypes
+  nameWithType: EventHandlerHelper.GetActiveEventHandlerTypes
+  fullName: SuperOffice.CRM.EventHandlerHelper.GetActiveEventHandlerTypes
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.HashSet{SuperOffice.Data.EventHandlerType}
+  commentId: '!:System.Collections.Generic.HashSet{SuperOffice.Data.EventHandlerType}'
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<EventHandlerType>
+  nameWithType: HashSet<EventHandlerType>
+  fullName: System.Collections.Generic.HashSet<SuperOffice.Data.EventHandlerType>
+  nameWithType.vb: HashSet(Of EventHandlerType)
+  fullName.vb: System.Collections.Generic.HashSet(Of SuperOffice.Data.EventHandlerType)
+  name.vb: HashSet(Of EventHandlerType)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler*
+  commentId: Overload:SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler
+  isExternal: true
+  name: ExecuteEventHandler
+  nameWithType: EventHandlerHelper.ExecuteEventHandler
+  fullName: SuperOffice.CRM.EventHandlerHelper.ExecuteEventHandler
+- uid: SuperOffice.Data.EventHandlerType
+  commentId: T:SuperOffice.Data.EventHandlerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.Data.EventHandlerType
+- uid: SuperOffice.CRM.Services.StringDictionary
+  commentId: T:SuperOffice.CRM.Services.StringDictionary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services

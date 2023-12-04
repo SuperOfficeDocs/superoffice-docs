@@ -1,0 +1,382 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TargetRevision
+  commentId: T:SuperOffice.CRM.Services.TargetRevision
+  id: TargetRevision
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TargetRevision.#ctor
+  - SuperOffice.CRM.Services.TargetRevision.Changes
+  - SuperOffice.CRM.Services.TargetRevision.LogEvent
+  - SuperOffice.CRM.Services.TargetRevision.ToString
+  - SuperOffice.CRM.Services.TargetRevision.ToString(System.String)
+  - SuperOffice.CRM.Services.TargetRevision.When
+  - SuperOffice.CRM.Services.TargetRevision.Who
+  langs:
+  - csharp
+  - vb
+  name: TargetRevision
+  nameWithType: TargetRevision
+  fullName: SuperOffice.CRM.Services.TargetRevision
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTarget revision carrier\n<p></p>\nCarrier object for TargetRevision.\nServices for the TargetRevision Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITargetsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TargetRevision : Carrier'
+    content.vb: >-
+      Public Class TargetRevision
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.TargetsAgent
+    commentId: T:SuperOffice.CRM.Services.TargetsAgent
+  - linkId: SuperOffice.CRM.Services.ITargetsAgent
+    commentId: T:SuperOffice.CRM.Services.ITargetsAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TargetRevision.#ctor
+  commentId: M:SuperOffice.CRM.Services.TargetRevision.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: TargetRevision()
+  nameWithType: TargetRevision.TargetRevision()
+  fullName: SuperOffice.CRM.Services.TargetRevision.TargetRevision()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TargetRevision()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TargetRevision.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TargetRevision.ToString
+  commentId: M:SuperOffice.CRM.Services.TargetRevision.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TargetRevision.ToString()
+  fullName: SuperOffice.CRM.Services.TargetRevision.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TargetRevision.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TargetRevision.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TargetRevision.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TargetRevision.ToString(String)
+  fullName: SuperOffice.CRM.Services.TargetRevision.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TargetRevision.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TargetRevision.LogEvent
+  commentId: P:SuperOffice.CRM.Services.TargetRevision.LogEvent
+  id: LogEvent
+  parent: SuperOffice.CRM.Services.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: LogEvent
+  nameWithType: TargetRevision.LogEvent
+  fullName: SuperOffice.CRM.Services.TargetRevision.LogEvent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLog event class (create, edit, delete, lock, unlock... \n"
+  syntax:
+    content: public virtual LogEvent LogEvent { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.LogEvent
+    content.vb: Public Overridable Property LogEvent As LogEvent
+  overload: SuperOffice.CRM.Services.TargetRevision.LogEvent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetRevision.Who
+  commentId: P:SuperOffice.CRM.Services.TargetRevision.Who
+  id: Who
+  parent: SuperOffice.CRM.Services.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: Who
+  nameWithType: TargetRevision.Who
+  fullName: SuperOffice.CRM.Services.TargetRevision.Who
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWho made the change \n"
+  syntax:
+    content: public virtual Associate Who { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property Who As Associate
+  overload: SuperOffice.CRM.Services.TargetRevision.Who*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetRevision.When
+  commentId: P:SuperOffice.CRM.Services.TargetRevision.When
+  id: When
+  parent: SuperOffice.CRM.Services.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: TargetRevision.When
+  fullName: SuperOffice.CRM.Services.TargetRevision.When
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime When { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property When As DateTime
+  overload: SuperOffice.CRM.Services.TargetRevision.When*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetRevision.Changes
+  commentId: P:SuperOffice.CRM.Services.TargetRevision.Changes
+  id: Changes
+  parent: SuperOffice.CRM.Services.TargetRevision
+  langs:
+  - csharp
+  - vb
+  name: Changes
+  nameWithType: TargetRevision.Changes
+  fullName: SuperOffice.CRM.Services.TargetRevision.Changes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCollection of changes \n"
+  syntax:
+    content: public virtual TargetChange[] Changes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TargetChange[]
+    content.vb: Public Overridable Property Changes As TargetChange()
+  overload: SuperOffice.CRM.Services.TargetRevision.Changes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.TargetsAgent
+  commentId: T:SuperOffice.CRM.Services.TargetsAgent
+  isExternal: true
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.CRM.Services.TargetsAgent
+- uid: SuperOffice.CRM.Services.ITargetsAgent
+  commentId: T:SuperOffice.CRM.Services.ITargetsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITargetsAgent
+  nameWithType: ITargetsAgent
+  fullName: SuperOffice.CRM.Services.ITargetsAgent
+- uid: SuperOffice.CRM.Services.TargetRevision.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TargetRevision.#ctor
+  isExternal: true
+  name: TargetRevision
+  nameWithType: TargetRevision.TargetRevision
+  fullName: SuperOffice.CRM.Services.TargetRevision.TargetRevision
+- uid: SuperOffice.CRM.Services.TargetRevision.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TargetRevision.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TargetRevision.ToString
+  fullName: SuperOffice.CRM.Services.TargetRevision.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TargetRevision.LogEvent*
+  commentId: Overload:SuperOffice.CRM.Services.TargetRevision.LogEvent
+  isExternal: true
+  name: LogEvent
+  nameWithType: TargetRevision.LogEvent
+  fullName: SuperOffice.CRM.Services.TargetRevision.LogEvent
+- uid: SuperOffice.Data.LogEvent
+  commentId: '!:SuperOffice.Data.LogEvent'
+  isExternal: true
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: SuperOffice.Data.LogEvent
+- uid: SuperOffice.CRM.Services.TargetRevision.Who*
+  commentId: Overload:SuperOffice.CRM.Services.TargetRevision.Who
+  isExternal: true
+  name: Who
+  nameWithType: TargetRevision.Who
+  fullName: SuperOffice.CRM.Services.TargetRevision.Who
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.TargetRevision.When*
+  commentId: Overload:SuperOffice.CRM.Services.TargetRevision.When
+  isExternal: true
+  name: When
+  nameWithType: TargetRevision.When
+  fullName: SuperOffice.CRM.Services.TargetRevision.When
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.TargetRevision.Changes*
+  commentId: Overload:SuperOffice.CRM.Services.TargetRevision.Changes
+  isExternal: true
+  name: Changes
+  nameWithType: TargetRevision.Changes
+  fullName: SuperOffice.CRM.Services.TargetRevision.Changes
+- uid: SuperOffice.CRM.Services.TargetChange[]
+  isExternal: true
+  name: TargetChange[]
+  nameWithType: TargetChange[]
+  fullName: SuperOffice.CRM.Services.TargetChange[]
+  nameWithType.vb: TargetChange()
+  fullName.vb: SuperOffice.CRM.Services.TargetChange()
+  name.vb: TargetChange()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TargetChange
+    name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.CRM.Services.TargetChange
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TargetChange
+    name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.CRM.Services.TargetChange
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

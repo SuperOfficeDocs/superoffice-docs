@@ -1,0 +1,1243 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData
+  commentId: T:SuperOffice.CRM.Rows.EmailFlowRecordData
+  id: EmailFlowRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.EmailFlowId
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.FromAddr
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.FromName
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.FromType
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.GaCampaign
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.GaSource
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.HierarchyId
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.OverrideConsentSubscription
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.Registered
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToAddr
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToName
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToType
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.SelectedDays
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.ShipmentTypeId
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.SmsSender
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeEnd
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeStart
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.Updated
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.UseGoogleAnalytics
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.UseTimeframe
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.WorkflowId
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowRecordData
+  nameWithType: EmailFlowRecordData
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the email_flow table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.EmailFlowRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.EmailFlowTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class EmailFlowRecordData : Object'
+    content.vb: >-
+      Public Class EmailFlowRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.EmailFlowId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: EmailFlowRecordData.EmailFlowId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.EmailFlowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int EmailFlowId
+    return:
+      type: System.Int32
+    content.vb: Public EmailFlowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.WorkflowId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: EmailFlowRecordData.WorkflowId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe flow this instance belongs to \n"
+  syntax:
+    content: public int WorkflowId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.ShipmentTypeId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.ShipmentTypeId
+  id: ShipmentTypeId
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: ShipmentTypeId
+  nameWithType: EmailFlowRecordData.ShipmentTypeId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.ShipmentTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMailing type (subscription type) \n"
+  syntax:
+    content: public int ShipmentTypeId
+    return:
+      type: System.Int32
+    content.vb: Public ShipmentTypeId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.OverrideConsentSubscription
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.OverrideConsentSubscription
+  id: OverrideConsentSubscription
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: OverrideConsentSubscription
+  nameWithType: EmailFlowRecordData.OverrideConsentSubscription
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.OverrideConsentSubscription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOverride consent and subscription \n"
+  syntax:
+    content: public short OverrideConsentSubscription
+    return:
+      type: System.Int16
+    content.vb: Public OverrideConsentSubscription As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: EmailFlowRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: EmailFlowRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: EmailFlowRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: EmailFlowRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: EmailFlowRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.HierarchyId
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: EmailFlowRecordData.HierarchyId
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.HierarchyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThis email flow is inside that hierarchy folder \n"
+  syntax:
+    content: public int HierarchyId
+    return:
+      type: System.Int32
+    content.vb: Public HierarchyId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.FromName
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.FromName
+  id: FromName
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: EmailFlowRecordData.FromName
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.FromName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail From name \n"
+  syntax:
+    content: public string FromName
+    return:
+      type: System.String
+    content.vb: Public FromName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.FromAddr
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.FromAddr
+  id: FromAddr
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: FromAddr
+  nameWithType: EmailFlowRecordData.FromAddr
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.FromAddr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail From address: name@domain.com \n"
+  syntax:
+    content: public string FromAddr
+    return:
+      type: System.String
+    content.vb: Public FromAddr As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToAddr
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToAddr
+  id: ReplyToAddr
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyToAddr
+  nameWithType: EmailFlowRecordData.ReplyToAddr
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToAddr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nReply to address, if different from From-address \n"
+  syntax:
+    content: public string ReplyToAddr
+    return:
+      type: System.String
+    content.vb: Public ReplyToAddr As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.SmsSender
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.SmsSender
+  id: SmsSender
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: SmsSender
+  nameWithType: EmailFlowRecordData.SmsSender
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.SmsSender
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSMS sender (number or name) \n"
+  syntax:
+    content: public string SmsSender
+    return:
+      type: System.String
+    content.vb: Public SmsSender As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.UseTimeframe
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.UseTimeframe
+  id: UseTimeframe
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: UseTimeframe
+  nameWithType: EmailFlowRecordData.UseTimeframe
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.UseTimeframe
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUse sender timeframe settings, only send email/sms within the timeframe \n"
+  syntax:
+    content: public short UseTimeframe
+    return:
+      type: System.Int16
+    content.vb: Public UseTimeframe As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.SelectedDays
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.SelectedDays
+  id: SelectedDays
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: SelectedDays
+  nameWithType: EmailFlowRecordData.SelectedDays
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.SelectedDays
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSelected days (flags, so several days can be selected) for time frame \n"
+  syntax:
+    content: public Weekday SelectedDays
+    return:
+      type: SuperOffice.Data.Weekday
+    content.vb: Public SelectedDays As Weekday
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeStart
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeStart
+  id: TimeframeStart
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeframeStart
+  nameWithType: EmailFlowRecordData.TimeframeStart
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nStart of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used in UTC.  \n"
+  syntax:
+    content: public DateTime TimeframeStart
+    return:
+      type: System.DateTime
+    content.vb: Public TimeframeStart As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeEnd
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeEnd
+  id: TimeframeEnd
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeframeEnd
+  nameWithType: EmailFlowRecordData.TimeframeEnd
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.TimeframeEnd
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnd of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used in UTC.  \n"
+  syntax:
+    content: public DateTime TimeframeEnd
+    return:
+      type: System.DateTime
+    content.vb: Public TimeframeEnd As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.UseGoogleAnalytics
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.UseGoogleAnalytics
+  id: UseGoogleAnalytics
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: UseGoogleAnalytics
+  nameWithType: EmailFlowRecordData.UseGoogleAnalytics
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.UseGoogleAnalytics
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUse Google Analytics \n"
+  syntax:
+    content: public short UseGoogleAnalytics
+    return:
+      type: System.Int16
+    content.vb: Public UseGoogleAnalytics As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.GaSource
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.GaSource
+  id: GaSource
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: GaSource
+  nameWithType: EmailFlowRecordData.GaSource
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.GaSource
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGA Source \n"
+  syntax:
+    content: public string GaSource
+    return:
+      type: System.String
+    content.vb: Public GaSource As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.GaCampaign
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.GaCampaign
+  id: GaCampaign
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: GaCampaign
+  nameWithType: EmailFlowRecordData.GaCampaign
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.GaCampaign
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGA Campaign \n"
+  syntax:
+    content: public string GaCampaign
+    return:
+      type: System.String
+    content.vb: Public GaCampaign As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.FromType
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.FromType
+  id: FromType
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: FromType
+  nameWithType: EmailFlowRecordData.FromType
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.FromType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail/Mailing From field address algorithm \n"
+  syntax:
+    content: public EmailFromType FromType
+    return:
+      type: SuperOffice.Data.EmailFromType
+    content.vb: Public FromType As EmailFromType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToType
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToType
+  id: ReplyToType
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyToType
+  nameWithType: EmailFlowRecordData.ReplyToType
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail/Mailing Reply-To field address algorithm \n"
+  syntax:
+    content: public EmailReplyToType ReplyToType
+    return:
+      type: SuperOffice.Data.EmailReplyToType
+    content.vb: Public ReplyToType As EmailReplyToType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToName
+  commentId: F:SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToName
+  id: ReplyToName
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyToName
+  nameWithType: EmailFlowRecordData.ReplyToName
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.ReplyToName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail Reply-To name \n"
+  syntax:
+    content: public string ReplyToName
+    return:
+      type: System.String
+    content.vb: Public ReplyToName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordData
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowRecordData()
+  nameWithType: EmailFlowRecordData.EmailFlowRecordData()
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.EmailFlowRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public EmailFlowRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EmailFlowRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<EmailFlowRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.EmailFlowRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EmailFlowRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.EmailFlowRecordData, To)()
+  name.vb: MapEnums(Of EmailFlowRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EmailFlowRecordData, To>
+    nameWithType: EnumUtil.MapEnums<EmailFlowRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.EmailFlowRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EmailFlowRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of EmailFlowRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.EmailFlowRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EmailFlowRecordData>(EmailFlowRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<EmailFlowRecordData>(EmailFlowRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.EmailFlowRecordData>(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EmailFlowRecordData)(EmailFlowRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.EmailFlowRecordData)(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  name.vb: AssignByReflection(Of EmailFlowRecordData)(EmailFlowRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EmailFlowRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<EmailFlowRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.EmailFlowRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordData
+    name: EmailFlowRecordData
+    nameWithType: EmailFlowRecordData
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EmailFlowRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EmailFlowRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.EmailFlowRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordData
+    name: EmailFlowRecordData
+    nameWithType: EmailFlowRecordData
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EmailFlowRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<EmailFlowRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.EmailFlowRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EmailFlowRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.EmailFlowRecordData)()
+  name.vb: GraphCopy(Of EmailFlowRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EmailFlowRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<EmailFlowRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.EmailFlowRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EmailFlowRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of EmailFlowRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.EmailFlowRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  parent: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  name: ToInsert()
+  nameWithType: EmailFlowRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: EmailFlowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: EmailFlowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EmailFlowRecordData, To>()
+  nameWithType: Converters.MapEnums<EmailFlowRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.EmailFlowRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of EmailFlowRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.EmailFlowRecordData, To)()
+  name.vb: MapEnums(Of EmailFlowRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EmailFlowRecordData, To>
+    nameWithType: Converters.MapEnums<EmailFlowRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.EmailFlowRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EmailFlowRecordData, To)
+    nameWithType: Converters.MapEnums(Of EmailFlowRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.EmailFlowRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  commentId: M:SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  isExternal: true
+  name: ToInsert(EmailFlowRecordData)
+  nameWithType: EmailFlowRecordDataExtensions.ToInsert(EmailFlowRecordData)
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowRecordData)
+    name: ToInsert
+    nameWithType: EmailFlowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordData
+    name: EmailFlowRecordData
+    nameWithType: EmailFlowRecordData
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EmailFlowRecordData)
+    name: ToInsert
+    nameWithType: EmailFlowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EmailFlowRecordData
+    name: EmailFlowRecordData
+    nameWithType: EmailFlowRecordData
+    fullName: SuperOffice.CRM.Rows.EmailFlowRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: EmailFlowRecordDataExtensions
+  nameWithType: EmailFlowRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.Weekday
+  commentId: T:SuperOffice.Data.Weekday
+  parent: SuperOffice.Data
+  isExternal: true
+  name: Weekday
+  nameWithType: Weekday
+  fullName: SuperOffice.Data.Weekday
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.EmailFromType
+  commentId: T:SuperOffice.Data.EmailFromType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: SuperOffice.Data.EmailFromType
+- uid: SuperOffice.Data.EmailReplyToType
+  commentId: T:SuperOffice.Data.EmailReplyToType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: SuperOffice.Data.EmailReplyToType
+- uid: SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailFlowRecordData.#ctor
+  isExternal: true
+  name: EmailFlowRecordData
+  nameWithType: EmailFlowRecordData.EmailFlowRecordData
+  fullName: SuperOffice.CRM.Rows.EmailFlowRecordData.EmailFlowRecordData

@@ -22,9 +22,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddSubExtenderMapping(System.String,SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedBy(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedByMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AllowOrderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverrides(SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.BlockOrderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.CalculateOrderbyValue(System.String,SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ColumnHelper
@@ -54,6 +55,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetLinkHint(SuperOffice.Data.SoDataReader,System.String)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNoneRestriction
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetStandardTooltipHint(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetTableInfosFromExtensionProviders
@@ -65,7 +67,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.IsQueryNeeded
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.IsQueryRestriction
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.LastSubExtenderWins
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapEjUserField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapIdField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapOrderByField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
@@ -92,6 +94,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SaleId
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetIconHint(System.String)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLocalAbsolutePrefixes(System.String,System.String)
@@ -130,9 +134,12 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis is the &apos;root&apos; base class for the Extender and Provider base classes and providers. It contains\ncommon functionality, including facades for the <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ColumnHelper\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtensibleHelper\" data-throw-if-not-resolved=\"false\"></xref>\nclasses. It implements the <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible\" data-throw-if-not-resolved=\"false\"></xref>\ninterfaces, and defines its own contract for derived classes through the declaration of abstract methods.\n<p></p>\nPartner-defined providers are expected to inherit either <see cref=\"!:ExtenderBase\"></see> or \n<see cref=\"!:QueryProviderBase\"></see>, which specialize and provide more functionality.\n"
   syntax:
-    content: 'public abstract class ExtensibleColumnsBase : IArchiveProviderHasColumns, IArchiveProviderExtensible, IArchiveProviderQueryMapping'
+    content: 'public abstract class ExtensibleColumnsBase : Object, IArchiveProviderHasColumns, IArchiveProviderExtensible, IArchiveProviderQueryMapping'
     content.vb: >-
       Public MustInherit Class ExtensibleColumnsBase
+
+          Inherits Object
+
           Implements IArchiveProviderHasColumns, IArchiveProviderExtensible, IArchiveProviderQueryMapping
   inheritance:
   - System.Object
@@ -143,14 +150,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -398,6 +397,37 @@ items:
   modifiers.vb:
   - Protected
   - Overridable
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+  id: GetNameOrOverrideName(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  langs:
+  - csharp
+  - vb
+  name: GetNameOrOverrideName(String)
+  nameWithType: ExtensibleColumnsBase.GetNameOrOverrideName(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the column name override\n"
+  syntax:
+    content: public string GetNameOrOverrideName(string originalName)
+    parameters:
+    - id: originalName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetNameOrOverrideName(originalName As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.#ctor
   id: '#ctor'
@@ -1044,7 +1074,7 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nAdd a column name override. Overrides work by being applied to the result of the <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetAvailableColumns\" data-throw-if-not-resolved=\"false\"></xref>,\nand again (in reverse) in the implementation of <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>.\nThe original name of an override column must include any prefixes and the prefix separators.\n"
   syntax:
-    content: protected void AddColumnNameOverride(string originalName, string overrideName)
+    content: public void AddColumnNameOverride(string originalName, string overrideName)
     parameters:
     - id: originalName
       type: System.String
@@ -1052,8 +1082,34 @@ items:
     - id: overrideName
       type: System.String
       description: Name to substitute
-    content.vb: Protected Sub AddColumnNameOverride(originalName As String, overrideName As String)
+    content.vb: Public Sub AddColumnNameOverride(originalName As String, overrideName As String)
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddColumnNameOverride*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+  id: ApplyColumnNameOverridesToRestrictions
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  langs:
+  - csharp
+  - vb
+  name: ApplyColumnNameOverridesToRestrictions()
+  nameWithType: ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions()
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAfter restrictions have been processed, column name overrides that apply to sub-extenders need to be\napplied to the sql expansions generated, since sub-extenders are unaware of the overrides created by their parents.\n"
+  syntax:
+    content: protected void ApplyColumnNameOverridesToRestrictions()
+    content.vb: Protected Sub ApplyColumnNameOverridesToRestrictions
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions*
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1591,6 +1647,64 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  id: SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  langs:
+  - csharp
+  - vb
+  name: SetLeftOuterJoin(Equal)
+  nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin(Equal)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected void SetLeftOuterJoin(Equal primary)
+    parameters:
+    - id: primary
+      type: SuperOffice.Data.SQL.Equal
+    content.vb: Protected Sub SetLeftOuterJoin(primary As Equal)
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  id: SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  langs:
+  - csharp
+  - vb
+  name: SetLeftOuterJoin(Equal, Restriction)
+  nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin(Equal, Restriction)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal, SuperOffice.Data.SQL.Restriction)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected void SetLeftOuterJoin(Equal primary, Restriction additional)
+    parameters:
+    - id: primary
+      type: SuperOffice.Data.SQL.Equal
+    - id: additional
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Protected Sub SetLeftOuterJoin(primary As Equal, additional As Restriction)
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   id: SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
@@ -1748,16 +1862,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
-  id: MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
+  id: MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
   langs:
   - csharp
   - vb
-  name: MapAssociateField(FieldInfo, ArchiveColumnInfo)
-  nameWithType: ExtensibleColumnsBase.MapAssociateField(FieldInfo, ArchiveColumnInfo)
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name: MapAssociateField(FieldInfo, ArchiveColumnInfo, Boolean)
+  nameWithType: ExtensibleColumnsBase.MapAssociateField(FieldInfo, ArchiveColumnInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -1767,7 +1881,7 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nBind a column definition to a database field as an Associate. This will result in a column of type string,\ncontaining the associate user name and an appropriate tooltip hint, by magic.\n"
   syntax:
-    content: protected void MapAssociateField(FieldInfo fieldInfo, ArchiveColumnInfo column)
+    content: protected void MapAssociateField(FieldInfo fieldInfo, ArchiveColumnInfo column, bool handledByBaseClass = true)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
@@ -1775,7 +1889,9 @@ items:
     - id: column
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
       description: Archive column definition to map to
-    content.vb: Protected Sub MapAssociateField(fieldInfo As FieldInfo, column As ArchiveColumnInfo)
+    - id: handledByBaseClass
+      type: System.Boolean
+    content.vb: Protected Sub MapAssociateField(fieldInfo As FieldInfo, column As ArchiveColumnInfo, handledByBaseClass As Boolean = True)
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField*
   modifiers.csharp:
   - protected
@@ -2149,6 +2265,7 @@ items:
   syntax:
     content: >-
       protected ExtenderType AddAndInitializeExtensionProvider<ExtenderType>(ExtenderType extender, string namePrefix, string displayNamePrefix)
+
           where ExtenderType : IArchiveExtender
     parameters:
     - id: extender
@@ -2196,6 +2313,7 @@ items:
   syntax:
     content: >-
       protected ExtenderType AddAndInitializeExtensionProvider<ExtenderType>(ExtenderType extender)
+
           where ExtenderType : IArchiveExtender
     parameters:
     - id: extender
@@ -2457,7 +2575,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nHandle the population of an ArchiveRow with fields that are known to this base class and\nhave been bound with a flag declaring that they should be handled by the base class.\n"
-  remarks: "\nPopulation includes conversion from typed data values into strings via InvariantCulture\nformat providers, lookup of list items, and generation of standard tooltip hints. List\nitem lookup is based on the <xref href=\"SuperOffice.CRM.Cache.MDOListTableCache\" data-throw-if-not-resolved=\"false\"></xref>. Tooltip hints can be overwritten\nby the derived class if desired.\n<p></p>\nColumn binding to data must be done using the <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapReturnField(SuperOffice.CRM.ArchiveLists.ArchiveSelect%2cSuperOffice.Data.SQL.FieldInfo%2cSystem.Boolean%2cSystem.String%2cSuperOffice.CRM.ArchiveLists.ArchiveColumnInfo%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method or one of\nits alternatives.\n"
+  remarks: "\nPopulation includes conversion from typed data values into strings via InvariantCulture\nformat providers, lookup of list items, and generation of standard tooltip hints. List\nitem lookup is based on the <see cref=\"!:MDOListTableCache\"></see>. Tooltip hints can be overwritten\nby the derived class if desired.\n<p></p>\nColumn binding to data must be done using the <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapReturnField(SuperOffice.CRM.ArchiveLists.ArchiveSelect%2cSuperOffice.Data.SQL.FieldInfo%2cSystem.Boolean%2cSystem.String%2cSuperOffice.CRM.ArchiveLists.ArchiveColumnInfo%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method or one of\nits alternatives.\n"
   syntax:
     content: protected void PopulateSimpleFields(SoDataReader reader, ArchiveRow row)
     parameters:
@@ -2999,16 +3117,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
-  id: AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
+  id: AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
   langs:
   - csharp
   - vb
-  name: AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo)
-  nameWithType: ExtensibleColumnsBase.AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo)
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
+  name: AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo, Boolean)
+  nameWithType: ExtensibleColumnsBase.AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -3017,7 +3135,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected void AddUpdatedDate(SoDataReader reader, ArchiveRow row, ArchiveColumnInfo column, FieldInfo registered, FieldInfo updated)
+    content: protected void AddUpdatedDate(SoDataReader reader, ArchiveRow row, ArchiveColumnInfo column, FieldInfo registered, FieldInfo updated, bool convertToUtc = false)
     parameters:
     - id: reader
       type: SuperOffice.Data.SoDataReader
@@ -3029,7 +3147,9 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: updated
       type: SuperOffice.Data.SQL.FieldInfo
-    content.vb: Protected Sub AddUpdatedDate(reader As SoDataReader, row As ArchiveRow, column As ArchiveColumnInfo, registered As FieldInfo, updated As FieldInfo)
+    - id: convertToUtc
+      type: System.Boolean
+    content.vb: Protected Sub AddUpdatedDate(reader As SoDataReader, row As ArchiveRow, column As ArchiveColumnInfo, registered As FieldInfo, updated As FieldInfo, convertToUtc As Boolean = False)
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate*
   modifiers.csharp:
   - protected
@@ -3869,285 +3989,6 @@ references:
   name: IArchiveProviderQueryMapping
   nameWithType: IArchiveProviderQueryMapping
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -4320,8 +4161,7 @@ references:
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, FieldInfo>
   nameWithType: Dictionary<String, FieldInfo>
@@ -4380,14 +4220,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -4397,15 +4236,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4418,24 +4257,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -4476,6 +4309,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName
+  isExternal: true
+  name: GetNameOrOverrideName
+  nameWithType: ExtensibleColumnsBase.GetNameOrOverrideName
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.#ctor
   isExternal: true
@@ -4558,8 +4397,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}'
   definition: System.Collections.Generic.List`1
   name: List<ArchiveColumnInfo>
   nameWithType: List<ArchiveColumnInfo>
@@ -4602,14 +4440,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -4619,9 +4456,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4634,9 +4471,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -5015,8 +4852,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<IArchiveExtender>
   nameWithType: IEnumerable<IArchiveExtender>
@@ -5059,14 +4895,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -5076,9 +4911,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5091,9 +4926,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -5104,8 +4939,7 @@ references:
   nameWithType: ExtensibleColumnsBase.GetTableInfosFromExtensionProviders
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetTableInfosFromExtensionProviders
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<TableInfo>
   nameWithType: IEnumerable<TableInfo>
@@ -5184,6 +5018,12 @@ references:
   name: AddColumnNameOverride
   nameWithType: ExtensibleColumnsBase.AddColumnNameOverride
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddColumnNameOverride
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+  isExternal: true
+  name: ApplyColumnNameOverridesToRestrictions
+  nameWithType: ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverrides*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverrides
   isExternal: true
@@ -5298,6 +5138,12 @@ references:
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin
+  isExternal: true
+  name: SetLeftOuterJoin
+  nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin
   isExternal: true
@@ -5440,8 +5286,7 @@ references:
   nameWithType: ExtensibleColumnsBase.ExtractRestrictions
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtractRestrictions
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}'
   definition: System.Collections.Generic.List`1
   name: List<ArchiveRestrictionInfo>
   nameWithType: List<ArchiveRestrictionInfo>

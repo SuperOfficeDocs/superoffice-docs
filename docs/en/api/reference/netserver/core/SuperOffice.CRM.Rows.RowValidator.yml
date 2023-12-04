@@ -13,19 +13,25 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ToException
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ActivityStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AddressType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AiTextStyle@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AllDayEvent@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppAvailState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentCautionWarning@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ArchiveBehaviour@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AssignmentStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AssociateType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BadgeType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskCancellationBehaviour@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BlobLinkType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BookingType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CalMethod@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CalReplyStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CcTemplateType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChangePasswordType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChatMessageSpecialType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChatMessageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChatSessionFlags@,SuperOffice.Data.SQL.FieldInfo)
@@ -50,6 +56,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileEntityType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileMeasure@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileUsage@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DeltaState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DeltaType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DesignType@,SuperOffice.Data.SQL.FieldInfo)
@@ -65,8 +72,10 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ElementStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailAccountStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EMailFlags@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailFromType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EMailMergeTargetType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EMailPriority@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailReplyToType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ErpActorType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ErpSyncResponseCode@,SuperOffice.Data.SQL.FieldInfo)
@@ -84,6 +93,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FreeBusy@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FreeTextOperator@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.GeneratorEncoding@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ImageEmbedType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ImportAction@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ImportBlankAction@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ImportCompanyDuplicateAction@,SuperOffice.Data.SQL.FieldInfo)
@@ -97,9 +107,15 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.InterRestrictionOperator@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.InvitationStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LocalizedTextType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LogEvent@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LoginFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MailboxType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageActionType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItem@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItemCol@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ModifiedAppointmentFields@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Navigation@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationEventType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationMessageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationPlatform@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.OrderBySortType@,SuperOffice.Data.SQL.FieldInfo)
@@ -112,6 +128,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.QuoteVersionButtonAction@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.QuoteVersionState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecipientSorting@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecipientType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecurrenceDailyPattern@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecurrenceEndType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecurrenceMonthlyPattern@,SuperOffice.Data.SQL.FieldInfo)
@@ -119,7 +136,11 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecurrenceUpdateMode@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecurrenceYearlyPattern@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RefcountFlags@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Registry@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RelationTarget@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateBodyFlags@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReportCategory@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReportLayout@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReportPaperOrientation@,SuperOffice.Data.SQL.FieldInfo)
@@ -127,12 +148,14 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SaleDone@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SaleStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ScreenChooserType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ScriptType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SelectionSystemType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SelectionType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SelectionUnionType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SenderMailMode@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ServiceAuthStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentAddrStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkAction@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkTaskFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkType@,SuperOffice.Data.SQL.FieldInfo)
@@ -140,22 +163,33 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentMessageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShowState@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShowTaskItemInClient@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShowWindowState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.StatusScreenPanelType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.StringSearchType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SystemEventScope@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TagEntity@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetAssignementLevel@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetEntityType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetLevel@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetMeasurementUnit@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetPeriodType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TaskDirection@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TaskListItemType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TaskType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TemporaryKeyDomain@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TextType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketAlertAction@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketBaseStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketCategoryClosingStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketCategoryDelegateMethod@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketCategoryFlags@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketLogAction@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketLogFieldChange@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketMessageCategory@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketMessageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketOrigin@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityEscalateAction@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityEscalateEvent@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityStatus@,SuperOffice.Data.SQL.FieldInfo)
@@ -180,6 +214,18 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WeekOfMonth@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetRequiredFields@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowActionType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowDefinitionStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowEventType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowInstanceStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowOwnerType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowSaleDateType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowSplitOptionType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowStepType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTimeWaitAlgorithm@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTimeWaitIntervalType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTriggerType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.License.LicenseType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.NetServerBuildType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(System.Boolean@,SuperOffice.Data.SQL.FieldInfo)
@@ -212,55 +258,13 @@ items:
   example:
   - "\nValidate a field and throw an exception if the validation fails.\n<pre><code>RowValidator validator = new RowValidator(&quot;myTable&quot;);\nvalidator.ValidateField(ref myField, myTableInfo.MyField);\nif (!validator.ToBool())\n	throw validator.ToException();</code></pre>\n"
   syntax:
-    content: 'public class RowValidator : Hashtable, IDictionary, ICollection, IEnumerable, ISerializable, IDeserializationCallback, ICloneable'
+    content: 'public class RowValidator : Hashtable'
     content.vb: >-
       Public Class RowValidator
+
           Inherits Hashtable
-          Implements IDictionary, ICollection, IEnumerable, ISerializable, IDeserializationCallback, ICloneable
   inheritance:
   - System.Object
-  - System.Collections.Hashtable
-  implements:
-  - System.Collections.IDictionary
-  - System.Collections.ICollection
-  - System.Collections.IEnumerable
-  - System.Runtime.Serialization.ISerializable
-  - System.Runtime.Serialization.IDeserializationCallback
-  - System.ICloneable
-  inheritedMembers:
-  - System.Collections.Hashtable.Add(System.Object,System.Object)
-  - System.Collections.Hashtable.Clear
-  - System.Collections.Hashtable.Clone
-  - System.Collections.Hashtable.Contains(System.Object)
-  - System.Collections.Hashtable.ContainsKey(System.Object)
-  - System.Collections.Hashtable.ContainsValue(System.Object)
-  - System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
-  - System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
-  - System.Collections.Hashtable.GetEnumerator
-  - System.Collections.Hashtable.GetHash(System.Object)
-  - System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
-  - System.Collections.Hashtable.Remove(System.Object)
-  - System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
-  - System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  - System.Collections.Hashtable.OnDeserialization(System.Object)
-  - System.Collections.Hashtable.hcp
-  - System.Collections.Hashtable.comparer
-  - System.Collections.Hashtable.EqualityComparer
-  - System.Collections.Hashtable.Item(System.Object)
-  - System.Collections.Hashtable.IsReadOnly
-  - System.Collections.Hashtable.IsFixedSize
-  - System.Collections.Hashtable.IsSynchronized
-  - System.Collections.Hashtable.Keys
-  - System.Collections.Hashtable.Values
-  - System.Collections.Hashtable.SyncRoot
-  - System.Collections.Hashtable.Count
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.RowValidator.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.RowValidator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -319,10 +323,7 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nObsolete! Validate that a field does not have a null/zero value\n"
   syntax:
-    content: >-
-      [Obsolete("Use ValidateField instead", true)]
-
-      public bool ValidateNotZero(string fieldName, object fieldValue, FieldDataType type)
+    content: public bool ValidateNotZero(string fieldName, object fieldValue, FieldDataType type)
     parameters:
     - id: fieldName
       type: System.String
@@ -336,19 +337,8 @@ items:
     return:
       type: System.Boolean
       description: False if the field does not meet vaidation requirements
-    content.vb: >-
-      <Obsolete("Use ValidateField instead", True)>
-
-      Public Function ValidateNotZero(fieldName As String, fieldValue As Object, type As FieldDataType) As Boolean
+    content.vb: Public Function ValidateNotZero(fieldName As String, fieldValue As Object, type As FieldDataType) As Boolean
   overload: SuperOffice.CRM.Rows.RowValidator.ValidateNotZero*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use ValidateField instead
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -372,10 +362,7 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nObsolete! Validate that a string does not exceed its&apos; maximum length.\n"
   syntax:
-    content: >-
-      [Obsolete("Use ValidateField instead", true)]
-
-      public bool ValidateStringLength(string fieldName, int maxLength, string fieldValue)
+    content: public bool ValidateStringLength(string fieldName, int maxLength, string fieldValue)
     parameters:
     - id: fieldName
       type: System.String
@@ -389,19 +376,8 @@ items:
     return:
       type: System.Boolean
       description: False if the field does not meet vaidation requirements
-    content.vb: >-
-      <Obsolete("Use ValidateField instead", True)>
-
-      Public Function ValidateStringLength(fieldName As String, maxLength As Integer, fieldValue As String) As Boolean
+    content.vb: Public Function ValidateStringLength(fieldName As String, maxLength As Integer, fieldValue As String) As Boolean
   overload: SuperOffice.CRM.Rows.RowValidator.ValidateStringLength*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use ValidateField instead
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -611,7 +587,7 @@ items:
     return:
       type: System.Boolean
       description: True of the field validated successfully.
-    content.vb: Public Function ValidateField(ByRef field As Date, fieldInfo As FieldInfo) As Boolean
+    content.vb: Public Function ValidateField(ByRef field As DateTime, fieldInfo As FieldInfo) As Boolean
   overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
   nameWithType.vb: RowValidator.ValidateField(ByRef DateTime, FieldInfo)
   modifiers.csharp:
@@ -3728,6 +3704,76 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TicketBaseStatus, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef TicketBaseStatus, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketLogAction@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketLogAction@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TicketLogAction@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TicketLogAction, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TicketLogAction, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TicketLogAction, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TicketLogAction field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TicketLogAction
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TicketLogAction, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TicketLogAction, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TicketLogAction, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TicketLogAction, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketLogFieldChange@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketLogFieldChange@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TicketLogFieldChange@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TicketLogFieldChange, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TicketLogFieldChange, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TicketLogFieldChange, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TicketLogFieldChange field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TicketLogFieldChange
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TicketLogFieldChange, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TicketLogFieldChange, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TicketLogFieldChange, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TicketLogFieldChange, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReportCategory@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReportCategory@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.ReportCategory@,SuperOffice.Data.SQL.FieldInfo)
@@ -3868,6 +3914,41 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.BatchTaskState, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef BatchTaskState, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskCancellationBehaviour@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskCancellationBehaviour@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.BatchTaskCancellationBehaviour@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref BatchTaskCancellationBehaviour, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref BatchTaskCancellationBehaviour, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.BatchTaskCancellationBehaviour, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref BatchTaskCancellationBehaviour field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.BatchTaskCancellationBehaviour
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As BatchTaskCancellationBehaviour, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef BatchTaskCancellationBehaviour, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.BatchTaskCancellationBehaviour, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef BatchTaskCancellationBehaviour, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SelectionType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.SelectionType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.SelectionType@,SuperOffice.Data.SQL.FieldInfo)
@@ -4323,6 +4404,776 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.DashTileEntityType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef DashTileEntityType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileUsage@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileUsage@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.DashTileUsage@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref DashTileUsage, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref DashTileUsage, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.DashTileUsage, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref DashTileUsage field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.DashTileUsage
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As DashTileUsage, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef DashTileUsage, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.DashTileUsage, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef DashTileUsage, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetAssignementLevel@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetAssignementLevel@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TargetAssignementLevel@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TargetAssignementLevel, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TargetAssignementLevel, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TargetAssignementLevel, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TargetAssignementLevel field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TargetAssignementLevel
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TargetAssignementLevel, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TargetAssignementLevel, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TargetAssignementLevel, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TargetAssignementLevel, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetEntityType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetEntityType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TargetEntityType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TargetEntityType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TargetEntityType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TargetEntityType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TargetEntityType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TargetEntityType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TargetEntityType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TargetEntityType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TargetEntityType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TargetEntityType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetMeasurementUnit@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetMeasurementUnit@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TargetMeasurementUnit@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TargetMeasurementUnit, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TargetMeasurementUnit, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TargetMeasurementUnit, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TargetMeasurementUnit field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TargetMeasurementUnit
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TargetMeasurementUnit, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TargetMeasurementUnit, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TargetMeasurementUnit, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TargetMeasurementUnit, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetPeriodType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetPeriodType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TargetPeriodType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TargetPeriodType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TargetPeriodType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TargetPeriodType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TargetPeriodType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TargetPeriodType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TargetPeriodType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TargetPeriodType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TargetPeriodType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TargetPeriodType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetLevel@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TargetLevel@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TargetLevel@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TargetLevel, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TargetLevel, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TargetLevel, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TargetLevel field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TargetLevel
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TargetLevel, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TargetLevel, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TargetLevel, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TargetLevel, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LogEvent@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LogEvent@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.LogEvent@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref LogEvent, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref LogEvent, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.LogEvent, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref LogEvent field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.LogEvent
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As LogEvent, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef LogEvent, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.LogEvent, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef LogEvent, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowInstanceStatus@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowInstanceStatus@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowInstanceStatus@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowInstanceStatus, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowInstanceStatus, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowInstanceStatus, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowInstanceStatus field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowInstanceStatus, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowInstanceStatus, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowInstanceStatus, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowInstanceStatus, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowDefinitionStatus@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowDefinitionStatus@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowDefinitionStatus@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowDefinitionStatus, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowDefinitionStatus, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowDefinitionStatus, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowDefinitionStatus field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowDefinitionStatus
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowDefinitionStatus, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowDefinitionStatus, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowDefinitionStatus, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowDefinitionStatus, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowOwnerType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowOwnerType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowOwnerType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowOwnerType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowOwnerType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowOwnerType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowOwnerType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowOwnerType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowOwnerType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowOwnerType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowOwnerType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowOwnerType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailFromType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailFromType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.EmailFromType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref EmailFromType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref EmailFromType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.EmailFromType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref EmailFromType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.EmailFromType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As EmailFromType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef EmailFromType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.EmailFromType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef EmailFromType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailReplyToType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailReplyToType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.EmailReplyToType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref EmailReplyToType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref EmailReplyToType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.EmailReplyToType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref EmailReplyToType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.EmailReplyToType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As EmailReplyToType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef EmailReplyToType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.EmailReplyToType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef EmailReplyToType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTimeWaitAlgorithm@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTimeWaitAlgorithm@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowTimeWaitAlgorithm@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowTimeWaitAlgorithm, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowTimeWaitAlgorithm, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowTimeWaitAlgorithm, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowTimeWaitAlgorithm field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowTimeWaitAlgorithm
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowTimeWaitAlgorithm, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowTimeWaitAlgorithm, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowTimeWaitAlgorithm, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowTimeWaitAlgorithm, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowActionType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowActionType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowActionType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowActionType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowActionType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowActionType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowActionType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowActionType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowActionType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowActionType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowActionType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowActionType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowSaleDateType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowSaleDateType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowSaleDateType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowSaleDateType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowSaleDateType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowSaleDateType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowSaleDateType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowSaleDateType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowSaleDateType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowSaleDateType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowSaleDateType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowSaleDateType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTimeWaitIntervalType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTimeWaitIntervalType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowTimeWaitIntervalType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowTimeWaitIntervalType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowTimeWaitIntervalType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowTimeWaitIntervalType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowTimeWaitIntervalType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowTimeWaitIntervalType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowTimeWaitIntervalType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowTimeWaitIntervalType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowTimeWaitIntervalType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowTimeWaitIntervalType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowEventType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowEventType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowEventType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowEventType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowEventType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowEventType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowEventType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowEventType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowEventType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowEventType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowEventType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowEventType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowGoalType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowGoalType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowGoalType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowGoalType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowGoalType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowGoalType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowGoalType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowGoalType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowGoalType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowStepType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowStepType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowStepType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowStepType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowStepType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowStepType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowStepType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowStepType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowStepType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowStepType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowStepType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowStepType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTriggerType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowTriggerType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowTriggerType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowTriggerType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowTriggerType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowTriggerType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowTriggerType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowTriggerType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowTriggerType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowTriggerType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowTriggerType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowTriggerType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowSplitOptionType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowSplitOptionType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WorkflowSplitOptionType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WorkflowSplitOptionType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WorkflowSplitOptionType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WorkflowSplitOptionType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WorkflowSplitOptionType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WorkflowSplitOptionType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As WorkflowSplitOptionType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef WorkflowSplitOptionType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.WorkflowSplitOptionType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef WorkflowSplitOptionType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentFlags@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentFlags@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ShipmentFlags@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ShipmentFlags, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ShipmentFlags, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ShipmentFlags, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ShipmentFlags field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ShipmentFlags
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ShipmentFlags, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ShipmentFlags, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ShipmentFlags, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ShipmentFlags, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ActivityStatus@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ActivityStatus@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.ActivityStatus@,SuperOffice.Data.SQL.FieldInfo)
@@ -5793,6 +6644,426 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.DeltaState, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef DeltaState, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationEventType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationEventType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.NotificationEventType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref NotificationEventType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref NotificationEventType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.NotificationEventType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref NotificationEventType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.NotificationEventType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As NotificationEventType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef NotificationEventType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.NotificationEventType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef NotificationEventType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Registry@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Registry@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.Registry@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref Registry, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref Registry, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.Registry, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref Registry field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.Registry
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As Registry, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef Registry, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.Registry, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef Registry, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChangePasswordType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChangePasswordType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ChangePasswordType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ChangePasswordType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ChangePasswordType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ChangePasswordType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ChangePasswordType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ChangePasswordType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ChangePasswordType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ChangePasswordType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ChangePasswordType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ChangePasswordType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItem@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItem@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.MessageHeaderStdItem@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref MessageHeaderStdItem, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref MessageHeaderStdItem, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.MessageHeaderStdItem, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref MessageHeaderStdItem field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.MessageHeaderStdItem
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As MessageHeaderStdItem, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef MessageHeaderStdItem, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.MessageHeaderStdItem, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef MessageHeaderStdItem, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItemCol@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItemCol@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.MessageHeaderStdItemCol@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref MessageHeaderStdItemCol, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref MessageHeaderStdItemCol, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.MessageHeaderStdItemCol, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref MessageHeaderStdItemCol field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.MessageHeaderStdItemCol
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As MessageHeaderStdItemCol, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef MessageHeaderStdItemCol, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.MessageHeaderStdItemCol, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef MessageHeaderStdItemCol, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageActionType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageActionType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.MessageActionType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref MessageActionType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref MessageActionType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.MessageActionType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref MessageActionType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.MessageActionType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As MessageActionType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef MessageActionType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.MessageActionType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef MessageActionType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecipientType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.RecipientType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.RecipientType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref RecipientType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref RecipientType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.RecipientType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref RecipientType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.RecipientType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As RecipientType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef RecipientType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.RecipientType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef RecipientType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ImageEmbedType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ImageEmbedType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ImageEmbedType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ImageEmbedType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ImageEmbedType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ImageEmbedType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ImageEmbedType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ImageEmbedType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ImageEmbedType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ImageEmbedType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ImageEmbedType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ImageEmbedType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TaskListItemType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TaskListItemType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TaskListItemType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TaskListItemType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TaskListItemType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TaskListItemType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TaskListItemType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TaskListItemType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TaskListItemType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TaskListItemType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TaskListItemType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TaskListItemType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShowTaskItemInClient@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShowTaskItemInClient@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ShowTaskItemInClient@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ShowTaskItemInClient, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ShowTaskItemInClient, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ShowTaskItemInClient, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ShowTaskItemInClient field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ShowTaskItemInClient
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ShowTaskItemInClient, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ShowTaskItemInClient, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ShowTaskItemInClient, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ShowTaskItemInClient, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ArchiveBehaviour@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ArchiveBehaviour@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ArchiveBehaviour@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ArchiveBehaviour, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ArchiveBehaviour, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ArchiveBehaviour, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ArchiveBehaviour field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ArchiveBehaviour
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ArchiveBehaviour, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ArchiveBehaviour, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ArchiveBehaviour, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ArchiveBehaviour, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AiTextStyle@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AiTextStyle@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.AiTextStyle@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref AiTextStyle, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref AiTextStyle, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.AiTextStyle, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref AiTextStyle field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.AiTextStyle
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As AiTextStyle, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef AiTextStyle, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.AiTextStyle, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef AiTextStyle, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -6143,6 +7414,41 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TicketSecurityLevel, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef TicketSecurityLevel, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityEscalateAction@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityEscalateAction@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TicketPriorityEscalateAction@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TicketPriorityEscalateAction, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TicketPriorityEscalateAction, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TicketPriorityEscalateAction, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TicketPriorityEscalateAction field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TicketPriorityEscalateAction
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TicketPriorityEscalateAction, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TicketPriorityEscalateAction, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TicketPriorityEscalateAction, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TicketPriorityEscalateAction, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketReadStatus@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketReadStatus@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.TicketReadStatus@,SuperOffice.Data.SQL.FieldInfo)
@@ -6388,6 +7694,251 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ShipmentMessageType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef ShipmentMessageType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketAlertAction@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketAlertAction@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TicketAlertAction@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TicketAlertAction, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TicketAlertAction, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TicketAlertAction, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TicketAlertAction field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TicketAlertAction
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As TicketAlertAction, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef TicketAlertAction, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.TicketAlertAction, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef TicketAlertAction, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateBodyFlags@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateBodyFlags@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ReplyTemplateBodyFlags@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ReplyTemplateBodyFlags, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ReplyTemplateBodyFlags, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ReplyTemplateBodyFlags, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ReplyTemplateBodyFlags field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ReplyTemplateBodyFlags
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ReplyTemplateBodyFlags, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ReplyTemplateBodyFlags, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ReplyTemplateBodyFlags, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ReplyTemplateBodyFlags, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ReplyTemplateAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ReplyTemplateAccessLevel, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ReplyTemplateAccessLevel, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ReplyTemplateAccessLevel, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ReplyTemplateAccessLevel field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ReplyTemplateAccessLevel
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ReplyTemplateAccessLevel, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ReplyTemplateAccessLevel, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ReplyTemplateAccessLevel, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ReplyTemplateAccessLevel, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateFlags@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateFlags@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ReplyTemplateFlags@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ReplyTemplateFlags, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ReplyTemplateFlags, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ReplyTemplateFlags, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ReplyTemplateFlags field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ReplyTemplateFlags
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ReplyTemplateFlags, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ReplyTemplateFlags, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ReplyTemplateFlags, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ReplyTemplateFlags, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BadgeType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BadgeType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.BadgeType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref BadgeType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref BadgeType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.BadgeType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref BadgeType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.BadgeType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As BadgeType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef BadgeType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.BadgeType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef BadgeType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ScriptType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ScriptType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ScriptType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ScriptType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ScriptType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ScriptType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ScriptType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ScriptType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ScriptType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ScriptType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ScriptType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ScriptType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CcTemplateType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CcTemplateType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.CcTemplateType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref CcTemplateType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref CcTemplateType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.CcTemplateType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref CcTemplateType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.CcTemplateType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As CcTemplateType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef CcTemplateType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.CcTemplateType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef CcTemplateType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
@@ -6703,6 +8254,41 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.RecipientSorting, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef RecipientSorting, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ModifiedAppointmentFields@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ModifiedAppointmentFields@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ModifiedAppointmentFields@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ModifiedAppointmentFields, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ModifiedAppointmentFields, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ModifiedAppointmentFields, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ModifiedAppointmentFields field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ModifiedAppointmentFields
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As ModifiedAppointmentFields, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef ModifiedAppointmentFields, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.ModifiedAppointmentFields, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef ModifiedAppointmentFields, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ElementStatus@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ElementStatus@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.ElementStatus@,SuperOffice.Data.SQL.FieldInfo)
@@ -6964,1089 +8550,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Collections.Hashtable
-  commentId: T:System.Collections.Hashtable
-  parent: System.Collections
-  isExternal: true
-  name: Hashtable
-  nameWithType: Hashtable
-  fullName: System.Collections.Hashtable
-- uid: System.Collections.IDictionary
-  commentId: T:System.Collections.IDictionary
-  parent: System.Collections
-  isExternal: true
-  name: IDictionary
-  nameWithType: IDictionary
-  fullName: System.Collections.IDictionary
-- uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
-  isExternal: true
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
-  isExternal: true
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
-- uid: System.Runtime.Serialization.ISerializable
-  commentId: T:System.Runtime.Serialization.ISerializable
-  parent: System.Runtime.Serialization
-  isExternal: true
-  name: ISerializable
-  nameWithType: ISerializable
-  fullName: System.Runtime.Serialization.ISerializable
-- uid: System.Runtime.Serialization.IDeserializationCallback
-  commentId: T:System.Runtime.Serialization.IDeserializationCallback
-  parent: System.Runtime.Serialization
-  isExternal: true
-  name: IDeserializationCallback
-  nameWithType: IDeserializationCallback
-  fullName: System.Runtime.Serialization.IDeserializationCallback
-- uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
-  isExternal: true
-  name: ICloneable
-  nameWithType: ICloneable
-  fullName: System.ICloneable
-- uid: System.Collections.Hashtable.Add(System.Object,System.Object)
-  commentId: M:System.Collections.Hashtable.Add(System.Object,System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Add(Object, Object)
-  nameWithType: Hashtable.Add(Object, Object)
-  fullName: System.Collections.Hashtable.Add(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.Add(System.Object,System.Object)
-    name: Add
-    nameWithType: Hashtable.Add
-    fullName: System.Collections.Hashtable.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.Add(System.Object,System.Object)
-    name: Add
-    nameWithType: Hashtable.Add
-    fullName: System.Collections.Hashtable.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.Clear
-  commentId: M:System.Collections.Hashtable.Clear
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Clear()
-  nameWithType: Hashtable.Clear()
-  fullName: System.Collections.Hashtable.Clear()
-  spec.csharp:
-  - uid: System.Collections.Hashtable.Clear
-    name: Clear
-    nameWithType: Hashtable.Clear
-    fullName: System.Collections.Hashtable.Clear
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.Clear
-    name: Clear
-    nameWithType: Hashtable.Clear
-    fullName: System.Collections.Hashtable.Clear
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.Clone
-  commentId: M:System.Collections.Hashtable.Clone
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Clone()
-  nameWithType: Hashtable.Clone()
-  fullName: System.Collections.Hashtable.Clone()
-  spec.csharp:
-  - uid: System.Collections.Hashtable.Clone
-    name: Clone
-    nameWithType: Hashtable.Clone
-    fullName: System.Collections.Hashtable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.Clone
-    name: Clone
-    nameWithType: Hashtable.Clone
-    fullName: System.Collections.Hashtable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.Contains(System.Object)
-  commentId: M:System.Collections.Hashtable.Contains(System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Contains(Object)
-  nameWithType: Hashtable.Contains(Object)
-  fullName: System.Collections.Hashtable.Contains(System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.Contains(System.Object)
-    name: Contains
-    nameWithType: Hashtable.Contains
-    fullName: System.Collections.Hashtable.Contains
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.Contains(System.Object)
-    name: Contains
-    nameWithType: Hashtable.Contains
-    fullName: System.Collections.Hashtable.Contains
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.ContainsKey(System.Object)
-  commentId: M:System.Collections.Hashtable.ContainsKey(System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: ContainsKey(Object)
-  nameWithType: Hashtable.ContainsKey(Object)
-  fullName: System.Collections.Hashtable.ContainsKey(System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.ContainsKey(System.Object)
-    name: ContainsKey
-    nameWithType: Hashtable.ContainsKey
-    fullName: System.Collections.Hashtable.ContainsKey
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.ContainsKey(System.Object)
-    name: ContainsKey
-    nameWithType: Hashtable.ContainsKey
-    fullName: System.Collections.Hashtable.ContainsKey
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.ContainsValue(System.Object)
-  commentId: M:System.Collections.Hashtable.ContainsValue(System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: ContainsValue(Object)
-  nameWithType: Hashtable.ContainsValue(Object)
-  fullName: System.Collections.Hashtable.ContainsValue(System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.ContainsValue(System.Object)
-    name: ContainsValue
-    nameWithType: Hashtable.ContainsValue
-    fullName: System.Collections.Hashtable.ContainsValue
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.ContainsValue(System.Object)
-    name: ContainsValue
-    nameWithType: Hashtable.ContainsValue
-    fullName: System.Collections.Hashtable.ContainsValue
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
-  commentId: M:System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: CopyTo(Array, Int32)
-  nameWithType: Hashtable.CopyTo(Array, Int32)
-  fullName: System.Collections.Hashtable.CopyTo(System.Array, System.Int32)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
-    name: CopyTo
-    nameWithType: Hashtable.CopyTo
-    fullName: System.Collections.Hashtable.CopyTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Array
-    name: Array
-    nameWithType: Array
-    fullName: System.Array
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.CopyTo(System.Array,System.Int32)
-    name: CopyTo
-    nameWithType: Hashtable.CopyTo
-    fullName: System.Collections.Hashtable.CopyTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Array
-    name: Array
-    nameWithType: Array
-    fullName: System.Array
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
-  commentId: M:System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: IEnumerable.GetEnumerator()
-  nameWithType: Hashtable.IEnumerable.GetEnumerator()
-  fullName: System.Collections.Hashtable.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType.vb: Hashtable.System.Collections.IEnumerable.GetEnumerator()
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
-    name: IEnumerable.GetEnumerator
-    nameWithType: Hashtable.IEnumerable.GetEnumerator
-    fullName: System.Collections.Hashtable.System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.System#Collections#IEnumerable#GetEnumerator
-    name: System.Collections.IEnumerable.GetEnumerator
-    nameWithType: Hashtable.System.Collections.IEnumerable.GetEnumerator
-    fullName: System.Collections.Hashtable.System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.GetEnumerator
-  commentId: M:System.Collections.Hashtable.GetEnumerator
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: Hashtable.GetEnumerator()
-  fullName: System.Collections.Hashtable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.Hashtable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: Hashtable.GetEnumerator
-    fullName: System.Collections.Hashtable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: Hashtable.GetEnumerator
-    fullName: System.Collections.Hashtable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.GetHash(System.Object)
-  commentId: M:System.Collections.Hashtable.GetHash(System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: GetHash(Object)
-  nameWithType: Hashtable.GetHash(Object)
-  fullName: System.Collections.Hashtable.GetHash(System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.GetHash(System.Object)
-    name: GetHash
-    nameWithType: Hashtable.GetHash
-    fullName: System.Collections.Hashtable.GetHash
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.GetHash(System.Object)
-    name: GetHash
-    nameWithType: Hashtable.GetHash
-    fullName: System.Collections.Hashtable.GetHash
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
-  commentId: M:System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: KeyEquals(Object, Object)
-  nameWithType: Hashtable.KeyEquals(Object, Object)
-  fullName: System.Collections.Hashtable.KeyEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
-    name: KeyEquals
-    nameWithType: Hashtable.KeyEquals
-    fullName: System.Collections.Hashtable.KeyEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.KeyEquals(System.Object,System.Object)
-    name: KeyEquals
-    nameWithType: Hashtable.KeyEquals
-    fullName: System.Collections.Hashtable.KeyEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.Remove(System.Object)
-  commentId: M:System.Collections.Hashtable.Remove(System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Remove(Object)
-  nameWithType: Hashtable.Remove(Object)
-  fullName: System.Collections.Hashtable.Remove(System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.Remove(System.Object)
-    name: Remove
-    nameWithType: Hashtable.Remove
-    fullName: System.Collections.Hashtable.Remove
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.Remove(System.Object)
-    name: Remove
-    nameWithType: Hashtable.Remove
-    fullName: System.Collections.Hashtable.Remove
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
-  commentId: M:System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Synchronized(Hashtable)
-  nameWithType: Hashtable.Synchronized(Hashtable)
-  fullName: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
-    name: Synchronized
-    nameWithType: Hashtable.Synchronized
-    fullName: System.Collections.Hashtable.Synchronized
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Hashtable
-    name: Hashtable
-    nameWithType: Hashtable
-    fullName: System.Collections.Hashtable
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.Synchronized(System.Collections.Hashtable)
-    name: Synchronized
-    nameWithType: Hashtable.Synchronized
-    fullName: System.Collections.Hashtable.Synchronized
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Hashtable
-    name: Hashtable
-    nameWithType: Hashtable
-    fullName: System.Collections.Hashtable
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  commentId: M:System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  nameWithType: Hashtable.GetObjectData(SerializationInfo, StreamingContext)
-  fullName: System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    nameWithType: Hashtable.GetObjectData
-    fullName: System.Collections.Hashtable.GetObjectData
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    nameWithType: SerializationInfo
-    fullName: System.Runtime.Serialization.SerializationInfo
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    nameWithType: StreamingContext
-    fullName: System.Runtime.Serialization.StreamingContext
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    nameWithType: Hashtable.GetObjectData
-    fullName: System.Collections.Hashtable.GetObjectData
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    nameWithType: SerializationInfo
-    fullName: System.Runtime.Serialization.SerializationInfo
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    nameWithType: StreamingContext
-    fullName: System.Runtime.Serialization.StreamingContext
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.OnDeserialization(System.Object)
-  commentId: M:System.Collections.Hashtable.OnDeserialization(System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: OnDeserialization(Object)
-  nameWithType: Hashtable.OnDeserialization(Object)
-  fullName: System.Collections.Hashtable.OnDeserialization(System.Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.OnDeserialization(System.Object)
-    name: OnDeserialization
-    nameWithType: Hashtable.OnDeserialization
-    fullName: System.Collections.Hashtable.OnDeserialization
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Hashtable.OnDeserialization(System.Object)
-    name: OnDeserialization
-    nameWithType: Hashtable.OnDeserialization
-    fullName: System.Collections.Hashtable.OnDeserialization
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.hcp
-  commentId: P:System.Collections.Hashtable.hcp
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: hcp
-  nameWithType: Hashtable.hcp
-  fullName: System.Collections.Hashtable.hcp
-- uid: System.Collections.Hashtable.comparer
-  commentId: P:System.Collections.Hashtable.comparer
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: comparer
-  nameWithType: Hashtable.comparer
-  fullName: System.Collections.Hashtable.comparer
-- uid: System.Collections.Hashtable.EqualityComparer
-  commentId: P:System.Collections.Hashtable.EqualityComparer
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: EqualityComparer
-  nameWithType: Hashtable.EqualityComparer
-  fullName: System.Collections.Hashtable.EqualityComparer
-- uid: System.Collections.Hashtable.Item(System.Object)
-  commentId: P:System.Collections.Hashtable.Item(System.Object)
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Item[Object]
-  nameWithType: Hashtable.Item[Object]
-  fullName: System.Collections.Hashtable.Item[System.Object]
-  nameWithType.vb: Hashtable.Item(Object)
-  fullName.vb: System.Collections.Hashtable.Item(System.Object)
-  name.vb: Item(Object)
-  spec.csharp:
-  - uid: System.Collections.Hashtable.Item(System.Object)
-    name: Item
-    nameWithType: Hashtable.Item
-    fullName: System.Collections.Hashtable.Item
-    isExternal: true
-  - name: '['
-    nameWithType: '['
-    fullName: '['
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ']'
-    nameWithType: ']'
-    fullName: ']'
-  spec.vb:
-  - uid: System.Collections.Hashtable.Item(System.Object)
-    name: Item
-    nameWithType: Hashtable.Item
-    fullName: System.Collections.Hashtable.Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Hashtable.IsReadOnly
-  commentId: P:System.Collections.Hashtable.IsReadOnly
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: IsReadOnly
-  nameWithType: Hashtable.IsReadOnly
-  fullName: System.Collections.Hashtable.IsReadOnly
-- uid: System.Collections.Hashtable.IsFixedSize
-  commentId: P:System.Collections.Hashtable.IsFixedSize
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: IsFixedSize
-  nameWithType: Hashtable.IsFixedSize
-  fullName: System.Collections.Hashtable.IsFixedSize
-- uid: System.Collections.Hashtable.IsSynchronized
-  commentId: P:System.Collections.Hashtable.IsSynchronized
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: IsSynchronized
-  nameWithType: Hashtable.IsSynchronized
-  fullName: System.Collections.Hashtable.IsSynchronized
-- uid: System.Collections.Hashtable.Keys
-  commentId: P:System.Collections.Hashtable.Keys
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Keys
-  nameWithType: Hashtable.Keys
-  fullName: System.Collections.Hashtable.Keys
-- uid: System.Collections.Hashtable.Values
-  commentId: P:System.Collections.Hashtable.Values
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Values
-  nameWithType: Hashtable.Values
-  fullName: System.Collections.Hashtable.Values
-- uid: System.Collections.Hashtable.SyncRoot
-  commentId: P:System.Collections.Hashtable.SyncRoot
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: SyncRoot
-  nameWithType: Hashtable.SyncRoot
-  fullName: System.Collections.Hashtable.SyncRoot
-- uid: System.Collections.Hashtable.Count
-  commentId: P:System.Collections.Hashtable.Count
-  parent: System.Collections.Hashtable
-  isExternal: true
-  name: Count
-  nameWithType: Hashtable.Count
-  fullName: System.Collections.Hashtable.Count
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.RowValidator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -8121,18 +8624,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-- uid: System.Runtime.Serialization
-  commentId: N:System.Runtime.Serialization
-  isExternal: true
-  name: System.Runtime.Serialization
-  nameWithType: System.Runtime.Serialization
-  fullName: System.Runtime.Serialization
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -8314,8 +8805,6 @@ references:
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.Narrowing
   name.vb: Narrowing
 - uid: System.Exception
-  commentId: T:System.Exception
-  parent: System
   isExternal: true
   name: Exception
   nameWithType: Exception
@@ -8346,8 +8835,6 @@ references:
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -8400,18 +8887,10 @@ references:
   nameWithType: UInt32
   fullName: System.UInt32
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.License.LicenseType
   isExternal: true
   name: LicenseType
@@ -8963,6 +9442,20 @@ references:
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.Data.TicketBaseStatus
+- uid: SuperOffice.Data.TicketLogAction
+  commentId: T:SuperOffice.Data.TicketLogAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketLogAction
+  nameWithType: TicketLogAction
+  fullName: SuperOffice.Data.TicketLogAction
+- uid: SuperOffice.Data.TicketLogFieldChange
+  commentId: T:SuperOffice.Data.TicketLogFieldChange
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketLogFieldChange
+  nameWithType: TicketLogFieldChange
+  fullName: SuperOffice.Data.TicketLogFieldChange
 - uid: SuperOffice.Data.ReportCategory
   commentId: T:SuperOffice.Data.ReportCategory
   parent: SuperOffice.Data
@@ -8991,6 +9484,13 @@ references:
   name: BatchTaskState
   nameWithType: BatchTaskState
   fullName: SuperOffice.Data.BatchTaskState
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour
+  commentId: T:SuperOffice.Data.BatchTaskCancellationBehaviour
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour
 - uid: SuperOffice.Data.SelectionType
   commentId: T:SuperOffice.Data.SelectionType
   parent: SuperOffice.Data
@@ -9082,6 +9582,160 @@ references:
   name: DashTileEntityType
   nameWithType: DashTileEntityType
   fullName: SuperOffice.Data.DashTileEntityType
+- uid: SuperOffice.Data.DashTileUsage
+  commentId: T:SuperOffice.Data.DashTileUsage
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.Data.DashTileUsage
+- uid: SuperOffice.Data.TargetAssignementLevel
+  commentId: T:SuperOffice.Data.TargetAssignementLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetAssignementLevel
+  nameWithType: TargetAssignementLevel
+  fullName: SuperOffice.Data.TargetAssignementLevel
+- uid: SuperOffice.Data.TargetEntityType
+  commentId: T:SuperOffice.Data.TargetEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.Data.TargetEntityType
+- uid: SuperOffice.Data.TargetMeasurementUnit
+  commentId: T:SuperOffice.Data.TargetMeasurementUnit
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetMeasurementUnit
+  nameWithType: TargetMeasurementUnit
+  fullName: SuperOffice.Data.TargetMeasurementUnit
+- uid: SuperOffice.Data.TargetPeriodType
+  commentId: T:SuperOffice.Data.TargetPeriodType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetPeriodType
+  nameWithType: TargetPeriodType
+  fullName: SuperOffice.Data.TargetPeriodType
+- uid: SuperOffice.Data.TargetLevel
+  commentId: T:SuperOffice.Data.TargetLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetLevel
+  nameWithType: TargetLevel
+  fullName: SuperOffice.Data.TargetLevel
+- uid: SuperOffice.Data.LogEvent
+  commentId: T:SuperOffice.Data.LogEvent
+  parent: SuperOffice.Data
+  isExternal: true
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: SuperOffice.Data.LogEvent
+- uid: SuperOffice.Data.WorkflowInstanceStatus
+  commentId: T:SuperOffice.Data.WorkflowInstanceStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowInstanceStatus
+  nameWithType: WorkflowInstanceStatus
+  fullName: SuperOffice.Data.WorkflowInstanceStatus
+- uid: SuperOffice.Data.WorkflowDefinitionStatus
+  commentId: T:SuperOffice.Data.WorkflowDefinitionStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: SuperOffice.Data.WorkflowDefinitionStatus
+- uid: SuperOffice.Data.WorkflowOwnerType
+  commentId: T:SuperOffice.Data.WorkflowOwnerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowOwnerType
+  nameWithType: WorkflowOwnerType
+  fullName: SuperOffice.Data.WorkflowOwnerType
+- uid: SuperOffice.Data.EmailFromType
+  commentId: T:SuperOffice.Data.EmailFromType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: SuperOffice.Data.EmailFromType
+- uid: SuperOffice.Data.EmailReplyToType
+  commentId: T:SuperOffice.Data.EmailReplyToType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: SuperOffice.Data.EmailReplyToType
+- uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
+  commentId: T:SuperOffice.Data.WorkflowTimeWaitAlgorithm
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowTimeWaitAlgorithm
+  nameWithType: WorkflowTimeWaitAlgorithm
+  fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm
+- uid: SuperOffice.Data.WorkflowActionType
+  commentId: T:SuperOffice.Data.WorkflowActionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowActionType
+  nameWithType: WorkflowActionType
+  fullName: SuperOffice.Data.WorkflowActionType
+- uid: SuperOffice.Data.WorkflowSaleDateType
+  commentId: T:SuperOffice.Data.WorkflowSaleDateType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowSaleDateType
+  nameWithType: WorkflowSaleDateType
+  fullName: SuperOffice.Data.WorkflowSaleDateType
+- uid: SuperOffice.Data.WorkflowTimeWaitIntervalType
+  commentId: T:SuperOffice.Data.WorkflowTimeWaitIntervalType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: SuperOffice.Data.WorkflowTimeWaitIntervalType
+- uid: SuperOffice.Data.WorkflowEventType
+  commentId: T:SuperOffice.Data.WorkflowEventType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowEventType
+  nameWithType: WorkflowEventType
+  fullName: SuperOffice.Data.WorkflowEventType
+- uid: SuperOffice.Data.WorkflowGoalType
+  commentId: T:SuperOffice.Data.WorkflowGoalType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowGoalType
+  nameWithType: WorkflowGoalType
+  fullName: SuperOffice.Data.WorkflowGoalType
+- uid: SuperOffice.Data.WorkflowStepType
+  commentId: T:SuperOffice.Data.WorkflowStepType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.Data.WorkflowStepType
+- uid: SuperOffice.Data.WorkflowTriggerType
+  commentId: T:SuperOffice.Data.WorkflowTriggerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.Data.WorkflowTriggerType
+- uid: SuperOffice.Data.WorkflowSplitOptionType
+  commentId: T:SuperOffice.Data.WorkflowSplitOptionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: SuperOffice.Data.WorkflowSplitOptionType
+- uid: SuperOffice.Data.ShipmentFlags
+  commentId: T:SuperOffice.Data.ShipmentFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShipmentFlags
+  nameWithType: ShipmentFlags
+  fullName: SuperOffice.Data.ShipmentFlags
 - uid: SuperOffice.Data.ActivityStatus
   commentId: T:SuperOffice.Data.ActivityStatus
   parent: SuperOffice.Data
@@ -9382,6 +10036,90 @@ references:
   name: DeltaState
   nameWithType: DeltaState
   fullName: SuperOffice.Data.DeltaState
+- uid: SuperOffice.Data.NotificationEventType
+  commentId: T:SuperOffice.Data.NotificationEventType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: SuperOffice.Data.NotificationEventType
+- uid: SuperOffice.Data.Registry
+  commentId: T:SuperOffice.Data.Registry
+  parent: SuperOffice.Data
+  isExternal: true
+  name: Registry
+  nameWithType: Registry
+  fullName: SuperOffice.Data.Registry
+- uid: SuperOffice.Data.ChangePasswordType
+  commentId: T:SuperOffice.Data.ChangePasswordType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ChangePasswordType
+  nameWithType: ChangePasswordType
+  fullName: SuperOffice.Data.ChangePasswordType
+- uid: SuperOffice.Data.MessageHeaderStdItem
+  commentId: T:SuperOffice.Data.MessageHeaderStdItem
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: SuperOffice.Data.MessageHeaderStdItem
+- uid: SuperOffice.Data.MessageHeaderStdItemCol
+  commentId: T:SuperOffice.Data.MessageHeaderStdItemCol
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MessageHeaderStdItemCol
+  nameWithType: MessageHeaderStdItemCol
+  fullName: SuperOffice.Data.MessageHeaderStdItemCol
+- uid: SuperOffice.Data.MessageActionType
+  commentId: T:SuperOffice.Data.MessageActionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: SuperOffice.Data.MessageActionType
+- uid: SuperOffice.Data.RecipientType
+  commentId: T:SuperOffice.Data.RecipientType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RecipientType
+  nameWithType: RecipientType
+  fullName: SuperOffice.Data.RecipientType
+- uid: SuperOffice.Data.ImageEmbedType
+  commentId: T:SuperOffice.Data.ImageEmbedType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ImageEmbedType
+  nameWithType: ImageEmbedType
+  fullName: SuperOffice.Data.ImageEmbedType
+- uid: SuperOffice.Data.TaskListItemType
+  commentId: T:SuperOffice.Data.TaskListItemType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TaskListItemType
+  nameWithType: TaskListItemType
+  fullName: SuperOffice.Data.TaskListItemType
+- uid: SuperOffice.Data.ShowTaskItemInClient
+  commentId: T:SuperOffice.Data.ShowTaskItemInClient
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShowTaskItemInClient
+  nameWithType: ShowTaskItemInClient
+  fullName: SuperOffice.Data.ShowTaskItemInClient
+- uid: SuperOffice.Data.ArchiveBehaviour
+  commentId: T:SuperOffice.Data.ArchiveBehaviour
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: SuperOffice.Data.ArchiveBehaviour
+- uid: SuperOffice.Data.AiTextStyle
+  commentId: T:SuperOffice.Data.AiTextStyle
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AiTextStyle
+  nameWithType: AiTextStyle
+  fullName: SuperOffice.Data.AiTextStyle
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -9452,6 +10190,13 @@ references:
   name: TicketSecurityLevel
   nameWithType: TicketSecurityLevel
   fullName: SuperOffice.Data.TicketSecurityLevel
+- uid: SuperOffice.Data.TicketPriorityEscalateAction
+  commentId: T:SuperOffice.Data.TicketPriorityEscalateAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction
 - uid: SuperOffice.Data.TicketReadStatus
   commentId: T:SuperOffice.Data.TicketReadStatus
   parent: SuperOffice.Data
@@ -9501,6 +10246,55 @@ references:
   name: ShipmentMessageType
   nameWithType: ShipmentMessageType
   fullName: SuperOffice.Data.ShipmentMessageType
+- uid: SuperOffice.Data.TicketAlertAction
+  commentId: T:SuperOffice.Data.TicketAlertAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketAlertAction
+  nameWithType: TicketAlertAction
+  fullName: SuperOffice.Data.TicketAlertAction
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags
+  commentId: T:SuperOffice.Data.ReplyTemplateBodyFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ReplyTemplateBodyFlags
+  nameWithType: ReplyTemplateBodyFlags
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags
+- uid: SuperOffice.Data.ReplyTemplateAccessLevel
+  commentId: T:SuperOffice.Data.ReplyTemplateAccessLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ReplyTemplateAccessLevel
+  nameWithType: ReplyTemplateAccessLevel
+  fullName: SuperOffice.Data.ReplyTemplateAccessLevel
+- uid: SuperOffice.Data.ReplyTemplateFlags
+  commentId: T:SuperOffice.Data.ReplyTemplateFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ReplyTemplateFlags
+  nameWithType: ReplyTemplateFlags
+  fullName: SuperOffice.Data.ReplyTemplateFlags
+- uid: SuperOffice.Data.BadgeType
+  commentId: T:SuperOffice.Data.BadgeType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: SuperOffice.Data.BadgeType
+- uid: SuperOffice.Data.ScriptType
+  commentId: T:SuperOffice.Data.ScriptType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: SuperOffice.Data.ScriptType
+- uid: SuperOffice.Data.CcTemplateType
+  commentId: T:SuperOffice.Data.CcTemplateType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: CcTemplateType
+  nameWithType: CcTemplateType
+  fullName: SuperOffice.Data.CcTemplateType
 - uid: SuperOffice.Data.WidgetTheme
   commentId: T:SuperOffice.Data.WidgetTheme
   parent: SuperOffice.Data
@@ -9564,6 +10358,13 @@ references:
   name: RecipientSorting
   nameWithType: RecipientSorting
   fullName: SuperOffice.Data.RecipientSorting
+- uid: SuperOffice.Data.ModifiedAppointmentFields
+  commentId: T:SuperOffice.Data.ModifiedAppointmentFields
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ModifiedAppointmentFields
+  nameWithType: ModifiedAppointmentFields
+  fullName: SuperOffice.Data.ModifiedAppointmentFields
 - uid: SuperOffice.Data.ElementStatus
   commentId: T:SuperOffice.Data.ElementStatus
   parent: SuperOffice.Data

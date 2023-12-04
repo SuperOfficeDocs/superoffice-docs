@@ -11,13 +11,14 @@ items:
   - SuperOffice.CRM.Entities.BookingManagerModified.Modified
   - SuperOffice.CRM.Entities.BookingManagerModified.Moved
   - SuperOffice.CRM.Entities.BookingManagerModified.NotModified
+  - SuperOffice.CRM.Entities.BookingManagerModified.value__
   langs:
   - csharp
   - vb
   name: BookingManagerModified
   nameWithType: BookingManagerModified
   fullName: SuperOffice.CRM.Entities.BookingManagerModified
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -25,29 +26,54 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: >-
-      [Flags]
-
-      public enum BookingManagerModified
+    content: 'public sealed class BookingManagerModified : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class BookingManagerModified
 
-      Public Enum BookingManagerModified
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Entities.BookingManagerModified.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Entities.BookingManagerModified.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.BookingManagerModified)
-  - SuperOffice.CRM.Entities.BookingManagerModified.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Entities.BookingManagerModified.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Entities.BookingManagerModified.value__
+  commentId: F:SuperOffice.CRM.Entities.BookingManagerModified.value__
+  id: value__
+  parent: SuperOffice.CRM.Entities.BookingManagerModified
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BookingManagerModified.value__
+  fullName: SuperOffice.CRM.Entities.BookingManagerModified.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.BookingManagerModified.NotModified
   commentId: F:SuperOffice.CRM.Entities.BookingManagerModified.NotModified
   id: NotModified
@@ -66,9 +92,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: NotModified = 0
+    content: public const BookingManagerModified NotModified
     return:
       type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Public Const NotModified As BookingManagerModified
   modifiers.csharp:
   - public
   - const
@@ -93,9 +120,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: Added = 1
+    content: public const BookingManagerModified Added
     return:
       type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Public Const Added As BookingManagerModified
   modifiers.csharp:
   - public
   - const
@@ -120,9 +148,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: Moved = 2
+    content: public const BookingManagerModified Moved
     return:
       type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Public Const Moved As BookingManagerModified
   modifiers.csharp:
   - public
   - const
@@ -147,9 +176,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: Modified = 4
+    content: public const BookingManagerModified Modified
     return:
       type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Public Const Modified As BookingManagerModified
   modifiers.csharp:
   - public
   - const
@@ -174,9 +204,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: Deleted = 8
+    content: public const BookingManagerModified Deleted
     return:
       type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Public Const Deleted As BookingManagerModified
   modifiers.csharp:
   - public
   - const
@@ -201,9 +232,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: All = 15
+    content: public const BookingManagerModified All
     return:
       type: SuperOffice.CRM.Entities.BookingManagerModified
+    content.vb: Public Const All As BookingManagerModified
   modifiers.csharp:
   - public
   - const
@@ -217,6 +249,13 @@ references:
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.BookingManagerModified.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -244,84 +283,6 @@ references:
     name: MapEnums(Of BookingManagerModified, To)
     nameWithType: EnumUtil.MapEnums(Of BookingManagerModified, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.BookingManagerModified, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.BookingManagerModified.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.BookingManagerModified)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<BookingManagerModified>(BookingManagerModified)
-  nameWithType: ObjectExtensions.AssignByReflection<BookingManagerModified>(BookingManagerModified)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.BookingManagerModified>(SuperOffice.CRM.Entities.BookingManagerModified)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BookingManagerModified)(BookingManagerModified)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.BookingManagerModified)(SuperOffice.CRM.Entities.BookingManagerModified)
-  name.vb: AssignByReflection(Of BookingManagerModified)(BookingManagerModified)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<BookingManagerModified>
-    nameWithType: ObjectExtensions.AssignByReflection<BookingManagerModified>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.BookingManagerModified>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Entities.BookingManagerModified
-    name: BookingManagerModified
-    nameWithType: BookingManagerModified
-    fullName: SuperOffice.CRM.Entities.BookingManagerModified
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of BookingManagerModified)
-    nameWithType: ObjectExtensions.AssignByReflection(Of BookingManagerModified)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.BookingManagerModified)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Entities.BookingManagerModified
-    name: BookingManagerModified
-    nameWithType: BookingManagerModified
-    fullName: SuperOffice.CRM.Entities.BookingManagerModified
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.BookingManagerModified.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<BookingManagerModified>()
-  nameWithType: ObjectExtensions.GraphCopy<BookingManagerModified>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.BookingManagerModified>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of BookingManagerModified)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.BookingManagerModified)()
-  name.vb: GraphCopy(Of BookingManagerModified)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<BookingManagerModified>
-    nameWithType: ObjectExtensions.GraphCopy<BookingManagerModified>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.BookingManagerModified>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of BookingManagerModified)
-    nameWithType: ObjectExtensions.GraphCopy(Of BookingManagerModified)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.BookingManagerModified)
     isExternal: true
   - name: (
     nameWithType: (
@@ -363,6 +324,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -408,103 +375,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -551,18 +421,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Entities.BookingManagerModified
   commentId: T:SuperOffice.CRM.Entities.BookingManagerModified
   parent: SuperOffice.CRM.Entities

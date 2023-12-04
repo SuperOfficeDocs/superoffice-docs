@@ -23,13 +23,14 @@ items:
   - SuperOffice.Data.LocalizedTextType.UdefProjectLabel
   - SuperOffice.Data.LocalizedTextType.UdefSaleLabel
   - SuperOffice.Data.LocalizedTextType.Unknown
+  - SuperOffice.Data.LocalizedTextType.value__
   langs:
   - csharp
   - vb
   name: LocalizedTextType
   nameWithType: LocalizedTextType
   fullName: SuperOffice.Data.LocalizedTextType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -38,19 +39,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nThe type of the locale text strings\n"
   syntax:
-    content: public enum LocalizedTextType
-    content.vb: Public Enum LocalizedTextType
+    content: 'public sealed class LocalizedTextType : Enum'
+    content.vb: >-
+      Public NotInheritable Class LocalizedTextType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.LocalizedTextType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.LocalizedTextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.LocalizedTextType)
-  - SuperOffice.Data.LocalizedTextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.LocalizedTextType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.LocalizedTextType.value__
+  commentId: F:SuperOffice.Data.LocalizedTextType.value__
+  id: value__
+  parent: SuperOffice.Data.LocalizedTextType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: LocalizedTextType.value__
+  fullName: SuperOffice.Data.LocalizedTextType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.LocalizedTextType.Unknown
   commentId: F:SuperOffice.Data.LocalizedTextType.Unknown
   id: Unknown
@@ -70,9 +106,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
-    content: Unknown = 0
+    content: public const LocalizedTextType Unknown
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const Unknown As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -98,9 +135,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: 1 = fieldlabels \n"
   syntax:
-    content: Label = 1
+    content: public const LocalizedTextType Label
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const Label As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -126,9 +164,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
-    content: Table = 2
+    content: public const LocalizedTextType Table
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const Table As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -154,9 +193,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
-    content: Column = 3
+    content: public const LocalizedTextType Column
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const Column As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -182,9 +222,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: 4 - import system field names \n"
   syntax:
-    content: ImportField = 4
+    content: public const LocalizedTextType ImportField
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const ImportField As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -210,9 +251,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: 5 - import system table names\n"
   syntax:
-    content: ImportObject = 5
+    content: public const LocalizedTextType ImportObject
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const ImportObject As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -238,9 +280,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: 6 - import system table groups\n"
   syntax:
-    content: ImportGUICategory = 6
+    content: public const LocalizedTextType ImportGUICategory
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const ImportGUICategory As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -266,9 +309,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: 7  (languageid > 0)\n"
   syntax:
-    content: StartupHints = 7
+    content: public const LocalizedTextType StartupHints
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const StartupHints As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -294,9 +338,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: 11 (languageid > 0)\n"
   syntax:
-    content: FunctionRightLabel = 11
+    content: public const LocalizedTextType FunctionRightLabel
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const FunctionRightLabel As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -322,9 +367,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: 12 (languageid > 0)\n"
   syntax:
-    content: FunctionRightDesc = 12
+    content: public const LocalizedTextType FunctionRightDesc
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const FunctionRightDesc As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -350,9 +396,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16: languageid = 0\n"
   syntax:
-    content: StatusMonitorName = 16
+    content: public const LocalizedTextType StatusMonitorName
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const StatusMonitorName As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -378,9 +425,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n19: 19  (languageid = 0)\n"
   syntax:
-    content: UdefContactLabel = 19
+    content: public const LocalizedTextType UdefContactLabel
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const UdefContactLabel As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -406,9 +454,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n20: 20  (languageid = 0)\n"
   syntax:
-    content: UdefPersonLabel = 20
+    content: public const LocalizedTextType UdefPersonLabel
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const UdefPersonLabel As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -434,9 +483,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n21: 21  (languageid = 0)\n"
   syntax:
-    content: UdefProjectLabel = 21
+    content: public const LocalizedTextType UdefProjectLabel
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const UdefProjectLabel As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -462,9 +512,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n22: 22 (languageid = 0) \n"
   syntax:
-    content: UdefSaleLabel = 22
+    content: public const LocalizedTextType UdefSaleLabel
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const UdefSaleLabel As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -490,9 +541,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n23: 23 (languageid = 0)\n"
   syntax:
-    content: UdefAppointmentLabel = 23
+    content: public const LocalizedTextType UdefAppointmentLabel
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const UdefAppointmentLabel As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -518,9 +570,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n24: 24 (languageid = 0)\n"
   syntax:
-    content: UdefDocumentLabel = 24
+    content: public const LocalizedTextType UdefDocumentLabel
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const UdefDocumentLabel As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -546,9 +599,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n41: 41 - push notification tex\n"
   syntax:
-    content: PushNotificationText = 41
+    content: public const LocalizedTextType PushNotificationText
     return:
       type: SuperOffice.Data.LocalizedTextType
+    content.vb: Public Const PushNotificationText As LocalizedTextType
   modifiers.csharp:
   - public
   - const
@@ -562,6 +616,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.LocalizedTextType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -589,84 +650,6 @@ references:
     name: MapEnums(Of LocalizedTextType, To)
     nameWithType: EnumUtil.MapEnums(Of LocalizedTextType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.LocalizedTextType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.LocalizedTextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.LocalizedTextType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<LocalizedTextType>(LocalizedTextType)
-  nameWithType: ObjectExtensions.AssignByReflection<LocalizedTextType>(LocalizedTextType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.LocalizedTextType>(SuperOffice.Data.LocalizedTextType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of LocalizedTextType)(LocalizedTextType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.LocalizedTextType)(SuperOffice.Data.LocalizedTextType)
-  name.vb: AssignByReflection(Of LocalizedTextType)(LocalizedTextType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<LocalizedTextType>
-    nameWithType: ObjectExtensions.AssignByReflection<LocalizedTextType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.LocalizedTextType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.LocalizedTextType
-    name: LocalizedTextType
-    nameWithType: LocalizedTextType
-    fullName: SuperOffice.Data.LocalizedTextType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of LocalizedTextType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of LocalizedTextType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.LocalizedTextType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.LocalizedTextType
-    name: LocalizedTextType
-    nameWithType: LocalizedTextType
-    fullName: SuperOffice.Data.LocalizedTextType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.LocalizedTextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<LocalizedTextType>()
-  nameWithType: ObjectExtensions.GraphCopy<LocalizedTextType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.LocalizedTextType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of LocalizedTextType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.LocalizedTextType)()
-  name.vb: GraphCopy(Of LocalizedTextType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<LocalizedTextType>
-    nameWithType: ObjectExtensions.GraphCopy<LocalizedTextType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.LocalizedTextType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of LocalizedTextType)
-    nameWithType: ObjectExtensions.GraphCopy(Of LocalizedTextType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.LocalizedTextType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -708,6 +691,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -753,103 +742,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -896,18 +788,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.LocalizedTextType
   commentId: T:SuperOffice.Data.LocalizedTextType
   parent: SuperOffice.Data

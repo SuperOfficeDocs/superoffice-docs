@@ -11,13 +11,14 @@ items:
   - SuperOffice.Data.ValueOverride.EarningPercent
   - SuperOffice.Data.ValueOverride.None
   - SuperOffice.Data.ValueOverride.Total
+  - SuperOffice.Data.ValueOverride.value__
   langs:
   - csharp
   - vb
   name: ValueOverride
   nameWithType: ValueOverride
   fullName: SuperOffice.Data.ValueOverride
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -26,19 +27,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nHas a pre-calculated value been overriden in a QuoteAlternative or QuoteLine, and in that case what &amp; how?\nThis Enum is used by:  QuoteAlternative.UserValueOverride; QuoteLine.UserValueOverride\n"
   syntax:
-    content: 'public enum ValueOverride : short'
-    content.vb: Public Enum ValueOverride As Short
+    content: 'public sealed class ValueOverride : Enum'
+    content.vb: >-
+      Public NotInheritable Class ValueOverride
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ValueOverride.EnumUtil.MapEnums``2
-  - SuperOffice.Data.ValueOverride.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ValueOverride)
-  - SuperOffice.Data.ValueOverride.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.ValueOverride.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ValueOverride.value__
+  commentId: F:SuperOffice.Data.ValueOverride.value__
+  id: value__
+  parent: SuperOffice.Data.ValueOverride
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ValueOverride.value__
+  fullName: SuperOffice.Data.ValueOverride.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ValueOverride.None
   commentId: F:SuperOffice.Data.ValueOverride.None
   id: None
@@ -58,9 +94,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Discount data is from the ERP system and has not been overridden\n"
   syntax:
-    content: None = 0
+    content: public const ValueOverride None
     return:
       type: SuperOffice.Data.ValueOverride
+    content.vb: Public Const None As ValueOverride
   modifiers.csharp:
   - public
   - const
@@ -86,9 +123,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: The Total amount has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: Total = 1
+    content: public const ValueOverride Total
     return:
       type: SuperOffice.Data.ValueOverride
+    content.vb: Public Const Total As ValueOverride
   modifiers.csharp:
   - public
   - const
@@ -114,9 +152,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: The discount percentage has been overriden; all other fields should be recalculated\n"
   syntax:
-    content: DiscountPercent = 2
+    content: public const ValueOverride DiscountPercent
     return:
       type: SuperOffice.Data.ValueOverride
+    content.vb: Public Const DiscountPercent As ValueOverride
   modifiers.csharp:
   - public
   - const
@@ -142,9 +181,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: The discount amount has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: DiscountAmount = 3
+    content: public const ValueOverride DiscountAmount
     return:
       type: SuperOffice.Data.ValueOverride
+    content.vb: Public Const DiscountAmount As ValueOverride
   modifiers.csharp:
   - public
   - const
@@ -170,9 +210,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: The earning percent has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: EarningPercent = 4
+    content: public const ValueOverride EarningPercent
     return:
       type: SuperOffice.Data.ValueOverride
+    content.vb: Public Const EarningPercent As ValueOverride
   modifiers.csharp:
   - public
   - const
@@ -198,9 +239,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: The earning amount has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: EarningAmount = 5
+    content: public const ValueOverride EarningAmount
     return:
       type: SuperOffice.Data.ValueOverride
+    content.vb: Public Const EarningAmount As ValueOverride
   modifiers.csharp:
   - public
   - const
@@ -214,6 +256,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ValueOverride.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -241,84 +290,6 @@ references:
     name: MapEnums(Of ValueOverride, To)
     nameWithType: EnumUtil.MapEnums(Of ValueOverride, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ValueOverride, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ValueOverride.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ValueOverride)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ValueOverride>(ValueOverride)
-  nameWithType: ObjectExtensions.AssignByReflection<ValueOverride>(ValueOverride)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ValueOverride>(SuperOffice.Data.ValueOverride)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ValueOverride)(ValueOverride)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ValueOverride)(SuperOffice.Data.ValueOverride)
-  name.vb: AssignByReflection(Of ValueOverride)(ValueOverride)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ValueOverride>
-    nameWithType: ObjectExtensions.AssignByReflection<ValueOverride>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ValueOverride>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ValueOverride
-    name: ValueOverride
-    nameWithType: ValueOverride
-    fullName: SuperOffice.Data.ValueOverride
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ValueOverride)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ValueOverride)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ValueOverride)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ValueOverride
-    name: ValueOverride
-    nameWithType: ValueOverride
-    fullName: SuperOffice.Data.ValueOverride
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ValueOverride.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ValueOverride>()
-  nameWithType: ObjectExtensions.GraphCopy<ValueOverride>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ValueOverride>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ValueOverride)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ValueOverride)()
-  name.vb: GraphCopy(Of ValueOverride)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ValueOverride>
-    nameWithType: ObjectExtensions.GraphCopy<ValueOverride>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ValueOverride>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ValueOverride)
-    nameWithType: ObjectExtensions.GraphCopy(Of ValueOverride)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ValueOverride)
     isExternal: true
   - name: (
     nameWithType: (
@@ -360,6 +331,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -405,103 +382,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -548,18 +428,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ValueOverride
   commentId: T:SuperOffice.Data.ValueOverride
   parent: SuperOffice.Data

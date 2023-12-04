@@ -7,8 +7,11 @@ items:
   children:
   - SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
   - SuperOffice.CRM.Rows.EjMessageRecordData.Author
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Badge
   - SuperOffice.CRM.Rows.EjMessageRecordData.Body
   - SuperOffice.CRM.Rows.EjMessageRecordData.BodyAttachment
+  - SuperOffice.CRM.Rows.EjMessageRecordData.ChangedAt
+  - SuperOffice.CRM.Rows.EjMessageRecordData.ChangedBy
   - SuperOffice.CRM.Rows.EjMessageRecordData.CreatedAt
   - SuperOffice.CRM.Rows.EjMessageRecordData.CreatedBy
   - SuperOffice.CRM.Rows.EjMessageRecordData.CustomerId
@@ -48,18 +51,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ej_message table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.EjMessageRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.EjMessageTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class EjMessageRecordData
-    content.vb: Public Class EjMessageRecordData
+    content: 'public class EjMessageRecordData : Object'
+    content.vb: >-
+      Public Class EjMessageRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.EjMessageRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjMessageRecordData)
@@ -175,7 +173,7 @@ items:
     content: public DateTime CreatedAt
     return:
       type: System.DateTime
-    content.vb: Public CreatedAt As Date
+    content.vb: Public CreatedAt As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -332,7 +330,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nThe X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. \n"
+  summary: "\nThe Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. \n"
   syntax:
     content: public string MessageId
     return:
@@ -774,6 +772,87 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.ChangedAt
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.ChangedAt
+  id: ChangedAt
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChangedAt
+  nameWithType: EjMessageRecordData.ChangedAt
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.ChangedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the message was changed. \n"
+  syntax:
+    content: public DateTime ChangedAt
+    return:
+      type: System.DateTime
+    content.vb: Public ChangedAt As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.ChangedBy
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.ChangedBy
+  id: ChangedBy
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChangedBy
+  nameWithType: EjMessageRecordData.ChangedBy
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.ChangedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the user who changed the message. \n"
+  syntax:
+    content: public int ChangedBy
+    return:
+      type: System.Int32
+    content.vb: Public ChangedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Badge
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Badge
+  id: Badge
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Badge
+  nameWithType: EjMessageRecordData.Badge
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Badge
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBadge to explicitly determine how a message was generated \n"
+  syntax:
+    content: public BadgeType Badge
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Badge As BadgeType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
   id: '#ctor'
@@ -813,285 +892,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.EjMessageRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1537,8 +1337,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1577,6 +1375,13 @@ references:
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
+- uid: SuperOffice.Data.BadgeType
+  commentId: T:SuperOffice.Data.BadgeType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: SuperOffice.Data.BadgeType
 - uid: SuperOffice.CRM.Rows.EjMessageRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
   isExternal: true

@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  id: NetServerCoreOptionsBuilder
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.DependencyInjection.NetServerCoreOptions)
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier``1
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess``1
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor``1
+  langs:
+  - csharp
+  - vb
+  name: NetServerCoreOptionsBuilder
+  nameWithType: NetServerCoreOptionsBuilder
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public class NetServerCoreOptionsBuilder : Object'
+    content.vb: >-
+      Public Class NetServerCoreOptionsBuilder
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.EnumUtil.MapEnums``2
+  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: '#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)'
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: NetServerCoreOptionsBuilder(IServiceCollection)
+  nameWithType: NetServerCoreOptionsBuilder.NetServerCoreOptionsBuilder(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.NetServerCoreOptionsBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public NetServerCoreOptionsBuilder(IServiceCollection serviceCollection)
+    parameters:
+    - id: serviceCollection
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Sub New(serviceCollection As IServiceCollection)
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.DependencyInjection.NetServerCoreOptions)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.DependencyInjection.NetServerCoreOptions)
+  id: '#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.DependencyInjection.NetServerCoreOptions)'
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: NetServerCoreOptionsBuilder(IServiceCollection, NetServerCoreOptions)
+  nameWithType: NetServerCoreOptionsBuilder.NetServerCoreOptionsBuilder(IServiceCollection, NetServerCoreOptions)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.NetServerCoreOptionsBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.DependencyInjection.NetServerCoreOptions)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public NetServerCoreOptionsBuilder(IServiceCollection serviceCollection, NetServerCoreOptions options)
+    parameters:
+    - id: serviceCollection
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: options
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
+    content.vb: Public Sub New(serviceCollection As IServiceCollection, options As NetServerCoreOptions)
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier``1
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier``1
+  id: AddImplicitIdentitySupplier``1
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddImplicitIdentitySupplier<TTokenSuplier>()
+  nameWithType: NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier<TTokenSuplier>()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier<TTokenSuplier>()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: >-
+      public NetServerCoreOptionsBuilder AddImplicitIdentitySupplier<TTokenSuplier>()
+
+          where TTokenSuplier : class, IImplicitIdentitySupplier
+    typeParameters:
+    - id: TTokenSuplier
+    return:
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    content.vb: Public Function AddImplicitIdentitySupplier(Of TTokenSuplier As {Class, IImplicitIdentitySupplier}) As NetServerCoreOptionsBuilder
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier*
+  nameWithType.vb: NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier(Of TTokenSuplier)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier(Of TTokenSuplier)()
+  name.vb: AddImplicitIdentitySupplier(Of TTokenSuplier)()
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
+  id: UseOnPremAD
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseOnPremAD()
+  nameWithType: NetServerCoreOptionsBuilder.UseOnPremAD()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public NetServerCoreOptionsBuilder UseOnPremAD()
+    return:
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    content.vb: Public Function UseOnPremAD As NetServerCoreOptionsBuilder
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
+  id: UseNetServerLogLevels(System.Boolean)
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseNetServerLogLevels(Boolean)
+  nameWithType: NetServerCoreOptionsBuilder.UseNetServerLogLevels(Boolean)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: "\nUse classic NetServer log levels as specified in NetServer configuration <see cref=\"!:ConfigFile.Diagnostics\"></see>\n"
+  syntax:
+    content: public NetServerCoreOptionsBuilder UseNetServerLogLevels(bool useNetServerLogLevels)
+    parameters:
+    - id: useNetServerLogLevels
+      type: System.Boolean
+    return:
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    content.vb: Public Function UseNetServerLogLevels(useNetServerLogLevels As Boolean) As NetServerCoreOptionsBuilder
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor``1
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor``1
+  id: UseRequestItemsAccessor``1
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseRequestItemsAccessor<TRequestContextAccessor>()
+  nameWithType: NetServerCoreOptionsBuilder.UseRequestItemsAccessor<TRequestContextAccessor>()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor<TRequestContextAccessor>()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: >-
+      public NetServerCoreOptionsBuilder UseRequestItemsAccessor<TRequestContextAccessor>()
+
+          where TRequestContextAccessor : SoRequestItemsAccessorBase
+    typeParameters:
+    - id: TRequestContextAccessor
+    return:
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    content.vb: Public Function UseRequestItemsAccessor(Of TRequestContextAccessor As SoRequestItemsAccessorBase) As NetServerCoreOptionsBuilder
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor*
+  nameWithType.vb: NetServerCoreOptionsBuilder.UseRequestItemsAccessor(Of TRequestContextAccessor)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor(Of TRequestContextAccessor)()
+  name.vb: UseRequestItemsAccessor(Of TRequestContextAccessor)()
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess``1
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess``1
+  id: UseFileAccess``1
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseFileAccess<T>()
+  nameWithType: NetServerCoreOptionsBuilder.UseFileAccess<T>()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess<T>()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: >-
+      public NetServerCoreOptionsBuilder UseFileAccess<T>()
+
+          where T : IFileAccess
+    typeParameters:
+    - id: T
+    return:
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    content.vb: Public Function UseFileAccess(Of T As IFileAccess) As NetServerCoreOptionsBuilder
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess*
+  nameWithType.vb: NetServerCoreOptionsBuilder.UseFileAccess(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess(Of T)()
+  name.vb: UseFileAccess(Of T)()
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options
+  commentId: P:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options
+  id: Options
+  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: NetServerCoreOptionsBuilder.Options
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public NetServerCoreOptions Options { get; }
+    parameters: []
+    return:
+      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
+    content.vb: Public ReadOnly Property Options As NetServerCoreOptions
+  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NetServerCoreOptionsBuilder, To>()
+  nameWithType: EnumUtil.MapEnums<NetServerCoreOptionsBuilder, To>()
+  fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NetServerCoreOptionsBuilder, To)()
+  fullName.vb: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To)()
+  name.vb: MapEnums(Of NetServerCoreOptionsBuilder, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NetServerCoreOptionsBuilder, To>
+    nameWithType: EnumUtil.MapEnums<NetServerCoreOptionsBuilder, To>
+    fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NetServerCoreOptionsBuilder, To)
+    nameWithType: EnumUtil.MapEnums(Of NetServerCoreOptionsBuilder, To)
+    fullName: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NetServerCoreOptionsBuilder, To>()
+  nameWithType: Converters.MapEnums<NetServerCoreOptionsBuilder, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To>()
+  nameWithType.vb: Converters.MapEnums(Of NetServerCoreOptionsBuilder, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To)()
+  name.vb: MapEnums(Of NetServerCoreOptionsBuilder, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NetServerCoreOptionsBuilder, To>
+    nameWithType: Converters.MapEnums<NetServerCoreOptionsBuilder, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NetServerCoreOptionsBuilder, To)
+    nameWithType: Converters.MapEnums(Of NetServerCoreOptionsBuilder, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.#ctor
+  isExternal: true
+  name: NetServerCoreOptionsBuilder
+  nameWithType: NetServerCoreOptionsBuilder.NetServerCoreOptionsBuilder
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.NetServerCoreOptionsBuilder
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
+  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: NetServerCoreOptions
+  nameWithType: NetServerCoreOptions
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier
+  isExternal: true
+  name: AddImplicitIdentitySupplier
+  nameWithType: NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: NetServerCoreOptionsBuilder
+  nameWithType: NetServerCoreOptionsBuilder
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
+  isExternal: true
+  name: UseOnPremAD
+  nameWithType: NetServerCoreOptionsBuilder.UseOnPremAD
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels
+  isExternal: true
+  name: UseNetServerLogLevels
+  nameWithType: NetServerCoreOptionsBuilder.UseNetServerLogLevels
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor
+  isExternal: true
+  name: UseRequestItemsAccessor
+  nameWithType: NetServerCoreOptionsBuilder.UseRequestItemsAccessor
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess
+  isExternal: true
+  name: UseFileAccess
+  nameWithType: NetServerCoreOptionsBuilder.UseFileAccess
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options
+  isExternal: true
+  name: Options
+  nameWithType: NetServerCoreOptionsBuilder.Options
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.Options

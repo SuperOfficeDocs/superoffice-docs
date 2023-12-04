@@ -20,7 +20,7 @@ items:
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse)
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.SaveWebhook(SuperOffice.CRM.Webhooks.Webhook)
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.SendHttpRequest(SuperOffice.CRM.Webhooks.WebhookPayload,System.Net.Http.HttpRequestMessage,SuperOffice.CRM.Webhooks.WebhookResponse)
-  - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
+  - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.SignWebHookRequest(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Net.Http.HttpRequestMessage,Newtonsoft.Json.Linq.JObject)
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.TestWebhook(SuperOffice.CRM.Webhooks.Webhook)
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.UpdateWebhookState(System.Int32,SuperOffice.CRM.Webhooks.WebhookState)
@@ -42,11 +42,14 @@ items:
     content: >-
       [SystemWebhookPlugin("Default", 2147483647)]
 
-      public class DefaultWebhookPlugin : ISystemWebhookPlugin, ICustomWebhookPlugin, IPlugin, IDisposable
+      public class DefaultWebhookPlugin : Object, ISystemWebhookPlugin, ICustomWebhookPlugin, IPlugin, IDisposable
     content.vb: >-
       <SystemWebhookPlugin("Default", 2147483647)>
 
       Public Class DefaultWebhookPlugin
+
+          Inherits Object
+
           Implements ISystemWebhookPlugin, ICustomWebhookPlugin, IPlugin, IDisposable
   inheritance:
   - System.Object
@@ -54,14 +57,6 @@ items:
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
   - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   - System.IDisposable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Webhooks.DefaultWebhookPlugin)
@@ -125,7 +120,7 @@ items:
   namespace: SuperOffice.CRM.Webhooks
   summary: "\nReturn all the stored webhooks.\n"
   syntax:
-    content: public IEnumerable<Webhook> GetAllWebhooks(string name = null, string eventName = null, string appToken = null, WebhookState? state = default(WebhookState? ))
+    content: public IEnumerable<Webhook> GetAllWebhooks(string name = null, string eventName = null, string appToken = null, Nullable<WebhookState> state = null)
     parameters:
     - id: name
       type: System.String
@@ -142,7 +137,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
       description: List of webhooks (that are listening to eventName)
-    content.vb: Public Function GetAllWebhooks(name As String = Nothing, eventName As String = Nothing, appToken As String = Nothing, state As WebhookState? = Nothing) As IEnumerable(Of Webhook)
+    content.vb: Public Function GetAllWebhooks(name As String = Nothing, eventName As String = Nothing, appToken As String = Nothing, state As Nullable(Of WebhookState) = Nothing) As IEnumerable(Of Webhook)
   overload: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetAllWebhooks*
   implements:
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState})
@@ -483,13 +478,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
   syntax:
-    content: protected void UpdateWebhookState(int webhookId, WebhookState tooManyErrors)
+    content: protected void UpdateWebhookState(int webhookId, WebhookState webhookState)
     parameters:
     - id: webhookId
       type: System.Int32
-    - id: tooManyErrors
+    - id: webhookState
       type: SuperOffice.CRM.Webhooks.WebhookState
-    content.vb: Protected Sub UpdateWebhookState(webhookId As Integer, tooManyErrors As WebhookState)
+    content.vb: Protected Sub UpdateWebhookState(webhookId As Integer, webhookState As WebhookState)
   overload: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.UpdateWebhookState*
   modifiers.csharp:
   - protected
@@ -531,16 +526,16 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
-  commentId: M:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
-  id: ServerCertificateValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
+- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
+  commentId: M:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
+  id: ServerCertificateCustomValidationCallback(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
   parent: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
   langs:
   - csharp
   - vb
-  name: ServerCertificateValidationCallback(Object, X509Certificate, X509Chain, SslPolicyErrors)
-  nameWithType: DefaultWebhookPlugin.ServerCertificateValidationCallback(Object, X509Certificate, X509Chain, SslPolicyErrors)
-  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback(System.Object, System.Security.Cryptography.X509Certificates.X509Certificate, System.Security.Cryptography.X509Certificates.X509Chain, System.Net.Security.SslPolicyErrors)
+  name: ServerCertificateCustomValidationCallback(Object, X509Certificate, X509Chain, SslPolicyErrors)
+  nameWithType: DefaultWebhookPlugin.ServerCertificateCustomValidationCallback(Object, X509Certificate, X509Chain, SslPolicyErrors)
+  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback(System.Object, System.Security.Cryptography.X509Certificates.X509Certificate, System.Security.Cryptography.X509Certificates.X509Chain, System.Net.Security.SslPolicyErrors)
   type: Method
   source:
     path: SoDataBase
@@ -550,7 +545,7 @@ items:
   namespace: SuperOffice.CRM.Webhooks
   summary: "\nVerify SSL certificate is ok, deny bogus SSL certs\n"
   syntax:
-    content: protected static bool ServerCertificateValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+    content: protected static bool ServerCertificateCustomValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
     parameters:
     - id: sender
       type: System.Object
@@ -563,8 +558,8 @@ items:
     return:
       type: System.Boolean
       description: True if SSL cert is ok
-    content.vb: Protected Shared Function ServerCertificateValidationCallback(sender As Object, certificate As X509Certificate, chain As X509Chain, sslPolicyErrors As SslPolicyErrors) As Boolean
-  overload: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback*
+    content.vb: Protected Shared Function ServerCertificateCustomValidationCallback(sender As Object, certificate As X509Certificate, chain As X509Chain, sslPolicyErrors As SslPolicyErrors) As Boolean
+  overload: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback*
   modifiers.csharp:
   - protected
   - static
@@ -726,8 +721,6 @@ items:
     content: public void Dispose()
     content.vb: Public Sub Dispose
   overload: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.Dispose*
-  implements:
-  - System.IDisposable.Dispose
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -761,291 +754,10 @@ references:
   nameWithType: ICustomWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1532,8 +1244,7 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}
-  commentId: T:System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}'
   definition: System.Nullable`1
   name: Nullable<WebhookState>
   nameWithType: Nullable<WebhookState>
@@ -1576,8 +1287,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<Webhook>
   nameWithType: IEnumerable<Webhook>
@@ -1620,14 +1330,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -1637,9 +1346,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1652,21 +1361,20 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -1676,9 +1384,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1691,18 +1399,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetWebhook*
   commentId: Overload:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetWebhook
   isExternal: true
@@ -2078,15 +1780,14 @@ references:
   name: AddToWebhookCounters
   nameWithType: DefaultWebhookPlugin.AddToWebhookCounters
   fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.AddToWebhookCounters
-- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback*
-  commentId: Overload:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback
+- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback*
+  commentId: Overload:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback
   isExternal: true
-  name: ServerCertificateValidationCallback
-  nameWithType: DefaultWebhookPlugin.ServerCertificateValidationCallback
-  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateValidationCallback
+  name: ServerCertificateCustomValidationCallback
+  nameWithType: DefaultWebhookPlugin.ServerCertificateCustomValidationCallback
+  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.ServerCertificateCustomValidationCallback
 - uid: System.Security.Cryptography.X509Certificates.X509Certificate
-  commentId: T:System.Security.Cryptography.X509Certificates.X509Certificate
-  parent: System.Security.Cryptography.X509Certificates
+  commentId: '!:System.Security.Cryptography.X509Certificates.X509Certificate'
   isExternal: true
   name: X509Certificate
   nameWithType: X509Certificate
@@ -2103,12 +1804,6 @@ references:
   name: SslPolicyErrors
   nameWithType: SslPolicyErrors
   fullName: System.Net.Security.SslPolicyErrors
-- uid: System.Security.Cryptography.X509Certificates
-  commentId: N:System.Security.Cryptography.X509Certificates
-  isExternal: true
-  name: System.Security.Cryptography.X509Certificates
-  nameWithType: System.Security.Cryptography.X509Certificates
-  fullName: System.Security.Cryptography.X509Certificates
 - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.AddHeadersToWebHookRequest*
   commentId: Overload:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.AddHeadersToWebHookRequest
   isExternal: true
@@ -2138,34 +1833,3 @@ references:
   name: Dispose
   nameWithType: DefaultWebhookPlugin.Dispose
   fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )

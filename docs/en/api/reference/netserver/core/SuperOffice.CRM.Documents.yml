@@ -16,7 +16,7 @@ items:
   - SuperOffice.CRM.Documents.Constants.GUI.Names
   - SuperOffice.CRM.Documents.Constants.Properties
   - SuperOffice.CRM.Documents.Constants.Values
-  - SuperOffice.CRM.Documents.DocumentBase
+  - SuperOffice.CRM.Documents.DocumentEntityHelper
   - SuperOffice.CRM.Documents.DocumentLockSemantics
   - SuperOffice.CRM.Documents.DocumentPlugin2Attribute
   - SuperOffice.CRM.Documents.DocumentTemplateInfo
@@ -24,14 +24,11 @@ items:
   - SuperOffice.CRM.Documents.ICheckinFileOperations
   - SuperOffice.CRM.Documents.IDocumentPlugin2
   - SuperOffice.CRM.Documents.IDocumentPluginOptional
-  - SuperOffice.CRM.Documents.IDocumentPluginTravel
-  - SuperOffice.CRM.Documents.ITempFileProvider
   - SuperOffice.CRM.Documents.PhysicalDocument
   - SuperOffice.CRM.Documents.PhysicalDocumentTemplate
   - SuperOffice.CRM.Documents.SoArc2
   - SuperOffice.CRM.Documents.SoArc2CheckoutHelper
   - SuperOffice.CRM.Documents.SoArc2Helper
-  - SuperOffice.CRM.Documents.TempFileProviderAttribute
   - SuperOffice.CRM.Documents.TemplateInfo
   - SuperOffice.CRM.Documents.VersionInfo
   langs:
@@ -56,20 +53,12 @@ references:
   name: AsponseInitializer
   nameWithType: AsponseInitializer
   fullName: SuperOffice.CRM.Documents.AsponseInitializer
-- uid: SuperOffice.CRM.Documents.DocumentBase
-  commentId: T:SuperOffice.CRM.Documents.DocumentBase
-  parent: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.Documents.DocumentEntityHelper
+  commentId: T:SuperOffice.CRM.Documents.DocumentEntityHelper
   isExternal: true
-  name: DocumentBase
-  nameWithType: DocumentBase
-  fullName: SuperOffice.CRM.Documents.DocumentBase
-- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
-  commentId: T:SuperOffice.CRM.Documents.PhysicalDocumentTemplate
-  parent: SuperOffice.CRM.Documents
-  isExternal: true
-  name: PhysicalDocumentTemplate
-  nameWithType: PhysicalDocumentTemplate
-  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
+  name: DocumentEntityHelper
+  nameWithType: DocumentEntityHelper
+  fullName: SuperOffice.CRM.Documents.DocumentEntityHelper
 - uid: SuperOffice.CRM.Documents.DocumentTemplateInfo
   commentId: T:SuperOffice.CRM.Documents.DocumentTemplateInfo
   isExternal: true
@@ -89,6 +78,13 @@ references:
   name: PhysicalDocument
   nameWithType: PhysicalDocument
   fullName: SuperOffice.CRM.Documents.PhysicalDocument
+- uid: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
+  commentId: T:SuperOffice.CRM.Documents.PhysicalDocumentTemplate
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: PhysicalDocumentTemplate
+  nameWithType: PhysicalDocumentTemplate
+  fullName: SuperOffice.CRM.Documents.PhysicalDocumentTemplate
 - uid: SuperOffice.CRM.Documents.SoArc2
   commentId: T:SuperOffice.CRM.Documents.SoArc2
   isExternal: true
@@ -129,40 +125,6 @@ references:
   name: DocumentPlugin2Attribute
   nameWithType: DocumentPlugin2Attribute
   fullName: SuperOffice.CRM.Documents.DocumentPlugin2Attribute
-- uid: SuperOffice.CRM.Documents.IDocumentPlugin2
-  commentId: T:SuperOffice.CRM.Documents.IDocumentPlugin2
-  parent: SuperOffice.CRM.Documents
-  isExternal: true
-  name: IDocumentPlugin2
-  nameWithType: IDocumentPlugin2
-  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2
-- uid: SuperOffice.CRM.Documents.IDocumentPluginOptional
-  commentId: T:SuperOffice.CRM.Documents.IDocumentPluginOptional
-  isExternal: true
-  name: IDocumentPluginOptional
-  nameWithType: IDocumentPluginOptional
-  fullName: SuperOffice.CRM.Documents.IDocumentPluginOptional
-- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel
-  commentId: T:SuperOffice.CRM.Documents.IDocumentPluginTravel
-  parent: SuperOffice.CRM.Documents
-  isExternal: true
-  name: IDocumentPluginTravel
-  nameWithType: IDocumentPluginTravel
-  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel
-- uid: SuperOffice.CRM.Documents.ITempFileProvider
-  commentId: T:SuperOffice.CRM.Documents.ITempFileProvider
-  parent: SuperOffice.CRM.Documents
-  isExternal: true
-  name: ITempFileProvider
-  nameWithType: ITempFileProvider
-  fullName: SuperOffice.CRM.Documents.ITempFileProvider
-- uid: SuperOffice.CRM.Documents.TempFileProviderAttribute
-  commentId: T:SuperOffice.CRM.Documents.TempFileProviderAttribute
-  parent: SuperOffice.CRM.Documents
-  isExternal: true
-  name: TempFileProviderAttribute
-  nameWithType: TempFileProviderAttribute
-  fullName: SuperOffice.CRM.Documents.TempFileProviderAttribute
 - uid: SuperOffice.CRM.Documents.DocumentLockSemantics
   commentId: T:SuperOffice.CRM.Documents.DocumentLockSemantics
   parent: SuperOffice.CRM.Documents
@@ -240,6 +202,19 @@ references:
   name: Constants.GUI.Names
   nameWithType: Constants.GUI.Names
   fullName: SuperOffice.CRM.Documents.Constants.GUI.Names
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2
+  commentId: T:SuperOffice.CRM.Documents.IDocumentPlugin2
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: IDocumentPlugin2
+  nameWithType: IDocumentPlugin2
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2
+- uid: SuperOffice.CRM.Documents.IDocumentPluginOptional
+  commentId: T:SuperOffice.CRM.Documents.IDocumentPluginOptional
+  isExternal: true
+  name: IDocumentPluginOptional
+  nameWithType: IDocumentPluginOptional
+  fullName: SuperOffice.CRM.Documents.IDocumentPluginOptional
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents
   isExternal: true

@@ -444,13 +444,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.EMailAgent
   commentId: T:SuperOffice.CRM.Services.EMailAgent
   isExternal: true
@@ -464,12 +457,6 @@ references:
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.CRM.Services.IEMailAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAddress.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EMailAddress.#ctor
   isExternal: true
@@ -489,6 +476,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAddress.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAddress.ContactId
   isExternal: true

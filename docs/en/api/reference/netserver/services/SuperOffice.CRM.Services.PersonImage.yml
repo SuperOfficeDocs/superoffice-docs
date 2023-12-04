@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PersonImage
+  commentId: T:SuperOffice.CRM.Services.PersonImage
+  id: PersonImage
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PersonImage.#ctor
+  - SuperOffice.CRM.Services.PersonImage.ImageData
+  - SuperOffice.CRM.Services.PersonImage.PersonId
+  - SuperOffice.CRM.Services.PersonImage.ToString
+  - SuperOffice.CRM.Services.PersonImage.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PersonImage
+  nameWithType: PersonImage
+  fullName: SuperOffice.CRM.Services.PersonImage
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nScaled person image\n<p></p>\nCarrier object for PersonImage.\nServices for the PersonImage Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPersonAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class PersonImage : Object'
+    content.vb: >-
+      Public Class PersonImage
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PersonAgent
+    commentId: T:SuperOffice.CRM.Services.PersonAgent
+  - linkId: SuperOffice.CRM.Services.IPersonAgent
+    commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PersonImage.#ctor
+  commentId: M:SuperOffice.CRM.Services.PersonImage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: PersonImage()
+  nameWithType: PersonImage.PersonImage()
+  fullName: SuperOffice.CRM.Services.PersonImage.PersonImage()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PersonImage()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PersonImage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonImage.ToString
+  commentId: M:SuperOffice.CRM.Services.PersonImage.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PersonImage.ToString()
+  fullName: SuperOffice.CRM.Services.PersonImage.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PersonImage.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PersonImage.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PersonImage.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PersonImage.ToString(String)
+  fullName: SuperOffice.CRM.Services.PersonImage.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PersonImage.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonImage.PersonId
+  commentId: P:SuperOffice.CRM.Services.PersonImage.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: PersonImage.PersonId
+  fullName: SuperOffice.CRM.Services.PersonImage.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.PersonImage.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonImage.ImageData
+  commentId: P:SuperOffice.CRM.Services.PersonImage.ImageData
+  id: ImageData
+  parent: SuperOffice.CRM.Services.PersonImage
+  langs:
+  - csharp
+  - vb
+  name: ImageData
+  nameWithType: PersonImage.ImageData
+  fullName: SuperOffice.CRM.Services.PersonImage.ImageData
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nImage data in PNG format. \n"
+  syntax:
+    content: public virtual byte[] ImageData { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overridable Property ImageData As Byte()
+  overload: SuperOffice.CRM.Services.PersonImage.ImageData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.PersonAgent
+  commentId: T:SuperOffice.CRM.Services.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.CRM.Services.PersonAgent
+- uid: SuperOffice.CRM.Services.IPersonAgent
+  commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.CRM.Services.IPersonAgent
+- uid: SuperOffice.CRM.Services.PersonImage.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PersonImage.#ctor
+  isExternal: true
+  name: PersonImage
+  nameWithType: PersonImage.PersonImage
+  fullName: SuperOffice.CRM.Services.PersonImage.PersonImage
+- uid: SuperOffice.CRM.Services.PersonImage.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PersonImage.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PersonImage.ToString
+  fullName: SuperOffice.CRM.Services.PersonImage.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PersonImage.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.PersonImage.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: PersonImage.PersonId
+  fullName: SuperOffice.CRM.Services.PersonImage.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PersonImage.ImageData*
+  commentId: Overload:SuperOffice.CRM.Services.PersonImage.ImageData
+  isExternal: true
+  name: ImageData
+  nameWithType: PersonImage.ImageData
+  fullName: SuperOffice.CRM.Services.PersonImage.ImageData
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

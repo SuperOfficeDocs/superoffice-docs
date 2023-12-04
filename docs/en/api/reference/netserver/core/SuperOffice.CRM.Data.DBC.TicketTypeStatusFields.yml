@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  id: DBC.TicketTypeStatusFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Registered
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketStatusId
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeId
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeStatusId
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Updated
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TicketTypeStatusFields
+  nameWithType: DBC.TicketTypeStatusFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TicketTypeStatus, Link table defining what Statuses are relevant to a particular Ticket type\n"
+  syntax:
+    content: 'public static class TicketTypeStatusFields : Object'
+    content.vb: >-
+      Public Module TicketTypeStatusFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeStatusId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeStatusId
+  id: TicketTypeStatusId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeStatusId
+  nameWithType: DBC.TicketTypeStatusFields.TicketTypeStatusId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeStatusId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.TicketTypeStatusId: Primary key\n"
+  syntax:
+    content: public const string TicketTypeStatusId = "ticket_type_status_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTypeStatusId As String = "ticket_type_status_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeId
+  id: TicketTypeId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeId
+  nameWithType: DBC.TicketTypeStatusFields.TicketTypeId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.TicketTypeId: Ticket type \n"
+  syntax:
+    content: public const string TicketTypeId = "ticket_type_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTypeId As String = "ticket_type_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketStatusId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketStatusId
+  id: TicketStatusId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: TicketStatusId
+  nameWithType: DBC.TicketTypeStatusFields.TicketStatusId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.TicketStatusId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.TicketStatusId: Ticket status\n"
+  syntax:
+    content: public const string TicketStatusId = "ticket_status_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketStatusId As String = "ticket_status_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TicketTypeStatusFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TicketTypeStatusFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TicketTypeStatusFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TicketTypeStatusFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TicketTypeStatusFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

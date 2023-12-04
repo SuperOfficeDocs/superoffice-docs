@@ -103,13 +103,14 @@ items:
   - SuperOffice.Data.TaskItem.ETaskTypeWriteEmail2
   - SuperOffice.Data.TaskItem.ETaskTypeWriteFax1
   - SuperOffice.Data.TaskItem.ETaskTypeWriteFax2
+  - SuperOffice.Data.TaskItem.value__
   langs:
   - csharp
   - vb
   name: TaskItem
   nameWithType: TaskItem
   fullName: SuperOffice.Data.TaskItem
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -118,19 +119,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
-    content: public enum TaskItem
-    content.vb: Public Enum TaskItem
+    content: 'public sealed class TaskItem : Enum'
+    content.vb: >-
+      Public NotInheritable Class TaskItem
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TaskItem.EnumUtil.MapEnums``2
-  - SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TaskItem)
-  - SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.TaskItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TaskItem.value__
+  commentId: F:SuperOffice.Data.TaskItem.value__
+  id: value__
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TaskItem.value__
+  fullName: SuperOffice.Data.TaskItem.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TaskItem.ETaskTypeUndefined
   commentId: F:SuperOffice.Data.TaskItem.ETaskTypeUndefined
   id: ETaskTypeUndefined
@@ -150,9 +186,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
-    content: ETaskTypeUndefined = 0
+    content: public const TaskItem ETaskTypeUndefined
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeUndefined As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -178,9 +215,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
-    content: ETaskTypeInvalid = 1
+    content: public const TaskItem ETaskTypeInvalid
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeInvalid As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -206,9 +244,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCommon type used for common Context implementations.\n"
   syntax:
-    content: ETaskTypeCommon = 2
+    content: public const TaskItem ETaskTypeCommon
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeCommon As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -234,9 +273,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new CurrentMode dependent record.\n"
   syntax:
-    content: ETaskTypeNew = 3
+    content: public const TaskItem ETaskTypeNew
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNew As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -262,9 +302,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new contact\n"
   syntax:
-    content: ETaskTypeNewContact = 4
+    content: public const TaskItem ETaskTypeNewContact
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewContact As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -290,9 +331,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new project\n"
   syntax:
-    content: ETaskTypeNewProject = 5
+    content: public const TaskItem ETaskTypeNewProject
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewProject As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -318,9 +360,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new person\n"
   syntax:
-    content: ETaskTypeNewPerson = 6
+    content: public const TaskItem ETaskTypeNewPerson
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewPerson As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -346,9 +389,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new selection\n"
   syntax:
-    content: ETaskTypeNewSelection = 7
+    content: public const TaskItem ETaskTypeNewSelection
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewSelection As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -374,9 +418,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Standard&quot; appointment\n"
   syntax:
-    content: ETaskTypeNewAppointment = 8
+    content: public const TaskItem ETaskTypeNewAppointment
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewAppointment As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -402,9 +447,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;ToDo&quot; appointment, also called a &quot;Task&quot;\n"
   syntax:
-    content: ETaskTypeNewToDo = 9
+    content: public const TaskItem ETaskTypeNewToDo
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewToDo As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -430,9 +476,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Phone&quot; appointment\n"
   syntax:
-    content: ETaskTypeNewPhone = 10
+    content: public const TaskItem ETaskTypeNewPhone
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewPhone As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -458,9 +505,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Standard&quot; document\n"
   syntax:
-    content: ETaskTypeNewDocument = 11
+    content: public const TaskItem ETaskTypeNewDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -486,9 +534,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new &quot;Email&quot; document\n"
   syntax:
-    content: ETaskTypeNewEmail = 12
+    content: public const TaskItem ETaskTypeNewEmail
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewEmail As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -514,9 +563,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new sale\n"
   syntax:
-    content: ETaskTypeNewSale = 13
+    content: public const TaskItem ETaskTypeNewSale
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewSale As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -542,9 +592,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAttach new Note to the current card\n"
   syntax:
-    content: ETaskTypeNewNote = 14
+    content: public const TaskItem ETaskTypeNewNote
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeNewNote As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -570,9 +621,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete whatever CurentMode points to.\n"
   syntax:
-    content: ETaskTypeDelete = 15
+    content: public const TaskItem ETaskTypeDelete
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDelete As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -598,9 +650,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete current contact card\n"
   syntax:
-    content: ETaskTypeDeleteContact = 16
+    content: public const TaskItem ETaskTypeDeleteContact
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeleteContact As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -626,9 +679,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete current Project card\n"
   syntax:
-    content: ETaskTypeDeleteProject = 17
+    content: public const TaskItem ETaskTypeDeleteProject
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeleteProject As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -654,9 +708,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete Person\n"
   syntax:
-    content: ETaskTypeDeletePerson = 18
+    content: public const TaskItem ETaskTypeDeletePerson
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeletePerson As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -682,9 +737,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete curren selection\n"
   syntax:
-    content: ETaskTypeDeleteSelection = 19
+    content: public const TaskItem ETaskTypeDeleteSelection
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeleteSelection As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -710,9 +766,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete Appointment\n"
   syntax:
-    content: ETaskTypeDeleteAppointment = 20
+    content: public const TaskItem ETaskTypeDeleteAppointment
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeleteAppointment As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -738,9 +795,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete Document\n"
   syntax:
-    content: ETaskTypeDeleteDocument = 21
+    content: public const TaskItem ETaskTypeDeleteDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeleteDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -766,9 +824,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete Sale\n"
   syntax:
-    content: ETaskTypeDeleteSale = 22
+    content: public const TaskItem ETaskTypeDeleteSale
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeleteSale As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -794,9 +853,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete ca note\n"
   syntax:
-    content: ETaskTypeDeleteNote = 23
+    content: public const TaskItem ETaskTypeDeleteNote
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDeleteNote As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -822,9 +882,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nWrite as used in Buttonbar and TaskCenter menu.\n"
   syntax:
-    content: ETaskTypeWrite = 24
+    content: public const TaskItem ETaskTypeWrite
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWrite As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -850,9 +911,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGeneric document type, &quot;TemplateId = 0&quot;\n"
   syntax:
-    content: ETaskTypeWriteDocument = 25
+    content: public const TaskItem ETaskTypeWriteDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -878,9 +940,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntDoc with rank 1)\n"
   syntax:
-    content: ETaskTypeWriteDoc1 = 26
+    content: public const TaskItem ETaskTypeWriteDoc1
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteDoc1 As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -906,9 +969,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntDoc with rank 2)\n"
   syntax:
-    content: ETaskTypeWriteDoc2 = 27
+    content: public const TaskItem ETaskTypeWriteDoc2
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteDoc2 As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -934,9 +998,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntFax with rank 1)\n"
   syntax:
-    content: ETaskTypeWriteFax1 = 28
+    content: public const TaskItem ETaskTypeWriteFax1
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteFax1 As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -962,9 +1027,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntFax with rank 2)\n"
   syntax:
-    content: ETaskTypeWriteFax2 = 29
+    content: public const TaskItem ETaskTypeWriteFax2
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteFax2 As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -990,9 +1056,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGeneric mail type, &quot;TemplateId = 0&quot;\n"
   syntax:
-    content: ETaskTypeWriteEmail = 30
+    content: public const TaskItem ETaskTypeWriteEmail
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteEmail As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1018,9 +1085,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntEmail with rank 1)\n"
   syntax:
-    content: ETaskTypeWriteEmail1 = 31
+    content: public const TaskItem ETaskTypeWriteEmail1
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteEmail1 As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1046,9 +1114,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new document based on template of type kAppntEmail with rank 2)\n"
   syntax:
-    content: ETaskTypeWriteEmail2 = 32
+    content: public const TaskItem ETaskTypeWriteEmail2
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeWriteEmail2 As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1074,9 +1143,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSend appointment as EMail.\n"
   syntax:
-    content: ETaskTypeSendAsEmailAppointment = 33
+    content: public const TaskItem ETaskTypeSendAsEmailAppointment
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSendAsEmailAppointment As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1102,9 +1172,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd document link to sale\n"
   syntax:
-    content: ETaskTypeSaleAttachDocument = 34
+    content: public const TaskItem ETaskTypeSaleAttachDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSaleAttachDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1130,9 +1201,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd appointment link to sale\n"
   syntax:
-    content: ETaskTypeSaleAttachAppointment = 35
+    content: public const TaskItem ETaskTypeSaleAttachAppointment
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSaleAttachAppointment As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1158,9 +1230,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd sale link to sale\n"
   syntax:
-    content: ETaskTypeSaleAttachSale = 36
+    content: public const TaskItem ETaskTypeSaleAttachSale
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSaleAttachSale As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1186,9 +1259,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd document link to appointment\n"
   syntax:
-    content: ETaskTypeAppointmentAttachDocument = 37
+    content: public const TaskItem ETaskTypeAppointmentAttachDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeAppointmentAttachDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1214,9 +1288,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd sale link to appointment\n"
   syntax:
-    content: ETaskTypeAppointmentAttachSale = 38
+    content: public const TaskItem ETaskTypeAppointmentAttachSale
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeAppointmentAttachSale As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1242,9 +1317,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAddd appointment link to appointment\n"
   syntax:
-    content: ETaskTypeAppointmentAttachAppointment = 39
+    content: public const TaskItem ETaskTypeAppointmentAttachAppointment
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeAppointmentAttachAppointment As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1270,9 +1346,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd appointment link to document\n"
   syntax:
-    content: ETaskTypeDocumentAttachAppointment = 40
+    content: public const TaskItem ETaskTypeDocumentAttachAppointment
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDocumentAttachAppointment As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1298,9 +1375,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd sale link to document\n"
   syntax:
-    content: ETaskTypeDocumentAttachSale = 41
+    content: public const TaskItem ETaskTypeDocumentAttachSale
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDocumentAttachSale As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1326,9 +1404,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd document link to document\n"
   syntax:
-    content: ETaskTypeDocumentAttachDocument = 42
+    content: public const TaskItem ETaskTypeDocumentAttachDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDocumentAttachDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1354,9 +1433,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Contact card\n"
   syntax:
-    content: ETaskTypePostItContact = 43
+    content: public const TaskItem ETaskTypePostItContact
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePostItContact As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1382,9 +1462,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Project card\n"
   syntax:
-    content: ETaskTypePostItProject = 44
+    content: public const TaskItem ETaskTypePostItProject
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePostItProject As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1410,9 +1491,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Person card\n"
   syntax:
-    content: ETaskTypePostItPerson = 45
+    content: public const TaskItem ETaskTypePostItPerson
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePostItPerson As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1438,9 +1520,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt on Selection card\n"
   syntax:
-    content: ETaskTypePostItSelection = 46
+    content: public const TaskItem ETaskTypePostItSelection
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePostItSelection As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1466,9 +1549,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAdd/Show UnknownOrPostIt in Diary\n"
   syntax:
-    content: ETaskTypePostItDiary = 47
+    content: public const TaskItem ETaskTypePostItDiary
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePostItDiary As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1494,9 +1578,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new Contact\n"
   syntax:
-    content: ETaskTypeContactNew = 48
+    content: public const TaskItem ETaskTypeContactNew
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeContactNew As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1522,9 +1607,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete contact\n"
   syntax:
-    content: ETaskTypeContactDelete = 49
+    content: public const TaskItem ETaskTypeContactDelete
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeContactDelete As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1550,9 +1636,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nFind a Contact\n"
   syntax:
-    content: ETaskTypeContactFind = 50
+    content: public const TaskItem ETaskTypeContactFind
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeContactFind As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1578,9 +1665,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate a new Person\n"
   syntax:
-    content: ETaskTypePersonNew = 51
+    content: public const TaskItem ETaskTypePersonNew
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePersonNew As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1606,9 +1694,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete Person\n"
   syntax:
-    content: ETaskTypePersonDelete = 52
+    content: public const TaskItem ETaskTypePersonDelete
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePersonDelete As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1634,9 +1723,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nFind a Person\n"
   syntax:
-    content: ETaskTypePersonFind = 53
+    content: public const TaskItem ETaskTypePersonFind
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePersonFind As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1662,9 +1752,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new Project\n"
   syntax:
-    content: ETaskTypeProjectNew = 54
+    content: public const TaskItem ETaskTypeProjectNew
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeProjectNew As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1690,9 +1781,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete project\n"
   syntax:
-    content: ETaskTypeProjectDelete = 55
+    content: public const TaskItem ETaskTypeProjectDelete
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeProjectDelete As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1718,9 +1810,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nFind a Project\n"
   syntax:
-    content: ETaskTypeProjectFind = 56
+    content: public const TaskItem ETaskTypeProjectFind
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeProjectFind As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1746,9 +1839,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDo a mail merge on behalf of a project\n"
   syntax:
-    content: ETaskTypeProjectMailMerge = 57
+    content: public const TaskItem ETaskTypeProjectMailMerge
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeProjectMailMerge As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1774,9 +1868,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCreate new selection\n"
   syntax:
-    content: ETaskTypeSelectionNew = 58
+    content: public const TaskItem ETaskTypeSelectionNew
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionNew As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1802,9 +1897,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete Selection\n"
   syntax:
-    content: ETaskTypeSelectionDelete = 59
+    content: public const TaskItem ETaskTypeSelectionDelete
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionDelete As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1830,9 +1926,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nFind a Selection\n"
   syntax:
-    content: ETaskTypeSelectionFind = 60
+    content: public const TaskItem ETaskTypeSelectionFind
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionFind As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1858,9 +1955,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDo a mail merge on behalf of a selection\n"
   syntax:
-    content: ETaskTypeSelectionMailMerge = 61
+    content: public const TaskItem ETaskTypeSelectionMailMerge
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionMailMerge As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1886,9 +1984,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint a label for each member in the selection\n"
   syntax:
-    content: ETaskTypeSelectionPrintLabels = 62
+    content: public const TaskItem ETaskTypeSelectionPrintLabels
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionPrintLabels As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1914,9 +2013,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint report -&quot;-\n"
   syntax:
-    content: ETaskTypeSelectionPrintReports = 63
+    content: public const TaskItem ETaskTypeSelectionPrintReports
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionPrintReports As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1942,9 +2042,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSend an e-mail to each member in the selection\n"
   syntax:
-    content: ETaskTypeSelectionSendEmail = 64
+    content: public const TaskItem ETaskTypeSelectionSendEmail
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionSendEmail As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1970,9 +2071,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nGenerate a to do appointment for each member\n"
   syntax:
-    content: ETaskTypeSelectionGenToDo = 65
+    content: public const TaskItem ETaskTypeSelectionGenToDo
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionGenToDo As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -1998,9 +2100,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSimply copy a selection as &quot;Copy of ...&quot;\n"
   syntax:
-    content: ETaskTypeSelectionClone = 66
+    content: public const TaskItem ETaskTypeSelectionClone
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionClone As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2026,9 +2129,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCopy selection members into a new or existing one\n"
   syntax:
-    content: ETaskTypeSelectionCopyInto = 67
+    content: public const TaskItem ETaskTypeSelectionCopyInto
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionCopyInto As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2054,9 +2158,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nEdit the interest for each member/member person\n"
   syntax:
-    content: ETaskTypeSelectionEditInterests = 68
+    content: public const TaskItem ETaskTypeSelectionEditInterests
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionEditInterests As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2082,9 +2187,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDo changes on all members/member persons\n"
   syntax:
-    content: ETaskTypeSelectionEditMembers = 69
+    content: public const TaskItem ETaskTypeSelectionEditMembers
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionEditMembers As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2110,9 +2216,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelete all members in the member list from the contact table\n"
   syntax:
-    content: ETaskTypeSelectionDeleteMembers = 70
+    content: public const TaskItem ETaskTypeSelectionDeleteMembers
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionDeleteMembers As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2138,9 +2245,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nExport selection member data to a file\n"
   syntax:
-    content: ETaskTypeSelectionExport = 71
+    content: public const TaskItem ETaskTypeSelectionExport
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSelectionExport As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2166,9 +2274,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nFind Date\n"
   syntax:
-    content: ETaskTypeDiaryFind = 72
+    content: public const TaskItem ETaskTypeDiaryFind
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeDiaryFind As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2194,9 +2303,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nUser defined task: Set up as an ExtApp i SOAdmin.\n"
   syntax:
-    content: ETaskTypeUser = 73
+    content: public const TaskItem ETaskTypeUser
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeUser As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2222,9 +2332,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find dialog for CurrentMode.\n"
   syntax:
-    content: ETaskTypeFind = 74
+    content: public const TaskItem ETaskTypeFind
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFind As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2250,9 +2361,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Contact dialog.\n"
   syntax:
-    content: ETaskTypeFindContact = 75
+    content: public const TaskItem ETaskTypeFindContact
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFindContact As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2278,9 +2390,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Person dialog.\n"
   syntax:
-    content: ETaskTypeFindPerson = 76
+    content: public const TaskItem ETaskTypeFindPerson
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFindPerson As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2306,9 +2419,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Project dialog.\n"
   syntax:
-    content: ETaskTypeFindProject = 77
+    content: public const TaskItem ETaskTypeFindProject
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFindProject As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2334,9 +2448,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Selection dialog.\n"
   syntax:
-    content: ETaskTypeFindSelection = 78
+    content: public const TaskItem ETaskTypeFindSelection
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFindSelection As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2362,9 +2477,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Activity dialog.\n"
   syntax:
-    content: ETaskTypeFindActivity = 79
+    content: public const TaskItem ETaskTypeFindActivity
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFindActivity As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2390,9 +2506,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Sale dialog.\n"
   syntax:
-    content: ETaskTypeFindSale = 80
+    content: public const TaskItem ETaskTypeFindSale
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFindSale As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2418,9 +2535,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvoke Find Document dialog.\n"
   syntax:
-    content: ETaskTypeFindDocument = 81
+    content: public const TaskItem ETaskTypeFindDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeFindDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2446,9 +2564,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint CurrentMode.\n"
   syntax:
-    content: ETaskTypePrint = 82
+    content: public const TaskItem ETaskTypePrint
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrint As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2474,9 +2593,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint Contact.\n"
   syntax:
-    content: ETaskTypePrintContact = 83
+    content: public const TaskItem ETaskTypePrintContact
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrintContact As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2502,9 +2622,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint Person.\n"
   syntax:
-    content: ETaskTypePrintPerson = 84
+    content: public const TaskItem ETaskTypePrintPerson
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrintPerson As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2530,9 +2651,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint Project.\n"
   syntax:
-    content: ETaskTypePrintProject = 85
+    content: public const TaskItem ETaskTypePrintProject
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrintProject As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2558,9 +2680,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint Selection.\n"
   syntax:
-    content: ETaskTypePrintSelection = 86
+    content: public const TaskItem ETaskTypePrintSelection
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrintSelection As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2586,9 +2709,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint Activity.\n"
   syntax:
-    content: ETaskTypePrintAppointment = 87
+    content: public const TaskItem ETaskTypePrintAppointment
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrintAppointment As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2614,9 +2738,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint Sale.\n"
   syntax:
-    content: ETaskTypePrintSale = 88
+    content: public const TaskItem ETaskTypePrintSale
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrintSale As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2642,9 +2767,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPrint Document.\n"
   syntax:
-    content: ETaskTypePrintDocument = 89
+    content: public const TaskItem ETaskTypePrintDocument
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePrintDocument As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2670,9 +2796,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nset sale status = sold\n"
   syntax:
-    content: ETaskTypeSaleSold = 90
+    content: public const TaskItem ETaskTypeSaleSold
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSaleSold As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2698,9 +2825,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nset sale status = lost\n"
   syntax:
-    content: ETaskTypeSaleLost = 91
+    content: public const TaskItem ETaskTypeSaleLost
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSaleLost As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2726,9 +2854,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nInvokes the Task Center configuration dialog.\n"
   syntax:
-    content: ETaskTypeConfigureTaskbar = 92
+    content: public const TaskItem ETaskTypeConfigureTaskbar
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeConfigureTaskbar As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2754,9 +2883,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nA menu item separator\n"
   syntax:
-    content: ETaskTypeSeparator = 93
+    content: public const TaskItem ETaskTypeSeparator
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSeparator As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2782,9 +2912,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nA small button layout spacer\n"
   syntax:
-    content: ETaskTypeSpacer = 94
+    content: public const TaskItem ETaskTypeSpacer
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeSpacer As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2810,9 +2941,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nA &quot;Dial&quot; button and sub-menu\n"
   syntax:
-    content: ETaskTypePhone = 95
+    content: public const TaskItem ETaskTypePhone
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypePhone As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2838,9 +2970,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nEquivalent for the SVHelpKeyButton.\n"
   syntax:
-    content: ETaskTypeHelp = 96
+    content: public const TaskItem ETaskTypeHelp
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeHelp As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2866,9 +2999,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nrelevant SoProtocol string and copy to clipboard.\n"
   syntax:
-    content: ETaskTypeCopySoProtocol = 97
+    content: public const TaskItem ETaskTypeCopySoProtocol
     return:
       type: SuperOffice.Data.TaskItem
+    content.vb: Public Const ETaskTypeCopySoProtocol As TaskItem
   modifiers.csharp:
   - public
   - const
@@ -2882,6 +3016,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TaskItem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2909,84 +3050,6 @@ references:
     name: MapEnums(Of TaskItem, To)
     nameWithType: EnumUtil.MapEnums(Of TaskItem, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TaskItem, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TaskItem)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TaskItem>(TaskItem)
-  nameWithType: ObjectExtensions.AssignByReflection<TaskItem>(TaskItem)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TaskItem>(SuperOffice.Data.TaskItem)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TaskItem)(TaskItem)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TaskItem)(SuperOffice.Data.TaskItem)
-  name.vb: AssignByReflection(Of TaskItem)(TaskItem)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TaskItem>
-    nameWithType: ObjectExtensions.AssignByReflection<TaskItem>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TaskItem>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TaskItem
-    name: TaskItem
-    nameWithType: TaskItem
-    fullName: SuperOffice.Data.TaskItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TaskItem)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TaskItem)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TaskItem)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TaskItem
-    name: TaskItem
-    nameWithType: TaskItem
-    fullName: SuperOffice.Data.TaskItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TaskItem>()
-  nameWithType: ObjectExtensions.GraphCopy<TaskItem>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TaskItem>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TaskItem)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TaskItem)()
-  name.vb: GraphCopy(Of TaskItem)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TaskItem>
-    nameWithType: ObjectExtensions.GraphCopy<TaskItem>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TaskItem>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TaskItem)
-    nameWithType: ObjectExtensions.GraphCopy(Of TaskItem)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TaskItem)
     isExternal: true
   - name: (
     nameWithType: (
@@ -3028,6 +3091,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -3073,103 +3142,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -3216,18 +3188,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.TaskItem
   commentId: T:SuperOffice.Data.TaskItem
   parent: SuperOffice.Data

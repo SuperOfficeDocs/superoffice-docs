@@ -38,6 +38,7 @@ items:
     content: 'public interface IRestrictionStorage : IPlugin'
     content.vb: >-
       Public Interface IRestrictionStorage
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.IRestrictionStorage.EnumUtil.MapEnums``2

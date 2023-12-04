@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  id: DBC.QuoteDenyReasonGroupLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.GroupId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuoteDenyReasonGroupLinkId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuotedenyreasonId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Registered
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Updated
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.QuoteDenyReasonGroupLinkFields
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for QuoteDenyReasonGroupLink, User group link table for QuoteDenyReason, for MDO item hiding\n"
+  syntax:
+    content: 'public static class QuoteDenyReasonGroupLinkFields : Object'
+    content.vb: >-
+      Public Module QuoteDenyReasonGroupLinkFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuoteDenyReasonGroupLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuoteDenyReasonGroupLinkId
+  id: QuoteDenyReasonGroupLinkId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteDenyReasonGroupLinkId
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.QuoteDenyReasonGroupLinkId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuoteDenyReasonGroupLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.QuoteDenyReasonGroupLinkId: Primary key\n"
+  syntax:
+    content: public const string QuoteDenyReasonGroupLinkId = "quotedenyreasongrouplink_id"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDenyReasonGroupLinkId As String = "quotedenyreasongrouplink_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuotedenyreasonId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuotedenyreasonId
+  id: QuotedenyreasonId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: QuotedenyreasonId
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.QuotedenyreasonId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.QuotedenyreasonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.QuotedenyreasonId: Link to QuoteDenyReason list table\n"
+  syntax:
+    content: public const string QuotedenyreasonId = "quotedenyreason_id"
+    return:
+      type: System.String
+    content.vb: Public Const QuotedenyreasonId As String = "quotedenyreason_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.GroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.GroupId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.GroupId: Link to Group table\n"
+  syntax:
+    content: public const string GroupId = "group_id"
+    return:
+      type: System.String
+    content.vb: Public Const GroupId As String = "group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

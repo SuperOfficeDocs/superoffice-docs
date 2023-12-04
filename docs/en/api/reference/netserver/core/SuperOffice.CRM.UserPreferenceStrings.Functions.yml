@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
   - SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
   - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDashboardTileExport
   - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
   - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
   - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
@@ -46,6 +47,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
   - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
   - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
   - SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
   - SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
   - SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
@@ -65,18 +67,13 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nFunctions\n"
   syntax:
-    content: public static class Functions
-    content.vb: Public Module Functions
+    content: 'public static class Functions : Object'
+    content.vb: >-
+      Public Module Functions
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -131,24 +128,10 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: >-
-      [Obsolete("This functionality is no longer supported; it was never fully present in SM.web", true)]
-
-      public const string ThreeStateStatusCheckbox = "3StateStatusCheckbox"
+    content: public const string ThreeStateStatusCheckbox = "3StateStatusCheckbox"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete("This functionality is no longer supported; it was never fully present in SM.web", True)>
-
-      Public Const ThreeStateStatusCheckbox As String = "3StateStatusCheckbox"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This functionality is no longer supported; it was never fully present in SM.web
-    - type: System.Boolean
-      value: true
+    content.vb: Public Const ThreeStateStatusCheckbox As String = "3StateStatusCheckbox"
   modifiers.csharp:
   - public
   - const
@@ -1402,6 +1385,64 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDashboardTileExport
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDashboardTileExport
+  id: DisableDashboardTileExport
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDashboardTileExport
+  nameWithType: UserPreferenceStrings.Functions.DisableDashboardTileExport
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDashboardTileExport
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nDisable export functionaliy for dashboard tiles. Customers who dont want to\nsend chart data to external serviers can enable this.\n"
+  syntax:
+    content: public const string DisableDashboardTileExport = "DisableDashboardTileExport"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDashboardTileExport As String = "DisableDashboardTileExport"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  id: ShowWeekNumbersInCalendars
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowWeekNumbersInCalendars
+  nameWithType: UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nShow week numbers in popup calendars.\n"
+  syntax:
+    content: public const string ShowWeekNumbersInCalendars = "ShowWeekNumbersInCalendars"
+    return:
+      type: System.String
+    content.vb: Public Const ShowWeekNumbersInCalendars As String = "ShowWeekNumbersInCalendars"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
@@ -1416,285 +1457,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

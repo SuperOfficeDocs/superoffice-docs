@@ -10,13 +10,14 @@ items:
   - SuperOffice.CRM.QuoteAction.Unknown
   - SuperOffice.CRM.QuoteAction.UpdatePrices
   - SuperOffice.CRM.QuoteAction.Validate
+  - SuperOffice.CRM.QuoteAction.value__
   langs:
   - csharp
   - vb
   name: QuoteAction
   nameWithType: QuoteAction
   fullName: SuperOffice.CRM.QuoteAction
-  type: Enum
+  type: Class
   source:
     path: SuperOffice.Plugins
     isExternal: true
@@ -25,19 +26,54 @@ items:
   namespace: SuperOffice.CRM
   summary: "\n\n"
   syntax:
-    content: public enum QuoteAction
-    content.vb: Public Enum QuoteAction
+    content: 'public sealed class QuoteAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class QuoteAction
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.QuoteAction.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.QuoteAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteAction)
-  - SuperOffice.CRM.QuoteAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.QuoteAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.QuoteAction.value__
+  commentId: F:SuperOffice.CRM.QuoteAction.value__
+  id: value__
+  parent: SuperOffice.CRM.QuoteAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: QuoteAction.value__
+  fullName: SuperOffice.CRM.QuoteAction.value__
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteAction.Unknown
   commentId: F:SuperOffice.CRM.QuoteAction.Unknown
   id: Unknown
@@ -57,9 +93,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nMeans that there are no known action connected\n"
   syntax:
-    content: Unknown = 0
+    content: public const QuoteAction Unknown
     return:
       type: SuperOffice.CRM.QuoteAction
+    content.vb: Public Const Unknown As QuoteAction
   modifiers.csharp:
   - public
   - const
@@ -85,9 +122,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe user has explicitly chosen to re-validate the quote\n"
   syntax:
-    content: Validate = 1
+    content: public const QuoteAction Validate
     return:
       type: SuperOffice.CRM.QuoteAction
+    content.vb: Public Const Validate As QuoteAction
   modifiers.csharp:
   - public
   - const
@@ -113,9 +151,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe user has pressed the send quote button\n"
   syntax:
-    content: SendQuote = 2
+    content: public const QuoteAction SendQuote
     return:
       type: SuperOffice.CRM.QuoteAction
+    content.vb: Public Const SendQuote As QuoteAction
   modifiers.csharp:
   - public
   - const
@@ -141,9 +180,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe user has pressed the place order button\n"
   syntax:
-    content: PlaceOrder = 3
+    content: public const QuoteAction PlaceOrder
     return:
       type: SuperOffice.CRM.QuoteAction
+    content.vb: Public Const PlaceOrder As QuoteAction
   modifiers.csharp:
   - public
   - const
@@ -169,9 +209,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe user has pressed the update prices button\n"
   syntax:
-    content: UpdatePrices = 4
+    content: public const QuoteAction UpdatePrices
     return:
       type: SuperOffice.CRM.QuoteAction
+    content.vb: Public Const UpdatePrices As QuoteAction
   modifiers.csharp:
   - public
   - const
@@ -185,6 +226,13 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.QuoteAction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -212,84 +260,6 @@ references:
     name: MapEnums(Of QuoteAction, To)
     nameWithType: EnumUtil.MapEnums(Of QuoteAction, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteAction, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.QuoteAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteAction)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<QuoteAction>(QuoteAction)
-  nameWithType: ObjectExtensions.AssignByReflection<QuoteAction>(QuoteAction)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.QuoteAction>(SuperOffice.CRM.QuoteAction)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteAction)(QuoteAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.QuoteAction)(SuperOffice.CRM.QuoteAction)
-  name.vb: AssignByReflection(Of QuoteAction)(QuoteAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<QuoteAction>
-    nameWithType: ObjectExtensions.AssignByReflection<QuoteAction>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.QuoteAction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.QuoteAction
-    name: QuoteAction
-    nameWithType: QuoteAction
-    fullName: SuperOffice.CRM.QuoteAction
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of QuoteAction)
-    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteAction)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.QuoteAction)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.QuoteAction
-    name: QuoteAction
-    nameWithType: QuoteAction
-    fullName: SuperOffice.CRM.QuoteAction
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.QuoteAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<QuoteAction>()
-  nameWithType: ObjectExtensions.GraphCopy<QuoteAction>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.QuoteAction>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteAction)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.QuoteAction)()
-  name.vb: GraphCopy(Of QuoteAction)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<QuoteAction>
-    nameWithType: ObjectExtensions.GraphCopy<QuoteAction>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.QuoteAction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of QuoteAction)
-    nameWithType: ObjectExtensions.GraphCopy(Of QuoteAction)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.QuoteAction)
     isExternal: true
   - name: (
     nameWithType: (
@@ -331,6 +301,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -376,103 +352,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -519,18 +398,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.QuoteAction
   commentId: T:SuperOffice.CRM.QuoteAction
   parent: SuperOffice.CRM

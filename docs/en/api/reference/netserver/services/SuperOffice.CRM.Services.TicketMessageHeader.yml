@@ -6,7 +6,10 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.TicketMessageHeader.#ctor
+  - SuperOffice.CRM.Services.TicketMessageHeader.Id
   - SuperOffice.CRM.Services.TicketMessageHeader.Name
+  - SuperOffice.CRM.Services.TicketMessageHeader.StdItem
+  - SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol
   - SuperOffice.CRM.Services.TicketMessageHeader.ToString
   - SuperOffice.CRM.Services.TicketMessageHeader.ToString(System.String)
   - SuperOffice.CRM.Services.TicketMessageHeader.Value
@@ -128,6 +131,39 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.TicketMessageHeader.Id
+  commentId: P:SuperOffice.CRM.Services.TicketMessageHeader.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TicketMessageHeader.Id
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId \n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.TicketMessageHeader.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TicketMessageHeader.Name
   commentId: P:SuperOffice.CRM.Services.TicketMessageHeader.Name
   id: Name
@@ -194,6 +230,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageHeader.StdItem
+  commentId: P:SuperOffice.CRM.Services.TicketMessageHeader.StdItem
+  id: StdItem
+  parent: SuperOffice.CRM.Services.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: StdItem
+  nameWithType: TicketMessageHeader.StdItem
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader.StdItem
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf this has a value, it indicates that a standard header text from the language database should be used - and witch one to use \n"
+  syntax:
+    content: public virtual MessageHeaderStdItem StdItem { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Overridable Property StdItem As MessageHeaderStdItem
+  overload: SuperOffice.CRM.Services.TicketMessageHeader.StdItem*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol
+  commentId: P:SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol
+  id: StdItemCol
+  parent: SuperOffice.CRM.Services.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: StdItemCol
+  nameWithType: TicketMessageHeader.StdItemCol
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf this is 1, concatenate the standard item text with header name field, if 2 use header value field instead. If this col is 0, use the empty field - preferably the value column. \n"
+  syntax:
+    content: public virtual MessageHeaderStdItemCol StdItemCol { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItemCol
+    content.vb: Public Overridable Property StdItemCol As MessageHeaderStdItemCol
+  overload: SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -201,19 +303,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TicketMessageHeader.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessageHeader.#ctor
   isExternal: true
@@ -233,6 +322,25 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TicketMessageHeader.Id*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageHeader.Id
+  isExternal: true
+  name: Id
+  nameWithType: TicketMessageHeader.Id
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.TicketMessageHeader.Name*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessageHeader.Name
   isExternal: true
@@ -245,3 +353,27 @@ references:
   name: Value
   nameWithType: TicketMessageHeader.Value
   fullName: SuperOffice.CRM.Services.TicketMessageHeader.Value
+- uid: SuperOffice.CRM.Services.TicketMessageHeader.StdItem*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageHeader.StdItem
+  isExternal: true
+  name: StdItem
+  nameWithType: TicketMessageHeader.StdItem
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader.StdItem
+- uid: SuperOffice.Data.MessageHeaderStdItem
+  commentId: '!:SuperOffice.Data.MessageHeaderStdItem'
+  isExternal: true
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: SuperOffice.Data.MessageHeaderStdItem
+- uid: SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol
+  isExternal: true
+  name: StdItemCol
+  nameWithType: TicketMessageHeader.StdItemCol
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader.StdItemCol
+- uid: SuperOffice.Data.MessageHeaderStdItemCol
+  commentId: '!:SuperOffice.Data.MessageHeaderStdItemCol'
+  isExternal: true
+  name: MessageHeaderStdItemCol
+  nameWithType: MessageHeaderStdItemCol
+  fullName: SuperOffice.Data.MessageHeaderStdItemCol

@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  id: WorkflowInstanceVariables
+  parent: SuperOffice.CRM.WorkFlow
+  children:
+  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceVariables
+  nameWithType: WorkflowInstanceVariables
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: 'public class WorkflowInstanceVariables : Object'
+    content.vb: >-
+      Public Class WorkflowInstanceVariables
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceVariables()
+  nameWithType: WorkflowInstanceVariables.WorkflowInstanceVariables()
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WorkflowInstanceVariables()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public WorkflowInstanceVariables()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  commentId: P:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  id: WaitingStarted
+  parent: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  langs:
+  - csharp
+  - vb
+  name: WaitingStarted
+  nameWithType: WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public DateTime WaitingStarted { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property WaitingStarted As DateTime
+  overload: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.WorkFlow
+  commentId: N:SuperOffice.CRM.WorkFlow
+  isExternal: true
+  name: SuperOffice.CRM.WorkFlow
+  nameWithType: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.WorkFlow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceVariables, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowInstanceVariables, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowInstanceVariables, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)()
+  name.vb: MapEnums(Of WorkflowInstanceVariables, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowInstanceVariables, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowInstanceVariables, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceVariables, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowInstanceVariables, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceVariables>(WorkflowInstanceVariables)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)(SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+  name.vb: AssignByReflection(Of WorkflowInstanceVariables)(WorkflowInstanceVariables)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowInstanceVariables>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceVariables>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    nameWithType: WorkflowInstanceVariables
+    fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowInstanceVariables)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowInstanceVariables)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+    name: WorkflowInstanceVariables
+    nameWithType: WorkflowInstanceVariables
+    fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkflowInstanceVariables>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceVariables>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowInstanceVariables)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)()
+  name.vb: GraphCopy(Of WorkflowInstanceVariables)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowInstanceVariables>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceVariables>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowInstanceVariables)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowInstanceVariables)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceVariables, To>()
+  nameWithType: Converters.MapEnums<WorkflowInstanceVariables, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowInstanceVariables, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)()
+  name.vb: MapEnums(Of WorkflowInstanceVariables, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowInstanceVariables, To>
+    nameWithType: Converters.MapEnums<WorkflowInstanceVariables, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceVariables, To)
+    nameWithType: Converters.MapEnums(Of WorkflowInstanceVariables, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.#ctor
+  isExternal: true
+  name: WorkflowInstanceVariables
+  nameWithType: WorkflowInstanceVariables.WorkflowInstanceVariables
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+  isExternal: true
+  name: WaitingStarted
+  nameWithType: WorkflowInstanceVariables.WaitingStarted
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.WaitingStarted
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

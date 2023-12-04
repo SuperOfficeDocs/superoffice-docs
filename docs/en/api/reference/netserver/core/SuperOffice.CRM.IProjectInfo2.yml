@@ -23,10 +23,12 @@ items:
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
+  summary: "\nInterface providing information about a project with guide and milestones\n"
   syntax:
     content: 'public interface IProjectInfo2 : IProjectInfo'
     content.vb: >-
       Public Interface IProjectInfo2
+
           Inherits IProjectInfo
   inheritedMembers:
   - SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
@@ -106,7 +108,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: ReadOnly Property ProjectEndDate As Date
+    content.vb: ReadOnly Property ProjectEndDate As DateTime
   overload: SuperOffice.CRM.IProjectInfo2.ProjectEndDate*
   modifiers.csharp:
   - get
@@ -162,7 +164,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: ReadOnly Property NextMilestoneDate As Date
+    content.vb: ReadOnly Property NextMilestoneDate As DateTime
   overload: SuperOffice.CRM.IProjectInfo2.NextMilestoneDate*
   modifiers.csharp:
   - get
@@ -731,8 +733,6 @@ references:
   nameWithType: IProjectInfo2.ProjectEndDate
   fullName: SuperOffice.CRM.IProjectInfo2.ProjectEndDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

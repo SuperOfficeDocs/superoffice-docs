@@ -180,7 +180,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property AlarmTime As Date
+    content.vb: Public Overridable Property AlarmTime As DateTime
   overload: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime*
   modifiers.csharp:
   - public
@@ -411,7 +411,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EndDate As Date
+    content.vb: Public Overridable Property EndDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentSyncData.EndDate*
   modifiers.csharp:
   - public
@@ -972,7 +972,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartDate As Date
+    content.vb: Public Overridable Property StartDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentSyncData.StartDate*
   modifiers.csharp:
   - public
@@ -1022,13 +1022,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
@@ -1042,12 +1035,6 @@ references:
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AppointmentSyncData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.#ctor
   isExternal: true
@@ -1067,6 +1054,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
   isExternal: true
@@ -1074,8 +1067,6 @@ references:
   nameWithType: AppointmentSyncData.AlarmTime
   fullName: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

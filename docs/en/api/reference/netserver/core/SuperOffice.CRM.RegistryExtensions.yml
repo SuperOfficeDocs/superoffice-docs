@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.RegistryExtensions
+  commentId: T:SuperOffice.CRM.RegistryExtensions
+  id: RegistryExtensions
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RegistryExtensions
+  nameWithType: RegistryExtensions
+  fullName: SuperOffice.CRM.RegistryExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: 'public static class RegistryExtensions : Object'
+    content.vb: >-
+      Public Module RegistryExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
+  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
+  id: GetRegistryRow(System.Enum,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.RegistryExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRegistryRow(Enum, String)
+  nameWithType: RegistryExtensions.GetRegistryRow(Enum, String)
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static RegistryRow GetRegistryRow(this Enum regId, string defaultValue = null)
+    parameters:
+    - id: regId
+      type: System.Enum
+    - id: defaultValue
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Rows.RegistryRow
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetRegistryRow(regId As  Enum, defaultValue As String = Nothing) As RegistryRow
+  overload: SuperOffice.CRM.RegistryExtensions.GetRegistryRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow*
+  commentId: Overload:SuperOffice.CRM.RegistryExtensions.GetRegistryRow
+  isExternal: true
+  name: GetRegistryRow
+  nameWithType: RegistryExtensions.GetRegistryRow
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow
+- uid: System.Enum
+  commentId: '!:System.Enum'
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.RegistryRow
+  commentId: T:SuperOffice.CRM.Rows.RegistryRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: RegistryRow
+  nameWithType: RegistryRow
+  fullName: SuperOffice.CRM.Rows.RegistryRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows

@@ -5,12 +5,12 @@ items:
   id: SuperOffice.Security
   children:
   - SuperOffice.Security.CredentialsManager
+  - SuperOffice.Security.IImplicitIdentitySupplier
+  - SuperOffice.Security.ImplicitIdentitySupplierAttribute
   - SuperOffice.Security.ISoIdentityResolver
-  - SuperOffice.Security.ISoSecurityTokenSupplier
   - SuperOffice.Security.ISoSecurityTokenValidator
   - SuperOffice.Security.SoIdentityResolverAttribute
   - SuperOffice.Security.SoImpersonationContext
-  - SuperOffice.Security.SoSecurityTokenSupplierAttribute
   - SuperOffice.Security.SoSecurityTokenValidatorAttribute
   - SuperOffice.Security.TokenValidationResult
   - SuperOffice.Security.UntrustedCredentials
@@ -59,20 +59,20 @@ references:
   name: UntrustedCredentials
   nameWithType: UntrustedCredentials
   fullName: SuperOffice.Security.UntrustedCredentials
-- uid: SuperOffice.Security.SoSecurityTokenSupplierAttribute
-  commentId: T:SuperOffice.Security.SoSecurityTokenSupplierAttribute
+- uid: SuperOffice.Security.ImplicitIdentitySupplierAttribute
+  commentId: T:SuperOffice.Security.ImplicitIdentitySupplierAttribute
   parent: SuperOffice.Security
   isExternal: true
-  name: SoSecurityTokenSupplierAttribute
-  nameWithType: SoSecurityTokenSupplierAttribute
-  fullName: SuperOffice.Security.SoSecurityTokenSupplierAttribute
-- uid: SuperOffice.Security.ISoSecurityTokenSupplier
-  commentId: T:SuperOffice.Security.ISoSecurityTokenSupplier
+  name: ImplicitIdentitySupplierAttribute
+  nameWithType: ImplicitIdentitySupplierAttribute
+  fullName: SuperOffice.Security.ImplicitIdentitySupplierAttribute
+- uid: SuperOffice.Security.IImplicitIdentitySupplier
+  commentId: T:SuperOffice.Security.IImplicitIdentitySupplier
   parent: SuperOffice.Security
   isExternal: true
-  name: ISoSecurityTokenSupplier
-  nameWithType: ISoSecurityTokenSupplier
-  fullName: SuperOffice.Security.ISoSecurityTokenSupplier
+  name: IImplicitIdentitySupplier
+  nameWithType: IImplicitIdentitySupplier
+  fullName: SuperOffice.Security.IImplicitIdentitySupplier
 - uid: SuperOffice.Security.TokenValidationResult
   commentId: T:SuperOffice.Security.TokenValidationResult
   parent: SuperOffice.Security

@@ -13,13 +13,14 @@ items:
   - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.List
   - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.Password
   - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.Text
+  - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.value__
   langs:
   - csharp
   - vb
   name: FieldMetadataTypeInfoWS
   nameWithType: FieldMetadataTypeInfoWS
   fullName: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
-  type: Enum
+  type: Class
   source:
     path: SuperOffice.Plugins
     isExternal: true
@@ -28,19 +29,54 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nDescribes the different widgets that the QuoteConnector can use in its configuration dialog.\n<br />Note: Enum is mirrored in C++ code, update iEnum.h when it changes\n<br />Note #2: Enum is mirrored in data model (Enums.cs), which also needs to be updated if this changes\n"
   syntax:
-    content: public enum FieldMetadataTypeInfoWS
-    content.vb: Public Enum FieldMetadataTypeInfoWS
+    content: 'public sealed class FieldMetadataTypeInfoWS : Enum'
+    content.vb: >-
+      Public NotInheritable Class FieldMetadataTypeInfoWS
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.EnumUtil.MapEnums``2
-  - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldMetadataTypeInfoWS)
-  - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.ErpSync.FieldMetadataTypeInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS.value__
+  commentId: F:SuperOffice.ErpSync.FieldMetadataTypeInfoWS.value__
+  id: value__
+  parent: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FieldMetadataTypeInfoWS.value__
+  fullName: SuperOffice.ErpSync.FieldMetadataTypeInfoWS.value__
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS.Checkbox
   commentId: F:SuperOffice.ErpSync.FieldMetadataTypeInfoWS.Checkbox
   id: Checkbox
@@ -60,9 +96,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nCheckbox widget: Boolean value  \n"
   syntax:
-    content: Checkbox = 0
+    content: public const FieldMetadataTypeInfoWS Checkbox
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const Checkbox As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -88,9 +125,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nSingle line textbox.\n"
   syntax:
-    content: Text = 1
+    content: public const FieldMetadataTypeInfoWS Text
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const Text As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -116,9 +154,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nSingle line edit field with password characters - input is hidden.\n"
   syntax:
-    content: Password = 2
+    content: public const FieldMetadataTypeInfoWS Password
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const Password As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -144,9 +183,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nSingle line integer number field. \n"
   syntax:
-    content: Integer = 3
+    content: public const FieldMetadataTypeInfoWS Integer
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const Integer As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -172,9 +212,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nSingle line decimal number field. \n"
   syntax:
-    content: Double = 4
+    content: public const FieldMetadataTypeInfoWS Double
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const Double As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -200,9 +241,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nDropdown listbox. The list name must be provided. The list items are provided by another interface.\nThe default value should be the list key, not the text of the list item.\n"
   syntax:
-    content: List = 5
+    content: public const FieldMetadataTypeInfoWS List
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const List As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -228,9 +270,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nDatetime\n"
   syntax:
-    content: Datetime = 6
+    content: public const FieldMetadataTypeInfoWS Datetime
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const Datetime As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -256,9 +299,10 @@ items:
   namespace: SuperOffice.ErpSync
   summary: "\nStatic text - has no input widget associated with it. Can be used for spacing/layout.\n"
   syntax:
-    content: Label = 99
+    content: public const FieldMetadataTypeInfoWS Label
     return:
       type: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
+    content.vb: Public Const Label As FieldMetadataTypeInfoWS
   modifiers.csharp:
   - public
   - const
@@ -272,6 +316,13 @@ references:
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -299,84 +350,6 @@ references:
     name: MapEnums(Of FieldMetadataTypeInfoWS, To)
     nameWithType: EnumUtil.MapEnums(Of FieldMetadataTypeInfoWS, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.FieldMetadataTypeInfoWS, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.FieldMetadataTypeInfoWS)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FieldMetadataTypeInfoWS>(FieldMetadataTypeInfoWS)
-  nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataTypeInfoWS>(FieldMetadataTypeInfoWS)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.FieldMetadataTypeInfoWS>(SuperOffice.ErpSync.FieldMetadataTypeInfoWS)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldMetadataTypeInfoWS)(FieldMetadataTypeInfoWS)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.FieldMetadataTypeInfoWS)(SuperOffice.ErpSync.FieldMetadataTypeInfoWS)
-  name.vb: AssignByReflection(Of FieldMetadataTypeInfoWS)(FieldMetadataTypeInfoWS)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FieldMetadataTypeInfoWS>
-    nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataTypeInfoWS>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.FieldMetadataTypeInfoWS>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
-    name: FieldMetadataTypeInfoWS
-    nameWithType: FieldMetadataTypeInfoWS
-    fullName: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FieldMetadataTypeInfoWS)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FieldMetadataTypeInfoWS)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.FieldMetadataTypeInfoWS)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
-    name: FieldMetadataTypeInfoWS
-    nameWithType: FieldMetadataTypeInfoWS
-    fullName: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FieldMetadataTypeInfoWS>()
-  nameWithType: ObjectExtensions.GraphCopy<FieldMetadataTypeInfoWS>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.FieldMetadataTypeInfoWS>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldMetadataTypeInfoWS)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.FieldMetadataTypeInfoWS)()
-  name.vb: GraphCopy(Of FieldMetadataTypeInfoWS)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FieldMetadataTypeInfoWS>
-    nameWithType: ObjectExtensions.GraphCopy<FieldMetadataTypeInfoWS>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.FieldMetadataTypeInfoWS>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FieldMetadataTypeInfoWS)
-    nameWithType: ObjectExtensions.GraphCopy(Of FieldMetadataTypeInfoWS)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.FieldMetadataTypeInfoWS)
     isExternal: true
   - name: (
     nameWithType: (
@@ -418,6 +391,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -463,103 +442,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -606,18 +488,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
   commentId: T:SuperOffice.ErpSync.FieldMetadataTypeInfoWS
   parent: SuperOffice.ErpSync

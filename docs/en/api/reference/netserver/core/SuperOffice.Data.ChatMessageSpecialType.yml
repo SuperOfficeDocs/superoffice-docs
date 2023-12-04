@@ -13,6 +13,7 @@ items:
   - SuperOffice.Data.ChatMessageSpecialType.ClosedByUser
   - SuperOffice.Data.ChatMessageSpecialType.Error
   - SuperOffice.Data.ChatMessageSpecialType.FaqSuccessQuestion
+  - SuperOffice.Data.ChatMessageSpecialType.IllegalFileType
   - SuperOffice.Data.ChatMessageSpecialType.NewSession
   - SuperOffice.Data.ChatMessageSpecialType.None
   - SuperOffice.Data.ChatMessageSpecialType.Options
@@ -21,6 +22,7 @@ items:
   - SuperOffice.Data.ChatMessageSpecialType.TransferedSession
   - SuperOffice.Data.ChatMessageSpecialType.TransferRejected
   - SuperOffice.Data.ChatMessageSpecialType.Url
+  - SuperOffice.Data.ChatMessageSpecialType.value__
   - SuperOffice.Data.ChatMessageSpecialType.Welcome
   langs:
   - csharp
@@ -28,7 +30,7 @@ items:
   name: ChatMessageSpecialType
   nameWithType: ChatMessageSpecialType
   fullName: SuperOffice.Data.ChatMessageSpecialType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -37,19 +39,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nChat Message Special type\nThis Enum is used by:  chat_message.special_type\n"
   syntax:
-    content: 'public enum ChatMessageSpecialType : short'
-    content.vb: Public Enum ChatMessageSpecialType As Short
+    content: 'public sealed class ChatMessageSpecialType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ChatMessageSpecialType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ChatMessageSpecialType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.ChatMessageSpecialType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatMessageSpecialType)
-  - SuperOffice.Data.ChatMessageSpecialType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.ChatMessageSpecialType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ChatMessageSpecialType.value__
+  commentId: F:SuperOffice.Data.ChatMessageSpecialType.value__
+  id: value__
+  parent: SuperOffice.Data.ChatMessageSpecialType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ChatMessageSpecialType.value__
+  fullName: SuperOffice.Data.ChatMessageSpecialType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ChatMessageSpecialType.None
   commentId: F:SuperOffice.Data.ChatMessageSpecialType.None
   id: None
@@ -69,9 +106,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: None\n"
   syntax:
-    content: None = 0
+    content: public const ChatMessageSpecialType None
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const None As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -97,9 +135,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Welcome\n"
   syntax:
-    content: Welcome = 1
+    content: public const ChatMessageSpecialType Welcome
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const Welcome As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -125,9 +164,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Url\n"
   syntax:
-    content: Url = 2
+    content: public const ChatMessageSpecialType Url
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const Url As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -153,9 +193,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Block\n"
   syntax:
-    content: Block = 3
+    content: public const ChatMessageSpecialType Block
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const Block As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -181,9 +222,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: NewSession\n"
   syntax:
-    content: NewSession = 5
+    content: public const ChatMessageSpecialType NewSession
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const NewSession As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -209,9 +251,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: TransferedSession\n"
   syntax:
-    content: TransferedSession = 6
+    content: public const ChatMessageSpecialType TransferedSession
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const TransferedSession As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -237,9 +280,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Error\n"
   syntax:
-    content: Error = 7
+    content: public const ChatMessageSpecialType Error
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const Error As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -265,9 +309,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: SessionDeleted\n"
   syntax:
-    content: SessionDeleted = 8
+    content: public const ChatMessageSpecialType SessionDeleted
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const SessionDeleted As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -293,9 +338,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: FaqSuccessQuestion\n"
   syntax:
-    content: FaqSuccessQuestion = 9
+    content: public const ChatMessageSpecialType FaqSuccessQuestion
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const FaqSuccessQuestion As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -321,9 +367,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: ClosedByUser\n"
   syntax:
-    content: ClosedByUser = 10
+    content: public const ChatMessageSpecialType ClosedByUser
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const ClosedByUser As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -349,9 +396,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: ClosedByCustomer\n"
   syntax:
-    content: ClosedByCustomer = 11
+    content: public const ChatMessageSpecialType ClosedByCustomer
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const ClosedByCustomer As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -377,9 +425,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: ClosedByIdle\n"
   syntax:
-    content: ClosedByIdle = 12
+    content: public const ChatMessageSpecialType ClosedByIdle
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const ClosedByIdle As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -405,9 +454,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n13: TransferRejected\n"
   syntax:
-    content: TransferRejected = 13
+    content: public const ChatMessageSpecialType TransferRejected
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const TransferRejected As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -433,9 +483,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n14: ReopenedByCustomer\n"
   syntax:
-    content: ReopenedByCustomer = 14
+    content: public const ChatMessageSpecialType ReopenedByCustomer
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const ReopenedByCustomer As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -461,9 +512,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n15: ClickedOption\n"
   syntax:
-    content: ClickedOption = 15
+    content: public const ChatMessageSpecialType ClickedOption
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const ClickedOption As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -489,9 +541,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16: Bot message\n"
   syntax:
-    content: BotMessage = 16
+    content: public const ChatMessageSpecialType BotMessage
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const BotMessage As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -517,9 +570,39 @@ items:
   namespace: SuperOffice.Data
   summary: "\n17: Message has a list of clickable options. Options are as JSON array in specialParam\n"
   syntax:
-    content: Options = 17
+    content: public const ChatMessageSpecialType Options
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const Options As ChatMessageSpecialType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ChatMessageSpecialType.IllegalFileType
+  commentId: F:SuperOffice.Data.ChatMessageSpecialType.IllegalFileType
+  id: IllegalFileType
+  parent: SuperOffice.Data.ChatMessageSpecialType
+  langs:
+  - csharp
+  - vb
+  name: IllegalFileType
+  nameWithType: ChatMessageSpecialType.IllegalFileType
+  fullName: SuperOffice.Data.ChatMessageSpecialType.IllegalFileType
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n18: Uploaded file has illegal type\n"
+  syntax:
+    content: public const ChatMessageSpecialType IllegalFileType
+    return:
+      type: SuperOffice.Data.ChatMessageSpecialType
+    content.vb: Public Const IllegalFileType As ChatMessageSpecialType
   modifiers.csharp:
   - public
   - const
@@ -533,6 +616,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ChatMessageSpecialType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -560,84 +650,6 @@ references:
     name: MapEnums(Of ChatMessageSpecialType, To)
     nameWithType: EnumUtil.MapEnums(Of ChatMessageSpecialType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ChatMessageSpecialType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ChatMessageSpecialType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatMessageSpecialType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ChatMessageSpecialType>(ChatMessageSpecialType)
-  nameWithType: ObjectExtensions.AssignByReflection<ChatMessageSpecialType>(ChatMessageSpecialType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ChatMessageSpecialType>(SuperOffice.Data.ChatMessageSpecialType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ChatMessageSpecialType)(ChatMessageSpecialType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ChatMessageSpecialType)(SuperOffice.Data.ChatMessageSpecialType)
-  name.vb: AssignByReflection(Of ChatMessageSpecialType)(ChatMessageSpecialType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ChatMessageSpecialType>
-    nameWithType: ObjectExtensions.AssignByReflection<ChatMessageSpecialType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ChatMessageSpecialType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ChatMessageSpecialType
-    name: ChatMessageSpecialType
-    nameWithType: ChatMessageSpecialType
-    fullName: SuperOffice.Data.ChatMessageSpecialType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ChatMessageSpecialType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ChatMessageSpecialType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ChatMessageSpecialType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ChatMessageSpecialType
-    name: ChatMessageSpecialType
-    nameWithType: ChatMessageSpecialType
-    fullName: SuperOffice.Data.ChatMessageSpecialType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ChatMessageSpecialType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ChatMessageSpecialType>()
-  nameWithType: ObjectExtensions.GraphCopy<ChatMessageSpecialType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ChatMessageSpecialType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ChatMessageSpecialType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ChatMessageSpecialType)()
-  name.vb: GraphCopy(Of ChatMessageSpecialType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ChatMessageSpecialType>
-    nameWithType: ObjectExtensions.GraphCopy<ChatMessageSpecialType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ChatMessageSpecialType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ChatMessageSpecialType)
-    nameWithType: ObjectExtensions.GraphCopy(Of ChatMessageSpecialType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ChatMessageSpecialType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -679,6 +691,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -724,103 +742,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -867,18 +788,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ChatMessageSpecialType
   commentId: T:SuperOffice.Data.ChatMessageSpecialType
   parent: SuperOffice.Data

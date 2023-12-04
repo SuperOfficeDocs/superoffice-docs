@@ -15,7 +15,7 @@ items:
   name: GetRelatedObjects
   nameWithType: GetRelatedObjects
   fullName: SuperOffice.CRM.Entities.GetRelatedObjects
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,21 +24,24 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nDelegate used when there is a need to obtain a list of related objects to be used in a save operation.\n"
   syntax:
-    content: public delegate void GetRelatedObjects(List<INestedPersist> relatedObjects);
-    parameters:
-    - id: relatedObjects
-      type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-      description: List of related objects
-    content.vb: Public Delegate Sub GetRelatedObjects(relatedObjects As List(Of INestedPersist))
+    content: 'public sealed class GetRelatedObjects : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class GetRelatedObjects
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Entities.GetRelatedObjects.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.GetRelatedObjects.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Entities.GetRelatedObjects.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Entities.GetRelatedObjects.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -178,6 +181,13 @@ references:
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.GetRelatedObjects.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -246,50 +256,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<INestedPersist>
-  nameWithType: List<INestedPersist>
-  fullName: System.Collections.Generic.List<SuperOffice.Data.INestedPersist>
-  nameWithType.vb: List(Of INestedPersist)
-  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist)
-  name.vb: List(Of INestedPersist)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.INestedPersist
-    name: INestedPersist
-    nameWithType: INestedPersist
-    fullName: SuperOffice.Data.INestedPersist
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.INestedPersist
-    name: INestedPersist
-    nameWithType: INestedPersist
-    fullName: SuperOffice.Data.INestedPersist
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -381,51 +353,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
-  isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -438,13 +365,6 @@ references:
   name: GetRelatedObjects
   nameWithType: GetRelatedObjects.GetRelatedObjects
   fullName: SuperOffice.CRM.Entities.GetRelatedObjects.GetRelatedObjects
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -452,18 +372,93 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke*
   commentId: Overload:SuperOffice.CRM.Entities.GetRelatedObjects.Invoke
   isExternal: true
   name: Invoke
   nameWithType: GetRelatedObjects.Invoke
   fullName: SuperOffice.CRM.Entities.GetRelatedObjects.Invoke
+- uid: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}'
+  definition: System.Collections.Generic.List`1
+  name: List<INestedPersist>
+  nameWithType: List<INestedPersist>
+  fullName: System.Collections.Generic.List<SuperOffice.Data.INestedPersist>
+  nameWithType.vb: List(Of INestedPersist)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist)
+  name.vb: List(Of INestedPersist)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke
   isExternal: true
@@ -471,15 +466,11 @@ references:
   nameWithType: GetRelatedObjects.BeginInvoke
   fullName: SuperOffice.CRM.Entities.GetRelatedObjects.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

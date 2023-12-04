@@ -44,7 +44,9 @@ items:
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Project_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_ProjStatusGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_ProjTypeGroupLink_GroupId
+  - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteConnectionAccess_UserGroupId
+  - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_ReasonGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_ReasonSoldGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_ReasonStalledGroupLink_GroupId
@@ -64,11 +66,15 @@ items:
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SubscriptionUnitGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SuperListColumnSize_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TagsGroupLink_GroupId
+  - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskGroupLink_GroupId
+  - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_UDefFieldGL_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_UDListGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_UserGroupLink_UserGroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_VisibleFor_ForGroupId
+  - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.Name
   - SuperOffice.CRM.Data.UserGroupTableInfo.Rank
   - SuperOffice.CRM.Data.UserGroupTableInfo.Registered
@@ -106,7 +112,9 @@ items:
       <DatabaseTable("UserGroup")>
 
       Public Class UserGroupTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -128,12 +136,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.UserGroupTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.UserGroupTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -228,26 +230,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.UserGroupTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -524,7 +512,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;UserGroup&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;UserGroup&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -586,7 +574,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;UserGroup&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;UserGroup&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -2522,6 +2510,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
+  commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
+  id: LeftOuterJoin_TaskMenuGroupLink_GroupId
+  parent: SuperOffice.CRM.Data.UserGroupTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TaskMenuGroupLink_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key UserGroupId on this table, to TaskMenuGroupLink.<xref href=\"SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo.GroupId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TaskMenuGroupLinkTableInfo> LeftOuterJoin_TaskMenuGroupLink_GroupId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TaskMenuGroupLink_GroupId As TargetedLeftOuterJoin(Of TaskMenuGroupLinkTableInfo)
+  overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Form_GroupId
   commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Form_GroupId
   id: LeftOuterJoin_Form_GroupId
@@ -2553,6 +2572,161 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  id: LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  parent: SuperOffice.CRM.Data.UserGroupTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key UserGroupId on this table, to TargetAssignmentInfo.<xref href=\"SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo.UsergroupId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TargetAssignmentInfoTableInfo> LeftOuterJoin_TargetAssignmentInfo_UsergroupId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TargetAssignmentInfo_UsergroupId As TargetedLeftOuterJoin(Of TargetAssignmentInfoTableInfo)
+  overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  id: LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  parent: SuperOffice.CRM.Data.UserGroupTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key UserGroupId on this table, to TargetRevisionHistory.<xref href=\"SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo.UsergroupId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TargetRevisionHistoryTableInfo> LeftOuterJoin_TargetRevisionHistory_UsergroupId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TargetRevisionHistory_UsergroupId As TargetedLeftOuterJoin(Of TargetRevisionHistoryTableInfo)
+  overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
+  commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
+  id: LeftOuterJoin_Workflow_GroupId
+  parent: SuperOffice.CRM.Data.UserGroupTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Workflow_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key UserGroupId on this table, to Workflow.<xref href=\"SuperOffice.CRM.Data.WorkflowTableInfo.GroupId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<WorkflowTableInfo> LeftOuterJoin_Workflow_GroupId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Workflow_GroupId As TargetedLeftOuterJoin(Of WorkflowTableInfo)
+  overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  id: LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  parent: SuperOffice.CRM.Data.UserGroupTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key UserGroupId on this table, to QuoteApprReasonGroupLink.<xref href=\"SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo.GroupId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<QuoteApprReasonGroupLinkTableInfo> LeftOuterJoin_QuoteApprReasonGroupLink_GroupId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuoteApprReasonGroupLink_GroupId As TargetedLeftOuterJoin(Of QuoteApprReasonGroupLinkTableInfo)
+  overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  id: LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  parent: SuperOffice.CRM.Data.UserGroupTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key UserGroupId on this table, to QuoteDenyReasonGroupLink.<xref href=\"SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo.GroupId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<QuoteDenyReasonGroupLinkTableInfo> LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId As TargetedLeftOuterJoin(Of QuoteDenyReasonGroupLinkTableInfo)
+  overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2575,8 +2749,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -2909,254 +3081,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.UserGroupTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -6564,6 +6488,56 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId*
+  commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
+  isExternal: true
+  name: LeftOuterJoin_TaskMenuGroupLink_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TaskMenuGroupLink_GroupId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TaskMenuGroupLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TaskMenuGroupLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TaskMenuGroupLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TaskMenuGroupLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+    name: TaskMenuGroupLinkTableInfo
+    nameWithType: TaskMenuGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+    name: TaskMenuGroupLinkTableInfo
+    nameWithType: TaskMenuGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Form_GroupId*
   commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Form_GroupId
   isExternal: true
@@ -6610,6 +6584,256 @@ references:
     name: FormTableInfo
     nameWithType: FormTableInfo
     fullName: SuperOffice.CRM.Data.FormTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId*
+  commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  isExternal: true
+  name: LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetAssignmentInfo_UsergroupId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TargetAssignmentInfoTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetAssignmentInfoTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetAssignmentInfoTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetAssignmentInfoTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+    name: TargetAssignmentInfoTableInfo
+    nameWithType: TargetAssignmentInfoTableInfo
+    fullName: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+    name: TargetAssignmentInfoTableInfo
+    nameWithType: TargetAssignmentInfoTableInfo
+    fullName: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId*
+  commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  isExternal: true
+  name: LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_TargetRevisionHistory_UsergroupId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TargetRevisionHistoryTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetRevisionHistoryTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetRevisionHistoryTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetRevisionHistoryTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+    name: TargetRevisionHistoryTableInfo
+    nameWithType: TargetRevisionHistoryTableInfo
+    fullName: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+    name: TargetRevisionHistoryTableInfo
+    nameWithType: TargetRevisionHistoryTableInfo
+    fullName: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId*
+  commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
+  isExternal: true
+  name: LeftOuterJoin_Workflow_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Workflow_GroupId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<WorkflowTableInfo>
+  nameWithType: TargetedLeftOuterJoin<WorkflowTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WorkflowTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of WorkflowTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.WorkflowTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of WorkflowTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    nameWithType: WorkflowTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    nameWithType: WorkflowTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId*
+  commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  isExternal: true
+  name: LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteApprReasonGroupLink_GroupId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<QuoteApprReasonGroupLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<QuoteApprReasonGroupLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of QuoteApprReasonGroupLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of QuoteApprReasonGroupLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+    name: QuoteApprReasonGroupLinkTableInfo
+    nameWithType: QuoteApprReasonGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+    name: QuoteApprReasonGroupLinkTableInfo
+    nameWithType: QuoteApprReasonGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId*
+  commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  isExternal: true
+  name: LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  nameWithType: UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteDenyReasonGroupLink_GroupId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<QuoteDenyReasonGroupLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<QuoteDenyReasonGroupLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of QuoteDenyReasonGroupLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of QuoteDenyReasonGroupLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+    name: QuoteDenyReasonGroupLinkTableInfo
+    nameWithType: QuoteDenyReasonGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+    name: QuoteDenyReasonGroupLinkTableInfo
+    nameWithType: QuoteDenyReasonGroupLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
     isExternal: true
   - name: )
     nameWithType: )

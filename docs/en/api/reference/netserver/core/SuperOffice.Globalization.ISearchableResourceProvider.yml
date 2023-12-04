@@ -24,6 +24,7 @@ items:
     content: 'public interface ISearchableResourceProvider : IPlugin'
     content.vb: >-
       Public Interface ISearchableResourceProvider
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Globalization.ISearchableResourceProvider.EnumUtil.MapEnums``2

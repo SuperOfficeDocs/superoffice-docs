@@ -9,13 +9,14 @@ items:
   - SuperOffice.CRM.Travel.ProcessingOption.Continue
   - SuperOffice.CRM.Travel.ProcessingOption.ContinueWithNoCallbacks
   - SuperOffice.CRM.Travel.ProcessingOption.SkipThisItem
+  - SuperOffice.CRM.Travel.ProcessingOption.value__
   langs:
   - csharp
   - vb
   name: ProcessingOption
   nameWithType: ProcessingOption
   fullName: SuperOffice.CRM.Travel.ProcessingOption
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -25,19 +26,54 @@ items:
   summary: "\n\n"
   remarks: "\nThis enum is the master for Clients\\SM.win\\Source\\DbManagement\\DbManagement.hdr.h, keep in sync\n"
   syntax:
-    content: public enum ProcessingOption
-    content.vb: Public Enum ProcessingOption
+    content: 'public sealed class ProcessingOption : Enum'
+    content.vb: >-
+      Public NotInheritable Class ProcessingOption
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Travel.ProcessingOption.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Travel.ProcessingOption.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Travel.ProcessingOption)
-  - SuperOffice.CRM.Travel.ProcessingOption.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Travel.ProcessingOption.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Travel.ProcessingOption.value__
+  commentId: F:SuperOffice.CRM.Travel.ProcessingOption.value__
+  id: value__
+  parent: SuperOffice.CRM.Travel.ProcessingOption
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ProcessingOption.value__
+  fullName: SuperOffice.CRM.Travel.ProcessingOption.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Travel
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Travel.ProcessingOption.Continue
   commentId: F:SuperOffice.CRM.Travel.ProcessingOption.Continue
   id: Continue
@@ -56,9 +92,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Travel
   syntax:
-    content: Continue = 0
+    content: public const ProcessingOption Continue
     return:
       type: SuperOffice.CRM.Travel.ProcessingOption
+    content.vb: Public Const Continue As ProcessingOption
   modifiers.csharp:
   - public
   - const
@@ -83,9 +120,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Travel
   syntax:
-    content: SkipThisItem = 1
+    content: public const ProcessingOption SkipThisItem
     return:
       type: SuperOffice.CRM.Travel.ProcessingOption
+    content.vb: Public Const SkipThisItem As ProcessingOption
   modifiers.csharp:
   - public
   - const
@@ -110,9 +148,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Travel
   syntax:
-    content: Cancel = 2
+    content: public const ProcessingOption Cancel
     return:
       type: SuperOffice.CRM.Travel.ProcessingOption
+    content.vb: Public Const Cancel As ProcessingOption
   modifiers.csharp:
   - public
   - const
@@ -137,9 +176,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Travel
   syntax:
-    content: ContinueWithNoCallbacks = 3
+    content: public const ProcessingOption ContinueWithNoCallbacks
     return:
       type: SuperOffice.CRM.Travel.ProcessingOption
+    content.vb: Public Const ContinueWithNoCallbacks As ProcessingOption
   modifiers.csharp:
   - public
   - const
@@ -153,6 +193,13 @@ references:
   name: SuperOffice.CRM.Travel
   nameWithType: SuperOffice.CRM.Travel
   fullName: SuperOffice.CRM.Travel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Travel.ProcessingOption.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -180,84 +227,6 @@ references:
     name: MapEnums(Of ProcessingOption, To)
     nameWithType: EnumUtil.MapEnums(Of ProcessingOption, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Travel.ProcessingOption, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Travel.ProcessingOption.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Travel.ProcessingOption)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ProcessingOption>(ProcessingOption)
-  nameWithType: ObjectExtensions.AssignByReflection<ProcessingOption>(ProcessingOption)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Travel.ProcessingOption>(SuperOffice.CRM.Travel.ProcessingOption)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProcessingOption)(ProcessingOption)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Travel.ProcessingOption)(SuperOffice.CRM.Travel.ProcessingOption)
-  name.vb: AssignByReflection(Of ProcessingOption)(ProcessingOption)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ProcessingOption>
-    nameWithType: ObjectExtensions.AssignByReflection<ProcessingOption>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Travel.ProcessingOption>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Travel.ProcessingOption
-    name: ProcessingOption
-    nameWithType: ProcessingOption
-    fullName: SuperOffice.CRM.Travel.ProcessingOption
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ProcessingOption)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ProcessingOption)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Travel.ProcessingOption)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Travel.ProcessingOption
-    name: ProcessingOption
-    nameWithType: ProcessingOption
-    fullName: SuperOffice.CRM.Travel.ProcessingOption
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Travel.ProcessingOption.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ProcessingOption>()
-  nameWithType: ObjectExtensions.GraphCopy<ProcessingOption>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Travel.ProcessingOption>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProcessingOption)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Travel.ProcessingOption)()
-  name.vb: GraphCopy(Of ProcessingOption)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ProcessingOption>
-    nameWithType: ObjectExtensions.GraphCopy<ProcessingOption>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Travel.ProcessingOption>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ProcessingOption)
-    nameWithType: ObjectExtensions.GraphCopy(Of ProcessingOption)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Travel.ProcessingOption)
     isExternal: true
   - name: (
     nameWithType: (
@@ -299,6 +268,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -344,103 +319,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -487,18 +365,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Travel.ProcessingOption
   commentId: T:SuperOffice.CRM.Travel.ProcessingOption
   parent: SuperOffice.CRM.Travel

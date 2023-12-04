@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.NotAListTable
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.StandardHandling
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString
   langs:
@@ -37,17 +38,13 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis data class carries binding information for one archive column, relating its\nFieldInfo, column index, list table etc\n"
   syntax:
-    content: public class DbColumnBinding
-    content.vb: Public Class DbColumnBinding
+    content: 'public class DbColumnBinding : Object'
+    content.vb: >-
+      Public Class DbColumnBinding
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -163,7 +160,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString*
   modifiers.csharp:
   - public
@@ -381,6 +377,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields
+  id: OrderByFields
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: OrderByFields
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByFields
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public List<FieldInfo> OrderByFields { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Public Property OrderByFields As List(Of FieldInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
   commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
   id: OrderByColumnIndex
@@ -575,254 +601,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1008,37 +786,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString
   isExternal: true
@@ -1107,6 +854,93 @@ references:
   name: OrderByField
   nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByField
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields
+  isExternal: true
+  name: OrderByFields
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByFields
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields
+- uid: System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}'
+  definition: System.Collections.Generic.List`1
+  name: List<FieldInfo>
+  nameWithType: List<FieldInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: List(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: List(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
   isExternal: true

@@ -227,7 +227,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Timestamp As Date
+    content.vb: Public Overridable Property Timestamp As DateTime
   overload: SuperOffice.CRM.Services.WebAppUsage.Timestamp*
   modifiers.csharp:
   - public
@@ -376,13 +376,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent
   commentId: T:SuperOffice.CRM.Services.DiagnosticsAgent
   isExternal: true
@@ -396,12 +389,6 @@ references:
   name: IDiagnosticsAgent
   nameWithType: IDiagnosticsAgent
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.WebAppUsage.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.#ctor
   isExternal: true
@@ -421,6 +408,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId*
   commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId
   isExternal: true
@@ -447,8 +440,6 @@ references:
   nameWithType: WebAppUsage.Timestamp
   fullName: SuperOffice.CRM.Services.WebAppUsage.Timestamp
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.CacheFlusher
+  commentId: T:SuperOffice.Data.Cache.CacheFlusher
+  id: CacheFlusher
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher})
+  - SuperOffice.Data.Cache.CacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+  - SuperOffice.Data.Cache.CacheFlusher.Flush(System.String[])
+  - SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
+  langs:
+  - csharp
+  - vb
+  name: CacheFlusher
+  nameWithType: CacheFlusher
+  fullName: SuperOffice.Data.Cache.CacheFlusher
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: 'public class CacheFlusher : Object, ICacheFlusher'
+    content.vb: >-
+      Public Class CacheFlusher
+
+          Inherits Object
+
+          Implements ICacheFlusher
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Data.Cache.ICacheFlusher
+  extensionMethods:
+  - SuperOffice.Data.Cache.CacheFlusher.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.CacheFlusher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher})
+  commentId: M:SuperOffice.Data.Cache.CacheFlusher.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher})'
+  parent: SuperOffice.Data.Cache.CacheFlusher
+  langs:
+  - csharp
+  - vb
+  name: CacheFlusher(ILogger<CacheFlusher>)
+  nameWithType: CacheFlusher.CacheFlusher(ILogger<CacheFlusher>)
+  fullName: SuperOffice.Data.Cache.CacheFlusher.CacheFlusher(Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.Cache.CacheFlusher>)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public CacheFlusher(ILogger<CacheFlusher> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher}
+    content.vb: Public Sub New(logger As ILogger(Of CacheFlusher))
+  overload: SuperOffice.Data.Cache.CacheFlusher.#ctor*
+  nameWithType.vb: CacheFlusher.CacheFlusher(ILogger(Of CacheFlusher))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.Cache.CacheFlusher.CacheFlusher(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.Cache.CacheFlusher))
+  name.vb: CacheFlusher(ILogger(Of CacheFlusher))
+- uid: SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
+  commentId: M:SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
+  id: GetAllCaches
+  parent: SuperOffice.Data.Cache.CacheFlusher
+  langs:
+  - csharp
+  - vb
+  name: GetAllCaches()
+  nameWithType: CacheFlusher.GetAllCaches()
+  fullName: SuperOffice.Data.Cache.CacheFlusher.GetAllCaches()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public IEnumerable<KeyValuePair<string, Action>> GetAllCaches()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Action}}
+    content.vb: Public Function GetAllCaches As IEnumerable(Of KeyValuePair(Of String, Action))
+  overload: SuperOffice.Data.Cache.CacheFlusher.GetAllCaches*
+  implements:
+  - SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Cache.CacheFlusher.Flush(System.String[])
+  commentId: M:SuperOffice.Data.Cache.CacheFlusher.Flush(System.String[])
+  id: Flush(System.String[])
+  parent: SuperOffice.Data.Cache.CacheFlusher
+  langs:
+  - csharp
+  - vb
+  name: Flush(String[])
+  nameWithType: CacheFlusher.Flush(String[])
+  fullName: SuperOffice.Data.Cache.CacheFlusher.Flush(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public void Flush(params string[] cacheNames)
+    parameters:
+    - id: cacheNames
+      type: System.String[]
+    content.vb: Public Sub Flush(ParamArray cacheNames As String())
+  overload: SuperOffice.Data.Cache.CacheFlusher.Flush*
+  implements:
+  - SuperOffice.Data.Cache.ICacheFlusher.Flush(System.String[])
+  nameWithType.vb: CacheFlusher.Flush(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.Cache.CacheFlusher.Flush(System.String())
+  name.vb: Flush(String())
+- uid: SuperOffice.Data.Cache.CacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Cache.CacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+  id: Flush(System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Cache.CacheFlusher
+  langs:
+  - csharp
+  - vb
+  name: Flush(IEnumerable<String>)
+  nameWithType: CacheFlusher.Flush(IEnumerable<String>)
+  fullName: SuperOffice.Data.Cache.CacheFlusher.Flush(System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public void Flush(IEnumerable<string> cacheNames)
+    parameters:
+    - id: cacheNames
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Sub Flush(cacheNames As IEnumerable(Of String))
+  overload: SuperOffice.Data.Cache.CacheFlusher.Flush*
+  implements:
+  - SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+  nameWithType.vb: CacheFlusher.Flush(IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.Cache.CacheFlusher.Flush(System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: Flush(IEnumerable(Of String))
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.ICacheFlusher
+  commentId: T:SuperOffice.Data.Cache.ICacheFlusher
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: ICacheFlusher
+  nameWithType: ICacheFlusher
+  fullName: SuperOffice.Data.Cache.ICacheFlusher
+- uid: SuperOffice.Data.Cache.CacheFlusher.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CacheFlusher, To>()
+  nameWithType: EnumUtil.MapEnums<CacheFlusher, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheFlusher, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CacheFlusher, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheFlusher, To)()
+  name.vb: MapEnums(Of CacheFlusher, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CacheFlusher, To>
+    nameWithType: EnumUtil.MapEnums<CacheFlusher, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheFlusher, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CacheFlusher, To)
+    nameWithType: EnumUtil.MapEnums(Of CacheFlusher, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheFlusher, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheFlusher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CacheFlusher, To>()
+  nameWithType: Converters.MapEnums<CacheFlusher, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheFlusher, To>()
+  nameWithType.vb: Converters.MapEnums(Of CacheFlusher, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheFlusher, To)()
+  name.vb: MapEnums(Of CacheFlusher, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CacheFlusher, To>
+    nameWithType: Converters.MapEnums<CacheFlusher, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheFlusher, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CacheFlusher, To)
+    nameWithType: Converters.MapEnums(Of CacheFlusher, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheFlusher, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.CacheFlusher.#ctor*
+  commentId: Overload:SuperOffice.Data.Cache.CacheFlusher.#ctor
+  isExternal: true
+  name: CacheFlusher
+  nameWithType: CacheFlusher.CacheFlusher
+  fullName: SuperOffice.Data.Cache.CacheFlusher.CacheFlusher
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher}
+  commentId: '!:Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.Cache.CacheFlusher}'
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<CacheFlusher>
+  nameWithType: ILogger<CacheFlusher>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.Cache.CacheFlusher>
+  nameWithType.vb: ILogger(Of CacheFlusher)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.Cache.CacheFlusher)
+  name.vb: ILogger(Of CacheFlusher)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.Cache.CacheFlusher
+    name: CacheFlusher
+    nameWithType: CacheFlusher
+    fullName: SuperOffice.Data.Cache.CacheFlusher
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.Cache.CacheFlusher
+    name: CacheFlusher
+    nameWithType: CacheFlusher
+    fullName: SuperOffice.Data.Cache.CacheFlusher
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: Microsoft.Extensions.Logging.ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheFlusher.GetAllCaches*
+  commentId: Overload:SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
+  isExternal: true
+  name: GetAllCaches
+  nameWithType: CacheFlusher.GetAllCaches
+  fullName: SuperOffice.Data.Cache.CacheFlusher.GetAllCaches
+- uid: SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches
+  commentId: M:SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches
+  parent: SuperOffice.Data.Cache.ICacheFlusher
+  isExternal: true
+  name: GetAllCaches()
+  nameWithType: ICacheFlusher.GetAllCaches()
+  fullName: SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches
+    name: GetAllCaches
+    nameWithType: ICacheFlusher.GetAllCaches
+    fullName: SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches
+    name: GetAllCaches
+    nameWithType: ICacheFlusher.GetAllCaches
+    fullName: SuperOffice.Data.Cache.ICacheFlusher.GetAllCaches
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Action}}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Action}}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<KeyValuePair<String, Action>>
+  nameWithType: IEnumerable<KeyValuePair<String, Action>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.Action>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, Action))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.Action))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, Action))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheFlusher.Flush*
+  commentId: Overload:SuperOffice.Data.Cache.CacheFlusher.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: CacheFlusher.Flush
+  fullName: SuperOffice.Data.Cache.CacheFlusher.Flush
+- uid: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.String[])
+  commentId: M:SuperOffice.Data.Cache.ICacheFlusher.Flush(System.String[])
+  parent: SuperOffice.Data.Cache.ICacheFlusher
+  isExternal: true
+  name: Flush(String[])
+  nameWithType: ICacheFlusher.Flush(String[])
+  fullName: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.String[])
+  nameWithType.vb: ICacheFlusher.Flush(String())
+  fullName.vb: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.String())
+  name.vb: Flush(String())
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.String[])
+    name: Flush
+    nameWithType: ICacheFlusher.Flush
+    fullName: SuperOffice.Data.Cache.ICacheFlusher.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.String[])
+    name: Flush
+    nameWithType: ICacheFlusher.Flush
+    fullName: SuperOffice.Data.Cache.ICacheFlusher.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Cache.ICacheFlusher
+  isExternal: true
+  name: Flush(IEnumerable<String>)
+  nameWithType: ICacheFlusher.Flush(IEnumerable<String>)
+  fullName: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable<System.String>)
+  nameWithType.vb: ICacheFlusher.Flush(IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: Flush(IEnumerable(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+    name: Flush
+    nameWithType: ICacheFlusher.Flush
+    fullName: SuperOffice.Data.Cache.ICacheFlusher.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.ICacheFlusher.Flush(System.Collections.Generic.IEnumerable{System.String})
+    name: Flush
+    nameWithType: ICacheFlusher.Flush
+    fullName: SuperOffice.Data.Cache.ICacheFlusher.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

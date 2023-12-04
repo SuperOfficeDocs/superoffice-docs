@@ -15,7 +15,7 @@ items:
   name: CleanupThreadState<TThreadState, TThreadCleanupState>
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>
-  type: Delegate
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,30 +24,30 @@ items:
   namespace: SuperOffice.Threading
   summary: "\nOperation signature used to clean up thread-state used in initialization, so it is possible to later re-use the trhead.\n"
   syntax:
-    content: public delegate void CleanupThreadState<in TThreadState, in TThreadCleanupState>(TThreadState threadState, TThreadCleanupState threadCleanupState);
-    parameters:
-    - id: threadState
-      type: '{TThreadState}'
-      description: State passed on from the calling thread.
-    - id: threadCleanupState
-      type: '{TThreadCleanupState}'
-      description: State passed on from initialization code.
+    content: 'public sealed class CleanupThreadState<in TThreadState, in TThreadCleanupState> : MulticastDelegate'
     typeParameters:
     - id: TThreadState
       description: Type of state to apply on to the new thread.
     - id: TThreadCleanupState
       description: Type of state passed from initialization code in the new thread on to clean-up code in this same thread.
-    content.vb: Public Delegate Sub CleanupThreadState(Of In TThreadState, In TThreadCleanupState)(threadState As TThreadState, threadCleanupState As TThreadCleanupState)
+    content.vb: >-
+      Public NotInheritable Class CleanupThreadState(Of In TThreadState, In TThreadCleanupState)
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Threading.CleanupThreadState`2.EnumUtil.MapEnums``2
   - SuperOffice.Threading.CleanupThreadState`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState)
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState)
   name.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState)
 - uid: SuperOffice.Threading.CleanupThreadState`2.#ctor(System.Object,System.IntPtr)
@@ -195,6 +195,13 @@ references:
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.CleanupThreadState`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -263,18 +270,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: '{TThreadState}'
-  commentId: '!:TThreadState'
-  definition: TThreadState
-  name: TThreadState
-  nameWithType: TThreadState
-  fullName: TThreadState
-- uid: '{TThreadCleanupState}'
-  commentId: '!:TThreadCleanupState'
-  definition: TThreadCleanupState
-  name: TThreadCleanupState
-  nameWithType: TThreadCleanupState
-  fullName: TThreadCleanupState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -366,14 +367,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: TThreadState
-  name: TThreadState
-  nameWithType: TThreadState
-  fullName: TThreadState
-- uid: TThreadCleanupState
-  name: TThreadCleanupState
-  nameWithType: TThreadCleanupState
-  fullName: TThreadCleanupState
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -388,13 +381,6 @@ references:
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).CleanupThreadState
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).CleanupThreadState
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -402,12 +388,6 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Threading.CleanupThreadState`2.Invoke*
   commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.Invoke
   isExternal: true
@@ -416,6 +396,26 @@ references:
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke
+- uid: '{TThreadState}'
+  commentId: '!:TThreadState'
+  definition: TThreadState
+  name: TThreadState
+  nameWithType: TThreadState
+  fullName: TThreadState
+- uid: '{TThreadCleanupState}'
+  commentId: '!:TThreadCleanupState'
+  definition: TThreadCleanupState
+  name: TThreadCleanupState
+  nameWithType: TThreadCleanupState
+  fullName: TThreadCleanupState
+- uid: TThreadState
+  name: TThreadState
+  nameWithType: TThreadState
+  fullName: TThreadState
+- uid: TThreadCleanupState
+  name: TThreadCleanupState
+  nameWithType: TThreadCleanupState
+  fullName: TThreadCleanupState
 - uid: SuperOffice.Threading.CleanupThreadState`2.BeginInvoke*
   commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.BeginInvoke
   isExternal: true
@@ -425,15 +425,11 @@ references:
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).BeginInvoke
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

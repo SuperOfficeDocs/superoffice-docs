@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  id: Obsolete2RecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  - SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  - SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+  - SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData})
+  - SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.Obsolete2Row)
+  langs:
+  - csharp
+  - vb
+  name: Obsolete2RecordDataExtensions
+  nameWithType: Obsolete2RecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.Obsolete2RecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: 'public static class Obsolete2RecordDataExtensions : Object'
+    content.vb: >-
+      Public Module Obsolete2RecordDataExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<Obsolete2TableInfo>)
+  nameWithType: Obsolete2RecordDataExtensions.FromSelect(TargetedSelect<Obsolete2TableInfo>)
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.Obsolete2TableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;Obsolete2TableInfo>, execute it and return an IEnumerable&lt;Obsolete2RecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<Obsolete2RecordData> FromSelect(this TargetedSelect<Obsolete2TableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.Obsolete2TableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of Obsolete2TableInfo)) As IEnumerable(Of Obsolete2RecordData)
+  overload: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect*
+  nameWithType.vb: Obsolete2RecordDataExtensions.FromSelect(TargetedSelect(Of Obsolete2TableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.Obsolete2TableInfo))
+  name.vb: FromSelect(TargetedSelect(Of Obsolete2TableInfo))
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.Obsolete2TableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<Obsolete2TableInfo>)
+  nameWithType: Obsolete2RecordDataExtensions.FromRecord(TargetedDataRecord<Obsolete2TableInfo>)
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.Obsolete2TableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;Obsolete2TableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.Obsolete2RecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { Obsolete2Item = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static Obsolete2RecordData FromRecord(this TargetedDataRecord<Obsolete2TableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.Obsolete2TableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.Obsolete2RecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of Obsolete2TableInfo)) As Obsolete2RecordData
+  overload: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord*
+  nameWithType.vb: Obsolete2RecordDataExtensions.FromRecord(TargetedDataRecord(Of Obsolete2TableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.Obsolete2TableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of Obsolete2TableInfo))
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(Obsolete2RecordData)
+  nameWithType: Obsolete2RecordDataExtensions.ToInsert(Obsolete2RecordData)
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete2RecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this Obsolete2RecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.Obsolete2RecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As Obsolete2RecordData) As Insert
+  overload: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData})
+  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<Obsolete2RecordData>)
+  nameWithType: Obsolete2RecordDataExtensions.ToInserts(IEnumerable<Obsolete2RecordData>)
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.Obsolete2RecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<Obsolete2RecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of Obsolete2RecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts*
+  nameWithType.vb: Obsolete2RecordDataExtensions.ToInserts(IEnumerable(Of Obsolete2RecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.Obsolete2RecordData))
+  name.vb: ToInserts(IEnumerable(Of Obsolete2RecordData))
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.Obsolete2Row)
+  commentId: M:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.Obsolete2Row)
+  id: ToRecordData(SuperOffice.CRM.Rows.Obsolete2Row)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(Obsolete2Row)
+  nameWithType: Obsolete2RecordDataExtensions.ToRecordData(Obsolete2Row)
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.Obsolete2Row)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Obsolete2RecordData ToRecordData(this Obsolete2Row row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.Obsolete2Row
+    return:
+      type: SuperOffice.CRM.Rows.Obsolete2RecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As Obsolete2Row) As Obsolete2RecordData
+  overload: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: Obsolete2RecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.Obsolete2TableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.Obsolete2TableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<Obsolete2TableInfo>
+  nameWithType: TargetedSelect<Obsolete2TableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.Obsolete2TableInfo>
+  nameWithType.vb: TargetedSelect(Of Obsolete2TableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.Obsolete2TableInfo)
+  name.vb: TargetedSelect(Of Obsolete2TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.Obsolete2TableInfo
+    name: Obsolete2TableInfo
+    nameWithType: Obsolete2TableInfo
+    fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.Obsolete2TableInfo
+    name: Obsolete2TableInfo
+    nameWithType: Obsolete2TableInfo
+    fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.Obsolete2RecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Obsolete2RecordData>
+  nameWithType: IEnumerable<Obsolete2RecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.Obsolete2RecordData>
+  nameWithType.vb: IEnumerable(Of Obsolete2RecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.Obsolete2RecordData)
+  name.vb: IEnumerable(Of Obsolete2RecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.Obsolete2RecordData
+    name: Obsolete2RecordData
+    nameWithType: Obsolete2RecordData
+    fullName: SuperOffice.CRM.Rows.Obsolete2RecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.Obsolete2RecordData
+    name: Obsolete2RecordData
+    nameWithType: Obsolete2RecordData
+    fullName: SuperOffice.CRM.Rows.Obsolete2RecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: Obsolete2RecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.Obsolete2TableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.Obsolete2TableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<Obsolete2TableInfo>
+  nameWithType: TargetedDataRecord<Obsolete2TableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.Obsolete2TableInfo>
+  nameWithType.vb: TargetedDataRecord(Of Obsolete2TableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.Obsolete2TableInfo)
+  name.vb: TargetedDataRecord(Of Obsolete2TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.Obsolete2TableInfo
+    name: Obsolete2TableInfo
+    nameWithType: Obsolete2TableInfo
+    fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.Obsolete2TableInfo
+    name: Obsolete2TableInfo
+    nameWithType: Obsolete2TableInfo
+    fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordData
+  commentId: T:SuperOffice.CRM.Rows.Obsolete2RecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: Obsolete2RecordData
+  nameWithType: Obsolete2RecordData
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: Obsolete2RecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: Obsolete2RecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData
+  isExternal: true
+  name: ToRecordData
+  nameWithType: Obsolete2RecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.Obsolete2Row
+  commentId: T:SuperOffice.CRM.Rows.Obsolete2Row
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: Obsolete2Row
+  nameWithType: Obsolete2Row
+  fullName: SuperOffice.CRM.Rows.Obsolete2Row

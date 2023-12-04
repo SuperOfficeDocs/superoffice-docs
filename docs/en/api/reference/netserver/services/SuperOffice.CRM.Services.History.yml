@@ -378,13 +378,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ViewStateAgent
   commentId: T:SuperOffice.CRM.Services.ViewStateAgent
   isExternal: true
@@ -398,12 +391,6 @@ references:
   name: IViewStateAgent
   nameWithType: IViewStateAgent
   fullName: SuperOffice.CRM.Services.IViewStateAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.History.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.History.#ctor
   isExternal: true
@@ -423,6 +410,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.History.Rank*
   commentId: Overload:SuperOffice.CRM.Services.History.Rank
   isExternal: true

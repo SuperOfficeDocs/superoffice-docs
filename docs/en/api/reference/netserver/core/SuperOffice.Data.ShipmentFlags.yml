@@ -1,0 +1,810 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ShipmentFlags
+  commentId: T:SuperOffice.Data.ShipmentFlags
+  id: ShipmentFlags
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ShipmentFlags.FromAlwaysForward
+  - SuperOffice.Data.ShipmentFlags.FromOurContact
+  - SuperOffice.Data.ShipmentFlags.FromSalesContact
+  - SuperOffice.Data.ShipmentFlags.IncludeCompanies
+  - SuperOffice.Data.ShipmentFlags.IncludeNoMailings
+  - SuperOffice.Data.ShipmentFlags.Linkify
+  - SuperOffice.Data.ShipmentFlags.log
+  - SuperOffice.Data.ShipmentFlags.NoStaticListLookup
+  - SuperOffice.Data.ShipmentFlags.PopulateOnlyNow
+  - SuperOffice.Data.ShipmentFlags.PreferCompany
+  - SuperOffice.Data.ShipmentFlags.RecalculateRecipients
+  - SuperOffice.Data.ShipmentFlags.RecalculateRecipientsOnce
+  - SuperOffice.Data.ShipmentFlags.RemoveDuplicates
+  - SuperOffice.Data.ShipmentFlags.ReplyToAlwaysForward
+  - SuperOffice.Data.ShipmentFlags.ReplyToEmpty
+  - SuperOffice.Data.ShipmentFlags.ReplyToOurContact
+  - SuperOffice.Data.ShipmentFlags.ReplyToSalesContact
+  - SuperOffice.Data.ShipmentFlags.TrackRecipients
+  - SuperOffice.Data.ShipmentFlags.value__
+  langs:
+  - csharp
+  - vb
+  name: ShipmentFlags
+  nameWithType: ShipmentFlags
+  fullName: SuperOffice.Data.ShipmentFlags
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nBit number enum for use with shipment flags\n"
+  syntax:
+    content: 'public sealed class ShipmentFlags : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShipmentFlags
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.ShipmentFlags.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ShipmentFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ShipmentFlags.value__
+  commentId: F:SuperOffice.Data.ShipmentFlags.value__
+  id: value__
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShipmentFlags.value__
+  fullName: SuperOffice.Data.ShipmentFlags.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ShipmentFlags.log
+  commentId: F:SuperOffice.Data.ShipmentFlags.log
+  id: log
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: log
+  nameWithType: ShipmentFlags.log
+  fullName: SuperOffice.Data.ShipmentFlags.log
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Value: 1\n"
+  syntax:
+    content: public const ShipmentFlags log
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const log As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.FromAlwaysForward
+  commentId: F:SuperOffice.Data.ShipmentFlags.FromAlwaysForward
+  id: FromAlwaysForward
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: FromAlwaysForward
+  nameWithType: ShipmentFlags.FromAlwaysForward
+  fullName: SuperOffice.Data.ShipmentFlags.FromAlwaysForward
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Value: 2\n"
+  syntax:
+    content: public const ShipmentFlags FromAlwaysForward
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const FromAlwaysForward As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.FromSalesContact
+  commentId: F:SuperOffice.Data.ShipmentFlags.FromSalesContact
+  id: FromSalesContact
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: FromSalesContact
+  nameWithType: ShipmentFlags.FromSalesContact
+  fullName: SuperOffice.Data.ShipmentFlags.FromSalesContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Value: 4\n"
+  syntax:
+    content: public const ShipmentFlags FromSalesContact
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const FromSalesContact As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.FromOurContact
+  commentId: F:SuperOffice.Data.ShipmentFlags.FromOurContact
+  id: FromOurContact
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: FromOurContact
+  nameWithType: ShipmentFlags.FromOurContact
+  fullName: SuperOffice.Data.ShipmentFlags.FromOurContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Value: 8\n"
+  syntax:
+    content: public const ShipmentFlags FromOurContact
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const FromOurContact As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.ReplyToAlwaysForward
+  commentId: F:SuperOffice.Data.ShipmentFlags.ReplyToAlwaysForward
+  id: ReplyToAlwaysForward
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyToAlwaysForward
+  nameWithType: ShipmentFlags.ReplyToAlwaysForward
+  fullName: SuperOffice.Data.ShipmentFlags.ReplyToAlwaysForward
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Value: 16\n"
+  syntax:
+    content: public const ShipmentFlags ReplyToAlwaysForward
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const ReplyToAlwaysForward As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.ReplyToSalesContact
+  commentId: F:SuperOffice.Data.ShipmentFlags.ReplyToSalesContact
+  id: ReplyToSalesContact
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyToSalesContact
+  nameWithType: ShipmentFlags.ReplyToSalesContact
+  fullName: SuperOffice.Data.ShipmentFlags.ReplyToSalesContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Value: 32\n"
+  syntax:
+    content: public const ShipmentFlags ReplyToSalesContact
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const ReplyToSalesContact As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.ReplyToOurContact
+  commentId: F:SuperOffice.Data.ShipmentFlags.ReplyToOurContact
+  id: ReplyToOurContact
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyToOurContact
+  nameWithType: ShipmentFlags.ReplyToOurContact
+  fullName: SuperOffice.Data.ShipmentFlags.ReplyToOurContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Value: 64\n"
+  syntax:
+    content: public const ShipmentFlags ReplyToOurContact
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const ReplyToOurContact As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.RecalculateRecipients
+  commentId: F:SuperOffice.Data.ShipmentFlags.RecalculateRecipients
+  id: RecalculateRecipients
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: RecalculateRecipients
+  nameWithType: ShipmentFlags.RecalculateRecipients
+  fullName: SuperOffice.Data.ShipmentFlags.RecalculateRecipients
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Value: 128\n"
+  syntax:
+    content: public const ShipmentFlags RecalculateRecipients
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const RecalculateRecipients As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.RemoveDuplicates
+  commentId: F:SuperOffice.Data.ShipmentFlags.RemoveDuplicates
+  id: RemoveDuplicates
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: RemoveDuplicates
+  nameWithType: ShipmentFlags.RemoveDuplicates
+  fullName: SuperOffice.Data.ShipmentFlags.RemoveDuplicates
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Value: 256\n"
+  syntax:
+    content: public const ShipmentFlags RemoveDuplicates
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const RemoveDuplicates As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.NoStaticListLookup
+  commentId: F:SuperOffice.Data.ShipmentFlags.NoStaticListLookup
+  id: NoStaticListLookup
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: NoStaticListLookup
+  nameWithType: ShipmentFlags.NoStaticListLookup
+  fullName: SuperOffice.Data.ShipmentFlags.NoStaticListLookup
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Value: 512\n"
+  syntax:
+    content: public const ShipmentFlags NoStaticListLookup
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const NoStaticListLookup As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.ReplyToEmpty
+  commentId: F:SuperOffice.Data.ShipmentFlags.ReplyToEmpty
+  id: ReplyToEmpty
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyToEmpty
+  nameWithType: ShipmentFlags.ReplyToEmpty
+  fullName: SuperOffice.Data.ShipmentFlags.ReplyToEmpty
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Value: 1024\n"
+  syntax:
+    content: public const ShipmentFlags ReplyToEmpty
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const ReplyToEmpty As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.PopulateOnlyNow
+  commentId: F:SuperOffice.Data.ShipmentFlags.PopulateOnlyNow
+  id: PopulateOnlyNow
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: PopulateOnlyNow
+  nameWithType: ShipmentFlags.PopulateOnlyNow
+  fullName: SuperOffice.Data.ShipmentFlags.PopulateOnlyNow
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Value: 2048\n"
+  syntax:
+    content: public const ShipmentFlags PopulateOnlyNow
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const PopulateOnlyNow As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.TrackRecipients
+  commentId: F:SuperOffice.Data.ShipmentFlags.TrackRecipients
+  id: TrackRecipients
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: TrackRecipients
+  nameWithType: ShipmentFlags.TrackRecipients
+  fullName: SuperOffice.Data.ShipmentFlags.TrackRecipients
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: Value: 4096  Flag used for mailings created in 7.1 or later, where we can resend them, list recipients, etc.\n"
+  syntax:
+    content: public const ShipmentFlags TrackRecipients
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const TrackRecipients As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.RecalculateRecipientsOnce
+  commentId: F:SuperOffice.Data.ShipmentFlags.RecalculateRecipientsOnce
+  id: RecalculateRecipientsOnce
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: RecalculateRecipientsOnce
+  nameWithType: ShipmentFlags.RecalculateRecipientsOnce
+  fullName: SuperOffice.Data.ShipmentFlags.RecalculateRecipientsOnce
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Value: 8192 This is used when you have chosen the &quot;Reload and send to new&quot; option. After it has been sent, this flag is turned off again\n"
+  syntax:
+    content: public const ShipmentFlags RecalculateRecipientsOnce
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const RecalculateRecipientsOnce As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.IncludeNoMailings
+  commentId: F:SuperOffice.Data.ShipmentFlags.IncludeNoMailings
+  id: IncludeNoMailings
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: IncludeNoMailings
+  nameWithType: ShipmentFlags.IncludeNoMailings
+  fullName: SuperOffice.Data.ShipmentFlags.IncludeNoMailings
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n14: Send even if persons consent and subscription indicates otherwise\n"
+  syntax:
+    content: public const ShipmentFlags IncludeNoMailings
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const IncludeNoMailings As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.Linkify
+  commentId: F:SuperOffice.Data.ShipmentFlags.Linkify
+  id: Linkify
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: Linkify
+  nameWithType: ShipmentFlags.Linkify
+  fullName: SuperOffice.Data.ShipmentFlags.Linkify
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n15: If this is set, then all links should automatically be tracked. If it is not set, nothing should be done (do not unlinkify)\n"
+  syntax:
+    content: public const ShipmentFlags Linkify
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const Linkify As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.IncludeCompanies
+  commentId: F:SuperOffice.Data.ShipmentFlags.IncludeCompanies
+  id: IncludeCompanies
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: IncludeCompanies
+  nameWithType: ShipmentFlags.IncludeCompanies
+  fullName: SuperOffice.Data.ShipmentFlags.IncludeCompanies
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n16: If set, then we include companies in the selection as well\n"
+  syntax:
+    content: public const ShipmentFlags IncludeCompanies
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const IncludeCompanies As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentFlags.PreferCompany
+  commentId: F:SuperOffice.Data.ShipmentFlags.PreferCompany
+  id: PreferCompany
+  parent: SuperOffice.Data.ShipmentFlags
+  langs:
+  - csharp
+  - vb
+  name: PreferCompany
+  nameWithType: ShipmentFlags.PreferCompany
+  fullName: SuperOffice.Data.ShipmentFlags.PreferCompany
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n17: If this is and IncludeCompanies are set, then use the company instead when sending\n"
+  syntax:
+    content: public const ShipmentFlags PreferCompany
+    return:
+      type: SuperOffice.Data.ShipmentFlags
+    content.vb: Public Const PreferCompany As ShipmentFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ShipmentFlags.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ShipmentFlags, To>()
+  nameWithType: EnumUtil.MapEnums<ShipmentFlags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentFlags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ShipmentFlags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentFlags, To)()
+  name.vb: MapEnums(Of ShipmentFlags, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ShipmentFlags, To>
+    nameWithType: EnumUtil.MapEnums<ShipmentFlags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ShipmentFlags, To)
+    nameWithType: EnumUtil.MapEnums(Of ShipmentFlags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ShipmentFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ShipmentFlags, To>()
+  nameWithType: Converters.MapEnums<ShipmentFlags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentFlags, To>()
+  nameWithType.vb: Converters.MapEnums(Of ShipmentFlags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentFlags, To)()
+  name.vb: MapEnums(Of ShipmentFlags, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ShipmentFlags, To>
+    nameWithType: Converters.MapEnums<ShipmentFlags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ShipmentFlags, To)
+    nameWithType: Converters.MapEnums(Of ShipmentFlags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.ShipmentFlags
+  commentId: T:SuperOffice.Data.ShipmentFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShipmentFlags
+  nameWithType: ShipmentFlags
+  fullName: SuperOffice.Data.ShipmentFlags

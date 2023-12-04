@@ -285,6 +285,7 @@ items:
   - SuperOffice.Data.CSRegistryEntry.TemporaryKeyHardDeleteDelay
   - SuperOffice.Data.CSRegistryEntry.TemporaryKeyTTL
   - SuperOffice.Data.CSRegistryEntry.ThumbnailsIsDefaultMode
+  - SuperOffice.Data.CSRegistryEntry.TicketLogSystem
   - SuperOffice.Data.CSRegistryEntry.TimeKeyTTL
   - SuperOffice.Data.CSRegistryEntry.TimeZoneForNetServer
   - SuperOffice.Data.CSRegistryEntry.UnicodeConvertedTemplateFolder
@@ -332,6 +333,7 @@ items:
   - SuperOffice.Data.CSRegistryEntry.UseSmsDeliveryReport
   - SuperOffice.Data.CSRegistryEntry.UseWebServiceSms
   - SuperOffice.Data.CSRegistryEntry.UseWordByWordKbSearch
+  - SuperOffice.Data.CSRegistryEntry.value__
   - SuperOffice.Data.CSRegistryEntry.ViewCompanyWithPanes
   - SuperOffice.Data.CSRegistryEntry.ViewCustomerWithPanes
   - SuperOffice.Data.CSRegistryEntry.ViewExtraTableEntryWithPanes
@@ -344,7 +346,7 @@ items:
   name: CSRegistryEntry
   nameWithType: CSRegistryEntry
   fullName: SuperOffice.Data.CSRegistryEntry
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -352,19 +354,54 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: public enum CSRegistryEntry
-    content.vb: Public Enum CSRegistryEntry
+    content: 'public sealed class CSRegistryEntry : Enum'
+    content.vb: >-
+      Public NotInheritable Class CSRegistryEntry
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.CSRegistryEntry.EnumUtil.MapEnums``2
-  - SuperOffice.Data.CSRegistryEntry.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CSRegistryEntry)
-  - SuperOffice.Data.CSRegistryEntry.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.CSRegistryEntry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.CSRegistryEntry.value__
+  commentId: F:SuperOffice.Data.CSRegistryEntry.value__
+  id: value__
+  parent: SuperOffice.Data.CSRegistryEntry
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CSRegistryEntry.value__
+  fullName: SuperOffice.Data.CSRegistryEntry.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.CSRegistryEntry.RegistryEntry_End
   commentId: F:SuperOffice.Data.CSRegistryEntry.RegistryEntry_End
   id: RegistryEntry_End
@@ -383,9 +420,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: RegistryEntry_End = 0
+    content: public const CSRegistryEntry RegistryEntry_End
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const RegistryEntry_End As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -410,9 +448,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EjournalSender = 1
+    content: public const CSRegistryEntry EjournalSender
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EjournalSender As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -437,9 +476,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CleanerThreshold = 2
+    content: public const CSRegistryEntry CleanerThreshold
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CleanerThreshold As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -464,9 +504,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CleanerTolerance = 3
+    content: public const CSRegistryEntry CleanerTolerance
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CleanerTolerance As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -491,9 +532,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EjournalCronLast = 4
+    content: public const CSRegistryEntry EjournalCronLast
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EjournalCronLast As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -518,9 +560,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EjournalCronNow = 5
+    content: public const CSRegistryEntry EjournalCronNow
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EjournalCronNow As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -545,9 +588,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CleanerOnOff = 6
+    content: public const CSRegistryEntry CleanerOnOff
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CleanerOnOff As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -572,9 +616,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CleanerImportOnOff = 7
+    content: public const CSRegistryEntry CleanerImportOnOff
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CleanerImportOnOff As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -599,9 +644,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NotifyActiveTickets = 8
+    content: public const CSRegistryEntry NotifyActiveTickets
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NotifyActiveTickets As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -626,9 +672,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ActiveLinksInMessages = 9
+    content: public const CSRegistryEntry ActiveLinksInMessages
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ActiveLinksInMessages As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -653,9 +700,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SmtpTimeout = 10
+    content: public const CSRegistryEntry SmtpTimeout
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SmtpTimeout As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -680,9 +728,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateCustomerNewCustomer = 11
+    content: public const CSRegistryEntry ReplyTemplateCustomerNewCustomer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateCustomerNewCustomer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -707,9 +756,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateCustomerCustomerReply = 12
+    content: public const CSRegistryEntry ReplyTemplateCustomerCustomerReply
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateCustomerCustomerReply As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -734,9 +784,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateCustomerPassword = 13
+    content: public const CSRegistryEntry ReplyTemplateCustomerPassword
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateCustomerPassword As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -761,9 +812,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateUserActiveTickets = 14
+    content: public const CSRegistryEntry ReplyTemplateUserActiveTickets
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateUserActiveTickets As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -788,9 +840,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateUserNewMessage = 15
+    content: public const CSRegistryEntry ReplyTemplateUserNewMessage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateUserNewMessage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -815,9 +868,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateUserTicketActivated = 16
+    content: public const CSRegistryEntry ReplyTemplateUserTicketActivated
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateUserTicketActivated As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -842,9 +896,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateUserTicketAlarm = 17
+    content: public const CSRegistryEntry ReplyTemplateUserTicketAlarm
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateUserTicketAlarm As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -869,9 +924,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateUserNewTicket = 18
+    content: public const CSRegistryEntry ReplyTemplateUserNewTicket
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateUserNewTicket As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -896,9 +952,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SetupCompanyName = 19
+    content: public const CSRegistryEntry SetupCompanyName
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SetupCompanyName As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -923,9 +980,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SetupCompanyAddress = 20
+    content: public const CSRegistryEntry SetupCompanyAddress
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SetupCompanyAddress As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -950,9 +1008,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NotifyActiveTicketsDays = 21
+    content: public const CSRegistryEntry NotifyActiveTicketsDays
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NotifyActiveTicketsDays As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -977,9 +1036,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EjournalOutbox = 22
+    content: public const CSRegistryEntry EjournalOutbox
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EjournalOutbox As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1004,9 +1064,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: OutmailWrapColumn = 23
+    content: public const CSRegistryEntry OutmailWrapColumn
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const OutmailWrapColumn As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1031,9 +1092,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EnableBackdoor = 24
+    content: public const CSRegistryEntry EnableBackdoor
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EnableBackdoor As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1058,9 +1120,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EjournalOutboxDelay = 25
+    content: public const CSRegistryEntry EjournalOutboxDelay
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EjournalOutboxDelay As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1085,9 +1148,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DisableHtmlFiltering = 26
+    content: public const CSRegistryEntry DisableHtmlFiltering
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DisableHtmlFiltering As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1112,9 +1176,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: FaqTitleWeight = 27
+    content: public const CSRegistryEntry FaqTitleWeight
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const FaqTitleWeight As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1139,9 +1204,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ChatWhoisString = 28
+    content: public const CSRegistryEntry ChatWhoisString
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ChatWhoisString As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1166,9 +1232,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: FaqSuggestions = 29
+    content: public const CSRegistryEntry FaqSuggestions
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const FaqSuggestions As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1193,9 +1260,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ChatAvailableImage = 30
+    content: public const CSRegistryEntry ChatAvailableImage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ChatAvailableImage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1220,9 +1288,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ChatUnavailableImage = 31
+    content: public const CSRegistryEntry ChatUnavailableImage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ChatUnavailableImage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1247,9 +1316,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ImportMailTimeout = 32
+    content: public const CSRegistryEntry ImportMailTimeout
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ImportMailTimeout As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1274,9 +1344,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ShowReplyTemplatesToCustomers = 33
+    content: public const CSRegistryEntry ShowReplyTemplatesToCustomers
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ShowReplyTemplatesToCustomers As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1301,9 +1372,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastRequestTicketLimit = 34
+    content: public const CSRegistryEntry LastRequestTicketLimit
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastRequestTicketLimit As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1328,9 +1400,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastRequestDaysLimit = 35
+    content: public const CSRegistryEntry LastRequestDaysLimit
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastRequestDaysLimit As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1355,9 +1428,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NoEjOutbox = 36
+    content: public const CSRegistryEntry NoEjOutbox
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NoEjOutbox As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1382,9 +1456,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: IdleLimitCustomerSeconds = 37
+    content: public const CSRegistryEntry IdleLimitCustomerSeconds
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const IdleLimitCustomerSeconds As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1409,9 +1484,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateUserTicketTakenOver = 38
+    content: public const CSRegistryEntry ReplyTemplateUserTicketTakenOver
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateUserTicketTakenOver As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1436,9 +1512,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EnableSpellCheck27 = 39
+    content: public const CSRegistryEntry EnableSpellCheck27
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EnableSpellCheck27 As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1463,9 +1540,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LogPath = 40
+    content: public const CSRegistryEntry LogPath
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LogPath As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1490,9 +1568,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NumOfListedLinks = 41
+    content: public const CSRegistryEntry NumOfListedLinks
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NumOfListedLinks As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1517,9 +1596,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplatePublishKbQuestion = 42
+    content: public const CSRegistryEntry ReplyTemplatePublishKbQuestion
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplatePublishKbQuestion As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1544,9 +1624,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplatePublishKbAnswer = 43
+    content: public const CSRegistryEntry ReplyTemplatePublishKbAnswer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplatePublishKbAnswer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1571,9 +1652,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: InvoiceUpdateDone = 44
+    content: public const CSRegistryEntry InvoiceUpdateDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const InvoiceUpdateDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1598,9 +1680,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultTimeToReplyOnNewTicket = 45
+    content: public const CSRegistryEntry DefaultTimeToReplyOnNewTicket
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultTimeToReplyOnNewTicket As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1625,9 +1708,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ShowAutoRepliesToCustomers = 46
+    content: public const CSRegistryEntry ShowAutoRepliesToCustomers
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ShowAutoRepliesToCustomers As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1652,9 +1736,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EjournalOutboxDeleteSentMailAfter = 47
+    content: public const CSRegistryEntry EjournalOutboxDeleteSentMailAfter
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EjournalOutboxDeleteSentMailAfter As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1679,9 +1764,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AllwaysSendMailToNewCustomers = 48
+    content: public const CSRegistryEntry AllwaysSendMailToNewCustomers
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AllwaysSendMailToNewCustomers As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1706,9 +1792,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: IdleLimitCustomerSecondsWeb = 49
+    content: public const CSRegistryEntry IdleLimitCustomerSecondsWeb
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const IdleLimitCustomerSecondsWeb As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1733,9 +1820,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ExternalCustomerAuthEnabled = 50
+    content: public const CSRegistryEntry ExternalCustomerAuthEnabled
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ExternalCustomerAuthEnabled As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1760,9 +1848,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ExternalCustomerAuthURL = 51
+    content: public const CSRegistryEntry ExternalCustomerAuthURL
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ExternalCustomerAuthURL As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1787,9 +1876,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DoNotTestSmtp = 52
+    content: public const CSRegistryEntry DoNotTestSmtp
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DoNotTestSmtp As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1814,9 +1904,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DelayMailboxImport = 53
+    content: public const CSRegistryEntry DelayMailboxImport
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DelayMailboxImport As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1841,9 +1932,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MaxLoginAttempts = 54
+    content: public const CSRegistryEntry MaxLoginAttempts
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MaxLoginAttempts As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1868,9 +1960,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: BlockLoginAttempts = 55
+    content: public const CSRegistryEntry BlockLoginAttempts
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const BlockLoginAttempts As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1895,9 +1988,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateWeekStat = 56
+    content: public const CSRegistryEntry ReplyTemplateWeekStat
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateWeekStat As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1922,9 +2016,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: WeekStatRecipient = 57
+    content: public const CSRegistryEntry WeekStatRecipient
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const WeekStatRecipient As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1949,9 +2044,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: HideUserStatistics = 58
+    content: public const CSRegistryEntry HideUserStatistics
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const HideUserStatistics As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -1976,9 +2072,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SystemTimeMode = 59
+    content: public const CSRegistryEntry SystemTimeMode
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SystemTimeMode As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2003,9 +2100,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SMTPIgnoreLeadingDotEscaping = 60
+    content: public const CSRegistryEntry SMTPIgnoreLeadingDotEscaping
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SMTPIgnoreLeadingDotEscaping As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2030,9 +2128,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: BaseURLForFAQEntry = 61
+    content: public const CSRegistryEntry BaseURLForFAQEntry
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const BaseURLForFAQEntry As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2057,9 +2156,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: BaseURLForFAQCategory = 62
+    content: public const CSRegistryEntry BaseURLForFAQCategory
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const BaseURLForFAQCategory As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2084,9 +2184,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SystemTimeModeInstalled = 63
+    content: public const CSRegistryEntry SystemTimeModeInstalled
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SystemTimeModeInstalled As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2111,9 +2212,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: BlockCustomerFAQParsing = 64
+    content: public const CSRegistryEntry BlockCustomerFAQParsing
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const BlockCustomerFAQParsing As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2138,9 +2240,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ChatUserIdleTime = 65
+    content: public const CSRegistryEntry ChatUserIdleTime
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ChatUserIdleTime As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2165,9 +2268,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AlertChatMessages = 66
+    content: public const CSRegistryEntry AlertChatMessages
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AlertChatMessages As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2192,9 +2296,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DisableExternalSpmUpdate = 67
+    content: public const CSRegistryEntry DisableExternalSpmUpdate
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DisableExternalSpmUpdate As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2219,9 +2324,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmSMTPServer = 68
+    content: public const CSRegistryEntry SpmSMTPServer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmSMTPServer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2246,9 +2352,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmDefaultFrom = 69
+    content: public const CSRegistryEntry SpmDefaultFrom
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmDefaultFrom As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2273,9 +2380,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NotificationExpire = 70
+    content: public const CSRegistryEntry NotificationExpire
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NotificationExpire As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2300,9 +2408,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CrystalReportsSoapEndpoint = 71
+    content: public const CSRegistryEntry CrystalReportsSoapEndpoint
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CrystalReportsSoapEndpoint As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2327,9 +2436,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DoNotSearchBodyForTag = 72
+    content: public const CSRegistryEntry DoNotSearchBodyForTag
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DoNotSearchBodyForTag As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2354,9 +2464,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateHotlistNewMessage = 73
+    content: public const CSRegistryEntry ReplyTemplateHotlistNewMessage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateHotlistNewMessage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2381,9 +2492,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateHotlistTicketActivated = 74
+    content: public const CSRegistryEntry ReplyTemplateHotlistTicketActivated
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateHotlistTicketActivated As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2408,9 +2520,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateHotlistTicketAlarm = 75
+    content: public const CSRegistryEntry ReplyTemplateHotlistTicketAlarm
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateHotlistTicketAlarm As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2435,9 +2548,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateHotlistTicketTakenOver = 76
+    content: public const CSRegistryEntry ReplyTemplateHotlistTicketTakenOver
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateHotlistTicketTakenOver As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2462,9 +2576,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LogChannels = 77
+    content: public const CSRegistryEntry LogChannels
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LogChannels As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2489,9 +2604,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ShowTotalInvoiceUnits = 78
+    content: public const CSRegistryEntry ShowTotalInvoiceUnits
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ShowTotalInvoiceUnits As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2516,9 +2632,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MinimumDiskSpace = 79
+    content: public const CSRegistryEntry MinimumDiskSpace
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MinimumDiskSpace As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2543,9 +2660,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DecodingMailSorter = 80
+    content: public const CSRegistryEntry DecodingMailSorter
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DecodingMailSorter As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2570,9 +2688,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ImportMail3ExpireTime = 81
+    content: public const CSRegistryEntry ImportMail3ExpireTime
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ImportMail3ExpireTime As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2597,9 +2716,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ImportMail3ExpireTimeAnalyze = 82
+    content: public const CSRegistryEntry ImportMail3ExpireTimeAnalyze
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ImportMail3ExpireTimeAnalyze As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2624,9 +2744,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: StripNewLineInParser = 83
+    content: public const CSRegistryEntry StripNewLineInParser
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const StripNewLineInParser As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2651,9 +2772,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastDiskSpaceWarningAttachments = 84
+    content: public const CSRegistryEntry LastDiskSpaceWarningAttachments
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastDiskSpaceWarningAttachments As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2678,9 +2800,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastDiskSpaceWarningBase = 85
+    content: public const CSRegistryEntry LastDiskSpaceWarningBase
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastDiskSpaceWarningBase As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2705,9 +2828,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastDiskSpaceWarningText = 86
+    content: public const CSRegistryEntry LastDiskSpaceWarningText
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastDiskSpaceWarningText As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2732,9 +2856,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EnableNewImportMail = 87
+    content: public const CSRegistryEntry EnableNewImportMail
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EnableNewImportMail As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2759,9 +2884,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EnableEjStat = 88
+    content: public const CSRegistryEntry EnableEjStat
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EnableEjStat As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2786,9 +2912,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SmsServiceId = 89
+    content: public const CSRegistryEntry SmsServiceId
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SmsServiceId As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2813,9 +2940,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SmsServiceEndpoint = 90
+    content: public const CSRegistryEntry SmsServiceEndpoint
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SmsServiceEndpoint As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2840,9 +2968,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MaximumSmsMessagesPerDay = 91
+    content: public const CSRegistryEntry MaximumSmsMessagesPerDay
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MaximumSmsMessagesPerDay As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2867,9 +2996,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MaximumSmsMessagesPerRecipient = 92
+    content: public const CSRegistryEntry MaximumSmsMessagesPerRecipient
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MaximumSmsMessagesPerRecipient As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2894,9 +3024,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CellphoneUpdateDone = 93
+    content: public const CSRegistryEntry CellphoneUpdateDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CellphoneUpdateDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2921,9 +3052,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultSmsCountry = 94
+    content: public const CSRegistryEntry DefaultSmsCountry
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultSmsCountry As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2948,9 +3080,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DbIntegratorEnableStreaming = 95
+    content: public const CSRegistryEntry DbIntegratorEnableStreaming
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DbIntegratorEnableStreaming As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -2975,9 +3108,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserNewTicket = 96
+    content: public const CSRegistryEntry ScreenChooserNewTicket
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserNewTicket As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3002,9 +3136,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserListTicketTop = 97
+    content: public const CSRegistryEntry ScreenChooserListTicketTop
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserListTicketTop As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3029,9 +3164,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserListTicketMessages = 98
+    content: public const CSRegistryEntry ScreenChooserListTicketMessages
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserListTicketMessages As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3056,9 +3192,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserAddMessage = 99
+    content: public const CSRegistryEntry ScreenChooserAddMessage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserAddMessage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3083,9 +3220,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserEditTicket = 100
+    content: public const CSRegistryEntry ScreenChooserEditTicket
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserEditTicket As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3110,9 +3248,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserViewCustomer = 101
+    content: public const CSRegistryEntry ScreenChooserViewCustomer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserViewCustomer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3137,9 +3276,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserViewCompany = 102
+    content: public const CSRegistryEntry ScreenChooserViewCompany
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserViewCompany As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3164,9 +3304,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserTicketMainMenu = 103
+    content: public const CSRegistryEntry ScreenChooserTicketMainMenu
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserTicketMainMenu As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3191,9 +3332,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MaximumCountRecipients = 104
+    content: public const CSRegistryEntry MaximumCountRecipients
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MaximumCountRecipients As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3218,9 +3360,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EnableEditMessage = 105
+    content: public const CSRegistryEntry EnableEditMessage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EnableEditMessage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3245,9 +3388,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EnableNewGui = 106
+    content: public const CSRegistryEntry EnableNewGui
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EnableNewGui As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3272,9 +3416,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: HideContactPersonPassword = 107
+    content: public const CSRegistryEntry HideContactPersonPassword
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const HideContactPersonPassword As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3299,9 +3444,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ShowBlogicMenu = 108
+    content: public const CSRegistryEntry ShowBlogicMenu
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ShowBlogicMenu As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3326,9 +3472,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: WwwPath = 109
+    content: public const CSRegistryEntry WwwPath
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const WwwPath As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3353,9 +3500,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseParserInDBIntegrator = 110
+    content: public const CSRegistryEntry UseParserInDBIntegrator
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseParserInDBIntegrator As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3380,9 +3528,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CollapsableMessageStrings = 111
+    content: public const CSRegistryEntry CollapsableMessageStrings
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CollapsableMessageStrings As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3407,9 +3556,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: RefreshNotifyFrameDeprecated = 112
+    content: public const CSRegistryEntry RefreshNotifyFrameDeprecated
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const RefreshNotifyFrameDeprecated As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3434,9 +3584,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CopyLDAPSearchBase = 113
+    content: public const CSRegistryEntry CopyLDAPSearchBase
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CopyLDAPSearchBase As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3461,9 +3612,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseHtmlRedirect = 114
+    content: public const CSRegistryEntry UseHtmlRedirect
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseHtmlRedirect As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3488,9 +3640,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ImportMailProcPri = 115
+    content: public const CSRegistryEntry ImportMailProcPri
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ImportMailProcPri As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3515,9 +3668,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: KeepWarningLog = 116
+    content: public const CSRegistryEntry KeepWarningLog
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const KeepWarningLog As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3542,9 +3696,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: KeepDbLog = 117
+    content: public const CSRegistryEntry KeepDbLog
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const KeepDbLog As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3569,9 +3724,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: KeepFormKeys = 118
+    content: public const CSRegistryEntry KeepFormKeys
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const KeepFormKeys As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3596,9 +3752,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: InternalMessageWhenNotCustomer = 119
+    content: public const CSRegistryEntry InternalMessageWhenNotCustomer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const InternalMessageWhenNotCustomer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3623,9 +3780,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SoapSystemUserPassword = 120
+    content: public const CSRegistryEntry SoapSystemUserPassword
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SoapSystemUserPassword As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3650,9 +3808,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CreateExtraTableDbiFields = 121
+    content: public const CSRegistryEntry CreateExtraTableDbiFields
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CreateExtraTableDbiFields As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3677,9 +3836,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseOldMailInFilterRegExp = 122
+    content: public const CSRegistryEntry UseOldMailInFilterRegExp
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseOldMailInFilterRegExp As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3704,9 +3864,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NewInvoiceEntryFormat = 123
+    content: public const CSRegistryEntry NewInvoiceEntryFormat
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NewInvoiceEntryFormat As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3731,9 +3892,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: IgnoreReturnPath = 124
+    content: public const CSRegistryEntry IgnoreReturnPath
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const IgnoreReturnPath As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3758,9 +3920,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ConvertProfilesToClob = 125
+    content: public const CSRegistryEntry ConvertProfilesToClob
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ConvertProfilesToClob As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3785,9 +3948,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReportStartRootFolder = 126
+    content: public const CSRegistryEntry ReportStartRootFolder
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReportStartRootFolder As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3812,9 +3976,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ParseCustomerFields = 127
+    content: public const CSRegistryEntry ParseCustomerFields
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ParseCustomerFields As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3839,9 +4004,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ArriveNewTicket = 128
+    content: public const CSRegistryEntry ArriveNewTicket
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ArriveNewTicket As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3866,9 +4032,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ImportMessageAsAttachment = 129
+    content: public const CSRegistryEntry ImportMessageAsAttachment
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ImportMessageAsAttachment As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3893,9 +4060,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DBIBetaRelease = 130
+    content: public const CSRegistryEntry DBIBetaRelease
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DBIBetaRelease As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3920,9 +4088,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DBIExecutable = 131
+    content: public const CSRegistryEntry DBIExecutable
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DBIExecutable As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3947,9 +4116,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MailFilterMinFaqValue = 132
+    content: public const CSRegistryEntry MailFilterMinFaqValue
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MailFilterMinFaqValue As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -3974,9 +4144,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AutoStartTimer = 133
+    content: public const CSRegistryEntry AutoStartTimer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AutoStartTimer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4001,9 +4172,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserInvoiceStat = 134
+    content: public const CSRegistryEntry ScreenChooserInvoiceStat
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserInvoiceStat As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4028,9 +4200,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LimitSearchExtraTableResult = 135
+    content: public const CSRegistryEntry LimitSearchExtraTableResult
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LimitSearchExtraTableResult As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4055,9 +4228,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseWebServiceSms = 136
+    content: public const CSRegistryEntry UseWebServiceSms
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseWebServiceSms As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4082,9 +4256,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastLicenseInfo = 137
+    content: public const CSRegistryEntry LastLicenseInfo
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastLicenseInfo As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4109,9 +4284,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SmsSender = 138
+    content: public const CSRegistryEntry SmsSender
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SmsSender As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4136,9 +4312,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SmsChannel = 139
+    content: public const CSRegistryEntry SmsChannel
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SmsChannel As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4163,9 +4340,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseSmsDeliveryReport = 140
+    content: public const CSRegistryEntry UseSmsDeliveryReport
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseSmsDeliveryReport As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4190,9 +4368,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpdateTicketCustomersDone = 141
+    content: public const CSRegistryEntry UpdateTicketCustomersDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpdateTicketCustomersDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4217,9 +4396,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserHelpPage = 142
+    content: public const CSRegistryEntry ScreenChooserHelpPage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserHelpPage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4244,9 +4424,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CustomerEncryptionMethod = 143
+    content: public const CSRegistryEntry CustomerEncryptionMethod
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CustomerEncryptionMethod As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4271,9 +4452,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpgradeCustomerPasswordStatus = 144
+    content: public const CSRegistryEntry UpgradeCustomerPasswordStatus
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpgradeCustomerPasswordStatus As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4298,9 +4480,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpgradeScreenDefinitionsToScripts = 145
+    content: public const CSRegistryEntry UpgradeScreenDefinitionsToScripts
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpgradeScreenDefinitionsToScripts As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4325,9 +4508,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmUseHtmlEditor = 146
+    content: public const CSRegistryEntry SpmUseHtmlEditor
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmUseHtmlEditor As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4352,9 +4536,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: InvoiceEntrySumAdded = 147
+    content: public const CSRegistryEntry InvoiceEntrySumAdded
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const InvoiceEntrySumAdded As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4379,9 +4564,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastnameFirst = 148
+    content: public const CSRegistryEntry LastnameFirst
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastnameFirst As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4406,9 +4592,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmUseDeliveryReport = 149
+    content: public const CSRegistryEntry SpmUseDeliveryReport
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmUseDeliveryReport As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4433,9 +4620,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DoNotKickLoginSessions = 150
+    content: public const CSRegistryEntry DoNotKickLoginSessions
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DoNotKickLoginSessions As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4460,9 +4648,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserUsers = 151
+    content: public const CSRegistryEntry ScreenChooserUsers
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserUsers As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4487,9 +4676,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserPriorities = 152
+    content: public const CSRegistryEntry ScreenChooserPriorities
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserPriorities As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4514,9 +4704,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseSafeParserFunction = 153
+    content: public const CSRegistryEntry UseSafeParserFunction
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseSafeParserFunction As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4541,9 +4732,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserCategories = 154
+    content: public const CSRegistryEntry ScreenChooserCategories
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserCategories As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4568,9 +4760,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpdateCustomerEmails = 155
+    content: public const CSRegistryEntry UpdateCustomerEmails
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpdateCustomerEmails As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4595,9 +4788,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DirtyTicketSaveEvent = 156
+    content: public const CSRegistryEntry DirtyTicketSaveEvent
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DirtyTicketSaveEvent As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4622,9 +4816,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: PasteFaq = 157
+    content: public const CSRegistryEntry PasteFaq
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const PasteFaq As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4649,9 +4844,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EjSenderVersion = 158
+    content: public const CSRegistryEntry EjSenderVersion
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EjSenderVersion As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4676,9 +4872,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultTicketStatusOpen = 159
+    content: public const CSRegistryEntry DefaultTicketStatusOpen
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultTicketStatusOpen As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4703,9 +4900,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultTicketStatusClosed = 160
+    content: public const CSRegistryEntry DefaultTicketStatusClosed
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultTicketStatusClosed As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4730,9 +4928,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultTicketStatusInactive = 161
+    content: public const CSRegistryEntry DefaultTicketStatusInactive
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultTicketStatusInactive As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4757,9 +4956,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultTicketStatusDeleted = 162
+    content: public const CSRegistryEntry DefaultTicketStatusDeleted
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultTicketStatusDeleted As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4784,9 +4984,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultTicketStatusConnected = 163
+    content: public const CSRegistryEntry DefaultTicketStatusConnected
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultTicketStatusConnected As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4811,9 +5012,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseOldHtmlSelectTreeLayout = 164
+    content: public const CSRegistryEntry UseOldHtmlSelectTreeLayout
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseOldHtmlSelectTreeLayout As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4838,9 +5040,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserKnowledgeListFolders = 165
+    content: public const CSRegistryEntry ScreenChooserKnowledgeListFolders
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserKnowledgeListFolders As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4865,9 +5068,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserKnowledgeEditKbEntry = 166
+    content: public const CSRegistryEntry ScreenChooserKnowledgeEditKbEntry
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserKnowledgeEditKbEntry As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4892,9 +5096,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ScreenChooserKnowledgeViewKbEntry = 167
+    content: public const CSRegistryEntry ScreenChooserKnowledgeViewKbEntry
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ScreenChooserKnowledgeViewKbEntry As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4919,9 +5124,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ConvertRegScreenChoosersToTable = 168
+    content: public const CSRegistryEntry ConvertRegScreenChoosersToTable
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ConvertRegScreenChoosersToTable As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4946,9 +5152,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SmsProvider = 169
+    content: public const CSRegistryEntry SmsProvider
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SmsProvider As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -4973,9 +5180,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: PsWinComUsername = 170
+    content: public const CSRegistryEntry PsWinComUsername
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const PsWinComUsername As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5000,9 +5208,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: PsWinComPassword = 171
+    content: public const CSRegistryEntry PsWinComPassword
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const PsWinComPassword As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5027,9 +5236,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: PsWinComSender = 172
+    content: public const CSRegistryEntry PsWinComSender
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const PsWinComSender As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5054,9 +5264,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpgradeNotPresentComment = 173
+    content: public const CSRegistryEntry UpgradeNotPresentComment
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpgradeNotPresentComment As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5081,9 +5292,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseWordByWordKbSearch = 174
+    content: public const CSRegistryEntry UseWordByWordKbSearch
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseWordByWordKbSearch As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5108,9 +5320,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SearchSubjectBeforeMsgId = 175
+    content: public const CSRegistryEntry SearchSubjectBeforeMsgId
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SearchSubjectBeforeMsgId As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5135,9 +5348,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpgradeTicketStatusName = 176
+    content: public const CSRegistryEntry UpgradeTicketStatusName
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpgradeTicketStatusName As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5162,9 +5376,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseOnlyOneCookie = 177
+    content: public const CSRegistryEntry UseOnlyOneCookie
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseOnlyOneCookie As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5189,9 +5404,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ViewCompanyWithPanes = 178
+    content: public const CSRegistryEntry ViewCompanyWithPanes
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ViewCompanyWithPanes As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5216,9 +5432,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ViewCustomerWithPanes = 179
+    content: public const CSRegistryEntry ViewCustomerWithPanes
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ViewCustomerWithPanes As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5243,9 +5460,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplacedLangFrWithSe = 180
+    content: public const CSRegistryEntry ReplacedLangFrWithSe
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplacedLangFrWithSe As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5270,9 +5488,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ViewExtraTableEntryWithPanes = 181
+    content: public const CSRegistryEntry ViewExtraTableEntryWithPanes
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ViewExtraTableEntryWithPanes As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5297,9 +5516,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: OldMessageBeforeSignature = 182
+    content: public const CSRegistryEntry OldMessageBeforeSignature
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const OldMessageBeforeSignature As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5324,9 +5544,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ViewTicketWithPanes = 183
+    content: public const CSRegistryEntry ViewTicketWithPanes
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ViewTicketWithPanes As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5351,9 +5572,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: FixCreationScripts = 184
+    content: public const CSRegistryEntry FixCreationScripts
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const FixCreationScripts As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5378,9 +5600,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultNoCustomerOnForwarding = 185
+    content: public const CSRegistryEntry DefaultNoCustomerOnForwarding
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultNoCustomerOnForwarding As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5405,9 +5628,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ForceHTTPS = 186
+    content: public const CSRegistryEntry ForceHTTPS
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ForceHTTPS As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5432,9 +5656,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseEjParserForTemplates = 187
+    content: public const CSRegistryEntry UseEjParserForTemplates
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseEjParserForTemplates As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5459,9 +5684,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CrossPostMergeTimeWindow = 188
+    content: public const CSRegistryEntry CrossPostMergeTimeWindow
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CrossPostMergeTimeWindow As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5486,9 +5712,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseAbsoluteURLsInHTML = 189
+    content: public const CSRegistryEntry UseAbsoluteURLsInHTML
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseAbsoluteURLsInHTML As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5513,9 +5740,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DelegateAlgorithm = 190
+    content: public const CSRegistryEntry DelegateAlgorithm
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DelegateAlgorithm As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5540,9 +5768,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DisplayDataSources = 191
+    content: public const CSRegistryEntry DisplayDataSources
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DisplayDataSources As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5567,9 +5796,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: InlineImagesDefault = 192
+    content: public const CSRegistryEntry InlineImagesDefault
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const InlineImagesDefault As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5594,9 +5824,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LogoutUrl = 193
+    content: public const CSRegistryEntry LogoutUrl
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LogoutUrl As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5621,9 +5852,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ProfilesConverted = 194
+    content: public const CSRegistryEntry ProfilesConverted
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ProfilesConverted As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5648,9 +5880,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultBlogicScreensOnEditTicket = 195
+    content: public const CSRegistryEntry DefaultBlogicScreensOnEditTicket
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultBlogicScreensOnEditTicket As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5675,9 +5908,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SearchToSelections = 196
+    content: public const CSRegistryEntry SearchToSelections
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SearchToSelections As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5702,9 +5936,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: PhoneUpdateDone = 197
+    content: public const CSRegistryEntry PhoneUpdateDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const PhoneUpdateDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5729,9 +5964,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: FaqAddCommentsAccess = 198
+    content: public const CSRegistryEntry FaqAddCommentsAccess
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const FaqAddCommentsAccess As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5756,9 +5992,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: FaqReadCommentsAccess = 199
+    content: public const CSRegistryEntry FaqReadCommentsAccess
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const FaqReadCommentsAccess As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5783,9 +6020,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmSMTPServerPort = 200
+    content: public const CSRegistryEntry SpmSMTPServerPort
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmSMTPServerPort As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5810,9 +6048,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MapiServerAppendString = 202
+    content: public const CSRegistryEntry MapiServerAppendString
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MapiServerAppendString As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5837,9 +6076,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CarrotUsername = 203
+    content: public const CSRegistryEntry CarrotUsername
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CarrotUsername As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5864,9 +6104,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CarrotPassword = 204
+    content: public const CSRegistryEntry CarrotPassword
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CarrotPassword As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5891,9 +6132,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UnicodeConvertedTemplateFolder = 205
+    content: public const CSRegistryEntry UnicodeConvertedTemplateFolder
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UnicodeConvertedTemplateFolder As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5918,9 +6160,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SuperOfficeIntegrationPassword = 206
+    content: public const CSRegistryEntry SuperOfficeIntegrationPassword
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SuperOfficeIntegrationPassword As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5945,9 +6188,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpdateUserDateFormatsDone = 207
+    content: public const CSRegistryEntry UpdateUserDateFormatsDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpdateUserDateFormatsDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5972,9 +6216,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CellphoneAndPhoneUpdateDone = 208
+    content: public const CSRegistryEntry CellphoneAndPhoneUpdateDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CellphoneAndPhoneUpdateDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -5999,9 +6244,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UnpublishedWorkflowName = 209
+    content: public const CSRegistryEntry UnpublishedWorkflowName
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UnpublishedWorkflowName As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6026,9 +6272,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: PublishedWorkflowName = 210
+    content: public const CSRegistryEntry PublishedWorkflowName
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const PublishedWorkflowName As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6053,9 +6300,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ExpiredWorkflowName = 211
+    content: public const CSRegistryEntry ExpiredWorkflowName
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ExpiredWorkflowName As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6080,9 +6328,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NotifyFramePidGain = 212
+    content: public const CSRegistryEntry NotifyFramePidGain
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NotifyFramePidGain As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6107,9 +6356,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NotifyFramePidParamsDeprecated = 213
+    content: public const CSRegistryEntry NotifyFramePidParamsDeprecated
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NotifyFramePidParamsDeprecated As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6134,9 +6384,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NotifyFrameServerLoad = 214
+    content: public const CSRegistryEntry NotifyFrameServerLoad
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NotifyFrameServerLoad As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6161,9 +6412,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: Tele2SmsUsername = 215
+    content: public const CSRegistryEntry Tele2SmsUsername
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const Tele2SmsUsername As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6188,9 +6440,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: Tele2SmsPassword = 216
+    content: public const CSRegistryEntry Tele2SmsPassword
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const Tele2SmsPassword As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6215,9 +6468,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: Tele2Endpoint = 217
+    content: public const CSRegistryEntry Tele2Endpoint
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const Tele2Endpoint As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6242,9 +6496,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpdateFaqAccessToWorkflowDone = 218
+    content: public const CSRegistryEntry UpdateFaqAccessToWorkflowDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpdateFaqAccessToWorkflowDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6269,9 +6524,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UserSignaturesConvertedToHtml = 219
+    content: public const CSRegistryEntry UserSignaturesConvertedToHtml
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UserSignaturesConvertedToHtml As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6296,9 +6552,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: OracleIndexesUpdated = 220
+    content: public const CSRegistryEntry OracleIndexesUpdated
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const OracleIndexesUpdated As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6323,9 +6580,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmOnlyPrimaryOnTicketSelection = 221
+    content: public const CSRegistryEntry SpmOnlyPrimaryOnTicketSelection
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmOnlyPrimaryOnTicketSelection As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6350,9 +6608,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmMsgTicketParserUpdateDone = 222
+    content: public const CSRegistryEntry SpmMsgTicketParserUpdateDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmMsgTicketParserUpdateDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6377,9 +6636,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UserOldScreensOnEditTicketDone = 223
+    content: public const CSRegistryEntry UserOldScreensOnEditTicketDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UserOldScreensOnEditTicketDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6404,9 +6664,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseFullText = 224
+    content: public const CSRegistryEntry UseFullText
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseFullText As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6431,9 +6692,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: HideIntegratedEjSpmBlock = 225
+    content: public const CSRegistryEntry HideIntegratedEjSpmBlock
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const HideIntegratedEjSpmBlock As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6458,9 +6720,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SelectCustomerColumns = 226
+    content: public const CSRegistryEntry SelectCustomerColumns
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SelectCustomerColumns As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6485,9 +6748,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SelectCompanyColumns = 227
+    content: public const CSRegistryEntry SelectCompanyColumns
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SelectCompanyColumns As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6512,9 +6776,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SelectTicketColumns = 228
+    content: public const CSRegistryEntry SelectTicketColumns
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SelectTicketColumns As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6539,9 +6804,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpdatedActivateField = 229
+    content: public const CSRegistryEntry UpdatedActivateField
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpdatedActivateField As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6566,9 +6832,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmImgDBCopied = 230
+    content: public const CSRegistryEntry SpmImgDBCopied
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmImgDBCopied As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6593,9 +6860,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SecurityModelEnabled = 231
+    content: public const CSRegistryEntry SecurityModelEnabled
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SecurityModelEnabled As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6620,9 +6888,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: BlockPanesRenderMode = 232
+    content: public const CSRegistryEntry BlockPanesRenderMode
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const BlockPanesRenderMode As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6647,9 +6916,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseMiddleName = 233
+    content: public const CSRegistryEntry UseMiddleName
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseMiddleName As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6674,9 +6944,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NSConvertedProfiles = 234
+    content: public const CSRegistryEntry NSConvertedProfiles
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NSConvertedProfiles As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6701,9 +6972,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AllowSentryBypass = 235
+    content: public const CSRegistryEntry AllowSentryBypass
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AllowSentryBypass As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6728,9 +7000,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CrmGroup = 236
+    content: public const CSRegistryEntry CrmGroup
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CrmGroup As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6755,9 +7028,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CrmRoleAdmin = 237
+    content: public const CSRegistryEntry CrmRoleAdmin
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CrmRoleAdmin As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6782,9 +7056,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CrmRoleStandard = 238
+    content: public const CSRegistryEntry CrmRoleStandard
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CrmRoleStandard As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6809,9 +7084,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastLicenseExpirationCheck = 239
+    content: public const CSRegistryEntry LastLicenseExpirationCheck
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastLicenseExpirationCheck As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6836,9 +7112,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateLicenseExpirationWarning = 240
+    content: public const CSRegistryEntry ReplyTemplateLicenseExpirationWarning
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateLicenseExpirationWarning As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6863,9 +7140,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CrmRoleCustomer = 241
+    content: public const CSRegistryEntry CrmRoleCustomer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CrmRoleCustomer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6890,9 +7168,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SystemNSKey = 242
+    content: public const CSRegistryEntry SystemNSKey
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SystemNSKey As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6917,9 +7196,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AnonNSKey = 243
+    content: public const CSRegistryEntry AnonNSKey
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AnonNSKey As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6944,9 +7224,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DBSchemaDirty = 244
+    content: public const CSRegistryEntry DBSchemaDirty
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DBSchemaDirty As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6971,9 +7252,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NSGetKeyPath = 245
+    content: public const CSRegistryEntry NSGetKeyPath
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NSGetKeyPath As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -6998,9 +7280,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EmarketeerNewLinkGraceDate = 246
+    content: public const CSRegistryEntry EmarketeerNewLinkGraceDate
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EmarketeerNewLinkGraceDate As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7025,9 +7308,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CustomNotifyEnabled = 247
+    content: public const CSRegistryEntry CustomNotifyEnabled
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CustomNotifyEnabled As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7052,9 +7336,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ConverterDone = 248
+    content: public const CSRegistryEntry ConverterDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ConverterDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7079,9 +7364,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NetServerKeepAlive = 249
+    content: public const CSRegistryEntry NetServerKeepAlive
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NetServerKeepAlive As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7106,9 +7392,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: TimeZoneForNetServer = 250
+    content: public const CSRegistryEntry TimeZoneForNetServer
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const TimeZoneForNetServer As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7133,9 +7420,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseExtension = 251
+    content: public const CSRegistryEntry UseExtension
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseExtension As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7160,9 +7448,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CustomerEnableFAQAjax = 252
+    content: public const CSRegistryEntry CustomerEnableFAQAjax
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CustomerEnableFAQAjax As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7187,9 +7476,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseAttachmentFolders = 253
+    content: public const CSRegistryEntry UseAttachmentFolders
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseAttachmentFolders As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7214,9 +7504,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DoNotChangeSMRoles = 254
+    content: public const CSRegistryEntry DoNotChangeSMRoles
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DoNotChangeSMRoles As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7241,9 +7532,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ShowAvatarsInCustomerCentre = 255
+    content: public const CSRegistryEntry ShowAvatarsInCustomerCentre
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ShowAvatarsInCustomerCentre As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7268,9 +7560,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SearchEngineFilters = 256
+    content: public const CSRegistryEntry SearchEngineFilters
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SearchEngineFilters As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7295,9 +7588,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseNetServerSms = 257
+    content: public const CSRegistryEntry UseNetServerSms
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseNetServerSms As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7322,9 +7616,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NetServerSmsProvider = 258
+    content: public const CSRegistryEntry NetServerSmsProvider
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NetServerSmsProvider As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7349,9 +7644,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NsPluginSender = 259
+    content: public const CSRegistryEntry NsPluginSender
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NsPluginSender As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7376,9 +7672,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SetupFCGI = 260
+    content: public const CSRegistryEntry SetupFCGI
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SetupFCGI As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7403,9 +7700,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseFCGIImpersonation = 261
+    content: public const CSRegistryEntry UseFCGIImpersonation
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseFCGIImpersonation As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7430,9 +7728,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SoapUseExtension = 262
+    content: public const CSRegistryEntry SoapUseExtension
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SoapUseExtension As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7457,9 +7756,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseAutoSuppressHeader = 263
+    content: public const CSRegistryEntry UseAutoSuppressHeader
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseAutoSuppressHeader As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7484,9 +7784,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ExampleBounceFilterAdded = 264
+    content: public const CSRegistryEntry ExampleBounceFilterAdded
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ExampleBounceFilterAdded As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7511,9 +7812,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SLinkCleanUpDone = 265
+    content: public const CSRegistryEntry SLinkCleanUpDone
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SLinkCleanUpDone As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7538,9 +7840,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: IncomingSmsBox = 266
+    content: public const CSRegistryEntry IncomingSmsBox
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const IncomingSmsBox As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7565,9 +7868,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AddedLegalHtmlCodeInUpgrade = 267
+    content: public const CSRegistryEntry AddedLegalHtmlCodeInUpgrade
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AddedLegalHtmlCodeInUpgrade As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7592,9 +7896,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultEditorContent = 268
+    content: public const CSRegistryEntry DefaultEditorContent
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultEditorContent As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7619,9 +7924,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseBrowserSpellCheck = 269
+    content: public const CSRegistryEntry UseBrowserSpellCheck
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseBrowserSpellCheck As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7646,9 +7952,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseCalltoOnPhoneLinks = 270
+    content: public const CSRegistryEntry UseCalltoOnPhoneLinks
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseCalltoOnPhoneLinks As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7673,9 +7980,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ShowSubmitSpinner = 280
+    content: public const CSRegistryEntry ShowSubmitSpinner
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ShowSubmitSpinner As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7700,9 +8008,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AccessLicensePageWithoutLogin = 281
+    content: public const CSRegistryEntry AccessLicensePageWithoutLogin
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AccessLicensePageWithoutLogin As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7727,9 +8036,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: HideExportButton = 282
+    content: public const CSRegistryEntry HideExportButton
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const HideExportButton As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7754,9 +8064,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: QueueTicketStatuses = 283
+    content: public const CSRegistryEntry QueueTicketStatuses
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const QueueTicketStatuses As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7781,9 +8092,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ImageResizerExecutable = 284
+    content: public const CSRegistryEntry ImageResizerExecutable
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ImageResizerExecutable As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7808,9 +8120,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CleanupLinefeedInNSMail = 285
+    content: public const CSRegistryEntry CleanupLinefeedInNSMail
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CleanupLinefeedInNSMail As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7835,9 +8148,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CheckHtmlValidityInSOEditor = 286
+    content: public const CSRegistryEntry CheckHtmlValidityInSOEditor
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CheckHtmlValidityInSOEditor As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7862,9 +8176,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpgradeCSParserConverted = 287
+    content: public const CSRegistryEntry UpgradeCSParserConverted
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpgradeCSParserConverted As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7889,9 +8204,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultEditorBodyFont = 288
+    content: public const CSRegistryEntry DefaultEditorBodyFont
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultEditorBodyFont As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7916,9 +8232,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CustomCacheBustingParameter = 289
+    content: public const CSRegistryEntry CustomCacheBustingParameter
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CustomCacheBustingParameter As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7943,9 +8260,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseSha1OnLinks = 290
+    content: public const CSRegistryEntry UseSha1OnLinks
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseSha1OnLinks As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7970,9 +8288,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UpgradeRolesConverted = 291
+    content: public const CSRegistryEntry UpgradeRolesConverted
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UpgradeRolesConverted As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -7997,9 +8316,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DeleteInboxDays = 292
+    content: public const CSRegistryEntry DeleteInboxDays
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DeleteInboxDays As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8024,9 +8344,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UserGroupsConverted = 293
+    content: public const CSRegistryEntry UserGroupsConverted
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UserGroupsConverted As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8051,9 +8372,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UserAgentIsMobile = 294
+    content: public const CSRegistryEntry UserAgentIsMobile
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UserAgentIsMobile As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8078,9 +8400,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UserAgentIsTablet = 295
+    content: public const CSRegistryEntry UserAgentIsTablet
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UserAgentIsTablet As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8105,9 +8428,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultStatusWhenTakingOwnership = 296
+    content: public const CSRegistryEntry DefaultStatusWhenTakingOwnership
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultStatusWhenTakingOwnership As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8132,9 +8456,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DisableUnauthenticatedCreationInCustomerCentre = 297
+    content: public const CSRegistryEntry DisableUnauthenticatedCreationInCustomerCentre
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DisableUnauthenticatedCreationInCustomerCentre As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8159,9 +8484,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: RegisterCustomerConfirmEmail = 298
+    content: public const CSRegistryEntry RegisterCustomerConfirmEmail
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const RegisterCustomerConfirmEmail As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8186,9 +8512,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateCustomerConfirmEmail = 299
+    content: public const CSRegistryEntry ReplyTemplateCustomerConfirmEmail
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateCustomerConfirmEmail As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8213,9 +8540,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyToAllOnlyLatestExternalMessage = 300
+    content: public const CSRegistryEntry ReplyToAllOnlyLatestExternalMessage
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyToAllOnlyLatestExternalMessage As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8240,9 +8568,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: LastCleanedExpiredNotify = 301
+    content: public const CSRegistryEntry LastCleanedExpiredNotify
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const LastCleanedExpiredNotify As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8267,9 +8596,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: eMarketingEditorInNewWindow = 302
+    content: public const CSRegistryEntry eMarketingEditorInNewWindow
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const eMarketingEditorInNewWindow As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8294,9 +8624,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: FacebookCallbackKey = 303
+    content: public const CSRegistryEntry FacebookCallbackKey
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const FacebookCallbackKey As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8321,9 +8652,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MaxRowsForCharts = 304
+    content: public const CSRegistryEntry MaxRowsForCharts
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MaxRowsForCharts As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8348,9 +8680,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmDefaultMailingRate = 305
+    content: public const CSRegistryEntry SpmDefaultMailingRate
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmDefaultMailingRate As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8375,9 +8708,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmConcurrentSMTPThreads = 306
+    content: public const CSRegistryEntry SpmConcurrentSMTPThreads
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmConcurrentSMTPThreads As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8402,9 +8736,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmHideNewMessageOption = 307
+    content: public const CSRegistryEntry SpmHideNewMessageOption
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmHideNewMessageOption As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8429,9 +8764,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: SpmTimeToRestartSenders = 308
+    content: public const CSRegistryEntry SpmTimeToRestartSenders
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const SpmTimeToRestartSenders As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8456,9 +8792,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ShowOldReportsMenu = 309
+    content: public const CSRegistryEntry ShowOldReportsMenu
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ShowOldReportsMenu As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8483,9 +8820,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EmailSendingRetryLimit = 310
+    content: public const CSRegistryEntry EmailSendingRetryLimit
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EmailSendingRetryLimit As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8510,9 +8848,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ThumbnailsIsDefaultMode = 311
+    content: public const CSRegistryEntry ThumbnailsIsDefaultMode
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ThumbnailsIsDefaultMode As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8537,9 +8876,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UsageStatsWinNextRun = 312
+    content: public const CSRegistryEntry UsageStatsWinNextRun
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UsageStatsWinNextRun As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8564,9 +8904,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UsageStatsWebNextRun = 313
+    content: public const CSRegistryEntry UsageStatsWebNextRun
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UsageStatsWebNextRun As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8591,9 +8932,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UsageStatsDataAddNextRun = 314
+    content: public const CSRegistryEntry UsageStatsDataAddNextRun
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UsageStatsDataAddNextRun As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8618,9 +8960,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UsageStatsTableSizeNextRun = 315
+    content: public const CSRegistryEntry UsageStatsTableSizeNextRun
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UsageStatsTableSizeNextRun As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8645,9 +8988,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UserSyncResyncNextRun = 316
+    content: public const CSRegistryEntry UserSyncResyncNextRun
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UserSyncResyncNextRun As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8672,9 +9016,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ForceIEEdgeMode = 317
+    content: public const CSRegistryEntry ForceIEEdgeMode
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ForceIEEdgeMode As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8699,9 +9044,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CSPHeader = 318
+    content: public const CSRegistryEntry CSPHeader
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CSPHeader As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8726,9 +9072,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NotifyTimeOfDayForReport = 319
+    content: public const CSRegistryEntry NotifyTimeOfDayForReport
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NotifyTimeOfDayForReport As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8753,9 +9100,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: EmailImplementation = 320
+    content: public const CSRegistryEntry EmailImplementation
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const EmailImplementation As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8780,9 +9128,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CurlMailTransferTimeout = 321
+    content: public const CSRegistryEntry CurlMailTransferTimeout
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CurlMailTransferTimeout As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8807,9 +9156,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: CurlDisableStartTls = 322
+    content: public const CSRegistryEntry CurlDisableStartTls
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const CurlDisableStartTls As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8834,9 +9184,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplatePrintTicket = 323
+    content: public const CSRegistryEntry ReplyTemplatePrintTicket
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplatePrintTicket As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8861,9 +9212,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DoNotUseCompanyCountry = 324
+    content: public const CSRegistryEntry DoNotUseCompanyCountry
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DoNotUseCompanyCountry As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8888,9 +9240,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MaxGridRows = 325
+    content: public const CSRegistryEntry MaxGridRows
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MaxGridRows As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8915,9 +9268,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DoNotAllowMultipleLogins = 326
+    content: public const CSRegistryEntry DoNotAllowMultipleLogins
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DoNotAllowMultipleLogins As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8942,9 +9296,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: NsPluginConfig = 327
+    content: public const CSRegistryEntry NsPluginConfig
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const NsPluginConfig As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8969,9 +9324,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateCustomerChatLog = 328
+    content: public const CSRegistryEntry ReplyTemplateCustomerChatLog
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateCustomerChatLog As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -8996,9 +9352,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MailgunIncludeOutOfOffice = 329
+    content: public const CSRegistryEntry MailgunIncludeOutOfOffice
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MailgunIncludeOutOfOffice As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9023,9 +9380,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: TimeKeyTTL = 330
+    content: public const CSRegistryEntry TimeKeyTTL
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const TimeKeyTTL As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9050,9 +9408,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: DefaultTrackAllLinks = 331
+    content: public const CSRegistryEntry DefaultTrackAllLinks
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const DefaultTrackAllLinks As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9077,9 +9436,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: AddedOptionsFcgi = 332
+    content: public const CSRegistryEntry AddedOptionsFcgi
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const AddedOptionsFcgi As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9104,9 +9464,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: MailgunRewriteSenderHeader = 333
+    content: public const CSRegistryEntry MailgunRewriteSenderHeader
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const MailgunRewriteSenderHeader As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9131,9 +9492,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: OptimizedCustomerCenterListTickets = 334
+    content: public const CSRegistryEntry OptimizedCustomerCenterListTickets
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const OptimizedCustomerCenterListTickets As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9158,9 +9520,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: QuickReplyMode = 335
+    content: public const CSRegistryEntry QuickReplyMode
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const QuickReplyMode As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9185,9 +9548,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ForceImmediateFileLogging = 336
+    content: public const CSRegistryEntry ForceImmediateFileLogging
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ForceImmediateFileLogging As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9212,9 +9576,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: TemporaryKeyTTL = 337
+    content: public const CSRegistryEntry TemporaryKeyTTL
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const TemporaryKeyTTL As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9239,9 +9604,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: TemporaryKeyHardDeleteDelay = 338
+    content: public const CSRegistryEntry TemporaryKeyHardDeleteDelay
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const TemporaryKeyHardDeleteDelay As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9266,9 +9632,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ReplyTemplateNewLink = 339
+    content: public const CSRegistryEntry ReplyTemplateNewLink
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ReplyTemplateNewLink As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9293,9 +9660,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: UseLegacyHtmlConverter = 340
+    content: public const CSRegistryEntry UseLegacyHtmlConverter
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const UseLegacyHtmlConverter As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9320,9 +9688,10 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: ClipMessagesLength = 341
+    content: public const CSRegistryEntry ClipMessagesLength
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const ClipMessagesLength As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9347,9 +9716,38 @@ items:
   - SoCore
   namespace: SuperOffice.Data
   syntax:
-    content: StrictGDRPMode = 342
+    content: public const CSRegistryEntry StrictGDRPMode
     return:
       type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const StrictGDRPMode As CSRegistryEntry
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CSRegistryEntry.TicketLogSystem
+  commentId: F:SuperOffice.Data.CSRegistryEntry.TicketLogSystem
+  id: TicketLogSystem
+  parent: SuperOffice.Data.CSRegistryEntry
+  langs:
+  - csharp
+  - vb
+  name: TicketLogSystem
+  nameWithType: CSRegistryEntry.TicketLogSystem
+  fullName: SuperOffice.Data.CSRegistryEntry.TicketLogSystem
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const CSRegistryEntry TicketLogSystem
+    return:
+      type: SuperOffice.Data.CSRegistryEntry
+    content.vb: Public Const TicketLogSystem As CSRegistryEntry
   modifiers.csharp:
   - public
   - const
@@ -9363,6 +9761,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.CSRegistryEntry.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -9390,84 +9795,6 @@ references:
     name: MapEnums(Of CSRegistryEntry, To)
     nameWithType: EnumUtil.MapEnums(Of CSRegistryEntry, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.CSRegistryEntry, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.CSRegistryEntry.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CSRegistryEntry)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<CSRegistryEntry>(CSRegistryEntry)
-  nameWithType: ObjectExtensions.AssignByReflection<CSRegistryEntry>(CSRegistryEntry)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CSRegistryEntry>(SuperOffice.Data.CSRegistryEntry)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CSRegistryEntry)(CSRegistryEntry)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CSRegistryEntry)(SuperOffice.Data.CSRegistryEntry)
-  name.vb: AssignByReflection(Of CSRegistryEntry)(CSRegistryEntry)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<CSRegistryEntry>
-    nameWithType: ObjectExtensions.AssignByReflection<CSRegistryEntry>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CSRegistryEntry>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.CSRegistryEntry
-    name: CSRegistryEntry
-    nameWithType: CSRegistryEntry
-    fullName: SuperOffice.Data.CSRegistryEntry
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of CSRegistryEntry)
-    nameWithType: ObjectExtensions.AssignByReflection(Of CSRegistryEntry)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CSRegistryEntry)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.CSRegistryEntry
-    name: CSRegistryEntry
-    nameWithType: CSRegistryEntry
-    fullName: SuperOffice.Data.CSRegistryEntry
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.CSRegistryEntry.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<CSRegistryEntry>()
-  nameWithType: ObjectExtensions.GraphCopy<CSRegistryEntry>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CSRegistryEntry>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CSRegistryEntry)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CSRegistryEntry)()
-  name.vb: GraphCopy(Of CSRegistryEntry)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<CSRegistryEntry>
-    nameWithType: ObjectExtensions.GraphCopy<CSRegistryEntry>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CSRegistryEntry>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of CSRegistryEntry)
-    nameWithType: ObjectExtensions.GraphCopy(Of CSRegistryEntry)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CSRegistryEntry)
     isExternal: true
   - name: (
     nameWithType: (
@@ -9509,6 +9836,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -9554,103 +9887,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -9697,18 +9933,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.CSRegistryEntry
   commentId: T:SuperOffice.Data.CSRegistryEntry
   parent: SuperOffice.Data

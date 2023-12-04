@@ -1204,18 +1204,10 @@ references:
   nameWithType: IBLOBAgent.SetBlobStream
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream
   isExternal: true

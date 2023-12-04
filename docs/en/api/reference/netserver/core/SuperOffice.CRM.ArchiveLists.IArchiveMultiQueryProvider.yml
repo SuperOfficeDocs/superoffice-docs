@@ -25,6 +25,7 @@ items:
     content: 'public interface IArchiveMultiQueryProvider : IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
     content.vb: >-
       Public Interface IArchiveMultiQueryProvider
+
           Inherits IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
@@ -69,6 +70,7 @@ items:
   syntax:
     content: >-
       ProviderType AddSubProvider<ProviderType>(ProviderType subProvider)
+
           where ProviderType : IArchiveProvider
     parameters:
     - id: subProvider
@@ -792,8 +794,7 @@ references:
   nameWithType: IArchiveMultiQueryProvider.Providers
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider.Providers
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.IArchiveProvider}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.IArchiveProvider}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.IArchiveProvider}'
   definition: System.Collections.Generic.List`1
   name: List<IArchiveProvider>
   nameWithType: List<IArchiveProvider>
@@ -836,14 +837,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -853,9 +853,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -868,15 +868,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic

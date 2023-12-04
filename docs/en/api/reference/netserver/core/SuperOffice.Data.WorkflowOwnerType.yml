@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WorkflowOwnerType
+  commentId: T:SuperOffice.Data.WorkflowOwnerType
+  id: WorkflowOwnerType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WorkflowOwnerType.None
+  - SuperOffice.Data.WorkflowOwnerType.OurContact
+  - SuperOffice.Data.WorkflowOwnerType.OurSupportContact
+  - SuperOffice.Data.WorkflowOwnerType.Specified
+  - SuperOffice.Data.WorkflowOwnerType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowOwnerType
+  nameWithType: WorkflowOwnerType
+  fullName: SuperOffice.Data.WorkflowOwnerType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nWorkflow owner type\n"
+  syntax:
+    content: 'public sealed class WorkflowOwnerType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowOwnerType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.WorkflowOwnerType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WorkflowOwnerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowOwnerType.value__
+  commentId: F:SuperOffice.Data.WorkflowOwnerType.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowOwnerType.value__
+  fullName: SuperOffice.Data.WorkflowOwnerType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.WorkflowOwnerType.None
+  commentId: F:SuperOffice.Data.WorkflowOwnerType.None
+  id: None
+  parent: SuperOffice.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowOwnerType.None
+  fullName: SuperOffice.Data.WorkflowOwnerType.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowOwnerType None
+    return:
+      type: SuperOffice.Data.WorkflowOwnerType
+    content.vb: Public Const None As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowOwnerType.Specified
+  commentId: F:SuperOffice.Data.WorkflowOwnerType.Specified
+  id: Specified
+  parent: SuperOffice.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: Specified
+  nameWithType: WorkflowOwnerType.Specified
+  fullName: SuperOffice.Data.WorkflowOwnerType.Specified
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Specified\n"
+  syntax:
+    content: public const WorkflowOwnerType Specified
+    return:
+      type: SuperOffice.Data.WorkflowOwnerType
+    content.vb: Public Const Specified As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowOwnerType.OurContact
+  commentId: F:SuperOffice.Data.WorkflowOwnerType.OurContact
+  id: OurContact
+  parent: SuperOffice.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: OurContact
+  nameWithType: WorkflowOwnerType.OurContact
+  fullName: SuperOffice.Data.WorkflowOwnerType.OurContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Our contact\n"
+  syntax:
+    content: public const WorkflowOwnerType OurContact
+    return:
+      type: SuperOffice.Data.WorkflowOwnerType
+    content.vb: Public Const OurContact As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowOwnerType.OurSupportContact
+  commentId: F:SuperOffice.Data.WorkflowOwnerType.OurSupportContact
+  id: OurSupportContact
+  parent: SuperOffice.Data.WorkflowOwnerType
+  langs:
+  - csharp
+  - vb
+  name: OurSupportContact
+  nameWithType: WorkflowOwnerType.OurSupportContact
+  fullName: SuperOffice.Data.WorkflowOwnerType.OurSupportContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Our support contact\n"
+  syntax:
+    content: public const WorkflowOwnerType OurSupportContact
+    return:
+      type: SuperOffice.Data.WorkflowOwnerType
+    content.vb: Public Const OurSupportContact As WorkflowOwnerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.WorkflowOwnerType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowOwnerType, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowOwnerType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowOwnerType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowOwnerType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowOwnerType, To)()
+  name.vb: MapEnums(Of WorkflowOwnerType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowOwnerType, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowOwnerType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowOwnerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowOwnerType, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowOwnerType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowOwnerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WorkflowOwnerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowOwnerType, To>()
+  nameWithType: Converters.MapEnums<WorkflowOwnerType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowOwnerType, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowOwnerType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowOwnerType, To)()
+  name.vb: MapEnums(Of WorkflowOwnerType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowOwnerType, To>
+    nameWithType: Converters.MapEnums<WorkflowOwnerType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowOwnerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowOwnerType, To)
+    nameWithType: Converters.MapEnums(Of WorkflowOwnerType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowOwnerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.WorkflowOwnerType
+  commentId: T:SuperOffice.Data.WorkflowOwnerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowOwnerType
+  nameWithType: WorkflowOwnerType
+  fullName: SuperOffice.Data.WorkflowOwnerType

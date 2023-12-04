@@ -73,6 +73,7 @@ items:
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_TicketLogAction_CustomerId
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_URL_PersonId
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_UserCandidate_PersonId
+  - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
   - SuperOffice.CRM.Data.PersonTableInfo.MiddleName
   - SuperOffice.CRM.Data.PersonTableInfo.MonthOfBirth
   - SuperOffice.CRM.Data.PersonTableInfo.Mrmrs
@@ -140,7 +141,9 @@ items:
       <DatabaseTable("person")>
 
       Public Class PersonTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -162,12 +165,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.PersonTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.PersonTableInfo.SuperOffice.CRM.Globalization.PersonNameFormatter.GetPersonOrderBy
@@ -295,26 +292,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.PersonTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -405,7 +388,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;contact_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOwning contact ID\n"
+  summary: "\nField &apos;contact_id&apos; in table &apos;person&apos;: Dictionary type FK, target: Contact, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOwning contact ID\n"
   syntax:
     content: public Int32FieldInfo ContactId { get; }
     parameters: []
@@ -591,7 +574,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;text_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nInfo tab contents\n"
+  summary: "\nField &apos;text_id&apos; in table &apos;person&apos;: Dictionary type FK, target: Text, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nInfo tab contents\n"
   syntax:
     content: public Int32FieldInfo TextId { get; }
     parameters: []
@@ -622,7 +605,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;position_idx&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to Position list\n"
+  summary: "\nField &apos;position_idx&apos; in table &apos;person&apos;: Dictionary type FK, target: PersPos, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to Position list\n"
   syntax:
     content: public Int32FieldInfo PositionIdx { get; }
     parameters: []
@@ -653,7 +636,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;year_of_birth&apos; in table &apos;person&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBirth year (4 digit)\n"
+  summary: "\nField &apos;year_of_birth&apos; in table &apos;person&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBirth year (4 digit), 0 if not specifed\n"
   syntax:
     content: public UInt16FieldInfo YearOfBirth { get; }
     parameters: []
@@ -684,7 +667,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;month_of_birth&apos; in table &apos;person&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBirth month\n"
+  summary: "\nField &apos;month_of_birth&apos; in table &apos;person&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBirth month (1-12), 0 if not specified\n"
   syntax:
     content: public UInt16FieldInfo MonthOfBirth { get; }
     parameters: []
@@ -715,7 +698,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;day_of_birth&apos; in table &apos;person&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBirth date (day of month)\n"
+  summary: "\nField &apos;day_of_birth&apos; in table &apos;person&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBirth date (day of month), 0 if not specified\n"
   syntax:
     content: public UInt16FieldInfo DayOfBirth { get; }
     parameters: []
@@ -777,7 +760,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;userdef_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 1\n"
+  summary: "\nField &apos;userdef_id&apos; in table &apos;person&apos;: Dictionary type FK, target: UDPersonSmall, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 1\n"
   syntax:
     content: public Int32FieldInfo UserdefId { get; }
     parameters: []
@@ -839,7 +822,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;person&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -901,7 +884,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;person&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -1242,7 +1225,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;country_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCountry\n"
+  summary: "\nField &apos;country_id&apos; in table &apos;person&apos;: Dictionary type FK, target: Country, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCountry\n"
   syntax:
     content: public Int32FieldInfo CountryId { get; }
     parameters: []
@@ -1273,7 +1256,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;userdef2_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 2\n"
+  summary: "\nField &apos;userdef2_id&apos; in table &apos;person&apos;: Dictionary type FK, target: UDPersonLarge, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 2\n"
   syntax:
     content: public Int32FieldInfo Userdef2Id { get; }
     parameters: []
@@ -1583,7 +1566,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;business_idx&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBusiness if this is a B2C person, otherwise mirror of contact.business_idx\n"
+  summary: "\nField &apos;business_idx&apos; in table &apos;person&apos;: Dictionary type FK, target: Business, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nBusiness if this is a B2C person, otherwise mirror of contact.business_idx\n"
   syntax:
     content: public Int32FieldInfo BusinessIdx { get; }
     parameters: []
@@ -1614,7 +1597,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;category_idx&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCategory if this is a B2C person, otherwise mirror of contact.category_idx\n"
+  summary: "\nField &apos;category_idx&apos; in table &apos;person&apos;: Dictionary type FK, target: Category, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCategory if this is a B2C person, otherwise mirror of contact.category_idx\n"
   syntax:
     content: public Int32FieldInfo CategoryIdx { get; }
     parameters: []
@@ -1645,7 +1628,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tzLocationId&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault timezone location for this person\n"
+  summary: "\nField &apos;tzLocationId&apos; in table &apos;person&apos;: Dictionary type FK, target: TZLocation, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault timezone location for this person\n"
   syntax:
     content: public Int32FieldInfo TzLocationId { get; }
     parameters: []
@@ -1738,7 +1721,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ticketPriorityId&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault ticket priority for new tickets\n"
+  summary: "\nField &apos;ticketPriorityId&apos; in table &apos;person&apos;: Dictionary type FK, target: TicketPriority, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault ticket priority for new tickets\n"
   syntax:
     content: public Int32FieldInfo TicketPriorityId { get; }
     parameters: []
@@ -1769,7 +1752,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;supportLanguageId&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCustomers language (does not necessarily map to ISO languages)\n"
+  summary: "\nField &apos;supportLanguageId&apos; in table &apos;person&apos;: Dictionary type FK, target: CustLang, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCustomers language (does not necessarily map to ISO languages)\n"
   syntax:
     content: public Int32FieldInfo SupportLanguageId { get; }
     parameters: []
@@ -1800,7 +1783,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;supportAssociateId&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOur contact, but for support context, not sales/primary contact\n"
+  summary: "\nField &apos;supportAssociateId&apos; in table &apos;person&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOur contact, but for support context, not sales/primary contact\n"
   syntax:
     content: public Int32FieldInfo SupportAssociateId { get; }
     parameters: []
@@ -1831,7 +1814,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;dbi_agent_id&apos; in table &apos;person&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIntegration agent (eJournal)\n"
+  summary: "\nField &apos;dbi_agent_id&apos; in table &apos;person&apos;: Dictionary type FK, target: DbiAgent, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIntegration agent (eJournal)\n"
   syntax:
     content: public Int32FieldInfo DbiAgentId { get; }
     parameters: []
@@ -3643,6 +3626,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
+  id: LeftOuterJoin_WorkflowInstance_PersonId
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_WorkflowInstance_PersonId
+  nameWithType: PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key PersonId on this table, to WorkflowInstance.<xref href=\"SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<WorkflowInstanceTableInfo> LeftOuterJoin_WorkflowInstance_PersonId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowInstance_PersonId As TargetedLeftOuterJoin(Of WorkflowInstanceTableInfo)
+  overload: SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -3665,8 +3679,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -3999,254 +4011,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.PersonTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -7545,6 +7309,56 @@ references:
     name: TemporaryKeyTableInfo
     nameWithType: TemporaryKeyTableInfo
     fullName: SuperOffice.CRM.Data.TemporaryKeyTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
+  isExternal: true
+  name: LeftOuterJoin_WorkflowInstance_PersonId
+  nameWithType: PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_WorkflowInstance_PersonId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<WorkflowInstanceTableInfo>
+  nameWithType: TargetedLeftOuterJoin<WorkflowInstanceTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WorkflowInstanceTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of WorkflowInstanceTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.WorkflowInstanceTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of WorkflowInstanceTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+    name: WorkflowInstanceTableInfo
+    nameWithType: WorkflowInstanceTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+    name: WorkflowInstanceTableInfo
+    nameWithType: WorkflowInstanceTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
     isExternal: true
   - name: )
     nameWithType: )

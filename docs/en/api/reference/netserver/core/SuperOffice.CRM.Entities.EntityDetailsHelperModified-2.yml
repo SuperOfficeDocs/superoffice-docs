@@ -15,7 +15,7 @@ items:
   name: EntityDetailsHelperModified<TParent, TChild>
   nameWithType: EntityDetailsHelperModified<TParent, TChild>
   fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,35 +24,30 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nDelegate declaring function for handling modifications in the <xref href=\"SuperOffice.CRM.Entities.EntityDetailsHelper%602\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      public delegate void EntityDetailsHelperModified<TParent, TChild>(EntityDetailsHelper<TParent, TChild> source, TParent parent, TChild item)
-          where TParent : class, INestedPersist where TChild : class, INestedPersist;
-    parameters:
-    - id: source
-      type: SuperOffice.CRM.Entities.EntityDetailsHelper{{TParent},{TChild}}
-      description: Instance of <see cref="!:OnEntityDetailsHelperModified&lt;TParent, TChild>"></see> passing on the event.
-    - id: parent
-      type: '{TParent}'
-      description: Parent object owning the children.
-    - id: item
-      type: '{TChild}'
-      description: Item modified.
+    content: 'public sealed class EntityDetailsHelperModified<TParent, TChild> : MulticastDelegate where TParent : class, INestedPersist where TChild : class, INestedPersist'
     typeParameters:
     - id: TParent
       description: Type of parent, normally a row or entity.
     - id: TChild
       description: Type of child, normally a row or entity.
-    content.vb: Public Delegate Sub EntityDetailsHelperModified(Of TParent As {Class, INestedPersist}, TChild As {Class, INestedPersist})(source As EntityDetailsHelper(Of TParent, TChild), parent As TParent, item As TChild)
+    content.vb: >-
+      Public NotInheritable Class EntityDetailsHelperModified(Of TParent As {Class, INestedPersist}, TChild As {Class, INestedPersist})
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: EntityDetailsHelperModified(Of TParent, TChild)
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild)
   name.vb: EntityDetailsHelperModified(Of TParent, TChild)
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.#ctor(System.Object,System.IntPtr)
@@ -206,6 +201,13 @@ references:
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -274,70 +276,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{{TParent},{TChild}}
-  commentId: T:SuperOffice.CRM.Entities.EntityDetailsHelper{`0,`1}
-  parent: SuperOffice.CRM.Entities
-  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2
-  name: EntityDetailsHelper<TParent, TChild>
-  nameWithType: EntityDetailsHelper<TParent, TChild>
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>
-  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild)
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild)
-  name.vb: EntityDetailsHelper(Of TParent, TChild)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
-    name: EntityDetailsHelper
-    nameWithType: EntityDetailsHelper
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TParent
-    nameWithType: TParent
-    fullName: TParent
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TChild
-    nameWithType: TChild
-    fullName: TChild
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
-    name: EntityDetailsHelper
-    nameWithType: EntityDetailsHelper
-    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TParent
-    nameWithType: TParent
-    fullName: TParent
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TChild
-    nameWithType: TChild
-    fullName: TChild
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: '{TParent}'
-  commentId: '!:TParent'
-  definition: TParent
-  name: TParent
-  nameWithType: TParent
-  fullName: TParent
-- uid: '{TChild}'
-  commentId: '!:TChild'
-  definition: TChild
-  name: TChild
-  nameWithType: TChild
-  fullName: TChild
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -429,6 +373,99 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.#ctor
+  isExternal: true
+  name: EntityDetailsHelperModified
+  nameWithType: EntityDetailsHelperModified<TParent, TChild>.EntityDetailsHelperModified
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>.EntityDetailsHelperModified
+  nameWithType.vb: EntityDetailsHelperModified(Of TParent, TChild).EntityDetailsHelperModified
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild).EntityDetailsHelperModified
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.Invoke*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: EntityDetailsHelperModified<TParent, TChild>.Invoke
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>.Invoke
+  nameWithType.vb: EntityDetailsHelperModified(Of TParent, TChild).Invoke
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild).Invoke
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{{TParent},{TChild}}
+  commentId: T:SuperOffice.CRM.Entities.EntityDetailsHelper{`0,`1}
+  parent: SuperOffice.CRM.Entities
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+  name: EntityDetailsHelper<TParent, TChild>
+  nameWithType: EntityDetailsHelper<TParent, TChild>
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild)
+  name.vb: EntityDetailsHelper(Of TParent, TChild)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+    name: EntityDetailsHelper
+    nameWithType: EntityDetailsHelper
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+    name: EntityDetailsHelper
+    nameWithType: EntityDetailsHelper
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{TParent}'
+  commentId: '!:TParent'
+  definition: TParent
+  name: TParent
+  nameWithType: TParent
+  fullName: TParent
+- uid: '{TChild}'
+  commentId: '!:TChild'
+  definition: TChild
+  name: TChild
+  nameWithType: TChild
+  fullName: TChild
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
   commentId: T:SuperOffice.CRM.Entities.EntityDetailsHelper`2
   isExternal: true
@@ -488,48 +525,6 @@ references:
   name: TChild
   nameWithType: TChild
   fullName: TChild
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.#ctor*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.#ctor
-  isExternal: true
-  name: EntityDetailsHelperModified
-  nameWithType: EntityDetailsHelperModified<TParent, TChild>.EntityDetailsHelperModified
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>.EntityDetailsHelperModified
-  nameWithType.vb: EntityDetailsHelperModified(Of TParent, TChild).EntityDetailsHelperModified
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild).EntityDetailsHelperModified
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.IntPtr
-  commentId: T:System.IntPtr
-  parent: System
-  isExternal: true
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.Invoke*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.Invoke
-  isExternal: true
-  name: Invoke
-  nameWithType: EntityDetailsHelperModified<TParent, TChild>.Invoke
-  fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>.Invoke
-  nameWithType.vb: EntityDetailsHelperModified(Of TParent, TChild).Invoke
-  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild).Invoke
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Entities.EntityDetailsHelperModified`2.BeginInvoke
   isExternal: true
@@ -539,15 +534,11 @@ references:
   nameWithType.vb: EntityDetailsHelperModified(Of TParent, TChild).BeginInvoke
   fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild).BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

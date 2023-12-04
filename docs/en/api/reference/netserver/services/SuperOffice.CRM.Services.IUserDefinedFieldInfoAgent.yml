@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo,SuperOffice.Data.UDefFieldType,System.Boolean)
+  - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
   - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
   - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
   - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(System.Int32)
@@ -158,6 +159,70 @@ items:
       description: The identity of the UserDefinedFieldInfo
     content.vb: Sub DeleteUserDefinedFieldInfo(userDefinedFieldInfoId As Integer)
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
+  id: GetCustomFieldInfoList(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomFieldInfoList(String, Boolean)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String, Boolean)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn information about all the custom fields (user-defined + extra) on a particular table\n"
+  syntax:
+    content: FieldInfoBase[] GetCustomFieldInfoList(string tableName, bool includeStandard)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
+    - id: includeStandard
+      type: System.Boolean
+      description: Include standard fields in result. Default false.
+    return:
+      type: SuperOffice.CRM.Services.FieldInfoBase[]
+      description: Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
+    content.vb: Function GetCustomFieldInfoList(tableName As String, includeStandard As Boolean) As FieldInfoBase()
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
+  id: GetCustomFieldInfo(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomFieldInfo(String, String)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo(String, String)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn information about a particular custom field (user-defined + extra) on a particular table\n"
+  syntax:
+    content: FieldInfoBase GetCustomFieldInfo(string tableName, string fieldName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
+    - id: fieldName
+      type: System.String
+      description: 'The name of the field: prog:id or field name. e.g. &apos;SuperOffice:21&apos; or &apos;x_foobar&apos;'
+    return:
+      type: SuperOffice.CRM.Services.FieldInfoBase
+      description: user-defined or extra field info. Describes default values, mandatory, visiblity, labels and choices.
+    content.vb: Function GetCustomFieldInfo(tableName As String, fieldName As String) As FieldInfoBase
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
   id: GetUserDefinedFieldInfo(System.Int32)
@@ -973,16 +1038,16 @@ items:
       description: The user-defined field owner-entity.
     content.vb: Sub SetPublishStartSystemEvent(ownerType As UDefType)
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
-  id: GetCustomFieldInfoList(System.String,System.Boolean)
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
+  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
+  id: ClearCaches
   parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   langs:
   - csharp
   - vb
-  name: GetCustomFieldInfoList(String, Boolean)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String, Boolean)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String, System.Boolean)
+  name: ClearCaches()
+  nameWithType: IUserDefinedFieldInfoAgent.ClearCaches()
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches()
   type: Method
   source:
     path: SuperOffice.Services
@@ -990,53 +1055,11 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nReturn information about all the custom fields (user-defined + extra) on a particular table\n"
+  summary: "\nClear all relevant caches. This is normally done automatically but can be useful in certain circumstances.\n"
   syntax:
-    content: FieldInfoBase[] GetCustomFieldInfoList(string tableName, bool includeStandard)
-    parameters:
-    - id: tableName
-      type: System.String
-      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
-    - id: includeStandard
-      type: System.Boolean
-      description: Include standard fields in result. Default false.
-    return:
-      type: SuperOffice.CRM.Services.FieldInfoBase[]
-      description: Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
-    content.vb: Function GetCustomFieldInfoList(tableName As String, includeStandard As Boolean) As FieldInfoBase()
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
-  id: GetCustomFieldInfo(System.String,System.String)
-  parent: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
-  langs:
-  - csharp
-  - vb
-  name: GetCustomFieldInfo(String, String)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo(String, String)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String, System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturn information about a particular custom field (user-defined + extra) on a particular table\n"
-  syntax:
-    content: FieldInfoBase GetCustomFieldInfo(string tableName, string fieldName)
-    parameters:
-    - id: tableName
-      type: System.String
-      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
-    - id: fieldName
-      type: System.String
-      description: 'The name of the field: prog:id or field name. e.g. &apos;SuperOffice:21&apos; or &apos;x_foobar&apos;'
-    return:
-      type: SuperOffice.CRM.Services.FieldInfoBase
-      description: user-defined or extra field info. Describes default values, mandatory, visiblity, labels and choices.
-    content.vb: Function GetCustomFieldInfo(tableName As String, fieldName As String) As FieldInfoBase
-  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
+    content: void ClearCaches()
+    content.vb: Sub ClearCaches
+  overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1082,6 +1105,65 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+  isExternal: true
+  name: GetCustomFieldInfoList
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.FieldInfoBase[]
+  isExternal: true
+  name: FieldInfoBase[]
+  nameWithType: FieldInfoBase[]
+  fullName: SuperOffice.CRM.Services.FieldInfoBase[]
+  nameWithType.vb: FieldInfoBase()
+  fullName.vb: SuperOffice.CRM.Services.FieldInfoBase()
+  name.vb: FieldInfoBase()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.FieldInfoBase
+    name: FieldInfoBase
+    nameWithType: FieldInfoBase
+    fullName: SuperOffice.CRM.Services.FieldInfoBase
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.FieldInfoBase
+    name: FieldInfoBase
+    nameWithType: FieldInfoBase
+    fullName: SuperOffice.CRM.Services.FieldInfoBase
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
+  isExternal: true
+  name: GetCustomFieldInfo
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
+- uid: SuperOffice.CRM.Services.FieldInfoBase
+  commentId: T:SuperOffice.CRM.Services.FieldInfoBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: FieldInfoBase
+  nameWithType: FieldInfoBase
+  fullName: SuperOffice.CRM.Services.FieldInfoBase
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
   isExternal: true
@@ -1137,13 +1219,6 @@ references:
   name: GetUserDefinedFieldFromFieldLabel
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
   isExternal: true
@@ -1243,13 +1318,6 @@ references:
   name: ChangeFieldType
   nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldType
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
   isExternal: true
@@ -1372,48 +1440,9 @@ references:
   name: SetPublishStartSystemEvent
   nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches*
+  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
   isExternal: true
-  name: GetCustomFieldInfoList
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
-- uid: SuperOffice.CRM.Services.FieldInfoBase[]
-  isExternal: true
-  name: FieldInfoBase[]
-  nameWithType: FieldInfoBase[]
-  fullName: SuperOffice.CRM.Services.FieldInfoBase[]
-  nameWithType.vb: FieldInfoBase()
-  fullName.vb: SuperOffice.CRM.Services.FieldInfoBase()
-  name.vb: FieldInfoBase()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.FieldInfoBase
-    name: FieldInfoBase
-    nameWithType: FieldInfoBase
-    fullName: SuperOffice.CRM.Services.FieldInfoBase
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.FieldInfoBase
-    name: FieldInfoBase
-    nameWithType: FieldInfoBase
-    fullName: SuperOffice.CRM.Services.FieldInfoBase
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
-  commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
-  isExternal: true
-  name: GetCustomFieldInfo
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
-- uid: SuperOffice.CRM.Services.FieldInfoBase
-  commentId: T:SuperOffice.CRM.Services.FieldInfoBase
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: FieldInfoBase
-  nameWithType: FieldInfoBase
-  fullName: SuperOffice.CRM.Services.FieldInfoBase
+  name: ClearCaches
+  nameWithType: IUserDefinedFieldInfoAgent.ClearCaches
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches

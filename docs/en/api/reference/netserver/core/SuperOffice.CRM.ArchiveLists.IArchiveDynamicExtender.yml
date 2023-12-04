@@ -23,6 +23,7 @@ items:
     content: 'public interface IArchiveDynamicExtender : IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IPlugin, IArchiveProviderDynamicExtend'
     content.vb: >-
       Public Interface IArchiveDynamicExtender
+
           Inherits IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IPlugin, IArchiveProviderDynamicExtend
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes(System.String,System.String)

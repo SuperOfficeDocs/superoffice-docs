@@ -342,13 +342,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.DatabaseTableAgent
   commentId: T:SuperOffice.CRM.Services.DatabaseTableAgent
   isExternal: true
@@ -362,12 +355,6 @@ references:
   name: IDatabaseTableAgent
   nameWithType: IDatabaseTableAgent
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.MassOperationResult.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MassOperationResult.#ctor
   isExternal: true
@@ -387,6 +374,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.MassOperationResult.Success*
   commentId: Overload:SuperOffice.CRM.Services.MassOperationResult.Success
   isExternal: true

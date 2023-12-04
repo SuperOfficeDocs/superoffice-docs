@@ -1,0 +1,690 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo
+  commentId: T:SuperOffice.WebApi.OnlineAppRequestInfo
+  id: OnlineAppRequestInfo
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.OnlineAppRequestInfo.#ctor
+  - SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier
+  - SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  - SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest
+  - SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: OnlineAppRequestInfo
+  nameWithType: OnlineAppRequestInfo
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nDefault implementation of <xref href=\"SuperOffice.WebApi.IOnlineAppRequestInfo\" data-throw-if-not-resolved=\"false\"></xref>, propagating the context into derived scops.\n"
+  syntax:
+    content: 'public class OnlineAppRequestInfo : Object, IOnlineAppRequestInfo'
+    content.vb: >-
+      Public Class OnlineAppRequestInfo
+
+          Inherits Object
+
+          Implements IOnlineAppRequestInfo
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.WebApi.IOnlineAppRequestInfo
+  extensionMethods:
+  - SuperOffice.WebApi.OnlineAppRequestInfo.EnumUtil.MapEnums``2
+  - SuperOffice.WebApi.OnlineAppRequestInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.WebApi.OnlineAppRequestInfo)
+  - SuperOffice.WebApi.OnlineAppRequestInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.WebApi.OnlineAppRequestInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  commentId: M:SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  id: InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  parent: SuperOffice.WebApi.OnlineAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: InitializeOnlineAppRequest(PartnerAppRequestInfo)
+  nameWithType: OnlineAppRequestInfo.InitializeOnlineAppRequest(PartnerAppRequestInfo)
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nInitialize the current scope with information about a oline app request\n"
+  syntax:
+    content: public void InitializeOnlineAppRequest(PartnerAppRequestInfo partnerAppRequestInfo)
+    parameters:
+    - id: partnerAppRequestInfo
+      type: SuperOffice.WebApi.PartnerAppRequestInfo
+      description: Information about a oline app request
+    content.vb: Public Sub InitializeOnlineAppRequest(partnerAppRequestInfo As PartnerAppRequestInfo)
+  overload: SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest*
+  implements:
+  - SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.#ctor
+  commentId: M:SuperOffice.WebApi.OnlineAppRequestInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.OnlineAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: OnlineAppRequestInfo()
+  nameWithType: OnlineAppRequestInfo.OnlineAppRequestInfo()
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.OnlineAppRequestInfo()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public OnlineAppRequestInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.OnlineAppRequestInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest
+  commentId: P:SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest
+  id: IsOnlineAppRequest
+  parent: SuperOffice.WebApi.OnlineAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: IsOnlineAppRequest
+  nameWithType: OnlineAppRequestInfo.IsOnlineAppRequest
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nIs the request called by an online partner app\n"
+  syntax:
+    content: public bool IsOnlineAppRequest { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsOnlineAppRequest As Boolean
+  overload: SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest*
+  implements:
+  - SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo
+  commentId: P:SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo
+  id: PartnerAppRequestInfo
+  parent: SuperOffice.WebApi.OnlineAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: PartnerAppRequestInfo
+  nameWithType: OnlineAppRequestInfo.PartnerAppRequestInfo
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nInformation about the request if it is made by an online app\n"
+  syntax:
+    content: public PartnerAppRequestInfo PartnerAppRequestInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.PartnerAppRequestInfo
+    content.vb: Public ReadOnly Property PartnerAppRequestInfo As PartnerAppRequestInfo
+  overload: SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo*
+  implements:
+  - SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier
+  commentId: P:SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.WebApi.OnlineAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: OnlineAppRequestInfo.ContextIdentifier
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public string ContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContextIdentifier As String
+  overload: SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier*
+  implements:
+  - SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+  commentId: T:SuperOffice.WebApi.IOnlineAppRequestInfo
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IOnlineAppRequestInfo
+  nameWithType: IOnlineAppRequestInfo
+  fullName: SuperOffice.WebApi.IOnlineAppRequestInfo
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<OnlineAppRequestInfo, To>()
+  nameWithType: EnumUtil.MapEnums<OnlineAppRequestInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.WebApi.OnlineAppRequestInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OnlineAppRequestInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.WebApi.OnlineAppRequestInfo, To)()
+  name.vb: MapEnums(Of OnlineAppRequestInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OnlineAppRequestInfo, To>
+    nameWithType: EnumUtil.MapEnums<OnlineAppRequestInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.WebApi.OnlineAppRequestInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OnlineAppRequestInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of OnlineAppRequestInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.WebApi.OnlineAppRequestInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.WebApi.OnlineAppRequestInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<OnlineAppRequestInfo>(OnlineAppRequestInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<OnlineAppRequestInfo>(OnlineAppRequestInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.WebApi.OnlineAppRequestInfo>(SuperOffice.WebApi.OnlineAppRequestInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OnlineAppRequestInfo)(OnlineAppRequestInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.WebApi.OnlineAppRequestInfo)(SuperOffice.WebApi.OnlineAppRequestInfo)
+  name.vb: AssignByReflection(Of OnlineAppRequestInfo)(OnlineAppRequestInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<OnlineAppRequestInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<OnlineAppRequestInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.WebApi.OnlineAppRequestInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.OnlineAppRequestInfo
+    name: OnlineAppRequestInfo
+    nameWithType: OnlineAppRequestInfo
+    fullName: SuperOffice.WebApi.OnlineAppRequestInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of OnlineAppRequestInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of OnlineAppRequestInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.WebApi.OnlineAppRequestInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.OnlineAppRequestInfo
+    name: OnlineAppRequestInfo
+    nameWithType: OnlineAppRequestInfo
+    fullName: SuperOffice.WebApi.OnlineAppRequestInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<OnlineAppRequestInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<OnlineAppRequestInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.WebApi.OnlineAppRequestInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of OnlineAppRequestInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.WebApi.OnlineAppRequestInfo)()
+  name.vb: GraphCopy(Of OnlineAppRequestInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<OnlineAppRequestInfo>
+    nameWithType: ObjectExtensions.GraphCopy<OnlineAppRequestInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.WebApi.OnlineAppRequestInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of OnlineAppRequestInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of OnlineAppRequestInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.WebApi.OnlineAppRequestInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OnlineAppRequestInfo, To>()
+  nameWithType: Converters.MapEnums<OnlineAppRequestInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.OnlineAppRequestInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of OnlineAppRequestInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.OnlineAppRequestInfo, To)()
+  name.vb: MapEnums(Of OnlineAppRequestInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OnlineAppRequestInfo, To>
+    nameWithType: Converters.MapEnums<OnlineAppRequestInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.OnlineAppRequestInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OnlineAppRequestInfo, To)
+    nameWithType: Converters.MapEnums(Of OnlineAppRequestInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.OnlineAppRequestInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest*
+  commentId: Overload:SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest
+  isExternal: true
+  name: InitializeOnlineAppRequest
+  nameWithType: OnlineAppRequestInfo.InitializeOnlineAppRequest
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.InitializeOnlineAppRequest
+- uid: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  commentId: M:SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  parent: SuperOffice.WebApi.IOnlineAppRequestInfo
+  isExternal: true
+  name: InitializeOnlineAppRequest(PartnerAppRequestInfo)
+  nameWithType: IOnlineAppRequestInfo.InitializeOnlineAppRequest(PartnerAppRequestInfo)
+  fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+    name: InitializeOnlineAppRequest
+    nameWithType: IOnlineAppRequestInfo.InitializeOnlineAppRequest
+    fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.PartnerAppRequestInfo
+    name: PartnerAppRequestInfo
+    nameWithType: PartnerAppRequestInfo
+    fullName: SuperOffice.WebApi.PartnerAppRequestInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest(SuperOffice.WebApi.PartnerAppRequestInfo)
+    name: InitializeOnlineAppRequest
+    nameWithType: IOnlineAppRequestInfo.InitializeOnlineAppRequest
+    fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.InitializeOnlineAppRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.PartnerAppRequestInfo
+    name: PartnerAppRequestInfo
+    nameWithType: PartnerAppRequestInfo
+    fullName: SuperOffice.WebApi.PartnerAppRequestInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.PartnerAppRequestInfo
+  commentId: T:SuperOffice.WebApi.PartnerAppRequestInfo
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: PartnerAppRequestInfo
+  nameWithType: PartnerAppRequestInfo
+  fullName: SuperOffice.WebApi.PartnerAppRequestInfo
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.OnlineAppRequestInfo.#ctor
+  isExternal: true
+  name: OnlineAppRequestInfo
+  nameWithType: OnlineAppRequestInfo.OnlineAppRequestInfo
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.OnlineAppRequestInfo
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest*
+  commentId: Overload:SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest
+  isExternal: true
+  name: IsOnlineAppRequest
+  nameWithType: OnlineAppRequestInfo.IsOnlineAppRequest
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.IsOnlineAppRequest
+- uid: SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
+  commentId: P:SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
+  parent: SuperOffice.WebApi.IOnlineAppRequestInfo
+  isExternal: true
+  name: IsOnlineAppRequest
+  nameWithType: IOnlineAppRequestInfo.IsOnlineAppRequest
+  fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.IsOnlineAppRequest
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo*
+  commentId: Overload:SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo
+  isExternal: true
+  name: PartnerAppRequestInfo
+  nameWithType: OnlineAppRequestInfo.PartnerAppRequestInfo
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.PartnerAppRequestInfo
+- uid: SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
+  commentId: P:SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
+  parent: SuperOffice.WebApi.IOnlineAppRequestInfo
+  isExternal: true
+  name: PartnerAppRequestInfo
+  nameWithType: IOnlineAppRequestInfo.PartnerAppRequestInfo
+  fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.PartnerAppRequestInfo
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier*
+  commentId: Overload:SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: OnlineAppRequestInfo.ContextIdentifier
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo.ContextIdentifier
+- uid: SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier
+  commentId: P:SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier
+  parent: SuperOffice.WebApi.IOnlineAppRequestInfo
+  isExternal: true
+  name: ContextIdentifier
+  nameWithType: IOnlineAppRequestInfo.ContextIdentifier
+  fullName: SuperOffice.WebApi.IOnlineAppRequestInfo.ContextIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

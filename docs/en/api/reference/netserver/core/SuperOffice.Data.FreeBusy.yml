@@ -7,13 +7,14 @@ items:
   children:
   - SuperOffice.Data.FreeBusy.Busy
   - SuperOffice.Data.FreeBusy.Free
+  - SuperOffice.Data.FreeBusy.value__
   langs:
   - csharp
   - vb
   name: FreeBusy
   nameWithType: FreeBusy
   fullName: SuperOffice.Data.FreeBusy
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -22,19 +23,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nWhat kind of time is this: 0 = Busy, 1 = Free\nThis Enum is used by:  appointment.freeBusy; Task.defaultFreeBusy\n"
   syntax:
-    content: 'public enum FreeBusy : short'
-    content.vb: Public Enum FreeBusy As Short
+    content: 'public sealed class FreeBusy : Enum'
+    content.vb: >-
+      Public NotInheritable Class FreeBusy
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.FreeBusy.EnumUtil.MapEnums``2
-  - SuperOffice.Data.FreeBusy.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FreeBusy)
-  - SuperOffice.Data.FreeBusy.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.FreeBusy.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.FreeBusy.value__
+  commentId: F:SuperOffice.Data.FreeBusy.value__
+  id: value__
+  parent: SuperOffice.Data.FreeBusy
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FreeBusy.value__
+  fullName: SuperOffice.Data.FreeBusy.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.FreeBusy.Busy
   commentId: F:SuperOffice.Data.FreeBusy.Busy
   id: Busy
@@ -54,9 +90,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
-    content: Busy = 0
+    content: public const FreeBusy Busy
     return:
       type: SuperOffice.Data.FreeBusy
+    content.vb: Public Const Busy As FreeBusy
   modifiers.csharp:
   - public
   - const
@@ -82,9 +119,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
-    content: Free = 1
+    content: public const FreeBusy Free
     return:
       type: SuperOffice.Data.FreeBusy
+    content.vb: Public Const Free As FreeBusy
   modifiers.csharp:
   - public
   - const
@@ -98,6 +136,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.FreeBusy.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -125,84 +170,6 @@ references:
     name: MapEnums(Of FreeBusy, To)
     nameWithType: EnumUtil.MapEnums(Of FreeBusy, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.FreeBusy, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.FreeBusy.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FreeBusy)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FreeBusy>(FreeBusy)
-  nameWithType: ObjectExtensions.AssignByReflection<FreeBusy>(FreeBusy)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FreeBusy>(SuperOffice.Data.FreeBusy)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FreeBusy)(FreeBusy)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FreeBusy)(SuperOffice.Data.FreeBusy)
-  name.vb: AssignByReflection(Of FreeBusy)(FreeBusy)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FreeBusy>
-    nameWithType: ObjectExtensions.AssignByReflection<FreeBusy>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FreeBusy>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.FreeBusy
-    name: FreeBusy
-    nameWithType: FreeBusy
-    fullName: SuperOffice.Data.FreeBusy
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FreeBusy)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FreeBusy)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FreeBusy)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.FreeBusy
-    name: FreeBusy
-    nameWithType: FreeBusy
-    fullName: SuperOffice.Data.FreeBusy
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.FreeBusy.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FreeBusy>()
-  nameWithType: ObjectExtensions.GraphCopy<FreeBusy>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FreeBusy>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FreeBusy)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FreeBusy)()
-  name.vb: GraphCopy(Of FreeBusy)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FreeBusy>
-    nameWithType: ObjectExtensions.GraphCopy<FreeBusy>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FreeBusy>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FreeBusy)
-    nameWithType: ObjectExtensions.GraphCopy(Of FreeBusy)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FreeBusy)
     isExternal: true
   - name: (
     nameWithType: (
@@ -244,6 +211,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -289,103 +262,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -432,18 +308,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.FreeBusy
   commentId: T:SuperOffice.Data.FreeBusy
   parent: SuperOffice.Data

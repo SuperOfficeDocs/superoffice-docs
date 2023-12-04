@@ -5,10 +5,7 @@ items:
   id: SuperOffice.Events
   children:
   - SuperOffice.Events.EventEnginePluginAttribute
-  - SuperOffice.Events.GlobalApplicationEventsPluginAttribute
-  - SuperOffice.Events.GlobalApplicationEventsPluginHelper
   - SuperOffice.Events.IEventEngine
-  - SuperOffice.Events.IGlobalApplicationEventsPlugin
   - SuperOffice.Events.SendEventArguments
   - SuperOffice.Events.SoEventManager
   - SuperOffice.Events.SoGlobalFlush
@@ -22,24 +19,6 @@ items:
   assemblies:
   - SoCore
 references:
-- uid: SuperOffice.Events.IGlobalApplicationEventsPlugin
-  commentId: T:SuperOffice.Events.IGlobalApplicationEventsPlugin
-  isExternal: true
-  name: IGlobalApplicationEventsPlugin
-  nameWithType: IGlobalApplicationEventsPlugin
-  fullName: SuperOffice.Events.IGlobalApplicationEventsPlugin
-- uid: SuperOffice.Events.GlobalApplicationEventsPluginAttribute
-  commentId: T:SuperOffice.Events.GlobalApplicationEventsPluginAttribute
-  isExternal: true
-  name: GlobalApplicationEventsPluginAttribute
-  nameWithType: GlobalApplicationEventsPluginAttribute
-  fullName: SuperOffice.Events.GlobalApplicationEventsPluginAttribute
-- uid: SuperOffice.Events.GlobalApplicationEventsPluginHelper
-  commentId: T:SuperOffice.Events.GlobalApplicationEventsPluginHelper
-  isExternal: true
-  name: GlobalApplicationEventsPluginHelper
-  nameWithType: GlobalApplicationEventsPluginHelper
-  fullName: SuperOffice.Events.GlobalApplicationEventsPluginHelper
 - uid: SuperOffice.Events.SoGlobalFlush
   commentId: T:SuperOffice.Events.SoGlobalFlush
   parent: SuperOffice.Events

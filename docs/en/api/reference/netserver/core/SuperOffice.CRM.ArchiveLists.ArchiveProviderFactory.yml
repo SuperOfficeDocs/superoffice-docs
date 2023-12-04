@@ -12,7 +12,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String,System.Boolean)
-  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.DefaultPageSize
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
@@ -35,24 +34,19 @@ items:
   summary: "\nThis is the class factory for Archive Providers. It uses the <xref href=\"SuperOffice.Factory.PluginFactory\" data-throw-if-not-resolved=\"false\"></xref> class together with\nthe <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute\" data-throw-if-not-resolved=\"false\"></xref> to identify classes that implement the <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProvider\" data-throw-if-not-resolved=\"false\"></xref>\ninterface. These are ordered by priority, the lowest value wins for any particular provider name. The system-standard\nproviders all have priority int.MaxValue/2 so they are in the middle of the possible range.\n"
   syntax:
     content: >-
-      [ClassFactory(typeof(IArchiveProvider))]
+      [ClassFactory]
 
-      public class ArchiveProviderFactory : IPrivateFactory
+      public class ArchiveProviderFactory : Object, IPrivateFactory
     content.vb: >-
-      <ClassFactory(GetType(IArchiveProvider))>
+      <ClassFactory>
 
       Public Class ArchiveProviderFactory
+
+          Inherits Object
+
           Implements IPrivateFactory
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)
@@ -61,9 +55,7 @@ items:
   attributes:
   - type: SuperOffice.Factory.ClassFactoryAttribute
     ctor: SuperOffice.Factory.ClassFactoryAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    arguments: []
   modifiers.csharp:
   - public
   - class
@@ -209,42 +201,6 @@ items:
       description: Provider class, if at least one provider has registered for the name
     content.vb: Public Shared Function Create(providerName As String, context As String, blockAggregationWrapper As Boolean) As IArchiveProvider
   overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String,System.String)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String,System.String)
-  id: CreateAsyncWrapped(System.String,System.String)
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
-  langs:
-  - csharp
-  - vb
-  name: CreateAsyncWrapped(String, String)
-  nameWithType: ArchiveProviderFactory.CreateAsyncWrapped(String, String)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String, System.String)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nCreate a provider for the given provider name, and wrap it in an <xref href=\"SuperOffice.CRM.ArchiveLists.AsyncProviderWrapper\" data-throw-if-not-resolved=\"false\"></xref> instance; this will\ngive <strong>null</strong> rows when iterating over GetRows with a timeout, instead of blocking. Clients who use this \n<strong>must</strong> be prepared to handle such null rows.\n"
-  remarks: "\nIf NetServer is in single-thread mode, then any thread procs are run inline in the main thread; and that would\nnot really work in this case. So instead we just return the standard provider, unwrapped.\n"
-  syntax:
-    content: public static IArchiveProvider CreateAsyncWrapped(string providerName, string context)
-    parameters:
-    - id: providerName
-      type: System.String
-    - id: context
-      type: System.String
-    return:
-      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
-    content.vb: Public Shared Function CreateAsyncWrapped(providerName As String, context As String) As IArchiveProvider
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped*
   modifiers.csharp:
   - public
   - static
@@ -558,285 +514,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1223,12 +900,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped
-  isExternal: true
-  name: CreateAsyncWrapped
-  nameWithType: ArchiveProviderFactory.CreateAsyncWrapped
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider
   isExternal: true
@@ -1268,8 +939,7 @@ references:
   nameWithType: ArchiveProviderFactory.GetAvailableColumns
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}'
   definition: System.Collections.Generic.List`1
   name: List<ArchiveColumnInfo>
   nameWithType: List<ArchiveColumnInfo>
@@ -1312,14 +982,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1329,9 +998,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1344,18 +1013,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities
   isExternal: true
@@ -1363,8 +1026,7 @@ references:
   nameWithType: ArchiveProviderFactory.GetAvailableEntities
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}'
   definition: System.Collections.Generic.List`1
   name: List<ArchiveRowTypeInfo>
   nameWithType: List<ArchiveRowTypeInfo>
@@ -1413,8 +1075,6 @@ references:
   nameWithType: ArchiveProviderFactory.GetActualProvider
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type

@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ShowTaskItemInClient
+  commentId: T:SuperOffice.Data.ShowTaskItemInClient
+  id: ShowTaskItemInClient
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ShowTaskItemInClient.Mobile
+  - SuperOffice.Data.ShowTaskItemInClient.None
+  - SuperOffice.Data.ShowTaskItemInClient.value__
+  - SuperOffice.Data.ShowTaskItemInClient.Web
+  langs:
+  - csharp
+  - vb
+  name: ShowTaskItemInClient
+  nameWithType: ShowTaskItemInClient
+  fullName: SuperOffice.Data.ShowTaskItemInClient
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nShow Task Item In Client\nThis Enum is used by:  TaskMenu.showInClient\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ShowTaskItemInClient : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShowTaskItemInClient
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.ShowTaskItemInClient.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ShowTaskItemInClient.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ShowTaskItemInClient.value__
+  commentId: F:SuperOffice.Data.ShowTaskItemInClient.value__
+  id: value__
+  parent: SuperOffice.Data.ShowTaskItemInClient
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShowTaskItemInClient.value__
+  fullName: SuperOffice.Data.ShowTaskItemInClient.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ShowTaskItemInClient.None
+  commentId: F:SuperOffice.Data.ShowTaskItemInClient.None
+  id: None
+  parent: SuperOffice.Data.ShowTaskItemInClient
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ShowTaskItemInClient.None
+  fullName: SuperOffice.Data.ShowTaskItemInClient.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const ShowTaskItemInClient None
+    return:
+      type: SuperOffice.Data.ShowTaskItemInClient
+    content.vb: Public Const None As ShowTaskItemInClient
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShowTaskItemInClient.Web
+  commentId: F:SuperOffice.Data.ShowTaskItemInClient.Web
+  id: Web
+  parent: SuperOffice.Data.ShowTaskItemInClient
+  langs:
+  - csharp
+  - vb
+  name: Web
+  nameWithType: ShowTaskItemInClient.Web
+  fullName: SuperOffice.Data.ShowTaskItemInClient.Web
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: SuperOffice Web\n"
+  syntax:
+    content: public const ShowTaskItemInClient Web
+    return:
+      type: SuperOffice.Data.ShowTaskItemInClient
+    content.vb: Public Const Web As ShowTaskItemInClient
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShowTaskItemInClient.Mobile
+  commentId: F:SuperOffice.Data.ShowTaskItemInClient.Mobile
+  id: Mobile
+  parent: SuperOffice.Data.ShowTaskItemInClient
+  langs:
+  - csharp
+  - vb
+  name: Mobile
+  nameWithType: ShowTaskItemInClient.Mobile
+  fullName: SuperOffice.Data.ShowTaskItemInClient.Mobile
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Mobile\n"
+  syntax:
+    content: public const ShowTaskItemInClient Mobile
+    return:
+      type: SuperOffice.Data.ShowTaskItemInClient
+    content.vb: Public Const Mobile As ShowTaskItemInClient
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ShowTaskItemInClient.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ShowTaskItemInClient, To>()
+  nameWithType: EnumUtil.MapEnums<ShowTaskItemInClient, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShowTaskItemInClient, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ShowTaskItemInClient, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShowTaskItemInClient, To)()
+  name.vb: MapEnums(Of ShowTaskItemInClient, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ShowTaskItemInClient, To>
+    nameWithType: EnumUtil.MapEnums<ShowTaskItemInClient, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ShowTaskItemInClient, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ShowTaskItemInClient, To)
+    nameWithType: EnumUtil.MapEnums(Of ShowTaskItemInClient, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ShowTaskItemInClient, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ShowTaskItemInClient.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ShowTaskItemInClient, To>()
+  nameWithType: Converters.MapEnums<ShowTaskItemInClient, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShowTaskItemInClient, To>()
+  nameWithType.vb: Converters.MapEnums(Of ShowTaskItemInClient, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShowTaskItemInClient, To)()
+  name.vb: MapEnums(Of ShowTaskItemInClient, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ShowTaskItemInClient, To>
+    nameWithType: Converters.MapEnums<ShowTaskItemInClient, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShowTaskItemInClient, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ShowTaskItemInClient, To)
+    nameWithType: Converters.MapEnums(Of ShowTaskItemInClient, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShowTaskItemInClient, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.ShowTaskItemInClient
+  commentId: T:SuperOffice.Data.ShowTaskItemInClient
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShowTaskItemInClient
+  nameWithType: ShowTaskItemInClient
+  fullName: SuperOffice.Data.ShowTaskItemInClient

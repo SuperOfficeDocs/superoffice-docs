@@ -1,0 +1,609 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  id: TicketLoggerProcessor.OldAndNew
+  parent: SuperOffice.Data.Private.TicketLogging
+  children:
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.#ctor
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.FieldDataType
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.LogChange
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.NewValue
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.PersistedValue
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString
+  langs:
+  - csharp
+  - vb
+  name: TicketLoggerProcessor.OldAndNew
+  nameWithType: TicketLoggerProcessor.OldAndNew
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  summary: "\nContains information about a particular field change in the ticket\n"
+  syntax:
+    content: 'public class OldAndNew : Object'
+    content.vb: >-
+      Public Class OldAndNew
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.FieldDataType
+  commentId: F:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.FieldDataType
+  id: FieldDataType
+  parent: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  langs:
+  - csharp
+  - vb
+  name: FieldDataType
+  nameWithType: TicketLoggerProcessor.OldAndNew.FieldDataType
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.FieldDataType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  syntax:
+    content: public FieldDataType FieldDataType
+    return:
+      type: SuperOffice.Data.FieldDataType
+    content.vb: Public FieldDataType As FieldDataType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.PersistedValue
+  commentId: F:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.PersistedValue
+  id: PersistedValue
+  parent: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  langs:
+  - csharp
+  - vb
+  name: PersistedValue
+  nameWithType: TicketLoggerProcessor.OldAndNew.PersistedValue
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.PersistedValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  syntax:
+    content: public object PersistedValue
+    return:
+      type: System.Object
+    content.vb: Public PersistedValue As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.NewValue
+  commentId: F:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.NewValue
+  id: NewValue
+  parent: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  langs:
+  - csharp
+  - vb
+  name: NewValue
+  nameWithType: TicketLoggerProcessor.OldAndNew.NewValue
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.NewValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  syntax:
+    content: public object NewValue
+    return:
+      type: System.Object
+    content.vb: Public NewValue As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.LogChange
+  commentId: F:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.LogChange
+  id: LogChange
+  parent: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  langs:
+  - csharp
+  - vb
+  name: LogChange
+  nameWithType: TicketLoggerProcessor.OldAndNew.LogChange
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.LogChange
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  syntax:
+    content: public TicketLogFieldChange LogChange
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public LogChange As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString
+  commentId: M:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString
+  id: ToString
+  parent: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketLoggerProcessor.OldAndNew.ToString()
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.#ctor
+  commentId: M:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  langs:
+  - csharp
+  - vb
+  name: OldAndNew()
+  nameWithType: TicketLoggerProcessor.OldAndNew.OldAndNew()
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.OldAndNew()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Private.TicketLogging
+  syntax:
+    content: public OldAndNew()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data.Private.TicketLogging
+  commentId: N:SuperOffice.Data.Private.TicketLogging
+  isExternal: true
+  name: SuperOffice.Data.Private.TicketLogging
+  nameWithType: SuperOffice.Data.Private.TicketLogging
+  fullName: SuperOffice.Data.Private.TicketLogging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketLoggerProcessor.OldAndNew, To>()
+  nameWithType: EnumUtil.MapEnums<TicketLoggerProcessor.OldAndNew, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketLoggerProcessor.OldAndNew, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To)()
+  name.vb: MapEnums(Of TicketLoggerProcessor.OldAndNew, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketLoggerProcessor.OldAndNew, To>
+    nameWithType: EnumUtil.MapEnums<TicketLoggerProcessor.OldAndNew, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketLoggerProcessor.OldAndNew, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketLoggerProcessor.OldAndNew, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TicketLoggerProcessor.OldAndNew>(TicketLoggerProcessor.OldAndNew)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketLoggerProcessor.OldAndNew>(TicketLoggerProcessor.OldAndNew)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew>(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketLoggerProcessor.OldAndNew)(TicketLoggerProcessor.OldAndNew)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)(SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)
+  name.vb: AssignByReflection(Of TicketLoggerProcessor.OldAndNew)(TicketLoggerProcessor.OldAndNew)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketLoggerProcessor.OldAndNew>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketLoggerProcessor.OldAndNew>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+    name: TicketLoggerProcessor.OldAndNew
+    nameWithType: TicketLoggerProcessor.OldAndNew
+    fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketLoggerProcessor.OldAndNew)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketLoggerProcessor.OldAndNew)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+    name: TicketLoggerProcessor.OldAndNew
+    nameWithType: TicketLoggerProcessor.OldAndNew
+    fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TicketLoggerProcessor.OldAndNew>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketLoggerProcessor.OldAndNew>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketLoggerProcessor.OldAndNew)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)()
+  name.vb: GraphCopy(Of TicketLoggerProcessor.OldAndNew)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketLoggerProcessor.OldAndNew>
+    nameWithType: ObjectExtensions.GraphCopy<TicketLoggerProcessor.OldAndNew>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketLoggerProcessor.OldAndNew)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketLoggerProcessor.OldAndNew)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketLoggerProcessor.OldAndNew, To>()
+  nameWithType: Converters.MapEnums<TicketLoggerProcessor.OldAndNew, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketLoggerProcessor.OldAndNew, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To)()
+  name.vb: MapEnums(Of TicketLoggerProcessor.OldAndNew, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketLoggerProcessor.OldAndNew, To>
+    nameWithType: Converters.MapEnums<TicketLoggerProcessor.OldAndNew, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketLoggerProcessor.OldAndNew, To)
+    nameWithType: Converters.MapEnums(Of TicketLoggerProcessor.OldAndNew, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.FieldDataType
+  commentId: T:SuperOffice.Data.FieldDataType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: SuperOffice.Data.FieldDataType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TicketLogFieldChange
+  commentId: T:SuperOffice.Data.TicketLogFieldChange
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketLogFieldChange
+  nameWithType: TicketLogFieldChange
+  fullName: SuperOffice.Data.TicketLogFieldChange
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString*
+  commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TicketLoggerProcessor.OldAndNew.ToString
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.#ctor*
+  commentId: Overload:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.#ctor
+  isExternal: true
+  name: OldAndNew
+  nameWithType: TicketLoggerProcessor.OldAndNew.OldAndNew
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew.OldAndNew

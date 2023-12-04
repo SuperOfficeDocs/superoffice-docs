@@ -25,6 +25,7 @@ items:
     content: 'public interface ISoListProvider : ISoList'
     content.vb: >-
       Public Interface ISoListProvider
+
           Inherits ISoList
   inheritedMembers:
   - SuperOffice.CRM.Lists.ISoList.HistoryItems

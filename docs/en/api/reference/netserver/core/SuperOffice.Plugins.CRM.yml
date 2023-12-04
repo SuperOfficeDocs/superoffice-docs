@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Plugins.CRM
+  commentId: N:SuperOffice.Plugins.CRM
+  id: SuperOffice.Plugins.CRM
+  children:
+  - SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute
+  - SuperOffice.Plugins.CRM.IExtendedLoggerPlugin
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Plugins.CRM
+  nameWithType: SuperOffice.Plugins.CRM
+  fullName: SuperOffice.Plugins.CRM
+  type: Namespace
+  assemblies:
+  - SuperOffice.Plugins
+references:
+- uid: SuperOffice.Plugins.CRM.IExtendedLoggerPlugin
+  commentId: T:SuperOffice.Plugins.CRM.IExtendedLoggerPlugin
+  isExternal: true
+  name: IExtendedLoggerPlugin
+  nameWithType: IExtendedLoggerPlugin
+  fullName: SuperOffice.Plugins.CRM.IExtendedLoggerPlugin
+- uid: SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute
+  commentId: T:SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute
+  isExternal: true
+  name: ExtendedLoggerPluginAttribute
+  nameWithType: ExtendedLoggerPluginAttribute
+  fullName: SuperOffice.Plugins.CRM.ExtendedLoggerPluginAttribute

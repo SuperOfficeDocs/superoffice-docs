@@ -15,7 +15,7 @@ items:
   name: AsyncOperationTerminating
   nameWithType: AsyncOperationTerminating
   fullName: SuperOffice.Threading.AsyncOperationTerminating
-  type: Delegate
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,21 +24,24 @@ items:
   namespace: SuperOffice.Threading
   summary: "\nDelegate describing the function signature required for a method that is called\nwhenever a new asynchronous operation is terminating. The thread is still running,\nand execution of the callers&apos; <see cref=\"!:AsyncOperation\"></see> delegate has just completed.\n"
   syntax:
-    content: public delegate void AsyncOperationTerminating(AsyncContext context);
-    parameters:
-    - id: context
-      type: SuperOffice.Threading.AsyncContext
-      description: NetServer context
-    content.vb: Public Delegate Sub AsyncOperationTerminating(context As AsyncContext)
+    content: 'public sealed class AsyncOperationTerminating : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class AsyncOperationTerminating
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Threading.AsyncOperationTerminating.EnumUtil.MapEnums``2
   - SuperOffice.Threading.AsyncOperationTerminating.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Threading.AsyncOperationTerminating.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Threading.AsyncOperationTerminating.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -172,6 +175,13 @@ references:
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.AsyncOperationTerminating.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -240,13 +250,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -350,13 +359,6 @@ references:
   name: AsyncOperationTerminating
   nameWithType: AsyncOperationTerminating.AsyncOperationTerminating
   fullName: SuperOffice.Threading.AsyncOperationTerminating.AsyncOperationTerminating
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -364,18 +366,19 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Threading.AsyncOperationTerminating.Invoke*
   commentId: Overload:SuperOffice.Threading.AsyncOperationTerminating.Invoke
   isExternal: true
   name: Invoke
   nameWithType: AsyncOperationTerminating.Invoke
   fullName: SuperOffice.Threading.AsyncOperationTerminating.Invoke
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
 - uid: SuperOffice.Threading.AsyncOperationTerminating.BeginInvoke*
   commentId: Overload:SuperOffice.Threading.AsyncOperationTerminating.BeginInvoke
   isExternal: true
@@ -383,15 +386,11 @@ references:
   nameWithType: AsyncOperationTerminating.BeginInvoke
   fullName: SuperOffice.Threading.AsyncOperationTerminating.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

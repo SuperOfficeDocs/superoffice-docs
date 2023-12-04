@@ -25,10 +25,11 @@ items:
   - SuperOffice.CRM.Mail.MailCache.GetEnvelopeFromDataReader(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Mail.MailCache.GetFolderName(SuperOffice.CRM.Rows.EmailFolderRow)
   - SuperOffice.CRM.Mail.MailCache.GetFolderName(System.Int32)
+  - SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32,System.Boolean)
   - SuperOffice.CRM.Mail.MailCache.GetMailItemFromDataReader(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Mail.MailCache.GetMailItemFromDbRow(SuperOffice.CRM.Rows.EmailItemRow,System.Boolean,System.Boolean)
   - SuperOffice.CRM.Mail.MailCache.GetMinimalMailEnvelope(System.Int32,SuperOffice.Data.EMailFlags)
-  - SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32)
+  - SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32,System.Boolean)
   - SuperOffice.CRM.Mail.MailCache.GetSentFolderNames(System.Int32)
   - SuperOffice.CRM.Mail.MailCache.GetSpecialFolderName(System.Int32,System.Int32)
   - SuperOffice.CRM.Mail.MailCache.GetSpecialFolderNames(System.Int32,System.Int32)
@@ -58,18 +59,13 @@ items:
   namespace: SuperOffice.CRM.Mail
   summary: "\nClass that handles e-mail caching to the superoffice db\n"
   syntax:
-    content: public static class MailCache
-    content.vb: Public Module MailCache
+    content: 'public static class MailCache : Object'
+    content.vb: >-
+      Public Module MailCache
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -595,7 +591,7 @@ items:
     return:
       type: SuperOffice.CRM.Mail.MailEnvelope[]
       description: Populated MailEnvelope array
-    content.vb: Public Shared Function GetCachedEnvelopes(assocId As Integer, server As String, username As String, folder As String, ByRef lastMailDate As Date) As MailEnvelope()
+    content.vb: Public Shared Function GetCachedEnvelopes(assocId As Integer, server As String, username As String, folder As String, ByRef lastMailDate As DateTime) As MailEnvelope()
   overload: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes*
   nameWithType.vb: MailCache.GetCachedEnvelopes(Int32, String, String, String, ByRef DateTime)
   modifiers.csharp:
@@ -1115,16 +1111,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32)
-  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32)
-  id: GetSentFolderName(System.Int32)
+- uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32,System.Boolean)
+  id: GetSentFolderName(System.Int32,System.Boolean)
   parent: SuperOffice.CRM.Mail.MailCache
   langs:
   - csharp
   - vb
-  name: GetSentFolderName(Int32)
-  nameWithType: MailCache.GetSentFolderName(Int32)
-  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32)
+  name: GetSentFolderName(Int32, Boolean)
+  nameWithType: MailCache.GetSentFolderName(Int32, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderName(System.Int32, System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -1134,14 +1130,50 @@ items:
   namespace: SuperOffice.CRM.Mail
   summary: "\nGet the full name of the first folder with the Sent attribute in the database. \n"
   syntax:
-    content: public static string GetSentFolderName(int accountId)
+    content: public static string GetSentFolderName(int accountId, bool create = true)
     parameters:
     - id: accountId
       type: System.Int32
+    - id: create
+      type: System.Boolean
     return:
       type: System.String
-    content.vb: Public Shared Function GetSentFolderName(accountId As Integer) As String
+    content.vb: Public Shared Function GetSentFolderName(accountId As Integer, create As Boolean = True) As String
   overload: SuperOffice.CRM.Mail.MailCache.GetSentFolderName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32,System.Boolean)
+  id: GetInboxFolderName(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MailCache
+  langs:
+  - csharp
+  - vb
+  name: GetInboxFolderName(Int32, Boolean)
+  nameWithType: MailCache.GetInboxFolderName(Int32, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public static string GetInboxFolderName(int accountId, bool create = true)
+    parameters:
+    - id: accountId
+      type: System.Int32
+    - id: create
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetInboxFolderName(accountId As Integer, create As Boolean = True) As String
+  overload: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName*
   modifiers.csharp:
   - public
   - static
@@ -1544,285 +1576,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1981,8 +1734,6 @@ references:
   nameWithType: MailCache.GetCachedEnvelopes
   fullName: SuperOffice.CRM.Mail.MailCache.GetCachedEnvelopes
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2136,6 +1887,12 @@ references:
   name: GetSentFolderName
   nameWithType: MailCache.GetSentFolderName
   fullName: SuperOffice.CRM.Mail.MailCache.GetSentFolderName
+- uid: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName*
+  commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetInboxFolderName
+  isExternal: true
+  name: GetInboxFolderName
+  nameWithType: MailCache.GetInboxFolderName
+  fullName: SuperOffice.CRM.Mail.MailCache.GetInboxFolderName
 - uid: SuperOffice.CRM.Mail.MailCache.GetSentFolderNames*
   commentId: Overload:SuperOffice.CRM.Mail.MailCache.GetSentFolderNames
   isExternal: true

@@ -1,0 +1,729 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.SoDocumentPlugin
+  commentId: T:SuperOffice.Util.SoDocumentPlugin
+  id: SoDocumentPlugin
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.SoDocumentPlugin.#ctor
+  - SuperOffice.Util.SoDocumentPlugin.GetForId(System.Int32)
+  - SuperOffice.Util.SoDocumentPlugin.GetForName(System.String)
+  - SuperOffice.Util.SoDocumentPlugin.Google
+  - SuperOffice.Util.SoDocumentPlugin.Id
+  - SuperOffice.Util.SoDocumentPlugin.Name
+  - SuperOffice.Util.SoDocumentPlugin.Online
+  - SuperOffice.Util.SoDocumentPlugin.Sharepoint
+  - SuperOffice.Util.SoDocumentPlugin.SoArc
+  langs:
+  - csharp
+  - vb
+  name: SoDocumentPlugin
+  nameWithType: SoDocumentPlugin
+  fullName: SuperOffice.Util.SoDocumentPlugin
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nClass used to assist mapping between a document plugin&apos;s ID and name,\nand also help centralize rules wrt what is the &quot;default&quot; document-plugin\nin various hosting-environments.\n"
+  syntax:
+    content: 'public class SoDocumentPlugin : Object'
+    content.vb: >-
+      Public Class SoDocumentPlugin
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Util.SoDocumentPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Util.SoDocumentPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoDocumentPlugin)
+  - SuperOffice.Util.SoDocumentPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.SoDocumentPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.SoDocumentPlugin.SoArc
+  commentId: F:SuperOffice.Util.SoDocumentPlugin.SoArc
+  id: SoArc
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: SoArc
+  nameWithType: SoDocumentPlugin.SoArc
+  fullName: SuperOffice.Util.SoDocumentPlugin.SoArc
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static readonly SoDocumentPlugin SoArc
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared ReadOnly SoArc As SoDocumentPlugin
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Util.SoDocumentPlugin.Online
+  commentId: F:SuperOffice.Util.SoDocumentPlugin.Online
+  id: Online
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: Online
+  nameWithType: SoDocumentPlugin.Online
+  fullName: SuperOffice.Util.SoDocumentPlugin.Online
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static readonly SoDocumentPlugin Online
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared ReadOnly Online As SoDocumentPlugin
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Util.SoDocumentPlugin.Sharepoint
+  commentId: F:SuperOffice.Util.SoDocumentPlugin.Sharepoint
+  id: Sharepoint
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: Sharepoint
+  nameWithType: SoDocumentPlugin.Sharepoint
+  fullName: SuperOffice.Util.SoDocumentPlugin.Sharepoint
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static readonly SoDocumentPlugin Sharepoint
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared ReadOnly Sharepoint As SoDocumentPlugin
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Util.SoDocumentPlugin.Google
+  commentId: F:SuperOffice.Util.SoDocumentPlugin.Google
+  id: Google
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: SoDocumentPlugin.Google
+  fullName: SuperOffice.Util.SoDocumentPlugin.Google
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static readonly SoDocumentPlugin Google
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared ReadOnly Google As SoDocumentPlugin
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Util.SoDocumentPlugin.GetForId(System.Int32)
+  commentId: M:SuperOffice.Util.SoDocumentPlugin.GetForId(System.Int32)
+  id: GetForId(System.Int32)
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: GetForId(Int32)
+  nameWithType: SoDocumentPlugin.GetForId(Int32)
+  fullName: SuperOffice.Util.SoDocumentPlugin.GetForId(System.Int32)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static SoDocumentPlugin GetForId(int pluginId)
+    parameters:
+    - id: pluginId
+      type: System.Int32
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared Function GetForId(pluginId As Integer) As SoDocumentPlugin
+  overload: SuperOffice.Util.SoDocumentPlugin.GetForId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.SoDocumentPlugin.GetForName(System.String)
+  commentId: M:SuperOffice.Util.SoDocumentPlugin.GetForName(System.String)
+  id: GetForName(System.String)
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: GetForName(String)
+  nameWithType: SoDocumentPlugin.GetForName(String)
+  fullName: SuperOffice.Util.SoDocumentPlugin.GetForName(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static SoDocumentPlugin GetForName(string pluginName)
+    parameters:
+    - id: pluginName
+      type: System.String
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared Function GetForName(pluginName As String) As SoDocumentPlugin
+  overload: SuperOffice.Util.SoDocumentPlugin.GetForName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.SoDocumentPlugin.#ctor
+  commentId: M:SuperOffice.Util.SoDocumentPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: SoDocumentPlugin()
+  nameWithType: SoDocumentPlugin.SoDocumentPlugin()
+  fullName: SuperOffice.Util.SoDocumentPlugin.SoDocumentPlugin()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public SoDocumentPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.Util.SoDocumentPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.SoDocumentPlugin.Id
+  commentId: P:SuperOffice.Util.SoDocumentPlugin.Id
+  id: Id
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SoDocumentPlugin.Id
+  fullName: SuperOffice.Util.SoDocumentPlugin.Id
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: SuperOffice.Util.SoDocumentPlugin.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.SoDocumentPlugin.Name
+  commentId: P:SuperOffice.Util.SoDocumentPlugin.Name
+  id: Name
+  parent: SuperOffice.Util.SoDocumentPlugin
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SoDocumentPlugin.Name
+  fullName: SuperOffice.Util.SoDocumentPlugin.Name
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.Util.SoDocumentPlugin.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Util.SoDocumentPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoDocumentPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<SoDocumentPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.SoDocumentPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoDocumentPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.SoDocumentPlugin, To)()
+  name.vb: MapEnums(Of SoDocumentPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoDocumentPlugin, To>
+    nameWithType: EnumUtil.MapEnums<SoDocumentPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.SoDocumentPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoDocumentPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of SoDocumentPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.SoDocumentPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoDocumentPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoDocumentPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoDocumentPlugin>(SoDocumentPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<SoDocumentPlugin>(SoDocumentPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.SoDocumentPlugin>(SuperOffice.Util.SoDocumentPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoDocumentPlugin)(SoDocumentPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.SoDocumentPlugin)(SuperOffice.Util.SoDocumentPlugin)
+  name.vb: AssignByReflection(Of SoDocumentPlugin)(SoDocumentPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoDocumentPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<SoDocumentPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.SoDocumentPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.SoDocumentPlugin
+    name: SoDocumentPlugin
+    nameWithType: SoDocumentPlugin
+    fullName: SuperOffice.Util.SoDocumentPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoDocumentPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoDocumentPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.SoDocumentPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.SoDocumentPlugin
+    name: SoDocumentPlugin
+    nameWithType: SoDocumentPlugin
+    fullName: SuperOffice.Util.SoDocumentPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoDocumentPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoDocumentPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<SoDocumentPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.SoDocumentPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoDocumentPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.SoDocumentPlugin)()
+  name.vb: GraphCopy(Of SoDocumentPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoDocumentPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<SoDocumentPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.SoDocumentPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoDocumentPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoDocumentPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.SoDocumentPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoDocumentPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoDocumentPlugin, To>()
+  nameWithType: Converters.MapEnums<SoDocumentPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SoDocumentPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoDocumentPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SoDocumentPlugin, To)()
+  name.vb: MapEnums(Of SoDocumentPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoDocumentPlugin, To>
+    nameWithType: Converters.MapEnums<SoDocumentPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SoDocumentPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoDocumentPlugin, To)
+    nameWithType: Converters.MapEnums(Of SoDocumentPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SoDocumentPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.SoDocumentPlugin
+  commentId: T:SuperOffice.Util.SoDocumentPlugin
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SoDocumentPlugin
+  nameWithType: SoDocumentPlugin
+  fullName: SuperOffice.Util.SoDocumentPlugin
+- uid: SuperOffice.Util.SoDocumentPlugin.GetForId*
+  commentId: Overload:SuperOffice.Util.SoDocumentPlugin.GetForId
+  isExternal: true
+  name: GetForId
+  nameWithType: SoDocumentPlugin.GetForId
+  fullName: SuperOffice.Util.SoDocumentPlugin.GetForId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.SoDocumentPlugin.GetForName*
+  commentId: Overload:SuperOffice.Util.SoDocumentPlugin.GetForName
+  isExternal: true
+  name: GetForName
+  nameWithType: SoDocumentPlugin.GetForName
+  fullName: SuperOffice.Util.SoDocumentPlugin.GetForName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.SoDocumentPlugin.#ctor*
+  commentId: Overload:SuperOffice.Util.SoDocumentPlugin.#ctor
+  isExternal: true
+  name: SoDocumentPlugin
+  nameWithType: SoDocumentPlugin.SoDocumentPlugin
+  fullName: SuperOffice.Util.SoDocumentPlugin.SoDocumentPlugin
+- uid: SuperOffice.Util.SoDocumentPlugin.Id*
+  commentId: Overload:SuperOffice.Util.SoDocumentPlugin.Id
+  isExternal: true
+  name: Id
+  nameWithType: SoDocumentPlugin.Id
+  fullName: SuperOffice.Util.SoDocumentPlugin.Id
+- uid: SuperOffice.Util.SoDocumentPlugin.Name*
+  commentId: Overload:SuperOffice.Util.SoDocumentPlugin.Name
+  isExternal: true
+  name: Name
+  nameWithType: SoDocumentPlugin.Name
+  fullName: SuperOffice.Util.SoDocumentPlugin.Name

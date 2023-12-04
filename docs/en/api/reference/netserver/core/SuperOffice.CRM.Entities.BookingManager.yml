@@ -30,6 +30,7 @@ items:
   - SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Entities.Appointment)
   - SuperOffice.CRM.Entities.BookingManager.IsAppointmentMainBooking(SuperOffice.CRM.Rows.AppointmentRow)
   - SuperOffice.CRM.Entities.BookingManager.IsAppointmentStatusSimilar(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
+  - SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
   - SuperOffice.CRM.Entities.BookingManager.IsExternalPerson(SuperOffice.CRM.Services.ParticipantInfo)
   - SuperOffice.CRM.Entities.BookingManager.ModifyAppointmentForParticipant(SuperOffice.CRM.Rows.AppointmentRow)
   - SuperOffice.CRM.Entities.BookingManager.RejectAppointment(SuperOffice.CRM.Rows.AppointmentRow,System.String)
@@ -55,18 +56,13 @@ items:
   summary: "\nThe booking manager is mainly used by the \n<xref href=\"SuperOffice.CRM.Entities.AppointmentMatrix\" data-throw-if-not-resolved=\"false\"></xref> to maintain booking related \ninformation.  \n"
   remarks: "\nThe <xref href=\"SuperOffice.CRM.Entities.AppointmentMatrix\" data-throw-if-not-resolved=\"false\"></xref> is responsible for database \nupdates of appointment records, but the knowledge about how these \nrecords are modified lies in the BookinManager.  The booking manager \nalso handles information about Participants.  Participants are \nrepresented both by individual appointment records and the \n<xref href=\"SuperOffice.CRM.Services.ParticipantInfo\" data-throw-if-not-resolved=\"false\"></xref> object.\n<example>\n<pre><code></code></pre>\n</example>\n"
   syntax:
-    content: public class BookingManager
-    content.vb: Public Class BookingManager
+    content: 'public class BookingManager : Object'
+    content.vb: >-
+      Public Class BookingManager
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.BookingManager.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.BookingManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -1245,6 +1241,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  commentId: M:SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  id: IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  parent: SuperOffice.CRM.Entities.BookingManager
+  langs:
+  - csharp
+  - vb
+  name: IsEmailParticipant(AppointmentRow)
+  nameWithType: BookingManager.IsEmailParticipant(AppointmentRow)
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant(SuperOffice.CRM.Rows.AppointmentRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static bool IsEmailParticipant(AppointmentRow appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Rows.AppointmentRow
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsEmailParticipant(appointment As AppointmentRow) As Boolean
+  overload: SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
@@ -1259,285 +1287,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.BookingManager.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1954,3 +1703,9 @@ references:
   name: IsExternalPerson
   nameWithType: BookingManager.IsExternalPerson
   fullName: SuperOffice.CRM.Entities.BookingManager.IsExternalPerson
+- uid: SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant*
+  commentId: Overload:SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant
+  isExternal: true
+  name: IsEmailParticipant
+  nameWithType: BookingManager.IsEmailParticipant
+  fullName: SuperOffice.CRM.Entities.BookingManager.IsEmailParticipant

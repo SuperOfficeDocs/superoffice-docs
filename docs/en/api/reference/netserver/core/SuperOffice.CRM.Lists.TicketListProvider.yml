@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Lists
   children:
   - SuperOffice.CRM.Lists.TicketListProvider.#ctor
+  - SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches(System.String)
   - SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery
   - SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
   - SuperOffice.CRM.Lists.TicketListProvider.Init
@@ -26,16 +27,26 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
+  summary: "\nProvider for selecting a ticket. \nSupported additionalInfo:  \nnameformat=includePersonAndCompany or nameformat=includeTicketId indicates how to format item name. If not specified, includePersonAndCompany is used. \n"
+  remarks: "\nSentry rights are honoured; if you do not have Read acces the ticket will not be listed here.\n"
+  example:
+  - "\nExample of using AdditionalInfo: \n<pre><code>&quot;nameformat=includeTicketId&quot;</code></pre>\n"
   syntax:
     content: >-
       [MDOProviderPlugin("Ticket")]
+
+      [MDOAdditionalInfo("nameformat", "Indicates how to format item name", "includePersonAndCompany")]
 
       public class TicketListProvider : AnyTableListProviderBase, ISoListProvider, ISoList, IPlugin
     content.vb: >-
       <MDOProviderPlugin("Ticket")>
 
+      <MDOAdditionalInfo("nameformat", "Indicates how to format item name", "includePersonAndCompany")>
+
       Public Class TicketListProvider
+
           Inherits AnyTableListProviderBase
+
           Implements ISoListProvider, ISoList, IPlugin
   inheritance:
   - System.Object
@@ -55,19 +66,13 @@ items:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.TicketListProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.TicketListProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.TicketListProvider)
@@ -79,6 +84,15 @@ items:
     arguments:
     - type: System.String
       value: Ticket
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: nameformat
+    - type: System.String
+      value: Indicates how to format item name
+    - type: System.String
+      value: includePersonAndCompany
   modifiers.csharp:
   - public
   - class
@@ -239,6 +253,36 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
+- uid: SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches(System.String)
+  commentId: M:SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches(System.String)
+  id: BuildSearchFromSubSearches(System.String)
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: BuildSearchFromSubSearches(String)
+  nameWithType: TicketListProvider.BuildSearchFromSubSearches(String)
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected Restriction BuildSearchFromSubSearches(string searchValue)
+    parameters:
+    - id: searchValue
+      type: System.String
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Protected Function BuildSearchFromSubSearches(searchValue As String) As Restriction
+  overload: SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
   commentId: M:SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
   id: GetRootItems
@@ -847,6 +891,13 @@ references:
   name: OnlyReadHistory
   nameWithType: AnyTableListProviderBase.OnlyReadHistory
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: ExcludeHistory
+  nameWithType: AnyTableListProviderBase.ExcludeHistory
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -889,285 +940,6 @@ references:
   name: HeadingItems
   nameWithType: AnyTableListProviderBase.HeadingItems
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.TicketListProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1767,6 +1539,19 @@ references:
   name: SetSearchRestriction
   nameWithType: TicketListProvider.SetSearchRestriction
   fullName: SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction
+- uid: SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches
+  isExternal: true
+  name: BuildSearchFromSubSearches
+  nameWithType: TicketListProvider.BuildSearchFromSubSearches
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.BuildSearchFromSubSearches
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -1805,8 +1590,7 @@ references:
   nameWithType: TicketListProvider.GetRootItems
   fullName: SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.Collections.Generic.List`1
   name: List<ISoListItem>
   nameWithType: List<ISoListItem>
@@ -1849,14 +1633,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1866,9 +1649,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1881,18 +1664,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Lists.TicketListProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.#ctor
   isExternal: true

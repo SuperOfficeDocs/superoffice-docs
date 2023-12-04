@@ -15,7 +15,7 @@ items:
   name: SoDatabaseLogOut
   nameWithType: SoDatabaseLogOut
   fullName: SuperOffice.SoDatabaseLogOut
-  type: Delegate
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,17 +24,24 @@ items:
   namespace: SuperOffice
   summary: "\nEvent raised as part of dissconnect database process (formerly referred to as the database logout process)\n"
   syntax:
-    content: public delegate void SoDatabaseLogOut();
-    content.vb: Public Delegate Sub SoDatabaseLogOut
+    content: 'public sealed class SoDatabaseLogOut : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class SoDatabaseLogOut
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.SoDatabaseLogOut.EnumUtil.MapEnums``2
   - SuperOffice.SoDatabaseLogOut.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.SoDatabaseLogOut.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.SoDatabaseLogOut.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -163,6 +170,13 @@ references:
   name: SuperOffice
   nameWithType: SuperOffice
   fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.SoDatabaseLogOut.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -231,6 +245,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -334,13 +354,6 @@ references:
   name: SoDatabaseLogOut
   nameWithType: SoDatabaseLogOut.SoDatabaseLogOut
   fullName: SuperOffice.SoDatabaseLogOut.SoDatabaseLogOut
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -348,12 +361,6 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.SoDatabaseLogOut.Invoke*
   commentId: Overload:SuperOffice.SoDatabaseLogOut.Invoke
   isExternal: true
@@ -367,15 +374,11 @@ references:
   nameWithType: SoDatabaseLogOut.BeginInvoke
   fullName: SuperOffice.SoDatabaseLogOut.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

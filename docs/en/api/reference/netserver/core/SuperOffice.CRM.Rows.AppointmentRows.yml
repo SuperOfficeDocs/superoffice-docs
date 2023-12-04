@@ -15,9 +15,13 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRows.ForEach(System.Action{SuperOffice.CRM.Rows.AppointmentRow})
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromCustomSearch(SuperOffice.CRM.Rows.AppointmentRows.CustomSearch)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxActiveDate(System.DateTime)
+  - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdActiveDate(System.Int32,System.DateTime)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdActiveDateMotherId(System.Int32,System.DateTime,System.Int32)
+  - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
+  - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,System.DateTime)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdType(System.Int32,SuperOffice.Data.AppointmentType)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeEndDate(System.Int32,SuperOffice.Data.AppointmentType,System.DateTime)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeEndDateDoBy(System.Int32,SuperOffice.Data.AppointmentType,System.DateTime,System.DateTime)
@@ -58,6 +62,8 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxSuggestedAppointmentId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxSuggestedDocumentId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTextId(System.Int32)
+  - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType(SuperOffice.Data.AppointmentType)
+  - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate(SuperOffice.Data.AppointmentType,System.DateTime)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxUserdef2Id(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxUserdefId(System.Int32)
   - SuperOffice.CRM.Rows.AppointmentRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.AppointmentTableInfo)
@@ -81,11 +87,13 @@ items:
   summary: "\nTasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. \nCollection of AppointmentRow. Each element of the collection represents one row in the Appointment\ntable. \n"
   remarks: "\nRow collections can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Rows.AppointmentRows.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty collection. You can then add objects of type\n<xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> to it, and use methods like <see cref=\"!:Save\"></see> to operate on the whole collection.</li><li>You can create a (nested) AppointmentRows <xref href=\"SuperOffice.CRM.Rows.AppointmentRows.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Rows.AppointmentRows.GetFromCustomSearch(SuperOffice.CRM.Rows.AppointmentRows.CustomSearch)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as a Rows object, with one item for each table row that matched your query.</li><li>For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</li></ul>\nUnique indexes are handled through the <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object directly,\nwhich has nested classes and GetFromIdx methods for each unique index. Similarly, there is a <xref href=\"SuperOffice.CRM.Rows.AppointmentRows.GetFromReader(SuperOffice.Data.SoDataReader%2cSuperOffice.CRM.Data.AppointmentTableInfo)\" data-throw-if-not-resolved=\"false\"></xref>\nmethod to retrieve the results of queries that return more than one row (this method will iterate over the reader to fetch ALL results, so beware of fetching\nhuge result sets).\n<p></p>\n"
   syntax:
-    content: 'public class AppointmentRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList'
+    content: 'public class AppointmentRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList'
     content.vb: >-
       Public Class AppointmentRows
+
           Inherits TableRowsBase
-          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList
+
+          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
@@ -96,9 +104,9 @@ items:
   - SuperOffice.Data.INestedPersist
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
   - SuperOffice.Data.ISoCollection
+  - System.Collections.IEnumerable
   - System.Collections.IList
   - System.Collections.ICollection
-  - System.Collections.IEnumerable
   - System.Collections.Specialized.INotifyCollectionChanged
   - System.ComponentModel.IBindingList
   inheritedMembers:
@@ -120,16 +128,9 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
   - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
   - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
   - SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
   - SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
   - SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
@@ -140,12 +141,8 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.Index
   - SuperOffice.CRM.Rows.TableRowsBase.Count
   - SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
   - SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
   - SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
   - SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
   - SuperOffice.CRM.Rows.TableRowsBase.AllowNew
   - SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
@@ -159,7 +156,6 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
   - SuperOffice.CRM.Rows.TableRowsBase.ListChanged
   - SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
-  - SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
   - SuperOffice.Data.NestedCollectionPersist.IsDeleted
   - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
@@ -177,15 +173,13 @@ items:
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.AppointmentRows.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AppointmentRows.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -493,7 +487,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDone(done As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxDone(done As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxDone*
   modifiers.csharp:
   - public
@@ -528,7 +522,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxDoBy(doBy As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxDoBy(doBy As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxDoBy*
   modifiers.csharp:
   - public
@@ -703,7 +697,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxActiveDate(activeDate As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxActiveDate(activeDate As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxActiveDate*
   modifiers.csharp:
   - public
@@ -1139,7 +1133,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdTypeStatusDone(associateId As Integer, type As AppointmentType, status As AppointmentStatus, done As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxAssociateIdTypeStatusDone(associateId As Integer, type As AppointmentType, status As AppointmentStatus, done As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeStatusDone*
   modifiers.csharp:
   - public
@@ -1180,7 +1174,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdTypeStatusDoBy(associateId As Integer, type As AppointmentType, status As AppointmentStatus, doBy As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxAssociateIdTypeStatusDoBy(associateId As Integer, type As AppointmentType, status As AppointmentStatus, doBy As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeStatusDoBy*
   modifiers.csharp:
   - public
@@ -1219,7 +1213,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdTypeEndDate(associateId As Integer, type As AppointmentType, endDate As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxAssociateIdTypeEndDate(associateId As Integer, type As AppointmentType, endDate As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeEndDate*
   modifiers.csharp:
   - public
@@ -1260,7 +1254,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdTypeEndDateDoBy(associateId As Integer, type As AppointmentType, endDate As Date, doBy As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxAssociateIdTypeEndDateDoBy(associateId As Integer, type As AppointmentType, endDate As DateTime, doBy As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeEndDateDoBy*
   modifiers.csharp:
   - public
@@ -1301,7 +1295,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdTypeStatusActiveDate(associateId As Integer, type As AppointmentType, status As AppointmentStatus, activeDate As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxAssociateIdTypeStatusActiveDate(associateId As Integer, type As AppointmentType, status As AppointmentStatus, activeDate As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdTypeStatusActiveDate*
   modifiers.csharp:
   - public
@@ -1373,7 +1367,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxRecurrenceRuleIdActiveDate(recurrenceRuleId As Integer, activeDate As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxRecurrenceRuleIdActiveDate(recurrenceRuleId As Integer, activeDate As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxRecurrenceRuleIdActiveDate*
   modifiers.csharp:
   - public
@@ -1412,7 +1406,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxRecurrenceRuleIdActiveDateAssociateId(recurrenceRuleId As Integer, activeDate As Date, associateId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxRecurrenceRuleIdActiveDateAssociateId(recurrenceRuleId As Integer, activeDate As DateTime, associateId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxRecurrenceRuleIdActiveDateAssociateId*
   modifiers.csharp:
   - public
@@ -1451,7 +1445,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxRecurrenceRuleIdActiveDateMotherId(recurrenceRuleId As Integer, activeDate As Date, motherId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxRecurrenceRuleIdActiveDateMotherId(recurrenceRuleId As Integer, activeDate As DateTime, motherId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxRecurrenceRuleIdActiveDateMotherId*
   modifiers.csharp:
   - public
@@ -1488,7 +1482,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdActiveDate(associateId As Integer, activeDate As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxAssociateIdActiveDate(associateId As Integer, activeDate As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdActiveDate*
   modifiers.csharp:
   - public
@@ -1527,7 +1521,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdActiveDateMotherId(associateId As Integer, activeDate As Date, motherId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxAssociateIdActiveDateMotherId(associateId As Integer, activeDate As DateTime, motherId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdActiveDateMotherId*
   modifiers.csharp:
   - public
@@ -1603,7 +1597,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDate(motherId As Integer, status As AppointmentStatus, activeDate As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDate(motherId As Integer, status As AppointmentStatus, activeDate As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxMotherIdStatusActiveDate*
   modifiers.csharp:
   - public
@@ -1644,7 +1638,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxMotherIdStatusActiveDateRegisteredAssociateId*
   modifiers.csharp:
   - public
@@ -1687,7 +1681,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegistered(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegistered(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegistered*
   modifiers.csharp:
   - public
@@ -1732,7 +1726,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedBy(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedBy(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedBy*
   modifiers.csharp:
   - public
@@ -1779,7 +1773,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdx(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer, groupIdx As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdx(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer, groupIdx As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdx*
   modifiers.csharp:
   - public
@@ -1828,7 +1822,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxType(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer, groupIdx As Integer, type As AppointmentType) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxType(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer, groupIdx As Integer, type As AppointmentType) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxType*
   modifiers.csharp:
   - public
@@ -1879,7 +1873,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxTypeAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer, groupIdx As Integer, type As AppointmentType, associateId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxTypeAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer, groupIdx As Integer, type As AppointmentType, associateId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxTypeAssociateId*
   modifiers.csharp:
   - public
@@ -1918,7 +1912,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDate(projectId As Integer, type As AppointmentType, activeDate As Date) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDate(projectId As Integer, type As AppointmentType, activeDate As DateTime) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxProjectIdTypeActiveDate*
   modifiers.csharp:
   - public
@@ -1959,7 +1953,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentId(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentId(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxProjectIdTypeActiveDateDocumentId*
   modifiers.csharp:
   - public
@@ -2002,7 +1996,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateId(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateId(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateId*
   modifiers.csharp:
   - public
@@ -2047,7 +2041,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdx(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdx(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdx*
   modifiers.csharp:
   - public
@@ -2094,7 +2088,7 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherId(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherId(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherId*
   modifiers.csharp:
   - public
@@ -2143,8 +2137,232 @@ items:
     return:
       type: SuperOffice.CRM.Rows.AppointmentRows
       description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer) As AppointmentRows
+    content.vb: Public Shared Function GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer) As AppointmentRows
   overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId(System.Int32)
+  id: GetFromIdxAgendaTextId(System.Int32)
+  parent: SuperOffice.CRM.Rows.AppointmentRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxAgendaTextId(Int32)
+  nameWithType: AppointmentRows.GetFromIdxAgendaTextId(Int32)
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the AppointmentRow object, by querying the database table via the index &apos;IDXAppntAgenda_text_id&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the Appointment table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.AppointmentRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static AppointmentRows GetFromIdxAgendaTextId(int agendaTextId)
+    parameters:
+    - id: agendaTextId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxAgendaTextId(agendaTextId As Integer) As AppointmentRows
+  overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType(SuperOffice.Data.AppointmentType)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType(SuperOffice.Data.AppointmentType)
+  id: GetFromIdxType(SuperOffice.Data.AppointmentType)
+  parent: SuperOffice.CRM.Rows.AppointmentRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxType(AppointmentType)
+  nameWithType: AppointmentRows.GetFromIdxType(AppointmentType)
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType(SuperOffice.Data.AppointmentType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the AppointmentRow object, by querying the database table via the index &apos;ITypeActiveDate&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the Appointment table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.AppointmentRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static AppointmentRows GetFromIdxType(AppointmentType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.AppointmentType
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxType(type As AppointmentType) As AppointmentRows
+  overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate(SuperOffice.Data.AppointmentType,System.DateTime)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate(SuperOffice.Data.AppointmentType,System.DateTime)
+  id: GetFromIdxTypeActiveDate(SuperOffice.Data.AppointmentType,System.DateTime)
+  parent: SuperOffice.CRM.Rows.AppointmentRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxTypeActiveDate(AppointmentType, DateTime)
+  nameWithType: AppointmentRows.GetFromIdxTypeActiveDate(AppointmentType, DateTime)
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate(SuperOffice.Data.AppointmentType, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the AppointmentRow object, by querying the database table via the index &apos;ITypeActiveDate&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the Appointment table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.AppointmentRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static AppointmentRows GetFromIdxTypeActiveDate(AppointmentType type, DateTime activeDate)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.AppointmentType
+    - id: activeDate
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxTypeActiveDate(type As AppointmentType, activeDate As DateTime) As AppointmentRows
+  overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  id: GetFromIdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  parent: SuperOffice.CRM.Rows.AppointmentRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxAssociateIdStatus(Int32, AppointmentStatus)
+  nameWithType: AppointmentRows.GetFromIdxAssociateIdStatus(Int32, AppointmentStatus)
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus(System.Int32, SuperOffice.Data.AppointmentStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the AppointmentRow object, by querying the database table via the index &apos;IAssoc_idStatusDo_byEndDate&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the Appointment table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.AppointmentRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static AppointmentRows GetFromIdxAssociateIdStatus(int associateId, AppointmentStatus status)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: status
+      type: SuperOffice.Data.AppointmentStatus
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxAssociateIdStatus(associateId As Integer, status As AppointmentStatus) As AppointmentRows
+  overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
+  id: GetFromIdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
+  parent: SuperOffice.CRM.Rows.AppointmentRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxAssociateIdStatusDoBy(Int32, AppointmentStatus, DateTime)
+  nameWithType: AppointmentRows.GetFromIdxAssociateIdStatusDoBy(Int32, AppointmentStatus, DateTime)
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy(System.Int32, SuperOffice.Data.AppointmentStatus, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the AppointmentRow object, by querying the database table via the index &apos;IAssoc_idStatusDo_byEndDate&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the Appointment table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.AppointmentRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static AppointmentRows GetFromIdxAssociateIdStatusDoBy(int associateId, AppointmentStatus status, DateTime doBy)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: status
+      type: SuperOffice.Data.AppointmentStatus
+    - id: doBy
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxAssociateIdStatusDoBy(associateId As Integer, status As AppointmentStatus, doBy As DateTime) As AppointmentRows
+  overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,System.DateTime)
+  id: GetFromIdxAssociateIdStatusDoByEndDate(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Rows.AppointmentRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxAssociateIdStatusDoByEndDate(Int32, AppointmentStatus, DateTime, DateTime)
+  nameWithType: AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate(Int32, AppointmentStatus, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate(System.Int32, SuperOffice.Data.AppointmentStatus, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the AppointmentRow object, by querying the database table via the index &apos;IAssoc_idStatusDo_byEndDate&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the Appointment table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.AppointmentRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static AppointmentRows GetFromIdxAssociateIdStatusDoByEndDate(int associateId, AppointmentStatus status, DateTime doBy, DateTime endDate)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: status
+      type: SuperOffice.Data.AppointmentStatus
+    - id: doBy
+      type: System.DateTime
+    - id: endDate
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxAssociateIdStatusDoByEndDate(associateId As Integer, status As AppointmentStatus, doBy As DateTime, endDate As DateTime) As AppointmentRows
+  overload: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate*
   modifiers.csharp:
   - public
   - static
@@ -2399,7 +2617,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.AppointmentRows.ToString*
   modifiers.csharp:
   - public
@@ -2494,8 +2711,7 @@ references:
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<INestedPersist>
   nameWithType: IEnumerable<INestedPersist>
@@ -2544,27 +2760,21 @@ references:
   name: ISoCollection
   nameWithType: ISoCollection
   fullName: SuperOffice.Data.ISoCollection
+- uid: System.Collections.IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.IList
-  commentId: T:System.Collections.IList
-  parent: System.Collections
   isExternal: true
   name: IList
   nameWithType: IList
   fullName: System.Collections.IList
 - uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
   isExternal: true
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
-  isExternal: true
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
 - uid: System.Collections.Specialized.INotifyCollectionChanged
   isExternal: true
   name: INotifyCollectionChanged
@@ -3137,108 +3347,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.get_Item(Int32)
-  nameWithType: TableRowsBase.IList.get_Item(Int32)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item(System.Int32)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.get_Item(Int32)
-  name.vb: System.Collections.IList.get_Item(Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-    name: IList.get_Item
-    nameWithType: TableRowsBase.IList.get_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-    name: System.Collections.IList.get_Item
-    nameWithType: TableRowsBase.System.Collections.IList.get_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.set_Item(Int32, Object)
-  nameWithType: TableRowsBase.IList.set_Item(Int32, Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item(System.Int32, System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.set_Item(Int32, Object)
-  name.vb: System.Collections.IList.set_Item(Int32, Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-    name: IList.set_Item
-    nameWithType: TableRowsBase.IList.set_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-    name: System.Collections.IList.set_Item
-    nameWithType: TableRowsBase.System.Collections.IList.set_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   parent: SuperOffice.CRM.Rows.TableRowsBase
@@ -3292,92 +3400,6 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Add(Object)
-  nameWithType: TableRowsBase.IList.Add(Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add(System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Add(Object)
-  name.vb: System.Collections.IList.Add(Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-    name: IList.Add
-    nameWithType: TableRowsBase.IList.Add
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-    name: System.Collections.IList.Add
-    nameWithType: TableRowsBase.System.Collections.IList.Add
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Remove(Object)
-  nameWithType: TableRowsBase.IList.Remove(Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove(System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Remove(Object)
-  name.vb: System.Collections.IList.Remove(Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-    name: IList.Remove
-    nameWithType: TableRowsBase.IList.Remove
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-    name: System.Collections.IList.Remove
-    nameWithType: TableRowsBase.System.Collections.IList.Remove
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
   - name: )
     nameWithType: )
@@ -3460,141 +3482,6 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Clear()
-  nameWithType: TableRowsBase.IList.Clear()
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear()
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Clear()
-  name.vb: System.Collections.IList.Clear()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-    name: IList.Clear
-    nameWithType: TableRowsBase.IList.Clear
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-    name: System.Collections.IList.Clear
-    nameWithType: TableRowsBase.System.Collections.IList.Clear
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Insert(Int32, Object)
-  nameWithType: TableRowsBase.IList.Insert(Int32, Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert(System.Int32, System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Insert(Int32, Object)
-  name.vb: System.Collections.IList.Insert(Int32, Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-    name: IList.Insert
-    nameWithType: TableRowsBase.IList.Insert
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-    name: System.Collections.IList.Insert
-    nameWithType: TableRowsBase.System.Collections.IList.Insert
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.RemoveAt(Int32)
-  nameWithType: TableRowsBase.IList.RemoveAt(Int32)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt(System.Int32)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.RemoveAt(Int32)
-  name.vb: System.Collections.IList.RemoveAt(Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-    name: IList.RemoveAt
-    nameWithType: TableRowsBase.IList.RemoveAt
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-    name: System.Collections.IList.RemoveAt
-    nameWithType: TableRowsBase.System.Collections.IList.RemoveAt
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
     isExternal: true
   - name: )
     nameWithType: )
@@ -3861,59 +3748,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowsBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Item[Int32]
-  nameWithType: TableRowsBase.IList.Item[Int32]
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item[System.Int32]
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Item(Int32)
-  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item(System.Int32)
-  name.vb: System.Collections.IList.Item(Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-    name: IList.Item
-    nameWithType: TableRowsBase.IList.Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item
-    isExternal: true
-  - name: '['
-    nameWithType: '['
-    fullName: '['
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ']'
-    nameWithType: ']'
-    fullName: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-    name: System.Collections.IList.Item
-    nameWithType: TableRowsBase.System.Collections.IList.Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ICollection.Count
-  nameWithType: TableRowsBase.ICollection.Count
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.Count
-  nameWithType.vb: TableRowsBase.System.Collections.ICollection.Count
-  name.vb: System.Collections.ICollection.Count
 - uid: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
   parent: SuperOffice.CRM.Rows.TableRowsBase
@@ -3928,24 +3762,6 @@ references:
   name: IsReadOnly
   nameWithType: TableRowsBase.IsReadOnly
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ICollection.IsSynchronized
-  nameWithType: TableRowsBase.ICollection.IsSynchronized
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.IsSynchronized
-  nameWithType.vb: TableRowsBase.System.Collections.ICollection.IsSynchronized
-  name.vb: System.Collections.ICollection.IsSynchronized
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ICollection.SyncRoot
-  nameWithType: TableRowsBase.ICollection.SyncRoot
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.SyncRoot
-  nameWithType.vb: TableRowsBase.System.Collections.ICollection.SyncRoot
-  name.vb: System.Collections.ICollection.SyncRoot
 - uid: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
   parent: SuperOffice.CRM.Rows.TableRowsBase
@@ -4054,39 +3870,6 @@ references:
     name: GetFacadingItems
     nameWithType: NestedCollectionPersist.GetFacadingItems
     fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-  commentId: M:SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-  parent: SuperOffice.Data.NestedCollectionPersist
-  isExternal: true
-  name: IEnumerable<INestedPersist>.GetEnumerator()
-  nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator()
-  fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  nameWithType.vb: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  name.vb: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  spec.csharp:
-  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-    name: IEnumerable<INestedPersist>.GetEnumerator
-    nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator
-    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-    name: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    nameWithType: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
     isExternal: true
   - name: (
     nameWithType: (
@@ -4651,6 +4434,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
@@ -4672,254 +4619,6 @@ references:
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.AppointmentRows.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -5001,14 +4700,13 @@ references:
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -5018,9 +4716,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5033,24 +4731,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -5155,8 +4841,7 @@ references:
   nameWithType: AppointmentRows.ForEach
   fullName: SuperOffice.CRM.Rows.AppointmentRows.ForEach
 - uid: System.Action{SuperOffice.CRM.Rows.AppointmentRow}
-  commentId: T:System.Action{SuperOffice.CRM.Rows.AppointmentRow}
-  parent: System
+  commentId: '!:System.Action{SuperOffice.CRM.Rows.AppointmentRow}'
   definition: System.Action`1
   name: Action<AppointmentRow>
   nameWithType: Action<AppointmentRow>
@@ -5199,14 +4884,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
@@ -5216,9 +4900,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5231,9 +4915,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -5244,8 +4928,7 @@ references:
   nameWithType: AppointmentRows.Find
   fullName: SuperOffice.CRM.Rows.AppointmentRows.Find
 - uid: System.Predicate{SuperOffice.CRM.Rows.AppointmentRow}
-  commentId: T:System.Predicate{SuperOffice.CRM.Rows.AppointmentRow}
-  parent: System
+  commentId: '!:System.Predicate{SuperOffice.CRM.Rows.AppointmentRow}'
   definition: System.Predicate`1
   name: Predicate<AppointmentRow>
   nameWithType: Predicate<AppointmentRow>
@@ -5295,14 +4978,13 @@ references:
   nameWithType: AppointmentRow
   fullName: SuperOffice.CRM.Rows.AppointmentRow
 - uid: System.Predicate`1
-  commentId: T:System.Predicate`1
   isExternal: true
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
@@ -5312,9 +4994,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5327,9 +5009,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -5397,8 +5079,6 @@ references:
   nameWithType: AppointmentRows.GetFromIdxDone
   fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxDone
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -5676,6 +5356,42 @@ references:
   name: GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy
   nameWithType: AppointmentRows.GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy
   fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId
+  isExternal: true
+  name: GetFromIdxAgendaTextId
+  nameWithType: AppointmentRows.GetFromIdxAgendaTextId
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAgendaTextId
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType
+  isExternal: true
+  name: GetFromIdxType
+  nameWithType: AppointmentRows.GetFromIdxType
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxType
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate
+  isExternal: true
+  name: GetFromIdxTypeActiveDate
+  nameWithType: AppointmentRows.GetFromIdxTypeActiveDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxTypeActiveDate
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus
+  isExternal: true
+  name: GetFromIdxAssociateIdStatus
+  nameWithType: AppointmentRows.GetFromIdxAssociateIdStatus
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatus
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy
+  isExternal: true
+  name: GetFromIdxAssociateIdStatusDoBy
+  nameWithType: AppointmentRows.GetFromIdxAssociateIdStatusDoBy
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoBy
+- uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate
+  isExternal: true
+  name: GetFromIdxAssociateIdStatusDoByEndDate
+  nameWithType: AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRows.GetFromIdxAssociateIdStatusDoByEndDate
 - uid: SuperOffice.CRM.Rows.AppointmentRows.GetFromReader*
   commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.GetFromReader
   isExternal: true
@@ -5715,8 +5431,7 @@ references:
   nameWithType: AppointmentRows.AddRange
   fullName: SuperOffice.CRM.Rows.AppointmentRows.AddRange
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AppointmentRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.AppointmentRow}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<AppointmentRow>
   nameWithType: IEnumerable<AppointmentRow>
@@ -5846,37 +5561,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.AppointmentRows.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.AppointmentRows.ToString
   isExternal: true

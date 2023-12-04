@@ -1,0 +1,812 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  id: WorkflowStepCreateFollowUp
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.#ctor
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateFollowUp
+  nameWithType: WorkflowStepCreateFollowUp
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStep in workflow.\n<p></p>\nCarrier object for WorkflowStepCreateFollowUp.\nServices for the WorkflowStepCreateFollowUp Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowStepCreateFollowUp : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepCreateFollowUp
+
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  - SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  - SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateFollowUp()
+  nameWithType: WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp()
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowStepCreateFollowUp()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowStepCreateFollowUp.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowStepCreateFollowUp.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: WorkflowStepCreateFollowUp.Title
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFollow-up title \n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType
+  id: FollowUpType
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: FollowUpType
+  nameWithType: WorkflowStepCreateFollowUp.FollowUpType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFollow-up type \n"
+  syntax:
+    content: public virtual int FollowUpType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FollowUpType As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project
+  id: Project
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: WorkflowStepCreateFollowUp.Project
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRelated project \n"
+  syntax:
+    content: public virtual int Project { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Project As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed
+  id: Completed
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: WorkflowStepCreateFollowUp.Completed
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFollow-up status \n"
+  syntax:
+    content: public virtual bool Completed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Completed As Boolean
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType
+  id: ActionType
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionType
+  nameWithType: WorkflowStepCreateFollowUp.ActionType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflow action type \n"
+  syntax:
+    content: public virtual WorkflowActionType ActionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowActionType
+    content.vb: Public Overridable Property ActionType As WorkflowActionType
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime
+  id: ActionTime
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionTime
+  nameWithType: WorkflowStepCreateFollowUp.ActionTime
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflow action time to wait \n"
+  syntax:
+    content: public virtual int ActionTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActionTime As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit
+  id: ActionTimeUnit
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: ActionTimeUnit
+  nameWithType: WorkflowStepCreateFollowUp.ActionTimeUnit
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorflow action time unit \n"
+  syntax:
+    content: public virtual WorkflowTimeWaitIntervalType ActionTimeUnit { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Overridable Property ActionTimeUnit As WorkflowTimeWaitIntervalType
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration
+  id: Duration
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: WorkflowStepCreateFollowUp.Duration
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDuration in seconds \n"
+  syntax:
+    content: public virtual int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Duration As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability
+  id: Availability
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Availability
+  nameWithType: WorkflowStepCreateFollowUp.Availability
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAvailability, Free or Busy \n"
+  syntax:
+    content: public virtual FreeBusy Availability { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FreeBusy
+    content.vb: Public Overridable Property Availability As FreeBusy
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType
+  id: OwnerType
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: WorkflowStepCreateFollowUp.OwnerType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFollow-up assignee type \n"
+  syntax:
+    content: public virtual WorkflowOwnerType OwnerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowOwnerType
+    content.vb: Public Overridable Property OwnerType As WorkflowOwnerType
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda
+  id: Agenda
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: WorkflowStepCreateFollowUp.Agenda
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAgenda \n"
+  syntax:
+    content: public virtual string Agenda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Agenda As String
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner
+  id: Owner
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: WorkflowStepCreateFollowUp.Owner
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFollow-up owner \n"
+  syntax:
+    content: public virtual int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Owner As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.#ctor
+  isExternal: true
+  name: WorkflowStepCreateFollowUp
+  nameWithType: WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.WorkflowStepCreateFollowUp
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString()
+  nameWithType: WorkflowStepBase.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowStepCreateFollowUp.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString(String)
+  nameWithType: WorkflowStepBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title
+  isExternal: true
+  name: Title
+  nameWithType: WorkflowStepCreateFollowUp.Title
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Title
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType
+  isExternal: true
+  name: FollowUpType
+  nameWithType: WorkflowStepCreateFollowUp.FollowUpType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.FollowUpType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project
+  isExternal: true
+  name: Project
+  nameWithType: WorkflowStepCreateFollowUp.Project
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Project
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: WorkflowStepCreateFollowUp.Completed
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Completed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType
+  isExternal: true
+  name: ActionType
+  nameWithType: WorkflowStepCreateFollowUp.ActionType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionType
+- uid: SuperOffice.Data.WorkflowActionType
+  commentId: '!:SuperOffice.Data.WorkflowActionType'
+  isExternal: true
+  name: WorkflowActionType
+  nameWithType: WorkflowActionType
+  fullName: SuperOffice.Data.WorkflowActionType
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime
+  isExternal: true
+  name: ActionTime
+  nameWithType: WorkflowStepCreateFollowUp.ActionTime
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTime
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit
+  isExternal: true
+  name: ActionTimeUnit
+  nameWithType: WorkflowStepCreateFollowUp.ActionTimeUnit
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.ActionTimeUnit
+- uid: SuperOffice.Data.WorkflowTimeWaitIntervalType
+  isExternal: true
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: SuperOffice.Data.WorkflowTimeWaitIntervalType
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: WorkflowStepCreateFollowUp.Duration
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Duration
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability
+  isExternal: true
+  name: Availability
+  nameWithType: WorkflowStepCreateFollowUp.Availability
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Availability
+- uid: SuperOffice.Data.FreeBusy
+  commentId: '!:SuperOffice.Data.FreeBusy'
+  isExternal: true
+  name: FreeBusy
+  nameWithType: FreeBusy
+  fullName: SuperOffice.Data.FreeBusy
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: WorkflowStepCreateFollowUp.OwnerType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.OwnerType
+- uid: SuperOffice.Data.WorkflowOwnerType
+  commentId: '!:SuperOffice.Data.WorkflowOwnerType'
+  isExternal: true
+  name: WorkflowOwnerType
+  nameWithType: WorkflowOwnerType
+  fullName: SuperOffice.Data.WorkflowOwnerType
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: WorkflowStepCreateFollowUp.Agenda
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Agenda
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: WorkflowStepCreateFollowUp.Owner
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp.Owner

@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DashTileHtml
+  commentId: T:SuperOffice.CRM.Services.DashTileHtml
+  id: DashTileHtml
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DashTileHtml.#ctor
+  - SuperOffice.CRM.Services.DashTileHtml.Html
+  - SuperOffice.CRM.Services.DashTileHtml.LanguageCode
+  - SuperOffice.CRM.Services.DashTileHtml.ToString
+  - SuperOffice.CRM.Services.DashTileHtml.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DashTileHtml
+  nameWithType: DashTileHtml
+  fullName: SuperOffice.CRM.Services.DashTileHtml
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHTML data for dash tiles with TileType = HTML\n<p></p>\nCarrier object for DashTileHtml.\nServices for the DashTileHtml Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class DashTileHtml : Carrier'
+    content.vb: >-
+      Public Class DashTileHtml
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DashAgent
+    commentId: T:SuperOffice.CRM.Services.DashAgent
+  - linkId: SuperOffice.CRM.Services.IDashAgent
+    commentId: T:SuperOffice.CRM.Services.IDashAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DashTileHtml.#ctor
+  commentId: M:SuperOffice.CRM.Services.DashTileHtml.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: DashTileHtml()
+  nameWithType: DashTileHtml.DashTileHtml()
+  fullName: SuperOffice.CRM.Services.DashTileHtml.DashTileHtml()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DashTileHtml()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DashTileHtml.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashTileHtml.ToString
+  commentId: M:SuperOffice.CRM.Services.DashTileHtml.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DashTileHtml.ToString()
+  fullName: SuperOffice.CRM.Services.DashTileHtml.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DashTileHtml.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DashTileHtml.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DashTileHtml.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DashTileHtml.ToString(String)
+  fullName: SuperOffice.CRM.Services.DashTileHtml.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DashTileHtml.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashTileHtml.LanguageCode
+  commentId: P:SuperOffice.CRM.Services.DashTileHtml.LanguageCode
+  id: LanguageCode
+  parent: SuperOffice.CRM.Services.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: DashTileHtml.LanguageCode
+  fullName: SuperOffice.CRM.Services.DashTileHtml.LanguageCode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContent language \n"
+  syntax:
+    content: public virtual string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LanguageCode As String
+  overload: SuperOffice.CRM.Services.DashTileHtml.LanguageCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashTileHtml.Html
+  commentId: P:SuperOffice.CRM.Services.DashTileHtml.Html
+  id: Html
+  parent: SuperOffice.CRM.Services.DashTileHtml
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: DashTileHtml.Html
+  fullName: SuperOffice.CRM.Services.DashTileHtml.Html
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHTML data \n"
+  syntax:
+    content: public virtual string Html { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Html As String
+  overload: SuperOffice.CRM.Services.DashTileHtml.Html*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.DashAgent
+  commentId: T:SuperOffice.CRM.Services.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.CRM.Services.DashAgent
+- uid: SuperOffice.CRM.Services.IDashAgent
+  commentId: T:SuperOffice.CRM.Services.IDashAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDashAgent
+  nameWithType: IDashAgent
+  fullName: SuperOffice.CRM.Services.IDashAgent
+- uid: SuperOffice.CRM.Services.DashTileHtml.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileHtml.#ctor
+  isExternal: true
+  name: DashTileHtml
+  nameWithType: DashTileHtml.DashTileHtml
+  fullName: SuperOffice.CRM.Services.DashTileHtml.DashTileHtml
+- uid: SuperOffice.CRM.Services.DashTileHtml.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileHtml.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DashTileHtml.ToString
+  fullName: SuperOffice.CRM.Services.DashTileHtml.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DashTileHtml.LanguageCode*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileHtml.LanguageCode
+  isExternal: true
+  name: LanguageCode
+  nameWithType: DashTileHtml.LanguageCode
+  fullName: SuperOffice.CRM.Services.DashTileHtml.LanguageCode
+- uid: SuperOffice.CRM.Services.DashTileHtml.Html*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileHtml.Html
+  isExternal: true
+  name: Html
+  nameWithType: DashTileHtml.Html
+  fullName: SuperOffice.CRM.Services.DashTileHtml.Html

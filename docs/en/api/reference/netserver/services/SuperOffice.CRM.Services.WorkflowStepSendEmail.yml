@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepSendEmail
+  id: WorkflowStepSendEmail
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowStepSendEmail.#ctor
+  - SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments
+  - SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId
+  - SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject
+  - SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString
+  - SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSendEmail
+  nameWithType: WorkflowStepSendEmail
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStep in workflow that waits for time.\n<p></p>\nCarrier object for WorkflowStepSendEmail.\nServices for the WorkflowStepSendEmail Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowStepSendEmail : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepSendEmail
+
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  - SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  - SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepSendEmail.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSendEmail()
+  nameWithType: WorkflowStepSendEmail.WorkflowStepSendEmail()
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.WorkflowStepSendEmail()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowStepSendEmail()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowStepSendEmail.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowStepSendEmail.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  overload: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowStepSendEmail.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject
+  id: Subject
+  parent: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: WorkflowStepSendEmail.Subject
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail subject \n"
+  syntax:
+    content: public virtual string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Subject As String
+  overload: SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments
+  id: Attachments
+  parent: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: Attachments
+  nameWithType: WorkflowStepSendEmail.Attachments
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId&apos;s of the selected CS attachments to be sent as attachments in the email \n"
+  syntax:
+    content: public virtual int[] Attachments { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property Attachments As Integer()
+  overload: SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId
+  id: ShipmentId
+  parent: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  langs:
+  - csharp
+  - vb
+  name: ShipmentId
+  nameWithType: WorkflowStepSendEmail.ShipmentId
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe selected mailing (s_shipment) \n"
+  syntax:
+    content: public virtual int ShipmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ShipmentId As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepSendEmail.#ctor
+  isExternal: true
+  name: WorkflowStepSendEmail
+  nameWithType: WorkflowStepSendEmail.WorkflowStepSendEmail
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.WorkflowStepSendEmail
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString()
+  nameWithType: WorkflowStepBase.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowStepSendEmail.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString(String)
+  nameWithType: WorkflowStepBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: WorkflowStepSendEmail.Subject
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.Subject
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments
+  isExternal: true
+  name: Attachments
+  nameWithType: WorkflowStepSendEmail.Attachments
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.Attachments
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId
+  isExternal: true
+  name: ShipmentId
+  nameWithType: WorkflowStepSendEmail.ShipmentId
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail.ShipmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

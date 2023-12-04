@@ -33,6 +33,7 @@ items:
     content: 'public interface IUserPlugin : IPlugin'
     content.vb: >-
       Public Interface IUserPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Administration.IUserPlugin.EnumUtil.MapEnums``2

@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TicketPriorityEscalateAction
+  commentId: T:SuperOffice.Data.TicketPriorityEscalateAction
+  id: TicketPriorityEscalateAction
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  - SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  - SuperOffice.Data.TicketPriorityEscalateAction.ActionClosed
+  - SuperOffice.Data.TicketPriorityEscalateAction.ActionNew
+  - SuperOffice.Data.TicketPriorityEscalateAction.ActionNewInfo
+  - SuperOffice.Data.TicketPriorityEscalateAction.ActionRead
+  - SuperOffice.Data.TicketPriorityEscalateAction.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nThe different types of escalate actions that can be set\n"
+  syntax:
+    content: 'public sealed class TicketPriorityEscalateAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketPriorityEscalateAction
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.TicketPriorityEscalateAction.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TicketPriorityEscalateAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.value__
+  commentId: F:SuperOffice.Data.TicketPriorityEscalateAction.value__
+  id: value__
+  parent: SuperOffice.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketPriorityEscalateAction.value__
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.ActionRead
+  commentId: F:SuperOffice.Data.TicketPriorityEscalateAction.ActionRead
+  id: ActionRead
+  parent: SuperOffice.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionRead
+  nameWithType: TicketPriorityEscalateAction.ActionRead
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction.ActionRead
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Triggers escalation on ticket read\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionRead
+    return:
+      type: SuperOffice.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionRead As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  commentId: F:SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  id: ActionChangedOwner
+  parent: SuperOffice.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionChangedOwner
+  nameWithType: TicketPriorityEscalateAction.ActionChangedOwner
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Triggers escalation on ticket owner change\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionChangedOwner
+    return:
+      type: SuperOffice.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionChangedOwner As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.ActionNewInfo
+  commentId: F:SuperOffice.Data.TicketPriorityEscalateAction.ActionNewInfo
+  id: ActionNewInfo
+  parent: SuperOffice.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionNewInfo
+  nameWithType: TicketPriorityEscalateAction.ActionNewInfo
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction.ActionNewInfo
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Triggers escalation on ticket update\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionNewInfo
+    return:
+      type: SuperOffice.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionNewInfo As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.ActionClosed
+  commentId: F:SuperOffice.Data.TicketPriorityEscalateAction.ActionClosed
+  id: ActionClosed
+  parent: SuperOffice.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionClosed
+  nameWithType: TicketPriorityEscalateAction.ActionClosed
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction.ActionClosed
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Triggers escalation on ticket close\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionClosed
+    return:
+      type: SuperOffice.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionClosed As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  commentId: F:SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  id: ActionChangedPriority
+  parent: SuperOffice.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionChangedPriority
+  nameWithType: TicketPriorityEscalateAction.ActionChangedPriority
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Triggers escalation on ticket priority change\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionChangedPriority
+    return:
+      type: SuperOffice.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionChangedPriority As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.ActionNew
+  commentId: F:SuperOffice.Data.TicketPriorityEscalateAction.ActionNew
+  id: ActionNew
+  parent: SuperOffice.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionNew
+  nameWithType: TicketPriorityEscalateAction.ActionNew
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction.ActionNew
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Triggers escalation on ticket creation\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionNew
+    return:
+      type: SuperOffice.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionNew As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketPriorityEscalateAction, To>()
+  nameWithType: EnumUtil.MapEnums<TicketPriorityEscalateAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketPriorityEscalateAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketPriorityEscalateAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketPriorityEscalateAction, To)()
+  name.vb: MapEnums(Of TicketPriorityEscalateAction, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketPriorityEscalateAction, To>
+    nameWithType: EnumUtil.MapEnums<TicketPriorityEscalateAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketPriorityEscalateAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketPriorityEscalateAction, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketPriorityEscalateAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketPriorityEscalateAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TicketPriorityEscalateAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketPriorityEscalateAction, To>()
+  nameWithType: Converters.MapEnums<TicketPriorityEscalateAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketPriorityEscalateAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketPriorityEscalateAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketPriorityEscalateAction, To)()
+  name.vb: MapEnums(Of TicketPriorityEscalateAction, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketPriorityEscalateAction, To>
+    nameWithType: Converters.MapEnums<TicketPriorityEscalateAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketPriorityEscalateAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketPriorityEscalateAction, To)
+    nameWithType: Converters.MapEnums(Of TicketPriorityEscalateAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketPriorityEscalateAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.TicketPriorityEscalateAction
+  commentId: T:SuperOffice.Data.TicketPriorityEscalateAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: SuperOffice.Data.TicketPriorityEscalateAction

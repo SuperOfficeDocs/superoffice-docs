@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.TicketMessage
+  commentId: N:SuperOffice.CRM.TicketMessage
+  id: SuperOffice.CRM.TicketMessage
+  children:
+  - SuperOffice.CRM.TicketMessage.AttachmentEntity
+  - SuperOffice.CRM.TicketMessage.TicketMessageContent
+  - SuperOffice.CRM.TicketMessage.TicketMessageHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.TicketMessage
+  nameWithType: SuperOffice.CRM.TicketMessage
+  fullName: SuperOffice.CRM.TicketMessage
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageContent
+  commentId: T:SuperOffice.CRM.TicketMessage.TicketMessageContent
+  parent: SuperOffice.CRM.TicketMessage
+  isExternal: true
+  name: TicketMessageContent
+  nameWithType: TicketMessageContent
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageContent
+- uid: SuperOffice.CRM.TicketMessage.AttachmentEntity
+  commentId: T:SuperOffice.CRM.TicketMessage.AttachmentEntity
+  isExternal: true
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity
+  fullName: SuperOffice.CRM.TicketMessage.AttachmentEntity
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper
+  commentId: T:SuperOffice.CRM.TicketMessage.TicketMessageHelper
+  isExternal: true
+  name: TicketMessageHelper
+  nameWithType: TicketMessageHelper
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper
+- uid: SuperOffice.CRM.TicketMessage
+  commentId: N:SuperOffice.CRM.TicketMessage
+  isExternal: true
+  name: SuperOffice.CRM.TicketMessage
+  nameWithType: SuperOffice.CRM.TicketMessage
+  fullName: SuperOffice.CRM.TicketMessage

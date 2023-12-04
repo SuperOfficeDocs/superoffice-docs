@@ -1,0 +1,1179 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationAgent
+  id: DocumentMigrationAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the DocumentMigration Agent\nAgent used to support migrating documents between different document-plugins, as single documents or batches.\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DocumentMigrationAgent agent = new DocumentMigrationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class DocumentMigrationAgent : AgentBase<IDocumentMigrationAgent>, IDisposable, IDocumentMigrationAgent, IAgent'
+    content.vb: >-
+      Public Class DocumentMigrationAgent
+
+          Inherits AgentBase(Of IDocumentMigrationAgent)
+
+          Implements IDisposable, IDocumentMigrationAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}.InnerAgent
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  id: CreateDefaultDocumentMigrationItemList
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDocumentMigrationItemList()
+  nameWithType: DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList()
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new DocumentMigrationItemList.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public DocumentMigrationItemList CreateDefaultDocumentMigrationItemList()
+    return:
+      type: SuperOffice.CRM.Services.DocumentMigrationItemList
+      description: New DocumentMigrationItemList with default values
+    content.vb: Public Function CreateDefaultDocumentMigrationItemList As DocumentMigrationItemList
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  id: CreateDefaultDocumentTemplateMigrationList
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDocumentTemplateMigrationList()
+  nameWithType: DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList()
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new DocumentTemplateMigrationList.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public DocumentTemplateMigrationList CreateDefaultDocumentTemplateMigrationList()
+    return:
+      type: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+      description: New DocumentTemplateMigrationList with default values
+    content.vb: Public Function CreateDefaultDocumentTemplateMigrationList As DocumentTemplateMigrationList
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+  id: GetForAllDocuments(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForAllDocuments(Int32, Boolean)
+  nameWithType: DocumentMigrationAgent.GetForAllDocuments(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a migration summary for all documents stored in CRM. Warning: Expensive!\n"
+  syntax:
+    content: public DocumentMigrationItemList GetForAllDocuments(int documentPluginId, bool includeEmails)
+    parameters:
+    - id: documentPluginId
+      type: System.Int32
+      description: The ID of the document-plugin to migrate to.
+    - id: includeEmails
+      type: System.Boolean
+      description: True if documents to migrate should include emails.
+    return:
+      type: SuperOffice.CRM.Services.DocumentMigrationItemList
+      description: Never null.
+    content.vb: Public Function GetForAllDocuments(documentPluginId As Integer, includeEmails As Boolean) As DocumentMigrationItemList
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+  id: GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForDateRange(Int32, DateTime, DateTime, Boolean)
+  nameWithType: DocumentMigrationAgent.GetForDateRange(Int32, DateTime, DateTime, Boolean)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange(System.Int32, System.DateTime, System.DateTime, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a migration summary for documents in the provided date-rage\n"
+  syntax:
+    content: public DocumentMigrationItemList GetForDateRange(int documentPluginId, DateTime minDate, DateTime maxDate, bool includeEmails)
+    parameters:
+    - id: documentPluginId
+      type: System.Int32
+      description: The ID of the document-plugin to migrate to.
+    - id: minDate
+      type: System.DateTime
+      description: Inclusive mininmum.
+    - id: maxDate
+      type: System.DateTime
+      description: Inclusive maximum.
+    - id: includeEmails
+      type: System.Boolean
+      description: True if documents to migrate should include emails.
+    return:
+      type: SuperOffice.CRM.Services.DocumentMigrationItemList
+      description: Never null.
+    content.vb: Public Function GetForDateRange(documentPluginId As Integer, minDate As DateTime, maxDate As DateTime, includeEmails As Boolean) As DocumentMigrationItemList
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+  id: GetForSelection(System.Int32,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForSelection(Int32, Int32, Boolean)
+  nameWithType: DocumentMigrationAgent.GetForSelection(Int32, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a migration summary for documents in the provided selection\n"
+  syntax:
+    content: public DocumentMigrationItemList GetForSelection(int documentPluginId, int selectionId, bool includeEmails)
+    parameters:
+    - id: documentPluginId
+      type: System.Int32
+      description: The ID of the document-plugin to migrate to.
+    - id: selectionId
+      type: System.Int32
+      description: ID of the selection used to create the DocumentMigrationSummary instance.
+    - id: includeEmails
+      type: System.Boolean
+      description: True if documents to migrate should include emails.
+    return:
+      type: SuperOffice.CRM.Services.DocumentMigrationItemList
+      description: Never null.
+    content.vb: Public Function GetForSelection(documentPluginId As Integer, selectionId As Integer, includeEmails As Boolean) As DocumentMigrationItemList
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+  id: MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: MigrateDocumentToNewDocPlugin(Int32, Int32)
+  nameWithType: DocumentMigrationAgent.MigrateDocumentToNewDocPlugin(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMigrates the document with the provided id to the specified document-plugin.\n"
+  syntax:
+    content: public void MigrateDocumentToNewDocPlugin(int documentId, int documentPluginId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: The ID of the document to migrate.
+    - id: documentPluginId
+      type: System.Int32
+      description: The ID of the document-plugin to migrate to.
+    content.vb: Public Sub MigrateDocumentToNewDocPlugin(documentId As Integer, documentPluginId As Integer)
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate
+  id: HasDocumentsToMigrate
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: HasDocumentsToMigrate()
+  nameWithType: DocumentMigrationAgent.HasDocumentsToMigrate()
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChecks if there are any documents in the current database stored using a non-default document-plugin, and which can be migrated.\n"
+  syntax:
+    content: public bool HasDocumentsToMigrate()
+    return:
+      type: System.Boolean
+      description: True if there are documents available to migrate.
+    content.vb: Public Function HasDocumentsToMigrate As Boolean
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+  id: GetForTemplates(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForTemplates(Int32, Boolean)
+  nameWithType: DocumentMigrationAgent.GetForTemplates(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a migration summary for all templates stored in CRM.\n"
+  syntax:
+    content: public DocumentTemplateMigrationList GetForTemplates(int targetDocumentPluginId, bool includeEmails)
+    parameters:
+    - id: targetDocumentPluginId
+      type: System.Int32
+      description: The ID of the document-plugin to migrate to.
+    - id: includeEmails
+      type: System.Boolean
+      description: True if templates to migrate should include emails.
+    return:
+      type: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+      description: Never null.
+    content.vb: Public Function GetForTemplates(targetDocumentPluginId As Integer, includeEmails As Boolean) As DocumentTemplateMigrationList
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+  id: MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: MigrateTemplateToNewDocPlugin(Int32, Int32)
+  nameWithType: DocumentMigrationAgent.MigrateTemplateToNewDocPlugin(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMigrates the template with the provided id to the specified document-plugin.\n"
+  syntax:
+    content: public void MigrateTemplateToNewDocPlugin(int documentTemplateId, int targetDocumentPluginId)
+    parameters:
+    - id: documentTemplateId
+      type: System.Int32
+      description: The ID of the document-template to migrate.
+    - id: targetDocumentPluginId
+      type: System.Int32
+      description: The ID of the document-plugin to migrate to.
+    content.vb: Public Sub MigrateTemplateToNewDocPlugin(documentTemplateId As Integer, targetDocumentPluginId As Integer)
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationAgent()
+  nameWithType: DocumentMigrationAgent.DocumentMigrationAgent()
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.DocumentMigrationAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public DocumentMigrationAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IDocumentMigrationAgent>
+  nameWithType: AgentBase<IDocumentMigrationAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDocumentMigrationAgent>
+  nameWithType.vb: AgentBase(Of IDocumentMigrationAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDocumentMigrationAgent)
+  name.vb: AgentBase(Of IDocumentMigrationAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent
+    name: IDocumentMigrationAgent
+    nameWithType: IDocumentMigrationAgent
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent
+    name: IDocumentMigrationAgent
+    nameWithType: IDocumentMigrationAgent
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  commentId: T:SuperOffice.CRM.Services.IDocumentMigrationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDocumentMigrationAgent
+  nameWithType: IDocumentMigrationAgent
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IDocumentMigrationAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDocumentMigrationAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IDocumentMigrationAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDocumentMigrationAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IDocumentMigrationAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDocumentMigrationAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IDocumentMigrationAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDocumentMigrationAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDocumentMigrationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IDocumentMigrationAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDocumentMigrationAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IDocumentMigrationAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDocumentMigrationAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  isExternal: true
+  name: CreateDefaultDocumentMigrationItemList
+  nameWithType: DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: CreateDefaultDocumentMigrationItemList()
+  nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList()
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+    name: CreateDefaultDocumentMigrationItemList
+    nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+    name: CreateDefaultDocumentMigrationItemList
+    nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DocumentMigrationItemList
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationItemList
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DocumentMigrationItemList
+  nameWithType: DocumentMigrationItemList
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItemList
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  isExternal: true
+  name: CreateDefaultDocumentTemplateMigrationList
+  nameWithType: DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: CreateDefaultDocumentTemplateMigrationList()
+  nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList()
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+    name: CreateDefaultDocumentTemplateMigrationList
+    nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+    name: CreateDefaultDocumentTemplateMigrationList
+    nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+  commentId: T:SuperOffice.CRM.Services.DocumentTemplateMigrationList
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DocumentTemplateMigrationList
+  nameWithType: DocumentTemplateMigrationList
+  fullName: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments
+  isExternal: true
+  name: GetForAllDocuments
+  nameWithType: DocumentMigrationAgent.GetForAllDocuments
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocuments
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: GetForAllDocuments(Int32, Boolean)
+  nameWithType: IDocumentMigrationAgent.GetForAllDocuments(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+    name: GetForAllDocuments
+    nameWithType: IDocumentMigrationAgent.GetForAllDocuments
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments(System.Int32,System.Boolean)
+    name: GetForAllDocuments
+    nameWithType: IDocumentMigrationAgent.GetForAllDocuments
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange
+  isExternal: true
+  name: GetForDateRange
+  nameWithType: DocumentMigrationAgent.GetForDateRange
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForDateRange
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: GetForDateRange(Int32, DateTime, DateTime, Boolean)
+  nameWithType: IDocumentMigrationAgent.GetForDateRange(Int32, DateTime, DateTime, Boolean)
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange(System.Int32, System.DateTime, System.DateTime, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+    name: GetForDateRange
+    nameWithType: IDocumentMigrationAgent.GetForDateRange
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange(System.Int32,System.DateTime,System.DateTime,System.Boolean)
+    name: GetForDateRange
+    nameWithType: IDocumentMigrationAgent.GetForDateRange
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection
+  isExternal: true
+  name: GetForSelection
+  nameWithType: DocumentMigrationAgent.GetForSelection
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForSelection
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: GetForSelection(Int32, Int32, Boolean)
+  nameWithType: IDocumentMigrationAgent.GetForSelection(Int32, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection(System.Int32, System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+    name: GetForSelection
+    nameWithType: IDocumentMigrationAgent.GetForSelection
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection(System.Int32,System.Int32,System.Boolean)
+    name: GetForSelection
+    nameWithType: IDocumentMigrationAgent.GetForSelection
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin
+  isExternal: true
+  name: MigrateDocumentToNewDocPlugin
+  nameWithType: DocumentMigrationAgent.MigrateDocumentToNewDocPlugin
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: MigrateDocumentToNewDocPlugin(Int32, Int32)
+  nameWithType: IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+    name: MigrateDocumentToNewDocPlugin
+    nameWithType: IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin(System.Int32,System.Int32)
+    name: MigrateDocumentToNewDocPlugin
+    nameWithType: IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate
+  isExternal: true
+  name: HasDocumentsToMigrate
+  nameWithType: DocumentMigrationAgent.HasDocumentsToMigrate
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.HasDocumentsToMigrate
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: HasDocumentsToMigrate()
+  nameWithType: IDocumentMigrationAgent.HasDocumentsToMigrate()
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+    name: HasDocumentsToMigrate
+    nameWithType: IDocumentMigrationAgent.HasDocumentsToMigrate
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+    name: HasDocumentsToMigrate
+    nameWithType: IDocumentMigrationAgent.HasDocumentsToMigrate
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.HasDocumentsToMigrate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates
+  isExternal: true
+  name: GetForTemplates
+  nameWithType: DocumentMigrationAgent.GetForTemplates
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.GetForTemplates
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: GetForTemplates(Int32, Boolean)
+  nameWithType: IDocumentMigrationAgent.GetForTemplates(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+    name: GetForTemplates
+    nameWithType: IDocumentMigrationAgent.GetForTemplates
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates(System.Int32,System.Boolean)
+    name: GetForTemplates
+    nameWithType: IDocumentMigrationAgent.GetForTemplates
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin
+  isExternal: true
+  name: MigrateTemplateToNewDocPlugin
+  nameWithType: DocumentMigrationAgent.MigrateTemplateToNewDocPlugin
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.MigrateTemplateToNewDocPlugin
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  isExternal: true
+  name: MigrateTemplateToNewDocPlugin(Int32, Int32)
+  nameWithType: IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+    name: MigrateTemplateToNewDocPlugin
+    nameWithType: IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin(System.Int32,System.Int32)
+    name: MigrateTemplateToNewDocPlugin
+    nameWithType: IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin
+    fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateTemplateToNewDocPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor
+  isExternal: true
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent.DocumentMigrationAgent
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.DocumentMigrationAgent

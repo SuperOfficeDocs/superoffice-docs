@@ -362,7 +362,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEntity.CreatedDate*
   modifiers.csharp:
   - public
@@ -395,7 +395,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEntity.UpdatedDate*
   modifiers.csharp:
   - public
@@ -857,7 +857,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property NextMilestoneDate As Date
+    content.vb: Public Overridable Property NextMilestoneDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEntity.NextMilestoneDate*
   modifiers.csharp:
   - public
@@ -923,7 +923,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EndDate As Date
+    content.vb: Public Overridable Property EndDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEntity.EndDate*
   modifiers.csharp:
   - public
@@ -1017,7 +1017,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.ProjectEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n       [Plug-in name].[Property name]\n       Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \nThis is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \nand hence we would ensure an unique key if this field is used.\nExample: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n   [Table name].[Field name]\n   Example: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
   syntax:
     content: public StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -1051,7 +1051,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.ProjectEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Services.ProjectEntity.UserDefinedFields\" data-throw-if-not-resolved=\"false\"></xref> properties are deprecated in favor of this\ncombined collection.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
   syntax:
     content: public StringDictionary CustomFields { get; set; }
     parameters: []
@@ -1059,6 +1059,8 @@ items:
       type: SuperOffice.CRM.Services.StringDictionary
     content.vb: Public Property CustomFields As StringDictionary
   overload: SuperOffice.CRM.Services.ProjectEntity.CustomFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
   modifiers.csharp:
   - public
   - get
@@ -1088,7 +1090,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishEventDate As Date
+    content.vb: Public Property PublishEventDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEntity.PublishEventDate*
   implements:
   - SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
@@ -1121,7 +1123,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishTo As Date
+    content.vb: Public Property PublishTo As DateTime
   overload: SuperOffice.CRM.Services.ProjectEntity.PublishTo*
   implements:
   - SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
@@ -1154,7 +1156,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishFrom As Date
+    content.vb: Public Property PublishFrom As DateTime
   overload: SuperOffice.CRM.Services.ProjectEntity.PublishFrom*
   implements:
   - SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
@@ -1204,13 +1206,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.IUdefFieldCarrier
   commentId: T:SuperOffice.CRM.Services.IUdefFieldCarrier
   parent: SuperOffice.CRM.Services
@@ -1388,12 +1383,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -1420,6 +1409,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectEntity.ProjectId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEntity.ProjectId
   isExternal: true
@@ -1516,8 +1511,6 @@ references:
   nameWithType: ProjectEntity.CreatedDate
   fullName: SuperOffice.CRM.Services.ProjectEntity.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1728,6 +1721,13 @@ references:
   name: CustomFields
   nameWithType: ProjectEntity.CustomFields
   fullName: SuperOffice.CRM.Services.ProjectEntity.CustomFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  name: CustomFields
+  nameWithType: IExtraFieldCarrier.CustomFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
 - uid: SuperOffice.CRM.Services.ProjectEntity.PublishEventDate*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEntity.PublishEventDate
   isExternal: true

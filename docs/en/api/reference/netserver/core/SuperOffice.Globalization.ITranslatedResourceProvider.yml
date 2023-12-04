@@ -25,6 +25,7 @@ items:
     content: 'public interface ITranslatedResourceProvider : IPlugin'
     content.vb: >-
       Public Interface ITranslatedResourceProvider
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Globalization.ITranslatedResourceProvider.EnumUtil.MapEnums``2

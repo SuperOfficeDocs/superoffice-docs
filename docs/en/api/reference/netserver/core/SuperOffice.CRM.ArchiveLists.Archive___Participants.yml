@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  commentId: N:SuperOffice.CRM.ArchiveLists.Archive___Participants
+  id: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  children:
+  - SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider
+  - SuperOffice.CRM.ArchiveLists.Archive___Participants.ParticipantsEmailOnlyProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  nameWithType: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  fullName: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider
+  isExternal: true
+  name: BookingParticipantsEmailOnlyProvider
+  nameWithType: BookingParticipantsEmailOnlyProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive___Participants.ParticipantsEmailOnlyProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive___Participants.ParticipantsEmailOnlyProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  isExternal: true
+  name: ParticipantsEmailOnlyProvider
+  nameWithType: ParticipantsEmailOnlyProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive___Participants.ParticipantsEmailOnlyProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  commentId: N:SuperOffice.CRM.ArchiveLists.Archive___Participants
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  nameWithType: SuperOffice.CRM.ArchiveLists.Archive___Participants
+  fullName: SuperOffice.CRM.ArchiveLists.Archive___Participants

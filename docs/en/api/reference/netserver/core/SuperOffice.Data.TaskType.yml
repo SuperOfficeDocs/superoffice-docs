@@ -16,13 +16,14 @@ items:
   - SuperOffice.Data.TaskType.SaintAll
   - SuperOffice.Data.TaskType.ToDo
   - SuperOffice.Data.TaskType.Unknown
+  - SuperOffice.Data.TaskType.value__
   langs:
   - csharp
   - vb
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.Data.TaskType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -31,19 +32,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;record_type&apos; in table &apos;task&apos;. Controls icons used in GUI\nThis Enum is used by:  Task.record_type\n"
   syntax:
-    content: 'public enum TaskType : short'
-    content.vb: Public Enum TaskType As Short
+    content: 'public sealed class TaskType : Enum'
+    content.vb: >-
+      Public NotInheritable Class TaskType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TaskType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.TaskType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TaskType)
-  - SuperOffice.Data.TaskType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.TaskType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TaskType.value__
+  commentId: F:SuperOffice.Data.TaskType.value__
+  id: value__
+  parent: SuperOffice.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TaskType.value__
+  fullName: SuperOffice.Data.TaskType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TaskType.Unknown
   commentId: F:SuperOffice.Data.TaskType.Unknown
   id: Unknown
@@ -63,9 +99,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: This task is of an unknown/undecided type\n"
   syntax:
-    content: Unknown = 0
+    content: public const TaskType Unknown
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const Unknown As TaskType
   modifiers.csharp:
   - public
   - const
@@ -91,9 +128,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: The task is an appointment\n"
   syntax:
-    content: Appointment = 1
+    content: public const TaskType Appointment
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const Appointment As TaskType
   modifiers.csharp:
   - public
   - const
@@ -119,9 +157,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: The task is a document\n"
   syntax:
-    content: Document = 2
+    content: public const TaskType Document
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const Document As TaskType
   modifiers.csharp:
   - public
   - const
@@ -147,9 +186,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: The task is an email\n"
   syntax:
-    content: Email = 3
+    content: public const TaskType Email
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const Email As TaskType
   modifiers.csharp:
   - public
   - const
@@ -175,9 +215,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: The task is a fax\n"
   syntax:
-    content: Fax = 4
+    content: public const TaskType Fax
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const Fax As TaskType
   modifiers.csharp:
   - public
   - const
@@ -203,9 +244,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: The task is a phone call\n"
   syntax:
-    content: Phone = 5
+    content: public const TaskType Phone
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const Phone As TaskType
   modifiers.csharp:
   - public
   - const
@@ -231,9 +273,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: The task is a To-do\n"
   syntax:
-    content: ToDo = 6
+    content: public const TaskType ToDo
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const ToDo As TaskType
   modifiers.csharp:
   - public
   - const
@@ -259,9 +302,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Mail merge draft document\n"
   syntax:
-    content: MailMergeDraft = 7
+    content: public const TaskType MailMergeDraft
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const MailMergeDraft As TaskType
   modifiers.csharp:
   - public
   - const
@@ -287,9 +331,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Merged result of mail merge\n"
   syntax:
-    content: MailMergeFinal = 8
+    content: public const TaskType MailMergeFinal
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const MailMergeFinal As TaskType
   modifiers.csharp:
   - public
   - const
@@ -315,9 +360,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: Saved report run\n"
   syntax:
-    content: Report = 9
+    content: public const TaskType Report
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const Report As TaskType
   modifiers.csharp:
   - public
   - const
@@ -343,9 +389,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: All&apos; choice for Saint, every activity is recorded under this type as well as the specific type. This is NOT an acceptable value for an individual activity\n"
   syntax:
-    content: SaintAll = 10
+    content: public const TaskType SaintAll
     return:
       type: SuperOffice.Data.TaskType
+    content.vb: Public Const SaintAll As TaskType
   modifiers.csharp:
   - public
   - const
@@ -359,6 +406,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TaskType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -386,84 +440,6 @@ references:
     name: MapEnums(Of TaskType, To)
     nameWithType: EnumUtil.MapEnums(Of TaskType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TaskType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TaskType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TaskType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TaskType>(TaskType)
-  nameWithType: ObjectExtensions.AssignByReflection<TaskType>(TaskType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TaskType>(SuperOffice.Data.TaskType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TaskType)(TaskType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TaskType)(SuperOffice.Data.TaskType)
-  name.vb: AssignByReflection(Of TaskType)(TaskType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TaskType>
-    nameWithType: ObjectExtensions.AssignByReflection<TaskType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TaskType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TaskType
-    name: TaskType
-    nameWithType: TaskType
-    fullName: SuperOffice.Data.TaskType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TaskType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TaskType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TaskType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TaskType
-    name: TaskType
-    nameWithType: TaskType
-    fullName: SuperOffice.Data.TaskType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TaskType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TaskType>()
-  nameWithType: ObjectExtensions.GraphCopy<TaskType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TaskType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TaskType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TaskType)()
-  name.vb: GraphCopy(Of TaskType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TaskType>
-    nameWithType: ObjectExtensions.GraphCopy<TaskType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TaskType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TaskType)
-    nameWithType: ObjectExtensions.GraphCopy(Of TaskType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TaskType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -505,6 +481,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -550,103 +532,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -693,18 +578,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TaskType
   commentId: T:SuperOffice.Data.TaskType
   parent: SuperOffice.Data

@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EmailFromType
+  commentId: T:SuperOffice.Data.EmailFromType
+  id: EmailFromType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EmailFromType.FromOnlySpecified
+  - SuperOffice.Data.EmailFromType.FromSalesContact
+  - SuperOffice.Data.EmailFromType.FromSupportContact
+  - SuperOffice.Data.EmailFromType.value__
+  langs:
+  - csharp
+  - vb
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: SuperOffice.Data.EmailFromType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nEmail/Mailing From field address algorithm\nThis Enum is used by:  email_flow.from_type\n"
+  syntax:
+    content: 'public sealed class EmailFromType : Enum'
+    content.vb: >-
+      Public NotInheritable Class EmailFromType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.EmailFromType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.EmailFromType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.EmailFromType.value__
+  commentId: F:SuperOffice.Data.EmailFromType.value__
+  id: value__
+  parent: SuperOffice.Data.EmailFromType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EmailFromType.value__
+  fullName: SuperOffice.Data.EmailFromType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.EmailFromType.FromOnlySpecified
+  commentId: F:SuperOffice.Data.EmailFromType.FromOnlySpecified
+  id: FromOnlySpecified
+  parent: SuperOffice.Data.EmailFromType
+  langs:
+  - csharp
+  - vb
+  name: FromOnlySpecified
+  nameWithType: EmailFromType.FromOnlySpecified
+  fullName: SuperOffice.Data.EmailFromType.FromOnlySpecified
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: FromOnlySpecified\n"
+  syntax:
+    content: public const EmailFromType FromOnlySpecified
+    return:
+      type: SuperOffice.Data.EmailFromType
+    content.vb: Public Const FromOnlySpecified As EmailFromType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EmailFromType.FromSalesContact
+  commentId: F:SuperOffice.Data.EmailFromType.FromSalesContact
+  id: FromSalesContact
+  parent: SuperOffice.Data.EmailFromType
+  langs:
+  - csharp
+  - vb
+  name: FromSalesContact
+  nameWithType: EmailFromType.FromSalesContact
+  fullName: SuperOffice.Data.EmailFromType.FromSalesContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: FromSalesContact\n"
+  syntax:
+    content: public const EmailFromType FromSalesContact
+    return:
+      type: SuperOffice.Data.EmailFromType
+    content.vb: Public Const FromSalesContact As EmailFromType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EmailFromType.FromSupportContact
+  commentId: F:SuperOffice.Data.EmailFromType.FromSupportContact
+  id: FromSupportContact
+  parent: SuperOffice.Data.EmailFromType
+  langs:
+  - csharp
+  - vb
+  name: FromSupportContact
+  nameWithType: EmailFromType.FromSupportContact
+  fullName: SuperOffice.Data.EmailFromType.FromSupportContact
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: FromSupportContact\n"
+  syntax:
+    content: public const EmailFromType FromSupportContact
+    return:
+      type: SuperOffice.Data.EmailFromType
+    content.vb: Public Const FromSupportContact As EmailFromType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.EmailFromType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EmailFromType, To>()
+  nameWithType: EnumUtil.MapEnums<EmailFromType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EmailFromType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EmailFromType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EmailFromType, To)()
+  name.vb: MapEnums(Of EmailFromType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EmailFromType, To>
+    nameWithType: EnumUtil.MapEnums<EmailFromType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.EmailFromType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EmailFromType, To)
+    nameWithType: EnumUtil.MapEnums(Of EmailFromType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EmailFromType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EmailFromType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EmailFromType, To>()
+  nameWithType: Converters.MapEnums<EmailFromType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EmailFromType, To>()
+  nameWithType.vb: Converters.MapEnums(Of EmailFromType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EmailFromType, To)()
+  name.vb: MapEnums(Of EmailFromType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EmailFromType, To>
+    nameWithType: Converters.MapEnums<EmailFromType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EmailFromType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EmailFromType, To)
+    nameWithType: Converters.MapEnums(Of EmailFromType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EmailFromType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.EmailFromType
+  commentId: T:SuperOffice.Data.EmailFromType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: SuperOffice.Data.EmailFromType

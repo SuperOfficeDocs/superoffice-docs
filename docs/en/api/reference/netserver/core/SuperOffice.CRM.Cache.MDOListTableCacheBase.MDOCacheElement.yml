@@ -1,0 +1,651 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  id: MDOListTableCacheBase.MDOCacheElement
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.#ctor
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: MDOListTableCacheBase.MDOCacheElement
+  nameWithType: MDOListTableCacheBase.MDOCacheElement
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nContainer for cached result set representing a row in a MDO Table\n"
+  syntax:
+    content: 'public sealed class MDOCacheElement : Object'
+    content.vb: >-
+      Public NotInheritable Class MDOCacheElement
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.#ctor
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  langs:
+  - csharp
+  - vb
+  name: MDOCacheElement()
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.MDOCacheElement()
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.MDOCacheElement()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public MDOCacheElement()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id
+  commentId: P:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id
+  id: Id
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Id
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nPrimary key of the row.\n"
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name
+  commentId: P:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name
+  id: Name
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Name
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nName of the item.\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip
+  commentId: P:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Tooltip
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nTooltip for the item.\n"
+  syntax:
+    content: public string Tooltip { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Tooltip As String
+  overload: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank
+  commentId: P:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Rank
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nRank of the item.\n"
+  syntax:
+    content: public int Rank { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Rank As Integer
+  overload: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted
+  commentId: P:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.IsDeleted
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nIs the item deleted?\n"
+  syntax:
+    content: public bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDeleted As Boolean
+  overload: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MDOListTableCacheBase.MDOCacheElement, To>()
+  nameWithType: EnumUtil.MapEnums<MDOListTableCacheBase.MDOCacheElement, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To)()
+  name.vb: MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MDOListTableCacheBase.MDOCacheElement, To>
+    nameWithType: EnumUtil.MapEnums<MDOListTableCacheBase.MDOCacheElement, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)
+    nameWithType: EnumUtil.MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<MDOListTableCacheBase.MDOCacheElement>(MDOListTableCacheBase.MDOCacheElement)
+  nameWithType: ObjectExtensions.AssignByReflection<MDOListTableCacheBase.MDOCacheElement>(MDOListTableCacheBase.MDOCacheElement)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement>(SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MDOListTableCacheBase.MDOCacheElement)(MDOListTableCacheBase.MDOCacheElement)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)(SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)
+  name.vb: AssignByReflection(Of MDOListTableCacheBase.MDOCacheElement)(MDOListTableCacheBase.MDOCacheElement)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MDOListTableCacheBase.MDOCacheElement>
+    nameWithType: ObjectExtensions.AssignByReflection<MDOListTableCacheBase.MDOCacheElement>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+    name: MDOListTableCacheBase.MDOCacheElement
+    nameWithType: MDOListTableCacheBase.MDOCacheElement
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MDOListTableCacheBase.MDOCacheElement)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MDOListTableCacheBase.MDOCacheElement)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+    name: MDOListTableCacheBase.MDOCacheElement
+    nameWithType: MDOListTableCacheBase.MDOCacheElement
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<MDOListTableCacheBase.MDOCacheElement>()
+  nameWithType: ObjectExtensions.GraphCopy<MDOListTableCacheBase.MDOCacheElement>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MDOListTableCacheBase.MDOCacheElement)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)()
+  name.vb: GraphCopy(Of MDOListTableCacheBase.MDOCacheElement)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MDOListTableCacheBase.MDOCacheElement>
+    nameWithType: ObjectExtensions.GraphCopy<MDOListTableCacheBase.MDOCacheElement>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MDOListTableCacheBase.MDOCacheElement)
+    nameWithType: ObjectExtensions.GraphCopy(Of MDOListTableCacheBase.MDOCacheElement)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MDOListTableCacheBase.MDOCacheElement, To>()
+  nameWithType: Converters.MapEnums<MDOListTableCacheBase.MDOCacheElement, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To>()
+  nameWithType.vb: Converters.MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To)()
+  name.vb: MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MDOListTableCacheBase.MDOCacheElement, To>
+    nameWithType: Converters.MapEnums<MDOListTableCacheBase.MDOCacheElement, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)
+    nameWithType: Converters.MapEnums(Of MDOListTableCacheBase.MDOCacheElement, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.#ctor
+  isExternal: true
+  name: MDOCacheElement
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.MDOCacheElement
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.MDOCacheElement
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id
+  isExternal: true
+  name: Id
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Id
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Name
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Tooltip
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Tooltip
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.Rank
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.Rank
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted
+  isExternal: true
+  name: IsDeleted
+  nameWithType: MDOListTableCacheBase.MDOCacheElement.IsDeleted
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.IsDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

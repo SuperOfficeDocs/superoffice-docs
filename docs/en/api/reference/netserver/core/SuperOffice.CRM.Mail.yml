@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Mail.MessageStoreSession
   - SuperOffice.CRM.Mail.OutgoingMailSession
   - SuperOffice.CRM.Mail.RecipentList
+  - SuperOffice.CRM.Mail.SendMailHelper
   - SuperOffice.CRM.Mail.SendMailQueue
   - SuperOffice.CRM.Mail.SendMailQueueArgument
   - SuperOffice.CRM.Mail.SendMailQueueProcessor
@@ -166,6 +167,12 @@ references:
   name: OutgoingMailSession
   nameWithType: OutgoingMailSession
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession
+- uid: SuperOffice.CRM.Mail.SendMailHelper
+  commentId: T:SuperOffice.CRM.Mail.SendMailHelper
+  isExternal: true
+  name: SendMailHelper
+  nameWithType: SendMailHelper
+  fullName: SuperOffice.CRM.Mail.SendMailHelper
 - uid: SuperOffice.CRM.Mail.SendMailQueueArgument
   commentId: T:SuperOffice.CRM.Mail.SendMailQueueArgument
   parent: SuperOffice.CRM.Mail

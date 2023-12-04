@@ -8,9 +8,10 @@ items:
   - SuperOffice.CRM.Security.TicketSentry.#ctor(SuperOffice.CRM.Data.TicketTableInfo)
   - SuperOffice.CRM.Security.TicketSentry.#ctor(SuperOffice.CRM.Data.TicketTableInfo,SuperOffice.CRM.Security.ISoDataLookup)
   - SuperOffice.CRM.Security.TicketSentry.AssociateId
+  - SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights
   - SuperOffice.CRM.Security.TicketSentry.ComputeFieldRights
   - SuperOffice.CRM.Security.TicketSentry.ComputeTableRights
-  - SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  - SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
   - SuperOffice.CRM.Security.TicketSentry.GetRowSentry
   - SuperOffice.CRM.Security.TicketSentry.GetTableInfoFromQuery``1
   - SuperOffice.CRM.Security.TicketSentry.GroupId
@@ -41,7 +42,9 @@ items:
     content: 'public class TicketSentry : Sentry<TicketTableInfo>, ICloneable'
     content.vb: >-
       Public Class TicketSentry
+
           Inherits Sentry(Of TicketTableInfo)
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -52,7 +55,6 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.InterestedInAnyInstanceOf``1
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.ComputeDerivedTableRights
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.SuperComputeDerivedTableRights
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.ComputeDerivedTableRight(SuperOffice.CRM.Security.TableRight)
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.SuperComputeTableRights
@@ -77,8 +79,10 @@ items:
   - SuperOffice.CRM.Security.Sentry.DemandPlugins
   - SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+  - SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+  - SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
   - SuperOffice.CRM.Security.Sentry.IgnoreSentry
-  - SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
   - SuperOffice.CRM.Security.Sentry.IterateLookups(SuperOffice.CRM.Security.LookupCollection)
   - SuperOffice.CRM.Security.Sentry.GetIntField(SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.Security.Sentry.GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo[])
@@ -108,12 +112,6 @@ items:
   - SuperOffice.CRM.Security.Sentry.Lookups
   - SuperOffice.CRM.Security.Sentry.Parent
   - SuperOffice.CRM.Security.Sentry.Registered
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Security.TicketSentry.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Security.TicketSentry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -200,7 +198,8 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nComputes table rights for Ticket tables.\nDeny read rights to private Tickets that belong to others.\nDeny update rights to completed Tickets.\nGrant update+insert+delete rights to own Tickets.\n"
+  summary: "\nComputes table rights for Ticket tables.\n"
+  remarks: "\nThe actual rights impact the ticket and ej_message tables, primarily. The rights calculations are\nperformed three times to catch the differences between List/View/Edit intents (a concept unusual to\nNetServer); those results are then mapped onto table rights\n"
   syntax:
     content: protected override void ComputeTableRights()
     content.vb: Protected Overrides Sub ComputeTableRights
@@ -212,16 +211,16 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
-  commentId: M:SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
-  id: EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+- uid: SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights
+  commentId: M:SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights
+  id: ComputeDerivedTableRights
   parent: SuperOffice.CRM.Security.TicketSentry
   langs:
   - csharp
   - vb
-  name: EvaluateTicketRights(TableRight, Int32, Int32, Int32, TicketSentry.TicketIntent)
-  nameWithType: TicketSentry.EvaluateTicketRights(TableRight, Int32, Int32, Int32, TicketSentry.TicketIntent)
-  fullName: SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight, System.Int32, System.Int32, System.Int32, SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  name: ComputeDerivedTableRights()
+  nameWithType: TicketSentry.ComputeDerivedTableRights()
+  fullName: SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights()
   type: Method
   source:
     path: SoDataBase
@@ -229,9 +228,38 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: "\nThe ticket rights calculation, available as a static method, with selectable intent. Sentry defaults to the &quot;lowest&quot; which is List\n"
+  summary: "\nSet correct rights on derived tables (tables we&apos;re responsible for, that are not the ticket table)\n"
   syntax:
-    content: public static (ETableRight right, string reason) EvaluateTicketRights(TableRight initialRight, int rowid, int ownedBy, int category, TicketSentry.TicketIntent intent = TicketSentry.TicketIntent.List)
+    content: protected override void ComputeDerivedTableRights()
+    content.vb: Protected Overrides Sub ComputeDerivedTableRights
+  overridden: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.ComputeDerivedTableRights
+  overload: SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  commentId: M:SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  id: EvaluateTicketRights(SuperOffice.CRM.Security.TableRight,System.Int32,System.Int32,System.Int32,System.DateTime,System.Int32,SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  parent: SuperOffice.CRM.Security.TicketSentry
+  langs:
+  - csharp
+  - vb
+  name: EvaluateTicketRights(TableRight, Int32, Int32, Int32, DateTime, Int32, TicketSentry.TicketIntent)
+  nameWithType: TicketSentry.EvaluateTicketRights(TableRight, Int32, Int32, Int32, DateTime, Int32, TicketSentry.TicketIntent)
+  fullName: SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights(SuperOffice.CRM.Security.TableRight, System.Int32, System.Int32, System.Int32, System.DateTime, System.Int32, SuperOffice.CRM.Security.TicketSentry.TicketIntent)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe ticket rights calculation, available as a static method, with selectable intent. Sentry looks at all three and maps them to table rights\n"
+  syntax:
+    content: public static ValueTuple<ETableRight, string> EvaluateTicketRights(TableRight initialRight, int rowid, int ownedBy, int category, DateTime createdAt, int createdBy, TicketSentry.TicketIntent intent)
     parameters:
     - id: initialRight
       type: SuperOffice.CRM.Security.TableRight
@@ -245,12 +273,16 @@ items:
     - id: category
       type: System.Int32
       description: Category of ticket row
+    - id: createdAt
+      type: System.DateTime
+    - id: createdBy
+      type: System.Int32
     - id: intent
       type: SuperOffice.CRM.Security.TicketSentry.TicketIntent
       description: What is the intended use, which affects the calculations
     return:
       type: System.ValueTuple{SuperOffice.Data.ETableRight,System.String}
-    content.vb: Public Shared Function EvaluateTicketRights(initialRight As TableRight, rowid As Integer, ownedBy As Integer, category As Integer, intent As TicketSentry.TicketIntent = TicketSentry.TicketIntent.List) As(right As ETableRight, reason As String)
+    content.vb: Public Shared Function EvaluateTicketRights(initialRight As TableRight, rowid As Integer, ownedBy As Integer, category As Integer, createdAt As DateTime, createdBy As Integer, intent As TicketSentry.TicketIntent) As ValueTuple(Of ETableRight, String)
   overload: SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights*
   modifiers.csharp:
   - public
@@ -275,6 +307,8 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
+  summary: "\nAny special field right calculations go here\n"
+  remarks: "\nIf we ever decide that ej_message:None means that ticket.numMessages should be masked, then this is the place to do that\n"
   syntax:
     content: protected override void ComputeFieldRights()
     content.vb: Protected Overrides Sub ComputeFieldRights
@@ -307,6 +341,7 @@ items:
   syntax:
     content: >-
       protected List<TargetTableInfo> GetTableInfoFromQuery<TargetTableInfo>()
+
           where TargetTableInfo : TableInfo
     typeParameters:
     - id: TargetTableInfo
@@ -690,8 +725,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -766,39 +799,6 @@ references:
     name: InterestedInAnyInstanceOf(Of T)
     nameWithType: Sentry(Of TicketTableInfo).InterestedInAnyInstanceOf(Of T)
     fullName: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.TicketTableInfo).InterestedInAnyInstanceOf(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.ComputeDerivedTableRights
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.ComputeDerivedTableRights
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}
-  definition: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
-  name: ComputeDerivedTableRights()
-  nameWithType: Sentry<TicketTableInfo>.ComputeDerivedTableRights()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.TicketTableInfo>.ComputeDerivedTableRights()
-  nameWithType.vb: Sentry(Of TicketTableInfo).ComputeDerivedTableRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.TicketTableInfo).ComputeDerivedTableRights()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
-    name: ComputeDerivedTableRights
-    nameWithType: Sentry<TicketTableInfo>.ComputeDerivedTableRights
-    fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.TicketTableInfo>.ComputeDerivedTableRights
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
-    name: ComputeDerivedTableRights
-    nameWithType: Sentry(Of TicketTableInfo).ComputeDerivedTableRights
-    fullName: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.TicketTableInfo).ComputeDerivedTableRights
     isExternal: true
   - name: (
     nameWithType: (
@@ -1493,6 +1493,99 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  isExternal: true
+  name: BeginIgnoreSentry()
+  nameWithType: Sentry.BeginIgnoreSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+    name: BeginIgnoreSentry
+    nameWithType: Sentry.BeginIgnoreSentry
+    fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+    name: BeginIgnoreSentry
+    nameWithType: Sentry.BeginIgnoreSentry
+    fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  isExternal: true
+  name: BeginIgnoreRowSentry()
+  nameWithType: Sentry.BeginIgnoreRowSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+    name: BeginIgnoreRowSentry
+    nameWithType: Sentry.BeginIgnoreRowSentry
+    fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+    name: BeginIgnoreRowSentry
+    nameWithType: Sentry.BeginIgnoreRowSentry
+    fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  isExternal: true
+  name: IgnoreRowSentry()
+  nameWithType: Sentry.IgnoreRowSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+    name: IgnoreRowSentry
+    nameWithType: Sentry.IgnoreRowSentry
+    fullName: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+    name: IgnoreRowSentry
+    nameWithType: Sentry.IgnoreRowSentry
+    fullName: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.Sentry.IgnoreSentry
   commentId: M:SuperOffice.CRM.Security.Sentry.IgnoreSentry
   parent: SuperOffice.CRM.Security.Sentry
@@ -1517,39 +1610,6 @@ references:
     name: IgnoreSentry
     nameWithType: Sentry.IgnoreSentry
     fullName: SuperOffice.CRM.Security.Sentry.IgnoreSentry
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
-  commentId: M:SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
-  parent: SuperOffice.CRM.Security.Sentry
-  isExternal: true
-  name: ICloneable.Clone()
-  nameWithType: Sentry.ICloneable.Clone()
-  fullName: SuperOffice.CRM.Security.Sentry.System.ICloneable.Clone()
-  nameWithType.vb: Sentry.System.ICloneable.Clone()
-  name.vb: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
-    name: ICloneable.Clone
-    nameWithType: Sentry.ICloneable.Clone
-    fullName: SuperOffice.CRM.Security.Sentry.System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
-    name: System.ICloneable.Clone
-    nameWithType: Sentry.System.ICloneable.Clone
-    fullName: SuperOffice.CRM.Security.Sentry.System.ICloneable.Clone
     isExternal: true
   - name: (
     nameWithType: (
@@ -2811,254 +2871,6 @@ references:
   name: Registered
   nameWithType: Sentry.Registered
   fullName: SuperOffice.CRM.Security.Sentry.Registered
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.TicketSentry.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -3240,38 +3052,6 @@ references:
     name: InterestedInAnyInstanceOf(Of T)
     nameWithType: Sentry(Of TMainTable).InterestedInAnyInstanceOf(Of T)
     fullName: SuperOffice.CRM.Security.Sentry(Of TMainTable).InterestedInAnyInstanceOf(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
-  commentId: M:SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
-  isExternal: true
-  name: ComputeDerivedTableRights()
-  nameWithType: Sentry<TMainTable>.ComputeDerivedTableRights()
-  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ComputeDerivedTableRights()
-  nameWithType.vb: Sentry(Of TMainTable).ComputeDerivedTableRights()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ComputeDerivedTableRights()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
-    name: ComputeDerivedTableRights
-    nameWithType: Sentry<TMainTable>.ComputeDerivedTableRights
-    fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ComputeDerivedTableRights
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
-    name: ComputeDerivedTableRights
-    nameWithType: Sentry(Of TMainTable).ComputeDerivedTableRights
-    fullName: SuperOffice.CRM.Security.Sentry(Of TMainTable).ComputeDerivedTableRights
     isExternal: true
   - name: (
     nameWithType: (
@@ -3996,6 +3776,77 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.ComputeDerivedTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}.ComputeDerivedTableRights
+  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.TicketTableInfo}
+  definition: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
+  name: ComputeDerivedTableRights()
+  nameWithType: Sentry<TicketTableInfo>.ComputeDerivedTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.TicketTableInfo>.ComputeDerivedTableRights()
+  nameWithType.vb: Sentry(Of TicketTableInfo).ComputeDerivedTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.TicketTableInfo).ComputeDerivedTableRights()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
+    name: ComputeDerivedTableRights
+    nameWithType: Sentry<TicketTableInfo>.ComputeDerivedTableRights
+    fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.TicketTableInfo>.ComputeDerivedTableRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
+    name: ComputeDerivedTableRights
+    nameWithType: Sentry(Of TicketTableInfo).ComputeDerivedTableRights
+    fullName: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.TicketTableInfo).ComputeDerivedTableRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights*
+  commentId: Overload:SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights
+  isExternal: true
+  name: ComputeDerivedTableRights
+  nameWithType: TicketSentry.ComputeDerivedTableRights
+  fullName: SuperOffice.CRM.Security.TicketSentry.ComputeDerivedTableRights
+- uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
+  isExternal: true
+  name: ComputeDerivedTableRights()
+  nameWithType: Sentry<TMainTable>.ComputeDerivedTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ComputeDerivedTableRights()
+  nameWithType.vb: Sentry(Of TMainTable).ComputeDerivedTableRights()
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ComputeDerivedTableRights()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
+    name: ComputeDerivedTableRights
+    nameWithType: Sentry<TMainTable>.ComputeDerivedTableRights
+    fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ComputeDerivedTableRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry`1.ComputeDerivedTableRights
+    name: ComputeDerivedTableRights
+    nameWithType: Sentry(Of TMainTable).ComputeDerivedTableRights
+    fullName: SuperOffice.CRM.Security.Sentry(Of TMainTable).ComputeDerivedTableRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights*
   commentId: Overload:SuperOffice.CRM.Security.TicketSentry.EvaluateTicketRights
   isExternal: true
@@ -4016,6 +3867,11 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: SuperOffice.CRM.Security.TicketSentry.TicketIntent
   commentId: T:SuperOffice.CRM.Security.TicketSentry.TicketIntent
   parent: SuperOffice.CRM.Security
@@ -4024,9 +3880,8 @@ references:
   nameWithType: TicketSentry.TicketIntent
   fullName: SuperOffice.CRM.Security.TicketSentry.TicketIntent
 - uid: System.ValueTuple{SuperOffice.Data.ETableRight,System.String}
-  commentId: T:System.ValueTuple{SuperOffice.Data.ETableRight,System.String}
-  parent: System
-  isExternal: true
+  commentId: '!:System.ValueTuple{SuperOffice.Data.ETableRight,System.String}'
+  definition: System.ValueTuple`2
   name: ValueTuple<ETableRight, String>
   nameWithType: ValueTuple<ETableRight, String>
   fullName: System.ValueTuple<SuperOffice.Data.ETableRight, System.String>
@@ -4080,6 +3935,56 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`2
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4161,8 +4066,7 @@ references:
   nameWithType: TicketSentry.GetTableInfoFromQuery
   fullName: SuperOffice.CRM.Security.TicketSentry.GetTableInfoFromQuery
 - uid: System.Collections.Generic.List{{TargetTableInfo}}
-  commentId: T:System.Collections.Generic.List{``0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{``0}'
   definition: System.Collections.Generic.List`1
   name: List<TargetTableInfo>
   nameWithType: List<TargetTableInfo>
@@ -4201,14 +4105,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -4218,9 +4121,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4233,18 +4136,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Security.Sentry.GetRowSentry
   commentId: M:SuperOffice.CRM.Security.Sentry.GetRowSentry
   parent: SuperOffice.CRM.Security.Sentry

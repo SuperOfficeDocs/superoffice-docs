@@ -1,0 +1,768 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings
+  commentId: T:SuperOffice.CRM.Workflow.CreateRequestSettings
+  id: CreateRequestSettings
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.#ctor
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.Category
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.Message
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.Owner
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.Priority
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.Status
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.Title
+  langs:
+  - csharp
+  - vb
+  name: CreateRequestSettings
+  nameWithType: CreateRequestSettings
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class CreateRequestSettings : StepSettings'
+    content.vb: >-
+      Public Class CreateRequestSettings
+
+          Inherits StepSettings
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Workflow.StepSettings
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.CreateRequestSettings)
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.CreateRequestSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.CreateRequestSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: CreateRequestSettings()
+  nameWithType: CreateRequestSettings.CreateRequestSettings()
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.CreateRequestSettings()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public CreateRequestSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Title
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.Title
+  id: Title
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CreateRequestSettings.Title
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Title
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Category
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.Category
+  id: Category
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: CreateRequestSettings.Category
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Category
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Category { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Category As Integer
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.Category*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Status
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.Status
+  id: Status
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: CreateRequestSettings.Status
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Status
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public TicketBaseStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketBaseStatus
+    content.vb: Public Property Status As TicketBaseStatus
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus
+  id: TicketStatus
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: TicketStatus
+  nameWithType: CreateRequestSettings.TicketStatus
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int TicketStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketStatus As Integer
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType
+  id: RequestType
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: RequestType
+  nameWithType: CreateRequestSettings.RequestType
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int RequestType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RequestType As Integer
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Priority
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: CreateRequestSettings.Priority
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Priority
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Owner
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.Owner
+  id: Owner
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: CreateRequestSettings.Owner
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Owner
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Owner As Integer
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.Owner*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Message
+  commentId: P:SuperOffice.CRM.Workflow.CreateRequestSettings.Message
+  id: Message
+  parent: SuperOffice.CRM.Workflow.CreateRequestSettings
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: CreateRequestSettings.Message
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Message
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: SuperOffice.CRM.Workflow.CreateRequestSettings.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.StepSettings
+  commentId: T:SuperOffice.CRM.Workflow.StepSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: StepSettings
+  nameWithType: StepSettings
+  fullName: SuperOffice.CRM.Workflow.StepSettings
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CreateRequestSettings, To>()
+  nameWithType: EnumUtil.MapEnums<CreateRequestSettings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.CreateRequestSettings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CreateRequestSettings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.CreateRequestSettings, To)()
+  name.vb: MapEnums(Of CreateRequestSettings, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CreateRequestSettings, To>
+    nameWithType: EnumUtil.MapEnums<CreateRequestSettings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.CreateRequestSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CreateRequestSettings, To)
+    nameWithType: EnumUtil.MapEnums(Of CreateRequestSettings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.CreateRequestSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.CreateRequestSettings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CreateRequestSettings>(CreateRequestSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<CreateRequestSettings>(CreateRequestSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.CreateRequestSettings>(SuperOffice.CRM.Workflow.CreateRequestSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CreateRequestSettings)(CreateRequestSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.CreateRequestSettings)(SuperOffice.CRM.Workflow.CreateRequestSettings)
+  name.vb: AssignByReflection(Of CreateRequestSettings)(CreateRequestSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CreateRequestSettings>
+    nameWithType: ObjectExtensions.AssignByReflection<CreateRequestSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.CreateRequestSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.CreateRequestSettings
+    name: CreateRequestSettings
+    nameWithType: CreateRequestSettings
+    fullName: SuperOffice.CRM.Workflow.CreateRequestSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CreateRequestSettings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CreateRequestSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.CreateRequestSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.CreateRequestSettings
+    name: CreateRequestSettings
+    nameWithType: CreateRequestSettings
+    fullName: SuperOffice.CRM.Workflow.CreateRequestSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CreateRequestSettings>()
+  nameWithType: ObjectExtensions.GraphCopy<CreateRequestSettings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.CreateRequestSettings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CreateRequestSettings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.CreateRequestSettings)()
+  name.vb: GraphCopy(Of CreateRequestSettings)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CreateRequestSettings>
+    nameWithType: ObjectExtensions.GraphCopy<CreateRequestSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.CreateRequestSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CreateRequestSettings)
+    nameWithType: ObjectExtensions.GraphCopy(Of CreateRequestSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.CreateRequestSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CreateRequestSettings, To>()
+  nameWithType: Converters.MapEnums<CreateRequestSettings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.CreateRequestSettings, To>()
+  nameWithType.vb: Converters.MapEnums(Of CreateRequestSettings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.CreateRequestSettings, To)()
+  name.vb: MapEnums(Of CreateRequestSettings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CreateRequestSettings, To>
+    nameWithType: Converters.MapEnums<CreateRequestSettings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.CreateRequestSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CreateRequestSettings, To)
+    nameWithType: Converters.MapEnums(Of CreateRequestSettings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.CreateRequestSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.#ctor
+  isExternal: true
+  name: CreateRequestSettings
+  nameWithType: CreateRequestSettings.CreateRequestSettings
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.CreateRequestSettings
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Title*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.Title
+  isExternal: true
+  name: Title
+  nameWithType: CreateRequestSettings.Title
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Category*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.Category
+  isExternal: true
+  name: Category
+  nameWithType: CreateRequestSettings.Category
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Category
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Status*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.Status
+  isExternal: true
+  name: Status
+  nameWithType: CreateRequestSettings.Status
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Status
+- uid: SuperOffice.Data.TicketBaseStatus
+  commentId: T:SuperOffice.Data.TicketBaseStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: SuperOffice.Data.TicketBaseStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus
+  isExternal: true
+  name: TicketStatus
+  nameWithType: CreateRequestSettings.TicketStatus
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.TicketStatus
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType
+  isExternal: true
+  name: RequestType
+  nameWithType: CreateRequestSettings.RequestType
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.RequestType
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Priority*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: CreateRequestSettings.Priority
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Priority
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Owner*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: CreateRequestSettings.Owner
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Owner
+- uid: SuperOffice.CRM.Workflow.CreateRequestSettings.Message*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateRequestSettings.Message
+  isExternal: true
+  name: Message
+  nameWithType: CreateRequestSettings.Message
+  fullName: SuperOffice.CRM.Workflow.CreateRequestSettings.Message

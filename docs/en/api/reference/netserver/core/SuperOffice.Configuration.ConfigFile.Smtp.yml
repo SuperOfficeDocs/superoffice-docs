@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Smtp
+  commentId: T:SuperOffice.Configuration.ConfigFile.Smtp
+  id: ConfigFile.Smtp
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Smtp.MailingURI
+  - SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain
+  - SuperOffice.Configuration.ConfigFile.Smtp.TicketURI
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Smtp
+  nameWithType: ConfigFile.Smtp
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSMTP information for sending emails. Note that these properties cannot be set from the web.config file, as they will be read from the config table instead, or overridden in Online\n"
+  syntax:
+    content: 'public static class Smtp : Object'
+    content.vb: >-
+      Public Module Smtp
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Smtp.TicketURI
+  commentId: P:SuperOffice.Configuration.ConfigFile.Smtp.TicketURI
+  id: TicketURI
+  parent: SuperOffice.Configuration.ConfigFile.Smtp
+  langs:
+  - csharp
+  - vb
+  name: TicketURI
+  nameWithType: ConfigFile.Smtp.TicketURI
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp.TicketURI
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe URI for the SMTP connection used for ticketing system\n"
+  syntax:
+    content: public static string TicketURI { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property TicketURI As String
+  overload: SuperOffice.Configuration.ConfigFile.Smtp.TicketURI*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Smtp.MailingURI
+  commentId: P:SuperOffice.Configuration.ConfigFile.Smtp.MailingURI
+  id: MailingURI
+  parent: SuperOffice.Configuration.ConfigFile.Smtp
+  langs:
+  - csharp
+  - vb
+  name: MailingURI
+  nameWithType: ConfigFile.Smtp.MailingURI
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp.MailingURI
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe URI for the SMTP connection used for mailing system\n"
+  syntax:
+    content: public static string MailingURI { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property MailingURI As String
+  overload: SuperOffice.Configuration.ConfigFile.Smtp.MailingURI*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain
+  commentId: P:SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain
+  id: SpfDomain
+  parent: SuperOffice.Configuration.ConfigFile.Smtp
+  langs:
+  - csharp
+  - vb
+  name: SpfDomain
+  nameWithType: ConfigFile.Smtp.SpfDomain
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe SPF domain used when sending out emails (Online Only)\n"
+  syntax:
+    content: public static string SpfDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property SpfDomain As String
+  overload: SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Smtp.TicketURI*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Smtp.TicketURI
+  isExternal: true
+  name: TicketURI
+  nameWithType: ConfigFile.Smtp.TicketURI
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp.TicketURI
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Smtp.MailingURI*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Smtp.MailingURI
+  isExternal: true
+  name: MailingURI
+  nameWithType: ConfigFile.Smtp.MailingURI
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp.MailingURI
+- uid: SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain
+  isExternal: true
+  name: SpfDomain
+  nameWithType: ConfigFile.Smtp.SpfDomain
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp.SpfDomain

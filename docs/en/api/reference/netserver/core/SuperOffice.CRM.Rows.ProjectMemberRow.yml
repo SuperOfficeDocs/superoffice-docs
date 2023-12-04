@@ -41,6 +41,28 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRow._persistedUpdated
   - SuperOffice.CRM.Rows.ProjectMemberRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.ProjectMemberRow._persistedUpdatedCount
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
   - SuperOffice.CRM.Rows.ProjectMemberRow.ContactId
   - SuperOffice.CRM.Rows.ProjectMemberRow.CreateNew
   - SuperOffice.CRM.Rows.ProjectMemberRow.GetFromCustomSearch(SuperOffice.CRM.Rows.ProjectMemberRow.CustomSearch)
@@ -77,6 +99,28 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRow.Rank
   - SuperOffice.CRM.Rows.ProjectMemberRow.Registered
   - SuperOffice.CRM.Rows.ProjectMemberRow.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
   - SuperOffice.CRM.Rows.ProjectMemberRow.Reset
   - SuperOffice.CRM.Rows.ProjectMemberRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   - SuperOffice.CRM.Rows.ProjectMemberRow.SetPrimaryKey(System.Int32)
@@ -107,7 +151,9 @@ items:
     content: 'public class ProjectMemberRow : TableRowBase, INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem'
     content.vb: >-
       Public Class ProjectMemberRow
+
           Inherits TableRowBase
+
           Implements INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem
   inheritance:
   - System.Object
@@ -122,8 +168,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowBase._saveOwner
   - SuperOffice.CRM.Rows.TableRowBase._sentries
-  - SuperOffice.CRM.Rows.TableRowBase._onValueChange
   - SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+  - SuperOffice.CRM.Rows.TableRowBase._isSaving
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
@@ -142,6 +188,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Rows.TableRowBase.Validate
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice#Data#INestedPersist#OnPreIdUpdate
@@ -166,13 +216,17 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SqlType
   - SuperOffice.CRM.Rows.TableRowBase.IsSentryIgnored
   - SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
   - SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   - SuperOffice.CRM.Rows.TableRowBase.OnElementIdUpdate
   - SuperOffice.Data.SQL.PrivateSave.GetTableInfos
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -184,17 +238,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ProjectMemberRow.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.ProjectMemberRow.SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.ProjectMemberRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -413,7 +462,7 @@ items:
     content: protected DateTime _persistedRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _persistedRegistered As Date
+    content.vb: Protected _persistedRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -467,7 +516,7 @@ items:
     content: protected DateTime _persistedUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _persistedUpdated As Date
+    content.vb: Protected _persistedUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -737,7 +786,7 @@ items:
     content: protected DateTime _currentRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _currentRegistered As Date
+    content.vb: Protected _currentRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -791,7 +840,7 @@ items:
     content: protected DateTime _currentUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _currentUpdated As Date
+    content.vb: Protected _currentUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -850,6 +899,688 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onProjectIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add__onProjectIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onProjectIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub add__onProjectIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange*
+  nameWithType.vb: ProjectMemberRow.add__onProjectIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add__onProjectIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onProjectIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove__onProjectIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onProjectIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub remove__onProjectIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange*
+  nameWithType.vb: ProjectMemberRow.remove__onProjectIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove__onProjectIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onContactIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add__onContactIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onContactIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub add__onContactIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange*
+  nameWithType.vb: ProjectMemberRow.add__onContactIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add__onContactIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onContactIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove__onContactIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onContactIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub remove__onContactIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange*
+  nameWithType.vb: ProjectMemberRow.remove__onContactIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove__onContactIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onPersonIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add__onPersonIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onPersonIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub add__onPersonIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange*
+  nameWithType.vb: ProjectMemberRow.add__onPersonIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add__onPersonIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onPersonIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove__onPersonIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onPersonIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub remove__onPersonIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange*
+  nameWithType.vb: ProjectMemberRow.remove__onPersonIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove__onPersonIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: add__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onRankChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.add__onRankChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onRankChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Sub add__onRankChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange*
+  nameWithType.vb: ProjectMemberRow.add__onRankChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: add__onRankChange(OnFieldChange(Of Int16))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: remove__onRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onRankChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.remove__onRankChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onRankChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Sub remove__onRankChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange*
+  nameWithType.vb: ProjectMemberRow.remove__onRankChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: remove__onRankChange(OnFieldChange(Of Int16))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onMtypeIdxChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add__onMtypeIdxChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onMtypeIdxChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub add__onMtypeIdxChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange*
+  nameWithType.vb: ProjectMemberRow.add__onMtypeIdxChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add__onMtypeIdxChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onMtypeIdxChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove__onMtypeIdxChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onMtypeIdxChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub remove__onMtypeIdxChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange*
+  nameWithType.vb: ProjectMemberRow.remove__onMtypeIdxChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove__onMtypeIdxChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onTextIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add__onTextIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onTextIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub add__onTextIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange*
+  nameWithType.vb: ProjectMemberRow.add__onTextIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add__onTextIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onTextIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove__onTextIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onTextIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub remove__onTextIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange*
+  nameWithType.vb: ProjectMemberRow.remove__onTextIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove__onTextIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: add__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onRegisteredChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.add__onRegisteredChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onRegisteredChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Sub add__onRegisteredChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange*
+  nameWithType.vb: ProjectMemberRow.add__onRegisteredChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: add__onRegisteredChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: remove__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onRegisteredChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.remove__onRegisteredChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onRegisteredChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Sub remove__onRegisteredChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange*
+  nameWithType.vb: ProjectMemberRow.remove__onRegisteredChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: remove__onRegisteredChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add__onRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onRegisteredAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub add__onRegisteredAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.add__onRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add__onRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove__onRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onRegisteredAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub remove__onRegisteredAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.remove__onRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove__onRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: add__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onUpdatedChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.add__onUpdatedChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onUpdatedChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Sub add__onUpdatedChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange*
+  nameWithType.vb: ProjectMemberRow.add__onUpdatedChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: add__onUpdatedChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: remove__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onUpdatedChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.remove__onUpdatedChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onUpdatedChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Sub remove__onUpdatedChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange*
+  nameWithType.vb: ProjectMemberRow.remove__onUpdatedChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: remove__onUpdatedChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add__onUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onUpdatedAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub add__onUpdatedAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.add__onUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add__onUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove__onUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onUpdatedAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Sub remove__onUpdatedAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.remove__onUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove__onUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: add__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add__onUpdatedCountChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.add__onUpdatedCountChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onUpdatedCountChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Sub add__onUpdatedCountChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange*
+  nameWithType.vb: ProjectMemberRow.add__onUpdatedCountChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: add__onUpdatedCountChange(OnFieldChange(Of Int16))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: remove__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onUpdatedCountChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.remove__onUpdatedCountChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onUpdatedCountChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Protected Sub remove__onUpdatedCountChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange*
+  nameWithType.vb: ProjectMemberRow.remove__onUpdatedCountChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: remove__onUpdatedCountChange(OnFieldChange(Of Int16))
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -1186,7 +1917,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.ProjectMemberRow.ToString*
   modifiers.csharp:
   - public
@@ -1222,6 +1952,688 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnProjectIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add_OnProjectIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnProjectIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub add_OnProjectIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange*
+  nameWithType.vb: ProjectMemberRow.add_OnProjectIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add_OnProjectIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnProjectIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove_OnProjectIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnProjectIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub remove_OnProjectIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnProjectIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove_OnProjectIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnContactIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add_OnContactIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnContactIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub add_OnContactIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange*
+  nameWithType.vb: ProjectMemberRow.add_OnContactIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add_OnContactIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnContactIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove_OnContactIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnContactIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub remove_OnContactIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnContactIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove_OnContactIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnPersonIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add_OnPersonIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnPersonIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub add_OnPersonIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange*
+  nameWithType.vb: ProjectMemberRow.add_OnPersonIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add_OnPersonIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnPersonIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove_OnPersonIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnPersonIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub remove_OnPersonIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnPersonIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove_OnPersonIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: add_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnRankChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.add_OnRankChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnRankChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Sub add_OnRankChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange*
+  nameWithType.vb: ProjectMemberRow.add_OnRankChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: add_OnRankChange(OnFieldChange(Of Int16))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: remove_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnRankChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.remove_OnRankChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnRankChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Sub remove_OnRankChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnRankChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: remove_OnRankChange(OnFieldChange(Of Int16))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnMtypeIdxChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add_OnMtypeIdxChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnMtypeIdxChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub add_OnMtypeIdxChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange*
+  nameWithType.vb: ProjectMemberRow.add_OnMtypeIdxChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add_OnMtypeIdxChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnMtypeIdxChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove_OnMtypeIdxChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnMtypeIdxChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub remove_OnMtypeIdxChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnMtypeIdxChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove_OnMtypeIdxChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnTextIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add_OnTextIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnTextIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub add_OnTextIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange*
+  nameWithType.vb: ProjectMemberRow.add_OnTextIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add_OnTextIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnTextIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove_OnTextIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnTextIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub remove_OnTextIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnTextIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove_OnTextIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: add_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnRegisteredChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.add_OnRegisteredChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnRegisteredChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Sub add_OnRegisteredChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange*
+  nameWithType.vb: ProjectMemberRow.add_OnRegisteredChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: add_OnRegisteredChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: remove_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnRegisteredChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.remove_OnRegisteredChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnRegisteredChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Sub remove_OnRegisteredChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnRegisteredChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: remove_OnRegisteredChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add_OnRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnRegisteredAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub add_OnRegisteredAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.add_OnRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add_OnRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove_OnRegisteredAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnRegisteredAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub remove_OnRegisteredAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove_OnRegisteredAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: add_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnUpdatedChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.add_OnUpdatedChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnUpdatedChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Sub add_OnUpdatedChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange*
+  nameWithType.vb: ProjectMemberRow.add_OnUpdatedChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: add_OnUpdatedChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  id: remove_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnUpdatedChange(OnFieldChange<DateTime>)
+  nameWithType: ProjectMemberRow.remove_OnUpdatedChange(OnFieldChange<DateTime>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnUpdatedChange(OnFieldChange<DateTime> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Sub remove_OnUpdatedChange(value As OnFieldChange(Of DateTime))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnUpdatedChange(OnFieldChange(Of DateTime))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime))
+  name.vb: remove_OnUpdatedChange(OnFieldChange(Of DateTime))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: add_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.add_OnUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnUpdatedAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub add_OnUpdatedAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.add_OnUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: add_OnUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  id: remove_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  nameWithType: ProjectMemberRow.remove_OnUpdatedAssociateIdChange(OnFieldChange<Int32>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnUpdatedAssociateIdChange(OnFieldChange<int> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Sub remove_OnUpdatedAssociateIdChange(value As OnFieldChange(Of Integer))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
+  name.vb: remove_OnUpdatedAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: add_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnUpdatedCountChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.add_OnUpdatedCountChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnUpdatedCountChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Sub add_OnUpdatedCountChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange*
+  nameWithType.vb: ProjectMemberRow.add_OnUpdatedCountChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: add_OnUpdatedCountChange(OnFieldChange(Of Int16))
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  id: remove_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int16})
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnUpdatedCountChange(OnFieldChange<Int16>)
+  nameWithType: ProjectMemberRow.remove_OnUpdatedCountChange(OnFieldChange<Int16>)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange<System.Int16>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnUpdatedCountChange(OnFieldChange<short> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+    content.vb: Public Sub remove_OnUpdatedCountChange(value As OnFieldChange(Of Short))
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange*
+  nameWithType.vb: ProjectMemberRow.remove_OnUpdatedCountChange(OnFieldChange(Of Int16))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16))
+  name.vb: remove_OnUpdatedCountChange(OnFieldChange(Of Int16))
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow.Reset
   commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.Reset
   id: Reset
@@ -1720,7 +3132,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Primary key \n"
-  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>		\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
+  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>        \n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
   syntax:
     content: public virtual int ProjectmemberId { get; }
     parameters: []
@@ -1984,7 +3396,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Rows.ProjectMemberRow.Registered*
   exceptions:
   - type: SuperOffice.Exceptions.SoSentryException
@@ -2060,7 +3472,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Rows.ProjectMemberRow.Updated*
   exceptions:
   - type: SuperOffice.Exceptions.SoSentryException
@@ -2334,7 +3746,7 @@ items:
     content: protected event OnFieldChange<DateTime> _onRegisteredChange
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onRegisteredChange As OnFieldChange(Of Date)
+    content.vb: Protected Event _onRegisteredChange As OnFieldChange(Of DateTime)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2388,7 +3800,7 @@ items:
     content: protected event OnFieldChange<DateTime> _onUpdatedChange
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onUpdatedChange As OnFieldChange(Of Date)
+    content.vb: Protected Event _onUpdatedChange As OnFieldChange(Of DateTime)
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2631,7 +4043,7 @@ items:
     content: public event OnFieldChange<DateTime> OnRegisteredChange
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnRegisteredChange As OnFieldChange(Of Date)
+    content.vb: Public Event OnRegisteredChange As OnFieldChange(Of DateTime)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2685,7 +4097,7 @@ items:
     content: public event OnFieldChange<DateTime> OnUpdatedChange
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnUpdatedChange As OnFieldChange(Of Date)
+    content.vb: Public Event OnUpdatedChange As OnFieldChange(Of DateTime)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2821,13 +4233,6 @@ references:
   name: _sentries
   nameWithType: TableRowBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowBase._sentries
-- uid: SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  commentId: F:SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: _onValueChange
-  nameWithType: TableRowBase._onValueChange
-  fullName: SuperOffice.CRM.Rows.TableRowBase._onValueChange
 - uid: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -2835,6 +4240,13 @@ references:
   name: _relatedNestedPersistMembers
   nameWithType: TableRowBase._relatedNestedPersistMembers
   fullName: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+- uid: SuperOffice.CRM.Rows.TableRowBase._isSaving
+  commentId: F:SuperOffice.CRM.Rows.TableRowBase._isSaving
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: _isSaving
+  nameWithType: TableRowBase._isSaving
+  fullName: SuperOffice.CRM.Rows.TableRowBase._isSaving
 - uid: SuperOffice.CRM.Rows.TableRowBase._sqlType
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._sqlType
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -3573,6 +4985,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -4289,13 +5865,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: OnValueChanged
-  nameWithType: TableRowBase.OnValueChanged
-  fullName: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -4341,6 +5910,88 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -4372,6 +6023,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   commentId: E:SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -4386,6 +6101,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -4768,254 +6490,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -5149,6 +6623,37 @@ references:
     name: ExecuteNonQuery
     nameWithType: QueryExectionExtensions.ExecuteNonQuery
     fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjectMemberRow)
+  parent: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjectMemberRow)
+  name: ToRecordData()
+  nameWithType: ProjectMemberRecordDataExtensions.ToRecordData()
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: ProjectMemberRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: ProjectMemberRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
     isExternal: true
   - name: (
     nameWithType: (
@@ -5405,6 +6910,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjectMemberRow)
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjectMemberRow)
+  isExternal: true
+  name: ToRecordData(ProjectMemberRow)
+  nameWithType: ProjectMemberRecordDataExtensions.ToRecordData(ProjectMemberRow)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjectMemberRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjectMemberRow)
+    name: ToRecordData
+    nameWithType: ProjectMemberRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRow
+    name: ProjectMemberRow
+    nameWithType: ProjectMemberRow
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ProjectMemberRow)
+    name: ToRecordData
+    nameWithType: ProjectMemberRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRow
+    name: ProjectMemberRow
+    nameWithType: ProjectMemberRow
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ProjectMemberRecordDataExtensions
+  nameWithType: ProjectMemberRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -5472,12 +7024,313 @@ references:
   nameWithType: Int16
   fullName: System.Int16
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange
+  isExternal: true
+  name: add__onProjectIdChange
+  nameWithType: ProjectMemberRow.add__onProjectIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onProjectIdChange
+- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  name: OnFieldChange<Int32>
+  nameWithType: OnFieldChange<Int32>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
+  nameWithType.vb: OnFieldChange(Of Int32)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
+  name.vb: OnFieldChange(Of Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OnFieldChange`1
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
+  isExternal: true
+  name: OnFieldChange<TValue>
+  nameWithType: OnFieldChange<TValue>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
+  nameWithType.vb: OnFieldChange(Of TValue)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
+  name.vb: OnFieldChange(Of TValue)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange
+  isExternal: true
+  name: remove__onProjectIdChange
+  nameWithType: ProjectMemberRow.remove__onProjectIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onProjectIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange
+  isExternal: true
+  name: add__onContactIdChange
+  nameWithType: ProjectMemberRow.add__onContactIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onContactIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange
+  isExternal: true
+  name: remove__onContactIdChange
+  nameWithType: ProjectMemberRow.remove__onContactIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onContactIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange
+  isExternal: true
+  name: add__onPersonIdChange
+  nameWithType: ProjectMemberRow.add__onPersonIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onPersonIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange
+  isExternal: true
+  name: remove__onPersonIdChange
+  nameWithType: ProjectMemberRow.remove__onPersonIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onPersonIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange
+  isExternal: true
+  name: add__onRankChange
+  nameWithType: ProjectMemberRow.add__onRankChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRankChange
+- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  name: OnFieldChange<Int16>
+  nameWithType: OnFieldChange<Int16>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
+  nameWithType.vb: OnFieldChange(Of Int16)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
+  name.vb: OnFieldChange(Of Int16)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange
+  isExternal: true
+  name: remove__onRankChange
+  nameWithType: ProjectMemberRow.remove__onRankChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRankChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange
+  isExternal: true
+  name: add__onMtypeIdxChange
+  nameWithType: ProjectMemberRow.add__onMtypeIdxChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onMtypeIdxChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange
+  isExternal: true
+  name: remove__onMtypeIdxChange
+  nameWithType: ProjectMemberRow.remove__onMtypeIdxChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onMtypeIdxChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange
+  isExternal: true
+  name: add__onTextIdChange
+  nameWithType: ProjectMemberRow.add__onTextIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onTextIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange
+  isExternal: true
+  name: remove__onTextIdChange
+  nameWithType: ProjectMemberRow.remove__onTextIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onTextIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange
+  isExternal: true
+  name: add__onRegisteredChange
+  nameWithType: ProjectMemberRow.add__onRegisteredChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredChange
+- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  name: OnFieldChange<DateTime>
+  nameWithType: OnFieldChange<DateTime>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
+  nameWithType.vb: OnFieldChange(Of DateTime)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
+  name.vb: OnFieldChange(Of DateTime)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange
+  isExternal: true
+  name: remove__onRegisteredChange
+  nameWithType: ProjectMemberRow.remove__onRegisteredChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange
+  isExternal: true
+  name: add__onRegisteredAssociateIdChange
+  nameWithType: ProjectMemberRow.add__onRegisteredAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onRegisteredAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange
+  isExternal: true
+  name: remove__onRegisteredAssociateIdChange
+  nameWithType: ProjectMemberRow.remove__onRegisteredAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onRegisteredAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange
+  isExternal: true
+  name: add__onUpdatedChange
+  nameWithType: ProjectMemberRow.add__onUpdatedChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange
+  isExternal: true
+  name: remove__onUpdatedChange
+  nameWithType: ProjectMemberRow.remove__onUpdatedChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange
+  isExternal: true
+  name: add__onUpdatedAssociateIdChange
+  nameWithType: ProjectMemberRow.add__onUpdatedAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange
+  isExternal: true
+  name: remove__onUpdatedAssociateIdChange
+  nameWithType: ProjectMemberRow.remove__onUpdatedAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange
+  isExternal: true
+  name: add__onUpdatedCountChange
+  nameWithType: ProjectMemberRow.add__onUpdatedCountChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add__onUpdatedCountChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange
+  isExternal: true
+  name: remove__onUpdatedCountChange
+  nameWithType: ProjectMemberRow.remove__onUpdatedCountChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove__onUpdatedCountChange
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5784,37 +7637,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.ToString
   isExternal: true
@@ -5858,6 +7680,138 @@ references:
   name: SetRowAsNew
   nameWithType: ProjectMemberRow.SetRowAsNew
   fullName: SuperOffice.CRM.Rows.ProjectMemberRow.SetRowAsNew
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange
+  isExternal: true
+  name: add_OnProjectIdChange
+  nameWithType: ProjectMemberRow.add_OnProjectIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnProjectIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange
+  isExternal: true
+  name: remove_OnProjectIdChange
+  nameWithType: ProjectMemberRow.remove_OnProjectIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnProjectIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange
+  isExternal: true
+  name: add_OnContactIdChange
+  nameWithType: ProjectMemberRow.add_OnContactIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnContactIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange
+  isExternal: true
+  name: remove_OnContactIdChange
+  nameWithType: ProjectMemberRow.remove_OnContactIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnContactIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange
+  isExternal: true
+  name: add_OnPersonIdChange
+  nameWithType: ProjectMemberRow.add_OnPersonIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnPersonIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange
+  isExternal: true
+  name: remove_OnPersonIdChange
+  nameWithType: ProjectMemberRow.remove_OnPersonIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnPersonIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange
+  isExternal: true
+  name: add_OnRankChange
+  nameWithType: ProjectMemberRow.add_OnRankChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRankChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange
+  isExternal: true
+  name: remove_OnRankChange
+  nameWithType: ProjectMemberRow.remove_OnRankChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRankChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange
+  isExternal: true
+  name: add_OnMtypeIdxChange
+  nameWithType: ProjectMemberRow.add_OnMtypeIdxChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnMtypeIdxChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange
+  isExternal: true
+  name: remove_OnMtypeIdxChange
+  nameWithType: ProjectMemberRow.remove_OnMtypeIdxChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnMtypeIdxChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange
+  isExternal: true
+  name: add_OnTextIdChange
+  nameWithType: ProjectMemberRow.add_OnTextIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnTextIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange
+  isExternal: true
+  name: remove_OnTextIdChange
+  nameWithType: ProjectMemberRow.remove_OnTextIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnTextIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange
+  isExternal: true
+  name: add_OnRegisteredChange
+  nameWithType: ProjectMemberRow.add_OnRegisteredChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange
+  isExternal: true
+  name: remove_OnRegisteredChange
+  nameWithType: ProjectMemberRow.remove_OnRegisteredChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange
+  isExternal: true
+  name: add_OnRegisteredAssociateIdChange
+  nameWithType: ProjectMemberRow.add_OnRegisteredAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnRegisteredAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange
+  isExternal: true
+  name: remove_OnRegisteredAssociateIdChange
+  nameWithType: ProjectMemberRow.remove_OnRegisteredAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnRegisteredAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange
+  isExternal: true
+  name: add_OnUpdatedChange
+  nameWithType: ProjectMemberRow.add_OnUpdatedChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange
+  isExternal: true
+  name: remove_OnUpdatedChange
+  nameWithType: ProjectMemberRow.remove_OnUpdatedChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange
+  isExternal: true
+  name: add_OnUpdatedAssociateIdChange
+  nameWithType: ProjectMemberRow.add_OnUpdatedAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange
+  isExternal: true
+  name: remove_OnUpdatedAssociateIdChange
+  nameWithType: ProjectMemberRow.remove_OnUpdatedAssociateIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedAssociateIdChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange
+  isExternal: true
+  name: add_OnUpdatedCountChange
+  nameWithType: ProjectMemberRow.add_OnUpdatedCountChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.add_OnUpdatedCountChange
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange
+  isExternal: true
+  name: remove_OnUpdatedCountChange
+  nameWithType: ProjectMemberRow.remove_OnUpdatedCountChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.remove_OnUpdatedCountChange
 - uid: SuperOffice.CRM.Rows.TableRowBase.Reset
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Reset
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6393,174 +8347,3 @@ references:
   name: UpdatedCount
   nameWithType: ProjectMemberRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.ProjectMemberRow.UpdatedCount
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int32>
-  nameWithType: OnFieldChange<Int32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
-  nameWithType.vb: OnFieldChange(Of Int32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
-  name.vb: OnFieldChange(Of Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange`1
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
-  isExternal: true
-  name: OnFieldChange<TValue>
-  nameWithType: OnFieldChange<TValue>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  nameWithType.vb: OnFieldChange(Of TValue)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
-  name.vb: OnFieldChange(Of TValue)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DateTime>
-  nameWithType: OnFieldChange<DateTime>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
-  nameWithType.vb: OnFieldChange(Of DateTime)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
-  name.vb: OnFieldChange(Of DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )

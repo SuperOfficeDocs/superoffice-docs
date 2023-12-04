@@ -157,7 +157,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ModelBuiltDateTime As Date
+    content.vb: Public Overridable Property ModelBuiltDateTime As DateTime
   overload: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime*
   modifiers.csharp:
   - public
@@ -240,13 +240,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AIAgent
   commentId: T:SuperOffice.CRM.Services.AIAgent
   isExternal: true
@@ -260,12 +253,6 @@ references:
   name: IAIAgent
   nameWithType: IAIAgent
   fullName: SuperOffice.CRM.Services.IAIAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
   isExternal: true
@@ -285,6 +272,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime*
   commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
   isExternal: true
@@ -292,8 +285,6 @@ references:
   nameWithType: CategorizationModelDetails.ModelBuiltDateTime
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

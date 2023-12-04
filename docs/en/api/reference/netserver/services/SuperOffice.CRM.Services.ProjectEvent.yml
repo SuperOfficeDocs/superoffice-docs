@@ -508,7 +508,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EventDate As Date
+    content.vb: Public Overridable Property EventDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEvent.EventDate*
   modifiers.csharp:
   - public
@@ -888,13 +888,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ProjectAgent
   commentId: T:SuperOffice.CRM.Services.ProjectAgent
   isExternal: true
@@ -908,12 +901,6 @@ references:
   name: IProjectAgent
   nameWithType: IProjectAgent
   fullName: SuperOffice.CRM.Services.IProjectAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectEvent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEvent.#ctor
   isExternal: true
@@ -933,6 +920,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectEvent.AssociateFullName*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEvent.AssociateFullName
   isExternal: true
@@ -1014,8 +1007,6 @@ references:
   nameWithType: ProjectEvent.EventDate
   fullName: SuperOffice.CRM.Services.ProjectEvent.EventDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

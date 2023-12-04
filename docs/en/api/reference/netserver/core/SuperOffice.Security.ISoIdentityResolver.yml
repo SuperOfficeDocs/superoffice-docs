@@ -5,7 +5,7 @@ items:
   id: ISoIdentityResolver
   parent: SuperOffice.Security
   children:
-  - SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+  - SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   langs:
   - csharp
   - vb
@@ -23,6 +23,7 @@ items:
     content: 'public interface ISoIdentityResolver : IPlugin'
     content.vb: >-
       Public Interface ISoIdentityResolver
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Security.ISoIdentityResolver.EnumUtil.MapEnums``2
@@ -33,16 +34,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
-  commentId: M:SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
-  id: ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+- uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
+  commentId: M:SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
+  id: ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   parent: SuperOffice.Security.ISoIdentityResolver
   langs:
   - csharp
   - vb
-  name: ResolveIdentity(IList<SecurityToken>, SoConnection)
-  nameWithType: ISoIdentityResolver.ResolveIdentity(IList<SecurityToken>, SoConnection)
-  fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, SuperOffice.Data.SoConnection)
+  name: ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out String)
+  nameWithType: ISoIdentityResolver.ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out String)
+  fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection, out System.String)
   type: Method
   source:
     path: SoDataBase
@@ -51,19 +52,21 @@ items:
   - SoDataBase
   namespace: SuperOffice.Security
   syntax:
-    content: ISoIdentity ResolveIdentity(IList<SecurityToken> tokens, SoConnection dbConnection)
+    content: ISoIdentity ResolveIdentity(IEnumerable<ClaimsIdentity> identities, SoConnection dbConnection, out string reason)
     parameters:
-    - id: tokens
-      type: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     - id: dbConnection
       type: SuperOffice.Data.SoConnection
+    - id: reason
+      type: System.String
     return:
       type: SuperOffice.Security.Principal.ISoIdentity
-    content.vb: Function ResolveIdentity(tokens As IList(Of SecurityToken), dbConnection As SoConnection) As ISoIdentity
+    content.vb: Function ResolveIdentity(identities As IEnumerable(Of ClaimsIdentity), dbConnection As SoConnection, ByRef reason As String) As ISoIdentity
   overload: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity*
-  nameWithType.vb: ISoIdentityResolver.ResolveIdentity(IList(Of SecurityToken), SoConnection)
-  fullName.vb: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), SuperOffice.Data.SoConnection)
-  name.vb: ResolveIdentity(IList(Of SecurityToken), SoConnection)
+  nameWithType.vb: ISoIdentityResolver.ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, ByRef String)
+  fullName.vb: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection, ByRef System.String)
+  name.vb: ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, ByRef String)
 references:
 - uid: SuperOffice.Security
   commentId: N:SuperOffice.Security
@@ -242,46 +245,45 @@ references:
   name: ResolveIdentity
   nameWithType: ISoIdentityResolver.ResolveIdentity
   fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity
-- uid: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
-  commentId: T:System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IList`1
-  name: IList<SecurityToken>
-  nameWithType: IList<SecurityToken>
-  fullName: System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>
-  nameWithType.vb: IList(Of SecurityToken)
-  fullName.vb: System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken)
-  name.vb: IList(Of SecurityToken)
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ClaimsIdentity>
+  nameWithType: IEnumerable<ClaimsIdentity>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
+  nameWithType.vb: IEnumerable(Of ClaimsIdentity)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity)
+  name.vb: IEnumerable(Of ClaimsIdentity)
   spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
   - name: )
     nameWithType: )
@@ -293,6 +295,13 @@ references:
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Security.Principal.ISoIdentity
   commentId: T:SuperOffice.Security.Principal.ISoIdentity
   parent: SuperOffice.Security.Principal
@@ -300,57 +309,56 @@ references:
   name: ISoIdentity
   nameWithType: ISoIdentity
   fullName: SuperOffice.Security.Principal.ISoIdentity
-- uid: System.Collections.Generic.IList`1
-  commentId: T:System.Collections.Generic.IList`1
+- uid: System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IList<T>
-  nameWithType: IList<T>
-  fullName: System.Collections.Generic.IList<T>
-  nameWithType.vb: IList(Of T)
-  fullName.vb: System.Collections.Generic.IList(Of T)
-  name.vb: IList(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true

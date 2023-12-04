@@ -5,6 +5,9 @@ items:
   id: SuperOffice.CRM.Data.Util
   children:
   - SuperOffice.CRM.Data.Util.ExtraFieldHelper
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
   - SuperOffice.CRM.Data.Util.UdefValueHelper
   langs:
   - csharp
@@ -22,6 +25,25 @@ references:
   name: ExtraFieldHelper
   nameWithType: ExtraFieldHelper
   fullName: SuperOffice.CRM.Data.Util.ExtraFieldHelper
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  isExternal: true
+  name: NextAvailableTimeInfo
+  nameWithType: NextAvailableTimeInfo
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  isExternal: true
+  name: NextAvailableTimeHelper
+  nameWithType: NextAvailableTimeHelper
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+  commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+  parent: SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: NextAvailableTimeHelper.AppointmentTimeType
+  nameWithType: NextAvailableTimeHelper.AppointmentTimeType
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
 - uid: SuperOffice.CRM.Data.Util.UdefValueHelper
   commentId: T:SuperOffice.CRM.Data.Util.UdefValueHelper
   parent: SuperOffice.CRM.Data.Util

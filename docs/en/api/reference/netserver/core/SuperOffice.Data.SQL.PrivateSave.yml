@@ -6,8 +6,10 @@ items:
   parent: SuperOffice.Data.SQL
   children:
   - SuperOffice.Data.SQL.PrivateSave.#ctor
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.BeginIgnoreSentryCheck
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.EndIgnoreSentryCheck
   - SuperOffice.Data.SQL.PrivateSave.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.SQL.PrivateSave.GetKnownFields
@@ -20,6 +22,8 @@ items:
   - SuperOffice.Data.SQL.PrivateSave.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.SQL.PrivateSave.IsSentryIgnored
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
   langs:
   - csharp
   - vb
@@ -38,7 +42,9 @@ items:
     content: 'public abstract class PrivateSave : SqlCommand, ISoDataLookup, ISentryIgnorable'
     content.vb: >-
       Public MustInherit Class PrivateSave
+
           Inherits SqlCommand
+
           Implements ISoDataLookup, ISentryIgnorable
   inheritance:
   - System.Object
@@ -53,6 +59,7 @@ items:
   - SuperOffice.CRM.Security.ISentryIgnorable
   inheritedMembers:
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -65,13 +72,6 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.SqlType
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.PrivateSave.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
@@ -118,6 +118,62 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  id: add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  langs:
+  - csharp
+  - vb
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public void add_OnUpdateField(UpdateField value)
+    parameters:
+    - id: value
+      type: SuperOffice.Data.SQL.UpdateField
+    content.vb: Public Sub add_OnUpdateField(value As UpdateField)
+  overload: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  id: remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  langs:
+  - csharp
+  - vb
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public void remove_OnUpdateField(UpdateField value)
+    parameters:
+    - id: value
+      type: SuperOffice.Data.SQL.UpdateField
+    content.vb: Public Sub remove_OnUpdateField(value As UpdateField)
+  overload: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   id: CloneToBasicUpdatingQuery
@@ -148,6 +204,39 @@ items:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: "\nYou will get an exception\nif you pass in something that is not one of the three basic updating query types.\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  id: SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  langs:
+  - csharp
+  - vb
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nForces a query to log to the database with specified logAction and description.\n"
+  syntax:
+    content: public void SetTicketLogAction(TicketLogAction logAction, string description = null)
+    parameters:
+    - id: logAction
+      type: SuperOffice.Data.TicketLogAction
+      description: LogAction to be logged
+    - id: description
+      type: System.String
+      description: Custom description in a log
+    content.vb: Public Sub SetTicketLogAction(logAction As TicketLogAction, description As String = Nothing)
+  overload: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -519,6 +608,37 @@ items:
   - Protected
   - MustOverride
   - ReadOnly
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  id: DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  langs:
+  - csharp
+  - vb
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nFor internal/SuperOffice use only: Setting this to TRUE will make the <xref href=\"SuperOffice.Data.Private.TravelTransactionLoggerProcessor\" data-throw-if-not-resolved=\"false\"></xref> skip\nthis update. Used when we for some reason DO NOT WANT the standard logging.\n"
+  syntax:
+    content: public bool DoNotWriteTraveltransactionLog { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DoNotWriteTraveltransactionLog As Boolean
+  overload: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.PrivateSave.IsSentryIgnored
   commentId: P:SuperOffice.Data.SQL.PrivateSave.IsSentryIgnored
   id: IsSentryIgnored
@@ -623,6 +743,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -1012,285 +1139,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1789,6 +1637,25 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField*
+  commentId: Overload:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+  isExternal: true
+  name: add_OnUpdateField
+  nameWithType: PrivateSave.add_OnUpdateField
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+- uid: SuperOffice.Data.SQL.UpdateField
+  commentId: T:SuperOffice.Data.SQL.UpdateField
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UpdateField
+  nameWithType: UpdateField
+  fullName: SuperOffice.Data.SQL.UpdateField
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField*
+  commentId: Overload:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+  isExternal: true
+  name: remove_OnUpdateField
+  nameWithType: PrivateSave.remove_OnUpdateField
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery*
   commentId: Overload:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   isExternal: true
@@ -1808,6 +1675,26 @@ references:
   name: PrivateSave
   nameWithType: PrivateSave
   fullName: SuperOffice.Data.SQL.PrivateSave
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction*
+  commentId: Overload:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+  isExternal: true
+  name: SetTicketLogAction
+  nameWithType: PrivateSave.SetTicketLogAction
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+- uid: SuperOffice.Data.TicketLogAction
+  commentId: T:SuperOffice.Data.TicketLogAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketLogAction
+  nameWithType: TicketLogAction
+  fullName: SuperOffice.Data.TicketLogAction
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.SQL.PrivateSave.GetKnownFields*
   commentId: Overload:SuperOffice.Data.SQL.PrivateSave.GetKnownFields
   isExternal: true
@@ -1846,8 +1733,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}'
   definition: System.Collections.Generic.List`1
   name: List<FieldInfo>
   nameWithType: List<FieldInfo>
@@ -1890,14 +1776,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1907,9 +1792,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1922,18 +1807,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Data.SQL.PrivateSave.GetFieldValue*
   commentId: Overload:SuperOffice.Data.SQL.PrivateSave.GetFieldValue
   isExternal: true
@@ -2261,6 +2140,12 @@ references:
   name: Parameter
   nameWithType: Parameter
   fullName: SuperOffice.Data.SQL.Parameter
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog*
+  commentId: Overload:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.IsSentryIgnored*
   commentId: Overload:SuperOffice.Data.SQL.PrivateSave.IsSentryIgnored
   isExternal: true
@@ -2274,10 +2159,3 @@ references:
   name: IsSentryIgnored
   nameWithType: ISentryIgnorable.IsSentryIgnored
   fullName: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
-- uid: SuperOffice.Data.SQL.UpdateField
-  commentId: T:SuperOffice.Data.SQL.UpdateField
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: UpdateField
-  nameWithType: UpdateField
-  fullName: SuperOffice.Data.SQL.UpdateField

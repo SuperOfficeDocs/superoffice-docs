@@ -5,8 +5,7 @@ items:
   id: DashboardTileDefinitionTableInfo
   parent: SuperOffice.CRM.Data
   children:
-  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
-  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DashboardTileDefinitionId
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.DefaultHeight
@@ -39,6 +38,7 @@ items:
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage
   langs:
   - csharp
   - vb
@@ -63,7 +63,9 @@ items:
       <DatabaseTable("dashboard_tile_definition")>
 
       Public Class DashboardTileDefinitionTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -85,12 +87,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -185,26 +181,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -512,7 +494,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -574,7 +556,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -636,7 +618,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;selection_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSelection holding the criterias for the tile definition\n"
+  summary: "\nField &apos;selection_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, target: Selection, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSelection holding the criterias for the tile definition\n"
   syntax:
     content: public Int32FieldInfo SelectionId { get; }
     parameters: []
@@ -644,37 +626,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SelectionId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
-  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
-  id: CurrencyId
-  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
-  langs:
-  - csharp
-  - vb
-  name: CurrencyId
-  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId
-  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;currency_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCurrency of sale\n"
-  syntax:
-    content: public Int32FieldInfo CurrencyId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property CurrencyId As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId*
   modifiers.csharp:
   - public
   - get
@@ -822,7 +773,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;secondary_selection_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSelection holding the replaced or changed criterias (period comparisons etc)\n"
+  summary: "\nField &apos;secondary_selection_id&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type FK, target: Selection, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSelection holding the replaced or changed criterias (period comparisons etc)\n"
   syntax:
     content: public Int32FieldInfo SecondarySelectionId { get; }
     parameters: []
@@ -929,6 +880,68 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode
+  id: CurrencyCode
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrencyCode
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyCode
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;currency_code&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type String[4], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCurrency code\n"
+  syntax:
+    content: public StringFieldInfo CurrencyCode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property CurrencyCode As StringFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage
+  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage
+  id: Usage
+  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Usage
+  nameWithType: DashboardTileDefinitionTableInfo.Usage
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;usage&apos; in table &apos;dashboard_tile_definition&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.DashTileUsage\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhere this tile can be used\n"
+  syntax:
+    content: public DashTileUsageFieldInfo Usage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DashTileUsageFieldInfo
+    content.vb: Public ReadOnly Property Usage As DashTileUsageFieldInfo
+  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1016,37 +1029,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
     content.vb: Public ReadOnly Property SelectionId_InnerJoin_Selection As TargetedInnerJoin(Of SelectionTableInfo)
   overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId_InnerJoin_Selection*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
-  commentId: P:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
-  id: CurrencyId_InnerJoin_Currency
-  parent: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
-  langs:
-  - csharp
-  - vb
-  name: CurrencyId_InnerJoin_Currency
-  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
-  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key CurrencyId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.CurrencyTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: public TargetedInnerJoin<CurrencyTableInfo> CurrencyId_InnerJoin_Currency { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
-    content.vb: Public ReadOnly Property CurrencyId_InnerJoin_Currency As TargetedInnerJoin(Of CurrencyTableInfo)
-  overload: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency*
   modifiers.csharp:
   - public
   - get
@@ -1199,8 +1181,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1533,254 +1513,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2130,12 +1862,6 @@ references:
   name: SelectionId
   nameWithType: DashboardTileDefinitionTableInfo.SelectionId
   fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.SelectionId
-- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId*
-  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
-  isExternal: true
-  name: CurrencyId
-  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId
-  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId
 - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode*
   commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyMode
   isExternal: true
@@ -2198,6 +1924,25 @@ references:
   name: MeasureByField
   nameWithType: DashboardTileDefinitionTableInfo.MeasureByField
   fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.MeasureByField
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode
+  isExternal: true
+  name: CurrencyCode
+  nameWithType: DashboardTileDefinitionTableInfo.CurrencyCode
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyCode
+- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage
+  isExternal: true
+  name: Usage
+  nameWithType: DashboardTileDefinitionTableInfo.Usage
+  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.Usage
+- uid: SuperOffice.Data.SQL.DashTileUsageFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileUsageFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileUsageFieldInfo
+  nameWithType: DashTileUsageFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileUsageFieldInfo
 - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
@@ -2339,56 +2084,6 @@ references:
     name: SelectionTableInfo
     nameWithType: SelectionTableInfo
     fullName: SuperOffice.CRM.Data.SelectionTableInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency*
-  commentId: Overload:SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
-  isExternal: true
-  name: CurrencyId_InnerJoin_Currency
-  nameWithType: DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
-  fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId_InnerJoin_Currency
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.CurrencyTableInfo}
-  parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  name: TargetedInnerJoin<CurrencyTableInfo>
-  nameWithType: TargetedInnerJoin<CurrencyTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.CurrencyTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of CurrencyTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.CurrencyTableInfo)
-  name.vb: TargetedInnerJoin(Of CurrencyTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Data.CurrencyTableInfo
-    name: CurrencyTableInfo
-    nameWithType: CurrencyTableInfo
-    fullName: SuperOffice.CRM.Data.CurrencyTableInfo
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Data.CurrencyTableInfo
-    name: CurrencyTableInfo
-    nameWithType: CurrencyTableInfo
-    fullName: SuperOffice.CRM.Data.CurrencyTableInfo
     isExternal: true
   - name: )
     nameWithType: )

@@ -7,13 +7,14 @@ items:
   children:
   - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.DeallocateStorage
   - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.RetainStorage
+  - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.value__
   langs:
   - csharp
   - vb
   name: DatabaseOperations.TruncateOptions
   nameWithType: DatabaseOperations.TruncateOptions
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -21,19 +22,54 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
   syntax:
-    content: public enum TruncateOptions
-    content.vb: Public Enum TruncateOptions
+    content: 'public sealed class TruncateOptions : Enum'
+    content.vb: >-
+      Public NotInheritable Class TruncateOptions
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.EnumUtil.MapEnums``2
-  - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
-  - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.value__
+  commentId: F:SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.value__
+  id: value__
+  parent: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DatabaseOperations.TruncateOptions.value__
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.DeallocateStorage
   commentId: F:SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.DeallocateStorage
   id: DeallocateStorage
@@ -53,9 +89,10 @@ items:
   namespace: SuperOffice.Data.Dialect
   summary: "\nIf supported, deallocate and completely reclaim the storage previously occupied by the table\n"
   syntax:
-    content: DeallocateStorage = 0
+    content: public const DatabaseOperations.TruncateOptions DeallocateStorage
     return:
       type: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+    content.vb: Public Const DeallocateStorage As DatabaseOperations.TruncateOptions
   modifiers.csharp:
   - public
   - const
@@ -81,9 +118,10 @@ items:
   namespace: SuperOffice.Data.Dialect
   summary: "\nIf supported, retain the storage allocated to the table; this optimizes the mass insertion of new rows\n"
   syntax:
-    content: RetainStorage = 1
+    content: public const DatabaseOperations.TruncateOptions RetainStorage
     return:
       type: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+    content.vb: Public Const RetainStorage As DatabaseOperations.TruncateOptions
   modifiers.csharp:
   - public
   - const
@@ -97,6 +135,13 @@ references:
   name: SuperOffice.Data.Dialect
   nameWithType: SuperOffice.Data.Dialect
   fullName: SuperOffice.Data.Dialect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -124,84 +169,6 @@ references:
     name: MapEnums(Of DatabaseOperations.TruncateOptions, To)
     nameWithType: EnumUtil.MapEnums(Of DatabaseOperations.TruncateOptions, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DatabaseOperations.TruncateOptions>(DatabaseOperations.TruncateOptions)
-  nameWithType: ObjectExtensions.AssignByReflection<DatabaseOperations.TruncateOptions>(DatabaseOperations.TruncateOptions)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions>(SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DatabaseOperations.TruncateOptions)(DatabaseOperations.TruncateOptions)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)(SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
-  name.vb: AssignByReflection(Of DatabaseOperations.TruncateOptions)(DatabaseOperations.TruncateOptions)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DatabaseOperations.TruncateOptions>
-    nameWithType: ObjectExtensions.AssignByReflection<DatabaseOperations.TruncateOptions>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-    name: DatabaseOperations.TruncateOptions
-    nameWithType: DatabaseOperations.TruncateOptions
-    fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DatabaseOperations.TruncateOptions)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DatabaseOperations.TruncateOptions)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-    name: DatabaseOperations.TruncateOptions
-    nameWithType: DatabaseOperations.TruncateOptions
-    fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DatabaseOperations.TruncateOptions>()
-  nameWithType: ObjectExtensions.GraphCopy<DatabaseOperations.TruncateOptions>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DatabaseOperations.TruncateOptions)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)()
-  name.vb: GraphCopy(Of DatabaseOperations.TruncateOptions)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DatabaseOperations.TruncateOptions>
-    nameWithType: ObjectExtensions.GraphCopy<DatabaseOperations.TruncateOptions>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DatabaseOperations.TruncateOptions)
-    nameWithType: ObjectExtensions.GraphCopy(Of DatabaseOperations.TruncateOptions)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
     isExternal: true
   - name: (
     nameWithType: (
@@ -243,6 +210,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -288,103 +261,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -431,18 +307,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
   commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
   parent: SuperOffice.Data.Dialect

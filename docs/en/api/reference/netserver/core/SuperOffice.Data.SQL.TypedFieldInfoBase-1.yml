@@ -47,7 +47,9 @@ items:
     - id: FieldType
     content.vb: >-
       Public MustInherit Class TypedFieldInfoBase(Of FieldType)
+
           Inherits FieldInfo
+
           Implements ICloneable, IEquatable(Of FieldInfo)
   inheritance:
   - System.Object
@@ -62,8 +64,11 @@ items:
   - SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   - SuperOffice.Data.SQL.AppointmentStatusFieldInfo
   - SuperOffice.Data.SQL.AppointmentTypeFieldInfo
+  - SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
   - SuperOffice.Data.SQL.AssociateTypeFieldInfo
+  - SuperOffice.Data.SQL.BadgeTypeFieldInfo
   - SuperOffice.Data.SQL.BlobLinkTypeFieldInfo
+  - SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageTypeFieldInfo
   - SuperOffice.Data.SQL.ChatSessionFlagsFieldInfo
@@ -77,6 +82,7 @@ items:
   - SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileMeasureFieldInfo
   - SuperOffice.Data.SQL.DashTileTypeFieldInfo
+  - SuperOffice.Data.SQL.DashTileUsageFieldInfo
   - SuperOffice.Data.SQL.DateTimeFieldInfo
   - SuperOffice.Data.SQL.DeltaStateFieldInfo
   - SuperOffice.Data.SQL.DeltaTypeFieldInfo
@@ -91,7 +97,9 @@ items:
   - SuperOffice.Data.SQL.ElementStatusFieldInfo
   - SuperOffice.Data.SQL.EmailAccountStatusFieldInfo
   - SuperOffice.Data.SQL.EMailFlagsFieldInfo
+  - SuperOffice.Data.SQL.EmailFromTypeFieldInfo
   - SuperOffice.Data.SQL.EMailPriorityFieldInfo
+  - SuperOffice.Data.SQL.EmailReplyToTypeFieldInfo
   - SuperOffice.Data.SQL.EmailTypeFieldInfo
   - SuperOffice.Data.SQL.ErpActorTypeFieldInfo
   - SuperOffice.Data.SQL.ExecuteOnEventFieldInfo
@@ -104,8 +112,10 @@ items:
   - SuperOffice.Data.SQL.Int32ArrayFieldInfo
   - SuperOffice.Data.SQL.Int32FieldInfo
   - SuperOffice.Data.SQL.LicenseTypeFieldInfo
+  - SuperOffice.Data.SQL.LogEventFieldInfo
   - SuperOffice.Data.SQL.LoginFlagsFieldInfo
   - SuperOffice.Data.SQL.MailboxTypeFieldInfo
+  - SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
   - SuperOffice.Data.SQL.NavigationFieldInfo
   - SuperOffice.Data.SQL.NotificationPlatformFieldInfo
   - SuperOffice.Data.SQL.PhoneTypeFieldInfo
@@ -118,10 +128,11 @@ items:
   - SuperOffice.Data.SQL.RecipientSortingFieldInfo
   - SuperOffice.Data.SQL.RecurrencePatternFieldInfo
   - SuperOffice.Data.SQL.RefcountFlagsFieldInfo
+  - SuperOffice.Data.SQL.ReplyTemplateBodyFlagsFieldInfo
   - SuperOffice.Data.SQL.RoleTypeFieldInfo
   - SuperOffice.Data.SQL.SaleDoneFieldInfo
   - SuperOffice.Data.SQL.SaleStatusFieldInfo
-  - SuperOffice.Data.SQL.ScreenChooserTypeFieldInfo
+  - SuperOffice.Data.SQL.ScriptTypeFieldInfo
   - SuperOffice.Data.SQL.SelectionSystemTypeFieldInfo
   - SuperOffice.Data.SQL.SelectionUnionTypeFieldInfo
   - SuperOffice.Data.SQL.SenderMailModeFieldInfo
@@ -134,16 +145,22 @@ items:
   - SuperOffice.Data.SQL.ShipmentMessageTypeFieldInfo
   - SuperOffice.Data.SQL.ShipmentStatusFieldInfo
   - SuperOffice.Data.SQL.ShowStateFieldInfo
+  - SuperOffice.Data.SQL.ShowTaskItemInClientFieldInfo
   - SuperOffice.Data.SQL.ShowWindowStateFieldInfo
   - SuperOffice.Data.SQL.StringFieldInfo
+  - SuperOffice.Data.SQL.TargetAssignementLevelFieldInfo
+  - SuperOffice.Data.SQL.TargetEntityTypeFieldInfo
+  - SuperOffice.Data.SQL.TargetMeasurementUnitFieldInfo
+  - SuperOffice.Data.SQL.TargetPeriodTypeFieldInfo
   - SuperOffice.Data.SQL.TaskDirectionFieldInfo
+  - SuperOffice.Data.SQL.TaskListItemTypeFieldInfo
   - SuperOffice.Data.SQL.TaskTypeFieldInfo
   - SuperOffice.Data.SQL.TemporaryKeyDomainFieldInfo
   - SuperOffice.Data.SQL.TextTypeFieldInfo
   - SuperOffice.Data.SQL.TicketBaseStatusFieldInfo
-  - SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
   - SuperOffice.Data.SQL.TicketCategoryDelegateMethodFieldInfo
   - SuperOffice.Data.SQL.TicketCategoryFlagsFieldInfo
+  - SuperOffice.Data.SQL.TicketLogActionFieldInfo
   - SuperOffice.Data.SQL.TicketMessageCategoryFieldInfo
   - SuperOffice.Data.SQL.TicketMessageTypeFieldInfo
   - SuperOffice.Data.SQL.TicketOriginFieldInfo
@@ -159,11 +176,18 @@ items:
   - SuperOffice.Data.SQL.TtlFlagsFieldInfo
   - SuperOffice.Data.SQL.UdefJustificationFieldInfo
   - SuperOffice.Data.SQL.UInt16FieldInfo
+  - SuperOffice.Data.SQL.UrlEncodingFieldInfo
   - SuperOffice.Data.SQL.ValueOverrideFieldInfo
   - SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
   - SuperOffice.Data.SQL.WebhookStateFieldInfo
+  - SuperOffice.Data.SQL.WeekdayFieldInfo
   - SuperOffice.Data.SQL.WidgetRequiredFieldsFieldInfo
   - SuperOffice.Data.SQL.WidgetThemeFieldInfo
+  - SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
+  - SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
+  - SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+  - SuperOffice.Data.SQL.WorkflowStepTypeFieldInfo
+  - SuperOffice.Data.SQL.WorkflowTriggerTypeFieldInfo
   implements:
   - System.ICloneable
   - System.IEquatable{SuperOffice.Data.SQL.FieldInfo}
@@ -176,7 +200,6 @@ items:
   - SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
   - SuperOffice.Data.SQL.FieldInfo.GetHashCode
   - SuperOffice.Data.SQL.FieldInfo.GetMainField
-  - SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.Data.SQL.FieldInfo.Parent
   - SuperOffice.Data.SQL.FieldInfo.Name
   - SuperOffice.Data.SQL.FieldInfo.DbName
@@ -208,10 +231,6 @@ items:
   - SuperOffice.Data.SQL.Argument.GetSubElements
   - SuperOffice.Data.SQL.Argument.Alias
   - SuperOffice.Data.SQL.Argument.DataType
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.TypedFieldInfoBase`1.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.FieldInfo.SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(System.Object,System.Int32[])
@@ -1018,15 +1037,12 @@ references:
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
 - uid: System.IEquatable{SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.IEquatable{SuperOffice.Data.SQL.FieldInfo}
-  parent: System
+  commentId: '!:System.IEquatable{SuperOffice.Data.SQL.FieldInfo}'
   definition: System.IEquatable`1
   name: IEquatable<FieldInfo>
   nameWithType: IEquatable<FieldInfo>
@@ -1285,49 +1301,6 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
-  parent: SuperOffice.Data.SQL.FieldInfo
-  isExternal: true
-  name: IEquatable<FieldInfo>.Equals(FieldInfo)
-  nameWithType: FieldInfo.IEquatable<FieldInfo>.Equals(FieldInfo)
-  fullName: SuperOffice.Data.SQL.FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(SuperOffice.Data.SQL.FieldInfo)
-  nameWithType.vb: FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(FieldInfo)
-  name.vb: System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals(FieldInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
-    name: IEquatable<FieldInfo>.Equals
-    nameWithType: FieldInfo.IEquatable<FieldInfo>.Equals
-    fullName: SuperOffice.Data.SQL.FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.FieldInfo
-    name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.FieldInfo.System#IEquatable{SuperOffice#Data#SQL#FieldInfo}#Equals(SuperOffice.Data.SQL.FieldInfo)
-    name: System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
-    nameWithType: FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
-    fullName: SuperOffice.Data.SQL.FieldInfo.System.IEquatable<SuperOffice.Data.SQL.FieldInfo>.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.FieldInfo
-    name: FieldInfo
-    nameWithType: FieldInfo
-    fullName: SuperOffice.Data.SQL.FieldInfo
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -2378,182 +2351,6 @@ references:
   name: DataType
   nameWithType: Argument.DataType
   fullName: SuperOffice.Data.SQL.Argument.DataType
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TypedFieldInfoBase`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2777,14 +2574,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.IEquatable`1
-  commentId: T:System.IEquatable`1
   isExternal: true
-  name: IEquatable<T>
-  nameWithType: IEquatable<T>
-  fullName: System.IEquatable<T>
-  nameWithType.vb: IEquatable(Of T)
-  fullName.vb: System.IEquatable(Of T)
-  name.vb: IEquatable(Of T)
+  name: IEquatable<>
+  nameWithType: IEquatable<>
+  fullName: System.IEquatable<>
+  nameWithType.vb: IEquatable(Of )
+  fullName.vb: System.IEquatable(Of )
+  name.vb: IEquatable(Of )
   spec.csharp:
   - uid: System.IEquatable`1
     name: IEquatable
@@ -2794,9 +2590,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2809,9 +2605,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3436,8 +3232,7 @@ references:
   nameWithType: In
   fullName: SuperOffice.Data.SQL.In
 - uid: System.Collections.Generic.IEnumerable{{FieldType}}
-  commentId: T:System.Collections.Generic.IEnumerable{`0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{`0}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<FieldType>
   nameWithType: IEnumerable<FieldType>
@@ -3476,14 +3271,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -3493,9 +3287,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3508,18 +3302,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Data.SQL.TypedFieldInfoBase`1.NotIn*
   commentId: Overload:SuperOffice.Data.SQL.TypedFieldInfoBase`1.NotIn
   isExternal: true

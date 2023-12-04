@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.AttachmentEntity.#ctor
   - SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
   - SuperOffice.CRM.Services.AttachmentEntity.AttSize
+  - SuperOffice.CRM.Services.AttachmentEntity.AuthKey
   - SuperOffice.CRM.Services.AttachmentEntity.ContentId
   - SuperOffice.CRM.Services.AttachmentEntity.ContentType
   - SuperOffice.CRM.Services.AttachmentEntity.InlineImage
@@ -337,6 +338,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.AttachmentEntity.AuthKey
+  commentId: P:SuperOffice.CRM.Services.AttachmentEntity.AuthKey
+  id: AuthKey
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AuthKey
+  nameWithType: AttachmentEntity.AuthKey
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AuthKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe key used for authenticating access to this attachment. \n"
+  syntax:
+    content: public virtual string AuthKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AuthKey As String
+  overload: SuperOffice.CRM.Services.AttachmentEntity.AuthKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -344,13 +378,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.TicketAgent
   commentId: T:SuperOffice.CRM.Services.TicketAgent
   isExternal: true
@@ -364,12 +391,6 @@ references:
   name: ITicketAgent
   nameWithType: ITicketAgent
   fullName: SuperOffice.CRM.Services.ITicketAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AttachmentEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.#ctor
   isExternal: true
@@ -389,6 +410,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AttachmentEntity.AttachmentId*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
   isExternal: true
@@ -439,3 +466,9 @@ references:
   name: ContentId
   nameWithType: AttachmentEntity.ContentId
   fullName: SuperOffice.CRM.Services.AttachmentEntity.ContentId
+- uid: SuperOffice.CRM.Services.AttachmentEntity.AuthKey*
+  commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.AuthKey
+  isExternal: true
+  name: AuthKey
+  nameWithType: AttachmentEntity.AuthKey
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AuthKey

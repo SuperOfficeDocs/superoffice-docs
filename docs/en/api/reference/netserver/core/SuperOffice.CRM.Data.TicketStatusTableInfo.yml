@@ -9,10 +9,14 @@ items:
   - SuperOffice.CRM.Data.TicketStatusTableInfo.Deleted
   - SuperOffice.CRM.Data.TicketStatusTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.TicketStatusTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+  - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
   - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_Ejuser_DefaultStatusAddMessage
   - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_Ejuser_DefaultStatusNewTicket
   - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_Ticket_TicketStatus
   - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketStatusHistory_TicketStatus
+  - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+  - SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
   - SuperOffice.CRM.Data.TicketStatusTableInfo.Name
   - SuperOffice.CRM.Data.TicketStatusTableInfo.NoEmailReopen
   - SuperOffice.CRM.Data.TicketStatusTableInfo.RuntimeDefinition
@@ -44,7 +48,9 @@ items:
       <DatabaseTable("ticket_status")>
 
       Public Class TicketStatusTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -66,12 +72,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.TicketStatusTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.TicketStatusTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -166,26 +166,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.TicketStatusTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -445,6 +431,68 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+  commentId: P:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+  id: LeftOuterJoin_EjCategory_ClosingStatus
+  parent: SuperOffice.CRM.Data.TicketStatusTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_EjCategory_ClosingStatus
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TicketStatusId on this table, to EjCategory.<xref href=\"SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<EjCategoryTableInfo> LeftOuterJoin_EjCategory_ClosingStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_EjCategory_ClosingStatus As TargetedLeftOuterJoin(Of EjCategoryTableInfo)
+  overload: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
+  commentId: P:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
+  id: LeftOuterJoin_EjCategory_MsgClosingStatus
+  parent: SuperOffice.CRM.Data.TicketStatusTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_EjCategory_MsgClosingStatus
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TicketStatusId on this table, to EjCategory.<xref href=\"SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<EjCategoryTableInfo> LeftOuterJoin_EjCategory_MsgClosingStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_EjCategory_MsgClosingStatus As TargetedLeftOuterJoin(Of EjCategoryTableInfo)
+  overload: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketStatusHistory_TicketStatus
   commentId: P:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketStatusHistory_TicketStatus
   id: LeftOuterJoin_TicketStatusHistory_TicketStatus
@@ -569,6 +617,68 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+  commentId: P:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+  id: LeftOuterJoin_TicketType_DefaultStatus
+  parent: SuperOffice.CRM.Data.TicketStatusTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketType_DefaultStatus
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TicketStatusId on this table, to TicketType.<xref href=\"SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultStatus\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketTypeTableInfo> LeftOuterJoin_TicketType_DefaultStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketType_DefaultStatus As TargetedLeftOuterJoin(Of TicketTypeTableInfo)
+  overload: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  commentId: P:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  id: LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  parent: SuperOffice.CRM.Data.TicketStatusTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TicketStatusId on this table, to TicketTypeStatus.<xref href=\"SuperOffice.CRM.Data.TicketTypeStatusTableInfo.TicketStatusId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketTypeStatusTableInfo> LeftOuterJoin_TicketTypeStatus_TicketStatusId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketTypeStatus_TicketStatusId As TargetedLeftOuterJoin(Of TicketTypeStatusTableInfo)
+  overload: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -591,8 +701,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -925,254 +1033,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.TicketStatusTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1479,6 +1339,101 @@ references:
   name: NoEmailReopen
   nameWithType: TicketStatusTableInfo.NoEmailReopen
   fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.NoEmailReopen
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus*
+  commentId: Overload:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+  isExternal: true
+  name: LeftOuterJoin_EjCategory_ClosingStatus
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_ClosingStatus
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EjCategoryTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<EjCategoryTableInfo>
+  nameWithType: TargetedLeftOuterJoin<EjCategoryTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.EjCategoryTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of EjCategoryTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.EjCategoryTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of EjCategoryTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.EjCategoryTableInfo
+    name: EjCategoryTableInfo
+    nameWithType: EjCategoryTableInfo
+    fullName: SuperOffice.CRM.Data.EjCategoryTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.EjCategoryTableInfo
+    name: EjCategoryTableInfo
+    nameWithType: EjCategoryTableInfo
+    fullName: SuperOffice.CRM.Data.EjCategoryTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus*
+  commentId: Overload:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
+  isExternal: true
+  name: LeftOuterJoin_EjCategory_MsgClosingStatus
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_EjCategory_MsgClosingStatus
 - uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketStatusHistory_TicketStatus*
   commentId: Overload:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketStatusHistory_TicketStatus
   isExternal: true
@@ -1526,45 +1481,6 @@ references:
     nameWithType: TicketStatusHistoryTableInfo
     fullName: SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  isExternal: true
-  name: TargetedLeftOuterJoin<TargetTableInfo>
-  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
-  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
-  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    nameWithType: TargetedLeftOuterJoin
-    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
   - name: )
     nameWithType: )
     fullName: )
@@ -1674,3 +1590,103 @@ references:
   name: LeftOuterJoin_Ejuser_DefaultStatusAddMessage
   nameWithType: TicketStatusTableInfo.LeftOuterJoin_Ejuser_DefaultStatusAddMessage
   fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_Ejuser_DefaultStatusAddMessage
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus*
+  commentId: Overload:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+  isExternal: true
+  name: LeftOuterJoin_TicketType_DefaultStatus
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketType_DefaultStatus
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TicketTypeTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TicketTypeTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTypeTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TicketTypeTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketTypeTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TicketTypeTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+    name: TicketTypeTableInfo
+    nameWithType: TicketTypeTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+    name: TicketTypeTableInfo
+    nameWithType: TicketTypeTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId*
+  commentId: Overload:SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  isExternal: true
+  name: LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  nameWithType: TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
+  fullName: SuperOffice.CRM.Data.TicketStatusTableInfo.LeftOuterJoin_TicketTypeStatus_TicketStatusId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeStatusTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TicketTypeStatusTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TicketTypeStatusTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTypeStatusTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TicketTypeStatusTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketTypeStatusTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TicketTypeStatusTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+    name: TicketTypeStatusTableInfo
+    nameWithType: TicketTypeStatusTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+    name: TicketTypeStatusTableInfo
+    nameWithType: TicketTypeStatusTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

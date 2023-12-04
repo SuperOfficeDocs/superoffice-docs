@@ -5,6 +5,7 @@ items:
   id: IMarketingAgent
   parent: SuperOffice.CRM.Services
   children:
+  - SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
@@ -15,6 +16,7 @@ items:
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
   - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
   - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
   - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
@@ -226,86 +228,6 @@ items:
       description: The identity of the FormSubmissionEntity
     content.vb: Sub DeleteFormSubmissionEntity(formSubmissionEntityId As Integer)
   overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
-  id: CreateDefaultShipmentMessageEntity
-  parent: SuperOffice.CRM.Services.IMarketingAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultShipmentMessageEntity()
-  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity()
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new ShipmentMessageEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
-  syntax:
-    content: ShipmentMessageEntity CreateDefaultShipmentMessageEntity()
-    return:
-      type: SuperOffice.CRM.Services.ShipmentMessageEntity
-      description: New ShipmentMessageEntity with default values
-    content.vb: Function CreateDefaultShipmentMessageEntity As ShipmentMessageEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
-  id: SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
-  parent: SuperOffice.CRM.Services.IMarketingAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveShipmentMessageEntity(ShipmentMessageEntity)
-  nameWithType: IMarketingAgent.SaveShipmentMessageEntity(ShipmentMessageEntity)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty\n"
-  syntax:
-    content: ShipmentMessageEntity SaveShipmentMessageEntity(ShipmentMessageEntity shipmentMessageEntity)
-    parameters:
-    - id: shipmentMessageEntity
-      type: SuperOffice.CRM.Services.ShipmentMessageEntity
-      description: The ShipmentMessageEntity that is saved.
-    return:
-      type: SuperOffice.CRM.Services.ShipmentMessageEntity
-      description: New or updated ShipmentMessageEntity
-    content.vb: Function SaveShipmentMessageEntity(shipmentMessageEntity As ShipmentMessageEntity) As ShipmentMessageEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
-  id: DeleteShipmentMessageEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.IMarketingAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteShipmentMessageEntity(Int32)
-  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the ShipmentMessageEntity\n"
-  syntax:
-    content: void DeleteShipmentMessageEntity(int shipmentMessageEntityId)
-    parameters:
-    - id: shipmentMessageEntityId
-      type: System.Int32
-      description: The identity of the ShipmentMessageEntity
-    content.vb: Sub DeleteShipmentMessageEntity(shipmentMessageEntityId As Integer)
-  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
 - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
   id: CreateDefaultShipmentMessageBlockEntity
@@ -386,6 +308,86 @@ items:
       description: The identity of the ShipmentMessageBlockEntity
     content.vb: Sub DeleteShipmentMessageBlockEntity(shipmentMessageBlockEntityId As Integer)
   overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  id: CreateDefaultShipmentMessageEntity
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultShipmentMessageEntity()
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity()
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ShipmentMessageEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ShipmentMessageEntity CreateDefaultShipmentMessageEntity()
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: New ShipmentMessageEntity with default values
+    content.vb: Function CreateDefaultShipmentMessageEntity As ShipmentMessageEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  id: SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveShipmentMessageEntity(ShipmentMessageEntity)
+  nameWithType: IMarketingAgent.SaveShipmentMessageEntity(ShipmentMessageEntity)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty\n"
+  syntax:
+    content: ShipmentMessageEntity SaveShipmentMessageEntity(ShipmentMessageEntity shipmentMessageEntity)
+    parameters:
+    - id: shipmentMessageEntity
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: The ShipmentMessageEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: New or updated ShipmentMessageEntity
+    content.vb: Function SaveShipmentMessageEntity(shipmentMessageEntity As ShipmentMessageEntity) As ShipmentMessageEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  id: DeleteShipmentMessageEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteShipmentMessageEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ShipmentMessageEntity\n"
+  syntax:
+    content: void DeleteShipmentMessageEntity(int shipmentMessageEntityId)
+    parameters:
+    - id: shipmentMessageEntityId
+      type: System.Int32
+      description: The identity of the ShipmentMessageEntity
+    content.vb: Sub DeleteShipmentMessageEntity(shipmentMessageEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
 - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
   id: GetFormEntity(System.Int32)
@@ -476,16 +478,16 @@ items:
       description: FormSubmissionEntity
     content.vb: Function GetFormSubmissionEntity(formSubmissionEntityId As Integer) As FormSubmissionEntity
   overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
-  id: GetShipmentMessageEntity(System.Int32)
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
+  id: CalculateMailingStatistics(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetShipmentMessageEntity(Int32)
-  nameWithType: IMarketingAgent.GetShipmentMessageEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  name: CalculateMailingStatistics(Int32)
+  nameWithType: IMarketingAgent.CalculateMailingStatistics(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
   type: Method
   source:
     path: SuperOffice.Services
@@ -493,28 +495,28 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a ShipmentMessageEntity object.                        \n"
+  summary: "\nCalculate open and click rates for one or more mailings\n"
   syntax:
-    content: ShipmentMessageEntity GetShipmentMessageEntity(int shipmentMessageEntityId)
+    content: int CalculateMailingStatistics(int shipmentId)
     parameters:
-    - id: shipmentMessageEntityId
+    - id: shipmentId
       type: System.Int32
-      description: The identifier of the ShipmentMessageEntity object
+      description: If 0, calculate rates for all dirty (are_statistics_dirty) shipments
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageEntity
-      description: ShipmentMessageEntity
-    content.vb: Function GetShipmentMessageEntity(shipmentMessageEntityId As Integer) As ShipmentMessageEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
-  id: GetShipmentMessageBlockEntity(System.Int32)
+      type: System.Int32
+      description: Number of shipments updated with calculated statistics
+    content.vb: Function CalculateMailingStatistics(shipmentId As Integer) As Integer
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
+  id: GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   langs:
   - csharp
   - vb
-  name: GetShipmentMessageBlockEntity(Int32)
-  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  name: GetFormSubmissionsCount(Int32, FormSubmissionStatus)
+  nameWithType: IMarketingAgent.GetFormSubmissionsCount(Int32, FormSubmissionStatus)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32, SuperOffice.Data.FormSubmissionStatus)
   type: Method
   source:
     path: SuperOffice.Services
@@ -522,47 +524,21 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a ShipmentMessageBlockEntity object.                        \n"
+  summary: "\nGet counnt of submissions for given form and status. Count for all forms is returned if negative formId is given\n"
   syntax:
-    content: ShipmentMessageBlockEntity GetShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
+    content: int GetFormSubmissionsCount(int formId, FormSubmissionStatus status)
     parameters:
-    - id: shipmentMessageBlockEntityId
+    - id: formId
       type: System.Int32
-      description: The identifier of the ShipmentMessageBlockEntity object
+      description: If 0 or less, return count for all forms
+    - id: status
+      type: SuperOffice.Data.FormSubmissionStatus
+      description: Which status the submissions should have. If Unknown, return count of all statuses
     return:
-      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
-      description: ShipmentMessageBlockEntity
-    content.vb: Function GetShipmentMessageBlockEntity(shipmentMessageBlockEntityId As Integer) As ShipmentMessageBlockEntity
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity*
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
-  id: GetUserBlocks(System.Int32)
-  parent: SuperOffice.CRM.Services.IMarketingAgent
-  langs:
-  - csharp
-  - vb
-  name: GetUserBlocks(Int32)
-  nameWithType: IMarketingAgent.GetUserBlocks(Int32)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet the saved user blocks to be used in a shipment/mailing message\n"
-  syntax:
-    content: ShipmentMessageBlockEntity[] GetUserBlocks(int associateId)
-    parameters:
-    - id: associateId
       type: System.Int32
-      description: The associate id to get the user blocks. 0 will get all saved blocks
-    return:
-      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
-      description: An array of user blocks
-    content.vb: Function GetUserBlocks(associateId As Integer) As ShipmentMessageBlockEntity()
-  overload: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks*
+      description: Number of formsubmissions
+    content.vb: Function GetFormSubmissionsCount(formId As Integer, status As FormSubmissionStatus) As Integer
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount*
 - uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
   id: GetPreviewMailing(System.Int32)
@@ -621,6 +597,93 @@ items:
       description: PreviewMailingHeader
     content.vb: Function GetPreviewMailingHeader(shipmentId As Integer) As PreviewMailingHeader
   overload: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  id: GetShipmentMessageBlockEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShipmentMessageBlockEntity(Int32)
+  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ShipmentMessageBlockEntity object.                        \n"
+  syntax:
+    content: ShipmentMessageBlockEntity GetShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
+    parameters:
+    - id: shipmentMessageBlockEntityId
+      type: System.Int32
+      description: The identifier of the ShipmentMessageBlockEntity object
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      description: ShipmentMessageBlockEntity
+    content.vb: Function GetShipmentMessageBlockEntity(shipmentMessageBlockEntityId As Integer) As ShipmentMessageBlockEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  id: GetUserBlocks(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserBlocks(Int32)
+  nameWithType: IMarketingAgent.GetUserBlocks(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the saved user blocks to be used in a shipment/mailing message\n"
+  syntax:
+    content: ShipmentMessageBlockEntity[] GetUserBlocks(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate id to get the user blocks. 0 will get all saved blocks
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
+      description: An array of user blocks
+    content.vb: Function GetUserBlocks(associateId As Integer) As ShipmentMessageBlockEntity()
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  id: GetShipmentMessageEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShipmentMessageEntity(Int32)
+  nameWithType: IMarketingAgent.GetShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ShipmentMessageEntity object.                        \n"
+  syntax:
+    content: ShipmentMessageEntity GetShipmentMessageEntity(int shipmentMessageEntityId)
+    parameters:
+    - id: shipmentMessageEntityId
+      type: System.Int32
+      description: The identifier of the ShipmentMessageEntity object
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: ShipmentMessageEntity
+    content.vb: Function GetShipmentMessageEntity(shipmentMessageEntityId As Integer) As ShipmentMessageEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -691,31 +754,6 @@ references:
   name: DeleteFormSubmissionEntity
   nameWithType: IMarketingAgent.DeleteFormSubmissionEntity
   fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
-  isExternal: true
-  name: CreateDefaultShipmentMessageEntity
-  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.ShipmentMessageEntity
-  commentId: T:SuperOffice.CRM.Services.ShipmentMessageEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ShipmentMessageEntity
-  nameWithType: ShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
-  isExternal: true
-  name: SaveShipmentMessageEntity
-  nameWithType: IMarketingAgent.SaveShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
-  isExternal: true
-  name: DeleteShipmentMessageEntity
-  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
 - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity*
   commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
   isExternal: true
@@ -741,6 +779,31 @@ references:
   name: DeleteShipmentMessageBlockEntity
   nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity
   fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  isExternal: true
+  name: CreateDefaultShipmentMessageEntity
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.ShipmentMessageEntity
+  commentId: T:SuperOffice.CRM.Services.ShipmentMessageEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ShipmentMessageEntity
+  nameWithType: ShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
+  isExternal: true
+  name: SaveShipmentMessageEntity
+  nameWithType: IMarketingAgent.SaveShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
+  isExternal: true
+  name: DeleteShipmentMessageEntity
+  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
 - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity*
   commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity
   isExternal: true
@@ -773,12 +836,49 @@ references:
   name: GetFormSubmissionEntity
   nameWithType: IMarketingAgent.GetFormSubmissionEntity
   fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics
   isExternal: true
-  name: GetShipmentMessageEntity
-  nameWithType: IMarketingAgent.GetShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
+  name: CalculateMailingStatistics
+  nameWithType: IMarketingAgent.CalculateMailingStatistics
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount
+  isExternal: true
+  name: GetFormSubmissionsCount
+  nameWithType: IMarketingAgent.GetFormSubmissionsCount
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount
+- uid: SuperOffice.Data.FormSubmissionStatus
+  isExternal: true
+  name: FormSubmissionStatus
+  nameWithType: FormSubmissionStatus
+  fullName: SuperOffice.Data.FormSubmissionStatus
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
+  isExternal: true
+  name: GetPreviewMailing
+  nameWithType: IMarketingAgent.GetPreviewMailing
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
+- uid: SuperOffice.CRM.Services.PreviewMailing
+  commentId: T:SuperOffice.CRM.Services.PreviewMailing
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewMailing
+  nameWithType: PreviewMailing
+  fullName: SuperOffice.CRM.Services.PreviewMailing
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
+  isExternal: true
+  name: GetPreviewMailingHeader
+  nameWithType: IMarketingAgent.GetPreviewMailingHeader
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
+- uid: SuperOffice.CRM.Services.PreviewMailingHeader
+  commentId: T:SuperOffice.CRM.Services.PreviewMailingHeader
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewMailingHeader
+  nameWithType: PreviewMailingHeader
+  fullName: SuperOffice.CRM.Services.PreviewMailingHeader
 - uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity*
   commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity
   isExternal: true
@@ -817,29 +917,9 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
   isExternal: true
-  name: GetPreviewMailing
-  nameWithType: IMarketingAgent.GetPreviewMailing
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
-- uid: SuperOffice.CRM.Services.PreviewMailing
-  commentId: T:SuperOffice.CRM.Services.PreviewMailing
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: PreviewMailing
-  nameWithType: PreviewMailing
-  fullName: SuperOffice.CRM.Services.PreviewMailing
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
-  isExternal: true
-  name: GetPreviewMailingHeader
-  nameWithType: IMarketingAgent.GetPreviewMailingHeader
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
-- uid: SuperOffice.CRM.Services.PreviewMailingHeader
-  commentId: T:SuperOffice.CRM.Services.PreviewMailingHeader
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: PreviewMailingHeader
-  nameWithType: PreviewMailingHeader
-  fullName: SuperOffice.CRM.Services.PreviewMailingHeader
+  name: GetShipmentMessageEntity
+  nameWithType: IMarketingAgent.GetShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity

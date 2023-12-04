@@ -1,0 +1,320 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
+  commentId: T:Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
+  id: INetServerCoreOptions
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers
+  langs:
+  - csharp
+  - vb
+  name: INetServerCoreOptions
+  nameWithType: INetServerCoreOptions
+  fullName: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public interface INetServerCoreOptions
+    content.vb: Public Interface INetServerCoreOptions
+  extensionMethods:
+  - Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.EnumUtil.MapEnums``2
+  - Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers
+  commentId: P:Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers
+  id: TokenSuppliers
+  parent: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
+  langs:
+  - csharp
+  - vb
+  name: TokenSuppliers
+  nameWithType: INetServerCoreOptions.TokenSuppliers
+  fullName: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: IList<Type> TokenSuppliers { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.Type}
+    content.vb: ReadOnly Property TokenSuppliers As IList(Of Type)
+  overload: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<INetServerCoreOptions, To>()
+  nameWithType: EnumUtil.MapEnums<INetServerCoreOptions, To>()
+  fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of INetServerCoreOptions, To)()
+  fullName.vb: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To)()
+  name.vb: MapEnums(Of INetServerCoreOptions, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<INetServerCoreOptions, To>
+    nameWithType: EnumUtil.MapEnums<INetServerCoreOptions, To>
+    fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of INetServerCoreOptions, To)
+    nameWithType: EnumUtil.MapEnums(Of INetServerCoreOptions, To)
+    fullName: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<INetServerCoreOptions, To>()
+  nameWithType: Converters.MapEnums<INetServerCoreOptions, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To>()
+  nameWithType.vb: Converters.MapEnums(Of INetServerCoreOptions, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To)()
+  name.vb: MapEnums(Of INetServerCoreOptions, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<INetServerCoreOptions, To>
+    nameWithType: Converters.MapEnums<INetServerCoreOptions, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of INetServerCoreOptions, To)
+    nameWithType: Converters.MapEnums(Of INetServerCoreOptions, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.INetServerCoreOptions, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers
+  isExternal: true
+  name: TokenSuppliers
+  nameWithType: INetServerCoreOptions.TokenSuppliers
+  fullName: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.TokenSuppliers
+- uid: System.Collections.Generic.IList{System.Type}
+  commentId: '!:System.Collections.Generic.IList{System.Type}'
+  definition: System.Collections.Generic.IList`1
+  name: IList<Type>
+  nameWithType: IList<Type>
+  fullName: System.Collections.Generic.IList<System.Type>
+  nameWithType.vb: IList(Of Type)
+  fullName.vb: System.Collections.Generic.IList(Of System.Type)
+  name.vb: IList(Of Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: System.Collections.Generic.IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: System.Collections.Generic.IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

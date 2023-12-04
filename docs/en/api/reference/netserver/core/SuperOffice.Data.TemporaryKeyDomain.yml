@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.TemporaryKeyDomain.MailingRecipient
   - SuperOffice.Data.TemporaryKeyDomain.PublicFaq
   - SuperOffice.Data.TemporaryKeyDomain.Unknown
+  - SuperOffice.Data.TemporaryKeyDomain.value__
   - SuperOffice.Data.TemporaryKeyDomain.ViewTicketInCustomerCenter
   langs:
   - csharp
@@ -18,7 +19,7 @@ items:
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.Data.TemporaryKeyDomain
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -27,19 +28,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDomains for temporary keys.\nThis Enum is used by:  TemporaryKey.domain\n"
   syntax:
-    content: 'public enum TemporaryKeyDomain : short'
-    content.vb: Public Enum TemporaryKeyDomain As Short
+    content: 'public sealed class TemporaryKeyDomain : Enum'
+    content.vb: >-
+      Public NotInheritable Class TemporaryKeyDomain
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TemporaryKeyDomain.EnumUtil.MapEnums``2
-  - SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TemporaryKeyDomain)
-  - SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.TemporaryKeyDomain.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TemporaryKeyDomain.value__
+  commentId: F:SuperOffice.Data.TemporaryKeyDomain.value__
+  id: value__
+  parent: SuperOffice.Data.TemporaryKeyDomain
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TemporaryKeyDomain.value__
+  fullName: SuperOffice.Data.TemporaryKeyDomain.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TemporaryKeyDomain.Unknown
   commentId: F:SuperOffice.Data.TemporaryKeyDomain.Unknown
   id: Unknown
@@ -59,9 +95,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown\n"
   syntax:
-    content: Unknown = 0
+    content: public const TemporaryKeyDomain Unknown
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Const Unknown As TemporaryKeyDomain
   modifiers.csharp:
   - public
   - const
@@ -87,9 +124,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Mailing recipient.\n"
   syntax:
-    content: MailingRecipient = 1
+    content: public const TemporaryKeyDomain MailingRecipient
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Const MailingRecipient As TemporaryKeyDomain
   modifiers.csharp:
   - public
   - const
@@ -115,9 +153,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Form submission recipient\n"
   syntax:
-    content: FormSubmitterRecipient = 2
+    content: public const TemporaryKeyDomain FormSubmitterRecipient
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Const FormSubmitterRecipient As TemporaryKeyDomain
   modifiers.csharp:
   - public
   - const
@@ -143,9 +182,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: View request in customer center\n"
   syntax:
-    content: ViewTicketInCustomerCenter = 3
+    content: public const TemporaryKeyDomain ViewTicketInCustomerCenter
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Const ViewTicketInCustomerCenter As TemporaryKeyDomain
   modifiers.csharp:
   - public
   - const
@@ -171,9 +211,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Customer center login key\n"
   syntax:
-    content: LoginCustomerCenter = 4
+    content: public const TemporaryKeyDomain LoginCustomerCenter
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Const LoginCustomerCenter As TemporaryKeyDomain
   modifiers.csharp:
   - public
   - const
@@ -199,9 +240,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Customer center public faq key\n"
   syntax:
-    content: PublicFaq = 5
+    content: public const TemporaryKeyDomain PublicFaq
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Const PublicFaq As TemporaryKeyDomain
   modifiers.csharp:
   - public
   - const
@@ -227,9 +269,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Customer center change password key\n"
   syntax:
-    content: ChangePasswordCustomerCenter = 6
+    content: public const TemporaryKeyDomain ChangePasswordCustomerCenter
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Const ChangePasswordCustomerCenter As TemporaryKeyDomain
   modifiers.csharp:
   - public
   - const
@@ -243,6 +286,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TemporaryKeyDomain.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -270,84 +320,6 @@ references:
     name: MapEnums(Of TemporaryKeyDomain, To)
     nameWithType: EnumUtil.MapEnums(Of TemporaryKeyDomain, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TemporaryKeyDomain, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TemporaryKeyDomain)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TemporaryKeyDomain>(TemporaryKeyDomain)
-  nameWithType: ObjectExtensions.AssignByReflection<TemporaryKeyDomain>(TemporaryKeyDomain)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TemporaryKeyDomain>(SuperOffice.Data.TemporaryKeyDomain)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TemporaryKeyDomain)(TemporaryKeyDomain)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TemporaryKeyDomain)(SuperOffice.Data.TemporaryKeyDomain)
-  name.vb: AssignByReflection(Of TemporaryKeyDomain)(TemporaryKeyDomain)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TemporaryKeyDomain>
-    nameWithType: ObjectExtensions.AssignByReflection<TemporaryKeyDomain>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TemporaryKeyDomain>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TemporaryKeyDomain
-    name: TemporaryKeyDomain
-    nameWithType: TemporaryKeyDomain
-    fullName: SuperOffice.Data.TemporaryKeyDomain
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TemporaryKeyDomain)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TemporaryKeyDomain)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TemporaryKeyDomain)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TemporaryKeyDomain
-    name: TemporaryKeyDomain
-    nameWithType: TemporaryKeyDomain
-    fullName: SuperOffice.Data.TemporaryKeyDomain
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TemporaryKeyDomain.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TemporaryKeyDomain>()
-  nameWithType: ObjectExtensions.GraphCopy<TemporaryKeyDomain>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TemporaryKeyDomain>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TemporaryKeyDomain)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TemporaryKeyDomain)()
-  name.vb: GraphCopy(Of TemporaryKeyDomain)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TemporaryKeyDomain>
-    nameWithType: ObjectExtensions.GraphCopy<TemporaryKeyDomain>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TemporaryKeyDomain>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TemporaryKeyDomain)
-    nameWithType: ObjectExtensions.GraphCopy(Of TemporaryKeyDomain)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TemporaryKeyDomain)
     isExternal: true
   - name: (
     nameWithType: (
@@ -389,6 +361,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -434,103 +412,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -577,18 +458,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TemporaryKeyDomain
   commentId: T:SuperOffice.Data.TemporaryKeyDomain
   parent: SuperOffice.Data

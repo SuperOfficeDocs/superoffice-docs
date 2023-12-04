@@ -11,13 +11,14 @@ items:
   - SuperOffice.Data.FormSubmissionStatus.Processed
   - SuperOffice.Data.FormSubmissionStatus.Submitted
   - SuperOffice.Data.FormSubmissionStatus.Unknown
+  - SuperOffice.Data.FormSubmissionStatus.value__
   langs:
   - csharp
   - vb
   name: FormSubmissionStatus
   nameWithType: FormSubmissionStatus
   fullName: SuperOffice.Data.FormSubmissionStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -26,19 +27,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nWhat is the status of this submission\nThis Enum is used by:  form_submission.status\n"
   syntax:
-    content: 'public enum FormSubmissionStatus : short'
-    content.vb: Public Enum FormSubmissionStatus As Short
+    content: 'public sealed class FormSubmissionStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class FormSubmissionStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.FormSubmissionStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FormSubmissionStatus)
-  - SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.FormSubmissionStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.FormSubmissionStatus.value__
+  commentId: F:SuperOffice.Data.FormSubmissionStatus.value__
+  id: value__
+  parent: SuperOffice.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FormSubmissionStatus.value__
+  fullName: SuperOffice.Data.FormSubmissionStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.FormSubmissionStatus.Unknown
   commentId: F:SuperOffice.Data.FormSubmissionStatus.Unknown
   id: Unknown
@@ -58,9 +94,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown status\n"
   syntax:
-    content: Unknown = 0
+    content: public const FormSubmissionStatus Unknown
     return:
       type: SuperOffice.Data.FormSubmissionStatus
+    content.vb: Public Const Unknown As FormSubmissionStatus
   modifiers.csharp:
   - public
   - const
@@ -86,9 +123,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: In progress, the customer has started filling out fields but has not yet submitted\n"
   syntax:
-    content: InProgress = 1
+    content: public const FormSubmissionStatus InProgress
     return:
       type: SuperOffice.Data.FormSubmissionStatus
+    content.vb: Public Const InProgress As FormSubmissionStatus
   modifiers.csharp:
   - public
   - const
@@ -114,9 +152,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: EmailVerification, the customer has submitted but we are waiting for click from sent email\n"
   syntax:
-    content: EmailVerification = 2
+    content: public const FormSubmissionStatus EmailVerification
     return:
       type: SuperOffice.Data.FormSubmissionStatus
+    content.vb: Public Const EmailVerification As FormSubmissionStatus
   modifiers.csharp:
   - public
   - const
@@ -142,9 +181,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Submitted, the form is submitted but has not yet been executed\n"
   syntax:
-    content: Submitted = 3
+    content: public const FormSubmissionStatus Submitted
     return:
       type: SuperOffice.Data.FormSubmissionStatus
+    content.vb: Public Const Submitted As FormSubmissionStatus
   modifiers.csharp:
   - public
   - const
@@ -170,9 +210,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Processed, the actions of the form have been executed\n"
   syntax:
-    content: Processed = 4
+    content: public const FormSubmissionStatus Processed
     return:
       type: SuperOffice.Data.FormSubmissionStatus
+    content.vb: Public Const Processed As FormSubmissionStatus
   modifiers.csharp:
   - public
   - const
@@ -198,9 +239,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Failed, there was an error when processing the form\n"
   syntax:
-    content: Failed = 5
+    content: public const FormSubmissionStatus Failed
     return:
       type: SuperOffice.Data.FormSubmissionStatus
+    content.vb: Public Const Failed As FormSubmissionStatus
   modifiers.csharp:
   - public
   - const
@@ -214,6 +256,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.FormSubmissionStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -241,84 +290,6 @@ references:
     name: MapEnums(Of FormSubmissionStatus, To)
     nameWithType: EnumUtil.MapEnums(Of FormSubmissionStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.FormSubmissionStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FormSubmissionStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FormSubmissionStatus>(FormSubmissionStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<FormSubmissionStatus>(FormSubmissionStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FormSubmissionStatus>(SuperOffice.Data.FormSubmissionStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormSubmissionStatus)(FormSubmissionStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FormSubmissionStatus)(SuperOffice.Data.FormSubmissionStatus)
-  name.vb: AssignByReflection(Of FormSubmissionStatus)(FormSubmissionStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FormSubmissionStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<FormSubmissionStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FormSubmissionStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    nameWithType: FormSubmissionStatus
-    fullName: SuperOffice.Data.FormSubmissionStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FormSubmissionStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FormSubmissionStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FormSubmissionStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    nameWithType: FormSubmissionStatus
-    fullName: SuperOffice.Data.FormSubmissionStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FormSubmissionStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<FormSubmissionStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FormSubmissionStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormSubmissionStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FormSubmissionStatus)()
-  name.vb: GraphCopy(Of FormSubmissionStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FormSubmissionStatus>
-    nameWithType: ObjectExtensions.GraphCopy<FormSubmissionStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FormSubmissionStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FormSubmissionStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of FormSubmissionStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FormSubmissionStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -360,6 +331,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -405,103 +382,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -548,18 +428,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.FormSubmissionStatus
   commentId: T:SuperOffice.Data.FormSubmissionStatus
   parent: SuperOffice.Data

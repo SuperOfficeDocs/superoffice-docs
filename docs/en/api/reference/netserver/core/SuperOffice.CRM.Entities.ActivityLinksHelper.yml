@@ -34,7 +34,9 @@ items:
     content: 'public sealed class ActivityLinksHelper : LinksHelper, INestedPersist'
     content.vb: >-
       Public NotInheritable Class ActivityLinksHelper
+
           Inherits LinksHelper
+
           Implements INestedPersist
   inheritance:
   - System.Object
@@ -59,6 +61,10 @@ items:
   - SuperOffice.CRM.Entities.LinksHelper.hasChanged(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.LinksHelper.SourceTableId
   - SuperOffice.CRM.Entities.LinksHelper.IsDeleted
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Add(SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Remove(SuperOffice.CRM.Rows.RelationsRow)
   - SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.SetChildren(SuperOffice.CRM.Rows.RelationsRow[])
@@ -95,17 +101,14 @@ items:
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.IsMarkedForDelete
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.ActivityLinksHelper.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.ActivityLinksHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -1247,6 +1250,334 @@ references:
   name: IsDeleted
   nameWithType: LinksHelper.IsDeleted
   fullName: SuperOffice.CRM.Entities.LinksHelper.IsDeleted
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  name: add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>)
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow))
+  name.vb: add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.add_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.add_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).add_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).add_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  name: remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>)
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow))
+  name.vb: remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.remove_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.remove_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).remove_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).remove_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  name: add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>)
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow))
+  name.vb: add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.add_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.add_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).add_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).add_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow})
+  parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
+  definition: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  name: remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TableRowBase, RelationsRow>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>)
+  nameWithType.vb: EntityDetailsHelper(Of TableRowBase, RelationsRow).remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow))
+  name.vb: remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TableRowBase, RelationsRow))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper<TableRowBase, RelationsRow>.remove_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow>.remove_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper(Of TableRowBase, RelationsRow).remove_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RelationsRow).remove_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.RelationsRow
+    name: RelationsRow
+    nameWithType: RelationsRow
+    fullName: SuperOffice.CRM.Rows.RelationsRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Add(SuperOffice.CRM.Rows.RelationsRow)
   commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}.Add(SuperOffice.CRM.Rows.RelationsRow)
   parent: SuperOffice.CRM.Entities.EntityDetailsHelper{SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RelationsRow}
@@ -2472,6 +2803,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
@@ -2500,285 +2995,6 @@ references:
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.ActivityLinksHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2907,6 +3123,298 @@ references:
   - name: TChild
     nameWithType: TChild
     fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  isExternal: true
+  name: add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TParent, TChild>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TParent, TChild))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild))
+  name.vb: add_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TParent, TChild))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  isExternal: true
+  name: remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified<TParent, TChild>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TParent, TChild))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild))
+  name.vb: remove_OnEntityDetailsHelperAdded(EntityDetailsHelperModified(Of TParent, TChild))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperAdded(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperAdded
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperAdded
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperAdded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  isExternal: true
+  name: add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TParent, TChild>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TParent, TChild))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild))
+  name.vb: add_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TParent, TChild))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.add_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.add_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: add_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).add_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  commentId: M:SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+  isExternal: true
+  name: remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType: EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified<TParent, TChild>)
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>)
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TParent, TChild))
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild))
+  name.vb: remove_OnEntityDetailsHelperRemoved(EntityDetailsHelperModified(Of TParent, TChild))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>.remove_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2.remove_OnEntityDetailsHelperRemoved(SuperOffice.CRM.Entities.EntityDetailsHelperModified{`0,`1})
+    name: remove_OnEntityDetailsHelperRemoved
+    nameWithType: EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperRemoved
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild).remove_OnEntityDetailsHelperRemoved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -4021,8 +4529,7 @@ references:
   nameWithType: ActivityLinksHelper.GetFacadingItems
   fullName: SuperOffice.CRM.Entities.ActivityLinksHelper.GetFacadingItems
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<INestedPersist>
   nameWithType: IEnumerable<INestedPersist>
@@ -4065,14 +4572,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -4082,9 +4588,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4097,18 +4603,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved*
   commentId: Overload:SuperOffice.CRM.Entities.ActivityLinksHelper.OnSaved
   isExternal: true

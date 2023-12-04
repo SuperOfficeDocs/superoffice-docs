@@ -9,34 +9,70 @@ items:
   - SuperOffice.Data.TicketCategoryClosingStatus.Closed
   - SuperOffice.Data.TicketCategoryClosingStatus.Postponed
   - SuperOffice.Data.TicketCategoryClosingStatus.UserDefined
+  - SuperOffice.Data.TicketCategoryClosingStatus.value__
   langs:
   - csharp
   - vb
   name: TicketCategoryClosingStatus
   nameWithType: TicketCategoryClosingStatus
   fullName: SuperOffice.Data.TicketCategoryClosingStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nDefault status for requests. Note that this is a preference which should be respected if making UI. It is not enforced by the APIs\nThis Enum is used by:  ej_category.closing_status; ej_category.msg_closing_status\n"
+  summary: "\nDefault status for requests. Note that this is a preference which should be respected if making UI. It is not enforced by the APIs\n"
   syntax:
-    content: 'public enum TicketCategoryClosingStatus : short'
-    content.vb: Public Enum TicketCategoryClosingStatus As Short
+    content: 'public sealed class TicketCategoryClosingStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketCategoryClosingStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TicketCategoryClosingStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.TicketCategoryClosingStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketCategoryClosingStatus)
-  - SuperOffice.Data.TicketCategoryClosingStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.TicketCategoryClosingStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketCategoryClosingStatus.value__
+  commentId: F:SuperOffice.Data.TicketCategoryClosingStatus.value__
+  id: value__
+  parent: SuperOffice.Data.TicketCategoryClosingStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketCategoryClosingStatus.value__
+  fullName: SuperOffice.Data.TicketCategoryClosingStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TicketCategoryClosingStatus.UserDefined
   commentId: F:SuperOffice.Data.TicketCategoryClosingStatus.UserDefined
   id: UserDefined
@@ -56,9 +92,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: The ticket status should respect the user defined behaviour\n"
   syntax:
-    content: UserDefined = 0
+    content: public const TicketCategoryClosingStatus UserDefined
     return:
       type: SuperOffice.Data.TicketCategoryClosingStatus
+    content.vb: Public Const UserDefined As TicketCategoryClosingStatus
   modifiers.csharp:
   - public
   - const
@@ -84,9 +121,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Indicates that the ticket status should be active as default\n"
   syntax:
-    content: Active = 1
+    content: public const TicketCategoryClosingStatus Active
     return:
       type: SuperOffice.Data.TicketCategoryClosingStatus
+    content.vb: Public Const Active As TicketCategoryClosingStatus
   modifiers.csharp:
   - public
   - const
@@ -112,9 +150,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Indicates that the ticket status should be closed as default\n"
   syntax:
-    content: Closed = 2
+    content: public const TicketCategoryClosingStatus Closed
     return:
       type: SuperOffice.Data.TicketCategoryClosingStatus
+    content.vb: Public Const Closed As TicketCategoryClosingStatus
   modifiers.csharp:
   - public
   - const
@@ -140,9 +179,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Indicates that the ticket status should be postponed as default\n"
   syntax:
-    content: Postponed = 3
+    content: public const TicketCategoryClosingStatus Postponed
     return:
       type: SuperOffice.Data.TicketCategoryClosingStatus
+    content.vb: Public Const Postponed As TicketCategoryClosingStatus
   modifiers.csharp:
   - public
   - const
@@ -156,6 +196,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TicketCategoryClosingStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -183,84 +230,6 @@ references:
     name: MapEnums(Of TicketCategoryClosingStatus, To)
     nameWithType: EnumUtil.MapEnums(Of TicketCategoryClosingStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketCategoryClosingStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TicketCategoryClosingStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketCategoryClosingStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TicketCategoryClosingStatus>(TicketCategoryClosingStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketCategoryClosingStatus>(TicketCategoryClosingStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketCategoryClosingStatus>(SuperOffice.Data.TicketCategoryClosingStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketCategoryClosingStatus)(TicketCategoryClosingStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketCategoryClosingStatus)(SuperOffice.Data.TicketCategoryClosingStatus)
-  name.vb: AssignByReflection(Of TicketCategoryClosingStatus)(TicketCategoryClosingStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TicketCategoryClosingStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<TicketCategoryClosingStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketCategoryClosingStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TicketCategoryClosingStatus
-    name: TicketCategoryClosingStatus
-    nameWithType: TicketCategoryClosingStatus
-    fullName: SuperOffice.Data.TicketCategoryClosingStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TicketCategoryClosingStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TicketCategoryClosingStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketCategoryClosingStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TicketCategoryClosingStatus
-    name: TicketCategoryClosingStatus
-    nameWithType: TicketCategoryClosingStatus
-    fullName: SuperOffice.Data.TicketCategoryClosingStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TicketCategoryClosingStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TicketCategoryClosingStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<TicketCategoryClosingStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketCategoryClosingStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketCategoryClosingStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketCategoryClosingStatus)()
-  name.vb: GraphCopy(Of TicketCategoryClosingStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TicketCategoryClosingStatus>
-    nameWithType: ObjectExtensions.GraphCopy<TicketCategoryClosingStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketCategoryClosingStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TicketCategoryClosingStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of TicketCategoryClosingStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketCategoryClosingStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -302,6 +271,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -347,103 +322,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -490,18 +368,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.TicketCategoryClosingStatus
   commentId: T:SuperOffice.Data.TicketCategoryClosingStatus
   parent: SuperOffice.Data

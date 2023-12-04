@@ -27,9 +27,8 @@ items:
     content: 'public interface ISoTimeRecorderContext : IDisposable'
     content.vb: >-
       Public Interface ISoTimeRecorderContext
+
           Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
   extensionMethods:
   - SuperOffice.Diagnostics.ISoTimeRecorderContext.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.ISoTimeRecorderContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -148,37 +147,6 @@ references:
   name: SuperOffice.Diagnostics
   nameWithType: SuperOffice.Diagnostics
   fullName: SuperOffice.Diagnostics
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Diagnostics.ISoTimeRecorderContext.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -247,13 +215,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -345,12 +306,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -364,8 +319,7 @@ references:
   nameWithType: ISoTimeRecorderContext.Split
   fullName: SuperOffice.Diagnostics.ISoTimeRecorderContext.Split
 - uid: System.Func{System.String}
-  commentId: T:System.Func{System.String}
-  parent: System
+  commentId: '!:System.Func{System.String}'
   definition: System.Func`1
   name: Func<String>
   nameWithType: Func<String>
@@ -408,14 +362,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Func`1
-  commentId: T:System.Func`1
   isExternal: true
-  name: Func<TResult>
-  nameWithType: Func<TResult>
-  fullName: System.Func<TResult>
-  nameWithType.vb: Func(Of TResult)
-  fullName.vb: System.Func(Of TResult)
-  name.vb: Func(Of TResult)
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
   spec.csharp:
   - uid: System.Func`1
     name: Func
@@ -425,9 +378,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -440,9 +393,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

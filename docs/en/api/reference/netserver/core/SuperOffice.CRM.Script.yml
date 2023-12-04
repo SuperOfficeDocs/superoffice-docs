@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Script
+  commentId: N:SuperOffice.CRM.Script
+  id: SuperOffice.CRM.Script
+  children:
+  - SuperOffice.CRM.Script.CRMScriptServiceBase
+  - SuperOffice.CRM.Script.ICRMScriptService
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Script
+  nameWithType: SuperOffice.CRM.Script
+  fullName: SuperOffice.CRM.Script
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase
+  commentId: T:SuperOffice.CRM.Script.CRMScriptServiceBase
+  isExternal: true
+  name: CRMScriptServiceBase
+  nameWithType: CRMScriptServiceBase
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase
+- uid: SuperOffice.CRM.Script.ICRMScriptService
+  commentId: T:SuperOffice.CRM.Script.ICRMScriptService
+  parent: SuperOffice.CRM.Script
+  isExternal: true
+  name: ICRMScriptService
+  nameWithType: ICRMScriptService
+  fullName: SuperOffice.CRM.Script.ICRMScriptService
+- uid: SuperOffice.CRM.Script
+  commentId: N:SuperOffice.CRM.Script
+  isExternal: true
+  name: SuperOffice.CRM.Script
+  nameWithType: SuperOffice.CRM.Script
+  fullName: SuperOffice.CRM.Script

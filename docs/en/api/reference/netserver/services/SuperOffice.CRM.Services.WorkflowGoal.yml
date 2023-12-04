@@ -1,0 +1,379 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowGoal
+  commentId: T:SuperOffice.CRM.Services.WorkflowGoal
+  id: WorkflowGoal
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowGoal.#ctor
+  - SuperOffice.CRM.Services.WorkflowGoal.GoalType
+  - SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups
+  - SuperOffice.CRM.Services.WorkflowGoal.ToString
+  - SuperOffice.CRM.Services.WorkflowGoal.ToString(System.String)
+  - SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId
+  - SuperOffice.CRM.Services.WorkflowGoal.WorkflowId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoal
+  nameWithType: WorkflowGoal
+  fullName: SuperOffice.CRM.Services.WorkflowGoal
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflow goal carrier\n<p></p>\nCarrier object for WorkflowGoal.\nServices for the WorkflowGoal Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet WorkflowGoal 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new WorkflowAgent();\n    var workflowGoal = agent.GetWorkflowGoal( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class WorkflowGoal : Carrier'
+    content.vb: >-
+      Public Class WorkflowGoal
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowGoal.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowGoal.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowGoal
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoal()
+  nameWithType: WorkflowGoal.WorkflowGoal()
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoal()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowGoal()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowGoal.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowGoal.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowGoal.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowGoal
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowGoal.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.WorkflowGoal.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowGoal.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowGoal.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowGoal
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowGoal.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.WorkflowGoal.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId
+  commentId: P:SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId
+  id: WorkflowGoalId
+  parent: SuperOffice.CRM.Services.WorkflowGoal
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoalId
+  nameWithType: WorkflowGoal.WorkflowGoalId
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int WorkflowGoalId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WorkflowGoalId As Integer
+  overload: SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowGoal.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowGoal.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowGoal
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowGoal.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.WorkflowId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe flow this goal belongs to \n"
+  syntax:
+    content: public virtual int WorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WorkflowId As Integer
+  overload: SuperOffice.CRM.Services.WorkflowGoal.WorkflowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowGoal.GoalType
+  commentId: P:SuperOffice.CRM.Services.WorkflowGoal.GoalType
+  id: GoalType
+  parent: SuperOffice.CRM.Services.WorkflowGoal
+  langs:
+  - csharp
+  - vb
+  name: GoalType
+  nameWithType: WorkflowGoal.GoalType
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.GoalType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe workflow goal type \n"
+  syntax:
+    content: public virtual WorkflowGoalType GoalType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Overridable Property GoalType As WorkflowGoalType
+  overload: SuperOffice.CRM.Services.WorkflowGoal.GoalType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups
+  commentId: P:SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups
+  id: RestrictionGroups
+  parent: SuperOffice.CRM.Services.WorkflowGoal
+  langs:
+  - csharp
+  - vb
+  name: RestrictionGroups
+  nameWithType: WorkflowGoal.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe restrictions (can be multiple groups) that make up the Workflow goal criteria \n"
+  syntax:
+    content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+    content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
+  overload: SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowGoal.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowGoal.#ctor
+  isExternal: true
+  name: WorkflowGoal
+  nameWithType: WorkflowGoal.WorkflowGoal
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoal
+- uid: SuperOffice.CRM.Services.WorkflowGoal.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowGoal.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowGoal.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId
+  isExternal: true
+  name: WorkflowGoalId
+  nameWithType: WorkflowGoal.WorkflowGoalId
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.WorkflowGoalId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WorkflowGoal.WorkflowId*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowGoal.WorkflowId
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowGoal.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowGoal.GoalType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowGoal.GoalType
+  isExternal: true
+  name: GoalType
+  nameWithType: WorkflowGoal.GoalType
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.GoalType
+- uid: SuperOffice.Data.WorkflowGoalType
+  commentId: '!:SuperOffice.Data.WorkflowGoalType'
+  isExternal: true
+  name: WorkflowGoalType
+  nameWithType: WorkflowGoalType
+  fullName: SuperOffice.Data.WorkflowGoalType
+- uid: SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups
+  isExternal: true
+  name: RestrictionGroups
+  nameWithType: WorkflowGoal.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.WorkflowGoal.RestrictionGroups
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

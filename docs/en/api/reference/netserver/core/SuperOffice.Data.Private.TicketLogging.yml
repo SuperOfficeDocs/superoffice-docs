@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Private.TicketLogging
+  commentId: N:SuperOffice.Data.Private.TicketLogging
+  id: SuperOffice.Data.Private.TicketLogging
+  children:
+  - SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
+  - SuperOffice.Data.Private.TicketLogging.LogDetail
+  - SuperOffice.Data.Private.TicketLogging.TicketLogger
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
+  - SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Data.Private.TicketLogging
+  nameWithType: SuperOffice.Data.Private.TicketLogging
+  fullName: SuperOffice.Data.Private.TicketLogging
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
+  commentId: T:SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
+  parent: SuperOffice.Data.Private.TicketLogging
+  isExternal: true
+  name: ITicketLoggingLogic
+  nameWithType: ITicketLoggingLogic
+  fullName: SuperOffice.Data.Private.TicketLogging.ITicketLoggingLogic
+- uid: SuperOffice.Data.Private.TicketLogging.LogDetail
+  commentId: T:SuperOffice.Data.Private.TicketLogging.LogDetail
+  isExternal: true
+  name: LogDetail
+  nameWithType: LogDetail
+  fullName: SuperOffice.Data.Private.TicketLogging.LogDetail
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLogger
+  commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLogger
+  isExternal: true
+  name: TicketLogger
+  nameWithType: TicketLogger
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLogger
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
+  commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
+  isExternal: true
+  name: TicketLoggerProcessor
+  nameWithType: TicketLoggerProcessor
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+  isExternal: true
+  name: TicketLoggerProcessor.OldAndNew
+  nameWithType: TicketLoggerProcessor.OldAndNew
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.OldAndNew
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
+  commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
+  parent: SuperOffice.Data.Private.TicketLogging
+  isExternal: true
+  name: TicketLoggerProcessor.QueryData
+  nameWithType: TicketLoggerProcessor.QueryData
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggerProcessor.QueryData
+- uid: SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
+  commentId: T:SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
+  isExternal: true
+  name: TicketLoggingLogic
+  nameWithType: TicketLoggingLogic
+  fullName: SuperOffice.Data.Private.TicketLogging.TicketLoggingLogic
+- uid: SuperOffice.Data.Private.TicketLogging
+  commentId: N:SuperOffice.Data.Private.TicketLogging
+  isExternal: true
+  name: SuperOffice.Data.Private.TicketLogging
+  nameWithType: SuperOffice.Data.Private.TicketLogging
+  fullName: SuperOffice.Data.Private.TicketLogging

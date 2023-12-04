@@ -5,6 +5,8 @@ items:
   id: AppointmentInfoProvider
   parent: SuperOffice.CRM.Entities.Providers
   children:
+  - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText(System.String,System.String)
+  - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText(SuperOffice.CRM.Entities.Person,System.String)
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.Appointment
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AppointmentId
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AssociateId
@@ -20,6 +22,8 @@ items:
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.EndDate
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.EndTime
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.FreeBusy
+  - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Entities.AppointmentCollection)
+  - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Rows.AppointmentRow[])
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedDecimal(System.Int32)
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedDecimal(System.String)
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedInt(System.Int32)
@@ -86,9 +90,12 @@ items:
   summary: "\nImplementation of <xref href=\"SuperOffice.CRM.IAppointmentInfo\" data-throw-if-not-resolved=\"false\"></xref>; create through factory (see remarks)\n"
   remarks: "\nTo create an instance of AppointmentInfoProvider, use \n<pre><code>var info = ClassFactory.Create&lt;IAppointmentInfo>(appnt);</code></pre>\nwhere appnt is a <xref href=\"SuperOffice.CRM.Entities.Appointment\" data-throw-if-not-resolved=\"false\"></xref>, to use an\nalready-loaded entity object (that may also contain unsaved data);\nor where cont is an int that is a contactId, which will cause database fetches. \nThe factory methods at the bottom of this class will handle both cases.\n<p></p>\nIf you are in the Cpp world, or otherwise have unsaved data that you would\nwant to use without incurring the overhead of an entity object, instantiate\na <xref href=\"SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo\" data-throw-if-not-resolved=\"false\"></xref> instead, fully populate it, and pass that to the factory.\n"
   syntax:
-    content: 'public class AppointmentInfoProvider : IAppointmentInfo3, IAppointmentInfo2, IAppointmentInfo'
+    content: 'public class AppointmentInfoProvider : Object, IAppointmentInfo3, IAppointmentInfo2, IAppointmentInfo'
     content.vb: >-
       Public Class AppointmentInfoProvider
+
+          Inherits Object
+
           Implements IAppointmentInfo3, IAppointmentInfo2, IAppointmentInfo
   inheritance:
   - System.Object
@@ -96,14 +103,6 @@ items:
   - SuperOffice.CRM.IAppointmentInfo3
   - SuperOffice.CRM.IAppointmentInfo2
   - SuperOffice.CRM.IAppointmentInfo
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -113,6 +112,144 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Entities.AppointmentCollection)
+  commentId: M:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Entities.AppointmentCollection)
+  id: GetEmailAddressDictionary(SuperOffice.CRM.Entities.AppointmentCollection)
+  parent: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
+  langs:
+  - csharp
+  - vb
+  name: GetEmailAddressDictionary(AppointmentCollection)
+  nameWithType: AppointmentInfoProvider.GetEmailAddressDictionary(AppointmentCollection)
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Entities.AppointmentCollection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nGetting a dictionary of email ids and their correspoinding email address\n"
+  syntax:
+    content: public static Dictionary<int, string> GetEmailAddressDictionary(AppointmentCollection collection)
+    parameters:
+    - id: collection
+      type: SuperOffice.CRM.Entities.AppointmentCollection
+      description: Collection of appointments for which we want to find the email addresses
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.String}
+    content.vb: Public Shared Function GetEmailAddressDictionary(collection As AppointmentCollection) As Dictionary(Of Integer, String)
+  overload: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Rows.AppointmentRow[])
+  commentId: M:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Rows.AppointmentRow[])
+  id: GetEmailAddressDictionary(SuperOffice.CRM.Rows.AppointmentRow[])
+  parent: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
+  langs:
+  - csharp
+  - vb
+  name: GetEmailAddressDictionary(AppointmentRow[])
+  nameWithType: AppointmentInfoProvider.GetEmailAddressDictionary(AppointmentRow[])
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Rows.AppointmentRow[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nGetting a dictionary of email ids and their correspoinding email address\n"
+  syntax:
+    content: public static Dictionary<int, string> GetEmailAddressDictionary(AppointmentRow[] rows)
+    parameters:
+    - id: rows
+      type: SuperOffice.CRM.Rows.AppointmentRow[]
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.String}
+    content.vb: Public Shared Function GetEmailAddressDictionary(rows As AppointmentRow()) As Dictionary(Of Integer, String)
+  overload: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary*
+  nameWithType.vb: AppointmentInfoProvider.GetEmailAddressDictionary(AppointmentRow())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary(SuperOffice.CRM.Rows.AppointmentRow())
+  name.vb: GetEmailAddressDictionary(AppointmentRow())
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText(SuperOffice.CRM.Entities.Person,System.String)
+  commentId: M:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText(SuperOffice.CRM.Entities.Person,System.String)
+  id: AddPersonParticipantToInviteText(SuperOffice.CRM.Entities.Person,System.String)
+  parent: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
+  langs:
+  - csharp
+  - vb
+  name: AddPersonParticipantToInviteText(Person, String)
+  nameWithType: AppointmentInfoProvider.AddPersonParticipantToInviteText(Person, String)
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText(SuperOffice.CRM.Entities.Person, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public static string AddPersonParticipantToInviteText(Person person, string inviteString)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Entities.Person
+    - id: inviteString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function AddPersonParticipantToInviteText(person As Person, inviteString As String) As String
+  overload: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText(System.String,System.String)
+  id: AddEmailParticipantToInviteText(System.String,System.String)
+  parent: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
+  langs:
+  - csharp
+  - vb
+  name: AddEmailParticipantToInviteText(String, String)
+  nameWithType: AppointmentInfoProvider.AddEmailParticipantToInviteText(String, String)
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public static string AddEmailParticipantToInviteText(string email, string inviteString)
+    parameters:
+    - id: email
+      type: System.String
+    - id: inviteString
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function AddEmailParticipantToInviteText(email As String, inviteString As String) As String
+  overload: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedDecimal(System.Int32)
   id: GetUserDefinedDecimal(System.Int32)
@@ -2251,285 +2388,6 @@ references:
   name: IAppointmentInfo
   nameWithType: IAppointmentInfo
   fullName: SuperOffice.CRM.IAppointmentInfo
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2707,6 +2565,186 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary
+  isExternal: true
+  name: GetEmailAddressDictionary
+  nameWithType: AppointmentInfoProvider.GetEmailAddressDictionary
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetEmailAddressDictionary
+- uid: SuperOffice.CRM.Entities.AppointmentCollection
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentCollection
+  nameWithType: AppointmentCollection
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection
+- uid: System.Collections.Generic.Dictionary{System.Int32,System.String}
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,System.String}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, String>
+  nameWithType: Dictionary<Int32, String>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, System.String>
+  nameWithType.vb: Dictionary(Of Int32, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, System.String)
+  name.vb: Dictionary(Of Int32, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRow[]
+  isExternal: true
+  name: AppointmentRow[]
+  nameWithType: AppointmentRow[]
+  fullName: SuperOffice.CRM.Rows.AppointmentRow[]
+  nameWithType.vb: AppointmentRow()
+  fullName.vb: SuperOffice.CRM.Rows.AppointmentRow()
+  name.vb: AppointmentRow()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    nameWithType: AppointmentRow
+    fullName: SuperOffice.CRM.Rows.AppointmentRow
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AppointmentRow
+    name: AppointmentRow
+    nameWithType: AppointmentRow
+    fullName: SuperOffice.CRM.Rows.AppointmentRow
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText
+  isExternal: true
+  name: AddPersonParticipantToInviteText
+  nameWithType: AppointmentInfoProvider.AddPersonParticipantToInviteText
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddPersonParticipantToInviteText
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText
+  isExternal: true
+  name: AddEmailParticipantToInviteText
+  nameWithType: AppointmentInfoProvider.AddEmailParticipantToInviteText
+  fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.AddEmailParticipantToInviteText
 - uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedDecimal*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedDecimal
   isExternal: true
@@ -2761,13 +2799,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedInt*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.GetUserDefinedInt
   isExternal: true
@@ -3005,12 +3036,6 @@ references:
   name: Appointment
   nameWithType: Appointment
   fullName: SuperOffice.CRM.Entities.Appointment
-- uid: SuperOffice.CRM.Entities
-  commentId: N:SuperOffice.CRM.Entities
-  isExternal: true
-  name: SuperOffice.CRM.Entities
-  nameWithType: SuperOffice.CRM.Entities
-  fullName: SuperOffice.CRM.Entities
 - uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.Appointment*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.Appointment
   isExternal: true

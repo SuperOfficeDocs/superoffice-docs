@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings
+  commentId: T:SuperOffice.CRM.Workflow.SendSMSSettings
+  id: SendSMSSettings
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.SendSMSSettings.#ctor
+  - SuperOffice.CRM.Workflow.SendSMSSettings.Exit
+  - SuperOffice.CRM.Workflow.SendSMSSettings.From
+  - SuperOffice.CRM.Workflow.SendSMSSettings.Text
+  langs:
+  - csharp
+  - vb
+  name: SendSMSSettings
+  nameWithType: SendSMSSettings
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class SendSMSSettings : StepSettings'
+    content.vb: >-
+      Public Class SendSMSSettings
+
+          Inherits StepSettings
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Workflow.StepSettings
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.SendSMSSettings.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.SendSMSSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.SendSMSSettings)
+  - SuperOffice.CRM.Workflow.SendSMSSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.SendSMSSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.SendSMSSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Workflow.SendSMSSettings
+  langs:
+  - csharp
+  - vb
+  name: SendSMSSettings()
+  nameWithType: SendSMSSettings.SendSMSSettings()
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.SendSMSSettings()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public SendSMSSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Workflow.SendSMSSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.From
+  commentId: P:SuperOffice.CRM.Workflow.SendSMSSettings.From
+  id: From
+  parent: SuperOffice.CRM.Workflow.SendSMSSettings
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: SendSMSSettings.From
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.From
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property From As String
+  overload: SuperOffice.CRM.Workflow.SendSMSSettings.From*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.Text
+  commentId: P:SuperOffice.CRM.Workflow.SendSMSSettings.Text
+  id: Text
+  parent: SuperOffice.CRM.Workflow.SendSMSSettings
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: SendSMSSettings.Text
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.Text
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: SuperOffice.CRM.Workflow.SendSMSSettings.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.Exit
+  commentId: P:SuperOffice.CRM.Workflow.SendSMSSettings.Exit
+  id: Exit
+  parent: SuperOffice.CRM.Workflow.SendSMSSettings
+  langs:
+  - csharp
+  - vb
+  name: Exit
+  nameWithType: SendSMSSettings.Exit
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.Exit
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public bool Exit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Exit As Boolean
+  overload: SuperOffice.CRM.Workflow.SendSMSSettings.Exit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.StepSettings
+  commentId: T:SuperOffice.CRM.Workflow.StepSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: StepSettings
+  nameWithType: StepSettings
+  fullName: SuperOffice.CRM.Workflow.StepSettings
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SendSMSSettings, To>()
+  nameWithType: EnumUtil.MapEnums<SendSMSSettings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.SendSMSSettings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SendSMSSettings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.SendSMSSettings, To)()
+  name.vb: MapEnums(Of SendSMSSettings, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SendSMSSettings, To>
+    nameWithType: EnumUtil.MapEnums<SendSMSSettings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.SendSMSSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SendSMSSettings, To)
+    nameWithType: EnumUtil.MapEnums(Of SendSMSSettings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.SendSMSSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.SendSMSSettings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SendSMSSettings>(SendSMSSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<SendSMSSettings>(SendSMSSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.SendSMSSettings>(SuperOffice.CRM.Workflow.SendSMSSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SendSMSSettings)(SendSMSSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.SendSMSSettings)(SuperOffice.CRM.Workflow.SendSMSSettings)
+  name.vb: AssignByReflection(Of SendSMSSettings)(SendSMSSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SendSMSSettings>
+    nameWithType: ObjectExtensions.AssignByReflection<SendSMSSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.SendSMSSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.SendSMSSettings
+    name: SendSMSSettings
+    nameWithType: SendSMSSettings
+    fullName: SuperOffice.CRM.Workflow.SendSMSSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SendSMSSettings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SendSMSSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.SendSMSSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.SendSMSSettings
+    name: SendSMSSettings
+    nameWithType: SendSMSSettings
+    fullName: SuperOffice.CRM.Workflow.SendSMSSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SendSMSSettings>()
+  nameWithType: ObjectExtensions.GraphCopy<SendSMSSettings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.SendSMSSettings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SendSMSSettings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.SendSMSSettings)()
+  name.vb: GraphCopy(Of SendSMSSettings)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SendSMSSettings>
+    nameWithType: ObjectExtensions.GraphCopy<SendSMSSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.SendSMSSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SendSMSSettings)
+    nameWithType: ObjectExtensions.GraphCopy(Of SendSMSSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.SendSMSSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SendSMSSettings, To>()
+  nameWithType: Converters.MapEnums<SendSMSSettings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.SendSMSSettings, To>()
+  nameWithType.vb: Converters.MapEnums(Of SendSMSSettings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.SendSMSSettings, To)()
+  name.vb: MapEnums(Of SendSMSSettings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SendSMSSettings, To>
+    nameWithType: Converters.MapEnums<SendSMSSettings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.SendSMSSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SendSMSSettings, To)
+    nameWithType: Converters.MapEnums(Of SendSMSSettings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.SendSMSSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.SendSMSSettings.#ctor
+  isExternal: true
+  name: SendSMSSettings
+  nameWithType: SendSMSSettings.SendSMSSettings
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.SendSMSSettings
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.From*
+  commentId: Overload:SuperOffice.CRM.Workflow.SendSMSSettings.From
+  isExternal: true
+  name: From
+  nameWithType: SendSMSSettings.From
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.From
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.Text*
+  commentId: Overload:SuperOffice.CRM.Workflow.SendSMSSettings.Text
+  isExternal: true
+  name: Text
+  nameWithType: SendSMSSettings.Text
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.Text
+- uid: SuperOffice.CRM.Workflow.SendSMSSettings.Exit*
+  commentId: Overload:SuperOffice.CRM.Workflow.SendSMSSettings.Exit
+  isExternal: true
+  name: Exit
+  nameWithType: SendSMSSettings.Exit
+  fullName: SuperOffice.CRM.Workflow.SendSMSSettings.Exit
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

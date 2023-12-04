@@ -240,13 +240,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.UserAgent
   commentId: T:SuperOffice.CRM.Services.UserAgent
   isExternal: true
@@ -260,12 +253,6 @@ references:
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.DataRights.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DataRights.#ctor
   isExternal: true
@@ -285,6 +272,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DataRights.ColumnsInfo*
   commentId: Overload:SuperOffice.CRM.Services.DataRights.ColumnsInfo
   isExternal: true

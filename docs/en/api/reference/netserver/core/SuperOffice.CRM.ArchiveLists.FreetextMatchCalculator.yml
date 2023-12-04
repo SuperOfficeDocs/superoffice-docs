@@ -5,7 +5,7 @@ items:
   id: FreetextMatchCalculator
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
   - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
   - SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.TableNumberToLocalizedName(System.Int32)
   langs:
@@ -23,18 +23,13 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis is a utility class to perform an actual freetext search, for single or multiple words. It returns\nsets of ids that indicate the matches, and can also consolidate such sets into counts.\n"
   syntax:
-    content: public static class FreetextMatchCalculator
-    content.vb: Public Module FreetextMatchCalculator
+    content: 'public static class FreetextMatchCalculator : Object'
+    content.vb: >-
+      Public Module FreetextMatchCalculator
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -42,16 +37,16 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)
-  commentId: M:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)
-  id: CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)
+- uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
+  commentId: M:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
+  id: CalculateMatches(System.String[],System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches})
   parent: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator
   langs:
   - csharp
   - vb
-  name: CalculateMatches(String[], String[], Nullable<Int32>, Nullable<Int32>, Boolean)
-  nameWithType: FreetextMatchCalculator.CalculateMatches(String[], String[], Nullable<Int32>, Nullable<Int32>, Boolean)
-  fullName: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[], System.String[], System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Boolean)
+  name: CalculateMatches(String[], String[], Nullable<Int32>, Nullable<Int32>, Boolean, List<PartialMatches>)
+  nameWithType: FreetextMatchCalculator.CalculateMatches(String[], String[], Nullable<Int32>, Nullable<Int32>, Boolean, List<PartialMatches>)
+  fullName: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String[], System.String[], System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Boolean, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.PartialMatches>)
   type: Method
   source:
     path: SoDataBase
@@ -60,9 +55,9 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nPerform a freetext search and return the ids of the matching owners\n"
-  remarks: "\nSearch words are first matched against the stopword list and stopwords removed. If no valid\nwords are left, the search terminates with 0 matches.\nThen, a match id list is built for each word, and the intersection of the lists calculated.\nThe search terminates when all words have been processed, or when the intersection is empty.\n"
+  remarks: "\nSearch words are first matched against the stopword list and stopwords removed. If no valid\nwords are left, the search terminates with 0 matches.\nThen, a match id list is built for each word, and the intersection of the lists calculated.\nThe search terminates when all words have been processed, or when the intersection is empty.\n<p></p>\nNormal (non-cross table) search: all words must be found with-in a given owner.\ne.g. Search for &quot;Foo bar&quot; can find &quot;Foo&quot; in the contact.name and &quot;bar&quot; in the address table of the same contact.\n<p></p>\nCross-table search: all words do not have to be found within a given owner.\ne.g. Search for &quot;Foo bar&quot; can find &quot;Foo&quot; in a contact, and &quot;Bar&quot; in a person record.\nThe client needs to join the contact and person results to get the final results.\nResults are returned in two buckets: Pure results (all words found in entity) as the table number,\nand Partial results (some words found in entity) as the negative table number.\n"
   syntax:
-    content: public static Dictionary<int, List<int>> CalculateMatches(string[] wordList, string[] owners, int? searchOp = default(int? ), int? hitLim = default(int? ), bool soundex = false)
+    content: public static Dictionary<int, List<int>> CalculateMatches(string[] wordList, string[] owners, Nullable<int> searchOp = null, Nullable<int> hitLim = null, bool soundex = false, List<PartialMatches> partialMatches = null)
     parameters:
     - id: wordList
       type: System.String[]
@@ -78,23 +73,26 @@ items:
       description: Max number results to return. Defaults
     - id: soundex
       type: System.Boolean
+      description: Should we do SOUNDEX words instead of normal words?
+    - id: partialMatches
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches}
     return:
       type: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}
       description: >-
         Dictionary indexed by owner entity table number; value is a dictionary of ids (with no subvalues, the dictionary
 
         class is used to ensure a unique id list)
-    content.vb: Public Shared Function CalculateMatches(wordList As String(), owners As String(), searchOp As Integer? = Nothing, hitLim As Integer? = Nothing, soundex As Boolean = False) As Dictionary(Of Integer, List(Of Integer))
+    content.vb: Public Shared Function CalculateMatches(wordList As String(), owners As String(), searchOp As Nullable(Of Integer) = Nothing, hitLim As Nullable(Of Integer) = Nothing, soundex As Boolean = False, partialMatches As List(Of PartialMatches) = Nothing) As Dictionary(Of Integer, List(Of Integer))
   overload: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches*
-  nameWithType.vb: FreetextMatchCalculator.CalculateMatches(String(), String(), Nullable(Of Int32), Nullable(Of Int32), Boolean)
+  nameWithType.vb: FreetextMatchCalculator.CalculateMatches(String(), String(), Nullable(Of Int32), Nullable(Of Int32), Boolean, List(Of PartialMatches))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String(), System.String(), System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Boolean)
-  name.vb: CalculateMatches(String(), String(), Nullable(Of Int32), Nullable(Of Int32), Boolean)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.CalculateMatches(System.String(), System.String(), System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Boolean, System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.PartialMatches))
+  name.vb: CalculateMatches(String(), String(), Nullable(Of Int32), Nullable(Of Int32), Boolean, List(Of PartialMatches))
 - uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
   commentId: M:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
   id: GroupMatches(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}})
@@ -178,285 +176,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -496,8 +215,7 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
-  parent: System
+  commentId: '!:System.Nullable{System.Int32}'
   definition: System.Nullable`1
   name: Nullable<Int32>
   nameWithType: Nullable<Int32>
@@ -546,9 +264,51 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches}
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.PartialMatches}'
+  definition: System.Collections.Generic.List`1
+  name: List<PartialMatches>
+  nameWithType: List<PartialMatches>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.PartialMatches>
+  nameWithType.vb: List(Of PartialMatches)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.PartialMatches)
+  name.vb: List(Of PartialMatches)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.PartialMatches
+    name: PartialMatches
+    nameWithType: PartialMatches
+    fullName: SuperOffice.CRM.ArchiveLists.PartialMatches
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.PartialMatches
+    name: PartialMatches
+    nameWithType: PartialMatches
+    fullName: SuperOffice.CRM.ArchiveLists.PartialMatches
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, List<Int32>>
   nameWithType: Dictionary<Int32, List<Int32>>
@@ -629,14 +389,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -646,9 +405,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -661,21 +420,58 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -685,15 +481,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -706,24 +502,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches
   isExternal: true
@@ -731,8 +521,7 @@ references:
   nameWithType: FreetextMatchCalculator.GroupMatches
   fullName: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator.GroupMatches
 - uid: System.Collections.Generic.Dictionary{System.Int32,System.Int32}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.Int32}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,System.Int32}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, Int32>
   nameWithType: Dictionary<Int32, Int32>

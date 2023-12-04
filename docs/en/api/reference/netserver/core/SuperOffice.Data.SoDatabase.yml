@@ -9,7 +9,6 @@ items:
   - SuperOffice.Data.SoDatabase.AreaManagement
   - SuperOffice.Data.SoDatabase.Audience
   - SuperOffice.Data.SoDatabase.CentralDbTag
-  - SuperOffice.Data.SoDatabase.ClearAllPools
   - SuperOffice.Data.SoDatabase.CollaborativeCRM
   - SuperOffice.Data.SoDatabase.CommandTimeout
   - SuperOffice.Data.SoDatabase.CompanyName
@@ -41,14 +40,14 @@ items:
   - SuperOffice.Data.SoDatabase.ExpirationDate
   - SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
   - SuperOffice.Data.SoDatabase.GetCurrent
-  - SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod
+  - SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   - SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
   - SuperOffice.Data.SoDatabase.IsInitialized
   - SuperOffice.Data.SoDatabase.IsOnTravel
   - SuperOffice.Data.SoDatabase.IsSatellite
   - SuperOffice.Data.SoDatabase.IsUnicode
+  - SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
   - SuperOffice.Data.SoDatabase.LoginRights
-  - SuperOffice.Data.SoDatabase.LogOut
   - SuperOffice.Data.SoDatabase.LogOutInProgress
   - SuperOffice.Data.SoDatabase.OwnerContactId
   - SuperOffice.Data.SoDatabase.RemoteTravel
@@ -86,21 +85,15 @@ items:
     content: >-
       [SoInject("Database")]
 
-      public sealed class SoDatabase
+      public sealed class SoDatabase : Object
     content.vb: >-
       <SoInject("Database")>
 
       Public NotInheritable Class SoDatabase
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SoDatabase.EnumUtil.MapEnums``2
   - SuperOffice.Data.SoDatabase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -142,77 +135,6 @@ items:
       type: SuperOffice.Data.SoDatabase
     content.vb: Public Shared Function GetCurrent As SoDatabase
   overload: SuperOffice.Data.SoDatabase.GetCurrent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.SoDatabase.LogOut
-  commentId: M:SuperOffice.Data.SoDatabase.LogOut
-  id: LogOut
-  parent: SuperOffice.Data.SoDatabase
-  langs:
-  - csharp
-  - vb
-  name: LogOut()
-  nameWithType: SoDatabase.LogOut()
-  fullName: SuperOffice.Data.SoDatabase.LogOut()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nLog out from the current database, but keep the session/authentication information\n"
-  remarks: "\nA GlobalFlush event is called (twice, for good measure) to dispose of the current dictionary and as\nmuch associated information as possible. Right now this does <strong>NOT</strong> include static constructs,\nsuch as members initialized from static constructors.\n<p></p>\nWe need to actually close the pool; to do that we have to call a method that &quot;everybody&quot; implements,\nbut it&apos;s not a part of the DbConnection interface.<p></p>\nOracle: ms-help://MS.VSCC.v90/MS.MSDNQTR.v90.en/fxref_system.data.oracleclient/html/8f9174ce-4fa5-99b0-419e-46cc2236cc74.htm<br />\nSQL Server: ms-help://MS.VSCC.v90/MS.MSDNQTR.v90.en/fxref_system.data/html/cd9f69ca-1084-f9d4-837d-9a17f7f4a990.htm<br />\nSybase: http://dcx.sybase.com/1100en/dbprogramming_en11/ianywhere-data-sqlanywhere-saconnection-clearallpools2-0.html<br />\nSince there is only a naming convention, we use Reflection to look it up, and invoke it if it&apos;s there.\n"
-  syntax:
-    content: >-
-      [Obsolete("Use SoDatabaseContext.DisconnectDatabase", false)]
-
-      public static void LogOut()
-    content.vb: >-
-      <Obsolete("Use SoDatabaseContext.DisconnectDatabase", False)>
-
-      Public Shared Sub LogOut
-  overload: SuperOffice.Data.SoDatabase.LogOut*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use SoDatabaseContext.DisconnectDatabase
-    - type: System.Boolean
-      value: false
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Data.SoDatabase.ClearAllPools
-  commentId: M:SuperOffice.Data.SoDatabase.ClearAllPools
-  id: ClearAllPools
-  parent: SuperOffice.Data.SoDatabase
-  langs:
-  - csharp
-  - vb
-  name: ClearAllPools()
-  nameWithType: SoDatabase.ClearAllPools()
-  fullName: SuperOffice.Data.SoDatabase.ClearAllPools()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: "\nClear all connections in the current connection pool.\n"
-  syntax:
-    content: public static void ClearAllPools()
-    content.vb: Public Shared Sub ClearAllPools
-  overload: SuperOffice.Data.SoDatabase.ClearAllPools*
   modifiers.csharp:
   - public
   - static
@@ -422,6 +344,32 @@ items:
       description: The decrypted data.
     content.vb: Public Function DecryptData(data As String) As Byte()
   overload: SuperOffice.Data.SoDatabase.DecryptData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
+  commentId: M:SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
+  id: LoadSettingsFromUserPreference
+  parent: SuperOffice.Data.SoDatabase
+  langs:
+  - csharp
+  - vb
+  name: LoadSettingsFromUserPreference()
+  nameWithType: SoDatabase.LoadSettingsFromUserPreference()
+  fullName: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nLoad/reload fundamental settings controlled by &apos;userpreference&apos; rows: TravelTransactionLog, FreetextIndex, AdUsernameAuth\n"
+  syntax:
+    content: public void LoadSettingsFromUserPreference()
+    content.vb: Public Sub LoadSettingsFromUserPreference
+  overload: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -790,26 +738,12 @@ items:
   namespace: SuperOffice.Data
   summary: "\nLicense Info: Collaborative CRM (also known as eCRM) site license\n"
   syntax:
-    content: >-
-      [Obsolete("This license is obsolete, consider using ExpanderForCollaboration or ExpanderKey", false)]
-
-      public bool CollaborativeCRM { get; }
+    content: public bool CollaborativeCRM { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("This license is obsolete, consider using ExpanderForCollaboration or ExpanderKey", False)>
-
-      Public ReadOnly Property CollaborativeCRM As Boolean
+    content.vb: Public ReadOnly Property CollaborativeCRM As Boolean
   overload: SuperOffice.Data.SoDatabase.CollaborativeCRM*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This license is obsolete, consider using ExpanderForCollaboration or ExpanderKey
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - get
@@ -835,26 +769,12 @@ items:
   namespace: SuperOffice.Data
   summary: "\nLicense Info: Enterprise Application Integration site license\n"
   syntax:
-    content: >-
-      [Obsolete("Enterprise Application Integration License is obsolete and should be disregarded", true)]
-
-      public bool EnterpriseApplicationIntegration { get; }
+    content: public bool EnterpriseApplicationIntegration { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("Enterprise Application Integration License is obsolete and should be disregarded", True)>
-
-      Public ReadOnly Property EnterpriseApplicationIntegration As Boolean
+    content.vb: Public ReadOnly Property EnterpriseApplicationIntegration As Boolean
   overload: SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Enterprise Application Integration License is obsolete and should be disregarded
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -881,26 +801,12 @@ items:
   summary: "\nLicense Info: eXtended Client Access License - Employees allowed to access \nthe SO Database. See documentation for detalis (this numbner is not exact).\n"
   remarks: "\nThis number is an inexact numer and is rounded up.  Hence, SuperOffice \nSupport should be contactet to obtain the excact number of licenses.  \nThe number is calculated in percentage steps (0, 10, 25, 40, 60, 75, 90, 100) \nof total <xref href=\"SuperOffice.Data.SoDatabase.LoginRights\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [Obsolete("Extended Client Access License is obsolete and should be disregarded", true)]
-
-      public int EXtendedClientAccessLicense { get; }
+    content: public int EXtendedClientAccessLicense { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <Obsolete("Extended Client Access License is obsolete and should be disregarded", True)>
-
-      Public ReadOnly Property EXtendedClientAccessLicense As Integer
+    content.vb: Public ReadOnly Property EXtendedClientAccessLicense As Integer
   overload: SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Extended Client Access License is obsolete and should be disregarded
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -926,26 +832,12 @@ items:
   namespace: SuperOffice.Data
   summary: "\nLicense Info: Expander Key - now always available.\n"
   syntax:
-    content: >-
-      [Obsolete("Expander Key license is obsolete. Always available now", false)]
-
-      public bool ExpanderKey { get; }
+    content: public bool ExpanderKey { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("Expander Key license is obsolete. Always available now", False)>
-
-      Public ReadOnly Property ExpanderKey As Boolean
+    content.vb: Public ReadOnly Property ExpanderKey As Boolean
   overload: SuperOffice.Data.SoDatabase.ExpanderKey*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Expander Key license is obsolete. Always available now
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - get
@@ -1162,7 +1054,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property ExpirationDate As Date
+    content.vb: Public ReadOnly Property ExpirationDate As DateTime
   overload: SuperOffice.Data.SoDatabase.ExpirationDate*
   modifiers.csharp:
   - public
@@ -1418,16 +1310,16 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod
-  commentId: P:SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod
-  id: HasExpiredBeyoundGracePeriod
+- uid: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
+  commentId: P:SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
+  id: HasExpiredBeyondGracePeriod
   parent: SuperOffice.Data.SoDatabase
   langs:
   - csharp
   - vb
-  name: HasExpiredBeyoundGracePeriod
-  nameWithType: SoDatabase.HasExpiredBeyoundGracePeriod
-  fullName: SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod
+  name: HasExpiredBeyondGracePeriod
+  nameWithType: SoDatabase.HasExpiredBeyondGracePeriod
+  fullName: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   type: Property
   source:
     path: SoDataBase
@@ -1435,13 +1327,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
+  summary: "\nUsed by Sentry to determine if write access should be disabled.\n"
   syntax:
-    content: public bool HasExpiredBeyoundGracePeriod { get; }
+    content: public bool HasExpiredBeyondGracePeriod { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public ReadOnly Property HasExpiredBeyoundGracePeriod As Boolean
-  overload: SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod*
+    content.vb: Public ReadOnly Property HasExpiredBeyondGracePeriod As Boolean
+  overload: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod*
   modifiers.csharp:
   - public
   - get
@@ -1471,7 +1364,7 @@ items:
     parameters: []
     return:
       type: System.String
-      description: "\nMSSQL | Oracle | Sybase | DB2 | Custom...\n"
+      description: "\nMSSQL | Oracle\n"
     content.vb: Public ReadOnly Property DatabaseMajor As String
   overload: SuperOffice.Data.SoDatabase.DatabaseMajor*
   modifiers.csharp:
@@ -2148,285 +2041,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SoDatabase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2611,18 +2225,6 @@ references:
   name: SoDatabase
   nameWithType: SoDatabase
   fullName: SuperOffice.Data.SoDatabase
-- uid: SuperOffice.Data.SoDatabase.LogOut*
-  commentId: Overload:SuperOffice.Data.SoDatabase.LogOut
-  isExternal: true
-  name: LogOut
-  nameWithType: SoDatabase.LogOut
-  fullName: SuperOffice.Data.SoDatabase.LogOut
-- uid: SuperOffice.Data.SoDatabase.ClearAllPools*
-  commentId: Overload:SuperOffice.Data.SoDatabase.ClearAllPools
-  isExternal: true
-  name: ClearAllPools
-  nameWithType: SoDatabase.ClearAllPools
-  fullName: SuperOffice.Data.SoDatabase.ClearAllPools
 - uid: SuperOffice.Data.SoDatabase.EncryptString*
   commentId: Overload:SuperOffice.Data.SoDatabase.EncryptString
   isExternal: true
@@ -2687,6 +2289,12 @@ references:
   name: DecryptData
   nameWithType: SoDatabase.DecryptData
   fullName: SuperOffice.Data.SoDatabase.DecryptData
+- uid: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference*
+  commentId: Overload:SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
+  isExternal: true
+  name: LoadSettingsFromUserPreference
+  nameWithType: SoDatabase.LoadSettingsFromUserPreference
+  fullName: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
 - uid: SuperOffice.Data.SoDatabase.LogOutInProgress*
   commentId: Overload:SuperOffice.Data.SoDatabase.LogOutInProgress
   isExternal: true
@@ -2834,8 +2442,6 @@ references:
   nameWithType: SoDatabase.ExpirationDate
   fullName: SuperOffice.Data.SoDatabase.ExpirationDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2888,12 +2494,12 @@ references:
   name: TravellerId
   nameWithType: SoDatabase.TravellerId
   fullName: SuperOffice.Data.SoDatabase.TravellerId
-- uid: SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod*
-  commentId: Overload:SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod
+- uid: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod*
+  commentId: Overload:SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   isExternal: true
-  name: HasExpiredBeyoundGracePeriod
-  nameWithType: SoDatabase.HasExpiredBeyoundGracePeriod
-  fullName: SuperOffice.Data.SoDatabase.HasExpiredBeyoundGracePeriod
+  name: HasExpiredBeyondGracePeriod
+  nameWithType: SoDatabase.HasExpiredBeyondGracePeriod
+  fullName: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
 - uid: SuperOffice.Data.SoDatabase.DatabaseMajor*
   commentId: Overload:SuperOffice.Data.SoDatabase.DatabaseMajor
   isExternal: true

@@ -26,6 +26,7 @@ items:
     content: 'public interface IAggregationTwoPassPlugin : IAggregationPlugin, IPlugin'
     content.vb: >-
       Public Interface IAggregationTwoPassPlugin
+
           Inherits IAggregationPlugin, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])

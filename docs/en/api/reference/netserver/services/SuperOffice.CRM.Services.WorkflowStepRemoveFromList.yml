@@ -1,0 +1,382 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  id: WorkflowStepRemoveFromList
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowStepRemoveFromList.#ctor
+  - SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project
+  - SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection
+  - SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString
+  - SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepRemoveFromList
+  nameWithType: WorkflowStepRemoveFromList
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStep in workflow.\n<p></p>\nCarrier object for WorkflowStepRemoveFromList.\nServices for the WorkflowStepRemoveFromList Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowStepRemoveFromList : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepRemoveFromList
+
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  - SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  - SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepRemoveFromList()
+  nameWithType: WorkflowStepRemoveFromList.WorkflowStepRemoveFromList()
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.WorkflowStepRemoveFromList()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowStepRemoveFromList()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowStepRemoveFromList.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  overload: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowStepRemoveFromList.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection
+  id: Selection
+  parent: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: WorkflowStepRemoveFromList.Selection
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of selection to remove particiapnt from \n"
+  syntax:
+    content: public virtual int Selection { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Selection As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project
+  id: Project
+  parent: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: WorkflowStepRemoveFromList.Project
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of project to remove particiapnt from \n"
+  syntax:
+    content: public virtual int Project { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Project As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.#ctor
+  isExternal: true
+  name: WorkflowStepRemoveFromList
+  nameWithType: WorkflowStepRemoveFromList.WorkflowStepRemoveFromList
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.WorkflowStepRemoveFromList
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString()
+  nameWithType: WorkflowStepBase.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowStepRemoveFromList.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString(String)
+  nameWithType: WorkflowStepBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection
+  isExternal: true
+  name: Selection
+  nameWithType: WorkflowStepRemoveFromList.Selection
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Selection
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project
+  isExternal: true
+  name: Project
+  nameWithType: WorkflowStepRemoveFromList.Project
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList.Project

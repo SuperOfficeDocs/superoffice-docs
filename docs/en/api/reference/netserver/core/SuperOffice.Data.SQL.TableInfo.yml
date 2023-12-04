@@ -36,9 +36,12 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\nBase class for typed table information classes. Each typed subclass represents a table; each instance of a subclass\nrepresents one instance of a table in a query (multiple instances are automatically assigned unique correlation\nidentifiers in the generated SQL, and must be explicitly joined to avoid a colossal cross product).\n<p></p>\nTyped subclasses for each known table are available through the <xref href=\"SuperOffice.Data.TablesInfo\" data-throw-if-not-resolved=\"false\"></xref> class and its various static\nfactory methods. Typed table info instances are also available from Rows and Entities objects and their corresponding\nCustomSearch nested classes.\n"
   syntax:
-    content: 'public abstract class TableInfo : ICloneable'
+    content: 'public abstract class TableInfo : Object, ICloneable'
     content.vb: >-
       Public MustInherit Class TableInfo
+
+          Inherits Object
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -80,6 +83,7 @@ items:
   - SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
   - SuperOffice.CRM.Data.CategoryMembershipTableInfo
   - SuperOffice.CRM.Data.CategoryTableInfo
+  - SuperOffice.CRM.Data.CcTemplateTableInfo
   - SuperOffice.CRM.Data.ChatMessageTableInfo
   - SuperOffice.CRM.Data.ChatSessionTableInfo
   - SuperOffice.CRM.Data.ChatTopicTableInfo
@@ -90,6 +94,7 @@ items:
   - SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
   - SuperOffice.CRM.Data.ComptrTableInfo
   - SuperOffice.CRM.Data.ConfigTableInfo
+  - SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
   - SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
   - SuperOffice.CRM.Data.ConnectionConfigFieldTableInfo
   - SuperOffice.CRM.Data.ConsentPersonTableInfo
@@ -161,9 +166,12 @@ items:
   - SuperOffice.CRM.Data.ElementProfileTableInfo
   - SuperOffice.CRM.Data.EmailAccountTableInfo
   - SuperOffice.CRM.Data.EmailAttachmentTableInfo
+  - SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  - SuperOffice.CRM.Data.EmailFlowTableInfo
   - SuperOffice.CRM.Data.EmailFolderTableInfo
   - SuperOffice.CRM.Data.EmailItemTableInfo
   - SuperOffice.CRM.Data.EmailTableInfo
+  - SuperOffice.CRM.Data.EntityCountsTableInfo
   - SuperOffice.CRM.Data.ErpConfigurationTableInfo
   - SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
   - SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
@@ -250,6 +258,7 @@ items:
   - SuperOffice.CRM.Data.MailAliasTableInfo
   - SuperOffice.CRM.Data.MailBlockTableInfo
   - SuperOffice.CRM.Data.MailInFilterTableInfo
+  - SuperOffice.CRM.Data.MailingDomainsTableInfo
   - SuperOffice.CRM.Data.MailInUidlTableInfo
   - SuperOffice.CRM.Data.MergeMoveLogTableInfo
   - SuperOffice.CRM.Data.MessageCustomersTableInfo
@@ -268,6 +277,10 @@ items:
   - SuperOffice.CRM.Data.MsTrashbinTableInfo
   - SuperOffice.CRM.Data.NoticeFrameTableInfo
   - SuperOffice.CRM.Data.NotifyTableInfo
+  - SuperOffice.CRM.Data.Obsolete1TableInfo
+  - SuperOffice.CRM.Data.Obsolete2TableInfo
+  - SuperOffice.CRM.Data.Obsolete3TableInfo
+  - SuperOffice.CRM.Data.Obsolete4TableInfo
   - SuperOffice.CRM.Data.OLEFieldTableInfo
   - SuperOffice.CRM.Data.OLEFieldTextTableInfo
   - SuperOffice.CRM.Data.OLESubjectTableInfo
@@ -336,8 +349,14 @@ items:
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo
   - SuperOffice.CRM.Data.QuickReplyTableInfo
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo
+  - SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteApprReasonTableInfo
   - SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
   - SuperOffice.CRM.Data.QuoteConnectionTableInfo
+  - SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
   - SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
   - SuperOffice.CRM.Data.QuoteLineTableInfo
   - SuperOffice.CRM.Data.QuoteTableInfo
@@ -470,9 +489,21 @@ items:
   - SuperOffice.CRM.Data.TagsGroupLinkTableInfo
   - SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
   - SuperOffice.CRM.Data.TagsTableInfo
+  - SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  - SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  - SuperOffice.CRM.Data.TargetChangeTableInfo
+  - SuperOffice.CRM.Data.TargetDimensionTableInfo
+  - SuperOffice.CRM.Data.TargetGroupTableInfo
+  - SuperOffice.CRM.Data.TargetPeriodTableInfo
+  - SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+  - SuperOffice.CRM.Data.TargetRevisionTableInfo
   - SuperOffice.CRM.Data.TaskGroupLinkTableInfo
   - SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+  - SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.TaskMenuTableInfo
   - SuperOffice.CRM.Data.TaskTableInfo
+  - SuperOffice.CRM.Data.TempDbLockTableInfo
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo
   - SuperOffice.CRM.Data.TemporaryWordsTableInfo
   - SuperOffice.CRM.Data.TextTableInfo
@@ -483,12 +514,11 @@ items:
   - SuperOffice.CRM.Data.TicketLogChangeTableInfo
   - SuperOffice.CRM.Data.TicketLogTableInfo
   - SuperOffice.CRM.Data.TicketPriorityTableInfo
-  - SuperOffice.CRM.Data.TicketRelationActionTableInfo
-  - SuperOffice.CRM.Data.TicketRelationTableInfo
-  - SuperOffice.CRM.Data.TicketRelationTypeTableInfo
   - SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
   - SuperOffice.CRM.Data.TicketStatusTableInfo
   - SuperOffice.CRM.Data.TicketTableInfo
+  - SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+  - SuperOffice.CRM.Data.TicketTypeStatusTableInfo
   - SuperOffice.CRM.Data.TicketTypeTableInfo
   - SuperOffice.CRM.Data.TimestampsTableInfo
   - SuperOffice.CRM.Data.TravelCurrentTableInfo
@@ -538,17 +568,17 @@ items:
   - SuperOffice.CRM.Data.WebhookUsageTableInfo
   - SuperOffice.CRM.Data.WinPosSizeTableInfo
   - SuperOffice.CRM.Data.WordRelationsTableInfo
+  - SuperOffice.CRM.Data.WorkflowGoalTableInfo
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  - SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+  - SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+  - SuperOffice.CRM.Data.WorkflowStepTableInfo
+  - SuperOffice.CRM.Data.WorkflowTableInfo
+  - SuperOffice.CRM.Data.WorkflowTriggerTableInfo
   - SuperOffice.CRM.Data.WsdlDescriptionTableInfo
   - SuperOffice.CRM.Data.ZipToCityTableInfo
   implements:
   - System.ICloneable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.TableInfo.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.TableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -583,7 +613,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.Data.SQL.TableInfo.ToString*
   modifiers.csharp:
   - public
@@ -707,8 +736,6 @@ items:
       description: Clone of self, as object
     content.vb: Public Function Clone As Object
   overload: SuperOffice.Data.SQL.TableInfo.Clone*
-  implements:
-  - System.ICloneable.Clone
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1083,260 +1110,10 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1508,37 +1285,6 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ToString*
   commentId: Overload:SuperOffice.Data.SQL.TableInfo.ToString
   isExternal: true
@@ -1622,37 +1368,6 @@ references:
   name: Clone
   nameWithType: TableInfo.Clone
   fullName: SuperOffice.Data.SQL.TableInfo.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable*
   commentId: Overload:SuperOffice.Data.SQL.TableInfo.IsSameTable
   isExternal: true
@@ -1692,8 +1407,7 @@ references:
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<FieldInfo>
   nameWithType: IEnumerable<FieldInfo>
@@ -1736,14 +1450,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -1753,9 +1466,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1768,18 +1481,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Data.SQL.TableInfo.TableName*
   commentId: Overload:SuperOffice.Data.SQL.TableInfo.TableName
   isExternal: true

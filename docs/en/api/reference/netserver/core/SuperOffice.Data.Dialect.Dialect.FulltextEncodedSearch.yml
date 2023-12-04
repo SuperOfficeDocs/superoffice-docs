@@ -15,7 +15,7 @@ items:
   name: Dialect.FulltextEncodedSearch
   nameWithType: Dialect.FulltextEncodedSearch
   fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -23,26 +23,24 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
   syntax:
-    content: protected delegate string FulltextEncodedSearch(Argument left, string[] terms, Dialect.EncodedArraySearchType searchType);
-    parameters:
-    - id: left
-      type: SuperOffice.Data.SQL.Argument
-    - id: terms
-      type: System.String[]
-    - id: searchType
-      type: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
-    return:
-      type: System.String
-    content.vb: Protected Delegate Function FulltextEncodedSearch(left As Argument, terms As String(), searchType As Dialect.EncodedArraySearchType) As String
+    content: 'protected sealed class FulltextEncodedSearch : MulticastDelegate'
+    content.vb: >-
+      Protected NotInheritable Class FulltextEncodedSearch
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - protected
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Protected
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -194,6 +192,13 @@ references:
   name: SuperOffice.Data.Dialect
   nameWithType: SuperOffice.Data.Dialect
   fullName: SuperOffice.Data.Dialect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -262,53 +267,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.SQL.Argument
-  commentId: T:SuperOffice.Data.SQL.Argument
-  parent: SuperOffice.Data.SQL
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: Argument
-  nameWithType: Argument
-  fullName: SuperOffice.Data.SQL.Argument
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
-  commentId: T:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  name: Dialect.EncodedArraySearchType
-  nameWithType: Dialect.EncodedArraySearchType
-  fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -400,18 +364,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Data.SQL
-  commentId: N:SuperOffice.Data.SQL
-  isExternal: true
-  name: SuperOffice.Data.SQL
-  nameWithType: SuperOffice.Data.SQL
-  fullName: SuperOffice.Data.SQL
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -424,13 +376,6 @@ references:
   name: FulltextEncodedSearch
   nameWithType: Dialect.FulltextEncodedSearch.FulltextEncodedSearch
   fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.FulltextEncodedSearch
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -444,6 +389,59 @@ references:
   name: Invoke
   nameWithType: Dialect.FulltextEncodedSearch.Invoke
   fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.Invoke
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  commentId: T:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: Dialect.EncodedArraySearchType
+  nameWithType: Dialect.EncodedArraySearchType
+  fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
 - uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke
   isExternal: true
@@ -451,15 +449,11 @@ references:
   nameWithType: Dialect.FulltextEncodedSearch.BeginInvoke
   fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

@@ -49,18 +49,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ticket_priority table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TicketPriorityTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class TicketPriorityRecordData
-    content.vb: Public Class TicketPriorityRecordData
+    content: 'public class TicketPriorityRecordData : Object'
+    content.vb: >-
+      Public Class TicketPriorityRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.TicketPriorityRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TicketPriorityRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketPriorityRecordData)
@@ -198,12 +193,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen the timeframe starts on monday. \n"
+  summary: "\nThe work hour start for Mondays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime MonStart
     return:
       type: System.DateTime
-    content.vb: Public MonStart As Date
+    content.vb: Public MonStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -225,12 +220,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nWhen the timeframe ends on monday. \n"
+  summary: "\nThe work hour start for Mondays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime MonStop
     return:
       type: System.DateTime
-    content.vb: Public MonStop As Date
+    content.vb: Public MonStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -252,12 +247,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour start for Tuesdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime TueStart
     return:
       type: System.DateTime
-    content.vb: Public TueStart As Date
+    content.vb: Public TueStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -279,12 +274,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour stop for Tuesdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime TueStop
     return:
       type: System.DateTime
-    content.vb: Public TueStop As Date
+    content.vb: Public TueStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -306,12 +301,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour start for Wednesdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime WedStart
     return:
       type: System.DateTime
-    content.vb: Public WedStart As Date
+    content.vb: Public WedStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -333,12 +328,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour stop for Wednesdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime WedStop
     return:
       type: System.DateTime
-    content.vb: Public WedStop As Date
+    content.vb: Public WedStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -360,12 +355,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour start for Thursdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime ThuStart
     return:
       type: System.DateTime
-    content.vb: Public ThuStart As Date
+    content.vb: Public ThuStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -387,12 +382,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour stop for Thursdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime ThuStop
     return:
       type: System.DateTime
-    content.vb: Public ThuStop As Date
+    content.vb: Public ThuStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -414,12 +409,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour start for Fridays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime FriStart
     return:
       type: System.DateTime
-    content.vb: Public FriStart As Date
+    content.vb: Public FriStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -441,12 +436,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour stop for Fridays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime FriStop
     return:
       type: System.DateTime
-    content.vb: Public FriStop As Date
+    content.vb: Public FriStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -468,12 +463,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour start for Saturdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime SatStart
     return:
       type: System.DateTime
-    content.vb: Public SatStart As Date
+    content.vb: Public SatStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -495,12 +490,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour stop for Saturdays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime SatStop
     return:
       type: System.DateTime
-    content.vb: Public SatStop As Date
+    content.vb: Public SatStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -522,12 +517,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour start for Sundays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime SunStart
     return:
       type: System.DateTime
-    content.vb: Public SunStart As Date
+    content.vb: Public SunStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -549,12 +544,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n\n"
+  summary: "\nThe work hour stop for Sundays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public DateTime SunStop
     return:
       type: System.DateTime
-    content.vb: Public SunStop As Date
+    content.vb: Public SunStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -841,285 +836,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketPriorityRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1585,8 +1301,6 @@ references:
   nameWithType: TicketPriorityFlags
   fullName: SuperOffice.Data.TicketPriorityFlags
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

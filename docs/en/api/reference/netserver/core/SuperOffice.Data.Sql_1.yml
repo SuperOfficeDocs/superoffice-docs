@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Sql
+  commentId: N:SuperOffice.Data.Sql
+  id: SuperOffice.Data.Sql
+  children:
+  - SuperOffice.Data.Sql.SqlCommandExtraInfo
+  - SuperOffice.Data.Sql.WaitFor
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Data.Sql
+  nameWithType: SuperOffice.Data.Sql
+  fullName: SuperOffice.Data.Sql
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.Data.Sql.SqlCommandExtraInfo
+  commentId: T:SuperOffice.Data.Sql.SqlCommandExtraInfo
+  isExternal: true
+  name: SqlCommandExtraInfo
+  nameWithType: SqlCommandExtraInfo
+  fullName: SuperOffice.Data.Sql.SqlCommandExtraInfo
+- uid: SuperOffice.Data.Sql.WaitFor
+  commentId: T:SuperOffice.Data.Sql.WaitFor
+  parent: SuperOffice.Data.Sql
+  isExternal: true
+  name: WaitFor
+  nameWithType: WaitFor
+  fullName: SuperOffice.Data.Sql.WaitFor
+- uid: SuperOffice.Data.Sql
+  commentId: N:SuperOffice.Data.Sql
+  isExternal: true
+  name: SuperOffice.Data.Sql
+  nameWithType: SuperOffice.Data.Sql
+  fullName: SuperOffice.Data.Sql

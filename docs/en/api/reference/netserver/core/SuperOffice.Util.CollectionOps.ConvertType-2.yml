@@ -15,7 +15,7 @@ items:
   name: CollectionOps.ConvertType<SourceType, ReturnType>
   nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>
-  type: Delegate
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,30 +24,30 @@ items:
   namespace: SuperOffice.Util
   summary: "\nType converter delegate, used to convert an object of one type to another\n"
   syntax:
-    content: public delegate ReturnType ConvertType<SourceType, ReturnType>(SourceType s);
-    parameters:
-    - id: s
-      type: '{SourceType}'
-      description: Source element
+    content: 'public sealed class ConvertType<SourceType, ReturnType> : MulticastDelegate'
     typeParameters:
     - id: SourceType
       description: Source type
     - id: ReturnType
       description: Return (target) type
-    return:
-      type: '{ReturnType}'
-      description: Converted element
-    content.vb: Public Delegate Function ConvertType(Of SourceType, ReturnType)(s As SourceType) As ReturnType
+    content.vb: >-
+      Public NotInheritable Class ConvertType(Of SourceType, ReturnType)
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Util.CollectionOps.ConvertType`2.EnumUtil.MapEnums``2
   - SuperOffice.Util.CollectionOps.ConvertType`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType)
   name.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
 - uid: SuperOffice.Util.CollectionOps.ConvertType`2.#ctor(System.Object,System.IntPtr)
@@ -195,6 +195,13 @@ references:
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.CollectionOps.ConvertType`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -263,18 +270,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: '{SourceType}'
-  commentId: '!:SourceType'
-  definition: SourceType
-  name: SourceType
-  nameWithType: SourceType
-  fullName: SourceType
-- uid: '{ReturnType}'
-  commentId: '!:ReturnType'
-  definition: ReturnType
-  name: ReturnType
-  nameWithType: ReturnType
-  fullName: ReturnType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -366,14 +367,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SourceType
-  name: SourceType
-  nameWithType: SourceType
-  fullName: SourceType
-- uid: ReturnType
-  name: ReturnType
-  nameWithType: ReturnType
-  fullName: ReturnType
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -388,13 +381,6 @@ references:
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.ConvertType
   nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).ConvertType
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).ConvertType
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -402,12 +388,6 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Util.CollectionOps.ConvertType`2.Invoke*
   commentId: Overload:SuperOffice.Util.CollectionOps.ConvertType`2.Invoke
   isExternal: true
@@ -416,6 +396,26 @@ references:
   fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.Invoke
   nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).Invoke
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).Invoke
+- uid: '{SourceType}'
+  commentId: '!:SourceType'
+  definition: SourceType
+  name: SourceType
+  nameWithType: SourceType
+  fullName: SourceType
+- uid: '{ReturnType}'
+  commentId: '!:ReturnType'
+  definition: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
+- uid: SourceType
+  name: SourceType
+  nameWithType: SourceType
+  fullName: SourceType
+- uid: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
 - uid: SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke*
   commentId: Overload:SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke
   isExternal: true
@@ -425,15 +425,11 @@ references:
   nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).BeginInvoke
   fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

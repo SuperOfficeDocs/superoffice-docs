@@ -12,8 +12,10 @@ items:
   - SuperOffice.CRM.Services.EMailAccount.EMailAddress
   - SuperOffice.CRM.Services.EMailAccount.ErrorCount
   - SuperOffice.CRM.Services.EMailAccount.ErrorReason
+  - SuperOffice.CRM.Services.EMailAccount.InboxFolder
   - SuperOffice.CRM.Services.EMailAccount.IncomingCredentials
   - SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials
+  - SuperOffice.CRM.Services.EMailAccount.SentFolder
   - SuperOffice.CRM.Services.EMailAccount.ToString
   - SuperOffice.CRM.Services.EMailAccount.ToString(System.String)
   langs:
@@ -405,6 +407,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.InboxFolder
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.InboxFolder
+  id: InboxFolder
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: InboxFolder
+  nameWithType: EMailAccount.InboxFolder
+  fullName: SuperOffice.CRM.Services.EMailAccount.InboxFolder
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInbox folder name if available in the db \n"
+  syntax:
+    content: public virtual string InboxFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InboxFolder As String
+  overload: SuperOffice.CRM.Services.EMailAccount.InboxFolder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.SentFolder
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.SentFolder
+  id: SentFolder
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: SentFolder
+  nameWithType: EMailAccount.SentFolder
+  fullName: SuperOffice.CRM.Services.EMailAccount.SentFolder
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSent email folder name if available in the db \n"
+  syntax:
+    content: public virtual string SentFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SentFolder As String
+  overload: SuperOffice.CRM.Services.EMailAccount.SentFolder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -412,13 +480,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.EMailAgent
   commentId: T:SuperOffice.CRM.Services.EMailAgent
   isExternal: true
@@ -432,12 +493,6 @@ references:
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.CRM.Services.IEMailAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAccount.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EMailAccount.#ctor
   isExternal: true
@@ -457,6 +512,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAccount.EMailAccountId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAccount.EMailAccountId
   isExternal: true
@@ -526,3 +587,15 @@ references:
   name: ErrorReason
   nameWithType: EMailAccount.ErrorReason
   fullName: SuperOffice.CRM.Services.EMailAccount.ErrorReason
+- uid: SuperOffice.CRM.Services.EMailAccount.InboxFolder*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.InboxFolder
+  isExternal: true
+  name: InboxFolder
+  nameWithType: EMailAccount.InboxFolder
+  fullName: SuperOffice.CRM.Services.EMailAccount.InboxFolder
+- uid: SuperOffice.CRM.Services.EMailAccount.SentFolder*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.SentFolder
+  isExternal: true
+  name: SentFolder
+  nameWithType: EMailAccount.SentFolder
+  fullName: SuperOffice.CRM.Services.EMailAccount.SentFolder

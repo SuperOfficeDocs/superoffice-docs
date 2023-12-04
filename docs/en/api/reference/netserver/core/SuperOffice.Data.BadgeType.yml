@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.BadgeType
+  commentId: T:SuperOffice.Data.BadgeType
+  id: BadgeType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.BadgeType.Comment
+  - SuperOffice.Data.BadgeType.Forward
+  - SuperOffice.Data.BadgeType.Incoming
+  - SuperOffice.Data.BadgeType.Outgoing
+  - SuperOffice.Data.BadgeType.Reply
+  - SuperOffice.Data.BadgeType.Unknown
+  - SuperOffice.Data.BadgeType.value__
+  langs:
+  - csharp
+  - vb
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: SuperOffice.Data.BadgeType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;badge&apos; in table &apos;ej_message&apos;. Defines the initial source of a message.\nThis Enum is used by:  ej_message.badge\n"
+  syntax:
+    content: 'public sealed class BadgeType : Enum'
+    content.vb: >-
+      Public NotInheritable Class BadgeType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.BadgeType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.BadgeType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.BadgeType.value__
+  commentId: F:SuperOffice.Data.BadgeType.value__
+  id: value__
+  parent: SuperOffice.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BadgeType.value__
+  fullName: SuperOffice.Data.BadgeType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.BadgeType.Unknown
+  commentId: F:SuperOffice.Data.BadgeType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: BadgeType.Unknown
+  fullName: SuperOffice.Data.BadgeType.Unknown
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Initial message source is unknown\n"
+  syntax:
+    content: public const BadgeType Unknown
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Const Unknown As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BadgeType.Reply
+  commentId: F:SuperOffice.Data.BadgeType.Reply
+  id: Reply
+  parent: SuperOffice.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Reply
+  nameWithType: BadgeType.Reply
+  fullName: SuperOffice.Data.BadgeType.Reply
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Message created as a reply\n"
+  syntax:
+    content: public const BadgeType Reply
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Const Reply As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BadgeType.Forward
+  commentId: F:SuperOffice.Data.BadgeType.Forward
+  id: Forward
+  parent: SuperOffice.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: BadgeType.Forward
+  fullName: SuperOffice.Data.BadgeType.Forward
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Message created as a forward\n"
+  syntax:
+    content: public const BadgeType Forward
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Const Forward As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BadgeType.Comment
+  commentId: F:SuperOffice.Data.BadgeType.Comment
+  id: Comment
+  parent: SuperOffice.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: BadgeType.Comment
+  fullName: SuperOffice.Data.BadgeType.Comment
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Message created as an internal comment\n"
+  syntax:
+    content: public const BadgeType Comment
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Const Comment As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BadgeType.Incoming
+  commentId: F:SuperOffice.Data.BadgeType.Incoming
+  id: Incoming
+  parent: SuperOffice.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Incoming
+  nameWithType: BadgeType.Incoming
+  fullName: SuperOffice.Data.BadgeType.Incoming
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Message created as a result of other events processing\n"
+  syntax:
+    content: public const BadgeType Incoming
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Const Incoming As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BadgeType.Outgoing
+  commentId: F:SuperOffice.Data.BadgeType.Outgoing
+  id: Outgoing
+  parent: SuperOffice.Data.BadgeType
+  langs:
+  - csharp
+  - vb
+  name: Outgoing
+  nameWithType: BadgeType.Outgoing
+  fullName: SuperOffice.Data.BadgeType.Outgoing
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Message created as first outgoing message on ticket\n"
+  syntax:
+    content: public const BadgeType Outgoing
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Const Outgoing As BadgeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.BadgeType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BadgeType, To>()
+  nameWithType: EnumUtil.MapEnums<BadgeType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.BadgeType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BadgeType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.BadgeType, To)()
+  name.vb: MapEnums(Of BadgeType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BadgeType, To>
+    nameWithType: EnumUtil.MapEnums<BadgeType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.BadgeType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BadgeType, To)
+    nameWithType: EnumUtil.MapEnums(Of BadgeType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.BadgeType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.BadgeType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BadgeType, To>()
+  nameWithType: Converters.MapEnums<BadgeType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BadgeType, To>()
+  nameWithType.vb: Converters.MapEnums(Of BadgeType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BadgeType, To)()
+  name.vb: MapEnums(Of BadgeType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BadgeType, To>
+    nameWithType: Converters.MapEnums<BadgeType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BadgeType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BadgeType, To)
+    nameWithType: Converters.MapEnums(Of BadgeType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BadgeType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.BadgeType
+  commentId: T:SuperOffice.Data.BadgeType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: SuperOffice.Data.BadgeType

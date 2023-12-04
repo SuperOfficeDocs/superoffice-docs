@@ -1,0 +1,2008 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.Files.DiskFileAccess
+  commentId: T:SuperOffice.IO.Files.DiskFileAccess
+  id: DiskFileAccess
+  parent: SuperOffice.IO.Files
+  children:
+  - SuperOffice.IO.Files.DiskFileAccess.#ctor
+  - SuperOffice.IO.Files.DiskFileAccess.ArchivePath
+  - SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
+  - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
+  - SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.GetFileName(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.PathCombine(System.String[])
+  - SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  - SuperOffice.IO.Files.DiskFileAccess.TemplatesPath
+  - SuperOffice.IO.Files.DiskFileAccess.TemporaryPath
+  langs:
+  - csharp
+  - vb
+  name: DiskFileAccess
+  nameWithType: DiskFileAccess
+  fullName: SuperOffice.IO.Files.DiskFileAccess
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: 'public class DiskFileAccess : Object, IFileAccess'
+    content.vb: >-
+      Public Class DiskFileAccess
+
+          Inherits Object
+
+          Implements IFileAccess
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.IO.Files.IFileAccess
+  extensionMethods:
+  - SuperOffice.IO.Files.DiskFileAccess.EnumUtil.MapEnums``2
+  - SuperOffice.IO.Files.DiskFileAccess.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.IO.Files.DiskFileAccess)
+  - SuperOffice.IO.Files.DiskFileAccess.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.IO.Files.DiskFileAccess.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
+  id: EnsureAccess(System.Action)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: EnsureAccess(Action)
+  nameWithType: DiskFileAccess.EnsureAccess(Action)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public void EnsureAccess(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+    content.vb: Public Sub EnsureAccess(action As Action)
+  overload: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
+  id: EnsureAccess``1(System.Func{``0})
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: EnsureAccess<T>(Func<T>)
+  nameWithType: DiskFileAccess.EnsureAccess<T>(Func<T>)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess<T>(System.Func<T>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public T EnsureAccess<T>(Func<T> func)
+    parameters:
+    - id: func
+      type: System.Func{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function EnsureAccess(Of T)(func As Func(Of T)) As T
+  overload: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{{T}})
+  nameWithType.vb: DiskFileAccess.EnsureAccess(Of T)(Func(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(Of T)(System.Func(Of T))
+  name.vb: EnsureAccess(Of T)(Func(Of T))
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
+  id: FileExists(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: FileExists(String)
+  nameWithType: DiskFileAccess.FileExists(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileExists(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public bool FileExists(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function FileExists(path As String) As Boolean
+  overload: SuperOffice.IO.Files.DiskFileAccess.FileExists*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  id: DirectoryGetFiles(System.String,System.String,System.Boolean)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: DirectoryGetFiles(String, String, Boolean)
+  nameWithType: DiskFileAccess.DirectoryGetFiles(String, String, Boolean)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string[] DirectoryGetFiles(string path, string searchPattern, bool searchInSubdirectories = false)
+    parameters:
+    - id: path
+      type: System.String
+    - id: searchPattern
+      type: System.String
+    - id: searchInSubdirectories
+      type: System.Boolean
+    return:
+      type: System.String[]
+    content.vb: Public Function DirectoryGetFiles(path As String, searchPattern As String, searchInSubdirectories As Boolean = False) As String()
+  overload: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
+  id: DirectoryGetFileInfos(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: DirectoryGetFileInfos(String)
+  nameWithType: DiskFileAccess.DirectoryGetFileInfos(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public SoFileInfo[] DirectoryGetFileInfos(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: SuperOffice.IO.Files.SoFileInfo[]
+    content.vb: Public Function DirectoryGetFileInfos(path As String) As SoFileInfo()
+  overload: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists(System.String)
+  id: CreateDirectoryIfNotExists(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: CreateDirectoryIfNotExists(String)
+  nameWithType: DiskFileAccess.CreateDirectoryIfNotExists(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public void CreateDirectoryIfNotExists(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub CreateDirectoryIfNotExists(path As String)
+  overload: SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.GetFileName(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.GetFileName(System.String)
+  id: GetFileName(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: GetFileName(String)
+  nameWithType: DiskFileAccess.GetFileName(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.GetFileName(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string GetFileName(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetFileName(path As String) As String
+  overload: SuperOffice.IO.Files.DiskFileAccess.GetFileName*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension(System.String)
+  id: GetFileNameWithoutExtension(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: GetFileNameWithoutExtension(String)
+  nameWithType: DiskFileAccess.GetFileNameWithoutExtension(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string GetFileNameWithoutExtension(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetFileNameWithoutExtension(path As String) As String
+  overload: SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName(System.String)
+  id: GetDirectoryName(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: GetDirectoryName(String)
+  nameWithType: DiskFileAccess.GetDirectoryName(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string GetDirectoryName(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetDirectoryName(path As String) As String
+  overload: SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.PathCombine(System.String[])
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.PathCombine(System.String[])
+  id: PathCombine(System.String[])
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: PathCombine(String[])
+  nameWithType: DiskFileAccess.PathCombine(String[])
+  fullName: SuperOffice.IO.Files.DiskFileAccess.PathCombine(System.String[])
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string PathCombine(params string[] paths)
+    parameters:
+    - id: paths
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Function PathCombine(ParamArray paths As String()) As String
+  overload: SuperOffice.IO.Files.DiskFileAccess.PathCombine*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
+  nameWithType.vb: DiskFileAccess.PathCombine(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.Files.DiskFileAccess.PathCombine(System.String())
+  name.vb: PathCombine(String())
+- uid: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
+  id: OpenReadOnlyNoLock(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: OpenReadOnlyNoLock(String)
+  nameWithType: DiskFileAccess.OpenReadOnlyNoLock(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public Stream OpenReadOnlyNoLock(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Public Function OpenReadOnlyNoLock(path As String) As Stream
+  overload: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  id: SaveStreamToFile(System.IO.Stream,System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: SaveStreamToFile(Stream, String)
+  nameWithType: DiskFileAccess.SaveStreamToFile(Stream, String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile(System.IO.Stream, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public void SaveStreamToFile(Stream stream, string path)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: path
+      type: System.String
+    content.vb: Public Sub SaveStreamToFile(stream As Stream, path As String)
+  overload: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
+  id: CreateForWrite(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: CreateForWrite(String)
+  nameWithType: DiskFileAccess.CreateForWrite(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public Stream CreateForWrite(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Public Function CreateForWrite(path As String) As Stream
+  overload: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
+  id: FileDelete(System.String)
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: FileDelete(String)
+  nameWithType: DiskFileAccess.FileDelete(String)
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileDelete(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public void FileDelete(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub FileDelete(path As String)
+  overload: SuperOffice.IO.Files.DiskFileAccess.FileDelete*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.#ctor
+  commentId: M:SuperOffice.IO.Files.DiskFileAccess.#ctor
+  id: '#ctor'
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: DiskFileAccess()
+  nameWithType: DiskFileAccess.DiskFileAccess()
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DiskFileAccess()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public DiskFileAccess()
+    content.vb: Public Sub New
+  overload: SuperOffice.IO.Files.DiskFileAccess.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.Files.DiskFileAccess.ArchivePath
+  commentId: P:SuperOffice.IO.Files.DiskFileAccess.ArchivePath
+  id: ArchivePath
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath
+  nameWithType: DiskFileAccess.ArchivePath
+  fullName: SuperOffice.IO.Files.DiskFileAccess.ArchivePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string ArchivePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ArchivePath As String
+  overload: SuperOffice.IO.Files.DiskFileAccess.ArchivePath*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.ArchivePath
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.IO.Files.DiskFileAccess.TemplatesPath
+  commentId: P:SuperOffice.IO.Files.DiskFileAccess.TemplatesPath
+  id: TemplatesPath
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: TemplatesPath
+  nameWithType: DiskFileAccess.TemplatesPath
+  fullName: SuperOffice.IO.Files.DiskFileAccess.TemplatesPath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string TemplatesPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TemplatesPath As String
+  overload: SuperOffice.IO.Files.DiskFileAccess.TemplatesPath*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.TemplatesPath
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.IO.Files.DiskFileAccess.TemporaryPath
+  commentId: P:SuperOffice.IO.Files.DiskFileAccess.TemporaryPath
+  id: TemporaryPath
+  parent: SuperOffice.IO.Files.DiskFileAccess
+  langs:
+  - csharp
+  - vb
+  name: TemporaryPath
+  nameWithType: DiskFileAccess.TemporaryPath
+  fullName: SuperOffice.IO.Files.DiskFileAccess.TemporaryPath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string TemporaryPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TemporaryPath As String
+  overload: SuperOffice.IO.Files.DiskFileAccess.TemporaryPath*
+  implements:
+  - SuperOffice.IO.Files.IFileAccess.TemporaryPath
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.IO.Files
+  commentId: N:SuperOffice.IO.Files
+  isExternal: true
+  name: SuperOffice.IO.Files
+  nameWithType: SuperOffice.IO.Files
+  fullName: SuperOffice.IO.Files
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.Files.IFileAccess
+  commentId: T:SuperOffice.IO.Files.IFileAccess
+  parent: SuperOffice.IO.Files
+  isExternal: true
+  name: IFileAccess
+  nameWithType: IFileAccess
+  fullName: SuperOffice.IO.Files.IFileAccess
+- uid: SuperOffice.IO.Files.DiskFileAccess.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DiskFileAccess, To>()
+  nameWithType: EnumUtil.MapEnums<DiskFileAccess, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.Files.DiskFileAccess, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DiskFileAccess, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.Files.DiskFileAccess, To)()
+  name.vb: MapEnums(Of DiskFileAccess, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DiskFileAccess, To>
+    nameWithType: EnumUtil.MapEnums<DiskFileAccess, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.Files.DiskFileAccess, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DiskFileAccess, To)
+    nameWithType: EnumUtil.MapEnums(Of DiskFileAccess, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.Files.DiskFileAccess, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.IO.Files.DiskFileAccess)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DiskFileAccess>(DiskFileAccess)
+  nameWithType: ObjectExtensions.AssignByReflection<DiskFileAccess>(DiskFileAccess)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.IO.Files.DiskFileAccess>(SuperOffice.IO.Files.DiskFileAccess)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DiskFileAccess)(DiskFileAccess)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.IO.Files.DiskFileAccess)(SuperOffice.IO.Files.DiskFileAccess)
+  name.vb: AssignByReflection(Of DiskFileAccess)(DiskFileAccess)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DiskFileAccess>
+    nameWithType: ObjectExtensions.AssignByReflection<DiskFileAccess>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.IO.Files.DiskFileAccess>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.Files.DiskFileAccess
+    name: DiskFileAccess
+    nameWithType: DiskFileAccess
+    fullName: SuperOffice.IO.Files.DiskFileAccess
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DiskFileAccess)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DiskFileAccess)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.IO.Files.DiskFileAccess)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.Files.DiskFileAccess
+    name: DiskFileAccess
+    nameWithType: DiskFileAccess
+    fullName: SuperOffice.IO.Files.DiskFileAccess
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DiskFileAccess>()
+  nameWithType: ObjectExtensions.GraphCopy<DiskFileAccess>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.IO.Files.DiskFileAccess>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DiskFileAccess)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.IO.Files.DiskFileAccess)()
+  name.vb: GraphCopy(Of DiskFileAccess)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DiskFileAccess>
+    nameWithType: ObjectExtensions.GraphCopy<DiskFileAccess>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.IO.Files.DiskFileAccess>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DiskFileAccess)
+    nameWithType: ObjectExtensions.GraphCopy(Of DiskFileAccess)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.IO.Files.DiskFileAccess)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DiskFileAccess, To>()
+  nameWithType: Converters.MapEnums<DiskFileAccess, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.Files.DiskFileAccess, To>()
+  nameWithType.vb: Converters.MapEnums(Of DiskFileAccess, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.Files.DiskFileAccess, To)()
+  name.vb: MapEnums(Of DiskFileAccess, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DiskFileAccess, To>
+    nameWithType: Converters.MapEnums<DiskFileAccess, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.Files.DiskFileAccess, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DiskFileAccess, To)
+    nameWithType: Converters.MapEnums(Of DiskFileAccess, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.Files.DiskFileAccess, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess
+  isExternal: true
+  name: EnsureAccess
+  nameWithType: DiskFileAccess.EnsureAccess
+  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess
+- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: EnsureAccess(Action)
+  nameWithType: IFileAccess.EnsureAccess(Action)
+  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
+    name: EnsureAccess
+    nameWithType: IFileAccess.EnsureAccess
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
+    name: EnsureAccess
+    nameWithType: IFileAccess.EnsureAccess
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{{T}})
+  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+  parent: SuperOffice.IO.Files.IFileAccess
+  definition: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+  name: EnsureAccess<T>(Func<T>)
+  nameWithType: IFileAccess.EnsureAccess<T>(Func<T>)
+  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess<T>(System.Func<T>)
+  nameWithType.vb: IFileAccess.EnsureAccess(Of T)(Func(Of T))
+  fullName.vb: SuperOffice.IO.Files.IFileAccess.EnsureAccess(Of T)(System.Func(Of T))
+  name.vb: EnsureAccess(Of T)(Func(Of T))
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+    name: EnsureAccess<T>
+    nameWithType: IFileAccess.EnsureAccess<T>
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+    name: EnsureAccess(Of T)
+    nameWithType: IFileAccess.EnsureAccess(Of T)
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{{T}}
+  commentId: '!:System.Func{`0}'
+  definition: System.Func`1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+  isExternal: true
+  name: EnsureAccess<T>(Func<T>)
+  nameWithType: IFileAccess.EnsureAccess<T>(Func<T>)
+  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess<T>(System.Func<T>)
+  nameWithType.vb: IFileAccess.EnsureAccess(Of T)(Func(Of T))
+  fullName.vb: SuperOffice.IO.Files.IFileAccess.EnsureAccess(Of T)(System.Func(Of T))
+  name.vb: EnsureAccess(Of T)(Func(Of T))
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+    name: EnsureAccess<T>
+    nameWithType: IFileAccess.EnsureAccess<T>
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
+    name: EnsureAccess(Of T)
+    nameWithType: IFileAccess.EnsureAccess(Of T)
+    fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileExists*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.FileExists
+  isExternal: true
+  name: FileExists
+  nameWithType: DiskFileAccess.FileExists
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileExists
+- uid: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: FileExists(String)
+  nameWithType: IFileAccess.FileExists(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+    name: FileExists
+    nameWithType: IFileAccess.FileExists
+    fullName: SuperOffice.IO.Files.IFileAccess.FileExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
+    name: FileExists
+    nameWithType: IFileAccess.FileExists
+    fullName: SuperOffice.IO.Files.IFileAccess.FileExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles
+  isExternal: true
+  name: DirectoryGetFiles
+  nameWithType: DiskFileAccess.DirectoryGetFiles
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFiles
+- uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: DirectoryGetFiles(String, String, Boolean)
+  nameWithType: IFileAccess.DirectoryGetFiles(String, String, Boolean)
+  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+    name: DirectoryGetFiles
+    nameWithType: IFileAccess.DirectoryGetFiles
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
+    name: DirectoryGetFiles
+    nameWithType: IFileAccess.DirectoryGetFiles
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos
+  isExternal: true
+  name: DirectoryGetFileInfos
+  nameWithType: DiskFileAccess.DirectoryGetFileInfos
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfos
+- uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: DirectoryGetFileInfos(String)
+  nameWithType: IFileAccess.DirectoryGetFileInfos(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+    name: DirectoryGetFileInfos
+    nameWithType: IFileAccess.DirectoryGetFileInfos
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
+    name: DirectoryGetFileInfos
+    nameWithType: IFileAccess.DirectoryGetFileInfos
+    fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.SoFileInfo[]
+  isExternal: true
+  name: SoFileInfo[]
+  nameWithType: SoFileInfo[]
+  fullName: SuperOffice.IO.Files.SoFileInfo[]
+  nameWithType.vb: SoFileInfo()
+  fullName.vb: SuperOffice.IO.Files.SoFileInfo()
+  name.vb: SoFileInfo()
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.SoFileInfo
+    name: SoFileInfo
+    nameWithType: SoFileInfo
+    fullName: SuperOffice.IO.Files.SoFileInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.IO.Files.SoFileInfo
+    name: SoFileInfo
+    nameWithType: SoFileInfo
+    fullName: SuperOffice.IO.Files.SoFileInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists
+  isExternal: true
+  name: CreateDirectoryIfNotExists
+  nameWithType: DiskFileAccess.CreateDirectoryIfNotExists
+  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateDirectoryIfNotExists
+- uid: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: CreateDirectoryIfNotExists(String)
+  nameWithType: IFileAccess.CreateDirectoryIfNotExists(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
+    name: CreateDirectoryIfNotExists
+    nameWithType: IFileAccess.CreateDirectoryIfNotExists
+    fullName: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
+    name: CreateDirectoryIfNotExists
+    nameWithType: IFileAccess.CreateDirectoryIfNotExists
+    fullName: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.GetFileName*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.GetFileName
+  isExternal: true
+  name: GetFileName
+  nameWithType: DiskFileAccess.GetFileName
+  fullName: SuperOffice.IO.Files.DiskFileAccess.GetFileName
+- uid: SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: GetFileName(String)
+  nameWithType: IFileAccess.GetFileName(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
+    name: GetFileName
+    nameWithType: IFileAccess.GetFileName
+    fullName: SuperOffice.IO.Files.IFileAccess.GetFileName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
+    name: GetFileName
+    nameWithType: IFileAccess.GetFileName
+    fullName: SuperOffice.IO.Files.IFileAccess.GetFileName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension
+  isExternal: true
+  name: GetFileNameWithoutExtension
+  nameWithType: DiskFileAccess.GetFileNameWithoutExtension
+  fullName: SuperOffice.IO.Files.DiskFileAccess.GetFileNameWithoutExtension
+- uid: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: GetFileNameWithoutExtension(String)
+  nameWithType: IFileAccess.GetFileNameWithoutExtension(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
+    name: GetFileNameWithoutExtension
+    nameWithType: IFileAccess.GetFileNameWithoutExtension
+    fullName: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
+    name: GetFileNameWithoutExtension
+    nameWithType: IFileAccess.GetFileNameWithoutExtension
+    fullName: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName
+  isExternal: true
+  name: GetDirectoryName
+  nameWithType: DiskFileAccess.GetDirectoryName
+  fullName: SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName
+- uid: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: GetDirectoryName(String)
+  nameWithType: IFileAccess.GetDirectoryName(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
+    name: GetDirectoryName
+    nameWithType: IFileAccess.GetDirectoryName
+    fullName: SuperOffice.IO.Files.IFileAccess.GetDirectoryName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
+    name: GetDirectoryName
+    nameWithType: IFileAccess.GetDirectoryName
+    fullName: SuperOffice.IO.Files.IFileAccess.GetDirectoryName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.PathCombine*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.PathCombine
+  isExternal: true
+  name: PathCombine
+  nameWithType: DiskFileAccess.PathCombine
+  fullName: SuperOffice.IO.Files.DiskFileAccess.PathCombine
+- uid: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
+  commentId: M:SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: PathCombine(String[])
+  nameWithType: IFileAccess.PathCombine(String[])
+  fullName: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
+  nameWithType.vb: IFileAccess.PathCombine(String())
+  fullName.vb: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String())
+  name.vb: PathCombine(String())
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
+    name: PathCombine
+    nameWithType: IFileAccess.PathCombine
+    fullName: SuperOffice.IO.Files.IFileAccess.PathCombine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
+    name: PathCombine
+    nameWithType: IFileAccess.PathCombine
+    fullName: SuperOffice.IO.Files.IFileAccess.PathCombine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock
+  isExternal: true
+  name: OpenReadOnlyNoLock
+  nameWithType: DiskFileAccess.OpenReadOnlyNoLock
+  fullName: SuperOffice.IO.Files.DiskFileAccess.OpenReadOnlyNoLock
+- uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: OpenReadOnlyNoLock(String)
+  nameWithType: IFileAccess.OpenReadOnlyNoLock(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+    name: OpenReadOnlyNoLock
+    nameWithType: IFileAccess.OpenReadOnlyNoLock
+    fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
+    name: OpenReadOnlyNoLock
+    nameWithType: IFileAccess.OpenReadOnlyNoLock
+    fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile
+  isExternal: true
+  name: SaveStreamToFile
+  nameWithType: DiskFileAccess.SaveStreamToFile
+  fullName: SuperOffice.IO.Files.DiskFileAccess.SaveStreamToFile
+- uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: SaveStreamToFile(Stream, String)
+  nameWithType: IFileAccess.SaveStreamToFile(Stream, String)
+  fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+    name: SaveStreamToFile
+    nameWithType: IFileAccess.SaveStreamToFile
+    fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
+    name: SaveStreamToFile
+    nameWithType: IFileAccess.SaveStreamToFile
+    fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.CreateForWrite
+  isExternal: true
+  name: CreateForWrite
+  nameWithType: DiskFileAccess.CreateForWrite
+  fullName: SuperOffice.IO.Files.DiskFileAccess.CreateForWrite
+- uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: CreateForWrite(String)
+  nameWithType: IFileAccess.CreateForWrite(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+    name: CreateForWrite
+    nameWithType: IFileAccess.CreateForWrite
+    fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
+    name: CreateForWrite
+    nameWithType: IFileAccess.CreateForWrite
+    fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.FileDelete*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.FileDelete
+  isExternal: true
+  name: FileDelete
+  nameWithType: DiskFileAccess.FileDelete
+  fullName: SuperOffice.IO.Files.DiskFileAccess.FileDelete
+- uid: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
+  commentId: M:SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: FileDelete(String)
+  nameWithType: IFileAccess.FileDelete(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
+    name: FileDelete
+    nameWithType: IFileAccess.FileDelete
+    fullName: SuperOffice.IO.Files.IFileAccess.FileDelete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
+    name: FileDelete
+    nameWithType: IFileAccess.FileDelete
+    fullName: SuperOffice.IO.Files.IFileAccess.FileDelete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.DiskFileAccess.#ctor*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.#ctor
+  isExternal: true
+  name: DiskFileAccess
+  nameWithType: DiskFileAccess.DiskFileAccess
+  fullName: SuperOffice.IO.Files.DiskFileAccess.DiskFileAccess
+- uid: SuperOffice.IO.Files.DiskFileAccess.ArchivePath*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.ArchivePath
+  isExternal: true
+  name: ArchivePath
+  nameWithType: DiskFileAccess.ArchivePath
+  fullName: SuperOffice.IO.Files.DiskFileAccess.ArchivePath
+- uid: SuperOffice.IO.Files.IFileAccess.ArchivePath
+  commentId: P:SuperOffice.IO.Files.IFileAccess.ArchivePath
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: ArchivePath
+  nameWithType: IFileAccess.ArchivePath
+  fullName: SuperOffice.IO.Files.IFileAccess.ArchivePath
+- uid: SuperOffice.IO.Files.DiskFileAccess.TemplatesPath*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.TemplatesPath
+  isExternal: true
+  name: TemplatesPath
+  nameWithType: DiskFileAccess.TemplatesPath
+  fullName: SuperOffice.IO.Files.DiskFileAccess.TemplatesPath
+- uid: SuperOffice.IO.Files.IFileAccess.TemplatesPath
+  commentId: P:SuperOffice.IO.Files.IFileAccess.TemplatesPath
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: TemplatesPath
+  nameWithType: IFileAccess.TemplatesPath
+  fullName: SuperOffice.IO.Files.IFileAccess.TemplatesPath
+- uid: SuperOffice.IO.Files.DiskFileAccess.TemporaryPath*
+  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.TemporaryPath
+  isExternal: true
+  name: TemporaryPath
+  nameWithType: DiskFileAccess.TemporaryPath
+  fullName: SuperOffice.IO.Files.DiskFileAccess.TemporaryPath
+- uid: SuperOffice.IO.Files.IFileAccess.TemporaryPath
+  commentId: P:SuperOffice.IO.Files.IFileAccess.TemporaryPath
+  parent: SuperOffice.IO.Files.IFileAccess
+  isExternal: true
+  name: TemporaryPath
+  nameWithType: IFileAccess.TemporaryPath
+  fullName: SuperOffice.IO.Files.IFileAccess.TemporaryPath

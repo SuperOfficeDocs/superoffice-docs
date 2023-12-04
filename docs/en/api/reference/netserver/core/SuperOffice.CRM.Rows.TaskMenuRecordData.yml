@@ -1,0 +1,1082 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData
+  commentId: T:SuperOffice.CRM.Rows.TaskMenuRecordData
+  id: TaskMenuRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.#ctor
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.ArchiveBehaviour
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Area
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.CrmScriptId
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Deleted
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Encoding
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Name
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Rank
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Registered
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.ShowInClient
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.TableName
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.TaskMenuId
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.TaskType
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Tooltip
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.Updated
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.UrlOrSoprotocol
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuRecordData
+  nameWithType: TaskMenuRecordData
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the TaskMenu table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TaskMenuRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TaskMenuTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class TaskMenuRecordData : Object'
+    content.vb: >-
+      Public Class TaskMenuRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.TaskMenuId
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.TaskMenuId
+  id: TaskMenuId
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuId
+  nameWithType: TaskMenuRecordData.TaskMenuId
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.TaskMenuId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int TaskMenuId
+    return:
+      type: System.Int32
+    content.vb: Public TaskMenuId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TaskMenuRecordData.Name
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe list item \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: TaskMenuRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRank order \n"
+  syntax:
+    content: public short Rank
+    return:
+      type: System.Int16
+    content.vb: Public Rank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Tooltip
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: TaskMenuRecordData.Tooltip
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTooltip or other description \n"
+  syntax:
+    content: public string Tooltip
+    return:
+      type: System.String
+    content.vb: Public Tooltip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Deleted
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: TaskMenuRecordData.Deleted
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
+  syntax:
+    content: public short Deleted
+    return:
+      type: System.Int16
+    content.vb: Public Deleted As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.TableName
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.TableName
+  id: TableName
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: TaskMenuRecordData.TableName
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.TableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of entity that this task item can be used at \n"
+  syntax:
+    content: public string TableName
+    return:
+      type: System.String
+    content.vb: Public TableName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Area
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Area
+  id: Area
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: TaskMenuRecordData.Area
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Area
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCan be Task or other that can identify which menu recipe to merge the item into \n"
+  syntax:
+    content: public string Area
+    return:
+      type: System.String
+    content.vb: Public Area As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.UrlOrSoprotocol
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.UrlOrSoprotocol
+  id: UrlOrSoprotocol
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: UrlOrSoprotocol
+  nameWithType: TaskMenuRecordData.UrlOrSoprotocol
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.UrlOrSoprotocol
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe url or soprotocol \n"
+  syntax:
+    content: public string UrlOrSoprotocol
+    return:
+      type: System.String
+    content.vb: Public UrlOrSoprotocol As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.TaskType
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.TaskType
+  id: TaskType
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: TaskType
+  nameWithType: TaskMenuRecordData.TaskType
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.TaskType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nType of task item Url, SoProtocol or CRMScript. \n"
+  syntax:
+    content: public TaskListItemType TaskType
+    return:
+      type: SuperOffice.Data.TaskListItemType
+    content.vb: Public TaskType As TaskListItemType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.CrmScriptId
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.CrmScriptId
+  id: CrmScriptId
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: CrmScriptId
+  nameWithType: TaskMenuRecordData.CrmScriptId
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.CrmScriptId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe CRMScript or Macro which will be run task item is selected. \n"
+  syntax:
+    content: public int CrmScriptId
+    return:
+      type: System.Int32
+    content.vb: Public CrmScriptId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.ShowInClient
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.ShowInClient
+  id: ShowInClient
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: ShowInClient
+  nameWithType: TaskMenuRecordData.ShowInClient
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.ShowInClient
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nShow task list item in which clients (web, mobile) \n"
+  syntax:
+    content: public ShowTaskItemInClient ShowInClient
+    return:
+      type: SuperOffice.Data.ShowTaskItemInClient
+    content.vb: Public ShowInClient As ShowTaskItemInClient
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.ArchiveBehaviour
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.ArchiveBehaviour
+  id: ArchiveBehaviour
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: ArchiveBehaviour
+  nameWithType: TaskMenuRecordData.ArchiveBehaviour
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.ArchiveBehaviour
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNone, rightclick on, multiselect \n"
+  syntax:
+    content: public ArchiveBehaviour ArchiveBehaviour
+    return:
+      type: SuperOffice.Data.ArchiveBehaviour
+    content.vb: Public ArchiveBehaviour As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: TaskMenuRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: TaskMenuRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: TaskMenuRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: TaskMenuRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: TaskMenuRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.Encoding
+  commentId: F:SuperOffice.CRM.Rows.TaskMenuRecordData.Encoding
+  id: Encoding
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: TaskMenuRecordData.Encoding
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.Encoding
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEncoding for url \n"
+  syntax:
+    content: public UrlEncoding Encoding
+    return:
+      type: SuperOffice.Data.UrlEncoding
+    content.vb: Public Encoding As UrlEncoding
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.TaskMenuRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordData
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuRecordData()
+  nameWithType: TaskMenuRecordData.TaskMenuRecordData()
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.TaskMenuRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public TaskMenuRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.TaskMenuRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TaskMenuRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<TaskMenuRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TaskMenuRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TaskMenuRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TaskMenuRecordData, To)()
+  name.vb: MapEnums(Of TaskMenuRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TaskMenuRecordData, To>
+    nameWithType: EnumUtil.MapEnums<TaskMenuRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TaskMenuRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TaskMenuRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of TaskMenuRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TaskMenuRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TaskMenuRecordData>(TaskMenuRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TaskMenuRecordData>(TaskMenuRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TaskMenuRecordData>(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TaskMenuRecordData)(TaskMenuRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TaskMenuRecordData)(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  name.vb: AssignByReflection(Of TaskMenuRecordData)(TaskMenuRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TaskMenuRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<TaskMenuRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TaskMenuRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordData
+    name: TaskMenuRecordData
+    nameWithType: TaskMenuRecordData
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TaskMenuRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TaskMenuRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TaskMenuRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordData
+    name: TaskMenuRecordData
+    nameWithType: TaskMenuRecordData
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TaskMenuRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<TaskMenuRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TaskMenuRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TaskMenuRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TaskMenuRecordData)()
+  name.vb: GraphCopy(Of TaskMenuRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TaskMenuRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<TaskMenuRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TaskMenuRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TaskMenuRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TaskMenuRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TaskMenuRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  parent: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  name: ToInsert()
+  nameWithType: TaskMenuRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TaskMenuRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TaskMenuRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TaskMenuRecordData, To>()
+  nameWithType: Converters.MapEnums<TaskMenuRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TaskMenuRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TaskMenuRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TaskMenuRecordData, To)()
+  name.vb: MapEnums(Of TaskMenuRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TaskMenuRecordData, To>
+    nameWithType: Converters.MapEnums<TaskMenuRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TaskMenuRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TaskMenuRecordData, To)
+    nameWithType: Converters.MapEnums(Of TaskMenuRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TaskMenuRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  isExternal: true
+  name: ToInsert(TaskMenuRecordData)
+  nameWithType: TaskMenuRecordDataExtensions.ToInsert(TaskMenuRecordData)
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskMenuRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskMenuRecordData)
+    name: ToInsert
+    nameWithType: TaskMenuRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordData
+    name: TaskMenuRecordData
+    nameWithType: TaskMenuRecordData
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TaskMenuRecordData)
+    name: ToInsert
+    nameWithType: TaskMenuRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TaskMenuRecordData
+    name: TaskMenuRecordData
+    nameWithType: TaskMenuRecordData
+    fullName: SuperOffice.CRM.Rows.TaskMenuRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TaskMenuRecordDataExtensions
+  nameWithType: TaskMenuRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.TaskListItemType
+  commentId: T:SuperOffice.Data.TaskListItemType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TaskListItemType
+  nameWithType: TaskListItemType
+  fullName: SuperOffice.Data.TaskListItemType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ShowTaskItemInClient
+  commentId: T:SuperOffice.Data.ShowTaskItemInClient
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShowTaskItemInClient
+  nameWithType: ShowTaskItemInClient
+  fullName: SuperOffice.Data.ShowTaskItemInClient
+- uid: SuperOffice.Data.ArchiveBehaviour
+  commentId: T:SuperOffice.Data.ArchiveBehaviour
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: SuperOffice.Data.ArchiveBehaviour
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.UrlEncoding
+  commentId: T:SuperOffice.Data.UrlEncoding
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UrlEncoding
+  nameWithType: UrlEncoding
+  fullName: SuperOffice.Data.UrlEncoding
+- uid: SuperOffice.CRM.Rows.TaskMenuRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.TaskMenuRecordData.#ctor
+  isExternal: true
+  name: TaskMenuRecordData
+  nameWithType: TaskMenuRecordData.TaskMenuRecordData
+  fullName: SuperOffice.CRM.Rows.TaskMenuRecordData.TaskMenuRecordData

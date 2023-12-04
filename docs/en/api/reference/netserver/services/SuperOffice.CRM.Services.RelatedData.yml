@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.RelatedData
+  commentId: T:SuperOffice.CRM.Services.RelatedData
+  id: RelatedData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.RelatedData.#ctor
+  - SuperOffice.CRM.Services.RelatedData.Field
+  - SuperOffice.CRM.Services.RelatedData.FieldValue
+  - SuperOffice.CRM.Services.RelatedData.ToString
+  - SuperOffice.CRM.Services.RelatedData.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: RelatedData
+  nameWithType: RelatedData
+  fullName: SuperOffice.CRM.Services.RelatedData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDisplay data items for one or more related-table fields, specified using a root entity and dot-syntax\n<p></p>\nCarrier object for RelatedData.\nServices for the RelatedData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IArchiveAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class RelatedData : Object'
+    content.vb: >-
+      Public Class RelatedData
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.RelatedData.#ctor
+  commentId: M:SuperOffice.CRM.Services.RelatedData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: RelatedData()
+  nameWithType: RelatedData.RelatedData()
+  fullName: SuperOffice.CRM.Services.RelatedData.RelatedData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public RelatedData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.RelatedData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.RelatedData.ToString
+  commentId: M:SuperOffice.CRM.Services.RelatedData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RelatedData.ToString()
+  fullName: SuperOffice.CRM.Services.RelatedData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.RelatedData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.RelatedData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.RelatedData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: RelatedData.ToString(String)
+  fullName: SuperOffice.CRM.Services.RelatedData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.RelatedData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.RelatedData.Field
+  commentId: P:SuperOffice.CRM.Services.RelatedData.Field
+  id: Field
+  parent: SuperOffice.CRM.Services.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: RelatedData.Field
+  fullName: SuperOffice.CRM.Services.RelatedData.Field
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of a &apos;related field&apos;. This must be a valid column name in the DotSyntax/Dynamic system, implicitly starting with the given root table \n"
+  syntax:
+    content: public virtual string Field { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Field As String
+  overload: SuperOffice.CRM.Services.RelatedData.Field*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RelatedData.FieldValue
+  commentId: P:SuperOffice.CRM.Services.RelatedData.FieldValue
+  id: FieldValue
+  parent: SuperOffice.CRM.Services.RelatedData
+  langs:
+  - csharp
+  - vb
+  name: FieldValue
+  nameWithType: RelatedData.FieldValue
+  fullName: SuperOffice.CRM.Services.RelatedData.FieldValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe value for the Field, expressed as an archive column data cell \n"
+  syntax:
+    content: public virtual ArchiveColumnData FieldValue { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Overridable Property FieldValue As ArchiveColumnData
+  overload: SuperOffice.CRM.Services.RelatedData.FieldValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.RelatedData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.RelatedData.#ctor
+  isExternal: true
+  name: RelatedData
+  nameWithType: RelatedData.RelatedData
+  fullName: SuperOffice.CRM.Services.RelatedData.RelatedData
+- uid: SuperOffice.CRM.Services.RelatedData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.RelatedData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: RelatedData.ToString
+  fullName: SuperOffice.CRM.Services.RelatedData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.RelatedData.Field*
+  commentId: Overload:SuperOffice.CRM.Services.RelatedData.Field
+  isExternal: true
+  name: Field
+  nameWithType: RelatedData.Field
+  fullName: SuperOffice.CRM.Services.RelatedData.Field
+- uid: SuperOffice.CRM.Services.RelatedData.FieldValue*
+  commentId: Overload:SuperOffice.CRM.Services.RelatedData.FieldValue
+  isExternal: true
+  name: FieldValue
+  nameWithType: RelatedData.FieldValue
+  fullName: SuperOffice.CRM.Services.RelatedData.FieldValue
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  commentId: '!:SuperOffice.CRM.ArchiveLists.ArchiveColumnData'
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData

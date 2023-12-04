@@ -11,13 +11,14 @@ items:
   - SuperOffice.Data.SaleStatus.Sold
   - SuperOffice.Data.SaleStatus.Stalled
   - SuperOffice.Data.SaleStatus.Unknown
+  - SuperOffice.Data.SaleStatus.value__
   langs:
   - csharp
   - vb
   name: SaleStatus
   nameWithType: SaleStatus
   fullName: SuperOffice.Data.SaleStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -26,19 +27,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for the &apos;status&apos; field in the sale table\nThis Enum is used by:  sale.status; SaleHist.status; CounterValue.sale_status\n"
   syntax:
-    content: 'public enum SaleStatus : short'
-    content.vb: Public Enum SaleStatus As Short
+    content: 'public sealed class SaleStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class SaleStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SaleStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.SaleStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SaleStatus)
-  - SuperOffice.Data.SaleStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.SaleStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SaleStatus.value__
+  commentId: F:SuperOffice.Data.SaleStatus.value__
+  id: value__
+  parent: SuperOffice.Data.SaleStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SaleStatus.value__
+  fullName: SuperOffice.Data.SaleStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SaleStatus.Unknown
   commentId: F:SuperOffice.Data.SaleStatus.Unknown
   id: Unknown
@@ -58,9 +94,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Sale status is unknown\n"
   syntax:
-    content: Unknown = 0
+    content: public const SaleStatus Unknown
     return:
       type: SuperOffice.Data.SaleStatus
+    content.vb: Public Const Unknown As SaleStatus
   modifiers.csharp:
   - public
   - const
@@ -86,9 +123,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Sale is open\n"
   syntax:
-    content: Open = 1
+    content: public const SaleStatus Open
     return:
       type: SuperOffice.Data.SaleStatus
+    content.vb: Public Const Open As SaleStatus
   modifiers.csharp:
   - public
   - const
@@ -114,9 +152,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Sale has been sold (green $ in GUI)\n"
   syntax:
-    content: Sold = 2
+    content: public const SaleStatus Sold
     return:
       type: SuperOffice.Data.SaleStatus
+    content.vb: Public Const Sold As SaleStatus
   modifiers.csharp:
   - public
   - const
@@ -142,9 +181,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Sale has been lost (red $ in GUI)\n"
   syntax:
-    content: Lost = 3
+    content: public const SaleStatus Lost
     return:
       type: SuperOffice.Data.SaleStatus
+    content.vb: Public Const Lost As SaleStatus
   modifiers.csharp:
   - public
   - const
@@ -170,9 +210,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Sale has been stalled, or &quot;parked&quot;, awaiting further developments\n"
   syntax:
-    content: Stalled = 4
+    content: public const SaleStatus Stalled
     return:
       type: SuperOffice.Data.SaleStatus
+    content.vb: Public Const Stalled As SaleStatus
   modifiers.csharp:
   - public
   - const
@@ -198,9 +239,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1000: All&apos; choice for Saint. This is NOT an acceptable value for a sale, but is used by the Saint system for indexing all sales\n"
   syntax:
-    content: SaintAll = 1000
+    content: public const SaleStatus SaintAll
     return:
       type: SuperOffice.Data.SaleStatus
+    content.vb: Public Const SaintAll As SaleStatus
   modifiers.csharp:
   - public
   - const
@@ -214,6 +256,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SaleStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -241,84 +290,6 @@ references:
     name: MapEnums(Of SaleStatus, To)
     nameWithType: EnumUtil.MapEnums(Of SaleStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SaleStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SaleStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SaleStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SaleStatus>(SaleStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<SaleStatus>(SaleStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SaleStatus>(SuperOffice.Data.SaleStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SaleStatus)(SaleStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SaleStatus)(SuperOffice.Data.SaleStatus)
-  name.vb: AssignByReflection(Of SaleStatus)(SaleStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SaleStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<SaleStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SaleStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SaleStatus
-    name: SaleStatus
-    nameWithType: SaleStatus
-    fullName: SuperOffice.Data.SaleStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SaleStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SaleStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SaleStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SaleStatus
-    name: SaleStatus
-    nameWithType: SaleStatus
-    fullName: SuperOffice.Data.SaleStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SaleStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SaleStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<SaleStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SaleStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SaleStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SaleStatus)()
-  name.vb: GraphCopy(Of SaleStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SaleStatus>
-    nameWithType: ObjectExtensions.GraphCopy<SaleStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SaleStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SaleStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of SaleStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SaleStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -360,6 +331,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -405,103 +382,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -548,18 +428,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.SaleStatus
   commentId: T:SuperOffice.Data.SaleStatus
   parent: SuperOffice.Data

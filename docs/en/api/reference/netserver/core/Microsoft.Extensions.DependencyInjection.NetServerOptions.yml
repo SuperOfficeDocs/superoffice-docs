@@ -1,0 +1,599 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
+  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerOptions
+  id: NetServerOptions
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.NetServerOptions.#ctor
+  - Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders
+  - Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins
+  langs:
+  - csharp
+  - vb
+  name: NetServerOptions
+  nameWithType: NetServerOptions
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public class NetServerOptions : Object'
+    content.vb: >-
+      Public Class NetServerOptions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - Microsoft.Extensions.DependencyInjection.NetServerOptions.EnumUtil.MapEnums``2
+  - Microsoft.Extensions.DependencyInjection.NetServerOptions.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(Microsoft.Extensions.DependencyInjection.NetServerOptions)
+  - Microsoft.Extensions.DependencyInjection.NetServerOptions.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - Microsoft.Extensions.DependencyInjection.NetServerOptions.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.#ctor
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerOptions.#ctor
+  id: '#ctor'
+  parent: Microsoft.Extensions.DependencyInjection.NetServerOptions
+  langs:
+  - csharp
+  - vb
+  name: NetServerOptions()
+  nameWithType: NetServerOptions.NetServerOptions()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions.NetServerOptions()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public NetServerOptions()
+    content.vb: Public Sub New
+  overload: Microsoft.Extensions.DependencyInjection.NetServerOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins
+  commentId: P:Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins
+  id: UseLoggerProviderPlugins
+  parent: Microsoft.Extensions.DependencyInjection.NetServerOptions
+  langs:
+  - csharp
+  - vb
+  name: UseLoggerProviderPlugins
+  nameWithType: NetServerOptions.UseLoggerProviderPlugins
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public bool UseLoggerProviderPlugins { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseLoggerProviderPlugins As Boolean
+  overload: Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders
+  commentId: P:Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders
+  id: LoggerProviders
+  parent: Microsoft.Extensions.DependencyInjection.NetServerOptions
+  langs:
+  - csharp
+  - vb
+  name: LoggerProviders
+  nameWithType: NetServerOptions.LoggerProviders
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public IEnumerable<ILoggerProvider> LoggerProviders { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Microsoft.Extensions.Logging.ILoggerProvider}
+    content.vb: Public Property LoggerProviders As IEnumerable(Of ILoggerProvider)
+  overload: Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NetServerOptions, To>()
+  nameWithType: EnumUtil.MapEnums<NetServerOptions, To>()
+  fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerOptions, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NetServerOptions, To)()
+  fullName.vb: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerOptions, To)()
+  name.vb: MapEnums(Of NetServerOptions, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NetServerOptions, To>
+    nameWithType: EnumUtil.MapEnums<NetServerOptions, To>
+    fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerOptions, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NetServerOptions, To)
+    nameWithType: EnumUtil.MapEnums(Of NetServerOptions, To)
+    fullName: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerOptions, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(Microsoft.Extensions.DependencyInjection.NetServerOptions)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<NetServerOptions>(NetServerOptions)
+  nameWithType: ObjectExtensions.AssignByReflection<NetServerOptions>(NetServerOptions)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<Microsoft.Extensions.DependencyInjection.NetServerOptions>(Microsoft.Extensions.DependencyInjection.NetServerOptions)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NetServerOptions)(NetServerOptions)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of Microsoft.Extensions.DependencyInjection.NetServerOptions)(Microsoft.Extensions.DependencyInjection.NetServerOptions)
+  name.vb: AssignByReflection(Of NetServerOptions)(NetServerOptions)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<NetServerOptions>
+    nameWithType: ObjectExtensions.AssignByReflection<NetServerOptions>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<Microsoft.Extensions.DependencyInjection.NetServerOptions>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    name: NetServerOptions
+    nameWithType: NetServerOptions
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of NetServerOptions)
+    nameWithType: ObjectExtensions.AssignByReflection(Of NetServerOptions)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of Microsoft.Extensions.DependencyInjection.NetServerOptions)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    name: NetServerOptions
+    nameWithType: NetServerOptions
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<NetServerOptions>()
+  nameWithType: ObjectExtensions.GraphCopy<NetServerOptions>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<Microsoft.Extensions.DependencyInjection.NetServerOptions>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of NetServerOptions)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of Microsoft.Extensions.DependencyInjection.NetServerOptions)()
+  name.vb: GraphCopy(Of NetServerOptions)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<NetServerOptions>
+    nameWithType: ObjectExtensions.GraphCopy<NetServerOptions>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<Microsoft.Extensions.DependencyInjection.NetServerOptions>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of NetServerOptions)
+    nameWithType: ObjectExtensions.GraphCopy(Of NetServerOptions)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of Microsoft.Extensions.DependencyInjection.NetServerOptions)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NetServerOptions, To>()
+  nameWithType: Converters.MapEnums<NetServerOptions, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerOptions, To>()
+  nameWithType.vb: Converters.MapEnums(Of NetServerOptions, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerOptions, To)()
+  name.vb: MapEnums(Of NetServerOptions, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NetServerOptions, To>
+    nameWithType: Converters.MapEnums<NetServerOptions, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerOptions, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NetServerOptions, To)
+    nameWithType: Converters.MapEnums(Of NetServerOptions, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerOptions, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.#ctor*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerOptions.#ctor
+  isExternal: true
+  name: NetServerOptions
+  nameWithType: NetServerOptions.NetServerOptions
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions.NetServerOptions
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins
+  isExternal: true
+  name: UseLoggerProviderPlugins
+  nameWithType: NetServerOptions.UseLoggerProviderPlugins
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions.UseLoggerProviderPlugins
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders
+  isExternal: true
+  name: LoggerProviders
+  nameWithType: NetServerOptions.LoggerProviders
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions.LoggerProviders
+- uid: System.Collections.Generic.IEnumerable{Microsoft.Extensions.Logging.ILoggerProvider}
+  commentId: '!:System.Collections.Generic.IEnumerable{Microsoft.Extensions.Logging.ILoggerProvider}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ILoggerProvider>
+  nameWithType: IEnumerable<ILoggerProvider>
+  fullName: System.Collections.Generic.IEnumerable<Microsoft.Extensions.Logging.ILoggerProvider>
+  nameWithType.vb: IEnumerable(Of ILoggerProvider)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Microsoft.Extensions.Logging.ILoggerProvider)
+  name.vb: IEnumerable(Of ILoggerProvider)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Extensions.Logging.ILoggerProvider
+    name: ILoggerProvider
+    nameWithType: ILoggerProvider
+    fullName: Microsoft.Extensions.Logging.ILoggerProvider
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Extensions.Logging.ILoggerProvider
+    name: ILoggerProvider
+    nameWithType: ILoggerProvider
+    fullName: Microsoft.Extensions.Logging.ILoggerProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+  commentId: T:SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+  id: OnsiteFlushCacheAndBroadcastPlugin
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.#ctor(SuperOffice.Data.Cache.ICacheFlusher)
+  - SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: OnsiteFlushCacheAndBroadcastPlugin
+  nameWithType: OnsiteFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  remarks: Stub implementation because there&apos;s nothing we really need to do here for Onsite
+  syntax:
+    content: >-
+      [FlushCacheAndBroadcastPlugin("Onsite Flush Cache and Broadcast plugin")]
+
+      public class OnsiteFlushCacheAndBroadcastPlugin : BaseFlushCacheAndBroadcastPlugin, IFlushCacheAndBroadcastPlugin, IPlugin
+    content.vb: >-
+      <FlushCacheAndBroadcastPlugin("Onsite Flush Cache and Broadcast plugin")>
+
+      Public Class OnsiteFlushCacheAndBroadcastPlugin
+
+          Inherits BaseFlushCacheAndBroadcastPlugin
+
+          Implements IFlushCacheAndBroadcastPlugin, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  implements:
+  - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+  inheritedMembers:
+  - SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+  - SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
+  - SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush(System.String,System.String,System.String)
+  extensionMethods:
+  - SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+    ctor: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Onsite Flush Cache and Broadcast plugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.#ctor(SuperOffice.Data.Cache.ICacheFlusher)
+  commentId: M:SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.#ctor(SuperOffice.Data.Cache.ICacheFlusher)
+  id: '#ctor(SuperOffice.Data.Cache.ICacheFlusher)'
+  parent: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+  langs:
+  - csharp
+  - vb
+  name: OnsiteFlushCacheAndBroadcastPlugin(ICacheFlusher)
+  nameWithType: OnsiteFlushCacheAndBroadcastPlugin.OnsiteFlushCacheAndBroadcastPlugin(ICacheFlusher)
+  fullName: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.OnsiteFlushCacheAndBroadcastPlugin(SuperOffice.Data.Cache.ICacheFlusher)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public OnsiteFlushCacheAndBroadcastPlugin(ICacheFlusher cacheFlusher)
+    parameters:
+    - id: cacheFlusher
+      type: SuperOffice.Data.Cache.ICacheFlusher
+    content.vb: Public Sub New(cacheFlusher As ICacheFlusher)
+  overload: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+  commentId: M:SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+  id: Broadcast(System.String,System.String)
+  parent: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+  langs:
+  - csharp
+  - vb
+  name: Broadcast(String, String)
+  nameWithType: OnsiteFlushCacheAndBroadcastPlugin.Broadcast(String, String)
+  fullName: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: protected override void Broadcast(string cacheName, string revisionId)
+    parameters:
+    - id: cacheName
+      type: System.String
+    - id: revisionId
+      type: System.String
+    content.vb: Protected Overrides Sub Broadcast(cacheName As String, revisionId As String)
+  overridden: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+  overload: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  commentId: T:SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: BaseFlushCacheAndBroadcastPlugin
+  nameWithType: BaseFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+  commentId: T:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushCacheAndBroadcastPlugin
+  nameWithType: IFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+- uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+  commentId: M:SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+  parent: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  isExternal: true
+  name: FlushAndBroadcast(String[])
+  nameWithType: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(String[])
+  fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+  nameWithType.vb: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(String())
+  fullName.vb: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String())
+  name.vb: FlushAndBroadcast(String())
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+    name: FlushAndBroadcast
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.String[])
+    name: FlushAndBroadcast
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  isExternal: true
+  name: FlushAndBroadcast(IEnumerable<String>)
+  nameWithType: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(IEnumerable<String>)
+  fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable<System.String>)
+  nameWithType.vb: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: FlushAndBroadcast(IEnumerable(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
+    name: FlushAndBroadcast
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast(System.Collections.Generic.IEnumerable{System.String})
+    name: FlushAndBroadcast
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.FlushAndBroadcast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush(System.String,System.String,System.String)
+  parent: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  isExternal: true
+  name: OnExternalFlush(String, String, String)
+  nameWithType: BaseFlushCacheAndBroadcastPlugin.OnExternalFlush(String, String, String)
+  fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush(System.String,System.String,System.String)
+    name: OnExternalFlush
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.OnExternalFlush
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush(System.String,System.String,System.String)
+    name: OnExternalFlush
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.OnExternalFlush
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.OnExternalFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To)()
+  name.vb: MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>
+    nameWithType: EnumUtil.MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>()
+  nameWithType: Converters.MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To)()
+  name.vb: MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>
+    nameWithType: Converters.MapEnums<OnsiteFlushCacheAndBroadcastPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)
+    nameWithType: Converters.MapEnums(Of OnsiteFlushCacheAndBroadcastPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.#ctor*
+  commentId: Overload:SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.#ctor
+  isExternal: true
+  name: OnsiteFlushCacheAndBroadcastPlugin
+  nameWithType: OnsiteFlushCacheAndBroadcastPlugin.OnsiteFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.OnsiteFlushCacheAndBroadcastPlugin
+- uid: SuperOffice.Data.Cache.ICacheFlusher
+  commentId: T:SuperOffice.Data.Cache.ICacheFlusher
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: ICacheFlusher
+  nameWithType: ICacheFlusher
+  fullName: SuperOffice.Data.Cache.ICacheFlusher
+- uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+  commentId: M:SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+  parent: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  isExternal: true
+  name: Broadcast(String, String)
+  nameWithType: BaseFlushCacheAndBroadcastPlugin.Broadcast(String, String)
+  fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+    name: Broadcast
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.Broadcast
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast(System.String,System.String)
+    name: Broadcast
+    nameWithType: BaseFlushCacheAndBroadcastPlugin.Broadcast
+    fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin.Broadcast
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast*
+  commentId: Overload:SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast
+  isExternal: true
+  name: Broadcast
+  nameWithType: OnsiteFlushCacheAndBroadcastPlugin.Broadcast
+  fullName: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin.Broadcast
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,809 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData
+  commentId: T:SuperOffice.CRM.Rows.CcTemplateRecordData
+  id: CcTemplateRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.#ctor
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.Body
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.CcTemplateId
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.Key
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.Registered
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.Type
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.Updated
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: CcTemplateRecordData
+  nameWithType: CcTemplateRecordData
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the cc_template table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.CcTemplateRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.CcTemplateTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class CcTemplateRecordData : Object'
+    content.vb: >-
+      Public Class CcTemplateRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.CcTemplateId
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.CcTemplateId
+  id: CcTemplateId
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: CcTemplateId
+  nameWithType: CcTemplateRecordData.CcTemplateId
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.CcTemplateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int CcTemplateId
+    return:
+      type: System.Int32
+    content.vb: Public CcTemplateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.Key
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.Key
+  id: Key
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: CcTemplateRecordData.Key
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.Key
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe key to this template, normally the local path and filename \n"
+  syntax:
+    content: public string Key
+    return:
+      type: System.String
+    content.vb: Public Key As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.Body
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.Body
+  id: Body
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: CcTemplateRecordData.Body
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.Body
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe HTML body for this template \n"
+  syntax:
+    content: public string Body
+    return:
+      type: System.String
+    content.vb: Public Body As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.Type
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.Type
+  id: Type
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: CcTemplateRecordData.Type
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat kind of template is in this row \n"
+  syntax:
+    content: public CcTemplateType Type
+    return:
+      type: SuperOffice.Data.CcTemplateType
+    content.vb: Public Type As CcTemplateType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CcTemplateRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CcTemplateRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CcTemplateRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CcTemplateRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: CcTemplateRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.CcTemplateRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordData
+  langs:
+  - csharp
+  - vb
+  name: CcTemplateRecordData()
+  nameWithType: CcTemplateRecordData.CcTemplateRecordData()
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.CcTemplateRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public CcTemplateRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.CcTemplateRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CcTemplateRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<CcTemplateRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CcTemplateRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CcTemplateRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CcTemplateRecordData, To)()
+  name.vb: MapEnums(Of CcTemplateRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CcTemplateRecordData, To>
+    nameWithType: EnumUtil.MapEnums<CcTemplateRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CcTemplateRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CcTemplateRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of CcTemplateRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CcTemplateRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CcTemplateRecordData>(CcTemplateRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<CcTemplateRecordData>(CcTemplateRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CcTemplateRecordData>(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CcTemplateRecordData)(CcTemplateRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CcTemplateRecordData)(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  name.vb: AssignByReflection(Of CcTemplateRecordData)(CcTemplateRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CcTemplateRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<CcTemplateRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CcTemplateRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordData
+    name: CcTemplateRecordData
+    nameWithType: CcTemplateRecordData
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CcTemplateRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CcTemplateRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CcTemplateRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordData
+    name: CcTemplateRecordData
+    nameWithType: CcTemplateRecordData
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CcTemplateRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<CcTemplateRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CcTemplateRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CcTemplateRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CcTemplateRecordData)()
+  name.vb: GraphCopy(Of CcTemplateRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CcTemplateRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<CcTemplateRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CcTemplateRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CcTemplateRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of CcTemplateRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CcTemplateRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  parent: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  name: ToInsert()
+  nameWithType: CcTemplateRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CcTemplateRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CcTemplateRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CcTemplateRecordData, To>()
+  nameWithType: Converters.MapEnums<CcTemplateRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CcTemplateRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of CcTemplateRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CcTemplateRecordData, To)()
+  name.vb: MapEnums(Of CcTemplateRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CcTemplateRecordData, To>
+    nameWithType: Converters.MapEnums<CcTemplateRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CcTemplateRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CcTemplateRecordData, To)
+    nameWithType: Converters.MapEnums(Of CcTemplateRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CcTemplateRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  commentId: M:SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  isExternal: true
+  name: ToInsert(CcTemplateRecordData)
+  nameWithType: CcTemplateRecordDataExtensions.ToInsert(CcTemplateRecordData)
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CcTemplateRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CcTemplateRecordData)
+    name: ToInsert
+    nameWithType: CcTemplateRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordData
+    name: CcTemplateRecordData
+    nameWithType: CcTemplateRecordData
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CcTemplateRecordData)
+    name: ToInsert
+    nameWithType: CcTemplateRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CcTemplateRecordData
+    name: CcTemplateRecordData
+    nameWithType: CcTemplateRecordData
+    fullName: SuperOffice.CRM.Rows.CcTemplateRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: CcTemplateRecordDataExtensions
+  nameWithType: CcTemplateRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.CcTemplateType
+  commentId: T:SuperOffice.Data.CcTemplateType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: CcTemplateType
+  nameWithType: CcTemplateType
+  fullName: SuperOffice.Data.CcTemplateType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.CcTemplateRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.CcTemplateRecordData.#ctor
+  isExternal: true
+  name: CcTemplateRecordData
+  nameWithType: CcTemplateRecordData.CcTemplateRecordData
+  fullName: SuperOffice.CRM.Rows.CcTemplateRecordData.CcTemplateRecordData

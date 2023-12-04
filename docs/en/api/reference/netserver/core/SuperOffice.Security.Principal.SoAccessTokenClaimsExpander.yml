@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+  commentId: T:SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+  id: SoAccessTokenClaimsExpander
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.#ctor
+  - SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  langs:
+  - csharp
+  - vb
+  name: SoAccessTokenClaimsExpander
+  nameWithType: SoAccessTokenClaimsExpander
+  fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nDecrypt all so access token claims before additional processing\n"
+  syntax:
+    content: >-
+      [ImplicitIdentitySupplier("SoAccessTokenClaimsExpander")]
+
+      public class SoAccessTokenClaimsExpander : Object, IImplicitIdentitySupplier, IPlugin
+    content.vb: >-
+      <ImplicitIdentitySupplier("SoAccessTokenClaimsExpander")>
+
+      Public Class SoAccessTokenClaimsExpander
+
+          Inherits Object
+
+          Implements IImplicitIdentitySupplier, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Security.IImplicitIdentitySupplier
+  extensionMethods:
+  - SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)
+  - SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Security.ImplicitIdentitySupplierAttribute
+    ctor: SuperOffice.Security.ImplicitIdentitySupplierAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SoAccessTokenClaimsExpander
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  commentId: M:SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  id: ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  parent: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+  langs:
+  - csharp
+  - vb
+  name: ProcessIdentities(ClaimsIdentitiesBuilder)
+  nameWithType: SoAccessTokenClaimsExpander.ProcessIdentities(ClaimsIdentitiesBuilder)
+  fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public void ProcessIdentities(ClaimsIdentitiesBuilder builder)
+    parameters:
+    - id: builder
+      type: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    content.vb: Public Sub ProcessIdentities(builder As ClaimsIdentitiesBuilder)
+  overload: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities*
+  implements:
+  - SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.#ctor
+  commentId: M:SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+  langs:
+  - csharp
+  - vb
+  name: SoAccessTokenClaimsExpander()
+  nameWithType: SoAccessTokenClaimsExpander.SoAccessTokenClaimsExpander()
+  fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SoAccessTokenClaimsExpander()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public SoAccessTokenClaimsExpander()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.IImplicitIdentitySupplier
+  commentId: T:SuperOffice.Security.IImplicitIdentitySupplier
+  parent: SuperOffice.Security
+  isExternal: true
+  name: IImplicitIdentitySupplier
+  nameWithType: IImplicitIdentitySupplier
+  fullName: SuperOffice.Security.IImplicitIdentitySupplier
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoAccessTokenClaimsExpander, To>()
+  nameWithType: EnumUtil.MapEnums<SoAccessTokenClaimsExpander, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoAccessTokenClaimsExpander, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To)()
+  name.vb: MapEnums(Of SoAccessTokenClaimsExpander, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoAccessTokenClaimsExpander, To>
+    nameWithType: EnumUtil.MapEnums<SoAccessTokenClaimsExpander, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoAccessTokenClaimsExpander, To)
+    nameWithType: EnumUtil.MapEnums(Of SoAccessTokenClaimsExpander, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoAccessTokenClaimsExpander>(SoAccessTokenClaimsExpander)
+  nameWithType: ObjectExtensions.AssignByReflection<SoAccessTokenClaimsExpander>(SoAccessTokenClaimsExpander)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander>(SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoAccessTokenClaimsExpander)(SoAccessTokenClaimsExpander)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)(SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)
+  name.vb: AssignByReflection(Of SoAccessTokenClaimsExpander)(SoAccessTokenClaimsExpander)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoAccessTokenClaimsExpander>
+    nameWithType: ObjectExtensions.AssignByReflection<SoAccessTokenClaimsExpander>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+    name: SoAccessTokenClaimsExpander
+    nameWithType: SoAccessTokenClaimsExpander
+    fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoAccessTokenClaimsExpander)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoAccessTokenClaimsExpander)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+    name: SoAccessTokenClaimsExpander
+    nameWithType: SoAccessTokenClaimsExpander
+    fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoAccessTokenClaimsExpander>()
+  nameWithType: ObjectExtensions.GraphCopy<SoAccessTokenClaimsExpander>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoAccessTokenClaimsExpander)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)()
+  name.vb: GraphCopy(Of SoAccessTokenClaimsExpander)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoAccessTokenClaimsExpander>
+    nameWithType: ObjectExtensions.GraphCopy<SoAccessTokenClaimsExpander>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoAccessTokenClaimsExpander)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoAccessTokenClaimsExpander)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoAccessTokenClaimsExpander, To>()
+  nameWithType: Converters.MapEnums<SoAccessTokenClaimsExpander, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoAccessTokenClaimsExpander, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To)()
+  name.vb: MapEnums(Of SoAccessTokenClaimsExpander, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoAccessTokenClaimsExpander, To>
+    nameWithType: Converters.MapEnums<SoAccessTokenClaimsExpander, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoAccessTokenClaimsExpander, To)
+    nameWithType: Converters.MapEnums(Of SoAccessTokenClaimsExpander, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoAccessTokenClaimsExpander, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities*
+  commentId: Overload:SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities
+  isExternal: true
+  name: ProcessIdentities
+  nameWithType: SoAccessTokenClaimsExpander.ProcessIdentities
+  fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.ProcessIdentities
+- uid: SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  commentId: M:SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  parent: SuperOffice.Security.IImplicitIdentitySupplier
+  isExternal: true
+  name: ProcessIdentities(ClaimsIdentitiesBuilder)
+  nameWithType: IImplicitIdentitySupplier.ProcessIdentities(ClaimsIdentitiesBuilder)
+  fullName: SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+  spec.csharp:
+  - uid: SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+    name: ProcessIdentities
+    nameWithType: IImplicitIdentitySupplier.ProcessIdentities
+    fullName: SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    nameWithType: ClaimsIdentitiesBuilder
+    fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities(SuperOffice.Security.Claims.ClaimsIdentitiesBuilder)
+    name: ProcessIdentities
+    nameWithType: IImplicitIdentitySupplier.ProcessIdentities
+    fullName: SuperOffice.Security.IImplicitIdentitySupplier.ProcessIdentities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    name: ClaimsIdentitiesBuilder
+    nameWithType: ClaimsIdentitiesBuilder
+    fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+  parent: SuperOffice.Security.Claims
+  isExternal: true
+  name: ClaimsIdentitiesBuilder
+  nameWithType: ClaimsIdentitiesBuilder
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+- uid: SuperOffice.Security.Claims
+  commentId: N:SuperOffice.Security.Claims
+  isExternal: true
+  name: SuperOffice.Security.Claims
+  nameWithType: SuperOffice.Security.Claims
+  fullName: SuperOffice.Security.Claims
+- uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.#ctor
+  isExternal: true
+  name: SoAccessTokenClaimsExpander
+  nameWithType: SoAccessTokenClaimsExpander.SoAccessTokenClaimsExpander
+  fullName: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander.SoAccessTokenClaimsExpander

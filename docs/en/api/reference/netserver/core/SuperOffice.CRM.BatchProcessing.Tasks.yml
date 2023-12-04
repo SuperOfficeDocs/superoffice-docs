@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.Tasks
+  commentId: N:SuperOffice.CRM.BatchProcessing.Tasks
+  id: SuperOffice.CRM.BatchProcessing.Tasks
+  children:
+  - SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.BatchProcessing.Tasks
+  nameWithType: SuperOffice.CRM.BatchProcessing.Tasks
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks
+  type: Namespace
+  assemblies:
+  - SoBatchProcessing
+references:
+- uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
+  commentId: T:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
+  parent: SuperOffice.CRM.BatchProcessing.Tasks
+  isExternal: true
+  name: BatchTaskBase
+  nameWithType: BatchTaskBase
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
+- uid: SuperOffice.CRM.BatchProcessing.Tasks
+  commentId: N:SuperOffice.CRM.BatchProcessing.Tasks
+  isExternal: true
+  name: SuperOffice.CRM.BatchProcessing.Tasks
+  nameWithType: SuperOffice.CRM.BatchProcessing.Tasks
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks

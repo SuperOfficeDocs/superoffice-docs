@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions.SoFileNotFoundException
+  commentId: T:SuperOffice.Exceptions.SoFileNotFoundException
+  id: SoFileNotFoundException
+  parent: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.SoFileNotFoundException.#ctor(System.String,System.Exception,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SoFileNotFoundException
+  nameWithType: SoFileNotFoundException
+  fullName: SuperOffice.Exceptions.SoFileNotFoundException
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: 'public class SoFileNotFoundException : SoException'
+    content.vb: >-
+      Public Class SoFileNotFoundException
+
+          Inherits SoException
+  inheritance:
+  - System.Object
+  - SuperOffice.Exceptions.SoException
+  inheritedMembers:
+  - SuperOffice.Exceptions.SoException.LogAsException
+  - SuperOffice.Exceptions.SoException.FriendlyText
+  extensionMethods:
+  - SuperOffice.Exceptions.SoFileNotFoundException.EnumUtil.MapEnums``2
+  - SuperOffice.Exceptions.SoFileNotFoundException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Exceptions.SoFileNotFoundException.#ctor(System.String,System.Exception,System.Boolean)
+  commentId: M:SuperOffice.Exceptions.SoFileNotFoundException.#ctor(System.String,System.Exception,System.Boolean)
+  id: '#ctor(System.String,System.Exception,System.Boolean)'
+  parent: SuperOffice.Exceptions.SoFileNotFoundException
+  langs:
+  - csharp
+  - vb
+  name: SoFileNotFoundException(String, Exception, Boolean)
+  nameWithType: SoFileNotFoundException.SoFileNotFoundException(String, Exception, Boolean)
+  fullName: SuperOffice.Exceptions.SoFileNotFoundException.SoFileNotFoundException(System.String, System.Exception, System.Boolean)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public SoFileNotFoundException(string message, Exception innerException, bool logAsException = true)
+    parameters:
+    - id: message
+      type: System.String
+    - id: innerException
+      type: System.Exception
+    - id: logAsException
+      type: System.Boolean
+    content.vb: Public Sub New(message As String, innerException As Exception, logAsException As Boolean = True)
+  overload: SuperOffice.Exceptions.SoFileNotFoundException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
+- uid: SuperOffice.Exceptions.SoException.LogAsException
+  commentId: P:SuperOffice.Exceptions.SoException.LogAsException
+  parent: SuperOffice.Exceptions.SoException
+  isExternal: true
+  name: LogAsException
+  nameWithType: SoException.LogAsException
+  fullName: SuperOffice.Exceptions.SoException.LogAsException
+- uid: SuperOffice.Exceptions.SoException.FriendlyText
+  commentId: P:SuperOffice.Exceptions.SoException.FriendlyText
+  parent: SuperOffice.Exceptions.SoException
+  isExternal: true
+  name: FriendlyText
+  nameWithType: SoException.FriendlyText
+  fullName: SuperOffice.Exceptions.SoException.FriendlyText
+- uid: SuperOffice.Exceptions.SoFileNotFoundException.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoFileNotFoundException, To>()
+  nameWithType: EnumUtil.MapEnums<SoFileNotFoundException, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.SoFileNotFoundException, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoFileNotFoundException, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Exceptions.SoFileNotFoundException, To)()
+  name.vb: MapEnums(Of SoFileNotFoundException, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoFileNotFoundException, To>
+    nameWithType: EnumUtil.MapEnums<SoFileNotFoundException, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.SoFileNotFoundException, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoFileNotFoundException, To)
+    nameWithType: EnumUtil.MapEnums(Of SoFileNotFoundException, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Exceptions.SoFileNotFoundException, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.SoFileNotFoundException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoFileNotFoundException, To>()
+  nameWithType: Converters.MapEnums<SoFileNotFoundException, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.SoFileNotFoundException, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoFileNotFoundException, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.SoFileNotFoundException, To)()
+  name.vb: MapEnums(Of SoFileNotFoundException, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoFileNotFoundException, To>
+    nameWithType: Converters.MapEnums<SoFileNotFoundException, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.SoFileNotFoundException, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoFileNotFoundException, To)
+    nameWithType: Converters.MapEnums(Of SoFileNotFoundException, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.SoFileNotFoundException, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Exceptions.SoFileNotFoundException.#ctor*
+  commentId: Overload:SuperOffice.Exceptions.SoFileNotFoundException.#ctor
+  isExternal: true
+  name: SoFileNotFoundException
+  nameWithType: SoFileNotFoundException.SoFileNotFoundException
+  fullName: SuperOffice.Exceptions.SoFileNotFoundException.SoFileNotFoundException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -9,13 +9,14 @@ items:
   - SuperOffice.Data.DocTmplDirection.Outgoing
   - SuperOffice.Data.DocTmplDirection.SaintAll
   - SuperOffice.Data.DocTmplDirection.Unknown
+  - SuperOffice.Data.DocTmplDirection.value__
   langs:
   - csharp
   - vb
   name: DocTmplDirection
   nameWithType: DocTmplDirection
   fullName: SuperOffice.Data.DocTmplDirection
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,19 +25,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;direction&apos; in table &apos;doctmpl&apos;.\nThis Enum is used by:  DocTmpl.direction\n"
   syntax:
-    content: 'public enum DocTmplDirection : short'
-    content.vb: Public Enum DocTmplDirection As Short
+    content: 'public sealed class DocTmplDirection : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocTmplDirection
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.DocTmplDirection.EnumUtil.MapEnums``2
-  - SuperOffice.Data.DocTmplDirection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplDirection)
-  - SuperOffice.Data.DocTmplDirection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.DocTmplDirection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.DocTmplDirection.value__
+  commentId: F:SuperOffice.Data.DocTmplDirection.value__
+  id: value__
+  parent: SuperOffice.Data.DocTmplDirection
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocTmplDirection.value__
+  fullName: SuperOffice.Data.DocTmplDirection.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.DocTmplDirection.Unknown
   commentId: F:SuperOffice.Data.DocTmplDirection.Unknown
   id: Unknown
@@ -56,9 +92,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: The direction of documents from this template is unknown/undecided\n"
   syntax:
-    content: Unknown = 0
+    content: public const DocTmplDirection Unknown
     return:
       type: SuperOffice.Data.DocTmplDirection
+    content.vb: Public Const Unknown As DocTmplDirection
   modifiers.csharp:
   - public
   - const
@@ -84,9 +121,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Document template for incoming documents\n"
   syntax:
-    content: Incoming = 1
+    content: public const DocTmplDirection Incoming
     return:
       type: SuperOffice.Data.DocTmplDirection
+    content.vb: Public Const Incoming As DocTmplDirection
   modifiers.csharp:
   - public
   - const
@@ -112,9 +150,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Document template is used for outgoing documents\n"
   syntax:
-    content: Outgoing = 2
+    content: public const DocTmplDirection Outgoing
     return:
       type: SuperOffice.Data.DocTmplDirection
+    content.vb: Public Const Outgoing As DocTmplDirection
   modifiers.csharp:
   - public
   - const
@@ -140,9 +179,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: All&apos; choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions\n"
   syntax:
-    content: SaintAll = 3
+    content: public const DocTmplDirection SaintAll
     return:
       type: SuperOffice.Data.DocTmplDirection
+    content.vb: Public Const SaintAll As DocTmplDirection
   modifiers.csharp:
   - public
   - const
@@ -156,6 +196,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.DocTmplDirection.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -183,84 +230,6 @@ references:
     name: MapEnums(Of DocTmplDirection, To)
     nameWithType: EnumUtil.MapEnums(Of DocTmplDirection, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DocTmplDirection, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DocTmplDirection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplDirection)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DocTmplDirection>(DocTmplDirection)
-  nameWithType: ObjectExtensions.AssignByReflection<DocTmplDirection>(DocTmplDirection)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplDirection>(SuperOffice.Data.DocTmplDirection)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocTmplDirection)(DocTmplDirection)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplDirection)(SuperOffice.Data.DocTmplDirection)
-  name.vb: AssignByReflection(Of DocTmplDirection)(DocTmplDirection)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DocTmplDirection>
-    nameWithType: ObjectExtensions.AssignByReflection<DocTmplDirection>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplDirection>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DocTmplDirection
-    name: DocTmplDirection
-    nameWithType: DocTmplDirection
-    fullName: SuperOffice.Data.DocTmplDirection
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DocTmplDirection)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DocTmplDirection)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplDirection)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DocTmplDirection
-    name: DocTmplDirection
-    nameWithType: DocTmplDirection
-    fullName: SuperOffice.Data.DocTmplDirection
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DocTmplDirection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DocTmplDirection>()
-  nameWithType: ObjectExtensions.GraphCopy<DocTmplDirection>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplDirection>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocTmplDirection)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplDirection)()
-  name.vb: GraphCopy(Of DocTmplDirection)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DocTmplDirection>
-    nameWithType: ObjectExtensions.GraphCopy<DocTmplDirection>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplDirection>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DocTmplDirection)
-    nameWithType: ObjectExtensions.GraphCopy(Of DocTmplDirection)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplDirection)
     isExternal: true
   - name: (
     nameWithType: (
@@ -302,6 +271,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -347,103 +322,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -490,18 +368,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.DocTmplDirection
   commentId: T:SuperOffice.Data.DocTmplDirection
   parent: SuperOffice.Data

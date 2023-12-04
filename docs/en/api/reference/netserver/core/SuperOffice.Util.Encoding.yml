@@ -9,8 +9,10 @@ items:
   - SuperOffice.Util.Encoding.HtmlDecode(System.String)
   - SuperOffice.Util.Encoding.HtmlEncode(System.String)
   - SuperOffice.Util.Encoding.HtmlEncode(System.String,System.Boolean)
+  - SuperOffice.Util.Encoding.ParseQueryString(System.String)
   - SuperOffice.Util.Encoding.UrlDecode(System.String)
   - SuperOffice.Util.Encoding.UrlEncode(System.String)
+  - SuperOffice.Util.Encoding.UrlEncodeUnicode(System.String)
   langs:
   - csharp
   - vb
@@ -25,18 +27,13 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static class Encoding
-    content.vb: Public Module Encoding
+    content: 'public static class Encoding : Object'
+    content.vb: >-
+      Public Module Encoding
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -77,6 +74,41 @@ items:
 
       Public Shared Function UrlEncode(input As String) As String
   overload: SuperOffice.Util.Encoding.UrlEncode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.Encoding.UrlEncodeUnicode(System.String)
+  commentId: M:SuperOffice.Util.Encoding.UrlEncodeUnicode(System.String)
+  id: UrlEncodeUnicode(System.String)
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: UrlEncodeUnicode(String)
+  nameWithType: Encoding.UrlEncodeUnicode(String)
+  fullName: SuperOffice.Util.Encoding.UrlEncodeUnicode(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nEncodes characters below 0 and above z\n"
+  syntax:
+    content: public static string UrlEncodeUnicode(string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: String to be encoded
+    return:
+      type: System.String
+      description: An encoded string
+    content.vb: Public Shared Function UrlEncodeUnicode(source As String) As String
+  overload: SuperOffice.Util.Encoding.UrlEncodeUnicode*
   modifiers.csharp:
   - public
   - static
@@ -274,6 +306,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.Encoding.ParseQueryString(System.String)
+  commentId: M:SuperOffice.Util.Encoding.ParseQueryString(System.String)
+  id: ParseQueryString(System.String)
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: ParseQueryString(String)
+  nameWithType: Encoding.ParseQueryString(String)
+  fullName: SuperOffice.Util.Encoding.ParseQueryString(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static NameValueCollection ParseQueryString(string s)
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Shared Function ParseQueryString(s As String) As NameValueCollection
+  overload: SuperOffice.Util.Encoding.ParseQueryString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -288,285 +352,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -586,6 +371,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.Util.Encoding.UrlEncodeUnicode*
+  commentId: Overload:SuperOffice.Util.Encoding.UrlEncodeUnicode
+  isExternal: true
+  name: UrlEncodeUnicode
+  nameWithType: Encoding.UrlEncodeUnicode
+  fullName: SuperOffice.Util.Encoding.UrlEncodeUnicode
 - uid: SuperOffice.Util.Encoding.UrlDecode*
   commentId: Overload:SuperOffice.Util.Encoding.UrlDecode
   isExternal: true
@@ -617,3 +408,14 @@ references:
   name: EscapeForJavascript
   nameWithType: Encoding.EscapeForJavascript
   fullName: SuperOffice.Util.Encoding.EscapeForJavascript
+- uid: SuperOffice.Util.Encoding.ParseQueryString*
+  commentId: Overload:SuperOffice.Util.Encoding.ParseQueryString
+  isExternal: true
+  name: ParseQueryString
+  nameWithType: Encoding.ParseQueryString
+  fullName: SuperOffice.Util.Encoding.ParseQueryString
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection

@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Claims.SoClaimTypes
+  commentId: T:SuperOffice.Security.Claims.SoClaimTypes
+  id: SoClaimTypes
+  parent: SuperOffice.Security.Claims
+  children:
+  - SuperOffice.Security.Claims.SoClaimTypes.AssociateId
+  - SuperOffice.Security.Claims.SoClaimTypes.Audience
+  - SuperOffice.Security.Claims.SoClaimTypes.CentralSuperId
+  - SuperOffice.Security.Claims.SoClaimTypes.CentralSuperIdUserCandidateIdentifier
+  - SuperOffice.Security.Claims.SoClaimTypes.ClientId
+  - SuperOffice.Security.Claims.SoClaimTypes.ClientSecret
+  - SuperOffice.Security.Claims.SoClaimTypes.ContextIdentifier
+  - SuperOffice.Security.Claims.SoClaimTypes.ExpirationTime
+  - SuperOffice.Security.Claims.SoClaimTypes.ImpersonatingAssociateId
+  - SuperOffice.Security.Claims.SoClaimTypes.IssuedAt
+  - SuperOffice.Security.Claims.SoClaimTypes.Issuer
+  - SuperOffice.Security.Claims.SoClaimTypes.NotBefore
+  - SuperOffice.Security.Claims.SoClaimTypes.Origin
+  - SuperOffice.Security.Claims.SoClaimTypes.Password
+  - SuperOffice.Security.Claims.SoClaimTypes.PersonId
+  - SuperOffice.Security.Claims.SoClaimTypes.So8TAccessToken
+  - SuperOffice.Security.Claims.SoClaimTypes.So8TAccessTokenNonce
+  - SuperOffice.Security.Claims.SoClaimTypes.SoUpn
+  - SuperOffice.Security.Claims.SoClaimTypes.Sub
+  - SuperOffice.Security.Claims.SoClaimTypes.Subject
+  - SuperOffice.Security.Claims.SoClaimTypes.Ticket
+  - SuperOffice.Security.Claims.SoClaimTypes.UserName
+  langs:
+  - csharp
+  - vb
+  name: SoClaimTypes
+  nameWithType: SoClaimTypes
+  fullName: SuperOffice.Security.Claims.SoClaimTypes
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: 'public static class SoClaimTypes : Object'
+    content.vb: >-
+      Public Module SoClaimTypes
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Security.Claims.SoClaimTypes.AssociateId
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.AssociateId
+  id: AssociateId
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: SoClaimTypes.AssociateId
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.AssociateId
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nPrimary key of the associate in the database\n"
+  syntax:
+    content: public const string AssociateId = "http://schemes.superoffice.net/identity/associateid"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "http://schemes.superoffice.net/identity/associateid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.ContextIdentifier
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ContextIdentifier
+  id: ContextIdentifier
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: ContextIdentifier
+  nameWithType: SoClaimTypes.ContextIdentifier
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.ContextIdentifier
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nContext identifier for the user\n"
+  syntax:
+    content: public const string ContextIdentifier = "http://schemes.superoffice.net/identity/ctx"
+    return:
+      type: System.String
+    content.vb: Public Const ContextIdentifier As String = "http://schemes.superoffice.net/identity/ctx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.ImpersonatingAssociateId
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ImpersonatingAssociateId
+  id: ImpersonatingAssociateId
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: ImpersonatingAssociateId
+  nameWithType: SoClaimTypes.ImpersonatingAssociateId
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.ImpersonatingAssociateId
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAssociate id of the user impersonating another associate\n"
+  syntax:
+    content: public const string ImpersonatingAssociateId = "http://schemes.superoffice.net/identity/impersonating_associateid"
+    return:
+      type: System.String
+    content.vb: Public Const ImpersonatingAssociateId As String = "http://schemes.superoffice.net/identity/impersonating_associateid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.Password
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Password
+  id: Password
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: SoClaimTypes.Password
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.Password
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nSensitive, should only be used during the authentication process\n"
+  syntax:
+    content: public const string Password = "http://schemes.superoffice.net/identity/password"
+    return:
+      type: System.String
+    content.vb: Public Const Password As String = "http://schemes.superoffice.net/identity/password"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.PersonId
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.PersonId
+  id: PersonId
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: SoClaimTypes.PersonId
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.PersonId
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nPrimary key of the resolved person in the database\n"
+  syntax:
+    content: public const string PersonId = "http://schemes.superoffice.net/identity/personid"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "http://schemes.superoffice.net/identity/personid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.Ticket
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Ticket
+  id: Ticket
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: SoClaimTypes.Ticket
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.Ticket
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nSuperOffice NetServer authentication ticket.  Value starts with &apos;7T:&apos;.\n"
+  syntax:
+    content: public const string Ticket = "http://schemes.superoffice.net/identity/ticket"
+    return:
+      type: System.String
+    content.vb: Public Const Ticket As String = "http://schemes.superoffice.net/identity/ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessToken
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.So8TAccessToken
+  id: So8TAccessToken
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: So8TAccessToken
+  nameWithType: SoClaimTypes.So8TAccessToken
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessToken
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nSuperOffice NetServer Access Token.  Value starts with &apos;8T:&apos;.\n"
+  syntax:
+    content: public const string So8TAccessToken = "http://schemes.superoffice.net/identity/8t_access_token"
+    return:
+      type: System.String
+    content.vb: Public Const So8TAccessToken As String = "http://schemes.superoffice.net/identity/8t_access_token"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.UserName
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.UserName
+  id: UserName
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: SoClaimTypes.UserName
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.UserName
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nUser name as provided by the end user in login dialog.  Can be resolved to Associate.Name or Associate.UserName\n"
+  syntax:
+    content: public const string UserName = "http://schemes.superoffice.net/identity/user_name"
+    return:
+      type: System.String
+    content.vb: Public Const UserName As String = "http://schemes.superoffice.net/identity/user_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.ClientId
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ClientId
+  id: ClientId
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: SoClaimTypes.ClientId
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.ClientId
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string ClientId = "http://schemes.superoffice.net/identity/client_id"
+    return:
+      type: System.String
+    content.vb: Public Const ClientId As String = "http://schemes.superoffice.net/identity/client_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.ClientSecret
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ClientSecret
+  id: ClientSecret
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: ClientSecret
+  nameWithType: SoClaimTypes.ClientSecret
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.ClientSecret
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string ClientSecret = "http://schemes.superoffice.net/identity/client_secret"
+    return:
+      type: System.String
+    content.vb: Public Const ClientSecret As String = "http://schemes.superoffice.net/identity/client_secret"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessTokenNonce
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.So8TAccessTokenNonce
+  id: So8TAccessTokenNonce
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: So8TAccessTokenNonce
+  nameWithType: SoClaimTypes.So8TAccessTokenNonce
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessTokenNonce
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string So8TAccessTokenNonce = "http://schemes.superoffice.net/identity/8t_access_token_nonce"
+    return:
+      type: System.String
+    content.vb: Public Const So8TAccessTokenNonce As String = "http://schemes.superoffice.net/identity/8t_access_token_nonce"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.Origin
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Origin
+  id: Origin
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: SoClaimTypes.Origin
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.Origin
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nIP address of the user logging in.  \n"
+  remarks: "\nOrigin is obtained from the X-Forwarded-For http header or the http requests&apos; user host address\n"
+  syntax:
+    content: public const string Origin = "http://schemes.superoffice.net/identity/origin"
+    return:
+      type: System.String
+    content.vb: Public Const Origin As String = "http://schemes.superoffice.net/identity/origin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.Sub
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Sub
+  id: Sub
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: Sub
+  nameWithType: SoClaimTypes.Sub
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.Sub
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string Sub = "sub"
+    return:
+      type: System.String
+    content.vb: Public Const Sub As String = "sub"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperId
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.CentralSuperId
+  id: CentralSuperId
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: CentralSuperId
+  nameWithType: SoClaimTypes.CentralSuperId
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperId
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string CentralSuperId = "http://schemes.superoffice.net/identity/csid"
+    return:
+      type: System.String
+    content.vb: Public Const CentralSuperId As String = "http://schemes.superoffice.net/identity/csid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.SoUpn
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.SoUpn
+  id: SoUpn
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: SoUpn
+  nameWithType: SoClaimTypes.SoUpn
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.SoUpn
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string SoUpn = "http://schemes.superoffice.net/identity/upn"
+    return:
+      type: System.String
+    content.vb: Public Const SoUpn As String = "http://schemes.superoffice.net/identity/upn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperIdUserCandidateIdentifier
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.CentralSuperIdUserCandidateIdentifier
+  id: CentralSuperIdUserCandidateIdentifier
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: CentralSuperIdUserCandidateIdentifier
+  nameWithType: SoClaimTypes.CentralSuperIdUserCandidateIdentifier
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperIdUserCandidateIdentifier
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string CentralSuperIdUserCandidateIdentifier = "http://schemes.superoffice.net/identity/csid-usercandidateidentifier"
+    return:
+      type: System.String
+    content.vb: Public Const CentralSuperIdUserCandidateIdentifier As String = "http://schemes.superoffice.net/identity/csid-usercandidateidentifier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.Issuer
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Issuer
+  id: Issuer
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: Issuer
+  nameWithType: SoClaimTypes.Issuer
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.Issuer
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string Issuer = "iss"
+    return:
+      type: System.String
+    content.vb: Public Const Issuer As String = "iss"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.Subject
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Subject
+  id: Subject
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: SoClaimTypes.Subject
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.Subject
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string Subject = "sub"
+    return:
+      type: System.String
+    content.vb: Public Const Subject As String = "sub"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.Audience
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Audience
+  id: Audience
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: SoClaimTypes.Audience
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.Audience
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string Audience = "aud"
+    return:
+      type: System.String
+    content.vb: Public Const Audience As String = "aud"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.ExpirationTime
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ExpirationTime
+  id: ExpirationTime
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: ExpirationTime
+  nameWithType: SoClaimTypes.ExpirationTime
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.ExpirationTime
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string ExpirationTime = "exp"
+    return:
+      type: System.String
+    content.vb: Public Const ExpirationTime As String = "exp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.NotBefore
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.NotBefore
+  id: NotBefore
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: NotBefore
+  nameWithType: SoClaimTypes.NotBefore
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.NotBefore
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string NotBefore = "nbf"
+    return:
+      type: System.String
+    content.vb: Public Const NotBefore As String = "nbf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Claims.SoClaimTypes.IssuedAt
+  commentId: F:SuperOffice.Security.Claims.SoClaimTypes.IssuedAt
+  id: IssuedAt
+  parent: SuperOffice.Security.Claims.SoClaimTypes
+  langs:
+  - csharp
+  - vb
+  name: IssuedAt
+  nameWithType: SoClaimTypes.IssuedAt
+  fullName: SuperOffice.Security.Claims.SoClaimTypes.IssuedAt
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public const string IssuedAt = "iat"
+    return:
+      type: System.String
+    content.vb: Public Const IssuedAt As String = "iat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Security.Claims
+  commentId: N:SuperOffice.Security.Claims
+  isExternal: true
+  name: SuperOffice.Security.Claims
+  nameWithType: SuperOffice.Security.Claims
+  fullName: SuperOffice.Security.Claims
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -18,12 +18,16 @@ items:
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath7
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath8
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath9
+  - SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath
   - SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
+  - SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
   - SuperOffice.Configuration.ConfigFile.Documents.BufferSize
   - SuperOffice.Configuration.ConfigFile.Documents.CanCreateDocumentTemplates
   - SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
   - SuperOffice.Configuration.ConfigFile.Documents.TemplatePath
+  - SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath
   - SuperOffice.Configuration.ConfigFile.Documents.TemporaryPath
+  - SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath
   langs:
   - csharp
   - vb
@@ -39,18 +43,13 @@ items:
   namespace: SuperOffice.Configuration
   summary: "\nUtility class used to access the SuperOffice.Documents entry in the Config file.\n"
   syntax:
-    content: public static class Documents
-    content.vb: Public Module Documents
+    content: 'public static class Documents : Object'
+    content.vb: >-
+      Public Module Documents
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -58,6 +57,138 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
+  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
+  id: AzureBlobStorageContainerPrimaryUri
+  parent: SuperOffice.Configuration.ConfigFile.Documents
+  langs:
+  - csharp
+  - vb
+  name: AzureBlobStorageContainerPrimaryUri
+  nameWithType: ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe Azure Blob Storage Container shared access signature (SAS) used to connect to a blob container when running in public cloud\n"
+  syntax:
+    content: public static string AzureBlobStorageContainerPrimaryUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property AzureBlobStorageContainerPrimaryUri As String
+  overload: SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath
+  id: ArchiveRelativePath
+  parent: SuperOffice.Configuration.ConfigFile.Documents
+  langs:
+  - csharp
+  - vb
+  name: ArchiveRelativePath
+  nameWithType: ConfigFile.Documents.ArchiveRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDirectory path relative to Azure Blob Storage Container root used when running in public cloud\n"
+  syntax:
+    content: public static string ArchiveRelativePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ArchiveRelativePath As String
+  overload: SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath
+  id: TemplateRelativePath
+  parent: SuperOffice.Configuration.ConfigFile.Documents
+  langs:
+  - csharp
+  - vb
+  name: TemplateRelativePath
+  nameWithType: ConfigFile.Documents.TemplateRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDirectory path relative to Azure Blob Storage Container root used when running in public cloud\n"
+  syntax:
+    content: public static string TemplateRelativePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property TemplateRelativePath As String
+  overload: SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath
+  id: TemporaryRelativePath
+  parent: SuperOffice.Configuration.ConfigFile.Documents
+  langs:
+  - csharp
+  - vb
+  name: TemporaryRelativePath
+  nameWithType: ConfigFile.Documents.TemporaryRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDirectory path relative to Azure Blob Storage Container root used when running in public cloud\n"
+  syntax:
+    content: public static string TemporaryRelativePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property TemporaryRelativePath As String
+  overload: SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
   commentId: P:SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
   id: ArchivePath
@@ -75,7 +206,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: "\nPath for SO_ARC.  Even it the so arc is not used, default path for document template folder is calculated from this folder.\n"
+  summary: "\nPath for SO_ARC. Even it the so arc is not used, default path for document template folder is calculated from this folder.\n"
   syntax:
     content: public static string ArchivePath { get; set; }
     parameters: []
@@ -702,297 +833,18 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
+- uid: SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
   isExternal: true
-  name: ArchivePath
-  nameWithType: ConfigFile.Documents.ArchivePath
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
+  name: AzureBlobStorageContainerPrimaryUri
+  nameWithType: ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1000,6 +852,30 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath
+  isExternal: true
+  name: ArchiveRelativePath
+  nameWithType: ConfigFile.Documents.ArchiveRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath
+- uid: SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath
+  isExternal: true
+  name: TemplateRelativePath
+  nameWithType: ConfigFile.Documents.TemplateRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath
+- uid: SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath
+  isExternal: true
+  name: TemporaryRelativePath
+  nameWithType: ConfigFile.Documents.TemporaryRelativePath
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.TemporaryRelativePath
+- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
+  isExternal: true
+  name: ArchivePath
+  nameWithType: ConfigFile.Documents.ArchivePath
+  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
 - uid: SuperOffice.Configuration.ConfigFile.Documents.ArchivePath1*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ArchivePath1
   isExternal: true

@@ -10,13 +10,14 @@ items:
   - SuperOffice.Data.AssignmentStatus.None
   - SuperOffice.Data.AssignmentStatus.Seen
   - SuperOffice.Data.AssignmentStatus.Unknown
+  - SuperOffice.Data.AssignmentStatus.value__
   langs:
   - csharp
   - vb
   name: AssignmentStatus
   nameWithType: AssignmentStatus
   fullName: SuperOffice.Data.AssignmentStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -25,19 +26,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nStatus if this appointment is in the process of being assigned to someone else\n"
   syntax:
-    content: public enum AssignmentStatus
-    content.vb: Public Enum AssignmentStatus
+    content: 'public sealed class AssignmentStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class AssignmentStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.AssignmentStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.AssignmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AssignmentStatus)
-  - SuperOffice.Data.AssignmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.AssignmentStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.AssignmentStatus.value__
+  commentId: F:SuperOffice.Data.AssignmentStatus.value__
+  id: value__
+  parent: SuperOffice.Data.AssignmentStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AssignmentStatus.value__
+  fullName: SuperOffice.Data.AssignmentStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.AssignmentStatus.Unknown
   commentId: F:SuperOffice.Data.AssignmentStatus.Unknown
   id: Unknown
@@ -57,9 +93,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
-    content: Unknown = 0
+    content: public const AssignmentStatus Unknown
     return:
       type: SuperOffice.Data.AssignmentStatus
+    content.vb: Public Const Unknown As AssignmentStatus
   modifiers.csharp:
   - public
   - const
@@ -85,9 +122,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: 1: All appointments not in the process of being assigned to someone else\n"
   syntax:
-    content: None = 1
+    content: public const AssignmentStatus None
     return:
       type: SuperOffice.Data.AssignmentStatus
+    content.vb: Public Const None As AssignmentStatus
   modifiers.csharp:
   - public
   - const
@@ -113,9 +151,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: 11: Appointment in the process of being assigned to someone else\n"
   syntax:
-    content: Assigning = 11
+    content: public const AssignmentStatus Assigning
     return:
       type: SuperOffice.Data.AssignmentStatus
+    content.vb: Public Const Assigning As AssignmentStatus
   modifiers.csharp:
   - public
   - const
@@ -141,9 +180,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: 12: Appointment where the party requested to take ownership of the appointment or task has observed the request, but not yet accepted or declined the request.\n"
   syntax:
-    content: Seen = 12
+    content: public const AssignmentStatus Seen
     return:
       type: SuperOffice.Data.AssignmentStatus
+    content.vb: Public Const Seen As AssignmentStatus
   modifiers.csharp:
   - public
   - const
@@ -169,9 +209,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n13: 13: Appointment where the person requested to take ownership has declined.\n"
   syntax:
-    content: Declined = 13
+    content: public const AssignmentStatus Declined
     return:
       type: SuperOffice.Data.AssignmentStatus
+    content.vb: Public Const Declined As AssignmentStatus
   modifiers.csharp:
   - public
   - const
@@ -185,6 +226,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.AssignmentStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -212,84 +260,6 @@ references:
     name: MapEnums(Of AssignmentStatus, To)
     nameWithType: EnumUtil.MapEnums(Of AssignmentStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AssignmentStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.AssignmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AssignmentStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<AssignmentStatus>(AssignmentStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<AssignmentStatus>(AssignmentStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AssignmentStatus>(SuperOffice.Data.AssignmentStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AssignmentStatus)(AssignmentStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AssignmentStatus)(SuperOffice.Data.AssignmentStatus)
-  name.vb: AssignByReflection(Of AssignmentStatus)(AssignmentStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<AssignmentStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<AssignmentStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AssignmentStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.AssignmentStatus
-    name: AssignmentStatus
-    nameWithType: AssignmentStatus
-    fullName: SuperOffice.Data.AssignmentStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of AssignmentStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of AssignmentStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AssignmentStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.AssignmentStatus
-    name: AssignmentStatus
-    nameWithType: AssignmentStatus
-    fullName: SuperOffice.Data.AssignmentStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.AssignmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<AssignmentStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<AssignmentStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AssignmentStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AssignmentStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AssignmentStatus)()
-  name.vb: GraphCopy(Of AssignmentStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<AssignmentStatus>
-    nameWithType: ObjectExtensions.GraphCopy<AssignmentStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AssignmentStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of AssignmentStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of AssignmentStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AssignmentStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -331,6 +301,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -376,103 +352,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -519,18 +398,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.AssignmentStatus
   commentId: T:SuperOffice.Data.AssignmentStatus
   parent: SuperOffice.Data

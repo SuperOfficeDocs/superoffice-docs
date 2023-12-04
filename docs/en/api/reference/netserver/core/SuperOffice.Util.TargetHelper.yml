@@ -1,0 +1,429 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TargetHelper
+  commentId: T:SuperOffice.Util.TargetHelper
+  id: TargetHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TargetHelper.BucketValues(System.Double[],System.Int32)
+  - SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
+  - SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
+  - SuperOffice.Util.TargetHelper.GetDefaultPeriodType
+  - SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
+  - SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
+  - SuperOffice.Util.TargetHelper.SpreadValues(System.Double[],System.Int32)
+  - SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
+  langs:
+  - csharp
+  - vb
+  name: TargetHelper
+  nameWithType: TargetHelper
+  fullName: SuperOffice.Util.TargetHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: 'public static class TargetHelper : Object'
+    content.vb: >-
+      Public Module TargetHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.TargetHelper.GetDefaultPeriodType
+  commentId: M:SuperOffice.Util.TargetHelper.GetDefaultPeriodType
+  id: GetDefaultPeriodType
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultPeriodType()
+  nameWithType: TargetHelper.GetDefaultPeriodType()
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultPeriodType()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static TargetPeriodType GetDefaultPeriodType()
+    return:
+      type: SuperOffice.Data.TargetPeriodType
+    content.vb: Public Shared Function GetDefaultPeriodType As TargetPeriodType
+  overload: SuperOffice.Util.TargetHelper.GetDefaultPeriodType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
+  commentId: M:SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
+  id: TargetPeriod(System.DateTime,SuperOffice.Data.TargetPeriodType)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: TargetPeriod(DateTime, TargetPeriodType)
+  nameWithType: TargetHelper.TargetPeriod(DateTime, TargetPeriodType)
+  fullName: SuperOffice.Util.TargetHelper.TargetPeriod(System.DateTime, SuperOffice.Data.TargetPeriodType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static int TargetPeriod(this DateTime date, TargetPeriodType periodType)
+    parameters:
+    - id: date
+      type: System.DateTime
+    - id: periodType
+      type: SuperOffice.Data.TargetPeriodType
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TargetPeriod(date As DateTime, periodType As TargetPeriodType) As Integer
+  overload: SuperOffice.Util.TargetHelper.TargetPeriod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
+  commentId: M:SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
+  id: ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertPeriodTypeToNumber(TargetPeriodType)
+  nameWithType: TargetHelper.ConvertPeriodTypeToNumber(TargetPeriodType)
+  fullName: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber(SuperOffice.Data.TargetPeriodType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static int ConvertPeriodTypeToNumber(TargetPeriodType periodType)
+    parameters:
+    - id: periodType
+      type: SuperOffice.Data.TargetPeriodType
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ConvertPeriodTypeToNumber(periodType As TargetPeriodType) As Integer
+  overload: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
+  commentId: M:SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
+  id: ConvertNumberToPeriodType(System.Int32)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertNumberToPeriodType(Int32)
+  nameWithType: TargetHelper.ConvertNumberToPeriodType(Int32)
+  fullName: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static TargetPeriodType ConvertNumberToPeriodType(int number)
+    parameters:
+    - id: number
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.TargetPeriodType
+    content.vb: Public Shared Function ConvertNumberToPeriodType(number As Integer) As TargetPeriodType
+  overload: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TargetHelper.BucketValues(System.Double[],System.Int32)
+  commentId: M:SuperOffice.Util.TargetHelper.BucketValues(System.Double[],System.Int32)
+  id: BucketValues(System.Double[],System.Int32)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: BucketValues(Double[], Int32)
+  nameWithType: TargetHelper.BucketValues(Double[], Int32)
+  fullName: SuperOffice.Util.TargetHelper.BucketValues(System.Double[], System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nAggregates the values in input-collection.\n"
+  syntax:
+    content: public static double[] BucketValues(double[] values, int bucketSize)
+    parameters:
+    - id: values
+      type: System.Double[]
+    - id: bucketSize
+      type: System.Int32
+      description: How many values are aggregated together in the input-collection.
+    return:
+      type: System.Double[]
+    content.vb: Public Shared Function BucketValues(values As Double(), bucketSize As Integer) As Double()
+  overload: SuperOffice.Util.TargetHelper.BucketValues*
+  nameWithType.vb: TargetHelper.BucketValues(Double(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TargetHelper.BucketValues(System.Double(), System.Int32)
+  name.vb: BucketValues(Double(), Int32)
+- uid: SuperOffice.Util.TargetHelper.SpreadValues(System.Double[],System.Int32)
+  commentId: M:SuperOffice.Util.TargetHelper.SpreadValues(System.Double[],System.Int32)
+  id: SpreadValues(System.Double[],System.Int32)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: SpreadValues(Double[], Int32)
+  nameWithType: TargetHelper.SpreadValues(Double[], Int32)
+  fullName: SuperOffice.Util.TargetHelper.SpreadValues(System.Double[], System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nDivides each value into several new values. Rounds up to nearest whole if value is positive, rounds down if value is negative.\n"
+  syntax:
+    content: public static double[] SpreadValues(double[] values, int spreadSize)
+    parameters:
+    - id: values
+      type: System.Double[]
+    - id: spreadSize
+      type: System.Int32
+      description: The amount of new values each value in input-collection is divided into.
+    return:
+      type: System.Double[]
+    content.vb: Public Shared Function SpreadValues(values As Double(), spreadSize As Integer) As Double()
+  overload: SuperOffice.Util.TargetHelper.SpreadValues*
+  nameWithType.vb: TargetHelper.SpreadValues(Double(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TargetHelper.SpreadValues(System.Double(), System.Int32)
+  name.vb: SpreadValues(Double(), Int32)
+- uid: SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
+  commentId: M:SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
+  id: GetDefaultValues(SuperOffice.Data.TargetPeriodType)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultValues(TargetPeriodType)
+  nameWithType: TargetHelper.GetDefaultValues(TargetPeriodType)
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultValues(SuperOffice.Data.TargetPeriodType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static double[] GetDefaultValues(TargetPeriodType tpt)
+    parameters:
+    - id: tpt
+      type: SuperOffice.Data.TargetPeriodType
+    return:
+      type: System.Double[]
+    content.vb: Public Shared Function GetDefaultValues(tpt As TargetPeriodType) As Double()
+  overload: SuperOffice.Util.TargetHelper.GetDefaultValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
+  commentId: M:SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
+  id: GetDefaultValues(System.Int32)
+  parent: SuperOffice.Util.TargetHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultValues(Int32)
+  nameWithType: TargetHelper.GetDefaultValues(Int32)
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultValues(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static double[] GetDefaultValues(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Double[]
+    content.vb: Public Shared Function GetDefaultValues(count As Integer) As Double()
+  overload: SuperOffice.Util.TargetHelper.GetDefaultValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.TargetHelper.GetDefaultPeriodType*
+  commentId: Overload:SuperOffice.Util.TargetHelper.GetDefaultPeriodType
+  isExternal: true
+  name: GetDefaultPeriodType
+  nameWithType: TargetHelper.GetDefaultPeriodType
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultPeriodType
+- uid: SuperOffice.Data.TargetPeriodType
+  commentId: T:SuperOffice.Data.TargetPeriodType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetPeriodType
+  nameWithType: TargetPeriodType
+  fullName: SuperOffice.Data.TargetPeriodType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Util.TargetHelper.TargetPeriod*
+  commentId: Overload:SuperOffice.Util.TargetHelper.TargetPeriod
+  isExternal: true
+  name: TargetPeriod
+  nameWithType: TargetHelper.TargetPeriod
+  fullName: SuperOffice.Util.TargetHelper.TargetPeriod
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber*
+  commentId: Overload:SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber
+  isExternal: true
+  name: ConvertPeriodTypeToNumber
+  nameWithType: TargetHelper.ConvertPeriodTypeToNumber
+  fullName: SuperOffice.Util.TargetHelper.ConvertPeriodTypeToNumber
+- uid: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType*
+  commentId: Overload:SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType
+  isExternal: true
+  name: ConvertNumberToPeriodType
+  nameWithType: TargetHelper.ConvertNumberToPeriodType
+  fullName: SuperOffice.Util.TargetHelper.ConvertNumberToPeriodType
+- uid: SuperOffice.Util.TargetHelper.BucketValues*
+  commentId: Overload:SuperOffice.Util.TargetHelper.BucketValues
+  isExternal: true
+  name: BucketValues
+  nameWithType: TargetHelper.BucketValues
+  fullName: SuperOffice.Util.TargetHelper.BucketValues
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.TargetHelper.SpreadValues*
+  commentId: Overload:SuperOffice.Util.TargetHelper.SpreadValues
+  isExternal: true
+  name: SpreadValues
+  nameWithType: TargetHelper.SpreadValues
+  fullName: SuperOffice.Util.TargetHelper.SpreadValues
+- uid: SuperOffice.Util.TargetHelper.GetDefaultValues*
+  commentId: Overload:SuperOffice.Util.TargetHelper.GetDefaultValues
+  isExternal: true
+  name: GetDefaultValues
+  nameWithType: TargetHelper.GetDefaultValues
+  fullName: SuperOffice.Util.TargetHelper.GetDefaultValues

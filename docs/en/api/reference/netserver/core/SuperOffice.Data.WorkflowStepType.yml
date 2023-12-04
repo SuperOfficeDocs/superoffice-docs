@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WorkflowStepType
+  commentId: T:SuperOffice.Data.WorkflowStepType
+  id: WorkflowStepType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WorkflowStepType.AddToList
+  - SuperOffice.Data.WorkflowStepType.CreateFollowUp
+  - SuperOffice.Data.WorkflowStepType.CreateRequest
+  - SuperOffice.Data.WorkflowStepType.CreateSale
+  - SuperOffice.Data.WorkflowStepType.None
+  - SuperOffice.Data.WorkflowStepType.NotifyByEmail
+  - SuperOffice.Data.WorkflowStepType.NotifyBySMS
+  - SuperOffice.Data.WorkflowStepType.RemoveFromList
+  - SuperOffice.Data.WorkflowStepType.RunScript
+  - SuperOffice.Data.WorkflowStepType.SendEmail
+  - SuperOffice.Data.WorkflowStepType.SendSMS
+  - SuperOffice.Data.WorkflowStepType.Split
+  - SuperOffice.Data.WorkflowStepType.UpdateParticipant
+  - SuperOffice.Data.WorkflowStepType.value__
+  - SuperOffice.Data.WorkflowStepType.WaitForAction
+  - SuperOffice.Data.WorkflowStepType.WaitForTime
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.Data.WorkflowStepType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nWorkflow Step Type\nThis Enum is used by:  workflow_step.step_type\n"
+  syntax:
+    content: 'public sealed class WorkflowStepType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowStepType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.WorkflowStepType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WorkflowStepType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowStepType.value__
+  commentId: F:SuperOffice.Data.WorkflowStepType.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowStepType.value__
+  fullName: SuperOffice.Data.WorkflowStepType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.WorkflowStepType.None
+  commentId: F:SuperOffice.Data.WorkflowStepType.None
+  id: None
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowStepType.None
+  fullName: SuperOffice.Data.WorkflowStepType.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowStepType None
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const None As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.SendEmail
+  commentId: F:SuperOffice.Data.WorkflowStepType.SendEmail
+  id: SendEmail
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: SendEmail
+  nameWithType: WorkflowStepType.SendEmail
+  fullName: SuperOffice.Data.WorkflowStepType.SendEmail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: SendEmail\n"
+  syntax:
+    content: public const WorkflowStepType SendEmail
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const SendEmail As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.SendSMS
+  commentId: F:SuperOffice.Data.WorkflowStepType.SendSMS
+  id: SendSMS
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: SendSMS
+  nameWithType: WorkflowStepType.SendSMS
+  fullName: SuperOffice.Data.WorkflowStepType.SendSMS
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: SendSMS\n"
+  syntax:
+    content: public const WorkflowStepType SendSMS
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const SendSMS As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.WaitForTime
+  commentId: F:SuperOffice.Data.WorkflowStepType.WaitForTime
+  id: WaitForTime
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: WaitForTime
+  nameWithType: WorkflowStepType.WaitForTime
+  fullName: SuperOffice.Data.WorkflowStepType.WaitForTime
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: WaitForTime\n"
+  syntax:
+    content: public const WorkflowStepType WaitForTime
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const WaitForTime As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.WaitForAction
+  commentId: F:SuperOffice.Data.WorkflowStepType.WaitForAction
+  id: WaitForAction
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: WaitForAction
+  nameWithType: WorkflowStepType.WaitForAction
+  fullName: SuperOffice.Data.WorkflowStepType.WaitForAction
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: WaitForAction\n"
+  syntax:
+    content: public const WorkflowStepType WaitForAction
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const WaitForAction As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.Split
+  commentId: F:SuperOffice.Data.WorkflowStepType.Split
+  id: Split
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: Split
+  nameWithType: WorkflowStepType.Split
+  fullName: SuperOffice.Data.WorkflowStepType.Split
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Split\n"
+  syntax:
+    content: public const WorkflowStepType Split
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const Split As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.UpdateParticipant
+  commentId: F:SuperOffice.Data.WorkflowStepType.UpdateParticipant
+  id: UpdateParticipant
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: UpdateParticipant
+  nameWithType: WorkflowStepType.UpdateParticipant
+  fullName: SuperOffice.Data.WorkflowStepType.UpdateParticipant
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: UpdateParticipant\n"
+  syntax:
+    content: public const WorkflowStepType UpdateParticipant
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const UpdateParticipant As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.AddToList
+  commentId: F:SuperOffice.Data.WorkflowStepType.AddToList
+  id: AddToList
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: AddToList
+  nameWithType: WorkflowStepType.AddToList
+  fullName: SuperOffice.Data.WorkflowStepType.AddToList
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: AddToList\n"
+  syntax:
+    content: public const WorkflowStepType AddToList
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const AddToList As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.RemoveFromList
+  commentId: F:SuperOffice.Data.WorkflowStepType.RemoveFromList
+  id: RemoveFromList
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromList
+  nameWithType: WorkflowStepType.RemoveFromList
+  fullName: SuperOffice.Data.WorkflowStepType.RemoveFromList
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: RemoveFromList\n"
+  syntax:
+    content: public const WorkflowStepType RemoveFromList
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const RemoveFromList As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.CreateRequest
+  commentId: F:SuperOffice.Data.WorkflowStepType.CreateRequest
+  id: CreateRequest
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: CreateRequest
+  nameWithType: WorkflowStepType.CreateRequest
+  fullName: SuperOffice.Data.WorkflowStepType.CreateRequest
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: CreateRequest\n"
+  syntax:
+    content: public const WorkflowStepType CreateRequest
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const CreateRequest As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.CreateFollowUp
+  commentId: F:SuperOffice.Data.WorkflowStepType.CreateFollowUp
+  id: CreateFollowUp
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: CreateFollowUp
+  nameWithType: WorkflowStepType.CreateFollowUp
+  fullName: SuperOffice.Data.WorkflowStepType.CreateFollowUp
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: CreateFollowUp\n"
+  syntax:
+    content: public const WorkflowStepType CreateFollowUp
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const CreateFollowUp As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.CreateSale
+  commentId: F:SuperOffice.Data.WorkflowStepType.CreateSale
+  id: CreateSale
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: CreateSale
+  nameWithType: WorkflowStepType.CreateSale
+  fullName: SuperOffice.Data.WorkflowStepType.CreateSale
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n11: CreateSale\n"
+  syntax:
+    content: public const WorkflowStepType CreateSale
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const CreateSale As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.NotifyByEmail
+  commentId: F:SuperOffice.Data.WorkflowStepType.NotifyByEmail
+  id: NotifyByEmail
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: NotifyByEmail
+  nameWithType: WorkflowStepType.NotifyByEmail
+  fullName: SuperOffice.Data.WorkflowStepType.NotifyByEmail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: NotifyByEmail\n"
+  syntax:
+    content: public const WorkflowStepType NotifyByEmail
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const NotifyByEmail As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.NotifyBySMS
+  commentId: F:SuperOffice.Data.WorkflowStepType.NotifyBySMS
+  id: NotifyBySMS
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: NotifyBySMS
+  nameWithType: WorkflowStepType.NotifyBySMS
+  fullName: SuperOffice.Data.WorkflowStepType.NotifyBySMS
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n13: NotifyBySMS\n"
+  syntax:
+    content: public const WorkflowStepType NotifyBySMS
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const NotifyBySMS As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowStepType.RunScript
+  commentId: F:SuperOffice.Data.WorkflowStepType.RunScript
+  id: RunScript
+  parent: SuperOffice.Data.WorkflowStepType
+  langs:
+  - csharp
+  - vb
+  name: RunScript
+  nameWithType: WorkflowStepType.RunScript
+  fullName: SuperOffice.Data.WorkflowStepType.RunScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n14: RunScript\n"
+  syntax:
+    content: public const WorkflowStepType RunScript
+    return:
+      type: SuperOffice.Data.WorkflowStepType
+    content.vb: Public Const RunScript As WorkflowStepType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.WorkflowStepType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowStepType, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowStepType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowStepType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowStepType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowStepType, To)()
+  name.vb: MapEnums(Of WorkflowStepType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowStepType, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowStepType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowStepType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowStepType, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowStepType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowStepType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WorkflowStepType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowStepType, To>()
+  nameWithType: Converters.MapEnums<WorkflowStepType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowStepType, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowStepType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowStepType, To)()
+  name.vb: MapEnums(Of WorkflowStepType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowStepType, To>
+    nameWithType: Converters.MapEnums<WorkflowStepType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowStepType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowStepType, To)
+    nameWithType: Converters.MapEnums(Of WorkflowStepType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowStepType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.WorkflowStepType
+  commentId: T:SuperOffice.Data.WorkflowStepType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.Data.WorkflowStepType

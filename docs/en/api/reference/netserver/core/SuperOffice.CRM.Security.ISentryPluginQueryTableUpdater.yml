@@ -24,6 +24,7 @@ items:
     content: 'public interface ISentryPluginQueryTableUpdater : IPlugin'
     content.vb: >-
       Public Interface ISentryPluginQueryTableUpdater
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.EnumUtil.MapEnums``2

@@ -1,0 +1,838 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.TicketHelper
+  commentId: T:SuperOffice.CRM.Ticket.TicketHelper
+  id: TicketHelper
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  - SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(System.String,SuperOffice.Data.TicketBaseStatus,System.DateTime)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32,System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
+  - SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
+  - SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32,System.String)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
+  - SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TicketHelper
+  nameWithType: TicketHelper
+  fullName: SuperOffice.CRM.Ticket.TicketHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: 'public static class TicketHelper : Object'
+    content.vb: >-
+      Public Module TicketHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
+  id: GetTicketChangeData(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketChangeData(Int32)
+  nameWithType: TicketHelper.GetTicketChangeData(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static TicketChangeData GetTicketChangeData(int ticketId)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Ticket.TicketChangeData
+    content.vb: Public Shared Function GetTicketChangeData(ticketId As Integer) As TicketChangeData
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(System.String,SuperOffice.Data.TicketBaseStatus,System.DateTime)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(System.String,SuperOffice.Data.TicketBaseStatus,System.DateTime)
+  id: GetIconHint(System.String,SuperOffice.Data.TicketBaseStatus,System.DateTime)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIconHint(String, TicketBaseStatus, DateTime)
+  nameWithType: TicketHelper.GetIconHint(String, TicketBaseStatus, DateTime)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(System.String, SuperOffice.Data.TicketBaseStatus, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nSelects icon for a ticket based on its state\n"
+  syntax:
+    content: public static string GetIconHint(string icon, TicketBaseStatus ticketStatus, DateTime deadline)
+    parameters:
+    - id: icon
+      type: System.String
+    - id: ticketStatus
+      type: SuperOffice.Data.TicketBaseStatus
+      description: Ticket&apos;s status
+    - id: deadline
+      type: System.DateTime
+      description: Deadline of the ticket
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetIconHint(icon As String, ticketStatus As TicketBaseStatus, deadline As DateTime) As String
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetIconHint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+  id: GetTicketSecurityLevelBasedOnPreferences
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketSecurityLevelBasedOnPreferences()
+  nameWithType: TicketHelper.GetTicketSecurityLevelBasedOnPreferences()
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nGets <xref href=\"SuperOffice.Data.TicketSecurityLevel\" data-throw-if-not-resolved=\"false\"></xref> based on preferences\n"
+  syntax:
+    content: public static TicketSecurityLevel GetTicketSecurityLevelBasedOnPreferences()
+    return:
+      type: SuperOffice.Data.TicketSecurityLevel
+      description: Resolved <xref href="SuperOffice.Data.TicketSecurityLevel" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Shared Function GetTicketSecurityLevelBasedOnPreferences As TicketSecurityLevel
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
+  id: ResolveTicketId(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: ResolveTicketId(Int32)
+  nameWithType: TicketHelper.ResolveTicketId(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nTicket can be connected (merged) to another ticket. This method traverses through its connection(s) and returns proper ticketId\n"
+  syntax:
+    content: public static int ResolveTicketId(int ticketId)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: Potentially correct ticketId
+    return:
+      type: System.Int32
+      description: Correct ticketId. Returns 0 in case ticket does not exists
+    content.vb: Public Shared Function ResolveTicketId(ticketId As Integer) As Integer
+  overload: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
+  id: GetTicketData(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketData(Int32)
+  nameWithType: TicketHelper.GetTicketData(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static TicketData GetTicketData(int ticketId)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Ticket.TicketData
+    content.vb: Public Shared Function GetTicketData(ticketId As Integer) As TicketData
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId(System.Int32)
+  id: GetFacadeAssociateId(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFacadeAssociateId(Int32)
+  nameWithType: TicketHelper.GetFacadeAssociateId(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nMaps ejUserId to associateId required by C++ code via facade.\n"
+  syntax:
+    content: public static int GetFacadeAssociateId(int ejUserId)
+    parameters:
+    - id: ejUserId
+      type: System.Int32
+      description: ejUserId
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetFacadeAssociateId(ejUserId As Integer) As Integer
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
+  id: GetTicketBaseStatus(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketBaseStatus(Int32)
+  nameWithType: TicketHelper.GetTicketBaseStatus(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nGet TicketBaseStatus from TicketStatus. Example: TicketStatus &quot;Resolved&quot; may have a TicketBaseStatus &quot;Closed&quot;.\n"
+  syntax:
+    content: public static TicketBaseStatus GetTicketBaseStatus(int ticketStatus)
+    parameters:
+    - id: ticketStatus
+      type: System.Int32
+      description: TicketStatus int from TicketStatus table
+    return:
+      type: SuperOffice.Data.TicketBaseStatus
+      description: TicketBaseStatus(enum) of provided TicketStatus
+    content.vb: Public Shared Function GetTicketBaseStatus(ticketStatus As Integer) As TicketBaseStatus
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
+  id: UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow,System.Boolean)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateLastChanged(TicketRow, Boolean)
+  nameWithType: TicketHelper.UpdateLastChanged(TicketRow, Boolean)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged(SuperOffice.CRM.Rows.TicketRow, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nUpdate Ticket LastChanged field.\nThis function will set the ticket&apos;s last_changed timestamp to now.\nThe read_status will be set to yellow if it is green. If it is red,\nit will not be changed.\n"
+  syntax:
+    content: public static void UpdateLastChanged(this TicketRow ticketRow, bool noNewInfo)
+    parameters:
+    - id: ticketRow
+      type: SuperOffice.CRM.Rows.TicketRow
+      description: TicketRow object
+    - id: noNewInfo
+      type: System.Boolean
+      description: Indicates if ticket has changed
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub UpdateLastChanged(ticketRow As TicketRow, noNewInfo As Boolean)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
+  id: UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow,System.DateTime)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateRepliedAt(TicketRow, DateTime)
+  nameWithType: TicketHelper.UpdateRepliedAt(TicketRow, DateTime)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt(SuperOffice.CRM.Rows.TicketRow, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nUpdate Ticket RepliedAt field.\nThis function will calculate and set repliedAt, timeToReply and realTimeToReply fields.\n"
+  syntax:
+    content: public static void UpdateRepliedAt(this TicketRow ticketRow, DateTime repliedAt)
+    parameters:
+    - id: ticketRow
+      type: SuperOffice.CRM.Rows.TicketRow
+      description: TicketRow object
+    - id: repliedAt
+      type: System.DateTime
+      description: RepliedAt datetime
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub UpdateRepliedAt(ticketRow As TicketRow, repliedAt As DateTime)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
+  id: UpdateTicketStatisticsFromMessages(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateTicketStatisticsFromMessages(Int32)
+  nameWithType: TicketHelper.UpdateTicketStatisticsFromMessages(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nUpdate number of messages, replies and timespent for ticket\n"
+  syntax:
+    content: public static void UpdateTicketStatisticsFromMessages(int ticketId)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: Ticket id
+    content.vb: Public Shared Sub UpdateTicketStatisticsFromMessages(ticketId As Integer)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
+  id: GetNextInQueue
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNextInQueue()
+  nameWithType: TicketHelper.GetNextInQueue()
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static int GetNextInQueue()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetNextInQueue As Integer
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32,System.Int32)
+  id: GetTicketCustomers(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketCustomers(Int32, Int32)
+  nameWithType: TicketHelper.GetTicketCustomers(Int32, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nGet ticket customer rows.\n"
+  syntax:
+    content: public static TicketCustomersRows GetTicketCustomers(int ticketId, int customerId = 0)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: TicketId to return customers for
+    - id: customerId
+      type: System.Int32
+      description: Optional customer id
+    return:
+      type: SuperOffice.CRM.Rows.TicketCustomersRows
+      description: TicketCustomersRows object
+    content.vb: Public Shared Function GetTicketCustomers(ticketId As Integer, customerId As Integer = 0) As TicketCustomersRows
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
+  id: GetTicketStatusRecordData(System.Int16)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketStatusRecordData(Int16)
+  nameWithType: TicketHelper.GetTicketStatusRecordData(Int16)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData(System.Int16)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static TicketStatusRecordData GetTicketStatusRecordData(short ticketStatusId)
+    parameters:
+    - id: ticketStatusId
+      type: System.Int16
+    return:
+      type: SuperOffice.CRM.Rows.TicketStatusRecordData
+    content.vb: Public Shared Function GetTicketStatusRecordData(ticketStatusId As Short) As TicketStatusRecordData
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  id: DemandAdminPermissions
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: DemandAdminPermissions()
+  nameWithType: TicketHelper.DemandAdminPermissions()
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static void DemandAdminPermissions()
+    content.vb: Public Shared Sub DemandAdminPermissions
+  overload: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
+  id: HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: HasUpdateRight(TicketData)
+  nameWithType: TicketHelper.HasUpdateRight(TicketData)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static bool HasUpdateRight(TicketData data)
+    parameters:
+    - id: data
+      type: SuperOffice.CRM.Ticket.TicketData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasUpdateRight(data As TicketData) As Boolean
+  overload: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
+  id: GetMailInFilterAddress(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMailInFilterAddress(Int32)
+  nameWithType: TicketHelper.GetMailInFilterAddress(Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static string GetMailInFilterAddress(int filterId)
+    parameters:
+    - id: filterId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetMailInFilterAddress(filterId As Integer) As String
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32,System.String)
+  id: UpdateEjMessageSearchTitle(System.Int32,System.String)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateEjMessageSearchTitle(Int32, String)
+  nameWithType: TicketHelper.UpdateEjMessageSearchTitle(Int32, String)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle(System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static void UpdateEjMessageSearchTitle(int ticketId, string title)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    - id: title
+      type: System.String
+    content.vb: Public Shared Sub UpdateEjMessageSearchTitle(ticketId As Integer, title As String)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData
+  isExternal: true
+  name: GetTicketChangeData
+  nameWithType: TicketHelper.GetTicketChangeData
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Ticket.TicketChangeData
+  commentId: T:SuperOffice.CRM.Ticket.TicketChangeData
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  name: TicketChangeData
+  nameWithType: TicketChangeData
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetIconHint*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetIconHint
+  isExternal: true
+  name: GetIconHint
+  nameWithType: TicketHelper.GetIconHint
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetIconHint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.TicketBaseStatus
+  commentId: T:SuperOffice.Data.TicketBaseStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: SuperOffice.Data.TicketBaseStatus
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+  isExternal: true
+  name: GetTicketSecurityLevelBasedOnPreferences
+  nameWithType: TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelBasedOnPreferences
+- uid: SuperOffice.Data.TicketSecurityLevel
+  commentId: T:SuperOffice.Data.TicketSecurityLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: SuperOffice.Data.TicketSecurityLevel
+- uid: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId
+  isExternal: true
+  name: ResolveTicketId
+  nameWithType: TicketHelper.ResolveTicketId
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketId
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketData
+  isExternal: true
+  name: GetTicketData
+  nameWithType: TicketHelper.GetTicketData
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketData
+- uid: SuperOffice.CRM.Ticket.TicketData
+  commentId: T:SuperOffice.CRM.Ticket.TicketData
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  name: TicketData
+  nameWithType: TicketData
+  fullName: SuperOffice.CRM.Ticket.TicketData
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId
+  isExternal: true
+  name: GetFacadeAssociateId
+  nameWithType: TicketHelper.GetFacadeAssociateId
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus
+  isExternal: true
+  name: GetTicketBaseStatus
+  nameWithType: TicketHelper.GetTicketBaseStatus
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketBaseStatus
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged
+  isExternal: true
+  name: UpdateLastChanged
+  nameWithType: TicketHelper.UpdateLastChanged
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChanged
+- uid: SuperOffice.CRM.Rows.TicketRow
+  commentId: T:SuperOffice.CRM.Rows.TicketRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketRow
+  nameWithType: TicketRow
+  fullName: SuperOffice.CRM.Rows.TicketRow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt
+  isExternal: true
+  name: UpdateRepliedAt
+  nameWithType: TicketHelper.UpdateRepliedAt
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateRepliedAt
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages
+  isExternal: true
+  name: UpdateTicketStatisticsFromMessages
+  nameWithType: TicketHelper.UpdateTicketStatisticsFromMessages
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateTicketStatisticsFromMessages
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
+  isExternal: true
+  name: GetNextInQueue
+  nameWithType: TicketHelper.GetNextInQueue
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetNextInQueue
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers
+  isExternal: true
+  name: GetTicketCustomers
+  nameWithType: TicketHelper.GetTicketCustomers
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomers
+- uid: SuperOffice.CRM.Rows.TicketCustomersRows
+  commentId: T:SuperOffice.CRM.Rows.TicketCustomersRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketCustomersRows
+  nameWithType: TicketCustomersRows
+  fullName: SuperOffice.CRM.Rows.TicketCustomersRows
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData
+  isExternal: true
+  name: GetTicketStatusRecordData
+  nameWithType: TicketHelper.GetTicketStatusRecordData
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordData
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.TicketStatusRecordData
+  commentId: T:SuperOffice.CRM.Rows.TicketStatusRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketStatusRecordData
+  nameWithType: TicketStatusRecordData
+  fullName: SuperOffice.CRM.Rows.TicketStatusRecordData
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  isExternal: true
+  name: DemandAdminPermissions
+  nameWithType: TicketHelper.DemandAdminPermissions
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+- uid: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight
+  isExternal: true
+  name: HasUpdateRight
+  nameWithType: TicketHelper.HasUpdateRight
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress
+  isExternal: true
+  name: GetMailInFilterAddress
+  nameWithType: TicketHelper.GetMailInFilterAddress
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddress
+- uid: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle
+  isExternal: true
+  name: UpdateEjMessageSearchTitle
+  nameWithType: TicketHelper.UpdateEjMessageSearchTitle
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle

@@ -5,8 +5,7 @@ items:
   id: SuperOffice.Security.Util
   children:
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-  - SuperOffice.Security.Util.DocumentArchiveUser
-  - SuperOffice.Security.Util.FileImpersonationContext
+  - SuperOffice.Security.Util.DocumentArchiveWindowsLogin
   - SuperOffice.Security.Util.WindowsIdentityHelper
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
@@ -21,25 +20,18 @@ items:
   assemblies:
   - SoCore
 references:
-- uid: SuperOffice.Security.Util.DocumentArchiveUser
-  commentId: T:SuperOffice.Security.Util.DocumentArchiveUser
+- uid: SuperOffice.Security.Util.DocumentArchiveWindowsLogin
+  commentId: T:SuperOffice.Security.Util.DocumentArchiveWindowsLogin
   isExternal: true
-  name: DocumentArchiveUser
-  nameWithType: DocumentArchiveUser
-  fullName: SuperOffice.Security.Util.DocumentArchiveUser
+  name: DocumentArchiveWindowsLogin
+  nameWithType: DocumentArchiveWindowsLogin
+  fullName: SuperOffice.Security.Util.DocumentArchiveWindowsLogin
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
   commentId: T:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
   isExternal: true
   name: DocumentArchiveFileImpersonationContext
   nameWithType: DocumentArchiveFileImpersonationContext
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-- uid: SuperOffice.Security.Util.FileImpersonationContext
-  commentId: T:SuperOffice.Security.Util.FileImpersonationContext
-  parent: SuperOffice.Security.Util
-  isExternal: true
-  name: FileImpersonationContext
-  nameWithType: FileImpersonationContext
-  fullName: SuperOffice.Security.Util.FileImpersonationContext
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper
   isExternal: true

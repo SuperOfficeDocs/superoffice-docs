@@ -49,6 +49,7 @@ items:
   - SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_DocDocument_CreatedBy
   - SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_DocFolder_CreatedBy
   - SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjCategory_CategoryMaster
+  - SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
   - SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_CreatedBy
   - SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_Ejpackage_UploadedBy
   - SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_Ejselection_Creator
@@ -126,7 +127,9 @@ items:
       <DatabaseTable("ejuser")>
 
       Public Class EjuserTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -148,12 +151,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.EjuserTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.EjuserTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -248,26 +245,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.EjuserTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -389,7 +372,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;usergroup&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe group this user is member of \n"
+  summary: "\nField &apos;usergroup&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: Hierarchy, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe group this user is member of \n"
   syntax:
     content: public Int32FieldInfo Usergroup { get; }
     parameters: []
@@ -854,7 +837,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;default_category&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe default category for this user when posting tickets and use_last_category is false. \n"
+  summary: "\nField &apos;default_category&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: EjCategory, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe default category for this user when posting tickets and use_last_category is false. \n"
   syntax:
     content: public Int32FieldInfo DefaultCategory { get; }
     parameters: []
@@ -947,7 +930,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;last_category&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last chosen category for this user when posting tickets.\n"
+  summary: "\nField &apos;last_category&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: EjCategory, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last chosen category for this user when posting tickets.\n"
   syntax:
     content: public Int32FieldInfo LastCategory { get; }
     parameters: []
@@ -978,7 +961,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;profile_id&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReference to the profile connected to this ejuser\n"
+  summary: "\nField &apos;profile_id&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: Profile, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReference to the profile connected to this ejuser\n"
   syntax:
     content: public Int32FieldInfo ProfileId { get; }
     parameters: []
@@ -1288,7 +1271,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;dbi_agent_id&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIntegration agent (eJournal)\n"
+  summary: "\nField &apos;dbi_agent_id&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: DbiAgent, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIntegration agent (eJournal)\n"
   syntax:
     content: public Int32FieldInfo DbiAgentId { get; }
     parameters: []
@@ -1505,7 +1488,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;picture_id&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe attachment.id this reference is connected to.\n"
+  summary: "\nField &apos;picture_id&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: Attachment, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe attachment.id this reference is connected to.\n"
   syntax:
     content: public Int32FieldInfo PictureId { get; }
     parameters: []
@@ -1567,7 +1550,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;default_status_new_ticket&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault status on new requests.\n"
+  summary: "\nField &apos;default_status_new_ticket&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: TicketStatus, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault status on new requests.\n"
   syntax:
     content: public Int32FieldInfo DefaultStatusNewTicket { get; }
     parameters: []
@@ -1598,7 +1581,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;default_status_add_message&apos; in table &apos;ejuser&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault status on add message.\n"
+  summary: "\nField &apos;default_status_add_message&apos; in table &apos;ejuser&apos;: Dictionary type FK, target: TicketStatus, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault status on add message.\n"
   syntax:
     content: public Int32FieldInfo DefaultStatusAddMessage { get; }
     parameters: []
@@ -2102,6 +2085,37 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EjMessageTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_EjMessage_CreatedBy As TargetedLeftOuterJoin(Of EjMessageTableInfo)
   overload: SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
+  commentId: P:SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
+  id: LeftOuterJoin_EjMessage_ChangedBy
+  parent: SuperOffice.CRM.Data.EjuserTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_EjMessage_ChangedBy
+  nameWithType: EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
+  fullName: SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key EjuserId on this table, to EjMessage.<xref href=\"SuperOffice.CRM.Data.EjMessageTableInfo.ChangedBy\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<EjMessageTableInfo> LeftOuterJoin_EjMessage_ChangedBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EjMessageTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_EjMessage_ChangedBy As TargetedLeftOuterJoin(Of EjMessageTableInfo)
+  overload: SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy*
   modifiers.csharp:
   - public
   - get
@@ -3215,8 +3229,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -3549,254 +3561,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.EjuserTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -4883,6 +4647,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy*
+  commentId: Overload:SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
+  isExternal: true
+  name: LeftOuterJoin_EjMessage_ChangedBy
+  nameWithType: EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
+  fullName: SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_EjMessage_ChangedBy
 - uid: SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_Ticket_CreatedBy*
   commentId: Overload:SuperOffice.CRM.Data.EjuserTableInfo.LeftOuterJoin_Ticket_CreatedBy
   isExternal: true

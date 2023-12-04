@@ -1,0 +1,417 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  id: NextAvailableTimeHelper
+  parent: SuperOffice.CRM.Data.Util
+  children:
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.#ctor(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems
+  langs:
+  - csharp
+  - vb
+  name: NextAvailableTimeHelper
+  nameWithType: NextAvailableTimeHelper
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  summary: "\nNextAvailableTimeHelper for identifying non-conflicting times for all associates in an appointment\n"
+  syntax:
+    content: 'public class NextAvailableTimeHelper : Object'
+    content.vb: >-
+      Public Class NextAvailableTimeHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.#ctor(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.#ctor(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  id: '#ctor(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)'
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  langs:
+  - csharp
+  - vb
+  name: NextAvailableTimeHelper(Int32[], DateTime, DateTime, Int32, Boolean)
+  nameWithType: NextAvailableTimeHelper.NextAvailableTimeHelper(Int32[], DateTime, DateTime, Int32, Boolean)
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.NextAvailableTimeHelper(System.Int32[], System.DateTime, System.DateTime, System.Int32, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  syntax:
+    content: public NextAvailableTimeHelper(int[] associates, DateTime startTime, DateTime endTime, int count, bool isAllDayEvent)
+    parameters:
+    - id: associates
+      type: System.Int32[]
+    - id: startTime
+      type: System.DateTime
+    - id: endTime
+      type: System.DateTime
+    - id: count
+      type: System.Int32
+    - id: isAllDayEvent
+      type: System.Boolean
+    content.vb: Public Sub New(associates As Integer(), startTime As DateTime, endTime As DateTime, count As Integer, isAllDayEvent As Boolean)
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.#ctor*
+  nameWithType.vb: NextAvailableTimeHelper.NextAvailableTimeHelper(Int32(), DateTime, DateTime, Int32, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.NextAvailableTimeHelper(System.Int32(), System.DateTime, System.DateTime, System.Int32, System.Boolean)
+  name.vb: NextAvailableTimeHelper(Int32(), DateTime, DateTime, Int32, Boolean)
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems
+  commentId: M:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems
+  id: GetItems
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetItems()
+  nameWithType: NextAvailableTimeHelper.GetItems()
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  syntax:
+    content: public NextAvailableTimeInfo[] GetItems()
+    return:
+      type: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo[]
+    content.vb: Public Function GetItems As NextAvailableTimeInfo()
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType
+  commentId: M:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType
+  id: GetAppointmentTimeType
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentTimeType()
+  nameWithType: NextAvailableTimeHelper.GetAppointmentTimeType()
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  summary: "\nObtain type (i.e. <xref href=\"SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType\" data-throw-if-not-resolved=\"false\"></xref>) of appointment.\n"
+  syntax:
+    content: public NextAvailableTimeHelper.AppointmentTimeType GetAppointmentTimeType()
+    return:
+      type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+      description: Type of appointment.
+    content.vb: Public Function GetAppointmentTimeType As NextAvailableTimeHelper.AppointmentTimeType
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Data.Util
+  commentId: N:SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Data.Util
+  nameWithType: SuperOffice.CRM.Data.Util
+  fullName: SuperOffice.CRM.Data.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NextAvailableTimeHelper, To>()
+  nameWithType: EnumUtil.MapEnums<NextAvailableTimeHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NextAvailableTimeHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To)()
+  name.vb: MapEnums(Of NextAvailableTimeHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NextAvailableTimeHelper, To>
+    nameWithType: EnumUtil.MapEnums<NextAvailableTimeHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NextAvailableTimeHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of NextAvailableTimeHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NextAvailableTimeHelper, To>()
+  nameWithType: Converters.MapEnums<NextAvailableTimeHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of NextAvailableTimeHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To)()
+  name.vb: MapEnums(Of NextAvailableTimeHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NextAvailableTimeHelper, To>
+    nameWithType: Converters.MapEnums<NextAvailableTimeHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NextAvailableTimeHelper, To)
+    nameWithType: Converters.MapEnums(Of NextAvailableTimeHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.#ctor
+  isExternal: true
+  name: NextAvailableTimeHelper
+  nameWithType: NextAvailableTimeHelper.NextAvailableTimeHelper
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.NextAvailableTimeHelper
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems
+  isExternal: true
+  name: GetItems
+  nameWithType: NextAvailableTimeHelper.GetItems
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetItems
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo[]
+  isExternal: true
+  name: NextAvailableTimeInfo[]
+  nameWithType: NextAvailableTimeInfo[]
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo[]
+  nameWithType.vb: NextAvailableTimeInfo()
+  fullName.vb: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo()
+  name.vb: NextAvailableTimeInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    name: NextAvailableTimeInfo
+    nameWithType: NextAvailableTimeInfo
+    fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    name: NextAvailableTimeInfo
+    nameWithType: NextAvailableTimeInfo
+    fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType
+  isExternal: true
+  name: GetAppointmentTimeType
+  nameWithType: NextAvailableTimeHelper.GetAppointmentTimeType
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.GetAppointmentTimeType
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+  commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+  parent: SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: NextAvailableTimeHelper.AppointmentTimeType
+  nameWithType: NextAvailableTimeHelper.AppointmentTimeType
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType

@@ -87,49 +87,13 @@ items:
   namespace: SuperOffice.IO
   summary: "\nA SerializationReader instance is used to read stored values and objects from a byte array.\n\nOnce an instance is created, use the various methods to read the required data.\nThe data read MUST be exactly the same type and in the same order as it was written.\n"
   syntax:
-    content: 'public sealed class SerializationReader : BinaryReader, IDisposable'
+    content: 'public sealed class SerializationReader : BinaryReader'
     content.vb: >-
       Public NotInheritable Class SerializationReader
+
           Inherits BinaryReader
-          Implements IDisposable
   inheritance:
   - System.Object
-  - System.IO.BinaryReader
-  implements:
-  - System.IDisposable
-  inheritedMembers:
-  - System.IO.BinaryReader.Close
-  - System.IO.BinaryReader.Dispose(System.Boolean)
-  - System.IO.BinaryReader.Dispose
-  - System.IO.BinaryReader.PeekChar
-  - System.IO.BinaryReader.Read
-  - System.IO.BinaryReader.ReadBoolean
-  - System.IO.BinaryReader.ReadByte
-  - System.IO.BinaryReader.ReadSByte
-  - System.IO.BinaryReader.ReadChar
-  - System.IO.BinaryReader.ReadInt16
-  - System.IO.BinaryReader.ReadUInt16
-  - System.IO.BinaryReader.ReadInt32
-  - System.IO.BinaryReader.ReadUInt32
-  - System.IO.BinaryReader.ReadInt64
-  - System.IO.BinaryReader.ReadUInt64
-  - System.IO.BinaryReader.ReadSingle
-  - System.IO.BinaryReader.ReadDouble
-  - System.IO.BinaryReader.ReadDecimal
-  - System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
-  - System.IO.BinaryReader.ReadChars(System.Int32)
-  - System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
-  - System.IO.BinaryReader.ReadBytes(System.Int32)
-  - System.IO.BinaryReader.FillBuffer(System.Int32)
-  - System.IO.BinaryReader.Read7BitEncodedInt
-  - System.IO.BinaryReader.BaseStream
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.IO.SerializationReader.EnumUtil.MapEnums``2
   - SuperOffice.IO.SerializationReader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -347,7 +311,7 @@ items:
     return:
       type: System.DateTime
       description: A DateTime value.
-    content.vb: Public Function ReadDateTime As Date
+    content.vb: Public Function ReadDateTime As DateTime
   overload: SuperOffice.IO.SerializationReader.ReadDateTime*
   modifiers.csharp:
   - public
@@ -435,7 +399,6 @@ items:
       type: System.String
       description: A string value.
     content.vb: Public Overrides Function ReadString As String
-  overridden: System.IO.BinaryReader.ReadString
   overload: SuperOffice.IO.SerializationReader.ReadString*
   modifiers.csharp:
   - public
@@ -672,7 +635,7 @@ items:
     return:
       type: System.DateTime
       description: A DateTime value.
-    content.vb: Public Function ReadOptimizedDateTime As Date
+    content.vb: Public Function ReadOptimizedDateTime As DateTime
   overload: SuperOffice.IO.SerializationReader.ReadOptimizedDateTime*
   modifiers.csharp:
   - public
@@ -697,7 +660,7 @@ items:
   namespace: SuperOffice.IO
   summary: "\nReturns a Decimal value from the stream that was stored optimized.\n"
   syntax:
-    content: public decimal ReadOptimizedDecimal()
+    content: public Decimal ReadOptimizedDecimal()
     return:
       type: System.Decimal
       description: A Decimal value.
@@ -1500,7 +1463,7 @@ items:
     return:
       type: System.DateTime[]
       description: A DateTime[] instance; or null.
-    content.vb: Public Function ReadDateTimeArray As Date()
+    content.vb: Public Function ReadDateTimeArray As DateTime()
   overload: SuperOffice.IO.SerializationReader.ReadDateTimeArray*
   modifiers.csharp:
   - public
@@ -1525,7 +1488,7 @@ items:
   namespace: SuperOffice.IO
   summary: "\nInternal implementation returning a Decimal[].\n"
   syntax:
-    content: public decimal[] ReadDecimalArray()
+    content: public Decimal[] ReadDecimalArray()
     return:
       type: System.Decimal[]
       description: A Decimal[].
@@ -1761,7 +1724,7 @@ items:
     return:
       type: System.DateTime[]
       description: A DateTime[] instance; or null.
-    content.vb: Public Function ReadOptimizedDateTimeArray As Date()
+    content.vb: Public Function ReadOptimizedDateTimeArray As DateTime()
   overload: SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray*
   modifiers.csharp:
   - public
@@ -1786,7 +1749,7 @@ items:
   namespace: SuperOffice.IO
   summary: "\nReturns a Decimal[] from the stream.\n"
   syntax:
-    content: public decimal[] ReadOptimizedDecimalArray()
+    content: public Decimal[] ReadOptimizedDecimalArray()
     return:
       type: System.Decimal[]
       description: A Decimal[] instance; or null.
@@ -2079,24 +2042,12 @@ items:
   - SoCore
   namespace: SuperOffice.IO
   syntax:
-    content: >-
-      [Conditional("DEBUG")]
-
-      public void DumpStringTables(ArrayList list)
+    content: public void DumpStringTables(ArrayList list)
     parameters:
     - id: list
       type: System.Collections.ArrayList
-    content.vb: >-
-      <Conditional("DEBUG")>
-
-      Public Sub DumpStringTables(list As ArrayList)
+    content.vb: Public Sub DumpStringTables(list As ArrayList)
   overload: SuperOffice.IO.SerializationReader.DumpStringTables*
-  attributes:
-  - type: System.Diagnostics.ConditionalAttribute
-    ctor: System.Diagnostics.ConditionalAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: DEBUG
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2146,1192 +2097,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.IO.BinaryReader
-  commentId: T:System.IO.BinaryReader
-  parent: System.IO
-  isExternal: true
-  name: BinaryReader
-  nameWithType: BinaryReader
-  fullName: System.IO.BinaryReader
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System.IO.BinaryReader.Close
-  commentId: M:System.IO.BinaryReader.Close
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: Close()
-  nameWithType: BinaryReader.Close()
-  fullName: System.IO.BinaryReader.Close()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.Close
-    name: Close
-    nameWithType: BinaryReader.Close
-    fullName: System.IO.BinaryReader.Close
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.Close
-    name: Close
-    nameWithType: BinaryReader.Close
-    fullName: System.IO.BinaryReader.Close
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.Dispose(System.Boolean)
-  commentId: M:System.IO.BinaryReader.Dispose(System.Boolean)
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: Dispose(Boolean)
-  nameWithType: BinaryReader.Dispose(Boolean)
-  fullName: System.IO.BinaryReader.Dispose(System.Boolean)
-  spec.csharp:
-  - uid: System.IO.BinaryReader.Dispose(System.Boolean)
-    name: Dispose
-    nameWithType: BinaryReader.Dispose
-    fullName: System.IO.BinaryReader.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.Dispose(System.Boolean)
-    name: Dispose
-    nameWithType: BinaryReader.Dispose
-    fullName: System.IO.BinaryReader.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.Dispose
-  commentId: M:System.IO.BinaryReader.Dispose
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: Dispose()
-  nameWithType: BinaryReader.Dispose()
-  fullName: System.IO.BinaryReader.Dispose()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.Dispose
-    name: Dispose
-    nameWithType: BinaryReader.Dispose
-    fullName: System.IO.BinaryReader.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.Dispose
-    name: Dispose
-    nameWithType: BinaryReader.Dispose
-    fullName: System.IO.BinaryReader.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.PeekChar
-  commentId: M:System.IO.BinaryReader.PeekChar
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: PeekChar()
-  nameWithType: BinaryReader.PeekChar()
-  fullName: System.IO.BinaryReader.PeekChar()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.PeekChar
-    name: PeekChar
-    nameWithType: BinaryReader.PeekChar
-    fullName: System.IO.BinaryReader.PeekChar
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.PeekChar
-    name: PeekChar
-    nameWithType: BinaryReader.PeekChar
-    fullName: System.IO.BinaryReader.PeekChar
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.Read
-  commentId: M:System.IO.BinaryReader.Read
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: Read()
-  nameWithType: BinaryReader.Read()
-  fullName: System.IO.BinaryReader.Read()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.Read
-    name: Read
-    nameWithType: BinaryReader.Read
-    fullName: System.IO.BinaryReader.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.Read
-    name: Read
-    nameWithType: BinaryReader.Read
-    fullName: System.IO.BinaryReader.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadBoolean
-  commentId: M:System.IO.BinaryReader.ReadBoolean
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadBoolean()
-  nameWithType: BinaryReader.ReadBoolean()
-  fullName: System.IO.BinaryReader.ReadBoolean()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadBoolean
-    name: ReadBoolean
-    nameWithType: BinaryReader.ReadBoolean
-    fullName: System.IO.BinaryReader.ReadBoolean
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadBoolean
-    name: ReadBoolean
-    nameWithType: BinaryReader.ReadBoolean
-    fullName: System.IO.BinaryReader.ReadBoolean
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadByte
-  commentId: M:System.IO.BinaryReader.ReadByte
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadByte()
-  nameWithType: BinaryReader.ReadByte()
-  fullName: System.IO.BinaryReader.ReadByte()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadByte
-    name: ReadByte
-    nameWithType: BinaryReader.ReadByte
-    fullName: System.IO.BinaryReader.ReadByte
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadByte
-    name: ReadByte
-    nameWithType: BinaryReader.ReadByte
-    fullName: System.IO.BinaryReader.ReadByte
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadSByte
-  commentId: M:System.IO.BinaryReader.ReadSByte
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadSByte()
-  nameWithType: BinaryReader.ReadSByte()
-  fullName: System.IO.BinaryReader.ReadSByte()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadSByte
-    name: ReadSByte
-    nameWithType: BinaryReader.ReadSByte
-    fullName: System.IO.BinaryReader.ReadSByte
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadSByte
-    name: ReadSByte
-    nameWithType: BinaryReader.ReadSByte
-    fullName: System.IO.BinaryReader.ReadSByte
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadChar
-  commentId: M:System.IO.BinaryReader.ReadChar
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadChar()
-  nameWithType: BinaryReader.ReadChar()
-  fullName: System.IO.BinaryReader.ReadChar()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadChar
-    name: ReadChar
-    nameWithType: BinaryReader.ReadChar
-    fullName: System.IO.BinaryReader.ReadChar
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadChar
-    name: ReadChar
-    nameWithType: BinaryReader.ReadChar
-    fullName: System.IO.BinaryReader.ReadChar
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadInt16
-  commentId: M:System.IO.BinaryReader.ReadInt16
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadInt16()
-  nameWithType: BinaryReader.ReadInt16()
-  fullName: System.IO.BinaryReader.ReadInt16()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadInt16
-    name: ReadInt16
-    nameWithType: BinaryReader.ReadInt16
-    fullName: System.IO.BinaryReader.ReadInt16
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadInt16
-    name: ReadInt16
-    nameWithType: BinaryReader.ReadInt16
-    fullName: System.IO.BinaryReader.ReadInt16
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadUInt16
-  commentId: M:System.IO.BinaryReader.ReadUInt16
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadUInt16()
-  nameWithType: BinaryReader.ReadUInt16()
-  fullName: System.IO.BinaryReader.ReadUInt16()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadUInt16
-    name: ReadUInt16
-    nameWithType: BinaryReader.ReadUInt16
-    fullName: System.IO.BinaryReader.ReadUInt16
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadUInt16
-    name: ReadUInt16
-    nameWithType: BinaryReader.ReadUInt16
-    fullName: System.IO.BinaryReader.ReadUInt16
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadInt32
-  commentId: M:System.IO.BinaryReader.ReadInt32
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadInt32()
-  nameWithType: BinaryReader.ReadInt32()
-  fullName: System.IO.BinaryReader.ReadInt32()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadInt32
-    name: ReadInt32
-    nameWithType: BinaryReader.ReadInt32
-    fullName: System.IO.BinaryReader.ReadInt32
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadInt32
-    name: ReadInt32
-    nameWithType: BinaryReader.ReadInt32
-    fullName: System.IO.BinaryReader.ReadInt32
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadUInt32
-  commentId: M:System.IO.BinaryReader.ReadUInt32
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadUInt32()
-  nameWithType: BinaryReader.ReadUInt32()
-  fullName: System.IO.BinaryReader.ReadUInt32()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadUInt32
-    name: ReadUInt32
-    nameWithType: BinaryReader.ReadUInt32
-    fullName: System.IO.BinaryReader.ReadUInt32
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadUInt32
-    name: ReadUInt32
-    nameWithType: BinaryReader.ReadUInt32
-    fullName: System.IO.BinaryReader.ReadUInt32
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadInt64
-  commentId: M:System.IO.BinaryReader.ReadInt64
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadInt64()
-  nameWithType: BinaryReader.ReadInt64()
-  fullName: System.IO.BinaryReader.ReadInt64()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadInt64
-    name: ReadInt64
-    nameWithType: BinaryReader.ReadInt64
-    fullName: System.IO.BinaryReader.ReadInt64
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadInt64
-    name: ReadInt64
-    nameWithType: BinaryReader.ReadInt64
-    fullName: System.IO.BinaryReader.ReadInt64
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadUInt64
-  commentId: M:System.IO.BinaryReader.ReadUInt64
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadUInt64()
-  nameWithType: BinaryReader.ReadUInt64()
-  fullName: System.IO.BinaryReader.ReadUInt64()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadUInt64
-    name: ReadUInt64
-    nameWithType: BinaryReader.ReadUInt64
-    fullName: System.IO.BinaryReader.ReadUInt64
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadUInt64
-    name: ReadUInt64
-    nameWithType: BinaryReader.ReadUInt64
-    fullName: System.IO.BinaryReader.ReadUInt64
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadSingle
-  commentId: M:System.IO.BinaryReader.ReadSingle
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadSingle()
-  nameWithType: BinaryReader.ReadSingle()
-  fullName: System.IO.BinaryReader.ReadSingle()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadSingle
-    name: ReadSingle
-    nameWithType: BinaryReader.ReadSingle
-    fullName: System.IO.BinaryReader.ReadSingle
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadSingle
-    name: ReadSingle
-    nameWithType: BinaryReader.ReadSingle
-    fullName: System.IO.BinaryReader.ReadSingle
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadDouble
-  commentId: M:System.IO.BinaryReader.ReadDouble
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadDouble()
-  nameWithType: BinaryReader.ReadDouble()
-  fullName: System.IO.BinaryReader.ReadDouble()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadDouble
-    name: ReadDouble
-    nameWithType: BinaryReader.ReadDouble
-    fullName: System.IO.BinaryReader.ReadDouble
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadDouble
-    name: ReadDouble
-    nameWithType: BinaryReader.ReadDouble
-    fullName: System.IO.BinaryReader.ReadDouble
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadDecimal
-  commentId: M:System.IO.BinaryReader.ReadDecimal
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadDecimal()
-  nameWithType: BinaryReader.ReadDecimal()
-  fullName: System.IO.BinaryReader.ReadDecimal()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadDecimal
-    name: ReadDecimal
-    nameWithType: BinaryReader.ReadDecimal
-    fullName: System.IO.BinaryReader.ReadDecimal
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadDecimal
-    name: ReadDecimal
-    nameWithType: BinaryReader.ReadDecimal
-    fullName: System.IO.BinaryReader.ReadDecimal
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
-  commentId: M:System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: Read(Char[], Int32, Int32)
-  nameWithType: BinaryReader.Read(Char[], Int32, Int32)
-  fullName: System.IO.BinaryReader.Read(System.Char[], System.Int32, System.Int32)
-  nameWithType.vb: BinaryReader.Read(Char(), Int32, Int32)
-  fullName.vb: System.IO.BinaryReader.Read(System.Char(), System.Int32, System.Int32)
-  name.vb: Read(Char(), Int32, Int32)
-  spec.csharp:
-  - uid: System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
-    name: Read
-    nameWithType: BinaryReader.Read
-    fullName: System.IO.BinaryReader.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Char
-    name: Char
-    nameWithType: Char
-    fullName: System.Char
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
-    name: Read
-    nameWithType: BinaryReader.Read
-    fullName: System.IO.BinaryReader.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Char
-    name: Char
-    nameWithType: Char
-    fullName: System.Char
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadChars(System.Int32)
-  commentId: M:System.IO.BinaryReader.ReadChars(System.Int32)
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadChars(Int32)
-  nameWithType: BinaryReader.ReadChars(Int32)
-  fullName: System.IO.BinaryReader.ReadChars(System.Int32)
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadChars(System.Int32)
-    name: ReadChars
-    nameWithType: BinaryReader.ReadChars
-    fullName: System.IO.BinaryReader.ReadChars
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadChars(System.Int32)
-    name: ReadChars
-    nameWithType: BinaryReader.ReadChars
-    fullName: System.IO.BinaryReader.ReadChars
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
-  commentId: M:System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: Read(Byte[], Int32, Int32)
-  nameWithType: BinaryReader.Read(Byte[], Int32, Int32)
-  fullName: System.IO.BinaryReader.Read(System.Byte[], System.Int32, System.Int32)
-  nameWithType.vb: BinaryReader.Read(Byte(), Int32, Int32)
-  fullName.vb: System.IO.BinaryReader.Read(System.Byte(), System.Int32, System.Int32)
-  name.vb: Read(Byte(), Int32, Int32)
-  spec.csharp:
-  - uid: System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
-    name: Read
-    nameWithType: BinaryReader.Read
-    fullName: System.IO.BinaryReader.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
-    name: Read
-    nameWithType: BinaryReader.Read
-    fullName: System.IO.BinaryReader.Read
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Byte
-    name: Byte
-    nameWithType: Byte
-    fullName: System.Byte
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.ReadBytes(System.Int32)
-  commentId: M:System.IO.BinaryReader.ReadBytes(System.Int32)
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadBytes(Int32)
-  nameWithType: BinaryReader.ReadBytes(Int32)
-  fullName: System.IO.BinaryReader.ReadBytes(System.Int32)
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadBytes(System.Int32)
-    name: ReadBytes
-    nameWithType: BinaryReader.ReadBytes
-    fullName: System.IO.BinaryReader.ReadBytes
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadBytes(System.Int32)
-    name: ReadBytes
-    nameWithType: BinaryReader.ReadBytes
-    fullName: System.IO.BinaryReader.ReadBytes
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.FillBuffer(System.Int32)
-  commentId: M:System.IO.BinaryReader.FillBuffer(System.Int32)
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: FillBuffer(Int32)
-  nameWithType: BinaryReader.FillBuffer(Int32)
-  fullName: System.IO.BinaryReader.FillBuffer(System.Int32)
-  spec.csharp:
-  - uid: System.IO.BinaryReader.FillBuffer(System.Int32)
-    name: FillBuffer
-    nameWithType: BinaryReader.FillBuffer
-    fullName: System.IO.BinaryReader.FillBuffer
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.FillBuffer(System.Int32)
-    name: FillBuffer
-    nameWithType: BinaryReader.FillBuffer
-    fullName: System.IO.BinaryReader.FillBuffer
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.Read7BitEncodedInt
-  commentId: M:System.IO.BinaryReader.Read7BitEncodedInt
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: Read7BitEncodedInt()
-  nameWithType: BinaryReader.Read7BitEncodedInt()
-  fullName: System.IO.BinaryReader.Read7BitEncodedInt()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.Read7BitEncodedInt
-    name: Read7BitEncodedInt
-    nameWithType: BinaryReader.Read7BitEncodedInt
-    fullName: System.IO.BinaryReader.Read7BitEncodedInt
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.Read7BitEncodedInt
-    name: Read7BitEncodedInt
-    nameWithType: BinaryReader.Read7BitEncodedInt
-    fullName: System.IO.BinaryReader.Read7BitEncodedInt
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IO.BinaryReader.BaseStream
-  commentId: P:System.IO.BinaryReader.BaseStream
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: BaseStream
-  nameWithType: BinaryReader.BaseStream
-  fullName: System.IO.BinaryReader.BaseStream
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.IO.SerializationReader.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -3406,12 +2171,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -3542,8 +2301,6 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
@@ -3555,18 +2312,10 @@ references:
   nameWithType: SerializationReader.ReadArrayList
   fullName: SuperOffice.IO.SerializationReader.ReadArrayList
 - uid: System.Collections.ArrayList
-  commentId: T:System.Collections.ArrayList
-  parent: System.Collections
   isExternal: true
   name: ArrayList
   nameWithType: ArrayList
   fullName: System.Collections.ArrayList
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: SuperOffice.IO.SerializationReader.ReadBitArray*
   commentId: Overload:SuperOffice.IO.SerializationReader.ReadBitArray
   isExternal: true
@@ -3574,8 +2323,6 @@ references:
   nameWithType: SerializationReader.ReadBitArray
   fullName: SuperOffice.IO.SerializationReader.ReadBitArray
 - uid: System.Collections.BitArray
-  commentId: T:System.Collections.BitArray
-  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
@@ -3611,8 +2358,6 @@ references:
   nameWithType: SerializationReader.ReadDateTime
   fullName: SuperOffice.IO.SerializationReader.ReadDateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -3624,8 +2369,6 @@ references:
   nameWithType: SerializationReader.ReadGuid
   fullName: SuperOffice.IO.SerializationReader.ReadGuid
 - uid: System.Guid
-  commentId: T:System.Guid
-  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
@@ -3636,37 +2379,6 @@ references:
   name: ReadObject
   nameWithType: SerializationReader.ReadObject
   fullName: SuperOffice.IO.SerializationReader.ReadObject
-- uid: System.IO.BinaryReader.ReadString
-  commentId: M:System.IO.BinaryReader.ReadString
-  parent: System.IO.BinaryReader
-  isExternal: true
-  name: ReadString()
-  nameWithType: BinaryReader.ReadString()
-  fullName: System.IO.BinaryReader.ReadString()
-  spec.csharp:
-  - uid: System.IO.BinaryReader.ReadString
-    name: ReadString
-    nameWithType: BinaryReader.ReadString
-    fullName: System.IO.BinaryReader.ReadString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IO.BinaryReader.ReadString
-    name: ReadString
-    nameWithType: BinaryReader.ReadString
-    fullName: System.IO.BinaryReader.ReadString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.IO.SerializationReader.ReadString*
   commentId: Overload:SuperOffice.IO.SerializationReader.ReadString
   isExternal: true
@@ -3693,8 +2405,6 @@ references:
   nameWithType: SerializationReader.ReadTimeSpan
   fullName: SuperOffice.IO.SerializationReader.ReadTimeSpan
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
@@ -3706,8 +2416,6 @@ references:
   nameWithType: SerializationReader.ReadType
   fullName: SuperOffice.IO.SerializationReader.ReadType
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
@@ -3750,8 +2458,6 @@ references:
   nameWithType: SerializationReader.ReadOptimizedDecimal
   fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDecimal
 - uid: System.Decimal
-  commentId: T:System.Decimal
-  parent: System
   isExternal: true
   name: Decimal
   nameWithType: Decimal
@@ -3890,8 +2596,6 @@ references:
   nameWithType: SerializationReader.ReadTypedArray
   fullName: SuperOffice.IO.SerializationReader.ReadTypedArray
 - uid: System.Array
-  commentId: T:System.Array
-  parent: System
   isExternal: true
   name: Array
   nameWithType: Array

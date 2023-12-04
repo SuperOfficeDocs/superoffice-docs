@@ -13,12 +13,15 @@ items:
   - SuperOffice.Data.Dictionary.SoField.DefaultActiveUser
   - SuperOffice.Data.Dictionary.SoField.DefaultNow
   - SuperOffice.Data.Dictionary.SoField.DefaultValue
+  - SuperOffice.Data.Dictionary.SoField.DisplayDescription
+  - SuperOffice.Data.Dictionary.SoField.DisplayName
   - SuperOffice.Data.Dictionary.SoField.DoNotTrimTrailingWhitespace
   - SuperOffice.Data.Dictionary.SoField.Equals(SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.Data.Dictionary.SoField.Equals(System.Object)
   - SuperOffice.Data.Dictionary.SoField.FieldNumber
   - SuperOffice.Data.Dictionary.SoField.GenerationState
   - SuperOffice.Data.Dictionary.SoField.GetDefaultValue
+  - SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength
   - SuperOffice.Data.Dictionary.SoField.GetHashCode
   - SuperOffice.Data.Dictionary.SoField.Index
   - SuperOffice.Data.Dictionary.SoField.IsEjournalExtraField
@@ -31,12 +34,15 @@ items:
   - SuperOffice.Data.Dictionary.SoField.IsRecordId
   - SuperOffice.Data.Dictionary.SoField.IsRegisteredAssociate
   - SuperOffice.Data.Dictionary.SoField.IsRegisteredDate
+  - SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser
   - SuperOffice.Data.Dictionary.SoField.IsRequiredForFreetext
   - SuperOffice.Data.Dictionary.SoField.IsSoundexSource
   - SuperOffice.Data.Dictionary.SoField.IsSoundexTarget
   - SuperOffice.Data.Dictionary.SoField.IsTableNumber
   - SuperOffice.Data.Dictionary.SoField.IsUpdatedAssociate
+  - SuperOffice.Data.Dictionary.SoField.IsUpdatedCount
   - SuperOffice.Data.Dictionary.SoField.IsUpdatedDate
+  - SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser
   - SuperOffice.Data.Dictionary.SoField.IsValidFrom
   - SuperOffice.Data.Dictionary.SoField.IsValidTo
   - SuperOffice.Data.Dictionary.SoField.Length
@@ -49,6 +55,7 @@ items:
   - SuperOffice.Data.Dictionary.SoField.Table
   - SuperOffice.Data.Dictionary.SoField.TextExtension
   - SuperOffice.Data.Dictionary.SoField.TimeZoneConvert
+  - SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation
   - SuperOffice.Data.Dictionary.SoField.ToString
   - SuperOffice.Data.Dictionary.SoField.Type
   langs:
@@ -66,19 +73,17 @@ items:
   namespace: SuperOffice.Data.Dictionary
   summary: "\nField description according to the deployed dictionary.\n"
   syntax:
-    content: 'public sealed class SoField : IEquatable<SoField>'
+    content: 'public sealed class SoField : Object, IEquatable<SoField>'
     content.vb: >-
       Public NotInheritable Class SoField
+
+          Inherits Object
+
           Implements IEquatable(Of SoField)
   inheritance:
   - System.Object
   implements:
   - System.IEquatable{SuperOffice.Data.Dictionary.SoField}
-  inheritedMembers:
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Dictionary.SoField.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dictionary.SoField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -140,7 +145,6 @@ items:
       type: System.String
       description: Name of the field for debug purposes.
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.Data.Dictionary.SoField.ToString*
   modifiers.csharp:
   - public
@@ -148,6 +152,33 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength
+  commentId: M:SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength
+  id: GetEffectiveTextLength
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: GetEffectiveTextLength()
+  nameWithType: SoField.GetEffectiveTextLength()
+  fullName: SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  syntax:
+    content: public int GetEffectiveTextLength()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetEffectiveTextLength As Integer
+  overload: SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dictionary.SoField.Equals(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.Dictionary.SoField.Equals(SuperOffice.Data.Dictionary.SoField)
   id: Equals(SuperOffice.Data.Dictionary.SoField)
@@ -177,8 +208,6 @@ items:
       description: True if equal
     content.vb: Public Function Equals(other As SoField) As Boolean
   overload: SuperOffice.Data.Dictionary.SoField.Equals*
-  implements:
-  - System.IEquatable{SuperOffice.Data.Dictionary.SoField}.Equals(SuperOffice.Data.Dictionary.SoField)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -211,7 +240,6 @@ items:
       type: System.Boolean
       description: True if equal
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
-  overridden: System.Object.Equals(System.Object)
   overload: SuperOffice.Data.Dictionary.SoField.Equals*
   modifiers.csharp:
   - public
@@ -311,7 +339,6 @@ items:
       type: System.Int32
       description: Hash code valid accross database sessions.
     content.vb: Public Overrides Function GetHashCode As Integer
-  overridden: System.Object.GetHashCode
   overload: SuperOffice.Data.Dictionary.SoField.GetHashCode*
   modifiers.csharp:
   - public
@@ -1151,6 +1178,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser
+  commentId: P:SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser
+  id: IsRegisteredEjUser
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: IsRegisteredEjUser
+  nameWithType: SoField.IsRegisteredEjUser
+  fullName: SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nIs this the automatically updated created by (ejUser id) field\n"
+  syntax:
+    content: public bool IsRegisteredEjUser { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsRegisteredEjUser As Boolean
+  overload: SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoField.IsUpdatedAssociate
   commentId: P:SuperOffice.Data.Dictionary.SoField.IsUpdatedAssociate
   id: IsUpdatedAssociate
@@ -1176,6 +1234,67 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsUpdatedAssociate As Boolean
   overload: SuperOffice.Data.Dictionary.SoField.IsUpdatedAssociate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser
+  commentId: P:SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser
+  id: IsUpdatedEjUser
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: IsUpdatedEjUser
+  nameWithType: SoField.IsUpdatedEjUser
+  fullName: SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nIs this the automatically updated last updated by (ejUser id) field\n"
+  syntax:
+    content: public bool IsUpdatedEjUser { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsUpdatedEjUser As Boolean
+  overload: SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoField.IsUpdatedCount
+  commentId: P:SuperOffice.Data.Dictionary.SoField.IsUpdatedCount
+  id: IsUpdatedCount
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: IsUpdatedCount
+  nameWithType: SoField.IsUpdatedCount
+  fullName: SuperOffice.Data.Dictionary.SoField.IsUpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  syntax:
+    content: public bool IsUpdatedCount { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsUpdatedCount As Boolean
+  overload: SuperOffice.Data.Dictionary.SoField.IsUpdatedCount*
   modifiers.csharp:
   - public
   - get
@@ -1478,7 +1597,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nDateTime fields may be subject to Timezone-related conversions, which is a quite tricky subject. Functionality is enabled by\nthe AdditionalValue <xref href=\"SuperOffice.CD.DSL.Database.DbModelConstants.TimeZoneConvert\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: "\nDateTime fields may be subject to Timezone-related conversions, which is a quite tricky subject. Functionality is enabled by\nthe AdditionalValue <xref href=\"SuperOffice.CD.DSL.Database.DbModelConstants.TimeZoneConvert\" data-throw-if-not-resolved=\"false\"></xref>.\nMore precisely, this attribute marks fields that should be converted to the USER&apos;S PREFERRED TIME, i.e., the timezone\ndropdown in the Diary. It does not apply to many fields.\n"
   syntax:
     content: public bool TimeZoneConvert { get; }
     parameters: []
@@ -1486,6 +1605,37 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property TimeZoneConvert As Boolean
   overload: SuperOffice.Data.Dictionary.SoField.TimeZoneConvert*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation
+  commentId: P:SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation
+  id: TimeZoneInterpretation
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneInterpretation
+  nameWithType: SoField.TimeZoneInterpretation
+  fullName: SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nHow should this DateTime value be interpreted when reading from the database. Has no meaning for non-date/time fields\n"
+  syntax:
+    content: public TimeZoneInterpretation TimeZoneInterpretation { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CD.DSL.V1.StepModel.TimeZoneInterpretation
+    content.vb: Public ReadOnly Property TimeZoneInterpretation As TimeZoneInterpretation
+  overload: SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation*
   modifiers.csharp:
   - public
   - get
@@ -1509,7 +1659,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: "\nIs this a <strong>name</strong> or <strong>tooltip</strong> field in a list table, that may have its value extended through (max 2) text records?\n"
+  summary: "\nIs this a <strong>name</strong> or <strong>tooltip</strong> field in a list table, that may have its value extended through (max 2) text records?\nThis property is only populated if the preference is ON, so no further tests are needed.\n"
   syntax:
     content: public SoField.TextExtensionType TextExtension { get; }
     parameters: []
@@ -1517,6 +1667,68 @@ items:
       type: SuperOffice.Data.Dictionary.SoField.TextExtensionType
     content.vb: Public ReadOnly Property TextExtension As SoField.TextExtensionType
   overload: SuperOffice.Data.Dictionary.SoField.TextExtension*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoField.DisplayName
+  commentId: P:SuperOffice.Data.Dictionary.SoField.DisplayName
+  id: DisplayName
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: SoField.DisplayName
+  fullName: SuperOffice.Data.Dictionary.SoField.DisplayName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nFriendly name, if set, can be multi-language string\n"
+  syntax:
+    content: public string DisplayName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DisplayName As String
+  overload: SuperOffice.Data.Dictionary.SoField.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoField.DisplayDescription
+  commentId: P:SuperOffice.Data.Dictionary.SoField.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: SoField.DisplayDescription
+  fullName: SuperOffice.Data.Dictionary.SoField.DisplayDescription
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nFriendly description, if set, can be multi-language string\n"
+  syntax:
+    content: public string DisplayDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DisplayDescription As String
+  overload: SuperOffice.Data.Dictionary.SoField.DisplayDescription*
   modifiers.csharp:
   - public
   - get
@@ -1538,8 +1750,7 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.IEquatable{SuperOffice.Data.Dictionary.SoField}
-  commentId: T:System.IEquatable{SuperOffice.Data.Dictionary.SoField}
-  parent: System
+  commentId: '!:System.IEquatable{SuperOffice.Data.Dictionary.SoField}'
   definition: System.IEquatable`1
   name: IEquatable<SoField>
   nameWithType: IEquatable<SoField>
@@ -1578,182 +1789,6 @@ references:
     nameWithType: SoField
     fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -1832,14 +1867,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.IEquatable`1
-  commentId: T:System.IEquatable`1
   isExternal: true
-  name: IEquatable<T>
-  nameWithType: IEquatable<T>
-  fullName: System.IEquatable<T>
-  nameWithType.vb: IEquatable(Of T)
-  fullName.vb: System.IEquatable(Of T)
-  name.vb: IEquatable(Of T)
+  name: IEquatable<>
+  nameWithType: IEquatable<>
+  fullName: System.IEquatable<>
+  nameWithType.vb: IEquatable(Of )
+  fullName.vb: System.IEquatable(Of )
+  name.vb: IEquatable(Of )
   spec.csharp:
   - uid: System.IEquatable`1
     name: IEquatable
@@ -1849,9 +1883,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1864,9 +1898,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -1973,37 +2007,6 @@ references:
   name: HashFlags
   nameWithType: HashFlags
   fullName: SuperOffice.CD.DSL.V1.StepModel.HashFlags
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoField.ToString*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.ToString
   isExternal: true
@@ -2017,55 +2020,25 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength
+  isExternal: true
+  name: GetEffectiveTextLength
+  nameWithType: SoField.GetEffectiveTextLength
+  fullName: SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.Dictionary.SoField.Equals*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.Equals
   isExternal: true
   name: Equals
   nameWithType: SoField.Equals
   fullName: SuperOffice.Data.Dictionary.SoField.Equals
-- uid: System.IEquatable{SuperOffice.Data.Dictionary.SoField}.Equals(SuperOffice.Data.Dictionary.SoField)
-  commentId: M:System.IEquatable{SuperOffice.Data.Dictionary.SoField}.Equals(SuperOffice.Data.Dictionary.SoField)
-  parent: System.IEquatable{SuperOffice.Data.Dictionary.SoField}
-  definition: System.IEquatable`1.Equals(`0)
-  name: Equals(SoField)
-  nameWithType: IEquatable<SoField>.Equals(SoField)
-  fullName: System.IEquatable<SuperOffice.Data.Dictionary.SoField>.Equals(SuperOffice.Data.Dictionary.SoField)
-  nameWithType.vb: IEquatable(Of SoField).Equals(SoField)
-  fullName.vb: System.IEquatable(Of SuperOffice.Data.Dictionary.SoField).Equals(SuperOffice.Data.Dictionary.SoField)
-  spec.csharp:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable<SoField>.Equals
-    fullName: System.IEquatable<SuperOffice.Data.Dictionary.SoField>.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Dictionary.SoField
-    name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable(Of SoField).Equals
-    fullName: System.IEquatable(Of SuperOffice.Data.Dictionary.SoField).Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Dictionary.SoField
-    name: SoField
-    nameWithType: SoField
-    fullName: SuperOffice.Data.Dictionary.SoField
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoField
   commentId: T:SuperOffice.Data.Dictionary.SoField
   parent: SuperOffice.Data.Dictionary
@@ -2080,85 +2053,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.IEquatable`1.Equals(`0)
-  commentId: M:System.IEquatable`1.Equals(`0)
-  isExternal: true
-  name: Equals(T)
-  nameWithType: IEquatable<T>.Equals(T)
-  fullName: System.IEquatable<T>.Equals(T)
-  nameWithType.vb: IEquatable(Of T).Equals(T)
-  fullName.vb: System.IEquatable(Of T).Equals(T)
-  spec.csharp:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable<T>.Equals
-    fullName: System.IEquatable<T>.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable(Of T).Equals
-    fullName: System.IEquatable(Of T).Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoField.op_Equality*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.op_Equality
   isExternal: true
@@ -2171,50 +2065,12 @@ references:
   name: Inequality
   nameWithType: SoField.Inequality
   fullName: SuperOffice.Data.Dictionary.SoField.Inequality
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoField.GetHashCode*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.GetHashCode
   isExternal: true
   name: GetHashCode
   nameWithType: SoField.GetHashCode
   fullName: SuperOffice.Data.Dictionary.SoField.GetHashCode
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.Data.Dictionary.SoField.GetDefaultValue*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.GetDefaultValue
   isExternal: true
@@ -2247,8 +2103,6 @@ references:
   nameWithType: SoField.Type
   fullName: SuperOffice.Data.Dictionary.SoField.Type
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
@@ -2260,8 +2114,7 @@ references:
   nameWithType: SoField.AdditionalValues
   fullName: SuperOffice.Data.Dictionary.SoField.AdditionalValues
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -2320,14 +2173,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -2337,15 +2189,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2358,24 +2210,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Data.Dictionary.SoField.PrivacyTags*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.PrivacyTags
   isExternal: true
@@ -2602,12 +2448,30 @@ references:
   name: IsRegisteredAssociate
   nameWithType: SoField.IsRegisteredAssociate
   fullName: SuperOffice.Data.Dictionary.SoField.IsRegisteredAssociate
+- uid: SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser
+  isExternal: true
+  name: IsRegisteredEjUser
+  nameWithType: SoField.IsRegisteredEjUser
+  fullName: SuperOffice.Data.Dictionary.SoField.IsRegisteredEjUser
 - uid: SuperOffice.Data.Dictionary.SoField.IsUpdatedAssociate*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.IsUpdatedAssociate
   isExternal: true
   name: IsUpdatedAssociate
   nameWithType: SoField.IsUpdatedAssociate
   fullName: SuperOffice.Data.Dictionary.SoField.IsUpdatedAssociate
+- uid: SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser
+  isExternal: true
+  name: IsUpdatedEjUser
+  nameWithType: SoField.IsUpdatedEjUser
+  fullName: SuperOffice.Data.Dictionary.SoField.IsUpdatedEjUser
+- uid: SuperOffice.Data.Dictionary.SoField.IsUpdatedCount*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.IsUpdatedCount
+  isExternal: true
+  name: IsUpdatedCount
+  nameWithType: SoField.IsUpdatedCount
+  fullName: SuperOffice.Data.Dictionary.SoField.IsUpdatedCount
 - uid: SuperOffice.Data.Dictionary.SoField.IsValidFrom*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.IsValidFrom
   isExternal: true
@@ -2668,6 +2532,18 @@ references:
   name: TimeZoneConvert
   nameWithType: SoField.TimeZoneConvert
   fullName: SuperOffice.Data.Dictionary.SoField.TimeZoneConvert
+- uid: SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation
+  isExternal: true
+  name: TimeZoneInterpretation
+  nameWithType: SoField.TimeZoneInterpretation
+  fullName: SuperOffice.Data.Dictionary.SoField.TimeZoneInterpretation
+- uid: SuperOffice.CD.DSL.V1.StepModel.TimeZoneInterpretation
+  commentId: '!:SuperOffice.CD.DSL.V1.StepModel.TimeZoneInterpretation'
+  isExternal: true
+  name: TimeZoneInterpretation
+  nameWithType: TimeZoneInterpretation
+  fullName: SuperOffice.CD.DSL.V1.StepModel.TimeZoneInterpretation
 - uid: SuperOffice.Data.Dictionary.SoField.TextExtension*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.TextExtension
   isExternal: true
@@ -2681,3 +2557,15 @@ references:
   name: SoField.TextExtensionType
   nameWithType: SoField.TextExtensionType
   fullName: SuperOffice.Data.Dictionary.SoField.TextExtensionType
+- uid: SuperOffice.Data.Dictionary.SoField.DisplayName*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: SoField.DisplayName
+  fullName: SuperOffice.Data.Dictionary.SoField.DisplayName
+- uid: SuperOffice.Data.Dictionary.SoField.DisplayDescription*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: SoField.DisplayDescription
+  fullName: SuperOffice.Data.Dictionary.SoField.DisplayDescription

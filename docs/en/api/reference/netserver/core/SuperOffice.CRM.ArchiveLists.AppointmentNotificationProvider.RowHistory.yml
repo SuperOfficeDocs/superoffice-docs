@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  id: AppointmentNotificationProvider.RowHistory
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.invitedPersonId
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.notifyDateTime
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.recurrenceId
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.updateType
+  langs:
+  - csharp
+  - vb
+  name: AppointmentNotificationProvider.RowHistory
+  nameWithType: AppointmentNotificationProvider.RowHistory
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nData used to compare rows. Used to determine when to show a notification for a row, or if it&apos;s similar enough to a previously observed row that we do not need to show a new notification for it.\n"
+  syntax:
+    content: 'protected sealed class RowHistory : ValueType'
+    content.vb: >-
+      Protected NotInheritable Class RowHistory
+
+          Inherits ValueType
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - protected
+  - sealed
+  - class
+  modifiers.vb:
+  - Protected
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.recurrenceId
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.recurrenceId
+  id: recurrenceId
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  langs:
+  - csharp
+  - vb
+  name: recurrenceId
+  nameWithType: AppointmentNotificationProvider.RowHistory.recurrenceId
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.recurrenceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int recurrenceId
+    return:
+      type: System.Int32
+    content.vb: Public recurrenceId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.invitedPersonId
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.invitedPersonId
+  id: invitedPersonId
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  langs:
+  - csharp
+  - vb
+  name: invitedPersonId
+  nameWithType: AppointmentNotificationProvider.RowHistory.invitedPersonId
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.invitedPersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int invitedPersonId
+    return:
+      type: System.Int32
+    content.vb: Public invitedPersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.updateType
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.updateType
+  id: updateType
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  langs:
+  - csharp
+  - vb
+  name: updateType
+  nameWithType: AppointmentNotificationProvider.RowHistory.updateType
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.updateType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int updateType
+    return:
+      type: System.Int32
+    content.vb: Public updateType As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.notifyDateTime
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.notifyDateTime
+  id: notifyDateTime
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  langs:
+  - csharp
+  - vb
+  name: notifyDateTime
+  nameWithType: AppointmentNotificationProvider.RowHistory.notifyDateTime
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.notifyDateTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public DateTime notifyDateTime
+    return:
+      type: System.DateTime
+    content.vb: Public notifyDateTime As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
+  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
+  id: CreateKey
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  langs:
+  - csharp
+  - vb
+  name: CreateKey()
+  nameWithType: AppointmentNotificationProvider.RowHistory.CreateKey()
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCombines recurrenceId and invitedPersonId into a key used in a lot of dictionaries storing row-information.\n"
+  syntax:
+    content: public ValueTuple<int, int> CreateKey()
+    return:
+      type: System.ValueTuple{System.Int32,System.Int32}
+    content.vb: Public Function CreateKey As ValueTuple(Of Integer, Integer)
+  overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppointmentNotificationProvider.RowHistory, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentNotificationProvider.RowHistory, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)()
+  name.vb: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentNotificationProvider.RowHistory, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentNotificationProvider.RowHistory, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppointmentNotificationProvider.RowHistory, To>()
+  nameWithType: Converters.MapEnums<AppointmentNotificationProvider.RowHistory, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)()
+  name.vb: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentNotificationProvider.RowHistory, To>
+    nameWithType: Converters.MapEnums<AppointmentNotificationProvider.RowHistory, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
+    nameWithType: Converters.MapEnums(Of AppointmentNotificationProvider.RowHistory, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
+  isExternal: true
+  name: CreateKey
+  nameWithType: AppointmentNotificationProvider.RowHistory.CreateKey
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory.CreateKey
+- uid: System.ValueTuple{System.Int32,System.Int32}
+  commentId: '!:System.ValueTuple{System.Int32,System.Int32}'
+  definition: System.ValueTuple`2
+  name: ValueTuple<Int32, Int32>
+  nameWithType: ValueTuple<Int32, Int32>
+  fullName: System.ValueTuple<System.Int32, System.Int32>
+  nameWithType.vb: ValueTuple(Of Int32, Int32)
+  fullName.vb: System.ValueTuple(Of System.Int32, System.Int32)
+  name.vb: ValueTuple(Of Int32, Int32)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`2
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

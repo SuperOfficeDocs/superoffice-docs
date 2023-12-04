@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Security
   children:
   - SuperOffice.CRM.Security.FieldProperty.#ctor
-  - SuperOffice.CRM.Security.FieldProperty.#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32)
+  - SuperOffice.CRM.Security.FieldProperty.#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32,System.String)
   - SuperOffice.CRM.Security.FieldProperty.Clone
   - SuperOffice.CRM.Security.FieldProperty.FieldLength
   - SuperOffice.CRM.Security.FieldProperty.FieldRight
@@ -27,21 +27,17 @@ items:
   namespace: SuperOffice.CRM.Security
   summary: "\nClass holding properties like field length, field type about a field in the carrier.\n"
   syntax:
-    content: 'public sealed class FieldProperty : ICloneable'
+    content: 'public sealed class FieldProperty : Object, ICloneable'
     content.vb: >-
       Public NotInheritable Class FieldProperty
+
+          Inherits Object
+
           Implements ICloneable
   inheritance:
   - System.Object
   implements:
   - System.ICloneable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Security.FieldProperty.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Security.FieldProperty.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.FieldProperty)
@@ -78,8 +74,6 @@ items:
       type: System.Object
     content.vb: Public Function Clone As Object
   overload: SuperOffice.CRM.Security.FieldProperty.Clone*
-  implements:
-  - System.ICloneable.Clone
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -110,16 +104,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Security.FieldProperty.#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32)
-  commentId: M:SuperOffice.CRM.Security.FieldProperty.#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32)
-  id: '#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32)'
+- uid: SuperOffice.CRM.Security.FieldProperty.#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Security.FieldProperty.#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32,System.String)
+  id: '#ctor(SuperOffice.CRM.Security.FieldRight,System.Type,System.Int32,System.String)'
   parent: SuperOffice.CRM.Security.FieldProperty
   langs:
   - csharp
   - vb
-  name: FieldProperty(FieldRight, Type, Int32)
-  nameWithType: FieldProperty.FieldProperty(FieldRight, Type, Int32)
-  fullName: SuperOffice.CRM.Security.FieldProperty.FieldProperty(SuperOffice.CRM.Security.FieldRight, System.Type, System.Int32)
+  name: FieldProperty(FieldRight, Type, Int32, String)
+  nameWithType: FieldProperty.FieldProperty(FieldRight, Type, Int32, String)
+  fullName: SuperOffice.CRM.Security.FieldProperty.FieldProperty(SuperOffice.CRM.Security.FieldRight, System.Type, System.Int32, System.String)
   type: Constructor
   source:
     path: SoCore
@@ -129,7 +123,7 @@ items:
   namespace: SuperOffice.CRM.Security
   summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.CRM.Security.FieldProperty\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   syntax:
-    content: public FieldProperty(FieldRight fieldRight, Type fieldType, int fieldLength)
+    content: public FieldProperty(FieldRight fieldRight, Type fieldType, int fieldLength, string customFieldType = null)
     parameters:
     - id: fieldRight
       type: SuperOffice.CRM.Security.FieldRight
@@ -140,7 +134,10 @@ items:
     - id: fieldLength
       type: System.Int32
       description: Length of the field.
-    content.vb: Public Sub New(fieldRight As FieldRight, fieldType As Type, fieldLength As Integer)
+    - id: customFieldType
+      type: System.String
+      description: 'Custom Type of the field. Overrides the fieldType on serialization '
+    content.vb: Public Sub New(fieldRight As FieldRight, fieldType As Type, fieldLength As Integer, customFieldType As String = Nothing)
   overload: SuperOffice.CRM.Security.FieldProperty.#ctor*
   modifiers.csharp:
   - public
@@ -168,7 +165,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Security.FieldProperty.ToString*
   modifiers.csharp:
   - public
@@ -285,260 +281,10 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.FieldProperty.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -897,37 +643,6 @@ references:
   name: Clone
   nameWithType: FieldProperty.Clone
   fullName: SuperOffice.CRM.Security.FieldProperty.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.FieldProperty.#ctor*
   commentId: Overload:SuperOffice.CRM.Security.FieldProperty.#ctor
   isExternal: true
@@ -942,8 +657,6 @@ references:
   nameWithType: FieldRight
   fullName: SuperOffice.CRM.Security.FieldRight
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
@@ -955,43 +668,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.FieldProperty.ToString*
-  commentId: Overload:SuperOffice.CRM.Security.FieldProperty.ToString
-  isExternal: true
-  name: ToString
-  nameWithType: FieldProperty.ToString
-  fullName: SuperOffice.CRM.Security.FieldProperty.ToString
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -999,6 +675,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Security.FieldProperty.ToString*
+  commentId: Overload:SuperOffice.CRM.Security.FieldProperty.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldProperty.ToString
+  fullName: SuperOffice.CRM.Security.FieldProperty.ToString
 - uid: SuperOffice.CRM.Security.FieldProperty.FieldRight*
   commentId: Overload:SuperOffice.CRM.Security.FieldProperty.FieldRight
   isExternal: true

@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.Files
+  commentId: N:SuperOffice.IO.Files
+  id: SuperOffice.IO.Files
+  children:
+  - SuperOffice.IO.Files.DiskFileAccess
+  - SuperOffice.IO.Files.IFileAccess
+  - SuperOffice.IO.Files.SoArcConfiguration
+  - SuperOffice.IO.Files.SoFileInfo
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.IO.Files
+  nameWithType: SuperOffice.IO.Files
+  fullName: SuperOffice.IO.Files
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: SuperOffice.IO.Files.DiskFileAccess
+  commentId: T:SuperOffice.IO.Files.DiskFileAccess
+  isExternal: true
+  name: DiskFileAccess
+  nameWithType: DiskFileAccess
+  fullName: SuperOffice.IO.Files.DiskFileAccess
+- uid: SuperOffice.IO.Files.IFileAccess
+  commentId: T:SuperOffice.IO.Files.IFileAccess
+  parent: SuperOffice.IO.Files
+  isExternal: true
+  name: IFileAccess
+  nameWithType: IFileAccess
+  fullName: SuperOffice.IO.Files.IFileAccess
+- uid: SuperOffice.IO.Files.SoFileInfo
+  commentId: T:SuperOffice.IO.Files.SoFileInfo
+  isExternal: true
+  name: SoFileInfo
+  nameWithType: SoFileInfo
+  fullName: SuperOffice.IO.Files.SoFileInfo
+- uid: SuperOffice.IO.Files.SoArcConfiguration
+  commentId: T:SuperOffice.IO.Files.SoArcConfiguration
+  isExternal: true
+  name: SoArcConfiguration
+  nameWithType: SoArcConfiguration
+  fullName: SuperOffice.IO.Files.SoArcConfiguration
+- uid: SuperOffice.IO.Files
+  commentId: N:SuperOffice.IO.Files
+  isExternal: true
+  name: SuperOffice.IO.Files
+  nameWithType: SuperOffice.IO.Files
+  fullName: SuperOffice.IO.Files

@@ -438,7 +438,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Services.Project.Updated*
   modifiers.csharp:
   - public
@@ -570,7 +570,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property PublishTo As Date
+    content.vb: Public Overridable Property PublishTo As DateTime
   overload: SuperOffice.CRM.Services.Project.PublishTo*
   modifiers.csharp:
   - public
@@ -603,7 +603,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property PublishFrom As Date
+    content.vb: Public Overridable Property PublishFrom As DateTime
   overload: SuperOffice.CRM.Services.Project.PublishFrom*
   modifiers.csharp:
   - public
@@ -752,13 +752,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ProjectAgent
   commentId: T:SuperOffice.CRM.Services.ProjectAgent
   isExternal: true
@@ -772,12 +765,6 @@ references:
   name: IProjectAgent
   nameWithType: IProjectAgent
   fullName: SuperOffice.CRM.Services.IProjectAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Project.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Project.#ctor
   isExternal: true
@@ -797,6 +784,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Project.ProjectId*
   commentId: Overload:SuperOffice.CRM.Services.Project.ProjectId
   isExternal: true
@@ -859,8 +852,6 @@ references:
   nameWithType: Project.Updated
   fullName: SuperOffice.CRM.Services.Project.Updated
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

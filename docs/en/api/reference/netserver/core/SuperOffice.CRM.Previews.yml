@@ -6,6 +6,7 @@ items:
   children:
   - SuperOffice.CRM.Previews.AppointmentPreviewPlugin
   - SuperOffice.CRM.Previews.ContactPreviewPlugin
+  - SuperOffice.CRM.Previews.DashboardPreviewPlugin
   - SuperOffice.CRM.Previews.DocumentPreviewPlugin
   - SuperOffice.CRM.Previews.FaqPreviewPlugin
   - SuperOffice.CRM.Previews.PersonPreviewPlugin
@@ -20,6 +21,7 @@ items:
   - SuperOffice.CRM.Previews.ReplyTemplatePreviewPlugin
   - SuperOffice.CRM.Previews.SalePreviewPlugin
   - SuperOffice.CRM.Previews.SelectionPreviewPlugin
+  - SuperOffice.CRM.Previews.TicketPreviewPlugin
   langs:
   - csharp
   - vb
@@ -42,6 +44,12 @@ references:
   name: ContactPreviewPlugin
   nameWithType: ContactPreviewPlugin
   fullName: SuperOffice.CRM.Previews.ContactPreviewPlugin
+- uid: SuperOffice.CRM.Previews.DashboardPreviewPlugin
+  commentId: T:SuperOffice.CRM.Previews.DashboardPreviewPlugin
+  isExternal: true
+  name: DashboardPreviewPlugin
+  nameWithType: DashboardPreviewPlugin
+  fullName: SuperOffice.CRM.Previews.DashboardPreviewPlugin
 - uid: SuperOffice.CRM.Previews.DocumentPreviewPlugin
   commentId: T:SuperOffice.CRM.Previews.DocumentPreviewPlugin
   isExternal: true
@@ -129,6 +137,12 @@ references:
   name: SelectionPreviewPlugin
   nameWithType: SelectionPreviewPlugin
   fullName: SuperOffice.CRM.Previews.SelectionPreviewPlugin
+- uid: SuperOffice.CRM.Previews.TicketPreviewPlugin
+  commentId: T:SuperOffice.CRM.Previews.TicketPreviewPlugin
+  isExternal: true
+  name: TicketPreviewPlugin
+  nameWithType: TicketPreviewPlugin
+  fullName: SuperOffice.CRM.Previews.TicketPreviewPlugin
 - uid: SuperOffice.CRM.Previews
   commentId: N:SuperOffice.CRM.Previews
   isExternal: true

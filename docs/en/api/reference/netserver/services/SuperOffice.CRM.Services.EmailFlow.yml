@@ -1,0 +1,2003 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EmailFlow
+  commentId: T:SuperOffice.CRM.Services.EmailFlow
+  id: EmailFlow
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EmailFlow.#ctor
+  - SuperOffice.CRM.Services.EmailFlow.Associate
+  - SuperOffice.CRM.Services.EmailFlow.BlockLists
+  - SuperOffice.CRM.Services.EmailFlow.CreatedBy
+  - SuperOffice.CRM.Services.EmailFlow.CreatedDate
+  - SuperOffice.CRM.Services.EmailFlow.Description
+  - SuperOffice.CRM.Services.EmailFlow.EmailFlowId
+  - SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd
+  - SuperOffice.CRM.Services.EmailFlow.Filter
+  - SuperOffice.CRM.Services.EmailFlow.Folder
+  - SuperOffice.CRM.Services.EmailFlow.FromAddr
+  - SuperOffice.CRM.Services.EmailFlow.FromName
+  - SuperOffice.CRM.Services.EmailFlow.FromType
+  - SuperOffice.CRM.Services.EmailFlow.GaCampaign
+  - SuperOffice.CRM.Services.EmailFlow.GaSource
+  - SuperOffice.CRM.Services.EmailFlow.Goals
+  - SuperOffice.CRM.Services.EmailFlow.JumpToFinish
+  - SuperOffice.CRM.Services.EmailFlow.Name
+  - SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription
+  - SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows
+  - SuperOffice.CRM.Services.EmailFlow.ReplyToAddr
+  - SuperOffice.CRM.Services.EmailFlow.ReplyToName
+  - SuperOffice.CRM.Services.EmailFlow.ReplyToType
+  - SuperOffice.CRM.Services.EmailFlow.SelectedDays
+  - SuperOffice.CRM.Services.EmailFlow.ShipmentType
+  - SuperOffice.CRM.Services.EmailFlow.SmsSender
+  - SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce
+  - SuperOffice.CRM.Services.EmailFlow.Status
+  - SuperOffice.CRM.Services.EmailFlow.Steps
+  - SuperOffice.CRM.Services.EmailFlow.TimeframeEnd
+  - SuperOffice.CRM.Services.EmailFlow.TimeframeStart
+  - SuperOffice.CRM.Services.EmailFlow.ToString
+  - SuperOffice.CRM.Services.EmailFlow.ToString(System.String)
+  - SuperOffice.CRM.Services.EmailFlow.Triggers
+  - SuperOffice.CRM.Services.EmailFlow.TzLocation
+  - SuperOffice.CRM.Services.EmailFlow.UpdatedBy
+  - SuperOffice.CRM.Services.EmailFlow.UpdatedDate
+  - SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd
+  - SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics
+  - SuperOffice.CRM.Services.EmailFlow.UseTimeframe
+  - SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart
+  - SuperOffice.CRM.Services.EmailFlow.VisibleFor
+  - SuperOffice.CRM.Services.EmailFlow.WorkflowStart
+  langs:
+  - csharp
+  - vb
+  name: EmailFlow
+  nameWithType: EmailFlow
+  fullName: SuperOffice.CRM.Services.EmailFlow
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail flow carrier\n<p></p>\nCarrier object for EmailFlow.\nServices for the EmailFlow Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet EmailFlow 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new WorkflowAgent();\n    var emailFlow = agent.GetEmailFlow( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class EmailFlow : Carrier, IVisibleForCarrier'
+    content.vb: >-
+      Public Class EmailFlow
+
+          Inherits Carrier
+
+          Implements IVisibleForCarrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IVisibleForCarrier
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EmailFlow.#ctor
+  commentId: M:SuperOffice.CRM.Services.EmailFlow.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: EmailFlow()
+  nameWithType: EmailFlow.EmailFlow()
+  fullName: SuperOffice.CRM.Services.EmailFlow.EmailFlow()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EmailFlow()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EmailFlow.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EmailFlow.ToString
+  commentId: M:SuperOffice.CRM.Services.EmailFlow.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EmailFlow.ToString()
+  fullName: SuperOffice.CRM.Services.EmailFlow.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EmailFlow.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EmailFlow.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EmailFlow.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EmailFlow.ToString(String)
+  fullName: SuperOffice.CRM.Services.EmailFlow.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EmailFlow.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EmailFlow.EmailFlowId
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: EmailFlow.EmailFlowId
+  fullName: SuperOffice.CRM.Services.EmailFlow.EmailFlowId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int EmailFlowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EmailFlowId As Integer
+  overload: SuperOffice.CRM.Services.EmailFlow.EmailFlowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Name
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EmailFlow.Name
+  fullName: SuperOffice.CRM.Services.EmailFlow.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the workflow \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.EmailFlow.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Description
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EmailFlow.Description
+  fullName: SuperOffice.CRM.Services.EmailFlow.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the workflow \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.EmailFlow.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Status
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: EmailFlow.Status
+  fullName: SuperOffice.CRM.Services.EmailFlow.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStatus of the workflow definition \n"
+  syntax:
+    content: public virtual WorkflowDefinitionStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowDefinitionStatus
+    content.vb: Public Overridable Property Status As WorkflowDefinitionStatus
+  overload: SuperOffice.CRM.Services.EmailFlow.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.JumpToFinish
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.JumpToFinish
+  id: JumpToFinish
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: JumpToFinish
+  nameWithType: EmailFlow.JumpToFinish
+  fullName: SuperOffice.CRM.Services.EmailFlow.JumpToFinish
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen a goal is reached, contact jumps directly to finished \n"
+  syntax:
+    content: public virtual bool JumpToFinish { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property JumpToFinish As Boolean
+  overload: SuperOffice.CRM.Services.EmailFlow.JumpToFinish*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce
+  id: StartOnlyOnce
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: StartOnlyOnce
+  nameWithType: EmailFlow.StartOnlyOnce
+  fullName: SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA contact can start this flow only once \n"
+  syntax:
+    content: public virtual bool StartOnlyOnce { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property StartOnlyOnce As Boolean
+  overload: SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription
+  id: OverrideConsentSubscription
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: OverrideConsentSubscription
+  nameWithType: EmailFlow.OverrideConsentSubscription
+  fullName: SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOverride consent and subscription \n"
+  syntax:
+    content: public virtual bool OverrideConsentSubscription { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OverrideConsentSubscription As Boolean
+  overload: SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.FromType
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.FromType
+  id: FromType
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: FromType
+  nameWithType: EmailFlow.FromType
+  fullName: SuperOffice.CRM.Services.EmailFlow.FromType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail/Mailing From field address algorithm \n"
+  syntax:
+    content: public virtual EmailFromType FromType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EmailFromType
+    content.vb: Public Overridable Property FromType As EmailFromType
+  overload: SuperOffice.CRM.Services.EmailFlow.FromType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.FromName
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.FromName
+  id: FromName
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: EmailFlow.FromName
+  fullName: SuperOffice.CRM.Services.EmailFlow.FromName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail From name \n"
+  syntax:
+    content: public virtual string FromName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromName As String
+  overload: SuperOffice.CRM.Services.EmailFlow.FromName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.FromAddr
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.FromAddr
+  id: FromAddr
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: FromAddr
+  nameWithType: EmailFlow.FromAddr
+  fullName: SuperOffice.CRM.Services.EmailFlow.FromAddr
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail From address: name@domain.com \n"
+  syntax:
+    content: public virtual string FromAddr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromAddr As String
+  overload: SuperOffice.CRM.Services.EmailFlow.FromAddr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.ReplyToType
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.ReplyToType
+  id: ReplyToType
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ReplyToType
+  nameWithType: EmailFlow.ReplyToType
+  fullName: SuperOffice.CRM.Services.EmailFlow.ReplyToType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail/Mailing Reply-To field address algorithm \n"
+  syntax:
+    content: public virtual EmailReplyToType ReplyToType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EmailReplyToType
+    content.vb: Public Overridable Property ReplyToType As EmailReplyToType
+  overload: SuperOffice.CRM.Services.EmailFlow.ReplyToType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.ReplyToAddr
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.ReplyToAddr
+  id: ReplyToAddr
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ReplyToAddr
+  nameWithType: EmailFlow.ReplyToAddr
+  fullName: SuperOffice.CRM.Services.EmailFlow.ReplyToAddr
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReply to address, if different from From-address \n"
+  syntax:
+    content: public virtual string ReplyToAddr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ReplyToAddr As String
+  overload: SuperOffice.CRM.Services.EmailFlow.ReplyToAddr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.ReplyToName
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.ReplyToName
+  id: ReplyToName
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ReplyToName
+  nameWithType: EmailFlow.ReplyToName
+  fullName: SuperOffice.CRM.Services.EmailFlow.ReplyToName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail Reply-To name \n"
+  syntax:
+    content: public virtual string ReplyToName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ReplyToName As String
+  overload: SuperOffice.CRM.Services.EmailFlow.ReplyToName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.SmsSender
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.SmsSender
+  id: SmsSender
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: SmsSender
+  nameWithType: EmailFlow.SmsSender
+  fullName: SuperOffice.CRM.Services.EmailFlow.SmsSender
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSMS sender (number or name) \n"
+  syntax:
+    content: public virtual string SmsSender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SmsSender As String
+  overload: SuperOffice.CRM.Services.EmailFlow.SmsSender*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics
+  id: UseGoogleAnalytics
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseGoogleAnalytics
+  nameWithType: EmailFlow.UseGoogleAnalytics
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUse Google Analytics \n"
+  syntax:
+    content: public virtual bool UseGoogleAnalytics { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseGoogleAnalytics As Boolean
+  overload: SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.GaSource
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.GaSource
+  id: GaSource
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: GaSource
+  nameWithType: EmailFlow.GaSource
+  fullName: SuperOffice.CRM.Services.EmailFlow.GaSource
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGA Source \n"
+  syntax:
+    content: public virtual string GaSource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property GaSource As String
+  overload: SuperOffice.CRM.Services.EmailFlow.GaSource*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.GaCampaign
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.GaCampaign
+  id: GaCampaign
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: GaCampaign
+  nameWithType: EmailFlow.GaCampaign
+  fullName: SuperOffice.CRM.Services.EmailFlow.GaCampaign
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGA Campaign \n"
+  syntax:
+    content: public virtual string GaCampaign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property GaCampaign As String
+  overload: SuperOffice.CRM.Services.EmailFlow.GaCampaign*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.UseTimeframe
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.UseTimeframe
+  id: UseTimeframe
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseTimeframe
+  nameWithType: EmailFlow.UseTimeframe
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseTimeframe
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUse sender timeframe settings, only send email/sms within the timeframe \n"
+  syntax:
+    content: public virtual bool UseTimeframe { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseTimeframe As Boolean
+  overload: SuperOffice.CRM.Services.EmailFlow.UseTimeframe*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.SelectedDays
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.SelectedDays
+  id: SelectedDays
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: SelectedDays
+  nameWithType: EmailFlow.SelectedDays
+  fullName: SuperOffice.CRM.Services.EmailFlow.SelectedDays
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSelected days (flags, so several days can be selected) for time frame \n"
+  syntax:
+    content: public virtual Weekday SelectedDays { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Weekday
+    content.vb: Public Overridable Property SelectedDays As Weekday
+  overload: SuperOffice.CRM.Services.EmailFlow.SelectedDays*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.TimeframeStart
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.TimeframeStart
+  id: TimeframeStart
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: TimeframeStart
+  nameWithType: EmailFlow.TimeframeStart
+  fullName: SuperOffice.CRM.Services.EmailFlow.TimeframeStart
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStart of email/sms sending timeframe in [DT: ] format, interpreted in workflow time zone \n"
+  syntax:
+    content: public virtual string TimeframeStart { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TimeframeStart As String
+  overload: SuperOffice.CRM.Services.EmailFlow.TimeframeStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.TimeframeEnd
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.TimeframeEnd
+  id: TimeframeEnd
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: TimeframeEnd
+  nameWithType: EmailFlow.TimeframeEnd
+  fullName: SuperOffice.CRM.Services.EmailFlow.TimeframeEnd
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEnd of email/sms sending timeframe in [DT: ] format, interpreted in workflow time zone \n"
+  syntax:
+    content: public virtual string TimeframeEnd { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TimeframeEnd As String
+  overload: SuperOffice.CRM.Services.EmailFlow.TimeframeEnd*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart
+  id: UseWorkflowStart
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseWorkflowStart
+  nameWithType: EmailFlow.UseWorkflowStart
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStart the flow running with enrolled participants at the given time \n"
+  syntax:
+    content: public virtual bool UseWorkflowStart { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseWorkflowStart As Boolean
+  overload: SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.WorkflowStart
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.WorkflowStart
+  id: WorkflowStart
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStart
+  nameWithType: EmailFlow.WorkflowStart
+  fullName: SuperOffice.CRM.Services.EmailFlow.WorkflowStart
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. In [DT: ] format, interpreted in workflow time zone \n"
+  syntax:
+    content: public virtual string WorkflowStart { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WorkflowStart As String
+  overload: SuperOffice.CRM.Services.EmailFlow.WorkflowStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd
+  id: UseEnrollmentEnd
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UseEnrollmentEnd
+  nameWithType: EmailFlow.UseEnrollmentEnd
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEnd enrollment into the workflow at the given time \n"
+  syntax:
+    content: public virtual bool UseEnrollmentEnd { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseEnrollmentEnd As Boolean
+  overload: SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd
+  id: EnrollmentEnd
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: EnrollmentEnd
+  nameWithType: EmailFlow.EnrollmentEnd
+  fullName: SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDo not enroll more participant after given time. In [DT: ] format, interpreted in workflow time zone \n"
+  syntax:
+    content: public virtual string EnrollmentEnd { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EnrollmentEnd As String
+  overload: SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows
+  id: RemoveFromFlows
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromFlows
+  nameWithType: EmailFlow.RemoveFromFlows
+  fullName: SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflows to remove the participants from when they are enrolled in this workflow \n"
+  syntax:
+    content: public virtual int[] RemoveFromFlows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property RemoveFromFlows As Integer()
+  overload: SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.TzLocation
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.TzLocation
+  id: TzLocation
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: TzLocation
+  nameWithType: EmailFlow.TzLocation
+  fullName: SuperOffice.CRM.Services.EmailFlow.TzLocation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe workflow timezone setting \n"
+  syntax:
+    content: public virtual TimeZoneData TzLocation { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.TimeZoneData
+    content.vb: Public Overridable Property TzLocation As TimeZoneData
+  overload: SuperOffice.CRM.Services.EmailFlow.TzLocation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Folder
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Folder
+  id: Folder
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: EmailFlow.Folder
+  fullName: SuperOffice.CRM.Services.EmailFlow.Folder
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe folder/hierarchy the email flow is in. \n<p>Use MDO List name &quot;hierarchy&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual HierarchyEntity Folder { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.HierarchyEntity
+    content.vb: Public Overridable Property Folder As HierarchyEntity
+  overload: SuperOffice.CRM.Services.EmailFlow.Folder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Associate
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: EmailFlow.Associate
+  fullName: SuperOffice.CRM.Services.EmailFlow.Associate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe owner of the workflow. \n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.CRM.Services.EmailFlow.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.ShipmentType
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.ShipmentType
+  id: ShipmentType
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: ShipmentType
+  nameWithType: EmailFlow.ShipmentType
+  fullName: SuperOffice.CRM.Services.EmailFlow.ShipmentType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Shipment type (mailing type) \n"
+  syntax:
+    content: public virtual MDOListItem ShipmentType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+    content.vb: Public Overridable Property ShipmentType As MDOListItem
+  overload: SuperOffice.CRM.Services.EmailFlow.ShipmentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Steps
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Steps
+  id: Steps
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Steps
+  nameWithType: EmailFlow.Steps
+  fullName: SuperOffice.CRM.Services.EmailFlow.Steps
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe steps in the workflow, mainline steps - forking steps are indicated by its WorkflowStepType. \n"
+  syntax:
+    content: public virtual WorkflowStepBase[] Steps { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.WorkflowStepBase[]
+    content.vb: Public Overridable Property Steps As WorkflowStepBase()
+  overload: SuperOffice.CRM.Services.EmailFlow.Steps*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Triggers
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Triggers
+  id: Triggers
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Triggers
+  nameWithType: EmailFlow.Triggers
+  fullName: SuperOffice.CRM.Services.EmailFlow.Triggers
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe triggers for the workflow. \n"
+  syntax:
+    content: public virtual WorkflowTrigger[] Triggers { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.WorkflowTrigger[]
+    content.vb: Public Overridable Property Triggers As WorkflowTrigger()
+  overload: SuperOffice.CRM.Services.EmailFlow.Triggers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Goals
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Goals
+  id: Goals
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Goals
+  nameWithType: EmailFlow.Goals
+  fullName: SuperOffice.CRM.Services.EmailFlow.Goals
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe goals for the workflow. \n"
+  syntax:
+    content: public virtual WorkflowGoal[] Goals { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.WorkflowGoal[]
+    content.vb: Public Overridable Property Goals As WorkflowGoal()
+  overload: SuperOffice.CRM.Services.EmailFlow.Goals*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.Filter
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.Filter
+  id: Filter
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: EmailFlow.Filter
+  fullName: SuperOffice.CRM.Services.EmailFlow.Filter
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe filter for the workflow. \n"
+  syntax:
+    content: public virtual WorkflowFilter Filter { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.WorkflowFilter
+    content.vb: Public Overridable Property Filter As WorkflowFilter
+  overload: SuperOffice.CRM.Services.EmailFlow.Filter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.BlockLists
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.BlockLists
+  id: BlockLists
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: BlockLists
+  nameWithType: EmailFlow.BlockLists
+  fullName: SuperOffice.CRM.Services.EmailFlow.BlockLists
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPersons in the given selections are not allowed to enter this workflow \n"
+  syntax:
+    content: public virtual int[] BlockLists { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property BlockLists As Integer()
+  overload: SuperOffice.CRM.Services.EmailFlow.BlockLists*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: EmailFlow.CreatedBy
+  fullName: SuperOffice.CRM.Services.EmailFlow.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate that first created the flow. The property is read-only. \n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.EmailFlow.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: EmailFlow.UpdatedBy
+  fullName: SuperOffice.CRM.Services.EmailFlow.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person that last updated the flow. \n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.CRM.Services.EmailFlow.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: EmailFlow.CreatedDate
+  fullName: SuperOffice.CRM.Services.EmailFlow.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered date  in UTC.\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.CRM.Services.EmailFlow.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: EmailFlow.UpdatedDate
+  fullName: SuperOffice.CRM.Services.EmailFlow.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdated date  in UTC.\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.CRM.Services.EmailFlow.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EmailFlow.VisibleFor
+  commentId: P:SuperOffice.CRM.Services.EmailFlow.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.CRM.Services.EmailFlow
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: EmailFlow.VisibleFor
+  fullName: SuperOffice.CRM.Services.EmailFlow.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe set of users or groups the record is visible for\n"
+  syntax:
+    content: public VisibleFor[] VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.VisibleFor[]
+    content.vb: Public Property VisibleFor As VisibleFor()
+  overload: SuperOffice.CRM.Services.EmailFlow.VisibleFor*
+  implements:
+  - SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IVisibleForCarrier
+  commentId: T:SuperOffice.CRM.Services.IVisibleForCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IVisibleForCarrier
+  nameWithType: IVisibleForCarrier
+  fullName: SuperOffice.CRM.Services.IVisibleForCarrier
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.EmailFlow.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.#ctor
+  isExternal: true
+  name: EmailFlow
+  nameWithType: EmailFlow.EmailFlow
+  fullName: SuperOffice.CRM.Services.EmailFlow.EmailFlow
+- uid: SuperOffice.CRM.Services.EmailFlow.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EmailFlow.ToString
+  fullName: SuperOffice.CRM.Services.EmailFlow.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EmailFlow.EmailFlowId*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.EmailFlowId
+  isExternal: true
+  name: EmailFlowId
+  nameWithType: EmailFlow.EmailFlowId
+  fullName: SuperOffice.CRM.Services.EmailFlow.EmailFlowId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EmailFlow.Name*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Name
+  isExternal: true
+  name: Name
+  nameWithType: EmailFlow.Name
+  fullName: SuperOffice.CRM.Services.EmailFlow.Name
+- uid: SuperOffice.CRM.Services.EmailFlow.Description*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Description
+  isExternal: true
+  name: Description
+  nameWithType: EmailFlow.Description
+  fullName: SuperOffice.CRM.Services.EmailFlow.Description
+- uid: SuperOffice.CRM.Services.EmailFlow.Status*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Status
+  isExternal: true
+  name: Status
+  nameWithType: EmailFlow.Status
+  fullName: SuperOffice.CRM.Services.EmailFlow.Status
+- uid: SuperOffice.Data.WorkflowDefinitionStatus
+  isExternal: true
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: SuperOffice.Data.WorkflowDefinitionStatus
+- uid: SuperOffice.CRM.Services.EmailFlow.JumpToFinish*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.JumpToFinish
+  isExternal: true
+  name: JumpToFinish
+  nameWithType: EmailFlow.JumpToFinish
+  fullName: SuperOffice.CRM.Services.EmailFlow.JumpToFinish
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce
+  isExternal: true
+  name: StartOnlyOnce
+  nameWithType: EmailFlow.StartOnlyOnce
+  fullName: SuperOffice.CRM.Services.EmailFlow.StartOnlyOnce
+- uid: SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription
+  isExternal: true
+  name: OverrideConsentSubscription
+  nameWithType: EmailFlow.OverrideConsentSubscription
+  fullName: SuperOffice.CRM.Services.EmailFlow.OverrideConsentSubscription
+- uid: SuperOffice.CRM.Services.EmailFlow.FromType*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.FromType
+  isExternal: true
+  name: FromType
+  nameWithType: EmailFlow.FromType
+  fullName: SuperOffice.CRM.Services.EmailFlow.FromType
+- uid: SuperOffice.Data.EmailFromType
+  commentId: '!:SuperOffice.Data.EmailFromType'
+  isExternal: true
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: SuperOffice.Data.EmailFromType
+- uid: SuperOffice.CRM.Services.EmailFlow.FromName*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.FromName
+  isExternal: true
+  name: FromName
+  nameWithType: EmailFlow.FromName
+  fullName: SuperOffice.CRM.Services.EmailFlow.FromName
+- uid: SuperOffice.CRM.Services.EmailFlow.FromAddr*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.FromAddr
+  isExternal: true
+  name: FromAddr
+  nameWithType: EmailFlow.FromAddr
+  fullName: SuperOffice.CRM.Services.EmailFlow.FromAddr
+- uid: SuperOffice.CRM.Services.EmailFlow.ReplyToType*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.ReplyToType
+  isExternal: true
+  name: ReplyToType
+  nameWithType: EmailFlow.ReplyToType
+  fullName: SuperOffice.CRM.Services.EmailFlow.ReplyToType
+- uid: SuperOffice.Data.EmailReplyToType
+  commentId: '!:SuperOffice.Data.EmailReplyToType'
+  isExternal: true
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: SuperOffice.Data.EmailReplyToType
+- uid: SuperOffice.CRM.Services.EmailFlow.ReplyToAddr*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.ReplyToAddr
+  isExternal: true
+  name: ReplyToAddr
+  nameWithType: EmailFlow.ReplyToAddr
+  fullName: SuperOffice.CRM.Services.EmailFlow.ReplyToAddr
+- uid: SuperOffice.CRM.Services.EmailFlow.ReplyToName*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.ReplyToName
+  isExternal: true
+  name: ReplyToName
+  nameWithType: EmailFlow.ReplyToName
+  fullName: SuperOffice.CRM.Services.EmailFlow.ReplyToName
+- uid: SuperOffice.CRM.Services.EmailFlow.SmsSender*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.SmsSender
+  isExternal: true
+  name: SmsSender
+  nameWithType: EmailFlow.SmsSender
+  fullName: SuperOffice.CRM.Services.EmailFlow.SmsSender
+- uid: SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics
+  isExternal: true
+  name: UseGoogleAnalytics
+  nameWithType: EmailFlow.UseGoogleAnalytics
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseGoogleAnalytics
+- uid: SuperOffice.CRM.Services.EmailFlow.GaSource*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.GaSource
+  isExternal: true
+  name: GaSource
+  nameWithType: EmailFlow.GaSource
+  fullName: SuperOffice.CRM.Services.EmailFlow.GaSource
+- uid: SuperOffice.CRM.Services.EmailFlow.GaCampaign*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.GaCampaign
+  isExternal: true
+  name: GaCampaign
+  nameWithType: EmailFlow.GaCampaign
+  fullName: SuperOffice.CRM.Services.EmailFlow.GaCampaign
+- uid: SuperOffice.CRM.Services.EmailFlow.UseTimeframe*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.UseTimeframe
+  isExternal: true
+  name: UseTimeframe
+  nameWithType: EmailFlow.UseTimeframe
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseTimeframe
+- uid: SuperOffice.CRM.Services.EmailFlow.SelectedDays*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.SelectedDays
+  isExternal: true
+  name: SelectedDays
+  nameWithType: EmailFlow.SelectedDays
+  fullName: SuperOffice.CRM.Services.EmailFlow.SelectedDays
+- uid: SuperOffice.Data.Weekday
+  commentId: '!:SuperOffice.Data.Weekday'
+  isExternal: true
+  name: Weekday
+  nameWithType: Weekday
+  fullName: SuperOffice.Data.Weekday
+- uid: SuperOffice.CRM.Services.EmailFlow.TimeframeStart*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.TimeframeStart
+  isExternal: true
+  name: TimeframeStart
+  nameWithType: EmailFlow.TimeframeStart
+  fullName: SuperOffice.CRM.Services.EmailFlow.TimeframeStart
+- uid: SuperOffice.CRM.Services.EmailFlow.TimeframeEnd*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.TimeframeEnd
+  isExternal: true
+  name: TimeframeEnd
+  nameWithType: EmailFlow.TimeframeEnd
+  fullName: SuperOffice.CRM.Services.EmailFlow.TimeframeEnd
+- uid: SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart
+  isExternal: true
+  name: UseWorkflowStart
+  nameWithType: EmailFlow.UseWorkflowStart
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseWorkflowStart
+- uid: SuperOffice.CRM.Services.EmailFlow.WorkflowStart*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.WorkflowStart
+  isExternal: true
+  name: WorkflowStart
+  nameWithType: EmailFlow.WorkflowStart
+  fullName: SuperOffice.CRM.Services.EmailFlow.WorkflowStart
+- uid: SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd
+  isExternal: true
+  name: UseEnrollmentEnd
+  nameWithType: EmailFlow.UseEnrollmentEnd
+  fullName: SuperOffice.CRM.Services.EmailFlow.UseEnrollmentEnd
+- uid: SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd
+  isExternal: true
+  name: EnrollmentEnd
+  nameWithType: EmailFlow.EnrollmentEnd
+  fullName: SuperOffice.CRM.Services.EmailFlow.EnrollmentEnd
+- uid: SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows
+  isExternal: true
+  name: RemoveFromFlows
+  nameWithType: EmailFlow.RemoveFromFlows
+  fullName: SuperOffice.CRM.Services.EmailFlow.RemoveFromFlows
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.EmailFlow.TzLocation*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.TzLocation
+  isExternal: true
+  name: TzLocation
+  nameWithType: EmailFlow.TzLocation
+  fullName: SuperOffice.CRM.Services.EmailFlow.TzLocation
+- uid: SuperOffice.CRM.TimeZoneData
+  isExternal: true
+  name: TimeZoneData
+  nameWithType: TimeZoneData
+  fullName: SuperOffice.CRM.TimeZoneData
+- uid: SuperOffice.CRM.Services.EmailFlow.Folder*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Folder
+  isExternal: true
+  name: Folder
+  nameWithType: EmailFlow.Folder
+  fullName: SuperOffice.CRM.Services.EmailFlow.Folder
+- uid: SuperOffice.CRM.Services.HierarchyEntity
+  commentId: T:SuperOffice.CRM.Services.HierarchyEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: HierarchyEntity
+  nameWithType: HierarchyEntity
+  fullName: SuperOffice.CRM.Services.HierarchyEntity
+- uid: SuperOffice.CRM.Services.EmailFlow.Associate*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: EmailFlow.Associate
+  fullName: SuperOffice.CRM.Services.EmailFlow.Associate
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.EmailFlow.ShipmentType*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.ShipmentType
+  isExternal: true
+  name: ShipmentType
+  nameWithType: EmailFlow.ShipmentType
+  fullName: SuperOffice.CRM.Services.EmailFlow.ShipmentType
+- uid: SuperOffice.CRM.Services.MDOListItem
+  commentId: T:SuperOffice.CRM.Services.MDOListItem
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Services.MDOListItem
+- uid: SuperOffice.CRM.Services.EmailFlow.Steps*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Steps
+  isExternal: true
+  name: Steps
+  nameWithType: EmailFlow.Steps
+  fullName: SuperOffice.CRM.Services.EmailFlow.Steps
+- uid: SuperOffice.CRM.Services.WorkflowStepBase[]
+  isExternal: true
+  name: WorkflowStepBase[]
+  nameWithType: WorkflowStepBase[]
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase[]
+  nameWithType.vb: WorkflowStepBase()
+  fullName.vb: SuperOffice.CRM.Services.WorkflowStepBase()
+  name.vb: WorkflowStepBase()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase
+    name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.EmailFlow.Triggers*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Triggers
+  isExternal: true
+  name: Triggers
+  nameWithType: EmailFlow.Triggers
+  fullName: SuperOffice.CRM.Services.EmailFlow.Triggers
+- uid: SuperOffice.CRM.Services.WorkflowTrigger[]
+  isExternal: true
+  name: WorkflowTrigger[]
+  nameWithType: WorkflowTrigger[]
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger[]
+  nameWithType.vb: WorkflowTrigger()
+  fullName.vb: SuperOffice.CRM.Services.WorkflowTrigger()
+  name.vb: WorkflowTrigger()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.CRM.Services.WorkflowTrigger
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowTrigger
+    name: WorkflowTrigger
+    nameWithType: WorkflowTrigger
+    fullName: SuperOffice.CRM.Services.WorkflowTrigger
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.EmailFlow.Goals*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Goals
+  isExternal: true
+  name: Goals
+  nameWithType: EmailFlow.Goals
+  fullName: SuperOffice.CRM.Services.EmailFlow.Goals
+- uid: SuperOffice.CRM.Services.WorkflowGoal[]
+  isExternal: true
+  name: WorkflowGoal[]
+  nameWithType: WorkflowGoal[]
+  fullName: SuperOffice.CRM.Services.WorkflowGoal[]
+  nameWithType.vb: WorkflowGoal()
+  fullName.vb: SuperOffice.CRM.Services.WorkflowGoal()
+  name.vb: WorkflowGoal()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.CRM.Services.WorkflowGoal
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowGoal
+    name: WorkflowGoal
+    nameWithType: WorkflowGoal
+    fullName: SuperOffice.CRM.Services.WorkflowGoal
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.EmailFlow.Filter*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.Filter
+  isExternal: true
+  name: Filter
+  nameWithType: EmailFlow.Filter
+  fullName: SuperOffice.CRM.Services.EmailFlow.Filter
+- uid: SuperOffice.CRM.Services.WorkflowFilter
+  commentId: T:SuperOffice.CRM.Services.WorkflowFilter
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WorkflowFilter
+  nameWithType: WorkflowFilter
+  fullName: SuperOffice.CRM.Services.WorkflowFilter
+- uid: SuperOffice.CRM.Services.EmailFlow.BlockLists*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.BlockLists
+  isExternal: true
+  name: BlockLists
+  nameWithType: EmailFlow.BlockLists
+  fullName: SuperOffice.CRM.Services.EmailFlow.BlockLists
+- uid: SuperOffice.CRM.Services.EmailFlow.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: EmailFlow.CreatedBy
+  fullName: SuperOffice.CRM.Services.EmailFlow.CreatedBy
+- uid: SuperOffice.CRM.Services.EmailFlow.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: EmailFlow.UpdatedBy
+  fullName: SuperOffice.CRM.Services.EmailFlow.UpdatedBy
+- uid: SuperOffice.CRM.Services.EmailFlow.CreatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: EmailFlow.CreatedDate
+  fullName: SuperOffice.CRM.Services.EmailFlow.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.EmailFlow.UpdatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: EmailFlow.UpdatedDate
+  fullName: SuperOffice.CRM.Services.EmailFlow.UpdatedDate
+- uid: SuperOffice.CRM.Services.EmailFlow.VisibleFor*
+  commentId: Overload:SuperOffice.CRM.Services.EmailFlow.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: EmailFlow.VisibleFor
+  fullName: SuperOffice.CRM.Services.EmailFlow.VisibleFor
+- uid: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  commentId: P:SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  parent: SuperOffice.CRM.Services.IVisibleForCarrier
+  isExternal: true
+  name: VisibleFor
+  nameWithType: IVisibleForCarrier.VisibleFor
+  fullName: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+- uid: SuperOffice.CRM.Services.VisibleFor[]
+  isExternal: true
+  name: VisibleFor[]
+  nameWithType: VisibleFor[]
+  fullName: SuperOffice.CRM.Services.VisibleFor[]
+  nameWithType.vb: VisibleFor()
+  fullName.vb: SuperOffice.CRM.Services.VisibleFor()
+  name.vb: VisibleFor()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -9,6 +9,7 @@ items:
   - SuperOffice.Data.CommandActionResult.Implicit
   - SuperOffice.Data.CommandActionResult.No
   - SuperOffice.Data.CommandActionResult.Ok
+  - SuperOffice.Data.CommandActionResult.value__
   - SuperOffice.Data.CommandActionResult.Yes
   langs:
   - csharp
@@ -16,7 +17,7 @@ items:
   name: CommandActionResult
   nameWithType: CommandActionResult
   fullName: SuperOffice.Data.CommandActionResult
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -25,19 +26,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nResult of an action\n"
   syntax:
-    content: public enum CommandActionResult
-    content.vb: Public Enum CommandActionResult
+    content: 'public sealed class CommandActionResult : Enum'
+    content.vb: >-
+      Public NotInheritable Class CommandActionResult
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.CommandActionResult.EnumUtil.MapEnums``2
-  - SuperOffice.Data.CommandActionResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CommandActionResult)
-  - SuperOffice.Data.CommandActionResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.CommandActionResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.CommandActionResult.value__
+  commentId: F:SuperOffice.Data.CommandActionResult.value__
+  id: value__
+  parent: SuperOffice.Data.CommandActionResult
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CommandActionResult.value__
+  fullName: SuperOffice.Data.CommandActionResult.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.CommandActionResult.Implicit
   commentId: F:SuperOffice.Data.CommandActionResult.Implicit
   id: Implicit
@@ -57,9 +93,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Command should be implicitly executed.\n"
   syntax:
-    content: Implicit = 0
+    content: public const CommandActionResult Implicit
     return:
       type: SuperOffice.Data.CommandActionResult
+    content.vb: Public Const Implicit As CommandActionResult
   modifiers.csharp:
   - public
   - const
@@ -85,9 +122,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: The user clicked Yes.\n"
   syntax:
-    content: Yes = 1
+    content: public const CommandActionResult Yes
     return:
       type: SuperOffice.Data.CommandActionResult
+    content.vb: Public Const Yes As CommandActionResult
   modifiers.csharp:
   - public
   - const
@@ -113,9 +151,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: The client clicked Ok\n"
   syntax:
-    content: Ok = 2
+    content: public const CommandActionResult Ok
     return:
       type: SuperOffice.Data.CommandActionResult
+    content.vb: Public Const Ok As CommandActionResult
   modifiers.csharp:
   - public
   - const
@@ -141,9 +180,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: The client clicked No\n"
   syntax:
-    content: No = 3
+    content: public const CommandActionResult No
     return:
       type: SuperOffice.Data.CommandActionResult
+    content.vb: Public Const No As CommandActionResult
   modifiers.csharp:
   - public
   - const
@@ -169,9 +209,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: The client clicked Cancel\n"
   syntax:
-    content: Cancel = 4
+    content: public const CommandActionResult Cancel
     return:
       type: SuperOffice.Data.CommandActionResult
+    content.vb: Public Const Cancel As CommandActionResult
   modifiers.csharp:
   - public
   - const
@@ -185,6 +226,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.CommandActionResult.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -212,84 +260,6 @@ references:
     name: MapEnums(Of CommandActionResult, To)
     nameWithType: EnumUtil.MapEnums(Of CommandActionResult, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.CommandActionResult, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.CommandActionResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CommandActionResult)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<CommandActionResult>(CommandActionResult)
-  nameWithType: ObjectExtensions.AssignByReflection<CommandActionResult>(CommandActionResult)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CommandActionResult>(SuperOffice.Data.CommandActionResult)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CommandActionResult)(CommandActionResult)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CommandActionResult)(SuperOffice.Data.CommandActionResult)
-  name.vb: AssignByReflection(Of CommandActionResult)(CommandActionResult)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<CommandActionResult>
-    nameWithType: ObjectExtensions.AssignByReflection<CommandActionResult>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CommandActionResult>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.CommandActionResult
-    name: CommandActionResult
-    nameWithType: CommandActionResult
-    fullName: SuperOffice.Data.CommandActionResult
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of CommandActionResult)
-    nameWithType: ObjectExtensions.AssignByReflection(Of CommandActionResult)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CommandActionResult)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.CommandActionResult
-    name: CommandActionResult
-    nameWithType: CommandActionResult
-    fullName: SuperOffice.Data.CommandActionResult
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.CommandActionResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<CommandActionResult>()
-  nameWithType: ObjectExtensions.GraphCopy<CommandActionResult>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CommandActionResult>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CommandActionResult)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CommandActionResult)()
-  name.vb: GraphCopy(Of CommandActionResult)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<CommandActionResult>
-    nameWithType: ObjectExtensions.GraphCopy<CommandActionResult>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CommandActionResult>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of CommandActionResult)
-    nameWithType: ObjectExtensions.GraphCopy(Of CommandActionResult)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CommandActionResult)
     isExternal: true
   - name: (
     nameWithType: (
@@ -331,6 +301,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -376,103 +352,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -519,18 +398,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.CommandActionResult
   commentId: T:SuperOffice.Data.CommandActionResult
   parent: SuperOffice.Data

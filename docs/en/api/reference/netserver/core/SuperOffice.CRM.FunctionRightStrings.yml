@@ -8,6 +8,8 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.AdminAll
   - SuperOffice.CRM.FunctionRightStrings.AdminAudience
   - SuperOffice.CRM.FunctionRightStrings.AdminDashboard
+  - SuperOffice.CRM.FunctionRightStrings.AdminEmailFlow
+  - SuperOffice.CRM.FunctionRightStrings.AdminEmailFlowAssets
   - SuperOffice.CRM.FunctionRightStrings.AdminImport
   - SuperOffice.CRM.FunctionRightStrings.AdminLists
   - SuperOffice.CRM.FunctionRightStrings.AdminPreferences
@@ -68,12 +70,14 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.HideReporter
   - SuperOffice.CRM.FunctionRightStrings.HideSale
   - SuperOffice.CRM.FunctionRightStrings.HideSelection
+  - SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
   - SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   - SuperOffice.CRM.FunctionRightStrings.ManageEntities
   - SuperOffice.CRM.FunctionRightStrings.ManagePersonConsent
   - SuperOffice.CRM.FunctionRightStrings.SeeOtherCompaniesAssociates
   - SuperOffice.CRM.FunctionRightStrings.SyncadminAll
   - SuperOffice.CRM.FunctionRightStrings.SyncadminUser
+  - SuperOffice.CRM.FunctionRightStrings.TargetsAdminstrator
   langs:
   - csharp
   - vb
@@ -89,18 +93,13 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe programmatic, well-known and constant names of functional rights\n"
   syntax:
-    content: public static class FunctionRightStrings
-    content.vb: Public Module FunctionRightStrings
+    content: 'public static class FunctionRightStrings : Object'
+    content.vb: >-
+      Public Module FunctionRightStrings
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -618,7 +617,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nA user who has this right will NOT see the reporter panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
+  summary: "\nA user who has this right will NOT see the reporter panel. This supersedes the corresponding &apos;Cripple&apos; preference.\nNOTE: This right can be programmatically set if the featuretoggle DisableReporter is on, OR we are running in Azure.\nIt&apos;s injected into the FunctionRightCache by code in its OnLoad; if that happens then it will also not be visible in Admin.\nIf such programmatic setting is not triggered, ordinary settings through Admin still work.\n"
   syntax:
     content: public const string HideReporter = "hide-reporter"
     return:
@@ -2080,6 +2079,122 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
+  id: LockUnlockTargetAssignment
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: LockUnlockTargetAssignment
+  nameWithType: FunctionRightStrings.LockUnlockTargetAssignment
+  fullName: SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nCan lock / unlock a target assignment\n"
+  syntax:
+    content: public const string LockUnlockTargetAssignment = "lock-unlock-target-assignment"
+    return:
+      type: System.String
+    content.vb: Public Const LockUnlockTargetAssignment As String = "lock-unlock-target-assignment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlow
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminEmailFlow
+  id: AdminEmailFlow
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminEmailFlow
+  nameWithType: FunctionRightStrings.AdminEmailFlow
+  fullName: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlow
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nCan an create and save a flow, can edit a flow, can run a flow, can create, edit, delete flow assets, can cancel a flow. \n"
+  syntax:
+    content: public const string AdminEmailFlow = "admin-email-flow"
+    return:
+      type: System.String
+    content.vb: Public Const AdminEmailFlow As String = "admin-email-flow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlowAssets
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminEmailFlowAssets
+  id: AdminEmailFlowAssets
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminEmailFlowAssets
+  nameWithType: FunctionRightStrings.AdminEmailFlowAssets
+  fullName: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlowAssets
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nCan create a new flow and save it. Edit button disabled, Run button disabled, cancel flow in task menu disabled. Can add, edit, delete flow assets.. \n"
+  syntax:
+    content: public const string AdminEmailFlowAssets = "admin-email-flow-assets"
+    return:
+      type: System.String
+    content.vb: Public Const AdminEmailFlowAssets As String = "admin-email-flow-assets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.FunctionRightStrings.TargetsAdminstrator
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.TargetsAdminstrator
+  id: TargetsAdminstrator
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: TargetsAdminstrator
+  nameWithType: FunctionRightStrings.TargetsAdminstrator
+  fullName: SuperOffice.CRM.FunctionRightStrings.TargetsAdminstrator
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nAdd, edit and remove target types\n"
+  syntax:
+    content: public const string TargetsAdminstrator = "targets-administrator"
+    return:
+      type: System.String
+    content.vb: Public Const TargetsAdminstrator As String = "targets-administrator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowSendEMail
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowSendEMail
   id: AllowSendEMail
@@ -2123,285 +2238,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

@@ -214,7 +214,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SaleDate As Date
+    content.vb: Public Overridable Property SaleDate As DateTime
   overload: SuperOffice.CRM.Services.Sale.SaleDate*
   modifiers.csharp:
   - public
@@ -940,7 +940,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property NextDueDate As Date
+    content.vb: Public Overridable Property NextDueDate As DateTime
   overload: SuperOffice.CRM.Services.Sale.NextDueDate*
   modifiers.csharp:
   - public
@@ -990,13 +990,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.SaleAgent
   commentId: T:SuperOffice.CRM.Services.SaleAgent
   isExternal: true
@@ -1010,12 +1003,6 @@ references:
   name: ISaleAgent
   nameWithType: ISaleAgent
   fullName: SuperOffice.CRM.Services.ISaleAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Sale.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Sale.#ctor
   isExternal: true
@@ -1035,6 +1022,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Sale.ContactName*
   commentId: Overload:SuperOffice.CRM.Services.Sale.ContactName
   isExternal: true
@@ -1048,8 +1041,6 @@ references:
   nameWithType: Sale.SaleDate
   fullName: SuperOffice.CRM.Services.Sale.SaleDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

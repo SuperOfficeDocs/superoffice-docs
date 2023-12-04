@@ -7,13 +7,13 @@ items:
   children:
   - SuperOffice.Configuration.ConfigFile.AddOverride(System.String,System.String,System.String)
   - SuperOffice.Configuration.ConfigFile.AddOverrides(System.String[0:,0:])
+  - SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline(System.Boolean)
   - SuperOffice.Configuration.ConfigFile.GetAllOverrides
   - SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
-  - SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
   - SuperOffice.Configuration.ConfigFile.HasOverride(System.String,System.String)
+  - SuperOffice.Configuration.ConfigFile.IsOnline
   - SuperOffice.Configuration.ConfigFile.RemoveAllOverrides
   - SuperOffice.Configuration.ConfigFile.RemoveOverride(System.String,System.String)
-  - SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
   - SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
   - SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
   langs:
@@ -32,18 +32,13 @@ items:
   summary: "\nUtility class used to access the SuperOffice entry in the Config file.\n"
   remarks: "\nIMPORTANT:<p></p>\nAvoid reading directly from configurationfile like this;\n<pre><code>_values = (NameValueCollection)ConfigurationSettings.GetConfig(&quot;SuperOffice/Security/Sentry&quot;);</code></pre>\n\nInstead use this;\n<pre><code>_values = (NameValueCollection)ConfigFile.GetConfig(&quot;SuperOffice/Diagnostics&quot;);</code></pre>\n\nThis enables the code to check for missing configuration files, and missing xml sections,\nthus, enabling the code to throw appropriate exceptions.\n"
   syntax:
-    content: public static class ConfigFile
-    content.vb: Public Module ConfigFile
+    content: 'public static class ConfigFile : Object'
+    content.vb: >-
+      Public Module ConfigFile
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -261,67 +256,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
-  commentId: M:SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
-  id: GetEffectiveConfig
-  parent: SuperOffice.Configuration.ConfigFile
-  langs:
-  - csharp
-  - vb
-  name: GetEffectiveConfig()
-  nameWithType: ConfigFile.GetEffectiveConfig()
-  fullName: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  syntax:
-    content: public static string GetEffectiveConfig()
-    return:
-      type: System.String
-    content.vb: Public Shared Function GetEffectiveConfig As String
-  overload: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
-  commentId: M:SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
-  id: SaveEffectiveConfig(System.String)
-  parent: SuperOffice.Configuration.ConfigFile
-  langs:
-  - csharp
-  - vb
-  name: SaveEffectiveConfig(String)
-  nameWithType: ConfigFile.SaveEffectiveConfig(String)
-  fullName: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: "\nConstruct the &quot;effective&quot; config, including overrides, and write it to the given file\n"
-  remarks: "\nNo file is written if the file already exists and has the correct content.\nIf the existing file does not exist or cannot be opened, then writing will be attempted.\nIf writing fails, then the method will wait for one second and try again\n(in case of conflict with another process); after five attempts it gives up.\nNo exceptions are thrown, regardless of outcome.\n"
-  syntax:
-    content: public static void SaveEffectiveConfig(string fullPath)
-    parameters:
-    - id: fullPath
-      type: System.String
-    content.vb: Public Shared Sub SaveEffectiveConfig(fullPath As String)
-  overload: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
   commentId: M:SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
   id: GetConfig(System.String)
@@ -389,6 +323,37 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline(System.Boolean)
+  commentId: M:SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline(System.Boolean)
+  id: ForceOverrideIsOnline(System.Boolean)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: ForceOverrideIsOnline(Boolean)
+  nameWithType: ConfigFile.ForceOverrideIsOnline(Boolean)
+  fullName: SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline(System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nWARNING: Test-only method.\nThis method is only meant to be used within unit-tests which needs to check online-specific\nbehaviour.\n\nInvoking this function should never be done from regular, production code.\n\nEvent in tests, using this method directly is not really recommended, but instead one should\nuse the <see cref=\"!:TemporaryOnlineState\"></see> helper-class.\n\n"
+  syntax:
+    content: public static void ForceOverrideIsOnline(bool isOnline)
+    parameters:
+    - id: isOnline
+      type: System.Boolean
+    content.vb: Public Shared Sub ForceOverrideIsOnline(isOnline As Boolean)
+  overload: SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
   commentId: M:SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
   id: ToValueList(System.Collections.Specialized.NameValueCollection)
@@ -425,6 +390,40 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Configuration.ConfigFile.IsOnline
+  commentId: P:SuperOffice.Configuration.ConfigFile.IsOnline
+  id: IsOnline
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: IsOnline
+  nameWithType: ConfigFile.IsOnline
+  fullName: SuperOffice.Configuration.ConfigFile.IsOnline
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturn true if this config is set up for SuperOffice Online: appSettings/IsOnline = true\n"
+  remarks: "\nAlso checks appSettings/ConfigServiceBaseUrl and appSettings/PublicApiUrl for URL-ish values\nif the Online value cannot be found.\n"
+  syntax:
+    content: public static bool IsOnline { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsOnline As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IsOnline*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
@@ -439,285 +438,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -800,18 +520,6 @@ references:
   name: RemoveOverride
   nameWithType: ConfigFile.RemoveOverride
   fullName: SuperOffice.Configuration.ConfigFile.RemoveOverride
-- uid: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
-  isExternal: true
-  name: GetEffectiveConfig
-  nameWithType: ConfigFile.GetEffectiveConfig
-  fullName: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
-- uid: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig
-  isExternal: true
-  name: SaveEffectiveConfig
-  nameWithType: ConfigFile.SaveEffectiveConfig
-  fullName: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig
 - uid: SuperOffice.Configuration.ConfigFile.GetConfig*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.GetConfig
   isExternal: true
@@ -829,6 +537,12 @@ references:
   name: SetConfigFile
   nameWithType: ConfigFile.SetConfigFile
   fullName: SuperOffice.Configuration.ConfigFile.SetConfigFile
+- uid: SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline
+  isExternal: true
+  name: ForceOverrideIsOnline
+  nameWithType: ConfigFile.ForceOverrideIsOnline
+  fullName: SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline
 - uid: SuperOffice.Configuration.ConfigFile.ToValueList*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.ToValueList
   isExternal: true
@@ -836,8 +550,7 @@ references:
   nameWithType: ConfigFile.ToValueList
   fullName: SuperOffice.Configuration.ConfigFile.ToValueList
 - uid: System.Collections.Generic.List{System.String}
-  commentId: T:System.Collections.Generic.List{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.String}'
   definition: System.Collections.Generic.List`1
   name: List<String>
   nameWithType: List<String>
@@ -880,14 +593,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -897,9 +609,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -912,15 +624,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
+- uid: SuperOffice.Configuration.ConfigFile.IsOnline*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IsOnline
   isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
+  name: IsOnline
+  nameWithType: ConfigFile.IsOnline
+  fullName: SuperOffice.Configuration.ConfigFile.IsOnline

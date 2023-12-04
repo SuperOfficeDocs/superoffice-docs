@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.FacadeHelper
+  commentId: T:SuperOffice.CRM.FacadeHelper
+  id: FacadeHelper
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.FacadeHelper.#ctor
+  - SuperOffice.CRM.FacadeHelper.CallFacadeMethod(System.String,System.Object)
+  - SuperOffice.CRM.FacadeHelper.CallFacadeMethod``1(System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: FacadeHelper
+  nameWithType: FacadeHelper
+  fullName: SuperOffice.CRM.FacadeHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: 'public class FacadeHelper : Object'
+    content.vb: >-
+      Public Class FacadeHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.FacadeHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.FacadeHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FacadeHelper)
+  - SuperOffice.CRM.FacadeHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.FacadeHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.FacadeHelper.CallFacadeMethod(System.String,System.Object)
+  commentId: M:SuperOffice.CRM.FacadeHelper.CallFacadeMethod(System.String,System.Object)
+  id: CallFacadeMethod(System.String,System.Object)
+  parent: SuperOffice.CRM.FacadeHelper
+  langs:
+  - csharp
+  - vb
+  name: CallFacadeMethod(String, Object)
+  nameWithType: FacadeHelper.CallFacadeMethod(String, Object)
+  fullName: SuperOffice.CRM.FacadeHelper.CallFacadeMethod(System.String, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string CallFacadeMethod(string methodName, object arguments)
+    parameters:
+    - id: methodName
+      type: System.String
+    - id: arguments
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function CallFacadeMethod(methodName As String, arguments As Object) As String
+  overload: SuperOffice.CRM.FacadeHelper.CallFacadeMethod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.FacadeHelper.CallFacadeMethod``1(System.String,System.Object)
+  commentId: M:SuperOffice.CRM.FacadeHelper.CallFacadeMethod``1(System.String,System.Object)
+  id: CallFacadeMethod``1(System.String,System.Object)
+  parent: SuperOffice.CRM.FacadeHelper
+  langs:
+  - csharp
+  - vb
+  name: CallFacadeMethod<T>(String, Object)
+  nameWithType: FacadeHelper.CallFacadeMethod<T>(String, Object)
+  fullName: SuperOffice.CRM.FacadeHelper.CallFacadeMethod<T>(System.String, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static T CallFacadeMethod<T>(string methodName, object arguments)
+    parameters:
+    - id: methodName
+      type: System.String
+    - id: arguments
+      type: System.Object
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CallFacadeMethod(Of T)(methodName As String, arguments As Object) As T
+  overload: SuperOffice.CRM.FacadeHelper.CallFacadeMethod*
+  nameWithType.vb: FacadeHelper.CallFacadeMethod(Of T)(String, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.FacadeHelper.CallFacadeMethod(Of T)(System.String, System.Object)
+  name.vb: CallFacadeMethod(Of T)(String, Object)
+- uid: SuperOffice.CRM.FacadeHelper.#ctor
+  commentId: M:SuperOffice.CRM.FacadeHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.FacadeHelper
+  langs:
+  - csharp
+  - vb
+  name: FacadeHelper()
+  nameWithType: FacadeHelper.FacadeHelper()
+  fullName: SuperOffice.CRM.FacadeHelper.FacadeHelper()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public FacadeHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.FacadeHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.FacadeHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FacadeHelper, To>()
+  nameWithType: EnumUtil.MapEnums<FacadeHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.FacadeHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FacadeHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.FacadeHelper, To)()
+  name.vb: MapEnums(Of FacadeHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FacadeHelper, To>
+    nameWithType: EnumUtil.MapEnums<FacadeHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.FacadeHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FacadeHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of FacadeHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.FacadeHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FacadeHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FacadeHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FacadeHelper>(FacadeHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<FacadeHelper>(FacadeHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.FacadeHelper>(SuperOffice.CRM.FacadeHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FacadeHelper)(FacadeHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.FacadeHelper)(SuperOffice.CRM.FacadeHelper)
+  name.vb: AssignByReflection(Of FacadeHelper)(FacadeHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FacadeHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<FacadeHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.FacadeHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FacadeHelper
+    name: FacadeHelper
+    nameWithType: FacadeHelper
+    fullName: SuperOffice.CRM.FacadeHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FacadeHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FacadeHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.FacadeHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.FacadeHelper
+    name: FacadeHelper
+    nameWithType: FacadeHelper
+    fullName: SuperOffice.CRM.FacadeHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FacadeHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FacadeHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<FacadeHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.FacadeHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FacadeHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.FacadeHelper)()
+  name.vb: GraphCopy(Of FacadeHelper)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FacadeHelper>
+    nameWithType: ObjectExtensions.GraphCopy<FacadeHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.FacadeHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FacadeHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of FacadeHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.FacadeHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.FacadeHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FacadeHelper, To>()
+  nameWithType: Converters.MapEnums<FacadeHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.FacadeHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of FacadeHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.FacadeHelper, To)()
+  name.vb: MapEnums(Of FacadeHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FacadeHelper, To>
+    nameWithType: Converters.MapEnums<FacadeHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.FacadeHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FacadeHelper, To)
+    nameWithType: Converters.MapEnums(Of FacadeHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.FacadeHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.FacadeHelper.CallFacadeMethod*
+  commentId: Overload:SuperOffice.CRM.FacadeHelper.CallFacadeMethod
+  isExternal: true
+  name: CallFacadeMethod
+  nameWithType: FacadeHelper.CallFacadeMethod
+  fullName: SuperOffice.CRM.FacadeHelper.CallFacadeMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.CRM.FacadeHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.FacadeHelper.#ctor
+  isExternal: true
+  name: FacadeHelper
+  nameWithType: FacadeHelper.FacadeHelper
+  fullName: SuperOffice.CRM.FacadeHelper.FacadeHelper

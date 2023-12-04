@@ -24,6 +24,7 @@ items:
   - SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
   - SuperOffice.Data.QueryExecutionHelper.Reader
   - SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
+  - SuperOffice.Data.QueryExecutionHelper.RowsAffected
   langs:
   - csharp
   - vb
@@ -40,22 +41,17 @@ items:
   summary: "\nHelper class for executing queries. This class encapsulates the process of getting a connection,\nmaking a command, running it, and cleaning up afterwards.\n"
   remarks: "\nThis class is most useful in cases where you need to run just one query. This usually calls for a series of\noperations, and try/catch code to make it exception proof to leave no dangling connections or readers. When used\ntogether with a &apos;using&apos; statement as in the example, a good cleanup is guaranteed.\n<example>\nTo use this class, do something similar to this:\n<pre><code>Select appntQuery = S.NewSelect();\nAppointmentTableInfo appntInfo = TablesInfo.GetAppointmentTableInfo();\nappntQuery.ReturnFields.Add( appntInfo.ActiveDate, appntInfo.FreeBusy );\nappntQuery.Restriction = appntInfo.AssociateId.Equal( S.Parameter( taskInfo._associateId ) ).\n	And( appntInfo.ActiveDate.Between( S.Parameter( taskInfo._startDate ), S.Parameter( taskInfo._endDate ) ) ).\n	And( appntInfo.Type.In( \n		S.Parameter( AppointmentType.inDiary ), \n		S.Parameter( AppointmentType.inChecklist ),\n		S.Parameter( AppointmentType.BookingForDiary ),\n		S.Parameter( AppointmentType.BookingForChecklist ) ) );\n\nusing( QueryExecutionHelper qeh = new QueryExecutionHelper( appntQuery ) )\n{\n	while( qeh.Reader.Read() )\n	{\n		ActivitySummary item = taskInfo._items[qeh.Reader.GetDateTime( appntInfo.ActiveDate ).Date];\n		bool isFree = qeh.Reader.GetInt16( appntInfo.FreeBusy ) == 1;\n		if( isFree )\n			++item.NumFreeActivities;\n		else\n			++item.NumBusyActivities;\n	}\n}</code></pre></example>\nYou can also use the class to run insert/update/delete queries, by using one of the constructors that\ntakes an ExecutionType as an argument.\n"
   syntax:
-    content: 'public sealed class QueryExecutionHelper : IDisposable'
+    content: 'public sealed class QueryExecutionHelper : Object, IDisposable'
     content.vb: >-
       Public NotInheritable Class QueryExecutionHelper
+
+          Inherits Object
+
           Implements IDisposable
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.QueryExecutionHelper.EnumUtil.MapEnums``2
   - SuperOffice.Data.QueryExecutionHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -400,7 +396,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\n"
   syntax:
-    content: public static void ExecuteNonQuery(SqlCommand command, bool ignoreSentry)
+    content: public static int ExecuteNonQuery(SqlCommand command, bool ignoreSentry)
     parameters:
     - id: command
       type: SuperOffice.Data.SQL.SqlCommand
@@ -408,7 +404,10 @@ items:
     - id: ignoreSentry
       type: System.Boolean
       description: Should sentry be ignored
-    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean)
+    return:
+      type: System.Int32
+      description: Number of rows affected, as reported by database server
+    content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean) As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
   modifiers.csharp:
   - public
@@ -435,12 +434,15 @@ items:
   namespace: SuperOffice.Data
   summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\nIn this overload, sentry is ON.\n"
   syntax:
-    content: public static void ExecuteNonQuery(SqlCommand command)
+    content: public static int ExecuteNonQuery(SqlCommand command)
     parameters:
     - id: command
       type: SuperOffice.Data.SQL.SqlCommand
       description: Command to execute
-    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand)
+    return:
+      type: System.Int32
+      description: Number of rows affected, as reported by database server
+    content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand) As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
   modifiers.csharp:
   - public
@@ -546,7 +548,7 @@ items:
   namespace: SuperOffice.Data
   summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\n"
   syntax:
-    content: public static void ExecuteNonQuery(SqlCommand command, bool ignoreSentry, SoConnection explicitConnection)
+    content: public static int ExecuteNonQuery(SqlCommand command, bool ignoreSentry, SoConnection explicitConnection)
     parameters:
     - id: command
       type: SuperOffice.Data.SQL.SqlCommand
@@ -556,7 +558,9 @@ items:
       description: Should sentry be ignored
     - id: explicitConnection
       type: SuperOffice.Data.SoConnection
-    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean, explicitConnection As SoConnection)
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean, explicitConnection As SoConnection) As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
   modifiers.csharp:
   - public
@@ -583,14 +587,16 @@ items:
   namespace: SuperOffice.Data
   summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\nIn this overload, sentry is ON.\n"
   syntax:
-    content: public static void ExecuteNonQuery(SqlCommand command, SoConnection explicitConnection)
+    content: public static int ExecuteNonQuery(SqlCommand command, SoConnection explicitConnection)
     parameters:
     - id: command
       type: SuperOffice.Data.SQL.SqlCommand
       description: Command to execute
     - id: explicitConnection
       type: SuperOffice.Data.SoConnection
-    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand, explicitConnection As SoConnection)
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ExecuteNonQuery(command As SqlCommand, explicitConnection As SoConnection) As Integer
   overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
   modifiers.csharp:
   - public
@@ -656,8 +662,6 @@ items:
     content: public void Dispose()
     content.vb: Public Sub Dispose
   overload: SuperOffice.Data.QueryExecutionHelper.Dispose*
-  implements:
-  - System.IDisposable.Dispose
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -724,6 +728,36 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.Data.QueryExecutionHelper.RowsAffected
+  commentId: P:SuperOffice.Data.QueryExecutionHelper.RowsAffected
+  id: RowsAffected
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: RowsAffected
+  nameWithType: QueryExecutionHelper.RowsAffected
+  fullName: SuperOffice.Data.QueryExecutionHelper.RowsAffected
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int RowsAffected { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RowsAffected As Integer
+  overload: SuperOffice.Data.QueryExecutionHelper.RowsAffected*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -739,291 +773,10 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.QueryExecutionHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1263,6 +1016,13 @@ references:
   name: ExecuteNonQuery
   nameWithType: QueryExecutionHelper.ExecuteNonQuery
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock
   isExternal: true
@@ -1270,8 +1030,6 @@ references:
   nameWithType: QueryExecutionHelper.RepeatIfDeadlock
   fullName: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock
 - uid: System.Action
-  commentId: T:System.Action
-  parent: System
   isExternal: true
   name: Action
   nameWithType: Action
@@ -1282,37 +1040,6 @@ references:
   name: Dispose
   nameWithType: QueryExecutionHelper.Dispose
   fullName: SuperOffice.Data.QueryExecutionHelper.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.QueryExecutionHelper.Reader*
   commentId: Overload:SuperOffice.Data.QueryExecutionHelper.Reader
   isExternal: true
@@ -1332,3 +1059,9 @@ references:
   name: IsSentryIgnored
   nameWithType: QueryExecutionHelper.IsSentryIgnored
   fullName: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
+- uid: SuperOffice.Data.QueryExecutionHelper.RowsAffected*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.RowsAffected
+  isExternal: true
+  name: RowsAffected
+  nameWithType: QueryExecutionHelper.RowsAffected
+  fullName: SuperOffice.Data.QueryExecutionHelper.RowsAffected

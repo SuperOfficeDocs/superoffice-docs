@@ -49,8 +49,6 @@ items:
   - SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateId(System.String)
   - SuperOffice.CRM.Documents.PhysicalDocument.GetTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
   - SuperOffice.CRM.Documents.PhysicalDocument.GetVersionList
-  - SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  - SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
   - SuperOffice.CRM.Documents.PhysicalDocument.IsNameValid(System.String)
   - SuperOffice.CRM.Documents.PhysicalDocument.Length
   - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
@@ -61,12 +59,11 @@ items:
   - SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream(System.String,System.Boolean,System.String)
   - SuperOffice.CRM.Documents.PhysicalDocument.LoadMetaData
   - SuperOffice.CRM.Documents.PhysicalDocument.LoadVersionInfo(System.String)
-  - SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Documents.PhysicalDocument.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
   - SuperOffice.CRM.Documents.PhysicalDocument.RenameDocument(System.String)
   - SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
   - SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream(System.String[],System.IO.Stream)
-  - SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
+  - SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32,System.String)
   - SuperOffice.CRM.Documents.PhysicalDocument.SaveMetaData(System.String[])
   - SuperOffice.CRM.Documents.PhysicalDocument.SetDocumentTemplateFromDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,SuperOffice.CRM.IDocumentTemplateInfo)
   - SuperOffice.CRM.Documents.PhysicalDocument.SuggestFilename
@@ -86,24 +83,19 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
   summary: "\nFacade for the Document Plugin system, and one-stop-shop for physical-document operations\n"
-  remarks: "\nAn instance of this class represents a physical document in a document archive, and can be\nused to manipulate (Load, Save) that document and its metadata. Instances are constructed\nusing a static factory function, always based on an already existing information in the \ndatabase.\n<p></p>\nStatic methods also provide access to document template functions and other \nnon-document specific functions.\n"
+  remarks: "\nAn instance of this class represents a physical document in a document archive, and can be\nused to manipulate (Load, Save) that document and its metadata. Instances are constructed\nusing a static factory function, always based on an already existing information in the\ndatabase.\n<p></p>\nStatic methods also provide access to document template functions and other\nnon-document specific functions.\n"
   syntax:
-    content: 'public sealed class PhysicalDocument : IStreamProvider'
+    content: 'public sealed class PhysicalDocument : Object, IStreamProvider'
     content.vb: >-
       Public NotInheritable Class PhysicalDocument
+
+          Inherits Object
+
           Implements IStreamProvider
   inheritance:
   - System.Object
   implements:
   - SuperOffice.IO.IStreamProvider
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Documents.PhysicalDocument.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Documents.PhysicalDocument.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -588,6 +580,65 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
+  id: GetDocumentUrl
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl()
+  nameWithType: PhysicalDocument.GetDocumentUrl()
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string GetDocumentUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetDocumentUrl As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String,System.Boolean)
+  id: GetDocumentUrl(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Documents.PhysicalDocument
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl(String, Boolean)
+  nameWithType: PhysicalDocument.GetDocumentUrl(String, Boolean)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string GetDocumentUrl(string versionId, bool writeableUrl)
+    parameters:
+    - id: versionId
+      type: System.String
+    - id: writeableUrl
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function GetDocumentUrl(versionId As String, writeableUrl As Boolean) As String
+  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
   id: GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
@@ -624,65 +675,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String,System.Boolean)
-  id: GetDocumentUrl(System.String,System.Boolean)
-  parent: SuperOffice.CRM.Documents.PhysicalDocument
-  langs:
-  - csharp
-  - vb
-  name: GetDocumentUrl(String, Boolean)
-  nameWithType: PhysicalDocument.GetDocumentUrl(String, Boolean)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl(System.String, System.Boolean)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  syntax:
-    content: public string GetDocumentUrl(string versionId, bool writeableUrl)
-    parameters:
-    - id: versionId
-      type: System.String
-    - id: writeableUrl
-      type: System.Boolean
-    return:
-      type: System.String
-    content.vb: Public Function GetDocumentUrl(versionId As String, writeableUrl As Boolean) As String
-  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl
-  id: GetDocumentUrl
-  parent: SuperOffice.CRM.Documents.PhysicalDocument
-  langs:
-  - csharp
-  - vb
-  name: GetDocumentUrl()
-  nameWithType: PhysicalDocument.GetDocumentUrl()
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  syntax:
-    content: public string GetDocumentUrl()
-    return:
-      type: System.String
-    content.vb: Public Function GetDocumentUrl As String
-  overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentUrl*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument(System.String[])
   commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.DeleteDocument(System.String[])
   id: DeleteDocument(System.String[])
@@ -965,55 +957,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
-  id: MailMergeDocumentToFile(System.Int32,System.Int32,System.Int32)
+- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32,System.String)
+  id: SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32,System.String)
   parent: SuperOffice.CRM.Documents.PhysicalDocument
   langs:
   - csharp
   - vb
-  name: MailMergeDocumentToFile(Int32, Int32, Int32)
-  nameWithType: PhysicalDocument.MailMergeDocumentToFile(Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile(System.Int32, System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  summary: "\nPerform a document MailMerge: A merge-with-tags, using a document (not template!) as a source, and writing the output to a temp file\n"
-  syntax:
-    content: public string MailMergeDocumentToFile(int contactId, int personId, int selectionId)
-    parameters:
-    - id: contactId
-      type: System.Int32
-      description: Recipient contact id
-    - id: personId
-      type: System.Int32
-      description: Recipient person id
-    - id: selectionId
-      type: System.Int32
-      description: Current selection id (cannot be deduced from document, or other known parameters)
-    return:
-      type: System.String
-      description: Full path of temp file that contains the result; the caller is responsible for deleting this file
-    content.vb: Public Function MailMergeDocumentToFile(contactId As Integer, personId As Integer, selectionId As Integer) As String
-  overload: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
-  id: SaveDocumentTemplateStream(System.Int32,System.IO.Stream,System.String,System.Int32)
-  parent: SuperOffice.CRM.Documents.PhysicalDocument
-  langs:
-  - csharp
-  - vb
-  name: SaveDocumentTemplateStream(Int32, Stream, String, Int32)
-  nameWithType: PhysicalDocument.SaveDocumentTemplateStream(Int32, Stream, String, Int32)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32, System.IO.Stream, System.String, System.Int32)
+  name: SaveDocumentTemplateStream(Int32, Stream, String, Int32, String)
+  nameWithType: PhysicalDocument.SaveDocumentTemplateStream(Int32, Stream, String, Int32, String)
+  fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream(System.Int32, System.IO.Stream, System.String, System.Int32, System.String)
   type: Method
   source:
     path: SoDataBase
@@ -1023,7 +976,7 @@ items:
   namespace: SuperOffice.CRM.Documents
   summary: "\nCreate or update the document template contents. Usually used when uploading a file to a new document template.\n"
   syntax:
-    content: public static TemplateInfo SaveDocumentTemplateStream(int documentTemplateId, Stream content, string uiCulture, int pluginId)
+    content: public static TemplateInfo SaveDocumentTemplateStream(int documentTemplateId, Stream content, string uiCulture, int pluginId, string providedFilename = null)
     parameters:
     - id: documentTemplateId
       type: System.Int32
@@ -1037,10 +990,13 @@ items:
     - id: pluginId
       type: System.Int32
       description: If negative, use the plugin specified in the document template&apos;s load-from-plugin-id field
+    - id: providedFilename
+      type: System.String
+      description: If provided and non-ewmpty, will be used to override extref value passed along to document plugin. Required to support replacing file-formats for existing templates (among other things)
     return:
       type: SuperOffice.CRM.Documents.TemplateInfo
       description: Template information with ExtRef/Filename and MimeType filled in. These values are saved in the DocTmpl record.
-    content.vb: Public Shared Function SaveDocumentTemplateStream(documentTemplateId As Integer, content As Stream, uiCulture As String, pluginId As Integer) As TemplateInfo
+    content.vb: Public Shared Function SaveDocumentTemplateStream(documentTemplateId As Integer, content As Stream, uiCulture As String, pluginId As Integer, providedFilename As String = Nothing) As TemplateInfo
   overload: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream*
   modifiers.csharp:
   - public
@@ -1065,7 +1021,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nGet the &quot;extension&quot; for the template, i.e., what the file extension would have been - to \nhelp identify the stream content format.\n"
+  summary: "\nGet the &quot;extension&quot; for the template, i.e., what the file extension would have been - to\nhelp identify the stream content format.\n"
   remarks: "\nTemplate documents are generally created in text editors and stored as files of some kind. The\nfile extension indicates the kind of document - doc, docx, xls, txt, and so on. While the template\nmay be stored inside the document repository as any kind of data byte collection, a concept\nakin to the file extension is still needed to help identify the document format, ahead of actually\nreading the template content.\n"
   syntax:
     content: public static string GetTemplateExtension(int documentTemplateId)
@@ -1133,7 +1089,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nGet a list of supported document template types. \n"
+  summary: "\nGet a list of supported document template types.\n"
   syntax:
     content: public static Dictionary<int, string> GetDocumentTypesForDocumentTemplates(int pluginId)
     parameters:
@@ -1244,7 +1200,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
   summary: "\nGet a WebDAV-compliant URL referring to the given document template\n"
-  remarks: "\nDocument plugins may support document access via WebDAV. This call is used to retrieve a WebDAV url that \nwill give the specified access to the document. This URL will be passed to the ultimate client \n(most probably a text editor application), and control will not return to NetServer.\n<p></p>\nThe string returned here should be a fully resolved URL that can be given directly to the editor application.\n"
+  remarks: "\nDocument plugins may support document access via WebDAV. This call is used to retrieve a WebDAV url that\nwill give the specified access to the document. This URL will be passed to the ultimate client\n(most probably a text editor application), and control will not return to NetServer.\n<p></p>\nThe string returned here should be a fully resolved URL that can be given directly to the editor application.\n"
   syntax:
     content: public static string GetDocumentTemplateUrl(int documentTemplateId, bool writableUrl, string languageCode)
     parameters:
@@ -1367,7 +1323,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
   summary: "\nExecute a custom command on a specified document and version\n"
-  remarks: "\nThis command is called when the user chooses an action item from a dropdown/context menu. \nIt is also reflected in the DocumentAgent service interface, so that custom GUI’s and external \ncode can directly execute document plugin commands; this is useful if a plugin also has some \ncorresponding custom GUI that needs to execute commands depending on user interaction.\n<p></p>\nThe parameter <code data-dev-comment-type=\"paramref\" class=\"paramref\">allowedReturnTypes</code> can be used by clients to hint to the plugin\nwhat kind of return value processing is available. For instance, a mobile client might\nonly offer None and Message, and this information can be used by the document plugin to adapt\nthe processing of a command, if it wants to (for instance, use default values instead of\ntriggering some more advanced workflow).\n<p></p>\nThe command is obtained from the <xref href=\"SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method.\n"
+  remarks: "\nThis command is called when the user chooses an action item from a dropdown/context menu.\nIt is also reflected in the DocumentAgent service interface, so that custom GUI’s and external\ncode can directly execute document plugin commands; this is useful if a plugin also has some\ncorresponding custom GUI that needs to execute commands depending on user interaction.\n<p></p>\nThe parameter <code data-dev-comment-type=\"paramref\" class=\"paramref\">allowedReturnTypes</code> can be used by clients to hint to the plugin\nwhat kind of return value processing is available. For instance, a mobile client might\nonly offer None and Message, and this information can be used by the document plugin to adapt\nthe processing of a command, if it wants to (for instance, use default values instead of\ntriggering some more advanced workflow).\n<p></p>\nThe command is obtained from the <xref href=\"SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentCommands(System.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method.\n"
   syntax:
     content: public ReturnInfo ExecuteDocumentCommand(string versionId, string[] allowedReturnTypes, string command, params string[] additionalData)
     parameters:
@@ -1434,7 +1390,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
   summary: "\nRetrieve metadata owned by the plugin/repository, related to one document (excluding version-dependent metadata)\n"
-  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should <strong>not</strong>\nretrieve metadata related to any particular version, only data related to the document as a whole.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call \nto this API to populate the ExtraFields property of the document entity carrier. Note, however, \nthat the carrier handed over to the client may contain other fields in addition to those \nsupplied by the document plugin, since the extrafields mechanism is generic and \nthere may be other metadata providers along the line.\n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
+  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should <strong>not</strong>\nretrieve metadata related to any particular version, only data related to the document as a whole.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call\nto this API to populate the ExtraFields property of the document entity carrier. Note, however,\nthat the carrier handed over to the client may contain other fields in addition to those\nsupplied by the document plugin, since the extrafields mechanism is generic and\nthere may be other metadata providers along the line.\n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the\n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
   syntax:
     content: public string[] LoadMetaData()
     return:
@@ -1465,7 +1421,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
   summary: "\nRetrieve metadata owned by the plugin/repository, related to one particular\nversion of one document\n"
-  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should only retrieve\nmetadata related to a version.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call \nto this API to populate the VersionInfo property of the document entity carrier. \n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n<p></p>\nTo efficiently retrieve information about <strong>all</strong> versions, use the \n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method, instead of iterating\nover this method.\n"
+  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should only retrieve\nmetadata related to a version.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call\nto this API to populate the VersionInfo property of the document entity carrier.\n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the\n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n<p></p>\nTo efficiently retrieve information about <strong>all</strong> versions, use the\n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method, instead of iterating\nover this method.\n"
   syntax:
     content: public VersionInfo LoadVersionInfo(string versionId)
     parameters:
@@ -1499,7 +1455,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
   summary: "\nStore/update plugin-dependent document metadata in the repository\n"
-  remarks: "\nThis call is made when the document metadata should be stored, and is the complement of the\n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method.\nThe document plugin should extract whatever elements it \nrecognizes from the pluginData name/value dictionary. Failure to recognize an element should not cause an exception, \nas there may be other plugins along the line (not document plugins, but service-level field providers) that own the data. \nLikewise, absence of a value should be taken to imply “no change” to that value - not &quot;delete&quot;.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
+  remarks: "\nThis call is made when the document metadata should be stored, and is the complement of the\n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method.\nThe document plugin should extract whatever elements it\nrecognizes from the pluginData name/value dictionary. Failure to recognize an element should not cause an exception,\nas there may be other plugins along the line (not document plugins, but service-level field providers) that own the data.\nLikewise, absence of a value should be taken to imply “no change” to that value - not &quot;delete&quot;.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the\n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
   syntax:
     content: public void SaveMetaData(string[] pluginData)
     parameters:
@@ -2000,7 +1956,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Documents
-  summary: "\nDeletes the document template language. \n"
+  summary: "\nDeletes the document template language.\n"
   syntax:
     content: public static void DeleteDocumentTemplateLanguage(IDocumentTemplateInfo templateInfo, string languageCode)
     parameters:
@@ -2112,86 +2068,6 @@ items:
       type: System.Int32
     content.vb: Public Shared Function GetDefaultDocumentPluginId As Integer
   overload: SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  parent: SuperOffice.CRM.Documents.PhysicalDocument
-  langs:
-  - csharp
-  - vb
-  name: GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: PhysicalDocument.GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  summary: "\nGo on travel, calling all available plugins to do so (need to implement <see cref=\"!:IDocumentPlugin3\"></see> at least)\n"
-  syntax:
-    content: public static void GoTravel(int associateId, string localArchivePath, ProgressEstimateCallback estimate, ProgressStepCallback step)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: ID of associate who is the document owner
-    - id: localArchivePath
-      type: System.String
-    - id: estimate
-      type: SuperOffice.CRM.ProgressEstimateCallback
-      description: Callback to set the expected number of items to copy, to scale the progress bar
-    - id: step
-      type: SuperOffice.CRM.ProgressStepCallback
-      description: Callback to advance the progress bar by one step
-    content.vb: Public Shared Sub GoTravel(associateId As Integer, localArchivePath As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback)
-  overload: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  parent: SuperOffice.CRM.Documents.PhysicalDocument
-  langs:
-  - csharp
-  - vb
-  name: HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: PhysicalDocument.HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  summary: "\nReturn from travel, calling all available plugins to do so (need to implement <see cref=\"!:IDocumentPlugin3\"></see> at least)\n"
-  syntax:
-    content: public static void HomeComing(int associateId, string localArchivePath, ProgressEstimateCallback estimate, ProgressStepCallback step)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: ID of associate who is the document owner
-    - id: localArchivePath
-      type: System.String
-    - id: estimate
-      type: SuperOffice.CRM.ProgressEstimateCallback
-      description: Callback to set the expected number of items to copy, to scale the progress bar
-    - id: step
-      type: SuperOffice.CRM.ProgressStepCallback
-      description: Callback to advance the progress bar by one step
-    content.vb: Public Shared Sub HomeComing(associateId As Integer, localArchivePath As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback)
-  overload: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing*
   modifiers.csharp:
   - public
   - static
@@ -2469,285 +2345,6 @@ references:
   name: IStreamProvider
   nameWithType: IStreamProvider
   fullName: SuperOffice.IO.IStreamProvider
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -3035,8 +2632,6 @@ references:
   nameWithType: PhysicalDocument.SaveDocumentFromStream
   fullName: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentFromStream
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
@@ -3048,12 +2643,6 @@ references:
   name: ReturnInfo
   nameWithType: ReturnInfo
   fullName: SuperOffice.CRM.ReturnInfo
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream*
   commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentStream
   isExternal: true
@@ -3111,8 +2700,7 @@ references:
   nameWithType: PhysicalDocument.GetPluginCapabilities
   fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetPluginCapabilities
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -3171,14 +2759,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -3188,15 +2775,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3209,24 +2796,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream*
   commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.LoadDocumentTemplateStream
   isExternal: true
@@ -3239,12 +2820,6 @@ references:
   name: CreateNewFromTemplateWithTagsAsStream
   nameWithType: PhysicalDocument.CreateNewFromTemplateWithTagsAsStream
   fullName: SuperOffice.CRM.Documents.PhysicalDocument.CreateNewFromTemplateWithTagsAsStream
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile*
-  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile
-  isExternal: true
-  name: MailMergeDocumentToFile
-  nameWithType: PhysicalDocument.MailMergeDocumentToFile
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.MailMergeDocumentToFile
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream*
   commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.SaveDocumentTemplateStream
   isExternal: true
@@ -3277,8 +2852,7 @@ references:
   nameWithType: PhysicalDocument.GetDocumentTypesForDocumentTemplates
   fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDocumentTypesForDocumentTemplates
 - uid: System.Collections.Generic.Dictionary{System.Int32,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, String>
   nameWithType: Dictionary<Int32, String>
@@ -3930,32 +3504,6 @@ references:
   name: GetDefaultDocumentPluginId
   nameWithType: PhysicalDocument.GetDefaultDocumentPluginId
   fullName: SuperOffice.CRM.Documents.PhysicalDocument.GetDefaultDocumentPluginId
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel*
-  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.GoTravel
-  isExternal: true
-  name: GoTravel
-  nameWithType: PhysicalDocument.GoTravel
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.GoTravel
-- uid: SuperOffice.CRM.ProgressEstimateCallback
-  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: ProgressEstimateCallback
-  nameWithType: ProgressEstimateCallback
-  fullName: SuperOffice.CRM.ProgressEstimateCallback
-- uid: SuperOffice.CRM.ProgressStepCallback
-  commentId: T:SuperOffice.CRM.ProgressStepCallback
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: ProgressStepCallback
-  nameWithType: ProgressStepCallback
-  fullName: SuperOffice.CRM.ProgressStepCallback
-- uid: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing*
-  commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.HomeComing
-  isExternal: true
-  name: HomeComing
-  nameWithType: PhysicalDocument.HomeComing
-  fullName: SuperOffice.CRM.Documents.PhysicalDocument.HomeComing
 - uid: SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename*
   commentId: Overload:SuperOffice.CRM.Documents.PhysicalDocument.AssociateRename
   isExternal: true

@@ -1,0 +1,480 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WorkflowInstanceStatus
+  commentId: T:SuperOffice.Data.WorkflowInstanceStatus
+  id: WorkflowInstanceStatus
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WorkflowInstanceStatus.Active
+  - SuperOffice.Data.WorkflowInstanceStatus.Cancelled
+  - SuperOffice.Data.WorkflowInstanceStatus.DropOut
+  - SuperOffice.Data.WorkflowInstanceStatus.Finished
+  - SuperOffice.Data.WorkflowInstanceStatus.FinishedWithSuccess
+  - SuperOffice.Data.WorkflowInstanceStatus.Idle
+  - SuperOffice.Data.WorkflowInstanceStatus.None
+  - SuperOffice.Data.WorkflowInstanceStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceStatus
+  nameWithType: WorkflowInstanceStatus
+  fullName: SuperOffice.Data.WorkflowInstanceStatus
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nWorkflow instance status\nThis Enum is used by:  workflow_instance.status\n"
+  syntax:
+    content: 'public sealed class WorkflowInstanceStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowInstanceStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.WorkflowInstanceStatus.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WorkflowInstanceStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowInstanceStatus.value__
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowInstanceStatus.value__
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.WorkflowInstanceStatus.None
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.None
+  id: None
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowInstanceStatus.None
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowInstanceStatus None
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Const None As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowInstanceStatus.Idle
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.Idle
+  id: Idle
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: WorkflowInstanceStatus.Idle
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.Idle
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Idle - internally used for two stage insert to avoid race condition duplicates\n"
+  syntax:
+    content: public const WorkflowInstanceStatus Idle
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Const Idle As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowInstanceStatus.Active
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.Active
+  id: Active
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: WorkflowInstanceStatus.Active
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.Active
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Active (Running)\n"
+  syntax:
+    content: public const WorkflowInstanceStatus Active
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Const Active As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowInstanceStatus.Finished
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.Finished
+  id: Finished
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: Finished
+  nameWithType: WorkflowInstanceStatus.Finished
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.Finished
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Finished\n"
+  syntax:
+    content: public const WorkflowInstanceStatus Finished
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Const Finished As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowInstanceStatus.FinishedWithSuccess
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.FinishedWithSuccess
+  id: FinishedWithSuccess
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: FinishedWithSuccess
+  nameWithType: WorkflowInstanceStatus.FinishedWithSuccess
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.FinishedWithSuccess
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Finished sith success (success criteria reached)\n"
+  syntax:
+    content: public const WorkflowInstanceStatus FinishedWithSuccess
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Const FinishedWithSuccess As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowInstanceStatus.DropOut
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.DropOut
+  id: DropOut
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: DropOut
+  nameWithType: WorkflowInstanceStatus.DropOut
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.DropOut
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Dropped out (or faulted) for some given reason\n"
+  syntax:
+    content: public const WorkflowInstanceStatus DropOut
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Const DropOut As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowInstanceStatus.Cancelled
+  commentId: F:SuperOffice.Data.WorkflowInstanceStatus.Cancelled
+  id: Cancelled
+  parent: SuperOffice.Data.WorkflowInstanceStatus
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: WorkflowInstanceStatus.Cancelled
+  fullName: SuperOffice.Data.WorkflowInstanceStatus.Cancelled
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Cancelled\n"
+  syntax:
+    content: public const WorkflowInstanceStatus Cancelled
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Const Cancelled As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.WorkflowInstanceStatus.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceStatus, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowInstanceStatus, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowInstanceStatus, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowInstanceStatus, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowInstanceStatus, To)()
+  name.vb: MapEnums(Of WorkflowInstanceStatus, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowInstanceStatus, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowInstanceStatus, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowInstanceStatus, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceStatus, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowInstanceStatus, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowInstanceStatus, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WorkflowInstanceStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceStatus, To>()
+  nameWithType: Converters.MapEnums<WorkflowInstanceStatus, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowInstanceStatus, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowInstanceStatus, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowInstanceStatus, To)()
+  name.vb: MapEnums(Of WorkflowInstanceStatus, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowInstanceStatus, To>
+    nameWithType: Converters.MapEnums<WorkflowInstanceStatus, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowInstanceStatus, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceStatus, To)
+    nameWithType: Converters.MapEnums(Of WorkflowInstanceStatus, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowInstanceStatus, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.WorkflowInstanceStatus
+  commentId: T:SuperOffice.Data.WorkflowInstanceStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowInstanceStatus
+  nameWithType: WorkflowInstanceStatus
+  fullName: SuperOffice.Data.WorkflowInstanceStatus

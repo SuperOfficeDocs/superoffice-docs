@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext
+  commentId: T:SuperOffice.Diagnostics.IExceptionLoggingContext
+  id: IExceptionLoggingContext
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo(System.Collections.Generic.IDictionary{System.String,System.String})
+  - SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo``1(System.Collections.Generic.IDictionary{System.String,System.String})
+  - SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo``1(System.String,System.String)
+  - SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: IExceptionLoggingContext
+  nameWithType: IExceptionLoggingContext
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public interface IExceptionLoggingContext
+    content.vb: Public Interface IExceptionLoggingContext
+  extensionMethods:
+  - SuperOffice.Diagnostics.IExceptionLoggingContext.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.IExceptionLoggingContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo(System.Collections.Generic.IDictionary{System.String,System.String})
+  commentId: M:SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo(System.Collections.Generic.IDictionary{System.String,System.String})
+  id: AddExceptionInfo(System.Collections.Generic.IDictionary{System.String,System.String})
+  parent: SuperOffice.Diagnostics.IExceptionLoggingContext
+  langs:
+  - csharp
+  - vb
+  name: AddExceptionInfo(IDictionary<String, String>)
+  nameWithType: IExceptionLoggingContext.AddExceptionInfo(IDictionary<String, String>)
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo(System.Collections.Generic.IDictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAdd information to be logged if exception is thrown and logged\n"
+  syntax:
+    content: void AddExceptionInfo(IDictionary<string, string> args)
+    parameters:
+    - id: args
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    content.vb: Sub AddExceptionInfo(args As IDictionary(Of String, String))
+  overload: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo*
+  nameWithType.vb: IExceptionLoggingContext.AddExceptionInfo(IDictionary(Of String, String))
+  fullName.vb: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  name.vb: AddExceptionInfo(IDictionary(Of String, String))
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo``1(System.Collections.Generic.IDictionary{System.String,System.String})
+  commentId: M:SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo``1(System.Collections.Generic.IDictionary{System.String,System.String})
+  id: AddExceptionInfo``1(System.Collections.Generic.IDictionary{System.String,System.String})
+  parent: SuperOffice.Diagnostics.IExceptionLoggingContext
+  langs:
+  - csharp
+  - vb
+  name: AddExceptionInfo<TException>(IDictionary<String, String>)
+  nameWithType: IExceptionLoggingContext.AddExceptionInfo<TException>(IDictionary<String, String>)
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo<TException>(System.Collections.Generic.IDictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAdd information to be logged if the provided exception is thrown and logged\n"
+  syntax:
+    content: >-
+      void AddExceptionInfo<TException>(IDictionary<string, string> args)
+
+          where TException : Exception
+    parameters:
+    - id: args
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    typeParameters:
+    - id: TException
+      description: Type of exception to log information for
+    content.vb: Sub AddExceptionInfo(Of TException As Exception)(args As IDictionary(Of String, String))
+  overload: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo*
+  nameWithType.vb: IExceptionLoggingContext.AddExceptionInfo(Of TException)(IDictionary(Of String, String))
+  fullName.vb: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo(Of TException)(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  name.vb: AddExceptionInfo(Of TException)(IDictionary(Of String, String))
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo``1(System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo``1(System.String,System.String)
+  id: AddExceptionInfo``1(System.String,System.String)
+  parent: SuperOffice.Diagnostics.IExceptionLoggingContext
+  langs:
+  - csharp
+  - vb
+  name: AddExceptionInfo<TException>(String, String)
+  nameWithType: IExceptionLoggingContext.AddExceptionInfo<TException>(String, String)
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo<TException>(System.String, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAdd information to be logged if the provided exception is thrown and logged\n"
+  syntax:
+    content: >-
+      void AddExceptionInfo<TException>(string key, string value)
+
+          where TException : Exception
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    typeParameters:
+    - id: TException
+    content.vb: Sub AddExceptionInfo(Of TException As Exception)(key As String, value As String)
+  overload: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo*
+  nameWithType.vb: IExceptionLoggingContext.AddExceptionInfo(Of TException)(String, String)
+  fullName.vb: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo(Of TException)(System.String, System.String)
+  name.vb: AddExceptionInfo(Of TException)(String, String)
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo(System.Type)
+  commentId: M:SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo(System.Type)
+  id: GetExceptionInfo(System.Type)
+  parent: SuperOffice.Diagnostics.IExceptionLoggingContext
+  langs:
+  - csharp
+  - vb
+  name: GetExceptionInfo(Type)
+  nameWithType: IExceptionLoggingContext.GetExceptionInfo(Type)
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo(System.Type)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet information that should be added to exceptions when logged.\n"
+  syntax:
+    content: IDictionary<string, string> GetExceptionInfo(Type exceptionType)
+    parameters:
+    - id: exceptionType
+      type: System.Type
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    content.vb: Function GetExceptionInfo(exceptionType As Type) As IDictionary(Of String, String)
+  overload: SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo*
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IExceptionLoggingContext, To>()
+  nameWithType: EnumUtil.MapEnums<IExceptionLoggingContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.IExceptionLoggingContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IExceptionLoggingContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.IExceptionLoggingContext, To)()
+  name.vb: MapEnums(Of IExceptionLoggingContext, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IExceptionLoggingContext, To>
+    nameWithType: EnumUtil.MapEnums<IExceptionLoggingContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.IExceptionLoggingContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IExceptionLoggingContext, To)
+    nameWithType: EnumUtil.MapEnums(Of IExceptionLoggingContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.IExceptionLoggingContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IExceptionLoggingContext, To>()
+  nameWithType: Converters.MapEnums<IExceptionLoggingContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.IExceptionLoggingContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of IExceptionLoggingContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.IExceptionLoggingContext, To)()
+  name.vb: MapEnums(Of IExceptionLoggingContext, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IExceptionLoggingContext, To>
+    nameWithType: Converters.MapEnums<IExceptionLoggingContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.IExceptionLoggingContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IExceptionLoggingContext, To)
+    nameWithType: Converters.MapEnums(Of IExceptionLoggingContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.IExceptionLoggingContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo*
+  commentId: Overload:SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo
+  isExternal: true
+  name: AddExceptionInfo
+  nameWithType: IExceptionLoggingContext.AddExceptionInfo
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext.AddExceptionInfo
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: '!:System.Collections.Generic.IDictionary{System.String,System.String}'
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: System.Collections.Generic.IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: System.Collections.Generic.IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo*
+  commentId: Overload:SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo
+  isExternal: true
+  name: GetExceptionInfo
+  nameWithType: IExceptionLoggingContext.GetExceptionInfo
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext.GetExceptionInfo
+- uid: System.Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

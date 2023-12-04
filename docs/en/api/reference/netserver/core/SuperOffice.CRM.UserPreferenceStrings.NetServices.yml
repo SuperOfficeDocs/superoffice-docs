@@ -49,18 +49,13 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nSuperOffice Web Services settings\n"
   syntax:
-    content: public static class NetServices
-    content.vb: Public Module NetServices
+    content: 'public static class NetServices : Object'
+    content.vb: >-
+      Public Module NetServices
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -145,20 +140,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nMake Web Services available on your central and satellite databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string EnableNetServicesOnCentral = "EnableNetServicesOnCentral"
+    content: public const string EnableNetServicesOnCentral = "EnableNetServicesOnCentral"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const EnableNetServicesOnCentral As String = "EnableNetServicesOnCentral"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const EnableNetServicesOnCentral As String = "EnableNetServicesOnCentral"
   modifiers.csharp:
   - public
   - const
@@ -184,20 +169,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nMake Web Services available on your Travel databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string EnableNetServicesOnTravel = "EnableNetServicesOnTravel"
+    content: public const string EnableNetServicesOnTravel = "EnableNetServicesOnTravel"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const EnableNetServicesOnTravel As String = "EnableNetServicesOnTravel"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const EnableNetServicesOnTravel As String = "EnableNetServicesOnTravel"
   modifiers.csharp:
   - public
   - const
@@ -223,20 +198,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nLast page read\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string LastPage = "LastPage"
+    content: public const string LastPage = "LastPage"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const LastPage As String = "LastPage"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LastPage As String = "LastPage"
   modifiers.csharp:
   - public
   - const
@@ -262,20 +227,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nNews URL\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string NewsURL = "NewsURL"
+    content: public const string NewsURL = "NewsURL"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const NewsURL As String = "NewsURL"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NewsURL As String = "NewsURL"
   modifiers.csharp:
   - public
   - const
@@ -361,20 +316,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe user has read the teaser from Web Services.\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string SeenTeaserDlg = "SeenTeaserDlg"
+    content: public const string SeenTeaserDlg = "SeenTeaserDlg"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const SeenTeaserDlg As String = "SeenTeaserDlg"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SeenTeaserDlg As String = "SeenTeaserDlg"
   modifiers.csharp:
   - public
   - const
@@ -400,20 +345,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nShow news from SuperOffice Web Services on startup. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string ShowOnStartup = "ShowOnStartup"
+    content: public const string ShowOnStartup = "ShowOnStartup"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const ShowOnStartup As String = "ShowOnStartup"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ShowOnStartup As String = "ShowOnStartup"
   modifiers.csharp:
   - public
   - const
@@ -439,20 +374,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nTimeout for reading status from Web Services in seconds. (Default = 60)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string StatusCheckTimeout = "StatusCheckTimeout"
+    content: public const string StatusCheckTimeout = "StatusCheckTimeout"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const StatusCheckTimeout As String = "StatusCheckTimeout"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusCheckTimeout As String = "StatusCheckTimeout"
   modifiers.csharp:
   - public
   - const
@@ -538,20 +463,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nTeaser URL\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string TeaserURL = "TeaserURL"
+    content: public const string TeaserURL = "TeaserURL"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const TeaserURL As String = "TeaserURL"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TeaserURL As String = "TeaserURL"
   modifiers.csharp:
   - public
   - const
@@ -577,20 +492,10 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nThe Microsoft Passport ID of this associate (not the e-mail address)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
-    content: >-
-      [Obsolete]
-
-      public const string UserPassportId = "UserPassportId"
+    content: public const string UserPassportId = "UserPassportId"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete>
-
-      Public Const UserPassportId As String = "UserPassportId"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserPassportId As String = "UserPassportId"
   modifiers.csharp:
   - public
   - const
@@ -1045,285 +950,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

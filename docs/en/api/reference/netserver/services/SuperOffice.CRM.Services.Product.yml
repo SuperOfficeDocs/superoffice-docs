@@ -75,6 +75,8 @@ items:
     commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.Product.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
   modifiers.csharp:
   - public
   - class
@@ -1300,13 +1302,37 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.Product.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo(SuperOffice.CRM.Services.Product)
+  parent: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  definition: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo(SuperOffice.CRM.Services.Product)
+  name: GetProductInfo()
+  nameWithType: QuoteConverter.GetProductInfo()
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
+    name: GetProductInfo
+    nameWithType: QuoteConverter.GetProductInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
+    name: GetProductInfo
+    nameWithType: QuoteConverter.GetProductInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -1463,12 +1489,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo(SuperOffice.CRM.Services.Product)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo(SuperOffice.CRM.Services.Product)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: GetProductInfo(Product)
+  nameWithType: QuoteConverter.GetProductInfo(Product)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo(SuperOffice.CRM.Services.Product)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo(SuperOffice.CRM.Services.Product)
+    name: GetProductInfo
+    nameWithType: QuoteConverter.GetProductInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Product
+    name: Product
+    nameWithType: Product
+    fullName: SuperOffice.CRM.Services.Product
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo(SuperOffice.CRM.Services.Product)
+    name: GetProductInfo
+    nameWithType: QuoteConverter.GetProductInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Product
+    name: Product
+    nameWithType: Product
+    fullName: SuperOffice.CRM.Services.Product
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  parent: SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: QuoteConverter
+  nameWithType: QuoteConverter
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -1476,6 +1543,12 @@ references:
   name: IArchiveAgent
   nameWithType: IArchiveAgent
   fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.Implementation.BL
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation.BL
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL
+  fullName: SuperOffice.CRM.Services.Implementation.BL
 - uid: SuperOffice.CRM.Services.Product.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Product.#ctor
   isExternal: true
@@ -1495,6 +1568,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Product.ProductId*
   commentId: Overload:SuperOffice.CRM.Services.Product.ProductId
   isExternal: true

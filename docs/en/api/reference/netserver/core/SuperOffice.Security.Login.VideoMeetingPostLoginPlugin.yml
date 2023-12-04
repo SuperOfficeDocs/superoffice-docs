@@ -1,0 +1,941 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  commentId: T:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  id: VideoMeetingPostLoginPlugin
+  parent: SuperOffice.Security.Login
+  children:
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.Name
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice#Security#Principal#IPostLoginPlugin#IsRequired
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingPostLoginPlugin
+  nameWithType: VideoMeetingPostLoginPlugin
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: >-
+      [PostLoginPlugin("VideoMeetings")]
+
+      public class VideoMeetingPostLoginPlugin : Object, IPostLoginPlugin, IPlugin
+    content.vb: >-
+      <PostLoginPlugin("VideoMeetings")>
+
+      Public Class VideoMeetingPostLoginPlugin
+
+          Inherits Object
+
+          Implements IPostLoginPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin
+  extensionMethods:
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Security.Principal.PostLoginPluginAttribute
+    ctor: SuperOffice.Security.Principal.PostLoginPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: VideoMeetings
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.Name
+  commentId: F:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.Name
+  id: Name
+  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: VideoMeetingPostLoginPlugin.Name
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public const string Name = "VideoMeetings"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "VideoMeetings"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired
+  commentId: M:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired
+  id: IsRequired
+  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsRequired()
+  nameWithType: VideoMeetingPostLoginPlugin.IsRequired()
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Login
+  summary: "\nIf the user needs to reauthenticate/authenticate we return an Ok response.\nOtherwise we return a NoContent to tell CRM it does not have to do anything\n"
+  syntax:
+    content: public bool IsRequired()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsRequired As Boolean
+  overload: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  commentId: M:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  id: GetEndpointUri(System.String,System.String)
+  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: GetEndpointUri(String, String)
+  nameWithType: VideoMeetingPostLoginPlugin.GetEndpointUri(String, String)
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public string GetEndpointUri(string callbackUri, string state)
+    parameters:
+    - id: callbackUri
+      type: System.String
+    - id: state
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetEndpointUri(callbackUri As String, state As String) As String
+  overload: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri*
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: ProcessCallback(String, Dictionary<String, String>)
+  nameWithType: VideoMeetingPostLoginPlugin.ProcessCallback(String, Dictionary<String, String>)
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback(System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public string ProcessCallback(string payload, Dictionary<string, string> args)
+    parameters:
+    - id: payload
+      type: System.String
+    - id: args
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: System.String
+    content.vb: Public Function ProcessCallback(payload As String, args As Dictionary(Of String, String)) As String
+  overload: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback*
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  nameWithType.vb: VideoMeetingPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: ProcessCallback(String, Dictionary(Of String, String))
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
+  commentId: M:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingPostLoginPlugin()
+  nameWithType: VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin()
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public VideoMeetingPostLoginPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice#Security#Principal#IPostLoginPlugin#IsRequired
+  commentId: P:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice#Security#Principal#IPostLoginPlugin#IsRequired
+  id: SuperOffice#Security#Principal#IPostLoginPlugin#IsRequired
+  isEii: true
+  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: IPostLoginPlugin.IsRequired
+  nameWithType: VideoMeetingPostLoginPlugin.IPostLoginPlugin.IsRequired
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: bool IPostLoginPlugin.IsRequired { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired As Boolean Implements IPostLoginPlugin.IsRequired
+  overload: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice#Security#Principal#IPostLoginPlugin#IsRequired*
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  nameWithType.vb: VideoMeetingPostLoginPlugin.SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+references:
+- uid: SuperOffice.Security.Login
+  commentId: N:SuperOffice.Security.Login
+  isExternal: true
+  name: SuperOffice.Security.Login
+  nameWithType: SuperOffice.Security.Login
+  fullName: SuperOffice.Security.Login
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin
+  commentId: T:SuperOffice.Security.Principal.IPostLoginPlugin
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: IPostLoginPlugin
+  nameWithType: IPostLoginPlugin
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<VideoMeetingPostLoginPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<VideoMeetingPostLoginPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of VideoMeetingPostLoginPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To)()
+  name.vb: MapEnums(Of VideoMeetingPostLoginPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<VideoMeetingPostLoginPlugin, To>
+    nameWithType: EnumUtil.MapEnums<VideoMeetingPostLoginPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of VideoMeetingPostLoginPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of VideoMeetingPostLoginPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<VideoMeetingPostLoginPlugin>(VideoMeetingPostLoginPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<VideoMeetingPostLoginPlugin>(VideoMeetingPostLoginPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of VideoMeetingPostLoginPlugin)(VideoMeetingPostLoginPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
+  name.vb: AssignByReflection(Of VideoMeetingPostLoginPlugin)(VideoMeetingPostLoginPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<VideoMeetingPostLoginPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<VideoMeetingPostLoginPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+    name: VideoMeetingPostLoginPlugin
+    nameWithType: VideoMeetingPostLoginPlugin
+    fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of VideoMeetingPostLoginPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of VideoMeetingPostLoginPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+    name: VideoMeetingPostLoginPlugin
+    nameWithType: VideoMeetingPostLoginPlugin
+    fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<VideoMeetingPostLoginPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<VideoMeetingPostLoginPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of VideoMeetingPostLoginPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)()
+  name.vb: GraphCopy(Of VideoMeetingPostLoginPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<VideoMeetingPostLoginPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<VideoMeetingPostLoginPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of VideoMeetingPostLoginPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of VideoMeetingPostLoginPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<VideoMeetingPostLoginPlugin, To>()
+  nameWithType: Converters.MapEnums<VideoMeetingPostLoginPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of VideoMeetingPostLoginPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To)()
+  name.vb: MapEnums(Of VideoMeetingPostLoginPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<VideoMeetingPostLoginPlugin, To>
+    nameWithType: Converters.MapEnums<VideoMeetingPostLoginPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of VideoMeetingPostLoginPlugin, To)
+    nameWithType: Converters.MapEnums(Of VideoMeetingPostLoginPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired*
+  commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired
+  isExternal: true
+  name: IsRequired
+  nameWithType: VideoMeetingPostLoginPlugin.IsRequired
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequired
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri*
+  commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri
+  isExternal: true
+  name: GetEndpointUri
+  nameWithType: VideoMeetingPostLoginPlugin.GetEndpointUri
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  parent: SuperOffice.Security.Principal.IPostLoginPlugin
+  isExternal: true
+  name: GetEndpointUri(String, String)
+  nameWithType: IPostLoginPlugin.GetEndpointUri(String, String)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+    name: GetEndpointUri
+    nameWithType: IPostLoginPlugin.GetEndpointUri
+    fullName: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+    name: GetEndpointUri
+    nameWithType: IPostLoginPlugin.GetEndpointUri
+    fullName: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback*
+  commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback
+  isExternal: true
+  name: ProcessCallback
+  nameWithType: VideoMeetingPostLoginPlugin.ProcessCallback
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.Security.Principal.IPostLoginPlugin
+  isExternal: true
+  name: ProcessCallback(String, Dictionary<String, String>)
+  nameWithType: IPostLoginPlugin.ProcessCallback(String, Dictionary<String, String>)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: IPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
+  fullName.vb: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: ProcessCallback(String, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: ProcessCallback
+    nameWithType: IPostLoginPlugin.ProcessCallback
+    fullName: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: ProcessCallback
+    nameWithType: IPostLoginPlugin.ProcessCallback
+    fullName: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor*
+  commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
+  isExternal: true
+  name: VideoMeetingPostLoginPlugin
+  nameWithType: VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice#Security#Principal#IPostLoginPlugin#IsRequired*
+  commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice#Security#Principal#IPostLoginPlugin#IsRequired
+  isExternal: true
+  name: IPostLoginPlugin.IsRequired
+  nameWithType: VideoMeetingPostLoginPlugin.IPostLoginPlugin.IsRequired
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  nameWithType.vb: VideoMeetingPostLoginPlugin.SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  name.vb: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  commentId: P:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
+  parent: SuperOffice.Security.Principal.IPostLoginPlugin
+  isExternal: true
+  name: IsRequired
+  nameWithType: IPostLoginPlugin.IsRequired
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired

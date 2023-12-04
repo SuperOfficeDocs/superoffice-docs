@@ -138,13 +138,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.TimeZoneAgent
   commentId: T:SuperOffice.CRM.Services.TimeZoneAgent
   isExternal: true
@@ -158,12 +151,6 @@ references:
   name: ITimeZoneAgent
   nameWithType: ITimeZoneAgent
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.RemoteTimeZoneMethods.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RemoteTimeZoneMethods.#ctor
   isExternal: true
@@ -183,3 +170,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

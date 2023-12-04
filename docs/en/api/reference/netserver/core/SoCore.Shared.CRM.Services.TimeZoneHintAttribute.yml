@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  id: TimeZoneHintAttribute
+  parent: SoCore.Shared.CRM.Services
+  children:
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneHintAttribute
+  nameWithType: TimeZoneHintAttribute
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: 'public class TimeZoneHintAttribute : Attribute'
+    content.vb: >-
+      Public Class TimeZoneHintAttribute
+
+          Inherits Attribute
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.EnumUtil.MapEnums``2
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
+  commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
+  id: '#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)'
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneHintAttribute(TimeZoneInterpretation)
+  nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute(TimeZoneInterpretation)
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  summary: "\nStandard constructor, used in most cases\n"
+  syntax:
+    content: public TimeZoneHintAttribute(TimeZoneInterpretation hint)
+    parameters:
+    - id: hint
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    content.vb: Public Sub New(hint As TimeZoneInterpretation)
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
+  commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
+  id: '#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)'
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneHintAttribute(TimeZoneInterpretation, Int32, Int32)
+  nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute(TimeZoneInterpretation, Int32, Int32)
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute(SoCore.Shared.CRM.Services.TimeZoneInterpretation, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: public TimeZoneHintAttribute(TimeZoneInterpretation hint, int outgoingDateYear, int incomingDateYear)
+    parameters:
+    - id: hint
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    - id: outgoingDateYear
+      type: System.Int32
+    - id: incomingDateYear
+      type: System.Int32
+    content.vb: Public Sub New(hint As TimeZoneInterpretation, outgoingDateYear As Integer, incomingDateYear As Integer)
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
+  commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
+  id: ToString
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TimeZoneHintAttribute.ToString()
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
+  commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
+  id: Hint
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: Hint
+  nameWithType: TimeZoneHintAttribute.Hint
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: public TimeZoneInterpretation Hint { get; }
+    parameters: []
+    return:
+      type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+    content.vb: Public ReadOnly Property Hint As TimeZoneInterpretation
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
+  commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
+  id: OutgoingDatePart
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: OutgoingDatePart
+  nameWithType: TimeZoneHintAttribute.OutgoingDatePart
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: public DateTime OutgoingDatePart { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property OutgoingDatePart As DateTime
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
+  commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
+  id: IncomingDatePart
+  parent: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  langs:
+  - csharp
+  - vb
+  name: IncomingDatePart
+  nameWithType: TimeZoneHintAttribute.IncomingDatePart
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SoCore.Shared.CRM.Services
+  syntax:
+    content: public DateTime IncomingDatePart { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property IncomingDatePart As DateTime
+  overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SoCore.Shared.CRM.Services
+  commentId: N:SoCore.Shared.CRM.Services
+  isExternal: true
+  name: SoCore.Shared.CRM.Services
+  nameWithType: SoCore.Shared.CRM.Services
+  fullName: SoCore.Shared.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TimeZoneHintAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneHintAttribute, To>()
+  fullName: EnumUtil.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneHintAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)()
+  name.vb: MapEnums(Of TimeZoneHintAttribute, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneHintAttribute, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneHintAttribute, To>
+    fullName: EnumUtil.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneHintAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneHintAttribute, To)
+    fullName: EnumUtil.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TimeZoneHintAttribute, To>()
+  nameWithType: Converters.MapEnums<TimeZoneHintAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneHintAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)()
+  name.vb: MapEnums(Of TimeZoneHintAttribute, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneHintAttribute, To>
+    nameWithType: Converters.MapEnums<TimeZoneHintAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneHintAttribute, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneHintAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
+  commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor
+  isExternal: true
+  name: TimeZoneHintAttribute
+  nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  parent: SoCore.Shared.CRM.Services
+  isExternal: true
+  name: TimeZoneInterpretation
+  nameWithType: TimeZoneInterpretation
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString*
+  commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TimeZoneHintAttribute.ToString
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint*
+  commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
+  isExternal: true
+  name: Hint
+  nameWithType: TimeZoneHintAttribute.Hint
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart*
+  commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
+  isExternal: true
+  name: OutgoingDatePart
+  nameWithType: TimeZoneHintAttribute.OutgoingDatePart
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart*
+  commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
+  isExternal: true
+  name: IncomingDatePart
+  nameWithType: TimeZoneHintAttribute.IncomingDatePart
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart

@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  id: DBC.QuoteApprReasonFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Deleted
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Name
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.QuoteApprReasonId
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Rank
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Registered
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Updated
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.QuoteApprReasonFields
+  nameWithType: DBC.QuoteApprReasonFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for QuoteApprReason, Predefined reasons for quote approval\n"
+  syntax:
+    content: 'public static class QuoteApprReasonFields : Object'
+    content.vb: >-
+      Public Module QuoteApprReasonFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.QuoteApprReasonId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.QuoteApprReasonId
+  id: QuoteApprReasonId
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteApprReasonId
+  nameWithType: DBC.QuoteApprReasonFields.QuoteApprReasonId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.QuoteApprReasonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.QuoteApprReasonId: Primary key\n"
+  syntax:
+    content: public const string QuoteApprReasonId = "quoteapprreason_id"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteApprReasonId As String = "quoteapprreason_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.QuoteApprReasonFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.QuoteApprReasonFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.QuoteApprReasonFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.QuoteApprReasonFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.QuoteApprReasonFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.QuoteApprReasonFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.QuoteApprReasonFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.QuoteApprReasonFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.QuoteApprReasonFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

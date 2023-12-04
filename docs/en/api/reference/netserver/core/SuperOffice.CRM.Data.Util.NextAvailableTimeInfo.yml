@@ -1,0 +1,594 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  id: NextAvailableTimeInfo
+  parent: SuperOffice.CRM.Data.Util
+  children:
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.#ctor
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart
+  langs:
+  - csharp
+  - vb
+  name: NextAvailableTimeInfo
+  nameWithType: NextAvailableTimeInfo
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  syntax:
+    content: 'public class NextAvailableTimeInfo : Object'
+    content.vb: >-
+      Public Class NextAvailableTimeInfo
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.#ctor
+  commentId: M:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: NextAvailableTimeInfo()
+  nameWithType: NextAvailableTimeInfo.NextAvailableTimeInfo()
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.NextAvailableTimeInfo()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  syntax:
+    content: public NextAvailableTimeInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart
+  commentId: P:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart
+  id: AvailableTimeStart
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: AvailableTimeStart
+  nameWithType: NextAvailableTimeInfo.AvailableTimeStart
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  summary: "\nThe available start date time. \n"
+  syntax:
+    content: public DateTime AvailableTimeStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property AvailableTimeStart As DateTime
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd
+  commentId: P:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd
+  id: AvailableTimeEnd
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: AvailableTimeEnd
+  nameWithType: NextAvailableTimeInfo.AvailableTimeEnd
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  summary: "\nThe available end date time. \n"
+  syntax:
+    content: public DateTime AvailableTimeEnd { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property AvailableTimeEnd As DateTime
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart
+  commentId: P:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart
+  id: RecommendedTimeStart
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: RecommendedTimeStart
+  nameWithType: NextAvailableTimeInfo.RecommendedTimeStart
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  summary: "\nThe recommended start date time. \n"
+  syntax:
+    content: public DateTime RecommendedTimeStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property RecommendedTimeStart As DateTime
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd
+  commentId: P:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd
+  id: RecommendedTimeEnd
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: RecommendedTimeEnd
+  nameWithType: NextAvailableTimeInfo.RecommendedTimeEnd
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  summary: "\nThe recomended end date time. \n"
+  syntax:
+    content: public DateTime RecommendedTimeEnd { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property RecommendedTimeEnd As DateTime
+  overload: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Data.Util
+  commentId: N:SuperOffice.CRM.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Data.Util
+  nameWithType: SuperOffice.CRM.Data.Util
+  fullName: SuperOffice.CRM.Data.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NextAvailableTimeInfo, To>()
+  nameWithType: EnumUtil.MapEnums<NextAvailableTimeInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NextAvailableTimeInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To)()
+  name.vb: MapEnums(Of NextAvailableTimeInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NextAvailableTimeInfo, To>
+    nameWithType: EnumUtil.MapEnums<NextAvailableTimeInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NextAvailableTimeInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of NextAvailableTimeInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<NextAvailableTimeInfo>(NextAvailableTimeInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<NextAvailableTimeInfo>(NextAvailableTimeInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo>(SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NextAvailableTimeInfo)(NextAvailableTimeInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)(SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)
+  name.vb: AssignByReflection(Of NextAvailableTimeInfo)(NextAvailableTimeInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<NextAvailableTimeInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<NextAvailableTimeInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    name: NextAvailableTimeInfo
+    nameWithType: NextAvailableTimeInfo
+    fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of NextAvailableTimeInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of NextAvailableTimeInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    name: NextAvailableTimeInfo
+    nameWithType: NextAvailableTimeInfo
+    fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<NextAvailableTimeInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<NextAvailableTimeInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of NextAvailableTimeInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)()
+  name.vb: GraphCopy(Of NextAvailableTimeInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<NextAvailableTimeInfo>
+    nameWithType: ObjectExtensions.GraphCopy<NextAvailableTimeInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of NextAvailableTimeInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of NextAvailableTimeInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NextAvailableTimeInfo, To>()
+  nameWithType: Converters.MapEnums<NextAvailableTimeInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of NextAvailableTimeInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To)()
+  name.vb: MapEnums(Of NextAvailableTimeInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NextAvailableTimeInfo, To>
+    nameWithType: Converters.MapEnums<NextAvailableTimeInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NextAvailableTimeInfo, To)
+    nameWithType: Converters.MapEnums(Of NextAvailableTimeInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.#ctor
+  isExternal: true
+  name: NextAvailableTimeInfo
+  nameWithType: NextAvailableTimeInfo.NextAvailableTimeInfo
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.NextAvailableTimeInfo
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart
+  isExternal: true
+  name: AvailableTimeStart
+  nameWithType: NextAvailableTimeInfo.AvailableTimeStart
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeStart
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd
+  isExternal: true
+  name: AvailableTimeEnd
+  nameWithType: NextAvailableTimeInfo.AvailableTimeEnd
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.AvailableTimeEnd
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart
+  isExternal: true
+  name: RecommendedTimeStart
+  nameWithType: NextAvailableTimeInfo.RecommendedTimeStart
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeStart
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd*
+  commentId: Overload:SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd
+  isExternal: true
+  name: RecommendedTimeEnd
+  nameWithType: NextAvailableTimeInfo.RecommendedTimeEnd
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeInfo.RecommendedTimeEnd

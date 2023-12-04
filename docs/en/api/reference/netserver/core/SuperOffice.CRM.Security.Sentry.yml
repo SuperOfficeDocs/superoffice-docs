@@ -11,6 +11,8 @@ items:
   - SuperOffice.CRM.Security.Sentry._tableRights
   - SuperOffice.CRM.Security.Sentry.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   - SuperOffice.CRM.Security.Sentry.AssociateId
+  - SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+  - SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
   - SuperOffice.CRM.Security.Sentry.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry.CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight,System.Boolean)
   - SuperOffice.CRM.Security.Sentry.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight,System.Boolean)
@@ -31,6 +33,7 @@ items:
   - SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry.GroupId
+  - SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
   - SuperOffice.CRM.Security.Sentry.IgnoreSentry
   - SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact(System.Int32,System.Int32)
   - SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner(System.Int32)
@@ -63,7 +66,6 @@ items:
   - SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights
   - SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights
   - SuperOffice.CRM.Security.Sentry.SuperComputeTableRights
-  - SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
   langs:
   - csharp
   - vb
@@ -78,9 +80,12 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   syntax:
-    content: 'public abstract class Sentry : ICloneable'
+    content: 'public abstract class Sentry : Object, ICloneable'
     content.vb: >-
       Public MustInherit Class Sentry
+
+          Inherits Object
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -88,14 +93,6 @@ items:
   - SuperOffice.CRM.Security.Sentry`1
   implements:
   - System.ICloneable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Security.Sentry.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Security.Sentry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -375,6 +372,93 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+  id: BeginIgnoreSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: BeginIgnoreSentry()
+  nameWithType: Sentry.BeginIgnoreSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static IDisposable BeginIgnoreSentry()
+    return:
+      type: System.IDisposable
+    content.vb: Public Shared Function BeginIgnoreSentry As IDisposable
+  overload: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+  id: BeginIgnoreRowSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: BeginIgnoreRowSentry()
+  nameWithType: Sentry.BeginIgnoreRowSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static IDisposable BeginIgnoreRowSentry()
+    return:
+      type: System.IDisposable
+    content.vb: Public Shared Function BeginIgnoreRowSentry As IDisposable
+  overload: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+  id: IgnoreRowSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IgnoreRowSentry()
+  nameWithType: Sentry.IgnoreRowSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool IgnoreRowSentry()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IgnoreRowSentry As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Security.Sentry.IgnoreSentry
   commentId: M:SuperOffice.CRM.Security.Sentry.IgnoreSentry
   id: IgnoreSentry
@@ -393,7 +477,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   summary: "\nAre we currently in an &apos;IgnoreSentry&apos; state? This is <strong>the</strong> place to get the answer; do not try to directly\ncompute it - just call this method\n"
-  remarks: "\nIgnoreSentry can be set in at least three different ways: On the <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref>, on the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>, and through \nconfig.<xref href=\"SuperOffice.Configuration.ConfigFile.Security.Sentry.Ignore\" data-throw-if-not-resolved=\"false\"></xref>. Any one of them can trigger the state.\n"
+  remarks: "\nIgnoreSentry can be set in at least two different ways: On the <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref> and on the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.\nAny one of them can trigger the state.\n"
   syntax:
     content: public static bool IgnoreSentry()
     return:
@@ -468,34 +552,6 @@ items:
   modifiers.vb:
   - Public
   - MustOverride
-- uid: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
-  commentId: M:SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
-  id: System#ICloneable#Clone
-  isEii: true
-  parent: SuperOffice.CRM.Security.Sentry
-  langs:
-  - csharp
-  - vb
-  name: ICloneable.Clone()
-  nameWithType: Sentry.ICloneable.Clone()
-  fullName: SuperOffice.CRM.Security.Sentry.System.ICloneable.Clone()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  syntax:
-    content: object ICloneable.Clone()
-    return:
-      type: System.Object
-    content.vb: Function System.ICloneable.Clone As Object Implements ICloneable.Clone
-  overload: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone*
-  implements:
-  - System.ICloneable.Clone
-  nameWithType.vb: Sentry.System.ICloneable.Clone()
-  name.vb: System.ICloneable.Clone()
 - uid: SuperOffice.CRM.Security.Sentry.IterateLookups(SuperOffice.CRM.Security.LookupCollection)
   commentId: M:SuperOffice.CRM.Security.Sentry.IterateLookups(SuperOffice.CRM.Security.LookupCollection)
   id: IterateLookups(SuperOffice.CRM.Security.LookupCollection)
@@ -659,7 +715,7 @@ items:
     return:
       type: System.DateTime
       description: DateTime value, or DateTime.MinValue if not found
-    content.vb: Public Function GetDateTimeField(field As FieldInfo) As Date
+    content.vb: Public Function GetDateTimeField(field As FieldInfo) As DateTime
   overload: SuperOffice.CRM.Security.Sentry.GetDateTimeField*
   modifiers.csharp:
   - public
@@ -1905,7 +1961,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable ReadOnly Property Registered As Date
+    content.vb: Public Overridable ReadOnly Property Registered As DateTime
   overload: SuperOffice.CRM.Security.Sentry.Registered*
   modifiers.csharp:
   - public
@@ -2029,291 +2085,10 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Sentry.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2584,12 +2359,29 @@ references:
   name: SentryCollection
   nameWithType: SentryCollection
   fullName: SuperOffice.CRM.Security.SentryCollection
-- uid: SuperOffice.CRM.Security.Sentry.IgnoreSentry*
-  commentId: Overload:SuperOffice.CRM.Security.Sentry.IgnoreSentry
+- uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
   isExternal: true
-  name: IgnoreSentry
-  nameWithType: Sentry.IgnoreSentry
-  fullName: SuperOffice.CRM.Security.Sentry.IgnoreSentry
+  name: BeginIgnoreSentry
+  nameWithType: Sentry.BeginIgnoreSentry
+  fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+  isExternal: true
+  name: BeginIgnoreRowSentry
+  nameWithType: Sentry.BeginIgnoreRowSentry
+  fullName: SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry
+- uid: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
+  isExternal: true
+  name: IgnoreRowSentry
+  nameWithType: Sentry.IgnoreRowSentry
+  fullName: SuperOffice.CRM.Security.Sentry.IgnoreRowSentry
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -2597,6 +2389,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.Security.Sentry.IgnoreSentry*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IgnoreSentry
+  isExternal: true
+  name: IgnoreSentry
+  nameWithType: Sentry.IgnoreSentry
+  fullName: SuperOffice.CRM.Security.Sentry.IgnoreSentry
 - uid: SuperOffice.CRM.Security.Sentry.GetRowSentry*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.GetRowSentry
   isExternal: true
@@ -2616,45 +2414,6 @@ references:
   name: PrivateSelect
   nameWithType: PrivateSelect
   fullName: SuperOffice.Data.SQL.PrivateSelect
-- uid: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone*
-  commentId: Overload:SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
-  isExternal: true
-  name: ICloneable.Clone
-  nameWithType: Sentry.ICloneable.Clone
-  fullName: SuperOffice.CRM.Security.Sentry.System.ICloneable.Clone
-  nameWithType.vb: Sentry.System.ICloneable.Clone
-  name.vb: System.ICloneable.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.Sentry.IterateLookups*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.IterateLookups
   isExternal: true
@@ -2662,8 +2421,7 @@ references:
   nameWithType: Sentry.IterateLookups
   fullName: SuperOffice.CRM.Security.Sentry.IterateLookups
 - uid: System.Collections.Generic.IEnumerable{System.Object}
-  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Object}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<Object>
   nameWithType: IEnumerable<Object>
@@ -2706,14 +2464,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -2723,9 +2480,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2738,18 +2495,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Security.Sentry.GetIntField*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.GetIntField
   isExternal: true
@@ -2815,8 +2566,6 @@ references:
   nameWithType: Sentry.GetDateTimeField
   fullName: SuperOffice.CRM.Security.Sentry.GetDateTimeField
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

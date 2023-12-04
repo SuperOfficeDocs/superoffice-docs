@@ -27,6 +27,8 @@ items:
   - SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String,System.String)
   - SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
   - SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
+  - SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String,System.Int32,System.String[])
+  - SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String,System.Int32,System.String)
   - SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
   - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String,System.String,System.String[])
   - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
@@ -1305,6 +1307,79 @@ items:
   nameWithType.vb: IArchiveAgent.ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
   fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.ExportArchive(System.String, System.String, System.String(), System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String(), System.Int32)
   name.vb: ExportArchive(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Int32)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String,System.Int32,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String,System.Int32,System.String[])
+  id: GetRelatedData(System.String,System.Int32,System.String[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedData(String, Int32, String[])
+  nameWithType: IArchiveAgent.GetRelatedData(String, Int32, String[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String, System.Int32, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet data for fields related to a table record. While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.\n"
+  syntax:
+    content: RelatedData[] GetRelatedData(string table, int recordId, string[] fields)
+    parameters:
+    - id: table
+      type: System.String
+      description: The root table to get related data for, such as &apos;ticket&apos; or &apos;y_car&apos;
+    - id: recordId
+      type: System.Int32
+      description: The primary key of the root table to get related data for
+    - id: fields
+      type: System.String[]
+      description: 'Names of fields - these need to be valid in the DotSyntax for this table, and can be arbitrarily deep. Examples: &apos;title&apos;, &apos;created_by.associate_id.person.fullName&apos;, &apos;x_comment&apos;. Do not start with the root table name.'
+    return:
+      type: SuperOffice.CRM.Services.RelatedData[]
+      description: Array of field => ArchiveColumnData objects
+    content.vb: Function GetRelatedData(table As String, recordId As Integer, fields As String()) As RelatedData()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData*
+  nameWithType.vb: IArchiveAgent.GetRelatedData(String, Int32, String())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData(System.String, System.Int32, System.String())
+  name.vb: GetRelatedData(String, Int32, String())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String,System.Int32,System.String)
+  id: GetRelatedData2(System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedData2(String, Int32, String)
+  nameWithType: IArchiveAgent.GetRelatedData2(String, Int32, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2(System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet data for fields related to a table record. While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.\n"
+  syntax:
+    content: RelatedData[] GetRelatedData2(string table, int recordId, string fields)
+    parameters:
+    - id: table
+      type: System.String
+      description: The root table to get related data for, such as &apos;ticket&apos; or &apos;y_car&apos;
+    - id: recordId
+      type: System.Int32
+      description: The primary key of the root table to get related data for
+    - id: fields
+      type: System.String
+      description: 'Names of fields as a comma-separated list - these need to be valid in the DotSyntax for this table, and can be arbitrarily deep. Example: &apos;title,created_by.associate_id.person.fullName, x_comment&apos;. Do not start with the root table name.'
+    return:
+      type: SuperOffice.CRM.Services.RelatedData[]
+      description: Array of field => ArchiveColumnData objects
+    content.vb: Function GetRelatedData2(table As String, recordId As Integer, fields As String) As RelatedData()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1716,3 +1791,41 @@ references:
   name: ExportArchiveResult
   nameWithType: ExportArchiveResult
   fullName: SuperOffice.CRM.Services.ExportArchiveResult
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData
+  isExternal: true
+  name: GetRelatedData
+  nameWithType: IArchiveAgent.GetRelatedData
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData
+- uid: SuperOffice.CRM.Services.RelatedData[]
+  isExternal: true
+  name: RelatedData[]
+  nameWithType: RelatedData[]
+  fullName: SuperOffice.CRM.Services.RelatedData[]
+  nameWithType.vb: RelatedData()
+  fullName.vb: SuperOffice.CRM.Services.RelatedData()
+  name.vb: RelatedData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.RelatedData
+    name: RelatedData
+    nameWithType: RelatedData
+    fullName: SuperOffice.CRM.Services.RelatedData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.RelatedData
+    name: RelatedData
+    nameWithType: RelatedData
+    fullName: SuperOffice.CRM.Services.RelatedData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2
+  isExternal: true
+  name: GetRelatedData2
+  nameWithType: IArchiveAgent.GetRelatedData2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData2

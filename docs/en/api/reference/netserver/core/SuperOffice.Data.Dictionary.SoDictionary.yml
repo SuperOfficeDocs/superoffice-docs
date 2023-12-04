@@ -6,7 +6,6 @@ items:
   parent: SuperOffice.Data.Dictionary
   children:
   - SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
-  - SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
   - SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
   - SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
   - SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
@@ -21,6 +20,7 @@ items:
   - SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
   - SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
+  - SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
   - SuperOffice.Data.Dictionary.SoDictionary.Tables
   langs:
   - csharp
@@ -37,18 +37,13 @@ items:
   namespace: SuperOffice.Data.Dictionary
   summary: "\nImplementation of the SuperOffice Deployed Dictionary\n"
   syntax:
-    content: public class SoDictionary
-    content.vb: Public Class SoDictionary
+    content: 'public class SoDictionary : Object'
+    content.vb: >-
+      Public Class SoDictionary
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Dictionary.SoDictionary.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dictionary.SoDictionary.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -350,49 +345,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
-  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
-  id: GetDictionary
-  parent: SuperOffice.Data.Dictionary.SoDictionary
-  langs:
-  - csharp
-  - vb
-  name: GetDictionary()
-  nameWithType: SoDictionary.GetDictionary()
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.Dictionary
-  syntax:
-    content: >-
-      [Obsolete("Use SoDatabase.GetCurrent().Dictionary instead.", false)]
-
-      public static SoDictionary GetDictionary()
-    return:
-      type: SuperOffice.Data.Dictionary.SoDictionary
-    content.vb: >-
-      <Obsolete("Use SoDatabase.GetCurrent().Dictionary instead.", False)>
-
-      Public Shared Function GetDictionary As SoDictionary
-  overload: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use SoDatabase.GetCurrent().Dictionary instead.
-    - type: System.Boolean
-      value: false
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
   commentId: P:SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
   id: IsDatabaseUnicode
@@ -635,6 +587,36 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
+  id: ListInfoIsLoaded
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: ListInfoIsLoaded
+  nameWithType: SoDictionary.ListInfoIsLoaded
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  syntax:
+    content: public bool ListInfoIsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ListInfoIsLoaded As Boolean
+  overload: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
@@ -649,285 +631,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoDictionary.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1214,19 +917,6 @@ references:
   name: GetStepsFromNetServerCode
   nameWithType: SoDictionary.GetStepsFromNetServerCode
   fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
-- uid: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary*
-  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
-  isExternal: true
-  name: GetDictionary
-  nameWithType: SoDictionary.GetDictionary
-  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
-- uid: SuperOffice.Data.Dictionary.SoDictionary
-  commentId: T:SuperOffice.Data.Dictionary.SoDictionary
-  parent: SuperOffice.Data.Dictionary
-  isExternal: true
-  name: SoDictionary
-  nameWithType: SoDictionary
-  fullName: SuperOffice.Data.Dictionary.SoDictionary
 - uid: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode*
   commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
   isExternal: true
@@ -1297,3 +987,9 @@ references:
   name: IsLoaded
   nameWithType: SoDictionary.IsLoaded
   fullName: SuperOffice.Data.Dictionary.SoDictionary.IsLoaded
+- uid: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded
+  isExternal: true
+  name: ListInfoIsLoaded
+  nameWithType: SoDictionary.ListInfoIsLoaded
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.ListInfoIsLoaded

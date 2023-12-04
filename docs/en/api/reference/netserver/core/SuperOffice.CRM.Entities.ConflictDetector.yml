@@ -7,6 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Entities.ConflictDetector.GetConflicts(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
   - SuperOffice.CRM.Entities.ConflictDetector.GetConflicts(System.Int32,System.Int32,System.Int32[],System.TimeSpan,System.TimeSpan,System.DateTime[])
+  - SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
+  - SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32,System.Int32,System.Int32[],System.TimeSpan,System.TimeSpan,System.DateTime[])
   - SuperOffice.CRM.Entities.ConflictDetector.UpdateConflicts(System.Int32,System.Int32,System.Int32[],System.TimeSpan,System.TimeSpan,SuperOffice.CRM.Services.RecurrenceDate[])
   langs:
   - csharp
@@ -23,18 +25,13 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nUtility class for detecting conflicts.\n"
   syntax:
-    content: public static class ConflictDetector
-    content.vb: Public Module ConflictDetector
+    content: 'public static class ConflictDetector : Object'
+    content.vb: >-
+      Public Module ConflictDetector
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -136,7 +133,7 @@ items:
     return:
       type: System.Collections.Generic.List{System.Int32}[,]
       description: "\nTwo dimensional array of list of conflicting appointment ids.  The first dimension \ncontains dates and the second contains associates.  Hence; [date, associate] yields \nthe list of conflicting appointment ids."
-    content.vb: Public Shared Function GetConflicts(excludedAppointmentId As Integer, excludedRecurrenceRuleId As Integer, associates As Integer(), startTime As TimeSpan, endTime As TimeSpan, ParamArray dates As Date()) As List(Of Integer)(,)
+    content.vb: Public Shared Function GetConflicts(excludedAppointmentId As Integer, excludedRecurrenceRuleId As Integer, associates As Integer(), startTime As TimeSpan, endTime As TimeSpan, ParamArray dates As DateTime()) As List(Of Integer)(,)
   overload: SuperOffice.CRM.Entities.ConflictDetector.GetConflicts*
   nameWithType.vb: ConflictDetector.GetConflicts(Int32, Int32, Int32(), TimeSpan, TimeSpan, DateTime())
   modifiers.csharp:
@@ -147,6 +144,60 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Entities.ConflictDetector.GetConflicts(System.Int32, System.Int32, System.Int32(), System.TimeSpan, System.TimeSpan, System.DateTime())
   name.vb: GetConflicts(Int32, Int32, Int32(), TimeSpan, TimeSpan, DateTime())
+- uid: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32,System.Int32,System.Int32[],System.TimeSpan,System.TimeSpan,System.DateTime[])
+  commentId: M:SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32,System.Int32,System.Int32[],System.TimeSpan,System.TimeSpan,System.DateTime[])
+  id: GetConflictTimes(System.Int32,System.Int32,System.Int32[],System.TimeSpan,System.TimeSpan,System.DateTime[])
+  parent: SuperOffice.CRM.Entities.ConflictDetector
+  langs:
+  - csharp
+  - vb
+  name: GetConflictTimes(Int32, Int32, Int32[], TimeSpan, TimeSpan, DateTime[])
+  nameWithType: ConflictDetector.GetConflictTimes(Int32, Int32, Int32[], TimeSpan, TimeSpan, DateTime[])
+  fullName: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32, System.Int32, System.Int32[], System.TimeSpan, System.TimeSpan, System.DateTime[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet conflicts.\n"
+  remarks: "\nConflicts are normally calculated for only one associate or only one date.\n"
+  syntax:
+    content: public static List<ConflictDetector.ConflictTime>[, ] GetConflictTimes(int excludedAppointmentId, int excludedRecurrenceRuleId, int[] associates, TimeSpan startTime, TimeSpan endTime, params DateTime[] dates)
+    parameters:
+    - id: excludedAppointmentId
+      type: System.Int32
+      description: AppointmentId not to include in list of conflicting appointments.  Appointment with this id as primary key or mother id will be excluded in the conflict check.
+    - id: excludedRecurrenceRuleId
+      type: System.Int32
+      description: Appointment records with this id as recurrence rule id will be excluded in the conflict check.
+    - id: associates
+      type: System.Int32[]
+      description: Associates to find conflicts for.
+    - id: startTime
+      type: System.TimeSpan
+      description: Start time (i.e. time of day) for the appointment.
+    - id: endTime
+      type: System.TimeSpan
+      description: End time (i.e. time of day) for the appointment.
+    - id: dates
+      type: System.DateTime[]
+      description: The dates the appointment occurs.
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Entities.ConflictDetector.ConflictTime}[,]
+      description: "\nTwo dimensional array of list of conflicting appointment ids.  The first dimension \ncontains dates and the second contains associates.  Hence; [date, associate] yields \nthe list of conflicting appointment ids."
+    content.vb: Public Shared Function GetConflictTimes(excludedAppointmentId As Integer, excludedRecurrenceRuleId As Integer, associates As Integer(), startTime As TimeSpan, endTime As TimeSpan, ParamArray dates As DateTime()) As List(Of ConflictDetector.ConflictTime)(,)
+  overload: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes*
+  nameWithType.vb: ConflictDetector.GetConflictTimes(Int32, Int32, Int32(), TimeSpan, TimeSpan, DateTime())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32, System.Int32, System.Int32(), System.TimeSpan, System.TimeSpan, System.DateTime())
+  name.vb: GetConflictTimes(Int32, Int32, Int32(), TimeSpan, TimeSpan, DateTime())
 - uid: SuperOffice.CRM.Entities.ConflictDetector.GetConflicts(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
   commentId: M:SuperOffice.CRM.Entities.ConflictDetector.GetConflicts(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
   id: GetConflicts(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
@@ -195,6 +246,47 @@ items:
   - Shared
   fullName.vb: SuperOffice.CRM.Entities.ConflictDetector.GetConflicts(System.Int32, System.Int32, System.Int32(), SuperOffice.CRM.Entities.ConflictDetector.ConflictTime())
   name.vb: GetConflicts(Int32, Int32, Int32(), ConflictDetector.ConflictTime())
+- uid: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
+  commentId: M:SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
+  id: GetConflictTimes(System.Int32,System.Int32,System.Int32[],SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
+  parent: SuperOffice.CRM.Entities.ConflictDetector
+  langs:
+  - csharp
+  - vb
+  name: GetConflictTimes(Int32, Int32, Int32[], ConflictDetector.ConflictTime[])
+  nameWithType: ConflictDetector.GetConflictTimes(Int32, Int32, Int32[], ConflictDetector.ConflictTime[])
+  fullName: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32, System.Int32, System.Int32[], SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static List<ConflictDetector.ConflictTime>[, ] GetConflictTimes(int excludedAppointmentId, int excludedRecurrenceRuleId, int[] associates, params ConflictDetector.ConflictTime[] conflictTimes)
+    parameters:
+    - id: excludedAppointmentId
+      type: System.Int32
+    - id: excludedRecurrenceRuleId
+      type: System.Int32
+    - id: associates
+      type: System.Int32[]
+    - id: conflictTimes
+      type: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime[]
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Entities.ConflictDetector.ConflictTime}[,]
+    content.vb: Public Shared Function GetConflictTimes(excludedAppointmentId As Integer, excludedRecurrenceRuleId As Integer, associates As Integer(), ParamArray conflictTimes As ConflictDetector.ConflictTime()) As List(Of ConflictDetector.ConflictTime)(,)
+  overload: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes*
+  nameWithType.vb: ConflictDetector.GetConflictTimes(Int32, Int32, Int32(), ConflictDetector.ConflictTime())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes(System.Int32, System.Int32, System.Int32(), SuperOffice.CRM.Entities.ConflictDetector.ConflictTime())
+  name.vb: GetConflictTimes(Int32, Int32, Int32(), ConflictDetector.ConflictTime())
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
@@ -209,285 +301,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -534,8 +347,6 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
@@ -639,6 +450,60 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: (,)
+    nameWithType: (,)
+    fullName: (,)
+- uid: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes*
+  commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes
+  isExternal: true
+  name: GetConflictTimes
+  nameWithType: ConflictDetector.GetConflictTimes
+  fullName: SuperOffice.CRM.Entities.ConflictDetector.GetConflictTimes
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Entities.ConflictDetector.ConflictTime}[,]
+  isExternal: true
+  name: List<ConflictDetector.ConflictTime>[,]
+  nameWithType: List<ConflictDetector.ConflictTime>[,]
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Entities.ConflictDetector.ConflictTime>[,]
+  nameWithType.vb: List(Of ConflictDetector.ConflictTime)(,)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)(,)
+  name.vb: List(Of ConflictDetector.ConflictTime)(,)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+    name: ConflictDetector.ConflictTime
+    nameWithType: ConflictDetector.ConflictTime
+    fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[,]'
+    nameWithType: '[,]'
+    fullName: '[,]'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+    name: ConflictDetector.ConflictTime
+    nameWithType: ConflictDetector.ConflictTime
+    fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
     isExternal: true
   - name: )
     nameWithType: )

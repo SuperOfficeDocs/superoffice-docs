@@ -25,6 +25,7 @@ items:
     content: 'public interface IArchiveQueryProvider : IArchiveProviderExtensible, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
     content.vb: >-
       Public Interface IArchiveQueryProvider
+
           Inherits IArchiveProviderExtensible, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)

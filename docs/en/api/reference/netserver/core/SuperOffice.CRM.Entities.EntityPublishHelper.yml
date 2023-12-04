@@ -17,14 +17,15 @@ items:
   - SuperOffice.CRM.Entities.EntityPublishHelper.OnRowLoaded
   - SuperOffice.CRM.Entities.EntityPublishHelper.PublishEnd
   - SuperOffice.CRM.Entities.EntityPublishHelper.PublishStart
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#IsDirty
-  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnElementIdUpdate
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnIdUpdate
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPreIdUpdate
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#Save
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#SetSaveOwner(SuperOffice.Data.INestedPersist)
   langs:
@@ -43,23 +44,18 @@ items:
   summary: "\nHelper class used by the entities for dealing with the publish state of a record.\n"
   remarks: "\nThe query can be modified using the <xref href=\"SuperOffice.CRM.Entities.EntityPublishHelper.ModifyQuery(SuperOffice.CRM.Rows.IdxBase)\" data-throw-if-not-resolved=\"false\"></xref> method.  The \nreturned <xref href=\"SuperOffice.CRM.Data.PublishTableInfo\" data-throw-if-not-resolved=\"false\"></xref> should be used when instanciating the \npublish helper.\n"
   syntax:
-    content: 'public sealed class EntityPublishHelper : ITableRowLoadHandler, INestedPersist'
+    content: 'public sealed class EntityPublishHelper : Object, ITableRowLoadHandler, INestedPersist'
     content.vb: >-
       Public NotInheritable Class EntityPublishHelper
+
+          Inherits Object
+
           Implements ITableRowLoadHandler, INestedPersist
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.Rows.ITableRowLoadHandler
   - SuperOffice.Data.INestedPersist
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.EntityPublishHelper.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -426,6 +422,64 @@ items:
   - SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.SetSaveOwner(INestedPersist)
   name.vb: SuperOffice.Data.INestedPersist.SetSaveOwner(INestedPersist)
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  id: SuperOffice#Data#INestedPersist#add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: EntityPublishHelper.INestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.add_OnElementIdUpdate(OnIdUpdate value)
+    parameters:
+    - id: value
+      type: SuperOffice.Data.OnIdUpdate
+    content.vb: Sub SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(value As OnIdUpdate) Implements INestedPersist.add_OnElementIdUpdate
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#add_OnElementIdUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  name.vb: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  id: SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityPublishHelper
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: EntityPublishHelper.INestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void INestedPersist.remove_OnElementIdUpdate(OnIdUpdate value)
+    parameters:
+    - id: value
+      type: SuperOffice.Data.OnIdUpdate
+    content.vb: Sub SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(value As OnIdUpdate) Implements INestedPersist.remove_OnElementIdUpdate
+  overload: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate*
+  implements:
+  - SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  name.vb: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
 - uid: SuperOffice.CRM.Entities.EntityPublishHelper.IsPublished
   commentId: P:SuperOffice.CRM.Entities.EntityPublishHelper.IsPublished
   id: IsPublished
@@ -480,7 +534,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishStart As Date
+    content.vb: Public Property PublishStart As DateTime
   overload: SuperOffice.CRM.Entities.EntityPublishHelper.PublishStart*
   modifiers.csharp:
   - public
@@ -511,7 +565,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishEnd As Date
+    content.vb: Public Property PublishEnd As DateTime
   overload: SuperOffice.CRM.Entities.EntityPublishHelper.PublishEnd*
   modifiers.csharp:
   - public
@@ -542,7 +596,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property EventDate As Date
+    content.vb: Public Property EventDate As DateTime
   overload: SuperOffice.CRM.Entities.EntityPublishHelper.EventDate*
   modifiers.csharp:
   - public
@@ -710,33 +764,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnElementIdUpdate
-  commentId: E:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#OnElementIdUpdate
-  id: SuperOffice#Data#INestedPersist#OnElementIdUpdate
-  isEii: true
-  parent: SuperOffice.CRM.Entities.EntityPublishHelper
-  langs:
-  - csharp
-  - vb
-  name: INestedPersist.OnElementIdUpdate
-  nameWithType: EntityPublishHelper.INestedPersist.OnElementIdUpdate
-  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.OnElementIdUpdate
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Entities
-  syntax:
-    content: event OnIdUpdate INestedPersist.OnElementIdUpdate
-    return:
-      type: SuperOffice.Data.OnIdUpdate
-    content.vb: Event SuperOffice.Data.INestedPersist.OnElementIdUpdate As OnIdUpdate Implements INestedPersist.OnElementIdUpdate
-  implements:
-  - SuperOffice.Data.INestedPersist.OnElementIdUpdate
-  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.OnElementIdUpdate
-  name.vb: SuperOffice.Data.INestedPersist.OnElementIdUpdate
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
@@ -765,285 +792,6 @@ references:
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityPublishHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1769,6 +1517,111 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#add_OnElementIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#add_OnElementIdUpdate
+  isExternal: true
+  name: INestedPersist.add_OnElementIdUpdate
+  nameWithType: EntityPublishHelper.INestedPersist.add_OnElementIdUpdate
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.add_OnElementIdUpdate
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.add_OnElementIdUpdate
+  name.vb: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate
+- uid: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: INestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: INestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: INestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.OnIdUpdate
+  commentId: T:SuperOffice.Data.OnIdUpdate
+  parent: SuperOffice.Data
+  isExternal: true
+  name: OnIdUpdate
+  nameWithType: OnIdUpdate
+  fullName: SuperOffice.Data.OnIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice#Data#INestedPersist#remove_OnElementIdUpdate
+  isExternal: true
+  name: INestedPersist.remove_OnElementIdUpdate
+  nameWithType: EntityPublishHelper.INestedPersist.remove_OnElementIdUpdate
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate
+  nameWithType.vb: EntityPublishHelper.SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate
+  name.vb: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate
+- uid: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.INestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: INestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: INestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: INestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityPublishHelper.IsPublished*
   commentId: Overload:SuperOffice.CRM.Entities.EntityPublishHelper.IsPublished
   isExternal: true
@@ -1782,8 +1635,6 @@ references:
   nameWithType: EntityPublishHelper.PublishStart
   fullName: SuperOffice.CRM.Entities.EntityPublishHelper.PublishStart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1860,17 +1711,3 @@ references:
   name: IsMarkedForDelete
   nameWithType: INestedPersist.IsMarkedForDelete
   fullName: SuperOffice.Data.INestedPersist.IsMarkedForDelete
-- uid: SuperOffice.Data.INestedPersist.OnElementIdUpdate
-  commentId: E:SuperOffice.Data.INestedPersist.OnElementIdUpdate
-  parent: SuperOffice.Data.INestedPersist
-  isExternal: true
-  name: OnElementIdUpdate
-  nameWithType: INestedPersist.OnElementIdUpdate
-  fullName: SuperOffice.Data.INestedPersist.OnElementIdUpdate
-- uid: SuperOffice.Data.OnIdUpdate
-  commentId: T:SuperOffice.Data.OnIdUpdate
-  parent: SuperOffice.Data
-  isExternal: true
-  name: OnIdUpdate
-  nameWithType: OnIdUpdate
-  fullName: SuperOffice.Data.OnIdUpdate

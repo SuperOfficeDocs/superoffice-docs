@@ -7,9 +7,13 @@ items:
   children:
   - SuperOffice.Data.SoftTrigger.#ctor(SuperOffice.Data.ISoftTriggerPlugin[])
   - SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
+  - SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
+  - SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
+  - SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   - SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
+  - SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
   langs:
   - csharp
   - vb
@@ -28,21 +32,15 @@ items:
     content: >-
       [SoInject("Database")]
 
-      public class SoftTrigger
+      public class SoftTrigger : Object
     content.vb: >-
       <SoInject("Database")>
 
       Public Class SoftTrigger
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SoftTrigger.EnumUtil.MapEnums``2
   - SuperOffice.Data.SoftTrigger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -123,6 +121,39 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  id: SubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  parent: SuperOffice.Data.SoftTrigger
+  langs:
+  - csharp
+  - vb
+  name: SubscribeOnPreChange(String, SoftTrigger.OnChange)
+  nameWithType: SoftTrigger.SubscribeOnPreChange(String, SoftTrigger.OnChange)
+  fullName: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange(System.String, SuperOffice.Data.SoftTrigger.OnChange)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSubscribe to event raised before the update command is sent to the database.\n"
+  syntax:
+    content: public void SubscribeOnPreChange(string tableName, SoftTrigger.OnChange callback)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table subscribing to modifications for.
+    - id: callback
+      type: SuperOffice.Data.SoftTrigger.OnChange
+      description: Callback called when modifications in the database is carried out.
+    content.vb: Public Sub SubscribeOnPreChange(tableName As String, callback As SoftTrigger.OnChange)
+  overload: SuperOffice.Data.SoftTrigger.SubscribeOnPreChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   commentId: M:SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   id: UnsubscribeOnPreChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
@@ -151,6 +182,39 @@ items:
       type: SuperOffice.Data.SoftTrigger.OnChange
       description: Callback called when modifications in the database is carried out.
     content.vb: Public Sub UnsubscribeOnPreChange(tableNumber As Integer, callback As SoftTrigger.OnChange)
+  overload: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  commentId: M:SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  id: UnsubscribeOnPreChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  parent: SuperOffice.Data.SoftTrigger
+  langs:
+  - csharp
+  - vb
+  name: UnsubscribeOnPreChange(String, SoftTrigger.OnChange)
+  nameWithType: SoftTrigger.UnsubscribeOnPreChange(String, SoftTrigger.OnChange)
+  fullName: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange(System.String, SuperOffice.Data.SoftTrigger.OnChange)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nUnsubscribe to event raised before the update command is sent to the database.\n"
+  syntax:
+    content: public void UnsubscribeOnPreChange(string tableName, SoftTrigger.OnChange callback)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table subscribing to modifications for.
+    - id: callback
+      type: SuperOffice.Data.SoftTrigger.OnChange
+      description: Callback called when modifications in the database is carried out.
+    content.vb: Public Sub UnsubscribeOnPreChange(tableName As String, callback As SoftTrigger.OnChange)
   overload: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange*
   modifiers.csharp:
   - public
@@ -189,6 +253,39 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  commentId: M:SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  id: SubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  parent: SuperOffice.Data.SoftTrigger
+  langs:
+  - csharp
+  - vb
+  name: SubscribeOnPostChange(String, SoftTrigger.OnChange)
+  nameWithType: SoftTrigger.SubscribeOnPostChange(String, SoftTrigger.OnChange)
+  fullName: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange(System.String, SuperOffice.Data.SoftTrigger.OnChange)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSubscribe to event raised after the update command is sent to the database.\n"
+  syntax:
+    content: public void SubscribeOnPostChange(string tableName, SoftTrigger.OnChange callback)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table subscribing to modifications for.
+    - id: callback
+      type: SuperOffice.Data.SoftTrigger.OnChange
+      description: Callback called when modifications in the database is carried out.
+    content.vb: Public Sub SubscribeOnPostChange(tableName As String, callback As SoftTrigger.OnChange)
+  overload: SuperOffice.Data.SoftTrigger.SubscribeOnPostChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   commentId: M:SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
   id: UnsubscribeOnPostChange(System.Int32,SuperOffice.Data.SoftTrigger.OnChange)
@@ -222,6 +319,39 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  commentId: M:SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  id: UnsubscribeOnPostChange(System.String,SuperOffice.Data.SoftTrigger.OnChange)
+  parent: SuperOffice.Data.SoftTrigger
+  langs:
+  - csharp
+  - vb
+  name: UnsubscribeOnPostChange(String, SoftTrigger.OnChange)
+  nameWithType: SoftTrigger.UnsubscribeOnPostChange(String, SoftTrigger.OnChange)
+  fullName: SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange(System.String, SuperOffice.Data.SoftTrigger.OnChange)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nUnsubscribe to event raised after the update command is sent to the database.\n"
+  syntax:
+    content: public void UnsubscribeOnPostChange(string tableName, SoftTrigger.OnChange callback)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table subscribing to modifications for.
+    - id: callback
+      type: SuperOffice.Data.SoftTrigger.OnChange
+      description: Callback called when modifications in the database is carried out.
+    content.vb: Public Sub UnsubscribeOnPostChange(tableName As String, callback As SoftTrigger.OnChange)
+  overload: SuperOffice.Data.SoftTrigger.UnsubscribeOnPostChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -236,285 +366,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SoftTrigger.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -738,6 +589,13 @@ references:
   name: SoftTrigger.OnChange
   nameWithType: SoftTrigger.OnChange
   fullName: SuperOffice.Data.SoftTrigger.OnChange
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange*
   commentId: Overload:SuperOffice.Data.SoftTrigger.UnsubscribeOnPreChange
   isExternal: true

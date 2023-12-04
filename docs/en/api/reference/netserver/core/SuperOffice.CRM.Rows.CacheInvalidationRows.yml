@@ -35,11 +35,13 @@ items:
   summary: "\nNames and generation numbers for distributed invalidation of caches\nCollection of CacheInvalidationRow. Each element of the collection represents one row in the CacheInvalidation\ntable. \n"
   remarks: "\nRow collections can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Rows.CacheInvalidationRows.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty collection. You can then add objects of type\n<xref href=\"SuperOffice.CRM.Rows.CacheInvalidationRow\" data-throw-if-not-resolved=\"false\"></xref> to it, and use methods like <see cref=\"!:Save\"></see> to operate on the whole collection.</li><li>You can create a (nested) CacheInvalidationRows <xref href=\"SuperOffice.CRM.Rows.CacheInvalidationRows.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Rows.CacheInvalidationRows.GetFromCustomSearch(SuperOffice.CRM.Rows.CacheInvalidationRows.CustomSearch)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as a Rows object, with one item for each table row that matched your query.</li><li>For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</li></ul>\nUnique indexes are handled through the <xref href=\"SuperOffice.CRM.Rows.CacheInvalidationRow\" data-throw-if-not-resolved=\"false\"></xref> object directly,\nwhich has nested classes and GetFromIdx methods for each unique index. Similarly, there is a <xref href=\"SuperOffice.CRM.Rows.CacheInvalidationRows.GetFromReader(SuperOffice.Data.SoDataReader%2cSuperOffice.CRM.Data.CacheInvalidationTableInfo)\" data-throw-if-not-resolved=\"false\"></xref>\nmethod to retrieve the results of queries that return more than one row (this method will iterate over the reader to fetch ALL results, so beware of fetching\nhuge result sets).\n<p></p>\n"
   syntax:
-    content: 'public class CacheInvalidationRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList'
+    content: 'public class CacheInvalidationRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList'
     content.vb: >-
       Public Class CacheInvalidationRows
+
           Inherits TableRowsBase
-          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList
+
+          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
@@ -50,9 +52,9 @@ items:
   - SuperOffice.Data.INestedPersist
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
   - SuperOffice.Data.ISoCollection
+  - System.Collections.IEnumerable
   - System.Collections.IList
   - System.Collections.ICollection
-  - System.Collections.IEnumerable
   - System.Collections.Specialized.INotifyCollectionChanged
   - System.ComponentModel.IBindingList
   inheritedMembers:
@@ -74,16 +76,9 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
   - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
   - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
   - SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
   - SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
   - SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
@@ -94,12 +89,8 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.Index
   - SuperOffice.CRM.Rows.TableRowsBase.Count
   - SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
   - SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
   - SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
-  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
   - SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
   - SuperOffice.CRM.Rows.TableRowsBase.AllowNew
   - SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
@@ -113,7 +104,6 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
   - SuperOffice.CRM.Rows.TableRowsBase.ListChanged
   - SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
-  - SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
   - SuperOffice.Data.NestedCollectionPersist.IsDeleted
   - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
@@ -131,15 +121,13 @@ items:
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.CacheInvalidationRows.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.CacheInvalidationRows.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -563,7 +551,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.CacheInvalidationRows.ToString*
   modifiers.csharp:
   - public
@@ -658,8 +645,7 @@ references:
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<INestedPersist>
   nameWithType: IEnumerable<INestedPersist>
@@ -708,27 +694,21 @@ references:
   name: ISoCollection
   nameWithType: ISoCollection
   fullName: SuperOffice.Data.ISoCollection
+- uid: System.Collections.IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.IList
-  commentId: T:System.Collections.IList
-  parent: System.Collections
   isExternal: true
   name: IList
   nameWithType: IList
   fullName: System.Collections.IList
 - uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
   isExternal: true
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
-  isExternal: true
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
 - uid: System.Collections.Specialized.INotifyCollectionChanged
   isExternal: true
   name: INotifyCollectionChanged
@@ -1301,108 +1281,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.get_Item(Int32)
-  nameWithType: TableRowsBase.IList.get_Item(Int32)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item(System.Int32)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.get_Item(Int32)
-  name.vb: System.Collections.IList.get_Item(Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-    name: IList.get_Item
-    nameWithType: TableRowsBase.IList.get_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
-    name: System.Collections.IList.get_Item
-    nameWithType: TableRowsBase.System.Collections.IList.get_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.set_Item(Int32, Object)
-  nameWithType: TableRowsBase.IList.set_Item(Int32, Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item(System.Int32, System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.set_Item(Int32, Object)
-  name.vb: System.Collections.IList.set_Item(Int32, Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-    name: IList.set_Item
-    nameWithType: TableRowsBase.IList.set_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
-    name: System.Collections.IList.set_Item
-    nameWithType: TableRowsBase.System.Collections.IList.set_Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   parent: SuperOffice.CRM.Rows.TableRowsBase
@@ -1456,92 +1334,6 @@ references:
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Add(Object)
-  nameWithType: TableRowsBase.IList.Add(Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add(System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Add(Object)
-  name.vb: System.Collections.IList.Add(Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-    name: IList.Add
-    nameWithType: TableRowsBase.IList.Add
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
-    name: System.Collections.IList.Add
-    nameWithType: TableRowsBase.System.Collections.IList.Add
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Remove(Object)
-  nameWithType: TableRowsBase.IList.Remove(Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove(System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Remove(Object)
-  name.vb: System.Collections.IList.Remove(Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-    name: IList.Remove
-    nameWithType: TableRowsBase.IList.Remove
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
-    name: System.Collections.IList.Remove
-    nameWithType: TableRowsBase.System.Collections.IList.Remove
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
   - name: )
     nameWithType: )
@@ -1624,141 +1416,6 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Clear()
-  nameWithType: TableRowsBase.IList.Clear()
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear()
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Clear()
-  name.vb: System.Collections.IList.Clear()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-    name: IList.Clear
-    nameWithType: TableRowsBase.IList.Clear
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
-    name: System.Collections.IList.Clear
-    nameWithType: TableRowsBase.System.Collections.IList.Clear
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Insert(Int32, Object)
-  nameWithType: TableRowsBase.IList.Insert(Int32, Object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert(System.Int32, System.Object)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Insert(Int32, Object)
-  name.vb: System.Collections.IList.Insert(Int32, Object)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-    name: IList.Insert
-    nameWithType: TableRowsBase.IList.Insert
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
-    name: System.Collections.IList.Insert
-    nameWithType: TableRowsBase.System.Collections.IList.Insert
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.RemoveAt(Int32)
-  nameWithType: TableRowsBase.IList.RemoveAt(Int32)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt(System.Int32)
-  nameWithType.vb: TableRowsBase.System.Collections.IList.RemoveAt(Int32)
-  name.vb: System.Collections.IList.RemoveAt(Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-    name: IList.RemoveAt
-    nameWithType: TableRowsBase.IList.RemoveAt
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
-    name: System.Collections.IList.RemoveAt
-    nameWithType: TableRowsBase.System.Collections.IList.RemoveAt
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
     isExternal: true
   - name: )
     nameWithType: )
@@ -2025,59 +1682,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowsBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: IList.Item[Int32]
-  nameWithType: TableRowsBase.IList.Item[Int32]
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item[System.Int32]
-  nameWithType.vb: TableRowsBase.System.Collections.IList.Item(Int32)
-  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item(System.Int32)
-  name.vb: System.Collections.IList.Item(Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-    name: IList.Item
-    nameWithType: TableRowsBase.IList.Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item
-    isExternal: true
-  - name: '['
-    nameWithType: '['
-    fullName: '['
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ']'
-    nameWithType: ']'
-    fullName: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
-    name: System.Collections.IList.Item
-    nameWithType: TableRowsBase.System.Collections.IList.Item
-    fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ICollection.Count
-  nameWithType: TableRowsBase.ICollection.Count
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.Count
-  nameWithType.vb: TableRowsBase.System.Collections.ICollection.Count
-  name.vb: System.Collections.ICollection.Count
 - uid: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
   parent: SuperOffice.CRM.Rows.TableRowsBase
@@ -2092,24 +1696,6 @@ references:
   name: IsReadOnly
   nameWithType: TableRowsBase.IsReadOnly
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ICollection.IsSynchronized
-  nameWithType: TableRowsBase.ICollection.IsSynchronized
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.IsSynchronized
-  nameWithType.vb: TableRowsBase.System.Collections.ICollection.IsSynchronized
-  name.vb: System.Collections.ICollection.IsSynchronized
-- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
-  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
-  parent: SuperOffice.CRM.Rows.TableRowsBase
-  isExternal: true
-  name: ICollection.SyncRoot
-  nameWithType: TableRowsBase.ICollection.SyncRoot
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.SyncRoot
-  nameWithType.vb: TableRowsBase.System.Collections.ICollection.SyncRoot
-  name.vb: System.Collections.ICollection.SyncRoot
 - uid: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
   parent: SuperOffice.CRM.Rows.TableRowsBase
@@ -2218,39 +1804,6 @@ references:
     name: GetFacadingItems
     nameWithType: NestedCollectionPersist.GetFacadingItems
     fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-  commentId: M:SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-  parent: SuperOffice.Data.NestedCollectionPersist
-  isExternal: true
-  name: IEnumerable<INestedPersist>.GetEnumerator()
-  nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator()
-  fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  nameWithType.vb: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  name.vb: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
-  spec.csharp:
-  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-    name: IEnumerable<INestedPersist>.GetEnumerator
-    nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator
-    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
-    name: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    nameWithType: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
-    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
     isExternal: true
   - name: (
     nameWithType: (
@@ -2815,6 +2368,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
@@ -2836,254 +2553,6 @@ references:
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.CacheInvalidationRows.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -3165,14 +2634,13 @@ references:
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -3182,9 +2650,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3197,24 +2665,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -3319,8 +2775,7 @@ references:
   nameWithType: CacheInvalidationRows.ForEach
   fullName: SuperOffice.CRM.Rows.CacheInvalidationRows.ForEach
 - uid: System.Action{SuperOffice.CRM.Rows.CacheInvalidationRow}
-  commentId: T:System.Action{SuperOffice.CRM.Rows.CacheInvalidationRow}
-  parent: System
+  commentId: '!:System.Action{SuperOffice.CRM.Rows.CacheInvalidationRow}'
   definition: System.Action`1
   name: Action<CacheInvalidationRow>
   nameWithType: Action<CacheInvalidationRow>
@@ -3363,14 +2818,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
@@ -3380,9 +2834,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3395,9 +2849,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3408,8 +2862,7 @@ references:
   nameWithType: CacheInvalidationRows.Find
   fullName: SuperOffice.CRM.Rows.CacheInvalidationRows.Find
 - uid: System.Predicate{SuperOffice.CRM.Rows.CacheInvalidationRow}
-  commentId: T:System.Predicate{SuperOffice.CRM.Rows.CacheInvalidationRow}
-  parent: System
+  commentId: '!:System.Predicate{SuperOffice.CRM.Rows.CacheInvalidationRow}'
   definition: System.Predicate`1
   name: Predicate<CacheInvalidationRow>
   nameWithType: Predicate<CacheInvalidationRow>
@@ -3459,14 +2912,13 @@ references:
   nameWithType: CacheInvalidationRow
   fullName: SuperOffice.CRM.Rows.CacheInvalidationRow
 - uid: System.Predicate`1
-  commentId: T:System.Predicate`1
   isExternal: true
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
@@ -3476,9 +2928,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3491,9 +2943,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3575,8 +3027,7 @@ references:
   nameWithType: CacheInvalidationRows.AddRange
   fullName: SuperOffice.CRM.Rows.CacheInvalidationRows.AddRange
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.CacheInvalidationRow}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.CacheInvalidationRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.CacheInvalidationRow}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<CacheInvalidationRow>
   nameWithType: IEnumerable<CacheInvalidationRow>
@@ -3706,37 +3157,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.CacheInvalidationRows.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.CacheInvalidationRows.ToString
   isExternal: true

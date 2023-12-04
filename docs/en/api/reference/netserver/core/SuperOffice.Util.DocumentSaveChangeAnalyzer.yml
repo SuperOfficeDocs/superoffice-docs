@@ -1,0 +1,743 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  commentId: T:SuperOffice.Util.DocumentSaveChangeAnalyzer
+  id: DocumentSaveChangeAnalyzer
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.#ctor(SuperOffice.Data.SQL.PrivateSave)
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged
+  langs:
+  - csharp
+  - vb
+  name: DocumentSaveChangeAnalyzer
+  nameWithType: DocumentSaveChangeAnalyzer
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nClass used to assist safe analysis of <xref href=\"SuperOffice.Data.SQL.PrivateSave\" data-throw-if-not-resolved=\"false\"></xref> instances, without\nexposing internal properties for modification.\n"
+  syntax:
+    content: 'public class DocumentSaveChangeAnalyzer : Object'
+    content.vb: >-
+      Public Class DocumentSaveChangeAnalyzer
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.EnumUtil.MapEnums``2
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.#ctor(SuperOffice.Data.SQL.PrivateSave)
+  commentId: M:SuperOffice.Util.DocumentSaveChangeAnalyzer.#ctor(SuperOffice.Data.SQL.PrivateSave)
+  id: '#ctor(SuperOffice.Data.SQL.PrivateSave)'
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: DocumentSaveChangeAnalyzer(PrivateSave)
+  nameWithType: DocumentSaveChangeAnalyzer.DocumentSaveChangeAnalyzer(PrivateSave)
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.DocumentSaveChangeAnalyzer(SuperOffice.Data.SQL.PrivateSave)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nCreates a new instance\n"
+  syntax:
+    content: public DocumentSaveChangeAnalyzer(PrivateSave privateSave)
+    parameters:
+    - id: privateSave
+      type: SuperOffice.Data.SQL.PrivateSave
+      description: Instance to analyze for changes. Required parameter and cannot be null!
+    content.vb: Public Sub New(privateSave As PrivateSave)
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if privateSave is null
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+  id: IsAppointmentActiveDateChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentActiveDateChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Appointment has changed ActiveDate.\n"
+  syntax:
+    content: public bool IsAppointmentActiveDateChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAppointmentActiveDateChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+  id: IsAppointmentContactIdChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentContactIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Appointment has changed Contact.\n"
+  syntax:
+    content: public bool IsAppointmentContactIdChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAppointmentContactIdChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+  id: IsAppointmentPersonIdChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentPersonIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Appointment has changed Person.\n"
+  syntax:
+    content: public bool IsAppointmentPersonIdChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAppointmentPersonIdChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+  id: IsAppointmentProjectIdChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentProjectIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Appointment has changed Project.\n"
+  syntax:
+    content: public bool IsAppointmentProjectIdChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAppointmentProjectIdChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+  id: IsAppointmentSaleIdChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentSaleIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Appointment has changed Sale.\n"
+  syntax:
+    content: public bool IsAppointmentSaleIdChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAppointmentSaleIdChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+  id: IsAppointmentTypeChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentTypeChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Appointment has changed Type.\n"
+  syntax:
+    content: public bool IsAppointmentTypeChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAppointmentTypeChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+  id: IsDocumentHeaderChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsDocumentHeaderChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Document has changed Header.\n"
+  syntax:
+    content: public bool IsDocumentHeaderChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDocumentHeaderChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+  id: IsDocumentOurRefChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsDocumentOurRefChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Document has changed OurRef.\n"
+  syntax:
+    content: public bool IsDocumentOurRefChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDocumentOurRefChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+  id: IsDocumentYourRefChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsDocumentYourRefChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Document has changed OurRef.\n"
+  syntax:
+    content: public bool IsDocumentYourRefChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDocumentYourRefChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+  id: IsDocumentExtRefChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsDocumentExtRefChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Document has changed ExtUrl.\n"
+  syntax:
+    content: public bool IsDocumentExtRefChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDocumentExtRefChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+  id: IsDocumentArchiveProviderChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsDocumentArchiveProviderChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if Document has changed ArchiveProvider.\n"
+  syntax:
+    content: public bool IsDocumentArchiveProviderChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDocumentArchiveProviderChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged
+  commentId: P:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged
+  id: IsVisibleForChanged
+  parent: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: IsVisibleForChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsVisibleForChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nGets if VisibleFor has changed.\n"
+  syntax:
+    content: public bool IsVisibleForChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsVisibleForChanged As Boolean
+  overload: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DocumentSaveChangeAnalyzer, To>()
+  nameWithType: EnumUtil.MapEnums<DocumentSaveChangeAnalyzer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.DocumentSaveChangeAnalyzer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocumentSaveChangeAnalyzer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.DocumentSaveChangeAnalyzer, To)()
+  name.vb: MapEnums(Of DocumentSaveChangeAnalyzer, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocumentSaveChangeAnalyzer, To>
+    nameWithType: EnumUtil.MapEnums<DocumentSaveChangeAnalyzer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.DocumentSaveChangeAnalyzer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocumentSaveChangeAnalyzer, To)
+    nameWithType: EnumUtil.MapEnums(Of DocumentSaveChangeAnalyzer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.DocumentSaveChangeAnalyzer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocumentSaveChangeAnalyzer, To>()
+  nameWithType: Converters.MapEnums<DocumentSaveChangeAnalyzer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.DocumentSaveChangeAnalyzer, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocumentSaveChangeAnalyzer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.DocumentSaveChangeAnalyzer, To)()
+  name.vb: MapEnums(Of DocumentSaveChangeAnalyzer, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocumentSaveChangeAnalyzer, To>
+    nameWithType: Converters.MapEnums<DocumentSaveChangeAnalyzer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.DocumentSaveChangeAnalyzer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocumentSaveChangeAnalyzer, To)
+    nameWithType: Converters.MapEnums(Of DocumentSaveChangeAnalyzer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.DocumentSaveChangeAnalyzer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.#ctor*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.#ctor
+  isExternal: true
+  name: DocumentSaveChangeAnalyzer
+  nameWithType: DocumentSaveChangeAnalyzer.DocumentSaveChangeAnalyzer
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.DocumentSaveChangeAnalyzer
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+- uid: SuperOffice.Data.SQL.PrivateSave
+  commentId: T:SuperOffice.Data.SQL.PrivateSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: PrivateSave
+  nameWithType: PrivateSave
+  fullName: SuperOffice.Data.SQL.PrivateSave
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+  isExternal: true
+  name: IsAppointmentActiveDateChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentActiveDateChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+  isExternal: true
+  name: IsAppointmentContactIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentContactIdChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+  isExternal: true
+  name: IsAppointmentPersonIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentPersonIdChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+  isExternal: true
+  name: IsAppointmentProjectIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentProjectIdChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+  isExternal: true
+  name: IsAppointmentSaleIdChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentSaleIdChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+  isExternal: true
+  name: IsAppointmentTypeChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsAppointmentTypeChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+  isExternal: true
+  name: IsDocumentHeaderChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentHeaderChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+  isExternal: true
+  name: IsDocumentOurRefChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentOurRefChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+  isExternal: true
+  name: IsDocumentYourRefChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentYourRefChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+  isExternal: true
+  name: IsDocumentExtRefChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentExtRefChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+  isExternal: true
+  name: IsDocumentArchiveProviderChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsDocumentArchiveProviderChanged
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged*
+  commentId: Overload:SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged
+  isExternal: true
+  name: IsVisibleForChanged
+  nameWithType: DocumentSaveChangeAnalyzer.IsVisibleForChanged
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer.IsVisibleForChanged

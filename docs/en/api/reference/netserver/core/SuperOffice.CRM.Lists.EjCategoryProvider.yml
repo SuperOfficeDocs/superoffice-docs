@@ -7,7 +7,11 @@ items:
   children:
   - SuperOffice.CRM.Lists.EjCategoryProvider.#ctor
   - SuperOffice.CRM.Lists.EjCategoryProvider._hierarchy
+  - SuperOffice.CRM.Lists.EjCategoryProvider._includeAdministrativeInfo
+  - SuperOffice.CRM.Lists.EjCategoryProvider._onlyOwnCategories
+  - SuperOffice.CRM.Lists.EjCategoryProvider._personTableInfo
   - SuperOffice.CRM.Lists.EjCategoryProvider._shortNames
+  - SuperOffice.CRM.Lists.EjCategoryProvider._shortTooltip
   - SuperOffice.CRM.Lists.EjCategoryProvider._tableInfo
   - SuperOffice.CRM.Lists.EjCategoryProvider.ExecuteReader(SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Lists.EjCategoryProvider.GetMainQuery
@@ -39,7 +43,13 @@ items:
 
       [MDOAdditionalInfo("hierarchy", "Use hierarchy", "true")]
 
-      [MDOAdditionalInfo("shortNames", "Return short names instead of full path", "false")]
+      [MDOAdditionalInfo("onlyOwnCategories", "Return only categories owned by requester", false)]
+
+      [MDOAdditionalInfo("shortNames", "Return short names instead of full path", false)]
+
+      [MDOAdditionalInfo("shortTooltip", "Return short text (FullName) as a tooltip", false)]
+
+      [MDOAdditionalInfo("includeAdministrativeInfo", "Include admin UI info: resolve Category master name and icons", true)]
 
       [MDONoSelectionId(-1)]
 
@@ -51,12 +61,20 @@ items:
 
       <MDOAdditionalInfo("hierarchy", "Use hierarchy", "true")>
 
-      <MDOAdditionalInfo("shortNames", "Return short names instead of full path", "false")>
+      <MDOAdditionalInfo("onlyOwnCategories", "Return only categories owned by requester", False)>
+
+      <MDOAdditionalInfo("shortNames", "Return short names instead of full path", False)>
+
+      <MDOAdditionalInfo("shortTooltip", "Return short text (FullName) as a tooltip", False)>
+
+      <MDOAdditionalInfo("includeAdministrativeInfo", "Include admin UI info: resolve Category master name and icons", True)>
 
       <MDONoSelectionId(-1)>
 
       Public Class EjCategoryProvider
+
           Inherits AnyTableListProviderBase
+
           Implements ISoListProvider, ISoList, IPlugin
   inheritance:
   - System.Object
@@ -75,19 +93,13 @@ items:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.EjCategoryProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.EjCategoryProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.EjCategoryProvider)
@@ -117,11 +129,38 @@ items:
     ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
     arguments:
     - type: System.String
+      value: onlyOwnCategories
+    - type: System.String
+      value: Return only categories owned by requester
+    - type: System.Boolean
+      value: false
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
       value: shortNames
     - type: System.String
       value: Return short names instead of full path
+    - type: System.Boolean
+      value: false
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
     - type: System.String
-      value: "false"
+      value: shortTooltip
+    - type: System.String
+      value: Return short text (FullName) as a tooltip
+    - type: System.Boolean
+      value: false
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: includeAdministrativeInfo
+    - type: System.String
+      value: 'Include admin UI info: resolve Category master name and icons'
+    - type: System.Boolean
+      value: true
   - type: SuperOffice.CRM.Lists.MDONoSelectionIdAttribute
     ctor: SuperOffice.CRM.Lists.MDONoSelectionIdAttribute.#ctor(System.Int32)
     arguments:
@@ -187,6 +226,32 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Lists.EjCategoryProvider._onlyOwnCategories
+  commentId: F:SuperOffice.CRM.Lists.EjCategoryProvider._onlyOwnCategories
+  id: _onlyOwnCategories
+  parent: SuperOffice.CRM.Lists.EjCategoryProvider
+  langs:
+  - csharp
+  - vb
+  name: _onlyOwnCategories
+  nameWithType: EjCategoryProvider._onlyOwnCategories
+  fullName: SuperOffice.CRM.Lists.EjCategoryProvider._onlyOwnCategories
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool _onlyOwnCategories
+    return:
+      type: System.Boolean
+    content.vb: Protected _onlyOwnCategories As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Lists.EjCategoryProvider._shortNames
   commentId: F:SuperOffice.CRM.Lists.EjCategoryProvider._shortNames
   id: _shortNames
@@ -213,6 +278,58 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Lists.EjCategoryProvider._shortTooltip
+  commentId: F:SuperOffice.CRM.Lists.EjCategoryProvider._shortTooltip
+  id: _shortTooltip
+  parent: SuperOffice.CRM.Lists.EjCategoryProvider
+  langs:
+  - csharp
+  - vb
+  name: _shortTooltip
+  nameWithType: EjCategoryProvider._shortTooltip
+  fullName: SuperOffice.CRM.Lists.EjCategoryProvider._shortTooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool _shortTooltip
+    return:
+      type: System.Boolean
+    content.vb: Protected _shortTooltip As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Lists.EjCategoryProvider._includeAdministrativeInfo
+  commentId: F:SuperOffice.CRM.Lists.EjCategoryProvider._includeAdministrativeInfo
+  id: _includeAdministrativeInfo
+  parent: SuperOffice.CRM.Lists.EjCategoryProvider
+  langs:
+  - csharp
+  - vb
+  name: _includeAdministrativeInfo
+  nameWithType: EjCategoryProvider._includeAdministrativeInfo
+  fullName: SuperOffice.CRM.Lists.EjCategoryProvider._includeAdministrativeInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool _includeAdministrativeInfo
+    return:
+      type: System.Boolean
+    content.vb: Protected _includeAdministrativeInfo As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Lists.EjCategoryProvider._tableInfo
   commentId: F:SuperOffice.CRM.Lists.EjCategoryProvider._tableInfo
   id: _tableInfo
@@ -235,6 +352,32 @@ items:
     return:
       type: SuperOffice.CRM.Data.EjCategoryTableInfo
     content.vb: Protected _tableInfo As EjCategoryTableInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Lists.EjCategoryProvider._personTableInfo
+  commentId: F:SuperOffice.CRM.Lists.EjCategoryProvider._personTableInfo
+  id: _personTableInfo
+  parent: SuperOffice.CRM.Lists.EjCategoryProvider
+  langs:
+  - csharp
+  - vb
+  name: _personTableInfo
+  nameWithType: EjCategoryProvider._personTableInfo
+  fullName: SuperOffice.CRM.Lists.EjCategoryProvider._personTableInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected PersonTableInfo _personTableInfo
+    return:
+      type: SuperOffice.CRM.Data.PersonTableInfo
+    content.vb: Protected _personTableInfo As PersonTableInfo
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -484,7 +627,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: "\nThe table info of the query.  This is used by subclasses (e.g. this class) when restricting history data.\n"
+  summary: "\nThe table info of the query. This is used by subclasses (e.g. this class) when restricting history data.\n"
   syntax:
     content: protected override TableInfo TableInfo { get; }
     parameters: []
@@ -945,6 +1088,13 @@ references:
   name: OnlyReadHistory
   nameWithType: AnyTableListProviderBase.OnlyReadHistory
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: ExcludeHistory
+  nameWithType: AnyTableListProviderBase.ExcludeHistory
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -987,285 +1137,6 @@ references:
   name: HeadingItems
   nameWithType: AnyTableListProviderBase.HeadingItems
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.EjCategoryProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1645,6 +1516,13 @@ references:
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.Data.PersonTableInfo
+  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PersonTableInfo
+  nameWithType: PersonTableInfo
+  fullName: SuperOffice.CRM.Data.PersonTableInfo
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -1958,8 +1836,7 @@ references:
   nameWithType: EjCategoryProvider.OnPostGetRootItems
   fullName: SuperOffice.CRM.Lists.EjCategoryProvider.OnPostGetRootItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.Collections.Generic.List`1
   name: List<ISoListItem>
   nameWithType: List<ISoListItem>
@@ -2002,14 +1879,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -2019,9 +1895,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2034,18 +1910,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase

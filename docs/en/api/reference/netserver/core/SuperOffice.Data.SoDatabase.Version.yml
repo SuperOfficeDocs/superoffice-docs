@@ -26,13 +26,14 @@ items:
   - SuperOffice.Data.SoDatabase.Version.SIX_Prerelease_8
   - SuperOffice.Data.SoDatabase.Version.SIX_Prerelease_9
   - SuperOffice.Data.SoDatabase.Version.Undefined
+  - SuperOffice.Data.SoDatabase.Version.value__
   langs:
   - csharp
   - vb
   name: SoDatabase.Version
   nameWithType: SoDatabase.Version
   fullName: SuperOffice.Data.SoDatabase.Version
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -41,19 +42,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nVersion of the deployed database\n"
   syntax:
-    content: public enum Version
-    content.vb: Public Enum Version
+    content: 'public sealed class Version : Enum'
+    content.vb: >-
+      Public NotInheritable Class Version
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SoDatabase.Version.EnumUtil.MapEnums``2
-  - SuperOffice.Data.SoDatabase.Version.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabase.Version)
-  - SuperOffice.Data.SoDatabase.Version.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.SoDatabase.Version.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SoDatabase.Version.value__
+  commentId: F:SuperOffice.Data.SoDatabase.Version.value__
+  id: value__
+  parent: SuperOffice.Data.SoDatabase.Version
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SoDatabase.Version.value__
+  fullName: SuperOffice.Data.SoDatabase.Version.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.Version.Undefined
   commentId: F:SuperOffice.Data.SoDatabase.Version.Undefined
   id: Undefined
@@ -73,9 +109,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nUndefined database version.\n"
   syntax:
-    content: Undefined = 0
+    content: public const SoDatabase.Version Undefined
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const Undefined As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -101,9 +138,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice CRM5 version 5.X\n"
   syntax:
-    content: CRM5_5X = 86
+    content: public const SoDatabase.Version CRM5_5X
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const CRM5_5X As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -129,9 +167,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 600\n"
   syntax:
-    content: SIX_Prerelease_0 = 600
+    content: public const SoDatabase.Version SIX_Prerelease_0
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_0 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -157,9 +196,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 601\n"
   syntax:
-    content: SIX_Prerelease_1 = 601
+    content: public const SoDatabase.Version SIX_Prerelease_1
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_1 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -185,9 +225,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 602\n"
   syntax:
-    content: SIX_Prerelease_2 = 602
+    content: public const SoDatabase.Version SIX_Prerelease_2
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_2 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -213,9 +254,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 603\n"
   syntax:
-    content: SIX_Prerelease_3 = 603
+    content: public const SoDatabase.Version SIX_Prerelease_3
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_3 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -241,9 +283,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 604\n"
   syntax:
-    content: SIX_Prerelease_4 = 604
+    content: public const SoDatabase.Version SIX_Prerelease_4
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_4 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -269,9 +312,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 605\n"
   syntax:
-    content: SIX_Prerelease_5 = 605
+    content: public const SoDatabase.Version SIX_Prerelease_5
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_5 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -297,9 +341,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 606\n"
   syntax:
-    content: SIX_Prerelease_6 = 606
+    content: public const SoDatabase.Version SIX_Prerelease_6
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_6 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -325,9 +370,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 607\n"
   syntax:
-    content: SIX_Prerelease_7 = 607
+    content: public const SoDatabase.Version SIX_Prerelease_7
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_7 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -353,9 +399,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 608\n"
   syntax:
-    content: SIX_Prerelease_8 = 608
+    content: public const SoDatabase.Version SIX_Prerelease_8
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_8 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -381,9 +428,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX internal prerelease with internal database version 609\n"
   syntax:
-    content: SIX_Prerelease_9 = 609
+    content: public const SoDatabase.Version SIX_Prerelease_9
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_Prerelease_9 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -409,9 +457,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX (Beta 2 or later)\n"
   syntax:
-    content: SIX = 610
+    content: public const SoDatabase.Version SIX
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -437,9 +486,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX.One internal prerelease with internal database version 616\n"
   syntax:
-    content: SIX_ONE_Prerelease_616 = 616
+    content: public const SoDatabase.Version SIX_ONE_Prerelease_616
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_ONE_Prerelease_616 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -465,9 +515,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX.One internal prerelease with internal database version 617\n"
   syntax:
-    content: SIX_ONE_Prerelease_617 = 617
+    content: public const SoDatabase.Version SIX_ONE_Prerelease_617
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_ONE_Prerelease_617 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -493,9 +544,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice SIX.One\n"
   syntax:
-    content: SIX_ONE = 618
+    content: public const SoDatabase.Version SIX_ONE
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SIX_ONE As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -521,9 +573,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice Seven, first version of new database\n"
   syntax:
-    content: SEVEN_Prerelease_0 = 700
+    content: public const SoDatabase.Version SEVEN_Prerelease_0
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SEVEN_Prerelease_0 As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -549,9 +602,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice 7.0, final release\n"
   syntax:
-    content: SEVEN = 718
+    content: public const SoDatabase.Version SEVEN
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SEVEN As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -577,9 +631,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice 7.1, final release\n"
   syntax:
-    content: SEVEN_ONE = 721
+    content: public const SoDatabase.Version SEVEN_ONE
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SEVEN_ONE As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -605,9 +660,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice 7.5, final release\n"
   syntax:
-    content: SEVEN_FIVE = 752
+    content: public const SoDatabase.Version SEVEN_FIVE
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const SEVEN_FIVE As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -633,9 +689,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSuperOffice 8.+, after eight we have CDD\n"
   syntax:
-    content: AFTER_EIGHT = 888
+    content: public const SoDatabase.Version AFTER_EIGHT
     return:
       type: SuperOffice.Data.SoDatabase.Version
+    content.vb: Public Const AFTER_EIGHT As SoDatabase.Version
   modifiers.csharp:
   - public
   - const
@@ -649,6 +706,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SoDatabase.Version.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -676,84 +740,6 @@ references:
     name: MapEnums(Of SoDatabase.Version, To)
     nameWithType: EnumUtil.MapEnums(Of SoDatabase.Version, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SoDatabase.Version, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SoDatabase.Version.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabase.Version)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SoDatabase.Version>(SoDatabase.Version)
-  nameWithType: ObjectExtensions.AssignByReflection<SoDatabase.Version>(SoDatabase.Version)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoDatabase.Version>(SuperOffice.Data.SoDatabase.Version)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoDatabase.Version)(SoDatabase.Version)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoDatabase.Version)(SuperOffice.Data.SoDatabase.Version)
-  name.vb: AssignByReflection(Of SoDatabase.Version)(SoDatabase.Version)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SoDatabase.Version>
-    nameWithType: ObjectExtensions.AssignByReflection<SoDatabase.Version>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoDatabase.Version>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDatabase.Version
-    name: SoDatabase.Version
-    nameWithType: SoDatabase.Version
-    fullName: SuperOffice.Data.SoDatabase.Version
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SoDatabase.Version)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SoDatabase.Version)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoDatabase.Version)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDatabase.Version
-    name: SoDatabase.Version
-    nameWithType: SoDatabase.Version
-    fullName: SuperOffice.Data.SoDatabase.Version
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SoDatabase.Version.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SoDatabase.Version>()
-  nameWithType: ObjectExtensions.GraphCopy<SoDatabase.Version>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoDatabase.Version>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoDatabase.Version)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoDatabase.Version)()
-  name.vb: GraphCopy(Of SoDatabase.Version)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SoDatabase.Version>
-    nameWithType: ObjectExtensions.GraphCopy<SoDatabase.Version>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoDatabase.Version>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SoDatabase.Version)
-    nameWithType: ObjectExtensions.GraphCopy(Of SoDatabase.Version)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoDatabase.Version)
     isExternal: true
   - name: (
     nameWithType: (
@@ -795,6 +781,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -840,103 +832,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -983,18 +878,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SoDatabase.Version
   commentId: T:SuperOffice.Data.SoDatabase.Version
   parent: SuperOffice.Data

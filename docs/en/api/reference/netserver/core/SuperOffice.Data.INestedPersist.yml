@@ -5,6 +5,7 @@ items:
   id: INestedPersist
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.INestedPersist.IsDeleted
   - SuperOffice.Data.INestedPersist.IsDirty
   - SuperOffice.Data.INestedPersist.IsMarkedForDelete
@@ -16,6 +17,7 @@ items:
   - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   - SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  - SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.INestedPersist.Save
   - SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   langs:
@@ -244,6 +246,54 @@ items:
       description: The object to handle the save operation.
     content.vb: Sub SetSaveOwner(saveOwner As INestedPersist)
   overload: SuperOffice.Data.INestedPersist.SetSaveOwner*
+- uid: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  id: add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: INestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: void add_OnElementIdUpdate(OnIdUpdate value)
+    parameters:
+    - id: value
+      type: SuperOffice.Data.OnIdUpdate
+    content.vb: Sub add_OnElementIdUpdate(value As OnIdUpdate)
+  overload: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate*
+- uid: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  id: remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: INestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: void remove_OnElementIdUpdate(OnIdUpdate value)
+    parameters:
+    - id: value
+      type: SuperOffice.Data.OnIdUpdate
+    content.vb: Sub remove_OnElementIdUpdate(value As OnIdUpdate)
+  overload: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate*
 - uid: SuperOffice.Data.INestedPersist.IsDirty
   commentId: P:SuperOffice.Data.INestedPersist.IsDirty
   id: IsDirty
@@ -645,6 +695,25 @@ references:
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
+- uid: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate*
+  commentId: Overload:SuperOffice.Data.INestedPersist.add_OnElementIdUpdate
+  isExternal: true
+  name: add_OnElementIdUpdate
+  nameWithType: INestedPersist.add_OnElementIdUpdate
+  fullName: SuperOffice.Data.INestedPersist.add_OnElementIdUpdate
+- uid: SuperOffice.Data.OnIdUpdate
+  commentId: T:SuperOffice.Data.OnIdUpdate
+  parent: SuperOffice.Data
+  isExternal: true
+  name: OnIdUpdate
+  nameWithType: OnIdUpdate
+  fullName: SuperOffice.Data.OnIdUpdate
+- uid: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate*
+  commentId: Overload:SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate
+  isExternal: true
+  name: remove_OnElementIdUpdate
+  nameWithType: INestedPersist.remove_OnElementIdUpdate
+  fullName: SuperOffice.Data.INestedPersist.remove_OnElementIdUpdate
 - uid: SuperOffice.Data.INestedPersist.IsDirty*
   commentId: Overload:SuperOffice.Data.INestedPersist.IsDirty
   isExternal: true
@@ -669,10 +738,3 @@ references:
   name: IsMarkedForDelete
   nameWithType: INestedPersist.IsMarkedForDelete
   fullName: SuperOffice.Data.INestedPersist.IsMarkedForDelete
-- uid: SuperOffice.Data.OnIdUpdate
-  commentId: T:SuperOffice.Data.OnIdUpdate
-  parent: SuperOffice.Data
-  isExternal: true
-  name: OnIdUpdate
-  nameWithType: OnIdUpdate
-  fullName: SuperOffice.Data.OnIdUpdate

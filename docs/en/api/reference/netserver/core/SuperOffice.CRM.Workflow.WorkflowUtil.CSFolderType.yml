@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  id: WorkflowUtil.CSFolderType
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formFolder
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formTemplateFolder
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.linkFolder
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.listFolder
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.messageFolder
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.pictureFolder
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.shipmentFolder
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowUtil.CSFolderType
+  nameWithType: WorkflowUtil.CSFolderType
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public sealed class CSFolderType : Enum'
+    content.vb: >-
+      Public NotInheritable Class CSFolderType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.value__
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.value__
+  id: value__
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowUtil.CSFolderType.value__
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.pictureFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.pictureFolder
+  id: pictureFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: pictureFolder
+  nameWithType: WorkflowUtil.CSFolderType.pictureFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.pictureFolder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowUtil.CSFolderType pictureFolder
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+    content.vb: Public Const pictureFolder As WorkflowUtil.CSFolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.messageFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.messageFolder
+  id: messageFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: messageFolder
+  nameWithType: WorkflowUtil.CSFolderType.messageFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.messageFolder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowUtil.CSFolderType messageFolder
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+    content.vb: Public Const messageFolder As WorkflowUtil.CSFolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.shipmentFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.shipmentFolder
+  id: shipmentFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: shipmentFolder
+  nameWithType: WorkflowUtil.CSFolderType.shipmentFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.shipmentFolder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowUtil.CSFolderType shipmentFolder
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+    content.vb: Public Const shipmentFolder As WorkflowUtil.CSFolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.linkFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.linkFolder
+  id: linkFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: linkFolder
+  nameWithType: WorkflowUtil.CSFolderType.linkFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.linkFolder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowUtil.CSFolderType linkFolder
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+    content.vb: Public Const linkFolder As WorkflowUtil.CSFolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.listFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.listFolder
+  id: listFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: listFolder
+  nameWithType: WorkflowUtil.CSFolderType.listFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.listFolder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowUtil.CSFolderType listFolder
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+    content.vb: Public Const listFolder As WorkflowUtil.CSFolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formFolder
+  id: formFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: formFolder
+  nameWithType: WorkflowUtil.CSFolderType.formFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formFolder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowUtil.CSFolderType formFolder
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+    content.vb: Public Const formFolder As WorkflowUtil.CSFolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formTemplateFolder
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formTemplateFolder
+  id: formTemplateFolder
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  langs:
+  - csharp
+  - vb
+  name: formTemplateFolder
+  nameWithType: WorkflowUtil.CSFolderType.formTemplateFolder
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.formTemplateFolder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const WorkflowUtil.CSFolderType formTemplateFolder
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+    content.vb: Public Const formTemplateFolder As WorkflowUtil.CSFolderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowUtil.CSFolderType, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowUtil.CSFolderType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowUtil.CSFolderType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To)()
+  name.vb: MapEnums(Of WorkflowUtil.CSFolderType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowUtil.CSFolderType, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowUtil.CSFolderType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowUtil.CSFolderType, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowUtil.CSFolderType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowUtil.CSFolderType, To>()
+  nameWithType: Converters.MapEnums<WorkflowUtil.CSFolderType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowUtil.CSFolderType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To)()
+  name.vb: MapEnums(Of WorkflowUtil.CSFolderType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowUtil.CSFolderType, To>
+    nameWithType: Converters.MapEnums<WorkflowUtil.CSFolderType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowUtil.CSFolderType, To)
+    nameWithType: Converters.MapEnums(Of WorkflowUtil.CSFolderType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: WorkflowUtil.CSFolderType
+  nameWithType: WorkflowUtil.CSFolderType
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSFolderType

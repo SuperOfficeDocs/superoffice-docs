@@ -41,6 +41,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
   - SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
   - SuperOffice.CRM.Rows.TicketRecordData.Priority
+  - SuperOffice.CRM.Rows.TicketRecordData.ProjectId
   - SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
   - SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
   - SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
@@ -50,6 +51,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
   - SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
   - SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
+  - SuperOffice.CRM.Rows.TicketRecordData.SaleId
   - SuperOffice.CRM.Rows.TicketRecordData.Sentiment
   - SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
   - SuperOffice.CRM.Rows.TicketRecordData.Slevel
@@ -59,6 +61,7 @@ items:
   - SuperOffice.CRM.Rows.TicketRecordData.TicketId
   - SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
   - SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  - SuperOffice.CRM.Rows.TicketRecordData.TimeSpent
   - SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
   - SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
   - SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
@@ -82,18 +85,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ticket table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TicketRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TicketTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class TicketRecordData
-    content.vb: Public Class TicketRecordData
+    content: 'public class TicketRecordData : Object'
+    content.vb: >-
+      Public Class TicketRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.TicketRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketRecordData)
@@ -209,7 +207,7 @@ items:
     content: public DateTime CreatedAt
     return:
       type: System.DateTime
-    content.vb: Public CreatedAt As Date
+    content.vb: Public CreatedAt As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -236,7 +234,7 @@ items:
     content: public DateTime LastChanged
     return:
       type: System.DateTime
-    content.vb: Public LastChanged As Date
+    content.vb: Public LastChanged As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -263,7 +261,7 @@ items:
     content: public DateTime Activate
     return:
       type: System.DateTime
-    content.vb: Public Activate As Date
+    content.vb: Public Activate As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -290,7 +288,7 @@ items:
     content: public DateTime ClosedAt
     return:
       type: System.DateTime
-    content.vb: Public ClosedAt As Date
+    content.vb: Public ClosedAt As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -641,7 +639,7 @@ items:
     content: public DateTime AlertTimeout
     return:
       type: System.DateTime
-    content.vb: Public AlertTimeout As Date
+    content.vb: Public AlertTimeout As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -695,7 +693,7 @@ items:
     content: public DateTime ReadByOwner
     return:
       type: System.DateTime
-    content.vb: Public ReadByOwner As Date
+    content.vb: Public ReadByOwner As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -722,7 +720,7 @@ items:
     content: public DateTime FirstReadByOwner
     return:
       type: System.DateTime
-    content.vb: Public FirstReadByOwner As Date
+    content.vb: Public FirstReadByOwner As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -749,7 +747,7 @@ items:
     content: public DateTime FirstReadByUser
     return:
       type: System.DateTime
-    content.vb: Public FirstReadByUser As Date
+    content.vb: Public FirstReadByUser As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -776,7 +774,7 @@ items:
     content: public DateTime ReadByCustomer
     return:
       type: System.DateTime
-    content.vb: Public ReadByCustomer As Date
+    content.vb: Public ReadByCustomer As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -857,7 +855,7 @@ items:
     content: public DateTime RepliedAt
     return:
       type: System.DateTime
-    content.vb: Public RepliedAt As Date
+    content.vb: Public RepliedAt As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1046,7 +1044,7 @@ items:
     content: public DateTime Deadline
     return:
       type: System.DateTime
-    content.vb: Public Deadline As Date
+    content.vb: Public Deadline As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1154,7 +1152,7 @@ items:
     content: public DateTime DbiLastSyncronized
     return:
       type: System.DateTime
-    content.vb: Public DbiLastSyncronized As Date
+    content.vb: Public DbiLastSyncronized As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1181,7 +1179,7 @@ items:
     content: public DateTime DbiLastModified
     return:
       type: System.DateTime
-    content.vb: Public DbiLastModified As Date
+    content.vb: Public DbiLastModified As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1397,7 +1395,7 @@ items:
     content: public DateTime TimeSpentCalculated
     return:
       type: System.DateTime
-    content.vb: Public TimeSpentCalculated As Date
+    content.vb: Public TimeSpentCalculated As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1452,33 +1450,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public NumMessages As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketRecordData.TicketType
-  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketType
-  id: TicketType
-  parent: SuperOffice.CRM.Rows.TicketRecordData
-  langs:
-  - csharp
-  - vb
-  name: TicketType
-  nameWithType: TicketRecordData.TicketType
-  fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketType
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nTicket type \n"
-  syntax:
-    content: public int TicketType
-    return:
-      type: System.Int32
-    content.vb: Public TicketType As Integer
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1726,6 +1697,114 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SaleId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: TicketRecordData.SaleId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.SaleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nReference to sale table \n"
+  syntax:
+    content: public int SaleId
+    return:
+      type: System.Int32
+    content.vb: Public SaleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.ProjectId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: TicketRecordData.ProjectId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nReference to project table \n"
+  syntax:
+    content: public int ProjectId
+    return:
+      type: System.Int32
+    content.vb: Public ProjectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpent
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpent
+  id: TimeSpent
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeSpent
+  nameWithType: TicketRecordData.TimeSpent
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total time (minutes). Aggregated time spent from ticket&apos;s messages. Read-only for external use. \n"
+  syntax:
+    content: public int TimeSpent
+    return:
+      type: System.Int32
+    content.vb: Public TimeSpent As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  id: TicketType
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketType
+  nameWithType: TicketRecordData.TicketType
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTickettype of the ticket \n"
+  syntax:
+    content: public int TicketType
+    return:
+      type: System.Int32
+    content.vb: Public TicketType As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TicketRecordData.#ctor
   id: '#ctor'
@@ -1765,285 +1844,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2489,8 +2289,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

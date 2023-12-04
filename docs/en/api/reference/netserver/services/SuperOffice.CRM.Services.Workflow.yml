@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Workflow
+  commentId: T:SuperOffice.CRM.Services.Workflow
+  id: Workflow
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Workflow.#ctor
+  - SuperOffice.CRM.Services.Workflow.Associate
+  - SuperOffice.CRM.Services.Workflow.Description
+  - SuperOffice.CRM.Services.Workflow.Name
+  - SuperOffice.CRM.Services.Workflow.Status
+  - SuperOffice.CRM.Services.Workflow.ToString
+  - SuperOffice.CRM.Services.Workflow.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Workflow
+  nameWithType: Workflow
+  fullName: SuperOffice.CRM.Services.Workflow
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflow carrier\n<p></p>\nCarrier object for Workflow.\nServices for the Workflow Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet Workflow 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new WorkflowAgent();\n    var workflow = agent.GetWorkflow( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class Workflow : Carrier'
+    content.vb: >-
+      Public Class Workflow
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Workflow.#ctor
+  commentId: M:SuperOffice.CRM.Services.Workflow.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Workflow
+  langs:
+  - csharp
+  - vb
+  name: Workflow()
+  nameWithType: Workflow.Workflow()
+  fullName: SuperOffice.CRM.Services.Workflow.Workflow()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Workflow()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Workflow.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Workflow.ToString
+  commentId: M:SuperOffice.CRM.Services.Workflow.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Workflow
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Workflow.ToString()
+  fullName: SuperOffice.CRM.Services.Workflow.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Workflow.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Workflow.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Workflow.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Workflow
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Workflow.ToString(String)
+  fullName: SuperOffice.CRM.Services.Workflow.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Workflow.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Workflow.Name
+  commentId: P:SuperOffice.CRM.Services.Workflow.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.Workflow
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Workflow.Name
+  fullName: SuperOffice.CRM.Services.Workflow.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the workflow \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.Workflow.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Workflow.Description
+  commentId: P:SuperOffice.CRM.Services.Workflow.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.Workflow
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Workflow.Description
+  fullName: SuperOffice.CRM.Services.Workflow.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the workflow \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.Workflow.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Workflow.Status
+  commentId: P:SuperOffice.CRM.Services.Workflow.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.Workflow
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Workflow.Status
+  fullName: SuperOffice.CRM.Services.Workflow.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStatus of the workflow definition \n"
+  syntax:
+    content: public virtual WorkflowDefinitionStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowDefinitionStatus
+    content.vb: Public Overridable Property Status As WorkflowDefinitionStatus
+  overload: SuperOffice.CRM.Services.Workflow.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Workflow.Associate
+  commentId: P:SuperOffice.CRM.Services.Workflow.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Services.Workflow
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: Workflow.Associate
+  fullName: SuperOffice.CRM.Services.Workflow.Associate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe owner of the workflow. \n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.CRM.Services.Workflow.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.Workflow.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Workflow.#ctor
+  isExternal: true
+  name: Workflow
+  nameWithType: Workflow.Workflow
+  fullName: SuperOffice.CRM.Services.Workflow.Workflow
+- uid: SuperOffice.CRM.Services.Workflow.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Workflow.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Workflow.ToString
+  fullName: SuperOffice.CRM.Services.Workflow.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Workflow.Name*
+  commentId: Overload:SuperOffice.CRM.Services.Workflow.Name
+  isExternal: true
+  name: Name
+  nameWithType: Workflow.Name
+  fullName: SuperOffice.CRM.Services.Workflow.Name
+- uid: SuperOffice.CRM.Services.Workflow.Description*
+  commentId: Overload:SuperOffice.CRM.Services.Workflow.Description
+  isExternal: true
+  name: Description
+  nameWithType: Workflow.Description
+  fullName: SuperOffice.CRM.Services.Workflow.Description
+- uid: SuperOffice.CRM.Services.Workflow.Status*
+  commentId: Overload:SuperOffice.CRM.Services.Workflow.Status
+  isExternal: true
+  name: Status
+  nameWithType: Workflow.Status
+  fullName: SuperOffice.CRM.Services.Workflow.Status
+- uid: SuperOffice.Data.WorkflowDefinitionStatus
+  isExternal: true
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: SuperOffice.Data.WorkflowDefinitionStatus
+- uid: SuperOffice.CRM.Services.Workflow.Associate*
+  commentId: Overload:SuperOffice.CRM.Services.Workflow.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: Workflow.Associate
+  fullName: SuperOffice.CRM.Services.Workflow.Associate
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate

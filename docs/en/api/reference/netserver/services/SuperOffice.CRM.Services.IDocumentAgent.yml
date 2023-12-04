@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.IDocumentAgent.CheckinDocument(System.Int32,System.String[],System.String,System.String[])
   - SuperOffice.CRM.Services.IDocumentAgent.CheckoutDocument(System.Int32,System.String[])
+  - SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment(System.Int32)
   - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntity
   - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(System.Int32)
   - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreview
@@ -2086,6 +2087,35 @@ items:
       description: The length of the document content in bytes.
     content.vb: Function GetDocumentLength(documentId As Integer, versionId As String) As Long
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentLength*
+- uid: SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment(System.Int32)
+  id: CopyDocumentToCsAttachment(System.Int32)
+  parent: SuperOffice.CRM.Services.IDocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: CopyDocumentToCsAttachment(Int32)
+  nameWithType: IDocumentAgent.CopyDocumentToCsAttachment(Int32)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCopy a crm document to cs attachemnt. For use in mailings\n"
+  syntax:
+    content: int CopyDocumentToCsAttachment(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: The primary key of the document to copy to the cs attachment
+    return:
+      type: System.Int32
+      description: The primary key of the newly added attachment
+    content.vb: Function CopyDocumentToCsAttachment(documentId As Integer) As Integer
+  overload: SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList(System.Int32[])
   id: GetDocumentList(System.Int32[])
@@ -2330,7 +2360,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetPublishedDocumentsByDate(personId As Integer, includeProjectDocuments As Boolean, startTime As Date, endTime As Date, count As Integer) As Document()
+    content.vb: Function GetPublishedDocumentsByDate(personId As Integer, includeProjectDocuments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetPublishedDocumentsByDate*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateTypes(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateTypes(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32[])
@@ -2371,7 +2401,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetContactDocumentsByTemplateTypes(contactId As Integer, startTime As Date, endTime As Date, count As Integer, documentTemplateIds As Integer()) As Document()
+    content.vb: Function GetContactDocumentsByTemplateTypes(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateIds As Integer()) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateTypes*
   nameWithType.vb: IDocumentAgent.GetContactDocumentsByTemplateTypes(Int32, DateTime, DateTime, Int32, Int32())
   fullName.vb: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateTypes(System.Int32, System.DateTime, System.DateTime, System.Int32, System.Int32())
@@ -2415,7 +2445,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetContactDocumentsByTemplateType(contactId As Integer, startTime As Date, endTime As Date, count As Integer, documentTemplateId As Integer) As Document()
+    content.vb: Function GetContactDocumentsByTemplateType(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateType*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -2456,7 +2486,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetContactDocumentsByTemplateHeading(contactId As Integer, startTime As Date, endTime As Date, count As Integer, templateHeadingId As Integer) As Document()
+    content.vb: Function GetContactDocumentsByTemplateHeading(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, templateHeadingId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocumentsByTemplateHeading*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocuments(System.Int32,System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetContactDocuments(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -2494,7 +2524,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetContactDocuments(contactId As Integer, startTime As Date, endTime As Date, count As Integer) As Document()
+    content.vb: Function GetContactDocuments(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetContactDocuments*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetPublishedPersonDocumentsByDate(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetPublishedPersonDocumentsByDate(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32)
@@ -2535,7 +2565,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetPublishedPersonDocumentsByDate(personId As Integer, includeProjectDocuments As Boolean, startTime As Date, endTime As Date, count As Integer) As Document()
+    content.vb: Function GetPublishedPersonDocumentsByDate(personId As Integer, includeProjectDocuments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetPublishedPersonDocumentsByDate*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetPublishedProjectDocuments(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetPublishedProjectDocuments(System.Int32)
@@ -2605,7 +2635,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectMemberDocumentsByTemplateTypes(personId As Integer, startTime As Date, endTime As Date, count As Integer, documentTemplateIds As Integer()) As Document()
+    content.vb: Function GetProjectMemberDocumentsByTemplateTypes(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateIds As Integer()) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocumentsByTemplateTypes*
   nameWithType.vb: IDocumentAgent.GetProjectMemberDocumentsByTemplateTypes(Int32, DateTime, DateTime, Int32, Int32())
   fullName.vb: SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocumentsByTemplateTypes(System.Int32, System.DateTime, System.DateTime, System.Int32, System.Int32())
@@ -2649,7 +2679,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectMemberDocumentsByTemplateType(personId As Integer, startTime As Date, endTime As Date, count As Integer, documentTemplateId As Integer) As Document()
+    content.vb: Function GetProjectMemberDocumentsByTemplateType(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocumentsByTemplateType*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocumentsByTemplateHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocumentsByTemplateHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -2690,7 +2720,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectMemberDocumentsByTemplateHeading(personId As Integer, startTime As Date, endTime As Date, count As Integer, templateHeadingId As Integer) As Document()
+    content.vb: Function GetProjectMemberDocumentsByTemplateHeading(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, templateHeadingId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocumentsByTemplateHeading*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocuments(System.Int32,System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocuments(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -2728,7 +2758,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectMemberDocuments(personId As Integer, startTime As Date, endTime As Date, count As Integer) As Document()
+    content.vb: Function GetProjectMemberDocuments(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectMemberDocuments*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateTypes(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateTypes(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32[])
@@ -2769,7 +2799,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectDocumentsByTemplateTypes(projectId As Integer, startTime As Date, endTime As Date, count As Integer, documentTemplateIds As Integer()) As Document()
+    content.vb: Function GetProjectDocumentsByTemplateTypes(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateIds As Integer()) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateTypes*
   nameWithType.vb: IDocumentAgent.GetProjectDocumentsByTemplateTypes(Int32, DateTime, DateTime, Int32, Int32())
   fullName.vb: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateTypes(System.Int32, System.DateTime, System.DateTime, System.Int32, System.Int32())
@@ -2813,7 +2843,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectDocumentsByTemplateType(projectId As Integer, startTime As Date, endTime As Date, count As Integer, documentTemplateId As Integer) As Document()
+    content.vb: Function GetProjectDocumentsByTemplateType(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateType*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -2854,7 +2884,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectDocumentsByTemplateHeading(projectId As Integer, startTime As Date, endTime As Date, count As Integer, templateHeadingId As Integer) As Document()
+    content.vb: Function GetProjectDocumentsByTemplateHeading(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, templateHeadingId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocumentsByTemplateHeading*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocuments(System.Int32,System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocuments(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -2892,7 +2922,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetProjectDocuments(projectId As Integer, startTime As Date, endTime As Date, count As Integer) As Document()
+    content.vb: Function GetProjectDocuments(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetProjectDocuments*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateTypes(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateTypes(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32[])
@@ -2936,7 +2966,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetPersonDocumentsByTemplateTypes(personId As Integer, includeProjectDocuments As Boolean, startTime As Date, endTime As Date, count As Integer, documentTemplateIds As Integer()) As Document()
+    content.vb: Function GetPersonDocumentsByTemplateTypes(personId As Integer, includeProjectDocuments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateIds As Integer()) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateTypes*
   nameWithType.vb: IDocumentAgent.GetPersonDocumentsByTemplateTypes(Int32, Boolean, DateTime, DateTime, Int32, Int32())
   fullName.vb: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateTypes(System.Int32, System.Boolean, System.DateTime, System.DateTime, System.Int32, System.Int32())
@@ -2983,7 +3013,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetPersonDocumentsByTemplateType(personId As Integer, includeProjectDocuments As Boolean, startTime As Date, endTime As Date, count As Integer, documentTemplateId As Integer) As Document()
+    content.vb: Function GetPersonDocumentsByTemplateType(personId As Integer, includeProjectDocuments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer, documentTemplateId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateType*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateHeading(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateHeading(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -3027,7 +3057,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetPersonDocumentsByTemplateHeading(personId As Integer, includeProjectDocuments As Boolean, startTime As Date, endTime As Date, count As Integer, templateHeadingId As Integer) As Document()
+    content.vb: Function GetPersonDocumentsByTemplateHeading(personId As Integer, includeProjectDocuments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer, templateHeadingId As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateHeading*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByDate(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByDate(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32)
@@ -3068,7 +3098,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Document[]
       description: Array of Appointments.
-    content.vb: Function GetPersonDocumentsByDate(personId As Integer, includeProjectDocuments As Boolean, startTime As Date, endTime As Date, count As Integer) As Document()
+    content.vb: Function GetPersonDocumentsByDate(personId As Integer, includeProjectDocuments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer) As Document()
   overload: SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByDate*
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentsByTemplateHeading(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentsByTemplateHeading(System.Int32)
@@ -3244,18 +3274,10 @@ references:
   nameWithType: IDocumentAgent.GetDocumentStreamFromEntity
   fullName: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentStreamFromEntity
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Services.IDocumentAgent.SetDocumentStream*
   commentId: Overload:SuperOffice.CRM.Services.IDocumentAgent.SetDocumentStream
   isExternal: true
@@ -3656,6 +3678,12 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment*
+  commentId: Overload:SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment
+  isExternal: true
+  name: CopyDocumentToCsAttachment
+  nameWithType: IDocumentAgent.CopyDocumentToCsAttachment
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment
 - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList*
   commentId: Overload:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentList
   isExternal: true
@@ -3757,8 +3785,6 @@ references:
   nameWithType: IDocumentAgent.GetPublishedDocumentsByDate
   fullName: SuperOffice.CRM.Services.IDocumentAgent.GetPublishedDocumentsByDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

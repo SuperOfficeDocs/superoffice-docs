@@ -616,13 +616,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
@@ -636,12 +629,6 @@ references:
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointmentEntity.#ctor
   isExternal: true
@@ -661,6 +648,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity.SuggestedAppointmentId*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointmentEntity.SuggestedAppointmentId
   isExternal: true
@@ -725,8 +718,6 @@ references:
   nameWithType: SuggestedAppointmentEntity.Duration
   fullName: SuperOffice.CRM.Services.SuggestedAppointmentEntity.Duration
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan

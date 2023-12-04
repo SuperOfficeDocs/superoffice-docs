@@ -23,6 +23,7 @@ items:
     content: 'public interface IAggregationScalarPlugin : IAggregationPlugin, IPlugin'
     content.vb: >-
       Public Interface IAggregationScalarPlugin
+
           Inherits IAggregationPlugin, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])

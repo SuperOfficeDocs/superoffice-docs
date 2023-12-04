@@ -14,13 +14,14 @@ items:
   - SuperOffice.Data.ReportLayout.List
   - SuperOffice.Data.ReportLayout.Text
   - SuperOffice.Data.ReportLayout.Unknown
+  - SuperOffice.Data.ReportLayout.value__
   langs:
   - csharp
   - vb
   name: ReportLayout
   nameWithType: ReportLayout
   fullName: SuperOffice.Data.ReportLayout
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -29,19 +30,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
-    content: public enum ReportLayout
-    content.vb: Public Enum ReportLayout
+    content: 'public sealed class ReportLayout : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReportLayout
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ReportLayout.EnumUtil.MapEnums``2
-  - SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReportLayout)
-  - SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.ReportLayout.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ReportLayout.value__
+  commentId: F:SuperOffice.Data.ReportLayout.value__
+  id: value__
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReportLayout.value__
+  fullName: SuperOffice.Data.ReportLayout.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ReportLayout.Unknown
   commentId: F:SuperOffice.Data.ReportLayout.Unknown
   id: Unknown
@@ -61,9 +97,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: \n"
   syntax:
-    content: Unknown = 0
+    content: public const ReportLayout Unknown
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const Unknown As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -89,9 +126,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: \n"
   syntax:
-    content: List = 1
+    content: public const ReportLayout List
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const List As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -117,9 +155,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: \n"
   syntax:
-    content: Label = 2
+    content: public const ReportLayout Label
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const Label As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -145,9 +184,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: \n"
   syntax:
-    content: GroupList = 3
+    content: public const ReportLayout GroupList
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const GroupList As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -173,9 +213,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: \n"
   syntax:
-    content: CrossTable = 4
+    content: public const ReportLayout CrossTable
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const CrossTable As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -201,9 +242,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: \n"
   syntax:
-    content: CalendarWeek5 = 5
+    content: public const ReportLayout CalendarWeek5
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const CalendarWeek5 As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -229,9 +271,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: \n"
   syntax:
-    content: CalendarWeek7 = 6
+    content: public const ReportLayout CalendarWeek7
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const CalendarWeek7 As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -257,9 +300,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: \n"
   syntax:
-    content: CalendarMonth = 7
+    content: public const ReportLayout CalendarMonth
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const CalendarMonth As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -285,9 +329,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: \n"
   syntax:
-    content: Text = 8
+    content: public const ReportLayout Text
     return:
       type: SuperOffice.Data.ReportLayout
+    content.vb: Public Const Text As ReportLayout
   modifiers.csharp:
   - public
   - const
@@ -301,6 +346,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ReportLayout.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -328,84 +380,6 @@ references:
     name: MapEnums(Of ReportLayout, To)
     nameWithType: EnumUtil.MapEnums(Of ReportLayout, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ReportLayout, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReportLayout)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ReportLayout>(ReportLayout)
-  nameWithType: ObjectExtensions.AssignByReflection<ReportLayout>(ReportLayout)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ReportLayout>(SuperOffice.Data.ReportLayout)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReportLayout)(ReportLayout)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ReportLayout)(SuperOffice.Data.ReportLayout)
-  name.vb: AssignByReflection(Of ReportLayout)(ReportLayout)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ReportLayout>
-    nameWithType: ObjectExtensions.AssignByReflection<ReportLayout>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ReportLayout>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ReportLayout
-    name: ReportLayout
-    nameWithType: ReportLayout
-    fullName: SuperOffice.Data.ReportLayout
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ReportLayout)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ReportLayout)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ReportLayout)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ReportLayout
-    name: ReportLayout
-    nameWithType: ReportLayout
-    fullName: SuperOffice.Data.ReportLayout
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ReportLayout>()
-  nameWithType: ObjectExtensions.GraphCopy<ReportLayout>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ReportLayout>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReportLayout)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ReportLayout)()
-  name.vb: GraphCopy(Of ReportLayout)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ReportLayout>
-    nameWithType: ObjectExtensions.GraphCopy<ReportLayout>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ReportLayout>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ReportLayout)
-    nameWithType: ObjectExtensions.GraphCopy(Of ReportLayout)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ReportLayout)
     isExternal: true
   - name: (
     nameWithType: (
@@ -447,6 +421,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -492,103 +472,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -635,18 +518,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.ReportLayout
   commentId: T:SuperOffice.Data.ReportLayout
   parent: SuperOffice.Data

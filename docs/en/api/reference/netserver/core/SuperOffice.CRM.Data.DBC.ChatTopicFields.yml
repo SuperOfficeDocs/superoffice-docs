@@ -28,11 +28,14 @@ items:
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.LastAccept
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStart
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.LunchStop
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningChatMessage
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningNewChat
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.MonEnabled
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStart
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.MonStop
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.Name
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormQueueLength
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormTimeLimit
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.PriorityId
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.SatEnabled
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.SatStart
@@ -50,16 +53,27 @@ items:
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.TzLocationId
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.UseLunchHours
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.UseOpeningHours
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningChatMessage
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningNewChat
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WedEnabled
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStart
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WedStop
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WelcomeMessage
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgColor
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgTextColor
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentUseFirstname
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAutoFaq
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeColor
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeTextColor
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonColor
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonTextColor
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetColor
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgColor
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgTextColor
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableRating
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableTicket
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFont
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFontSize
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetLanguage
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineFields
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetOfflineHeader
@@ -70,6 +84,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPostTranscript
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreForm
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetPreMessage
+  - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRatingText
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRequiredFields
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowAgentPhoto
   - SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetShowLogo
@@ -91,18 +106,13 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nFields for ChatTopic, This table contains chat topics.\n"
   syntax:
-    content: public static class ChatTopicFields
-    content.vb: Public Module ChatTopicFields
+    content: 'public static class ChatTopicFields : Object'
+    content.vb: >-
+      Public Module ChatTopicFields
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -2169,6 +2179,441 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningChatMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningChatMessage
+  id: WarningChatMessage
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WarningChatMessage
+  nameWithType: DBC.ChatTopicFields.WarningChatMessage
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WarningChatMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WarningChatMessage: Contains the user notify time in minutes for new chat messages\n"
+  syntax:
+    content: public const string WarningChatMessage = "warning_chat_message"
+    return:
+      type: System.String
+    content.vb: Public Const WarningChatMessage As String = "warning_chat_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningChatMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningChatMessage
+  id: ManagerWarningChatMessage
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: ManagerWarningChatMessage
+  nameWithType: DBC.ChatTopicFields.ManagerWarningChatMessage
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.ManagerWarningChatMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.ManagerWarningChatMessage: Contains the manager notify time in minutes for new chat messages\n"
+  syntax:
+    content: public const string ManagerWarningChatMessage = "manager_warning_chat_message"
+    return:
+      type: System.String
+    content.vb: Public Const ManagerWarningChatMessage As String = "manager_warning_chat_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormTimeLimit
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormTimeLimit
+  id: OfflineFormTimeLimit
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormTimeLimit
+  nameWithType: DBC.ChatTopicFields.OfflineFormTimeLimit
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormTimeLimit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.OfflineFormTimeLimit: The number of minutes in the queue before the offline form is available\n"
+  syntax:
+    content: public const string OfflineFormTimeLimit = "offline_form_time_limit"
+    return:
+      type: System.String
+    content.vb: Public Const OfflineFormTimeLimit As String = "offline_form_time_limit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormQueueLength
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormQueueLength
+  id: OfflineFormQueueLength
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormQueueLength
+  nameWithType: DBC.ChatTopicFields.OfflineFormQueueLength
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.OfflineFormQueueLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.OfflineFormQueueLength: The number of customers in the queue before the offline form is available\n"
+  syntax:
+    content: public const string OfflineFormQueueLength = "offline_form_queue_length"
+    return:
+      type: System.String
+    content.vb: Public Const OfflineFormQueueLength As String = "offline_form_queue_length"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableRating
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableRating
+  id: WidgetEnableRating
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetEnableRating
+  nameWithType: DBC.ChatTopicFields.WidgetEnableRating
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetEnableRating
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetEnableRating: Setting this to true will enable rating support in the chat widget\n"
+  syntax:
+    content: public const string WidgetEnableRating = "widget_enable_rating"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetEnableRating As String = "widget_enable_rating"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRatingText
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRatingText
+  id: WidgetRatingText
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetRatingText
+  nameWithType: DBC.ChatTopicFields.WidgetRatingText
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetRatingText
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetRatingText: The text to be displayed in the widget next to the rating stars\n"
+  syntax:
+    content: public const string WidgetRatingText = "widget_rating_text"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetRatingText As String = "widget_rating_text"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeColor
+  id: WidgetBadgeColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetBadgeColor
+  nameWithType: DBC.ChatTopicFields.WidgetBadgeColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetBadgeColor: Optional color for chat widget badge\n"
+  syntax:
+    content: public const string WidgetBadgeColor = "widget_badge_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetBadgeColor As String = "widget_badge_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeTextColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeTextColor
+  id: WidgetBadgeTextColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetBadgeTextColor
+  nameWithType: DBC.ChatTopicFields.WidgetBadgeTextColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetBadgeTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetBadgeTextColor: Optional color for chat widget badge text\n"
+  syntax:
+    content: public const string WidgetBadgeTextColor = "widget_badge_text_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetBadgeTextColor As String = "widget_badge_text_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgColor
+  id: WidgetCustMsgColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetCustMsgColor
+  nameWithType: DBC.ChatTopicFields.WidgetCustMsgColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetCustMsgColor: Optional color for chat widget customer message\n"
+  syntax:
+    content: public const string WidgetCustMsgColor = "widget_cust_msg_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetCustMsgColor As String = "widget_cust_msg_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgTextColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgTextColor
+  id: WidgetCustMsgTextColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetCustMsgTextColor
+  nameWithType: DBC.ChatTopicFields.WidgetCustMsgTextColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetCustMsgTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetCustMsgTextColor: Optional color for chat widget customer message text\n"
+  syntax:
+    content: public const string WidgetCustMsgTextColor = "widget_cust_msg_text_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetCustMsgTextColor As String = "widget_cust_msg_text_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgColor
+  id: WidgetAgentMsgColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentMsgColor
+  nameWithType: DBC.ChatTopicFields.WidgetAgentMsgColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetAgentMsgColor: Optional color for chat widget agent message\n"
+  syntax:
+    content: public const string WidgetAgentMsgColor = "widget_agent_msg_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetAgentMsgColor As String = "widget_agent_msg_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgTextColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgTextColor
+  id: WidgetAgentMsgTextColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentMsgTextColor
+  nameWithType: DBC.ChatTopicFields.WidgetAgentMsgTextColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetAgentMsgTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetAgentMsgTextColor: Optional color for chat widget agent message text\n"
+  syntax:
+    content: public const string WidgetAgentMsgTextColor = "widget_agent_msg_text_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetAgentMsgTextColor As String = "widget_agent_msg_text_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFontSize
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFontSize
+  id: WidgetFontSize
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetFontSize
+  nameWithType: DBC.ChatTopicFields.WidgetFontSize
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetFontSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetFontSize: Optional size for chat widget font\n"
+  syntax:
+    content: public const string WidgetFontSize = "widget_font_size"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetFontSize As String = "widget_font_size"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonColor
+  id: WidgetButtonColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetButtonColor
+  nameWithType: DBC.ChatTopicFields.WidgetButtonColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetButtonColor: Optional color for chat widget button\n"
+  syntax:
+    content: public const string WidgetButtonColor = "widget_button_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetButtonColor As String = "widget_button_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonTextColor
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonTextColor
+  id: WidgetButtonTextColor
+  parent: SuperOffice.CRM.Data.DBC.ChatTopicFields
+  langs:
+  - csharp
+  - vb
+  name: WidgetButtonTextColor
+  nameWithType: DBC.ChatTopicFields.WidgetButtonTextColor
+  fullName: SuperOffice.CRM.Data.DBC.ChatTopicFields.WidgetButtonTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatTopic.WidgetButtonTextColor: Optional color for chat widget button text\n"
+  syntax:
+    content: public const string WidgetButtonTextColor = "widget_button_text_color"
+    return:
+      type: System.String
+    content.vb: Public Const WidgetButtonTextColor As String = "widget_button_text_color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2183,285 +2628,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

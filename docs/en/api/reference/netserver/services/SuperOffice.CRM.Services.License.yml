@@ -138,13 +138,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.LicenseAgent
   commentId: T:SuperOffice.CRM.Services.LicenseAgent
   isExternal: true
@@ -158,12 +151,6 @@ references:
   name: ILicenseAgent
   nameWithType: ILicenseAgent
   fullName: SuperOffice.CRM.Services.ILicenseAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.License.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.License.#ctor
   isExternal: true
@@ -183,3 +170,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -15,6 +15,7 @@ items:
   - SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   - SuperOffice.Data.SQL.AppointmentStatusFieldInfo
   - SuperOffice.Data.SQL.AppointmentTypeFieldInfo
+  - SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
   - SuperOffice.Data.SQL.Argument
   - SuperOffice.Data.SQL.ArgumentCollection
   - SuperOffice.Data.SQL.ArgumentFunction
@@ -22,11 +23,13 @@ items:
   - SuperOffice.Data.SQL.ArrayCompare
   - SuperOffice.Data.SQL.AssociateTypeFieldInfo
   - SuperOffice.Data.SQL.Avg
+  - SuperOffice.Data.SQL.BadgeTypeFieldInfo
   - SuperOffice.Data.SQL.BatchSave
   - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
   - SuperOffice.Data.SQL.Between
   - SuperOffice.Data.SQL.BlobLinkTypeFieldInfo
   - SuperOffice.Data.SQL.Bool
+  - SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageTypeFieldInfo
   - SuperOffice.Data.SQL.ChatSessionFlagsFieldInfo
@@ -43,6 +46,7 @@ items:
   - SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileMeasureFieldInfo
   - SuperOffice.Data.SQL.DashTileTypeFieldInfo
+  - SuperOffice.Data.SQL.DashTileUsageFieldInfo
   - SuperOffice.Data.SQL.DatabaseFieldAttribute
   - SuperOffice.Data.SQL.DatabaseFunctions
   - SuperOffice.Data.SQL.DatabaseTableAttribute
@@ -65,7 +69,9 @@ items:
   - SuperOffice.Data.SQL.ElementStatusFieldInfo
   - SuperOffice.Data.SQL.EmailAccountStatusFieldInfo
   - SuperOffice.Data.SQL.EMailFlagsFieldInfo
+  - SuperOffice.Data.SQL.EmailFromTypeFieldInfo
   - SuperOffice.Data.SQL.EMailPriorityFieldInfo
+  - SuperOffice.Data.SQL.EmailReplyToTypeFieldInfo
   - SuperOffice.Data.SQL.EmailTypeFieldInfo
   - SuperOffice.Data.SQL.Equal
   - SuperOffice.Data.SQL.ErpActorTypeFieldInfo
@@ -81,6 +87,7 @@ items:
   - SuperOffice.Data.SQL.FreeBusyFieldInfo
   - SuperOffice.Data.SQL.GreaterThan
   - SuperOffice.Data.SQL.GreaterThanOrEqual
+  - SuperOffice.Data.SQL.Greatest
   - SuperOffice.Data.SQL.GroupBy
   - SuperOffice.Data.SQL.HasAll
   - SuperOffice.Data.SQL.HasAny
@@ -100,11 +107,13 @@ items:
   - SuperOffice.Data.SQL.IsNull
   - SuperOffice.Data.SQL.JoinCompare
   - SuperOffice.Data.SQL.JoinRestriction
+  - SuperOffice.Data.SQL.JsonValue
   - SuperOffice.Data.SQL.LeftOuterJoin
   - SuperOffice.Data.SQL.LessThan
   - SuperOffice.Data.SQL.LessThanOrEqual
   - SuperOffice.Data.SQL.LicenseTypeFieldInfo
   - SuperOffice.Data.SQL.Like
+  - SuperOffice.Data.SQL.LogEventFieldInfo
   - SuperOffice.Data.SQL.LoginFlagsFieldInfo
   - SuperOffice.Data.SQL.Lower
   - SuperOffice.Data.SQL.MailboxTypeFieldInfo
@@ -114,6 +123,7 @@ items:
   - SuperOffice.Data.SQL.Minute
   - SuperOffice.Data.SQL.MissingAll
   - SuperOffice.Data.SQL.MissingAny
+  - SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
   - SuperOffice.Data.SQL.Month
   - SuperOffice.Data.SQL.Multiply
   - SuperOffice.Data.SQL.NavigationFieldInfo
@@ -142,6 +152,7 @@ items:
   - SuperOffice.Data.SQL.RefcountFlagsFieldInfo
   - SuperOffice.Data.SQL.RelationInfo
   - SuperOffice.Data.SQL.RelationType
+  - SuperOffice.Data.SQL.ReplyTemplateBodyFlagsFieldInfo
   - SuperOffice.Data.SQL.Restriction
   - SuperOffice.Data.SQL.ResultModification
   - SuperOffice.Data.SQL.ReturnFieldsCollection
@@ -150,7 +161,7 @@ items:
   - SuperOffice.Data.SQL.RoleTypeFieldInfo
   - SuperOffice.Data.SQL.SaleDoneFieldInfo
   - SuperOffice.Data.SQL.SaleStatusFieldInfo
-  - SuperOffice.Data.SQL.ScreenChooserTypeFieldInfo
+  - SuperOffice.Data.SQL.ScriptTypeFieldInfo
   - SuperOffice.Data.SQL.Second
   - SuperOffice.Data.SQL.Select
   - SuperOffice.Data.SQL.SelectionSystemTypeFieldInfo
@@ -165,6 +176,7 @@ items:
   - SuperOffice.Data.SQL.ShipmentMessageTypeFieldInfo
   - SuperOffice.Data.SQL.ShipmentStatusFieldInfo
   - SuperOffice.Data.SQL.ShowStateFieldInfo
+  - SuperOffice.Data.SQL.ShowTaskItemInClientFieldInfo
   - SuperOffice.Data.SQL.ShowWindowStateFieldInfo
   - SuperOffice.Data.SQL.Soundex
   - SuperOffice.Data.SQL.SqlCommand
@@ -175,18 +187,23 @@ items:
   - SuperOffice.Data.SQL.TableExpression
   - SuperOffice.Data.SQL.TableInfo
   - SuperOffice.Data.SQL.TableInfoCollection
+  - SuperOffice.Data.SQL.TargetAssignementLevelFieldInfo
   - SuperOffice.Data.SQL.TargetedDataRecord`1
   - SuperOffice.Data.SQL.TargetedInnerJoin`1
   - SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   - SuperOffice.Data.SQL.TargetedSelect`1
+  - SuperOffice.Data.SQL.TargetEntityTypeFieldInfo
+  - SuperOffice.Data.SQL.TargetMeasurementUnitFieldInfo
+  - SuperOffice.Data.SQL.TargetPeriodTypeFieldInfo
   - SuperOffice.Data.SQL.TaskDirectionFieldInfo
+  - SuperOffice.Data.SQL.TaskListItemTypeFieldInfo
   - SuperOffice.Data.SQL.TaskTypeFieldInfo
   - SuperOffice.Data.SQL.TemporaryKeyDomainFieldInfo
   - SuperOffice.Data.SQL.TextTypeFieldInfo
   - SuperOffice.Data.SQL.TicketBaseStatusFieldInfo
-  - SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
   - SuperOffice.Data.SQL.TicketCategoryDelegateMethodFieldInfo
   - SuperOffice.Data.SQL.TicketCategoryFlagsFieldInfo
+  - SuperOffice.Data.SQL.TicketLogActionFieldInfo
   - SuperOffice.Data.SQL.TicketMessageCategoryFieldInfo
   - SuperOffice.Data.SQL.TicketMessageTypeFieldInfo
   - SuperOffice.Data.SQL.TicketOriginFieldInfo
@@ -210,11 +227,18 @@ items:
   - SuperOffice.Data.SQL.Update
   - SuperOffice.Data.SQL.UpdateField
   - SuperOffice.Data.SQL.Upper
+  - SuperOffice.Data.SQL.UrlEncodingFieldInfo
   - SuperOffice.Data.SQL.ValueOverrideFieldInfo
   - SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
   - SuperOffice.Data.SQL.WebhookStateFieldInfo
+  - SuperOffice.Data.SQL.WeekdayFieldInfo
   - SuperOffice.Data.SQL.WidgetRequiredFieldsFieldInfo
   - SuperOffice.Data.SQL.WidgetThemeFieldInfo
+  - SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
+  - SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
+  - SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+  - SuperOffice.Data.SQL.WorkflowStepTypeFieldInfo
+  - SuperOffice.Data.SQL.WorkflowTriggerTypeFieldInfo
   - SuperOffice.Data.SQL.Year
   langs:
   - csharp
@@ -541,13 +565,6 @@ references:
   name: TtlFlagsFieldInfo
   nameWithType: TtlFlagsFieldInfo
   fullName: SuperOffice.Data.SQL.TtlFlagsFieldInfo
-- uid: SuperOffice.Data.SQL.ScreenChooserTypeFieldInfo
-  commentId: T:SuperOffice.Data.SQL.ScreenChooserTypeFieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: ScreenChooserTypeFieldInfo
-  nameWithType: ScreenChooserTypeFieldInfo
-  fullName: SuperOffice.Data.SQL.ScreenChooserTypeFieldInfo
 - uid: SuperOffice.Data.SQL.AssociateTypeFieldInfo
   commentId: T:SuperOffice.Data.SQL.AssociateTypeFieldInfo
   parent: SuperOffice.Data.SQL
@@ -611,6 +628,13 @@ references:
   name: LicenseTypeFieldInfo
   nameWithType: LicenseTypeFieldInfo
   fullName: SuperOffice.Data.SQL.LicenseTypeFieldInfo
+- uid: SuperOffice.Data.SQL.UrlEncodingFieldInfo
+  commentId: T:SuperOffice.Data.SQL.UrlEncodingFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UrlEncodingFieldInfo
+  nameWithType: UrlEncodingFieldInfo
+  fullName: SuperOffice.Data.SQL.UrlEncodingFieldInfo
 - uid: SuperOffice.Data.SQL.TicketBaseStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.TicketBaseStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -618,6 +642,13 @@ references:
   name: TicketBaseStatusFieldInfo
   nameWithType: TicketBaseStatusFieldInfo
   fullName: SuperOffice.Data.SQL.TicketBaseStatusFieldInfo
+- uid: SuperOffice.Data.SQL.TicketLogActionFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TicketLogActionFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TicketLogActionFieldInfo
+  nameWithType: TicketLogActionFieldInfo
+  fullName: SuperOffice.Data.SQL.TicketLogActionFieldInfo
 - uid: SuperOffice.Data.SQL.EMailPriorityFieldInfo
   commentId: T:SuperOffice.Data.SQL.EMailPriorityFieldInfo
   parent: SuperOffice.Data.SQL
@@ -667,6 +698,104 @@ references:
   name: DashTileEntityTypeFieldInfo
   nameWithType: DashTileEntityTypeFieldInfo
   fullName: SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
+- uid: SuperOffice.Data.SQL.DashTileUsageFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DashTileUsageFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DashTileUsageFieldInfo
+  nameWithType: DashTileUsageFieldInfo
+  fullName: SuperOffice.Data.SQL.DashTileUsageFieldInfo
+- uid: SuperOffice.Data.SQL.TargetAssignementLevelFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TargetAssignementLevelFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetAssignementLevelFieldInfo
+  nameWithType: TargetAssignementLevelFieldInfo
+  fullName: SuperOffice.Data.SQL.TargetAssignementLevelFieldInfo
+- uid: SuperOffice.Data.SQL.TargetEntityTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TargetEntityTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetEntityTypeFieldInfo
+  nameWithType: TargetEntityTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.TargetEntityTypeFieldInfo
+- uid: SuperOffice.Data.SQL.TargetMeasurementUnitFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TargetMeasurementUnitFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetMeasurementUnitFieldInfo
+  nameWithType: TargetMeasurementUnitFieldInfo
+  fullName: SuperOffice.Data.SQL.TargetMeasurementUnitFieldInfo
+- uid: SuperOffice.Data.SQL.TargetPeriodTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TargetPeriodTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetPeriodTypeFieldInfo
+  nameWithType: TargetPeriodTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.TargetPeriodTypeFieldInfo
+- uid: SuperOffice.Data.SQL.LogEventFieldInfo
+  commentId: T:SuperOffice.Data.SQL.LogEventFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: LogEventFieldInfo
+  nameWithType: LogEventFieldInfo
+  fullName: SuperOffice.Data.SQL.LogEventFieldInfo
+- uid: SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: WorkflowInstanceStatusFieldInfo
+  nameWithType: WorkflowInstanceStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+- uid: SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: WorkflowDefinitionStatusFieldInfo
+  nameWithType: WorkflowDefinitionStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
+- uid: SuperOffice.Data.SQL.EmailFromTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.EmailFromTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: EmailFromTypeFieldInfo
+  nameWithType: EmailFromTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.EmailFromTypeFieldInfo
+- uid: SuperOffice.Data.SQL.EmailReplyToTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.EmailReplyToTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: EmailReplyToTypeFieldInfo
+  nameWithType: EmailReplyToTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.EmailReplyToTypeFieldInfo
+- uid: SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: WorkflowGoalTypeFieldInfo
+  nameWithType: WorkflowGoalTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
+- uid: SuperOffice.Data.SQL.WorkflowStepTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WorkflowStepTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: WorkflowStepTypeFieldInfo
+  nameWithType: WorkflowStepTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.WorkflowStepTypeFieldInfo
+- uid: SuperOffice.Data.SQL.WorkflowTriggerTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WorkflowTriggerTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: WorkflowTriggerTypeFieldInfo
+  nameWithType: WorkflowTriggerTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.WorkflowTriggerTypeFieldInfo
+- uid: SuperOffice.Data.SQL.WeekdayFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WeekdayFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: WeekdayFieldInfo
+  nameWithType: WeekdayFieldInfo
+  fullName: SuperOffice.Data.SQL.WeekdayFieldInfo
 - uid: SuperOffice.Data.SQL.TemporaryKeyDomainFieldInfo
   commentId: T:SuperOffice.Data.SQL.TemporaryKeyDomainFieldInfo
   parent: SuperOffice.Data.SQL
@@ -744,6 +873,27 @@ references:
   name: DeltaStateFieldInfo
   nameWithType: DeltaStateFieldInfo
   fullName: SuperOffice.Data.SQL.DeltaStateFieldInfo
+- uid: SuperOffice.Data.SQL.TaskListItemTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TaskListItemTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TaskListItemTypeFieldInfo
+  nameWithType: TaskListItemTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.TaskListItemTypeFieldInfo
+- uid: SuperOffice.Data.SQL.ShowTaskItemInClientFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ShowTaskItemInClientFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ShowTaskItemInClientFieldInfo
+  nameWithType: ShowTaskItemInClientFieldInfo
+  fullName: SuperOffice.Data.SQL.ShowTaskItemInClientFieldInfo
+- uid: SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ArchiveBehaviourFieldInfo
+  nameWithType: ArchiveBehaviourFieldInfo
+  fullName: SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -765,13 +915,6 @@ references:
   name: TicketCategoryDelegateMethodFieldInfo
   nameWithType: TicketCategoryDelegateMethodFieldInfo
   fullName: SuperOffice.Data.SQL.TicketCategoryDelegateMethodFieldInfo
-- uid: SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
-  commentId: T:SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: TicketCategoryClosingStatusFieldInfo
-  nameWithType: TicketCategoryClosingStatusFieldInfo
-  fullName: SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
 - uid: SuperOffice.Data.SQL.TicketCategoryFlagsFieldInfo
   commentId: T:SuperOffice.Data.SQL.TicketCategoryFlagsFieldInfo
   parent: SuperOffice.Data.SQL
@@ -842,6 +985,34 @@ references:
   name: ShipmentMessageTypeFieldInfo
   nameWithType: ShipmentMessageTypeFieldInfo
   fullName: SuperOffice.Data.SQL.ShipmentMessageTypeFieldInfo
+- uid: SuperOffice.Data.SQL.ReplyTemplateBodyFlagsFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ReplyTemplateBodyFlagsFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ReplyTemplateBodyFlagsFieldInfo
+  nameWithType: ReplyTemplateBodyFlagsFieldInfo
+  fullName: SuperOffice.Data.SQL.ReplyTemplateBodyFlagsFieldInfo
+- uid: SuperOffice.Data.SQL.BadgeTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.BadgeTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: BadgeTypeFieldInfo
+  nameWithType: BadgeTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.BadgeTypeFieldInfo
+- uid: SuperOffice.Data.SQL.ScriptTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ScriptTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ScriptTypeFieldInfo
+  nameWithType: ScriptTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.ScriptTypeFieldInfo
+- uid: SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: CcTemplateTypeFieldInfo
+  nameWithType: CcTemplateTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
 - uid: SuperOffice.Data.SQL.WidgetThemeFieldInfo
   commentId: T:SuperOffice.Data.SQL.WidgetThemeFieldInfo
   parent: SuperOffice.Data.SQL
@@ -905,6 +1076,13 @@ references:
   name: RecipientSortingFieldInfo
   nameWithType: RecipientSortingFieldInfo
   fullName: SuperOffice.Data.SQL.RecipientSortingFieldInfo
+- uid: SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ModifiedAppointmentFieldsFieldInfo
+  nameWithType: ModifiedAppointmentFieldsFieldInfo
+  fullName: SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
 - uid: SuperOffice.Data.SQL.ElementStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.ElementStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1278,6 +1456,13 @@ references:
   name: GreaterThan
   nameWithType: GreaterThan
   fullName: SuperOffice.Data.SQL.GreaterThan
+- uid: SuperOffice.Data.SQL.Greatest
+  commentId: T:SuperOffice.Data.SQL.Greatest
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Greatest
+  nameWithType: Greatest
+  fullName: SuperOffice.Data.SQL.Greatest
 - uid: SuperOffice.Data.SQL.GroupBy
   commentId: T:SuperOffice.Data.SQL.GroupBy
   parent: SuperOffice.Data.SQL
@@ -1472,6 +1657,13 @@ references:
   name: JoinRestriction
   nameWithType: JoinRestriction
   fullName: SuperOffice.Data.SQL.JoinRestriction
+- uid: SuperOffice.Data.SQL.JsonValue
+  commentId: T:SuperOffice.Data.SQL.JsonValue
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: JsonValue
+  nameWithType: JsonValue
+  fullName: SuperOffice.Data.SQL.JsonValue
 - uid: SuperOffice.Data.SQL.LeftOuterJoin
   commentId: T:SuperOffice.Data.SQL.LeftOuterJoin
   parent: SuperOffice.Data.SQL

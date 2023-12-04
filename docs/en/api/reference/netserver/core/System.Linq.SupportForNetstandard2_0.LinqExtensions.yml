@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Linq.SupportForNetstandard2_0.LinqExtensions
+  commentId: T:System.Linq.SupportForNetstandard2_0.LinqExtensions
+  id: LinqExtensions
+  parent: System.Linq.SupportForNetstandard2_0
+  children:
+  - System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEnumerable{``0})
+  - System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  langs:
+  - csharp
+  - vb
+  name: LinqExtensions
+  nameWithType: LinqExtensions
+  fullName: System.Linq.SupportForNetstandard2_0.LinqExtensions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: System.Linq.SupportForNetstandard2_0
+  syntax:
+    content: 'public static class LinqExtensions : Object'
+    content.vb: >-
+      Public Module LinqExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  commentId: M:System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  id: ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+  isExtensionMethod: true
+  parent: System.Linq.SupportForNetstandard2_0.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToHashSet<TSource>(IEnumerable<TSource>, IEqualityComparer<TSource>)
+  nameWithType: LinqExtensions.ToHashSet<TSource>(IEnumerable<TSource>, IEqualityComparer<TSource>)
+  fullName: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEqualityComparer<TSource>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: System.Linq.SupportForNetstandard2_0
+  syntax:
+    content: public static HashSet<TSource> ToHashSet<TSource>(this IEnumerable<TSource> source, IEqualityComparer<TSource> comparer)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TSource}}
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Collections.Generic.HashSet{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToHashSet(Of TSource)(source As IEnumerable(Of TSource), comparer As IEqualityComparer(Of TSource)) As HashSet(Of TSource)
+  overload: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet*
+  nameWithType.vb: LinqExtensions.ToHashSet(Of TSource)(IEnumerable(Of TSource), IEqualityComparer(Of TSource))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Collections.Generic.IEqualityComparer(Of TSource))
+  name.vb: ToHashSet(Of TSource)(IEnumerable(Of TSource), IEqualityComparer(Of TSource))
+- uid: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet``1(System.Collections.Generic.IEnumerable{``0})
+  id: ToHashSet``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: System.Linq.SupportForNetstandard2_0.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToHashSet<TSource>(IEnumerable<TSource>)
+  nameWithType: LinqExtensions.ToHashSet<TSource>(IEnumerable<TSource>)
+  fullName: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: System.Linq.SupportForNetstandard2_0
+  syntax:
+    content: public static HashSet<TSource> ToHashSet<TSource>(this IEnumerable<TSource> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{TSource}}
+    typeParameters:
+    - id: TSource
+    return:
+      type: System.Collections.Generic.HashSet{{TSource}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToHashSet(Of TSource)(source As IEnumerable(Of TSource)) As HashSet(Of TSource)
+  overload: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet*
+  nameWithType.vb: LinqExtensions.ToHashSet(Of TSource)(IEnumerable(Of TSource))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  name.vb: ToHashSet(Of TSource)(IEnumerable(Of TSource))
+references:
+- uid: System.Linq.SupportForNetstandard2_0
+  commentId: N:System.Linq.SupportForNetstandard2_0
+  isExternal: true
+  name: System.Linq.SupportForNetstandard2_0
+  nameWithType: System.Linq.SupportForNetstandard2_0
+  fullName: System.Linq.SupportForNetstandard2_0
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet*
+  commentId: Overload:System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet
+  isExternal: true
+  name: ToHashSet
+  nameWithType: LinqExtensions.ToHashSet
+  fullName: System.Linq.SupportForNetstandard2_0.LinqExtensions.ToHashSet
+- uid: System.Collections.Generic.IEnumerable{{TSource}}
+  commentId: '!:System.Collections.Generic.IEnumerable{``0}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TSource>
+  nameWithType: IEnumerable<TSource>
+  fullName: System.Collections.Generic.IEnumerable<TSource>
+  nameWithType.vb: IEnumerable(Of TSource)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TSource)
+  name.vb: IEnumerable(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEqualityComparer{{TSource}}
+  commentId: '!:System.Collections.Generic.IEqualityComparer{``0}'
+  definition: System.Collections.Generic.IEqualityComparer`1
+  name: IEqualityComparer<TSource>
+  nameWithType: IEqualityComparer<TSource>
+  fullName: System.Collections.Generic.IEqualityComparer<TSource>
+  nameWithType.vb: IEqualityComparer(Of TSource)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of TSource)
+  name.vb: IEqualityComparer(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet{{TSource}}
+  commentId: '!:System.Collections.Generic.HashSet{``0}'
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<TSource>
+  nameWithType: HashSet<TSource>
+  fullName: System.Collections.Generic.HashSet<TSource>
+  nameWithType.vb: HashSet(Of TSource)
+  fullName.vb: System.Collections.Generic.HashSet(Of TSource)
+  name.vb: HashSet(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEqualityComparer`1
+  isExternal: true
+  name: IEqualityComparer<>
+  nameWithType: IEqualityComparer<>
+  fullName: System.Collections.Generic.IEqualityComparer<>
+  nameWithType.vb: IEqualityComparer(Of )
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of )
+  name.vb: IEqualityComparer(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

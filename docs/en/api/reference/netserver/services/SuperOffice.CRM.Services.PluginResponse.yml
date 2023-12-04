@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Services.PluginResponse.Changes
   - SuperOffice.CRM.Services.PluginResponse.ErrorCode
   - SuperOffice.CRM.Services.PluginResponse.IsOk
+  - SuperOffice.CRM.Services.PluginResponse.Status
   - SuperOffice.CRM.Services.PluginResponse.TechExplanation
   - SuperOffice.CRM.Services.PluginResponse.ToString
   - SuperOffice.CRM.Services.PluginResponse.ToString(System.String)
@@ -153,7 +154,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAnswer to the question / An indication if the operation went well. \n"
+  summary: "\nAnswer to the question / An indication if the operation went well. Equivalent to Status != Error \n"
   syntax:
     content: public virtual bool IsOk { get; set; }
     parameters: []
@@ -186,7 +187,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nA localized explanation to the answer. \n"
+  summary: "\nA localized explanation to the answer. Text here is displayed to the user. \n"
   syntax:
     content: public virtual string UserExplanation { get; set; }
     parameters: []
@@ -301,6 +302,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.PluginResponse.Status
+  commentId: P:SuperOffice.CRM.Services.PluginResponse.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.PluginResponse
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: PluginResponse.Status
+  fullName: SuperOffice.CRM.Services.PluginResponse.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nQuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. \n"
+  syntax:
+    content: public virtual QuoteStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.QuoteStatus
+    content.vb: Public Overridable Property Status As QuoteStatus
+  overload: SuperOffice.CRM.Services.PluginResponse.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -308,13 +342,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -328,12 +355,6 @@ references:
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.PluginResponse.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.#ctor
   isExternal: true
@@ -353,6 +374,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PluginResponse.IsOk*
   commentId: Overload:SuperOffice.CRM.Services.PluginResponse.IsOk
   isExternal: true
@@ -397,3 +424,14 @@ references:
   name: ChangedData
   nameWithType: ChangedData
   fullName: SuperOffice.CRM.Services.ChangedData
+- uid: SuperOffice.CRM.Services.PluginResponse.Status*
+  commentId: Overload:SuperOffice.CRM.Services.PluginResponse.Status
+  isExternal: true
+  name: Status
+  nameWithType: PluginResponse.Status
+  fullName: SuperOffice.CRM.Services.PluginResponse.Status
+- uid: SuperOffice.Data.QuoteStatus
+  isExternal: true
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: SuperOffice.Data.QuoteStatus

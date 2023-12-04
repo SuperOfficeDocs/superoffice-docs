@@ -1,0 +1,774 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  commentId: T:SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  id: WorkflowTriggerRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.#ctor
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Registered
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.TriggerType
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Updated
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowId
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowTriggerId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerRecordData
+  nameWithType: WorkflowTriggerRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the workflow_trigger table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.WorkflowTriggerRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.WorkflowTriggerTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class WorkflowTriggerRecordData : Object'
+    content.vb: >-
+      Public Class WorkflowTriggerRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowTriggerId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowTriggerId
+  id: WorkflowTriggerId
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerId
+  nameWithType: WorkflowTriggerRecordData.WorkflowTriggerId
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowTriggerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int WorkflowTriggerId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowTriggerId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowTriggerRecordData.WorkflowId
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe flow this trigger belongs to \n"
+  syntax:
+    content: public int WorkflowId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.TriggerType
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.TriggerType
+  id: TriggerType
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: TriggerType
+  nameWithType: WorkflowTriggerRecordData.TriggerType
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.TriggerType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat kind of trigger is this \n"
+  syntax:
+    content: public WorkflowTriggerType TriggerType
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public TriggerType As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: WorkflowTriggerRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: WorkflowTriggerRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: WorkflowTriggerRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: WorkflowTriggerRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: WorkflowTriggerRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerRecordData()
+  nameWithType: WorkflowTriggerRecordData.WorkflowTriggerRecordData()
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowTriggerRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public WorkflowTriggerRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowTriggerRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowTriggerRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTriggerRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To)()
+  name.vb: MapEnums(Of WorkflowTriggerRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowTriggerRecordData, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowTriggerRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowTriggerRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowTriggerRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkflowTriggerRecordData>(WorkflowTriggerRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowTriggerRecordData>(WorkflowTriggerRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowTriggerRecordData>(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowTriggerRecordData)(WorkflowTriggerRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData)(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  name.vb: AssignByReflection(Of WorkflowTriggerRecordData)(WorkflowTriggerRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowTriggerRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowTriggerRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowTriggerRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    name: WorkflowTriggerRecordData
+    nameWithType: WorkflowTriggerRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowTriggerRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowTriggerRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    name: WorkflowTriggerRecordData
+    nameWithType: WorkflowTriggerRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkflowTriggerRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowTriggerRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowTriggerRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowTriggerRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData)()
+  name.vb: GraphCopy(Of WorkflowTriggerRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowTriggerRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowTriggerRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowTriggerRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowTriggerRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowTriggerRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  parent: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  name: ToInsert()
+  nameWithType: WorkflowTriggerRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowTriggerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowTriggerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowTriggerRecordData, To>()
+  nameWithType: Converters.MapEnums<WorkflowTriggerRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowTriggerRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To)()
+  name.vb: MapEnums(Of WorkflowTriggerRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowTriggerRecordData, To>
+    nameWithType: Converters.MapEnums<WorkflowTriggerRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowTriggerRecordData, To)
+    nameWithType: Converters.MapEnums(Of WorkflowTriggerRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowTriggerRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  isExternal: true
+  name: ToInsert(WorkflowTriggerRecordData)
+  nameWithType: WorkflowTriggerRecordDataExtensions.ToInsert(WorkflowTriggerRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+    name: ToInsert
+    nameWithType: WorkflowTriggerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    name: WorkflowTriggerRecordData
+    nameWithType: WorkflowTriggerRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowTriggerRecordData)
+    name: ToInsert
+    nameWithType: WorkflowTriggerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    name: WorkflowTriggerRecordData
+    nameWithType: WorkflowTriggerRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowTriggerRecordDataExtensions
+  nameWithType: WorkflowTriggerRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.WorkflowTriggerType
+  commentId: T:SuperOffice.Data.WorkflowTriggerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.Data.WorkflowTriggerType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowTriggerRecordData.#ctor
+  isExternal: true
+  name: WorkflowTriggerRecordData
+  nameWithType: WorkflowTriggerRecordData.WorkflowTriggerRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowTriggerRecordData.WorkflowTriggerRecordData

@@ -1,0 +1,994 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  id: ClaimsIdentityBuilder
+  parent: SuperOffice.Security.Claims
+  children:
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.Security.Claims.ClaimsIdentity)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.Security.Claims.Claim)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.DateTime)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.Int32)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.Int64)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Security.Claims.Claim[])
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues(System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim(System.Security.Claims.Claim)
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentityBuilder
+  nameWithType: ClaimsIdentityBuilder
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nBuilder to construct a new <xref href=\"System.Security.Claims.ClaimsIdentity\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: 'public class ClaimsIdentityBuilder : Object'
+    content.vb: >-
+      Public Class ClaimsIdentityBuilder
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.Security.Claims.ClaimsIdentity)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.Security.Claims.ClaimsIdentity)
+  id: '#ctor(System.Security.Claims.ClaimsIdentity)'
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentityBuilder(ClaimsIdentity)
+  nameWithType: ClaimsIdentityBuilder.ClaimsIdentityBuilder(ClaimsIdentity)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.ClaimsIdentityBuilder(System.Security.Claims.ClaimsIdentity)
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nCreate new builder based on an existing identity\n"
+  syntax:
+    content: public ClaimsIdentityBuilder(ClaimsIdentity identity)
+    parameters:
+    - id: identity
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Sub New(identity As ClaimsIdentity)
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentityBuilder(String)
+  nameWithType: ClaimsIdentityBuilder.ClaimsIdentityBuilder(String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.ClaimsIdentityBuilder(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nCreate a new builder with a provided authentication type\n"
+  remarks: An authentication type is required for the resulting Claims Identity to be  <xref href="System.Security.Claims.ClaimsIdentity.IsAuthenticated" data-throw-if-not-resolved="false"></xref>.
+  syntax:
+    content: public ClaimsIdentityBuilder(string authenticationType = null)
+    parameters:
+    - id: authenticationType
+      type: System.String
+    content.vb: Public Sub New(authenticationType As String = Nothing)
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String)
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String)'
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentityBuilder(IEnumerable<Claim>, String)
+  nameWithType: ClaimsIdentityBuilder.ClaimsIdentityBuilder(IEnumerable<Claim>, String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.ClaimsIdentityBuilder(System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nCreate a new builder based on  an existing list of claims and an authentication type\n"
+  remarks: An authentication type is required for the resulting Claims Identity to be  <xref href="System.Security.Claims.ClaimsIdentity.IsAuthenticated" data-throw-if-not-resolved="false"></xref>.
+  syntax:
+    content: public ClaimsIdentityBuilder(IEnumerable<Claim> claims, string authenticationType = null)
+    parameters:
+    - id: claims
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+    - id: authenticationType
+      type: System.String
+    content.vb: Public Sub New(claims As IEnumerable(Of Claim), authenticationType As String = Nothing)
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor*
+  nameWithType.vb: ClaimsIdentityBuilder.ClaimsIdentityBuilder(IEnumerable(Of Claim), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentityBuilder.ClaimsIdentityBuilder(System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim), System.String)
+  name.vb: ClaimsIdentityBuilder(IEnumerable(Of Claim), String)
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.Security.Claims.Claim)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.Security.Claims.Claim)
+  id: AddClaim(System.Security.Claims.Claim)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddClaim(Claim)
+  nameWithType: ClaimsIdentityBuilder.AddClaim(Claim)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.Security.Claims.Claim)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAdd claim to the list of claims\n"
+  syntax:
+    content: public ClaimsIdentityBuilder AddClaim(Claim claim)
+    parameters:
+    - id: claim
+      type: System.Security.Claims.Claim
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function AddClaim(claim As Claim) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.String)
+  id: AddClaim(System.String,System.String)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddClaim(String, String)
+  nameWithType: ClaimsIdentityBuilder.AddClaim(String, String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAdd a claim with type and value of string to list of claims\n"
+  syntax:
+    content: public ClaimsIdentityBuilder AddClaim(string type, string value)
+    parameters:
+    - id: type
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function AddClaim(type As String, value As String) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.Int32)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.Int32)
+  id: AddClaim(System.String,System.Int32)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddClaim(String, Int32)
+  nameWithType: ClaimsIdentityBuilder.AddClaim(String, Int32)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAdd an integer claim with value type <xref href=\"System.Security.Claims.ClaimValueTypes.Integer32\" data-throw-if-not-resolved=\"false\"></xref> to the list of claims\n"
+  syntax:
+    content: public ClaimsIdentityBuilder AddClaim(string type, int value)
+    parameters:
+    - id: type
+      type: System.String
+    - id: value
+      type: System.Int32
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function AddClaim(type As String, value As Integer) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.Int64)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.Int64)
+  id: AddClaim(System.String,System.Int64)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddClaim(String, Int64)
+  nameWithType: ClaimsIdentityBuilder.AddClaim(String, Int64)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String, System.Int64)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAdd a claim of type <xref href=\"System.Security.Claims.ClaimValueTypes.Integer64\" data-throw-if-not-resolved=\"false\"></xref> to the list of claims\n"
+  syntax:
+    content: public ClaimsIdentityBuilder AddClaim(string type, long value)
+    parameters:
+    - id: type
+      type: System.String
+    - id: value
+      type: System.Int64
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function AddClaim(type As String, value As Long) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.DateTime)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String,System.DateTime)
+  id: AddClaim(System.String,System.DateTime)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddClaim(String, DateTime)
+  nameWithType: ClaimsIdentityBuilder.AddClaim(String, DateTime)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim(System.String, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAdd a claim of type <xref href=\"System.Security.Claims.ClaimValueTypes.DateTime\" data-throw-if-not-resolved=\"false\"></xref> to the list of claims.\n"
+  syntax:
+    content: public ClaimsIdentityBuilder AddClaim(string type, DateTime value)
+    parameters:
+    - id: type
+      type: System.String
+    - id: value
+      type: System.DateTime
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function AddClaim(type As String, value As DateTime) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Security.Claims.Claim[])
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Security.Claims.Claim[])
+  id: AddClaims(System.Security.Claims.Claim[])
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddClaims(Claim[])
+  nameWithType: ClaimsIdentityBuilder.AddClaims(Claim[])
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Security.Claims.Claim[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAdd multiple claims to the list of claims.\n"
+  syntax:
+    content: public ClaimsIdentityBuilder AddClaims(params Claim[] claims)
+    parameters:
+    - id: claims
+      type: System.Security.Claims.Claim[]
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function AddClaims(ParamArray claims As Claim()) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims*
+  nameWithType.vb: ClaimsIdentityBuilder.AddClaims(Claim())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Security.Claims.Claim())
+  name.vb: AddClaims(Claim())
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  id: AddClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddClaims(IEnumerable<Claim>)
+  nameWithType: ClaimsIdentityBuilder.AddClaims(IEnumerable<Claim>)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nAdd multiple claims to the list of claims.\n"
+  syntax:
+    content: public ClaimsIdentityBuilder AddClaims(IEnumerable<Claim> claims)
+    parameters:
+    - id: claims
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function AddClaims(claims As IEnumerable(Of Claim)) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims*
+  nameWithType.vb: ClaimsIdentityBuilder.AddClaims(IEnumerable(Of Claim))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims(System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim))
+  name.vb: AddClaims(IEnumerable(Of Claim))
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims(System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims(System.String)
+  id: RemoveClaims(System.String)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: RemoveClaims(String)
+  nameWithType: ClaimsIdentityBuilder.RemoveClaims(String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nRemove all claims of the provided type from the list of claims\n"
+  syntax:
+    content: public ClaimsIdentityBuilder RemoveClaims(string type)
+    parameters:
+    - id: type
+      type: System.String
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function RemoveClaims(type As String) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim(System.Security.Claims.Claim)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim(System.Security.Claims.Claim)
+  id: RemoveClaim(System.Security.Claims.Claim)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: RemoveClaim(Claim)
+  nameWithType: ClaimsIdentityBuilder.RemoveClaim(Claim)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim(System.Security.Claims.Claim)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nRemove a particular instance of a claim from the list of claims.\n"
+  syntax:
+    content: public ClaimsIdentityBuilder RemoveClaim(Claim claim)
+    parameters:
+    - id: claim
+      type: System.Security.Claims.Claim
+    return:
+      type: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+    content.vb: Public Function RemoveClaim(claim As Claim) As ClaimsIdentityBuilder
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues(System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues(System.String)
+  id: GetClaimValues(System.String)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetClaimValues(String)
+  nameWithType: ClaimsIdentityBuilder.GetClaimValues(String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nGet all values of claim with the provided type\n"
+  syntax:
+    content: public IEnumerable<string> GetClaimValues(string claimType)
+    parameters:
+    - id: claimType
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Function GetClaimValues(claimType As String) As IEnumerable(Of String)
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build
+  id: Build
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: ClaimsIdentityBuilder.Build()
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nConstruct a new <xref href=\"System.Security.Claims.ClaimsIdentity\" data-throw-if-not-resolved=\"false\"></xref> with the current list of claims and authentication type as provided in the constructor.\n"
+  remarks: "\nDuplicate claims with same type and values will be removed.  If <xref href=\"SuperOffice.Security.Claims.ClaimsIdentityBuilder\" data-throw-if-not-resolved=\"false\"></xref>\nwas constructed using a <xref href=\"System.Security.Claims.ClaimsIdentity\" data-throw-if-not-resolved=\"false\"></xref>, the authentication type will be inherited\nfrom the original identity.\n"
+  syntax:
+    content: public ClaimsIdentity Build()
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Function Build As ClaimsIdentity
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType
+  commentId: P:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType
+  id: AuthenticationType
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationType
+  nameWithType: ClaimsIdentityBuilder.AuthenticationType
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public string AuthenticationType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AuthenticationType As String
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims
+  commentId: P:SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims
+  id: Claims
+  parent: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  langs:
+  - csharp
+  - vb
+  name: Claims
+  nameWithType: ClaimsIdentityBuilder.Claims
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nList of currently held claims\n"
+  syntax:
+    content: public IEnumerable<Claim> Claims { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+    content.vb: Public ReadOnly Property Claims As IEnumerable(Of Claim)
+  overload: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Claims
+  commentId: N:SuperOffice.Security.Claims
+  isExternal: true
+  name: SuperOffice.Security.Claims
+  nameWithType: SuperOffice.Security.Claims
+  fullName: SuperOffice.Security.Claims
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ClaimsIdentityBuilder, To>()
+  nameWithType: EnumUtil.MapEnums<ClaimsIdentityBuilder, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Claims.ClaimsIdentityBuilder, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ClaimsIdentityBuilder, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder, To)()
+  name.vb: MapEnums(Of ClaimsIdentityBuilder, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ClaimsIdentityBuilder, To>
+    nameWithType: EnumUtil.MapEnums<ClaimsIdentityBuilder, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Claims.ClaimsIdentityBuilder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ClaimsIdentityBuilder, To)
+    nameWithType: EnumUtil.MapEnums(Of ClaimsIdentityBuilder, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ClaimsIdentityBuilder, To>()
+  nameWithType: Converters.MapEnums<ClaimsIdentityBuilder, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Claims.ClaimsIdentityBuilder, To>()
+  nameWithType.vb: Converters.MapEnums(Of ClaimsIdentityBuilder, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder, To)()
+  name.vb: MapEnums(Of ClaimsIdentityBuilder, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ClaimsIdentityBuilder, To>
+    nameWithType: Converters.MapEnums<ClaimsIdentityBuilder, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Claims.ClaimsIdentityBuilder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ClaimsIdentityBuilder, To)
+    nameWithType: Converters.MapEnums(Of ClaimsIdentityBuilder, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Claims.ClaimsIdentityBuilder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.#ctor
+  isExternal: true
+  name: ClaimsIdentityBuilder
+  nameWithType: ClaimsIdentityBuilder.ClaimsIdentityBuilder
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.ClaimsIdentityBuilder
+- uid: System.Security.Claims.ClaimsIdentity
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Claim>
+  nameWithType: IEnumerable<Claim>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
+  nameWithType.vb: IEnumerable(Of Claim)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim)
+  name.vb: IEnumerable(Of Claim)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim
+  isExternal: true
+  name: AddClaim
+  nameWithType: ClaimsIdentityBuilder.AddClaim
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaim
+- uid: System.Security.Claims.Claim
+  isExternal: true
+  name: Claim
+  nameWithType: Claim
+  fullName: System.Security.Claims.Claim
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  parent: SuperOffice.Security.Claims
+  isExternal: true
+  name: ClaimsIdentityBuilder
+  nameWithType: ClaimsIdentityBuilder
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims
+  isExternal: true
+  name: AddClaims
+  nameWithType: ClaimsIdentityBuilder.AddClaims
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AddClaims
+- uid: System.Security.Claims.Claim[]
+  isExternal: true
+  name: Claim[]
+  nameWithType: Claim[]
+  fullName: System.Security.Claims.Claim[]
+  nameWithType.vb: Claim()
+  fullName.vb: System.Security.Claims.Claim()
+  name.vb: Claim()
+  spec.csharp:
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims
+  isExternal: true
+  name: RemoveClaims
+  nameWithType: ClaimsIdentityBuilder.RemoveClaims
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaims
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim
+  isExternal: true
+  name: RemoveClaim
+  nameWithType: ClaimsIdentityBuilder.RemoveClaim
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.RemoveClaim
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues
+  isExternal: true
+  name: GetClaimValues
+  nameWithType: ClaimsIdentityBuilder.GetClaimValues
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.GetClaimValues
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build
+  isExternal: true
+  name: Build
+  nameWithType: ClaimsIdentityBuilder.Build
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Build
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType
+  isExternal: true
+  name: AuthenticationType
+  nameWithType: ClaimsIdentityBuilder.AuthenticationType
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.AuthenticationType
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims
+  isExternal: true
+  name: Claims
+  nameWithType: ClaimsIdentityBuilder.Claims
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder.Claims

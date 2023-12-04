@@ -533,36 +533,26 @@ references:
   nameWithType: ICheckinFileOperations.Open
   fullName: SuperOffice.CRM.Documents.ICheckinFileOperations.Open
 - uid: System.IO.FileMode
-  commentId: T:System.IO.FileMode
-  parent: System.IO
+  commentId: '!:System.IO.FileMode'
   isExternal: true
   name: FileMode
   nameWithType: FileMode
   fullName: System.IO.FileMode
 - uid: System.IO.FileAccess
-  commentId: T:System.IO.FileAccess
-  parent: System.IO
+  commentId: '!:System.IO.FileAccess'
   isExternal: true
   name: FileAccess
   nameWithType: FileAccess
   fullName: System.IO.FileAccess
 - uid: System.IO.FileShare
-  commentId: T:System.IO.FileShare
-  parent: System.IO
+  commentId: '!:System.IO.FileShare'
   isExternal: true
   name: FileShare
   nameWithType: FileShare
   fullName: System.IO.FileShare
 - uid: System.IO.FileStream
-  commentId: T:System.IO.FileStream
-  parent: System.IO
+  commentId: '!:System.IO.FileStream'
   isExternal: true
   name: FileStream
   nameWithType: FileStream
   fullName: System.IO.FileStream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO

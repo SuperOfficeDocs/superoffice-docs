@@ -7,16 +7,22 @@ items:
   children:
   - SuperOffice.CRM.Services.TicketMessage.#ctor
   - SuperOffice.CRM.Services.TicketMessage.Author
+  - SuperOffice.CRM.Services.TicketMessage.Badge
+  - SuperOffice.CRM.Services.TicketMessage.ChangedAt
   - SuperOffice.CRM.Services.TicketMessage.ContactDepartment
   - SuperOffice.CRM.Services.TicketMessage.ContactId
   - SuperOffice.CRM.Services.TicketMessage.ContactName
   - SuperOffice.CRM.Services.TicketMessage.CreatedAt
+  - SuperOffice.CRM.Services.TicketMessage.CreatedBy
   - SuperOffice.CRM.Services.TicketMessage.EmailHeader
   - SuperOffice.CRM.Services.TicketMessage.Important
+  - SuperOffice.CRM.Services.TicketMessage.Language
   - SuperOffice.CRM.Services.TicketMessage.MessageHeaders
   - SuperOffice.CRM.Services.TicketMessage.NumAttachments
   - SuperOffice.CRM.Services.TicketMessage.PersonFullName
   - SuperOffice.CRM.Services.TicketMessage.PersonId
+  - SuperOffice.CRM.Services.TicketMessage.Sentiment
+  - SuperOffice.CRM.Services.TicketMessage.SentimentConfidence
   - SuperOffice.CRM.Services.TicketMessage.Slevel
   - SuperOffice.CRM.Services.TicketMessage.TicketMessageId
   - SuperOffice.CRM.Services.TicketMessage.ToString
@@ -202,7 +208,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedAt As Date
+    content.vb: Public Overridable Property CreatedAt As DateTime
   overload: SuperOffice.CRM.Services.TicketMessage.CreatedAt*
   modifiers.csharp:
   - public
@@ -575,6 +581,204 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessage.Language
+  commentId: P:SuperOffice.CRM.Services.TicketMessage.Language
+  id: Language
+  parent: SuperOffice.CRM.Services.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TicketMessage.Language
+  fullName: SuperOffice.CRM.Services.TicketMessage.Language
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe language this message is in, based on some kind of analysis \n"
+  syntax:
+    content: public virtual string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Language As String
+  overload: SuperOffice.CRM.Services.TicketMessage.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessage.Sentiment
+  commentId: P:SuperOffice.CRM.Services.TicketMessage.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Services.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: TicketMessage.Sentiment
+  fullName: SuperOffice.CRM.Services.TicketMessage.Sentiment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea \n"
+  syntax:
+    content: public virtual int Sentiment { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Sentiment As Integer
+  overload: SuperOffice.CRM.Services.TicketMessage.Sentiment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessage.SentimentConfidence
+  commentId: P:SuperOffice.CRM.Services.TicketMessage.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.CRM.Services.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: TicketMessage.SentimentConfidence
+  fullName: SuperOffice.CRM.Services.TicketMessage.SentimentConfidence
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nConfidence of sentiment index, 0 = no idea, 100 = completely sure \n"
+  syntax:
+    content: public virtual int SentimentConfidence { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SentimentConfidence As Integer
+  overload: SuperOffice.CRM.Services.TicketMessage.SentimentConfidence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessage.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.TicketMessage.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: TicketMessage.CreatedBy
+  fullName: SuperOffice.CRM.Services.TicketMessage.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the user who posted the message. The value 1 (system user) for externally posted messages. \n"
+  syntax:
+    content: public virtual int CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CreatedBy As Integer
+  overload: SuperOffice.CRM.Services.TicketMessage.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessage.ChangedAt
+  commentId: P:SuperOffice.CRM.Services.TicketMessage.ChangedAt
+  id: ChangedAt
+  parent: SuperOffice.CRM.Services.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: ChangedAt
+  nameWithType: TicketMessage.ChangedAt
+  fullName: SuperOffice.CRM.Services.TicketMessage.ChangedAt
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen the message was changed. \n"
+  syntax:
+    content: public virtual DateTime ChangedAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ChangedAt As DateTime
+  overload: SuperOffice.CRM.Services.TicketMessage.ChangedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessage.Badge
+  commentId: P:SuperOffice.CRM.Services.TicketMessage.Badge
+  id: Badge
+  parent: SuperOffice.CRM.Services.TicketMessage
+  langs:
+  - csharp
+  - vb
+  name: Badge
+  nameWithType: TicketMessage.Badge
+  fullName: SuperOffice.CRM.Services.TicketMessage.Badge
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBadge to explicitly determine how a message was generated \n"
+  syntax:
+    content: public virtual BadgeType Badge { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.BadgeType
+    content.vb: Public Overridable Property Badge As BadgeType
+  overload: SuperOffice.CRM.Services.TicketMessage.Badge*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -582,13 +786,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.TicketAgent
   commentId: T:SuperOffice.CRM.Services.TicketAgent
   isExternal: true
@@ -602,12 +799,6 @@ references:
   name: ITicketAgent
   nameWithType: ITicketAgent
   fullName: SuperOffice.CRM.Services.ITicketAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TicketMessage.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessage.#ctor
   isExternal: true
@@ -627,6 +818,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketMessage.TicketMessageId*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessage.TicketMessageId
   isExternal: true
@@ -647,8 +844,6 @@ references:
   nameWithType: TicketMessage.CreatedAt
   fullName: SuperOffice.CRM.Services.TicketMessage.CreatedAt
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -757,3 +952,44 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.TicketMessage.Language*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessage.Language
+  isExternal: true
+  name: Language
+  nameWithType: TicketMessage.Language
+  fullName: SuperOffice.CRM.Services.TicketMessage.Language
+- uid: SuperOffice.CRM.Services.TicketMessage.Sentiment*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessage.Sentiment
+  isExternal: true
+  name: Sentiment
+  nameWithType: TicketMessage.Sentiment
+  fullName: SuperOffice.CRM.Services.TicketMessage.Sentiment
+- uid: SuperOffice.CRM.Services.TicketMessage.SentimentConfidence*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessage.SentimentConfidence
+  isExternal: true
+  name: SentimentConfidence
+  nameWithType: TicketMessage.SentimentConfidence
+  fullName: SuperOffice.CRM.Services.TicketMessage.SentimentConfidence
+- uid: SuperOffice.CRM.Services.TicketMessage.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessage.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: TicketMessage.CreatedBy
+  fullName: SuperOffice.CRM.Services.TicketMessage.CreatedBy
+- uid: SuperOffice.CRM.Services.TicketMessage.ChangedAt*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessage.ChangedAt
+  isExternal: true
+  name: ChangedAt
+  nameWithType: TicketMessage.ChangedAt
+  fullName: SuperOffice.CRM.Services.TicketMessage.ChangedAt
+- uid: SuperOffice.CRM.Services.TicketMessage.Badge*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessage.Badge
+  isExternal: true
+  name: Badge
+  nameWithType: TicketMessage.Badge
+  fullName: SuperOffice.CRM.Services.TicketMessage.Badge
+- uid: SuperOffice.Data.BadgeType
+  isExternal: true
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: SuperOffice.Data.BadgeType

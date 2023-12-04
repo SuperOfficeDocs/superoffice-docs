@@ -12,6 +12,7 @@ items:
   - SuperOffice.Data.Weekday.Thursday
   - SuperOffice.Data.Weekday.Tuesday
   - SuperOffice.Data.Weekday.Unknown
+  - SuperOffice.Data.Weekday.value__
   - SuperOffice.Data.Weekday.Wednesday
   langs:
   - csharp
@@ -19,38 +20,63 @@ items:
   name: Weekday
   nameWithType: Weekday
   fullName: SuperOffice.Data.Weekday
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\nEnumerator for the days of the week\nThis Enum consists of flag values that can be combined.\n"
+  summary: "\nEnumerator for the days of the week\nThis Enum is used by:  email_flow.selected_days\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum Weekday
+    content: 'public sealed class Weekday : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class Weekday
 
-      Public Enum Weekday
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.Weekday.EnumUtil.MapEnums``2
-  - SuperOffice.Data.Weekday.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Weekday)
-  - SuperOffice.Data.Weekday.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.Weekday.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.Weekday.value__
+  commentId: F:SuperOffice.Data.Weekday.value__
+  id: value__
+  parent: SuperOffice.Data.Weekday
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Weekday.value__
+  fullName: SuperOffice.Data.Weekday.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Weekday.Unknown
   commentId: F:SuperOffice.Data.Weekday.Unknown
   id: Unknown
@@ -70,9 +96,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
-    content: Unknown = 0
+    content: public const Weekday Unknown
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Unknown As Weekday
   modifiers.csharp:
   - public
   - const
@@ -98,9 +125,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Monday\n"
   syntax:
-    content: Monday = 1
+    content: public const Weekday Monday
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Monday As Weekday
   modifiers.csharp:
   - public
   - const
@@ -126,9 +154,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Tuesday\n"
   syntax:
-    content: Tuesday = 2
+    content: public const Weekday Tuesday
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Tuesday As Weekday
   modifiers.csharp:
   - public
   - const
@@ -154,9 +183,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Wednesday\n"
   syntax:
-    content: Wednesday = 4
+    content: public const Weekday Wednesday
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Wednesday As Weekday
   modifiers.csharp:
   - public
   - const
@@ -182,9 +212,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Thursday\n"
   syntax:
-    content: Thursday = 8
+    content: public const Weekday Thursday
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Thursday As Weekday
   modifiers.csharp:
   - public
   - const
@@ -210,9 +241,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16: Friday\n"
   syntax:
-    content: Friday = 16
+    content: public const Weekday Friday
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Friday As Weekday
   modifiers.csharp:
   - public
   - const
@@ -238,9 +270,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n32: Saturday\n"
   syntax:
-    content: Saturday = 32
+    content: public const Weekday Saturday
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Saturday As Weekday
   modifiers.csharp:
   - public
   - const
@@ -266,9 +299,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n64: Sunday\n"
   syntax:
-    content: Sunday = 64
+    content: public const Weekday Sunday
     return:
       type: SuperOffice.Data.Weekday
+    content.vb: Public Const Sunday As Weekday
   modifiers.csharp:
   - public
   - const
@@ -282,6 +316,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.Weekday.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -309,84 +350,6 @@ references:
     name: MapEnums(Of Weekday, To)
     nameWithType: EnumUtil.MapEnums(Of Weekday, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Weekday, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Weekday.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Weekday)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<Weekday>(Weekday)
-  nameWithType: ObjectExtensions.AssignByReflection<Weekday>(Weekday)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Weekday>(SuperOffice.Data.Weekday)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Weekday)(Weekday)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Weekday)(SuperOffice.Data.Weekday)
-  name.vb: AssignByReflection(Of Weekday)(Weekday)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<Weekday>
-    nameWithType: ObjectExtensions.AssignByReflection<Weekday>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Weekday>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Weekday
-    name: Weekday
-    nameWithType: Weekday
-    fullName: SuperOffice.Data.Weekday
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of Weekday)
-    nameWithType: ObjectExtensions.AssignByReflection(Of Weekday)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Weekday)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Weekday
-    name: Weekday
-    nameWithType: Weekday
-    fullName: SuperOffice.Data.Weekday
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Weekday.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<Weekday>()
-  nameWithType: ObjectExtensions.GraphCopy<Weekday>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Weekday>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of Weekday)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Weekday)()
-  name.vb: GraphCopy(Of Weekday)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<Weekday>
-    nameWithType: ObjectExtensions.GraphCopy<Weekday>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Weekday>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of Weekday)
-    nameWithType: ObjectExtensions.GraphCopy(Of Weekday)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Weekday)
     isExternal: true
   - name: (
     nameWithType: (
@@ -428,6 +391,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -473,103 +442,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -616,18 +488,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.Weekday
   commentId: T:SuperOffice.Data.Weekday
   parent: SuperOffice.Data

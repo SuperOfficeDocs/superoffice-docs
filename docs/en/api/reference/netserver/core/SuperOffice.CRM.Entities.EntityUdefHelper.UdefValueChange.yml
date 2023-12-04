@@ -15,7 +15,7 @@ items:
   name: EntityUdefHelper.UdefValueChange
   nameWithType: EntityUdefHelper.UdefValueChange
   fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,27 +24,24 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nDelegate for handlign events on modifications in udef fields.\n"
   syntax:
-    content: public delegate void UdefValueChange(string progId, object oldValue, object newValue);
-    parameters:
-    - id: progId
-      type: System.String
-      description: ProgId of the value that has been changed.
-    - id: oldValue
-      type: System.Object
-      description: Old udef value for the progid
-    - id: newValue
-      type: System.Object
-      description: New udef value for the progid
-    content.vb: Public Delegate Sub UdefValueChange(progId As String, oldValue As Object, newValue As Object)
+    content: 'public sealed class UdefValueChange : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class UdefValueChange
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -186,6 +183,13 @@ references:
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -254,20 +258,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -359,12 +355,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -390,6 +380,13 @@ references:
   name: Invoke
   nameWithType: EntityUdefHelper.UdefValueChange.Invoke
   fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke
   isExternal: true
@@ -397,15 +394,11 @@ references:
   nameWithType: EntityUdefHelper.UdefValueChange.BeginInvoke
   fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TargetPeriodType
+  commentId: T:SuperOffice.Data.TargetPeriodType
+  id: TargetPeriodType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TargetPeriodType.HalfYear
+  - SuperOffice.Data.TargetPeriodType.Month
+  - SuperOffice.Data.TargetPeriodType.None
+  - SuperOffice.Data.TargetPeriodType.Quarter
+  - SuperOffice.Data.TargetPeriodType.value__
+  - SuperOffice.Data.TargetPeriodType.Year
+  langs:
+  - csharp
+  - vb
+  name: TargetPeriodType
+  nameWithType: TargetPeriodType
+  fullName: SuperOffice.Data.TargetPeriodType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nTarget period type\nThis Enum is used by:  target_group.period_type\n"
+  syntax:
+    content: 'public sealed class TargetPeriodType : Enum'
+    content.vb: >-
+      Public NotInheritable Class TargetPeriodType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.TargetPeriodType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TargetPeriodType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TargetPeriodType.value__
+  commentId: F:SuperOffice.Data.TargetPeriodType.value__
+  id: value__
+  parent: SuperOffice.Data.TargetPeriodType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TargetPeriodType.value__
+  fullName: SuperOffice.Data.TargetPeriodType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.TargetPeriodType.None
+  commentId: F:SuperOffice.Data.TargetPeriodType.None
+  id: None
+  parent: SuperOffice.Data.TargetPeriodType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TargetPeriodType.None
+  fullName: SuperOffice.Data.TargetPeriodType.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const TargetPeriodType None
+    return:
+      type: SuperOffice.Data.TargetPeriodType
+    content.vb: Public Const None As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TargetPeriodType.Year
+  commentId: F:SuperOffice.Data.TargetPeriodType.Year
+  id: Year
+  parent: SuperOffice.Data.TargetPeriodType
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: TargetPeriodType.Year
+  fullName: SuperOffice.Data.TargetPeriodType.Year
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Year\n"
+  syntax:
+    content: public const TargetPeriodType Year
+    return:
+      type: SuperOffice.Data.TargetPeriodType
+    content.vb: Public Const Year As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TargetPeriodType.HalfYear
+  commentId: F:SuperOffice.Data.TargetPeriodType.HalfYear
+  id: HalfYear
+  parent: SuperOffice.Data.TargetPeriodType
+  langs:
+  - csharp
+  - vb
+  name: HalfYear
+  nameWithType: TargetPeriodType.HalfYear
+  fullName: SuperOffice.Data.TargetPeriodType.HalfYear
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: HalfYear\n"
+  syntax:
+    content: public const TargetPeriodType HalfYear
+    return:
+      type: SuperOffice.Data.TargetPeriodType
+    content.vb: Public Const HalfYear As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TargetPeriodType.Quarter
+  commentId: F:SuperOffice.Data.TargetPeriodType.Quarter
+  id: Quarter
+  parent: SuperOffice.Data.TargetPeriodType
+  langs:
+  - csharp
+  - vb
+  name: Quarter
+  nameWithType: TargetPeriodType.Quarter
+  fullName: SuperOffice.Data.TargetPeriodType.Quarter
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Quarter\n"
+  syntax:
+    content: public const TargetPeriodType Quarter
+    return:
+      type: SuperOffice.Data.TargetPeriodType
+    content.vb: Public Const Quarter As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TargetPeriodType.Month
+  commentId: F:SuperOffice.Data.TargetPeriodType.Month
+  id: Month
+  parent: SuperOffice.Data.TargetPeriodType
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: TargetPeriodType.Month
+  fullName: SuperOffice.Data.TargetPeriodType.Month
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Month\n"
+  syntax:
+    content: public const TargetPeriodType Month
+    return:
+      type: SuperOffice.Data.TargetPeriodType
+    content.vb: Public Const Month As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.TargetPeriodType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TargetPeriodType, To>()
+  nameWithType: EnumUtil.MapEnums<TargetPeriodType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetPeriodType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TargetPeriodType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)()
+  name.vb: MapEnums(Of TargetPeriodType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TargetPeriodType, To>
+    nameWithType: EnumUtil.MapEnums<TargetPeriodType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetPeriodType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TargetPeriodType, To)
+    nameWithType: EnumUtil.MapEnums(Of TargetPeriodType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TargetPeriodType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TargetPeriodType, To>()
+  nameWithType: Converters.MapEnums<TargetPeriodType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetPeriodType, To>()
+  nameWithType.vb: Converters.MapEnums(Of TargetPeriodType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)()
+  name.vb: MapEnums(Of TargetPeriodType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TargetPeriodType, To>
+    nameWithType: Converters.MapEnums<TargetPeriodType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetPeriodType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TargetPeriodType, To)
+    nameWithType: Converters.MapEnums(Of TargetPeriodType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.TargetPeriodType
+  commentId: T:SuperOffice.Data.TargetPeriodType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetPeriodType
+  nameWithType: TargetPeriodType
+  fullName: SuperOffice.Data.TargetPeriodType

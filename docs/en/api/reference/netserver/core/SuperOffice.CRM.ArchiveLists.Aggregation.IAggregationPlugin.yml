@@ -27,6 +27,7 @@ items:
     content: 'public interface IAggregationPlugin : IPlugin'
     content.vb: >-
       Public Interface IAggregationPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.EnumUtil.MapEnums``2

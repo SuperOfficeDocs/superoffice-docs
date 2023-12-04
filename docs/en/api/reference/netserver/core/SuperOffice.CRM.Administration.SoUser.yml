@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Administration.SoUser.AssociateId
   - SuperOffice.CRM.Administration.SoUser.CanChangePassword
   - SuperOffice.CRM.Administration.SoUser.CanCreateExternalPerson
+  - SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
   - SuperOffice.CRM.Administration.SoUser.CanValidatePassword
   - SuperOffice.CRM.Administration.SoUser.ChangePassword(System.String,System.String)
   - SuperOffice.CRM.Administration.SoUser.ChangeUserGroup(System.Int32,System.Int32)
@@ -34,6 +35,7 @@ items:
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicense(System.String,System.String)
   - SuperOffice.CRM.Administration.SoUser.GetModuleLicenses
   - SuperOffice.CRM.Administration.SoUser.GetRequestRestrictionBlockers
+  - SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
   - SuperOffice.CRM.Administration.SoUser.GroupIdx
   - SuperOffice.CRM.Administration.SoUser.IsAssociateNameLegal(System.String,System.String@)
   - SuperOffice.CRM.Administration.SoUser.IsAssociateUserNameLegal(System.String,System.String@)
@@ -68,6 +70,7 @@ items:
   - SuperOffice.CRM.Administration.SoUser.RemoveCredential(System.String)
   - SuperOffice.CRM.Administration.SoUser.RemoveLicenses
   - SuperOffice.CRM.Administration.SoUser.RoleIdx
+  - SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
   - SuperOffice.CRM.Administration.SoUser.Sentries
   - SuperOffice.CRM.Administration.SoUser.SetGeneratedPassword
   - SuperOffice.CRM.Administration.SoUser.SetGeneratedPassword(System.Int32)
@@ -101,13 +104,15 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nSuperOffice CRM User Administration.  Use static (VB: shared) methods to to \ninstantiate objects.\n"
-  remarks: "\n<p>\n	Only users with administrative privileges is permitted to work \n	with other users than the currently logged on user.  This means \n	that SuperOffice CRM administrators can manage all users.\n</p>\n<p>\n	Named users that does not have administrative privileges (e.g. \n	users that are persons) are only permitted to change their own \n	password.\n</p>\n<p>\n	Anonymous users can not manage own or other users at all.\n</p>\n<p>\n	System users can manage other users, and own user.\n</p>\n<p>\n	Named users, administrators and the system user with the \n	&apos;CanCreateExternalPerson&apos; permission can manage external persons.  \n	External persons with this permission can only manage other \n	external persons belonging to the same company.\n</p>\n"
+  summary: "\nSuperOffice CRM User Administration.  Use static (VB: shared) methods to to\ninstantiate objects.\n"
+  remarks: "\n<p>\n	Only users with administrative privileges is permitted to work\n	with other users than the currently logged on user.  This means\n	that SuperOffice CRM administrators can manage all users.\n</p>\n<p>\n	Named users that does not have administrative privileges (e.g.\n	users that are persons) are only permitted to change their own\n	password.\n</p>\n<p>\n	Anonymous users can not manage own or other users at all.\n</p>\n<p>\n	System users can manage other users, and own user.\n</p>\n<p>\n	Named users, administrators and the system user with the\n	&apos;CanCreateExternalPerson&apos; permission can manage external persons.\n	External persons with this permission can only manage other\n	external persons belonging to the same company.\n</p>\n"
   syntax:
     content: 'public sealed class SoUser : NestedPersistFacade, INestedPersist'
     content.vb: >-
       Public NotInheritable Class SoUser
+
           Inherits NestedPersistFacade
+
           Implements INestedPersist
   inheritance:
   - System.Object
@@ -130,15 +135,13 @@ items:
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Administration.SoUser.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Administration.SoUser.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -447,7 +450,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Administration.SoUser.ToString*
   modifiers.csharp:
   - public
@@ -592,6 +594,34 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
+  commentId: M:SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
+  id: GetSupportedChangePasswordTypes
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedChangePasswordTypes()
+  nameWithType: SoUser.GetSupportedChangePasswordTypes()
+  fullName: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nGet the supported change password methods\n"
+  syntax:
+    content: public ChangePasswordType[] GetSupportedChangePasswordTypes()
+    return:
+      type: SuperOffice.Data.ChangePasswordType[]
+    content.vb: Public Function GetSupportedChangePasswordTypes As ChangePasswordType()
+  overload: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Administration.SoUser.ChangePassword(System.String,System.String)
   commentId: M:SuperOffice.CRM.Administration.SoUser.ChangePassword(System.String,System.String)
   id: ChangePassword(System.String,System.String)
@@ -621,6 +651,31 @@ items:
       description: The new password to change to.
     content.vb: Public Sub ChangePassword(oldPassword As String, newPassword As String)
   overload: SuperOffice.CRM.Administration.SoUser.ChangePassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
+  commentId: M:SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
+  id: SendChangePasswordMail
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: SendChangePasswordMail()
+  nameWithType: SoUser.SendChangePasswordMail()
+  fullName: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public void SendChangePasswordMail()
+    content.vb: Public Sub SendChangePasswordMail
+  overload: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -677,10 +732,7 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nSet own password.  Only currently logged in users are permitted to access this method.\n"
   syntax:
-    content: >-
-      [Obsolete("Use ChangePassword instead", false)]
-
-      public void SetOwnPassword(string oldPassword, string newPassword)
+    content: public void SetOwnPassword(string oldPassword, string newPassword)
     parameters:
     - id: oldPassword
       type: System.String
@@ -688,23 +740,12 @@ items:
     - id: newPassword
       type: System.String
       description: Your new password.
-    content.vb: >-
-      <Obsolete("Use ChangePassword instead", False)>
-
-      Public Sub SetOwnPassword(oldPassword As String, newPassword As String)
+    content.vb: Public Sub SetOwnPassword(oldPassword As String, newPassword As String)
   overload: SuperOffice.CRM.Administration.SoUser.SetOwnPassword*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
     description: If the user does not have required permissions.
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use ChangePassword instead
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -856,7 +897,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nAssign a user name and make sure it is valid.  \n"
+  summary: "\nAssign a user name and make sure it is valid.\n"
   syntax:
     content: public string SetValidAssociateName(string associateName)
     parameters:
@@ -1236,7 +1277,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nThis function is called to change membership of one usergroup to another on the user. \n"
+  summary: "\nThis function is called to change membership of one usergroup to another on the user.\n"
   syntax:
     content: public void ChangeUserGroup(int oldGroupId, int newGroupId)
     parameters:
@@ -1331,7 +1372,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nHandle Pre Id Update: Update the implied licenses on the user to match the ExtraInfo &quot;set=...&quot; \nby removing all hidden licenses and then assigned the ones \n"
+  summary: "\nHandle Pre Id Update: Update the implied licenses on the user to match the ExtraInfo &quot;set=...&quot;\nby removing all hidden licenses and then assigned the ones\n"
   syntax:
     content: protected override void OnPreIdUpdate()
     content.vb: Protected Overrides Sub OnPreIdUpdate
@@ -1389,7 +1430,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nHandle Id Update: ensure that associate.ejUserId = ejUser.ejUserId\n\nUpdate related objects with correct id&apos;s to make sure that relations are consistent \nbefore saving to the database.\n"
+  summary: "\nHandle Id Update: ensure that associate.ejUserId = ejUser.ejUserId\n\nUpdate related objects with correct id&apos;s to make sure that relations are consistent\nbefore saving to the database.\n"
   syntax:
     content: protected override void OnIdUpdate()
     content.vb: Protected Overrides Sub OnIdUpdate
@@ -1542,7 +1583,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nUser licenses \n"
+  summary: "\nUser licenses\n"
   syntax:
     content: public AssociateModuleLicenseOwner[] Licenses { get; }
     parameters: []
@@ -1633,7 +1674,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nSet this to true, to skip consistency checks when saving the entity. \nThe caller MUST make sure the consistency is not violated after the the caller has performed the intended operation(s).\n"
+  summary: "\nSet this to true, to skip consistency checks when saving the entity.\nThe caller MUST make sure the consistency is not violated after the the caller has performed the intended operation(s).\n"
   syntax:
     content: public bool SkipConsistencyChecks { get; set; }
     parameters: []
@@ -1912,7 +1953,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: "\nis the user deleted.\n"
+  summary: "\nIs the user retired (soft-deleted)\n"
   syntax:
     content: public bool Deleted { get; set; }
     parameters: []
@@ -2165,7 +2206,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property LastLogin As Date
+    content.vb: Public ReadOnly Property LastLogin As DateTime
   overload: SuperOffice.CRM.Administration.SoUser.LastLogin*
   modifiers.csharp:
   - public
@@ -2195,7 +2236,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property Lastlogout As Date
+    content.vb: Public ReadOnly Property Lastlogout As DateTime
   overload: SuperOffice.CRM.Administration.SoUser.Lastlogout*
   modifiers.csharp:
   - public
@@ -2346,26 +2387,12 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nObsolete: Replaced by new license system!\n"
   syntax:
-    content: >-
-      [Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", true)]
-
-      public bool WinClient { get; set; }
+    content: public bool WinClient { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", True)>
-
-      Public Property WinClient As Boolean
+    content.vb: Public Property WinClient As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.WinClient*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: '[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]'
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2391,26 +2418,12 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nObsolete: Replaced by new license system!\n"
   syntax:
-    content: >-
-      [Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", true)]
-
-      public bool WebClient { get; set; }
+    content: public bool WebClient { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", True)>
-
-      Public Property WebClient As Boolean
+    content.vb: Public Property WebClient As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.WebClient*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: '[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]'
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2436,26 +2449,12 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nObsolete: Replaced by new license system!\n"
   syntax:
-    content: >-
-      [Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", true)]
-
-      public bool Travel { get; set; }
+    content: public bool Travel { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", True)>
-
-      Public Property Travel As Boolean
+    content.vb: Public Property Travel As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.Travel*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: '[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]'
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2481,26 +2480,12 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nObsolete: Replaced by new license system!\n"
   syntax:
-    content: >-
-      [Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", true)]
-
-      public bool PocketClient { get; set; }
+    content: public bool PocketClient { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", True)>
-
-      Public Property PocketClient As Boolean
+    content.vb: Public Property PocketClient As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.PocketClient*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: '[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]'
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2526,26 +2511,12 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nObsolete: Replaced by new license system!\n"
   syntax:
-    content: >-
-      [Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", true)]
-
-      public bool ConfidentialAppointment { get; set; }
+    content: public bool ConfidentialAppointment { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", True)>
-
-      Public Property ConfidentialAppointment As Boolean
+    content.vb: Public Property ConfidentialAppointment As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.ConfidentialAppointment*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: '[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]'
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2571,26 +2542,12 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nObsolete: Replaced by new license system!\n"
   syntax:
-    content: >-
-      [Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", true)]
-
-      public bool NetServerClient { get; set; }
+    content: public bool NetServerClient { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", True)>
-
-      Public Property NetServerClient As Boolean
+    content.vb: Public Property NetServerClient As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.NetServerClient*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: '[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]'
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2616,26 +2573,12 @@ items:
   namespace: SuperOffice.CRM.Administration
   summary: "\nObsolete: Replaced by new license system!\n"
   syntax:
-    content: >-
-      [Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", true)]
-
-      public bool CanCreateExternalPerson { get; set; }
+    content: public bool CanCreateExternalPerson { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]", True)>
-
-      Public Property CanCreateExternalPerson As Boolean
+    content.vb: Public Property CanCreateExternalPerson As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.CanCreateExternalPerson*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: '[SR_REPLACED_BY_NEW_LICENSE_SYSTEM]'
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2699,6 +2642,38 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property CanChangePassword As Boolean
   overload: SuperOffice.CRM.Administration.SoUser.CanChangePassword*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
+  commentId: P:SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
+  id: CanSendChangePasswordMail
+  parent: SuperOffice.CRM.Administration.SoUser
+  langs:
+  - csharp
+  - vb
+  name: CanSendChangePasswordMail
+  nameWithType: SoUser.CanSendChangePasswordMail
+  fullName: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nIs this plugin able to send a change password email to the user\n"
+  remarks: True if the plugin is able to send the email.
+  syntax:
+    content: public bool CanSendChangePasswordMail { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CanSendChangePasswordMail As Boolean
+  overload: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail*
   modifiers.csharp:
   - public
   - get
@@ -3384,6 +3359,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
@@ -3405,254 +3544,6 @@ references:
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Administration.SoUser.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -3837,8 +3728,7 @@ references:
   nameWithType: SoUser.GetModuleLicenses
   fullName: SuperOffice.CRM.Administration.SoUser.GetModuleLicenses
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.License.AssociateModuleLicenseLink}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.License.AssociateModuleLicenseLink}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.License.AssociateModuleLicenseLink}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<AssociateModuleLicenseLink>
   nameWithType: IEnumerable<AssociateModuleLicenseLink>
@@ -3881,14 +3771,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -3898,9 +3787,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3913,18 +3802,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetDefaultAssociateUserName
   isExternal: true
@@ -4026,37 +3909,6 @@ references:
   name: GetCurrent
   nameWithType: SoUser.GetCurrent
   fullName: SuperOffice.CRM.Administration.SoUser.GetCurrent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Administration.SoUser.ToString*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.ToString
   isExternal: true
@@ -4101,12 +3953,50 @@ references:
   name: SetPassword
   nameWithType: SoUser.SetPassword
   fullName: SuperOffice.CRM.Administration.SoUser.SetPassword
+- uid: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
+  isExternal: true
+  name: GetSupportedChangePasswordTypes
+  nameWithType: SoUser.GetSupportedChangePasswordTypes
+  fullName: SuperOffice.CRM.Administration.SoUser.GetSupportedChangePasswordTypes
+- uid: SuperOffice.Data.ChangePasswordType[]
+  isExternal: true
+  name: ChangePasswordType[]
+  nameWithType: ChangePasswordType[]
+  fullName: SuperOffice.Data.ChangePasswordType[]
+  nameWithType.vb: ChangePasswordType()
+  fullName.vb: SuperOffice.Data.ChangePasswordType()
+  name.vb: ChangePasswordType()
+  spec.csharp:
+  - uid: SuperOffice.Data.ChangePasswordType
+    name: ChangePasswordType
+    nameWithType: ChangePasswordType
+    fullName: SuperOffice.Data.ChangePasswordType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.ChangePasswordType
+    name: ChangePasswordType
+    nameWithType: ChangePasswordType
+    fullName: SuperOffice.Data.ChangePasswordType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Administration.SoUser.ChangePassword*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.ChangePassword
   isExternal: true
   name: ChangePassword
   nameWithType: SoUser.ChangePassword
   fullName: SuperOffice.CRM.Administration.SoUser.ChangePassword
+- uid: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
+  isExternal: true
+  name: SendChangePasswordMail
+  nameWithType: SoUser.SendChangePasswordMail
+  fullName: SuperOffice.CRM.Administration.SoUser.SendChangePasswordMail
 - uid: SuperOffice.CRM.Administration.SoUser.IsPasswordValid*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.IsPasswordValid
   isExternal: true
@@ -4193,8 +4083,7 @@ references:
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -4253,14 +4142,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -4270,15 +4158,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4291,15 +4179,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4410,8 +4298,7 @@ references:
   nameWithType: SoUser.GetFacadingItems
   fullName: SuperOffice.CRM.Administration.SoUser.GetFacadingItems
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<INestedPersist>
   nameWithType: IEnumerable<INestedPersist>
@@ -4845,8 +4732,6 @@ references:
   nameWithType: SoUser.LastLogin
   fullName: SuperOffice.CRM.Administration.SoUser.LastLogin
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -4942,6 +4827,12 @@ references:
   name: CanChangePassword
   nameWithType: SoUser.CanChangePassword
   fullName: SuperOffice.CRM.Administration.SoUser.CanChangePassword
+- uid: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail*
+  commentId: Overload:SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
+  isExternal: true
+  name: CanSendChangePasswordMail
+  nameWithType: SoUser.CanSendChangePasswordMail
+  fullName: SuperOffice.CRM.Administration.SoUser.CanSendChangePasswordMail
 - uid: SuperOffice.CRM.Administration.SoUser.CanValidatePassword*
   commentId: Overload:SuperOffice.CRM.Administration.SoUser.CanValidatePassword
   isExternal: true

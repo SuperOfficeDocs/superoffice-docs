@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Services.QuoteVersionValidated.ChangedSale
   - SuperOffice.CRM.Services.QuoteVersionValidated.ErrorCode
   - SuperOffice.CRM.Services.QuoteVersionValidated.IsOk
+  - SuperOffice.CRM.Services.QuoteVersionValidated.Status
   - SuperOffice.CRM.Services.QuoteVersionValidated.TechExplanation
   - SuperOffice.CRM.Services.QuoteVersionValidated.ToString
   - SuperOffice.CRM.Services.QuoteVersionValidated.ToString(System.String)
@@ -156,7 +157,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAnswer to the question / An indication if the operation went well. \n"
+  summary: "\nAnswer to the question / An indication if the operation went well. Equivalent to Status != Error. \n"
   syntax:
     content: public virtual bool IsOk { get; set; }
     parameters: []
@@ -403,6 +404,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.QuoteVersionValidated.Status
+  commentId: P:SuperOffice.CRM.Services.QuoteVersionValidated.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteVersionValidated.Status
+  fullName: SuperOffice.CRM.Services.QuoteVersionValidated.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nQuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. \n"
+  syntax:
+    content: public virtual QuoteStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.QuoteStatus
+    content.vb: Public Overridable Property Status As QuoteStatus
+  overload: SuperOffice.CRM.Services.QuoteVersionValidated.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -410,13 +444,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -430,12 +457,6 @@ references:
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionValidated.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionValidated.#ctor
   isExternal: true
@@ -455,6 +476,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionValidated.IsOk*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionValidated.IsOk
   isExternal: true
@@ -557,3 +584,14 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.QuoteVersionValidated.Status*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteVersionValidated.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteVersionValidated.Status
+  fullName: SuperOffice.CRM.Services.QuoteVersionValidated.Status
+- uid: SuperOffice.Data.QuoteStatus
+  isExternal: true
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: SuperOffice.Data.QuoteStatus

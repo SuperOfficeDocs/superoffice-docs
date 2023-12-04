@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  commentId: T:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  id: FlushCacheAndBroadcastPluginAttribute
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FlushCacheAndBroadcastPluginAttribute
+  nameWithType: FlushCacheAndBroadcastPluginAttribute
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nAttribute for FlushCacheAndBroadcast plugins, implementing the <xref href=\"SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface\n"
+  syntax:
+    content: 'public sealed class FlushCacheAndBroadcastPluginAttribute : PluginAttribute'
+    content.vb: >-
+      Public NotInheritable Class FlushCacheAndBroadcastPluginAttribute
+
+          Inherits PluginAttribute
+  inheritance:
+  - System.Object
+  - SuperOffice.Factory.PluginAttribute
+  extensionMethods:
+  - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: FlushCacheAndBroadcastPluginAttribute(String)
+  nameWithType: FlushCacheAndBroadcastPluginAttribute.FlushCacheAndBroadcastPluginAttribute(String)
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.FlushCacheAndBroadcastPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public FlushCacheAndBroadcastPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Factory.PluginAttribute
+  commentId: T:SuperOffice.Factory.PluginAttribute
+  parent: SuperOffice.Factory
+  isExternal: true
+  name: PluginAttribute
+  nameWithType: PluginAttribute
+  fullName: SuperOffice.Factory.PluginAttribute
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FlushCacheAndBroadcastPluginAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<FlushCacheAndBroadcastPluginAttribute, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To)()
+  name.vb: MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FlushCacheAndBroadcastPluginAttribute, To>
+    nameWithType: EnumUtil.MapEnums<FlushCacheAndBroadcastPluginAttribute, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FlushCacheAndBroadcastPluginAttribute, To>()
+  nameWithType: Converters.MapEnums<FlushCacheAndBroadcastPluginAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To)()
+  name.vb: MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FlushCacheAndBroadcastPluginAttribute, To>
+    nameWithType: Converters.MapEnums<FlushCacheAndBroadcastPluginAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)
+    nameWithType: Converters.MapEnums(Of FlushCacheAndBroadcastPluginAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  isExternal: true
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.#ctor
+  isExternal: true
+  name: FlushCacheAndBroadcastPluginAttribute
+  nameWithType: FlushCacheAndBroadcastPluginAttribute.FlushCacheAndBroadcastPluginAttribute
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute.FlushCacheAndBroadcastPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

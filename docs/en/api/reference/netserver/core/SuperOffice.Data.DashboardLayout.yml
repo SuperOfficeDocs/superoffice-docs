@@ -12,13 +12,14 @@ items:
   - SuperOffice.Data.DashboardLayout.ThreeTSplit
   - SuperOffice.Data.DashboardLayout.TwoHorizontalSplit
   - SuperOffice.Data.DashboardLayout.TwoVerticalSplit
+  - SuperOffice.Data.DashboardLayout.value__
   langs:
   - csharp
   - vb
   name: DashboardLayout
   nameWithType: DashboardLayout
   fullName: SuperOffice.Data.DashboardLayout
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -27,19 +28,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDashboard layout\n"
   syntax:
-    content: public enum DashboardLayout
-    content.vb: Public Enum DashboardLayout
+    content: 'public sealed class DashboardLayout : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashboardLayout
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.DashboardLayout.EnumUtil.MapEnums``2
-  - SuperOffice.Data.DashboardLayout.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashboardLayout)
-  - SuperOffice.Data.DashboardLayout.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.DashboardLayout.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.DashboardLayout.value__
+  commentId: F:SuperOffice.Data.DashboardLayout.value__
+  id: value__
+  parent: SuperOffice.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashboardLayout.value__
+  fullName: SuperOffice.Data.DashboardLayout.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.DashboardLayout.None
   commentId: F:SuperOffice.Data.DashboardLayout.None
   id: None
@@ -59,9 +95,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown layout\n"
   syntax:
-    content: None = 0
+    content: public const DashboardLayout None
     return:
       type: SuperOffice.Data.DashboardLayout
+    content.vb: Public Const None As DashboardLayout
   modifiers.csharp:
   - public
   - const
@@ -87,9 +124,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: One tile.\n"
   syntax:
-    content: One = 1
+    content: public const DashboardLayout One
     return:
       type: SuperOffice.Data.DashboardLayout
+    content.vb: Public Const One As DashboardLayout
   modifiers.csharp:
   - public
   - const
@@ -115,9 +153,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Two vertical split.\n"
   syntax:
-    content: TwoVerticalSplit = 2
+    content: public const DashboardLayout TwoVerticalSplit
     return:
       type: SuperOffice.Data.DashboardLayout
+    content.vb: Public Const TwoVerticalSplit As DashboardLayout
   modifiers.csharp:
   - public
   - const
@@ -143,9 +182,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Three E split.\n"
   syntax:
-    content: ThreeESplit = 3
+    content: public const DashboardLayout ThreeESplit
     return:
       type: SuperOffice.Data.DashboardLayout
+    content.vb: Public Const ThreeESplit As DashboardLayout
   modifiers.csharp:
   - public
   - const
@@ -171,9 +211,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Two horizontal split.\n"
   syntax:
-    content: TwoHorizontalSplit = 4
+    content: public const DashboardLayout TwoHorizontalSplit
     return:
       type: SuperOffice.Data.DashboardLayout
+    content.vb: Public Const TwoHorizontalSplit As DashboardLayout
   modifiers.csharp:
   - public
   - const
@@ -199,9 +240,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Three T split.\n"
   syntax:
-    content: ThreeTSplit = 5
+    content: public const DashboardLayout ThreeTSplit
     return:
       type: SuperOffice.Data.DashboardLayout
+    content.vb: Public Const ThreeTSplit As DashboardLayout
   modifiers.csharp:
   - public
   - const
@@ -227,9 +269,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Four tiles.\n"
   syntax:
-    content: Four = 7
+    content: public const DashboardLayout Four
     return:
       type: SuperOffice.Data.DashboardLayout
+    content.vb: Public Const Four As DashboardLayout
   modifiers.csharp:
   - public
   - const
@@ -243,6 +286,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.DashboardLayout.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -270,84 +320,6 @@ references:
     name: MapEnums(Of DashboardLayout, To)
     nameWithType: EnumUtil.MapEnums(Of DashboardLayout, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DashboardLayout, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DashboardLayout.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashboardLayout)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DashboardLayout>(DashboardLayout)
-  nameWithType: ObjectExtensions.AssignByReflection<DashboardLayout>(DashboardLayout)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DashboardLayout>(SuperOffice.Data.DashboardLayout)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DashboardLayout)(DashboardLayout)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DashboardLayout)(SuperOffice.Data.DashboardLayout)
-  name.vb: AssignByReflection(Of DashboardLayout)(DashboardLayout)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DashboardLayout>
-    nameWithType: ObjectExtensions.AssignByReflection<DashboardLayout>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DashboardLayout>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DashboardLayout
-    name: DashboardLayout
-    nameWithType: DashboardLayout
-    fullName: SuperOffice.Data.DashboardLayout
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DashboardLayout)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DashboardLayout)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DashboardLayout)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DashboardLayout
-    name: DashboardLayout
-    nameWithType: DashboardLayout
-    fullName: SuperOffice.Data.DashboardLayout
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DashboardLayout.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DashboardLayout>()
-  nameWithType: ObjectExtensions.GraphCopy<DashboardLayout>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DashboardLayout>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DashboardLayout)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DashboardLayout)()
-  name.vb: GraphCopy(Of DashboardLayout)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DashboardLayout>
-    nameWithType: ObjectExtensions.GraphCopy<DashboardLayout>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DashboardLayout>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DashboardLayout)
-    nameWithType: ObjectExtensions.GraphCopy(Of DashboardLayout)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DashboardLayout)
     isExternal: true
   - name: (
     nameWithType: (
@@ -389,6 +361,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -434,103 +412,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -577,18 +458,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.DashboardLayout
   commentId: T:SuperOffice.Data.DashboardLayout
   parent: SuperOffice.Data

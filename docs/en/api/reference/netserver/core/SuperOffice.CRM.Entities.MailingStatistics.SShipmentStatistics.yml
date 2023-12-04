@@ -1,0 +1,814 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  commentId: T:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  id: MailingStatistics.SShipmentStatistics
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.#ctor
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickNum
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickRate
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.DeliveredNum
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceNum
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceRate
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenNum
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenRate
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceNum
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceRate
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SShipmentId
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceNum
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceRate
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalSentNum
+  langs:
+  - csharp
+  - vb
+  name: MailingStatistics.SShipmentStatistics
+  nameWithType: MailingStatistics.SShipmentStatistics
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: 'public class SShipmentStatistics : Object'
+    content.vb: >-
+      Public Class SShipmentStatistics
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SShipmentId
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SShipmentId
+  id: SShipmentId
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: SShipmentId
+  nameWithType: MailingStatistics.SShipmentStatistics.SShipmentId
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SShipmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int SShipmentId
+    return:
+      type: System.Int32
+    content.vb: Public SShipmentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalSentNum
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalSentNum
+  id: TotalSentNum
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: TotalSentNum
+  nameWithType: MailingStatistics.SShipmentStatistics.TotalSentNum
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalSentNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int TotalSentNum
+    return:
+      type: System.Int32
+    content.vb: Public TotalSentNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.DeliveredNum
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.DeliveredNum
+  id: DeliveredNum
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: DeliveredNum
+  nameWithType: MailingStatistics.SShipmentStatistics.DeliveredNum
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.DeliveredNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nNumber of mails sent minus bounces \n"
+  syntax:
+    content: public int DeliveredNum
+    return:
+      type: System.Int32
+    content.vb: Public DeliveredNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenNum
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenNum
+  id: OpenNum
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: OpenNum
+  nameWithType: MailingStatistics.SShipmentStatistics.OpenNum
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nNumber of opened emails count \n"
+  syntax:
+    content: public int OpenNum
+    return:
+      type: System.Int32
+    content.vb: Public OpenNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenRate
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenRate
+  id: OpenRate
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: OpenRate
+  nameWithType: MailingStatistics.SShipmentStatistics.OpenRate
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.OpenRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nOpen rate % (open_num / delivered_num) \n"
+  syntax:
+    content: public double OpenRate
+    return:
+      type: System.Double
+    content.vb: Public OpenRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickNum
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickNum
+  id: ClickNum
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: ClickNum
+  nameWithType: MailingStatistics.SShipmentStatistics.ClickNum
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nNumber of links clicked \n"
+  syntax:
+    content: public int ClickNum
+    return:
+      type: System.Int32
+    content.vb: Public ClickNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickRate
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickRate
+  id: ClickRate
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: ClickRate
+  nameWithType: MailingStatistics.SShipmentStatistics.ClickRate
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.ClickRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nClick rate % (click_num / delivered_num) \n"
+  syntax:
+    content: public double ClickRate
+    return:
+      type: System.Double
+    content.vb: Public ClickRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceNum
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceNum
+  id: HardbounceNum
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: HardbounceNum
+  nameWithType: MailingStatistics.SShipmentStatistics.HardbounceNum
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nNumber of hard bounces \n"
+  syntax:
+    content: public int HardbounceNum
+    return:
+      type: System.Int32
+    content.vb: Public HardbounceNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceRate
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceRate
+  id: HardbounceRate
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: HardbounceRate
+  nameWithType: MailingStatistics.SShipmentStatistics.HardbounceRate
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.HardbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHard bounce rate % (hardbounce_num / number_transmitted) \n"
+  syntax:
+    content: public double HardbounceRate
+    return:
+      type: System.Double
+    content.vb: Public HardbounceRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceNum
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceNum
+  id: SoftbounceNum
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceNum
+  nameWithType: MailingStatistics.SShipmentStatistics.SoftbounceNum
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nNumber of soft bounces \n"
+  syntax:
+    content: public int SoftbounceNum
+    return:
+      type: System.Int32
+    content.vb: Public SoftbounceNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceRate
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceRate
+  id: SoftbounceRate
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceRate
+  nameWithType: MailingStatistics.SShipmentStatistics.SoftbounceRate
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SoftbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSoft bounce rate % (softbounce_num / number_transmitted) \n"
+  syntax:
+    content: public double SoftbounceRate
+    return:
+      type: System.Double
+    content.vb: Public SoftbounceRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceNum
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceNum
+  id: TotalbounceNum
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceNum
+  nameWithType: MailingStatistics.SShipmentStatistics.TotalbounceNum
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTotal number of bounces \n"
+  syntax:
+    content: public int TotalbounceNum
+    return:
+      type: System.Int32
+    content.vb: Public TotalbounceNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceRate
+  commentId: F:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceRate
+  id: TotalbounceRate
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceRate
+  nameWithType: MailingStatistics.SShipmentStatistics.TotalbounceRate
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.TotalbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nTotal bounce rate % (totalbounce_num / number_transmitted) \n"
+  syntax:
+    content: public double TotalbounceRate
+    return:
+      type: System.Double
+    content.vb: Public TotalbounceRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.#ctor
+  commentId: M:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  langs:
+  - csharp
+  - vb
+  name: SShipmentStatistics()
+  nameWithType: MailingStatistics.SShipmentStatistics.SShipmentStatistics()
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SShipmentStatistics()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public SShipmentStatistics()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MailingStatistics.SShipmentStatistics, To>()
+  nameWithType: EnumUtil.MapEnums<MailingStatistics.SShipmentStatistics, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MailingStatistics.SShipmentStatistics, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To)()
+  name.vb: MapEnums(Of MailingStatistics.SShipmentStatistics, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MailingStatistics.SShipmentStatistics, To>
+    nameWithType: EnumUtil.MapEnums<MailingStatistics.SShipmentStatistics, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MailingStatistics.SShipmentStatistics, To)
+    nameWithType: EnumUtil.MapEnums(Of MailingStatistics.SShipmentStatistics, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<MailingStatistics.SShipmentStatistics>(MailingStatistics.SShipmentStatistics)
+  nameWithType: ObjectExtensions.AssignByReflection<MailingStatistics.SShipmentStatistics>(MailingStatistics.SShipmentStatistics)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics>(SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailingStatistics.SShipmentStatistics)(MailingStatistics.SShipmentStatistics)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)(SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)
+  name.vb: AssignByReflection(Of MailingStatistics.SShipmentStatistics)(MailingStatistics.SShipmentStatistics)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MailingStatistics.SShipmentStatistics>
+    nameWithType: ObjectExtensions.AssignByReflection<MailingStatistics.SShipmentStatistics>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+    name: MailingStatistics.SShipmentStatistics
+    nameWithType: MailingStatistics.SShipmentStatistics
+    fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MailingStatistics.SShipmentStatistics)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MailingStatistics.SShipmentStatistics)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+    name: MailingStatistics.SShipmentStatistics
+    nameWithType: MailingStatistics.SShipmentStatistics
+    fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<MailingStatistics.SShipmentStatistics>()
+  nameWithType: ObjectExtensions.GraphCopy<MailingStatistics.SShipmentStatistics>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailingStatistics.SShipmentStatistics)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)()
+  name.vb: GraphCopy(Of MailingStatistics.SShipmentStatistics)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MailingStatistics.SShipmentStatistics>
+    nameWithType: ObjectExtensions.GraphCopy<MailingStatistics.SShipmentStatistics>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MailingStatistics.SShipmentStatistics)
+    nameWithType: ObjectExtensions.GraphCopy(Of MailingStatistics.SShipmentStatistics)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MailingStatistics.SShipmentStatistics, To>()
+  nameWithType: Converters.MapEnums<MailingStatistics.SShipmentStatistics, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To>()
+  nameWithType.vb: Converters.MapEnums(Of MailingStatistics.SShipmentStatistics, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To)()
+  name.vb: MapEnums(Of MailingStatistics.SShipmentStatistics, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MailingStatistics.SShipmentStatistics, To>
+    nameWithType: Converters.MapEnums<MailingStatistics.SShipmentStatistics, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MailingStatistics.SShipmentStatistics, To)
+    nameWithType: Converters.MapEnums(Of MailingStatistics.SShipmentStatistics, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.#ctor
+  isExternal: true
+  name: SShipmentStatistics
+  nameWithType: MailingStatistics.SShipmentStatistics.SShipmentStatistics
+  fullName: SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics.SShipmentStatistics

@@ -1,0 +1,783 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EmailFlowFields
+  id: DBC.EmailFlowFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.EmailFlowId
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.FromAddr
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.FromName
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.FromType
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToAddr
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToName
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToType
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.SelectedDays
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.ShipmentTypeId
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.SmsSender
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeEnd
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeStart
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.Updated
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.UseGoogleAnalytics
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.UseTimeframe
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields.WorkflowId
+  langs:
+  - csharp
+  - vb
+  name: DBC.EmailFlowFields
+  nameWithType: DBC.EmailFlowFields
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for EmailFlow, A set of properties related to the email workflow.\n"
+  syntax:
+    content: 'public static class EmailFlowFields : Object'
+    content.vb: >-
+      Public Module EmailFlowFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.EmailFlowId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: DBC.EmailFlowFields.EmailFlowId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.EmailFlowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.EmailFlowId: Primary key\n"
+  syntax:
+    content: public const string EmailFlowId = "email_flow_id"
+    return:
+      type: System.String
+    content.vb: Public Const EmailFlowId As String = "email_flow_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.WorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: DBC.EmailFlowFields.WorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.WorkflowId: The flow this instance belongs to\n"
+  syntax:
+    content: public const string WorkflowId = "workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowId As String = "workflow_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ShipmentTypeId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ShipmentTypeId
+  id: ShipmentTypeId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: ShipmentTypeId
+  nameWithType: DBC.EmailFlowFields.ShipmentTypeId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ShipmentTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.ShipmentTypeId: Mailing type (subscription type)\n"
+  syntax:
+    content: public const string ShipmentTypeId = "shipment_type_id"
+    return:
+      type: System.String
+    content.vb: Public Const ShipmentTypeId As String = "shipment_type_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
+  id: OverrideConsentSubscription
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: OverrideConsentSubscription
+  nameWithType: DBC.EmailFlowFields.OverrideConsentSubscription
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.OverrideConsentSubscription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.OverrideConsentSubscription: Override consent and subscription\n"
+  syntax:
+    content: public const string OverrideConsentSubscription = "override_consent_subscription"
+    return:
+      type: System.String
+    content.vb: Public Const OverrideConsentSubscription As String = "override_consent_subscription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.EmailFlowFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.EmailFlowFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.EmailFlowFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.EmailFlowFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.EmailFlowFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: DBC.EmailFlowFields.HierarchyId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.HierarchyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.HierarchyId: This email flow is inside that hierarchy folder\n"
+  syntax:
+    content: public const string HierarchyId = "hierarchy_id"
+    return:
+      type: System.String
+    content.vb: Public Const HierarchyId As String = "hierarchy_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromName
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.FromName
+  id: FromName
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: DBC.EmailFlowFields.FromName
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.FromName: Email From name\n"
+  syntax:
+    content: public const string FromName = "from_name"
+    return:
+      type: System.String
+    content.vb: Public Const FromName As String = "from_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromAddr
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.FromAddr
+  id: FromAddr
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: FromAddr
+  nameWithType: DBC.EmailFlowFields.FromAddr
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromAddr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.FromAddr: Email From address: name@domain.com\n"
+  syntax:
+    content: public const string FromAddr = "from_addr"
+    return:
+      type: System.String
+    content.vb: Public Const FromAddr As String = "from_addr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToAddr
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToAddr
+  id: ReplyToAddr
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyToAddr
+  nameWithType: DBC.EmailFlowFields.ReplyToAddr
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToAddr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.ReplyToAddr: Reply to address, if different from From-address\n"
+  syntax:
+    content: public const string ReplyToAddr = "reply_to_addr"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyToAddr As String = "reply_to_addr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.SmsSender
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.SmsSender
+  id: SmsSender
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: SmsSender
+  nameWithType: DBC.EmailFlowFields.SmsSender
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.SmsSender
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.SmsSender: SMS sender (number or name)\n"
+  syntax:
+    content: public const string SmsSender = "sms_sender"
+    return:
+      type: System.String
+    content.vb: Public Const SmsSender As String = "sms_sender"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseTimeframe
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UseTimeframe
+  id: UseTimeframe
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: UseTimeframe
+  nameWithType: DBC.EmailFlowFields.UseTimeframe
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseTimeframe
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.UseTimeframe: Use sender timeframe settings, only send email/sms within the timeframe\n"
+  syntax:
+    content: public const string UseTimeframe = "use_timeframe"
+    return:
+      type: System.String
+    content.vb: Public Const UseTimeframe As String = "use_timeframe"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.SelectedDays
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.SelectedDays
+  id: SelectedDays
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: SelectedDays
+  nameWithType: DBC.EmailFlowFields.SelectedDays
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.SelectedDays
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.SelectedDays: Selected days (flags, so several days can be selected) for time frame\n"
+  syntax:
+    content: public const string SelectedDays = "selected_days"
+    return:
+      type: System.String
+    content.vb: Public Const SelectedDays As String = "selected_days"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeStart
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeStart
+  id: TimeframeStart
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: TimeframeStart
+  nameWithType: DBC.EmailFlowFields.TimeframeStart
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.TimeframeStart: Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used\n"
+  syntax:
+    content: public const string TimeframeStart = "timeframe_start"
+    return:
+      type: System.String
+    content.vb: Public Const TimeframeStart As String = "timeframe_start"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeEnd
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeEnd
+  id: TimeframeEnd
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: TimeframeEnd
+  nameWithType: DBC.EmailFlowFields.TimeframeEnd
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.TimeframeEnd
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.TimeframeEnd: End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used\n"
+  syntax:
+    content: public const string TimeframeEnd = "timeframe_end"
+    return:
+      type: System.String
+    content.vb: Public Const TimeframeEnd As String = "timeframe_end"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseGoogleAnalytics
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.UseGoogleAnalytics
+  id: UseGoogleAnalytics
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: UseGoogleAnalytics
+  nameWithType: DBC.EmailFlowFields.UseGoogleAnalytics
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.UseGoogleAnalytics
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.UseGoogleAnalytics: Use Google Analytics\n"
+  syntax:
+    content: public const string UseGoogleAnalytics = "use_google_analytics"
+    return:
+      type: System.String
+    content.vb: Public Const UseGoogleAnalytics As String = "use_google_analytics"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
+  id: GaSource
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: GaSource
+  nameWithType: DBC.EmailFlowFields.GaSource
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaSource
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.GaSource: GA Source\n"
+  syntax:
+    content: public const string GaSource = "ga_source"
+    return:
+      type: System.String
+    content.vb: Public Const GaSource As String = "ga_source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
+  id: GaCampaign
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: GaCampaign
+  nameWithType: DBC.EmailFlowFields.GaCampaign
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.GaCampaign
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.GaCampaign: GA Campaign\n"
+  syntax:
+    content: public const string GaCampaign = "ga_campaign"
+    return:
+      type: System.String
+    content.vb: Public Const GaCampaign As String = "ga_campaign"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromType
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.FromType
+  id: FromType
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: FromType
+  nameWithType: DBC.EmailFlowFields.FromType
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.FromType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.FromType: Email/Mailing From field address algorithm\n"
+  syntax:
+    content: public const string FromType = "from_type"
+    return:
+      type: System.String
+    content.vb: Public Const FromType As String = "from_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToType
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToType
+  id: ReplyToType
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyToType
+  nameWithType: DBC.EmailFlowFields.ReplyToType
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.ReplyToType: Email/Mailing Reply-To field address algorithm\n"
+  syntax:
+    content: public const string ReplyToType = "reply_to_type"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyToType As String = "reply_to_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToName
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToName
+  id: ReplyToName
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyToName
+  nameWithType: DBC.EmailFlowFields.ReplyToName
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields.ReplyToName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow.ReplyToName: Email Reply-To name\n"
+  syntax:
+    content: public const string ReplyToName = "reply_to_name"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyToName As String = "reply_to_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

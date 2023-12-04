@@ -15,10 +15,10 @@ items:
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_Country_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_CurrencyGroupLink_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_CurrencyHeadingLink_CurrencyId
-  - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_PriceList_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_Sale_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_SaleHist_CurrencyId
+  - SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
   - SuperOffice.CRM.Data.CurrencyTableInfo.Name
   - SuperOffice.CRM.Data.CurrencyTableInfo.Rank
   - SuperOffice.CRM.Data.CurrencyTableInfo.Rate
@@ -56,7 +56,9 @@ items:
       <DatabaseTable("Currency")>
 
       Public Class CurrencyTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -78,12 +80,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.CurrencyTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.CurrencyTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -178,26 +174,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.CurrencyTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -505,7 +487,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;Currency&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;Currency&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -567,7 +549,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;Currency&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;Currency&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -922,16 +904,16 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
-  commentId: P:SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
-  id: LeftOuterJoin_DashboardTileDefinition_CurrencyId
+- uid: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
+  commentId: P:SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
+  id: LeftOuterJoin_TargetAssignmentInfo_CurrencyId
   parent: SuperOffice.CRM.Data.CurrencyTableInfo
   langs:
   - csharp
   - vb
-  name: LeftOuterJoin_DashboardTileDefinition_CurrencyId
-  nameWithType: CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
-  fullName: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+  name: LeftOuterJoin_TargetAssignmentInfo_CurrencyId
+  nameWithType: CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
+  fullName: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
   type: Property
   source:
     path: SoDataBase
@@ -939,14 +921,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key CurrencyId on this table, to DashboardTileDefinition.<xref href=\"SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo.CurrencyId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nGenerated left outer join from the primary key CurrencyId on this table, to TargetAssignmentInfo.<xref href=\"SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo.CurrencyId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: public TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo> LeftOuterJoin_DashboardTileDefinition_CurrencyId { get; }
+    content: public TargetedLeftOuterJoin<TargetAssignmentInfoTableInfo> LeftOuterJoin_TargetAssignmentInfo_CurrencyId { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
-    content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileDefinition_CurrencyId As TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
-  overload: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId*
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TargetAssignmentInfo_CurrencyId As TargetedLeftOuterJoin(Of TargetAssignmentInfoTableInfo)
+  overload: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId*
   modifiers.csharp:
   - public
   - get
@@ -975,8 +957,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1309,254 +1289,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.CurrencyTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2383,22 +2115,22 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId*
-  commentId: Overload:SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
+- uid: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId*
+  commentId: Overload:SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
   isExternal: true
-  name: LeftOuterJoin_DashboardTileDefinition_CurrencyId
-  nameWithType: CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
-  fullName: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_DashboardTileDefinition_CurrencyId
-- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
+  name: LeftOuterJoin_TargetAssignmentInfo_CurrencyId
+  nameWithType: CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
+  fullName: SuperOffice.CRM.Data.CurrencyTableInfo.LeftOuterJoin_TargetAssignmentInfo_CurrencyId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  name: TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo>
-  nameWithType: TargetedLeftOuterJoin<DashboardTileDefinitionTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo>
-  nameWithType.vb: TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo)
-  name.vb: TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
+  name: TargetedLeftOuterJoin<TargetAssignmentInfoTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetAssignmentInfoTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetAssignmentInfoTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetAssignmentInfoTableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
@@ -2408,10 +2140,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
-    name: DashboardTileDefinitionTableInfo
-    nameWithType: DashboardTileDefinitionTableInfo
-    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  - uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+    name: TargetAssignmentInfoTableInfo
+    nameWithType: TargetAssignmentInfoTableInfo
+    fullName: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -2425,10 +2157,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
-    name: DashboardTileDefinitionTableInfo
-    nameWithType: DashboardTileDefinitionTableInfo
-    fullName: SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo
+  - uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+    name: TargetAssignmentInfoTableInfo
+    nameWithType: TargetAssignmentInfoTableInfo
+    fullName: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
     isExternal: true
   - name: )
     nameWithType: )

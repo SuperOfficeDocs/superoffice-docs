@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  id: QuoteDenyReasonRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  - SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  - SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonRecordData)
+  - SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData})
+  - SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonRow)
+  langs:
+  - csharp
+  - vb
+  name: QuoteDenyReasonRecordDataExtensions
+  nameWithType: QuoteDenyReasonRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.QuoteDenyReasonRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: 'public static class QuoteDenyReasonRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module QuoteDenyReasonRecordDataExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<QuoteDenyReasonTableInfo>)
+  nameWithType: QuoteDenyReasonRecordDataExtensions.FromSelect(TargetedSelect<QuoteDenyReasonTableInfo>)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteDenyReasonTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;QuoteDenyReasonTableInfo>, execute it and return an IEnumerable&lt;QuoteDenyReasonRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<QuoteDenyReasonRecordData> FromSelect(this TargetedSelect<QuoteDenyReasonTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of QuoteDenyReasonTableInfo)) As IEnumerable(Of QuoteDenyReasonRecordData)
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect*
+  nameWithType.vb: QuoteDenyReasonRecordDataExtensions.FromSelect(TargetedSelect(Of QuoteDenyReasonTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteDenyReasonTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of QuoteDenyReasonTableInfo))
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<QuoteDenyReasonTableInfo>)
+  nameWithType: QuoteDenyReasonRecordDataExtensions.FromRecord(TargetedDataRecord<QuoteDenyReasonTableInfo>)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.QuoteDenyReasonTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;QuoteDenyReasonTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.QuoteDenyReasonRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { QuoteDenyReasonItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static QuoteDenyReasonRecordData FromRecord(this TargetedDataRecord<QuoteDenyReasonTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of QuoteDenyReasonTableInfo)) As QuoteDenyReasonRecordData
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord*
+  nameWithType.vb: QuoteDenyReasonRecordDataExtensions.FromRecord(TargetedDataRecord(Of QuoteDenyReasonTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.QuoteDenyReasonTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of QuoteDenyReasonTableInfo))
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonRecordData)
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(QuoteDenyReasonRecordData)
+  nameWithType: QuoteDenyReasonRecordDataExtensions.ToInsert(QuoteDenyReasonRecordData)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteDenyReasonRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this QuoteDenyReasonRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As QuoteDenyReasonRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData})
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<QuoteDenyReasonRecordData>)
+  nameWithType: QuoteDenyReasonRecordDataExtensions.ToInserts(IEnumerable<QuoteDenyReasonRecordData>)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteDenyReasonRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<QuoteDenyReasonRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of QuoteDenyReasonRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts*
+  nameWithType.vb: QuoteDenyReasonRecordDataExtensions.ToInserts(IEnumerable(Of QuoteDenyReasonRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteDenyReasonRecordData))
+  name.vb: ToInserts(IEnumerable(Of QuoteDenyReasonRecordData))
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonRow)
+  commentId: M:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(QuoteDenyReasonRow)
+  nameWithType: QuoteDenyReasonRecordDataExtensions.ToRecordData(QuoteDenyReasonRow)
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.QuoteDenyReasonRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static QuoteDenyReasonRecordData ToRecordData(this QuoteDenyReasonRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.QuoteDenyReasonRow
+    return:
+      type: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As QuoteDenyReasonRow) As QuoteDenyReasonRecordData
+  overload: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: QuoteDenyReasonRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<QuoteDenyReasonTableInfo>
+  nameWithType: TargetedSelect<QuoteDenyReasonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.QuoteDenyReasonTableInfo>
+  nameWithType.vb: TargetedSelect(Of QuoteDenyReasonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.QuoteDenyReasonTableInfo)
+  name.vb: TargetedSelect(Of QuoteDenyReasonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    name: QuoteDenyReasonTableInfo
+    nameWithType: QuoteDenyReasonTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    name: QuoteDenyReasonTableInfo
+    nameWithType: QuoteDenyReasonTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.QuoteDenyReasonRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<QuoteDenyReasonRecordData>
+  nameWithType: IEnumerable<QuoteDenyReasonRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.QuoteDenyReasonRecordData>
+  nameWithType.vb: IEnumerable(Of QuoteDenyReasonRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.QuoteDenyReasonRecordData)
+  name.vb: IEnumerable(Of QuoteDenyReasonRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+    name: QuoteDenyReasonRecordData
+    nameWithType: QuoteDenyReasonRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+    name: QuoteDenyReasonRecordData
+    nameWithType: QuoteDenyReasonRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: QuoteDenyReasonRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.QuoteDenyReasonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<QuoteDenyReasonTableInfo>
+  nameWithType: TargetedDataRecord<QuoteDenyReasonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.QuoteDenyReasonTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of QuoteDenyReasonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.QuoteDenyReasonTableInfo)
+  name.vb: TargetedDataRecord(Of QuoteDenyReasonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    name: QuoteDenyReasonTableInfo
+    nameWithType: QuoteDenyReasonTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    name: QuoteDenyReasonTableInfo
+    nameWithType: QuoteDenyReasonTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+  commentId: T:SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: QuoteDenyReasonRecordData
+  nameWithType: QuoteDenyReasonRecordData
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: QuoteDenyReasonRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: QuoteDenyReasonRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData
+  isExternal: true
+  name: ToRecordData
+  nameWithType: QuoteDenyReasonRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.QuoteDenyReasonRow
+  commentId: T:SuperOffice.CRM.Rows.QuoteDenyReasonRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: QuoteDenyReasonRow
+  nameWithType: QuoteDenyReasonRow
+  fullName: SuperOffice.CRM.Rows.QuoteDenyReasonRow

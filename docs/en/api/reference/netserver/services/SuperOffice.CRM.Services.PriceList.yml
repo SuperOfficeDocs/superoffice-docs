@@ -51,6 +51,8 @@ items:
     commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.PriceList.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
   modifiers.csharp:
   - public
   - class
@@ -401,7 +403,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ValidFrom As Date
+    content.vb: Public Overridable Property ValidFrom As DateTime
   overload: SuperOffice.CRM.Services.PriceList.ValidFrom*
   modifiers.csharp:
   - public
@@ -434,7 +436,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ValidTo As Date
+    content.vb: Public Overridable Property ValidTo As DateTime
   overload: SuperOffice.CRM.Services.PriceList.ValidTo*
   modifiers.csharp:
   - public
@@ -484,13 +486,37 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.PriceList.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow(SuperOffice.CRM.Services.PriceList)
+  parent: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  definition: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow(SuperOffice.CRM.Services.PriceList)
+  name: GetPriceListRow()
+  nameWithType: QuoteConverter.GetPriceListRow()
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
+    name: GetPriceListRow
+    nameWithType: QuoteConverter.GetPriceListRow
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
+    name: GetPriceListRow
+    nameWithType: QuoteConverter.GetPriceListRow
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -647,12 +673,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow(SuperOffice.CRM.Services.PriceList)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow(SuperOffice.CRM.Services.PriceList)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: GetPriceListRow(PriceList)
+  nameWithType: QuoteConverter.GetPriceListRow(PriceList)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow(SuperOffice.CRM.Services.PriceList)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow(SuperOffice.CRM.Services.PriceList)
+    name: GetPriceListRow
+    nameWithType: QuoteConverter.GetPriceListRow
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PriceList
+    name: PriceList
+    nameWithType: PriceList
+    fullName: SuperOffice.CRM.Services.PriceList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow(SuperOffice.CRM.Services.PriceList)
+    name: GetPriceListRow
+    nameWithType: QuoteConverter.GetPriceListRow
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetPriceListRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PriceList
+    name: PriceList
+    nameWithType: PriceList
+    fullName: SuperOffice.CRM.Services.PriceList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  parent: SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: QuoteConverter
+  nameWithType: QuoteConverter
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -660,6 +727,12 @@ references:
   name: IArchiveAgent
   nameWithType: IArchiveAgent
   fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.Implementation.BL
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation.BL
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL
+  fullName: SuperOffice.CRM.Services.Implementation.BL
 - uid: SuperOffice.CRM.Services.PriceList.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PriceList.#ctor
   isExternal: true
@@ -679,6 +752,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PriceList.PriceListId*
   commentId: Overload:SuperOffice.CRM.Services.PriceList.PriceListId
   isExternal: true
@@ -735,8 +814,6 @@ references:
   nameWithType: PriceList.ValidFrom
   fullName: SuperOffice.CRM.Services.PriceList.ValidFrom
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

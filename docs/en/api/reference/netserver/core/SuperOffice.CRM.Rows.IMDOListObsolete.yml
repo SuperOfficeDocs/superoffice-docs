@@ -30,9 +30,8 @@ items:
     content: 'public interface IMDOListObsolete : IEnumerable'
     content.vb: >-
       Public Interface IMDOListObsolete
+
           Inherits IEnumerable
-  inheritedMembers:
-  - System.Collections.IEnumerable.GetEnumerator
   extensionMethods:
   - SuperOffice.CRM.Rows.IMDOListObsolete.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.IMDOListObsolete.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -223,37 +222,6 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.IMDOListObsolete.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -322,13 +290,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
-  isExternal: true
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -420,12 +381,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -469,6 +424,11 @@ references:
   name: HistoryNodes
   nameWithType: IMDOListObsolete.HistoryNodes
   fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
+- uid: System.Collections.IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes*
   commentId: Overload:SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
   isExternal: true

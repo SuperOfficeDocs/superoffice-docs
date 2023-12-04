@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  commentId: N:SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  id: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  children:
+  - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender
+  - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender
+  - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender
+  - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  nameWithType: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender
+  isExternal: true
+  name: DynamicAppointmentExtender
+  nameWithType: DynamicAppointmentExtender
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender
+  isExternal: true
+  name: DynamicDocumentExtender
+  nameWithType: DynamicDocumentExtender
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender
+  isExternal: true
+  name: DynamicProjectExtender
+  nameWithType: DynamicProjectExtender
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
+  isExternal: true
+  name: DynamicSaleExtender
+  nameWithType: DynamicSaleExtender
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender

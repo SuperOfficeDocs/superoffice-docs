@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.LogEvent
+  commentId: T:SuperOffice.Data.LogEvent
+  id: LogEvent
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.LogEvent.Create
+  - SuperOffice.Data.LogEvent.Delete
+  - SuperOffice.Data.LogEvent.Edit
+  - SuperOffice.Data.LogEvent.Lock
+  - SuperOffice.Data.LogEvent.None
+  - SuperOffice.Data.LogEvent.Unlock
+  - SuperOffice.Data.LogEvent.value__
+  langs:
+  - csharp
+  - vb
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: SuperOffice.Data.LogEvent
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nLog events\nThis Enum is used by:  target_revision.log_event\n"
+  syntax:
+    content: 'public sealed class LogEvent : Enum'
+    content.vb: >-
+      Public NotInheritable Class LogEvent
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.LogEvent.EnumUtil.MapEnums``2
+  - SuperOffice.Data.LogEvent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.LogEvent.value__
+  commentId: F:SuperOffice.Data.LogEvent.value__
+  id: value__
+  parent: SuperOffice.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: LogEvent.value__
+  fullName: SuperOffice.Data.LogEvent.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.LogEvent.None
+  commentId: F:SuperOffice.Data.LogEvent.None
+  id: None
+  parent: SuperOffice.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LogEvent.None
+  fullName: SuperOffice.Data.LogEvent.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const LogEvent None
+    return:
+      type: SuperOffice.Data.LogEvent
+    content.vb: Public Const None As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.LogEvent.Create
+  commentId: F:SuperOffice.Data.LogEvent.Create
+  id: Create
+  parent: SuperOffice.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: LogEvent.Create
+  fullName: SuperOffice.Data.LogEvent.Create
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Create\n"
+  syntax:
+    content: public const LogEvent Create
+    return:
+      type: SuperOffice.Data.LogEvent
+    content.vb: Public Const Create As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.LogEvent.Edit
+  commentId: F:SuperOffice.Data.LogEvent.Edit
+  id: Edit
+  parent: SuperOffice.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: LogEvent.Edit
+  fullName: SuperOffice.Data.LogEvent.Edit
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Edit\n"
+  syntax:
+    content: public const LogEvent Edit
+    return:
+      type: SuperOffice.Data.LogEvent
+    content.vb: Public Const Edit As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.LogEvent.Delete
+  commentId: F:SuperOffice.Data.LogEvent.Delete
+  id: Delete
+  parent: SuperOffice.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: LogEvent.Delete
+  fullName: SuperOffice.Data.LogEvent.Delete
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Delete\n"
+  syntax:
+    content: public const LogEvent Delete
+    return:
+      type: SuperOffice.Data.LogEvent
+    content.vb: Public Const Delete As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.LogEvent.Lock
+  commentId: F:SuperOffice.Data.LogEvent.Lock
+  id: Lock
+  parent: SuperOffice.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Lock
+  nameWithType: LogEvent.Lock
+  fullName: SuperOffice.Data.LogEvent.Lock
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Lock\n"
+  syntax:
+    content: public const LogEvent Lock
+    return:
+      type: SuperOffice.Data.LogEvent
+    content.vb: Public Const Lock As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.LogEvent.Unlock
+  commentId: F:SuperOffice.Data.LogEvent.Unlock
+  id: Unlock
+  parent: SuperOffice.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: Unlock
+  nameWithType: LogEvent.Unlock
+  fullName: SuperOffice.Data.LogEvent.Unlock
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Unlock\n"
+  syntax:
+    content: public const LogEvent Unlock
+    return:
+      type: SuperOffice.Data.LogEvent
+    content.vb: Public Const Unlock As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.LogEvent.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<LogEvent, To>()
+  nameWithType: EnumUtil.MapEnums<LogEvent, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.LogEvent, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of LogEvent, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.LogEvent, To)()
+  name.vb: MapEnums(Of LogEvent, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<LogEvent, To>
+    nameWithType: EnumUtil.MapEnums<LogEvent, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.LogEvent, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of LogEvent, To)
+    nameWithType: EnumUtil.MapEnums(Of LogEvent, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.LogEvent, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.LogEvent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<LogEvent, To>()
+  nameWithType: Converters.MapEnums<LogEvent, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.LogEvent, To>()
+  nameWithType.vb: Converters.MapEnums(Of LogEvent, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.LogEvent, To)()
+  name.vb: MapEnums(Of LogEvent, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<LogEvent, To>
+    nameWithType: Converters.MapEnums<LogEvent, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.LogEvent, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of LogEvent, To)
+    nameWithType: Converters.MapEnums(Of LogEvent, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.LogEvent, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.LogEvent
+  commentId: T:SuperOffice.Data.LogEvent
+  parent: SuperOffice.Data
+  isExternal: true
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: SuperOffice.Data.LogEvent

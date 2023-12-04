@@ -7,10 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.WebhookRecordData.#ctor
   - SuperOffice.CRM.Rows.WebhookRecordData.ApplicationToken
-  - SuperOffice.CRM.Rows.WebhookRecordData.ConsecutiveErrors
+  - SuperOffice.CRM.Rows.WebhookRecordData.ErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRecordData.Events
   - SuperOffice.CRM.Rows.WebhookRecordData.Headers
-  - SuperOffice.CRM.Rows.WebhookRecordData.LastError
   - SuperOffice.CRM.Rows.WebhookRecordData.Name
   - SuperOffice.CRM.Rows.WebhookRecordData.Properties
   - SuperOffice.CRM.Rows.WebhookRecordData.Registered
@@ -18,8 +17,6 @@ items:
   - SuperOffice.CRM.Rows.WebhookRecordData.Secret
   - SuperOffice.CRM.Rows.WebhookRecordData.State
   - SuperOffice.CRM.Rows.WebhookRecordData.TargetUrl
-  - SuperOffice.CRM.Rows.WebhookRecordData.TotalCalls
-  - SuperOffice.CRM.Rows.WebhookRecordData.TotalErrors
   - SuperOffice.CRM.Rows.WebhookRecordData.Type
   - SuperOffice.CRM.Rows.WebhookRecordData.Updated
   - SuperOffice.CRM.Rows.WebhookRecordData.UpdatedAssociateId
@@ -41,18 +38,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the Webhook table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.WebhookRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.WebhookTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class WebhookRecordData
-    content.vb: Public Class WebhookRecordData
+    content: 'public class WebhookRecordData : Object'
+    content.vb: >-
+      Public Class WebhookRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.WebhookRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.WebhookRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WebhookRecordData)
@@ -190,7 +182,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nName of plugin that handles this webhook. &apos;webhook&apos; for webhooks, which are handled by the system plugin. \n"
+  summary: "\nName of plugin that handles this webhook. &apos;webhook&apos; for HTTP POST notifications, &apos;crmscript&apos; for script invocations. \n"
   syntax:
     content: public string Type
     return:
@@ -335,114 +327,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.WebhookRecordData.TotalCalls
-  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.TotalCalls
-  id: TotalCalls
-  parent: SuperOffice.CRM.Rows.WebhookRecordData
-  langs:
-  - csharp
-  - vb
-  name: TotalCalls
-  nameWithType: WebhookRecordData.TotalCalls
-  fullName: SuperOffice.CRM.Rows.WebhookRecordData.TotalCalls
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of times webhook has been invoked since registered. For statistical purposes. \n"
-  syntax:
-    content: public int TotalCalls
-    return:
-      type: System.Int32
-    content.vb: Public TotalCalls As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRecordData.TotalErrors
-  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.TotalErrors
-  id: TotalErrors
-  parent: SuperOffice.CRM.Rows.WebhookRecordData
-  langs:
-  - csharp
-  - vb
-  name: TotalErrors
-  nameWithType: WebhookRecordData.TotalErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRecordData.TotalErrors
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of times webhook has returned error since registered. For statistical purposes. \n"
-  syntax:
-    content: public int TotalErrors
-    return:
-      type: System.Int32
-    content.vb: Public TotalErrors As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRecordData.ConsecutiveErrors
-  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.ConsecutiveErrors
-  id: ConsecutiveErrors
-  parent: SuperOffice.CRM.Rows.WebhookRecordData
-  langs:
-  - csharp
-  - vb
-  name: ConsecutiveErrors
-  nameWithType: WebhookRecordData.ConsecutiveErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRecordData.ConsecutiveErrors
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nNumber of consecutive errors. Reset to 0 when an non-error is received. If too many errors, state is changed to TooManyErrors(3) to deactivate webhook. \n"
-  syntax:
-    content: public int ConsecutiveErrors
-    return:
-      type: System.Int32
-    content.vb: Public ConsecutiveErrors As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRecordData.LastError
-  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.LastError
-  id: LastError
-  parent: SuperOffice.CRM.Rows.WebhookRecordData
-  langs:
-  - csharp
-  - vb
-  name: LastError
-  nameWithType: WebhookRecordData.LastError
-  fullName: SuperOffice.CRM.Rows.WebhookRecordData.LastError
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nMost recent error message received from target. HTTP Headers + body. To help with debugging webhooks. \n"
-  syntax:
-    content: public string LastError
-    return:
-      type: System.String
-    content.vb: Public LastError As String
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Rows.WebhookRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.Registered
   id: Registered
@@ -465,7 +349,7 @@ items:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -519,7 +403,7 @@ items:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -578,6 +462,33 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.WebhookRecordData.ErrorsEmail
+  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.ErrorsEmail
+  id: ErrorsEmail
+  parent: SuperOffice.CRM.Rows.WebhookRecordData
+  langs:
+  - csharp
+  - vb
+  name: ErrorsEmail
+  nameWithType: WebhookRecordData.ErrorsEmail
+  fullName: SuperOffice.CRM.Rows.WebhookRecordData.ErrorsEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail address to send error message to when this webhook state changes to too-many errors. \n"
+  syntax:
+    content: public string ErrorsEmail
+    return:
+      type: System.String
+    content.vb: Public ErrorsEmail As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WebhookRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.WebhookRecordData.#ctor
   id: '#ctor'
@@ -617,285 +528,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.WebhookRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1354,8 +986,6 @@ references:
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

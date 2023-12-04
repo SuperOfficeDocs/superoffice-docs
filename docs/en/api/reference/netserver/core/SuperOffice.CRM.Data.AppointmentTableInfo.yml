@@ -7,6 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Data.AppointmentTableInfo.ActiveDate
   - SuperOffice.CRM.Data.AppointmentTableInfo.ActiveLinks
+  - SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId
+  - SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text
   - SuperOffice.CRM.Data.AppointmentTableInfo.Alarm
   - SuperOffice.CRM.Data.AppointmentTableInfo.AlldayEvent
   - SuperOffice.CRM.Data.AppointmentTableInfo.AppointmentId
@@ -36,6 +38,8 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateId(System.Int32)
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdActiveDate(System.Int32,System.DateTime)
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdActiveDateMotherId(System.Int32,System.DateTime,System.Int32)
+  - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdType(System.Int32,SuperOffice.Data.AppointmentType)
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdTypeEndDate(System.Int32,SuperOffice.Data.AppointmentType,System.DateTime)
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdTypeStatus(System.Int32,SuperOffice.Data.AppointmentType,SuperOffice.Data.AppointmentStatus)
@@ -61,6 +65,9 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentIdRegistered(System.Int32,SuperOffice.Data.AppointmentType,System.DateTime,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime)
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxRecurrenceRuleId(System.Int32)
   - SuperOffice.CRM.Data.AppointmentTableInfo.IdxRecurrenceRuleIdActiveDate(System.Int32,System.DateTime)
+  - SuperOffice.CRM.Data.AppointmentTableInfo.IdxType(SuperOffice.Data.AppointmentType)
+  - SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId
+  - SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
   - SuperOffice.CRM.Data.AppointmentTableInfo.InvitedPersonId
   - SuperOffice.CRM.Data.AppointmentTableInfo.InvitedPersonId_InnerJoin_Person
   - SuperOffice.CRM.Data.AppointmentTableInfo.IsMilestone
@@ -79,6 +86,7 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.LeftOuterJoin_SaleHist_NddAppointmentId
   - SuperOffice.CRM.Data.AppointmentTableInfo.LeftOuterJoin_VisibleFor_AppointmentId
   - SuperOffice.CRM.Data.AppointmentTableInfo.Location
+  - SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherId
@@ -103,6 +111,7 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.RuntimeDefinition
   - SuperOffice.CRM.Data.AppointmentTableInfo.SaleId
   - SuperOffice.CRM.Data.AppointmentTableInfo.SaleId_InnerJoin_Sale
+  - SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail
   - SuperOffice.CRM.Data.AppointmentTableInfo.Source
   - SuperOffice.CRM.Data.AppointmentTableInfo.Status
   - SuperOffice.CRM.Data.AppointmentTableInfo.SuggestedAppointmentId
@@ -146,7 +155,9 @@ items:
       <DatabaseTable("appointment")>
 
       Public Class AppointmentTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -168,12 +179,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.AppointmentTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.AppointmentTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -408,7 +413,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxAssociateIdTypeEndDate(associateId As Integer, type As AppointmentType, endDate As Date) As Restriction
+    content.vb: Public Function IdxAssociateIdTypeEndDate(associateId As Integer, type As AppointmentType, endDate As DateTime) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdTypeEndDate*
   modifiers.csharp:
   - public
@@ -472,7 +477,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxRecurrenceRuleIdActiveDate(recurrenceRuleId As Integer, activeDate As Date) As Restriction
+    content.vb: Public Function IdxRecurrenceRuleIdActiveDate(recurrenceRuleId As Integer, activeDate As DateTime) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxRecurrenceRuleIdActiveDate*
   modifiers.csharp:
   - public
@@ -505,7 +510,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxAssociateIdActiveDate(associateId As Integer, activeDate As Date) As Restriction
+    content.vb: Public Function IdxAssociateIdActiveDate(associateId As Integer, activeDate As DateTime) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdActiveDate*
   modifiers.csharp:
   - public
@@ -540,7 +545,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxAssociateIdActiveDateMotherId(associateId As Integer, activeDate As Date, motherId As Integer) As Restriction
+    content.vb: Public Function IdxAssociateIdActiveDateMotherId(associateId As Integer, activeDate As DateTime, motherId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdActiveDateMotherId*
   modifiers.csharp:
   - public
@@ -639,7 +644,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxMotherIdStatusActiveDate(motherId As Integer, status As AppointmentStatus, activeDate As Date) As Restriction
+    content.vb: Public Function IdxMotherIdStatusActiveDate(motherId As Integer, status As AppointmentStatus, activeDate As DateTime) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxMotherIdStatusActiveDate*
   modifiers.csharp:
   - public
@@ -676,7 +681,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer) As Restriction
+    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxMotherIdStatusActiveDateRegisteredAssociateId*
   modifiers.csharp:
   - public
@@ -715,7 +720,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegistered(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date) As Restriction
+    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegistered(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxMotherIdStatusActiveDateRegisteredAssociateIdRegistered*
   modifiers.csharp:
   - public
@@ -756,7 +761,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedBy(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer) As Restriction
+    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedBy(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedBy*
   modifiers.csharp:
   - public
@@ -799,7 +804,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdx(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer, groupIdx As Integer) As Restriction
+    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdx(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer, groupIdx As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdx*
   modifiers.csharp:
   - public
@@ -844,7 +849,7 @@ items:
       type: SuperOffice.Data.AppointmentType
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxType(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer, groupIdx As Integer, type As AppointmentType) As Restriction
+    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxType(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer, groupIdx As Integer, type As AppointmentType) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxType*
   modifiers.csharp:
   - public
@@ -891,7 +896,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxTypeAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As Date, registeredAssociateId As Integer, registered As Date, assignedBy As Integer, groupIdx As Integer, type As AppointmentType, associateId As Integer) As Restriction
+    content.vb: Public Function IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxTypeAssociateId(motherId As Integer, status As AppointmentStatus, activeDate As DateTime, registeredAssociateId As Integer, registered As DateTime, assignedBy As Integer, groupIdx As Integer, type As AppointmentType, associateId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxMotherIdStatusActiveDateRegisteredAssociateIdRegisteredAssignedByGroupIdxTypeAssociateId*
   modifiers.csharp:
   - public
@@ -959,7 +964,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDate(projectId As Integer, type As AppointmentType, activeDate As Date) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDate(projectId As Integer, type As AppointmentType, activeDate As DateTime) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDate*
   modifiers.csharp:
   - public
@@ -996,7 +1001,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentId(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentId(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentId*
   modifiers.csharp:
   - public
@@ -1035,7 +1040,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateId(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateId(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateId*
   modifiers.csharp:
   - public
@@ -1076,7 +1081,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdx(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdx(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdx*
   modifiers.csharp:
   - public
@@ -1119,7 +1124,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherId(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherId(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherId*
   modifiers.csharp:
   - public
@@ -1164,7 +1169,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedBy*
   modifiers.csharp:
   - public
@@ -1211,7 +1216,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentId(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer, appointmentId As Integer) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentId(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer, appointmentId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentId*
   modifiers.csharp:
   - public
@@ -1260,8 +1265,107 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentIdRegistered(projectId As Integer, type As AppointmentType, activeDate As Date, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer, appointmentId As Integer, registered As Date) As Restriction
+    content.vb: Public Function IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentIdRegistered(projectId As Integer, type As AppointmentType, activeDate As DateTime, documentId As Integer, associateId As Integer, groupIdx As Integer, motherId As Integer, assignedBy As Integer, appointmentId As Integer, registered As DateTime) As Restriction
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentIdRegistered*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.IdxType(SuperOffice.Data.AppointmentType)
+  commentId: M:SuperOffice.CRM.Data.AppointmentTableInfo.IdxType(SuperOffice.Data.AppointmentType)
+  id: IdxType(SuperOffice.Data.AppointmentType)
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxType(AppointmentType)
+  nameWithType: AppointmentTableInfo.IdxType(AppointmentType)
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxType(SuperOffice.Data.AppointmentType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index Type, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Type</td><td>where=no start time,note,docin, docout </td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxType(AppointmentType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.AppointmentType
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxType(type As AppointmentType) As Restriction
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  commentId: M:SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  id: IdxAssociateIdStatus(System.Int32,SuperOffice.Data.AppointmentStatus)
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxAssociateIdStatus(Int32, AppointmentStatus)
+  nameWithType: AppointmentTableInfo.IdxAssociateIdStatus(Int32, AppointmentStatus)
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus(System.Int32, SuperOffice.Data.AppointmentStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index AssociateIdStatus, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>AssociateId</td><td>ID of associate whose diary the appointment is in, REQUIRED</td></tr><tr><td>Status</td><td>status=done,started, not started, hidden</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxAssociateIdStatus(int associateId, AppointmentStatus status)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: status
+      type: SuperOffice.Data.AppointmentStatus
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxAssociateIdStatus(associateId As Integer, status As AppointmentStatus) As Restriction
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
+  commentId: M:SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
+  id: IdxAssociateIdStatusDoBy(System.Int32,SuperOffice.Data.AppointmentStatus,System.DateTime)
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxAssociateIdStatusDoBy(Int32, AppointmentStatus, DateTime)
+  nameWithType: AppointmentTableInfo.IdxAssociateIdStatusDoBy(Int32, AppointmentStatus, DateTime)
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy(System.Int32, SuperOffice.Data.AppointmentStatus, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index AssociateIdStatusDoBy, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>AssociateId</td><td>ID of associate whose diary the appointment is in, REQUIRED</td></tr><tr><td>Status</td><td>status=done,started, not started, hidden</td></tr><tr><td>DoBy</td><td>date + start time planned</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxAssociateIdStatusDoBy(int associateId, AppointmentStatus status, DateTime doBy)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: status
+      type: SuperOffice.Data.AppointmentStatus
+    - id: doBy
+      type: System.DateTime
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxAssociateIdStatusDoBy(associateId As Integer, status As AppointmentStatus, doBy As DateTime) As Restriction
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1316,26 +1420,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -1426,7 +1516,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;contact_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nContact ID of owning contact, may be 0\n"
+  summary: "\nField &apos;contact_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Contact, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nContact ID of owning contact, may be 0\n"
   syntax:
     content: public Int32FieldInfo ContactId { get; }
     parameters: []
@@ -1457,7 +1547,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;person_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPerson ID of person the appointment is with, may be 0\n"
+  summary: "\nField &apos;person_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Person, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPerson ID of person the appointment is with, may be 0\n"
   syntax:
     content: public Int32FieldInfo PersonId { get; }
     parameters: []
@@ -1488,7 +1578,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of associate whose diary the appointment is in, REQUIRED\n"
+  summary: "\nField &apos;associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of associate whose diary the appointment is in, REQUIRED\n"
   syntax:
     content: public Int32FieldInfo AssociateId { get; }
     parameters: []
@@ -1519,7 +1609,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;group_idx&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nGroup of owning associate at the time tha ppnt was created\n"
+  summary: "\nField &apos;group_idx&apos; in table &apos;appointment&apos;: Dictionary type FK, target: UserGroup, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nGroup of owning associate at the time tha ppnt was created\n"
   syntax:
     content: public Int32FieldInfo GroupIdx { get; }
     parameters: []
@@ -1581,7 +1671,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -1705,7 +1795,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;task_idx&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to Task list, OR to DocTmpl list, if this is a document\n"
+  summary: "\nField &apos;task_idx&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Task, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to Task list, OR to DocTmpl list, if this is a document\n"
   syntax:
     content: public Int32FieldInfo TaskIdx { get; }
     parameters: []
@@ -1736,7 +1826,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;priority_idx&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to priority list\n"
+  summary: "\nField &apos;priority_idx&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Priority, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to priority list\n"
   syntax:
     content: public Int32FieldInfo PriorityIdx { get; }
     parameters: []
@@ -1891,7 +1981,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;text_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of record containing appointment text\n"
+  summary: "\nField &apos;text_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Text, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of record containing appointment text\n"
   syntax:
     content: public Int32FieldInfo TextId { get; }
     parameters: []
@@ -1922,7 +2012,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;project_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of project referred to, may be 0\n"
+  summary: "\nField &apos;project_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Project, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of project referred to, may be 0\n"
   syntax:
     content: public Int32FieldInfo ProjectId { get; }
     parameters: []
@@ -1953,7 +2043,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;mother_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking\n"
+  summary: "\nField &apos;mother_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Appointment, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking\n"
   syntax:
     content: public Int32FieldInfo MotherId { get; }
     parameters: []
@@ -1984,7 +2074,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;document_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPoints to document record; 0 for non-document appointments!\n"
+  summary: "\nField &apos;document_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Document, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPoints to document record; 0 for non-document appointments!\n"
   syntax:
     content: public Int32FieldInfo DocumentId { get; }
     parameters: []
@@ -2046,7 +2136,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;invitedPersonId&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nValid when mother_id != 0 &amp;&amp; mother_id != id\n"
+  summary: "\nField &apos;invitedPersonId&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Person, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nValid when mother_id != 0 &amp;&amp; mother_id != id\n"
   syntax:
     content: public Int32FieldInfo InvitedPersonId { get; }
     parameters: []
@@ -2201,7 +2291,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;userdef_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 1 (for future use)\n"
+  summary: "\nField &apos;userdef_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: UDAppntSmall, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 1 (for future use)\n"
   syntax:
     content: public Int32FieldInfo UserdefId { get; }
     parameters: []
@@ -2232,7 +2322,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;userdef2_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 2 (for future use)\n"
+  summary: "\nField &apos;userdef2_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: UDAppntLarge, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUser defined table record 2 (for future use)\n"
   syntax:
     content: public Int32FieldInfo Userdef2Id { get; }
     parameters: []
@@ -2294,7 +2384,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUpdated by who\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nUpdated by who\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -2387,7 +2477,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;recurrenceRuleId&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPointer to recurrence rule, for recurring appointments, otherwise 0\n"
+  summary: "\nField &apos;recurrenceRuleId&apos; in table &apos;appointment&apos;: Dictionary type FK, target: RecurrenceRule, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPointer to recurrence rule, for recurring appointments, otherwise 0\n"
   syntax:
     content: public Int32FieldInfo RecurrenceRuleId { get; }
     parameters: []
@@ -2542,7 +2632,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;emailId&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf invitation and status changes should be mailed, this is the ID of the email address used\n"
+  summary: "\nField &apos;emailId&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Email, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf invitation and status changes should be mailed, this is the ID of the email address used\n"
   syntax:
     content: public Int32FieldInfo EmailId { get; }
     parameters: []
@@ -2635,7 +2725,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;assignedBy&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWho (last) assigned this appointment to associate_id?\n"
+  summary: "\nField &apos;assignedBy&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWho (last) assigned this appointment to associate_id?\n"
   syntax:
     content: public Int32FieldInfo AssignedBy { get; }
     parameters: []
@@ -2666,7 +2756,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;preferredTZLocation&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPreferred timezone location to use when displaying/editing this appointment\n"
+  summary: "\nField &apos;preferredTZLocation&apos; in table &apos;appointment&apos;: Dictionary type FK, target: TZLocation, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPreferred timezone location to use when displaying/editing this appointment\n"
   syntax:
     content: public Int32FieldInfo PreferredTZLocation { get; }
     parameters: []
@@ -2697,7 +2787,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sale_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOwning sale, if any (may be 0)\n"
+  summary: "\nField &apos;sale_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Sale, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOwning sale, if any (may be 0)\n"
   syntax:
     content: public Int32FieldInfo SaleId { get; }
     parameters: []
@@ -2728,7 +2818,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;suggestedAppointmentId&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSuggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)\n"
+  summary: "\nField &apos;suggestedAppointmentId&apos; in table &apos;appointment&apos;: Dictionary type FK, target: SuggestedAppointment, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSuggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)\n"
   syntax:
     content: public Int32FieldInfo SuggestedAppointmentId { get; }
     parameters: []
@@ -2759,7 +2849,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;suggestedDocumentId&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSuggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)\n"
+  summary: "\nField &apos;suggestedDocumentId&apos; in table &apos;appointment&apos;: Dictionary type FK, target: SuggestedDocument, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSuggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)\n"
   syntax:
     content: public Int32FieldInfo SuggestedDocumentId { get; }
     parameters: []
@@ -2897,6 +2987,130 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId
+  id: AgendaTextId
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AgendaTextId
+  nameWithType: AppointmentTableInfo.AgendaTextId
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;agenda_text_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Text, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of record containing agenda text\n"
+  syntax:
+    content: public Int32FieldInfo AgendaTextId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AgendaTextId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId
+  id: InternalNotesTextId
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: InternalNotesTextId
+  nameWithType: AppointmentTableInfo.InternalNotesTextId
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;internal_notes_text_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Text, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of record containing internal notes text\n"
+  syntax:
+    content: public Int32FieldInfo InternalNotesTextId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property InternalNotesTextId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail
+  id: SendEmail
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SendEmail
+  nameWithType: AppointmentTableInfo.SendEmail
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;SendEmail&apos; in table &apos;appointment&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSend invitation and appointment changes by e-mail to this participant.\n"
+  syntax:
+    content: public UInt16FieldInfo SendEmail { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property SendEmail As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields
+  id: ModifiedAppointmentFields
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ModifiedAppointmentFields
+  nameWithType: AppointmentTableInfo.ModifiedAppointmentFields
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;modified_appointment_fields&apos; in table &apos;appointment&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhich important fields of an appointment have been changed. Used by notifications.\n"
+  syntax:
+    content: public ModifiedAppointmentFieldsFieldInfo ModifiedAppointmentFields { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
+    content.vb: Public ReadOnly Property ModifiedAppointmentFields As ModifiedAppointmentFieldsFieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   id: CautionWarning
@@ -2945,7 +3159,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;mother_associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAssociate/owner of the mother appointment\n"
+  summary: "\nField &apos;mother_associate_id&apos; in table &apos;appointment&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAssociate/owner of the mother appointment\n"
   syntax:
     content: public Int32FieldInfo MotherAssociateId { get; }
     parameters: []
@@ -3641,6 +3855,68 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text
+  id: AgendaTextId_InnerJoin_Text
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AgendaTextId_InnerJoin_Text
+  nameWithType: AppointmentTableInfo.AgendaTextId_InnerJoin_Text
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key AgendaTextId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TextTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<TextTableInfo> AgendaTextId_InnerJoin_Text { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TextTableInfo}
+    content.vb: Public ReadOnly Property AgendaTextId_InnerJoin_Text As TargetedInnerJoin(Of TextTableInfo)
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
+  id: InternalNotesTextId_InnerJoin_Text
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: InternalNotesTextId_InnerJoin_Text
+  nameWithType: AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key InternalNotesTextId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TextTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<TextTableInfo> InternalNotesTextId_InnerJoin_Text { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TextTableInfo}
+    content.vb: Public ReadOnly Property InternalNotesTextId_InnerJoin_Text As TargetedInnerJoin(Of TextTableInfo)
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   id: MotherAssociateId_InnerJoin_Associate
@@ -4035,8 +4311,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -4369,254 +4643,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -4872,8 +4898,6 @@ references:
   nameWithType: AppointmentTableInfo.IdxAssociateIdTypeEndDate
   fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdTypeEndDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -5010,6 +5034,24 @@ references:
   name: IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentIdRegistered
   nameWithType: AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentIdRegistered
   fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxProjectIdTypeActiveDateDocumentIdAssociateIdGroupIdxMotherIdAssignedByAppointmentIdRegistered
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.IdxType*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.IdxType
+  isExternal: true
+  name: IdxType
+  nameWithType: AppointmentTableInfo.IdxType
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxType
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus
+  isExternal: true
+  name: IdxAssociateIdStatus
+  nameWithType: AppointmentTableInfo.IdxAssociateIdStatus
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatus
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy
+  isExternal: true
+  name: IdxAssociateIdStatusDoBy
+  nameWithType: AppointmentTableInfo.IdxAssociateIdStatusDoBy
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.IdxAssociateIdStatusDoBy
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.DictionaryTableNumber
   isExternal: true
@@ -5412,6 +5454,37 @@ references:
   name: OriginalStartDate
   nameWithType: AppointmentTableInfo.OriginalStartDate
   fullName: SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId
+  isExternal: true
+  name: AgendaTextId
+  nameWithType: AppointmentTableInfo.AgendaTextId
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId
+  isExternal: true
+  name: InternalNotesTextId
+  nameWithType: AppointmentTableInfo.InternalNotesTextId
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail
+  isExternal: true
+  name: SendEmail
+  nameWithType: AppointmentTableInfo.SendEmail
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.SendEmail
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields
+  isExternal: true
+  name: ModifiedAppointmentFields
+  nameWithType: AppointmentTableInfo.ModifiedAppointmentFields
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.ModifiedAppointmentFields
+- uid: SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ModifiedAppointmentFieldsFieldInfo
+  nameWithType: ModifiedAppointmentFieldsFieldInfo
+  fullName: SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning*
   commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.CautionWarning
   isExternal: true
@@ -6394,6 +6467,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text
+  isExternal: true
+  name: AgendaTextId_InnerJoin_Text
+  nameWithType: AppointmentTableInfo.AgendaTextId_InnerJoin_Text
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.AgendaTextId_InnerJoin_Text
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
+  isExternal: true
+  name: InternalNotesTextId_InnerJoin_Text
+  nameWithType: AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.InternalNotesTextId_InnerJoin_Text
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId_InnerJoin_Associate
   isExternal: true

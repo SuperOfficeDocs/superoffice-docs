@@ -31,20 +31,16 @@ items:
   namespace: SuperOffice.License
   summary: "\nDefault implementation\n"
   syntax:
-    content: public abstract class Product
-    content.vb: Public MustInherit Class Product
+    content: 'public abstract class Product : Object'
+    content.vb: >-
+      Public MustInherit Class Product
+
+          Inherits Object
   inheritance:
   - System.Object
   derivedClasses:
   - SuperOffice.Products.NetServerCore
   - SuperOffice.Products.NetServerDataBase
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.Product.EnumUtil.MapEnums``2
   - SuperOffice.License.Product.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -101,25 +97,11 @@ items:
   namespace: SuperOffice.License
   summary: "\n\n"
   syntax:
-    content: >-
-      [Obsolete("Not relevant for the new license system", true)]
-
-      protected virtual ProductLicense OnDepricateLicense()
+    content: protected virtual ProductLicense OnDepricateLicense()
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: >-
-      <Obsolete("Not relevant for the new license system", True)>
-
-      Protected Overridable Function OnDepricateLicense As ProductLicense
+    content.vb: Protected Overridable Function OnDepricateLicense As ProductLicense
   overload: SuperOffice.License.Product.OnDepricateLicense*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Not relevant for the new license system
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - protected
   - virtual
@@ -150,7 +132,6 @@ items:
       type: System.String
       description: Information about the module.
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.License.Product.ToString*
   modifiers.csharp:
   - public
@@ -177,26 +158,12 @@ items:
   namespace: SuperOffice.License
   summary: "\nWhen the module expires.\n"
   syntax:
-    content: >-
-      [Obsolete("Netserver no longer expires", false)]
-
-      public virtual DateTime Expiry { get; }
+    content: public virtual DateTime Expiry { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <Obsolete("Netserver no longer expires", False)>
-
-      Public Overridable ReadOnly Property Expiry As Date
+    content.vb: Public Overridable ReadOnly Property Expiry As DateTime
   overload: SuperOffice.License.Product.Expiry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Netserver no longer expires
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - virtual
@@ -356,26 +323,12 @@ items:
   namespace: SuperOffice.License
   summary: "\nLicense required by the module.\n"
   syntax:
-    content: >-
-      [Obsolete("Not relevant for the new license system", true)]
-
-      public virtual ProductLicense RequiredLicense { get; }
+    content: public virtual ProductLicense RequiredLicense { get; }
     parameters: []
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: >-
-      <Obsolete("Not relevant for the new license system", True)>
-
-      Public Overridable ReadOnly Property RequiredLicense As ProductLicense
+    content.vb: Public Overridable ReadOnly Property RequiredLicense As ProductLicense
   overload: SuperOffice.License.Product.RequiredLicense*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Not relevant for the new license system
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - virtual
@@ -404,26 +357,12 @@ items:
   summary: "\nLicenses that are deprecated by this module.\n"
   remarks: "\nBoth the implementation of this class as well as the attribute \nneed to be signed for this method to return \nanything but <xref href=\"SuperOffice.License.ProductLicense.None\" data-throw-if-not-resolved=\"false\"></xref>.  The get property \nutilizes <xref href=\"SuperOffice.License.Product.OnDepricateLicense\" data-throw-if-not-resolved=\"false\"></xref> to determine licenses to \ndepricate.\n"
   syntax:
-    content: >-
-      [Obsolete("Not relevant for the new license system", true)]
-
-      public ProductLicense DepricatedLicense { get; }
+    content: public ProductLicense DepricatedLicense { get; }
     parameters: []
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: >-
-      <Obsolete("Not relevant for the new license system", True)>
-
-      Public ReadOnly Property DepricatedLicense As ProductLicense
+    content.vb: Public ReadOnly Property DepricatedLicense As ProductLicense
   overload: SuperOffice.License.Product.DepricatedLicense*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Not relevant for the new license system
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -475,254 +414,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.License.Product.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -913,37 +604,6 @@ references:
   name: ProductLicense
   nameWithType: ProductLicense
   fullName: SuperOffice.License.ProductLicense
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.License.Product.ToString*
   commentId: Overload:SuperOffice.License.Product.ToString
   isExternal: true
@@ -964,8 +624,6 @@ references:
   nameWithType: Product.Expiry
   fullName: SuperOffice.License.Product.Expiry
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

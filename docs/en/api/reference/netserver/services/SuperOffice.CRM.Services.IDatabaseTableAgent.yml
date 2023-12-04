@@ -26,7 +26,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInterface for the DatabaseTable Agent\nAgent used for CRUD operations on database tables. Read, add, update, delete rows in tables.\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nInterface for the DatabaseTable Agent\nAgent used for CRUD operations on database tables. Read, add, update, delete rows in tables.\n"
   example:
   - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DatabaseTableAgent agent = new DatabaseTableAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
@@ -71,7 +71,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nRead a row from a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nRead a row from a table\n"
   syntax:
     content: TableRecord ReadRow(string tableName, int id)
     parameters:
@@ -103,7 +103,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInsert a row into a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nInsert a row into a table\n"
   syntax:
     content: int InsertRow(string tableName, StringDictionary values)
     parameters:
@@ -135,7 +135,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nUpdate a row in a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nUpdate a row in a table\n"
   syntax:
     content: void UpdateRow(string tableName, int id, StringDictionary values)
     parameters:
@@ -167,7 +167,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete a row from a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nDelete a row from a table\n"
   syntax:
     content: void DeleteRow(string tableName, int id)
     parameters:
@@ -196,7 +196,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nMass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nMass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: MassOperationResult Insert(string tableName, string[] columns, string[][] data)
     parameters:
@@ -234,7 +234,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDrop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nDrop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls\n"
   syntax:
     content: MassOperationResult Truncate(string tableName)
     parameters:
@@ -263,7 +263,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nInsert or update rows, optionally deleting/zeroing &apos;leftover&apos; rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nInsert or update rows, optionally deleting/zeroing &apos;leftover&apos; rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: MassOperationResult Upsert(string tableName, string[] columns, string[] keys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus)
     parameters:
@@ -310,7 +310,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDelete rows, by primary key; traveltransactionlog and WebHooks are supported\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nDelete rows, by primary key; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: MassOperationResult Delete(string tableName, int[] iDs)
     parameters:

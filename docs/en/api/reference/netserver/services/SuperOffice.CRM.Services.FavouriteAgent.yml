@@ -8,11 +8,14 @@ items:
   - SuperOffice.CRM.Services.FavouriteAgent.#ctor
   - SuperOffice.CRM.Services.FavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Services.FavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
+  - SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
   - SuperOffice.CRM.Services.FavouriteAgent.GetFavourites(System.String,System.Int32)
   - SuperOffice.CRM.Services.FavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
   - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
   - SuperOffice.CRM.Services.FavouriteAgent.RemoveFavouritesById(System.Int32[])
+  - SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
   - SuperOffice.CRM.Services.FavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
   langs:
   - csharp
@@ -48,13 +51,6 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
@@ -87,10 +83,13 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     return:
       type: System.Boolean
+      description: Is Favourite?
     content.vb: Public Function IsFavourite(tableName As String, recordId As Integer, associateId As Integer) As Boolean
   overload: SuperOffice.CRM.Services.FavouriteAgent.IsFavourite*
   implements:
@@ -125,10 +124,13 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: extraInfo
       type: System.String
+      description: Any extra information
     content.vb: Public Sub AddFavourite(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String)
   overload: SuperOffice.CRM.Services.FavouriteAgent.AddFavourite*
   implements:
@@ -163,10 +165,13 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordIds
       type: System.Int32[]
+      description: Ids of records in your specified table (tableName). Corresponding rows will be added as Favourites.
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: extraInfo
       type: System.String
+      description: Any extra information
     content.vb: Public Sub AddFavourites(tableName As String, recordIds As Integer(), associateId As Integer, extraInfo As String)
   overload: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites*
   implements:
@@ -178,6 +183,132 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.AddFavourites(System.String, System.Int32(), System.Int32, System.String)
   name.vb: AddFavourites(String, Int32(), Int32, String)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  id: AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
+  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a list of tickets as favourites that are given by the ticket provider.\n"
+  syntax:
+    content: public void AddTicketsToFavouritesByProvider(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, string extraInfo)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of a ticket provider
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    - id: extraInfo
+      type: System.String
+      description: Any extra information
+    content.vb: Public Sub AddTicketsToFavouritesByProvider(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, extraInfo As String)
+  overload: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider*
+  implements:
+  - SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  nameWithType.vb: FavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32, System.String)
+  name.vb: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
+  id: RemoveFavourites(System.String,System.Int32[],System.Int32)
+  parent: SuperOffice.CRM.Services.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveFavourites(String, Int32[], Int32)
+  nameWithType: FavouriteAgent.RemoveFavourites(String, Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String, System.Int32[], System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove a list of record ids from favourites for an associate\n"
+  syntax:
+    content: public void RemoveFavourites(string tableName, int[] recordIds, int associateId)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.
+    - id: recordIds
+      type: System.Int32[]
+      description: Ids of records in your specified table (tableName). Corresponding rows will be removed from Favourites.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    content.vb: Public Sub RemoveFavourites(tableName As String, recordIds As Integer(), associateId As Integer)
+  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites*
+  implements:
+  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
+  nameWithType.vb: FavouriteAgent.RemoveFavourites(String, Int32(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites(System.String, System.Int32(), System.Int32)
+  name.vb: RemoveFavourites(String, Int32(), Int32)
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  id: RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  parent: SuperOffice.CRM.Services.FavouriteAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
+  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove a list of tickets from favourites that are given by the ticket provider.\n"
+  syntax:
+    content: public void RemoveTicketsFromFavouritesByProvider(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of a ticket provider
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: associateId
+      type: System.Int32
+      description: Id of a current user
+    content.vb: Public Sub RemoveTicketsFromFavouritesByProvider(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer)
+  overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider*
+  implements:
+  - SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  nameWithType.vb: FavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32)
+  name.vb: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
 - uid: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.FavouriteAgent.GetFavourites(System.String,System.Int32)
   id: GetFavourites(System.String,System.Int32)
@@ -204,8 +335,10 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     return:
       type: SuperOffice.CRM.Services.Favourite[]
+      description: Requested favourites for a table and associate
     content.vb: Public Function GetFavourites(tableName As String, associateId As Integer) As Favourite()
   overload: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites*
   implements:
@@ -240,8 +373,10 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     content.vb: Public Sub RemoveFavourite(tableName As String, recordId As Integer, associateId As Integer)
   overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourite*
   implements:
@@ -276,6 +411,7 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     content.vb: Public Sub RemoveAllFavourites(tableName As String, associateId As Integer)
   overload: SuperOffice.CRM.Services.FavouriteAgent.RemoveAllFavourites*
   implements:
@@ -310,10 +446,13 @@ items:
       description: Table name, transformed to and from numeric table id by the service layer.
     - id: recordId
       type: System.Int32
+      description: Id of a record in your specified table (tableName)
     - id: associateId
       type: System.Int32
+      description: Id of a current user
     - id: extraInfo
       type: System.String
+      description: Any extra information
     return:
       type: System.Boolean
       description: Return the new value, true if added, false if removed
@@ -392,13 +531,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IFavouriteAgent}
   parent: SuperOffice.CRM.Services
@@ -444,8 +576,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -506,291 +636,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IFavouriteAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IFavouriteAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IFavouriteAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -970,6 +815,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.FavouriteAgent.AddFavourite*
   commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddFavourite
   isExternal: true
@@ -1195,6 +1046,312 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider
+  isExternal: true
+  name: AddTicketsToFavouritesByProvider
+  nameWithType: FavouriteAgent.AddTicketsToFavouritesByProvider
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProvider
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IFavouriteAgent
+  isExternal: true
+  name: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
+  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32, System.String)
+  nameWithType.vb: IFavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32, System.String)
+  name.vb: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+    name: AddTicketsToFavouritesByProvider
+    nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider
+    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
+    name: AddTicketsToFavouritesByProvider
+    nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider
+    fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites
+  isExternal: true
+  name: RemoveFavourites
+  nameWithType: FavouriteAgent.RemoveFavourites
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveFavourites
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
+  parent: SuperOffice.CRM.Services.IFavouriteAgent
+  isExternal: true
+  name: RemoveFavourites(String, Int32[], Int32)
+  nameWithType: IFavouriteAgent.RemoveFavourites(String, Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String, System.Int32[], System.Int32)
+  nameWithType.vb: IFavouriteAgent.RemoveFavourites(String, Int32(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String, System.Int32(), System.Int32)
+  name.vb: RemoveFavourites(String, Int32(), Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
+    name: RemoveFavourites
+    nameWithType: IFavouriteAgent.RemoveFavourites
+    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
+    name: RemoveFavourites
+    nameWithType: IFavouriteAgent.RemoveFavourites
+    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider*
+  commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider
+  isExternal: true
+  name: RemoveTicketsFromFavouritesByProvider
+  nameWithType: FavouriteAgent.RemoveTicketsFromFavouritesByProvider
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.RemoveTicketsFromFavouritesByProvider
+- uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+  parent: SuperOffice.CRM.Services.IFavouriteAgent
+  isExternal: true
+  name: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
+  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32)
+  nameWithType.vb: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32)
+  name.vb: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+    name: RemoveTicketsFromFavouritesByProvider
+    nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
+    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
+    name: RemoveTicketsFromFavouritesByProvider
+    nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
+    fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.FavouriteAgent.GetFavourites*
   commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.GetFavourites
   isExternal: true

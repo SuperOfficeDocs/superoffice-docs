@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TaskMenuFields
+  id: DBC.TaskMenuFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.ArchiveBehaviour
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Area
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.CrmScriptId
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Deleted
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Encoding
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Name
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Rank
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Registered
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.ShowInClient
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.TableName
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskMenuId
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskType
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.Updated
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields.UrlOrSoprotocol
+  langs:
+  - csharp
+  - vb
+  name: DBC.TaskMenuFields
+  nameWithType: DBC.TaskMenuFields
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TaskMenu, List items to merge into menues\n"
+  syntax:
+    content: 'public static class TaskMenuFields : Object'
+    content.vb: >-
+      Public Module TaskMenuFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskMenuId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskMenuId
+  id: TaskMenuId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuId
+  nameWithType: DBC.TaskMenuFields.TaskMenuId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskMenuId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.TaskMenuId: Primary key\n"
+  syntax:
+    content: public const string TaskMenuId = "taskmenu_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenuId As String = "taskmenu_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.TaskMenuFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.TaskMenuFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.TaskMenuFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.TaskMenuFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.TableName
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.TableName
+  id: TableName
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: DBC.TaskMenuFields.TableName
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.TableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.TableName: The name of entity that this task item can be used at\n"
+  syntax:
+    content: public const string TableName = "tableName"
+    return:
+      type: System.String
+    content.vb: Public Const TableName As String = "tableName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Area
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Area
+  id: Area
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: DBC.TaskMenuFields.Area
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Area
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Area: Can be Task or other that can identify which menu recipe to merge the item into\n"
+  syntax:
+    content: public const string Area = "area"
+    return:
+      type: System.String
+    content.vb: Public Const Area As String = "area"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.UrlOrSoprotocol
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.UrlOrSoprotocol
+  id: UrlOrSoprotocol
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: UrlOrSoprotocol
+  nameWithType: DBC.TaskMenuFields.UrlOrSoprotocol
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.UrlOrSoprotocol
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.UrlOrSoprotocol: The url or soprotocol\n"
+  syntax:
+    content: public const string UrlOrSoprotocol = "urlOrSoprotocol"
+    return:
+      type: System.String
+    content.vb: Public Const UrlOrSoprotocol As String = "urlOrSoprotocol"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskType
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskType
+  id: TaskType
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: TaskType
+  nameWithType: DBC.TaskMenuFields.TaskType
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.TaskType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.TaskType: Type of task item Url, SoProtocol or CRMScript.\n"
+  syntax:
+    content: public const string TaskType = "taskType"
+    return:
+      type: System.String
+    content.vb: Public Const TaskType As String = "taskType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.CrmScriptId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.CrmScriptId
+  id: CrmScriptId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: CrmScriptId
+  nameWithType: DBC.TaskMenuFields.CrmScriptId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.CrmScriptId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.CrmScriptId: The CRMScript or Macro which will be run task item is selected.\n"
+  syntax:
+    content: public const string CrmScriptId = "crmScript_id"
+    return:
+      type: System.String
+    content.vb: Public Const CrmScriptId As String = "crmScript_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.ShowInClient
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.ShowInClient
+  id: ShowInClient
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: ShowInClient
+  nameWithType: DBC.TaskMenuFields.ShowInClient
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.ShowInClient
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.ShowInClient: Show task list item in which clients (web, mobile)\n"
+  syntax:
+    content: public const string ShowInClient = "showInClient"
+    return:
+      type: System.String
+    content.vb: Public Const ShowInClient As String = "showInClient"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.ArchiveBehaviour
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.ArchiveBehaviour
+  id: ArchiveBehaviour
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: ArchiveBehaviour
+  nameWithType: DBC.TaskMenuFields.ArchiveBehaviour
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.ArchiveBehaviour
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.ArchiveBehaviour: None, rightclick on, multiselect\n"
+  syntax:
+    content: public const string ArchiveBehaviour = "archiveBehaviour"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveBehaviour As String = "archiveBehaviour"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TaskMenuFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TaskMenuFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TaskMenuFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TaskMenuFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TaskMenuFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields.Encoding
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuFields.Encoding
+  id: Encoding
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: DBC.TaskMenuFields.Encoding
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields.Encoding
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu.Encoding: Encoding for url\n"
+  syntax:
+    content: public const string Encoding = "encoding"
+    return:
+      type: System.String
+    content.vb: Public Const Encoding As String = "encoding"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

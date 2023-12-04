@@ -57,18 +57,13 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nThe recurrence manager is used by the <xref href=\"SuperOffice.CRM.Entities.AppointmentMatrix\" data-throw-if-not-resolved=\"false\"></xref> to calculate \nrecurrence patterns, modify appointment records and to maintain an \nencapsulated <xref href=\"SuperOffice.CRM.Rows.RecurrenceRuleRow\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: public class RecurrenceManager
-    content.vb: Public Class RecurrenceManager
+    content: 'public class RecurrenceManager : Object'
+    content.vb: >-
+      Public Class RecurrenceManager
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.RecurrenceManager.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.RecurrenceManager.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.RecurrenceManager)
@@ -193,7 +188,7 @@ items:
     parameters:
     - id: date
       type: System.DateTime
-    content.vb: Public Sub New(date As Date)
+    content.vb: Public Sub New(date As DateTime)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.#ctor*
   modifiers.csharp:
   - public
@@ -252,7 +247,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
-    content.vb: Public Shared Function GetDefaultRecurrenceInfo(date As Date) As RecurrenceInfo
+    content.vb: Public Shared Function GetDefaultRecurrenceInfo(date As DateTime) As RecurrenceInfo
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDefaultRecurrenceInfo*
   modifiers.csharp:
   - public
@@ -407,7 +402,7 @@ items:
     return:
       type: System.DateTime
       description: First valid date in a recurrence
-    content.vb: Public Function GetFirstDate(date As Date) As Date
+    content.vb: Public Function GetFirstDate(date As DateTime) As DateTime
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetFirstDate*
   modifiers.csharp:
   - public
@@ -440,7 +435,7 @@ items:
     return:
       type: System.DateTime
       description: The next date.  The day after the provided date is the earliest date that will be returned.
-    content.vb: Public Function GetNextDate(date As Date) As Date
+    content.vb: Public Function GetNextDate(date As DateTime) As DateTime
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetNextDate*
   modifiers.csharp:
   - public
@@ -470,7 +465,7 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-    content.vb: Public Function GetDaysToMatchInPattern(date As Date) As Integer
+    content.vb: Public Function GetDaysToMatchInPattern(date As DateTime) As Integer
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern*
   modifiers.csharp:
   - public
@@ -574,7 +569,7 @@ items:
     return:
       type: System.DateTime
       description: Date of the day in the month.
-    content.vb: Public Shared Function GetDayInMonth(day As Integer, month As Date) As Date
+    content.vb: Public Shared Function GetDayInMonth(day As Integer, month As DateTime) As DateTime
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetDayInMonth*
   modifiers.csharp:
   - public
@@ -610,7 +605,7 @@ items:
       type: System.DateTime
     return:
       type: System.DateTime
-    content.vb: Public Shared Function GetWeekDayInMonth(weekday As Weekday, week As Integer, month As Date) As Date
+    content.vb: Public Shared Function GetWeekDayInMonth(weekday As Weekday, week As Integer, month As DateTime) As DateTime
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth*
   modifiers.csharp:
   - public
@@ -644,7 +639,7 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ConvertFromTimeZone(date As Date, timeZoneID As Integer) As Date
+    content.vb: Public Shared Function ConvertFromTimeZone(date As DateTime, timeZoneID As Integer) As DateTime
   overload: SuperOffice.CRM.Entities.RecurrenceManager.ConvertFromTimeZone*
   modifiers.csharp:
   - public
@@ -740,26 +735,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: >-
-      [Obsolete("Not in use. Links are only added to the first appointment")]
-
-      public static void ApplyLinks(ActivityLinksHelper source, ActivityLinksHelper target)
+    content: public static void ApplyLinks(ActivityLinksHelper source, ActivityLinksHelper target)
     parameters:
     - id: source
       type: SuperOffice.CRM.Entities.ActivityLinksHelper
     - id: target
       type: SuperOffice.CRM.Entities.ActivityLinksHelper
-    content.vb: >-
-      <Obsolete("Not in use. Links are only added to the first appointment")>
-
-      Public Shared Sub ApplyLinks(source As ActivityLinksHelper, target As ActivityLinksHelper)
+    content.vb: Public Shared Sub ApplyLinks(source As ActivityLinksHelper, target As ActivityLinksHelper)
   overload: SuperOffice.CRM.Entities.RecurrenceManager.ApplyLinks*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Not in use. Links are only added to the first appointment
   modifiers.csharp:
   - public
   - static
@@ -1063,7 +1046,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.RecurrenceDate
-    content.vb: Public Shared Function GetRecurrenceDate(date As Date) As RecurrenceDate
+    content.vb: Public Shared Function GetRecurrenceDate(date As DateTime) As RecurrenceDate
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceDate*
   modifiers.csharp:
   - public
@@ -1191,7 +1174,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
-    content.vb: Public Shared Function GetRecurrenceInfo(ruleRow As RecurrenceRuleRow, doBy As Date) As RecurrenceInfo
+    content.vb: Public Shared Function GetRecurrenceInfo(ruleRow As RecurrenceRuleRow, doBy As DateTime) As RecurrenceInfo
   overload: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo*
   modifiers.csharp:
   - public
@@ -1306,285 +1289,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1951,8 +1655,7 @@ references:
   nameWithType: Appointment
   fullName: SuperOffice.CRM.Entities.Appointment
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Entities.Appointment}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<Appointment>
   nameWithType: IEnumerable<Appointment>
@@ -1995,14 +1698,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -2012,9 +1714,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2027,18 +1729,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Services.RecurrenceInfo
   commentId: T:SuperOffice.CRM.Services.RecurrenceInfo
   parent: SuperOffice.CRM.Services
@@ -2053,8 +1749,6 @@ references:
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2079,8 +1773,6 @@ references:
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
@@ -2148,8 +1840,6 @@ references:
   nameWithType: RecurrenceManager.GetDaysToMatchInPattern
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.GetDaysToMatchInPattern
 - uid: System.DayOfWeek
-  commentId: T:System.DayOfWeek
-  parent: System
   isExternal: true
   name: DayOfWeek
   nameWithType: DayOfWeek

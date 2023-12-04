@@ -1,0 +1,944 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  commentId: T:SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  id: CreateFollowUpSettings
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.#ctor
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title
+  langs:
+  - csharp
+  - vb
+  name: CreateFollowUpSettings
+  nameWithType: CreateFollowUpSettings
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class CreateFollowUpSettings : StepSettings'
+    content.vb: >-
+      Public Class CreateFollowUpSettings
+
+          Inherits StepSettings
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Workflow.StepSettings
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.CreateFollowUpSettings)
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.CreateFollowUpSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.CreateFollowUpSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: CreateFollowUpSettings()
+  nameWithType: CreateFollowUpSettings.CreateFollowUpSettings()
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.CreateFollowUpSettings()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public CreateFollowUpSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title
+  id: Title
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CreateFollowUpSettings.Title
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType
+  id: FollowUpType
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: FollowUpType
+  nameWithType: CreateFollowUpSettings.FollowUpType
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int FollowUpType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FollowUpType As Integer
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project
+  id: Project
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: CreateFollowUpSettings.Project
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Project { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Project As Integer
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed
+  id: Completed
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: CreateFollowUpSettings.Completed
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public bool Completed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Completed As Boolean
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType
+  id: ActionType
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: ActionType
+  nameWithType: CreateFollowUpSettings.ActionType
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public WorkflowActionType ActionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowActionType
+    content.vb: Public Property ActionType As WorkflowActionType
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime
+  id: ActionTime
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: ActionTime
+  nameWithType: CreateFollowUpSettings.ActionTime
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int ActionTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ActionTime As Integer
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit
+  id: ActionTimeUnit
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: ActionTimeUnit
+  nameWithType: CreateFollowUpSettings.ActionTimeUnit
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public WorkflowTimeWaitIntervalType ActionTimeUnit { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Property ActionTimeUnit As WorkflowTimeWaitIntervalType
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration
+  id: Duration
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: CreateFollowUpSettings.Duration
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Duration As Integer
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability
+  id: Availability
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: Availability
+  nameWithType: CreateFollowUpSettings.Availability
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public FreeBusy Availability { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FreeBusy
+    content.vb: Public Property Availability As FreeBusy
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner
+  id: Owner
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: CreateFollowUpSettings.Owner
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Owner As Integer
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda
+  id: Agenda
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: CreateFollowUpSettings.Agenda
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Agenda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Agenda As String
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType
+  commentId: P:SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType
+  id: OwnerType
+  parent: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: CreateFollowUpSettings.OwnerType
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public WorkflowOwnerType OwnerType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowOwnerType
+    content.vb: Public ReadOnly Property OwnerType As WorkflowOwnerType
+  overload: SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.StepSettings
+  commentId: T:SuperOffice.CRM.Workflow.StepSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: StepSettings
+  nameWithType: StepSettings
+  fullName: SuperOffice.CRM.Workflow.StepSettings
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CreateFollowUpSettings, To>()
+  nameWithType: EnumUtil.MapEnums<CreateFollowUpSettings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.CreateFollowUpSettings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CreateFollowUpSettings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings, To)()
+  name.vb: MapEnums(Of CreateFollowUpSettings, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CreateFollowUpSettings, To>
+    nameWithType: EnumUtil.MapEnums<CreateFollowUpSettings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.CreateFollowUpSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CreateFollowUpSettings, To)
+    nameWithType: EnumUtil.MapEnums(Of CreateFollowUpSettings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.CreateFollowUpSettings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CreateFollowUpSettings>(CreateFollowUpSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<CreateFollowUpSettings>(CreateFollowUpSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.CreateFollowUpSettings>(SuperOffice.CRM.Workflow.CreateFollowUpSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CreateFollowUpSettings)(CreateFollowUpSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings)(SuperOffice.CRM.Workflow.CreateFollowUpSettings)
+  name.vb: AssignByReflection(Of CreateFollowUpSettings)(CreateFollowUpSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CreateFollowUpSettings>
+    nameWithType: ObjectExtensions.AssignByReflection<CreateFollowUpSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.CreateFollowUpSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+    name: CreateFollowUpSettings
+    nameWithType: CreateFollowUpSettings
+    fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CreateFollowUpSettings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CreateFollowUpSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+    name: CreateFollowUpSettings
+    nameWithType: CreateFollowUpSettings
+    fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CreateFollowUpSettings>()
+  nameWithType: ObjectExtensions.GraphCopy<CreateFollowUpSettings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.CreateFollowUpSettings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CreateFollowUpSettings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings)()
+  name.vb: GraphCopy(Of CreateFollowUpSettings)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CreateFollowUpSettings>
+    nameWithType: ObjectExtensions.GraphCopy<CreateFollowUpSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.CreateFollowUpSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CreateFollowUpSettings)
+    nameWithType: ObjectExtensions.GraphCopy(Of CreateFollowUpSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CreateFollowUpSettings, To>()
+  nameWithType: Converters.MapEnums<CreateFollowUpSettings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.CreateFollowUpSettings, To>()
+  nameWithType.vb: Converters.MapEnums(Of CreateFollowUpSettings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings, To)()
+  name.vb: MapEnums(Of CreateFollowUpSettings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CreateFollowUpSettings, To>
+    nameWithType: Converters.MapEnums<CreateFollowUpSettings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.CreateFollowUpSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CreateFollowUpSettings, To)
+    nameWithType: Converters.MapEnums(Of CreateFollowUpSettings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.CreateFollowUpSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.#ctor
+  isExternal: true
+  name: CreateFollowUpSettings
+  nameWithType: CreateFollowUpSettings.CreateFollowUpSettings
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.CreateFollowUpSettings
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title
+  isExternal: true
+  name: Title
+  nameWithType: CreateFollowUpSettings.Title
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType
+  isExternal: true
+  name: FollowUpType
+  nameWithType: CreateFollowUpSettings.FollowUpType
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.FollowUpType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project
+  isExternal: true
+  name: Project
+  nameWithType: CreateFollowUpSettings.Project
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Project
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: CreateFollowUpSettings.Completed
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Completed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType
+  isExternal: true
+  name: ActionType
+  nameWithType: CreateFollowUpSettings.ActionType
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionType
+- uid: SuperOffice.Data.WorkflowActionType
+  commentId: T:SuperOffice.Data.WorkflowActionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowActionType
+  nameWithType: WorkflowActionType
+  fullName: SuperOffice.Data.WorkflowActionType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime
+  isExternal: true
+  name: ActionTime
+  nameWithType: CreateFollowUpSettings.ActionTime
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTime
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit
+  isExternal: true
+  name: ActionTimeUnit
+  nameWithType: CreateFollowUpSettings.ActionTimeUnit
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.ActionTimeUnit
+- uid: SuperOffice.Data.WorkflowTimeWaitIntervalType
+  commentId: T:SuperOffice.Data.WorkflowTimeWaitIntervalType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: SuperOffice.Data.WorkflowTimeWaitIntervalType
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: CreateFollowUpSettings.Duration
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Duration
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability
+  isExternal: true
+  name: Availability
+  nameWithType: CreateFollowUpSettings.Availability
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Availability
+- uid: SuperOffice.Data.FreeBusy
+  commentId: T:SuperOffice.Data.FreeBusy
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FreeBusy
+  nameWithType: FreeBusy
+  fullName: SuperOffice.Data.FreeBusy
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: CreateFollowUpSettings.Owner
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Owner
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: CreateFollowUpSettings.Agenda
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.Agenda
+- uid: SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: CreateFollowUpSettings.OwnerType
+  fullName: SuperOffice.CRM.Workflow.CreateFollowUpSettings.OwnerType
+- uid: SuperOffice.Data.WorkflowOwnerType
+  commentId: T:SuperOffice.Data.WorkflowOwnerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowOwnerType
+  nameWithType: WorkflowOwnerType
+  fullName: SuperOffice.Data.WorkflowOwnerType

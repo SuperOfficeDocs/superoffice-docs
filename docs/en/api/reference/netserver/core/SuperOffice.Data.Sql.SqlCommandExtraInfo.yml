@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Sql.SqlCommandExtraInfo
+  commentId: T:SuperOffice.Data.Sql.SqlCommandExtraInfo
+  id: SqlCommandExtraInfo
+  parent: SuperOffice.Data.Sql
+  children:
+  - SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogAction
+  - SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogDescription
+  langs:
+  - csharp
+  - vb
+  name: SqlCommandExtraInfo
+  nameWithType: SqlCommandExtraInfo
+  fullName: SuperOffice.Data.Sql.SqlCommandExtraInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Sql
+  syntax:
+    content: 'public static class SqlCommandExtraInfo : Object'
+    content.vb: >-
+      Public Module SqlCommandExtraInfo
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogAction
+  commentId: F:SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogAction
+  id: TicketLogAction
+  parent: SuperOffice.Data.Sql.SqlCommandExtraInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketLogAction
+  nameWithType: SqlCommandExtraInfo.TicketLogAction
+  fullName: SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogAction
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Sql
+  syntax:
+    content: public const string TicketLogAction = "TicketLogAction"
+    return:
+      type: System.String
+    content.vb: Public Const TicketLogAction As String = "TicketLogAction"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogDescription
+  commentId: F:SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogDescription
+  id: TicketLogDescription
+  parent: SuperOffice.Data.Sql.SqlCommandExtraInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketLogDescription
+  nameWithType: SqlCommandExtraInfo.TicketLogDescription
+  fullName: SuperOffice.Data.Sql.SqlCommandExtraInfo.TicketLogDescription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Sql
+  syntax:
+    content: public const string TicketLogDescription = "TicketLogDescription"
+    return:
+      type: System.String
+    content.vb: Public Const TicketLogDescription As String = "TicketLogDescription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data.Sql
+  commentId: N:SuperOffice.Data.Sql
+  isExternal: true
+  name: SuperOffice.Data.Sql
+  nameWithType: SuperOffice.Data.Sql
+  fullName: SuperOffice.Data.Sql
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

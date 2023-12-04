@@ -8,13 +8,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.DoneTodayFilter
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.NoFilter
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.NotDoneFilter
+  - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.value__
   langs:
   - csharp
   - vb
   name: ActivityProviderBase<RootExtender>.DoneNotDoneFilter
   nameWithType: ActivityProviderBase<RootExtender>.DoneNotDoneFilter
   fullName: SuperOffice.CRM.ArchiveLists.ActivityProviderBase<RootExtender>.DoneNotDoneFilter
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -23,22 +24,59 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nEnum for done today/not done filtering logic\n"
   syntax:
-    content: protected enum DoneNotDoneFilter
-    content.vb: Protected Enum DoneNotDoneFilter
+    content: 'protected sealed class DoneNotDoneFilter : Enum'
+    content.vb: >-
+      Protected NotInheritable Class DoneNotDoneFilter
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ActivityProviderBase{{RootExtender}}.DoneNotDoneFilter)
-  - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: ActivityProviderBase(Of RootExtender).DoneNotDoneFilter
   modifiers.csharp:
   - protected
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Protected
-  - Enum
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityProviderBase(Of RootExtender).DoneNotDoneFilter
   name.vb: ActivityProviderBase(Of RootExtender).DoneNotDoneFilter
+- uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ActivityProviderBase<RootExtender>.DoneNotDoneFilter.value__
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityProviderBase<RootExtender>.DoneNotDoneFilter.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  nameWithType.vb: ActivityProviderBase(Of RootExtender).DoneNotDoneFilter.value__
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ActivityProviderBase(Of RootExtender).DoneNotDoneFilter.value__
 - uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.NoFilter
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.NoFilter
   id: NoFilter
@@ -57,9 +95,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NoFilter = 0
+    content: public const ActivityProviderBase<RootExtender>.DoneNotDoneFilter NoFilter
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
+    content.vb: Public Const NoFilter As ActivityProviderBase(Of RootExtender).DoneNotDoneFilter
   nameWithType.vb: ActivityProviderBase(Of RootExtender).DoneNotDoneFilter.NoFilter
   modifiers.csharp:
   - public
@@ -86,9 +125,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NotDoneFilter = 1
+    content: public const ActivityProviderBase<RootExtender>.DoneNotDoneFilter NotDoneFilter
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
+    content.vb: Public Const NotDoneFilter As ActivityProviderBase(Of RootExtender).DoneNotDoneFilter
   nameWithType.vb: ActivityProviderBase(Of RootExtender).DoneNotDoneFilter.NotDoneFilter
   modifiers.csharp:
   - public
@@ -115,9 +155,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: DoneTodayFilter = 2
+    content: public const ActivityProviderBase<RootExtender>.DoneNotDoneFilter DoneTodayFilter
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
+    content.vb: Public Const DoneTodayFilter As ActivityProviderBase(Of RootExtender).DoneNotDoneFilter
   nameWithType.vb: ActivityProviderBase(Of RootExtender).DoneNotDoneFilter.DoneTodayFilter
   modifiers.csharp:
   - public
@@ -133,6 +174,13 @@ references:
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -160,96 +208,6 @@ references:
     name: MapEnums(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter, To)
     nameWithType: EnumUtil.MapEnums(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ActivityProviderBase(Of RootExtender).DoneNotDoneFilter, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ActivityProviderBase{{RootExtender}}.DoneNotDoneFilter)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>(ActivityProviderBase.DoneNotDoneFilter<>)
-  nameWithType: ObjectExtensions.AssignByReflection<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>(ActivityProviderBase.DoneNotDoneFilter<>)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ActivityProviderBase<RootExtender>.DoneNotDoneFilter>(SuperOffice.CRM.ArchiveLists.ActivityProviderBase.DoneNotDoneFilter<>)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)(ActivityProviderBase.DoneNotDoneFilter(Of ))
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)(SuperOffice.CRM.ArchiveLists.ActivityProviderBase.DoneNotDoneFilter(Of ))
-  name.vb: AssignByReflection(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)(ActivityProviderBase.DoneNotDoneFilter(Of ))
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>
-    nameWithType: ObjectExtensions.AssignByReflection<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ActivityProviderBase<RootExtender>.DoneNotDoneFilter>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
-    name: ActivityProviderBase.DoneNotDoneFilter
-    nameWithType: ActivityProviderBase.DoneNotDoneFilter
-    fullName: SuperOffice.CRM.ArchiveLists.ActivityProviderBase.DoneNotDoneFilter
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
-    name: ActivityProviderBase.DoneNotDoneFilter
-    nameWithType: ActivityProviderBase.DoneNotDoneFilter
-    fullName: SuperOffice.CRM.ArchiveLists.ActivityProviderBase.DoneNotDoneFilter
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>()
-  nameWithType: ObjectExtensions.GraphCopy<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ActivityProviderBase<RootExtender>.DoneNotDoneFilter>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)()
-  name.vb: GraphCopy(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>
-    nameWithType: ObjectExtensions.GraphCopy<ActivityProviderBase<RootExtender>.DoneNotDoneFilter>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ActivityProviderBase<RootExtender>.DoneNotDoneFilter>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)
-    nameWithType: ObjectExtensions.GraphCopy(Of ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ActivityProviderBase(Of RootExtender).DoneNotDoneFilter)
     isExternal: true
   - name: (
     nameWithType: (
@@ -291,6 +249,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -336,103 +300,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -479,18 +346,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
   commentId: T:SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
   parent: SuperOffice.CRM.ArchiveLists

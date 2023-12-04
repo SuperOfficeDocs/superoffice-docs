@@ -11,23 +11,39 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1.DoneNotDoneFilter
   - SuperOffice.CRM.ArchiveLists.AddressExtenderBase
-  - SuperOffice.CRM.ArchiveLists.AliasProviderBase`1
   - SuperOffice.CRM.ArchiveLists.AllUsersProvider
+  - SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentAppointmentExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentContactExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentDocumentExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
   - SuperOffice.CRM.ArchiveLists.AppointmentFavouritesProvider
+  - SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
   - SuperOffice.CRM.ArchiveLists.AppointmentPersonExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentProjectExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentProviderBase`1
   - SuperOffice.CRM.ArchiveLists.AppointmentPublishExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentSaleExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentTextExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentUdefExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentVisibleForExtender
   - SuperOffice.CRM.ArchiveLists.ApSmAppointmentExtender
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityLinksRow
@@ -52,6 +68,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveProjectRow
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute
   - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderCache
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
   - SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
@@ -72,7 +89,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AssociateProjectsExtender
   - SuperOffice.CRM.ArchiveLists.AssociateProjectsProvider
   - SuperOffice.CRM.ArchiveLists.AssociateResourceExtender
-  - SuperOffice.CRM.ArchiveLists.AsyncProviderWrapper
+  - SuperOffice.CRM.ArchiveLists.AttachmentExtenderBase
   - SuperOffice.CRM.ArchiveLists.BatchTaskBatchTaskExtender
   - SuperOffice.CRM.ArchiveLists.BatchTaskExtenderBase
   - SuperOffice.CRM.ArchiveLists.BatchTaskProvider
@@ -88,7 +105,13 @@ items:
   - SuperOffice.CRM.ArchiveLists.CancelledInvitationExtender
   - SuperOffice.CRM.ArchiveLists.CancelledInvitationProvider
   - SuperOffice.CRM.ArchiveLists.CanExecuteDelegate
+  - SuperOffice.CRM.ArchiveLists.CategoryMembershipAssociateExtender
+  - SuperOffice.CRM.ArchiveLists.CategoryMembershipCategoryMembershipExtender
+  - SuperOffice.CRM.ArchiveLists.CategoryMembershipExtenderBase
+  - SuperOffice.CRM.ArchiveLists.CategoryMembersProvider
+  - SuperOffice.CRM.ArchiveLists.CategoryMembersRestrictionParser
   - SuperOffice.CRM.ArchiveLists.ChartSelectionProvider
+  - SuperOffice.CRM.ArchiveLists.ChatConversationSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.ChatSessionAssociateExtender
   - SuperOffice.CRM.ArchiveLists.ChatSessionChatSessionExtender
   - SuperOffice.CRM.ArchiveLists.ChatSessionChatTopicExtender
@@ -102,6 +125,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.ColumnHelper
   - SuperOffice.CRM.ArchiveLists.CombinedContactExtenderBase
   - SuperOffice.CRM.ArchiveLists.CombinedPersonExtenderBase
+  - SuperOffice.CRM.ArchiveLists.ConfigurableArchiveAppointmentProvider
+  - SuperOffice.CRM.ArchiveLists.ConfigurableArchiveProjectProvider
+  - SuperOffice.CRM.ArchiveLists.ConfigurableArchiveQuoteLineProvider
   - SuperOffice.CRM.ArchiveLists.ConnectorExtensions
   - SuperOffice.CRM.ArchiveLists.ConsentPersonConsentPurposeExtender
   - SuperOffice.CRM.ArchiveLists.ConsentPersonExtenderBase
@@ -149,12 +175,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactSaintExtender
   - SuperOffice.CRM.ArchiveLists.ContactSaleExtender
   - SuperOffice.CRM.ArchiveLists.ContactSelectionReturnFieldsCalculator
-  - SuperOffice.CRM.ArchiveLists.ContactSourceRelationExtender
+  - SuperOffice.CRM.ArchiveLists.ContactSourceContactRelationExtender
+  - SuperOffice.CRM.ArchiveLists.ContactSourcePersonRelationExtender
   - SuperOffice.CRM.ArchiveLists.ContactStaticSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.ContactStreetAddressExtender
   - SuperOffice.CRM.ArchiveLists.ContactSupportAssociateExtender
   - SuperOffice.CRM.ArchiveLists.ContactSupportPersonExtender
-  - SuperOffice.CRM.ArchiveLists.ContactTargetRelationExtender
+  - SuperOffice.CRM.ArchiveLists.ContactTargetContactRelationExtender
+  - SuperOffice.CRM.ArchiveLists.ContactTargetPersonRelationExtender
   - SuperOffice.CRM.ArchiveLists.ContactUdefExtender
   - SuperOffice.CRM.ArchiveLists.ContactUrlExtender
   - SuperOffice.CRM.ArchiveLists.ContactWithPersonExtenderBase`1
@@ -202,6 +230,22 @@ items:
   - SuperOffice.CRM.ArchiveLists.EmailContactAddressProvider
   - SuperOffice.CRM.ArchiveLists.EmailEmailExtender
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase
+  - SuperOffice.CRM.ArchiveLists.EmailFlowContentEmailFlowContentExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+  - SuperOffice.CRM.ArchiveLists.EmailFlowEmailFlowExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowExtenderBase
+  - SuperOffice.CRM.ArchiveLists.EmailFlowFolderEmailFlowFolderExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowFolderProvider
+  - SuperOffice.CRM.ArchiveLists.EmailFlowHierarchyExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowInstanceContactExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowInstanceExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowInstanceExtenderBase
+  - SuperOffice.CRM.ArchiveLists.EmailFlowInstancePersonExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowInstanceProvider
+  - SuperOffice.CRM.ArchiveLists.EmailFlowProvider
+  - SuperOffice.CRM.ArchiveLists.EmailFlowsAndFoldersProvider
+  - SuperOffice.CRM.ArchiveLists.EmailFlowWorkflowExtender
   - SuperOffice.CRM.ArchiveLists.EmailItemAccountAssociateExtender
   - SuperOffice.CRM.ArchiveLists.EmailItemContactExtender
   - SuperOffice.CRM.ArchiveLists.EMailItemEMailItemExtender
@@ -224,7 +268,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.EventHandlerExtenderBase
   - SuperOffice.CRM.ArchiveLists.EventHandlersProvider
   - SuperOffice.CRM.ArchiveLists.ExecuteDelegate
-  - SuperOffice.CRM.ArchiveLists.ExecutingServicesProvider
+  - SuperOffice.CRM.ArchiveLists.ExistingCategoryMembersProvider
   - SuperOffice.CRM.ArchiveLists.ExplicitInvitationExtender
   - SuperOffice.CRM.ArchiveLists.ExplicitInvitationProvider
   - SuperOffice.CRM.ArchiveLists.ExplicitParticipantsAssociateProvider
@@ -238,6 +282,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelperAsync
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelperAsync.PopulateInfo
   - SuperOffice.CRM.ArchiveLists.ExtensionMethods
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentAttachmentExtender
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentExtender
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentExtenderBase
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentFolderProvider
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyExtender
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyRootExtender
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentItemsProvider
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentsProvider
   - SuperOffice.CRM.ArchiveLists.ExternalEventExtenderBase
   - SuperOffice.CRM.ArchiveLists.ExternalPersonsProvider
   - SuperOffice.CRM.ArchiveLists.ExternalUsersProvider
@@ -255,6 +307,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FavouriteSelectionExtender
   - SuperOffice.CRM.ArchiveLists.FavouritesProvider
   - SuperOffice.CRM.ArchiveLists.FavouriteTicketExtender
+  - SuperOffice.CRM.ArchiveLists.FavouriteTicketsProvider
   - SuperOffice.CRM.ArchiveLists.FindAppointmentProvider
   - SuperOffice.CRM.ArchiveLists.FindAppointmentReturnFieldsCalculator
   - SuperOffice.CRM.ArchiveLists.FindChatSessionProvider
@@ -285,6 +338,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionFormSubmissionExtender
   - SuperOffice.CRM.ArchiveLists.FormSubmissionPersonExtender
   - SuperOffice.CRM.ArchiveLists.FormSubmissionProvider
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.FreetextAppointmentResultProvider
   - SuperOffice.CRM.ArchiveLists.FreetextContactResultProvider
   - SuperOffice.CRM.ArchiveLists.FreetextCountProvider
@@ -295,10 +349,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.FreetextResultProviderBase`2
   - SuperOffice.CRM.ArchiveLists.FreetextSaleResultProvider
   - SuperOffice.CRM.ArchiveLists.FreetextSelectionResultProvider
+  - SuperOffice.CRM.ArchiveLists.FreetextTicketResultProvider
   - SuperOffice.CRM.ArchiveLists.GenericTargetSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.GuideExtenderBase`1
   - SuperOffice.CRM.ArchiveLists.HasConsentExtender
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  - SuperOffice.CRM.ArchiveLists.HtmlTextExtenderBase
   - SuperOffice.CRM.ArchiveLists.IArchiveActivityLinksProvider
   - SuperOffice.CRM.ArchiveLists.IArchiveCombinedContactPersonProvider
   - SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
@@ -317,6 +373,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProvider
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
@@ -335,6 +392,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IRestrictionStorage
   - SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
   - SuperOffice.CRM.ArchiveLists.IRowNavigationHint
+  - SuperOffice.CRM.ArchiveLists.LastTicketsProvider
   - SuperOffice.CRM.ArchiveLists.LegalBaseExtender
   - SuperOffice.CRM.ArchiveLists.LinksAppointmentByDestinationExtender
   - SuperOffice.CRM.ArchiveLists.LinksAppointmentByDestinationProvider
@@ -401,12 +459,17 @@ items:
   - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
   - SuperOffice.CRM.ArchiveLists.ListItemsProvider
   - SuperOffice.CRM.ArchiveLists.MailFolderProvider
+  - SuperOffice.CRM.ArchiveLists.MailingAddrContactExtender
+  - SuperOffice.CRM.ArchiveLists.MailingAddrPersonExtender
   - SuperOffice.CRM.ArchiveLists.MailingAssociateExtender
   - SuperOffice.CRM.ArchiveLists.MailingFavouritesProvider
+  - SuperOffice.CRM.ArchiveLists.MailingMailingAddrExtender
   - SuperOffice.CRM.ArchiveLists.MailingProjectExtender
+  - SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
   - SuperOffice.CRM.ArchiveLists.MailingsMailingsExtender
   - SuperOffice.CRM.ArchiveLists.MailingsProviderBase
+  - SuperOffice.CRM.ArchiveLists.MailingsSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.MailItemProvider
   - SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider
   - SuperOffice.CRM.ArchiveLists.MemberProvider`1
@@ -416,7 +479,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups
+  - SuperOffice.CRM.ArchiveLists.NewCategoryMembersProvider
   - SuperOffice.CRM.ArchiveLists.NoAggregationAttribute
+  - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
+  - SuperOffice.CRM.ArchiveLists.NotificationProvider
   - SuperOffice.CRM.ArchiveLists.NumbersExtenderBase
   - SuperOffice.CRM.ArchiveLists.NumbersNumbersExtender
   - SuperOffice.CRM.ArchiveLists.NumbersProviderBase
@@ -431,6 +497,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Parser
   - SuperOffice.CRM.ArchiveLists.Parsers
   - SuperOffice.CRM.ArchiveLists.ParseTree
+  - SuperOffice.CRM.ArchiveLists.PartialMatches
   - SuperOffice.CRM.ArchiveLists.ParticipantsAssociateProvider
   - SuperOffice.CRM.ArchiveLists.ParticipantsExternalPersonProvider
   - SuperOffice.CRM.ArchiveLists.ParticipantsProvider
@@ -445,6 +512,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonContactExtender
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
   - SuperOffice.CRM.ArchiveLists.PersonContactPostalAddressExtender
+  - SuperOffice.CRM.ArchiveLists.PersonCorrespondingAssociateExtender
   - SuperOffice.CRM.ArchiveLists.PersonDirectFaxExtender
   - SuperOffice.CRM.ArchiveLists.PersonDirectPhoneExtender
   - SuperOffice.CRM.ArchiveLists.PersonEmailExtender
@@ -452,6 +520,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
   - SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender
   - SuperOffice.CRM.ArchiveLists.PersonFavouritesProvider
+  - SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender
   - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
   - SuperOffice.CRM.ArchiveLists.PersonInterestExtender
   - SuperOffice.CRM.ArchiveLists.PersonLinkExtender
@@ -466,6 +535,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonRelation
   - SuperOffice.CRM.ArchiveLists.PersonRequestExtender
   - SuperOffice.CRM.ArchiveLists.PersonSaintExtender
+  - SuperOffice.CRM.ArchiveLists.PersonShipmentLinkClickExtender
   - SuperOffice.CRM.ArchiveLists.PersonStaticSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.PersonUdefExtender
   - SuperOffice.CRM.ArchiveLists.PersonUrlExtender
@@ -520,6 +590,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.QuoteAlternativeExtenderBase
   - SuperOffice.CRM.ArchiveLists.QuoteAlternativeQuoteLineExtender
   - SuperOffice.CRM.ArchiveLists.QuoteAlternativeQuoteVersionExtender
+  - SuperOffice.CRM.ArchiveLists.QuoteApprovalProvider
   - SuperOffice.CRM.ArchiveLists.QuoteConnectionErpConnectionExtender
   - SuperOffice.CRM.ArchiveLists.QuoteConnectionExtender
   - SuperOffice.CRM.ArchiveLists.QuoteConnectionExtenderBase
@@ -545,6 +616,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.RecycleContactsProvider
   - SuperOffice.CRM.ArchiveLists.RecyclePersonExtender
   - SuperOffice.CRM.ArchiveLists.RecyclePersonProvider
+  - SuperOffice.CRM.ArchiveLists.RecycleTicketExtender
+  - SuperOffice.CRM.ArchiveLists.RecycleTicketProvider
   - SuperOffice.CRM.ArchiveLists.RejectedInvitationExtender
   - SuperOffice.CRM.ArchiveLists.RejectedInvitationProvider
   - SuperOffice.CRM.ArchiveLists.RelationAssociateExtender
@@ -566,6 +639,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ReportsExtenderBase
   - SuperOffice.CRM.ArchiveLists.ReportsProviderBase
   - SuperOffice.CRM.ArchiveLists.ReportsReportsExtender
+  - SuperOffice.CRM.ArchiveLists.RequestNotificationProvider
   - SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
   - SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
   - SuperOffice.CRM.ArchiveLists.RestrictionColumnsProvider
@@ -689,6 +763,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.SelectionVisibleForExtender
   - SuperOffice.CRM.ArchiveLists.ShadowSelectionHelper
   - SuperOffice.CRM.ArchiveLists.ShadowSelectionProvider
+  - SuperOffice.CRM.ArchiveLists.ShipmentLinkClickExtenderBase
+  - SuperOffice.CRM.ArchiveLists.ShipmentMessageEmailFlowExtender
+  - SuperOffice.CRM.ArchiveLists.ShipmentMessageExtenderBase
+  - SuperOffice.CRM.ArchiveLists.ShipmentMessageShipmentExtender
   - SuperOffice.CRM.ArchiveLists.SimpleAppointmentExtender
   - SuperOffice.CRM.ArchiveLists.SimpleAppointmentsProvider
   - SuperOffice.CRM.ArchiveLists.SimpleChatSessionExtender
@@ -730,19 +808,41 @@ items:
   - SuperOffice.CRM.ArchiveLists.SystemEventsProviderBase
   - SuperOffice.CRM.ArchiveLists.SystemEventsSystemEventsExtender
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase`1
+  - SuperOffice.CRM.ArchiveLists.TargetAssignmentValueAssociateExtender
+  - SuperOffice.CRM.ArchiveLists.TargetAssignmentValueContactExtender
+  - SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase
+  - SuperOffice.CRM.ArchiveLists.TargetValueProvider
+  - SuperOffice.CRM.ArchiveLists.TargetValueSubProvider
+  - SuperOffice.CRM.ArchiveLists.TargetValueTargetValueExtender
   - SuperOffice.CRM.ArchiveLists.TextExtenderBase
+  - SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.TicketConnectExtender
   - SuperOffice.CRM.ArchiveLists.TicketCreatedByExtender
   - SuperOffice.CRM.ArchiveLists.TicketCustomersExtender
+  - SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.TicketEjCategoryExtender
+  - SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+  - SuperOffice.CRM.ArchiveLists.TicketFavouriteExtender
   - SuperOffice.CRM.ArchiveLists.TicketFavouritesProvider
+  - SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase
   - SuperOffice.CRM.ArchiveLists.TicketMessagePersonExtender
   - SuperOffice.CRM.ArchiveLists.TicketMessageProvider
   - SuperOffice.CRM.ArchiveLists.TicketMessageTicketExtender
   - SuperOffice.CRM.ArchiveLists.TicketMessageTicketMessageExtender
+  - SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationSubProvider
+  - SuperOffice.CRM.ArchiveLists.TicketNewNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.TicketNewNotificationSubProvider
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationProvider
   - SuperOffice.CRM.ArchiveLists.TicketOrigCategoryExtender
   - SuperOffice.CRM.ArchiveLists.TicketOwnedByExtender
   - SuperOffice.CRM.ArchiveLists.TicketPersonExtender
@@ -753,6 +853,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketTicketExtender
   - SuperOffice.CRM.ArchiveLists.TicketTicketPriorityExtender
   - SuperOffice.CRM.ArchiveLists.TicketTicketStatusExtender
+  - SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.TimeZonesProvider
   - SuperOffice.CRM.ArchiveLists.Token
   - SuperOffice.CRM.ArchiveLists.TokenType
@@ -762,12 +864,15 @@ items:
   - SuperOffice.CRM.ArchiveLists.TypedProviderHelper`1
   - SuperOffice.CRM.ArchiveLists.TypedQueryProviderBase`2
   - SuperOffice.CRM.ArchiveLists.UdefExtenderBase
+  - SuperOffice.CRM.ArchiveLists.UdefRetryState
+  - SuperOffice.CRM.ArchiveLists.UnassignedTicketsProvider
   - SuperOffice.CRM.ArchiveLists.UrlExtenderBase
   - SuperOffice.CRM.ArchiveLists.URLLinkExtender
   - SuperOffice.CRM.ArchiveLists.URLURLExtender
   - SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
   - SuperOffice.CRM.ArchiveLists.UsageStatsProvider
   - SuperOffice.CRM.ArchiveLists.UsageStatsUsageStatsExtender
+  - SuperOffice.CRM.ArchiveLists.UserOpenTicketsProvider
   - SuperOffice.CRM.ArchiveLists.UserPreferenceArchiveHelper
   - SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
   - SuperOffice.CRM.ArchiveLists.UserPreferencesProvider
@@ -780,6 +885,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.WebAppUsageExtenderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageProvider
   - SuperOffice.CRM.ArchiveLists.WebAppUsageWebAppUsageExtender
+  - SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
+  - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
   langs:
   - csharp
   - vb
@@ -803,6 +910,13 @@ references:
   name: ArchiveActivityRow
   nameWithType: ArchiveActivityRow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
   parent: SuperOffice.CRM.ArchiveLists
@@ -852,12 +966,104 @@ references:
   name: ArchiveInvitationRow
   nameWithType: ArchiveInvitationRow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveInvitationRow
+- uid: SuperOffice.CRM.ArchiveLists.Constants
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants
+  isExternal: true
+  name: Constants
+  nameWithType: Constants
+  fullName: SuperOffice.CRM.ArchiveLists.Constants
+- uid: SuperOffice.CRM.ArchiveLists.Constants.Options
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.Options
+  isExternal: true
+  name: Constants.Options
+  nameWithType: Constants.Options
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.Options
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  isExternal: true
+  name: Constants.DisplayTypes
+  nameWithType: Constants.DisplayTypes
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride
+  isExternal: true
+  name: Constants.DisplayTypeOverride
+  nameWithType: Constants.DisplayTypeOverride
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+  isExternal: true
+  name: Constants.ExtraFieldAttrib
+  nameWithType: Constants.ExtraFieldAttrib
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
+  isExternal: true
+  name: Constants.RestrictionTypes
+  nameWithType: Constants.RestrictionTypes
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  isExternal: true
+  name: Constants.RestrictionValues
+  nameWithType: Constants.RestrictionValues
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  isExternal: true
+  name: Constants.ReporterOperatorTypes
+  nameWithType: Constants.ReporterOperatorTypes
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  isExternal: true
+  name: Constants.IconHints
+  nameWithType: Constants.IconHints
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+- uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.StyleHints
+  isExternal: true
+  name: Constants.StyleHints
+  nameWithType: Constants.StyleHints
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  isExternal: true
+  name: Constants.ColumnAlgorithms
+  nameWithType: Constants.ColumnAlgorithms
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+- uid: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
+  commentId: T:SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
+  isExternal: true
+  name: ResourceIconHintMapping
+  nameWithType: ResourceIconHintMapping
+  fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
+- uid: SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
+  isExternal: true
+  name: ResourceIconHintMappingHelper
+  nameWithType: ResourceIconHintMappingHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveOrderByInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveProjectRow
   isExternal: true
   name: ArchiveProjectRow
   nameWithType: ArchiveProjectRow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProjectRow
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionGroup
+  nameWithType: ArchiveRestrictionGroup
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
   parent: SuperOffice.CRM.ArchiveLists
@@ -956,105 +1162,6 @@ references:
   name: ArchiveSelectionRow
   nameWithType: ArchiveSelectionRow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelectionRow
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveColumnData
-  nameWithType: ArchiveColumnData
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-- uid: SuperOffice.CRM.ArchiveLists.Constants
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants
-  isExternal: true
-  name: Constants
-  nameWithType: Constants
-  fullName: SuperOffice.CRM.ArchiveLists.Constants
-- uid: SuperOffice.CRM.ArchiveLists.Constants.Options
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.Options
-  isExternal: true
-  name: Constants.Options
-  nameWithType: Constants.Options
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.Options
-- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
-  isExternal: true
-  name: Constants.DisplayTypes
-  nameWithType: Constants.DisplayTypes
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
-- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride
-  isExternal: true
-  name: Constants.DisplayTypeOverride
-  nameWithType: Constants.DisplayTypeOverride
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypeOverride
-- uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
-  isExternal: true
-  name: Constants.ExtraFieldAttrib
-  nameWithType: Constants.ExtraFieldAttrib
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
-- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
-  isExternal: true
-  name: Constants.RestrictionTypes
-  nameWithType: Constants.RestrictionTypes
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionTypes
-- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
-  isExternal: true
-  name: Constants.RestrictionValues
-  nameWithType: Constants.RestrictionValues
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
-- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
-  isExternal: true
-  name: Constants.ReporterOperatorTypes
-  nameWithType: Constants.ReporterOperatorTypes
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
-- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.IconHints
-  isExternal: true
-  name: Constants.IconHints
-  nameWithType: Constants.IconHints
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints
-- uid: SuperOffice.CRM.ArchiveLists.Constants.StyleHints
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.StyleHints
-  isExternal: true
-  name: Constants.StyleHints
-  nameWithType: Constants.StyleHints
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.StyleHints
-- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
-  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
-  isExternal: true
-  name: Constants.ColumnAlgorithms
-  nameWithType: Constants.ColumnAlgorithms
-  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
-- uid: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
-  commentId: T:SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
-  isExternal: true
-  name: ResourceIconHintMapping
-  nameWithType: ResourceIconHintMapping
-  fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMapping
-- uid: SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
-  commentId: T:SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
-  isExternal: true
-  name: ResourceIconHintMappingHelper
-  nameWithType: ResourceIconHintMappingHelper
-  fullName: SuperOffice.CRM.ArchiveLists.ResourceIconHintMappingHelper
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveRestrictionGroup
-  nameWithType: ArchiveRestrictionGroup
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveOrderByInfo
-  nameWithType: ArchiveOrderByInfo
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
 - uid: SuperOffice.CRM.ArchiveLists.NoAggregationAttribute
   commentId: T:SuperOffice.CRM.ArchiveLists.NoAggregationAttribute
   parent: SuperOffice.CRM.ArchiveLists
@@ -1187,6 +1294,7 @@ references:
     fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentProvider
+  parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
   name: AppointmentProvider
   nameWithType: AppointmentProvider
@@ -1261,12 +1369,54 @@ references:
   name: BulkUpdateResults
   nameWithType: BulkUpdateResults
   fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+- uid: SuperOffice.CRM.ArchiveLists.CategoryMembersProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.CategoryMembersProvider
+  isExternal: true
+  name: CategoryMembersProvider
+  nameWithType: CategoryMembersProvider
+  fullName: SuperOffice.CRM.ArchiveLists.CategoryMembersProvider
+- uid: SuperOffice.CRM.ArchiveLists.CategoryMembersRestrictionParser
+  commentId: T:SuperOffice.CRM.ArchiveLists.CategoryMembersRestrictionParser
+  isExternal: true
+  name: CategoryMembersRestrictionParser
+  nameWithType: CategoryMembersRestrictionParser
+  fullName: SuperOffice.CRM.ArchiveLists.CategoryMembersRestrictionParser
+- uid: SuperOffice.CRM.ArchiveLists.ExistingCategoryMembersProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExistingCategoryMembersProvider
+  isExternal: true
+  name: ExistingCategoryMembersProvider
+  nameWithType: ExistingCategoryMembersProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ExistingCategoryMembersProvider
+- uid: SuperOffice.CRM.ArchiveLists.NewCategoryMembersProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewCategoryMembersProvider
+  isExternal: true
+  name: NewCategoryMembersProvider
+  nameWithType: NewCategoryMembersProvider
+  fullName: SuperOffice.CRM.ArchiveLists.NewCategoryMembersProvider
 - uid: SuperOffice.CRM.ArchiveLists.ChatSessionProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.ChatSessionProvider
   isExternal: true
   name: ChatSessionProvider
   nameWithType: ChatSessionProvider
   fullName: SuperOffice.CRM.ArchiveLists.ChatSessionProvider
+- uid: SuperOffice.CRM.ArchiveLists.ConfigurableArchiveAppointmentProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ConfigurableArchiveAppointmentProvider
+  isExternal: true
+  name: ConfigurableArchiveAppointmentProvider
+  nameWithType: ConfigurableArchiveAppointmentProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ConfigurableArchiveAppointmentProvider
+- uid: SuperOffice.CRM.ArchiveLists.ConfigurableArchiveProjectProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ConfigurableArchiveProjectProvider
+  isExternal: true
+  name: ConfigurableArchiveProjectProvider
+  nameWithType: ConfigurableArchiveProjectProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ConfigurableArchiveProjectProvider
+- uid: SuperOffice.CRM.ArchiveLists.ConfigurableArchiveQuoteLineProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ConfigurableArchiveQuoteLineProvider
+  isExternal: true
+  name: ConfigurableArchiveQuoteLineProvider
+  nameWithType: ConfigurableArchiveQuoteLineProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ConfigurableArchiveQuoteLineProvider
 - uid: SuperOffice.CRM.ArchiveLists.CredentialUserProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.CredentialUserProvider
   isExternal: true
@@ -1358,6 +1508,24 @@ references:
   name: ErpConnectorProvider
   nameWithType: ErpConnectorProvider
   fullName: SuperOffice.CRM.ArchiveLists.ErpConnectorProvider
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentItemsProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentItemsProvider
+  isExternal: true
+  name: ExternalDocumentItemsProvider
+  nameWithType: ExternalDocumentItemsProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentItemsProvider
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentFolderProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentFolderProvider
+  isExternal: true
+  name: ExternalDocumentFolderProvider
+  nameWithType: ExternalDocumentFolderProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentFolderProvider
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentsProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentsProvider
+  isExternal: true
+  name: ExternalDocumentsProvider
+  nameWithType: ExternalDocumentsProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentsProvider
 - uid: SuperOffice.CRM.ArchiveLists.ExternalPersonsProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.ExternalPersonsProvider
   isExternal: true
@@ -1707,6 +1875,18 @@ references:
   name: RecyclePersonProvider
   nameWithType: RecyclePersonProvider
   fullName: SuperOffice.CRM.ArchiveLists.RecyclePersonProvider
+- uid: SuperOffice.CRM.ArchiveLists.RecycleTicketExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.RecycleTicketExtender
+  isExternal: true
+  name: RecycleTicketExtender
+  nameWithType: RecycleTicketExtender
+  fullName: SuperOffice.CRM.ArchiveLists.RecycleTicketExtender
+- uid: SuperOffice.CRM.ArchiveLists.RecycleTicketProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.RecycleTicketProvider
+  isExternal: true
+  name: RecycleTicketProvider
+  nameWithType: RecycleTicketProvider
+  fullName: SuperOffice.CRM.ArchiveLists.RecycleTicketProvider
 - uid: SuperOffice.CRM.ArchiveLists.FindErpProductProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.FindErpProductProvider
   isExternal: true
@@ -1737,6 +1917,12 @@ references:
   name: FreetextCountProvider
   nameWithType: FreetextCountProvider
   fullName: SuperOffice.CRM.ArchiveLists.FreetextCountProvider
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches
+  commentId: T:SuperOffice.CRM.ArchiveLists.PartialMatches
+  isExternal: true
+  name: PartialMatches
+  nameWithType: PartialMatches
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches
 - uid: SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator
   commentId: T:SuperOffice.CRM.ArchiveLists.FreetextMatchCalculator
   isExternal: true
@@ -1836,6 +2022,12 @@ references:
   name: FreetextSelectionResultProvider
   nameWithType: FreetextSelectionResultProvider
   fullName: SuperOffice.CRM.ArchiveLists.FreetextSelectionResultProvider
+- uid: SuperOffice.CRM.ArchiveLists.FreetextTicketResultProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.FreetextTicketResultProvider
+  isExternal: true
+  name: FreetextTicketResultProvider
+  nameWithType: FreetextTicketResultProvider
+  fullName: SuperOffice.CRM.ArchiveLists.FreetextTicketResultProvider
 - uid: SuperOffice.CRM.ArchiveLists.ConsentPurposeProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.ConsentPurposeProvider
   isExternal: true
@@ -2686,6 +2878,260 @@ references:
   name: MailingsProviderBase
   nameWithType: MailingsProviderBase
   fullName: SuperOffice.CRM.ArchiveLists.MailingsProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
+  isExternal: true
+  name: AppointmentNotificationAggregatorProvider
+  nameWithType: AppointmentNotificationAggregatorProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
+  isExternal: true
+  name: AppointmentNotificationAggregatorExtender
+  nameWithType: AppointmentNotificationAggregatorExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider
+  isExternal: true
+  name: AppointmentNotificationProvider
+  nameWithType: AppointmentNotificationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: AppointmentNotificationProvider.RowHistory
+  nameWithType: AppointmentNotificationProvider.RowHistory
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: AppointmentNotificationExtenderBase
+  nameWithType: AppointmentNotificationExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
+  isExternal: true
+  name: AppointmentNotificationSubAggregatorProvider
+  nameWithType: AppointmentNotificationSubAggregatorProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: AppointmentNotificationSubExtenderBase
+  nameWithType: AppointmentNotificationSubExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
+  isExternal: true
+  name: AppointmentNewNotificationSubProvider
+  nameWithType: AppointmentNewNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
+  isExternal: true
+  name: AppointmentNewNotificationExtender
+  nameWithType: AppointmentNewNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
+  isExternal: true
+  name: AppointmentUpdatedNotificationSubProvider
+  nameWithType: AppointmentUpdatedNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
+  isExternal: true
+  name: AppointmentUpdatedNotificationExtender
+  nameWithType: AppointmentUpdatedNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
+  isExternal: true
+  name: AppointmentCancelledNotificationSubProvider
+  nameWithType: AppointmentCancelledNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
+  isExternal: true
+  name: AppointmentCancelledNotificationExtender
+  nameWithType: AppointmentCancelledNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
+  isExternal: true
+  name: AppointmentAcceptedNotificationSubProvider
+  nameWithType: AppointmentAcceptedNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
+  isExternal: true
+  name: AppointmentAcceptedNotificationExtender
+  nameWithType: AppointmentAcceptedNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
+  isExternal: true
+  name: AppointmentRejectedNotificationSubProvider
+  nameWithType: AppointmentRejectedNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
+  isExternal: true
+  name: AppointmentRejectedNotificationExtender
+  nameWithType: AppointmentRejectedNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.NotificationProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.NotificationProvider
+  isExternal: true
+  name: NotificationProvider
+  nameWithType: NotificationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.NotificationProvider
+- uid: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
+  commentId: T:SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
+  isExternal: true
+  name: NotificationNotificationExtender<Info>
+  nameWithType: NotificationNotificationExtender<Info>
+  fullName: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender<Info>
+  nameWithType.vb: NotificationNotificationExtender(Of Info)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender(Of Info)
+  name.vb: NotificationNotificationExtender(Of Info)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
+    name: NotificationNotificationExtender
+    nameWithType: NotificationNotificationExtender
+    fullName: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: Info
+    nameWithType: Info
+    fullName: Info
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
+    name: NotificationNotificationExtender
+    nameWithType: NotificationNotificationExtender
+    fullName: SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: Info
+    nameWithType: Info
+    fullName: Info
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.RequestNotificationProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.RequestNotificationProvider
+  isExternal: true
+  name: RequestNotificationProvider
+  nameWithType: RequestNotificationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.RequestNotificationProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: TicketNotificationExtenderBase
+  nameWithType: TicketNotificationExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: TicketNotificationExtenderBase.NotifyType
+  nameWithType: TicketNotificationExtenderBase.NotifyType
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+- uid: SuperOffice.CRM.ArchiveLists.TicketNewNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNewNotificationSubProvider
+  isExternal: true
+  name: TicketNewNotificationSubProvider
+  nameWithType: TicketNewNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNewNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketNewNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNewNotificationExtender
+  isExternal: true
+  name: TicketNewNotificationExtender
+  nameWithType: TicketNewNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNewNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationSubProvider
+  isExternal: true
+  name: TicketNewMessageNotificationSubProvider
+  nameWithType: TicketNewMessageNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationExtender
+  isExternal: true
+  name: TicketNewMessageNotificationExtender
+  nameWithType: TicketNewMessageNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNewMessageNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationSubProvider
+  isExternal: true
+  name: TicketEscalatedNotificationSubProvider
+  nameWithType: TicketEscalatedNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationExtender
+  isExternal: true
+  name: TicketEscalatedNotificationExtender
+  nameWithType: TicketEscalatedNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketEscalatedNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationSubProvider
+  isExternal: true
+  name: TicketActivatedNotificationSubProvider
+  nameWithType: TicketActivatedNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationExtender
+  isExternal: true
+  name: TicketActivatedNotificationExtender
+  nameWithType: TicketActivatedNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketActivatedNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationSubProvider
+  isExternal: true
+  name: TicketTransferredNotificationSubProvider
+  nameWithType: TicketTransferredNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationExtender
+  isExternal: true
+  name: TicketTransferredNotificationExtender
+  nameWithType: TicketTransferredNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationSubProvider
+  isExternal: true
+  name: TicketCustomMessageNotificationSubProvider
+  nameWithType: TicketCustomMessageNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationExtender
+  isExternal: true
+  name: TicketCustomMessageNotificationExtender
+  nameWithType: TicketCustomMessageNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketCustomMessageNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationSubProvider
+  isExternal: true
+  name: TicketFavouriteUpdatedNotificationSubProvider
+  nameWithType: TicketFavouriteUpdatedNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationExtender
+  isExternal: true
+  name: TicketFavouriteUpdatedNotificationExtender
+  nameWithType: TicketFavouriteUpdatedNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketFavouriteUpdatedNotificationExtender
 - uid: SuperOffice.CRM.ArchiveLists.NumbersProviderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.NumbersProviderBase
   isExternal: true
@@ -2859,6 +3305,12 @@ references:
   name: ContactProjectsProvider
   nameWithType: ContactProjectsProvider
   fullName: SuperOffice.CRM.ArchiveLists.ContactProjectsProvider
+- uid: SuperOffice.CRM.ArchiveLists.QuoteApprovalProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.QuoteApprovalProvider
+  isExternal: true
+  name: QuoteApprovalProvider
+  nameWithType: QuoteApprovalProvider
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteApprovalProvider
 - uid: SuperOffice.CRM.ArchiveLists.QuoteVersionAttachmentProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.QuoteVersionAttachmentProvider
   isExternal: true
@@ -3052,12 +3504,6 @@ references:
   name: RoleExtenderBase
   nameWithType: RoleExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.RoleExtenderBase
-- uid: SuperOffice.CRM.ArchiveLists.ExecutingServicesProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.ExecutingServicesProvider
-  isExternal: true
-  name: ExecutingServicesProvider
-  nameWithType: ExecutingServicesProvider
-  fullName: SuperOffice.CRM.ArchiveLists.ExecutingServicesProvider
 - uid: SuperOffice.CRM.ArchiveLists.SaintContactProviderWithRestrictionGroupSupport
   commentId: T:SuperOffice.CRM.ArchiveLists.SaintContactProviderWithRestrictionGroupSupport
   isExternal: true
@@ -3457,12 +3903,42 @@ references:
   name: SystemEventsProviderBase
   nameWithType: SystemEventsProviderBase
   fullName: SuperOffice.CRM.ArchiveLists.SystemEventsProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.TargetValueProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TargetValueProvider
+  isExternal: true
+  name: TargetValueProvider
+  nameWithType: TargetValueProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TargetValueProvider
+- uid: SuperOffice.CRM.ArchiveLists.TargetValueSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TargetValueSubProvider
+  isExternal: true
+  name: TargetValueSubProvider
+  nameWithType: TargetValueSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TargetValueSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.FavouriteTicketsProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.FavouriteTicketsProvider
+  isExternal: true
+  name: FavouriteTicketsProvider
+  nameWithType: FavouriteTicketsProvider
+  fullName: SuperOffice.CRM.ArchiveLists.FavouriteTicketsProvider
+- uid: SuperOffice.CRM.ArchiveLists.LastTicketsProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.LastTicketsProvider
+  isExternal: true
+  name: LastTicketsProvider
+  nameWithType: LastTicketsProvider
+  fullName: SuperOffice.CRM.ArchiveLists.LastTicketsProvider
 - uid: SuperOffice.CRM.ArchiveLists.TicketMessageProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.TicketMessageProvider
   isExternal: true
   name: TicketMessageProvider
   nameWithType: TicketMessageProvider
   fullName: SuperOffice.CRM.ArchiveLists.TicketMessageProvider
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNotificationProvider
+  isExternal: true
+  name: TicketNotificationProvider
+  nameWithType: TicketNotificationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationProvider
 - uid: SuperOffice.CRM.ArchiveLists.TicketProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.TicketProvider
   parent: SuperOffice.CRM.ArchiveLists
@@ -3470,6 +3946,18 @@ references:
   name: TicketProvider
   nameWithType: TicketProvider
   fullName: SuperOffice.CRM.ArchiveLists.TicketProvider
+- uid: SuperOffice.CRM.ArchiveLists.UnassignedTicketsProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.UnassignedTicketsProvider
+  isExternal: true
+  name: UnassignedTicketsProvider
+  nameWithType: UnassignedTicketsProvider
+  fullName: SuperOffice.CRM.ArchiveLists.UnassignedTicketsProvider
+- uid: SuperOffice.CRM.ArchiveLists.UserOpenTicketsProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.UserOpenTicketsProvider
+  isExternal: true
+  name: UserOpenTicketsProvider
+  nameWithType: UserOpenTicketsProvider
+  fullName: SuperOffice.CRM.ArchiveLists.UserOpenTicketsProvider
 - uid: SuperOffice.CRM.ArchiveLists.TimeZonesProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.TimeZonesProvider
   isExternal: true
@@ -3543,45 +4031,36 @@ references:
   name: WebAppUsageProvider
   nameWithType: WebAppUsageProvider
   fullName: SuperOffice.CRM.ArchiveLists.WebAppUsageProvider
-- uid: SuperOffice.CRM.ArchiveLists.AliasProviderBase`1
-  commentId: T:SuperOffice.CRM.ArchiveLists.AliasProviderBase`1
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
   isExternal: true
-  name: AliasProviderBase<AliasedType>
-  nameWithType: AliasProviderBase<AliasedType>
-  fullName: SuperOffice.CRM.ArchiveLists.AliasProviderBase<AliasedType>
-  nameWithType.vb: AliasProviderBase(Of AliasedType)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.AliasProviderBase(Of AliasedType)
-  name.vb: AliasProviderBase(Of AliasedType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.AliasProviderBase`1
-    name: AliasProviderBase
-    nameWithType: AliasProviderBase
-    fullName: SuperOffice.CRM.ArchiveLists.AliasProviderBase
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: AliasedType
-    nameWithType: AliasedType
-    fullName: AliasedType
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.AliasProviderBase`1
-    name: AliasProviderBase
-    nameWithType: AliasProviderBase
-    fullName: SuperOffice.CRM.ArchiveLists.AliasProviderBase
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: AliasedType
-    nameWithType: AliasedType
-    fullName: AliasedType
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: EmailFlowContentProvider
+  nameWithType: EmailFlowContentProvider
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowFolderProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowFolderProvider
+  isExternal: true
+  name: EmailFlowFolderProvider
+  nameWithType: EmailFlowFolderProvider
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowFolderProvider
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowInstanceProvider
+  isExternal: true
+  name: EmailFlowInstanceProvider
+  nameWithType: EmailFlowInstanceProvider
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceProvider
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowsAndFoldersProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowsAndFoldersProvider
+  isExternal: true
+  name: EmailFlowsAndFoldersProvider
+  nameWithType: EmailFlowsAndFoldersProvider
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowsAndFoldersProvider
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowProvider
+  isExternal: true
+  name: EmailFlowProvider
+  nameWithType: EmailFlowProvider
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowProvider
 - uid: SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
   commentId: T:SuperOffice.CRM.ArchiveLists.BufferedQueryProviderBase`2
   isExternal: true
@@ -4460,6 +4939,13 @@ references:
   name: AssociateExtenderBase.Features
   nameWithType: AssociateExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.Features
+- uid: SuperOffice.CRM.ArchiveLists.AttachmentExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.AttachmentExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: AttachmentExtenderBase
+  nameWithType: AttachmentExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.AttachmentExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.BatchTaskExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.BatchTaskExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -4467,6 +4953,13 @@ references:
   name: BatchTaskExtenderBase
   nameWithType: BatchTaskExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.BatchTaskExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.CategoryMembershipExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.CategoryMembershipExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: CategoryMembershipExtenderBase
+  nameWithType: CategoryMembershipExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.CategoryMembershipExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.ChatSessionExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -4649,6 +5142,20 @@ references:
   name: EmailExtenderBase
   nameWithType: EmailExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: EmailFlowExtenderBase
+  nameWithType: EmailFlowExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowInstanceExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: EmailFlowInstanceExtenderBase
+  nameWithType: EmailFlowInstanceExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.EmailItemExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.EmailItemExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -4677,6 +5184,19 @@ references:
   name: EventHandlerExtenderBase
   nameWithType: EventHandlerExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.EventHandlerExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ExternalDocumentExtenderBase
+  nameWithType: ExternalDocumentExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentExtender
+  isExternal: true
+  name: ExternalDocumentExtender
+  nameWithType: ExternalDocumentExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentExtender
 - uid: SuperOffice.CRM.ArchiveLists.ExternalEventExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.ExternalEventExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -4757,12 +5277,26 @@ references:
   name: HierarchyExtenderBase
   nameWithType: HierarchyExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.HtmlTextExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.HtmlTextExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: HtmlTextExtenderBase
+  nameWithType: HtmlTextExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.HtmlTextExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.LegalBaseExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.LegalBaseExtender
   isExternal: true
   name: LegalBaseExtender
   nameWithType: LegalBaseExtender
   fullName: SuperOffice.CRM.ArchiveLists.LegalBaseExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: MailingsAddrExtenderBase
+  nameWithType: MailingsAddrExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -5031,6 +5565,20 @@ references:
   name: SelectionPersonExtenderBase
   nameWithType: SelectionPersonExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.SelectionPersonExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.ShipmentLinkClickExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ShipmentLinkClickExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ShipmentLinkClickExtenderBase
+  nameWithType: ShipmentLinkClickExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.ShipmentLinkClickExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.ShipmentMessageExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ShipmentMessageExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ShipmentMessageExtenderBase
+  nameWithType: ShipmentMessageExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.ShipmentMessageExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.StaticSelectionMemberBase
   commentId: T:SuperOffice.CRM.ArchiveLists.StaticSelectionMemberBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -5072,6 +5620,13 @@ references:
   name: SystemEventsExtenderBase
   nameWithType: SystemEventsExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.SystemEventsExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: TargetValueExtenderBase
+  nameWithType: TargetValueExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.TargetValueExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.TextExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.TextExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -5114,6 +5669,12 @@ references:
   name: TicketStatusExtenderBase
   nameWithType: TicketStatusExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState
+  commentId: T:SuperOffice.CRM.ArchiveLists.UdefRetryState
+  isExternal: true
+  name: UdefRetryState
+  nameWithType: UdefRetryState
+  fullName: SuperOffice.CRM.ArchiveLists.UdefRetryState
 - uid: SuperOffice.CRM.ArchiveLists.UdefExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.UdefExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -5163,6 +5724,13 @@ references:
   name: WebAppUsageExtenderBase
   nameWithType: WebAppUsageExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.WebAppUsageExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: WorkflowExtenderBase
+  nameWithType: WorkflowExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute
   parent: SuperOffice.CRM.ArchiveLists
@@ -5200,6 +5768,13 @@ references:
   name: ArchiveProviderFactory
   nameWithType: ArchiveProviderFactory
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderCache
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderCache
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveProviderFactory.ArchiveProviderCache
+  nameWithType: ArchiveProviderFactory.ArchiveProviderCache
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderCache
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveSelect
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveSelect
   parent: SuperOffice.CRM.ArchiveLists
@@ -5207,12 +5782,6 @@ references:
   name: ArchiveSelect
   nameWithType: ArchiveSelect
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
-- uid: SuperOffice.CRM.ArchiveLists.AsyncProviderWrapper
-  commentId: T:SuperOffice.CRM.ArchiveLists.AsyncProviderWrapper
-  isExternal: true
-  name: AsyncProviderWrapper
-  nameWithType: AsyncProviderWrapper
-  fullName: SuperOffice.CRM.ArchiveLists.AsyncProviderWrapper
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveCombinedContactPersonProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveCombinedContactPersonProvider
   parent: SuperOffice.CRM.ArchiveLists
@@ -5302,6 +5871,13 @@ references:
   name: IArchiveProviderDoesExtend
   nameWithType: IArchiveProviderDoesExtend
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderExtenderAccept
+  nameWithType: IArchiveProviderExtenderAccept
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   parent: SuperOffice.CRM.ArchiveLists
@@ -5490,6 +6066,24 @@ references:
   name: BatchTaskBatchTaskExtender
   nameWithType: BatchTaskBatchTaskExtender
   fullName: SuperOffice.CRM.ArchiveLists.BatchTaskBatchTaskExtender
+- uid: SuperOffice.CRM.ArchiveLists.CategoryMembershipAssociateExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.CategoryMembershipAssociateExtender
+  isExternal: true
+  name: CategoryMembershipAssociateExtender
+  nameWithType: CategoryMembershipAssociateExtender
+  fullName: SuperOffice.CRM.ArchiveLists.CategoryMembershipAssociateExtender
+- uid: SuperOffice.CRM.ArchiveLists.CategoryMembershipCategoryMembershipExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.CategoryMembershipCategoryMembershipExtender
+  isExternal: true
+  name: CategoryMembershipCategoryMembershipExtender
+  nameWithType: CategoryMembershipCategoryMembershipExtender
+  fullName: SuperOffice.CRM.ArchiveLists.CategoryMembershipCategoryMembershipExtender
+- uid: SuperOffice.CRM.ArchiveLists.ChatConversationSelectionMemberExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ChatConversationSelectionMemberExtender
+  isExternal: true
+  name: ChatConversationSelectionMemberExtender
+  nameWithType: ChatConversationSelectionMemberExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ChatConversationSelectionMemberExtender
 - uid: SuperOffice.CRM.ArchiveLists.ChatSessionAssociateExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.ChatSessionAssociateExtender
   isExternal: true
@@ -5587,6 +6181,18 @@ references:
   name: ContactContactExtender
   nameWithType: ContactContactExtender
   fullName: SuperOffice.CRM.ArchiveLists.ContactContactExtender
+- uid: SuperOffice.CRM.ArchiveLists.ContactSourceContactRelationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactSourceContactRelationExtender
+  isExternal: true
+  name: ContactSourceContactRelationExtender
+  nameWithType: ContactSourceContactRelationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ContactSourceContactRelationExtender
+- uid: SuperOffice.CRM.ArchiveLists.ContactTargetContactRelationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactTargetContactRelationExtender
+  isExternal: true
+  name: ContactTargetContactRelationExtender
+  nameWithType: ContactTargetContactRelationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ContactTargetContactRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.ContactDocumentExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.ContactDocumentExtender
   isExternal: true
@@ -5626,6 +6232,18 @@ references:
   name: ContactPersonExtender
   nameWithType: ContactPersonExtender
   fullName: SuperOffice.CRM.ArchiveLists.ContactPersonExtender
+- uid: SuperOffice.CRM.ArchiveLists.ContactSourcePersonRelationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactSourcePersonRelationExtender
+  isExternal: true
+  name: ContactSourcePersonRelationExtender
+  nameWithType: ContactSourcePersonRelationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ContactSourcePersonRelationExtender
+- uid: SuperOffice.CRM.ArchiveLists.ContactTargetPersonRelationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactTargetPersonRelationExtender
+  isExternal: true
+  name: ContactTargetPersonRelationExtender
+  nameWithType: ContactTargetPersonRelationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ContactTargetPersonRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.ContactPhoneExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.ContactPhoneExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -5657,18 +6275,6 @@ references:
   name: ContactProjectsExtender
   nameWithType: ContactProjectsExtender
   fullName: SuperOffice.CRM.ArchiveLists.ContactProjectsExtender
-- uid: SuperOffice.CRM.ArchiveLists.ContactSourceRelationExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.ContactSourceRelationExtender
-  isExternal: true
-  name: ContactSourceRelationExtender
-  nameWithType: ContactSourceRelationExtender
-  fullName: SuperOffice.CRM.ArchiveLists.ContactSourceRelationExtender
-- uid: SuperOffice.CRM.ArchiveLists.ContactTargetRelationExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.ContactTargetRelationExtender
-  isExternal: true
-  name: ContactTargetRelationExtender
-  nameWithType: ContactTargetRelationExtender
-  fullName: SuperOffice.CRM.ArchiveLists.ContactTargetRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.ContactSaleExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.ContactSaleExtender
   isExternal: true
@@ -5778,6 +6384,60 @@ references:
   name: EmailEmailExtender
   nameWithType: EmailEmailExtender
   fullName: SuperOffice.CRM.ArchiveLists.EmailEmailExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentEmailFlowContentExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowContentEmailFlowContentExtender
+  isExternal: true
+  name: EmailFlowContentEmailFlowContentExtender
+  nameWithType: EmailFlowContentEmailFlowContentExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowContentEmailFlowContentExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowEmailFlowExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowEmailFlowExtender
+  isExternal: true
+  name: EmailFlowEmailFlowExtender
+  nameWithType: EmailFlowEmailFlowExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowEmailFlowExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowFolderEmailFlowFolderExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowFolderEmailFlowFolderExtender
+  isExternal: true
+  name: EmailFlowFolderEmailFlowFolderExtender
+  nameWithType: EmailFlowFolderEmailFlowFolderExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowFolderEmailFlowFolderExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowHierarchyExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowHierarchyExtender
+  isExternal: true
+  name: EmailFlowHierarchyExtender
+  nameWithType: EmailFlowHierarchyExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowHierarchyExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceContactExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowInstanceContactExtender
+  isExternal: true
+  name: EmailFlowInstanceContactExtender
+  nameWithType: EmailFlowInstanceContactExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceContactExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowExtender
+  isExternal: true
+  name: EmailFlowInstanceEmailFlowExtender
+  nameWithType: EmailFlowInstanceEmailFlowExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowInstanceExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowInstanceExtender
+  isExternal: true
+  name: EmailFlowInstanceEmailFlowInstanceExtender
+  nameWithType: EmailFlowInstanceEmailFlowInstanceExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowInstanceEmailFlowInstanceExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowInstancePersonExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowInstancePersonExtender
+  isExternal: true
+  name: EmailFlowInstancePersonExtender
+  nameWithType: EmailFlowInstancePersonExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowInstancePersonExtender
+- uid: SuperOffice.CRM.ArchiveLists.EmailFlowWorkflowExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowWorkflowExtender
+  isExternal: true
+  name: EmailFlowWorkflowExtender
+  nameWithType: EmailFlowWorkflowExtender
+  fullName: SuperOffice.CRM.ArchiveLists.EmailFlowWorkflowExtender
 - uid: SuperOffice.CRM.ArchiveLists.EmailItemAccountAssociateExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.EmailItemAccountAssociateExtender
   isExternal: true
@@ -5838,6 +6498,24 @@ references:
   name: EventHandlerEventHandlerExtender
   nameWithType: EventHandlerEventHandlerExtender
   fullName: SuperOffice.CRM.ArchiveLists.EventHandlerEventHandlerExtender
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentAttachmentExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentAttachmentExtender
+  isExternal: true
+  name: ExternalDocumentAttachmentExtender
+  nameWithType: ExternalDocumentAttachmentExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentAttachmentExtender
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyExtender
+  isExternal: true
+  name: ExternalDocumentHierarchyExtender
+  nameWithType: ExternalDocumentHierarchyExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyExtender
+- uid: SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyRootExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyRootExtender
+  isExternal: true
+  name: ExternalDocumentHierarchyRootExtender
+  nameWithType: ExternalDocumentHierarchyRootExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyRootExtender
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender
   isExternal: true
@@ -5892,18 +6570,42 @@ references:
   name: FormSubmissionPersonExtender
   nameWithType: FormSubmissionPersonExtender
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionPersonExtender
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionSelectionMemberExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.FormSubmissionSelectionMemberExtender
+  isExternal: true
+  name: FormSubmissionSelectionMemberExtender
+  nameWithType: FormSubmissionSelectionMemberExtender
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionSelectionMemberExtender
 - uid: SuperOffice.CRM.ArchiveLists.GenericTargetSelectionMemberExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.GenericTargetSelectionMemberExtender
   isExternal: true
   name: GenericTargetSelectionMemberExtender
   nameWithType: GenericTargetSelectionMemberExtender
   fullName: SuperOffice.CRM.ArchiveLists.GenericTargetSelectionMemberExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingAddrContactExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingAddrContactExtender
+  isExternal: true
+  name: MailingAddrContactExtender
+  nameWithType: MailingAddrContactExtender
+  fullName: SuperOffice.CRM.ArchiveLists.MailingAddrContactExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingAddrPersonExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingAddrPersonExtender
+  isExternal: true
+  name: MailingAddrPersonExtender
+  nameWithType: MailingAddrPersonExtender
+  fullName: SuperOffice.CRM.ArchiveLists.MailingAddrPersonExtender
 - uid: SuperOffice.CRM.ArchiveLists.MailingAssociateExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.MailingAssociateExtender
   isExternal: true
   name: MailingAssociateExtender
   nameWithType: MailingAssociateExtender
   fullName: SuperOffice.CRM.ArchiveLists.MailingAssociateExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingMailingAddrExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingMailingAddrExtender
+  isExternal: true
+  name: MailingMailingAddrExtender
+  nameWithType: MailingMailingAddrExtender
+  fullName: SuperOffice.CRM.ArchiveLists.MailingMailingAddrExtender
 - uid: SuperOffice.CRM.ArchiveLists.MailingProjectExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.MailingProjectExtender
   isExternal: true
@@ -5916,6 +6618,12 @@ references:
   name: MailingsMailingsExtender
   nameWithType: MailingsMailingsExtender
   fullName: SuperOffice.CRM.ArchiveLists.MailingsMailingsExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingsSelectionMemberExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingsSelectionMemberExtender
+  isExternal: true
+  name: MailingsSelectionMemberExtender
+  nameWithType: MailingsSelectionMemberExtender
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsSelectionMemberExtender
 - uid: SuperOffice.CRM.ArchiveLists.ModuleLicenceModuleLicenseExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.ModuleLicenceModuleLicenseExtender
   isExternal: true
@@ -5964,6 +6672,12 @@ references:
   name: PersonContactExtender
   nameWithType: PersonContactExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtender
+- uid: SuperOffice.CRM.ArchiveLists.PersonCorrespondingAssociateExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonCorrespondingAssociateExtender
+  isExternal: true
+  name: PersonCorrespondingAssociateExtender
+  nameWithType: PersonCorrespondingAssociateExtender
+  fullName: SuperOffice.CRM.ArchiveLists.PersonCorrespondingAssociateExtender
 - uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.PersonEmailExtender
   isExternal: true
@@ -5976,6 +6690,12 @@ references:
   name: PersonExtraFieldExtender
   nameWithType: PersonExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender
+- uid: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender
+  isExternal: true
+  name: PersonFormSubmissionExtender
+  nameWithType: PersonFormSubmissionExtender
+  fullName: SuperOffice.CRM.ArchiveLists.PersonFormSubmissionExtender
 - uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
   isExternal: true
@@ -6050,6 +6770,12 @@ references:
   name: PersonRequestExtender
   nameWithType: PersonRequestExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonRequestExtender
+- uid: SuperOffice.CRM.ArchiveLists.PersonShipmentLinkClickExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonShipmentLinkClickExtender
+  isExternal: true
+  name: PersonShipmentLinkClickExtender
+  nameWithType: PersonShipmentLinkClickExtender
+  fullName: SuperOffice.CRM.ArchiveLists.PersonShipmentLinkClickExtender
 - uid: SuperOffice.CRM.ArchiveLists.PersonStaticSelectionMemberExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.PersonStaticSelectionMemberExtender
   isExternal: true
@@ -6530,6 +7256,18 @@ references:
   name: SelectionVisibleForExtender
   nameWithType: SelectionVisibleForExtender
   fullName: SuperOffice.CRM.ArchiveLists.SelectionVisibleForExtender
+- uid: SuperOffice.CRM.ArchiveLists.ShipmentMessageEmailFlowExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ShipmentMessageEmailFlowExtender
+  isExternal: true
+  name: ShipmentMessageEmailFlowExtender
+  nameWithType: ShipmentMessageEmailFlowExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ShipmentMessageEmailFlowExtender
+- uid: SuperOffice.CRM.ArchiveLists.ShipmentMessageShipmentExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ShipmentMessageShipmentExtender
+  isExternal: true
+  name: ShipmentMessageShipmentExtender
+  nameWithType: ShipmentMessageShipmentExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ShipmentMessageShipmentExtender
 - uid: SuperOffice.CRM.ArchiveLists.SmSmAppointmentExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.SmSmAppointmentExtender
   isExternal: true
@@ -6590,6 +7328,24 @@ references:
   name: SystemEventsSystemEventsExtender
   nameWithType: SystemEventsSystemEventsExtender
   fullName: SuperOffice.CRM.ArchiveLists.SystemEventsSystemEventsExtender
+- uid: SuperOffice.CRM.ArchiveLists.TargetAssignmentValueAssociateExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TargetAssignmentValueAssociateExtender
+  isExternal: true
+  name: TargetAssignmentValueAssociateExtender
+  nameWithType: TargetAssignmentValueAssociateExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TargetAssignmentValueAssociateExtender
+- uid: SuperOffice.CRM.ArchiveLists.TargetAssignmentValueContactExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TargetAssignmentValueContactExtender
+  isExternal: true
+  name: TargetAssignmentValueContactExtender
+  nameWithType: TargetAssignmentValueContactExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TargetAssignmentValueContactExtender
+- uid: SuperOffice.CRM.ArchiveLists.TargetValueTargetValueExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TargetValueTargetValueExtender
+  isExternal: true
+  name: TargetValueTargetValueExtender
+  nameWithType: TargetValueTargetValueExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TargetValueTargetValueExtender
 - uid: SuperOffice.CRM.ArchiveLists.TicketCreatedByExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.TicketCreatedByExtender
   isExternal: true
@@ -6614,6 +7370,12 @@ references:
   name: TicketOrigCategoryExtender
   nameWithType: TicketOrigCategoryExtender
   fullName: SuperOffice.CRM.ArchiveLists.TicketOrigCategoryExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketFavouriteExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketFavouriteExtender
+  isExternal: true
+  name: TicketFavouriteExtender
+  nameWithType: TicketFavouriteExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketFavouriteExtender
 - uid: SuperOffice.CRM.ArchiveLists.TicketMessagePersonExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.TicketMessagePersonExtender
   isExternal: true
@@ -6741,6 +7503,12 @@ references:
   name: WebAppUsageWebAppUsageExtender
   nameWithType: WebAppUsageWebAppUsageExtender
   fullName: SuperOffice.CRM.ArchiveLists.WebAppUsageWebAppUsageExtender
+- uid: SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
+  isExternal: true
+  name: WorkflowAssociateExtender
+  nameWithType: WorkflowAssociateExtender
+  fullName: SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
 - uid: SuperOffice.CRM.ArchiveLists.Parser
   commentId: T:SuperOffice.CRM.ArchiveLists.Parser
   isExternal: true

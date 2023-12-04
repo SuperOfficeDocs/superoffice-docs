@@ -1,0 +1,1121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableTaskCache
+  id: MDOListTableTaskCache
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.MDOListTableTaskCache.#ctor
+  - SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent
+  langs:
+  - csharp
+  - vb
+  name: MDOListTableTaskCache
+  nameWithType: MDOListTableTaskCache
+  fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nCaches for automatically-recognized list tables: Task\n"
+  syntax:
+    content: >-
+      [CacheV2("Database", 0)]
+
+      public class MDOListTableTaskCache : MDOListTableCacheTypedBase<TaskTableInfo>, IFlushableV2, IDisposable
+    content.vb: >-
+      <CacheV2("Database", 0)>
+
+      Public Class MDOListTableTaskCache
+
+          Inherits MDOListTableCacheTypedBase(Of TaskTableInfo)
+
+          Implements IFlushableV2, IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.Cache.CacheBaseV2
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase
+  - SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}
+  implements:
+  - SuperOffice.Data.Cache.IFlushableV2
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}.OnLoad
+  - SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}.TableNames
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsById
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsByName
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById(System.Int32)
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName(System.String)
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById(System.Int32)
+  - SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  - SuperOffice.Data.Cache.CacheBaseV2.Load
+  - SuperOffice.Data.Cache.CacheBaseV2.Disposed
+  extensionMethods:
+  - SuperOffice.CRM.Cache.MDOListTableTaskCache.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Cache.MDOListTableTaskCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.MDOListTableTaskCache)
+  - SuperOffice.CRM.Cache.MDOListTableTaskCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Cache.MDOListTableTaskCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.Cache.CacheV2Attribute
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Database
+    - type: System.Int32
+      value: 0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.CRM.Cache.MDOListTableTaskCache
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: MDOListTableTaskCache.GetCurrent()
+  fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public static MDOListTableTaskCache GetCurrent()
+    return:
+      type: SuperOffice.CRM.Cache.MDOListTableTaskCache
+    content.vb: Public Shared Function GetCurrent As MDOListTableTaskCache
+  overload: SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.#ctor
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableTaskCache.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.MDOListTableTaskCache
+  langs:
+  - csharp
+  - vb
+  name: MDOListTableTaskCache()
+  nameWithType: MDOListTableTaskCache.MDOListTableTaskCache()
+  fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache.MDOListTableTaskCache()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public MDOListTableTaskCache()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Cache.MDOListTableTaskCache.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.CacheBaseV2
+  commentId: T:SuperOffice.Data.Cache.CacheBaseV2
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheBaseV2
+  nameWithType: CacheBaseV2
+  fullName: SuperOffice.Data.Cache.CacheBaseV2
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: MDOListTableCacheBase
+  nameWithType: MDOListTableCacheBase
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}
+  parent: SuperOffice.CRM.Cache
+  definition: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+  name: MDOListTableCacheTypedBase<TaskTableInfo>
+  nameWithType: MDOListTableCacheTypedBase<TaskTableInfo>
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<SuperOffice.CRM.Data.TaskTableInfo>
+  nameWithType.vb: MDOListTableCacheTypedBase(Of TaskTableInfo)
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of SuperOffice.CRM.Data.TaskTableInfo)
+  name.vb: MDOListTableCacheTypedBase(Of TaskTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+    name: MDOListTableCacheTypedBase
+    nameWithType: MDOListTableCacheTypedBase
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TaskTableInfo
+    name: TaskTableInfo
+    nameWithType: TaskTableInfo
+    fullName: SuperOffice.CRM.Data.TaskTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+    name: MDOListTableCacheTypedBase
+    nameWithType: MDOListTableCacheTypedBase
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TaskTableInfo
+    name: TaskTableInfo
+    nameWithType: TaskTableInfo
+    fullName: SuperOffice.CRM.Data.TaskTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.IFlushableV2
+  commentId: T:SuperOffice.Data.Cache.IFlushableV2
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushableV2
+  nameWithType: IFlushableV2
+  fullName: SuperOffice.Data.Cache.IFlushableV2
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}.OnLoad
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}
+  definition: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.OnLoad
+  name: OnLoad()
+  nameWithType: MDOListTableCacheTypedBase<TaskTableInfo>.OnLoad()
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<SuperOffice.CRM.Data.TaskTableInfo>.OnLoad()
+  nameWithType.vb: MDOListTableCacheTypedBase(Of TaskTableInfo).OnLoad()
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of SuperOffice.CRM.Data.TaskTableInfo).OnLoad()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.OnLoad
+    name: OnLoad
+    nameWithType: MDOListTableCacheTypedBase<TaskTableInfo>.OnLoad
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<SuperOffice.CRM.Data.TaskTableInfo>.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.OnLoad
+    name: OnLoad
+    nameWithType: MDOListTableCacheTypedBase(Of TaskTableInfo).OnLoad
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of SuperOffice.CRM.Data.TaskTableInfo).OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}.TableNames
+  commentId: P:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}.TableNames
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase{SuperOffice.CRM.Data.TaskTableInfo}
+  definition: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.TableNames
+  name: TableNames
+  nameWithType: MDOListTableCacheTypedBase<TaskTableInfo>.TableNames
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<SuperOffice.CRM.Data.TaskTableInfo>.TableNames
+  nameWithType.vb: MDOListTableCacheTypedBase(Of TaskTableInfo).TableNames
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of SuperOffice.CRM.Data.TaskTableInfo).TableNames
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsById
+  commentId: F:SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsById
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  isExternal: true
+  name: _elementsById
+  nameWithType: MDOListTableCacheBase._elementsById
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsById
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsByName
+  commentId: F:SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsByName
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  isExternal: true
+  name: _elementsByName
+  nameWithType: MDOListTableCacheBase._elementsByName
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase._elementsByName
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById(System.Int32)
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  isExternal: true
+  name: GetItemById(Int32)
+  nameWithType: MDOListTableCacheBase.GetItemById(Int32)
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById(System.Int32)
+    name: GetItemById
+    nameWithType: MDOListTableCacheBase.GetItemById
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById(System.Int32)
+    name: GetItemById
+    nameWithType: MDOListTableCacheBase.GetItemById
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemById
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName(System.String)
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName(System.String)
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  isExternal: true
+  name: GetItemByName(String)
+  nameWithType: MDOListTableCacheBase.GetItemByName(String)
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName(System.String)
+    name: GetItemByName
+    nameWithType: MDOListTableCacheBase.GetItemByName
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName(System.String)
+    name: GetItemByName
+    nameWithType: MDOListTableCacheBase.GetItemByName
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById(System.Int32)
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  isExternal: true
+  name: GetNameById(Int32)
+  nameWithType: MDOListTableCacheBase.GetNameById(Int32)
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById(System.Int32)
+    name: GetNameById
+    nameWithType: MDOListTableCacheBase.GetNameById
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById(System.Int32)
+    name: GetNameById
+    nameWithType: MDOListTableCacheBase.GetNameById
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+  parent: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  isExternal: true
+  name: GetAllItems()
+  nameWithType: MDOListTableCacheBase.GetAllItems()
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+    name: GetAllItems
+    nameWithType: MDOListTableCacheBase.GetAllItems
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+    name: GetAllItems
+    nameWithType: MDOListTableCacheBase.GetAllItems
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: IsCacheInvalidated(String, Int32, PrivateSave)
+  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+    name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+    name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: Dispose()
+  nameWithType: CacheBaseV2.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: Flush()
+  nameWithType: CacheBaseV2.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
+    name: Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
+    name: Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: BeginDisableAutoUpdate()
+  nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: GetCurrent<T>()
+  nameWithType: CacheBaseV2.GetCurrent<T>()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
+  nameWithType.vb: CacheBaseV2.GetCurrent(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)()
+  name.vb: GetCurrent(Of T)()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+    name: GetCurrent<T>
+    nameWithType: CacheBaseV2.GetCurrent<T>
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+    name: GetCurrent(Of T)
+    nameWithType: CacheBaseV2.GetCurrent(Of T)
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: Load()
+  nameWithType: CacheBaseV2.Load()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Disposed
+  commentId: P:SuperOffice.Data.Cache.CacheBaseV2.Disposed
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: Disposed
+  nameWithType: CacheBaseV2.Disposed
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Disposed
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MDOListTableTaskCache, To>()
+  nameWithType: EnumUtil.MapEnums<MDOListTableTaskCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.MDOListTableTaskCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MDOListTableTaskCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableTaskCache, To)()
+  name.vb: MapEnums(Of MDOListTableTaskCache, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MDOListTableTaskCache, To>
+    nameWithType: EnumUtil.MapEnums<MDOListTableTaskCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.MDOListTableTaskCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MDOListTableTaskCache, To)
+    nameWithType: EnumUtil.MapEnums(Of MDOListTableTaskCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableTaskCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Cache.MDOListTableTaskCache)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<MDOListTableTaskCache>(MDOListTableTaskCache)
+  nameWithType: ObjectExtensions.AssignByReflection<MDOListTableTaskCache>(MDOListTableTaskCache)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.MDOListTableTaskCache>(SuperOffice.CRM.Cache.MDOListTableTaskCache)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MDOListTableTaskCache)(MDOListTableTaskCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.MDOListTableTaskCache)(SuperOffice.CRM.Cache.MDOListTableTaskCache)
+  name.vb: AssignByReflection(Of MDOListTableTaskCache)(MDOListTableTaskCache)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MDOListTableTaskCache>
+    nameWithType: ObjectExtensions.AssignByReflection<MDOListTableTaskCache>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Cache.MDOListTableTaskCache>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Cache.MDOListTableTaskCache
+    name: MDOListTableTaskCache
+    nameWithType: MDOListTableTaskCache
+    fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MDOListTableTaskCache)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MDOListTableTaskCache)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Cache.MDOListTableTaskCache)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Cache.MDOListTableTaskCache
+    name: MDOListTableTaskCache
+    nameWithType: MDOListTableTaskCache
+    fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<MDOListTableTaskCache>()
+  nameWithType: ObjectExtensions.GraphCopy<MDOListTableTaskCache>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.MDOListTableTaskCache>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MDOListTableTaskCache)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.MDOListTableTaskCache)()
+  name.vb: GraphCopy(Of MDOListTableTaskCache)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MDOListTableTaskCache>
+    nameWithType: ObjectExtensions.GraphCopy<MDOListTableTaskCache>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Cache.MDOListTableTaskCache>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MDOListTableTaskCache)
+    nameWithType: ObjectExtensions.GraphCopy(Of MDOListTableTaskCache)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Cache.MDOListTableTaskCache)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MDOListTableTaskCache, To>()
+  nameWithType: Converters.MapEnums<MDOListTableTaskCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.MDOListTableTaskCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of MDOListTableTaskCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableTaskCache, To)()
+  name.vb: MapEnums(Of MDOListTableTaskCache, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MDOListTableTaskCache, To>
+    nameWithType: Converters.MapEnums<MDOListTableTaskCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.MDOListTableTaskCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MDOListTableTaskCache, To)
+    nameWithType: Converters.MapEnums(Of MDOListTableTaskCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.MDOListTableTaskCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+  isExternal: true
+  name: MDOListTableCacheTypedBase<T>
+  nameWithType: MDOListTableCacheTypedBase<T>
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<T>
+  nameWithType.vb: MDOListTableCacheTypedBase(Of T)
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of T)
+  name.vb: MDOListTableCacheTypedBase(Of T)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+    name: MDOListTableCacheTypedBase
+    nameWithType: MDOListTableCacheTypedBase
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
+    name: MDOListTableCacheTypedBase
+    nameWithType: MDOListTableCacheTypedBase
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.OnLoad
+  isExternal: true
+  name: OnLoad()
+  nameWithType: MDOListTableCacheTypedBase<T>.OnLoad()
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<T>.OnLoad()
+  nameWithType.vb: MDOListTableCacheTypedBase(Of T).OnLoad()
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of T).OnLoad()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.OnLoad
+    name: OnLoad
+    nameWithType: MDOListTableCacheTypedBase<T>.OnLoad
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<T>.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.OnLoad
+    name: OnLoad
+    nameWithType: MDOListTableCacheTypedBase(Of T).OnLoad
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of T).OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.TableNames
+  commentId: P:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1.TableNames
+  isExternal: true
+  name: TableNames
+  nameWithType: MDOListTableCacheTypedBase<T>.TableNames
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<T>.TableNames
+  nameWithType.vb: MDOListTableCacheTypedBase(Of T).TableNames
+  fullName.vb: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase(Of T).TableNames
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: MDOListTableTaskCache.GetCurrent
+  fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache.GetCurrent
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableTaskCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: MDOListTableTaskCache
+  nameWithType: MDOListTableTaskCache
+  fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache
+- uid: SuperOffice.CRM.Cache.MDOListTableTaskCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableTaskCache.#ctor
+  isExternal: true
+  name: MDOListTableTaskCache
+  nameWithType: MDOListTableTaskCache.MDOListTableTaskCache
+  fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache.MDOListTableTaskCache

@@ -39,9 +39,12 @@ items:
   summary: "\nBase class for tooltip provide plugins. This class contains some useful helper functions,\nand implements the Template Method pattern. Derived classes need to implement the \n<xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.InnerGetTooltip\" data-throw-if-not-resolved=\"false\"></xref> method, and can use the <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.TryGetIntHint(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref> and\nsimilar methods to obtain values from the tooltip hint. \n"
   remarks: "\nThe tooltip hints are accessible through the <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.Hints\" data-throw-if-not-resolved=\"false\"></xref> property, but clients should\nusually find the provided access methods sufficient. <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.TryGetIntHint(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.TryGetStringHint(System.String%2cSystem.String%40)\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.TryGetBoolHint(System.String%2cSystem.Boolean%40)\" data-throw-if-not-resolved=\"false\"></xref> look for and parse the given type of key, and return a bool value\nthat specifies whether the given key was found.\n<p></p>\n<xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.WantImages\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Tooltips.TooltipPluginBase.WantSimple\" data-throw-if-not-resolved=\"false\"></xref> are boolean properties that give the result of a\nsearch for &apos;images=true&apos; and &apos;simple=true&apos;, to promote a common way of specifying these two properties.\n<p></p>\nThe class implements the <xref href=\"SuperOffice.CRM.Tooltips.ITooltipProviderPlugin\" data-throw-if-not-resolved=\"false\"></xref> and thereby also the <see cref=\"!:IPlugin\"></see>\ninterfaces. Derived classes need to be marked with the <see cref=\"!:TooltipProviderPluginAttribute\"></see> attribute,\nspecifying a provider name (please prefix with your company to help make it unique and recognizable), and\noptionally a priority. The attribute is also used to register hint keys; the derived class will be called\nonly for requests matching at least one key.\n"
   syntax:
-    content: 'public abstract class TooltipPluginBase : ITooltipProviderPlugin, IPlugin'
+    content: 'public abstract class TooltipPluginBase : Object, ITooltipProviderPlugin, IPlugin'
     content.vb: >-
       Public MustInherit Class TooltipPluginBase
+
+          Inherits Object
+
           Implements ITooltipProviderPlugin, IPlugin
   inheritance:
   - System.Object
@@ -59,6 +62,7 @@ items:
   - SuperOffice.CRM.Tooltips.DashboardTileTooltipPlugin
   - SuperOffice.CRM.Tooltips.DashboardTooltipPlugin
   - SuperOffice.CRM.Tooltips.DocumentTooltipPlugin
+  - SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
   - SuperOffice.CRM.Tooltips.EmailTooltipPlugin
   - SuperOffice.CRM.Tooltips.FilterTooltipPlugin
   - SuperOffice.CRM.Tooltips.InterestTooltipPlugin
@@ -79,18 +83,13 @@ items:
   - SuperOffice.CRM.Tooltips.SaleTooltipPlugin
   - SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
   - SuperOffice.CRM.Tooltips.TextTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
   - SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
   - SuperOffice.CRM.Tooltips.UdefFieldTooltipPlugin
-  - SuperOffice.CRM.Tooltips.UserPreferenceTooltipPlugin
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  - SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
   extensionMethods:
   - SuperOffice.CRM.Tooltips.TooltipPluginBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Tooltips.TooltipPluginBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -401,7 +400,7 @@ items:
     return:
       type: System.Boolean
       description: True if the hint is found and is valid
-    content.vb: Protected Function TryGetDateHint(hintName As String, ByRef result As Date) As Boolean
+    content.vb: Protected Function TryGetDateHint(hintName As String, ByRef result As DateTime) As Boolean
   overload: SuperOffice.CRM.Tooltips.TooltipPluginBase.TryGetDateHint*
   nameWithType.vb: TooltipPluginBase.TryGetDateHint(String, ByRef DateTime)
   modifiers.csharp:
@@ -712,285 +711,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1176,8 +896,7 @@ references:
   nameWithType: TooltipPluginBase.GetTooltip
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginBase.GetTooltip
 - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, List<String>>
   nameWithType: Dictionary<String, List<String>>
@@ -1258,14 +977,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -1275,15 +993,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1296,24 +1014,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginBase.InnerGetTooltip*
   commentId: Overload:SuperOffice.CRM.Tooltips.TooltipPluginBase.InnerGetTooltip
   isExternal: true
@@ -1359,8 +1071,6 @@ references:
   nameWithType: TooltipPluginBase.TryGetDateHint
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginBase.TryGetDateHint
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1372,8 +1082,7 @@ references:
   nameWithType: TooltipPluginBase.GetRawValues
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginBase.GetRawValues
 - uid: System.Collections.Generic.List{System.String}
-  commentId: T:System.Collections.Generic.List{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.String}'
   definition: System.Collections.Generic.List`1
   name: List<String>
   nameWithType: List<String>
@@ -1416,14 +1125,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1433,9 +1141,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1448,9 +1156,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

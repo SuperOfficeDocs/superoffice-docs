@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.BlockWelcomeMailPluginAttribute
+  commentId: T:SuperOffice.License.BlockWelcomeMailPluginAttribute
+  id: BlockWelcomeMailPluginAttribute
+  parent: SuperOffice.License
+  children:
+  - SuperOffice.License.BlockWelcomeMailPluginAttribute.#ctor(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: BlockWelcomeMailPluginAttribute
+  nameWithType: BlockWelcomeMailPluginAttribute
+  fullName: SuperOffice.License.BlockWelcomeMailPluginAttribute
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  summary: "\nAttribute declaring plugin implementing the <xref href=\"SuperOffice.License.IBlockWelcomeMailPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface.\nPrioritized plugin - lowest plugin wins.\n"
+  remarks: "\nusually does nothing, but allows Online to throttle e-mails\n"
+  syntax:
+    content: 'public sealed class BlockWelcomeMailPluginAttribute : PrioritizedPluginAttribute'
+    content.vb: >-
+      Public NotInheritable Class BlockWelcomeMailPluginAttribute
+
+          Inherits PrioritizedPluginAttribute
+  inheritance:
+  - System.Object
+  - SuperOffice.Factory.PluginAttribute
+  - SuperOffice.Factory.PrioritizedPluginAttribute
+  extensionMethods:
+  - SuperOffice.License.BlockWelcomeMailPluginAttribute.EnumUtil.MapEnums``2
+  - SuperOffice.License.BlockWelcomeMailPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.License.BlockWelcomeMailPluginAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.License.BlockWelcomeMailPluginAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: SuperOffice.License.BlockWelcomeMailPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: BlockWelcomeMailPluginAttribute(String, Int32)
+  nameWithType: BlockWelcomeMailPluginAttribute.BlockWelcomeMailPluginAttribute(String, Int32)
+  fullName: SuperOffice.License.BlockWelcomeMailPluginAttribute.BlockWelcomeMailPluginAttribute(System.String, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  syntax:
+    content: public BlockWelcomeMailPluginAttribute(string name, int priority)
+    parameters:
+    - id: name
+      type: System.String
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(name As String, priority As Integer)
+  overload: SuperOffice.License.BlockWelcomeMailPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Factory.PluginAttribute
+  commentId: T:SuperOffice.Factory.PluginAttribute
+  parent: SuperOffice.Factory
+  isExternal: true
+  name: PluginAttribute
+  nameWithType: PluginAttribute
+  fullName: SuperOffice.Factory.PluginAttribute
+- uid: SuperOffice.Factory.PrioritizedPluginAttribute
+  commentId: T:SuperOffice.Factory.PrioritizedPluginAttribute
+  parent: SuperOffice.Factory
+  isExternal: true
+  name: PrioritizedPluginAttribute
+  nameWithType: PrioritizedPluginAttribute
+  fullName: SuperOffice.Factory.PrioritizedPluginAttribute
+- uid: SuperOffice.License.BlockWelcomeMailPluginAttribute.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BlockWelcomeMailPluginAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<BlockWelcomeMailPluginAttribute, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.BlockWelcomeMailPluginAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BlockWelcomeMailPluginAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.BlockWelcomeMailPluginAttribute, To)()
+  name.vb: MapEnums(Of BlockWelcomeMailPluginAttribute, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BlockWelcomeMailPluginAttribute, To>
+    nameWithType: EnumUtil.MapEnums<BlockWelcomeMailPluginAttribute, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.BlockWelcomeMailPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BlockWelcomeMailPluginAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of BlockWelcomeMailPluginAttribute, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.BlockWelcomeMailPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.BlockWelcomeMailPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BlockWelcomeMailPluginAttribute, To>()
+  nameWithType: Converters.MapEnums<BlockWelcomeMailPluginAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.BlockWelcomeMailPluginAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of BlockWelcomeMailPluginAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.BlockWelcomeMailPluginAttribute, To)()
+  name.vb: MapEnums(Of BlockWelcomeMailPluginAttribute, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BlockWelcomeMailPluginAttribute, To>
+    nameWithType: Converters.MapEnums<BlockWelcomeMailPluginAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.BlockWelcomeMailPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BlockWelcomeMailPluginAttribute, To)
+    nameWithType: Converters.MapEnums(Of BlockWelcomeMailPluginAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.BlockWelcomeMailPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  isExternal: true
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.License.BlockWelcomeMailPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.License.BlockWelcomeMailPluginAttribute.#ctor
+  isExternal: true
+  name: BlockWelcomeMailPluginAttribute
+  nameWithType: BlockWelcomeMailPluginAttribute.BlockWelcomeMailPluginAttribute
+  fullName: SuperOffice.License.BlockWelcomeMailPluginAttribute.BlockWelcomeMailPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

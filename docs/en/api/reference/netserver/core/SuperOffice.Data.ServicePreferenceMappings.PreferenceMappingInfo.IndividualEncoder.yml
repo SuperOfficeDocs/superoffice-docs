@@ -15,7 +15,7 @@ items:
   name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
   nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,29 +24,24 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCustom encoding from preference string value to stored value\n"
   syntax:
-    content: public delegate string IndividualEncoder(string key, string currentField, string newPreference);
-    parameters:
-    - id: key
-      type: System.String
-      description: Preference key
-    - id: currentField
-      type: System.String
-      description: The complete current stored value
-    - id: newPreference
-      type: System.String
-      description: The new value for the preference key, which might be a fragment of the complete stored value
-    return:
-      type: System.String
-    content.vb: Public Delegate Function IndividualEncoder(key As String, currentField As String, newPreference As String) As String
+    content: 'public sealed class IndividualEncoder : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class IndividualEncoder
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.EnumUtil.MapEnums``2
   - SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -192,6 +187,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -260,13 +262,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -358,12 +359,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -376,13 +371,6 @@ references:
   name: IndividualEncoder
   nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.IndividualEncoder
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.IndividualEncoder
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -396,6 +384,13 @@ references:
   name: Invoke
   nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.Invoke
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.Invoke
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.BeginInvoke*
   commentId: Overload:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.BeginInvoke
   isExternal: true
@@ -403,15 +398,11 @@ references:
   nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.BeginInvoke
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

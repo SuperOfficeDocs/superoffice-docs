@@ -1,0 +1,1106 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ITargetsAgent
+  commentId: T:SuperOffice.CRM.Services.ITargetsAgent
+  id: ITargetsAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
+  - SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
+  - SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
+  - SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
+  - SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+  langs:
+  - csharp
+  - vb
+  name: ITargetsAgent
+  nameWithType: ITargetsAgent
+  fullName: SuperOffice.CRM.Services.ITargetsAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Targets Agent\nAgent lets you configure targets, and retrieve targets\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (TargetsAgent agent = new TargetsAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Targets Agent", "Interface for the Targets Agent. Agent lets you configure targets, and retrieve targets")]
+
+      public interface ITargetsAgent : IAgent
+    content.vb: >-
+      <Agent("Targets Agent", "Interface for the Targets Agent. Agent lets you configure targets, and retrieve targets")>
+
+      Public Interface ITargetsAgent
+
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Targets Agent
+    - type: System.String
+      value: Interface for the Targets Agent. Agent lets you configure targets, and retrieve targets
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
+  id: CreateDefaultTargetAssignment
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignment()
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignment()
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TargetAssignment.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: TargetAssignment CreateDefaultTargetAssignment()
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment
+      description: New TargetAssignment with default values
+    content.vb: Function CreateDefaultTargetAssignment As TargetAssignment
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
+  id: CreateDefaultTargetDimension
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetDimension()
+  nameWithType: ITargetsAgent.CreateDefaultTargetDimension()
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TargetDimension.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: TargetDimension CreateDefaultTargetDimension()
+    return:
+      type: SuperOffice.CRM.Services.TargetDimension
+      description: New TargetDimension with default values
+    content.vb: Function CreateDefaultTargetDimension As TargetDimension
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
+  id: SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTargetDimension(TargetDimension)
+  nameWithType: ITargetsAgent.SaveTargetDimension(TargetDimension)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension(SuperOffice.CRM.Services.TargetDimension)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing TargetDimension or creates a new TargetDimension if the id parameter is empty\n"
+  syntax:
+    content: TargetDimension SaveTargetDimension(TargetDimension targetDimension)
+    parameters:
+    - id: targetDimension
+      type: SuperOffice.CRM.Services.TargetDimension
+      description: The TargetDimension that is saved.
+    return:
+      type: SuperOffice.CRM.Services.TargetDimension
+      description: New or updated TargetDimension
+    content.vb: Function SaveTargetDimension(targetDimension As TargetDimension) As TargetDimension
+  overload: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
+  id: DeleteTargetDimension(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTargetDimension(Int32)
+  nameWithType: ITargetsAgent.DeleteTargetDimension(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the TargetDimension\n"
+  syntax:
+    content: void DeleteTargetDimension(int targetDimensionId)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The identity of the TargetDimension
+    content.vb: Sub DeleteTargetDimension(targetDimensionId As Integer)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
+  id: CreateDefaultTargetGroup
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetGroup()
+  nameWithType: ITargetsAgent.CreateDefaultTargetGroup()
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TargetGroup.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: TargetGroup CreateDefaultTargetGroup()
+    return:
+      type: SuperOffice.CRM.Services.TargetGroup
+      description: New TargetGroup with default values
+    content.vb: Function CreateDefaultTargetGroup As TargetGroup
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+  id: SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTargetGroup(TargetGroup)
+  nameWithType: ITargetsAgent.SaveTargetGroup(TargetGroup)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup(SuperOffice.CRM.Services.TargetGroup)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing TargetGroup or creates a new TargetGroup if the id parameter is empty\n"
+  syntax:
+    content: TargetGroup SaveTargetGroup(TargetGroup targetGroup)
+    parameters:
+    - id: targetGroup
+      type: SuperOffice.CRM.Services.TargetGroup
+      description: The TargetGroup that is saved.
+    return:
+      type: SuperOffice.CRM.Services.TargetGroup
+      description: New or updated TargetGroup
+    content.vb: Function SaveTargetGroup(targetGroup As TargetGroup) As TargetGroup
+  overload: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
+  id: DeleteTargetGroup(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTargetGroup(Int32)
+  nameWithType: ITargetsAgent.DeleteTargetGroup(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the TargetGroup\n"
+  syntax:
+    content: void DeleteTargetGroup(int targetGroupId)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+      description: The identity of the TargetGroup
+    content.vb: Sub DeleteTargetGroup(targetGroupId As Integer)
+  overload: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
+  id: CreateDefaultTargetRevision
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetRevision()
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevision()
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TargetRevision.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: TargetRevision CreateDefaultTargetRevision()
+    return:
+      type: SuperOffice.CRM.Services.TargetRevision
+      description: New TargetRevision with default values
+    content.vb: Function CreateDefaultTargetRevision As TargetRevision
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
+  id: CreateDefaultTargetRevisionHistory
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetRevisionHistory()
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistory()
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TargetRevisionHistory.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: TargetRevisionHistory CreateDefaultTargetRevisionHistory()
+    return:
+      type: SuperOffice.CRM.Services.TargetRevisionHistory
+      description: New TargetRevisionHistory with default values
+    content.vb: Function CreateDefaultTargetRevisionHistory As TargetRevisionHistory
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
+  id: CreateDefaultTargetAssignmentForCompany
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForCompany()
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompany()
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a default target assignment for the owner company.\n"
+  syntax:
+    content: TargetAssignment CreateDefaultTargetAssignmentForCompany()
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment
+      description: Default target assignment for the owner company.
+    content.vb: Function CreateDefaultTargetAssignmentForCompany As TargetAssignment
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
+  id: CreateDefaultTargetAssignmentForUserGroup(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForUserGroup(Int32)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a default target assignment for the specified usergroup.\n"
+  syntax:
+    content: TargetAssignment[] CreateDefaultTargetAssignmentForUserGroup(int userGroupId)
+    parameters:
+    - id: userGroupId
+      type: System.Int32
+      description: The id of the UserGroup
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment[]
+      description: Default target assignment for the specified usergroup.
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroup(userGroupId As Integer) As TargetAssignment()
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
+  id: GetTargetAssignmentForYear(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetAssignmentForYear(Int32, TargetEntityType, TargetLevel, Int32)
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYear(Int32, TargetEntityType, TargetLevel, Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear(System.Int32, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the target assignment for the specified year and entity type.\n"
+  syntax:
+    content: TargetAssignment GetTargetAssignmentForYear(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: entityType
+      type: SuperOffice.Data.TargetEntityType
+      description: Targeted entity type
+    - id: targetLevel
+      type: SuperOffice.Data.TargetLevel
+      description: The level of target the id is referring to.
+    - id: id
+      type: System.Int32
+      description: Contact, UserGroup or Associate id.
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment
+      description: Target assignment for a specified entity for year and entity type. Null if not found.
+    content.vb: Function GetTargetAssignmentForYear(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer) As TargetAssignment
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
+  id: CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForCompanyWithDimension(Int32)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a default target assignment for the owner company, for the specified dimension.\n"
+  syntax:
+    content: TargetAssignment[] CreateDefaultTargetAssignmentForCompanyWithDimension(int targetDimensionId)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment[]
+      description: Default target assignments for the owner company.
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithDimension(targetDimensionId As Integer) As TargetAssignment()
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
+  id: CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForUserGroupWithDimension(Int32, Int32)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a default target assignment for the specified usergroup, for the specified dimension.\n"
+  syntax:
+    content: TargetAssignment[] CreateDefaultTargetAssignmentForUserGroupWithDimension(int userGroupId, int targetDimensionId)
+    parameters:
+    - id: userGroupId
+      type: System.Int32
+      description: The id of the UserGroup
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment[]
+      description: Default target assignment for the specified usergroup.
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithDimension(userGroupId As Integer, targetDimensionId As Integer) As TargetAssignment()
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
+  id: GetTargetAssignmentForYearAndDimension(System.Int32,SuperOffice.Data.TargetEntityType,SuperOffice.Data.TargetLevel,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetAssignmentForYearAndDimension(Int32, TargetEntityType, TargetLevel, Int32, Int32)
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimension(Int32, TargetEntityType, TargetLevel, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension(System.Int32, SuperOffice.Data.TargetEntityType, SuperOffice.Data.TargetLevel, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the target assignment for the specified year, entity type and dimension.\n"
+  syntax:
+    content: TargetAssignment GetTargetAssignmentForYearAndDimension(int targetYear, TargetEntityType entityType, TargetLevel targetLevel, int id, int dimensionId)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: entityType
+      type: SuperOffice.Data.TargetEntityType
+      description: Targeted entity type
+    - id: targetLevel
+      type: SuperOffice.Data.TargetLevel
+      description: The level of target the id is referring to.
+    - id: id
+      type: System.Int32
+      description: Contact, UserGroup or Associate id.
+    - id: dimensionId
+      type: System.Int32
+      description: Id of dimension.
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment
+      description: Target assignment for a specified entity for year and entity type. Null if not found.
+    content.vb: Function GetTargetAssignmentForYearAndDimension(targetYear As Integer, entityType As TargetEntityType, targetLevel As TargetLevel, id As Integer, dimensionId As Integer) As TargetAssignment
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
+  id: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(Int32, Int32)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a default target assignment for the owner company, for the specified year and dimension.\n"
+  syntax:
+    content: TargetAssignment[] CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(int year, int targetDimensionId)
+    parameters:
+    - id: year
+      type: System.Int32
+      description: The year from which to retrieve dimension data.
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment[]
+      description: Default target assignments for the owner company.
+    content.vb: Function CreateDefaultTargetAssignmentForCompanyWithYearAndDimension(year As Integer, targetDimensionId As Integer) As TargetAssignment()
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
+  id: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(Int32, Int32, Int32)
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a default target assignment for the specified usergroup, for the specified year and dimension.\n"
+  syntax:
+    content: TargetAssignment[] CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(int userGroupId, int year, int targetDimensionId)
+    parameters:
+    - id: userGroupId
+      type: System.Int32
+      description: The id of the UserGroup
+    - id: year
+      type: System.Int32
+      description: The year from which to retrieve dimension data.
+    - id: targetDimensionId
+      type: System.Int32
+      description: The dimension id to use.
+    return:
+      type: SuperOffice.CRM.Services.TargetAssignment[]
+      description: Default target assignment for the specified usergroup.
+    content.vb: Function CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension(userGroupId As Integer, year As Integer, targetDimensionId As Integer) As TargetAssignment()
+  overload: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
+  id: GetTargetDimension(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetDimension(Int32)
+  nameWithType: ITargetsAgent.GetTargetDimension(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a TargetDimension object.                        \n"
+  syntax:
+    content: TargetDimension GetTargetDimension(int targetDimensionId)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The identifier of the TargetDimension object
+    return:
+      type: SuperOffice.CRM.Services.TargetDimension
+      description: TargetDimension
+    content.vb: Function GetTargetDimension(targetDimensionId As Integer) As TargetDimension
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
+  id: GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetDimensionsForEntityType(TargetEntityType)
+  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityType(TargetEntityType)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType(SuperOffice.Data.TargetEntityType)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the target dimensions for the given entity type.\n"
+  syntax:
+    content: TargetDimension[] GetTargetDimensionsForEntityType(TargetEntityType entityType)
+    parameters:
+    - id: entityType
+      type: SuperOffice.Data.TargetEntityType
+      description: Targeted entity type
+    return:
+      type: SuperOffice.CRM.Services.TargetDimension[]
+      description: Target dimensions for year and entity type.
+    content.vb: Function GetTargetDimensionsForEntityType(entityType As TargetEntityType) As TargetDimension()
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
+  id: GetTargetGroupIds(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupIds(Int32)
+  nameWithType: ITargetsAgent.GetTargetGroupIds(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns ids of the target groups that use this dimension.\n"
+  syntax:
+    content: int[] GetTargetGroupIds(int targetDimensionId)
+    parameters:
+    - id: targetDimensionId
+      type: System.Int32
+      description: The target dimension id
+    return:
+      type: System.Int32[]
+      description: Target group ids.
+    content.vb: Function GetTargetGroupIds(targetDimensionId As Integer) As Integer()
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
+  id: GetTargetGroup(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroup(Int32)
+  nameWithType: ITargetsAgent.GetTargetGroup(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a TargetGroup object.                        \n"
+  syntax:
+    content: TargetGroup GetTargetGroup(int targetGroupId)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+      description: The identifier of the TargetGroup object
+    return:
+      type: SuperOffice.CRM.Services.TargetGroup
+      description: TargetGroup
+    content.vb: Function GetTargetGroup(targetGroupId As Integer) As TargetGroup
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
+  id: GetTargetGroupForYear(System.Int32,SuperOffice.Data.TargetEntityType)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupForYear(Int32, TargetEntityType)
+  nameWithType: ITargetsAgent.GetTargetGroupForYear(Int32, TargetEntityType)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear(System.Int32, SuperOffice.Data.TargetEntityType)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the target group for the specified year and entity type.\n"
+  syntax:
+    content: TargetGroup GetTargetGroupForYear(int targetYear, TargetEntityType entityType)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: entityType
+      type: SuperOffice.Data.TargetEntityType
+      description: Targeted entity type
+    return:
+      type: SuperOffice.CRM.Services.TargetGroup
+      description: Target Group for year and entity type.
+    content.vb: Function GetTargetGroupForYear(targetYear As Integer, entityType As TargetEntityType) As TargetGroup
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
+  id: ExportTargetGroupToExcel(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportTargetGroupToExcel(Int32)
+  nameWithType: ITargetsAgent.ExportTargetGroupToExcel(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRenders the given targetgroup to excel, and returns the path to the temporary file.\n"
+  syntax:
+    content: ExportArchiveResult ExportTargetGroupToExcel(int targetGroupId)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+      description: The id of the targetgroup to be rendered to excel.
+    return:
+      type: SuperOffice.CRM.Services.ExportArchiveResult
+    content.vb: Function ExportTargetGroupToExcel(targetGroupId As Integer) As ExportArchiveResult
+  overload: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
+  id: GetTargetGroupForYearAndDimension(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupForYearAndDimension(Int32, Int32)
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimension(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the target group for the specified year and dimension.\n"
+  syntax:
+    content: TargetGroup GetTargetGroupForYearAndDimension(int targetYear, int dimensionId)
+    parameters:
+    - id: targetYear
+      type: System.Int32
+      description: Targeted year
+    - id: dimensionId
+      type: System.Int32
+      description: Targeted dimension Id
+    return:
+      type: SuperOffice.CRM.Services.TargetGroup
+      description: Target Group for year and dimension.
+    content.vb: Function GetTargetGroupForYearAndDimension(targetYear As Integer, dimensionId As Integer) As TargetGroup
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension*
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
+  id: GetTargetRevisionHistory(System.Int32)
+  parent: SuperOffice.CRM.Services.ITargetsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTargetRevisionHistory(Int32)
+  nameWithType: ITargetsAgent.GetTargetRevisionHistory(Int32)
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the revision history for a given TargetAssignmentInfo in chronological order.\n"
+  syntax:
+    content: TargetRevisionHistory GetTargetRevisionHistory(int targetAssignmentInfoId)
+    parameters:
+    - id: targetAssignmentInfoId
+      type: System.Int32
+      description: Target assignment info id
+    return:
+      type: SuperOffice.CRM.Services.TargetRevisionHistory
+      description: Target revision history for the given TargetAssignmentInfo
+    content.vb: Function GetTargetRevisionHistory(targetAssignmentInfoId As Integer) As TargetRevisionHistory
+  overload: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
+  isExternal: true
+  name: CreateDefaultTargetAssignment
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignment
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment
+- uid: SuperOffice.CRM.Services.TargetAssignment
+  commentId: T:SuperOffice.CRM.Services.TargetAssignment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetAssignment
+  nameWithType: TargetAssignment
+  fullName: SuperOffice.CRM.Services.TargetAssignment
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
+  isExternal: true
+  name: CreateDefaultTargetDimension
+  nameWithType: ITargetsAgent.CreateDefaultTargetDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension
+- uid: SuperOffice.CRM.Services.TargetDimension
+  commentId: T:SuperOffice.CRM.Services.TargetDimension
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetDimension
+  nameWithType: TargetDimension
+  fullName: SuperOffice.CRM.Services.TargetDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension
+  isExternal: true
+  name: SaveTargetDimension
+  nameWithType: ITargetsAgent.SaveTargetDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension
+  isExternal: true
+  name: DeleteTargetDimension
+  nameWithType: ITargetsAgent.DeleteTargetDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
+  isExternal: true
+  name: CreateDefaultTargetGroup
+  nameWithType: ITargetsAgent.CreateDefaultTargetGroup
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetGroup
+- uid: SuperOffice.CRM.Services.TargetGroup
+  commentId: T:SuperOffice.CRM.Services.TargetGroup
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetGroup
+  nameWithType: TargetGroup
+  fullName: SuperOffice.CRM.Services.TargetGroup
+- uid: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup
+  isExternal: true
+  name: SaveTargetGroup
+  nameWithType: ITargetsAgent.SaveTargetGroup
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup
+- uid: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup
+  isExternal: true
+  name: DeleteTargetGroup
+  nameWithType: ITargetsAgent.DeleteTargetGroup
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
+  isExternal: true
+  name: CreateDefaultTargetRevision
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevision
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision
+- uid: SuperOffice.CRM.Services.TargetRevision
+  commentId: T:SuperOffice.CRM.Services.TargetRevision
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetRevision
+  nameWithType: TargetRevision
+  fullName: SuperOffice.CRM.Services.TargetRevision
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
+  isExternal: true
+  name: CreateDefaultTargetRevisionHistory
+  nameWithType: ITargetsAgent.CreateDefaultTargetRevisionHistory
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevisionHistory
+- uid: SuperOffice.CRM.Services.TargetRevisionHistory
+  commentId: T:SuperOffice.CRM.Services.TargetRevisionHistory
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetRevisionHistory
+  nameWithType: TargetRevisionHistory
+  fullName: SuperOffice.CRM.Services.TargetRevisionHistory
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForCompany
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompany
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompany
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForUserGroup
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroup
+- uid: SuperOffice.CRM.Services.TargetAssignment[]
+  isExternal: true
+  name: TargetAssignment[]
+  nameWithType: TargetAssignment[]
+  fullName: SuperOffice.CRM.Services.TargetAssignment[]
+  nameWithType.vb: TargetAssignment()
+  fullName.vb: SuperOffice.CRM.Services.TargetAssignment()
+  name.vb: TargetAssignment()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.CRM.Services.TargetAssignment
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TargetAssignment
+    name: TargetAssignment
+    nameWithType: TargetAssignment
+    fullName: SuperOffice.CRM.Services.TargetAssignment
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear
+  isExternal: true
+  name: GetTargetAssignmentForYear
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYear
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear
+- uid: SuperOffice.Data.TargetEntityType
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.Data.TargetEntityType
+- uid: SuperOffice.Data.TargetLevel
+  isExternal: true
+  name: TargetLevel
+  nameWithType: TargetLevel
+  fullName: SuperOffice.Data.TargetLevel
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForCompanyWithDimension
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForUserGroupWithDimension
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension
+  isExternal: true
+  name: GetTargetAssignmentForYearAndDimension
+  nameWithType: ITargetsAgent.GetTargetAssignmentForYearAndDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYearAndDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+  isExternal: true
+  name: CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+  nameWithType: ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension
+  isExternal: true
+  name: GetTargetDimension
+  nameWithType: ITargetsAgent.GetTargetDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType
+  isExternal: true
+  name: GetTargetDimensionsForEntityType
+  nameWithType: ITargetsAgent.GetTargetDimensionsForEntityType
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType
+- uid: SuperOffice.CRM.Services.TargetDimension[]
+  isExternal: true
+  name: TargetDimension[]
+  nameWithType: TargetDimension[]
+  fullName: SuperOffice.CRM.Services.TargetDimension[]
+  nameWithType.vb: TargetDimension()
+  fullName.vb: SuperOffice.CRM.Services.TargetDimension()
+  name.vb: TargetDimension()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TargetDimension
+    name: TargetDimension
+    nameWithType: TargetDimension
+    fullName: SuperOffice.CRM.Services.TargetDimension
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TargetDimension
+    name: TargetDimension
+    nameWithType: TargetDimension
+    fullName: SuperOffice.CRM.Services.TargetDimension
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds
+  isExternal: true
+  name: GetTargetGroupIds
+  nameWithType: ITargetsAgent.GetTargetGroupIds
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup
+  isExternal: true
+  name: GetTargetGroup
+  nameWithType: ITargetsAgent.GetTargetGroup
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroup
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear
+  isExternal: true
+  name: GetTargetGroupForYear
+  nameWithType: ITargetsAgent.GetTargetGroupForYear
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYear
+- uid: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel
+  isExternal: true
+  name: ExportTargetGroupToExcel
+  nameWithType: ITargetsAgent.ExportTargetGroupToExcel
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel
+- uid: SuperOffice.CRM.Services.ExportArchiveResult
+  commentId: T:SuperOffice.CRM.Services.ExportArchiveResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ExportArchiveResult
+  nameWithType: ExportArchiveResult
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension
+  isExternal: true
+  name: GetTargetGroupForYearAndDimension
+  nameWithType: ITargetsAgent.GetTargetGroupForYearAndDimension
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupForYearAndDimension
+- uid: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory*
+  commentId: Overload:SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory
+  isExternal: true
+  name: GetTargetRevisionHistory
+  nameWithType: ITargetsAgent.GetTargetRevisionHistory
+  fullName: SuperOffice.CRM.Services.ITargetsAgent.GetTargetRevisionHistory

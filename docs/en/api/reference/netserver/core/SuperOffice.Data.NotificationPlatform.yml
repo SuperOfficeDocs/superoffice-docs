@@ -11,13 +11,14 @@ items:
   - SuperOffice.Data.NotificationPlatform.Google
   - SuperOffice.Data.NotificationPlatform.GoogleDeveloper
   - SuperOffice.Data.NotificationPlatform.Microsoft
+  - SuperOffice.Data.NotificationPlatform.value__
   langs:
   - csharp
   - vb
   name: NotificationPlatform
   nameWithType: NotificationPlatform
   fullName: SuperOffice.Data.NotificationPlatform
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -26,19 +27,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;DevicePlatform&apos; in table &apos;PushNotificationService&apos;\nThis Enum is used by:  PushNotificationService.DevicePlatform\n"
   syntax:
-    content: 'public enum NotificationPlatform : short'
-    content.vb: Public Enum NotificationPlatform As Short
+    content: 'public sealed class NotificationPlatform : Enum'
+    content.vb: >-
+      Public NotInheritable Class NotificationPlatform
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.NotificationPlatform.EnumUtil.MapEnums``2
-  - SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationPlatform)
-  - SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.NotificationPlatform.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.NotificationPlatform.value__
+  commentId: F:SuperOffice.Data.NotificationPlatform.value__
+  id: value__
+  parent: SuperOffice.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NotificationPlatform.value__
+  fullName: SuperOffice.Data.NotificationPlatform.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.NotificationPlatform.Apple
   commentId: F:SuperOffice.Data.NotificationPlatform.Apple
   id: Apple
@@ -58,9 +94,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Device is by Apple\n"
   syntax:
-    content: Apple = 0
+    content: public const NotificationPlatform Apple
     return:
       type: SuperOffice.Data.NotificationPlatform
+    content.vb: Public Const Apple As NotificationPlatform
   modifiers.csharp:
   - public
   - const
@@ -86,9 +123,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Device is by Google\n"
   syntax:
-    content: Google = 1
+    content: public const NotificationPlatform Google
     return:
       type: SuperOffice.Data.NotificationPlatform
+    content.vb: Public Const Google As NotificationPlatform
   modifiers.csharp:
   - public
   - const
@@ -114,9 +152,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Device is by Microsoft\n"
   syntax:
-    content: Microsoft = 2
+    content: public const NotificationPlatform Microsoft
     return:
       type: SuperOffice.Data.NotificationPlatform
+    content.vb: Public Const Microsoft As NotificationPlatform
   modifiers.csharp:
   - public
   - const
@@ -142,9 +181,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Device is by Apple, used for development and debugging\n"
   syntax:
-    content: AppleDeveloper = 3
+    content: public const NotificationPlatform AppleDeveloper
     return:
       type: SuperOffice.Data.NotificationPlatform
+    content.vb: Public Const AppleDeveloper As NotificationPlatform
   modifiers.csharp:
   - public
   - const
@@ -170,9 +210,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Device is by Apple, used for testing\n"
   syntax:
-    content: AppleAdHoc = 4
+    content: public const NotificationPlatform AppleAdHoc
     return:
       type: SuperOffice.Data.NotificationPlatform
+    content.vb: Public Const AppleAdHoc As NotificationPlatform
   modifiers.csharp:
   - public
   - const
@@ -198,9 +239,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Device is by Google, used for testing, development and debugging\n"
   syntax:
-    content: GoogleDeveloper = 5
+    content: public const NotificationPlatform GoogleDeveloper
     return:
       type: SuperOffice.Data.NotificationPlatform
+    content.vb: Public Const GoogleDeveloper As NotificationPlatform
   modifiers.csharp:
   - public
   - const
@@ -214,6 +256,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.NotificationPlatform.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -241,84 +290,6 @@ references:
     name: MapEnums(Of NotificationPlatform, To)
     nameWithType: EnumUtil.MapEnums(Of NotificationPlatform, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.NotificationPlatform, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationPlatform)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<NotificationPlatform>(NotificationPlatform)
-  nameWithType: ObjectExtensions.AssignByReflection<NotificationPlatform>(NotificationPlatform)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.NotificationPlatform>(SuperOffice.Data.NotificationPlatform)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NotificationPlatform)(NotificationPlatform)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.NotificationPlatform)(SuperOffice.Data.NotificationPlatform)
-  name.vb: AssignByReflection(Of NotificationPlatform)(NotificationPlatform)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<NotificationPlatform>
-    nameWithType: ObjectExtensions.AssignByReflection<NotificationPlatform>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.NotificationPlatform>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    nameWithType: NotificationPlatform
-    fullName: SuperOffice.Data.NotificationPlatform
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of NotificationPlatform)
-    nameWithType: ObjectExtensions.AssignByReflection(Of NotificationPlatform)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.NotificationPlatform)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    nameWithType: NotificationPlatform
-    fullName: SuperOffice.Data.NotificationPlatform
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<NotificationPlatform>()
-  nameWithType: ObjectExtensions.GraphCopy<NotificationPlatform>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.NotificationPlatform>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of NotificationPlatform)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.NotificationPlatform)()
-  name.vb: GraphCopy(Of NotificationPlatform)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<NotificationPlatform>
-    nameWithType: ObjectExtensions.GraphCopy<NotificationPlatform>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.NotificationPlatform>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of NotificationPlatform)
-    nameWithType: ObjectExtensions.GraphCopy(Of NotificationPlatform)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.NotificationPlatform)
     isExternal: true
   - name: (
     nameWithType: (
@@ -360,6 +331,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -405,103 +382,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -548,18 +428,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.NotificationPlatform
   commentId: T:SuperOffice.Data.NotificationPlatform
   parent: SuperOffice.Data

@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentEntity.#ctor
   - SuperOffice.CRM.Services.AppointmentEntity.ActiveDate
   - SuperOffice.CRM.Services.AppointmentEntity.ActiveLinks
+  - SuperOffice.CRM.Services.AppointmentEntity.Agenda
   - SuperOffice.CRM.Services.AppointmentEntity.AlarmLeadTime
   - SuperOffice.CRM.Services.AppointmentEntity.AppointmentId
   - SuperOffice.CRM.Services.AppointmentEntity.AssignedBy
@@ -27,6 +28,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentEntity.ExtraFields
   - SuperOffice.CRM.Services.AppointmentEntity.HasAlarm
   - SuperOffice.CRM.Services.AppointmentEntity.HasConflict
+  - SuperOffice.CRM.Services.AppointmentEntity.InternalNotes
   - SuperOffice.CRM.Services.AppointmentEntity.InvitationStatus
   - SuperOffice.CRM.Services.AppointmentEntity.InvitedPerson
   - SuperOffice.CRM.Services.AppointmentEntity.IsAlldayEvent
@@ -43,6 +45,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentEntity.Participants
   - SuperOffice.CRM.Services.AppointmentEntity.Person
   - SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocation
+  - SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData
   - SuperOffice.CRM.Services.AppointmentEntity.Priority
   - SuperOffice.CRM.Services.AppointmentEntity.Private
   - SuperOffice.CRM.Services.AppointmentEntity.Project
@@ -56,6 +59,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentEntity.StartDate
   - SuperOffice.CRM.Services.AppointmentEntity.SuggestedAppointmentId
   - SuperOffice.CRM.Services.AppointmentEntity.Task
+  - SuperOffice.CRM.Services.AppointmentEntity.Title
   - SuperOffice.CRM.Services.AppointmentEntity.ToString
   - SuperOffice.CRM.Services.AppointmentEntity.ToString(System.String)
   - SuperOffice.CRM.Services.AppointmentEntity.Type
@@ -366,7 +370,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.CreatedDate*
   implements:
   - SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
@@ -444,6 +448,105 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentEntity.Title
+  commentId: P:SuperOffice.CRM.Services.AppointmentEntity.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: AppointmentEntity.Title
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.Title
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe title of the appointment. \n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.AppointmentEntity.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentEntity.Agenda
+  commentId: P:SuperOffice.CRM.Services.AppointmentEntity.Agenda
+  id: Agenda
+  parent: SuperOffice.CRM.Services.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: AppointmentEntity.Agenda
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.Agenda
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe agenda of the appointment. \n"
+  syntax:
+    content: public virtual string Agenda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Agenda As String
+  overload: SuperOffice.CRM.Services.AppointmentEntity.Agenda*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentEntity.InternalNotes
+  commentId: P:SuperOffice.CRM.Services.AppointmentEntity.InternalNotes
+  id: InternalNotes
+  parent: SuperOffice.CRM.Services.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: InternalNotes
+  nameWithType: AppointmentEntity.InternalNotes
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.InternalNotes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInternal notes for the appointment. \n"
+  syntax:
+    content: public virtual string InternalNotes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InternalNotes As String
+  overload: SuperOffice.CRM.Services.AppointmentEntity.InternalNotes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AppointmentEntity.StartDate
   commentId: P:SuperOffice.CRM.Services.AppointmentEntity.StartDate
   id: StartDate
@@ -467,7 +570,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartDate As Date
+    content.vb: Public Overridable Property StartDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.StartDate*
   modifiers.csharp:
   - public
@@ -500,7 +603,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EndDate As Date
+    content.vb: Public Overridable Property EndDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.EndDate*
   modifiers.csharp:
   - public
@@ -768,7 +871,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.UpdatedDate*
   implements:
   - SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
@@ -1401,7 +1504,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ActiveDate As Date
+    content.vb: Public Overridable Property ActiveDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.ActiveDate*
   modifiers.csharp:
   - public
@@ -1560,7 +1663,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAppoinmtments preferred timezone location. \n"
+  summary: "\nAppointments preferred timezone location. \n"
   syntax:
     content: public virtual int PreferredTZLocation { get; set; }
     parameters: []
@@ -1568,6 +1671,39 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PreferredTZLocation As Integer
   overload: SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData
+  commentId: P:SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData
+  id: PreferredTZLocationData
+  parent: SuperOffice.CRM.Services.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: PreferredTZLocationData
+  nameWithType: AppointmentEntity.PreferredTZLocationData
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRead-only timezone data for PreferredTZLocation. \n"
+  syntax:
+    content: public virtual TimeZoneData PreferredTZLocationData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.TimeZoneData
+    content.vb: Public Overridable Property PreferredTZLocationData As TimeZoneData
+  overload: SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData*
   modifiers.csharp:
   - public
   - virtual
@@ -1827,7 +1963,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.AppointmentEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n       [Plug-in name].[Property name]\n       Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \nThis is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \nand hence we would ensure an unique key if this field is used.\nExample: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n   [Table name].[Field name]\n   Example: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
   syntax:
     content: public StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -1861,7 +1997,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.AppointmentEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Services.AppointmentEntity.UserDefinedFields\" data-throw-if-not-resolved=\"false\"></xref> properties are deprecated in favor of this\ncombined collection.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
   syntax:
     content: public StringDictionary CustomFields { get; set; }
     parameters: []
@@ -1869,6 +2005,8 @@ items:
       type: SuperOffice.CRM.Services.StringDictionary
     content.vb: Public Property CustomFields As StringDictionary
   overload: SuperOffice.CRM.Services.AppointmentEntity.CustomFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
   modifiers.csharp:
   - public
   - get
@@ -1898,7 +2036,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishEventDate As Date
+    content.vb: Public Property PublishEventDate As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.PublishEventDate*
   implements:
   - SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
@@ -1931,7 +2069,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishTo As Date
+    content.vb: Public Property PublishTo As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.PublishTo*
   implements:
   - SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
@@ -1964,7 +2102,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property PublishFrom As Date
+    content.vb: Public Property PublishFrom As DateTime
   overload: SuperOffice.CRM.Services.AppointmentEntity.PublishFrom*
   implements:
   - SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
@@ -2047,13 +2185,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.IActivityEntityCarrier
   commentId: T:SuperOffice.CRM.Services.IActivityEntityCarrier
   parent: SuperOffice.CRM.Services
@@ -2280,12 +2411,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -2312,6 +2437,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AppointmentEntity.Associate*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.Associate
   isExternal: true
@@ -2385,8 +2516,6 @@ references:
   nameWithType: IEntityCarrier.CreatedDate
   fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2410,6 +2539,24 @@ references:
   name: Description
   nameWithType: AppointmentEntity.Description
   fullName: SuperOffice.CRM.Services.AppointmentEntity.Description
+- uid: SuperOffice.CRM.Services.AppointmentEntity.Title*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.Title
+  isExternal: true
+  name: Title
+  nameWithType: AppointmentEntity.Title
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.Title
+- uid: SuperOffice.CRM.Services.AppointmentEntity.Agenda*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: AppointmentEntity.Agenda
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.Agenda
+- uid: SuperOffice.CRM.Services.AppointmentEntity.InternalNotes*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.InternalNotes
+  isExternal: true
+  name: InternalNotes
+  nameWithType: AppointmentEntity.InternalNotes
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.InternalNotes
 - uid: SuperOffice.CRM.Services.AppointmentEntity.StartDate*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.StartDate
   isExternal: true
@@ -2592,8 +2739,6 @@ references:
   nameWithType: AppointmentEntity.AlarmLeadTime
   fullName: SuperOffice.CRM.Services.AppointmentEntity.AlarmLeadTime
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
@@ -2785,6 +2930,17 @@ references:
   name: PreferredTZLocation
   nameWithType: AppointmentEntity.PreferredTZLocation
   fullName: SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocation
+- uid: SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData
+  isExternal: true
+  name: PreferredTZLocationData
+  nameWithType: AppointmentEntity.PreferredTZLocationData
+  fullName: SuperOffice.CRM.Services.AppointmentEntity.PreferredTZLocationData
+- uid: SuperOffice.CRM.TimeZoneData
+  isExternal: true
+  name: TimeZoneData
+  nameWithType: TimeZoneData
+  fullName: SuperOffice.CRM.TimeZoneData
 - uid: SuperOffice.CRM.Services.AppointmentEntity.Sale*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.Sale
   isExternal: true
@@ -2877,6 +3033,13 @@ references:
   name: CustomFields
   nameWithType: AppointmentEntity.CustomFields
   fullName: SuperOffice.CRM.Services.AppointmentEntity.CustomFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  name: CustomFields
+  nameWithType: IExtraFieldCarrier.CustomFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
 - uid: SuperOffice.CRM.Services.AppointmentEntity.PublishEventDate*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentEntity.PublishEventDate
   isExternal: true

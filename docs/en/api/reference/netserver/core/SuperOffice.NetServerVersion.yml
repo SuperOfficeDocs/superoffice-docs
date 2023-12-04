@@ -10,7 +10,6 @@ items:
   - SuperOffice.NetServerVersion.BuildType
   - SuperOffice.NetServerVersion.DaysUnitilExpiry
   - SuperOffice.NetServerVersion.DaysUntilExpiry
-  - SuperOffice.NetServerVersion.DotNetFrameworkVersion
   - SuperOffice.NetServerVersion.FileVersion
   - SuperOffice.NetServerVersion.FriendlyName
   - SuperOffice.NetServerVersion.FullName
@@ -35,18 +34,13 @@ items:
   namespace: SuperOffice
   summary: "\nVersion information.\n"
   syntax:
-    content: public class NetServerVersion
-    content.vb: Public Class NetServerVersion
+    content: 'public class NetServerVersion : Object'
+    content.vb: >-
+      Public Class NetServerVersion
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.NetServerVersion.EnumUtil.MapEnums``2
   - SuperOffice.NetServerVersion.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -75,10 +69,10 @@ items:
   namespace: SuperOffice
   summary: "\nDefault namespace for services based on this version of NetServer\n"
   syntax:
-    content: public const string ServiceNamespace = "http://www.superoffice.net/ws/crm/NetServer/9.2.0000.0"
+    content: public const string ServiceNamespace = "http://www.superoffice.net/ws/crm/NetServer/10.2.0.0"
     return:
       type: System.String
-    content.vb: Public Const ServiceNamespace As String = "http://www.superoffice.net/ws/crm/NetServer/9.2.0000.0"
+    content.vb: Public Const ServiceNamespace As String = "http://www.superoffice.net/ws/crm/NetServer/10.2.0.0"
   modifiers.csharp:
   - public
   - const
@@ -103,10 +97,10 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string FriendlyName = "SuperOffice CRM OnSite 9.2 Build {1}"
+    content: public const string FriendlyName = "SuperOffice CRM Online 10.2 Build {1}"
     return:
       type: System.String
-    content.vb: Public Const FriendlyName As String = "SuperOffice CRM OnSite 9.2 Build {1}"
+    content.vb: Public Const FriendlyName As String = "SuperOffice CRM Online 10.2 Build {1}"
   modifiers.csharp:
   - public
   - const
@@ -131,10 +125,10 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string MajorMinor = "9.2"
+    content: public const string MajorMinor = "10.2"
     return:
       type: System.String
-    content.vb: Public Const MajorMinor As String = "9.2"
+    content.vb: Public Const MajorMinor As String = "10.2"
   modifiers.csharp:
   - public
   - const
@@ -207,37 +201,6 @@ items:
   - Shared
   fullName.vb: SuperOffice.NetServerVersion.GetServerVersionWithOverride(ByRef System.Boolean)
   name.vb: GetServerVersionWithOverride(ByRef Boolean)
-- uid: SuperOffice.NetServerVersion.DotNetFrameworkVersion
-  commentId: M:SuperOffice.NetServerVersion.DotNetFrameworkVersion
-  id: DotNetFrameworkVersion
-  parent: SuperOffice.NetServerVersion
-  langs:
-  - csharp
-  - vb
-  name: DotNetFrameworkVersion()
-  nameWithType: NetServerVersion.DotNetFrameworkVersion()
-  fullName: SuperOffice.NetServerVersion.DotNetFrameworkVersion()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice
-  summary: "\nReturns installed .net version &quot;4.5.1&quot; or &quot;4.8&quot; or similarly\n"
-  syntax:
-    content: public static string DotNetFrameworkVersion()
-    return:
-      type: System.String
-      description: '&quot;4.7.2&quot; or &quot;0&quot; if not able to detect'
-    content.vb: Public Shared Function DotNetFrameworkVersion As String
-  overload: SuperOffice.NetServerVersion.DotNetFrameworkVersion*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.NetServerVersion.BuildType
   commentId: P:SuperOffice.NetServerVersion.BuildType
   id: BuildType
@@ -255,7 +218,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice
-  summary: "\nType of build.\n"
+  summary: "\nType of build: Stable, Release or Feature\n"
   syntax:
     content: public static NetServerBuildType BuildType { get; }
     parameters: []
@@ -356,26 +319,12 @@ items:
   namespace: SuperOffice
   summary: "\nDays until this version of NetServer expires\n"
   syntax:
-    content: >-
-      [Obsolete("Use DaysUntilExpiry instead", false)]
-
-      public static int DaysUnitilExpiry { get; }
+    content: public static int DaysUnitilExpiry { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <Obsolete("Use DaysUntilExpiry instead", False)>
-
-      Public Shared ReadOnly Property DaysUnitilExpiry As Integer
+    content.vb: Public Shared ReadOnly Property DaysUnitilExpiry As Integer
   overload: SuperOffice.NetServerVersion.DaysUnitilExpiry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use DaysUntilExpiry instead
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - static
@@ -403,26 +352,12 @@ items:
   namespace: SuperOffice
   summary: "\nDays until this version of NetServer expires\n"
   syntax:
-    content: >-
-      [Obsolete("Netserver no longer expires", false)]
-
-      public static int DaysUntilExpiry { get; }
+    content: public static int DaysUntilExpiry { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <Obsolete("Netserver no longer expires", False)>
-
-      Public Shared ReadOnly Property DaysUntilExpiry As Integer
+    content.vb: Public Shared ReadOnly Property DaysUntilExpiry As Integer
   overload: SuperOffice.NetServerVersion.DaysUntilExpiry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Netserver no longer expires
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - static
@@ -577,285 +512,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.NetServerVersion.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1054,18 +710,10 @@ references:
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Version
-  commentId: T:System.Version
-  parent: System
   isExternal: true
   name: Version
   nameWithType: Version
   fullName: System.Version
-- uid: SuperOffice.NetServerVersion.DotNetFrameworkVersion*
-  commentId: Overload:SuperOffice.NetServerVersion.DotNetFrameworkVersion
-  isExternal: true
-  name: DotNetFrameworkVersion
-  nameWithType: NetServerVersion.DotNetFrameworkVersion
-  fullName: SuperOffice.NetServerVersion.DotNetFrameworkVersion
 - uid: SuperOffice.NetServerVersion.BuildType*
   commentId: Overload:SuperOffice.NetServerVersion.BuildType
   isExternal: true

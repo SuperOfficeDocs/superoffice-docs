@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.Obsolete1Fields
+  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete1Fields
+  id: DBC.Obsolete1Fields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.Obsolete1Fields.TicketTypeId
+  langs:
+  - csharp
+  - vb
+  name: DBC.Obsolete1Fields
+  nameWithType: DBC.Obsolete1Fields
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete1Fields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Obsolete1, Obsolete table for functionality that was never implemented\n"
+  syntax:
+    content: 'public static class Obsolete1Fields : Object'
+    content.vb: >-
+      Public Module Obsolete1Fields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.Obsolete1Fields.TicketTypeId
+  commentId: F:SuperOffice.CRM.Data.DBC.Obsolete1Fields.TicketTypeId
+  id: TicketTypeId
+  parent: SuperOffice.CRM.Data.DBC.Obsolete1Fields
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeId
+  nameWithType: DBC.Obsolete1Fields.TicketTypeId
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete1Fields.TicketTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nObsolete1.TicketTypeId: Primary key\n"
+  syntax:
+    content: public const string TicketTypeId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTypeId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

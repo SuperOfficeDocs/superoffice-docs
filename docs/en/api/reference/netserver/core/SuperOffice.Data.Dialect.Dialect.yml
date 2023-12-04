@@ -92,7 +92,6 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ReturnFieldsIndexer
   - SuperOffice.Data.Dialect.Dialect.SelectSql(SuperOffice.Data.SQL.PrivateSelect)
   - SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
-  - SuperOffice.Data.Dialect.Dialect.SoParameterCollection
   - SuperOffice.Data.Dialect.Dialect.Tables
   - SuperOffice.Data.Dialect.Dialect.TimeTLocal2DateTime(System.Int32)
   - SuperOffice.Data.Dialect.Dialect.TimeToVarchar(System.String)
@@ -113,6 +112,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldTypeConvert)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.GreaterThan)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.GreaterThanOrEqual)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.GroupBy)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasAll)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasAny)
@@ -121,6 +121,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.InnerJoin)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.IsNotNull)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.IsNull)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.LeftOuterJoin)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.LessThan)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.LessThanOrEqual)
@@ -172,24 +173,16 @@ items:
   namespace: SuperOffice.Data.Dialect
   summary: "\n<remarks>\nAll classes inheriting from this class must implement the following code:\n<pre><code>	static System.Collections.Hashtable _toSqlHelper = null;\n	protected override Hashtable System.Collections.ToSqlHelper\n	{\n		get {return _toSqlHelper;}\n		set {_toSqlHelper = value;}\n	}</code></pre>\n</remarks>\nThis class is the sql-generator in the new SSearch. \nIt has various derived classes that represents the databases we use. \nThese classes contain the information needed to generate the db-specific sql.\n"
   syntax:
-    content: public abstract class Dialect
-    content.vb: Public MustInherit Class Dialect
+    content: 'public abstract class Dialect : Object'
+    content.vb: >-
+      Public MustInherit Class Dialect
+
+          Inherits Object
   inheritance:
   - System.Object
   derivedClasses:
-  - SuperOffice.Data.Dialect.DB2Common
-  - SuperOffice.Data.Dialect.MySqlCommon
   - SuperOffice.Data.Dialect.OracleCommon
   - SuperOffice.Data.Dialect.SqlServerCommon
-  - SuperOffice.Data.Dialect.SybaseCommon
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Dialect.Dialect.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dialect.Dialect.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -468,32 +461,6 @@ items:
     return:
       type: System.Collections.Generic.HashSet{SuperOffice.Data.SQL.FieldInfo}
     content.vb: Protected _stringFieldsInOrderByWithDistinct As HashSet(Of FieldInfo)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.Data.Dialect.Dialect.SoParameterCollection
-  commentId: F:SuperOffice.Data.Dialect.Dialect.SoParameterCollection
-  id: SoParameterCollection
-  parent: SuperOffice.Data.Dialect.Dialect
-  langs:
-  - csharp
-  - vb
-  name: SoParameterCollection
-  nameWithType: Dialect.SoParameterCollection
-  fullName: SuperOffice.Data.Dialect.Dialect.SoParameterCollection
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.Dialect
-  syntax:
-    content: protected ArrayList SoParameterCollection
-    return:
-      type: System.Collections.ArrayList
-    content.vb: Protected SoParameterCollection As ArrayList
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2290,6 +2257,39 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+  id: ToSql(SuperOffice.Data.SQL.Greatest)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ToSql(Greatest)
+  nameWithType: Dialect.ToSql(Greatest)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nThe MathMax-operator will return the correct field and its correct sqlOperator. \n<pre><code>T0.lastUpdated = max of registered and updated;</code></pre>\n"
+  syntax:
+    content: protected virtual string ToSql(Greatest arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Greatest
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function ToSql(arg As Greatest) As String
+  overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Add)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Add)
   id: ToSql(SuperOffice.Data.SQL.Add)
@@ -2658,6 +2658,38 @@ items:
     return:
       type: System.String
     content.vb: Protected Overridable Function ToSql(arg As FieldTypeConvert) As String
+  overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+  id: ToSql(SuperOffice.Data.SQL.JsonValue)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ToSql(JsonValue)
+  nameWithType: Dialect.ToSql(JsonValue)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected virtual string ToSql(JsonValue arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.JsonValue
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function ToSql(arg As JsonValue) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
   modifiers.csharp:
   - protected
@@ -3315,7 +3347,7 @@ items:
     return:
       type: System.DateTime
       description: Local time DateTime converted to.
-    content.vb: Public Overridable Function TimeTUtc2DateTime(time As Integer) As Date
+    content.vb: Public Overridable Function TimeTUtc2DateTime(time As Integer) As DateTime
   overload: SuperOffice.Data.Dialect.Dialect.TimeTUtc2DateTime*
   modifiers.csharp:
   - public
@@ -3350,7 +3382,7 @@ items:
     return:
       type: System.DateTime
       description: Local-time DateTime converted to.
-    content.vb: Public Overridable Function TimeTLocal2DateTime(time As Integer) As Date
+    content.vb: Public Overridable Function TimeTLocal2DateTime(time As Integer) As DateTime
   overload: SuperOffice.Data.Dialect.Dialect.TimeTLocal2DateTime*
   modifiers.csharp:
   - public
@@ -3385,7 +3417,7 @@ items:
     return:
       type: System.Int32
       description: Seconds since UTC January 1st, 1970
-    content.vb: Public Overridable Function DateTime2TimeTUtc(dateTime As Date) As Integer
+    content.vb: Public Overridable Function DateTime2TimeTUtc(dateTime As DateTime) As Integer
   overload: SuperOffice.Data.Dialect.Dialect.DateTime2TimeTUtc*
   modifiers.csharp:
   - public
@@ -3420,7 +3452,7 @@ items:
     return:
       type: System.Int32
       description: Seconds since local-time January 1st, 1970
-    content.vb: Public Overridable Function DateTime2TimeTLocal(dateTime As Date) As Integer
+    content.vb: Public Overridable Function DateTime2TimeTLocal(dateTime As DateTime) As Integer
   overload: SuperOffice.Data.Dialect.Dialect.DateTime2TimeTLocal*
   modifiers.csharp:
   - public
@@ -4624,7 +4656,7 @@ items:
   namespace: SuperOffice.Data.Dialect
   summary: "\nGets the value of the specified column as a decimal.\n"
   syntax:
-    content: public virtual decimal DataReaderGetDecimal(SoDataReader soReader, IDataReader innerReader, int i)
+    content: public virtual Decimal DataReaderGetDecimal(SoDataReader soReader, IDataReader innerReader, int i)
     parameters:
     - id: soReader
       type: SuperOffice.Data.SoDataReader
@@ -4660,24 +4692,18 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
-  summary: "\nGets the value of the specified column as a DateTime.\n"
-  remarks: "\nThis method takes into account SuperOffice timezone handling, UTC datetimes (registered, updated) and standard datetime without timezone support.\nTo avoid overmuch &apos;help&apos; from zealous .NET code we always return the datetime as kind Unspecified, regardless of its origin.\n"
   syntax:
     content: public DateTime DataReaderGetDateTime(SoDataReader soReader, IDataReader innerReader, int i)
     parameters:
     - id: soReader
       type: SuperOffice.Data.SoDataReader
-      description: DataReader to read from.
     - id: innerReader
       type: System.Data.IDataReader
-      description: the real data reader
     - id: i
       type: System.Int32
-      description: column index
     return:
       type: System.DateTime
-      description: The DateTime in local time (unless column is marked UTC), or  MaxValue/MinValue
-    content.vb: Public Function DataReaderGetDateTime(soReader As SoDataReader, innerReader As IDataReader, i As Integer) As Date
+    content.vb: Public Function DataReaderGetDateTime(soReader As SoDataReader, innerReader As IDataReader, i As Integer) As DateTime
   overload: SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime*
   modifiers.csharp:
   - public
@@ -5434,285 +5460,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Dialect.Dialect.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -5910,8 +5657,7 @@ references:
   nameWithType: DataTable
   fullName: System.Data.DataTable
 - uid: System.Collections.Generic.List{SuperOffice.Data.SQL.Argument}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.SQL.Argument}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.SQL.Argument}'
   definition: System.Collections.Generic.List`1
   name: List<Argument>
   nameWithType: List<Argument>
@@ -5954,14 +5700,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -5971,9 +5716,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5986,34 +5731,19 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: System.Collections.ArrayList
-  commentId: T:System.Collections.ArrayList
-  parent: System.Collections
   isExternal: true
   name: ArrayList
   nameWithType: ArrayList
   fullName: System.Collections.ArrayList
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: System.Collections.Generic.List{System.Func{System.Data.IDataReader,System.Boolean}}
-  commentId: T:System.Collections.Generic.List{System.Func{System.Data.IDataReader,System.Boolean}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.Func{System.Data.IDataReader,System.Boolean}}'
   definition: System.Collections.Generic.List`1
   name: List<Func<IDataReader, Boolean>>
   nameWithType: List<Func<IDataReader, Boolean>>
@@ -6686,6 +6416,13 @@ references:
   name: MathematicalExpression
   nameWithType: MathematicalExpression
   fullName: SuperOffice.Data.SQL.MathematicalExpression
+- uid: SuperOffice.Data.SQL.Greatest
+  commentId: T:SuperOffice.Data.SQL.Greatest
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Greatest
+  nameWithType: Greatest
+  fullName: SuperOffice.Data.SQL.Greatest
 - uid: SuperOffice.Data.SQL.Add
   commentId: T:SuperOffice.Data.SQL.Add
   parent: SuperOffice.Data.SQL
@@ -6769,6 +6506,13 @@ references:
   name: FieldTypeConvert
   nameWithType: FieldTypeConvert
   fullName: SuperOffice.Data.SQL.FieldTypeConvert
+- uid: SuperOffice.Data.SQL.JsonValue
+  commentId: T:SuperOffice.Data.SQL.JsonValue
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: JsonValue
+  nameWithType: JsonValue
+  fullName: SuperOffice.Data.SQL.JsonValue
 - uid: SuperOffice.Data.SQL.Upper
   commentId: T:SuperOffice.Data.SQL.Upper
   parent: SuperOffice.Data.SQL
@@ -6897,8 +6641,6 @@ references:
   nameWithType: Dialect.TimeTUtc2DateTime
   fullName: SuperOffice.Data.Dialect.Dialect.TimeTUtc2DateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -6934,18 +6676,10 @@ references:
   nameWithType: Dialect.ComposeSelect
   fullName: SuperOffice.Data.Dialect.Dialect.ComposeSelect
 - uid: System.Text.StringBuilder
-  commentId: T:System.Text.StringBuilder
-  parent: System.Text
   isExternal: true
   name: StringBuilder
   nameWithType: StringBuilder
   fullName: System.Text.StringBuilder
-- uid: System.Text
-  commentId: N:System.Text
-  isExternal: true
-  name: System.Text
-  nameWithType: System.Text
-  fullName: System.Text
 - uid: SuperOffice.Data.Dialect.Dialect.InsertSql*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.InsertSql
   isExternal: true
@@ -7047,8 +6781,6 @@ references:
   nameWithType: Dialect.DataReaderGetFieldType
   fullName: SuperOffice.Data.Dialect.Dialect.DataReaderGetFieldType
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
@@ -7187,8 +6919,6 @@ references:
   nameWithType: Dialect.DataReaderGetGuid
   fullName: SuperOffice.Data.Dialect.Dialect.DataReaderGetGuid
 - uid: System.Guid
-  commentId: T:System.Guid
-  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
@@ -7289,8 +7019,6 @@ references:
   nameWithType: Dialect.DataReaderGetDecimal
   fullName: SuperOffice.Data.Dialect.Dialect.DataReaderGetDecimal
 - uid: System.Decimal
-  commentId: T:System.Decimal
-  parent: System
   isExternal: true
   name: Decimal
   nameWithType: Decimal

@@ -12,13 +12,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.Raw
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.SaleArchive
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.SavedReports
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.value__
   langs:
   - csharp
   - vb
   name: ActivityArchiveKind
   nameWithType: ActivityArchiveKind
   fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -27,19 +28,54 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nActivity archives have many different rules on what lines are shown when, for instance\nfiltering of bookings, done today vs done earlier, etc. This enum lists the different\nkinds of activity archive, and each provider implements its handling of the rules.\n"
   syntax:
-    content: public enum ActivityArchiveKind
-    content.vb: Public Enum ActivityArchiveKind
+    content: 'public sealed class ActivityArchiveKind : Enum'
+    content.vb: >-
+      Public NotInheritable Class ActivityArchiveKind
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
-  - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ActivityArchiveKind.value__
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.ContactArchive
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.ContactArchive
   id: ContactArchive
@@ -59,9 +95,10 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nActivity archive in the Contact panel\n"
   syntax:
-    content: ContactArchive = 0
+    content: public const ActivityArchiveKind ContactArchive
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+    content.vb: Public Const ContactArchive As ActivityArchiveKind
   modifiers.csharp:
   - public
   - const
@@ -87,9 +124,10 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nActivity archive in the Project panel\n"
   syntax:
-    content: ProjectArchive = 1
+    content: public const ActivityArchiveKind ProjectArchive
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+    content.vb: Public Const ProjectArchive As ActivityArchiveKind
   modifiers.csharp:
   - public
   - const
@@ -115,9 +153,10 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nChecklist in the Diary\n"
   syntax:
-    content: DiaryActivity = 2
+    content: public const ActivityArchiveKind DiaryActivity
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+    content.vb: Public Const DiaryActivity As ActivityArchiveKind
   modifiers.csharp:
   - public
   - const
@@ -143,9 +182,10 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nArchive of documents that are saved reports, used in the Reporter panel\n"
   syntax:
-    content: SavedReports = 3
+    content: public const ActivityArchiveKind SavedReports
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+    content.vb: Public Const SavedReports As ActivityArchiveKind
   modifiers.csharp:
   - public
   - const
@@ -171,9 +211,10 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nRaw form, i.e., none of the special limiting logic is triggered. This may give you a fairly large archive,\nbut is good for custom post-filtering of rows if that is what is needed\n"
   syntax:
-    content: Raw = 4
+    content: public const ActivityArchiveKind Raw
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+    content.vb: Public Const Raw As ActivityArchiveKind
   modifiers.csharp:
   - public
   - const
@@ -199,9 +240,10 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nActivity archive in the Sale panel\n"
   syntax:
-    content: SaleArchive = 5
+    content: public const ActivityArchiveKind SaleArchive
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+    content.vb: Public Const SaleArchive As ActivityArchiveKind
   modifiers.csharp:
   - public
   - const
@@ -227,9 +269,10 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nActivity archive in the Person panel\n"
   syntax:
-    content: PersonArchive = 6
+    content: public const ActivityArchiveKind PersonArchive
     return:
       type: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
+    content.vb: Public Const PersonArchive As ActivityArchiveKind
   modifiers.csharp:
   - public
   - const
@@ -243,6 +286,13 @@ references:
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -270,84 +320,6 @@ references:
     name: MapEnums(Of ActivityArchiveKind, To)
     nameWithType: EnumUtil.MapEnums(Of ActivityArchiveKind, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveKind, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ActivityArchiveKind>(ActivityArchiveKind)
-  nameWithType: ObjectExtensions.AssignByReflection<ActivityArchiveKind>(ActivityArchiveKind)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ActivityArchiveKind>(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ActivityArchiveKind)(ActivityArchiveKind)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
-  name.vb: AssignByReflection(Of ActivityArchiveKind)(ActivityArchiveKind)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ActivityArchiveKind>
-    nameWithType: ObjectExtensions.AssignByReflection<ActivityArchiveKind>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ActivityArchiveKind>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
-    name: ActivityArchiveKind
-    nameWithType: ActivityArchiveKind
-    fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ActivityArchiveKind)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ActivityArchiveKind)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
-    name: ActivityArchiveKind
-    nameWithType: ActivityArchiveKind
-    fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ActivityArchiveKind>()
-  nameWithType: ObjectExtensions.GraphCopy<ActivityArchiveKind>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ActivityArchiveKind>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ActivityArchiveKind)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)()
-  name.vb: GraphCopy(Of ActivityArchiveKind)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ActivityArchiveKind>
-    nameWithType: ObjectExtensions.GraphCopy<ActivityArchiveKind>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ActivityArchiveKind>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ActivityArchiveKind)
-    nameWithType: ObjectExtensions.GraphCopy(Of ActivityArchiveKind)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ActivityArchiveKind)
     isExternal: true
   - name: (
     nameWithType: (
@@ -389,6 +361,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -434,103 +412,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -577,18 +458,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
   commentId: T:SuperOffice.CRM.ArchiveLists.ActivityArchiveKind
   parent: SuperOffice.CRM.ArchiveLists

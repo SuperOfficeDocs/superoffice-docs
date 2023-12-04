@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour
+  commentId: T:SuperOffice.Data.BatchTaskCancellationBehaviour
+  id: BatchTaskCancellationBehaviour
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.BatchTaskCancellationBehaviour.CanCancel
+  - SuperOffice.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  - SuperOffice.Data.BatchTaskCancellationBehaviour.CannotCancel
+  - SuperOffice.Data.BatchTaskCancellationBehaviour.value__
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nBatch task cancel support\n"
+  syntax:
+    content: 'public sealed class BatchTaskCancellationBehaviour : Enum'
+    content.vb: >-
+      Public NotInheritable Class BatchTaskCancellationBehaviour
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.BatchTaskCancellationBehaviour.EnumUtil.MapEnums``2
+  - SuperOffice.Data.BatchTaskCancellationBehaviour.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour.value__
+  commentId: F:SuperOffice.Data.BatchTaskCancellationBehaviour.value__
+  id: value__
+  parent: SuperOffice.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BatchTaskCancellationBehaviour.value__
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour.CanCancel
+  commentId: F:SuperOffice.Data.BatchTaskCancellationBehaviour.CanCancel
+  id: CanCancel
+  parent: SuperOffice.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: CanCancel
+  nameWithType: BatchTaskCancellationBehaviour.CanCancel
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour.CanCancel
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: The batch task can be cancelled\n"
+  syntax:
+    content: public const BatchTaskCancellationBehaviour CanCancel
+    return:
+      type: SuperOffice.Data.BatchTaskCancellationBehaviour
+    content.vb: Public Const CanCancel As BatchTaskCancellationBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  commentId: F:SuperOffice.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  id: CancelWithWarning
+  parent: SuperOffice.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: CancelWithWarning
+  nameWithType: BatchTaskCancellationBehaviour.CancelWithWarning
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour.CancelWithWarning
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: The batch task can be cancelled, but the UI will display a warning (symbol SR_BATCH_&lt;snakeCaseName>_CANCELLATION\n"
+  syntax:
+    content: public const BatchTaskCancellationBehaviour CancelWithWarning
+    return:
+      type: SuperOffice.Data.BatchTaskCancellationBehaviour
+    content.vb: Public Const CancelWithWarning As BatchTaskCancellationBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour.CannotCancel
+  commentId: F:SuperOffice.Data.BatchTaskCancellationBehaviour.CannotCancel
+  id: CannotCancel
+  parent: SuperOffice.Data.BatchTaskCancellationBehaviour
+  langs:
+  - csharp
+  - vb
+  name: CannotCancel
+  nameWithType: BatchTaskCancellationBehaviour.CannotCancel
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour.CannotCancel
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: The batch task cannot be cancelled\n"
+  syntax:
+    content: public const BatchTaskCancellationBehaviour CannotCancel
+    return:
+      type: SuperOffice.Data.BatchTaskCancellationBehaviour
+    content.vb: Public Const CannotCancel As BatchTaskCancellationBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BatchTaskCancellationBehaviour, To>()
+  nameWithType: EnumUtil.MapEnums<BatchTaskCancellationBehaviour, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.BatchTaskCancellationBehaviour, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BatchTaskCancellationBehaviour, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.BatchTaskCancellationBehaviour, To)()
+  name.vb: MapEnums(Of BatchTaskCancellationBehaviour, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BatchTaskCancellationBehaviour, To>
+    nameWithType: EnumUtil.MapEnums<BatchTaskCancellationBehaviour, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.BatchTaskCancellationBehaviour, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BatchTaskCancellationBehaviour, To)
+    nameWithType: EnumUtil.MapEnums(Of BatchTaskCancellationBehaviour, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.BatchTaskCancellationBehaviour, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BatchTaskCancellationBehaviour, To>()
+  nameWithType: Converters.MapEnums<BatchTaskCancellationBehaviour, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BatchTaskCancellationBehaviour, To>()
+  nameWithType.vb: Converters.MapEnums(Of BatchTaskCancellationBehaviour, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BatchTaskCancellationBehaviour, To)()
+  name.vb: MapEnums(Of BatchTaskCancellationBehaviour, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BatchTaskCancellationBehaviour, To>
+    nameWithType: Converters.MapEnums<BatchTaskCancellationBehaviour, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BatchTaskCancellationBehaviour, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BatchTaskCancellationBehaviour, To)
+    nameWithType: Converters.MapEnums(Of BatchTaskCancellationBehaviour, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BatchTaskCancellationBehaviour, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour
+  commentId: T:SuperOffice.Data.BatchTaskCancellationBehaviour
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour

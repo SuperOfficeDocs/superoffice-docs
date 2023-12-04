@@ -41,6 +41,7 @@ items:
   - SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
   - SuperOffice.CRM.Data.CategoryMembershipTableInfo
   - SuperOffice.CRM.Data.CategoryTableInfo
+  - SuperOffice.CRM.Data.CcTemplateTableInfo
   - SuperOffice.CRM.Data.ChatMessageTableInfo
   - SuperOffice.CRM.Data.ChatSessionTableInfo
   - SuperOffice.CRM.Data.ChatTopicTableInfo
@@ -51,6 +52,7 @@ items:
   - SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
   - SuperOffice.CRM.Data.ComptrTableInfo
   - SuperOffice.CRM.Data.ConfigTableInfo
+  - SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
   - SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
   - SuperOffice.CRM.Data.ConnectionConfigFieldTableInfo
   - SuperOffice.CRM.Data.ConsentPersonTableInfo
@@ -120,6 +122,7 @@ items:
   - SuperOffice.CRM.Data.DBC.CategoryGroupLinkFields
   - SuperOffice.CRM.Data.DBC.CategoryHeadingLinkFields
   - SuperOffice.CRM.Data.DBC.CategoryMembershipFields
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields
   - SuperOffice.CRM.Data.DBC.ChatMessageFields
   - SuperOffice.CRM.Data.DBC.ChatSessionFields
   - SuperOffice.CRM.Data.DBC.ChatTopicFields
@@ -130,6 +133,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ComptrGroupLinkFields
   - SuperOffice.CRM.Data.DBC.ComptrHeadingLinkFields
   - SuperOffice.CRM.Data.DBC.ConfigFields
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
   - SuperOffice.CRM.Data.DBC.ConfigurableScreenDeltaFields
   - SuperOffice.CRM.Data.DBC.ConnectionConfigFieldFields
   - SuperOffice.CRM.Data.DBC.ConsentPersonFields
@@ -202,8 +206,11 @@ items:
   - SuperOffice.CRM.Data.DBC.EmailAccountFields
   - SuperOffice.CRM.Data.DBC.EmailAttachmentFields
   - SuperOffice.CRM.Data.DBC.EmailFields
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  - SuperOffice.CRM.Data.DBC.EmailFlowFields
   - SuperOffice.CRM.Data.DBC.EmailFolderFields
   - SuperOffice.CRM.Data.DBC.EmailItemFields
+  - SuperOffice.CRM.Data.DBC.EntityCountsFields
   - SuperOffice.CRM.Data.DBC.ErpConfigurationFields
   - SuperOffice.CRM.Data.DBC.ErpConnectionAccessFields
   - SuperOffice.CRM.Data.DBC.ErpConnectionActorTypeFields
@@ -289,6 +296,7 @@ items:
   - SuperOffice.CRM.Data.DBC.MailAliasFields
   - SuperOffice.CRM.Data.DBC.MailBlockFields
   - SuperOffice.CRM.Data.DBC.MailInFilterFields
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields
   - SuperOffice.CRM.Data.DBC.MailInUidlFields
   - SuperOffice.CRM.Data.DBC.MergeMoveLogFields
   - SuperOffice.CRM.Data.DBC.MessageCustomersFields
@@ -307,6 +315,10 @@ items:
   - SuperOffice.CRM.Data.DBC.MsTrashbinFields
   - SuperOffice.CRM.Data.DBC.NoticeFrameFields
   - SuperOffice.CRM.Data.DBC.NotifyFields
+  - SuperOffice.CRM.Data.DBC.Obsolete1Fields
+  - SuperOffice.CRM.Data.DBC.Obsolete2Fields
+  - SuperOffice.CRM.Data.DBC.Obsolete3Fields
+  - SuperOffice.CRM.Data.DBC.Obsolete4Fields
   - SuperOffice.CRM.Data.DBC.OLEFieldFields
   - SuperOffice.CRM.Data.DBC.OLEFieldTextFields
   - SuperOffice.CRM.Data.DBC.OLESubjectFields
@@ -375,8 +387,14 @@ items:
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
   - SuperOffice.CRM.Data.DBC.QuickReplyFields
   - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLinkFields
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLinkFields
   - SuperOffice.CRM.Data.DBC.QuoteConnectionAccessFields
   - SuperOffice.CRM.Data.DBC.QuoteConnectionFields
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLinkFields
   - SuperOffice.CRM.Data.DBC.QuoteFields
   - SuperOffice.CRM.Data.DBC.QuoteLineConfigurationFields
   - SuperOffice.CRM.Data.DBC.QuoteLineFields
@@ -509,9 +527,21 @@ items:
   - SuperOffice.CRM.Data.DBC.TagsFields
   - SuperOffice.CRM.Data.DBC.TagsGroupLinkFields
   - SuperOffice.CRM.Data.DBC.TagsHeadingLinkFields
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentValueFields
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields
+  - SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  - SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  - SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields
   - SuperOffice.CRM.Data.DBC.TaskFields
   - SuperOffice.CRM.Data.DBC.TaskGroupLinkFields
   - SuperOffice.CRM.Data.DBC.TaskHeadingLinkFields
+  - SuperOffice.CRM.Data.DBC.TaskMenuFields
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields
   - SuperOffice.CRM.Data.DBC.TemporaryKeyFields
   - SuperOffice.CRM.Data.DBC.TemporaryWordsFields
   - SuperOffice.CRM.Data.DBC.TextFields
@@ -523,12 +553,11 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketLogChangeFields
   - SuperOffice.CRM.Data.DBC.TicketLogFields
   - SuperOffice.CRM.Data.DBC.TicketPriorityFields
-  - SuperOffice.CRM.Data.DBC.TicketRelationActionFields
-  - SuperOffice.CRM.Data.DBC.TicketRelationFields
-  - SuperOffice.CRM.Data.DBC.TicketRelationTypeFields
   - SuperOffice.CRM.Data.DBC.TicketStatusFields
   - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
   - SuperOffice.CRM.Data.DBC.TicketTypeFields
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
   - SuperOffice.CRM.Data.DBC.TimestampsFields
   - SuperOffice.CRM.Data.DBC.TravelCurrentFields
   - SuperOffice.CRM.Data.DBC.TravelGeneratedDatabaseFields
@@ -574,8 +603,16 @@ items:
   - SuperOffice.CRM.Data.DBC.VisibleForFields
   - SuperOffice.CRM.Data.DBC.WebAppUsageFields
   - SuperOffice.CRM.Data.DBC.WebhookFields
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields
   - SuperOffice.CRM.Data.DBC.WinPosSizeFields
   - SuperOffice.CRM.Data.DBC.WordRelationsFields
+  - SuperOffice.CRM.Data.DBC.WorkflowFields
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  - SuperOffice.CRM.Data.DBC.WorkflowStepFields
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
   - SuperOffice.CRM.Data.DBC.WsdlDescriptionFields
   - SuperOffice.CRM.Data.DBC.ZipToCityFields
   - SuperOffice.CRM.Data.DbiAgentFieldTableInfo
@@ -618,9 +655,12 @@ items:
   - SuperOffice.CRM.Data.ElementProfileTableInfo
   - SuperOffice.CRM.Data.EmailAccountTableInfo
   - SuperOffice.CRM.Data.EmailAttachmentTableInfo
+  - SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  - SuperOffice.CRM.Data.EmailFlowTableInfo
   - SuperOffice.CRM.Data.EmailFolderTableInfo
   - SuperOffice.CRM.Data.EmailItemTableInfo
   - SuperOffice.CRM.Data.EmailTableInfo
+  - SuperOffice.CRM.Data.EntityCountsTableInfo
   - SuperOffice.CRM.Data.ErpConfigurationTableInfo
   - SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
   - SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
@@ -707,6 +747,7 @@ items:
   - SuperOffice.CRM.Data.MailAliasTableInfo
   - SuperOffice.CRM.Data.MailBlockTableInfo
   - SuperOffice.CRM.Data.MailInFilterTableInfo
+  - SuperOffice.CRM.Data.MailingDomainsTableInfo
   - SuperOffice.CRM.Data.MailInUidlTableInfo
   - SuperOffice.CRM.Data.MergeMoveLogTableInfo
   - SuperOffice.CRM.Data.MessageCustomersTableInfo
@@ -725,6 +766,10 @@ items:
   - SuperOffice.CRM.Data.MsTrashbinTableInfo
   - SuperOffice.CRM.Data.NoticeFrameTableInfo
   - SuperOffice.CRM.Data.NotifyTableInfo
+  - SuperOffice.CRM.Data.Obsolete1TableInfo
+  - SuperOffice.CRM.Data.Obsolete2TableInfo
+  - SuperOffice.CRM.Data.Obsolete3TableInfo
+  - SuperOffice.CRM.Data.Obsolete4TableInfo
   - SuperOffice.CRM.Data.OLEFieldTableInfo
   - SuperOffice.CRM.Data.OLEFieldTextTableInfo
   - SuperOffice.CRM.Data.OLESubjectTableInfo
@@ -793,8 +838,14 @@ items:
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo
   - SuperOffice.CRM.Data.QuickReplyTableInfo
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo
+  - SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteApprReasonTableInfo
   - SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
   - SuperOffice.CRM.Data.QuoteConnectionTableInfo
+  - SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
   - SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
   - SuperOffice.CRM.Data.QuoteLineTableInfo
   - SuperOffice.CRM.Data.QuoteTableInfo
@@ -927,9 +978,21 @@ items:
   - SuperOffice.CRM.Data.TagsGroupLinkTableInfo
   - SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
   - SuperOffice.CRM.Data.TagsTableInfo
+  - SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  - SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  - SuperOffice.CRM.Data.TargetChangeTableInfo
+  - SuperOffice.CRM.Data.TargetDimensionTableInfo
+  - SuperOffice.CRM.Data.TargetGroupTableInfo
+  - SuperOffice.CRM.Data.TargetPeriodTableInfo
+  - SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+  - SuperOffice.CRM.Data.TargetRevisionTableInfo
   - SuperOffice.CRM.Data.TaskGroupLinkTableInfo
   - SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+  - SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.TaskMenuTableInfo
   - SuperOffice.CRM.Data.TaskTableInfo
+  - SuperOffice.CRM.Data.TempDbLockTableInfo
   - SuperOffice.CRM.Data.TemporaryKeyTableInfo
   - SuperOffice.CRM.Data.TemporaryWordsTableInfo
   - SuperOffice.CRM.Data.TextTableInfo
@@ -940,12 +1003,11 @@ items:
   - SuperOffice.CRM.Data.TicketLogChangeTableInfo
   - SuperOffice.CRM.Data.TicketLogTableInfo
   - SuperOffice.CRM.Data.TicketPriorityTableInfo
-  - SuperOffice.CRM.Data.TicketRelationActionTableInfo
-  - SuperOffice.CRM.Data.TicketRelationTableInfo
-  - SuperOffice.CRM.Data.TicketRelationTypeTableInfo
   - SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
   - SuperOffice.CRM.Data.TicketStatusTableInfo
   - SuperOffice.CRM.Data.TicketTableInfo
+  - SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+  - SuperOffice.CRM.Data.TicketTypeStatusTableInfo
   - SuperOffice.CRM.Data.TicketTypeTableInfo
   - SuperOffice.CRM.Data.TimestampsTableInfo
   - SuperOffice.CRM.Data.TravelCurrentTableInfo
@@ -995,6 +1057,13 @@ items:
   - SuperOffice.CRM.Data.WebhookUsageTableInfo
   - SuperOffice.CRM.Data.WinPosSizeTableInfo
   - SuperOffice.CRM.Data.WordRelationsTableInfo
+  - SuperOffice.CRM.Data.WorkflowGoalTableInfo
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  - SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+  - SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+  - SuperOffice.CRM.Data.WorkflowStepTableInfo
+  - SuperOffice.CRM.Data.WorkflowTableInfo
+  - SuperOffice.CRM.Data.WorkflowTriggerTableInfo
   - SuperOffice.CRM.Data.WsdlDescriptionTableInfo
   - SuperOffice.CRM.Data.ZipToCityTableInfo
   langs:
@@ -1266,6 +1335,13 @@ references:
   name: CategoryMembershipTableInfo
   nameWithType: CategoryMembershipTableInfo
   fullName: SuperOffice.CRM.Data.CategoryMembershipTableInfo
+- uid: SuperOffice.CRM.Data.CcTemplateTableInfo
+  commentId: T:SuperOffice.CRM.Data.CcTemplateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CcTemplateTableInfo
+  nameWithType: CcTemplateTableInfo
+  fullName: SuperOffice.CRM.Data.CcTemplateTableInfo
 - uid: SuperOffice.CRM.Data.ChatMessageTableInfo
   commentId: T:SuperOffice.CRM.Data.ChatMessageTableInfo
   parent: SuperOffice.CRM.Data
@@ -1336,6 +1412,13 @@ references:
   name: ConfigTableInfo
   nameWithType: ConfigTableInfo
   fullName: SuperOffice.CRM.Data.ConfigTableInfo
+- uid: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
+  commentId: T:SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ConfigurableScreenAppliesToTableInfo
+  nameWithType: ConfigurableScreenAppliesToTableInfo
+  fullName: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
 - uid: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
   commentId: T:SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
   parent: SuperOffice.CRM.Data
@@ -4286,30 +4369,30 @@ references:
   name: DBC.EjCategoryGroupLinkFields
   nameWithType: DBC.EjCategoryGroupLinkFields
   fullName: SuperOffice.CRM.Data.DBC.EjCategoryGroupLinkFields
-- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields
-  commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeFields
+- uid: SuperOffice.CRM.Data.DBC.Obsolete1Fields
+  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete1Fields
   isExternal: true
-  name: DBC.TicketTypeFields
-  nameWithType: DBC.TicketTypeFields
-  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields
-- uid: SuperOffice.CRM.Data.DBC.TicketRelationTypeFields
-  commentId: T:SuperOffice.CRM.Data.DBC.TicketRelationTypeFields
+  name: DBC.Obsolete1Fields
+  nameWithType: DBC.Obsolete1Fields
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete1Fields
+- uid: SuperOffice.CRM.Data.DBC.Obsolete2Fields
+  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete2Fields
   isExternal: true
-  name: DBC.TicketRelationTypeFields
-  nameWithType: DBC.TicketRelationTypeFields
-  fullName: SuperOffice.CRM.Data.DBC.TicketRelationTypeFields
-- uid: SuperOffice.CRM.Data.DBC.TicketRelationActionFields
-  commentId: T:SuperOffice.CRM.Data.DBC.TicketRelationActionFields
+  name: DBC.Obsolete2Fields
+  nameWithType: DBC.Obsolete2Fields
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete2Fields
+- uid: SuperOffice.CRM.Data.DBC.Obsolete3Fields
+  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete3Fields
   isExternal: true
-  name: DBC.TicketRelationActionFields
-  nameWithType: DBC.TicketRelationActionFields
-  fullName: SuperOffice.CRM.Data.DBC.TicketRelationActionFields
-- uid: SuperOffice.CRM.Data.DBC.TicketRelationFields
-  commentId: T:SuperOffice.CRM.Data.DBC.TicketRelationFields
+  name: DBC.Obsolete3Fields
+  nameWithType: DBC.Obsolete3Fields
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete3Fields
+- uid: SuperOffice.CRM.Data.DBC.Obsolete4Fields
+  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete4Fields
   isExternal: true
-  name: DBC.TicketRelationFields
-  nameWithType: DBC.TicketRelationFields
-  fullName: SuperOffice.CRM.Data.DBC.TicketRelationFields
+  name: DBC.Obsolete4Fields
+  nameWithType: DBC.Obsolete4Fields
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete4Fields
 - uid: SuperOffice.CRM.Data.DBC.FavouriteFields
   commentId: T:SuperOffice.CRM.Data.DBC.FavouriteFields
   isExternal: true
@@ -4358,6 +4441,30 @@ references:
   name: DBC.ConfigurableScreenDeltaFields
   nameWithType: DBC.ConfigurableScreenDeltaFields
   fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenDeltaFields
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+  isExternal: true
+  name: DBC.ConfigurableScreenAppliesToFields
+  nameWithType: DBC.ConfigurableScreenAppliesToFields
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesToFields
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TaskMenuFields
+  isExternal: true
+  name: DBC.TaskMenuFields
+  nameWithType: DBC.TaskMenuFields
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuFields
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  isExternal: true
+  name: DBC.TaskMenuGroupLinkFields
+  nameWithType: DBC.TaskMenuGroupLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  isExternal: true
+  name: DBC.TaskMenuHeadingLinkFields
+  nameWithType: DBC.TaskMenuHeadingLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields
   commentId: T:SuperOffice.CRM.Data.DBC.ConsentPurposeFields
   isExternal: true
@@ -4412,6 +4519,12 @@ references:
   name: DBC.CustConfigFields
   nameWithType: DBC.CustConfigFields
   fullName: SuperOffice.CRM.Data.DBC.CustConfigFields
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  commentId: T:SuperOffice.CRM.Data.DBC.CcTemplateFields
+  isExternal: true
+  name: DBC.CcTemplateFields
+  nameWithType: DBC.CcTemplateFields
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields
   commentId: T:SuperOffice.CRM.Data.DBC.DashboardFields
   isExternal: true
@@ -4496,6 +4609,12 @@ references:
   name: DBC.SMessageblockFields
   nameWithType: DBC.SMessageblockFields
   fullName: SuperOffice.CRM.Data.DBC.SMessageblockFields
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  isExternal: true
+  name: DBC.MailingDomainsFields
+  nameWithType: DBC.MailingDomainsFields
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields
 - uid: SuperOffice.CRM.Data.DBC.TypicalSearchFields
   commentId: T:SuperOffice.CRM.Data.DBC.TypicalSearchFields
   isExternal: true
@@ -4532,12 +4651,126 @@ references:
   name: DBC.TemporaryKeyFields
   nameWithType: DBC.TemporaryKeyFields
   fullName: SuperOffice.CRM.Data.DBC.TemporaryKeyFields
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetGroupFields
+  isExternal: true
+  name: DBC.TargetGroupFields
+  nameWithType: DBC.TargetGroupFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetPeriodFields
+  isExternal: true
+  name: DBC.TargetPeriodFields
+  nameWithType: DBC.TargetPeriodFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriodFields
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  isExternal: true
+  name: DBC.TargetAssignmentInfoFields
+  nameWithType: DBC.TargetAssignmentInfoFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentValueFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetAssignmentValueFields
+  isExternal: true
+  name: DBC.TargetAssignmentValueFields
+  nameWithType: DBC.TargetAssignmentValueFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentValueFields
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields
+  isExternal: true
+  name: DBC.TargetRevisionHistoryFields
+  nameWithType: DBC.TargetRevisionHistoryFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetRevisionFields
+  isExternal: true
+  name: DBC.TargetRevisionFields
+  nameWithType: DBC.TargetRevisionFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionFields
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetChangeFields
+  isExternal: true
+  name: DBC.TargetChangeFields
+  nameWithType: DBC.TargetChangeFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  isExternal: true
+  name: DBC.TargetDimensionFields
+  nameWithType: DBC.TargetDimensionFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields
   commentId: T:SuperOffice.CRM.Data.DBC.WebhookFields
   isExternal: true
   name: DBC.WebhookFields
   nameWithType: DBC.WebhookFields
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  isExternal: true
+  name: DBC.WebhookUsageFields
+  nameWithType: DBC.WebhookUsageFields
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+- uid: SuperOffice.CRM.Data.DBC.WorkflowFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowFields
+  isExternal: true
+  name: DBC.WorkflowFields
+  nameWithType: DBC.WorkflowFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowFields
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EmailFlowFields
+  isExternal: true
+  name: DBC.EmailFlowFields
+  nameWithType: DBC.EmailFlowFields
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowFields
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  isExternal: true
+  name: DBC.WorkflowInstanceFields
+  nameWithType: DBC.WorkflowInstanceFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  isExternal: true
+  name: DBC.WorkflowGoalFields
+  nameWithType: DBC.WorkflowGoalFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowStepFields
+  isExternal: true
+  name: DBC.WorkflowStepFields
+  nameWithType: DBC.WorkflowStepFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepFields
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  isExternal: true
+  name: DBC.WorkflowTriggerFields
+  nameWithType: DBC.WorkflowTriggerFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields
+  isExternal: true
+  name: DBC.WorkflowStepOptionFields
+  nameWithType: DBC.WorkflowStepOptionFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionFields
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  isExternal: true
+  name: DBC.WorkflowStepOptionLinkFields
+  nameWithType: DBC.WorkflowStepOptionLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  isExternal: true
+  name: DBC.EmailFlowContentLinkFields
+  nameWithType: DBC.EmailFlowContentLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TempDbLockFields
+  isExternal: true
+  name: DBC.TempDbLockFields
+  nameWithType: DBC.TempDbLockFields
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields
 - uid: SuperOffice.CRM.Data.DBC.AssociateHistoryFields
   commentId: T:SuperOffice.CRM.Data.DBC.AssociateHistoryFields
   isExternal: true
@@ -4550,6 +4783,66 @@ references:
   name: DBC.CacheInvalidationFields
   nameWithType: DBC.CacheInvalidationFields
   fullName: SuperOffice.CRM.Data.DBC.CacheInvalidationFields
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+  isExternal: true
+  name: DBC.QuoteApprReasonFields
+  nameWithType: DBC.QuoteApprReasonFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLinkFields
+  isExternal: true
+  name: DBC.QuoteApprReasonGroupLinkFields
+  nameWithType: DBC.QuoteApprReasonGroupLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLinkFields
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLinkFields
+  isExternal: true
+  name: DBC.QuoteApprReasonHeadingLinkFields
+  nameWithType: DBC.QuoteApprReasonHeadingLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLinkFields
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  isExternal: true
+  name: DBC.QuoteDenyReasonFields
+  nameWithType: DBC.QuoteDenyReasonFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+  isExternal: true
+  name: DBC.QuoteDenyReasonGroupLinkFields
+  nameWithType: DBC.QuoteDenyReasonGroupLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLinkFields
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLinkFields
+  isExternal: true
+  name: DBC.QuoteDenyReasonHeadingLinkFields
+  nameWithType: DBC.QuoteDenyReasonHeadingLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLinkFields
+- uid: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EntityCountsFields
+  isExternal: true
+  name: DBC.EntityCountsFields
+  nameWithType: DBC.EntityCountsFields
+  fullName: SuperOffice.CRM.Data.DBC.EntityCountsFields
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeFields
+  isExternal: true
+  name: DBC.TicketTypeFields
+  nameWithType: DBC.TicketTypeFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeFields
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  isExternal: true
+  name: DBC.TicketTypePriorityFields
+  nameWithType: DBC.TicketTypePriorityFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  isExternal: true
+  name: DBC.TicketTypeStatusFields
+  nameWithType: DBC.TicketTypeStatusFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
 - uid: SuperOffice.CRM.Data.DeliveryTermsTableInfo
   commentId: T:SuperOffice.CRM.Data.DeliveryTermsTableInfo
   parent: SuperOffice.CRM.Data
@@ -4816,6 +5109,20 @@ references:
   name: EmailAttachmentTableInfo
   nameWithType: EmailAttachmentTableInfo
   fullName: SuperOffice.CRM.Data.EmailAttachmentTableInfo
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailFlowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailFlowTableInfo
+  nameWithType: EmailFlowTableInfo
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo
+- uid: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailFlowContentLinkTableInfo
+  nameWithType: EmailFlowContentLinkTableInfo
+  fullName: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
 - uid: SuperOffice.CRM.Data.EmailFolderTableInfo
   commentId: T:SuperOffice.CRM.Data.EmailFolderTableInfo
   parent: SuperOffice.CRM.Data
@@ -4830,6 +5137,13 @@ references:
   name: EmailItemTableInfo
   nameWithType: EmailItemTableInfo
   fullName: SuperOffice.CRM.Data.EmailItemTableInfo
+- uid: SuperOffice.CRM.Data.EntityCountsTableInfo
+  commentId: T:SuperOffice.CRM.Data.EntityCountsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EntityCountsTableInfo
+  nameWithType: EntityCountsTableInfo
+  fullName: SuperOffice.CRM.Data.EntityCountsTableInfo
 - uid: SuperOffice.CRM.Data.ErpConfigurationTableInfo
   commentId: T:SuperOffice.CRM.Data.ErpConfigurationTableInfo
   parent: SuperOffice.CRM.Data
@@ -5431,6 +5745,13 @@ references:
   name: MailInFilterTableInfo
   nameWithType: MailInFilterTableInfo
   fullName: SuperOffice.CRM.Data.MailInFilterTableInfo
+- uid: SuperOffice.CRM.Data.MailingDomainsTableInfo
+  commentId: T:SuperOffice.CRM.Data.MailingDomainsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: MailingDomainsTableInfo
+  nameWithType: MailingDomainsTableInfo
+  fullName: SuperOffice.CRM.Data.MailingDomainsTableInfo
 - uid: SuperOffice.CRM.Data.MailInUidlTableInfo
   commentId: T:SuperOffice.CRM.Data.MailInUidlTableInfo
   parent: SuperOffice.CRM.Data
@@ -5557,6 +5878,34 @@ references:
   name: NotifyTableInfo
   nameWithType: NotifyTableInfo
   fullName: SuperOffice.CRM.Data.NotifyTableInfo
+- uid: SuperOffice.CRM.Data.Obsolete1TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete1TableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: Obsolete1TableInfo
+  nameWithType: Obsolete1TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete1TableInfo
+- uid: SuperOffice.CRM.Data.Obsolete2TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete2TableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: Obsolete2TableInfo
+  nameWithType: Obsolete2TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
+- uid: SuperOffice.CRM.Data.Obsolete3TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete3TableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: Obsolete3TableInfo
+  nameWithType: Obsolete3TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete3TableInfo
+- uid: SuperOffice.CRM.Data.Obsolete4TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete4TableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: Obsolete4TableInfo
+  nameWithType: Obsolete4TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete4TableInfo
 - uid: SuperOffice.CRM.Data.OLEFieldTableInfo
   commentId: T:SuperOffice.CRM.Data.OLEFieldTableInfo
   parent: SuperOffice.CRM.Data
@@ -6040,6 +6389,27 @@ references:
   name: QuoteAlternativeTableInfo
   nameWithType: QuoteAlternativeTableInfo
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
+- uid: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteApprReasonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteApprReasonTableInfo
+  nameWithType: QuoteApprReasonTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
+- uid: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteApprReasonGroupLinkTableInfo
+  nameWithType: QuoteApprReasonGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteApprReasonHeadingLinkTableInfo
+  nameWithType: QuoteApprReasonHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Data.QuoteConnectionTableInfo
   commentId: T:SuperOffice.CRM.Data.QuoteConnectionTableInfo
   parent: SuperOffice.CRM.Data
@@ -6054,6 +6424,27 @@ references:
   name: QuoteConnectionAccessTableInfo
   nameWithType: QuoteConnectionAccessTableInfo
   fullName: SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
+- uid: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteDenyReasonTableInfo
+  nameWithType: QuoteDenyReasonTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+- uid: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteDenyReasonGroupLinkTableInfo
+  nameWithType: QuoteDenyReasonGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteDenyReasonHeadingLinkTableInfo
+  nameWithType: QuoteDenyReasonHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Data.QuoteLineTableInfo
   commentId: T:SuperOffice.CRM.Data.QuoteLineTableInfo
   parent: SuperOffice.CRM.Data
@@ -6971,6 +7362,62 @@ references:
   name: TagsHeadingLinkTableInfo
   nameWithType: TagsHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetAssignmentInfoTableInfo
+  nameWithType: TargetAssignmentInfoTableInfo
+  fullName: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+- uid: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetAssignmentValueTableInfo
+  nameWithType: TargetAssignmentValueTableInfo
+  fullName: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+- uid: SuperOffice.CRM.Data.TargetChangeTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetChangeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetChangeTableInfo
+  nameWithType: TargetChangeTableInfo
+  fullName: SuperOffice.CRM.Data.TargetChangeTableInfo
+- uid: SuperOffice.CRM.Data.TargetDimensionTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetDimensionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetDimensionTableInfo
+  nameWithType: TargetDimensionTableInfo
+  fullName: SuperOffice.CRM.Data.TargetDimensionTableInfo
+- uid: SuperOffice.CRM.Data.TargetGroupTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetGroupTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetGroupTableInfo
+  nameWithType: TargetGroupTableInfo
+  fullName: SuperOffice.CRM.Data.TargetGroupTableInfo
+- uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetPeriodTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetPeriodTableInfo
+  nameWithType: TargetPeriodTableInfo
+  fullName: SuperOffice.CRM.Data.TargetPeriodTableInfo
+- uid: SuperOffice.CRM.Data.TargetRevisionTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetRevisionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetRevisionTableInfo
+  nameWithType: TargetRevisionTableInfo
+  fullName: SuperOffice.CRM.Data.TargetRevisionTableInfo
+- uid: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetRevisionHistoryTableInfo
+  nameWithType: TargetRevisionHistoryTableInfo
+  fullName: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
 - uid: SuperOffice.CRM.Data.TaskTableInfo
   commentId: T:SuperOffice.CRM.Data.TaskTableInfo
   parent: SuperOffice.CRM.Data
@@ -6992,6 +7439,34 @@ references:
   name: TaskHeadingLinkTableInfo
   nameWithType: TaskHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.TaskMenuTableInfo
+  commentId: T:SuperOffice.CRM.Data.TaskMenuTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TaskMenuTableInfo
+  nameWithType: TaskMenuTableInfo
+  fullName: SuperOffice.CRM.Data.TaskMenuTableInfo
+- uid: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TaskMenuGroupLinkTableInfo
+  nameWithType: TaskMenuGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TaskMenuHeadingLinkTableInfo
+  nameWithType: TaskMenuHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.TempDbLockTableInfo
+  commentId: T:SuperOffice.CRM.Data.TempDbLockTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TempDbLockTableInfo
+  nameWithType: TempDbLockTableInfo
+  fullName: SuperOffice.CRM.Data.TempDbLockTableInfo
 - uid: SuperOffice.CRM.Data.TemporaryKeyTableInfo
   commentId: T:SuperOffice.CRM.Data.TemporaryKeyTableInfo
   parent: SuperOffice.CRM.Data
@@ -7069,27 +7544,6 @@ references:
   name: TicketPriorityTableInfo
   nameWithType: TicketPriorityTableInfo
   fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketRelationTableInfo
-  nameWithType: TicketRelationTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationActionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketRelationActionTableInfo
-  nameWithType: TicketRelationActionTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  name: TicketRelationTypeTableInfo
-  nameWithType: TicketRelationTypeTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
 - uid: SuperOffice.CRM.Data.TicketStatusTableInfo
   commentId: T:SuperOffice.CRM.Data.TicketStatusTableInfo
   parent: SuperOffice.CRM.Data
@@ -7111,6 +7565,20 @@ references:
   name: TicketTypeTableInfo
   nameWithType: TicketTypeTableInfo
   fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
+- uid: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketTypePriorityTableInfo
+  nameWithType: TicketTypePriorityTableInfo
+  fullName: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+- uid: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketTypeStatusTableInfo
+  nameWithType: TicketTypeStatusTableInfo
+  fullName: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
 - uid: SuperOffice.CRM.Data.TimestampsTableInfo
   commentId: T:SuperOffice.CRM.Data.TimestampsTableInfo
   parent: SuperOffice.CRM.Data
@@ -7428,6 +7896,7 @@ references:
   fullName: SuperOffice.CRM.Data.WebhookTableInfo
 - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
   commentId: T:SuperOffice.CRM.Data.WebhookUsageTableInfo
+  parent: SuperOffice.CRM.Data
   isExternal: true
   name: WebhookUsageTableInfo
   nameWithType: WebhookUsageTableInfo
@@ -7446,6 +7915,55 @@ references:
   name: WordRelationsTableInfo
   nameWithType: WordRelationsTableInfo
   fullName: SuperOffice.CRM.Data.WordRelationsTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowTableInfo
+  nameWithType: WorkflowTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowGoalTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowGoalTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowGoalTableInfo
+  nameWithType: WorkflowGoalTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowGoalTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowInstanceTableInfo
+  nameWithType: WorkflowInstanceTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowStepTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowStepTableInfo
+  nameWithType: WorkflowStepTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowStepOptionTableInfo
+  nameWithType: WorkflowStepOptionTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowStepOptionLinkTableInfo
+  nameWithType: WorkflowStepOptionLinkTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTriggerTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowTriggerTableInfo
+  nameWithType: WorkflowTriggerTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
 - uid: SuperOffice.CRM.Data.WsdlDescriptionTableInfo
   commentId: T:SuperOffice.CRM.Data.WsdlDescriptionTableInfo
   parent: SuperOffice.CRM.Data

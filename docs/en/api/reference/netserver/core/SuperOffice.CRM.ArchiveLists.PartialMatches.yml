@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches
+  commentId: T:SuperOffice.CRM.ArchiveLists.PartialMatches
+  id: PartialMatches
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.PartialMatches.#ctor(System.Int32,System.Collections.Generic.List{System.Int32})
+  - SuperOffice.CRM.ArchiveLists.PartialMatches.OtherTables
+  - SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerIds
+  - SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerTableNum
+  - SuperOffice.CRM.ArchiveLists.PartialMatches.ToString
+  langs:
+  - csharp
+  - vb
+  name: PartialMatches
+  nameWithType: PartialMatches
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nHolds cross-table matches, where some hits are found in main table, and others on related tables\n"
+  syntax:
+    content: 'public class PartialMatches : Object'
+    content.vb: >-
+      Public Class PartialMatches
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.PartialMatches.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.PartialMatches.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerTableNum
+  commentId: F:SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerTableNum
+  id: OwnerTableNum
+  parent: SuperOffice.CRM.ArchiveLists.PartialMatches
+  langs:
+  - csharp
+  - vb
+  name: OwnerTableNum
+  nameWithType: PartialMatches.OwnerTableNum
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerTableNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int OwnerTableNum
+    return:
+      type: System.Int32
+    content.vb: Public OwnerTableNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerIds
+  commentId: F:SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerIds
+  id: OwnerIds
+  parent: SuperOffice.CRM.ArchiveLists.PartialMatches
+  langs:
+  - csharp
+  - vb
+  name: OwnerIds
+  nameWithType: PartialMatches.OwnerIds
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches.OwnerIds
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public List<int> OwnerIds
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public OwnerIds As List(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.OtherTables
+  commentId: F:SuperOffice.CRM.ArchiveLists.PartialMatches.OtherTables
+  id: OtherTables
+  parent: SuperOffice.CRM.ArchiveLists.PartialMatches
+  langs:
+  - csharp
+  - vb
+  name: OtherTables
+  nameWithType: PartialMatches.OtherTables
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches.OtherTables
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public Dictionary<int, List<int>> OtherTables
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}
+    content.vb: Public OtherTables As Dictionary(Of Integer, List(Of Integer))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.#ctor(System.Int32,System.Collections.Generic.List{System.Int32})
+  commentId: M:SuperOffice.CRM.ArchiveLists.PartialMatches.#ctor(System.Int32,System.Collections.Generic.List{System.Int32})
+  id: '#ctor(System.Int32,System.Collections.Generic.List{System.Int32})'
+  parent: SuperOffice.CRM.ArchiveLists.PartialMatches
+  langs:
+  - csharp
+  - vb
+  name: PartialMatches(Int32, List<Int32>)
+  nameWithType: PartialMatches.PartialMatches(Int32, List<Int32>)
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches.PartialMatches(System.Int32, System.Collections.Generic.List<System.Int32>)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public PartialMatches(int ownerTableNum, List<int> ownerIds)
+    parameters:
+    - id: ownerTableNum
+      type: System.Int32
+    - id: ownerIds
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: Public Sub New(ownerTableNum As Integer, ownerIds As List(Of Integer))
+  overload: SuperOffice.CRM.ArchiveLists.PartialMatches.#ctor*
+  nameWithType.vb: PartialMatches.PartialMatches(Int32, List(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PartialMatches.PartialMatches(System.Int32, System.Collections.Generic.List(Of System.Int32))
+  name.vb: PartialMatches(Int32, List(Of Int32))
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.PartialMatches.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.PartialMatches
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PartialMatches.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.ArchiveLists.PartialMatches.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PartialMatches, To>()
+  nameWithType: EnumUtil.MapEnums<PartialMatches, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.PartialMatches, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PartialMatches, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.PartialMatches, To)()
+  name.vb: MapEnums(Of PartialMatches, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PartialMatches, To>
+    nameWithType: EnumUtil.MapEnums<PartialMatches, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.PartialMatches, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PartialMatches, To)
+    nameWithType: EnumUtil.MapEnums(Of PartialMatches, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.PartialMatches, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PartialMatches, To>()
+  nameWithType: Converters.MapEnums<PartialMatches, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.PartialMatches, To>()
+  nameWithType.vb: Converters.MapEnums(Of PartialMatches, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.PartialMatches, To)()
+  name.vb: MapEnums(Of PartialMatches, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PartialMatches, To>
+    nameWithType: Converters.MapEnums<PartialMatches, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.PartialMatches, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PartialMatches, To)
+    nameWithType: Converters.MapEnums(Of PartialMatches, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.PartialMatches, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: '!:System.Collections.Generic.List{System.Int32}'
+  definition: System.Collections.Generic.List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: System.Collections.Generic.List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: System.Collections.Generic.List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Int32}}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, List<Int32>>
+  nameWithType: Dictionary<Int32, List<Int32>>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, System.Collections.Generic.List<System.Int32>>
+  nameWithType.vb: Dictionary(Of Int32, List(Of Int32))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, System.Collections.Generic.List(Of System.Int32))
+  name.vb: Dictionary(Of Int32, List(Of Int32))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PartialMatches.#ctor
+  isExternal: true
+  name: PartialMatches
+  nameWithType: PartialMatches.PartialMatches
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches.PartialMatches
+- uid: SuperOffice.CRM.ArchiveLists.PartialMatches.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PartialMatches.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PartialMatches.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.PartialMatches.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

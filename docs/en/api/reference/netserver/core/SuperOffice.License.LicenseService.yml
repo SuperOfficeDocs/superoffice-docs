@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.License
   children:
   - SuperOffice.License.LicenseService.#ctor
+  - SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
+  - SuperOffice.License.LicenseService._licenseUrlOverride
   - SuperOffice.License.LicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
   - SuperOffice.License.LicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
   - SuperOffice.License.LicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
@@ -15,6 +17,8 @@ items:
   - SuperOffice.License.LicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
   - SuperOffice.License.LicenseService.MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
   - SuperOffice.License.LicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
+  - SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
+  - SuperOffice.License.LicenseService.SetTimeout(System.Int32)
   - SuperOffice.License.LicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
   langs:
   - csharp
@@ -34,6 +38,7 @@ items:
     content: 'public class LicenseService : WcfClientBase<ILicenseService>'
     content.vb: >-
       Public Class LicenseService
+
           Inherits WcfClientBase(Of ILicenseService)
   inheritance:
   - System.Object
@@ -48,6 +53,125 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.License.LicenseService._licenseUrlOverride
+  commentId: F:SuperOffice.License.LicenseService._licenseUrlOverride
+  id: _licenseUrlOverride
+  parent: SuperOffice.License.LicenseService
+  langs:
+  - csharp
+  - vb
+  name: _licenseUrlOverride
+  nameWithType: LicenseService._licenseUrlOverride
+  fullName: SuperOffice.License.LicenseService._licenseUrlOverride
+  type: Field
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: protected string _licenseUrlOverride
+    return:
+      type: System.String
+    content.vb: Protected _licenseUrlOverride As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
+  commentId: M:SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
+  id: SetLicenseUrlOverride(System.String)
+  parent: SuperOffice.License.LicenseService
+  langs:
+  - csharp
+  - vb
+  name: SetLicenseUrlOverride(String)
+  nameWithType: LicenseService.SetLicenseUrlOverride(String)
+  fullName: SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: "\nSet license URL override - used by windows ServerSetup and DbSetup\n"
+  syntax:
+    content: public void SetLicenseUrlOverride(string licenseUrlOverride)
+    parameters:
+    - id: licenseUrlOverride
+      type: System.String
+      description: Use this URL instead of the one on the license
+    content.vb: Public Sub SetLicenseUrlOverride(licenseUrlOverride As String)
+  overload: SuperOffice.License.LicenseService.SetLicenseUrlOverride*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.License.LicenseService.SetTimeout(System.Int32)
+  commentId: M:SuperOffice.License.LicenseService.SetTimeout(System.Int32)
+  id: SetTimeout(System.Int32)
+  parent: SuperOffice.License.LicenseService
+  langs:
+  - csharp
+  - vb
+  name: SetTimeout(Int32)
+  nameWithType: LicenseService.SetTimeout(Int32)
+  fullName: SuperOffice.License.LicenseService.SetTimeout(System.Int32)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: public void SetTimeout(int numSeconds)
+    parameters:
+    - id: numSeconds
+      type: System.Int32
+    content.vb: Public Sub SetTimeout(numSeconds As Integer)
+  overload: SuperOffice.License.LicenseService.SetTimeout*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
+  commentId: M:SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
+  id: _GetLicenseUrl(System.String)
+  parent: SuperOffice.License.LicenseService
+  langs:
+  - csharp
+  - vb
+  name: _GetLicenseUrl(String)
+  nameWithType: LicenseService._GetLicenseUrl(String)
+  fullName: SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: "\nReturn the potentially overridden license server URL. Checks appSettings &quot;SuperLicenseSvcUrl&quot; value for override.\n"
+  syntax:
+    content: public static string _GetLicenseUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: License URL we think we should call
+    return:
+      type: System.String
+      description: License URL we should actually call (usually the same as the input parameter)
+    content.vb: Public Shared Function _GetLicenseUrl(url As String) As String
+  overload: SuperOffice.License.LicenseService._GetLicenseUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.License.LicenseService.GetLicenseUrl(System.String)
   commentId: M:SuperOffice.License.LicenseService.GetLicenseUrl(System.String)
   id: GetLicenseUrl(System.String)
@@ -67,7 +191,7 @@ items:
   namespace: SuperOffice.License
   summary: "\nReturn the potentially overridden license server URL. Checks appSettings &quot;SuperLicenseSvcUrl&quot; value for override.\n"
   syntax:
-    content: public static string GetLicenseUrl(string url)
+    content: public string GetLicenseUrl(string url)
     parameters:
     - id: url
       type: System.String
@@ -75,14 +199,12 @@ items:
     return:
       type: System.String
       description: License URL we should actually call (usually the same as the input parameter)
-    content.vb: Public Shared Function GetLicenseUrl(url As String) As String
+    content.vb: Public Function GetLicenseUrl(url As String) As String
   overload: SuperOffice.License.LicenseService.GetLicenseUrl*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
 - uid: SuperOffice.License.LicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
   commentId: M:SuperOffice.License.LicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
   id: PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
@@ -787,12 +909,6 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.License.LicenseService.GetLicenseUrl*
-  commentId: Overload:SuperOffice.License.LicenseService.GetLicenseUrl
-  isExternal: true
-  name: GetLicenseUrl
-  nameWithType: LicenseService.GetLicenseUrl
-  fullName: SuperOffice.License.LicenseService.GetLicenseUrl
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -800,6 +916,37 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.License.LicenseService.SetLicenseUrlOverride*
+  commentId: Overload:SuperOffice.License.LicenseService.SetLicenseUrlOverride
+  isExternal: true
+  name: SetLicenseUrlOverride
+  nameWithType: LicenseService.SetLicenseUrlOverride
+  fullName: SuperOffice.License.LicenseService.SetLicenseUrlOverride
+- uid: SuperOffice.License.LicenseService.SetTimeout*
+  commentId: Overload:SuperOffice.License.LicenseService.SetTimeout
+  isExternal: true
+  name: SetTimeout
+  nameWithType: LicenseService.SetTimeout
+  fullName: SuperOffice.License.LicenseService.SetTimeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.License.LicenseService._GetLicenseUrl*
+  commentId: Overload:SuperOffice.License.LicenseService._GetLicenseUrl
+  isExternal: true
+  name: _GetLicenseUrl
+  nameWithType: LicenseService._GetLicenseUrl
+  fullName: SuperOffice.License.LicenseService._GetLicenseUrl
+- uid: SuperOffice.License.LicenseService.GetLicenseUrl*
+  commentId: Overload:SuperOffice.License.LicenseService.GetLicenseUrl
+  isExternal: true
+  name: GetLicenseUrl
+  nameWithType: LicenseService.GetLicenseUrl
+  fullName: SuperOffice.License.LicenseService.GetLicenseUrl
 - uid: SuperOffice.License.LicenseService.PingLicenseSystem*
   commentId: Overload:SuperOffice.License.LicenseService.PingLicenseSystem
   isExternal: true

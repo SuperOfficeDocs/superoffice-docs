@@ -15,13 +15,14 @@ items:
   - SuperOffice.Data.SQL.SqlType.IsSelect
   - SuperOffice.Data.SQL.SqlType.IsUnion
   - SuperOffice.Data.SQL.SqlType.IsUpdate
+  - SuperOffice.Data.SQL.SqlType.value__
   langs:
   - csharp
   - vb
   name: SqlType
   nameWithType: SqlType
   fullName: SuperOffice.Data.SQL.SqlType
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -30,19 +31,54 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\nEnum SqlType\n"
   syntax:
-    content: public enum SqlType
-    content.vb: Public Enum SqlType
+    content: 'public sealed class SqlType : Enum'
+    content.vb: >-
+      Public NotInheritable Class SqlType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SQL.SqlType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.SQL.SqlType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.SqlType)
-  - SuperOffice.Data.SQL.SqlType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.SQL.SqlType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SQL.SqlType.value__
+  commentId: F:SuperOffice.Data.SQL.SqlType.value__
+  id: value__
+  parent: SuperOffice.Data.SQL.SqlType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SqlType.value__
+  fullName: SuperOffice.Data.SQL.SqlType.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.SqlType.IsInsert
   commentId: F:SuperOffice.Data.SQL.SqlType.IsInsert
   id: IsInsert
@@ -62,9 +98,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsInsert = 0
+    content: public const SqlType IsInsert
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsInsert As SqlType
   modifiers.csharp:
   - public
   - const
@@ -90,9 +127,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsUpdate = 1
+    content: public const SqlType IsUpdate
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsUpdate As SqlType
   modifiers.csharp:
   - public
   - const
@@ -118,9 +156,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsDelete = 2
+    content: public const SqlType IsDelete
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsDelete As SqlType
   modifiers.csharp:
   - public
   - const
@@ -146,9 +185,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsSelect = 3
+    content: public const SqlType IsSelect
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsSelect As SqlType
   modifiers.csharp:
   - public
   - const
@@ -174,9 +214,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsUnion = 4
+    content: public const SqlType IsUnion
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsUnion As SqlType
   modifiers.csharp:
   - public
   - const
@@ -202,9 +243,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsIntersect = 5
+    content: public const SqlType IsIntersect
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsIntersect As SqlType
   modifiers.csharp:
   - public
   - const
@@ -230,9 +272,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsDifference = 6
+    content: public const SqlType IsDifference
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsDifference As SqlType
   modifiers.csharp:
   - public
   - const
@@ -258,9 +301,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\nIs this a raw sql command (clear text command)\n"
   syntax:
-    content: IsRaw = 7
+    content: public const SqlType IsRaw
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsRaw As SqlType
   modifiers.csharp:
   - public
   - const
@@ -286,9 +330,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\n\n"
   syntax:
-    content: IsNoType = 8
+    content: public const SqlType IsNoType
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsNoType As SqlType
   modifiers.csharp:
   - public
   - const
@@ -314,9 +359,10 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\nINSERT INTO &lt;targetTable> SELECT ... FROM &lt;sourceTable> ...\n"
   syntax:
-    content: IsInsertFromSelect = 9
+    content: public const SqlType IsInsertFromSelect
     return:
       type: SuperOffice.Data.SQL.SqlType
+    content.vb: Public Const IsInsertFromSelect As SqlType
   modifiers.csharp:
   - public
   - const
@@ -330,6 +376,13 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.SqlType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -357,84 +410,6 @@ references:
     name: MapEnums(Of SqlType, To)
     nameWithType: EnumUtil.MapEnums(Of SqlType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.SqlType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.SqlType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.SqlType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SqlType>(SqlType)
-  nameWithType: ObjectExtensions.AssignByReflection<SqlType>(SqlType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.SqlType>(SuperOffice.Data.SQL.SqlType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SqlType)(SqlType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.SqlType)(SuperOffice.Data.SQL.SqlType)
-  name.vb: AssignByReflection(Of SqlType)(SqlType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SqlType>
-    nameWithType: ObjectExtensions.AssignByReflection<SqlType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.SqlType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SqlType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SqlType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.SqlType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.SqlType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SqlType>()
-  nameWithType: ObjectExtensions.GraphCopy<SqlType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.SqlType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SqlType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.SqlType)()
-  name.vb: GraphCopy(Of SqlType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SqlType>
-    nameWithType: ObjectExtensions.GraphCopy<SqlType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.SqlType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SqlType)
-    nameWithType: ObjectExtensions.GraphCopy(Of SqlType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.SqlType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -476,6 +451,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -521,103 +502,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -664,18 +548,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SQL.SqlType
   commentId: T:SuperOffice.Data.SQL.SqlType
   parent: SuperOffice.Data.SQL

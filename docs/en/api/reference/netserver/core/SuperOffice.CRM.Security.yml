@@ -10,12 +10,13 @@ items:
   - SuperOffice.CRM.Security.AssociateSentryQueryInfo
   - SuperOffice.CRM.Security.ContactSentry
   - SuperOffice.CRM.Security.ContactSentryQueryInfo
+  - SuperOffice.CRM.Security.DashboardSentry
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardTileSentry
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   - SuperOffice.CRM.Security.DocDocumentSentry
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
   - SuperOffice.CRM.Security.EjCategoryCache
-  - SuperOffice.CRM.Security.EjCategoryCache.EjCategoryData
   - SuperOffice.CRM.Security.EOwnershipIndex
   - SuperOffice.CRM.Security.ErpConnectionAccessCache
   - SuperOffice.CRM.Security.FieldProperty
@@ -75,9 +76,12 @@ items:
   - SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
   - SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
   - SuperOffice.CRM.Security.SentryQueryContactTableUpdater
+  - SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
+  - SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDocumentTableUpdater
   - SuperOffice.CRM.Security.SentryQueryEjMessageTableUpdater
+  - SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater
   - SuperOffice.CRM.Security.SentryQueryInfo
   - SuperOffice.CRM.Security.SentryQueryInfo`1
   - SuperOffice.CRM.Security.SentryQueryKbEntryTableUpdater
@@ -97,16 +101,20 @@ items:
   - SuperOffice.CRM.Security.SentryQuerySelectionMemberTableUpdater
   - SuperOffice.CRM.Security.SentryQuerySelectionTableUpdater
   - SuperOffice.CRM.Security.SentryQueryTableUpdaterAttribute
+  - SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater
   - SuperOffice.CRM.Security.SentryQueryTicketLogActionTableUpdater
   - SuperOffice.CRM.Security.SentryQueryTicketLogChangeTableUpdater
   - SuperOffice.CRM.Security.SentryQueryTicketLogTableUpdater
   - SuperOffice.CRM.Security.SentryQueryTicketTableUpdater
   - SuperOffice.CRM.Security.SentryQueryUDefFieldTableUpdater
   - SuperOffice.CRM.Security.SentryQueryUpdater
+  - SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
   - SuperOffice.CRM.Security.SORPublishSentry
   - SuperOffice.CRM.Security.SORPublishSentryQueryInfo
   - SuperOffice.CRM.Security.TableRight
   - SuperOffice.CRM.Security.TableRights
+  - SuperOffice.CRM.Security.TargetAssignmentInfoSentry
+  - SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo
   - SuperOffice.CRM.Security.TicketSentry
   - SuperOffice.CRM.Security.TicketSentry.TicketIntent
   - SuperOffice.CRM.Security.TicketSentryQueryInfo
@@ -115,6 +123,8 @@ items:
   - SuperOffice.CRM.Security.UserGroupCache
   - SuperOffice.CRM.Security.UserGroupCache.GroupRelation
   - SuperOffice.CRM.Security.VisibleForSentryHelper
+  - SuperOffice.CRM.Security.WorkflowSentry
+  - SuperOffice.CRM.Security.WorkflowSentryQueryInfo
   langs:
   - csharp
   - vb
@@ -139,13 +149,6 @@ references:
   name: FieldPropertyDictionary
   nameWithType: FieldPropertyDictionary
   fullName: SuperOffice.CRM.Security.FieldPropertyDictionary
-- uid: SuperOffice.CRM.Security.FieldRight
-  commentId: T:SuperOffice.CRM.Security.FieldRight
-  parent: SuperOffice.CRM.Security
-  isExternal: true
-  name: FieldRight
-  nameWithType: FieldRight
-  fullName: SuperOffice.CRM.Security.FieldRight
 - uid: SuperOffice.CRM.Security.EOwnershipIndex
   commentId: T:SuperOffice.CRM.Security.EOwnershipIndex
   parent: SuperOffice.CRM.Security
@@ -174,6 +177,13 @@ references:
   name: TableRight
   nameWithType: TableRight
   fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
 - uid: SuperOffice.CRM.Security.FunctionRight
   commentId: T:SuperOffice.CRM.Security.FunctionRight
   isExternal: true
@@ -286,6 +296,30 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Security.DashboardSentry
+  commentId: T:SuperOffice.CRM.Security.DashboardSentry
+  isExternal: true
+  name: DashboardSentry
+  nameWithType: DashboardSentry
+  fullName: SuperOffice.CRM.Security.DashboardSentry
+- uid: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
+  isExternal: true
+  name: SentryQueryDashBoardTableUpdater
+  nameWithType: SentryQueryDashBoardTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
+- uid: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
+  isExternal: true
+  name: SentryQueryDashboardTileTableUpdater
+  nameWithType: SentryQueryDashboardTileTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  isExternal: true
+  name: DashboardSentryQueryInfo
+  nameWithType: DashboardSentryQueryInfo
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo
 - uid: SuperOffice.CRM.Security.DashboardTileSentry
   commentId: T:SuperOffice.CRM.Security.DashboardTileSentry
   isExternal: true
@@ -415,12 +449,6 @@ references:
   name: EjCategoryCache
   nameWithType: EjCategoryCache
   fullName: SuperOffice.CRM.Security.EjCategoryCache
-- uid: SuperOffice.CRM.Security.EjCategoryCache.EjCategoryData
-  commentId: T:SuperOffice.CRM.Security.EjCategoryCache.EjCategoryData
-  isExternal: true
-  name: EjCategoryCache.EjCategoryData
-  nameWithType: EjCategoryCache.EjCategoryData
-  fullName: SuperOffice.CRM.Security.EjCategoryCache.EjCategoryData
 - uid: SuperOffice.CRM.Security.ErpConnectionAccessCache
   commentId: T:SuperOffice.CRM.Security.ErpConnectionAccessCache
   parent: SuperOffice.CRM.Security
@@ -910,6 +938,24 @@ references:
   name: FieldRights
   nameWithType: FieldRights
   fullName: SuperOffice.CRM.Security.FieldRights
+- uid: SuperOffice.CRM.Security.TargetAssignmentInfoSentry
+  commentId: T:SuperOffice.CRM.Security.TargetAssignmentInfoSentry
+  isExternal: true
+  name: TargetAssignmentInfoSentry
+  nameWithType: TargetAssignmentInfoSentry
+  fullName: SuperOffice.CRM.Security.TargetAssignmentInfoSentry
+- uid: SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater
+  isExternal: true
+  name: SentryQueryTargetAssignmentInfoTableUpdater
+  nameWithType: SentryQueryTargetAssignmentInfoTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryTargetAssignmentInfoTableUpdater
+- uid: SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo
+  isExternal: true
+  name: TargetAssignmentInfoSentryQueryInfo
+  nameWithType: TargetAssignmentInfoSentryQueryInfo
+  fullName: SuperOffice.CRM.Security.TargetAssignmentInfoSentryQueryInfo
 - uid: SuperOffice.CRM.Security.TicketSentry
   commentId: T:SuperOffice.CRM.Security.TicketSentry
   isExternal: true
@@ -997,6 +1043,30 @@ references:
   name: VisibleForSentryHelper
   nameWithType: VisibleForSentryHelper
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper
+- uid: SuperOffice.CRM.Security.WorkflowSentry
+  commentId: T:SuperOffice.CRM.Security.WorkflowSentry
+  isExternal: true
+  name: WorkflowSentry
+  nameWithType: WorkflowSentry
+  fullName: SuperOffice.CRM.Security.WorkflowSentry
+- uid: SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
+  isExternal: true
+  name: SentryQueryWorkflowTableUpdater
+  nameWithType: SentryQueryWorkflowTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryWorkflowTableUpdater
+- uid: SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater
+  isExternal: true
+  name: SentryQueryEmailFlowTableUpdater
+  nameWithType: SentryQueryEmailFlowTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryEmailFlowTableUpdater
+- uid: SuperOffice.CRM.Security.WorkflowSentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.WorkflowSentryQueryInfo
+  isExternal: true
+  name: WorkflowSentryQueryInfo
+  nameWithType: WorkflowSentryQueryInfo
+  fullName: SuperOffice.CRM.Security.WorkflowSentryQueryInfo
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true

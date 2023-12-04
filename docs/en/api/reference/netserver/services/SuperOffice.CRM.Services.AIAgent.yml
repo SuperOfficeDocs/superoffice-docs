@@ -8,10 +8,22 @@ items:
   - SuperOffice.CRM.Services.AIAgent.#ctor
   - SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
   - SuperOffice.CRM.Services.AIAgent.DetectSentiment(System.String)
+  - SuperOffice.CRM.Services.AIAgent.ExpandText(System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.AIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+  - SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
   - SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
   - SuperOffice.CRM.Services.AIAgent.GuessCategory(System.Int32)
+  - SuperOffice.CRM.Services.AIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+  - SuperOffice.CRM.Services.AIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.AIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.AIAgent.SummarizeText(System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Services.AIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.AIAgent.Translate(System.String,System.String)
+  - SuperOffice.CRM.Services.AIAgent.TranslateEntity(System.String,System.Int32,System.String)
   langs:
   - csharp
   - vb
@@ -46,19 +58,336 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeText(System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.SummarizeText(System.String,System.Int32,System.String)
+  id: SummarizeText(System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: SummarizeText(String, Int32, String)
+  nameWithType: AIAgent.SummarizeText(String, Int32, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeText(System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate a short summary of a text\n"
+  syntax:
+    content: public string SummarizeText(string text, int percentSmaller, string isoLangCode)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to summarize
+    - id: percentSmaller
+      type: System.Int32
+      description: How much to shorten.
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    return:
+      type: System.String
+      description: Short summary of the text
+    content.vb: Public Function SummarizeText(text As String, percentSmaller As Integer, isoLangCode As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.SummarizeText*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.ExpandText(System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.ExpandText(System.String,System.Int32,System.String)
+  id: ExpandText(System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: ExpandText(String, Int32, String)
+  nameWithType: AIAgent.ExpandText(String, Int32, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.ExpandText(System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate a longer version of a text\n"
+  syntax:
+    content: public string ExpandText(string text, int percentBigger, string isoLangCode)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to embiggen
+    - id: percentBigger
+      type: System.Int32
+      description: How much to embiggen.
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    return:
+      type: System.String
+      description: Expanded version of the text
+    content.vb: Public Function ExpandText(text As String, percentBigger As Integer, isoLangCode As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.ExpandText*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+  id: RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: RephraseText(String, AiTextStyle, String)
+  nameWithType: AIAgent.RephraseText(String, AiTextStyle, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.RephraseText(System.String, SuperOffice.Data.AiTextStyle, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate a new version of a text\n"
+  syntax:
+    content: public string RephraseText(string text, AiTextStyle style, string isoLangCode)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to transform
+    - id: style
+      type: SuperOffice.Data.AiTextStyle
+      description: New style to transform text into (Rephrase, Correct, Casual, Formal)
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    return:
+      type: System.String
+      description: New version of the text
+    content.vb: Public Function RephraseText(text As String, style As AiTextStyle, isoLangCode As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.RephraseText*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
+  id: GetTrainingStatus
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTrainingStatus()
+  nameWithType: AIAgent.GetTrainingStatus()
+  fullName: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCalling the HugoAI endpoint to fetch the current training status.\n"
+  syntax:
+    content: public CategorizationStatusResponse GetTrainingStatus()
+    return:
+      type: SuperOffice.CRM.Services.CategorizationStatusResponse
+      description: Carrier to describe the current status of HugoAI categorization
+    content.vb: Public Function GetTrainingStatus As CategorizationStatusResponse
+  overload: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.GuessCategory(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GuessCategory(System.Int32)
+  id: GuessCategory(System.Int32)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GuessCategory(Int32)
+  nameWithType: AIAgent.GuessCategory(Int32)
+  fullName: SuperOffice.CRM.Services.AIAgent.GuessCategory(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGiven a ticket&apos;s id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket\n"
+  syntax:
+    content: public int GuessCategory(int ticketId)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: Id of ticket to guess category for
+    return:
+      type: System.Int32
+      description: Suggested ticket category ID
+    content.vb: Public Function GuessCategory(ticketId As Integer) As Integer
+  overload: SuperOffice.CRM.Services.AIAgent.GuessCategory*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  id: TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: TrainCategoryGuesser(Int32, Int32, Int32)
+  nameWithType: AIAgent.TrainCategoryGuesser(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call\n"
+  syntax:
+    content: public string TrainCategoryGuesser(int selectionId, int maxItems, int maxTextLength)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of selection of tickets, to retrieve training data from
+    - id: maxItems
+      type: System.Int32
+      description: Maximum number of tickets to retrieve data from
+    - id: maxTextLength
+      type: System.Int32
+      description: Maximum length of PlainTextBody or any other large text, truncated to nearest word boundary
+    return:
+      type: System.String
+      description: Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
+    content.vb: Public Function TrainCategoryGuesser(selectionId As Integer, maxItems As Integer, maxTextLength As Integer) As String
+  overload: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+  id: GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatbotResponse(String, String, String, ChatbotTurn[])
+  nameWithType: AIAgent.GetChatbotResponse(String, String, String, ChatbotTurn[])
+  fullName: SuperOffice.CRM.Services.AIAgent.GetChatbotResponse(System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn a chatbot response given prompt and previous turns\n"
+  syntax:
+    content: public ChatbotTurn GetChatbotResponse(string isoLangCode, string userPrompt, string displayValue, ChatbotTurn[] previousTurns)
+    parameters:
+    - id: isoLangCode
+      type: System.String
+      description: ISO2 Language code (&apos;en&apos;, &apos;no&apos;, &apos;de&apos;...) for suggestions in response
+    - id: userPrompt
+      type: System.String
+      description: User question for chatbot
+    - id: displayValue
+      type: System.String
+      description: User question for display - optional
+    - id: previousTurns
+      type: SuperOffice.CRM.Services.ChatbotTurn[]
+      description: Chat history - previous turns in chronological order
+    return:
+      type: SuperOffice.CRM.Services.ChatbotTurn
+      description: Returns new turn that client can append to the history.
+    content.vb: Public Function GetChatbotResponse(isoLangCode As String, userPrompt As String, displayValue As String, previousTurns As ChatbotTurn()) As ChatbotTurn
+  overload: SuperOffice.CRM.Services.AIAgent.GetChatbotResponse*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+  nameWithType.vb: AIAgent.GetChatbotResponse(String, String, String, ChatbotTurn())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.AIAgent.GetChatbotResponse(System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn())
+  name.vb: GetChatbotResponse(String, String, String, ChatbotTurn())
+- uid: SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  id: GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatbotPromptSuggestions(String, String, Int32, Int32, Int32)
+  nameWithType: AIAgent.GetChatbotPromptSuggestions(String, String, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions(System.String, System.String, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn one or more suggested prompts as actions to display in an empty chat window\n"
+  syntax:
+    content: public ChatbotTurn GetChatbotPromptSuggestions(string isoLangCode, string soProtocol, int currentContactId, int currentPersonId, int currentProjectId)
+    parameters:
+    - id: isoLangCode
+      type: System.String
+      description: ISO2 Language code (&apos;en&apos;, &apos;no&apos;, &apos;de&apos;...) for suggestions in response
+    - id: soProtocol
+      type: System.String
+      description: Context for suggestions (&apos;contact.main.activities&apos;)
+    - id: currentContactId
+      type: System.Int32
+      description: current company id - used for context
+    - id: currentPersonId
+      type: System.Int32
+      description: current person id - used for context
+    - id: currentProjectId
+      type: System.Int32
+      description: current project id - used for context
+    return:
+      type: SuperOffice.CRM.Services.ChatbotTurn
+      description: Contains zero or more BotActions, and welcome message in Bot response
+    content.vb: Public Function GetChatbotPromptSuggestions(isoLangCode As String, soProtocol As String, currentContactId As Integer, currentPersonId As Integer, currentProjectId As Integer) As ChatbotTurn
+  overload: SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
   commentId: M:SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
   id: DetectLanguage(System.String)
@@ -155,7 +484,7 @@ items:
       description: Text to be translated. Language of the text is automatically detected.
     - id: targetLanguage
       type: System.String
-      description: ISO Language code (such as FR) to translate the text into.
+      description: ISO Language code (such as FR) to translate the text into
     return:
       type: System.String
       description: Translated text
@@ -167,16 +496,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.AIAgent.GuessCategory(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.AIAgent.GuessCategory(System.Int32)
-  id: GuessCategory(System.Int32)
+- uid: SuperOffice.CRM.Services.AIAgent.TranslateEntity(System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.TranslateEntity(System.String,System.Int32,System.String)
+  id: TranslateEntity(System.String,System.Int32,System.String)
   parent: SuperOffice.CRM.Services.AIAgent
   langs:
   - csharp
   - vb
-  name: GuessCategory(Int32)
-  nameWithType: AIAgent.GuessCategory(Int32)
-  fullName: SuperOffice.CRM.Services.AIAgent.GuessCategory(System.Int32)
+  name: TranslateEntity(String, Int32, String)
+  nameWithType: AIAgent.TranslateEntity(String, Int32, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.TranslateEntity(System.String, System.Int32, System.String)
   type: Method
   source:
     path: SuperOffice.Services
@@ -184,75 +513,81 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGiven a ticket&apos;s id, guess the ticket category it should be placed in. Currently this is based on the first message in the ticket\n"
+  summary: "\nRetrieve, format and translate text for an entity to a specified language\n"
   syntax:
-    content: public int GuessCategory(int ticketId)
+    content: public string TranslateEntity(string entityName, int entityId, string targetLanguage)
+    parameters:
+    - id: entityName
+      type: System.String
+      description: Name of entity to get the text to be translated; eg., &apos;ticketMessage&apos;
+    - id: entityId
+      type: System.Int32
+      description: Identifier for the entity to get text to be translated
+    - id: targetLanguage
+      type: System.String
+      description: ISO Language code (such as FR) to translate the text into
+    return:
+      type: System.String
+      description: Translated text
+    content.vb: Public Function TranslateEntity(entityName As String, entityId As Integer, targetLanguage As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.TranslateEntity*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
+  id: SummarizeTicket(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: SummarizeTicket(Int32, Int32, String)
+  nameWithType: AIAgent.SummarizeTicket(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeTicket(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate a short summary of the messages on a ticket\n"
+  syntax:
+    content: public string SummarizeTicket(int ticketId, int numSentences, string isoLangCode)
     parameters:
     - id: ticketId
       type: System.Int32
-      description: Id of ticket to guess category for
-    return:
+      description: Ticket id to summarize
+    - id: numSentences
       type: System.Int32
-      description: Suggested ticket category ID
-    content.vb: Public Function GuessCategory(ticketId As Integer) As Integer
-  overload: SuperOffice.CRM.Services.AIAgent.GuessCategory*
-  implements:
-  - SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-  id: TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Services.AIAgent
-  langs:
-  - csharp
-  - vb
-  name: TrainCategoryGuesser(Int32, Int32, Int32)
-  nameWithType: AIAgent.TrainCategoryGuesser(Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser(System.Int32, System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nThe category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call\n"
-  syntax:
-    content: public string TrainCategoryGuesser(int selectionId, int maxItems, int maxTextLength)
-    parameters:
-    - id: selectionId
-      type: System.Int32
-      description: Id of selection of tickets, to retrieve training data from
-    - id: maxItems
-      type: System.Int32
-      description: Maximum number of tickets to retrieve data from
-    - id: maxTextLength
-      type: System.Int32
-      description: Maximum length of PlainTextBody or any other large text, truncated to nearest word boundary
+      description: Length of summary
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in
     return:
       type: System.String
-      description: Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
-    content.vb: Public Function TrainCategoryGuesser(selectionId As Integer, maxItems As Integer, maxTextLength As Integer) As String
-  overload: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser*
+      description: Short summary of the messages on a ticket - in HTML.
+    content.vb: Public Function SummarizeTicket(ticketId As Integer, numSentences As Integer, isoLangCode As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.SummarizeTicket*
   implements:
-  - SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
-  commentId: M:SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
-  id: GetTrainingStatus
+- uid: SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
+  id: GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
   parent: SuperOffice.CRM.Services.AIAgent
   langs:
   - csharp
   - vb
-  name: GetTrainingStatus()
-  nameWithType: AIAgent.GetTrainingStatus()
-  fullName: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus()
+  name: GetSummarizeTicketPrompt(Int32, Int32, String, String)
+  nameWithType: AIAgent.GetSummarizeTicketPrompt(Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt(System.Int32, System.Int32, System.String, System.String)
   type: Method
   source:
     path: SuperOffice.Services
@@ -260,16 +595,199 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCalling the HugoAI endpoint to fetch the current training status.\n"
+  summary: "\nReturn the prompt used to get a short summary of the messages on a ticket. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
   syntax:
-    content: public CategorizationStatusResponse GetTrainingStatus()
+    content: public ChatbotTurn GetSummarizeTicketPrompt(int ticketId, int numSentences, string summary, string isoLangCode)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: Ticket id to summarize
+    - id: numSentences
+      type: System.Int32
+      description: Length of summary
+    - id: summary
+      type: System.String
+      description: Chatbot&apos;s summary of the ticket
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in
     return:
-      type: SuperOffice.CRM.Services.CategorizationStatusResponse
-      description: Carrier to describe the current status of HugoAI categorization
-    content.vb: Public Function GetTrainingStatus As CategorizationStatusResponse
-  overload: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus*
+      type: SuperOffice.CRM.Services.ChatbotTurn
+      description: Display text and Prompt used to generate a short summary of the messages on a ticket.
+    content.vb: Public Function GetSummarizeTicketPrompt(ticketId As Integer, numSentences As Integer, summary As String, isoLangCode As String) As ChatbotTurn
+  overload: SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt*
   implements:
-  - SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+  id: SummarizeContact(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: SummarizeContact(Int32, Int32, String)
+  nameWithType: AIAgent.SummarizeContact(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeContact(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate a short summary of the activities on a contact\n"
+  syntax:
+    content: public string SummarizeContact(int contactId, int numSentences, string isoLangCode)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id to summarize
+    - id: numSentences
+      type: System.Int32
+      description: Length of summary
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    return:
+      type: System.String
+      description: Short summary of the activities on a contact - in HTML.
+    content.vb: Public Function SummarizeContact(contactId As Integer, numSentences As Integer, isoLangCode As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.SummarizeContact*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+  id: GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSummarizeContactPrompt(Int32, Int32, String, String)
+  nameWithType: AIAgent.GetSummarizeContactPrompt(Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt(System.Int32, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the prompt used to get a short summary of the activities on a contact. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
+  syntax:
+    content: public ChatbotTurn GetSummarizeContactPrompt(int contactId, int numSentences, string summary, string isoLangCode)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id to summarize
+    - id: numSentences
+      type: System.Int32
+      description: Length of summary
+    - id: summary
+      type: System.String
+      description: Chatbot&apos;s summary of the contact activities
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    return:
+      type: SuperOffice.CRM.Services.ChatbotTurn
+      description: Display text and Prompt used to generate a short summary of the activities on a contact.
+    content.vb: Public Function GetSummarizeContactPrompt(contactId As Integer, numSentences As Integer, summary As String, isoLangCode As String) As ChatbotTurn
+  overload: SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+  id: SummarizeSale(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: SummarizeSale(Int32, Int32, String)
+  nameWithType: AIAgent.SummarizeSale(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeSale(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate a short summary of the activities on a sale\n"
+  syntax:
+    content: public string SummarizeSale(int saleId, int numSentences, string isoLangCode)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Sale id to summarize
+    - id: numSentences
+      type: System.Int32
+      description: Length of summary
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in. Blank = do not specify language.
+    return:
+      type: System.String
+      description: Short summary of the activities on a sale - in HTML.
+    content.vb: Public Function SummarizeSale(saleId As Integer, numSentences As Integer, isoLangCode As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.SummarizeSale*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+  id: GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSummarizeSalePrompt(Int32, Int32, String, String)
+  nameWithType: AIAgent.GetSummarizeSalePrompt(Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt(System.Int32, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the prompt used to get a short summary of the activities on a sale. Does not call the chatbot for a response. Used for transfering a summary to a chat session.\n"
+  syntax:
+    content: public ChatbotTurn GetSummarizeSalePrompt(int saleId, int numSentences, string summary, string isoLangCode)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Sale id to summarize
+    - id: numSentences
+      type: System.Int32
+      description: Length of summary
+    - id: summary
+      type: System.String
+      description: Chatbot&apos;s summary of the sale activities
+    - id: isoLangCode
+      type: System.String
+      description: Language returned text should be in
+    return:
+      type: SuperOffice.CRM.Services.ChatbotTurn
+      description: Display text and Prompt used to generate a short summary of the activities on a sale.
+    content.vb: Public Function GetSummarizeSalePrompt(saleId As Integer, numSentences As Integer, summary As String, isoLangCode As String) As ChatbotTurn
+  overload: SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -306,13 +824,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}
   parent: SuperOffice.CRM.Services
@@ -358,8 +869,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -420,291 +929,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAIAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IAIAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAIAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -784,6 +1008,686 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of TAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeText*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.SummarizeText
+  isExternal: true
+  name: SummarizeText
+  nameWithType: AIAgent.SummarizeText
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeText
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: SummarizeText(String, Int32, String)
+  nameWithType: IAIAgent.SummarizeText(String, Int32, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
+    name: SummarizeText
+    nameWithType: IAIAgent.SummarizeText
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeText(System.String,System.Int32,System.String)
+    name: SummarizeText
+    nameWithType: IAIAgent.SummarizeText
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AIAgent.ExpandText*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.ExpandText
+  isExternal: true
+  name: ExpandText
+  nameWithType: AIAgent.ExpandText
+  fullName: SuperOffice.CRM.Services.AIAgent.ExpandText
+- uid: SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: ExpandText(String, Int32, String)
+  nameWithType: IAIAgent.ExpandText(String, Int32, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
+    name: ExpandText
+    nameWithType: IAIAgent.ExpandText
+    fullName: SuperOffice.CRM.Services.IAIAgent.ExpandText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.ExpandText(System.String,System.Int32,System.String)
+    name: ExpandText
+    nameWithType: IAIAgent.ExpandText
+    fullName: SuperOffice.CRM.Services.IAIAgent.ExpandText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.RephraseText*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.RephraseText
+  isExternal: true
+  name: RephraseText
+  nameWithType: AIAgent.RephraseText
+  fullName: SuperOffice.CRM.Services.AIAgent.RephraseText
+- uid: SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: RephraseText(String, AiTextStyle, String)
+  nameWithType: IAIAgent.RephraseText(String, AiTextStyle, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String, SuperOffice.Data.AiTextStyle, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+    name: RephraseText
+    nameWithType: IAIAgent.RephraseText
+    fullName: SuperOffice.CRM.Services.IAIAgent.RephraseText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AiTextStyle
+    name: AiTextStyle
+    nameWithType: AiTextStyle
+    fullName: SuperOffice.Data.AiTextStyle
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.RephraseText(System.String,SuperOffice.Data.AiTextStyle,System.String)
+    name: RephraseText
+    nameWithType: IAIAgent.RephraseText
+    fullName: SuperOffice.CRM.Services.IAIAgent.RephraseText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AiTextStyle
+    name: AiTextStyle
+    nameWithType: AiTextStyle
+    fullName: SuperOffice.Data.AiTextStyle
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AiTextStyle
+  isExternal: true
+  name: AiTextStyle
+  nameWithType: AiTextStyle
+  fullName: SuperOffice.Data.AiTextStyle
+- uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
+  isExternal: true
+  name: GetTrainingStatus
+  nameWithType: AIAgent.GetTrainingStatus
+  fullName: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
+- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: GetTrainingStatus()
+  nameWithType: IAIAgent.GetTrainingStatus()
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+    name: GetTrainingStatus
+    nameWithType: IAIAgent.GetTrainingStatus
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+    name: GetTrainingStatus
+    nameWithType: IAIAgent.GetTrainingStatus
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+  commentId: T:SuperOffice.CRM.Services.CategorizationStatusResponse
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CategorizationStatusResponse
+  nameWithType: CategorizationStatusResponse
+  fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
+- uid: SuperOffice.CRM.Services.AIAgent.GuessCategory*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GuessCategory
+  isExternal: true
+  name: GuessCategory
+  nameWithType: AIAgent.GuessCategory
+  fullName: SuperOffice.CRM.Services.AIAgent.GuessCategory
+- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: GuessCategory(Int32)
+  nameWithType: IAIAgent.GuessCategory(Int32)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+    name: GuessCategory
+    nameWithType: IAIAgent.GuessCategory
+    fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+    name: GuessCategory
+    nameWithType: IAIAgent.GuessCategory
+    fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser
+  isExternal: true
+  name: TrainCategoryGuesser
+  nameWithType: AIAgent.TrainCategoryGuesser
+  fullName: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: TrainCategoryGuesser(Int32, Int32, Int32)
+  nameWithType: IAIAgent.TrainCategoryGuesser(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+    name: TrainCategoryGuesser
+    nameWithType: IAIAgent.TrainCategoryGuesser
+    fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+    name: TrainCategoryGuesser
+    nameWithType: IAIAgent.TrainCategoryGuesser
+    fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.GetChatbotResponse*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetChatbotResponse
+  isExternal: true
+  name: GetChatbotResponse
+  nameWithType: AIAgent.GetChatbotResponse
+  fullName: SuperOffice.CRM.Services.AIAgent.GetChatbotResponse
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: GetChatbotResponse(String, String, String, ChatbotTurn[])
+  nameWithType: IAIAgent.GetChatbotResponse(String, String, String, ChatbotTurn[])
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn[])
+  nameWithType.vb: IAIAgent.GetChatbotResponse(String, String, String, ChatbotTurn())
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String, System.String, System.String, SuperOffice.CRM.Services.ChatbotTurn())
+  name.vb: GetChatbotResponse(String, String, String, ChatbotTurn())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+    name: GetChatbotResponse
+    nameWithType: IAIAgent.GetChatbotResponse
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse(System.String,System.String,System.String,SuperOffice.CRM.Services.ChatbotTurn[])
+    name: GetChatbotResponse
+    nameWithType: IAIAgent.GetChatbotResponse
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatbotTurn[]
+  isExternal: true
+  name: ChatbotTurn[]
+  nameWithType: ChatbotTurn[]
+  fullName: SuperOffice.CRM.Services.ChatbotTurn[]
+  nameWithType.vb: ChatbotTurn()
+  fullName.vb: SuperOffice.CRM.Services.ChatbotTurn()
+  name.vb: ChatbotTurn()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.CRM.Services.ChatbotTurn
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ChatbotTurn
+  commentId: T:SuperOffice.CRM.Services.ChatbotTurn
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatbotTurn
+  nameWithType: ChatbotTurn
+  fullName: SuperOffice.CRM.Services.ChatbotTurn
+- uid: SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions
+  isExternal: true
+  name: GetChatbotPromptSuggestions
+  nameWithType: AIAgent.GetChatbotPromptSuggestions
+  fullName: SuperOffice.CRM.Services.AIAgent.GetChatbotPromptSuggestions
+- uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: GetChatbotPromptSuggestions(String, String, Int32, Int32, Int32)
+  nameWithType: IAIAgent.GetChatbotPromptSuggestions(String, String, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String, System.String, System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+    name: GetChatbotPromptSuggestions
+    nameWithType: IAIAgent.GetChatbotPromptSuggestions
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions(System.String,System.String,System.Int32,System.Int32,System.Int32)
+    name: GetChatbotPromptSuggestions
+    nameWithType: IAIAgent.GetChatbotPromptSuggestions
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetChatbotPromptSuggestions
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AIAgent.DetectLanguage*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.DetectLanguage
   isExternal: true
@@ -831,13 +1735,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: SuperOffice.CRM.Services.AIAgent.DetectSentiment*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.DetectSentiment
   isExternal: true
@@ -955,78 +1852,103 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.AIAgent.GuessCategory*
-  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GuessCategory
+- uid: SuperOffice.CRM.Services.AIAgent.TranslateEntity*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.TranslateEntity
   isExternal: true
-  name: GuessCategory
-  nameWithType: AIAgent.GuessCategory
-  fullName: SuperOffice.CRM.Services.AIAgent.GuessCategory
-- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  name: TranslateEntity
+  nameWithType: AIAgent.TranslateEntity
+  fullName: SuperOffice.CRM.Services.AIAgent.TranslateEntity
+- uid: SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IAIAgent
   isExternal: true
-  name: GuessCategory(Int32)
-  nameWithType: IAIAgent.GuessCategory(Int32)
-  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
+  name: TranslateEntity(String, Int32, String)
+  nameWithType: IAIAgent.TranslateEntity(String, Int32, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String, System.Int32, System.String)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
-    name: GuessCategory
-    nameWithType: IAIAgent.GuessCategory
-    fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
+  - uid: SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
+    name: TranslateEntity
+    nameWithType: IAIAgent.TranslateEntity
+    fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntity
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.Int32)
-    name: GuessCategory
-    nameWithType: IAIAgent.GuessCategory
-    fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
+  - uid: SuperOffice.CRM.Services.IAIAgent.TranslateEntity(System.String,System.Int32,System.String)
+    name: TranslateEntity
+    nameWithType: IAIAgent.TranslateEntity
+    fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntity
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeTicket*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.SummarizeTicket
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser*
-  commentId: Overload:SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser
-  isExternal: true
-  name: TrainCategoryGuesser
-  nameWithType: AIAgent.TrainCategoryGuesser
-  fullName: SuperOffice.CRM.Services.AIAgent.TrainCategoryGuesser
-- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
+  name: SummarizeTicket
+  nameWithType: AIAgent.SummarizeTicket
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeTicket
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IAIAgent
   isExternal: true
-  name: TrainCategoryGuesser(Int32, Int32, Int32)
-  nameWithType: IAIAgent.TrainCategoryGuesser(Int32, Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32, System.Int32, System.Int32)
+  name: SummarizeTicket(Int32, Int32, String)
+  nameWithType: IAIAgent.SummarizeTicket(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32, System.Int32, System.String)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-    name: TrainCategoryGuesser
-    nameWithType: IAIAgent.TrainCategoryGuesser
-    fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
+    name: SummarizeTicket
+    nameWithType: IAIAgent.SummarizeTicket
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket
     isExternal: true
   - name: (
     nameWithType: (
@@ -1047,19 +1969,19 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser(System.Int32,System.Int32,System.Int32)
-    name: TrainCategoryGuesser
-    nameWithType: IAIAgent.TrainCategoryGuesser
-    fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategoryGuesser
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket(System.Int32,System.Int32,System.String)
+    name: SummarizeTicket
+    nameWithType: IAIAgent.SummarizeTicket
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeTicket
     isExternal: true
   - name: (
     nameWithType: (
@@ -1080,58 +2002,457 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus*
-  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
+- uid: SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt
   isExternal: true
-  name: GetTrainingStatus
-  nameWithType: AIAgent.GetTrainingStatus
-  fullName: SuperOffice.CRM.Services.AIAgent.GetTrainingStatus
-- uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
-  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  name: GetSummarizeTicketPrompt
+  nameWithType: AIAgent.GetSummarizeTicketPrompt
+  fullName: SuperOffice.CRM.Services.AIAgent.GetSummarizeTicketPrompt
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
   parent: SuperOffice.CRM.Services.IAIAgent
   isExternal: true
-  name: GetTrainingStatus()
-  nameWithType: IAIAgent.GetTrainingStatus()
-  fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus()
+  name: GetSummarizeTicketPrompt(Int32, Int32, String, String)
+  nameWithType: IAIAgent.GetSummarizeTicketPrompt(Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32, System.Int32, System.String, System.String)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
-    name: GetTrainingStatus
-    nameWithType: IAIAgent.GetTrainingStatus
-    fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
+    name: GetSummarizeTicketPrompt
+    nameWithType: IAIAgent.GetSummarizeTicketPrompt
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
-    name: GetTrainingStatus
-    nameWithType: IAIAgent.GetTrainingStatus
-    fullName: SuperOffice.CRM.Services.IAIAgent.GetTrainingStatus
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt(System.Int32,System.Int32,System.String,System.String)
+    name: GetSummarizeTicketPrompt
+    nameWithType: IAIAgent.GetSummarizeTicketPrompt
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.CategorizationStatusResponse
-  commentId: T:SuperOffice.CRM.Services.CategorizationStatusResponse
-  parent: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeContact*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.SummarizeContact
   isExternal: true
-  name: CategorizationStatusResponse
-  nameWithType: CategorizationStatusResponse
-  fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
+  name: SummarizeContact
+  nameWithType: AIAgent.SummarizeContact
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeContact
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: SummarizeContact(Int32, Int32, String)
+  nameWithType: IAIAgent.SummarizeContact(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+    name: SummarizeContact
+    nameWithType: IAIAgent.SummarizeContact
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeContact(System.Int32,System.Int32,System.String)
+    name: SummarizeContact
+    nameWithType: IAIAgent.SummarizeContact
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt
+  isExternal: true
+  name: GetSummarizeContactPrompt
+  nameWithType: AIAgent.GetSummarizeContactPrompt
+  fullName: SuperOffice.CRM.Services.AIAgent.GetSummarizeContactPrompt
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: GetSummarizeContactPrompt(Int32, Int32, String, String)
+  nameWithType: IAIAgent.GetSummarizeContactPrompt(Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32, System.Int32, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+    name: GetSummarizeContactPrompt
+    nameWithType: IAIAgent.GetSummarizeContactPrompt
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt(System.Int32,System.Int32,System.String,System.String)
+    name: GetSummarizeContactPrompt
+    nameWithType: IAIAgent.GetSummarizeContactPrompt
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.SummarizeSale*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.SummarizeSale
+  isExternal: true
+  name: SummarizeSale
+  nameWithType: AIAgent.SummarizeSale
+  fullName: SuperOffice.CRM.Services.AIAgent.SummarizeSale
+- uid: SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: SummarizeSale(Int32, Int32, String)
+  nameWithType: IAIAgent.SummarizeSale(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+    name: SummarizeSale
+    nameWithType: IAIAgent.SummarizeSale
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeSale
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeSale(System.Int32,System.Int32,System.String)
+    name: SummarizeSale
+    nameWithType: IAIAgent.SummarizeSale
+    fullName: SuperOffice.CRM.Services.IAIAgent.SummarizeSale
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt
+  isExternal: true
+  name: GetSummarizeSalePrompt
+  nameWithType: AIAgent.GetSummarizeSalePrompt
+  fullName: SuperOffice.CRM.Services.AIAgent.GetSummarizeSalePrompt
+- uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: GetSummarizeSalePrompt(Int32, Int32, String, String)
+  nameWithType: IAIAgent.GetSummarizeSalePrompt(Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32, System.Int32, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+    name: GetSummarizeSalePrompt
+    nameWithType: IAIAgent.GetSummarizeSalePrompt
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt(System.Int32,System.Int32,System.String,System.String)
+    name: GetSummarizeSalePrompt
+    nameWithType: IAIAgent.GetSummarizeSalePrompt
+    fullName: SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePrompt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AIAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.#ctor
   isExternal: true

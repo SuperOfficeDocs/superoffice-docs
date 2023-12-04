@@ -42,6 +42,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetCategoryHeadingLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetCategoryMembershipTableInfo
   - SuperOffice.Data.TablesInfo.GetCategoryTableInfo
+  - SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo
   - SuperOffice.Data.TablesInfo.GetChatMessageTableInfo
   - SuperOffice.Data.TablesInfo.GetChatSessionTableInfo
   - SuperOffice.Data.TablesInfo.GetChatTopicTableInfo
@@ -52,6 +53,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetComptrHeadingLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetComptrTableInfo
   - SuperOffice.Data.TablesInfo.GetConfigTableInfo
+  - SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo
   - SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo
   - SuperOffice.Data.TablesInfo.GetConnectionConfigFieldTableInfo
   - SuperOffice.Data.TablesInfo.GetConsentPersonTableInfo
@@ -123,9 +125,12 @@ items:
   - SuperOffice.Data.TablesInfo.GetElementProfileTableInfo
   - SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo
   - SuperOffice.Data.TablesInfo.GetEmailAttachmentTableInfo
+  - SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo
   - SuperOffice.Data.TablesInfo.GetEmailFolderTableInfo
   - SuperOffice.Data.TablesInfo.GetEmailItemTableInfo
   - SuperOffice.Data.TablesInfo.GetEmailTableInfo
+  - SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo
   - SuperOffice.Data.TablesInfo.GetErpConfigurationTableInfo
   - SuperOffice.Data.TablesInfo.GetErpConnectionAccessTableInfo
   - SuperOffice.Data.TablesInfo.GetErpConnectionActorTypeTableInfo
@@ -211,6 +216,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetMailAliasTableInfo
   - SuperOffice.Data.TablesInfo.GetMailBlockTableInfo
   - SuperOffice.Data.TablesInfo.GetMailInFilterTableInfo
+  - SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo
   - SuperOffice.Data.TablesInfo.GetMailInUidlTableInfo
   - SuperOffice.Data.TablesInfo.GetMergeMoveLogTableInfo
   - SuperOffice.Data.TablesInfo.GetMessageCustomersTableInfo
@@ -229,6 +235,10 @@ items:
   - SuperOffice.Data.TablesInfo.GetMsTrashbinTableInfo
   - SuperOffice.Data.TablesInfo.GetNoticeFrameTableInfo
   - SuperOffice.Data.TablesInfo.GetNotifyTableInfo
+  - SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
+  - SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
+  - SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
+  - SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
   - SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo
   - SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo
   - SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo
@@ -297,8 +307,14 @@ items:
   - SuperOffice.Data.TablesInfo.GetPushNotificationServiceTableInfo
   - SuperOffice.Data.TablesInfo.GetQuickReplyTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteAlternativeTableInfo
+  - SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteConnectionAccessTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteConnectionTableInfo
+  - SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteLineConfigurationTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteLineTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteTableInfo
@@ -436,9 +452,21 @@ items:
   - SuperOffice.Data.TablesInfo.GetTagsGroupLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetTagsHeadingLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetTagsTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo
+  - SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo
   - SuperOffice.Data.TablesInfo.GetTaskGroupLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetTaskHeadingLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo
   - SuperOffice.Data.TablesInfo.GetTaskTableInfo
+  - SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo
   - SuperOffice.Data.TablesInfo.GetTemporaryKeyTableInfo
   - SuperOffice.Data.TablesInfo.GetTemporaryWordsTableInfo
   - SuperOffice.Data.TablesInfo.GetTextTableInfo
@@ -449,12 +477,11 @@ items:
   - SuperOffice.Data.TablesInfo.GetTicketLogChangeTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketLogTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketPriorityTableInfo
-  - SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo
-  - SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
-  - SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketStatusHistoryTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketStatusTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketTableInfo
+  - SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo
+  - SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   - SuperOffice.Data.TablesInfo.GetTimestampsTableInfo
   - SuperOffice.Data.TablesInfo.GetTravelCurrentTableInfo
@@ -501,8 +528,16 @@ items:
   - SuperOffice.Data.TablesInfo.GetVisibleForTableInfo
   - SuperOffice.Data.TablesInfo.GetWebAppUsageTableInfo
   - SuperOffice.Data.TablesInfo.GetWebhookTableInfo
+  - SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo
   - SuperOffice.Data.TablesInfo.GetWinPosSizeTableInfo
   - SuperOffice.Data.TablesInfo.GetWordRelationsTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
+  - SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo
   - SuperOffice.Data.TablesInfo.GetWsdlDescriptionTableInfo
   - SuperOffice.Data.TablesInfo.GetZipToCityTableInfo
   langs:
@@ -565,7 +600,15 @@ items:
 
       [DatabaseStep]
 
-      public static class TablesInfo
+      [DatabaseStep]
+
+      [DatabaseStep]
+
+      [DatabaseStep]
+
+      [DatabaseStep]
+
+      public static class TablesInfo : Object
     content.vb: >-
       <DatabaseStep>
 
@@ -611,18 +654,32 @@ items:
 
       <DatabaseStep>
 
+      <DatabaseStep>
+
+      <DatabaseStep>
+
+      <DatabaseStep>
+
+      <DatabaseStep>
+
       Public Module TablesInfo
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   attributes:
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
   - type: SuperOffice.Data.DatabaseStepAttribute
     ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
     arguments: []
@@ -1103,7 +1160,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nNew instance of SaleTableInfo:\nSales  For every Sale record edited through the SuperOffice GUI, a copy of the previous version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  \n"
+  summary: "\nNew instance of SaleTableInfo:\nSales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  \n"
   syntax:
     content: public static SaleTableInfo GetSaleTableInfo()
     return:
@@ -5423,7 +5480,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nNew instance of SaleHistTableInfo:\nMirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the previous record of the sale is moved here. \n"
+  summary: "\nNew instance of SaleHistTableInfo:\nMirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here. \n"
   syntax:
     content: public static SaleHistTableInfo GetSaleHistTableInfo()
     return:
@@ -14226,16 +14283,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
-  id: GetTicketTypeTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
+  id: GetObsolete1TableInfo
   parent: SuperOffice.Data.TablesInfo
   langs:
   - csharp
   - vb
-  name: GetTicketTypeTableInfo()
-  nameWithType: TablesInfo.GetTicketTypeTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo()
+  name: GetObsolete1TableInfo()
+  nameWithType: TablesInfo.GetObsolete1TableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo()
   type: Method
   source:
     path: SoDataBase
@@ -14243,29 +14300,29 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nNew instance of TicketTypeTableInfo:\nContains ticket types, used to drive processing logic together with ticket relations\n"
+  summary: "\nNew instance of Obsolete1TableInfo:\nObsolete table for functionality that was never implemented\n"
   syntax:
-    content: public static TicketTypeTableInfo GetTicketTypeTableInfo()
+    content: public static Obsolete1TableInfo GetObsolete1TableInfo()
     return:
-      type: SuperOffice.CRM.Data.TicketTypeTableInfo
-    content.vb: Public Shared Function GetTicketTypeTableInfo As TicketTypeTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
+      type: SuperOffice.CRM.Data.Obsolete1TableInfo
+    content.vb: Public Shared Function GetObsolete1TableInfo As Obsolete1TableInfo
+  overload: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo
-  id: GetTicketRelationTypeTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
+  id: GetObsolete2TableInfo
   parent: SuperOffice.Data.TablesInfo
   langs:
   - csharp
   - vb
-  name: GetTicketRelationTypeTableInfo()
-  nameWithType: TablesInfo.GetTicketRelationTypeTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo()
+  name: GetObsolete2TableInfo()
+  nameWithType: TablesInfo.GetObsolete2TableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo()
   type: Method
   source:
     path: SoDataBase
@@ -14273,29 +14330,29 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nNew instance of TicketRelationTypeTableInfo:\nContains ticket relation types, used to drive processing logic together with ticket relations\n"
+  summary: "\nNew instance of Obsolete2TableInfo:\nObsolete table for functionality that was never implemented\n"
   syntax:
-    content: public static TicketRelationTypeTableInfo GetTicketRelationTypeTableInfo()
+    content: public static Obsolete2TableInfo GetObsolete2TableInfo()
     return:
-      type: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-    content.vb: Public Shared Function GetTicketRelationTypeTableInfo As TicketRelationTypeTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo*
+      type: SuperOffice.CRM.Data.Obsolete2TableInfo
+    content.vb: Public Shared Function GetObsolete2TableInfo As Obsolete2TableInfo
+  overload: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo
-  id: GetTicketRelationActionTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
+  id: GetObsolete3TableInfo
   parent: SuperOffice.Data.TablesInfo
   langs:
   - csharp
   - vb
-  name: GetTicketRelationActionTableInfo()
-  nameWithType: TablesInfo.GetTicketRelationActionTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo()
+  name: GetObsolete3TableInfo()
+  nameWithType: TablesInfo.GetObsolete3TableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo()
   type: Method
   source:
     path: SoDataBase
@@ -14303,29 +14360,29 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nNew instance of TicketRelationActionTableInfo:\nContains ticket relation actions, used to drive processing logic together with ticket relations\n"
+  summary: "\nNew instance of Obsolete3TableInfo:\nObsolete table for functionality that was never implemented\n"
   syntax:
-    content: public static TicketRelationActionTableInfo GetTicketRelationActionTableInfo()
+    content: public static Obsolete3TableInfo GetObsolete3TableInfo()
     return:
-      type: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-    content.vb: Public Shared Function GetTicketRelationActionTableInfo As TicketRelationActionTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo*
+      type: SuperOffice.CRM.Data.Obsolete3TableInfo
+    content.vb: Public Shared Function GetObsolete3TableInfo As Obsolete3TableInfo
+  overload: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
-  id: GetTicketRelationTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
+  id: GetObsolete4TableInfo
   parent: SuperOffice.Data.TablesInfo
   langs:
   - csharp
   - vb
-  name: GetTicketRelationTableInfo()
-  nameWithType: TablesInfo.GetTicketRelationTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo()
+  name: GetObsolete4TableInfo()
+  nameWithType: TablesInfo.GetObsolete4TableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo()
   type: Method
   source:
     path: SoDataBase
@@ -14333,13 +14390,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nNew instance of TicketRelationTableInfo:\nContains ticket relations, used to drive processing logic\n"
+  summary: "\nNew instance of Obsolete4TableInfo:\nObsolete table for functionality that was never implemented\n"
   syntax:
-    content: public static TicketRelationTableInfo GetTicketRelationTableInfo()
+    content: public static Obsolete4TableInfo GetObsolete4TableInfo()
     return:
-      type: SuperOffice.CRM.Data.TicketRelationTableInfo
-    content.vb: Public Shared Function GetTicketRelationTableInfo As TicketRelationTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo*
+      type: SuperOffice.CRM.Data.Obsolete4TableInfo
+    content.vb: Public Shared Function GetObsolete4TableInfo As Obsolete4TableInfo
+  overload: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo*
   modifiers.csharp:
   - public
   - static
@@ -14580,6 +14637,126 @@ items:
       type: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
     content.vb: Public Shared Function GetConfigurableScreenDeltaTableInfo As ConfigurableScreenDeltaTableInfo
   overload: SuperOffice.Data.TablesInfo.GetConfigurableScreenDeltaTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo
+  id: GetConfigurableScreenAppliesToTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurableScreenAppliesToTableInfo()
+  nameWithType: TablesInfo.GetConfigurableScreenAppliesToTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of ConfigurableScreenAppliesToTableInfo:\nMapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on\n"
+  syntax:
+    content: public static ConfigurableScreenAppliesToTableInfo GetConfigurableScreenAppliesToTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
+    content.vb: Public Shared Function GetConfigurableScreenAppliesToTableInfo As ConfigurableScreenAppliesToTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo
+  id: GetTaskMenuTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTaskMenuTableInfo()
+  nameWithType: TablesInfo.GetTaskMenuTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TaskMenuTableInfo:\nList items to merge into menues\n"
+  syntax:
+    content: public static TaskMenuTableInfo GetTaskMenuTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TaskMenuTableInfo
+    content.vb: Public Shared Function GetTaskMenuTableInfo As TaskMenuTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo
+  id: GetTaskMenuGroupLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTaskMenuGroupLinkTableInfo()
+  nameWithType: TablesInfo.GetTaskMenuGroupLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TaskMenuGroupLinkTableInfo:\nUser group link table for TaskMenu, for MDO item hiding\n"
+  syntax:
+    content: public static TaskMenuGroupLinkTableInfo GetTaskMenuGroupLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+    content.vb: Public Shared Function GetTaskMenuGroupLinkTableInfo As TaskMenuGroupLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo
+  id: GetTaskMenuHeadingLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTaskMenuHeadingLinkTableInfo()
+  nameWithType: TablesInfo.GetTaskMenuHeadingLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TaskMenuHeadingLinkTableInfo:\nHeading link table for TaskMenu, for MDO headers\n"
+  syntax:
+    content: public static TaskMenuHeadingLinkTableInfo GetTaskMenuHeadingLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+    content.vb: Public Shared Function GetTaskMenuHeadingLinkTableInfo As TaskMenuHeadingLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo*
   modifiers.csharp:
   - public
   - static
@@ -14850,6 +15027,36 @@ items:
       type: SuperOffice.CRM.Data.CustConfigTableInfo
     content.vb: Public Shared Function GetCustConfigTableInfo As CustConfigTableInfo
   overload: SuperOffice.Data.TablesInfo.GetCustConfigTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo
+  id: GetCcTemplateTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetCcTemplateTableInfo()
+  nameWithType: TablesInfo.GetCcTemplateTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of CcTemplateTableInfo:\nThis table contains templates for the customer center\n"
+  syntax:
+    content: public static CcTemplateTableInfo GetCcTemplateTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.CcTemplateTableInfo
+    content.vb: Public Shared Function GetCcTemplateTableInfo As CcTemplateTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo*
   modifiers.csharp:
   - public
   - static
@@ -15276,6 +15483,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo
+  id: GetMailingDomainsTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetMailingDomainsTableInfo()
+  nameWithType: TablesInfo.GetMailingDomainsTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of MailingDomainsTableInfo:\nList of allowed domains used in a Mailing\n"
+  syntax:
+    content: public static MailingDomainsTableInfo GetMailingDomainsTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.MailingDomainsTableInfo
+    content.vb: Public Shared Function GetMailingDomainsTableInfo As MailingDomainsTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   id: GetTypicalSearchTableInfo
@@ -15456,6 +15693,246 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo
+  id: GetTargetGroupTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetGroupTableInfo()
+  nameWithType: TablesInfo.GetTargetGroupTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetGroupTableInfo:\nInfo about a set of (sales, project, selection...) targets\n"
+  syntax:
+    content: public static TargetGroupTableInfo GetTargetGroupTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetGroupTableInfo
+    content.vb: Public Shared Function GetTargetGroupTableInfo As TargetGroupTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo
+  id: GetTargetPeriodTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetPeriodTableInfo()
+  nameWithType: TablesInfo.GetTargetPeriodTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetPeriodTableInfo:\nA set of periods linked with target amounts for users/usergroups and the target groups/years.\n"
+  syntax:
+    content: public static TargetPeriodTableInfo GetTargetPeriodTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    content.vb: Public Shared Function GetTargetPeriodTableInfo As TargetPeriodTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo
+  id: GetTargetAssignmentInfoTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetAssignmentInfoTableInfo()
+  nameWithType: TablesInfo.GetTargetAssignmentInfoTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetAssignmentInfoTableInfo:\nLinking associate, company or user group target and other information with target values\n"
+  syntax:
+    content: public static TargetAssignmentInfoTableInfo GetTargetAssignmentInfoTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+    content.vb: Public Shared Function GetTargetAssignmentInfoTableInfo As TargetAssignmentInfoTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo
+  id: GetTargetAssignmentValueTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetAssignmentValueTableInfo()
+  nameWithType: TablesInfo.GetTargetAssignmentValueTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetAssignmentValueTableInfo:\nA set of values linked to assignment info and a period in a target group.\n"
+  syntax:
+    content: public static TargetAssignmentValueTableInfo GetTargetAssignmentValueTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+    content.vb: Public Shared Function GetTargetAssignmentValueTableInfo As TargetAssignmentValueTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo
+  id: GetTargetRevisionHistoryTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetRevisionHistoryTableInfo()
+  nameWithType: TablesInfo.GetTargetRevisionHistoryTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetRevisionHistoryTableInfo:\nRevision history info in case the original target group or assignment info was deleted\n"
+  syntax:
+    content: public static TargetRevisionHistoryTableInfo GetTargetRevisionHistoryTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+    content.vb: Public Shared Function GetTargetRevisionHistoryTableInfo As TargetRevisionHistoryTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo
+  id: GetTargetRevisionTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetRevisionTableInfo()
+  nameWithType: TablesInfo.GetTargetRevisionTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetRevisionTableInfo:\nOne batch of changes made to targets\n"
+  syntax:
+    content: public static TargetRevisionTableInfo GetTargetRevisionTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    content.vb: Public Shared Function GetTargetRevisionTableInfo As TargetRevisionTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo
+  id: GetTargetChangeTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetChangeTableInfo()
+  nameWithType: TablesInfo.GetTargetChangeTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetChangeTableInfo:\nA single field change.\n"
+  syntax:
+    content: public static TargetChangeTableInfo GetTargetChangeTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetChangeTableInfo
+    content.vb: Public Shared Function GetTargetChangeTableInfo As TargetChangeTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo
+  id: GetTargetDimensionTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTargetDimensionTableInfo()
+  nameWithType: TablesInfo.GetTargetDimensionTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TargetDimensionTableInfo:\nDefining target dimension\n"
+  syntax:
+    content: public static TargetDimensionTableInfo GetTargetDimensionTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TargetDimensionTableInfo
+    content.vb: Public Shared Function GetTargetDimensionTableInfo As TargetDimensionTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Data.TablesInfo.GetWebhookTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetWebhookTableInfo
   id: GetWebhookTableInfo
@@ -15480,6 +15957,336 @@ items:
       type: SuperOffice.CRM.Data.WebhookTableInfo
     content.vb: Public Shared Function GetWebhookTableInfo As WebhookTableInfo
   overload: SuperOffice.Data.TablesInfo.GetWebhookTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo
+  id: GetWebhookUsageTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWebhookUsageTableInfo()
+  nameWithType: TablesInfo.GetWebhookUsageTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WebhookUsageTableInfo:\nWebhook usage statistics - tracks call+error statistics. Same primary key as the webhook.\n"
+  syntax:
+    content: public static WebhookUsageTableInfo GetWebhookUsageTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    content.vb: Public Shared Function GetWebhookUsageTableInfo As WebhookUsageTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
+  id: GetWorkflowTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowTableInfo()
+  nameWithType: TablesInfo.GetWorkflowTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WorkflowTableInfo:\nSuperOffice specific info about a workflow\n"
+  syntax:
+    content: public static WorkflowTableInfo GetWorkflowTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowTableInfo
+    content.vb: Public Shared Function GetWorkflowTableInfo As WorkflowTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo
+  id: GetEmailFlowTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetEmailFlowTableInfo()
+  nameWithType: TablesInfo.GetEmailFlowTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of EmailFlowTableInfo:\nA set of properties related to the email workflow.\n"
+  syntax:
+    content: public static EmailFlowTableInfo GetEmailFlowTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.EmailFlowTableInfo
+    content.vb: Public Shared Function GetEmailFlowTableInfo As EmailFlowTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo
+  id: GetWorkflowInstanceTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowInstanceTableInfo()
+  nameWithType: TablesInfo.GetWorkflowInstanceTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WorkflowInstanceTableInfo:\nA set of properties related to the workflow instance of one participant going through the flow\n"
+  syntax:
+    content: public static WorkflowInstanceTableInfo GetWorkflowInstanceTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+    content.vb: Public Shared Function GetWorkflowInstanceTableInfo As WorkflowInstanceTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo
+  id: GetWorkflowGoalTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowGoalTableInfo()
+  nameWithType: TablesInfo.GetWorkflowGoalTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WorkflowGoalTableInfo:\nA set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.\n"
+  syntax:
+    content: public static WorkflowGoalTableInfo GetWorkflowGoalTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowGoalTableInfo
+    content.vb: Public Shared Function GetWorkflowGoalTableInfo As WorkflowGoalTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo
+  id: GetWorkflowStepTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowStepTableInfo()
+  nameWithType: TablesInfo.GetWorkflowStepTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WorkflowStepTableInfo:\nA set of steps related to a workflow.\n"
+  syntax:
+    content: public static WorkflowStepTableInfo GetWorkflowStepTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    content.vb: Public Shared Function GetWorkflowStepTableInfo As WorkflowStepTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo
+  id: GetWorkflowTriggerTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowTriggerTableInfo()
+  nameWithType: TablesInfo.GetWorkflowTriggerTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WorkflowTriggerTableInfo:\nA set of triggers related to a workflow.\n"
+  syntax:
+    content: public static WorkflowTriggerTableInfo GetWorkflowTriggerTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
+    content.vb: Public Shared Function GetWorkflowTriggerTableInfo As WorkflowTriggerTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo
+  id: GetWorkflowStepOptionTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowStepOptionTableInfo()
+  nameWithType: TablesInfo.GetWorkflowStepOptionTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WorkflowStepOptionTableInfo:\nSome steps can have optional child &apos;flows&apos;, a new series of steps\n"
+  syntax:
+    content: public static WorkflowStepOptionTableInfo GetWorkflowStepOptionTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+    content.vb: Public Shared Function GetWorkflowStepOptionTableInfo As WorkflowStepOptionTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo
+  id: GetWorkflowStepOptionLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowStepOptionLinkTableInfo()
+  nameWithType: TablesInfo.GetWorkflowStepOptionLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of WorkflowStepOptionLinkTableInfo:\nLink steps to other steps through step options\n"
+  syntax:
+    content: public static WorkflowStepOptionLinkTableInfo GetWorkflowStepOptionLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    content.vb: Public Shared Function GetWorkflowStepOptionLinkTableInfo As WorkflowStepOptionLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo
+  id: GetEmailFlowContentLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetEmailFlowContentLinkTableInfo()
+  nameWithType: TablesInfo.GetEmailFlowContentLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of EmailFlowContentLinkTableInfo:\nLink message content to an email workflow\n"
+  syntax:
+    content: public static EmailFlowContentLinkTableInfo GetEmailFlowContentLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+    content.vb: Public Shared Function GetEmailFlowContentLinkTableInfo As EmailFlowContentLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo
+  id: GetTempDbLockTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTempDbLockTableInfo()
+  nameWithType: TablesInfo.GetTempDbLockTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TempDbLockTableInfo:\nRepresents a temporary lock on a resource identified by table_id and key\n"
+  syntax:
+    content: public static TempDbLockTableInfo GetTempDbLockTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TempDbLockTableInfo
+    content.vb: Public Shared Function GetTempDbLockTableInfo As TempDbLockTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo*
   modifiers.csharp:
   - public
   - static
@@ -15540,6 +16347,306 @@ items:
       type: SuperOffice.CRM.Data.CacheInvalidationTableInfo
     content.vb: Public Shared Function GetCacheInvalidationTableInfo As CacheInvalidationTableInfo
   overload: SuperOffice.Data.TablesInfo.GetCacheInvalidationTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo
+  id: GetQuoteApprReasonTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteApprReasonTableInfo()
+  nameWithType: TablesInfo.GetQuoteApprReasonTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of QuoteApprReasonTableInfo:\nPredefined reasons for quote approval\n"
+  syntax:
+    content: public static QuoteApprReasonTableInfo GetQuoteApprReasonTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
+    content.vb: Public Shared Function GetQuoteApprReasonTableInfo As QuoteApprReasonTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo
+  id: GetQuoteApprReasonGroupLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteApprReasonGroupLinkTableInfo()
+  nameWithType: TablesInfo.GetQuoteApprReasonGroupLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of QuoteApprReasonGroupLinkTableInfo:\nUser group link table for QuoteApprReason, for MDO item hiding\n"
+  syntax:
+    content: public static QuoteApprReasonGroupLinkTableInfo GetQuoteApprReasonGroupLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+    content.vb: Public Shared Function GetQuoteApprReasonGroupLinkTableInfo As QuoteApprReasonGroupLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo
+  id: GetQuoteApprReasonHeadingLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteApprReasonHeadingLinkTableInfo()
+  nameWithType: TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of QuoteApprReasonHeadingLinkTableInfo:\nHeading link table for QuoteApprReason, for MDO headers\n"
+  syntax:
+    content: public static QuoteApprReasonHeadingLinkTableInfo GetQuoteApprReasonHeadingLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+    content.vb: Public Shared Function GetQuoteApprReasonHeadingLinkTableInfo As QuoteApprReasonHeadingLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo
+  id: GetQuoteDenyReasonTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteDenyReasonTableInfo()
+  nameWithType: TablesInfo.GetQuoteDenyReasonTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of QuoteDenyReasonTableInfo:\nPredefined reasons for quote denial\n"
+  syntax:
+    content: public static QuoteDenyReasonTableInfo GetQuoteDenyReasonTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+    content.vb: Public Shared Function GetQuoteDenyReasonTableInfo As QuoteDenyReasonTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo
+  id: GetQuoteDenyReasonGroupLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteDenyReasonGroupLinkTableInfo()
+  nameWithType: TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of QuoteDenyReasonGroupLinkTableInfo:\nUser group link table for QuoteDenyReason, for MDO item hiding\n"
+  syntax:
+    content: public static QuoteDenyReasonGroupLinkTableInfo GetQuoteDenyReasonGroupLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+    content.vb: Public Shared Function GetQuoteDenyReasonGroupLinkTableInfo As QuoteDenyReasonGroupLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo
+  id: GetQuoteDenyReasonHeadingLinkTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteDenyReasonHeadingLinkTableInfo()
+  nameWithType: TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of QuoteDenyReasonHeadingLinkTableInfo:\nHeading link table for QuoteDenyReason, for MDO headers\n"
+  syntax:
+    content: public static QuoteDenyReasonHeadingLinkTableInfo GetQuoteDenyReasonHeadingLinkTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+    content.vb: Public Shared Function GetQuoteDenyReasonHeadingLinkTableInfo As QuoteDenyReasonHeadingLinkTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo
+  id: GetEntityCountsTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetEntityCountsTableInfo()
+  nameWithType: TablesInfo.GetEntityCountsTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of EntityCountsTableInfo:\nNumber of different entities an associate has created for usage statistics\n"
+  syntax:
+    content: public static EntityCountsTableInfo GetEntityCountsTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.EntityCountsTableInfo
+    content.vb: Public Shared Function GetEntityCountsTableInfo As EntityCountsTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
+  id: GetTicketTypeTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTicketTypeTableInfo()
+  nameWithType: TablesInfo.GetTicketTypeTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TicketTypeTableInfo:\nA ticket (request) type\n"
+  syntax:
+    content: public static TicketTypeTableInfo GetTicketTypeTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TicketTypeTableInfo
+    content.vb: Public Shared Function GetTicketTypeTableInfo As TicketTypeTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo
+  id: GetTicketTypePriorityTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTicketTypePriorityTableInfo()
+  nameWithType: TablesInfo.GetTicketTypePriorityTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TicketTypePriorityTableInfo:\nLink table defining what Priorities are relevant to a particular Ticket type\n"
+  syntax:
+    content: public static TicketTypePriorityTableInfo GetTicketTypePriorityTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+    content.vb: Public Shared Function GetTicketTypePriorityTableInfo As TicketTypePriorityTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo
+  id: GetTicketTypeStatusTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTicketTypeStatusTableInfo()
+  nameWithType: TablesInfo.GetTicketTypeStatusTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nNew instance of TicketTypeStatusTableInfo:\nLink table defining what Statuses are relevant to a particular Ticket type\n"
+  syntax:
+    content: public static TicketTypeStatusTableInfo GetTicketTypeStatusTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+    content.vb: Public Shared Function GetTicketTypeStatusTableInfo As TicketTypeStatusTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo*
   modifiers.csharp:
   - public
   - static
@@ -15634,6 +16741,7 @@ items:
   syntax:
     content: >-
       public static T GetTableInfo<T>()
+
           where T : TableInfo
     typeParameters:
     - id: T
@@ -15735,285 +16843,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -21889,58 +22718,58 @@ references:
   name: EjCategoryGroupLinkTableInfo
   nameWithType: EjCategoryGroupLinkTableInfo
   fullName: SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
   isExternal: true
-  name: GetTicketTypeTableInfo
-  nameWithType: TablesInfo.GetTicketTypeTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
-- uid: SuperOffice.CRM.Data.TicketTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketTypeTableInfo
+  name: GetObsolete1TableInfo
+  nameWithType: TablesInfo.GetObsolete1TableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
+- uid: SuperOffice.CRM.Data.Obsolete1TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete1TableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  name: TicketTypeTableInfo
-  nameWithType: TicketTypeTableInfo
-  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo
+  name: Obsolete1TableInfo
+  nameWithType: Obsolete1TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete1TableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
   isExternal: true
-  name: GetTicketRelationTypeTableInfo
-  nameWithType: TablesInfo.GetTicketRelationTypeTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationTypeTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationTypeTableInfo
+  name: GetObsolete2TableInfo
+  nameWithType: TablesInfo.GetObsolete2TableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
+- uid: SuperOffice.CRM.Data.Obsolete2TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete2TableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  name: TicketRelationTypeTableInfo
-  nameWithType: TicketRelationTypeTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationTypeTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo
+  name: Obsolete2TableInfo
+  nameWithType: Obsolete2TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
   isExternal: true
-  name: GetTicketRelationActionTableInfo
-  nameWithType: TablesInfo.GetTicketRelationActionTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationActionTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationActionTableInfo
+  name: GetObsolete3TableInfo
+  nameWithType: TablesInfo.GetObsolete3TableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
+- uid: SuperOffice.CRM.Data.Obsolete3TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete3TableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  name: TicketRelationActionTableInfo
-  nameWithType: TicketRelationActionTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
+  name: Obsolete3TableInfo
+  nameWithType: Obsolete3TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete3TableInfo
+- uid: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
   isExternal: true
-  name: GetTicketRelationTableInfo
-  nameWithType: TablesInfo.GetTicketRelationTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetTicketRelationTableInfo
-- uid: SuperOffice.CRM.Data.TicketRelationTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketRelationTableInfo
+  name: GetObsolete4TableInfo
+  nameWithType: TablesInfo.GetObsolete4TableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
+- uid: SuperOffice.CRM.Data.Obsolete4TableInfo
+  commentId: T:SuperOffice.CRM.Data.Obsolete4TableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  name: TicketRelationTableInfo
-  nameWithType: TicketRelationTableInfo
-  fullName: SuperOffice.CRM.Data.TicketRelationTableInfo
+  name: Obsolete4TableInfo
+  nameWithType: Obsolete4TableInfo
+  fullName: SuperOffice.CRM.Data.Obsolete4TableInfo
 - uid: SuperOffice.Data.TablesInfo.GetFavouriteTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetFavouriteTableInfo
   isExternal: true
@@ -22045,6 +22874,58 @@ references:
   name: ConfigurableScreenDeltaTableInfo
   nameWithType: ConfigurableScreenDeltaTableInfo
   fullName: SuperOffice.CRM.Data.ConfigurableScreenDeltaTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo
+  isExternal: true
+  name: GetConfigurableScreenAppliesToTableInfo
+  nameWithType: TablesInfo.GetConfigurableScreenAppliesToTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetConfigurableScreenAppliesToTableInfo
+- uid: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
+  commentId: T:SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ConfigurableScreenAppliesToTableInfo
+  nameWithType: ConfigurableScreenAppliesToTableInfo
+  fullName: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo
+  isExternal: true
+  name: GetTaskMenuTableInfo
+  nameWithType: TablesInfo.GetTaskMenuTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTaskMenuTableInfo
+- uid: SuperOffice.CRM.Data.TaskMenuTableInfo
+  commentId: T:SuperOffice.CRM.Data.TaskMenuTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TaskMenuTableInfo
+  nameWithType: TaskMenuTableInfo
+  fullName: SuperOffice.CRM.Data.TaskMenuTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo
+  isExternal: true
+  name: GetTaskMenuGroupLinkTableInfo
+  nameWithType: TablesInfo.GetTaskMenuGroupLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTaskMenuGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TaskMenuGroupLinkTableInfo
+  nameWithType: TaskMenuGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.TaskMenuGroupLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo
+  isExternal: true
+  name: GetTaskMenuHeadingLinkTableInfo
+  nameWithType: TablesInfo.GetTaskMenuHeadingLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTaskMenuHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TaskMenuHeadingLinkTableInfo
+  nameWithType: TaskMenuHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetConsentPurposeTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetConsentPurposeTableInfo
   isExternal: true
@@ -22162,6 +23043,19 @@ references:
   name: CustConfigTableInfo
   nameWithType: CustConfigTableInfo
   fullName: SuperOffice.CRM.Data.CustConfigTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo
+  isExternal: true
+  name: GetCcTemplateTableInfo
+  nameWithType: TablesInfo.GetCcTemplateTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetCcTemplateTableInfo
+- uid: SuperOffice.CRM.Data.CcTemplateTableInfo
+  commentId: T:SuperOffice.CRM.Data.CcTemplateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: CcTemplateTableInfo
+  nameWithType: CcTemplateTableInfo
+  fullName: SuperOffice.CRM.Data.CcTemplateTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetDashboardTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetDashboardTableInfo
   isExternal: true
@@ -22344,6 +23238,19 @@ references:
   name: SMessageblockTableInfo
   nameWithType: SMessageblockTableInfo
   fullName: SuperOffice.CRM.Data.SMessageblockTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo
+  isExternal: true
+  name: GetMailingDomainsTableInfo
+  nameWithType: TablesInfo.GetMailingDomainsTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo
+- uid: SuperOffice.CRM.Data.MailingDomainsTableInfo
+  commentId: T:SuperOffice.CRM.Data.MailingDomainsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: MailingDomainsTableInfo
+  nameWithType: MailingDomainsTableInfo
+  fullName: SuperOffice.CRM.Data.MailingDomainsTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   isExternal: true
@@ -22422,6 +23329,110 @@ references:
   name: TemporaryKeyTableInfo
   nameWithType: TemporaryKeyTableInfo
   fullName: SuperOffice.CRM.Data.TemporaryKeyTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo
+  isExternal: true
+  name: GetTargetGroupTableInfo
+  nameWithType: TablesInfo.GetTargetGroupTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetGroupTableInfo
+- uid: SuperOffice.CRM.Data.TargetGroupTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetGroupTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetGroupTableInfo
+  nameWithType: TargetGroupTableInfo
+  fullName: SuperOffice.CRM.Data.TargetGroupTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo
+  isExternal: true
+  name: GetTargetPeriodTableInfo
+  nameWithType: TablesInfo.GetTargetPeriodTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetPeriodTableInfo
+- uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetPeriodTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetPeriodTableInfo
+  nameWithType: TargetPeriodTableInfo
+  fullName: SuperOffice.CRM.Data.TargetPeriodTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo
+  isExternal: true
+  name: GetTargetAssignmentInfoTableInfo
+  nameWithType: TablesInfo.GetTargetAssignmentInfoTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetAssignmentInfoTableInfo
+- uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetAssignmentInfoTableInfo
+  nameWithType: TargetAssignmentInfoTableInfo
+  fullName: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo
+  isExternal: true
+  name: GetTargetAssignmentValueTableInfo
+  nameWithType: TablesInfo.GetTargetAssignmentValueTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetAssignmentValueTableInfo
+- uid: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetAssignmentValueTableInfo
+  nameWithType: TargetAssignmentValueTableInfo
+  fullName: SuperOffice.CRM.Data.TargetAssignmentValueTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo
+  isExternal: true
+  name: GetTargetRevisionHistoryTableInfo
+  nameWithType: TablesInfo.GetTargetRevisionHistoryTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetRevisionHistoryTableInfo
+- uid: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetRevisionHistoryTableInfo
+  nameWithType: TargetRevisionHistoryTableInfo
+  fullName: SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo
+  isExternal: true
+  name: GetTargetRevisionTableInfo
+  nameWithType: TablesInfo.GetTargetRevisionTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetRevisionTableInfo
+- uid: SuperOffice.CRM.Data.TargetRevisionTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetRevisionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetRevisionTableInfo
+  nameWithType: TargetRevisionTableInfo
+  fullName: SuperOffice.CRM.Data.TargetRevisionTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo
+  isExternal: true
+  name: GetTargetChangeTableInfo
+  nameWithType: TablesInfo.GetTargetChangeTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetChangeTableInfo
+- uid: SuperOffice.CRM.Data.TargetChangeTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetChangeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetChangeTableInfo
+  nameWithType: TargetChangeTableInfo
+  fullName: SuperOffice.CRM.Data.TargetChangeTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo
+  isExternal: true
+  name: GetTargetDimensionTableInfo
+  nameWithType: TablesInfo.GetTargetDimensionTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTargetDimensionTableInfo
+- uid: SuperOffice.CRM.Data.TargetDimensionTableInfo
+  commentId: T:SuperOffice.CRM.Data.TargetDimensionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TargetDimensionTableInfo
+  nameWithType: TargetDimensionTableInfo
+  fullName: SuperOffice.CRM.Data.TargetDimensionTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetWebhookTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetWebhookTableInfo
   isExternal: true
@@ -22435,6 +23446,149 @@ references:
   name: WebhookTableInfo
   nameWithType: WebhookTableInfo
   fullName: SuperOffice.CRM.Data.WebhookTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo
+  isExternal: true
+  name: GetWebhookUsageTableInfo
+  nameWithType: TablesInfo.GetWebhookUsageTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo
+- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
+  commentId: T:SuperOffice.CRM.Data.WebhookUsageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WebhookUsageTableInfo
+  nameWithType: WebhookUsageTableInfo
+  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
+  isExternal: true
+  name: GetWorkflowTableInfo
+  nameWithType: TablesInfo.GetWorkflowTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowTableInfo
+  nameWithType: WorkflowTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo
+  isExternal: true
+  name: GetEmailFlowTableInfo
+  nameWithType: TablesInfo.GetEmailFlowTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetEmailFlowTableInfo
+- uid: SuperOffice.CRM.Data.EmailFlowTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailFlowTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailFlowTableInfo
+  nameWithType: EmailFlowTableInfo
+  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo
+  isExternal: true
+  name: GetWorkflowInstanceTableInfo
+  nameWithType: TablesInfo.GetWorkflowInstanceTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowInstanceTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowInstanceTableInfo
+  nameWithType: WorkflowInstanceTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo
+  isExternal: true
+  name: GetWorkflowGoalTableInfo
+  nameWithType: TablesInfo.GetWorkflowGoalTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowGoalTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowGoalTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowGoalTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowGoalTableInfo
+  nameWithType: WorkflowGoalTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowGoalTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo
+  isExternal: true
+  name: GetWorkflowStepTableInfo
+  nameWithType: TablesInfo.GetWorkflowStepTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowStepTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowStepTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowStepTableInfo
+  nameWithType: WorkflowStepTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo
+  isExternal: true
+  name: GetWorkflowTriggerTableInfo
+  nameWithType: TablesInfo.GetWorkflowTriggerTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowTriggerTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowTriggerTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowTriggerTableInfo
+  nameWithType: WorkflowTriggerTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo
+  isExternal: true
+  name: GetWorkflowStepOptionTableInfo
+  nameWithType: TablesInfo.GetWorkflowStepOptionTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowStepOptionTableInfo
+  nameWithType: WorkflowStepOptionTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowStepOptionTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo
+  isExternal: true
+  name: GetWorkflowStepOptionLinkTableInfo
+  nameWithType: TablesInfo.GetWorkflowStepOptionLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWorkflowStepOptionLinkTableInfo
+- uid: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: WorkflowStepOptionLinkTableInfo
+  nameWithType: WorkflowStepOptionLinkTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo
+  isExternal: true
+  name: GetEmailFlowContentLinkTableInfo
+  nameWithType: TablesInfo.GetEmailFlowContentLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetEmailFlowContentLinkTableInfo
+- uid: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EmailFlowContentLinkTableInfo
+  nameWithType: EmailFlowContentLinkTableInfo
+  fullName: SuperOffice.CRM.Data.EmailFlowContentLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo
+  isExternal: true
+  name: GetTempDbLockTableInfo
+  nameWithType: TablesInfo.GetTempDbLockTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTempDbLockTableInfo
+- uid: SuperOffice.CRM.Data.TempDbLockTableInfo
+  commentId: T:SuperOffice.CRM.Data.TempDbLockTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TempDbLockTableInfo
+  nameWithType: TempDbLockTableInfo
+  fullName: SuperOffice.CRM.Data.TempDbLockTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetAssociateHistoryTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetAssociateHistoryTableInfo
   isExternal: true
@@ -22461,6 +23615,136 @@ references:
   name: CacheInvalidationTableInfo
   nameWithType: CacheInvalidationTableInfo
   fullName: SuperOffice.CRM.Data.CacheInvalidationTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo
+  isExternal: true
+  name: GetQuoteApprReasonTableInfo
+  nameWithType: TablesInfo.GetQuoteApprReasonTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteApprReasonTableInfo
+- uid: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteApprReasonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteApprReasonTableInfo
+  nameWithType: QuoteApprReasonTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteApprReasonTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo
+  isExternal: true
+  name: GetQuoteApprReasonGroupLinkTableInfo
+  nameWithType: TablesInfo.GetQuoteApprReasonGroupLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteApprReasonGroupLinkTableInfo
+  nameWithType: QuoteApprReasonGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo
+  isExternal: true
+  name: GetQuoteApprReasonHeadingLinkTableInfo
+  nameWithType: TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteApprReasonHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteApprReasonHeadingLinkTableInfo
+  nameWithType: QuoteApprReasonHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo
+  isExternal: true
+  name: GetQuoteDenyReasonTableInfo
+  nameWithType: TablesInfo.GetQuoteDenyReasonTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonTableInfo
+- uid: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteDenyReasonTableInfo
+  nameWithType: QuoteDenyReasonTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteDenyReasonTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo
+  isExternal: true
+  name: GetQuoteDenyReasonGroupLinkTableInfo
+  nameWithType: TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonGroupLinkTableInfo
+- uid: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteDenyReasonGroupLinkTableInfo
+  nameWithType: QuoteDenyReasonGroupLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteDenyReasonGroupLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo
+  isExternal: true
+  name: GetQuoteDenyReasonHeadingLinkTableInfo
+  nameWithType: TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetQuoteDenyReasonHeadingLinkTableInfo
+- uid: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: QuoteDenyReasonHeadingLinkTableInfo
+  nameWithType: QuoteDenyReasonHeadingLinkTableInfo
+  fullName: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo
+  isExternal: true
+  name: GetEntityCountsTableInfo
+  nameWithType: TablesInfo.GetEntityCountsTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo
+- uid: SuperOffice.CRM.Data.EntityCountsTableInfo
+  commentId: T:SuperOffice.CRM.Data.EntityCountsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: EntityCountsTableInfo
+  nameWithType: EntityCountsTableInfo
+  fullName: SuperOffice.CRM.Data.EntityCountsTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
+  isExternal: true
+  name: GetTicketTypeTableInfo
+  nameWithType: TablesInfo.GetTicketTypeTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
+- uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketTypeTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketTypeTableInfo
+  nameWithType: TicketTypeTableInfo
+  fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo
+  isExternal: true
+  name: GetTicketTypePriorityTableInfo
+  nameWithType: TablesInfo.GetTicketTypePriorityTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo
+- uid: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketTypePriorityTableInfo
+  nameWithType: TicketTypePriorityTableInfo
+  fullName: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo
+  isExternal: true
+  name: GetTicketTypeStatusTableInfo
+  nameWithType: TablesInfo.GetTicketTypeStatusTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo
+- uid: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketTypeStatusTableInfo
+  nameWithType: TicketTypeStatusTableInfo
+  fullName: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTableInfo
   isExternal: true
@@ -22494,8 +23778,6 @@ references:
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type

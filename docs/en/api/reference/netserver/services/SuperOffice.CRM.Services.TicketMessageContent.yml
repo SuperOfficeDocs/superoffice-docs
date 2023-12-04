@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TicketMessageContent
+  commentId: T:SuperOffice.CRM.Services.TicketMessageContent
+  id: TicketMessageContent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TicketMessageContent.#ctor
+  - SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
+  - SuperOffice.CRM.Services.TicketMessageContent.Body
+  - SuperOffice.CRM.Services.TicketMessageContent.ToString
+  - SuperOffice.CRM.Services.TicketMessageContent.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageContent
+  nameWithType: TicketMessageContent
+  fullName: SuperOffice.CRM.Services.TicketMessageContent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMessage content to fill a new message.\n<p></p>\nCarrier object for TicketMessageContent.\nServices for the TicketMessageContent Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITicketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TicketMessageContent : Object'
+    content.vb: >-
+      Public Class TicketMessageContent
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.TicketAgent
+    commentId: T:SuperOffice.CRM.Services.TicketAgent
+  - linkId: SuperOffice.CRM.Services.ITicketAgent
+    commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TicketMessageContent.#ctor
+  commentId: M:SuperOffice.CRM.Services.TicketMessageContent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageContent()
+  nameWithType: TicketMessageContent.TicketMessageContent()
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.TicketMessageContent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TicketMessageContent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TicketMessageContent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketMessageContent.ToString
+  commentId: M:SuperOffice.CRM.Services.TicketMessageContent.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketMessageContent.ToString()
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TicketMessageContent.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TicketMessageContent.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TicketMessageContent.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TicketMessageContent.ToString(String)
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TicketMessageContent.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketMessageContent.Body
+  commentId: P:SuperOffice.CRM.Services.TicketMessageContent.Body
+  id: Body
+  parent: SuperOffice.CRM.Services.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: TicketMessageContent.Body
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.Body
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBody (including default editor content, content from template, user signature, quoted message content) as sanitized HTML \n"
+  syntax:
+    content: public virtual string Body { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Body As String
+  overload: SuperOffice.CRM.Services.TicketMessageContent.Body*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
+  commentId: P:SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
+  id: AttachmentsInfo
+  parent: SuperOffice.CRM.Services.TicketMessageContent
+  langs:
+  - csharp
+  - vb
+  name: AttachmentsInfo
+  nameWithType: TicketMessageContent.AttachmentsInfo
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMessage attachments information \n"
+  syntax:
+    content: public virtual AttachmentEntity[] AttachmentsInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.AttachmentEntity[]
+    content.vb: Public Overridable Property AttachmentsInfo As AttachmentEntity()
+  overload: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.TicketAgent
+  commentId: T:SuperOffice.CRM.Services.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.CRM.Services.TicketAgent
+- uid: SuperOffice.CRM.Services.ITicketAgent
+  commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITicketAgent
+  nameWithType: ITicketAgent
+  fullName: SuperOffice.CRM.Services.ITicketAgent
+- uid: SuperOffice.CRM.Services.TicketMessageContent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.#ctor
+  isExternal: true
+  name: TicketMessageContent
+  nameWithType: TicketMessageContent.TicketMessageContent
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.TicketMessageContent
+- uid: SuperOffice.CRM.Services.TicketMessageContent.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TicketMessageContent.ToString
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TicketMessageContent.Body*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.Body
+  isExternal: true
+  name: Body
+  nameWithType: TicketMessageContent.Body
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.Body
+- uid: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
+  isExternal: true
+  name: AttachmentsInfo
+  nameWithType: TicketMessageContent.AttachmentsInfo
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
+- uid: SuperOffice.CRM.Services.AttachmentEntity[]
+  isExternal: true
+  name: AttachmentEntity[]
+  nameWithType: AttachmentEntity[]
+  fullName: SuperOffice.CRM.Services.AttachmentEntity[]
+  nameWithType.vb: AttachmentEntity()
+  fullName.vb: SuperOffice.CRM.Services.AttachmentEntity()
+  name.vb: AttachmentEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

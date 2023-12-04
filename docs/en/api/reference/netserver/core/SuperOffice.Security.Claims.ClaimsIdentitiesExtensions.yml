@@ -1,0 +1,431 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  id: ClaimsIdentitiesExtensions
+  parent: SuperOffice.Security.Claims
+  children:
+  - SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  - SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String,System.String@,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentitiesExtensions
+  nameWithType: ClaimsIdentitiesExtensions
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: 'public static class ClaimsIdentitiesExtensions : Object'
+    content.vb: >-
+      Public Module ClaimsIdentitiesExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  id: AllClaims(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  isExtensionMethod: true
+  parent: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  langs:
+  - csharp
+  - vb
+  name: AllClaims(IEnumerable<ClaimsIdentity>)
+  nameWithType: ClaimsIdentitiesExtensions.AllClaims(IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static IEnumerable<Claim> AllClaims(this IEnumerable<ClaimsIdentity> identities)
+    parameters:
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AllClaims(identities As IEnumerable(Of ClaimsIdentity)) As IEnumerable(Of Claim)
+  overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims*
+  nameWithType.vb: ClaimsIdentitiesExtensions.AllClaims(IEnumerable(Of ClaimsIdentity))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: AllClaims(IEnumerable(Of ClaimsIdentity))
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  id: GetClaimValues(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetClaimValues(IEnumerable<ClaimsIdentity>, String)
+  nameWithType: ClaimsIdentitiesExtensions.GetClaimValues(IEnumerable<ClaimsIdentity>, String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static IEnumerable<string> GetClaimValues(this IEnumerable<ClaimsIdentity> identities, string claimType)
+    parameters:
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    - id: claimType
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetClaimValues(identities As IEnumerable(Of ClaimsIdentity), claimType As String) As IEnumerable(Of String)
+  overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues*
+  nameWithType.vb: ClaimsIdentitiesExtensions.GetClaimValues(IEnumerable(Of ClaimsIdentity), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.String)
+  name.vb: GetClaimValues(IEnumerable(Of ClaimsIdentity), String)
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String,System.String@,System.Boolean)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String,System.String@,System.Boolean)
+  id: TryGetClaimValue(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String,System.String@,System.Boolean)
+  isExtensionMethod: true
+  parent: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryGetClaimValue(IEnumerable<ClaimsIdentity>, String, out String, Boolean)
+  nameWithType: ClaimsIdentitiesExtensions.TryGetClaimValue(IEnumerable<ClaimsIdentity>, String, out String, Boolean)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.String, out System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static bool TryGetClaimValue(this IEnumerable<ClaimsIdentity> identities, string claimType, out string value, bool allowEmptyValues = false)
+    parameters:
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    - id: claimType
+      type: System.String
+    - id: value
+      type: System.String
+    - id: allowEmptyValues
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryGetClaimValue(identities As IEnumerable(Of ClaimsIdentity), claimType As String, ByRef value As String, allowEmptyValues As Boolean = False) As Boolean
+  overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue*
+  nameWithType.vb: ClaimsIdentitiesExtensions.TryGetClaimValue(IEnumerable(Of ClaimsIdentity), String, ByRef String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.String, ByRef System.String, System.Boolean)
+  name.vb: TryGetClaimValue(IEnumerable(Of ClaimsIdentity), String, ByRef String, Boolean)
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  id: HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  langs:
+  - csharp
+  - vb
+  name: HavingClaimsOfClaimType(IEnumerable<ClaimsIdentity>, String)
+  nameWithType: ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(IEnumerable<ClaimsIdentity>, String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security.Claims
+  summary: "\nFilter enumerable of <xref href=\"System.Security.Claims.ClaimsIdentity\" data-throw-if-not-resolved=\"false\"></xref> on those having claims of the provided \n"
+  syntax:
+    content: public static IEnumerable<ClaimsIdentity> HavingClaimsOfClaimType(this IEnumerable<ClaimsIdentity> identities, string claimType)
+    parameters:
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    - id: claimType
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HavingClaimsOfClaimType(identities As IEnumerable(Of ClaimsIdentity), claimType As String) As IEnumerable(Of ClaimsIdentity)
+  overload: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType*
+  nameWithType.vb: ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(IEnumerable(Of ClaimsIdentity), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.String)
+  name.vb: HavingClaimsOfClaimType(IEnumerable(Of ClaimsIdentity), String)
+references:
+- uid: SuperOffice.Security.Claims
+  commentId: N:SuperOffice.Security.Claims
+  isExternal: true
+  name: SuperOffice.Security.Claims
+  nameWithType: SuperOffice.Security.Claims
+  fullName: SuperOffice.Security.Claims
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims
+  isExternal: true
+  name: AllClaims
+  nameWithType: ClaimsIdentitiesExtensions.AllClaims
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.AllClaims
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ClaimsIdentity>
+  nameWithType: IEnumerable<ClaimsIdentity>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
+  nameWithType.vb: IEnumerable(Of ClaimsIdentity)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity)
+  name.vb: IEnumerable(Of ClaimsIdentity)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Claim>
+  nameWithType: IEnumerable<Claim>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
+  nameWithType.vb: IEnumerable(Of Claim)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim)
+  name.vb: IEnumerable(Of Claim)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues
+  isExternal: true
+  name: GetClaimValues
+  nameWithType: ClaimsIdentitiesExtensions.GetClaimValues
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.GetClaimValues
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue
+  isExternal: true
+  name: TryGetClaimValue
+  nameWithType: ClaimsIdentitiesExtensions.TryGetClaimValue
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.TryGetClaimValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType
+  isExternal: true
+  name: HavingClaimsOfClaimType
+  nameWithType: ClaimsIdentitiesExtensions.HavingClaimsOfClaimType
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions.HavingClaimsOfClaimType

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.Appointment.#ctor
   - SuperOffice.CRM.Services.Appointment.ActiveDate
+  - SuperOffice.CRM.Services.Appointment.Agenda
   - SuperOffice.CRM.Services.Appointment.AlarmLeadTime
   - SuperOffice.CRM.Services.Appointment.AppointmentId
   - SuperOffice.CRM.Services.Appointment.AssignedBy
@@ -28,6 +29,7 @@ items:
   - SuperOffice.CRM.Services.Appointment.Description
   - SuperOffice.CRM.Services.Appointment.EndDate
   - SuperOffice.CRM.Services.Appointment.HasAlarm
+  - SuperOffice.CRM.Services.Appointment.InternalNotes
   - SuperOffice.CRM.Services.Appointment.InvitationStatus
   - SuperOffice.CRM.Services.Appointment.IsAlldayEvent
   - SuperOffice.CRM.Services.Appointment.IsBooking
@@ -40,6 +42,7 @@ items:
   - SuperOffice.CRM.Services.Appointment.MotherId
   - SuperOffice.CRM.Services.Appointment.PersonFullName
   - SuperOffice.CRM.Services.Appointment.PersonId
+  - SuperOffice.CRM.Services.Appointment.PreferredTZLocation
   - SuperOffice.CRM.Services.Appointment.PriorityId
   - SuperOffice.CRM.Services.Appointment.PriorityName
   - SuperOffice.CRM.Services.Appointment.Private
@@ -54,6 +57,7 @@ items:
   - SuperOffice.CRM.Services.Appointment.StartDate
   - SuperOffice.CRM.Services.Appointment.Task
   - SuperOffice.CRM.Services.Appointment.TaskType
+  - SuperOffice.CRM.Services.Appointment.Title
   - SuperOffice.CRM.Services.Appointment.ToString
   - SuperOffice.CRM.Services.Appointment.ToString(System.String)
   - SuperOffice.CRM.Services.Appointment.Type
@@ -238,7 +242,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartDate As Date
+    content.vb: Public Overridable Property StartDate As DateTime
   overload: SuperOffice.CRM.Services.Appointment.StartDate*
   modifiers.csharp:
   - public
@@ -271,7 +275,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property EndDate As Date
+    content.vb: Public Overridable Property EndDate As DateTime
   overload: SuperOffice.CRM.Services.Appointment.EndDate*
   modifiers.csharp:
   - public
@@ -1063,7 +1067,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ActiveDate As Date
+    content.vb: Public Overridable Property ActiveDate As DateTime
   overload: SuperOffice.CRM.Services.Appointment.ActiveDate*
   modifiers.csharp:
   - public
@@ -1261,7 +1265,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property RecurringStartDate As Date
+    content.vb: Public Overridable Property RecurringStartDate As DateTime
   overload: SuperOffice.CRM.Services.Appointment.RecurringStartDate*
   modifiers.csharp:
   - public
@@ -1294,7 +1298,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property RecurringEndDate As Date
+    content.vb: Public Overridable Property RecurringEndDate As DateTime
   overload: SuperOffice.CRM.Services.Appointment.RecurringEndDate*
   modifiers.csharp:
   - public
@@ -1624,7 +1628,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.Appointment.CreatedDate*
   modifiers.csharp:
   - public
@@ -1799,6 +1803,138 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.Appointment.PreferredTZLocation
+  commentId: P:SuperOffice.CRM.Services.Appointment.PreferredTZLocation
+  id: PreferredTZLocation
+  parent: SuperOffice.CRM.Services.Appointment
+  langs:
+  - csharp
+  - vb
+  name: PreferredTZLocation
+  nameWithType: Appointment.PreferredTZLocation
+  fullName: SuperOffice.CRM.Services.Appointment.PreferredTZLocation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPreferred timezone location to use when displaying/editing this appointment \n"
+  syntax:
+    content: public virtual int PreferredTZLocation { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PreferredTZLocation As Integer
+  overload: SuperOffice.CRM.Services.Appointment.PreferredTZLocation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Appointment.Title
+  commentId: P:SuperOffice.CRM.Services.Appointment.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Appointment.Title
+  fullName: SuperOffice.CRM.Services.Appointment.Title
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe title of the appointment. \n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.Appointment.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Appointment.Agenda
+  commentId: P:SuperOffice.CRM.Services.Appointment.Agenda
+  id: Agenda
+  parent: SuperOffice.CRM.Services.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: Appointment.Agenda
+  fullName: SuperOffice.CRM.Services.Appointment.Agenda
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe agenda of the appointment. \n"
+  syntax:
+    content: public virtual string Agenda { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Agenda As String
+  overload: SuperOffice.CRM.Services.Appointment.Agenda*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Appointment.InternalNotes
+  commentId: P:SuperOffice.CRM.Services.Appointment.InternalNotes
+  id: InternalNotes
+  parent: SuperOffice.CRM.Services.Appointment
+  langs:
+  - csharp
+  - vb
+  name: InternalNotes
+  nameWithType: Appointment.InternalNotes
+  fullName: SuperOffice.CRM.Services.Appointment.InternalNotes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInternal notes for the appointment. \n"
+  syntax:
+    content: public virtual string InternalNotes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InternalNotes As String
+  overload: SuperOffice.CRM.Services.Appointment.InternalNotes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1806,13 +1942,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
@@ -1826,12 +1955,6 @@ references:
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Appointment.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Appointment.#ctor
   isExternal: true
@@ -1851,6 +1974,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Appointment.AppointmentId*
   commentId: Overload:SuperOffice.CRM.Services.Appointment.AppointmentId
   isExternal: true
@@ -1871,8 +2000,6 @@ references:
   nameWithType: Appointment.StartDate
   fullName: SuperOffice.CRM.Services.Appointment.StartDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2161,8 +2288,6 @@ references:
   nameWithType: Appointment.AlarmLeadTime
   fullName: SuperOffice.CRM.Services.Appointment.AlarmLeadTime
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
@@ -2226,3 +2351,27 @@ references:
   name: JoinVideomeetUrl
   nameWithType: Appointment.JoinVideomeetUrl
   fullName: SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
+- uid: SuperOffice.CRM.Services.Appointment.PreferredTZLocation*
+  commentId: Overload:SuperOffice.CRM.Services.Appointment.PreferredTZLocation
+  isExternal: true
+  name: PreferredTZLocation
+  nameWithType: Appointment.PreferredTZLocation
+  fullName: SuperOffice.CRM.Services.Appointment.PreferredTZLocation
+- uid: SuperOffice.CRM.Services.Appointment.Title*
+  commentId: Overload:SuperOffice.CRM.Services.Appointment.Title
+  isExternal: true
+  name: Title
+  nameWithType: Appointment.Title
+  fullName: SuperOffice.CRM.Services.Appointment.Title
+- uid: SuperOffice.CRM.Services.Appointment.Agenda*
+  commentId: Overload:SuperOffice.CRM.Services.Appointment.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: Appointment.Agenda
+  fullName: SuperOffice.CRM.Services.Appointment.Agenda
+- uid: SuperOffice.CRM.Services.Appointment.InternalNotes*
+  commentId: Overload:SuperOffice.CRM.Services.Appointment.InternalNotes
+  isExternal: true
+  name: InternalNotes
+  nameWithType: Appointment.InternalNotes
+  fullName: SuperOffice.CRM.Services.Appointment.InternalNotes

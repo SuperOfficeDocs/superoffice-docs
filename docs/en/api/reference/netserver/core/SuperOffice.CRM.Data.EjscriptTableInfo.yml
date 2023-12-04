@@ -28,13 +28,14 @@ items:
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScheduledTask_ScriptId
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_ScreenDefinitionAction_Ejscript
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_SLink_ScriptId
+  - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
   - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketAlert_ScriptId
-  - SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
   - SuperOffice.CRM.Data.EjscriptTableInfo.LongDescription
   - SuperOffice.CRM.Data.EjscriptTableInfo.Registered
   - SuperOffice.CRM.Data.EjscriptTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.EjscriptTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.EjscriptTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.EjscriptTableInfo.Type
   - SuperOffice.CRM.Data.EjscriptTableInfo.UniqueIdentifier
   - SuperOffice.CRM.Data.EjscriptTableInfo.Updated
   - SuperOffice.CRM.Data.EjscriptTableInfo.UpdatedAssociateId
@@ -64,7 +65,9 @@ items:
       <DatabaseTable("ejscript")>
 
       Public Class EjscriptTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -86,12 +89,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.EjscriptTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.EjscriptTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -186,26 +183,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.EjscriptTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -296,7 +279,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;hierarchy_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe script is inside this hierarchy folder\n"
+  summary: "\nField &apos;hierarchy_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, target: Hierarchy, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe script is inside this hierarchy folder\n"
   syntax:
     content: public Int32FieldInfo HierarchyId { get; }
     parameters: []
@@ -513,7 +496,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;extra_menus_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional id of related extra menu pointing to this script\n"
+  summary: "\nField &apos;extra_menus_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, target: ExtraMenus, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional id of related extra menu pointing to this script\n"
   syntax:
     content: public Int32FieldInfo ExtraMenusId { get; }
     parameters: []
@@ -606,7 +589,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -668,7 +651,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;ejscript&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -707,6 +690,37 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.EjscriptTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.Type
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EjscriptTableInfo.Type
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.Type
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;type&apos; in table &apos;ejscript&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.ScriptType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe type/language of this script\n"
+  syntax:
+    content: public ScriptTypeFieldInfo Type { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.ScriptTypeFieldInfo
+    content.vb: Public ReadOnly Property Type As ScriptTypeFieldInfo
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.Type*
   modifiers.csharp:
   - public
   - get
@@ -1147,16 +1161,16 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
-  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
-  id: LeftOuterJoin_TicketRelationAction_Action
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
+  id: LeftOuterJoin_TaskMenu_CrmScriptId
   parent: SuperOffice.CRM.Data.EjscriptTableInfo
   langs:
   - csharp
   - vb
-  name: LeftOuterJoin_TicketRelationAction_Action
-  nameWithType: EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
-  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
+  name: LeftOuterJoin_TaskMenu_CrmScriptId
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
   type: Property
   source:
     path: SoDataBase
@@ -1164,14 +1178,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated left outer join from the primary key EjscriptId on this table, to TicketRelationAction.<xref href=\"SuperOffice.CRM.Data.TicketRelationActionTableInfo.Action\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nGenerated left outer join from the primary key EjscriptId on this table, to TaskMenu.<xref href=\"SuperOffice.CRM.Data.TaskMenuTableInfo.CrmScriptId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: public TargetedLeftOuterJoin<TicketRelationActionTableInfo> LeftOuterJoin_TicketRelationAction_Action { get; }
+    content: public TargetedLeftOuterJoin<TaskMenuTableInfo> LeftOuterJoin_TaskMenu_CrmScriptId { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationActionTableInfo}
-    content.vb: Public ReadOnly Property LeftOuterJoin_TicketRelationAction_Action As TargetedLeftOuterJoin(Of TicketRelationActionTableInfo)
-  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action*
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TaskMenu_CrmScriptId As TargetedLeftOuterJoin(Of TaskMenuTableInfo)
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId*
   modifiers.csharp:
   - public
   - get
@@ -1231,8 +1245,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1565,254 +1577,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2160,6 +1924,19 @@ references:
   name: UpdatedCount
   nameWithType: EjscriptTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.EjscriptTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.Type*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: EjscriptTableInfo.Type
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.Type
+- uid: SuperOffice.Data.SQL.ScriptTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ScriptTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ScriptTypeFieldInfo
+  nameWithType: ScriptTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.ScriptTypeFieldInfo
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy*
   commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy
   isExternal: true
@@ -2762,22 +2539,22 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action*
-  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
   isExternal: true
-  name: LeftOuterJoin_TicketRelationAction_Action
-  nameWithType: EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
-  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TicketRelationAction_Action
-- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationActionTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketRelationActionTableInfo}
+  name: LeftOuterJoin_TaskMenu_CrmScriptId
+  nameWithType: EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.LeftOuterJoin_TaskMenu_CrmScriptId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  name: TargetedLeftOuterJoin<TicketRelationActionTableInfo>
-  nameWithType: TargetedLeftOuterJoin<TicketRelationActionTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketRelationActionTableInfo>
-  nameWithType.vb: TargetedLeftOuterJoin(Of TicketRelationActionTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketRelationActionTableInfo)
-  name.vb: TargetedLeftOuterJoin(Of TicketRelationActionTableInfo)
+  name: TargetedLeftOuterJoin<TaskMenuTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TaskMenuTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TaskMenuTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TaskMenuTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TaskMenuTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TaskMenuTableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
@@ -2787,10 +2564,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-    name: TicketRelationActionTableInfo
-    nameWithType: TicketRelationActionTableInfo
-    fullName: SuperOffice.CRM.Data.TicketRelationActionTableInfo
+  - uid: SuperOffice.CRM.Data.TaskMenuTableInfo
+    name: TaskMenuTableInfo
+    nameWithType: TaskMenuTableInfo
+    fullName: SuperOffice.CRM.Data.TaskMenuTableInfo
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -2804,10 +2581,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: SuperOffice.CRM.Data.TicketRelationActionTableInfo
-    name: TicketRelationActionTableInfo
-    nameWithType: TicketRelationActionTableInfo
-    fullName: SuperOffice.CRM.Data.TicketRelationActionTableInfo
+  - uid: SuperOffice.CRM.Data.TaskMenuTableInfo
+    name: TaskMenuTableInfo
+    nameWithType: TaskMenuTableInfo
+    fullName: SuperOffice.CRM.Data.TaskMenuTableInfo
     isExternal: true
   - name: )
     nameWithType: )

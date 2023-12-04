@@ -11,13 +11,14 @@ items:
   - SuperOffice.Data.NetServerBuildType.Release
   - SuperOffice.Data.NetServerBuildType.ReleaseCandidate
   - SuperOffice.Data.NetServerBuildType.Stable
+  - SuperOffice.Data.NetServerBuildType.value__
   langs:
   - csharp
   - vb
   name: NetServerBuildType
   nameWithType: NetServerBuildType
   fullName: SuperOffice.Data.NetServerBuildType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -26,19 +27,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
-    content: public enum NetServerBuildType
-    content.vb: Public Enum NetServerBuildType
+    content: 'public sealed class NetServerBuildType : Enum'
+    content.vb: >-
+      Public NotInheritable Class NetServerBuildType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.NetServerBuildType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.NetServerBuildType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NetServerBuildType)
-  - SuperOffice.Data.NetServerBuildType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.NetServerBuildType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.NetServerBuildType.value__
+  commentId: F:SuperOffice.Data.NetServerBuildType.value__
+  id: value__
+  parent: SuperOffice.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NetServerBuildType.value__
+  fullName: SuperOffice.Data.NetServerBuildType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.NetServerBuildType.Feature
   commentId: F:SuperOffice.Data.NetServerBuildType.Feature
   id: Feature
@@ -58,9 +94,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.\n"
   syntax:
-    content: Feature = 0
+    content: public const NetServerBuildType Feature
     return:
       type: SuperOffice.Data.NetServerBuildType
+    content.vb: Public Const Feature As NetServerBuildType
   modifiers.csharp:
   - public
   - const
@@ -86,9 +123,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.\n"
   syntax:
-    content: Stable = 1
+    content: public const NetServerBuildType Stable
     return:
       type: SuperOffice.Data.NetServerBuildType
+    content.vb: Public Const Stable As NetServerBuildType
   modifiers.csharp:
   - public
   - const
@@ -114,9 +152,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: SuperOffice Confidential version that shall only be used by SuperOffice or partners with a signed and valid agreement with SuperOffice.\n"
   syntax:
-    content: Alpha = 2
+    content: public const NetServerBuildType Alpha
     return:
       type: SuperOffice.Data.NetServerBuildType
+    content.vb: Public Const Alpha As NetServerBuildType
   modifiers.csharp:
   - public
   - const
@@ -142,9 +181,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Beta version intended for SuperOffice with beta partners\n"
   syntax:
-    content: Beta = 3
+    content: public const NetServerBuildType Beta
     return:
       type: SuperOffice.Data.NetServerBuildType
+    content.vb: Public Const Beta As NetServerBuildType
   modifiers.csharp:
   - public
   - const
@@ -170,9 +210,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Release candidate intended for customers participating in a ramp-up or beta program.\n"
   syntax:
-    content: ReleaseCandidate = 4
+    content: public const NetServerBuildType ReleaseCandidate
     return:
       type: SuperOffice.Data.NetServerBuildType
+    content.vb: Public Const ReleaseCandidate As NetServerBuildType
   modifiers.csharp:
   - public
   - const
@@ -198,9 +239,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Release intended for customers.\n"
   syntax:
-    content: Release = 5
+    content: public const NetServerBuildType Release
     return:
       type: SuperOffice.Data.NetServerBuildType
+    content.vb: Public Const Release As NetServerBuildType
   modifiers.csharp:
   - public
   - const
@@ -214,6 +256,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.NetServerBuildType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -241,84 +290,6 @@ references:
     name: MapEnums(Of NetServerBuildType, To)
     nameWithType: EnumUtil.MapEnums(Of NetServerBuildType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.NetServerBuildType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NetServerBuildType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NetServerBuildType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<NetServerBuildType>(NetServerBuildType)
-  nameWithType: ObjectExtensions.AssignByReflection<NetServerBuildType>(NetServerBuildType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.NetServerBuildType>(SuperOffice.Data.NetServerBuildType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NetServerBuildType)(NetServerBuildType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.NetServerBuildType)(SuperOffice.Data.NetServerBuildType)
-  name.vb: AssignByReflection(Of NetServerBuildType)(NetServerBuildType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<NetServerBuildType>
-    nameWithType: ObjectExtensions.AssignByReflection<NetServerBuildType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.NetServerBuildType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.NetServerBuildType
-    name: NetServerBuildType
-    nameWithType: NetServerBuildType
-    fullName: SuperOffice.Data.NetServerBuildType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of NetServerBuildType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of NetServerBuildType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.NetServerBuildType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.NetServerBuildType
-    name: NetServerBuildType
-    nameWithType: NetServerBuildType
-    fullName: SuperOffice.Data.NetServerBuildType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.NetServerBuildType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<NetServerBuildType>()
-  nameWithType: ObjectExtensions.GraphCopy<NetServerBuildType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.NetServerBuildType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of NetServerBuildType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.NetServerBuildType)()
-  name.vb: GraphCopy(Of NetServerBuildType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<NetServerBuildType>
-    nameWithType: ObjectExtensions.GraphCopy<NetServerBuildType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.NetServerBuildType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of NetServerBuildType)
-    nameWithType: ObjectExtensions.GraphCopy(Of NetServerBuildType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.NetServerBuildType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -360,6 +331,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -405,103 +382,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -548,18 +428,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.NetServerBuildType
   commentId: T:SuperOffice.Data.NetServerBuildType
   parent: SuperOffice.Data

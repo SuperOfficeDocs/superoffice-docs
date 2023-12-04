@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.GrantedModuleLicense
   - SuperOffice.CRM.Services.IntStringDictionary
   - SuperOffice.CRM.Services.intStringDictionaryExt
+  - SuperOffice.CRM.Services.IRequestArgumentsInfo
   - SuperOffice.CRM.Services.ObjectCopier
   - SuperOffice.CRM.Services.ParticipantInfo
   - SuperOffice.CRM.Services.ProvidedCredential
@@ -19,10 +20,12 @@ items:
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   - SuperOffice.CRM.Services.RecurrenceWeekPattern
   - SuperOffice.CRM.Services.RecurrenceYearPattern
+  - SuperOffice.CRM.Services.RequestArgumentsInfo
   - SuperOffice.CRM.Services.ServiceDefinitions
-  - SuperOffice.CRM.Services.ServiceMode
   - SuperOffice.CRM.Services.SoPrincipalCarrier
   - SuperOffice.CRM.Services.SoSystemInfoCarrier
+  - SuperOffice.CRM.Services.StringBoolDictionary
+  - SuperOffice.CRM.Services.stringBoolDictionaryExt
   - SuperOffice.CRM.Services.StringDictionary
   - SuperOffice.CRM.Services.stringDictionaryExt
   - SuperOffice.CRM.Services.StringObjectDictionary
@@ -37,19 +40,52 @@ items:
   assemblies:
   - SoCore
 references:
-- uid: SuperOffice.CRM.Services.ServiceMode
-  commentId: T:SuperOffice.CRM.Services.ServiceMode
+- uid: SuperOffice.CRM.Services.Carrier
+  commentId: T:SuperOffice.CRM.Services.Carrier
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: ServiceMode
-  nameWithType: ServiceMode
-  fullName: SuperOffice.CRM.Services.ServiceMode
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.CRM.Services.Carrier
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense
+  commentId: T:SuperOffice.CRM.Services.GrantedModuleLicense
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: GrantedModuleLicense
+  nameWithType: GrantedModuleLicense
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+- uid: SuperOffice.CRM.Services.IntStringDictionary
+  commentId: T:SuperOffice.CRM.Services.IntStringDictionary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IntStringDictionary
+  nameWithType: IntStringDictionary
+  fullName: SuperOffice.CRM.Services.IntStringDictionary
+- uid: SuperOffice.CRM.Services.intStringDictionaryExt
+  commentId: T:SuperOffice.CRM.Services.intStringDictionaryExt
+  isExternal: true
+  name: intStringDictionaryExt
+  nameWithType: intStringDictionaryExt
+  fullName: SuperOffice.CRM.Services.intStringDictionaryExt
 - uid: SuperOffice.CRM.Services.ObjectCopier
   commentId: T:SuperOffice.CRM.Services.ObjectCopier
   isExternal: true
   name: ObjectCopier
   nameWithType: ObjectCopier
   fullName: SuperOffice.CRM.Services.ObjectCopier
+- uid: SuperOffice.CRM.Services.ParticipantInfo
+  commentId: T:SuperOffice.CRM.Services.ParticipantInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.CRM.Services.ParticipantInfo
+- uid: SuperOffice.CRM.Services.ProvidedCredential
+  commentId: T:SuperOffice.CRM.Services.ProvidedCredential
+  isExternal: true
+  name: ProvidedCredential
+  nameWithType: ProvidedCredential
+  fullName: SuperOffice.CRM.Services.ProvidedCredential
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase
   commentId: T:SuperOffice.CRM.Services.RecurrencePatternBase
   parent: SuperOffice.CRM.Services
@@ -57,6 +93,13 @@ references:
   name: RecurrencePatternBase
   nameWithType: RecurrencePatternBase
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase
+- uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+  commentId: T:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: RecurrenceWeekOfMonthPattern
+  nameWithType: RecurrenceWeekOfMonthPattern
+  fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
 - uid: SuperOffice.CRM.Services.RecurrenceDayPattern
   commentId: T:SuperOffice.CRM.Services.RecurrenceDayPattern
   parent: SuperOffice.CRM.Services
@@ -85,6 +128,13 @@ references:
   name: RecurrenceYearPattern
   nameWithType: RecurrenceYearPattern
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern
+- uid: SuperOffice.CRM.Services.RecurrenceDate
+  commentId: T:SuperOffice.CRM.Services.RecurrenceDate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: RecurrenceDate
+  nameWithType: RecurrenceDate
+  fullName: SuperOffice.CRM.Services.RecurrenceDate
 - uid: SuperOffice.CRM.Services.RecurrenceInfo
   commentId: T:SuperOffice.CRM.Services.RecurrenceInfo
   parent: SuperOffice.CRM.Services
@@ -98,61 +148,6 @@ references:
   name: ServiceDefinitions
   nameWithType: ServiceDefinitions
   fullName: SuperOffice.CRM.Services.ServiceDefinitions
-- uid: SuperOffice.CRM.Services.Carrier
-  commentId: T:SuperOffice.CRM.Services.Carrier
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: Carrier
-  nameWithType: Carrier
-  fullName: SuperOffice.CRM.Services.Carrier
-- uid: SuperOffice.CRM.Services.GrantedModuleLicense
-  commentId: T:SuperOffice.CRM.Services.GrantedModuleLicense
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: GrantedModuleLicense
-  nameWithType: GrantedModuleLicense
-  fullName: SuperOffice.CRM.Services.GrantedModuleLicense
-- uid: SuperOffice.CRM.Services.StringObjectDictionary
-  commentId: T:SuperOffice.CRM.Services.StringObjectDictionary
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: StringObjectDictionary
-  nameWithType: StringObjectDictionary
-  fullName: SuperOffice.CRM.Services.StringObjectDictionary
-- uid: SuperOffice.CRM.Services.stringObjectDictionaryExt
-  commentId: T:SuperOffice.CRM.Services.stringObjectDictionaryExt
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: stringObjectDictionaryExt
-  nameWithType: stringObjectDictionaryExt
-  fullName: SuperOffice.CRM.Services.stringObjectDictionaryExt
-- uid: SuperOffice.CRM.Services.ParticipantInfo
-  commentId: T:SuperOffice.CRM.Services.ParticipantInfo
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ParticipantInfo
-  nameWithType: ParticipantInfo
-  fullName: SuperOffice.CRM.Services.ParticipantInfo
-- uid: SuperOffice.CRM.Services.ProvidedCredential
-  commentId: T:SuperOffice.CRM.Services.ProvidedCredential
-  isExternal: true
-  name: ProvidedCredential
-  nameWithType: ProvidedCredential
-  fullName: SuperOffice.CRM.Services.ProvidedCredential
-- uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-  commentId: T:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: RecurrenceWeekOfMonthPattern
-  nameWithType: RecurrenceWeekOfMonthPattern
-  fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-- uid: SuperOffice.CRM.Services.RecurrenceDate
-  commentId: T:SuperOffice.CRM.Services.RecurrenceDate
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: RecurrenceDate
-  nameWithType: RecurrenceDate
-  fullName: SuperOffice.CRM.Services.RecurrenceDate
 - uid: SuperOffice.CRM.Services.SoPrincipalCarrier
   commentId: T:SuperOffice.CRM.Services.SoPrincipalCarrier
   parent: SuperOffice.CRM.Services
@@ -167,20 +162,19 @@ references:
   name: SoSystemInfoCarrier
   nameWithType: SoSystemInfoCarrier
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier
-- uid: SuperOffice.CRM.Services.IntStringDictionary
-  commentId: T:SuperOffice.CRM.Services.IntStringDictionary
+- uid: SuperOffice.CRM.Services.StringBoolDictionary
+  commentId: T:SuperOffice.CRM.Services.StringBoolDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: IntStringDictionary
-  nameWithType: IntStringDictionary
-  fullName: SuperOffice.CRM.Services.IntStringDictionary
-- uid: SuperOffice.CRM.Services.intStringDictionaryExt
-  commentId: T:SuperOffice.CRM.Services.intStringDictionaryExt
-  parent: SuperOffice.CRM.Services
+  name: StringBoolDictionary
+  nameWithType: StringBoolDictionary
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary
+- uid: SuperOffice.CRM.Services.stringBoolDictionaryExt
+  commentId: T:SuperOffice.CRM.Services.stringBoolDictionaryExt
   isExternal: true
-  name: intStringDictionaryExt
-  nameWithType: intStringDictionaryExt
-  fullName: SuperOffice.CRM.Services.intStringDictionaryExt
+  name: stringBoolDictionaryExt
+  nameWithType: stringBoolDictionaryExt
+  fullName: SuperOffice.CRM.Services.stringBoolDictionaryExt
 - uid: SuperOffice.CRM.Services.StringDictionary
   commentId: T:SuperOffice.CRM.Services.StringDictionary
   parent: SuperOffice.CRM.Services
@@ -190,11 +184,36 @@ references:
   fullName: SuperOffice.CRM.Services.StringDictionary
 - uid: SuperOffice.CRM.Services.stringDictionaryExt
   commentId: T:SuperOffice.CRM.Services.stringDictionaryExt
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: stringDictionaryExt
   nameWithType: stringDictionaryExt
   fullName: SuperOffice.CRM.Services.stringDictionaryExt
+- uid: SuperOffice.CRM.Services.StringObjectDictionary
+  commentId: T:SuperOffice.CRM.Services.StringObjectDictionary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: SuperOffice.CRM.Services.StringObjectDictionary
+- uid: SuperOffice.CRM.Services.stringObjectDictionaryExt
+  commentId: T:SuperOffice.CRM.Services.stringObjectDictionaryExt
+  isExternal: true
+  name: stringObjectDictionaryExt
+  nameWithType: stringObjectDictionaryExt
+  fullName: SuperOffice.CRM.Services.stringObjectDictionaryExt
+- uid: SuperOffice.CRM.Services.IRequestArgumentsInfo
+  commentId: T:SuperOffice.CRM.Services.IRequestArgumentsInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IRequestArgumentsInfo
+  nameWithType: IRequestArgumentsInfo
+  fullName: SuperOffice.CRM.Services.IRequestArgumentsInfo
+- uid: SuperOffice.CRM.Services.RequestArgumentsInfo
+  commentId: T:SuperOffice.CRM.Services.RequestArgumentsInfo
+  isExternal: true
+  name: RequestArgumentsInfo
+  nameWithType: RequestArgumentsInfo
+  fullName: SuperOffice.CRM.Services.RequestArgumentsInfo
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true

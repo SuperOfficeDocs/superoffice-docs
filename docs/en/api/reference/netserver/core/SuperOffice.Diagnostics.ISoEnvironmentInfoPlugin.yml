@@ -24,6 +24,7 @@ items:
     content: 'public interface ISoEnvironmentInfoPlugin : IPlugin'
     content.vb: >-
       Public Interface ISoEnvironmentInfoPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.EnumUtil.MapEnums``2

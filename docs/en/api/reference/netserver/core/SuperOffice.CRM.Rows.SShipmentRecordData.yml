@@ -10,8 +10,12 @@ items:
   - SuperOffice.CRM.Rows.SShipmentRecordData.ActualCount
   - SuperOffice.CRM.Rows.SShipmentRecordData.ActualRate
   - SuperOffice.CRM.Rows.SShipmentRecordData.ActualTime
+  - SuperOffice.CRM.Rows.SShipmentRecordData.AreStatisticsDirty
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ClickNum
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ClickRate
   - SuperOffice.CRM.Rows.SShipmentRecordData.Configuration
   - SuperOffice.CRM.Rows.SShipmentRecordData.CurrentSender
+  - SuperOffice.CRM.Rows.SShipmentRecordData.DeliveredNum
   - SuperOffice.CRM.Rows.SShipmentRecordData.Description
   - SuperOffice.CRM.Rows.SShipmentRecordData.EndDate
   - SuperOffice.CRM.Rows.SShipmentRecordData.EnvelopeFrom
@@ -19,7 +23,11 @@ items:
   - SuperOffice.CRM.Rows.SShipmentRecordData.FolderId
   - SuperOffice.CRM.Rows.SShipmentRecordData.FromAddr
   - SuperOffice.CRM.Rows.SShipmentRecordData.GeneratedDocumentId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceNum
+  - SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceRate
   - SuperOffice.CRM.Rows.SShipmentRecordData.MessageId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.OpenNum
+  - SuperOffice.CRM.Rows.SShipmentRecordData.OpenRate
   - SuperOffice.CRM.Rows.SShipmentRecordData.ProjectId
   - SuperOffice.CRM.Rows.SShipmentRecordData.Recipients
   - SuperOffice.CRM.Rows.SShipmentRecordData.Registered
@@ -27,15 +35,20 @@ items:
   - SuperOffice.CRM.Rows.SShipmentRecordData.ReplyAddr
   - SuperOffice.CRM.Rows.SShipmentRecordData.SelectionId
   - SuperOffice.CRM.Rows.SShipmentRecordData.SendRate
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SentNum
   - SuperOffice.CRM.Rows.SShipmentRecordData.ShipmenttypeId
   - SuperOffice.CRM.Rows.SShipmentRecordData.SmtpPort
   - SuperOffice.CRM.Rows.SShipmentRecordData.SmtpServ
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceNum
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceRate
   - SuperOffice.CRM.Rows.SShipmentRecordData.Sorting
   - SuperOffice.CRM.Rows.SShipmentRecordData.SShipmentId
   - SuperOffice.CRM.Rows.SShipmentRecordData.StartDate
   - SuperOffice.CRM.Rows.SShipmentRecordData.Status
   - SuperOffice.CRM.Rows.SShipmentRecordData.TicketCategory
   - SuperOffice.CRM.Rows.SShipmentRecordData.TicketOwner
+  - SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceNum
+  - SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceRate
   - SuperOffice.CRM.Rows.SShipmentRecordData.Updated
   - SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedCount
@@ -55,18 +68,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the s_shipment table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SShipmentRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SShipmentTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class SShipmentRecordData
-    content.vb: Public Class SShipmentRecordData
+    content: 'public class SShipmentRecordData : Object'
+    content.vb: >-
+      Public Class SShipmentRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.SShipmentRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SShipmentRecordData)
@@ -182,7 +190,7 @@ items:
     content: public DateTime StartDate
     return:
       type: System.DateTime
-    content.vb: Public StartDate As Date
+    content.vb: Public StartDate As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -209,7 +217,7 @@ items:
     content: public DateTime EndDate
     return:
       type: System.DateTime
-    content.vb: Public EndDate As Date
+    content.vb: Public EndDate As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -479,7 +487,7 @@ items:
     content: public DateTime ActualTime
     return:
       type: System.DateTime
-    content.vb: Public ActualTime As Date
+    content.vb: Public ActualTime As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -776,7 +784,7 @@ items:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -830,7 +838,7 @@ items:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -943,6 +951,357 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.DeliveredNum
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.DeliveredNum
+  id: DeliveredNum
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: DeliveredNum
+  nameWithType: SShipmentRecordData.DeliveredNum
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.DeliveredNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of mails sent minus bounces \n"
+  syntax:
+    content: public int DeliveredNum
+    return:
+      type: System.Int32
+    content.vb: Public DeliveredNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.OpenNum
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.OpenNum
+  id: OpenNum
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: OpenNum
+  nameWithType: SShipmentRecordData.OpenNum
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.OpenNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of opened emails count \n"
+  syntax:
+    content: public int OpenNum
+    return:
+      type: System.Int32
+    content.vb: Public OpenNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.OpenRate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.OpenRate
+  id: OpenRate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: OpenRate
+  nameWithType: SShipmentRecordData.OpenRate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.OpenRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOpen rate % (open_num / delivered_num) \n"
+  syntax:
+    content: public double OpenRate
+    return:
+      type: System.Double
+    content.vb: Public OpenRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ClickNum
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ClickNum
+  id: ClickNum
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ClickNum
+  nameWithType: SShipmentRecordData.ClickNum
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ClickNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of links clicked \n"
+  syntax:
+    content: public int ClickNum
+    return:
+      type: System.Int32
+    content.vb: Public ClickNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ClickRate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ClickRate
+  id: ClickRate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ClickRate
+  nameWithType: SShipmentRecordData.ClickRate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ClickRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nClick rate % (click_num / delivered_num) \n"
+  syntax:
+    content: public double ClickRate
+    return:
+      type: System.Double
+    content.vb: Public ClickRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceNum
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceNum
+  id: HardbounceNum
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: HardbounceNum
+  nameWithType: SShipmentRecordData.HardbounceNum
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of hard bounces \n"
+  syntax:
+    content: public int HardbounceNum
+    return:
+      type: System.Int32
+    content.vb: Public HardbounceNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceRate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceRate
+  id: HardbounceRate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: HardbounceRate
+  nameWithType: SShipmentRecordData.HardbounceRate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.HardbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHard bounce rate % (hardbounce_num / number_transmitted) \n"
+  syntax:
+    content: public double HardbounceRate
+    return:
+      type: System.Double
+    content.vb: Public HardbounceRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceNum
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceNum
+  id: SoftbounceNum
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceNum
+  nameWithType: SShipmentRecordData.SoftbounceNum
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of soft bounces \n"
+  syntax:
+    content: public int SoftbounceNum
+    return:
+      type: System.Int32
+    content.vb: Public SoftbounceNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceRate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceRate
+  id: SoftbounceRate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceRate
+  nameWithType: SShipmentRecordData.SoftbounceRate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SoftbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSoft bounce rate % (softbounce_num / number_transmitted) \n"
+  syntax:
+    content: public double SoftbounceRate
+    return:
+      type: System.Double
+    content.vb: Public SoftbounceRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceNum
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceNum
+  id: TotalbounceNum
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceNum
+  nameWithType: SShipmentRecordData.TotalbounceNum
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal number of bounces \n"
+  syntax:
+    content: public int TotalbounceNum
+    return:
+      type: System.Int32
+    content.vb: Public TotalbounceNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceRate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceRate
+  id: TotalbounceRate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceRate
+  nameWithType: SShipmentRecordData.TotalbounceRate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.TotalbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal bounce rate % (totalbounce_num / number_transmitted) \n"
+  syntax:
+    content: public double TotalbounceRate
+    return:
+      type: System.Double
+    content.vb: Public TotalbounceRate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.AreStatisticsDirty
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.AreStatisticsDirty
+  id: AreStatisticsDirty
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: AreStatisticsDirty
+  nameWithType: SShipmentRecordData.AreStatisticsDirty
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.AreStatisticsDirty
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIndicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens \n"
+  syntax:
+    content: public short AreStatisticsDirty
+    return:
+      type: System.Int16
+    content.vb: Public AreStatisticsDirty As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SentNum
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SentNum
+  id: SentNum
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SentNum
+  nameWithType: SShipmentRecordData.SentNum
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SentNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of mails sent \n"
+  syntax:
+    content: public int SentNum
+    return:
+      type: System.Int32
+    content.vb: Public SentNum As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SShipmentRecordData.ShipmenttypeId
   commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ShipmenttypeId
   id: ShipmenttypeId
@@ -1009,285 +1368,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.SShipmentRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1733,8 +1813,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1773,6 +1851,13 @@ references:
   name: RecipientSorting
   nameWithType: RecipientSorting
   fullName: SuperOffice.Data.RecipientSorting
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.Rows.SShipmentRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.SShipmentRecordData.#ctor
   isExternal: true

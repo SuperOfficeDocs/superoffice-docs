@@ -5,9 +5,14 @@ items:
   id: IPocketAgent
   parent: SuperOffice.CRM.Services
   children:
+  - SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
   - SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
   - SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
   - SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+  - SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
+  - SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
+  - SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
   - SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
   - SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
   - SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
@@ -54,6 +59,73 @@ items:
   modifiers.vb:
   - Public
   - Interface
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
+  id: GetMyCallerIDs(System.String,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyCallerIDs(String, DateTime, DateTime)
+  nameWithType: IPocketAgent.GetMyCallerIDs(String, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs(System.String, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group\n"
+  syntax:
+    content: CallerIDCollection GetMyCallerIDs(string lastHash, DateTime minDate, DateTime maxDate)
+    parameters:
+    - id: lastHash
+      type: System.String
+      description: Hash for the previous call, used for checking if the same set of caller ids was sent in a previous call, and returning null in that case
+    - id: minDate
+      type: System.DateTime
+      description: Only check activities after this date
+    - id: maxDate
+      type: System.DateTime
+      description: Only check activities before this date
+    return:
+      type: SuperOffice.CRM.Services.CallerIDCollection
+      description: Collection of caller IDs, containing the hash of the caller ids
+    content.vb: Function GetMyCallerIDs(lastHash As String, minDate As DateTime, maxDate As DateTime) As CallerIDCollection
+  overload: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs*
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32,System.String)
+  id: GetCallerIDsFromSelection(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCallerIDsFromSelection(Int32, String)
+  nameWithType: IPocketAgent.GetCallerIDsFromSelection(Int32, String)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet caller ids from a selection. Queries the shadow selection of persons and companies, so selections of any kind can be used\n"
+  syntax:
+    content: CallerIDCollection GetCallerIDsFromSelection(int selectionId, string lastHash)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of selection to get caller ids from
+    - id: lastHash
+      type: System.String
+      description: Hash for the previous call, used for checking if the same set of caller ids was sent in an earlier call, and returning null in that case
+    return:
+      type: SuperOffice.CRM.Services.CallerIDCollection
+      description: Collection of caller IDs, containing the hash of the caller ids
+    content.vb: Function GetCallerIDsFromSelection(selectionId As Integer, lastHash As String) As CallerIDCollection
+  overload: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection*
 - uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
   commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
   id: GetPocketStartupData(System.String[],System.DateTime)
@@ -84,7 +156,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.PocketStartupData
       description: Startup data for pocket
-    content.vb: Function GetPocketStartupData(tables As String(), currentClientTime As Date) As PocketStartupData
+    content.vb: Function GetPocketStartupData(tables As String(), currentClientTime As DateTime) As PocketStartupData
   overload: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData*
   nameWithType.vb: IPocketAgent.GetPocketStartupData(String(), DateTime)
   fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String(), System.DateTime)
@@ -284,6 +356,93 @@ items:
     content: void RunAppointmentAlarmBroker()
     content.vb: Sub RunAppointmentAlarmBroker
   overload: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker*
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
+  id: NotifyUsers(SuperOffice.Data.NotificationEventType,System.Int32)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotifyUsers(NotificationEventType, Int32)
+  nameWithType: IPocketAgent.NotifyUsers(NotificationEventType, Int32)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers(SuperOffice.Data.NotificationEventType, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNotify users about a new or changed entity\n"
+  syntax:
+    content: void NotifyUsers(NotificationEventType notificationEventType, int id)
+    parameters:
+    - id: notificationEventType
+      type: SuperOffice.Data.NotificationEventType
+      description: Type of notification
+    - id: id
+      type: System.Int32
+      description: Id of entity to notify about
+    content.vb: Sub NotifyUsers(notificationEventType As NotificationEventType, id As Integer)
+  overload: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers*
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
+  id: NotificationHandled(SuperOffice.Data.NotificationEventType,System.Int32)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotificationHandled(NotificationEventType, Int32)
+  nameWithType: IPocketAgent.NotificationHandled(NotificationEventType, Int32)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled(SuperOffice.Data.NotificationEventType, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMark a notification as handled, so it can be cleaned up on other clients that have received the notification\n"
+  syntax:
+    content: void NotificationHandled(NotificationEventType notificationEventType, int id)
+    parameters:
+    - id: notificationEventType
+      type: SuperOffice.Data.NotificationEventType
+      description: Type of notification
+    - id: id
+      type: System.Int32
+      description: Id of entity to notify about
+    content.vb: Sub NotificationHandled(notificationEventType As NotificationEventType, id As Integer)
+  overload: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled*
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
+  id: NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotificationsHandled(NotificationEvent[])
+  nameWithType: IPocketAgent.NotificationsHandled(NotificationEvent[])
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification\n"
+  syntax:
+    content: void NotificationsHandled(NotificationEvent[] notificationEvents)
+    parameters:
+    - id: notificationEvents
+      type: SuperOffice.CRM.Services.NotificationEvent[]
+      description: List of notifications to mark as handled
+    content.vb: Sub NotificationsHandled(notificationEvents As NotificationEvent())
+  overload: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled*
+  nameWithType.vb: IPocketAgent.NotificationsHandled(NotificationEvent())
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled(SuperOffice.CRM.Services.NotificationEvent())
+  name.vb: NotificationsHandled(NotificationEvent())
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -291,6 +450,50 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs
+  isExternal: true
+  name: GetMyCallerIDs
+  nameWithType: IPocketAgent.GetMyCallerIDs
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.CallerIDCollection
+  commentId: T:SuperOffice.CRM.Services.CallerIDCollection
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CallerIDCollection
+  nameWithType: CallerIDCollection
+  fullName: SuperOffice.CRM.Services.CallerIDCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection
+  isExternal: true
+  name: GetCallerIDsFromSelection
+  nameWithType: IPocketAgent.GetCallerIDsFromSelection
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetCallerIDsFromSelection
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData*
   commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData
   isExternal: true
@@ -323,13 +526,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: SuperOffice.CRM.Services.PocketStartupData
   commentId: T:SuperOffice.CRM.Services.PocketStartupData
   parent: SuperOffice.CRM.Services
@@ -337,12 +533,6 @@ references:
   name: PocketStartupData
   nameWithType: PocketStartupData
   fullName: SuperOffice.CRM.Services.PocketStartupData
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification*
   commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification
   isExternal: true
@@ -362,13 +552,6 @@ references:
   name: GetRegisteredDevices
   nameWithType: IPocketAgent.GetRegisteredDevices
   fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo[]
   isExternal: true
   name: PocketDeviceInfo[]
@@ -401,13 +584,6 @@ references:
   name: SetPushNotificationTagsForDevice
   nameWithType: IPocketAgent.SetPushNotificationTagsForDevice
   fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser*
   commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser
   isExternal: true
@@ -465,3 +641,52 @@ references:
   name: RunAppointmentAlarmBroker
   nameWithType: IPocketAgent.RunAppointmentAlarmBroker
   fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotifyUsers
+  isExternal: true
+  name: NotifyUsers
+  nameWithType: IPocketAgent.NotifyUsers
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotifyUsers
+- uid: SuperOffice.Data.NotificationEventType
+  isExternal: true
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: SuperOffice.Data.NotificationEventType
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotificationHandled
+  isExternal: true
+  name: NotificationHandled
+  nameWithType: IPocketAgent.NotificationHandled
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationHandled
+- uid: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled*
+  commentId: Overload:SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled
+  isExternal: true
+  name: NotificationsHandled
+  nameWithType: IPocketAgent.NotificationsHandled
+  fullName: SuperOffice.CRM.Services.IPocketAgent.NotificationsHandled
+- uid: SuperOffice.CRM.Services.NotificationEvent[]
+  isExternal: true
+  name: NotificationEvent[]
+  nameWithType: NotificationEvent[]
+  fullName: SuperOffice.CRM.Services.NotificationEvent[]
+  nameWithType.vb: NotificationEvent()
+  fullName.vb: SuperOffice.CRM.Services.NotificationEvent()
+  name.vb: NotificationEvent()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.NotificationEvent
+    name: NotificationEvent
+    nameWithType: NotificationEvent
+    fullName: SuperOffice.CRM.Services.NotificationEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.NotificationEvent
+    name: NotificationEvent
+    nameWithType: NotificationEvent
+    fullName: SuperOffice.CRM.Services.NotificationEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

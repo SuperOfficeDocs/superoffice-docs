@@ -10,7 +10,10 @@ items:
   - SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster
   - SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus
   - SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields
+  - SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus
+  - SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus
   - SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod
+  - SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId
   - SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName
   - SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
   - SuperOffice.CRM.Services.TicketCategoryEntity.Flags
@@ -433,7 +436,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAn integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. \n"
+  summary: "\nDetermines the default status used in the GUI when creating a ticket \n"
   syntax:
     content: public virtual TicketCategoryClosingStatus ClosingStatus { get; set; }
     parameters: []
@@ -466,7 +469,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nAn integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. \n"
+  summary: "\nDetermines the default status used in the GUI when adding a request to a ticket \n"
   syntax:
     content: public virtual TicketCategoryClosingStatus MsgClosingStatus { get; set; }
     parameters: []
@@ -581,6 +584,105 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus
+  id: DefaultTicketStatus
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: DefaultTicketStatus
+  nameWithType: TicketCategoryEntity.DefaultTicketStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault status for new tickets, if 0 then there is a fallback to a user-dependent value \n"
+  syntax:
+    content: public virtual TicketStatusEntity DefaultTicketStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TicketStatusEntity
+    content.vb: Public Overridable Property DefaultTicketStatus As TicketStatusEntity
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus
+  id: DefaultMessageStatus
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: DefaultMessageStatus
+  nameWithType: TicketCategoryEntity.DefaultMessageStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault status for new messages, if 0 then there is a fallback to a user-dependent value \n"
+  syntax:
+    content: public virtual TicketStatusEntity DefaultMessageStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TicketStatusEntity
+    content.vb: Public Overridable Property DefaultMessageStatus As TicketStatusEntity
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId
+  id: EffectiveReplyTemplateId
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: EffectiveReplyTemplateId
+  nameWithType: TicketCategoryEntity.EffectiveReplyTemplateId
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of reply template to merge into messages, whose ticket belongs to this category. Also takes into account &apos;Apply to subcategories&apos; on parent categories. This is a calculated, readonly field. \n"
+  syntax:
+    content: public virtual int EffectiveReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EffectiveReplyTemplateId As Integer
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
   commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
   id: ExtraFields
@@ -599,7 +701,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n       [Plug-in name].[Property name]\n       Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \nThis is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \nand hence we would ensure an unique key if this field is used.\nExample: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n   [Table name].[Field name]\n   Example: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
   syntax:
     content: public StringDictionary ExtraFields { get; set; }
     parameters: []
@@ -633,7 +735,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <see cref=\"!:UserDefinedFields\">UserDefinedFields</see> properties are deprecated in favor of this\ncombined collection.\n"
-  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n       [Extra field name]<p></p>\n       Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\nExample: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
   syntax:
     content: public StringDictionary CustomFields { get; set; }
     parameters: []
@@ -641,6 +743,8 @@ items:
       type: SuperOffice.CRM.Services.StringDictionary
     content.vb: Public Property CustomFields As StringDictionary
   overload: SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
   modifiers.csharp:
   - public
   - get
@@ -654,13 +758,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.IExtraFieldCarrier
   commentId: T:SuperOffice.CRM.Services.IExtraFieldCarrier
   parent: SuperOffice.CRM.Services
@@ -681,12 +778,6 @@ references:
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TicketCategoryEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.#ctor
   isExternal: true
@@ -706,6 +797,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId*
   commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId
   isExternal: true
@@ -808,6 +905,31 @@ references:
   name: NotificationEmail
   nameWithType: TicketCategoryEntity.NotificationEmail
   fullName: SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus
+  isExternal: true
+  name: DefaultTicketStatus
+  nameWithType: TicketCategoryEntity.DefaultTicketStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultTicketStatus
+- uid: SuperOffice.CRM.Services.TicketStatusEntity
+  commentId: T:SuperOffice.CRM.Services.TicketStatusEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketStatusEntity
+  nameWithType: TicketStatusEntity
+  fullName: SuperOffice.CRM.Services.TicketStatusEntity
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus
+  isExternal: true
+  name: DefaultMessageStatus
+  nameWithType: TicketCategoryEntity.DefaultMessageStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.DefaultMessageStatus
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId
+  isExternal: true
+  name: EffectiveReplyTemplateId
+  nameWithType: TicketCategoryEntity.EffectiveReplyTemplateId
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.EffectiveReplyTemplateId
 - uid: SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields*
   commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
   isExternal: true
@@ -832,3 +954,10 @@ references:
   name: CustomFields
   nameWithType: TicketCategoryEntity.CustomFields
   fullName: SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  name: CustomFields
+  nameWithType: IExtraFieldCarrier.CustomFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields

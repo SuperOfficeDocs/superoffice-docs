@@ -5,7 +5,6 @@ items:
   id: XmlObjectHelper
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.XmlObjectHelper.#ctor
   - SuperOffice.Util.XmlObjectHelper.GetBoolValue(System.String,System.String)
   - SuperOffice.Util.XmlObjectHelper.GetBoolValue(System.Xml.Linq.XElement,System.String)
   - SuperOffice.Util.XmlObjectHelper.GetIntValue(System.String,System.String)
@@ -14,6 +13,7 @@ items:
   - SuperOffice.Util.XmlObjectHelper.GetObject(System.Xml.Linq.XElement,System.String)
   - SuperOffice.Util.XmlObjectHelper.GetStringValue(System.String,System.String)
   - SuperOffice.Util.XmlObjectHelper.GetStringValue(System.Xml.Linq.XElement,System.String)
+  - SuperOffice.Util.XmlObjectHelper.GetStringValue2(System.Xml.Linq.XElement,System.String)
   langs:
   - csharp
   - vb
@@ -29,29 +29,20 @@ items:
   namespace: SuperOffice.Util
   summary: "\nClass to extract data from xml without caring about namespaces etc.\n"
   syntax:
-    content: public class XmlObjectHelper
-    content.vb: Public Class XmlObjectHelper
+    content: 'public static class XmlObjectHelper : Object'
+    content.vb: >-
+      Public Module XmlObjectHelper
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  extensionMethods:
-  - SuperOffice.Util.XmlObjectHelper.EnumUtil.MapEnums``2
-  - SuperOffice.Util.XmlObjectHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.XmlObjectHelper)
-  - SuperOffice.Util.XmlObjectHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Util.XmlObjectHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: SuperOffice.Util.XmlObjectHelper.GetStringValue(System.String,System.String)
   commentId: M:SuperOffice.Util.XmlObjectHelper.GetStringValue(System.String,System.String)
   id: GetStringValue(System.String,System.String)
@@ -90,6 +81,7 @@ items:
 - uid: SuperOffice.Util.XmlObjectHelper.GetStringValue(System.Xml.Linq.XElement,System.String)
   commentId: M:SuperOffice.Util.XmlObjectHelper.GetStringValue(System.Xml.Linq.XElement,System.String)
   id: GetStringValue(System.Xml.Linq.XElement,System.String)
+  isExtensionMethod: true
   parent: SuperOffice.Util.XmlObjectHelper
   langs:
   - csharp
@@ -106,16 +98,62 @@ items:
   namespace: SuperOffice.Util
   summary: "\nGet property as string\n"
   syntax:
-    content: public static string GetStringValue(XElement xml, string propertyName)
+    content: public static string GetStringValue(this XElement xml, string propertyName)
     parameters:
     - id: xml
       type: System.Xml.Linq.XElement
+      description: Xml object
     - id: propertyName
       type: System.String
+      description: Name of property of xml object
     return:
       type: System.String
-    content.vb: Public Shared Function GetStringValue(xml As XElement, propertyName As String) As String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStringValue(xml As XElement, propertyName As String) As String
   overload: SuperOffice.Util.XmlObjectHelper.GetStringValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlObjectHelper.GetStringValue2(System.Xml.Linq.XElement,System.String)
+  commentId: M:SuperOffice.Util.XmlObjectHelper.GetStringValue2(System.Xml.Linq.XElement,System.String)
+  id: GetStringValue2(System.Xml.Linq.XElement,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.XmlObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStringValue2(XElement, String)
+  nameWithType: XmlObjectHelper.GetStringValue2(XElement, String)
+  fullName: SuperOffice.Util.XmlObjectHelper.GetStringValue2(System.Xml.Linq.XElement, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet property as string and trim\n"
+  syntax:
+    content: public static string GetStringValue2(this XElement e, string propertyName)
+    parameters:
+    - id: e
+      type: System.Xml.Linq.XElement
+      description: Xml object
+    - id: propertyName
+      type: System.String
+      description: Name of property of xml object
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStringValue2(e As XElement, propertyName As String) As String
+  overload: SuperOffice.Util.XmlObjectHelper.GetStringValue2*
   modifiers.csharp:
   - public
   - static
@@ -159,6 +197,7 @@ items:
 - uid: SuperOffice.Util.XmlObjectHelper.GetIntValue(System.Xml.Linq.XElement,System.String)
   commentId: M:SuperOffice.Util.XmlObjectHelper.GetIntValue(System.Xml.Linq.XElement,System.String)
   id: GetIntValue(System.Xml.Linq.XElement,System.String)
+  isExtensionMethod: true
   parent: SuperOffice.Util.XmlObjectHelper
   langs:
   - csharp
@@ -174,7 +213,7 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static int GetIntValue(XElement xml, string propertyName)
+    content: public static int GetIntValue(this XElement xml, string propertyName)
     parameters:
     - id: xml
       type: System.Xml.Linq.XElement
@@ -182,7 +221,10 @@ items:
       type: System.String
     return:
       type: System.Int32
-    content.vb: Public Shared Function GetIntValue(xml As XElement, propertyName As String) As Integer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetIntValue(xml As XElement, propertyName As String) As Integer
   overload: SuperOffice.Util.XmlObjectHelper.GetIntValue*
   modifiers.csharp:
   - public
@@ -227,6 +269,7 @@ items:
 - uid: SuperOffice.Util.XmlObjectHelper.GetBoolValue(System.Xml.Linq.XElement,System.String)
   commentId: M:SuperOffice.Util.XmlObjectHelper.GetBoolValue(System.Xml.Linq.XElement,System.String)
   id: GetBoolValue(System.Xml.Linq.XElement,System.String)
+  isExtensionMethod: true
   parent: SuperOffice.Util.XmlObjectHelper
   langs:
   - csharp
@@ -242,7 +285,7 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static bool GetBoolValue(XElement xml, string propertyName)
+    content: public static bool GetBoolValue(this XElement xml, string propertyName)
     parameters:
     - id: xml
       type: System.Xml.Linq.XElement
@@ -250,7 +293,10 @@ items:
       type: System.String
     return:
       type: System.Boolean
-    content.vb: Public Shared Function GetBoolValue(xml As XElement, propertyName As String) As Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBoolValue(xml As XElement, propertyName As String) As Boolean
   overload: SuperOffice.Util.XmlObjectHelper.GetBoolValue*
   modifiers.csharp:
   - public
@@ -295,6 +341,7 @@ items:
 - uid: SuperOffice.Util.XmlObjectHelper.GetObject(System.Xml.Linq.XElement,System.String)
   commentId: M:SuperOffice.Util.XmlObjectHelper.GetObject(System.Xml.Linq.XElement,System.String)
   id: GetObject(System.Xml.Linq.XElement,System.String)
+  isExtensionMethod: true
   parent: SuperOffice.Util.XmlObjectHelper
   langs:
   - csharp
@@ -310,7 +357,7 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static XElement GetObject(XElement xml, string propertyName)
+    content: public static XElement GetObject(this XElement xml, string propertyName)
     parameters:
     - id: xml
       type: System.Xml.Linq.XElement
@@ -318,7 +365,10 @@ items:
       type: System.String
     return:
       type: System.Xml.Linq.XElement
-    content.vb: Public Shared Function GetObject(xml As XElement, propertyName As String) As XElement
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetObject(xml As XElement, propertyName As String) As XElement
   overload: SuperOffice.Util.XmlObjectHelper.GetObject*
   modifiers.csharp:
   - public
@@ -326,31 +376,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.XmlObjectHelper.#ctor
-  commentId: M:SuperOffice.Util.XmlObjectHelper.#ctor
-  id: '#ctor'
-  parent: SuperOffice.Util.XmlObjectHelper
-  langs:
-  - csharp
-  - vb
-  name: XmlObjectHelper()
-  nameWithType: XmlObjectHelper.XmlObjectHelper()
-  fullName: SuperOffice.Util.XmlObjectHelper.XmlObjectHelper()
-  type: Constructor
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: public XmlObjectHelper()
-    content.vb: Public Sub New
-  overload: SuperOffice.Util.XmlObjectHelper.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -365,631 +390,12 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.XmlObjectHelper.EnumUtil.MapEnums``2
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  parent: EnumUtil
-  definition: EnumUtil.MapEnums``2(``0)
-  name: MapEnums<XmlObjectHelper, To>()
-  nameWithType: EnumUtil.MapEnums<XmlObjectHelper, To>()
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.XmlObjectHelper, To>()
-  nameWithType.vb: EnumUtil.MapEnums(Of XmlObjectHelper, To)()
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.XmlObjectHelper, To)()
-  name.vb: MapEnums(Of XmlObjectHelper, To)()
-  spec.csharp:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums<XmlObjectHelper, To>
-    nameWithType: EnumUtil.MapEnums<XmlObjectHelper, To>
-    fullName: EnumUtil.MapEnums<SuperOffice.Util.XmlObjectHelper, To>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2
-    name: MapEnums(Of XmlObjectHelper, To)
-    nameWithType: EnumUtil.MapEnums(Of XmlObjectHelper, To)
-    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.XmlObjectHelper, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.XmlObjectHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.XmlObjectHelper)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<XmlObjectHelper>(XmlObjectHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<XmlObjectHelper>(XmlObjectHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.XmlObjectHelper>(SuperOffice.Util.XmlObjectHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of XmlObjectHelper)(XmlObjectHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.XmlObjectHelper)(SuperOffice.Util.XmlObjectHelper)
-  name.vb: AssignByReflection(Of XmlObjectHelper)(XmlObjectHelper)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<XmlObjectHelper>
-    nameWithType: ObjectExtensions.AssignByReflection<XmlObjectHelper>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.XmlObjectHelper>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Util.XmlObjectHelper
-    name: XmlObjectHelper
-    nameWithType: XmlObjectHelper
-    fullName: SuperOffice.Util.XmlObjectHelper
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of XmlObjectHelper)
-    nameWithType: ObjectExtensions.AssignByReflection(Of XmlObjectHelper)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.XmlObjectHelper)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Util.XmlObjectHelper
-    name: XmlObjectHelper
-    nameWithType: XmlObjectHelper
-    fullName: SuperOffice.Util.XmlObjectHelper
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.XmlObjectHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<XmlObjectHelper>()
-  nameWithType: ObjectExtensions.GraphCopy<XmlObjectHelper>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.XmlObjectHelper>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of XmlObjectHelper)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.XmlObjectHelper)()
-  name.vb: GraphCopy(Of XmlObjectHelper)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<XmlObjectHelper>
-    nameWithType: ObjectExtensions.GraphCopy<XmlObjectHelper>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.XmlObjectHelper>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of XmlObjectHelper)
-    nameWithType: ObjectExtensions.GraphCopy(Of XmlObjectHelper)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.XmlObjectHelper)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.XmlObjectHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  name: MapEnums<XmlObjectHelper, To>()
-  nameWithType: Converters.MapEnums<XmlObjectHelper, To>()
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.XmlObjectHelper, To>()
-  nameWithType.vb: Converters.MapEnums(Of XmlObjectHelper, To)()
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.XmlObjectHelper, To)()
-  name.vb: MapEnums(Of XmlObjectHelper, To)()
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums<XmlObjectHelper, To>
-    nameWithType: Converters.MapEnums<XmlObjectHelper, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.XmlObjectHelper, To>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-    name: MapEnums(Of XmlObjectHelper, To)
-    nameWithType: Converters.MapEnums(Of XmlObjectHelper, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.XmlObjectHelper, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  isExternal: true
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: EnumUtil.MapEnums<From, To>
-    fullName: EnumUtil.MapEnums<From, To>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: EnumUtil.MapEnums(Of From, To)
-    fullName: EnumUtil.MapEnums(Of From, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums<From, To>
-    nameWithType: Converters.MapEnums<From, To>
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums(Of From, To)
-    nameWithType: Converters.MapEnums(Of From, To)
-    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: From
-    nameWithType: From
-    fullName: From
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Util.XmlObjectHelper.GetStringValue*
   commentId: Overload:SuperOffice.Util.XmlObjectHelper.GetStringValue
   isExternal: true
@@ -1008,6 +414,12 @@ references:
   name: XElement
   nameWithType: XElement
   fullName: System.Xml.Linq.XElement
+- uid: SuperOffice.Util.XmlObjectHelper.GetStringValue2*
+  commentId: Overload:SuperOffice.Util.XmlObjectHelper.GetStringValue2
+  isExternal: true
+  name: GetStringValue2
+  nameWithType: XmlObjectHelper.GetStringValue2
+  fullName: SuperOffice.Util.XmlObjectHelper.GetStringValue2
 - uid: SuperOffice.Util.XmlObjectHelper.GetIntValue*
   commentId: Overload:SuperOffice.Util.XmlObjectHelper.GetIntValue
   isExternal: true
@@ -1040,9 +452,3 @@ references:
   name: GetObject
   nameWithType: XmlObjectHelper.GetObject
   fullName: SuperOffice.Util.XmlObjectHelper.GetObject
-- uid: SuperOffice.Util.XmlObjectHelper.#ctor*
-  commentId: Overload:SuperOffice.Util.XmlObjectHelper.#ctor
-  isExternal: true
-  name: XmlObjectHelper
-  nameWithType: XmlObjectHelper.XmlObjectHelper
-  fullName: SuperOffice.Util.XmlObjectHelper.XmlObjectHelper

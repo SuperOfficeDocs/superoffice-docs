@@ -7,10 +7,13 @@ items:
   - SuperOffice.License.AcceptingContext
   - SuperOffice.License.AssociateModuleLicenseLink
   - SuperOffice.License.AssociateModuleLicenseOwner
+  - SuperOffice.License.BlockWelcomeMailPluginAttribute
   - SuperOffice.License.BuildInfoAttribute
+  - SuperOffice.License.DefaultBlockWelcomeMailPlugin
   - SuperOffice.License.ExtendedLicenseInfo
   - SuperOffice.License.ExtendedLicenseInfoWithAssignments
   - SuperOffice.License.ExtendedModuleLicense
+  - SuperOffice.License.IBlockWelcomeMailPlugin
   - SuperOffice.License.LicenseAssocLinkCache
   - SuperOffice.License.LicenseCache
   - SuperOffice.License.LicenseInfoHelper
@@ -29,6 +32,7 @@ items:
   - SuperOffice.License.SignatureValidator
   - SuperOffice.License.SoLicenseNames
   - SuperOffice.License.SoModuleLicenseNames
+  - SuperOffice.License.UserLicenseAttribute
   - SuperOffice.License.UserTypeHelper
   langs:
   - csharp
@@ -40,26 +44,6 @@ items:
   assemblies:
   - SoCore
 references:
-- uid: SuperOffice.License.ProductAttribute
-  commentId: T:SuperOffice.License.ProductAttribute
-  isExternal: true
-  name: ProductAttribute
-  nameWithType: ProductAttribute
-  fullName: SuperOffice.License.ProductAttribute
-- uid: SuperOffice.License.Product
-  commentId: T:SuperOffice.License.Product
-  parent: SuperOffice.License
-  isExternal: true
-  name: Product
-  nameWithType: Product
-  fullName: SuperOffice.License.Product
-- uid: SuperOffice.License.UserTypeHelper
-  commentId: T:SuperOffice.License.UserTypeHelper
-  parent: SuperOffice.License
-  isExternal: true
-  name: UserTypeHelper
-  nameWithType: UserTypeHelper
-  fullName: SuperOffice.License.UserTypeHelper
 - uid: SuperOffice.License.BuildInfoAttribute
   commentId: T:SuperOffice.License.BuildInfoAttribute
   parent: SuperOffice.License
@@ -88,6 +72,19 @@ references:
   name: ExtendedLicenseInfoWithAssignments
   nameWithType: ExtendedLicenseInfoWithAssignments
   fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments
+- uid: SuperOffice.License.ProductAttribute
+  commentId: T:SuperOffice.License.ProductAttribute
+  isExternal: true
+  name: ProductAttribute
+  nameWithType: ProductAttribute
+  fullName: SuperOffice.License.ProductAttribute
+- uid: SuperOffice.License.Product
+  commentId: T:SuperOffice.License.Product
+  parent: SuperOffice.License
+  isExternal: true
+  name: Product
+  nameWithType: Product
+  fullName: SuperOffice.License.Product
 - uid: SuperOffice.License.SoModuleLicenseNames
   commentId: T:SuperOffice.License.SoModuleLicenseNames
   isExternal: true
@@ -101,12 +98,32 @@ references:
   name: ProductLicense
   nameWithType: ProductLicense
   fullName: SuperOffice.License.ProductLicense
+- uid: SuperOffice.License.UserLicenseAttribute
+  commentId: T:SuperOffice.License.UserLicenseAttribute
+  parent: SuperOffice.License
+  isExternal: true
+  name: UserLicenseAttribute
+  nameWithType: UserLicenseAttribute
+  fullName: SuperOffice.License.UserLicenseAttribute
 - uid: SuperOffice.License.SoLicenseNames
   commentId: T:SuperOffice.License.SoLicenseNames
   isExternal: true
   name: SoLicenseNames
   nameWithType: SoLicenseNames
   fullName: SuperOffice.License.SoLicenseNames
+- uid: SuperOffice.License.UserTypeHelper
+  commentId: T:SuperOffice.License.UserTypeHelper
+  parent: SuperOffice.License
+  isExternal: true
+  name: UserTypeHelper
+  nameWithType: UserTypeHelper
+  fullName: SuperOffice.License.UserTypeHelper
+- uid: SuperOffice.License.AcceptingContext
+  commentId: T:SuperOffice.License.AcceptingContext
+  isExternal: true
+  name: AcceptingContext
+  nameWithType: AcceptingContext
+  fullName: SuperOffice.License.AcceptingContext
 - uid: SuperOffice.License.AssociateModuleLicenseLink
   commentId: T:SuperOffice.License.AssociateModuleLicenseLink
   parent: SuperOffice.License
@@ -121,6 +138,26 @@ references:
   name: AssociateModuleLicenseOwner
   nameWithType: AssociateModuleLicenseOwner
   fullName: SuperOffice.License.AssociateModuleLicenseOwner
+- uid: SuperOffice.License.IBlockWelcomeMailPlugin
+  commentId: T:SuperOffice.License.IBlockWelcomeMailPlugin
+  parent: SuperOffice.License
+  isExternal: true
+  name: IBlockWelcomeMailPlugin
+  nameWithType: IBlockWelcomeMailPlugin
+  fullName: SuperOffice.License.IBlockWelcomeMailPlugin
+- uid: SuperOffice.License.BlockWelcomeMailPluginAttribute
+  commentId: T:SuperOffice.License.BlockWelcomeMailPluginAttribute
+  parent: SuperOffice.License
+  isExternal: true
+  name: BlockWelcomeMailPluginAttribute
+  nameWithType: BlockWelcomeMailPluginAttribute
+  fullName: SuperOffice.License.BlockWelcomeMailPluginAttribute
+- uid: SuperOffice.License.DefaultBlockWelcomeMailPlugin
+  commentId: T:SuperOffice.License.DefaultBlockWelcomeMailPlugin
+  isExternal: true
+  name: DefaultBlockWelcomeMailPlugin
+  nameWithType: DefaultBlockWelcomeMailPlugin
+  fullName: SuperOffice.License.DefaultBlockWelcomeMailPlugin
 - uid: SuperOffice.License.LicenseAssocLinkCache
   commentId: T:SuperOffice.License.LicenseAssocLinkCache
   parent: SuperOffice.License
@@ -135,12 +172,6 @@ references:
   name: LicenseCache
   nameWithType: LicenseCache
   fullName: SuperOffice.License.LicenseCache
-- uid: SuperOffice.License.AcceptingContext
-  commentId: T:SuperOffice.License.AcceptingContext
-  isExternal: true
-  name: AcceptingContext
-  nameWithType: AcceptingContext
-  fullName: SuperOffice.License.AcceptingContext
 - uid: SuperOffice.License.LicenseManager
   commentId: T:SuperOffice.License.LicenseManager
   parent: SuperOffice.License

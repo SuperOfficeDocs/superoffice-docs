@@ -1,0 +1,960 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ReplyTemplateFlags
+  commentId: T:SuperOffice.Data.ReplyTemplateFlags
+  id: ReplyTemplateFlags
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateAll
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNewLink
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNone
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePrintTicket
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  - SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
+  - SuperOffice.Data.ReplyTemplateFlags.value__
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateFlags
+  nameWithType: ReplyTemplateFlags
+  fullName: SuperOffice.Data.ReplyTemplateFlags
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nDescribes access level to get reply templaes\n"
+  syntax:
+    content: 'public sealed class ReplyTemplateFlags : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReplyTemplateFlags
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.ReplyTemplateFlags.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ReplyTemplateFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ReplyTemplateFlags.value__
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.value__
+  id: value__
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReplyTemplateFlags.value__
+  fullName: SuperOffice.Data.ReplyTemplateFlags.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  id: ReplyTemplateCustomerNewCustomer
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateCustomerNewCustomer
+  nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: System template for reply to new customers\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateCustomerNewCustomer
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateCustomerNewCustomer As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  id: ReplyTemplateCustomerCustomerReply
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateCustomerCustomerReply
+  nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: System template for reply to customers on new request\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateCustomerCustomerReply
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateCustomerCustomerReply As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  id: ReplyTemplateCustomerPassword
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateCustomerPassword
+  nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: System template for sending password to customers\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateCustomerPassword
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateCustomerPassword As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  id: ReplyTemplateUserActiveTickets
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateUserActiveTickets
+  nameWithType: ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: System template for sending an overview of open requests to a user\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateUserActiveTickets
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateUserActiveTickets As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  id: ReplyTemplateUserNewMessage
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateUserNewMessage
+  nameWithType: ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: System template for notifying a user that a new message has arrived\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateUserNewMessage
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateUserNewMessage As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  id: ReplyTemplateUserTicketActivated
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateUserTicketActivated
+  nameWithType: ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: System template for notifying a user that a request has been activated\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateUserTicketActivated
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateUserTicketActivated As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  id: ReplyTemplateUserTicketAlarm
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateUserTicketAlarm
+  nameWithType: ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: System template for notifying a user that a request has been escalated\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateUserTicketAlarm
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateUserTicketAlarm As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  id: ReplyTemplateUserNewTicket
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateUserNewTicket
+  nameWithType: ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: System template for notifying a user that a new request has arrived\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateUserNewTicket
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateUserNewTicket As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateAll
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateAll
+  id: ReplyTemplateAll
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateAll
+  nameWithType: ReplyTemplateFlags.ReplyTemplateAll
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateAll
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Not system templates\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateAll
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateAll As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNone
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNone
+  id: ReplyTemplateNone
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateNone
+  nameWithType: ReplyTemplateFlags.ReplyTemplateNone
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNone
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Used for installing or updating system templates\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateNone
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateNone As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  id: ReplyTemplateUserTicketTakenOver
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateUserTicketTakenOver
+  nameWithType: ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n11: System template for notifying a user that one of the user&apos;s requests has been taken over by another user\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateUserTicketTakenOver
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateUserTicketTakenOver As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  id: ReplyTemplatePublishKbQuestion
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplatePublishKbQuestion
+  nameWithType: ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: System template for formatting the question when a request is published in the FAQ module\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplatePublishKbQuestion
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplatePublishKbQuestion As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  id: ReplyTemplatePublishKbAnswer
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplatePublishKbAnswer
+  nameWithType: ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n13: System template for formatting the answer when a request is published in the FAQ module\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplatePublishKbAnswer
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplatePublishKbAnswer As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
+  id: ReplyTemplateWeekStat
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateWeekStat
+  nameWithType: ReplyTemplateFlags.ReplyTemplateWeekStat
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateWeekStat
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n14: System template defining weekly statistics layout\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateWeekStat
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateWeekStat As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  id: ReplyTemplateHotlistNewMessage
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateHotlistNewMessage
+  nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n15: New message in a request in the favourites list: \n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateHotlistNewMessage
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateHotlistNewMessage As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  id: ReplyTemplateHotlistTicketActivated
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateHotlistTicketActivated
+  nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n16: A request in the favourites list has been activated\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateHotlistTicketActivated
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateHotlistTicketActivated As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  id: ReplyTemplateHotlistTicketAlarm
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateHotlistTicketAlarm
+  nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n17: System template for notifying a user that a request in the favourites list has been escalated\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateHotlistTicketAlarm
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateHotlistTicketAlarm As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  id: ReplyTemplateHotlistTicketTakenOver
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateHotlistTicketTakenOver
+  nameWithType: ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n18: System template for notifying a user that a request in the user&apos;s favourites list has been taken over by another user\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateHotlistTicketTakenOver
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateHotlistTicketTakenOver As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  id: ReplyTemplateLicenseExpirationWarning
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateLicenseExpirationWarning
+  nameWithType: ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n19: System template for sending warning to administrator about expiring licence\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateLicenseExpirationWarning
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateLicenseExpirationWarning As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  id: ReplyTemplateCustomerConfirmEmail
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateCustomerConfirmEmail
+  nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n20: System template - confirm customer email\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateCustomerConfirmEmail
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateCustomerConfirmEmail As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePrintTicket
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePrintTicket
+  id: ReplyTemplatePrintTicket
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplatePrintTicket
+  nameWithType: ReplyTemplateFlags.ReplyTemplatePrintTicket
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplatePrintTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n21: System template: print request\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplatePrintTicket
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplatePrintTicket As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  id: ReplyTemplateCustomerChatLog
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateCustomerChatLog
+  nameWithType: ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n22: System template: Chat log\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateCustomerChatLog
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateCustomerChatLog As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNewLink
+  commentId: F:SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNewLink
+  id: ReplyTemplateNewLink
+  parent: SuperOffice.Data.ReplyTemplateFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateNewLink
+  nameWithType: ReplyTemplateFlags.ReplyTemplateNewLink
+  fullName: SuperOffice.Data.ReplyTemplateFlags.ReplyTemplateNewLink
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n23: System template - new link\n"
+  syntax:
+    content: public const ReplyTemplateFlags ReplyTemplateNewLink
+    return:
+      type: SuperOffice.Data.ReplyTemplateFlags
+    content.vb: Public Const ReplyTemplateNewLink As ReplyTemplateFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ReplyTemplateFlags.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ReplyTemplateFlags, To>()
+  nameWithType: EnumUtil.MapEnums<ReplyTemplateFlags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReplyTemplateFlags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)()
+  name.vb: MapEnums(Of ReplyTemplateFlags, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReplyTemplateFlags, To>
+    nameWithType: EnumUtil.MapEnums<ReplyTemplateFlags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReplyTemplateFlags, To)
+    nameWithType: EnumUtil.MapEnums(Of ReplyTemplateFlags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ReplyTemplateFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReplyTemplateFlags, To>()
+  nameWithType: Converters.MapEnums<ReplyTemplateFlags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReplyTemplateFlags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)()
+  name.vb: MapEnums(Of ReplyTemplateFlags, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReplyTemplateFlags, To>
+    nameWithType: Converters.MapEnums<ReplyTemplateFlags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReplyTemplateFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReplyTemplateFlags, To)
+    nameWithType: Converters.MapEnums(Of ReplyTemplateFlags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReplyTemplateFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.ReplyTemplateFlags
+  commentId: T:SuperOffice.Data.ReplyTemplateFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ReplyTemplateFlags
+  nameWithType: ReplyTemplateFlags
+  fullName: SuperOffice.Data.ReplyTemplateFlags

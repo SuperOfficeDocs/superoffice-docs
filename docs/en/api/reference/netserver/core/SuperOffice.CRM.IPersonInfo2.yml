@@ -27,6 +27,7 @@ items:
     content: 'public interface IPersonInfo2 : IPersonInfo'
     content.vb: >-
       Public Interface IPersonInfo2
+
           Inherits IPersonInfo
   inheritedMembers:
   - SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.Int32)

@@ -41,10 +41,11 @@ items:
   - SuperOffice.Util.CollectionOps.GetNamedBoolValue(System.String,System.String)
   - SuperOffice.Util.CollectionOps.GetNamedDateTimeValue(System.String,System.String)
   - SuperOffice.Util.CollectionOps.GetNamedDoubleValue(System.String,System.String)
-  - SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String,System.Int32)
   - SuperOffice.Util.CollectionOps.GetNamedValue(System.String,System.String)
   - SuperOffice.Util.CollectionOps.GetPairs(System.String)
   - SuperOffice.Util.CollectionOps.HasName(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.HasName(System.String,System.String,System.Boolean)
   - SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(``0[])
   - SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
   - SuperOffice.Util.CollectionOps.NullToEmpty(System.String)
@@ -71,18 +72,13 @@ items:
   namespace: SuperOffice.Util
   summary: "\nUtility class for operations on collections of various kinds. You will find operations for\nconverting between various kinds of collections, converting the data inside collections,\ncomparisons and more\n"
   syntax:
-    content: public static class CollectionOps
-    content.vb: Public Module CollectionOps
+    content: 'public static class CollectionOps : Object'
+    content.vb: >-
+      Public Module CollectionOps
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -111,6 +107,7 @@ items:
   syntax:
     content: >-
       public static T[] DeepCloneArray<T>(T[] input)
+
           where T : ICloneable
     parameters:
     - id: input
@@ -153,6 +150,7 @@ items:
   syntax:
     content: >-
       public static MemberType[] CloneArray<MemberType>(MemberType[] originalArray)
+
           where MemberType : ICloneable
     parameters:
     - id: originalArray
@@ -1816,17 +1814,57 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String)
-  commentId: M:SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String)
-  id: GetNamedIntValue(System.String,System.String)
+- uid: SuperOffice.Util.CollectionOps.HasName(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.CollectionOps.HasName(System.String,System.String,System.Boolean)
+  id: HasName(System.String,System.String,System.Boolean)
   isExtensionMethod: true
   parent: SuperOffice.Util.CollectionOps
   langs:
   - csharp
   - vb
-  name: GetNamedIntValue(String, String)
-  nameWithType: CollectionOps.GetNamedIntValue(String, String)
-  fullName: SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String, System.String)
+  name: HasName(String, String, Boolean)
+  nameWithType: CollectionOps.HasName(String, String, Boolean)
+  fullName: SuperOffice.Util.CollectionOps.HasName(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool HasName(this string nameValueString, string nameToFind, bool requireValue)
+    parameters:
+    - id: nameValueString
+      type: System.String
+    - id: nameToFind
+      type: System.String
+    - id: requireValue
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasName(nameValueString As String, nameToFind As String, requireValue As Boolean) As Boolean
+  overload: SuperOffice.Util.CollectionOps.HasName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String,System.Int32)
+  id: GetNamedIntValue(System.String,System.String,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetNamedIntValue(String, String, Int32)
+  nameWithType: CollectionOps.GetNamedIntValue(String, String, Int32)
+  fullName: SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String, System.String, System.Int32)
   type: Method
   source:
     path: SoCore
@@ -1836,7 +1874,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nFind and parse a int-typed option in a named-value string, and return the result\n"
   syntax:
-    content: public static int GetNamedIntValue(this string nameValueString, string nameToFind)
+    content: public static int GetNamedIntValue(this string nameValueString, string nameToFind, int defaultValue = 0)
     parameters:
     - id: nameValueString
       type: System.String
@@ -1844,13 +1882,15 @@ items:
     - id: nameToFind
       type: System.String
       description: Name of key to find (case insensitive)
+    - id: defaultValue
+      type: System.Int32
     return:
       type: System.Int32
       description: Integer value, or 0 if option not found or invalid format
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function GetNamedIntValue(nameValueString As String, nameToFind As String) As Integer
+      Public Shared Function GetNamedIntValue(nameValueString As String, nameToFind As String, defaultValue As Integer = 0) As Integer
   overload: SuperOffice.Util.CollectionOps.GetNamedIntValue*
   modifiers.csharp:
   - public
@@ -1892,7 +1932,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function GetNamedDateTimeValue(nameValueString As String, nameToFind As String) As Date
+      Public Shared Function GetNamedDateTimeValue(nameValueString As String, nameToFind As String) As DateTime
   overload: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue*
   modifiers.csharp:
   - public
@@ -2172,7 +2212,7 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   summary: "\nParse a delimited string like &apos;1, 3,4,56,   23 15&apos; to the int[]{1, 3, 4, 56, 23, 15}.\nThis overload uses space, comma and semicolon as delimiters.\n"
-  remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
+  remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Globalization.NumberStyles%2cSystem.IFormatProvider%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
   syntax:
     content: public static List<int> ParseDelimitedStringToIntArray(string delimitedString)
     parameters:
@@ -2208,7 +2248,7 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   summary: "\nParse a delimited string like &apos;1, 3,4,56,   23 15&apos; to the int[]{1, 3, 4, 56, 23, 15}\n"
-  remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
+  remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Globalization.NumberStyles%2cSystem.IFormatProvider%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
   syntax:
     content: public static List<int> ParseDelimitedStringToIntArray(string delimitedString, params char[] delimiters)
     parameters:
@@ -2363,285 +2403,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2871,8 +2632,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Predicate{{SourceType}}
-  commentId: T:System.Predicate{``0}
-  parent: System
+  commentId: '!:System.Predicate{``0}'
   definition: System.Predicate`1
   name: Predicate<SourceType>
   nameWithType: Predicate<SourceType>
@@ -2911,14 +2671,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Predicate`1
-  commentId: T:System.Predicate`1
   isExternal: true
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
@@ -2928,9 +2687,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2943,9 +2702,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -2956,8 +2715,7 @@ references:
   nameWithType: CollectionOps.ConvertToArray
   fullName: SuperOffice.Util.CollectionOps.ConvertToArray
 - uid: System.Collections.Generic.ICollection{{SourceType}}
-  commentId: T:System.Collections.Generic.ICollection{``0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.ICollection{``0}'
   definition: System.Collections.Generic.ICollection`1
   name: ICollection<SourceType>
   nameWithType: ICollection<SourceType>
@@ -2996,14 +2754,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
   isExternal: true
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
   spec.csharp:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
@@ -3013,9 +2770,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3028,18 +2785,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Util.CollectionOps.ConvertToStringArray*
   commentId: Overload:SuperOffice.Util.CollectionOps.ConvertToStringArray
   isExternal: true
@@ -3092,8 +2843,7 @@ references:
   nameWithType: CollectionOps.DictionaryKeysToArray
   fullName: SuperOffice.Util.CollectionOps.DictionaryKeysToArray
 - uid: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
-  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{``0,``1}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<KeyType, ValueType>
   nameWithType: Dictionary<KeyType, ValueType>
@@ -3166,14 +2916,13 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -3183,15 +2932,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3204,15 +2953,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3251,8 +3000,7 @@ references:
   nameWithType: CollectionOps.GetFirstElement
   fullName: SuperOffice.Util.CollectionOps.GetFirstElement
 - uid: System.Collections.Generic.Dictionary{{K},{V}}
-  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{``0,``1}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<K, V>
   nameWithType: Dictionary<K, V>
@@ -3303,8 +3051,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.KeyValuePair{{K},{V}}
-  commentId: T:System.Collections.Generic.KeyValuePair{``0,``1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.KeyValuePair{``0,``1}'
   definition: System.Collections.Generic.KeyValuePair`2
   name: KeyValuePair<K, V>
   nameWithType: KeyValuePair<K, V>
@@ -3355,14 +3102,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.KeyValuePair`2
-  commentId: T:System.Collections.Generic.KeyValuePair`2
   isExternal: true
-  name: KeyValuePair<TKey, TValue>
-  nameWithType: KeyValuePair<TKey, TValue>
-  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
-  nameWithType.vb: KeyValuePair(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
-  name.vb: KeyValuePair(Of TKey, TValue)
+  name: KeyValuePair<, >
+  nameWithType: KeyValuePair<, >
+  fullName: System.Collections.Generic.KeyValuePair<, >
+  nameWithType.vb: KeyValuePair(Of , )
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of , )
+  name.vb: KeyValuePair(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
@@ -3372,15 +3118,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3393,15 +3139,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3428,8 +3174,7 @@ references:
   nameWithType: CollectionOps.AddToDictionary
   fullName: SuperOffice.Util.CollectionOps.AddToDictionary
 - uid: System.Collections.Generic.Dictionary{{Key},{Value}}
-  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{``0,``1}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Key, Value>
   nameWithType: Dictionary<Key, Value>
@@ -3530,8 +3275,7 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Collections.Generic.ICollection{{BaseType}}
-  commentId: T:System.Collections.Generic.ICollection{``0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.ICollection{``0}'
   definition: System.Collections.Generic.ICollection`1
   name: ICollection<BaseType>
   nameWithType: ICollection<BaseType>
@@ -3679,8 +3423,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEqualityComparer{{KeyType}}
-  commentId: T:System.Collections.Generic.IEqualityComparer{``0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEqualityComparer{``0}'
   definition: System.Collections.Generic.IEqualityComparer`1
   name: IEqualityComparer<KeyType>
   nameWithType: IEqualityComparer<KeyType>
@@ -3719,14 +3462,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEqualityComparer`1
-  commentId: T:System.Collections.Generic.IEqualityComparer`1
   isExternal: true
-  name: IEqualityComparer<T>
-  nameWithType: IEqualityComparer<T>
-  fullName: System.Collections.Generic.IEqualityComparer<T>
-  nameWithType.vb: IEqualityComparer(Of T)
-  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T)
-  name.vb: IEqualityComparer(Of T)
+  name: IEqualityComparer<>
+  nameWithType: IEqualityComparer<>
+  fullName: System.Collections.Generic.IEqualityComparer<>
+  nameWithType.vb: IEqualityComparer(Of )
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of )
+  name.vb: IEqualityComparer(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEqualityComparer`1
     name: IEqualityComparer
@@ -3736,9 +3478,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3751,15 +3493,14 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
 - uid: System.Predicate{{ValueType}}
-  commentId: T:System.Predicate{``1}
-  parent: System
+  commentId: '!:System.Predicate{``1}'
   definition: System.Predicate`1
   name: Predicate<ValueType>
   nameWithType: Predicate<ValueType>
@@ -3804,8 +3545,7 @@ references:
   nameWithType: CollectionOps.CreateDictionaryFromCollection
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection
 - uid: System.Collections.Generic.ICollection{{ValueType}}
-  commentId: T:System.Collections.Generic.ICollection{``1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.ICollection{``1}'
   definition: System.Collections.Generic.ICollection`1
   name: ICollection<ValueType>
   nameWithType: ICollection<ValueType>
@@ -3850,8 +3590,7 @@ references:
   nameWithType: CollectionOps.CreateDictionaryFromEnumerable
   fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable
 - uid: System.Collections.Generic.IEnumerable{{ValueType}}
-  commentId: T:System.Collections.Generic.IEnumerable{``1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{``1}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<ValueType>
   nameWithType: IEnumerable<ValueType>
@@ -3890,14 +3629,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -3907,9 +3645,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3922,9 +3660,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3935,8 +3673,7 @@ references:
   nameWithType: CollectionOps.AddRange
   fullName: SuperOffice.Util.CollectionOps.AddRange
 - uid: System.Collections.Generic.Dictionary{{T},{S}}
-  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{``0,``1}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<T, S>
   nameWithType: Dictionary<T, S>
@@ -3993,8 +3730,7 @@ references:
   nameWithType: CollectionOps.AddToDictionaryList
   fullName: SuperOffice.Util.CollectionOps.AddToDictionaryList
 - uid: System.Collections.Generic.Dictionary{{KeyType},System.Collections.Generic.List{{ValueType}}}
-  commentId: T:System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{``1}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{``1}}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<KeyType, List<ValueType>>
   nameWithType: Dictionary<KeyType, List<ValueType>>
@@ -4093,8 +3829,7 @@ references:
   nameWithType: CollectionOps.GetPairs
   fullName: SuperOffice.Util.CollectionOps.GetPairs
 - uid: System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
-  commentId: T:System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}'
   definition: System.Collections.Generic.List`1
   name: List<KeyValuePair<String, String>>
   nameWithType: List<KeyValuePair<String, String>>
@@ -4175,14 +3910,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -4192,9 +3926,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4207,9 +3941,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4251,8 +3985,6 @@ references:
   nameWithType: CollectionOps.GetNamedDateTimeValue
   fullName: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -4301,8 +4033,7 @@ references:
   nameWithType: CollectionOps.ParseDelimitedStringToIntArray
   fullName: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray
 - uid: System.Collections.Generic.List{System.Int32}
-  commentId: T:System.Collections.Generic.List{System.Int32}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.Int32}'
   definition: System.Collections.Generic.List`1
   name: List<Int32>
   nameWithType: List<Int32>
@@ -4377,8 +4108,7 @@ references:
   nameWithType: CollectionOps.StringDictionaryToStringArray
   fullName: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -4449,8 +4179,7 @@ references:
   nameWithType: CollectionOps.AtLeastOne
   fullName: SuperOffice.Util.CollectionOps.AtLeastOne
 - uid: System.Collections.Generic.IEnumerable{{T}}
-  commentId: T:System.Collections.Generic.IEnumerable{``0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{``0}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<T>
   nameWithType: IEnumerable<T>

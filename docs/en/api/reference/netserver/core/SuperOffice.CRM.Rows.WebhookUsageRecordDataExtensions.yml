@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  id: WebhookUsageRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
+  - SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
+  langs:
+  - csharp
+  - vb
+  name: WebhookUsageRecordDataExtensions
+  nameWithType: WebhookUsageRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.WebhookUsageRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: 'public static class WebhookUsageRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module WebhookUsageRecordDataExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<WebhookUsageTableInfo>)
+  nameWithType: WebhookUsageRecordDataExtensions.FromSelect(TargetedSelect<WebhookUsageTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WebhookUsageTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;WebhookUsageTableInfo>, execute it and return an IEnumerable&lt;WebhookUsageRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<WebhookUsageRecordData> FromSelect(this TargetedSelect<WebhookUsageTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of WebhookUsageTableInfo)) As IEnumerable(Of WebhookUsageRecordData)
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect*
+  nameWithType.vb: WebhookUsageRecordDataExtensions.FromSelect(TargetedSelect(Of WebhookUsageTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WebhookUsageTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of WebhookUsageTableInfo))
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<WebhookUsageTableInfo>)
+  nameWithType: WebhookUsageRecordDataExtensions.FromRecord(TargetedDataRecord<WebhookUsageTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WebhookUsageTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;WebhookUsageTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.WebhookUsageRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { WebhookUsageItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static WebhookUsageRecordData FromRecord(this TargetedDataRecord<WebhookUsageTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of WebhookUsageTableInfo)) As WebhookUsageRecordData
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord*
+  nameWithType.vb: WebhookUsageRecordDataExtensions.FromRecord(TargetedDataRecord(Of WebhookUsageTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WebhookUsageTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of WebhookUsageTableInfo))
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(WebhookUsageRecordData)
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsert(WebhookUsageRecordData)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this WebhookUsageRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As WebhookUsageRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<WebhookUsageRecordData>)
+  nameWithType: WebhookUsageRecordDataExtensions.ToInserts(IEnumerable<WebhookUsageRecordData>)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WebhookUsageRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<WebhookUsageRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of WebhookUsageRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts*
+  nameWithType.vb: WebhookUsageRecordDataExtensions.ToInserts(IEnumerable(Of WebhookUsageRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WebhookUsageRecordData))
+  name.vb: ToInserts(IEnumerable(Of WebhookUsageRecordData))
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
+  commentId: M:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(WebhookUsageRow)
+  nameWithType: WebhookUsageRecordDataExtensions.ToRecordData(WebhookUsageRow)
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookUsageRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static WebhookUsageRecordData ToRecordData(this WebhookUsageRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.WebhookUsageRow
+    return:
+      type: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As WebhookUsageRow) As WebhookUsageRecordData
+  overload: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: WebhookUsageRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<WebhookUsageTableInfo>
+  nameWithType: TargetedSelect<WebhookUsageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WebhookUsageTableInfo>
+  nameWithType.vb: TargetedSelect(Of WebhookUsageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WebhookUsageTableInfo)
+  name.vb: TargetedSelect(Of WebhookUsageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    name: WebhookUsageTableInfo
+    nameWithType: WebhookUsageTableInfo
+    fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    name: WebhookUsageTableInfo
+    nameWithType: WebhookUsageTableInfo
+    fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WebhookUsageRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<WebhookUsageRecordData>
+  nameWithType: IEnumerable<WebhookUsageRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WebhookUsageRecordData>
+  nameWithType.vb: IEnumerable(Of WebhookUsageRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WebhookUsageRecordData)
+  name.vb: IEnumerable(Of WebhookUsageRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    name: WebhookUsageRecordData
+    nameWithType: WebhookUsageRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    name: WebhookUsageRecordData
+    nameWithType: WebhookUsageRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookUsageRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: WebhookUsageRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WebhookUsageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<WebhookUsageTableInfo>
+  nameWithType: TargetedDataRecord<WebhookUsageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WebhookUsageTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of WebhookUsageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WebhookUsageTableInfo)
+  name.vb: TargetedDataRecord(Of WebhookUsageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    name: WebhookUsageTableInfo
+    nameWithType: WebhookUsageTableInfo
+    fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    name: WebhookUsageTableInfo
+    nameWithType: WebhookUsageTableInfo
+    fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordData
+  commentId: T:SuperOffice.CRM.Rows.WebhookUsageRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WebhookUsageRecordData
+  nameWithType: WebhookUsageRecordData
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: WebhookUsageRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: WebhookUsageRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData
+  isExternal: true
+  name: ToRecordData
+  nameWithType: WebhookUsageRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.WebhookUsageRow
+  commentId: T:SuperOffice.CRM.Rows.WebhookUsageRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WebhookUsageRow
+  nameWithType: WebhookUsageRow
+  fullName: SuperOffice.CRM.Rows.WebhookUsageRow

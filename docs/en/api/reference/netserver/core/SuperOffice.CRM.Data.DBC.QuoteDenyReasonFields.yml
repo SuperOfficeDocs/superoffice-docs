@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  id: DBC.QuoteDenyReasonFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Deleted
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Name
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.QuoteDenyReasonId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Rank
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Registered
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Updated
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.QuoteDenyReasonFields
+  nameWithType: DBC.QuoteDenyReasonFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for QuoteDenyReason, Predefined reasons for quote denial\n"
+  syntax:
+    content: 'public static class QuoteDenyReasonFields : Object'
+    content.vb: >-
+      Public Module QuoteDenyReasonFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.QuoteDenyReasonId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.QuoteDenyReasonId
+  id: QuoteDenyReasonId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteDenyReasonId
+  nameWithType: DBC.QuoteDenyReasonFields.QuoteDenyReasonId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.QuoteDenyReasonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.QuoteDenyReasonId: Primary key\n"
+  syntax:
+    content: public const string QuoteDenyReasonId = "quotedenyreason_id"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDenyReasonId As String = "quotedenyreason_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.QuoteDenyReasonFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.QuoteDenyReasonFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.QuoteDenyReasonFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.QuoteDenyReasonFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.QuoteDenyReasonFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.QuoteDenyReasonFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.QuoteDenyReasonFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.QuoteDenyReasonFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.QuoteDenyReasonFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

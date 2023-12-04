@@ -376,13 +376,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.BulkUpdateAgent
   commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
   isExternal: true
@@ -396,12 +389,6 @@ references:
   name: IBulkUpdateAgent
   nameWithType: IBulkUpdateAgent
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ControlInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ControlInfo.#ctor
   isExternal: true
@@ -421,6 +408,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ControlInfo.Type*
   commentId: Overload:SuperOffice.CRM.Services.ControlInfo.Type
   isExternal: true

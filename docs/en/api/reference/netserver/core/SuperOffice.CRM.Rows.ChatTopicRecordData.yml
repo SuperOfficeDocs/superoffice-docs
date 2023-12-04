@@ -29,11 +29,14 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.LastAccept
   - SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStart
   - SuperOffice.CRM.Rows.ChatTopicRecordData.LunchStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningChatMessage
   - SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRecordData.MonEnabled
   - SuperOffice.CRM.Rows.ChatTopicRecordData.MonStart
   - SuperOffice.CRM.Rows.ChatTopicRecordData.MonStop
   - SuperOffice.CRM.Rows.ChatTopicRecordData.Name
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormQueueLength
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormTimeLimit
   - SuperOffice.CRM.Rows.ChatTopicRecordData.PriorityId
   - SuperOffice.CRM.Rows.ChatTopicRecordData.SatEnabled
   - SuperOffice.CRM.Rows.ChatTopicRecordData.SatStart
@@ -51,16 +54,27 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.TzLocationId
   - SuperOffice.CRM.Rows.ChatTopicRecordData.UseLunchHours
   - SuperOffice.CRM.Rows.ChatTopicRecordData.UseOpeningHours
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WarningChatMessage
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WarningNewChat
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WedEnabled
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WedStart
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WedStop
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WelcomeMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgTextColor
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentUseFirstname
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAutoFaq
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeTextColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonTextColor
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgTextColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableRating
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableTicket
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFont
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFontSize
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetLanguage
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineFields
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineHeader
@@ -71,6 +85,7 @@ items:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostTranscript
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreForm
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRatingText
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRequiredFields
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowAgentPhoto
   - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowLogo
@@ -93,18 +108,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the chat_topic table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class ChatTopicRecordData
-    content.vb: Public Class ChatTopicRecordData
+    content: 'public class ChatTopicRecordData : Object'
+    content.vb: >-
+      Public Class ChatTopicRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ChatTopicRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatTopicRecordData)
@@ -247,7 +257,7 @@ items:
     content: public DateTime LastAccept
     return:
       type: System.DateTime
-    content.vb: Public LastAccept As Date
+    content.vb: Public LastAccept As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1219,7 +1229,7 @@ items:
     content: public DateTime MonStart
     return:
       type: System.DateTime
-    content.vb: Public MonStart As Date
+    content.vb: Public MonStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1246,7 +1256,7 @@ items:
     content: public DateTime MonStop
     return:
       type: System.DateTime
-    content.vb: Public MonStop As Date
+    content.vb: Public MonStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1300,7 +1310,7 @@ items:
     content: public DateTime TueStart
     return:
       type: System.DateTime
-    content.vb: Public TueStart As Date
+    content.vb: Public TueStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1327,7 +1337,7 @@ items:
     content: public DateTime TueStop
     return:
       type: System.DateTime
-    content.vb: Public TueStop As Date
+    content.vb: Public TueStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1381,7 +1391,7 @@ items:
     content: public DateTime WedStart
     return:
       type: System.DateTime
-    content.vb: Public WedStart As Date
+    content.vb: Public WedStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1408,7 +1418,7 @@ items:
     content: public DateTime WedStop
     return:
       type: System.DateTime
-    content.vb: Public WedStop As Date
+    content.vb: Public WedStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1462,7 +1472,7 @@ items:
     content: public DateTime ThuStart
     return:
       type: System.DateTime
-    content.vb: Public ThuStart As Date
+    content.vb: Public ThuStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1489,7 +1499,7 @@ items:
     content: public DateTime ThuStop
     return:
       type: System.DateTime
-    content.vb: Public ThuStop As Date
+    content.vb: Public ThuStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1543,7 +1553,7 @@ items:
     content: public DateTime FriStart
     return:
       type: System.DateTime
-    content.vb: Public FriStart As Date
+    content.vb: Public FriStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1570,7 +1580,7 @@ items:
     content: public DateTime FriStop
     return:
       type: System.DateTime
-    content.vb: Public FriStop As Date
+    content.vb: Public FriStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1624,7 +1634,7 @@ items:
     content: public DateTime SatStart
     return:
       type: System.DateTime
-    content.vb: Public SatStart As Date
+    content.vb: Public SatStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1651,7 +1661,7 @@ items:
     content: public DateTime SatStop
     return:
       type: System.DateTime
-    content.vb: Public SatStop As Date
+    content.vb: Public SatStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1705,7 +1715,7 @@ items:
     content: public DateTime SunStart
     return:
       type: System.DateTime
-    content.vb: Public SunStart As Date
+    content.vb: Public SunStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1732,7 +1742,7 @@ items:
     content: public DateTime SunStop
     return:
       type: System.DateTime
-    content.vb: Public SunStop As Date
+    content.vb: Public SunStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1975,7 +1985,7 @@ items:
     content: public DateTime LunchStart
     return:
       type: System.DateTime
-    content.vb: Public LunchStart As Date
+    content.vb: Public LunchStart As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2002,7 +2012,7 @@ items:
     content: public DateTime LunchStop
     return:
       type: System.DateTime
-    content.vb: Public LunchStop As Date
+    content.vb: Public LunchStop As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2030,6 +2040,411 @@ items:
     return:
       type: System.Int16
     content.vb: Public WidgetAgentUseFirstname As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WarningChatMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WarningChatMessage
+  id: WarningChatMessage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WarningChatMessage
+  nameWithType: ChatTopicRecordData.WarningChatMessage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WarningChatMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nContains the user notify time in minutes for new chat messages \n"
+  syntax:
+    content: public int WarningChatMessage
+    return:
+      type: System.Int32
+    content.vb: Public WarningChatMessage As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningChatMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningChatMessage
+  id: ManagerWarningChatMessage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: ManagerWarningChatMessage
+  nameWithType: ChatTopicRecordData.ManagerWarningChatMessage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningChatMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nContains the manager notify time in minutes for new chat messages \n"
+  syntax:
+    content: public int ManagerWarningChatMessage
+    return:
+      type: System.Int32
+    content.vb: Public ManagerWarningChatMessage As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormTimeLimit
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormTimeLimit
+  id: OfflineFormTimeLimit
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormTimeLimit
+  nameWithType: ChatTopicRecordData.OfflineFormTimeLimit
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormTimeLimit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of minutes in the queue before the offline form is available \n"
+  syntax:
+    content: public int OfflineFormTimeLimit
+    return:
+      type: System.Int32
+    content.vb: Public OfflineFormTimeLimit As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormQueueLength
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormQueueLength
+  id: OfflineFormQueueLength
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormQueueLength
+  nameWithType: ChatTopicRecordData.OfflineFormQueueLength
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.OfflineFormQueueLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of customers in the queue before the offline form is available \n"
+  syntax:
+    content: public int OfflineFormQueueLength
+    return:
+      type: System.Int32
+    content.vb: Public OfflineFormQueueLength As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableRating
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableRating
+  id: WidgetEnableRating
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetEnableRating
+  nameWithType: ChatTopicRecordData.WidgetEnableRating
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableRating
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSetting this to true will enable rating support in the chat widget \n"
+  syntax:
+    content: public short WidgetEnableRating
+    return:
+      type: System.Int16
+    content.vb: Public WidgetEnableRating As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRatingText
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRatingText
+  id: WidgetRatingText
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetRatingText
+  nameWithType: ChatTopicRecordData.WidgetRatingText
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRatingText
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe text to be displayed in the widget next to the rating stars \n"
+  syntax:
+    content: public string WidgetRatingText
+    return:
+      type: System.String
+    content.vb: Public WidgetRatingText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeColor
+  id: WidgetBadgeColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetBadgeColor
+  nameWithType: ChatTopicRecordData.WidgetBadgeColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget badge \n"
+  syntax:
+    content: public string WidgetBadgeColor
+    return:
+      type: System.String
+    content.vb: Public WidgetBadgeColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeTextColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeTextColor
+  id: WidgetBadgeTextColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetBadgeTextColor
+  nameWithType: ChatTopicRecordData.WidgetBadgeTextColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetBadgeTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget badge text \n"
+  syntax:
+    content: public string WidgetBadgeTextColor
+    return:
+      type: System.String
+    content.vb: Public WidgetBadgeTextColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgColor
+  id: WidgetCustMsgColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetCustMsgColor
+  nameWithType: ChatTopicRecordData.WidgetCustMsgColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget customer message \n"
+  syntax:
+    content: public string WidgetCustMsgColor
+    return:
+      type: System.String
+    content.vb: Public WidgetCustMsgColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgTextColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgTextColor
+  id: WidgetCustMsgTextColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetCustMsgTextColor
+  nameWithType: ChatTopicRecordData.WidgetCustMsgTextColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetCustMsgTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget customer message text \n"
+  syntax:
+    content: public string WidgetCustMsgTextColor
+    return:
+      type: System.String
+    content.vb: Public WidgetCustMsgTextColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgColor
+  id: WidgetAgentMsgColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentMsgColor
+  nameWithType: ChatTopicRecordData.WidgetAgentMsgColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget agent message \n"
+  syntax:
+    content: public string WidgetAgentMsgColor
+    return:
+      type: System.String
+    content.vb: Public WidgetAgentMsgColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgTextColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgTextColor
+  id: WidgetAgentMsgTextColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentMsgTextColor
+  nameWithType: ChatTopicRecordData.WidgetAgentMsgTextColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAgentMsgTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget agent message text \n"
+  syntax:
+    content: public string WidgetAgentMsgTextColor
+    return:
+      type: System.String
+    content.vb: Public WidgetAgentMsgTextColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFontSize
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFontSize
+  id: WidgetFontSize
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetFontSize
+  nameWithType: ChatTopicRecordData.WidgetFontSize
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFontSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional size for chat widget font \n"
+  syntax:
+    content: public string WidgetFontSize
+    return:
+      type: System.String
+    content.vb: Public WidgetFontSize As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonColor
+  id: WidgetButtonColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetButtonColor
+  nameWithType: ChatTopicRecordData.WidgetButtonColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget button \n"
+  syntax:
+    content: public string WidgetButtonColor
+    return:
+      type: System.String
+    content.vb: Public WidgetButtonColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonTextColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonTextColor
+  id: WidgetButtonTextColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetButtonTextColor
+  nameWithType: ChatTopicRecordData.WidgetButtonTextColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetButtonTextColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional color for chat widget button text \n"
+  syntax:
+    content: public string WidgetButtonTextColor
+    return:
+      type: System.String
+    content.vb: Public WidgetButtonTextColor As String
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2073,285 +2488,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ChatTopicRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2797,8 +2933,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

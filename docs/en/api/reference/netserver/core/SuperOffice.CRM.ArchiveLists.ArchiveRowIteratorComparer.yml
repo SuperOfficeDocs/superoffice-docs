@@ -22,22 +22,17 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nComparer class used to compare two ArchiveRow objects according to the given orderby\ncriteria. The purpose of this class is to take the .Current element of each iterator\nand pass it to the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveRowComparer\" data-throw-if-not-resolved=\"false\"></xref>, which handles the actual work.\nAll remarks for that class are valid here as well.\n"
   syntax:
-    content: 'public class ArchiveRowIteratorComparer : IComparer<IEnumerator<ArchiveRow>>'
+    content: 'public class ArchiveRowIteratorComparer : Object, IComparer<IEnumerator<ArchiveRow>>'
     content.vb: >-
       Public Class ArchiveRowIteratorComparer
+
+          Inherits Object
+
           Implements IComparer(Of IEnumerator(Of ArchiveRow))
   inheritance:
   - System.Object
   implements:
   - System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -119,8 +114,6 @@ items:
       description: -1, 0 or 1 according to actual row data order
     content.vb: Public Function Compare(x As IEnumerator(Of ArchiveRow), y As IEnumerator(Of ArchiveRow)) As Integer
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer.Compare*
-  implements:
-  - System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}.Compare(System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow},System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow})
   nameWithType.vb: ArchiveRowIteratorComparer.Compare(IEnumerator(Of ArchiveRow), IEnumerator(Of ArchiveRow))
   modifiers.csharp:
   - public
@@ -143,8 +136,7 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}
-  commentId: T:System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}'
   definition: System.Collections.Generic.IComparer`1
   name: IComparer<IEnumerator<ArchiveRow>>
   nameWithType: IComparer<IEnumerator<ArchiveRow>>
@@ -205,285 +197,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -562,14 +275,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IComparer`1
-  commentId: T:System.Collections.Generic.IComparer`1
   isExternal: true
-  name: IComparer<T>
-  nameWithType: IComparer<T>
-  fullName: System.Collections.Generic.IComparer<T>
-  nameWithType.vb: IComparer(Of T)
-  fullName.vb: System.Collections.Generic.IComparer(Of T)
-  name.vb: IComparer(Of T)
+  name: IComparer<>
+  nameWithType: IComparer<>
+  fullName: System.Collections.Generic.IComparer<>
+  nameWithType.vb: IComparer(Of )
+  fullName.vb: System.Collections.Generic.IComparer(Of )
+  name.vb: IComparer(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IComparer`1
     name: IComparer
@@ -579,9 +291,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -594,18 +306,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -741,113 +447,8 @@ references:
   name: Compare
   nameWithType: ArchiveRowIteratorComparer.Compare
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowIteratorComparer.Compare
-- uid: System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}.Compare(System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow},System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow})
-  commentId: M:System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}.Compare(System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow},System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow})
-  parent: System.Collections.Generic.IComparer{System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}}
-  definition: System.Collections.Generic.IComparer`1.Compare(`0,`0)
-  name: Compare(IEnumerator<ArchiveRow>, IEnumerator<ArchiveRow>)
-  nameWithType: IComparer<IEnumerator<ArchiveRow>>.Compare(IEnumerator<ArchiveRow>, IEnumerator<ArchiveRow>)
-  fullName: System.Collections.Generic.IComparer<System.Collections.Generic.IEnumerator<SuperOffice.CRM.ArchiveLists.ArchiveRow>>.Compare(System.Collections.Generic.IEnumerator<SuperOffice.CRM.ArchiveLists.ArchiveRow>, System.Collections.Generic.IEnumerator<SuperOffice.CRM.ArchiveLists.ArchiveRow>)
-  nameWithType.vb: IComparer(Of IEnumerator(Of ArchiveRow)).Compare(IEnumerator(Of ArchiveRow), IEnumerator(Of ArchiveRow))
-  fullName.vb: System.Collections.Generic.IComparer(Of System.Collections.Generic.IEnumerator(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)).Compare(System.Collections.Generic.IEnumerator(Of SuperOffice.CRM.ArchiveLists.ArchiveRow), System.Collections.Generic.IEnumerator(Of SuperOffice.CRM.ArchiveLists.ArchiveRow))
-  name.vb: Compare(IEnumerator(Of ArchiveRow), IEnumerator(Of ArchiveRow))
-  spec.csharp:
-  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
-    name: Compare
-    nameWithType: IComparer<IEnumerator<ArchiveRow>>.Compare
-    fullName: System.Collections.Generic.IComparer<System.Collections.Generic.IEnumerator<SuperOffice.CRM.ArchiveLists.ArchiveRow>>.Compare
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
-    name: Compare
-    nameWithType: IComparer(Of IEnumerator(Of ArchiveRow)).Compare
-    fullName: System.Collections.Generic.IComparer(Of System.Collections.Generic.IEnumerator(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)).Compare
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerator`1
-    name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: T:System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerator{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
   definition: System.Collections.Generic.IEnumerator`1
   name: IEnumerator<ArchiveRow>
   nameWithType: IEnumerator<ArchiveRow>
@@ -896,65 +497,14 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
-  commentId: M:System.Collections.Generic.IComparer`1.Compare(`0,`0)
-  isExternal: true
-  name: Compare(T, T)
-  nameWithType: IComparer<T>.Compare(T, T)
-  fullName: System.Collections.Generic.IComparer<T>.Compare(T, T)
-  nameWithType.vb: IComparer(Of T).Compare(T, T)
-  fullName.vb: System.Collections.Generic.IComparer(Of T).Compare(T, T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
-    name: Compare
-    nameWithType: IComparer<T>.Compare
-    fullName: System.Collections.Generic.IComparer<T>.Compare
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Generic.IComparer`1.Compare(`0,`0)
-    name: Compare
-    nameWithType: IComparer(Of T).Compare
-    fullName: System.Collections.Generic.IComparer(Of T).Compare
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerator`1
-  commentId: T:System.Collections.Generic.IEnumerator`1
   isExternal: true
-  name: IEnumerator<T>
-  nameWithType: IEnumerator<T>
-  fullName: System.Collections.Generic.IEnumerator<T>
-  nameWithType.vb: IEnumerator(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
-  name.vb: IEnumerator(Of T)
+  name: IEnumerator<>
+  nameWithType: IEnumerator<>
+  fullName: System.Collections.Generic.IEnumerator<>
+  nameWithType.vb: IEnumerator(Of )
+  fullName.vb: System.Collections.Generic.IEnumerator(Of )
+  name.vb: IEnumerator(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
@@ -964,9 +514,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -979,9 +529,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

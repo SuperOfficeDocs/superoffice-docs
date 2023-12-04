@@ -15,7 +15,7 @@ items:
   name: OnRowLoad
   nameWithType: OnRowLoad
   fullName: SuperOffice.CRM.Rows.OnRowLoad
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,20 +24,24 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nDelegate...\n"
   syntax:
-    content: public delegate void OnRowLoad(SoDataReader reader);
-    parameters:
-    - id: reader
-      type: SuperOffice.Data.SoDataReader
-    content.vb: Public Delegate Sub OnRowLoad(reader As SoDataReader)
+    content: 'public sealed class OnRowLoad : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class OnRowLoad
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Rows.OnRowLoad.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.OnRowLoad.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Rows.OnRowLoad.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Rows.OnRowLoad.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -171,6 +175,13 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.OnRowLoad.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -239,13 +250,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.SoDataReader
-  commentId: T:SuperOffice.Data.SoDataReader
-  parent: SuperOffice.Data
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: SoDataReader
-  nameWithType: SoDataReader
-  fullName: SuperOffice.Data.SoDataReader
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -337,12 +347,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -355,13 +359,6 @@ references:
   name: OnRowLoad
   nameWithType: OnRowLoad.OnRowLoad
   fullName: SuperOffice.CRM.Rows.OnRowLoad.OnRowLoad
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -369,18 +366,25 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Rows.OnRowLoad.Invoke*
   commentId: Overload:SuperOffice.CRM.Rows.OnRowLoad.Invoke
   isExternal: true
   name: Invoke
   nameWithType: OnRowLoad.Invoke
   fullName: SuperOffice.CRM.Rows.OnRowLoad.Invoke
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
 - uid: SuperOffice.CRM.Rows.OnRowLoad.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Rows.OnRowLoad.BeginInvoke
   isExternal: true
@@ -388,15 +392,11 @@ references:
   nameWithType: OnRowLoad.BeginInvoke
   fullName: SuperOffice.CRM.Rows.OnRowLoad.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

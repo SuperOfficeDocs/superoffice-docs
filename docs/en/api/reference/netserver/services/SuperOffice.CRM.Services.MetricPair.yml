@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.MetricPair
+  commentId: T:SuperOffice.CRM.Services.MetricPair
+  id: MetricPair
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.MetricPair.#ctor
+  - SuperOffice.CRM.Services.MetricPair.Name
+  - SuperOffice.CRM.Services.MetricPair.ToString
+  - SuperOffice.CRM.Services.MetricPair.ToString(System.String)
+  - SuperOffice.CRM.Services.MetricPair.Value
+  langs:
+  - csharp
+  - vb
+  name: MetricPair
+  nameWithType: MetricPair
+  fullName: SuperOffice.CRM.Services.MetricPair
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMetric, in the form of string->int\n<p></p>\nCarrier object for MetricPair.\n"
+  syntax:
+    content: 'public class MetricPair : Object'
+    content.vb: >-
+      Public Class MetricPair
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.MetricPair.#ctor
+  commentId: M:SuperOffice.CRM.Services.MetricPair.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: MetricPair()
+  nameWithType: MetricPair.MetricPair()
+  fullName: SuperOffice.CRM.Services.MetricPair.MetricPair()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public MetricPair()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.MetricPair.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.MetricPair.ToString
+  commentId: M:SuperOffice.CRM.Services.MetricPair.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: MetricPair.ToString()
+  fullName: SuperOffice.CRM.Services.MetricPair.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.MetricPair.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.MetricPair.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.MetricPair.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: MetricPair.ToString(String)
+  fullName: SuperOffice.CRM.Services.MetricPair.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.MetricPair.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.MetricPair.Name
+  commentId: P:SuperOffice.CRM.Services.MetricPair.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MetricPair.Name
+  fullName: SuperOffice.CRM.Services.MetricPair.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the metric \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.MetricPair.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MetricPair.Value
+  commentId: P:SuperOffice.CRM.Services.MetricPair.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.MetricPair
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MetricPair.Value
+  fullName: SuperOffice.CRM.Services.MetricPair.Value
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe value of the metric \n"
+  syntax:
+    content: public virtual int Value { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Value As Integer
+  overload: SuperOffice.CRM.Services.MetricPair.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.MetricPair.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.MetricPair.#ctor
+  isExternal: true
+  name: MetricPair
+  nameWithType: MetricPair.MetricPair
+  fullName: SuperOffice.CRM.Services.MetricPair.MetricPair
+- uid: SuperOffice.CRM.Services.MetricPair.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.MetricPair.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: MetricPair.ToString
+  fullName: SuperOffice.CRM.Services.MetricPair.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.MetricPair.Name*
+  commentId: Overload:SuperOffice.CRM.Services.MetricPair.Name
+  isExternal: true
+  name: Name
+  nameWithType: MetricPair.Name
+  fullName: SuperOffice.CRM.Services.MetricPair.Name
+- uid: SuperOffice.CRM.Services.MetricPair.Value*
+  commentId: Overload:SuperOffice.CRM.Services.MetricPair.Value
+  isExternal: true
+  name: Value
+  nameWithType: MetricPair.Value
+  fullName: SuperOffice.CRM.Services.MetricPair.Value
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

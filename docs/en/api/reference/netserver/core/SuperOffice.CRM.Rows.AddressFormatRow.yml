@@ -68,67 +68,6 @@ items:
   - SuperOffice.CRM.Rows.AddressFormatRow._currentZipMask
   - SuperOffice.CRM.Rows.AddressFormatRow._currentZipSubpos
   - SuperOffice.CRM.Rows.AddressFormatRow._currentZipZip
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress1FlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress1MaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress1SubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress1ZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress2FlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress2MaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress2SubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress2ZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress3FlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress3MaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress3SubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAddress3ZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onAtypeIdxChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCityFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCityLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCityLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCityLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCityMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCitySubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCityZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCountyFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCountyLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCountyLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCountyLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCountyMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCountySubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onCountyZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onExtraFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onIsBuiltInChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayout2Change
-  - SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayoutChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onLayoutIdChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onNameChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onStateFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onStateLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onStateLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onStateLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onStateMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onStateSubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onStateZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedCountChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onZipFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onZipLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onZipLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onZipLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onZipMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onZipSubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow._onZipZipChange
   - SuperOffice.CRM.Rows.AddressFormatRow._persistedAddress1Flags
   - SuperOffice.CRM.Rows.AddressFormatRow._persistedAddress1Leadtext
   - SuperOffice.CRM.Rows.AddressFormatRow._persistedAddress1Length
@@ -248,70 +187,9 @@ items:
   - SuperOffice.CRM.Rows.AddressFormatRow.LabelLayout2
   - SuperOffice.CRM.Rows.AddressFormatRow.LayoutId
   - SuperOffice.CRM.Rows.AddressFormatRow.Name
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1FlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1MaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1SubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1ZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2FlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2MaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2SubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2ZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3FlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3MaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3SubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3ZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnAtypeIdxChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCityFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCityLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCityLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCityLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCityMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCitySubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCityZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCountyFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCountyMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCountySubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnCountyZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnExtraFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnIsBuiltInChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayout2Change
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayoutChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnLayoutIdChange
   - SuperOffice.CRM.Rows.AddressFormatRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnNameChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredChange
   - SuperOffice.CRM.Rows.AddressFormatRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.AddressFormatRow.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnStateFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnStateLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnStateLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnStateLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnStateMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnStateSubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnStateZipChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedCountChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnZipFlagsChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnZipLeadtextChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnZipLengthChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnZipLineChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnZipMaskChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnZipSubposChange
-  - SuperOffice.CRM.Rows.AddressFormatRow.OnZipZipChange
   - SuperOffice.CRM.Rows.AddressFormatRow.Registered
   - SuperOffice.CRM.Rows.AddressFormatRow.RegisteredAssociateId
   - SuperOffice.CRM.Rows.AddressFormatRow.Reset
@@ -357,7 +235,9 @@ items:
     content: 'public class AddressFormatRow : TableRowBase, INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem'
     content.vb: >-
       Public Class AddressFormatRow
+
           Inherits TableRowBase
+
           Implements INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem
   inheritance:
   - System.Object
@@ -372,8 +252,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowBase._saveOwner
   - SuperOffice.CRM.Rows.TableRowBase._sentries
-  - SuperOffice.CRM.Rows.TableRowBase._onValueChange
   - SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+  - SuperOffice.CRM.Rows.TableRowBase._isSaving
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
@@ -392,6 +272,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Rows.TableRowBase.Validate
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice#Data#INestedPersist#OnPreIdUpdate
@@ -416,13 +300,17 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SqlType
   - SuperOffice.CRM.Rows.TableRowBase.IsSentryIgnored
   - SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
   - SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   - SuperOffice.CRM.Rows.TableRowBase.OnElementIdUpdate
   - SuperOffice.Data.SQL.PrivateSave.GetTableInfos
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -434,17 +322,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.AddressFormatRow.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.AddressFormatRow.SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.AddressFormatRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -1959,7 +1842,7 @@ items:
     content: protected DateTime _persistedRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _persistedRegistered As Date
+    content.vb: Protected _persistedRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2013,7 +1896,7 @@ items:
     content: protected DateTime _persistedUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _persistedUpdated As Date
+    content.vb: Protected _persistedUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -3633,7 +3516,7 @@ items:
     content: protected DateTime _currentRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _currentRegistered As Date
+    content.vb: Protected _currentRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -3687,7 +3570,7 @@ items:
     content: protected DateTime _currentUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _currentUpdated As Date
+    content.vb: Protected _currentUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -4136,7 +4019,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.AddressFormatRow.ToString*
   modifiers.csharp:
   - public
@@ -4670,7 +4552,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Primary key \n"
-  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>		\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
+  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>        \n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
   syntax:
     content: public virtual int AddressformatId { get; }
     parameters: []
@@ -6546,7 +6428,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Rows.AddressFormatRow.Registered*
   modifiers.csharp:
   - public
@@ -6614,7 +6496,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Rows.AddressFormatRow.Updated*
   modifiers.csharp:
   - public
@@ -6760,3300 +6642,6 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onNameChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onNameChange
-  id: _onNameChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onNameChange
-  nameWithType: AddressFormatRow._onNameChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Name\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onLayoutIdChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onLayoutIdChange
-  id: _onLayoutIdChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onLayoutIdChange
-  nameWithType: AddressFormatRow._onLayoutIdChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onLayoutIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.LayoutId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onLayoutIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onLayoutIdChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAtypeIdxChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAtypeIdxChange
-  id: _onAtypeIdxChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAtypeIdxChange
-  nameWithType: AddressFormatRow._onAtypeIdxChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAtypeIdxChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.AtypeIdx\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAtypeIdxChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAtypeIdxChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LineChange
-  id: _onAddress1LineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress1LineChange
-  nameWithType: AddressFormatRow._onAddress1LineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address1Line\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress1LineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress1LineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1SubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress1SubposChange
-  id: _onAddress1SubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress1SubposChange
-  nameWithType: AddressFormatRow._onAddress1SubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1SubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address1Subpos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress1SubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress1SubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LeadtextChange
-  id: _onAddress1LeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress1LeadtextChange
-  nameWithType: AddressFormatRow._onAddress1LeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address1Leadtext\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onAddress1LeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onAddress1LeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1ZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress1ZipChange
-  id: _onAddress1ZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress1ZipChange
-  nameWithType: AddressFormatRow._onAddress1ZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1ZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address1Zip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress1ZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress1ZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LengthChange
-  id: _onAddress1LengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress1LengthChange
-  nameWithType: AddressFormatRow._onAddress1LengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1LengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address1Length\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress1LengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress1LengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1FlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress1FlagsChange
-  id: _onAddress1FlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress1FlagsChange
-  nameWithType: AddressFormatRow._onAddress1FlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1FlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address1Flags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress1FlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress1FlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1MaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress1MaskChange
-  id: _onAddress1MaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress1MaskChange
-  nameWithType: AddressFormatRow._onAddress1MaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress1MaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address1Mask\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onAddress1MaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onAddress1MaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LineChange
-  id: _onAddress2LineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress2LineChange
-  nameWithType: AddressFormatRow._onAddress2LineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address2Line\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress2LineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress2LineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2SubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress2SubposChange
-  id: _onAddress2SubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress2SubposChange
-  nameWithType: AddressFormatRow._onAddress2SubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2SubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address2Subpos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress2SubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress2SubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LeadtextChange
-  id: _onAddress2LeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress2LeadtextChange
-  nameWithType: AddressFormatRow._onAddress2LeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address2Leadtext\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onAddress2LeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onAddress2LeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2ZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress2ZipChange
-  id: _onAddress2ZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress2ZipChange
-  nameWithType: AddressFormatRow._onAddress2ZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2ZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address2Zip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress2ZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress2ZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LengthChange
-  id: _onAddress2LengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress2LengthChange
-  nameWithType: AddressFormatRow._onAddress2LengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2LengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address2Length\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress2LengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress2LengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2FlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress2FlagsChange
-  id: _onAddress2FlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress2FlagsChange
-  nameWithType: AddressFormatRow._onAddress2FlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2FlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address2Flags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress2FlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress2FlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2MaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress2MaskChange
-  id: _onAddress2MaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress2MaskChange
-  nameWithType: AddressFormatRow._onAddress2MaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress2MaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address2Mask\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onAddress2MaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onAddress2MaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LineChange
-  id: _onAddress3LineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress3LineChange
-  nameWithType: AddressFormatRow._onAddress3LineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address3Line\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress3LineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress3LineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3SubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress3SubposChange
-  id: _onAddress3SubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress3SubposChange
-  nameWithType: AddressFormatRow._onAddress3SubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3SubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address3Subpos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress3SubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress3SubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LeadtextChange
-  id: _onAddress3LeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress3LeadtextChange
-  nameWithType: AddressFormatRow._onAddress3LeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address3Leadtext\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onAddress3LeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onAddress3LeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3ZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress3ZipChange
-  id: _onAddress3ZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress3ZipChange
-  nameWithType: AddressFormatRow._onAddress3ZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3ZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address3Zip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress3ZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress3ZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LengthChange
-  id: _onAddress3LengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress3LengthChange
-  nameWithType: AddressFormatRow._onAddress3LengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3LengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address3Length\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress3LengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress3LengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3FlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress3FlagsChange
-  id: _onAddress3FlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress3FlagsChange
-  nameWithType: AddressFormatRow._onAddress3FlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3FlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address3Flags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAddress3FlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAddress3FlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3MaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onAddress3MaskChange
-  id: _onAddress3MaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onAddress3MaskChange
-  nameWithType: AddressFormatRow._onAddress3MaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onAddress3MaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Address3Mask\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onAddress3MaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onAddress3MaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCityLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCityLineChange
-  id: _onCityLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCityLineChange
-  nameWithType: AddressFormatRow._onCityLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCityLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CityLine\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCityLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCityLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCitySubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCitySubposChange
-  id: _onCitySubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCitySubposChange
-  nameWithType: AddressFormatRow._onCitySubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCitySubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CitySubpos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCitySubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCitySubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCityLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCityLeadtextChange
-  id: _onCityLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCityLeadtextChange
-  nameWithType: AddressFormatRow._onCityLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCityLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CityLeadtext\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onCityLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onCityLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCityZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCityZipChange
-  id: _onCityZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCityZipChange
-  nameWithType: AddressFormatRow._onCityZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCityZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CityZip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCityZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCityZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCityLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCityLengthChange
-  id: _onCityLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCityLengthChange
-  nameWithType: AddressFormatRow._onCityLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCityLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CityLength\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCityLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCityLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCityFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCityFlagsChange
-  id: _onCityFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCityFlagsChange
-  nameWithType: AddressFormatRow._onCityFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCityFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CityFlags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCityFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCityFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCityMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCityMaskChange
-  id: _onCityMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCityMaskChange
-  nameWithType: AddressFormatRow._onCityMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCityMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CityMask\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onCityMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onCityMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCountyLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCountyLineChange
-  id: _onCountyLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountyLineChange
-  nameWithType: AddressFormatRow._onCountyLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCountyLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CountyLine\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCountyLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCountyLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCountySubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCountySubposChange
-  id: _onCountySubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountySubposChange
-  nameWithType: AddressFormatRow._onCountySubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCountySubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CountySubpos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCountySubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCountySubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCountyLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCountyLeadtextChange
-  id: _onCountyLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountyLeadtextChange
-  nameWithType: AddressFormatRow._onCountyLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCountyLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CountyLeadtext\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onCountyLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onCountyLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCountyZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCountyZipChange
-  id: _onCountyZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountyZipChange
-  nameWithType: AddressFormatRow._onCountyZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCountyZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CountyZip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCountyZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCountyZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCountyLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCountyLengthChange
-  id: _onCountyLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountyLengthChange
-  nameWithType: AddressFormatRow._onCountyLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCountyLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CountyLength\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCountyLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCountyLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCountyFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCountyFlagsChange
-  id: _onCountyFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountyFlagsChange
-  nameWithType: AddressFormatRow._onCountyFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCountyFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CountyFlags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onCountyFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onCountyFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onCountyMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onCountyMaskChange
-  id: _onCountyMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountyMaskChange
-  nameWithType: AddressFormatRow._onCountyMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onCountyMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.CountyMask\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onCountyMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onCountyMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onStateLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onStateLineChange
-  id: _onStateLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateLineChange
-  nameWithType: AddressFormatRow._onStateLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onStateLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.StateLine\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onStateLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onStateLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onStateSubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onStateSubposChange
-  id: _onStateSubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateSubposChange
-  nameWithType: AddressFormatRow._onStateSubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onStateSubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.StateSubpos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onStateSubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onStateSubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onStateLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onStateLeadtextChange
-  id: _onStateLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateLeadtextChange
-  nameWithType: AddressFormatRow._onStateLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onStateLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.StateLeadtext\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onStateLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onStateLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onStateZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onStateZipChange
-  id: _onStateZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateZipChange
-  nameWithType: AddressFormatRow._onStateZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onStateZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.StateZip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onStateZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onStateZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onStateLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onStateLengthChange
-  id: _onStateLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateLengthChange
-  nameWithType: AddressFormatRow._onStateLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onStateLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.StateLength\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onStateLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onStateLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onStateFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onStateFlagsChange
-  id: _onStateFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateFlagsChange
-  nameWithType: AddressFormatRow._onStateFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onStateFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.StateFlags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onStateFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onStateFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onStateMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onStateMaskChange
-  id: _onStateMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateMaskChange
-  nameWithType: AddressFormatRow._onStateMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onStateMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.StateMask\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onStateMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onStateMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onZipLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onZipLineChange
-  id: _onZipLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onZipLineChange
-  nameWithType: AddressFormatRow._onZipLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onZipLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ZipLine\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onZipLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onZipLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onZipSubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onZipSubposChange
-  id: _onZipSubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onZipSubposChange
-  nameWithType: AddressFormatRow._onZipSubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onZipSubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ZipSubpos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onZipSubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onZipSubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onZipLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onZipLeadtextChange
-  id: _onZipLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onZipLeadtextChange
-  nameWithType: AddressFormatRow._onZipLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onZipLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ZipLeadtext\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onZipLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onZipLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onZipZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onZipZipChange
-  id: _onZipZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onZipZipChange
-  nameWithType: AddressFormatRow._onZipZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onZipZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ZipZip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onZipZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onZipZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onZipLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onZipLengthChange
-  id: _onZipLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onZipLengthChange
-  nameWithType: AddressFormatRow._onZipLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onZipLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ZipLength\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onZipLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onZipLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onZipFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onZipFlagsChange
-  id: _onZipFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onZipFlagsChange
-  nameWithType: AddressFormatRow._onZipFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onZipFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ZipFlags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onZipFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onZipFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onZipMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onZipMaskChange
-  id: _onZipMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onZipMaskChange
-  nameWithType: AddressFormatRow._onZipMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onZipMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ZipMask\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onZipMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onZipMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onExtraFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onExtraFlagsChange
-  id: _onExtraFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onExtraFlagsChange
-  nameWithType: AddressFormatRow._onExtraFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onExtraFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.ExtraFlags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type uint.\n"
-  syntax:
-    content: protected event OnFieldChange<uint> _onExtraFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.UInt32}
-    content.vb: Protected Event _onExtraFlagsChange As OnFieldChange(Of UInteger)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayoutChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayoutChange
-  id: _onLabelLayoutChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onLabelLayoutChange
-  nameWithType: AddressFormatRow._onLabelLayoutChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayoutChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.LabelLayout\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onLabelLayoutChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onLabelLayoutChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredChange
-  id: _onRegisteredChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredChange
-  nameWithType: AddressFormatRow._onRegisteredChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Registered\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredAssociateIdChange
-  id: _onRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredAssociateIdChange
-  nameWithType: AddressFormatRow._onRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.RegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedChange
-  id: _onUpdatedChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedChange
-  nameWithType: AddressFormatRow._onUpdatedChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.Updated\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedAssociateIdChange
-  id: _onUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedAssociateIdChange
-  nameWithType: AddressFormatRow._onUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.UpdatedAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedCountChange
-  id: _onUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedCountChange
-  nameWithType: AddressFormatRow._onUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.UpdatedCount\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayout2Change
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayout2Change
-  id: _onLabelLayout2Change
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onLabelLayout2Change
-  nameWithType: AddressFormatRow._onLabelLayout2Change
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onLabelLayout2Change
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.LabelLayout2\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onLabelLayout2Change
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onLabelLayout2Change As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow._onIsBuiltInChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow._onIsBuiltInChange
-  id: _onIsBuiltInChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: _onIsBuiltInChange
-  nameWithType: AddressFormatRow._onIsBuiltInChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow._onIsBuiltInChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow.IsBuiltIn\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onIsBuiltInChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onIsBuiltInChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnNameChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnNameChange
-  id: OnNameChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnNameChange
-  nameWithType: AddressFormatRow.OnNameChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Name is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnLayoutIdChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnLayoutIdChange
-  id: OnLayoutIdChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnLayoutIdChange
-  nameWithType: AddressFormatRow.OnLayoutIdChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnLayoutIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when LayoutId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnLayoutIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnLayoutIdChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAtypeIdxChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAtypeIdxChange
-  id: OnAtypeIdxChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAtypeIdxChange
-  nameWithType: AddressFormatRow.OnAtypeIdxChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAtypeIdxChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when AtypeIdx is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAtypeIdxChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAtypeIdxChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LineChange
-  id: OnAddress1LineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress1LineChange
-  nameWithType: AddressFormatRow.OnAddress1LineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address1Line is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress1LineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress1LineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1SubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1SubposChange
-  id: OnAddress1SubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress1SubposChange
-  nameWithType: AddressFormatRow.OnAddress1SubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1SubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address1Subpos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress1SubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress1SubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LeadtextChange
-  id: OnAddress1LeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress1LeadtextChange
-  nameWithType: AddressFormatRow.OnAddress1LeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address1Leadtext is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnAddress1LeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnAddress1LeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1ZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1ZipChange
-  id: OnAddress1ZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress1ZipChange
-  nameWithType: AddressFormatRow.OnAddress1ZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1ZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address1Zip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress1ZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress1ZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LengthChange
-  id: OnAddress1LengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress1LengthChange
-  nameWithType: AddressFormatRow.OnAddress1LengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1LengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address1Length is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress1LengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress1LengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1FlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1FlagsChange
-  id: OnAddress1FlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress1FlagsChange
-  nameWithType: AddressFormatRow.OnAddress1FlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1FlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address1Flags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress1FlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress1FlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1MaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1MaskChange
-  id: OnAddress1MaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress1MaskChange
-  nameWithType: AddressFormatRow.OnAddress1MaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress1MaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address1Mask is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnAddress1MaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnAddress1MaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LineChange
-  id: OnAddress2LineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress2LineChange
-  nameWithType: AddressFormatRow.OnAddress2LineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address2Line is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress2LineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress2LineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2SubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2SubposChange
-  id: OnAddress2SubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress2SubposChange
-  nameWithType: AddressFormatRow.OnAddress2SubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2SubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address2Subpos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress2SubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress2SubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LeadtextChange
-  id: OnAddress2LeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress2LeadtextChange
-  nameWithType: AddressFormatRow.OnAddress2LeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address2Leadtext is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnAddress2LeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnAddress2LeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2ZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2ZipChange
-  id: OnAddress2ZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress2ZipChange
-  nameWithType: AddressFormatRow.OnAddress2ZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2ZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address2Zip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress2ZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress2ZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LengthChange
-  id: OnAddress2LengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress2LengthChange
-  nameWithType: AddressFormatRow.OnAddress2LengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2LengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address2Length is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress2LengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress2LengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2FlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2FlagsChange
-  id: OnAddress2FlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress2FlagsChange
-  nameWithType: AddressFormatRow.OnAddress2FlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2FlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address2Flags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress2FlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress2FlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2MaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2MaskChange
-  id: OnAddress2MaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress2MaskChange
-  nameWithType: AddressFormatRow.OnAddress2MaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress2MaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address2Mask is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnAddress2MaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnAddress2MaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LineChange
-  id: OnAddress3LineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress3LineChange
-  nameWithType: AddressFormatRow.OnAddress3LineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address3Line is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress3LineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress3LineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3SubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3SubposChange
-  id: OnAddress3SubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress3SubposChange
-  nameWithType: AddressFormatRow.OnAddress3SubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3SubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address3Subpos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress3SubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress3SubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LeadtextChange
-  id: OnAddress3LeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress3LeadtextChange
-  nameWithType: AddressFormatRow.OnAddress3LeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address3Leadtext is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnAddress3LeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnAddress3LeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3ZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3ZipChange
-  id: OnAddress3ZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress3ZipChange
-  nameWithType: AddressFormatRow.OnAddress3ZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3ZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address3Zip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress3ZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress3ZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LengthChange
-  id: OnAddress3LengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress3LengthChange
-  nameWithType: AddressFormatRow.OnAddress3LengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3LengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address3Length is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress3LengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress3LengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3FlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3FlagsChange
-  id: OnAddress3FlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress3FlagsChange
-  nameWithType: AddressFormatRow.OnAddress3FlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3FlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address3Flags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAddress3FlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAddress3FlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3MaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3MaskChange
-  id: OnAddress3MaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnAddress3MaskChange
-  nameWithType: AddressFormatRow.OnAddress3MaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnAddress3MaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Address3Mask is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnAddress3MaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnAddress3MaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCityLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCityLineChange
-  id: OnCityLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCityLineChange
-  nameWithType: AddressFormatRow.OnCityLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCityLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CityLine is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCityLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCityLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCitySubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCitySubposChange
-  id: OnCitySubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCitySubposChange
-  nameWithType: AddressFormatRow.OnCitySubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCitySubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CitySubpos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCitySubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCitySubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCityLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCityLeadtextChange
-  id: OnCityLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCityLeadtextChange
-  nameWithType: AddressFormatRow.OnCityLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCityLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CityLeadtext is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnCityLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnCityLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCityZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCityZipChange
-  id: OnCityZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCityZipChange
-  nameWithType: AddressFormatRow.OnCityZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCityZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CityZip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCityZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCityZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCityLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCityLengthChange
-  id: OnCityLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCityLengthChange
-  nameWithType: AddressFormatRow.OnCityLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCityLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CityLength is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCityLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCityLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCityFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCityFlagsChange
-  id: OnCityFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCityFlagsChange
-  nameWithType: AddressFormatRow.OnCityFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCityFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CityFlags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCityFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCityFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCityMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCityMaskChange
-  id: OnCityMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCityMaskChange
-  nameWithType: AddressFormatRow.OnCityMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCityMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CityMask is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnCityMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnCityMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLineChange
-  id: OnCountyLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountyLineChange
-  nameWithType: AddressFormatRow.OnCountyLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CountyLine is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCountyLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCountyLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCountySubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCountySubposChange
-  id: OnCountySubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountySubposChange
-  nameWithType: AddressFormatRow.OnCountySubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCountySubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CountySubpos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCountySubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCountySubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLeadtextChange
-  id: OnCountyLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountyLeadtextChange
-  nameWithType: AddressFormatRow.OnCountyLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CountyLeadtext is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnCountyLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnCountyLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCountyZipChange
-  id: OnCountyZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountyZipChange
-  nameWithType: AddressFormatRow.OnCountyZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CountyZip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCountyZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCountyZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLengthChange
-  id: OnCountyLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountyLengthChange
-  nameWithType: AddressFormatRow.OnCountyLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CountyLength is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCountyLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCountyLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCountyFlagsChange
-  id: OnCountyFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountyFlagsChange
-  nameWithType: AddressFormatRow.OnCountyFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CountyFlags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnCountyFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnCountyFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnCountyMaskChange
-  id: OnCountyMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountyMaskChange
-  nameWithType: AddressFormatRow.OnCountyMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnCountyMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CountyMask is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnCountyMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnCountyMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnStateLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnStateLineChange
-  id: OnStateLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateLineChange
-  nameWithType: AddressFormatRow.OnStateLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnStateLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when StateLine is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnStateLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnStateLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnStateSubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnStateSubposChange
-  id: OnStateSubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateSubposChange
-  nameWithType: AddressFormatRow.OnStateSubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnStateSubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when StateSubpos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnStateSubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnStateSubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnStateLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnStateLeadtextChange
-  id: OnStateLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateLeadtextChange
-  nameWithType: AddressFormatRow.OnStateLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnStateLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when StateLeadtext is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnStateLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnStateLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnStateZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnStateZipChange
-  id: OnStateZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateZipChange
-  nameWithType: AddressFormatRow.OnStateZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnStateZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when StateZip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnStateZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnStateZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnStateLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnStateLengthChange
-  id: OnStateLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateLengthChange
-  nameWithType: AddressFormatRow.OnStateLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnStateLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when StateLength is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnStateLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnStateLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnStateFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnStateFlagsChange
-  id: OnStateFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateFlagsChange
-  nameWithType: AddressFormatRow.OnStateFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnStateFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when StateFlags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnStateFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnStateFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnStateMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnStateMaskChange
-  id: OnStateMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateMaskChange
-  nameWithType: AddressFormatRow.OnStateMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnStateMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when StateMask is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnStateMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnStateMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnZipLineChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnZipLineChange
-  id: OnZipLineChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnZipLineChange
-  nameWithType: AddressFormatRow.OnZipLineChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnZipLineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ZipLine is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnZipLineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnZipLineChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnZipSubposChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnZipSubposChange
-  id: OnZipSubposChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnZipSubposChange
-  nameWithType: AddressFormatRow.OnZipSubposChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnZipSubposChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ZipSubpos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnZipSubposChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnZipSubposChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnZipLeadtextChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnZipLeadtextChange
-  id: OnZipLeadtextChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnZipLeadtextChange
-  nameWithType: AddressFormatRow.OnZipLeadtextChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnZipLeadtextChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ZipLeadtext is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnZipLeadtextChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnZipLeadtextChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnZipZipChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnZipZipChange
-  id: OnZipZipChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnZipZipChange
-  nameWithType: AddressFormatRow.OnZipZipChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnZipZipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ZipZip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnZipZipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnZipZipChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnZipLengthChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnZipLengthChange
-  id: OnZipLengthChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnZipLengthChange
-  nameWithType: AddressFormatRow.OnZipLengthChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnZipLengthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ZipLength is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnZipLengthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnZipLengthChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnZipFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnZipFlagsChange
-  id: OnZipFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnZipFlagsChange
-  nameWithType: AddressFormatRow.OnZipFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnZipFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ZipFlags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnZipFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnZipFlagsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnZipMaskChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnZipMaskChange
-  id: OnZipMaskChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnZipMaskChange
-  nameWithType: AddressFormatRow.OnZipMaskChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnZipMaskChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ZipMask is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnZipMaskChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnZipMaskChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnExtraFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnExtraFlagsChange
-  id: OnExtraFlagsChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnExtraFlagsChange
-  nameWithType: AddressFormatRow.OnExtraFlagsChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnExtraFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ExtraFlags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<uint> OnExtraFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.UInt32}
-    content.vb: Public Event OnExtraFlagsChange As OnFieldChange(Of UInteger)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayoutChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayoutChange
-  id: OnLabelLayoutChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnLabelLayoutChange
-  nameWithType: AddressFormatRow.OnLabelLayoutChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayoutChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when LabelLayout is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnLabelLayoutChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnLabelLayoutChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredChange
-  id: OnRegisteredChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredChange
-  nameWithType: AddressFormatRow.OnRegisteredChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Registered is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredAssociateIdChange
-  id: OnRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredAssociateIdChange
-  nameWithType: AddressFormatRow.OnRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RegisteredAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedChange
-  id: OnUpdatedChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedChange
-  nameWithType: AddressFormatRow.OnUpdatedChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Updated is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedAssociateIdChange
-  id: OnUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedAssociateIdChange
-  nameWithType: AddressFormatRow.OnUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedCountChange
-  id: OnUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedCountChange
-  nameWithType: AddressFormatRow.OnUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedCount is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayout2Change
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayout2Change
-  id: OnLabelLayout2Change
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnLabelLayout2Change
-  nameWithType: AddressFormatRow.OnLabelLayout2Change
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnLabelLayout2Change
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when LabelLayout2 is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnLabelLayout2Change
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnLabelLayout2Change As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.AddressFormatRow.OnIsBuiltInChange
-  commentId: E:SuperOffice.CRM.Rows.AddressFormatRow.OnIsBuiltInChange
-  id: OnIsBuiltInChange
-  parent: SuperOffice.CRM.Rows.AddressFormatRow
-  langs:
-  - csharp
-  - vb
-  name: OnIsBuiltInChange
-  nameWithType: AddressFormatRow.OnIsBuiltInChange
-  fullName: SuperOffice.CRM.Rows.AddressFormatRow.OnIsBuiltInChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when IsBuiltIn is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnIsBuiltInChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnIsBuiltInChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -10131,13 +6719,6 @@ references:
   name: _sentries
   nameWithType: TableRowBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowBase._sentries
-- uid: SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  commentId: F:SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: _onValueChange
-  nameWithType: TableRowBase._onValueChange
-  fullName: SuperOffice.CRM.Rows.TableRowBase._onValueChange
 - uid: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -10145,6 +6726,13 @@ references:
   name: _relatedNestedPersistMembers
   nameWithType: TableRowBase._relatedNestedPersistMembers
   fullName: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+- uid: SuperOffice.CRM.Rows.TableRowBase._isSaving
+  commentId: F:SuperOffice.CRM.Rows.TableRowBase._isSaving
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: _isSaving
+  nameWithType: TableRowBase._isSaving
+  fullName: SuperOffice.CRM.Rows.TableRowBase._isSaving
 - uid: SuperOffice.CRM.Rows.TableRowBase._sqlType
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._sqlType
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -10883,6 +7471,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -11599,13 +8351,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: OnValueChanged
-  nameWithType: TableRowBase.OnValueChanged
-  fullName: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -11651,6 +8396,88 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -11682,6 +8509,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   commentId: E:SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -11696,6 +8587,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -12078,254 +8976,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.AddressFormatRow.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -12459,6 +9109,37 @@ references:
     name: ExecuteNonQuery
     nameWithType: QueryExectionExtensions.ExecuteNonQuery
     fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRow.SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
+  commentId: M:SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AddressFormatRow)
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AddressFormatRow)
+  name: ToRecordData()
+  nameWithType: AddressFormatRecordDataExtensions.ToRecordData()
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: AddressFormatRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: AddressFormatRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
     isExternal: true
   - name: (
     nameWithType: (
@@ -12715,6 +9396,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AddressFormatRow)
+  commentId: M:SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AddressFormatRow)
+  isExternal: true
+  name: ToRecordData(AddressFormatRow)
+  nameWithType: AddressFormatRecordDataExtensions.ToRecordData(AddressFormatRow)
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AddressFormatRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AddressFormatRow)
+    name: ToRecordData
+    nameWithType: AddressFormatRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AddressFormatRow
+    name: AddressFormatRow
+    nameWithType: AddressFormatRow
+    fullName: SuperOffice.CRM.Rows.AddressFormatRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.AddressFormatRow)
+    name: ToRecordData
+    nameWithType: AddressFormatRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AddressFormatRow
+    name: AddressFormatRow
+    nameWithType: AddressFormatRow
+    fullName: SuperOffice.CRM.Rows.AddressFormatRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AddressFormatRecordDataExtensions
+  nameWithType: AddressFormatRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -12796,8 +9524,6 @@ references:
   nameWithType: UInt32
   fullName: System.UInt32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -13101,37 +9827,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.AddressFormatRow.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.AddressFormatRow.ToString
   isExternal: true
@@ -14004,262 +10699,3 @@ references:
   name: IsBuiltIn
   nameWithType: AddressFormatRow.IsBuiltIn
   fullName: SuperOffice.CRM.Rows.AddressFormatRow.IsBuiltIn
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<String>
-  nameWithType: OnFieldChange<String>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.String>
-  nameWithType.vb: OnFieldChange(Of String)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.String)
-  name.vb: OnFieldChange(Of String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange`1
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
-  isExternal: true
-  name: OnFieldChange<TValue>
-  nameWithType: OnFieldChange<TValue>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  nameWithType.vb: OnFieldChange(Of TValue)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
-  name.vb: OnFieldChange(Of TValue)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int32>
-  nameWithType: OnFieldChange<Int32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
-  nameWithType.vb: OnFieldChange(Of Int32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
-  name.vb: OnFieldChange(Of Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.UInt32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.UInt32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<UInt32>
-  nameWithType: OnFieldChange<UInt32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.UInt32>
-  nameWithType.vb: OnFieldChange(Of UInt32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.UInt32)
-  name.vb: OnFieldChange(Of UInt32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.UInt32
-    name: UInt32
-    nameWithType: UInt32
-    fullName: System.UInt32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.UInt32
-    name: UInt32
-    nameWithType: UInt32
-    fullName: System.UInt32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DateTime>
-  nameWithType: OnFieldChange<DateTime>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
-  nameWithType.vb: OnFieldChange(Of DateTime)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
-  name.vb: OnFieldChange(Of DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )

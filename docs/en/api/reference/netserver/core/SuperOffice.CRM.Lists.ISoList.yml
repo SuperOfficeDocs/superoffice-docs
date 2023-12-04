@@ -300,8 +300,7 @@ references:
   nameWithType: ISoList.HistoryItems
   fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.Collections.Generic.List`1
   name: List<ISoListItem>
   nameWithType: List<ISoListItem>
@@ -344,14 +343,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -361,9 +359,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -376,18 +374,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Lists.ISoList.RootItems*
   commentId: Overload:SuperOffice.CRM.Lists.ISoList.RootItems
   isExternal: true
@@ -401,8 +393,7 @@ references:
   nameWithType: ISoList.HeadingItems
   fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}'
   definition: System.Collections.Generic.List`1
   name: List<ISoListHeading>
   nameWithType: List<ISoListHeading>

@@ -13,13 +13,14 @@ items:
   - SuperOffice.Data.PhoneType.PersonPager
   - SuperOffice.Data.PhoneType.PersonPrivate
   - SuperOffice.Data.PhoneType.Unknown
+  - SuperOffice.Data.PhoneType.value__
   langs:
   - csharp
   - vb
   name: PhoneType
   nameWithType: PhoneType
   fullName: SuperOffice.Data.PhoneType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -28,19 +29,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nThe type of Phone\nThis Enum is used by:  phone.ptype_idx\n"
   syntax:
-    content: 'public enum PhoneType : short'
-    content.vb: Public Enum PhoneType As Short
+    content: 'public sealed class PhoneType : Enum'
+    content.vb: >-
+      Public NotInheritable Class PhoneType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.PhoneType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PhoneType)
-  - SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.PhoneType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.PhoneType.value__
+  commentId: F:SuperOffice.Data.PhoneType.value__
+  id: value__
+  parent: SuperOffice.Data.PhoneType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: PhoneType.value__
+  fullName: SuperOffice.Data.PhoneType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.PhoneType.Unknown
   commentId: F:SuperOffice.Data.PhoneType.Unknown
   id: Unknown
@@ -60,9 +96,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing \n"
   syntax:
-    content: Unknown = 0
+    content: public const PhoneType Unknown
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const Unknown As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -88,9 +125,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Telephone number for a contact.\n"
   syntax:
-    content: ContactPhone = 1
+    content: public const PhoneType ContactPhone
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const ContactPhone As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -116,9 +154,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Facsimile number for a contact\n"
   syntax:
-    content: ContactFax = 3
+    content: public const PhoneType ContactFax
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const ContactFax As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -144,9 +183,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16385: Direct dial telephone for a person\n"
   syntax:
-    content: PersonDirectPhone = 16385
+    content: public const PhoneType PersonDirectPhone
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const PersonDirectPhone As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -172,9 +212,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16387: Direct facsimile number for a person\n"
   syntax:
-    content: PersonDirectFax = 16387
+    content: public const PhoneType PersonDirectFax
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const PersonDirectFax As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -200,9 +241,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16388: Private telephone for a person\n"
   syntax:
-    content: PersonPrivate = 16388
+    content: public const PhoneType PersonPrivate
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const PersonPrivate As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -228,9 +270,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16389: Cellular telephone for a person\n"
   syntax:
-    content: PersonMobile = 16389
+    content: public const PhoneType PersonMobile
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const PersonMobile As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -256,9 +299,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16390: Pager number for a person\n"
   syntax:
-    content: PersonPager = 16390
+    content: public const PhoneType PersonPager
     return:
       type: SuperOffice.Data.PhoneType
+    content.vb: Public Const PersonPager As PhoneType
   modifiers.csharp:
   - public
   - const
@@ -272,6 +316,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.PhoneType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -299,84 +350,6 @@ references:
     name: MapEnums(Of PhoneType, To)
     nameWithType: EnumUtil.MapEnums(Of PhoneType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.PhoneType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PhoneType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<PhoneType>(PhoneType)
-  nameWithType: ObjectExtensions.AssignByReflection<PhoneType>(PhoneType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PhoneType>(SuperOffice.Data.PhoneType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PhoneType)(PhoneType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PhoneType)(SuperOffice.Data.PhoneType)
-  name.vb: AssignByReflection(Of PhoneType)(PhoneType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<PhoneType>
-    nameWithType: ObjectExtensions.AssignByReflection<PhoneType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PhoneType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    nameWithType: PhoneType
-    fullName: SuperOffice.Data.PhoneType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of PhoneType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of PhoneType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PhoneType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    nameWithType: PhoneType
-    fullName: SuperOffice.Data.PhoneType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<PhoneType>()
-  nameWithType: ObjectExtensions.GraphCopy<PhoneType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PhoneType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PhoneType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PhoneType)()
-  name.vb: GraphCopy(Of PhoneType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<PhoneType>
-    nameWithType: ObjectExtensions.GraphCopy<PhoneType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PhoneType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of PhoneType)
-    nameWithType: ObjectExtensions.GraphCopy(Of PhoneType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PhoneType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -418,6 +391,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -463,103 +442,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -606,18 +488,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.PhoneType
   commentId: T:SuperOffice.Data.PhoneType
   parent: SuperOffice.Data

@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Tooltips.DashboardTileTooltipPlugin
   - SuperOffice.CRM.Tooltips.DashboardTooltipPlugin
   - SuperOffice.CRM.Tooltips.DocumentTooltipPlugin
+  - SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
   - SuperOffice.CRM.Tooltips.EmailTooltipPlugin
   - SuperOffice.CRM.Tooltips.FilterTooltipPlugin
   - SuperOffice.CRM.Tooltips.InterestTooltipPlugin
@@ -43,14 +44,17 @@ items:
   - SuperOffice.CRM.Tooltips.SelectionNoteTooltipPlugin
   - SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
   - SuperOffice.CRM.Tooltips.TextTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
   - SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
   - SuperOffice.CRM.Tooltips.TooltipPluginAttribute
   - SuperOffice.CRM.Tooltips.TooltipPluginBase
   - SuperOffice.CRM.Tooltips.TooltipPluginHelper
   - SuperOffice.CRM.Tooltips.TooltipProvider
   - SuperOffice.CRM.Tooltips.UdefFieldTooltipPlugin
-  - SuperOffice.CRM.Tooltips.UserPreferenceTooltipPlugin
+  - SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
   langs:
   - csharp
   - vb
@@ -139,6 +143,12 @@ references:
   name: DocumentTooltipPlugin
   nameWithType: DocumentTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.DocumentTooltipPlugin
+- uid: SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
+  commentId: T:SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
+  isExternal: true
+  name: EjCategoryTooltipPlugin
+  nameWithType: EjCategoryTooltipPlugin
+  fullName: SuperOffice.CRM.Tooltips.EjCategoryTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.EmailTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.EmailTooltipPlugin
   isExternal: true
@@ -303,12 +313,30 @@ references:
   name: TextTooltipPlugin
   nameWithType: TextTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TextTooltipPlugin
+- uid: SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+  commentId: T:SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+  isExternal: true
+  name: TicketPriorityTooltipPlugin
+  nameWithType: TicketPriorityTooltipPlugin
+  fullName: SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+- uid: SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
+  commentId: T:SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
+  isExternal: true
+  name: TicketStatusTooltipPlugin
+  nameWithType: TicketStatusTooltipPlugin
+  fullName: SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TicketTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TicketTooltipPlugin
   isExternal: true
   name: TicketTooltipPlugin
   nameWithType: TicketTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TicketTooltipPlugin
+- uid: SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
+  commentId: T:SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
+  isExternal: true
+  name: TicketTypeTooltipPlugin
+  nameWithType: TicketTypeTooltipPlugin
+  fullName: SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TimeZoneTooltipPlugin
   isExternal: true
@@ -340,12 +368,12 @@ references:
   name: UdefFieldTooltipPlugin
   nameWithType: UdefFieldTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.UdefFieldTooltipPlugin
-- uid: SuperOffice.CRM.Tooltips.UserPreferenceTooltipPlugin
-  commentId: T:SuperOffice.CRM.Tooltips.UserPreferenceTooltipPlugin
+- uid: SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
+  commentId: T:SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
   isExternal: true
-  name: UserPreferenceTooltipPlugin
-  nameWithType: UserPreferenceTooltipPlugin
-  fullName: SuperOffice.CRM.Tooltips.UserPreferenceTooltipPlugin
+  name: WorkflowTooltipPlugin
+  nameWithType: WorkflowTooltipPlugin
+  fullName: SuperOffice.CRM.Tooltips.WorkflowTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips
   commentId: N:SuperOffice.CRM.Tooltips
   isExternal: true

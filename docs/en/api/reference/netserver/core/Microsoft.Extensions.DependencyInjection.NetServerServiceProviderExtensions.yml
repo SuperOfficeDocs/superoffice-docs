@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
+  id: NetServerServiceProviderExtensions
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider,System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions})
+  langs:
+  - csharp
+  - vb
+  name: NetServerServiceProviderExtensions
+  nameWithType: NetServerServiceProviderExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public static class NetServerServiceProviderExtensions : Object'
+    content.vb: >-
+      Public Module NetServerServiceProviderExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider,System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions})
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider,System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions})
+  id: RegisterWithNetServer(System.IServiceProvider,System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions})
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RegisterWithNetServer(IServiceProvider, Action<NetServerOptions>)
+  nameWithType: NetServerServiceProviderExtensions.RegisterWithNetServer(IServiceProvider, Action<NetServerOptions>)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider, System.Action<Microsoft.Extensions.DependencyInjection.NetServerOptions>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: "\nRegister the service provider with NetServer.  NetServer Core must be registered in the underlying IOC container using\n<xref href=\"Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore%60%601(Microsoft.Extensions.DependencyInjection.IServiceCollection%2cSystem.Action%7bMicrosoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder%7d)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static IServiceProvider RegisterWithNetServer(this IServiceProvider serviceProvider, Action<NetServerOptions> configureOptions = null)
+    parameters:
+    - id: serviceProvider
+      type: System.IServiceProvider
+    - id: configureOptions
+      type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions}
+    return:
+      type: System.IServiceProvider
+      description: The instance of the service providcer used by NetServer.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RegisterWithNetServer(serviceProvider As IServiceProvider, configureOptions As Action(Of NetServerOptions) = Nothing) As IServiceProvider
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer*
+  exceptions:
+  - type: System.Reflection.TargetInvocationException
+    commentId: T:System.Reflection.TargetInvocationException
+    description: Thrown if NetServer core is not added to the IOC container.
+  nameWithType.vb: NetServerServiceProviderExtensions.RegisterWithNetServer(IServiceProvider, Action(Of NetServerOptions))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer(System.IServiceProvider, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerOptions))
+  name.vb: RegisterWithNetServer(IServiceProvider, Action(Of NetServerOptions))
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer
+  isExternal: true
+  name: RegisterWithNetServer
+  nameWithType: NetServerServiceProviderExtensions.RegisterWithNetServer
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.RegisterWithNetServer
+- uid: System.Reflection.TargetInvocationException
+  commentId: T:System.Reflection.TargetInvocationException
+  isExternal: true
+- uid: System.IServiceProvider
+  isExternal: true
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions}
+  commentId: '!:System.Action{Microsoft.Extensions.DependencyInjection.NetServerOptions}'
+  definition: System.Action`1
+  name: Action<NetServerOptions>
+  nameWithType: Action<NetServerOptions>
+  fullName: System.Action<Microsoft.Extensions.DependencyInjection.NetServerOptions>
+  nameWithType.vb: Action(Of NetServerOptions)
+  fullName.vb: System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerOptions)
+  name.vb: Action(Of NetServerOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    name: NetServerOptions
+    nameWithType: NetServerOptions
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    name: NetServerOptions
+    nameWithType: NetServerOptions
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

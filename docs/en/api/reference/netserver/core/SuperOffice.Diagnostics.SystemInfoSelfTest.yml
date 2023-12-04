@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest
+  commentId: T:SuperOffice.Diagnostics.SystemInfoSelfTest
+  id: SystemInfoSelfTest
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.SystemInfoSelfTest.#ctor
+  - SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest(System.String@)
+  langs:
+  - csharp
+  - vb
+  name: SystemInfoSelfTest
+  nameWithType: SystemInfoSelfTest
+  fullName: SuperOffice.Diagnostics.SystemInfoSelfTest
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: 'public class SystemInfoSelfTest : Object, ISelfTest'
+    content.vb: >-
+      Public Class SystemInfoSelfTest
+
+          Inherits Object
+
+          Implements ISelfTest
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.ISelfTest
+  extensionMethods:
+  - SuperOffice.Diagnostics.SystemInfoSelfTest.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.SystemInfoSelfTest.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SystemInfoSelfTest)
+  - SuperOffice.Diagnostics.SystemInfoSelfTest.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Diagnostics.SystemInfoSelfTest.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest(System.String@)
+  commentId: M:SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest(System.String@)
+  id: DoTest(System.String@)
+  parent: SuperOffice.Diagnostics.SystemInfoSelfTest
+  langs:
+  - csharp
+  - vb
+  name: DoTest(out String)
+  nameWithType: SystemInfoSelfTest.DoTest(out String)
+  fullName: SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest(out System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public bool DoTest(out string message)
+    parameters:
+    - id: message
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function DoTest(ByRef message As String) As Boolean
+  overload: SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest*
+  implements:
+  - SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+  nameWithType.vb: SystemInfoSelfTest.DoTest(ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest(ByRef System.String)
+  name.vb: DoTest(ByRef String)
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.#ctor
+  commentId: M:SuperOffice.Diagnostics.SystemInfoSelfTest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Diagnostics.SystemInfoSelfTest
+  langs:
+  - csharp
+  - vb
+  name: SystemInfoSelfTest()
+  nameWithType: SystemInfoSelfTest.SystemInfoSelfTest()
+  fullName: SuperOffice.Diagnostics.SystemInfoSelfTest.SystemInfoSelfTest()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public SystemInfoSelfTest()
+    content.vb: Public Sub New
+  overload: SuperOffice.Diagnostics.SystemInfoSelfTest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.ISelfTest
+  commentId: T:SuperOffice.Diagnostics.ISelfTest
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: ISelfTest
+  nameWithType: ISelfTest
+  fullName: SuperOffice.Diagnostics.ISelfTest
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SystemInfoSelfTest, To>()
+  nameWithType: EnumUtil.MapEnums<SystemInfoSelfTest, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SystemInfoSelfTest, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SystemInfoSelfTest, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SystemInfoSelfTest, To)()
+  name.vb: MapEnums(Of SystemInfoSelfTest, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SystemInfoSelfTest, To>
+    nameWithType: EnumUtil.MapEnums<SystemInfoSelfTest, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SystemInfoSelfTest, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SystemInfoSelfTest, To)
+    nameWithType: EnumUtil.MapEnums(Of SystemInfoSelfTest, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SystemInfoSelfTest, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SystemInfoSelfTest)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SystemInfoSelfTest>(SystemInfoSelfTest)
+  nameWithType: ObjectExtensions.AssignByReflection<SystemInfoSelfTest>(SystemInfoSelfTest)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SystemInfoSelfTest>(SuperOffice.Diagnostics.SystemInfoSelfTest)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SystemInfoSelfTest)(SystemInfoSelfTest)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SystemInfoSelfTest)(SuperOffice.Diagnostics.SystemInfoSelfTest)
+  name.vb: AssignByReflection(Of SystemInfoSelfTest)(SystemInfoSelfTest)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SystemInfoSelfTest>
+    nameWithType: ObjectExtensions.AssignByReflection<SystemInfoSelfTest>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SystemInfoSelfTest>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SystemInfoSelfTest
+    name: SystemInfoSelfTest
+    nameWithType: SystemInfoSelfTest
+    fullName: SuperOffice.Diagnostics.SystemInfoSelfTest
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SystemInfoSelfTest)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SystemInfoSelfTest)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SystemInfoSelfTest)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SystemInfoSelfTest
+    name: SystemInfoSelfTest
+    nameWithType: SystemInfoSelfTest
+    fullName: SuperOffice.Diagnostics.SystemInfoSelfTest
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SystemInfoSelfTest>()
+  nameWithType: ObjectExtensions.GraphCopy<SystemInfoSelfTest>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SystemInfoSelfTest>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SystemInfoSelfTest)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SystemInfoSelfTest)()
+  name.vb: GraphCopy(Of SystemInfoSelfTest)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SystemInfoSelfTest>
+    nameWithType: ObjectExtensions.GraphCopy<SystemInfoSelfTest>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SystemInfoSelfTest>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SystemInfoSelfTest)
+    nameWithType: ObjectExtensions.GraphCopy(Of SystemInfoSelfTest)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SystemInfoSelfTest)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SystemInfoSelfTest, To>()
+  nameWithType: Converters.MapEnums<SystemInfoSelfTest, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SystemInfoSelfTest, To>()
+  nameWithType.vb: Converters.MapEnums(Of SystemInfoSelfTest, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SystemInfoSelfTest, To)()
+  name.vb: MapEnums(Of SystemInfoSelfTest, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SystemInfoSelfTest, To>
+    nameWithType: Converters.MapEnums<SystemInfoSelfTest, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SystemInfoSelfTest, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SystemInfoSelfTest, To)
+    nameWithType: Converters.MapEnums(Of SystemInfoSelfTest, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SystemInfoSelfTest, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest*
+  commentId: Overload:SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest
+  isExternal: true
+  name: DoTest
+  nameWithType: SystemInfoSelfTest.DoTest
+  fullName: SuperOffice.Diagnostics.SystemInfoSelfTest.DoTest
+- uid: SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+  commentId: M:SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+  parent: SuperOffice.Diagnostics.ISelfTest
+  isExternal: true
+  name: DoTest(String)
+  nameWithType: ISelfTest.DoTest(String)
+  fullName: SuperOffice.Diagnostics.ISelfTest.DoTest(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+    name: DoTest
+    nameWithType: ISelfTest.DoTest
+    fullName: SuperOffice.Diagnostics.ISelfTest.DoTest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+    name: DoTest
+    nameWithType: ISelfTest.DoTest
+    fullName: SuperOffice.Diagnostics.ISelfTest.DoTest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Diagnostics.SystemInfoSelfTest.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.SystemInfoSelfTest.#ctor
+  isExternal: true
+  name: SystemInfoSelfTest
+  nameWithType: SystemInfoSelfTest.SystemInfoSelfTest
+  fullName: SuperOffice.Diagnostics.SystemInfoSelfTest.SystemInfoSelfTest

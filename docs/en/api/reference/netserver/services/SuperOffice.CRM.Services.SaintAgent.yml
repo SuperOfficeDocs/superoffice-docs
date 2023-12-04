@@ -54,19 +54,78 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaintAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaintAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
+  commentId: M:SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
+  id: CreateDefaultSaintConfiguration
+  parent: SuperOffice.CRM.Services.SaintAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSaintConfiguration()
+  nameWithType: SaintAgent.CreateDefaultSaintConfiguration()
+  fullName: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new SaintConfiguration.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public SaintConfiguration CreateDefaultSaintConfiguration()
+    return:
+      type: SuperOffice.CRM.Services.SaintConfiguration
+      description: New SaintConfiguration with default values
+    content.vb: Public Function CreateDefaultSaintConfiguration As SaintConfiguration
+  overload: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration*
+  implements:
+  - SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  commentId: M:SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  id: SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  parent: SuperOffice.CRM.Services.SaintAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSaintConfiguration(SaintConfiguration)
+  nameWithType: SaintAgent.SaveSaintConfiguration(SaintConfiguration)
+  fullName: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty\n"
+  syntax:
+    content: public SaintConfiguration SaveSaintConfiguration(SaintConfiguration saintConfiguration)
+    parameters:
+    - id: saintConfiguration
+      type: SuperOffice.CRM.Services.SaintConfiguration
+      description: The SaintConfiguration that is saved.
+    return:
+      type: SuperOffice.CRM.Services.SaintConfiguration
+      description: New or updated SaintConfiguration
+    content.vb: Public Function SaveSaintConfiguration(saintConfiguration As SaintConfiguration) As SaintConfiguration
+  overload: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration*
+  implements:
+  - SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SaintAgent.CreateDefaultStatusMonitor
   commentId: M:SuperOffice.CRM.Services.SaintAgent.CreateDefaultStatusMonitor
   id: CreateDefaultStatusMonitor
@@ -199,16 +258,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
-  commentId: M:SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
-  id: CreateDefaultSaintConfiguration
+- uid: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
+  commentId: M:SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
+  id: GetSaintConfigurations
   parent: SuperOffice.CRM.Services.SaintAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultSaintConfiguration()
-  nameWithType: SaintAgent.CreateDefaultSaintConfiguration()
-  fullName: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration()
+  name: GetSaintConfigurations()
+  nameWithType: SaintAgent.GetSaintConfigurations()
+  fullName: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations()
   type: Method
   source:
     path: SuperOffice.Services
@@ -216,51 +275,16 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new SaintConfiguration.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: "\nReturns the StatusMonitorPeriods entity.\n"
   syntax:
-    content: public SaintConfiguration CreateDefaultSaintConfiguration()
+    content: public SaintConfiguration[] GetSaintConfigurations()
     return:
-      type: SuperOffice.CRM.Services.SaintConfiguration
-      description: New SaintConfiguration with default values
-    content.vb: Public Function CreateDefaultSaintConfiguration As SaintConfiguration
-  overload: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration*
+      type: SuperOffice.CRM.Services.SaintConfiguration[]
+      description: The SaintConfiguration for all entities
+    content.vb: Public Function GetSaintConfigurations As SaintConfiguration()
+  overload: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations*
   implements:
-  - SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-  commentId: M:SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-  id: SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-  parent: SuperOffice.CRM.Services.SaintAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveSaintConfiguration(SaintConfiguration)
-  nameWithType: SaintAgent.SaveSaintConfiguration(SaintConfiguration)
-  fullName: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty\n"
-  syntax:
-    content: public SaintConfiguration SaveSaintConfiguration(SaintConfiguration saintConfiguration)
-    parameters:
-    - id: saintConfiguration
-      type: SuperOffice.CRM.Services.SaintConfiguration
-      description: The SaintConfiguration that is saved.
-    return:
-      type: SuperOffice.CRM.Services.SaintConfiguration
-      description: New or updated SaintConfiguration
-    content.vb: Public Function SaveSaintConfiguration(saintConfiguration As SaintConfiguration) As SaintConfiguration
-  overload: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration*
-  implements:
-  - SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  - SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -509,37 +533,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
-  commentId: M:SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
-  id: GetSaintConfigurations
-  parent: SuperOffice.CRM.Services.SaintAgent
-  langs:
-  - csharp
-  - vb
-  name: GetSaintConfigurations()
-  nameWithType: SaintAgent.GetSaintConfigurations()
-  fullName: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the StatusMonitorPeriods entity.\n"
-  syntax:
-    content: public SaintConfiguration[] GetSaintConfigurations()
-    return:
-      type: SuperOffice.CRM.Services.SaintConfiguration[]
-      description: The SaintConfiguration for all entities
-    content.vb: Public Function GetSaintConfigurations As SaintConfiguration()
-  overload: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations*
-  implements:
-  - SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Services.SaintAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.SaintAgent.#ctor
   id: '#ctor'
@@ -572,13 +565,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaintAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaintAgent}
   parent: SuperOffice.CRM.Services
@@ -624,8 +610,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -686,291 +670,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISaintAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of ISaintAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISaintAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -1050,6 +749,97 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of TAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration*
+  commentId: Overload:SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
+  isExternal: true
+  name: CreateDefaultSaintConfiguration
+  nameWithType: SaintAgent.CreateDefaultSaintConfiguration
+  fullName: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
+- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+  commentId: M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+  parent: SuperOffice.CRM.Services.ISaintAgent
+  isExternal: true
+  name: CreateDefaultSaintConfiguration()
+  nameWithType: ISaintAgent.CreateDefaultSaintConfiguration()
+  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+    name: CreateDefaultSaintConfiguration
+    nameWithType: ISaintAgent.CreateDefaultSaintConfiguration
+    fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+    name: CreateDefaultSaintConfiguration
+    nameWithType: ISaintAgent.CreateDefaultSaintConfiguration
+    fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaintConfiguration
+  commentId: T:SuperOffice.CRM.Services.SaintConfiguration
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SaintConfiguration
+  nameWithType: SaintConfiguration
+  fullName: SuperOffice.CRM.Services.SaintConfiguration
+- uid: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration*
+  commentId: Overload:SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration
+  isExternal: true
+  name: SaveSaintConfiguration
+  nameWithType: SaintAgent.SaveSaintConfiguration
+  fullName: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration
+- uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  parent: SuperOffice.CRM.Services.ISaintAgent
+  isExternal: true
+  name: SaveSaintConfiguration(SaintConfiguration)
+  nameWithType: ISaintAgent.SaveSaintConfiguration(SaintConfiguration)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+    name: SaveSaintConfiguration
+    nameWithType: ISaintAgent.SaveSaintConfiguration
+    fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaintConfiguration
+    name: SaintConfiguration
+    nameWithType: SaintConfiguration
+    fullName: SuperOffice.CRM.Services.SaintConfiguration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+    name: SaveSaintConfiguration
+    nameWithType: ISaintAgent.SaveSaintConfiguration
+    fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaintConfiguration
+    name: SaintConfiguration
+    nameWithType: SaintConfiguration
+    fullName: SuperOffice.CRM.Services.SaintConfiguration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.SaintAgent.CreateDefaultStatusMonitor*
   commentId: Overload:SuperOffice.CRM.Services.SaintAgent.CreateDefaultStatusMonitor
   isExternal: true
@@ -1232,24 +1022,24 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration*
-  commentId: Overload:SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
+- uid: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations*
+  commentId: Overload:SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
   isExternal: true
-  name: CreateDefaultSaintConfiguration
-  nameWithType: SaintAgent.CreateDefaultSaintConfiguration
-  fullName: SuperOffice.CRM.Services.SaintAgent.CreateDefaultSaintConfiguration
-- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
-  commentId: M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+  name: GetSaintConfigurations
+  nameWithType: SaintAgent.GetSaintConfigurations
+  fullName: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
+- uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
+  commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
   parent: SuperOffice.CRM.Services.ISaintAgent
   isExternal: true
-  name: CreateDefaultSaintConfiguration()
-  nameWithType: ISaintAgent.CreateDefaultSaintConfiguration()
-  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration()
+  name: GetSaintConfigurations()
+  nameWithType: ISaintAgent.GetSaintConfigurations()
+  fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
-    name: CreateDefaultSaintConfiguration
-    nameWithType: ISaintAgent.CreateDefaultSaintConfiguration
-    fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+  - uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
+    name: GetSaintConfigurations
+    nameWithType: ISaintAgent.GetSaintConfigurations
+    fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
     isExternal: true
   - name: (
     nameWithType: (
@@ -1258,10 +1048,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
-    name: CreateDefaultSaintConfiguration
-    nameWithType: ISaintAgent.CreateDefaultSaintConfiguration
-    fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
+  - uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
+    name: GetSaintConfigurations
+    nameWithType: ISaintAgent.GetSaintConfigurations
+    fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
     isExternal: true
   - name: (
     nameWithType: (
@@ -1269,60 +1059,32 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.SaintConfiguration
-  commentId: T:SuperOffice.CRM.Services.SaintConfiguration
-  parent: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.SaintConfiguration[]
   isExternal: true
-  name: SaintConfiguration
-  nameWithType: SaintConfiguration
-  fullName: SuperOffice.CRM.Services.SaintConfiguration
-- uid: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration*
-  commentId: Overload:SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration
-  isExternal: true
-  name: SaveSaintConfiguration
-  nameWithType: SaintAgent.SaveSaintConfiguration
-  fullName: SuperOffice.CRM.Services.SaintAgent.SaveSaintConfiguration
-- uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-  commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-  parent: SuperOffice.CRM.Services.ISaintAgent
-  isExternal: true
-  name: SaveSaintConfiguration(SaintConfiguration)
-  nameWithType: ISaintAgent.SaveSaintConfiguration(SaintConfiguration)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
+  name: SaintConfiguration[]
+  nameWithType: SaintConfiguration[]
+  fullName: SuperOffice.CRM.Services.SaintConfiguration[]
+  nameWithType.vb: SaintConfiguration()
+  fullName.vb: SuperOffice.CRM.Services.SaintConfiguration()
+  name.vb: SaintConfiguration()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-    name: SaveSaintConfiguration
-    nameWithType: ISaintAgent.SaveSaintConfiguration
-    fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.SaintConfiguration
     name: SaintConfiguration
     nameWithType: SaintConfiguration
     fullName: SuperOffice.CRM.Services.SaintConfiguration
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
-    name: SaveSaintConfiguration
-    nameWithType: ISaintAgent.SaveSaintConfiguration
-    fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - uid: SuperOffice.CRM.Services.SaintConfiguration
     name: SaintConfiguration
     nameWithType: SaintConfiguration
     fullName: SuperOffice.CRM.Services.SaintConfiguration
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.SaintAgent.GetStatusMonitors*
   commentId: Overload:SuperOffice.CRM.Services.SaintAgent.GetStatusMonitors
   isExternal: true
@@ -1426,6 +1188,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SaintAgent.GetStatusMonitor*
   commentId: Overload:SuperOffice.CRM.Services.SaintAgent.GetStatusMonitor
   isExternal: true
@@ -1763,69 +1531,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations*
-  commentId: Overload:SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
-  isExternal: true
-  name: GetSaintConfigurations
-  nameWithType: SaintAgent.GetSaintConfigurations
-  fullName: SuperOffice.CRM.Services.SaintAgent.GetSaintConfigurations
-- uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
-  commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
-  parent: SuperOffice.CRM.Services.ISaintAgent
-  isExternal: true
-  name: GetSaintConfigurations()
-  nameWithType: ISaintAgent.GetSaintConfigurations()
-  fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
-    name: GetSaintConfigurations
-    nameWithType: ISaintAgent.GetSaintConfigurations
-    fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
-    name: GetSaintConfigurations
-    nameWithType: ISaintAgent.GetSaintConfigurations
-    fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.SaintConfiguration[]
-  isExternal: true
-  name: SaintConfiguration[]
-  nameWithType: SaintConfiguration[]
-  fullName: SuperOffice.CRM.Services.SaintConfiguration[]
-  nameWithType.vb: SaintConfiguration()
-  fullName.vb: SuperOffice.CRM.Services.SaintConfiguration()
-  name.vb: SaintConfiguration()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.SaintConfiguration
-    name: SaintConfiguration
-    nameWithType: SaintConfiguration
-    fullName: SuperOffice.CRM.Services.SaintConfiguration
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.SaintConfiguration
-    name: SaintConfiguration
-    nameWithType: SaintConfiguration
-    fullName: SuperOffice.CRM.Services.SaintConfiguration
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.CRM.Services.SaintAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SaintAgent.#ctor
   isExternal: true

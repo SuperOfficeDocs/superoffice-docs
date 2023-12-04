@@ -1,0 +1,774 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  commentId: T:SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  id: WorkflowGoalRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.#ctor
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.GoalType
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.Registered
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.Updated
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowGoalId
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoalRecordData
+  nameWithType: WorkflowGoalRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the workflow_goal table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.WorkflowGoalRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.WorkflowGoalTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class WorkflowGoalRecordData : Object'
+    content.vb: >-
+      Public Class WorkflowGoalRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowGoalId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowGoalId
+  id: WorkflowGoalId
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoalId
+  nameWithType: WorkflowGoalRecordData.WorkflowGoalId
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowGoalId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int WorkflowGoalId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowGoalId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowGoalRecordData.WorkflowId
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe flow this goal belongs to \n"
+  syntax:
+    content: public int WorkflowId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.GoalType
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.GoalType
+  id: GoalType
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: GoalType
+  nameWithType: WorkflowGoalRecordData.GoalType
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.GoalType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA goal that will conclude the workflow \n"
+  syntax:
+    content: public WorkflowGoalType GoalType
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public GoalType As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: WorkflowGoalRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: WorkflowGoalRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: WorkflowGoalRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: WorkflowGoalRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: WorkflowGoalRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.WorkflowGoalRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoalRecordData()
+  nameWithType: WorkflowGoalRecordData.WorkflowGoalRecordData()
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowGoalRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public WorkflowGoalRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.WorkflowGoalRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowGoalRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowGoalRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowGoalRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowGoalRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData, To)()
+  name.vb: MapEnums(Of WorkflowGoalRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowGoalRecordData, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowGoalRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowGoalRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowGoalRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowGoalRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkflowGoalRecordData>(WorkflowGoalRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowGoalRecordData>(WorkflowGoalRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowGoalRecordData>(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowGoalRecordData)(WorkflowGoalRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData)(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  name.vb: AssignByReflection(Of WorkflowGoalRecordData)(WorkflowGoalRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowGoalRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowGoalRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowGoalRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    name: WorkflowGoalRecordData
+    nameWithType: WorkflowGoalRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowGoalRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowGoalRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    name: WorkflowGoalRecordData
+    nameWithType: WorkflowGoalRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkflowGoalRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowGoalRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowGoalRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowGoalRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData)()
+  name.vb: GraphCopy(Of WorkflowGoalRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowGoalRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowGoalRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowGoalRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowGoalRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowGoalRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  parent: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  name: ToInsert()
+  nameWithType: WorkflowGoalRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowGoalRecordData, To>()
+  nameWithType: Converters.MapEnums<WorkflowGoalRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowGoalRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowGoalRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData, To)()
+  name.vb: MapEnums(Of WorkflowGoalRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowGoalRecordData, To>
+    nameWithType: Converters.MapEnums<WorkflowGoalRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowGoalRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowGoalRecordData, To)
+    nameWithType: Converters.MapEnums(Of WorkflowGoalRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowGoalRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  isExternal: true
+  name: ToInsert(WorkflowGoalRecordData)
+  nameWithType: WorkflowGoalRecordDataExtensions.ToInsert(WorkflowGoalRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+    name: ToInsert
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    name: WorkflowGoalRecordData
+    nameWithType: WorkflowGoalRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowGoalRecordData)
+    name: ToInsert
+    nameWithType: WorkflowGoalRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    name: WorkflowGoalRecordData
+    nameWithType: WorkflowGoalRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowGoalRecordDataExtensions
+  nameWithType: WorkflowGoalRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.WorkflowGoalType
+  commentId: T:SuperOffice.Data.WorkflowGoalType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowGoalType
+  nameWithType: WorkflowGoalType
+  fullName: SuperOffice.Data.WorkflowGoalType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.WorkflowGoalRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowGoalRecordData.#ctor
+  isExternal: true
+  name: WorkflowGoalRecordData
+  nameWithType: WorkflowGoalRecordData.WorkflowGoalRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowGoalRecordData.WorkflowGoalRecordData

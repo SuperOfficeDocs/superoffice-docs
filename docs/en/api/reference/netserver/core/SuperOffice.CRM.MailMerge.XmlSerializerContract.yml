@@ -30,6 +30,7 @@ items:
     content: 'public class XmlSerializerContract : XmlSerializerImplementation'
     content.vb: >-
       Public Class XmlSerializerContract
+
           Inherits XmlSerializerImplementation
   inheritance:
   - System.Object
@@ -666,8 +667,6 @@ references:
   nameWithType: XmlSerializerContract.CanSerialize
   fullName: SuperOffice.CRM.MailMerge.XmlSerializerContract.CanSerialize
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
@@ -725,18 +724,10 @@ references:
   nameWithType: XmlSerializerContract.ReadMethods
   fullName: SuperOffice.CRM.MailMerge.XmlSerializerContract.ReadMethods
 - uid: System.Collections.Hashtable
-  commentId: T:System.Collections.Hashtable
-  parent: System.Collections
   isExternal: true
   name: Hashtable
   nameWithType: Hashtable
   fullName: System.Collections.Hashtable
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: SuperOffice.CRM.MailMerge.XmlSerializerContract.WriteMethods*
   commentId: Overload:SuperOffice.CRM.MailMerge.XmlSerializerContract.WriteMethods
   isExternal: true

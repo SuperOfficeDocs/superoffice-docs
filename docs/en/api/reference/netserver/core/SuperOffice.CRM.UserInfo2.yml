@@ -1,0 +1,771 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserInfo2
+  commentId: T:SuperOffice.CRM.UserInfo2
+  id: UserInfo2
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserInfo2.#ctor
+  - SuperOffice.CRM.UserInfo2.CustomFields
+  - SuperOffice.CRM.UserInfo2.UserName
+  langs:
+  - csharp
+  - vb
+  name: UserInfo2
+  nameWithType: UserInfo2
+  fullName: SuperOffice.CRM.UserInfo2
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nUser info extended with username and custom fields values\n"
+  syntax:
+    content: 'public class UserInfo2 : UserInfo, IUserInfo2, IUserInfo'
+    content.vb: >-
+      Public Class UserInfo2
+
+          Inherits UserInfo
+
+          Implements IUserInfo2, IUserInfo
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.UserInfo
+  implements:
+  - SuperOffice.CRM.IUserInfo2
+  - SuperOffice.CRM.IUserInfo
+  inheritedMembers:
+  - SuperOffice.CRM.UserInfo.AssociateId
+  - SuperOffice.CRM.UserInfo.AssociateName
+  - SuperOffice.CRM.UserInfo.FullName
+  - SuperOffice.CRM.UserInfo.Email
+  - SuperOffice.CRM.UserInfo.RoleId
+  - SuperOffice.CRM.UserInfo.RoleName
+  - SuperOffice.CRM.UserInfo.CountryId
+  - SuperOffice.CRM.UserInfo.CountryName
+  - SuperOffice.CRM.UserInfo.CountryDomainName
+  - SuperOffice.CRM.UserInfo.FunctionRights
+  - SuperOffice.CRM.UserInfo.Licenses
+  - SuperOffice.CRM.UserInfo.Ticket
+  extensionMethods:
+  - SuperOffice.CRM.UserInfo2.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.UserInfo2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.UserInfo2)
+  - SuperOffice.CRM.UserInfo2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.UserInfo2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.UserInfo2.#ctor
+  commentId: M:SuperOffice.CRM.UserInfo2.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.UserInfo2
+  langs:
+  - csharp
+  - vb
+  name: UserInfo2()
+  nameWithType: UserInfo2.UserInfo2()
+  fullName: SuperOffice.CRM.UserInfo2.UserInfo2()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public UserInfo2()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.UserInfo2.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.UserInfo2.UserName
+  commentId: P:SuperOffice.CRM.UserInfo2.UserName
+  id: UserName
+  parent: SuperOffice.CRM.UserInfo2
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: UserInfo2.UserName
+  fullName: SuperOffice.CRM.UserInfo2.UserName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSuperId user-name\n"
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: SuperOffice.CRM.UserInfo2.UserName*
+  implements:
+  - SuperOffice.CRM.IUserInfo2.UserName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.UserInfo2.CustomFields
+  commentId: P:SuperOffice.CRM.UserInfo2.CustomFields
+  id: CustomFields
+  parent: SuperOffice.CRM.UserInfo2
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: UserInfo2.CustomFields
+  fullName: SuperOffice.CRM.UserInfo2.CustomFields
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public Dictionary<string, string> CustomFields { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Property CustomFields As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.UserInfo2.CustomFields*
+  implements:
+  - SuperOffice.CRM.IUserInfo2.CustomFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.UserInfo
+  commentId: T:SuperOffice.CRM.UserInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: SuperOffice.CRM.UserInfo
+- uid: SuperOffice.CRM.IUserInfo2
+  commentId: T:SuperOffice.CRM.IUserInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IUserInfo2
+  nameWithType: IUserInfo2
+  fullName: SuperOffice.CRM.IUserInfo2
+- uid: SuperOffice.CRM.IUserInfo
+  commentId: T:SuperOffice.CRM.IUserInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IUserInfo
+  nameWithType: IUserInfo
+  fullName: SuperOffice.CRM.IUserInfo
+- uid: SuperOffice.CRM.UserInfo.AssociateId
+  commentId: P:SuperOffice.CRM.UserInfo.AssociateId
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: AssociateId
+  nameWithType: UserInfo.AssociateId
+  fullName: SuperOffice.CRM.UserInfo.AssociateId
+- uid: SuperOffice.CRM.UserInfo.AssociateName
+  commentId: P:SuperOffice.CRM.UserInfo.AssociateName
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: AssociateName
+  nameWithType: UserInfo.AssociateName
+  fullName: SuperOffice.CRM.UserInfo.AssociateName
+- uid: SuperOffice.CRM.UserInfo.FullName
+  commentId: P:SuperOffice.CRM.UserInfo.FullName
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: FullName
+  nameWithType: UserInfo.FullName
+  fullName: SuperOffice.CRM.UserInfo.FullName
+- uid: SuperOffice.CRM.UserInfo.Email
+  commentId: P:SuperOffice.CRM.UserInfo.Email
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: Email
+  nameWithType: UserInfo.Email
+  fullName: SuperOffice.CRM.UserInfo.Email
+- uid: SuperOffice.CRM.UserInfo.RoleId
+  commentId: P:SuperOffice.CRM.UserInfo.RoleId
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: RoleId
+  nameWithType: UserInfo.RoleId
+  fullName: SuperOffice.CRM.UserInfo.RoleId
+- uid: SuperOffice.CRM.UserInfo.RoleName
+  commentId: P:SuperOffice.CRM.UserInfo.RoleName
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: RoleName
+  nameWithType: UserInfo.RoleName
+  fullName: SuperOffice.CRM.UserInfo.RoleName
+- uid: SuperOffice.CRM.UserInfo.CountryId
+  commentId: P:SuperOffice.CRM.UserInfo.CountryId
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: CountryId
+  nameWithType: UserInfo.CountryId
+  fullName: SuperOffice.CRM.UserInfo.CountryId
+- uid: SuperOffice.CRM.UserInfo.CountryName
+  commentId: P:SuperOffice.CRM.UserInfo.CountryName
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: CountryName
+  nameWithType: UserInfo.CountryName
+  fullName: SuperOffice.CRM.UserInfo.CountryName
+- uid: SuperOffice.CRM.UserInfo.CountryDomainName
+  commentId: P:SuperOffice.CRM.UserInfo.CountryDomainName
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: CountryDomainName
+  nameWithType: UserInfo.CountryDomainName
+  fullName: SuperOffice.CRM.UserInfo.CountryDomainName
+- uid: SuperOffice.CRM.UserInfo.FunctionRights
+  commentId: P:SuperOffice.CRM.UserInfo.FunctionRights
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: FunctionRights
+  nameWithType: UserInfo.FunctionRights
+  fullName: SuperOffice.CRM.UserInfo.FunctionRights
+- uid: SuperOffice.CRM.UserInfo.Licenses
+  commentId: P:SuperOffice.CRM.UserInfo.Licenses
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: Licenses
+  nameWithType: UserInfo.Licenses
+  fullName: SuperOffice.CRM.UserInfo.Licenses
+- uid: SuperOffice.CRM.UserInfo.Ticket
+  commentId: P:SuperOffice.CRM.UserInfo.Ticket
+  parent: SuperOffice.CRM.UserInfo
+  isExternal: true
+  name: Ticket
+  nameWithType: UserInfo.Ticket
+  fullName: SuperOffice.CRM.UserInfo.Ticket
+- uid: SuperOffice.CRM.UserInfo2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UserInfo2, To>()
+  nameWithType: EnumUtil.MapEnums<UserInfo2, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.UserInfo2, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UserInfo2, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.UserInfo2, To)()
+  name.vb: MapEnums(Of UserInfo2, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UserInfo2, To>
+    nameWithType: EnumUtil.MapEnums<UserInfo2, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.UserInfo2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UserInfo2, To)
+    nameWithType: EnumUtil.MapEnums(Of UserInfo2, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.UserInfo2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.UserInfo2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.UserInfo2)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<UserInfo2>(UserInfo2)
+  nameWithType: ObjectExtensions.AssignByReflection<UserInfo2>(UserInfo2)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.UserInfo2>(SuperOffice.CRM.UserInfo2)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UserInfo2)(UserInfo2)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.UserInfo2)(SuperOffice.CRM.UserInfo2)
+  name.vb: AssignByReflection(Of UserInfo2)(UserInfo2)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UserInfo2>
+    nameWithType: ObjectExtensions.AssignByReflection<UserInfo2>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.UserInfo2>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.UserInfo2
+    name: UserInfo2
+    nameWithType: UserInfo2
+    fullName: SuperOffice.CRM.UserInfo2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UserInfo2)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UserInfo2)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.UserInfo2)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.UserInfo2
+    name: UserInfo2
+    nameWithType: UserInfo2
+    fullName: SuperOffice.CRM.UserInfo2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.UserInfo2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<UserInfo2>()
+  nameWithType: ObjectExtensions.GraphCopy<UserInfo2>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.UserInfo2>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UserInfo2)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.UserInfo2)()
+  name.vb: GraphCopy(Of UserInfo2)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UserInfo2>
+    nameWithType: ObjectExtensions.GraphCopy<UserInfo2>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.UserInfo2>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UserInfo2)
+    nameWithType: ObjectExtensions.GraphCopy(Of UserInfo2)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.UserInfo2)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.UserInfo2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UserInfo2, To>()
+  nameWithType: Converters.MapEnums<UserInfo2, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.UserInfo2, To>()
+  nameWithType.vb: Converters.MapEnums(Of UserInfo2, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.UserInfo2, To)()
+  name.vb: MapEnums(Of UserInfo2, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UserInfo2, To>
+    nameWithType: Converters.MapEnums<UserInfo2, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.UserInfo2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UserInfo2, To)
+    nameWithType: Converters.MapEnums(Of UserInfo2, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.UserInfo2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.UserInfo2.#ctor*
+  commentId: Overload:SuperOffice.CRM.UserInfo2.#ctor
+  isExternal: true
+  name: UserInfo2
+  nameWithType: UserInfo2.UserInfo2
+  fullName: SuperOffice.CRM.UserInfo2.UserInfo2
+- uid: SuperOffice.CRM.UserInfo2.UserName*
+  commentId: Overload:SuperOffice.CRM.UserInfo2.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: UserInfo2.UserName
+  fullName: SuperOffice.CRM.UserInfo2.UserName
+- uid: SuperOffice.CRM.IUserInfo2.UserName
+  commentId: P:SuperOffice.CRM.IUserInfo2.UserName
+  parent: SuperOffice.CRM.IUserInfo2
+  isExternal: true
+  name: UserName
+  nameWithType: IUserInfo2.UserName
+  fullName: SuperOffice.CRM.IUserInfo2.UserName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.UserInfo2.CustomFields*
+  commentId: Overload:SuperOffice.CRM.UserInfo2.CustomFields
+  isExternal: true
+  name: CustomFields
+  nameWithType: UserInfo2.CustomFields
+  fullName: SuperOffice.CRM.UserInfo2.CustomFields
+- uid: SuperOffice.CRM.IUserInfo2.CustomFields
+  commentId: P:SuperOffice.CRM.IUserInfo2.CustomFields
+  parent: SuperOffice.CRM.IUserInfo2
+  isExternal: true
+  name: CustomFields
+  nameWithType: IUserInfo2.CustomFields
+  fullName: SuperOffice.CRM.IUserInfo2.CustomFields
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

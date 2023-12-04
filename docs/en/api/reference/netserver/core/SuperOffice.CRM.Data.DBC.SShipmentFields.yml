@@ -9,8 +9,12 @@ items:
   - SuperOffice.CRM.Data.DBC.SShipmentFields.ActualCount
   - SuperOffice.CRM.Data.DBC.SShipmentFields.ActualRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.ActualTime
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.AreStatisticsDirty
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.ClickNum
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.ClickRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Configuration
   - SuperOffice.CRM.Data.DBC.SShipmentFields.CurrentSender
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.DeliveredNum
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Description
   - SuperOffice.CRM.Data.DBC.SShipmentFields.EndDate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.EnvelopeFrom
@@ -18,7 +22,11 @@ items:
   - SuperOffice.CRM.Data.DBC.SShipmentFields.FolderId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.FromAddr
   - SuperOffice.CRM.Data.DBC.SShipmentFields.GeneratedDocumentId
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceNum
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.MessageId
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.OpenNum
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.OpenRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.ProjectId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Recipients
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Registered
@@ -26,15 +34,20 @@ items:
   - SuperOffice.CRM.Data.DBC.SShipmentFields.ReplyAddr
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SelectionId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SendRate
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
   - SuperOffice.CRM.Data.DBC.SShipmentFields.ShipmenttypeId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpPort
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpServ
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Sorting
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SShipmentId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.StartDate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Status
   - SuperOffice.CRM.Data.DBC.SShipmentFields.TicketCategory
   - SuperOffice.CRM.Data.DBC.SShipmentFields.TicketOwner
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceNum
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Updated
   - SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedCount
@@ -53,18 +66,13 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nFields for SShipment, Contains info about one shipment. The addresses are stored in s_shipment_addr\n"
   syntax:
-    content: public static class SShipmentFields
-    content.vb: Public Module SShipmentFields
+    content: 'public static class SShipmentFields : Object'
+    content.vb: >-
+      Public Module SShipmentFields
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -1000,6 +1008,383 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.DeliveredNum
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.DeliveredNum
+  id: DeliveredNum
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: DeliveredNum
+  nameWithType: DBC.SShipmentFields.DeliveredNum
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.DeliveredNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.DeliveredNum: Number of mails sent minus bounces\n"
+  syntax:
+    content: public const string DeliveredNum = "delivered_num"
+    return:
+      type: System.String
+    content.vb: Public Const DeliveredNum As String = "delivered_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenNum
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.OpenNum
+  id: OpenNum
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: OpenNum
+  nameWithType: DBC.SShipmentFields.OpenNum
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.OpenNum: Number of opened emails count\n"
+  syntax:
+    content: public const string OpenNum = "open_num"
+    return:
+      type: System.String
+    content.vb: Public Const OpenNum As String = "open_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenRate
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.OpenRate
+  id: OpenRate
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: OpenRate
+  nameWithType: DBC.SShipmentFields.OpenRate
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.OpenRate: Open rate % (open_num / delivered_num)\n"
+  syntax:
+    content: public const string OpenRate = "open_rate"
+    return:
+      type: System.String
+    content.vb: Public Const OpenRate As String = "open_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickNum
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ClickNum
+  id: ClickNum
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: ClickNum
+  nameWithType: DBC.SShipmentFields.ClickNum
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.ClickNum: Number of links clicked\n"
+  syntax:
+    content: public const string ClickNum = "click_num"
+    return:
+      type: System.String
+    content.vb: Public Const ClickNum As String = "click_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickRate
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ClickRate
+  id: ClickRate
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: ClickRate
+  nameWithType: DBC.SShipmentFields.ClickRate
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.ClickRate: Click rate % (click_num / delivered_num)\n"
+  syntax:
+    content: public const string ClickRate = "click_rate"
+    return:
+      type: System.String
+    content.vb: Public Const ClickRate As String = "click_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceNum
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceNum
+  id: HardbounceNum
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: HardbounceNum
+  nameWithType: DBC.SShipmentFields.HardbounceNum
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.HardbounceNum: Number of hard bounces\n"
+  syntax:
+    content: public const string HardbounceNum = "hardbounce_num"
+    return:
+      type: System.String
+    content.vb: Public Const HardbounceNum As String = "hardbounce_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceRate
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceRate
+  id: HardbounceRate
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: HardbounceRate
+  nameWithType: DBC.SShipmentFields.HardbounceRate
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.HardbounceRate: Hard bounce rate % (hardbounce_num / number_transmitted)\n"
+  syntax:
+    content: public const string HardbounceRate = "hardbounce_rate"
+    return:
+      type: System.String
+    content.vb: Public Const HardbounceRate As String = "hardbounce_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
+  id: SoftbounceNum
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceNum
+  nameWithType: DBC.SShipmentFields.SoftbounceNum
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.SoftbounceNum: Number of soft bounces\n"
+  syntax:
+    content: public const string SoftbounceNum = "softbounce_num"
+    return:
+      type: System.String
+    content.vb: Public Const SoftbounceNum As String = "softbounce_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
+  id: SoftbounceRate
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceRate
+  nameWithType: DBC.SShipmentFields.SoftbounceRate
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.SoftbounceRate: Soft bounce rate % (softbounce_num / number_transmitted)\n"
+  syntax:
+    content: public const string SoftbounceRate = "softbounce_rate"
+    return:
+      type: System.String
+    content.vb: Public Const SoftbounceRate As String = "softbounce_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceNum
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceNum
+  id: TotalbounceNum
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceNum
+  nameWithType: DBC.SShipmentFields.TotalbounceNum
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.TotalbounceNum: Total number of bounces\n"
+  syntax:
+    content: public const string TotalbounceNum = "totalbounce_num"
+    return:
+      type: System.String
+    content.vb: Public Const TotalbounceNum As String = "totalbounce_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceRate
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceRate
+  id: TotalbounceRate
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceRate
+  nameWithType: DBC.SShipmentFields.TotalbounceRate
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.TotalbounceRate: Total bounce rate % (totalbounce_num / number_transmitted)\n"
+  syntax:
+    content: public const string TotalbounceRate = "totalbounce_rate"
+    return:
+      type: System.String
+    content.vb: Public Const TotalbounceRate As String = "totalbounce_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.AreStatisticsDirty
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.AreStatisticsDirty
+  id: AreStatisticsDirty
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: AreStatisticsDirty
+  nameWithType: DBC.SShipmentFields.AreStatisticsDirty
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.AreStatisticsDirty
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.AreStatisticsDirty: Indicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens\n"
+  syntax:
+    content: public const string AreStatisticsDirty = "are_statistics_dirty"
+    return:
+      type: System.String
+    content.vb: Public Const AreStatisticsDirty As String = "are_statistics_dirty"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
+  commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
+  id: SentNum
+  parent: SuperOffice.CRM.Data.DBC.SShipmentFields
+  langs:
+  - csharp
+  - vb
+  name: SentNum
+  nameWithType: DBC.SShipmentFields.SentNum
+  fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSShipment.SentNum: Number of mails sent\n"
+  syntax:
+    content: public const string SentNum = "sent_num"
+    return:
+      type: System.String
+    content.vb: Public Const SentNum As String = "sent_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ShipmenttypeId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ShipmenttypeId
   id: ShipmenttypeId
@@ -1043,285 +1428,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

@@ -34,6 +34,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.CheckMark
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Conflict
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Contact
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.ContextMenu
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomList
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document_MailMerge
@@ -50,6 +51,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Read
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Replied
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Status_Heading
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Folder_Grey
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Heading
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Mailings
@@ -59,6 +61,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Paperclip
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Heading
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Relation
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Undefined
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Phone
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceArchives
@@ -68,6 +71,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceEmail
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFilter
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFunction
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceInapp
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceList
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotification
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationEmail
@@ -78,6 +82,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceReplication
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRequest
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSale
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSalesNotification
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSearch
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSorting
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSystem
@@ -106,6 +111,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_SourceTarget
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Report
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Conflict
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Group
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Contact
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Person
@@ -147,18 +153,13 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nIcon hints for archive columns. Cells that have type icon will contain one of these hints, and the GUI should translate\nthat to the proper graphic (which will generally have the same name)\n"
   syntax:
-    content: public static class IconHints
-    content.vb: Public Module IconHints
+    content: 'public static class IconHints : Object'
+    content.vb: >-
+      Public Module IconHints
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -412,6 +413,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const Relation As String = "Relation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Relation
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Relation
+  id: Person_Relation
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Person_Relation
+  nameWithType: Constants.IconHints.Person_Relation
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Relation
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Person_Relation = "Person_Relation"
+    return:
+      type: System.String
+    content.vb: Public Const Person_Relation As String = "Person_Relation"
   modifiers.csharp:
   - public
   - const
@@ -1286,6 +1315,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Folder_Grey
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Folder_Grey
+  id: Folder_Grey
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Folder_Grey
+  nameWithType: Constants.IconHints.Folder_Grey
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Folder_Grey
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Folder_Grey = "Folder_Grey"
+    return:
+      type: System.String
+    content.vb: Public Const Folder_Grey As String = "Folder_Grey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_High
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_High
   id: Email_Importance_High
@@ -2008,6 +2065,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const Resource_Group As String = "Resource_Heading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Conflict
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Conflict
+  id: Resource_Conflict
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Resource_Conflict
+  nameWithType: Constants.IconHints.Resource_Conflict
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Conflict
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Resource_Conflict = "resource_conflict"
+    return:
+      type: System.String
+    content.vb: Public Const Resource_Conflict As String = "resource_conflict"
   modifiers.csharp:
   - public
   - const
@@ -3022,6 +3107,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.ContextMenu
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.ContextMenu
+  id: ContextMenu
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: ContextMenu
+  nameWithType: Constants.IconHints.ContextMenu
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.ContextMenu
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ContextMenu = "contextmenu_theme"
+    return:
+      type: System.String
+    content.vb: Public Const ContextMenu As String = "contextmenu_theme"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDefaultValues
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDefaultValues
   id: PreferenceDefaultValues
@@ -3666,6 +3779,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSalesNotification
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSalesNotification
+  id: PreferenceSalesNotification
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceSalesNotification
+  nameWithType: Constants.IconHints.PreferenceSalesNotification
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSalesNotification
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceSalesNotification = "Preference_salesNotification"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceSalesNotification As String = "Preference_salesNotification"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceArchives
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceArchives
   id: PreferenceArchives
@@ -3722,6 +3863,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceInapp
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceInapp
+  id: PreferenceInapp
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceInapp
+  nameWithType: Constants.IconHints.PreferenceInapp
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceInapp
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceInapp = "Preference_Inapp"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceInapp As String = "Preference_Inapp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
@@ -3736,285 +3905,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

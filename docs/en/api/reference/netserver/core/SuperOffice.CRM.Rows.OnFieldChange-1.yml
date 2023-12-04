@@ -15,7 +15,7 @@ items:
   name: OnFieldChange<TValue>
   nameWithType: OnFieldChange<TValue>
   fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,29 +24,27 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\n\n"
   syntax:
-    content: public delegate void OnFieldChange<TValue>(TableRowBase fieldOwner, TValue persistedValue, TValue currentValue, TValue newValue);
-    parameters:
-    - id: fieldOwner
-      type: SuperOffice.CRM.Rows.TableRowBase
-    - id: persistedValue
-      type: '{TValue}'
-    - id: currentValue
-      type: '{TValue}'
-    - id: newValue
-      type: '{TValue}'
+    content: 'public sealed class OnFieldChange<TValue> : MulticastDelegate'
     typeParameters:
     - id: TValue
-    content.vb: Public Delegate Sub OnFieldChange(Of TValue)(fieldOwner As TableRowBase, persistedValue As TValue, currentValue As TValue, newValue As TValue)
+    content.vb: >-
+      Public NotInheritable Class OnFieldChange(Of TValue)
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Rows.OnFieldChange`1.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.OnFieldChange`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: OnFieldChange(Of TValue)
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
   name.vb: OnFieldChange(Of TValue)
 - uid: SuperOffice.CRM.Rows.OnFieldChange`1.#ctor(System.Object,System.IntPtr)
@@ -202,6 +200,13 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.OnFieldChange`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -270,19 +275,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowBase
-  commentId: T:SuperOffice.CRM.Rows.TableRowBase
-  parent: SuperOffice.CRM.Rows
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: TableRowBase
-  nameWithType: TableRowBase
-  fullName: SuperOffice.CRM.Rows.TableRowBase
-- uid: '{TValue}'
-  commentId: '!:TValue'
-  definition: TValue
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -374,10 +372,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: TValue
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -392,13 +386,6 @@ references:
   fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.OnFieldChange
   nameWithType.vb: OnFieldChange(Of TValue).OnFieldChange
   fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).OnFieldChange
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -406,12 +393,6 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Rows.OnFieldChange`1.Invoke*
   commentId: Overload:SuperOffice.CRM.Rows.OnFieldChange`1.Invoke
   isExternal: true
@@ -420,6 +401,23 @@ references:
   fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>.Invoke
   nameWithType.vb: OnFieldChange(Of TValue).Invoke
   fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).Invoke
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
 - uid: SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Rows.OnFieldChange`1.BeginInvoke
   isExternal: true
@@ -429,15 +427,11 @@ references:
   nameWithType.vb: OnFieldChange(Of TValue).BeginInvoke
   fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue).BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

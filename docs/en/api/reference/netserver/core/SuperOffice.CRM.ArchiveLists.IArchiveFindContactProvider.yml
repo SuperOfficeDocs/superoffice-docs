@@ -23,6 +23,7 @@ items:
     content: 'public interface IArchiveFindContactProvider : IArchiveFindProviderBase<ArchiveFindContactRow>, IArchiveTypedProvider<ArchiveFindContactRow>, IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
     content.vb: >-
       Public Interface IArchiveFindContactProvider
+
           Inherits IArchiveFindProviderBase(Of ArchiveFindContactRow), IArchiveTypedProvider(Of ArchiveFindContactRow), IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveFindContactRow}.FetchAndSetCriteria(System.Int32)

@@ -1,0 +1,768 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  commentId: T:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  id: ConfigurableScreenAppliesToRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.#ctor
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.AppliesToKey
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToId
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RecipeId
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Registered
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Updated
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenAppliesToRecordData
+  nameWithType: ConfigurableScreenAppliesToRecordData
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ConfigurableScreenAppliesTo table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class ConfigurableScreenAppliesToRecordData : Object'
+    content.vb: >-
+      Public Class ConfigurableScreenAppliesToRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToId
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToId
+  id: ConfigurableScreenAppliesToId
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenAppliesToId
+  nameWithType: ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToId
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int ConfigurableScreenAppliesToId
+    return:
+      type: System.Int32
+    content.vb: Public ConfigurableScreenAppliesToId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RecipeId
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RecipeId
+  id: RecipeId
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: RecipeId
+  nameWithType: ConfigurableScreenAppliesToRecordData.RecipeId
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RecipeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe recipe in scil that might be modified \n"
+  syntax:
+    content: public string RecipeId
+    return:
+      type: System.String
+    content.vb: Public RecipeId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.AppliesToKey
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.AppliesToKey
+  id: AppliesToKey
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: AppliesToKey
+  nameWithType: ConfigurableScreenAppliesToRecordData.AppliesToKey
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.AppliesToKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhich data will be used to differ on layouts for this recipe \n"
+  syntax:
+    content: public string AppliesToKey
+    return:
+      type: System.String
+    content.vb: Public AppliesToKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ConfigurableScreenAppliesToRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ConfigurableScreenAppliesToRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ConfigurableScreenAppliesToRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ConfigurableScreenAppliesToRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ConfigurableScreenAppliesToRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenAppliesToRecordData()
+  nameWithType: ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToRecordData()
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ConfigurableScreenAppliesToRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConfigurableScreenAppliesToRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ConfigurableScreenAppliesToRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConfigurableScreenAppliesToRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To)()
+  name.vb: MapEnums(Of ConfigurableScreenAppliesToRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConfigurableScreenAppliesToRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ConfigurableScreenAppliesToRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConfigurableScreenAppliesToRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ConfigurableScreenAppliesToRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ConfigurableScreenAppliesToRecordData>(ConfigurableScreenAppliesToRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ConfigurableScreenAppliesToRecordData>(ConfigurableScreenAppliesToRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ConfigurableScreenAppliesToRecordData)(ConfigurableScreenAppliesToRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  name.vb: AssignByReflection(Of ConfigurableScreenAppliesToRecordData)(ConfigurableScreenAppliesToRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ConfigurableScreenAppliesToRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ConfigurableScreenAppliesToRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ConfigurableScreenAppliesToRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ConfigurableScreenAppliesToRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ConfigurableScreenAppliesToRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ConfigurableScreenAppliesToRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ConfigurableScreenAppliesToRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)()
+  name.vb: GraphCopy(Of ConfigurableScreenAppliesToRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ConfigurableScreenAppliesToRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ConfigurableScreenAppliesToRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ConfigurableScreenAppliesToRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ConfigurableScreenAppliesToRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  parent: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  name: ToInsert()
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConfigurableScreenAppliesToRecordData, To>()
+  nameWithType: Converters.MapEnums<ConfigurableScreenAppliesToRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConfigurableScreenAppliesToRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To)()
+  name.vb: MapEnums(Of ConfigurableScreenAppliesToRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConfigurableScreenAppliesToRecordData, To>
+    nameWithType: Converters.MapEnums<ConfigurableScreenAppliesToRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConfigurableScreenAppliesToRecordData, To)
+    nameWithType: Converters.MapEnums(Of ConfigurableScreenAppliesToRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  isExternal: true
+  name: ToInsert(ConfigurableScreenAppliesToRecordData)
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(ConfigurableScreenAppliesToRecordData)
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+    name: ToInsert
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
+    name: ToInsert
+    nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ConfigurableScreenAppliesToRecordDataExtensions
+  nameWithType: ConfigurableScreenAppliesToRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.#ctor
+  isExternal: true
+  name: ConfigurableScreenAppliesToRecordData
+  nameWithType: ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToRecordData
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.ConfigurableScreenAppliesToRecordData

@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  id: DBC.TaskMenuHeadingLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.HeadingId
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Registered
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuHeadingLinkId
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuId
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Updated
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TaskMenuHeadingLinkFields
+  nameWithType: DBC.TaskMenuHeadingLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TaskMenuHeadingLink, Heading link table for TaskMenu, for MDO headers\n"
+  syntax:
+    content: 'public static class TaskMenuHeadingLinkFields : Object'
+    content.vb: >-
+      Public Module TaskMenuHeadingLinkFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuHeadingLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuHeadingLinkId
+  id: TaskMenuHeadingLinkId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuHeadingLinkId
+  nameWithType: DBC.TaskMenuHeadingLinkFields.TaskMenuHeadingLinkId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuHeadingLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.TaskMenuHeadingLinkId: Primary key\n"
+  syntax:
+    content: public const string TaskMenuHeadingLinkId = "taskmenuheadinglink_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenuHeadingLinkId As String = "taskmenuheadinglink_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuId
+  id: TaskMenuId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuId
+  nameWithType: DBC.TaskMenuHeadingLinkFields.TaskMenuId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.TaskMenuId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.TaskMenuId: Link to TaskMenu list table\n"
+  syntax:
+    content: public const string TaskMenuId = "taskMenu_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenuId As String = "taskMenu_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.HeadingId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.HeadingId
+  id: HeadingId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: HeadingId
+  nameWithType: DBC.TaskMenuHeadingLinkFields.HeadingId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.HeadingId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.HeadingId: Link to Heading table\n"
+  syntax:
+    content: public const string HeadingId = "heading_id"
+    return:
+      type: System.String
+    content.vb: Public Const HeadingId As String = "heading_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TaskMenuHeadingLinkFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TaskMenuHeadingLinkFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TaskMenuHeadingLinkFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TaskMenuHeadingLinkFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TaskMenuHeadingLinkFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLinkFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

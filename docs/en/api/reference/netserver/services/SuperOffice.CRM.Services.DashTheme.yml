@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Services.DashTheme.DashboardThemeId
   - SuperOffice.CRM.Services.DashTheme.Name
   - SuperOffice.CRM.Services.DashTheme.Rank
+  - SuperOffice.CRM.Services.DashTheme.Style
   - SuperOffice.CRM.Services.DashTheme.ToString
   - SuperOffice.CRM.Services.DashTheme.ToString(System.String)
   langs:
@@ -303,6 +304,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.DashTheme.Style
+  commentId: P:SuperOffice.CRM.Services.DashTheme.Style
+  id: Style
+  parent: SuperOffice.CRM.Services.DashTheme
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: DashTheme.Style
+  fullName: SuperOffice.CRM.Services.DashTheme.Style
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStyle value - for example &apos;light&apos; or &apos;dark&apos; \n"
+  syntax:
+    content: public virtual string Style { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Style As String
+  overload: SuperOffice.CRM.Services.DashTheme.Style*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -310,13 +344,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.DashAgent
   commentId: T:SuperOffice.CRM.Services.DashAgent
   isExternal: true
@@ -330,12 +357,6 @@ references:
   name: IDashAgent
   nameWithType: IDashAgent
   fullName: SuperOffice.CRM.Services.IDashAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.DashTheme.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DashTheme.#ctor
   isExternal: true
@@ -355,6 +376,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DashTheme.DashboardThemeId*
   commentId: Overload:SuperOffice.CRM.Services.DashTheme.DashboardThemeId
   isExternal: true
@@ -399,3 +426,9 @@ references:
   name: Client
   nameWithType: DashTheme.Client
   fullName: SuperOffice.CRM.Services.DashTheme.Client
+- uid: SuperOffice.CRM.Services.DashTheme.Style*
+  commentId: Overload:SuperOffice.CRM.Services.DashTheme.Style
+  isExternal: true
+  name: Style
+  nameWithType: DashTheme.Style
+  fullName: SuperOffice.CRM.Services.DashTheme.Style

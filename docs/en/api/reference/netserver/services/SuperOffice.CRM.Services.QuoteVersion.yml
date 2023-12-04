@@ -38,6 +38,8 @@ items:
   - SuperOffice.CRM.Services.QuoteVersion.Reason
   - SuperOffice.CRM.Services.QuoteVersion.Registered
   - SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId
+  - SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
+  - SuperOffice.CRM.Services.QuoteVersion.RequestComment
   - SuperOffice.CRM.Services.QuoteVersion.SentDate
   - SuperOffice.CRM.Services.QuoteVersion.State
   - SuperOffice.CRM.Services.QuoteVersion.Status
@@ -72,6 +74,8 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.QuoteVersion.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
   modifiers.csharp:
   - public
   - class
@@ -521,7 +525,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SentDate As Date
+    content.vb: Public Overridable Property SentDate As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.SentDate*
   modifiers.csharp:
   - public
@@ -587,7 +591,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ExpirationDate As Date
+    content.vb: Public Overridable Property ExpirationDate As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.ExpirationDate*
   modifiers.csharp:
   - public
@@ -1016,7 +1020,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ApprovedRegisteredDate As Date
+    content.vb: Public Overridable Property ApprovedRegisteredDate As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate*
   modifiers.csharp:
   - public
@@ -1214,7 +1218,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastRecalculated As Date
+    content.vb: Public Overridable Property LastRecalculated As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.LastRecalculated*
   modifiers.csharp:
   - public
@@ -1247,7 +1251,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.Updated*
   modifiers.csharp:
   - public
@@ -1313,7 +1317,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.Registered*
   modifiers.csharp:
   - public
@@ -1348,6 +1352,72 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
+  commentId: P:SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
+  id: RequestAssociateId
+  parent: SuperOffice.CRM.Services.QuoteVersion
+  langs:
+  - csharp
+  - vb
+  name: RequestAssociateId
+  nameWithType: QuoteVersion.RequestAssociateId
+  fullName: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUser to whom the request proposal should be delivered \n"
+  syntax:
+    content: public virtual int RequestAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RequestAssociateId As Integer
+  overload: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteVersion.RequestComment
+  commentId: P:SuperOffice.CRM.Services.QuoteVersion.RequestComment
+  id: RequestComment
+  parent: SuperOffice.CRM.Services.QuoteVersion
+  langs:
+  - csharp
+  - vb
+  name: RequestComment
+  nameWithType: QuoteVersion.RequestComment
+  fullName: SuperOffice.CRM.Services.QuoteVersion.RequestComment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nComment for why quote should be approved \n"
+  syntax:
+    content: public virtual string RequestComment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RequestComment As String
+  overload: SuperOffice.CRM.Services.QuoteVersion.RequestComment*
   modifiers.csharp:
   - public
   - virtual
@@ -1396,13 +1466,37 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteVersion.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
+  parent: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  definition: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
+  name: GetQuoteVersion()
+  nameWithType: QuoteConverter.GetQuoteVersion()
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
+    name: GetQuoteVersion
+    nameWithType: QuoteConverter.GetQuoteVersion
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
+    name: GetQuoteVersion
+    nameWithType: QuoteConverter.GetQuoteVersion
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -1416,12 +1510,59 @@ references:
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: GetQuoteVersion(QuoteVersion)
+  nameWithType: QuoteConverter.GetQuoteVersion(QuoteVersion)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
+    name: GetQuoteVersion
+    nameWithType: QuoteConverter.GetQuoteVersion
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.QuoteVersion
+    name: QuoteVersion
+    nameWithType: QuoteVersion
+    fullName: SuperOffice.CRM.Services.QuoteVersion
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
+    name: GetQuoteVersion
+    nameWithType: QuoteConverter.GetQuoteVersion
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.QuoteVersion
+    name: QuoteVersion
+    nameWithType: QuoteVersion
+    fullName: SuperOffice.CRM.Services.QuoteVersion
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  parent: SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: QuoteConverter
+  nameWithType: QuoteConverter
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+- uid: SuperOffice.CRM.Services.Implementation.BL
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation.BL
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL
+  fullName: SuperOffice.CRM.Services.Implementation.BL
 - uid: SuperOffice.CRM.Services.QuoteVersion.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.#ctor
   isExternal: true
@@ -1441,6 +1582,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId
   isExternal: true
@@ -1525,8 +1672,6 @@ references:
   nameWithType: QuoteVersion.SentDate
   fullName: SuperOffice.CRM.Services.QuoteVersion.SentDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1688,6 +1833,18 @@ references:
   name: RegisteredAssociateId
   nameWithType: QuoteVersion.RegisteredAssociateId
   fullName: SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId
+- uid: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
+  isExternal: true
+  name: RequestAssociateId
+  nameWithType: QuoteVersion.RequestAssociateId
+  fullName: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
+- uid: SuperOffice.CRM.Services.QuoteVersion.RequestComment*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.RequestComment
+  isExternal: true
+  name: RequestComment
+  nameWithType: QuoteVersion.RequestComment
+  fullName: SuperOffice.CRM.Services.QuoteVersion.RequestComment
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives
   isExternal: true

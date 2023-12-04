@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentityHelper
+  id: ClaimsIdentityHelper
+  parent: SuperOffice.Security.Claims
+  children:
+  - SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken(System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity(System.String,System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity(System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType(System.String)
+  - SuperOffice.Security.Claims.ClaimsIdentityHelper.SupportedTokens
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentityHelper
+  nameWithType: ClaimsIdentityHelper
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: 'public static class ClaimsIdentityHelper : Object'
+    content.vb: >-
+      Public Module ClaimsIdentityHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.SupportedTokens
+  commentId: F:SuperOffice.Security.Claims.ClaimsIdentityHelper.SupportedTokens
+  id: SupportedTokens
+  parent: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  langs:
+  - csharp
+  - vb
+  name: SupportedTokens
+  nameWithType: ClaimsIdentityHelper.SupportedTokens
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.SupportedTokens
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static readonly SoTokenType[] SupportedTokens
+    return:
+      type: SuperOffice.Security.Claims.SoTokenType[]
+    content.vb: Public Shared ReadOnly SupportedTokens As SoTokenType()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType(System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType(System.String)
+  id: DetectTokenType(System.String)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  langs:
+  - csharp
+  - vb
+  name: DetectTokenType(String)
+  nameWithType: ClaimsIdentityHelper.DetectTokenType(String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static SoTokenType DetectTokenType(string token)
+    parameters:
+    - id: token
+      type: System.String
+    return:
+      type: SuperOffice.Security.Claims.SoTokenType
+    content.vb: Public Shared Function DetectTokenType(token As String) As SoTokenType
+  overload: SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken(System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken(System.String)
+  id: CanCreateIdentityFromToken(System.String)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  langs:
+  - csharp
+  - vb
+  name: CanCreateIdentityFromToken(String)
+  nameWithType: ClaimsIdentityHelper.CanCreateIdentityFromToken(String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static bool CanCreateIdentityFromToken(string token)
+    parameters:
+    - id: token
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanCreateIdentityFromToken(token As String) As Boolean
+  overload: SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity(System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity(System.String)
+  id: CreateTokenIdentity(System.String)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateTokenIdentity(String)
+  nameWithType: ClaimsIdentityHelper.CreateTokenIdentity(String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static ClaimsIdentity CreateTokenIdentity(string token)
+    parameters:
+    - id: token
+      type: System.String
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Shared Function CreateTokenIdentity(token As String) As ClaimsIdentity
+  overload: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity(System.String,System.String)
+  commentId: M:SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity(System.String,System.String)
+  id: CreatePasswordIdentity(System.String,System.String)
+  parent: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  langs:
+  - csharp
+  - vb
+  name: CreatePasswordIdentity(String, String)
+  nameWithType: ClaimsIdentityHelper.CreatePasswordIdentity(String, String)
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity(System.String, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Claims
+  syntax:
+    content: public static ClaimsIdentity CreatePasswordIdentity(string userName, string password)
+    parameters:
+    - id: userName
+      type: System.String
+    - id: password
+      type: System.String
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Shared Function CreatePasswordIdentity(userName As String, password As String) As ClaimsIdentity
+  overload: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Security.Claims
+  commentId: N:SuperOffice.Security.Claims
+  isExternal: true
+  name: SuperOffice.Security.Claims
+  nameWithType: SuperOffice.Security.Claims
+  fullName: SuperOffice.Security.Claims
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Claims.SoTokenType[]
+  isExternal: true
+  name: SoTokenType[]
+  nameWithType: SoTokenType[]
+  fullName: SuperOffice.Security.Claims.SoTokenType[]
+  nameWithType.vb: SoTokenType()
+  fullName.vb: SuperOffice.Security.Claims.SoTokenType()
+  name.vb: SoTokenType()
+  spec.csharp:
+  - uid: SuperOffice.Security.Claims.SoTokenType
+    name: SoTokenType
+    nameWithType: SoTokenType
+    fullName: SuperOffice.Security.Claims.SoTokenType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Security.Claims.SoTokenType
+    name: SoTokenType
+    nameWithType: SoTokenType
+    fullName: SuperOffice.Security.Claims.SoTokenType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType
+  isExternal: true
+  name: DetectTokenType
+  nameWithType: ClaimsIdentityHelper.DetectTokenType
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.DetectTokenType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Claims.SoTokenType
+  commentId: T:SuperOffice.Security.Claims.SoTokenType
+  parent: SuperOffice.Security.Claims
+  isExternal: true
+  name: SoTokenType
+  nameWithType: SoTokenType
+  fullName: SuperOffice.Security.Claims.SoTokenType
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken
+  isExternal: true
+  name: CanCreateIdentityFromToken
+  nameWithType: ClaimsIdentityHelper.CanCreateIdentityFromToken
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.CanCreateIdentityFromToken
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity
+  isExternal: true
+  name: CreateTokenIdentity
+  nameWithType: ClaimsIdentityHelper.CreateTokenIdentity
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreateTokenIdentity
+- uid: System.Security.Claims.ClaimsIdentity
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity*
+  commentId: Overload:SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity
+  isExternal: true
+  name: CreatePasswordIdentity
+  nameWithType: ClaimsIdentityHelper.CreatePasswordIdentity
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper.CreatePasswordIdentity

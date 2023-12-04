@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Summarizer
+  commentId: T:SuperOffice.CRM.Services.Summarizer
+  id: Summarizer
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Summarizer.#ctor
+  - SuperOffice.CRM.Services.Summarizer.ToString
+  - SuperOffice.CRM.Services.Summarizer.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Summarizer
+  nameWithType: Summarizer
+  fullName: SuperOffice.CRM.Services.Summarizer
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummary functions for various entities\n<p></p>\nCarrier object for Summarizer.\nServices for the Summarizer Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAIAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Summarizer : Object'
+    content.vb: >-
+      Public Class Summarizer
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AIAgent
+    commentId: T:SuperOffice.CRM.Services.AIAgent
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Summarizer.#ctor
+  commentId: M:SuperOffice.CRM.Services.Summarizer.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Summarizer
+  langs:
+  - csharp
+  - vb
+  name: Summarizer()
+  nameWithType: Summarizer.Summarizer()
+  fullName: SuperOffice.CRM.Services.Summarizer.Summarizer()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Summarizer()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Summarizer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Summarizer.ToString
+  commentId: M:SuperOffice.CRM.Services.Summarizer.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Summarizer
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Summarizer.ToString()
+  fullName: SuperOffice.CRM.Services.Summarizer.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Summarizer.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Summarizer.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Summarizer.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Summarizer
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Summarizer.ToString(String)
+  fullName: SuperOffice.CRM.Services.Summarizer.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Summarizer.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.AIAgent
+  commentId: T:SuperOffice.CRM.Services.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.CRM.Services.AIAgent
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services.Summarizer.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Summarizer.#ctor
+  isExternal: true
+  name: Summarizer
+  nameWithType: Summarizer.Summarizer
+  fullName: SuperOffice.CRM.Services.Summarizer.Summarizer
+- uid: SuperOffice.CRM.Services.Summarizer.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Summarizer.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Summarizer.ToString
+  fullName: SuperOffice.CRM.Services.Summarizer.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

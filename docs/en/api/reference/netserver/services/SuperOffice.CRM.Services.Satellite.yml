@@ -197,7 +197,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Created As Date
+    content.vb: Public Overridable Property Created As DateTime
   overload: SuperOffice.CRM.Services.Satellite.Created*
   modifiers.csharp:
   - public
@@ -263,7 +263,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Services.Satellite.Updated*
   modifiers.csharp:
   - public
@@ -412,13 +412,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ReplicationAgent
   commentId: T:SuperOffice.CRM.Services.ReplicationAgent
   isExternal: true
@@ -432,12 +425,6 @@ references:
   name: IReplicationAgent
   nameWithType: IReplicationAgent
   fullName: SuperOffice.CRM.Services.IReplicationAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Satellite.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Satellite.#ctor
   isExternal: true
@@ -457,6 +444,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Satellite.SatelliteId*
   commentId: Overload:SuperOffice.CRM.Services.Satellite.SatelliteId
   isExternal: true
@@ -477,8 +470,6 @@ references:
   nameWithType: Satellite.Created
   fullName: SuperOffice.CRM.Services.Satellite.Created
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

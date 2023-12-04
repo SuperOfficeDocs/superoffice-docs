@@ -5,6 +5,7 @@ items:
   id: TimeConverterHelper
   parent: SuperOffice.Util
   children:
+  - SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero(System.Object)
   - SuperOffice.Util.TimeConverterHelper.IsYearZero(System.DateTime)
   - SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue(System.DateTime)
   - SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue(System.TimeSpan)
@@ -29,18 +30,13 @@ items:
   namespace: SuperOffice.Util
   summary: "\nHelper class for <xref href=\"SuperOffice.Util.TimeConverter\" data-throw-if-not-resolved=\"false\"></xref>.    \n"
   syntax:
-    content: public static class TimeConverterHelper
-    content.vb: Public Module TimeConverterHelper
+    content: 'public static class TimeConverterHelper : Object'
+    content.vb: >-
+      Public Module TimeConverterHelper
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -76,7 +72,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function IsYearZero(dateTime As Date) As Boolean
+      Public Shared Function IsYearZero(dateTime As DateTime) As Boolean
   overload: SuperOffice.Util.TimeConverterHelper.IsYearZero*
   modifiers.csharp:
   - public
@@ -151,8 +147,40 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function IsYearZeroOrMinValue(dateTime As Date) As Boolean
+      Public Shared Function IsYearZeroOrMinValue(dateTime As DateTime) As Boolean
   overload: SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero(System.Object)
+  commentId: M:SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero(System.Object)
+  id: CoerceMinDateToYearZero(System.Object)
+  parent: SuperOffice.Util.TimeConverterHelper
+  langs:
+  - csharp
+  - vb
+  name: CoerceMinDateToYearZero(Object)
+  nameWithType: TimeConverterHelper.CoerceMinDateToYearZero(Object)
+  fullName: SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero(System.Object)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static object CoerceMinDateToYearZero(object maybeDateTime)
+    parameters:
+    - id: maybeDateTime
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Public Shared Function CoerceMinDateToYearZero(maybeDateTime As Object) As Object
+  overload: SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero*
   modifiers.csharp:
   - public
   - static
@@ -183,7 +211,7 @@ items:
       type: System.DateTime
     return:
       type: System.String
-    content.vb: Public Shared Function RelativeTimePhrase(dt As Date) As String
+    content.vb: Public Shared Function RelativeTimePhrase(dt As DateTime) As String
   overload: SuperOffice.Util.TimeConverterHelper.RelativeTimePhrase*
   modifiers.csharp:
   - public
@@ -214,7 +242,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property TimeBaseDb As Date
+    content.vb: Public Shared ReadOnly Property TimeBaseDb As DateTime
   overload: SuperOffice.Util.TimeConverterHelper.TimeBaseDb*
   modifiers.csharp:
   - public
@@ -247,7 +275,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property TimeBaseLocal As Date
+    content.vb: Public Shared ReadOnly Property TimeBaseLocal As DateTime
   overload: SuperOffice.Util.TimeConverterHelper.TimeBaseLocal*
   modifiers.csharp:
   - public
@@ -280,7 +308,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property MaxValidDateLocal As Date
+    content.vb: Public Shared ReadOnly Property MaxValidDateLocal As DateTime
   overload: SuperOffice.Util.TimeConverterHelper.MaxValidDateLocal*
   modifiers.csharp:
   - public
@@ -313,7 +341,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property TimeBaseUtc As Date
+    content.vb: Public Shared ReadOnly Property TimeBaseUtc As DateTime
   overload: SuperOffice.Util.TimeConverterHelper.TimeBaseUtc*
   modifiers.csharp:
   - public
@@ -346,7 +374,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property MaxValidDateUtc As Date
+    content.vb: Public Shared ReadOnly Property MaxValidDateUtc As DateTime
   overload: SuperOffice.Util.TimeConverterHelper.MaxValidDateUtc*
   modifiers.csharp:
   - public
@@ -370,285 +398,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -662,8 +411,6 @@ references:
   nameWithType: TimeConverterHelper.IsYearZero
   fullName: SuperOffice.Util.TimeConverterHelper.IsYearZero
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -682,8 +429,6 @@ references:
   nameWithType: TimeConverterHelper.IsZeroOrMinValue
   fullName: SuperOffice.Util.TimeConverterHelper.IsZeroOrMinValue
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
   name: TimeSpan
   nameWithType: TimeSpan
@@ -694,6 +439,12 @@ references:
   name: IsYearZeroOrMinValue
   nameWithType: TimeConverterHelper.IsYearZeroOrMinValue
   fullName: SuperOffice.Util.TimeConverterHelper.IsYearZeroOrMinValue
+- uid: SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero*
+  commentId: Overload:SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero
+  isExternal: true
+  name: CoerceMinDateToYearZero
+  nameWithType: TimeConverterHelper.CoerceMinDateToYearZero
+  fullName: SuperOffice.Util.TimeConverterHelper.CoerceMinDateToYearZero
 - uid: SuperOffice.Util.TimeConverterHelper.RelativeTimePhrase*
   commentId: Overload:SuperOffice.Util.TimeConverterHelper.RelativeTimePhrase
   isExternal: true

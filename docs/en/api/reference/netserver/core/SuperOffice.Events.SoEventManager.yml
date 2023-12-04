@@ -5,9 +5,11 @@ items:
   id: SoEventManager
   parent: SuperOffice.Events
   children:
+  - SuperOffice.Events.SoEventManager.add_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
   - SuperOffice.Events.SoEventManager.GlobalFlush
   - SuperOffice.Events.SoEventManager.OnGlobalFlush
   - SuperOffice.Events.SoEventManager.ReInitalize
+  - SuperOffice.Events.SoEventManager.remove_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
   - SuperOffice.Events.SoEventManager.SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
   langs:
   - csharp
@@ -24,18 +26,13 @@ items:
   namespace: SuperOffice.Events
   summary: "\nSoEventManager\n"
   syntax:
-    content: public static class SoEventManager
-    content.vb: Public Module SoEventManager
+    content: 'public static class SoEventManager : Object'
+    content.vb: >-
+      Public Module SoEventManager
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -64,6 +61,66 @@ items:
     content: public static void ReInitalize()
     content.vb: Public Shared Sub ReInitalize
   overload: SuperOffice.Events.SoEventManager.ReInitalize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Events.SoEventManager.add_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  commentId: M:SuperOffice.Events.SoEventManager.add_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  id: add_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  parent: SuperOffice.Events.SoEventManager
+  langs:
+  - csharp
+  - vb
+  name: add_OnGlobalFlush(SoGlobalFlush)
+  nameWithType: SoEventManager.add_OnGlobalFlush(SoGlobalFlush)
+  fullName: SuperOffice.Events.SoEventManager.add_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Events
+  syntax:
+    content: public static void add_OnGlobalFlush(SoGlobalFlush value)
+    parameters:
+    - id: value
+      type: SuperOffice.Events.SoGlobalFlush
+    content.vb: Public Shared Sub add_OnGlobalFlush(value As SoGlobalFlush)
+  overload: SuperOffice.Events.SoEventManager.add_OnGlobalFlush*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Events.SoEventManager.remove_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  commentId: M:SuperOffice.Events.SoEventManager.remove_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  id: remove_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  parent: SuperOffice.Events.SoEventManager
+  langs:
+  - csharp
+  - vb
+  name: remove_OnGlobalFlush(SoGlobalFlush)
+  nameWithType: SoEventManager.remove_OnGlobalFlush(SoGlobalFlush)
+  fullName: SuperOffice.Events.SoEventManager.remove_OnGlobalFlush(SuperOffice.Events.SoGlobalFlush)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Events
+  syntax:
+    content: public static void remove_OnGlobalFlush(SoGlobalFlush value)
+    parameters:
+    - id: value
+      type: SuperOffice.Events.SoGlobalFlush
+    content.vb: Public Shared Sub remove_OnGlobalFlush(value As SoGlobalFlush)
+  overload: SuperOffice.Events.SoEventManager.remove_OnGlobalFlush*
   modifiers.csharp:
   - public
   - static
@@ -183,285 +240,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -474,6 +252,25 @@ references:
   name: ReInitalize
   nameWithType: SoEventManager.ReInitalize
   fullName: SuperOffice.Events.SoEventManager.ReInitalize
+- uid: SuperOffice.Events.SoEventManager.add_OnGlobalFlush*
+  commentId: Overload:SuperOffice.Events.SoEventManager.add_OnGlobalFlush
+  isExternal: true
+  name: add_OnGlobalFlush
+  nameWithType: SoEventManager.add_OnGlobalFlush
+  fullName: SuperOffice.Events.SoEventManager.add_OnGlobalFlush
+- uid: SuperOffice.Events.SoGlobalFlush
+  commentId: T:SuperOffice.Events.SoGlobalFlush
+  parent: SuperOffice.Events
+  isExternal: true
+  name: SoGlobalFlush
+  nameWithType: SoGlobalFlush
+  fullName: SuperOffice.Events.SoGlobalFlush
+- uid: SuperOffice.Events.SoEventManager.remove_OnGlobalFlush*
+  commentId: Overload:SuperOffice.Events.SoEventManager.remove_OnGlobalFlush
+  isExternal: true
+  name: remove_OnGlobalFlush
+  nameWithType: SoEventManager.remove_OnGlobalFlush
+  fullName: SuperOffice.Events.SoEventManager.remove_OnGlobalFlush
 - uid: SuperOffice.Events.SoEventManager.GlobalFlush*
   commentId: Overload:SuperOffice.Events.SoEventManager.GlobalFlush
   isExternal: true
@@ -507,10 +304,3 @@ references:
   name: SendEventArguments
   nameWithType: SendEventArguments
   fullName: SuperOffice.Events.SendEventArguments
-- uid: SuperOffice.Events.SoGlobalFlush
-  commentId: T:SuperOffice.Events.SoGlobalFlush
-  parent: SuperOffice.Events
-  isExternal: true
-  name: SoGlobalFlush
-  nameWithType: SoGlobalFlush
-  fullName: SuperOffice.Events.SoGlobalFlush

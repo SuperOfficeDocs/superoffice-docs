@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.Data
+  commentId: N:SuperOffice.CRM.BatchProcessing.Data
+  id: SuperOffice.CRM.BatchProcessing.Data
+  children:
+  - SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters
+  - SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.BatchProcessing.Data
+  nameWithType: SuperOffice.CRM.BatchProcessing.Data
+  fullName: SuperOffice.CRM.BatchProcessing.Data
+  type: Namespace
+  assemblies:
+  - SoBatchProcessing
+references:
+- uid: SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters
+  commentId: T:SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters
+  isExternal: true
+  name: ExportArchiveBatchParameters
+  nameWithType: ExportArchiveBatchParameters
+  fullName: SuperOffice.CRM.BatchProcessing.Data.ExportArchiveBatchParameters
+- uid: SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters
+  commentId: T:SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters
+  isExternal: true
+  name: ExportTargetsBatchParameters
+  nameWithType: ExportTargetsBatchParameters
+  fullName: SuperOffice.CRM.BatchProcessing.Data.ExportTargetsBatchParameters

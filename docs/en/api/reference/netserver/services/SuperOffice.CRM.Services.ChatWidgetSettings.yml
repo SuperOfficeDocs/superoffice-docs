@@ -6,10 +6,19 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ChatWidgetSettings.#ctor
+  - SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
+  - SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
   - SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqCategory
   - SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled
+  - SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
+  - SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
+  - SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
+  - SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
   - SuperOffice.CRM.Services.ChatWidgetSettings.Color
+  - SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
+  - SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
   - SuperOffice.CRM.Services.ChatWidgetSettings.Font
+  - SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
   - SuperOffice.CRM.Services.ChatWidgetSettings.LanguageIsoCode
   - SuperOffice.CRM.Services.ChatWidgetSettings.LogoBlobId
   - SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
@@ -47,8 +56,11 @@ items:
   namespace: SuperOffice.CRM.Services
   summary: "\nDefines the look of the chat widget.\n<p></p>\nCarrier object for ChatWidgetSettings.\nServices for the ChatWidgetSettings Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: public class ChatWidgetSettings
-    content.vb: Public Class ChatWidgetSettings
+    content: 'public class ChatWidgetSettings : Object'
+    content.vb: >-
+      Public Class ChatWidgetSettings
+
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.ChatAgent
     commentId: T:SuperOffice.CRM.Services.ChatAgent
@@ -56,13 +68,6 @@ items:
     commentId: T:SuperOffice.CRM.Services.IChatAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
@@ -119,7 +124,6 @@ items:
       type: System.String
       description: The carrier contents.
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.ToString*
   modifiers.csharp:
   - public
@@ -589,6 +593,270 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
+  id: BadgeColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: BadgeColor
+  nameWithType: ChatWidgetSettings.BadgeColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget badge \n"
+  syntax:
+    content: public virtual string BadgeColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BadgeColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
+  id: BadgeTextColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: BadgeTextColor
+  nameWithType: ChatWidgetSettings.BadgeTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget badge text \n"
+  syntax:
+    content: public virtual string BadgeTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BadgeTextColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
+  id: CustMsgColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: CustMsgColor
+  nameWithType: ChatWidgetSettings.CustMsgColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget customer message \n"
+  syntax:
+    content: public virtual string CustMsgColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustMsgColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
+  id: CustMsgTextColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: CustMsgTextColor
+  nameWithType: ChatWidgetSettings.CustMsgTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget customer message text \n"
+  syntax:
+    content: public virtual string CustMsgTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustMsgTextColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
+  id: AgentMsgColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: AgentMsgColor
+  nameWithType: ChatWidgetSettings.AgentMsgColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget agent message \n"
+  syntax:
+    content: public virtual string AgentMsgColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AgentMsgColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
+  id: AgentMsgTextColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: AgentMsgTextColor
+  nameWithType: ChatWidgetSettings.AgentMsgTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget agent message text \n"
+  syntax:
+    content: public virtual string AgentMsgTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AgentMsgTextColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
+  id: ButtonColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: ButtonColor
+  nameWithType: ChatWidgetSettings.ButtonColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget button \n"
+  syntax:
+    content: public virtual string ButtonColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ButtonColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
+  id: ButtonTextColor
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: ButtonTextColor
+  nameWithType: ChatWidgetSettings.ButtonTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional color for chat widget button text \n"
+  syntax:
+    content: public virtual string ButtonTextColor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ButtonTextColor As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Font
   commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.Font
   id: Font
@@ -614,6 +882,39 @@ items:
       type: System.String
     content.vb: Public Overridable Property Font As String
   overload: SuperOffice.CRM.Services.ChatWidgetSettings.Font*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
+  commentId: P:SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
+  id: FontSize
+  parent: SuperOffice.CRM.Services.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: FontSize
+  nameWithType: ChatWidgetSettings.FontSize
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional size for chat widget font \n"
+  syntax:
+    content: public virtual string FontSize { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FontSize As String
+  overload: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize*
   modifiers.csharp:
   - public
   - virtual
@@ -959,261 +1260,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.ChatAgent
   commentId: T:SuperOffice.CRM.Services.ChatAgent
   isExternal: true
@@ -1227,49 +1273,12 @@ references:
   name: IChatAgent
   nameWithType: IChatAgent
   fullName: SuperOffice.CRM.Services.IChatAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.#ctor
   isExternal: true
   name: ChatWidgetSettings
   nameWithType: ChatWidgetSettings.ChatWidgetSettings
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ChatWidgetSettings
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ToString
   isExternal: true
@@ -1283,6 +1292,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.AutoFaqEnabled
   isExternal: true
@@ -1392,12 +1407,66 @@ references:
   name: Color
   nameWithType: ChatWidgetSettings.Color
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Color
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
+  isExternal: true
+  name: BadgeColor
+  nameWithType: ChatWidgetSettings.BadgeColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeColor
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
+  isExternal: true
+  name: BadgeTextColor
+  nameWithType: ChatWidgetSettings.BadgeTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.BadgeTextColor
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
+  isExternal: true
+  name: CustMsgColor
+  nameWithType: ChatWidgetSettings.CustMsgColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgColor
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
+  isExternal: true
+  name: CustMsgTextColor
+  nameWithType: ChatWidgetSettings.CustMsgTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.CustMsgTextColor
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
+  isExternal: true
+  name: AgentMsgColor
+  nameWithType: ChatWidgetSettings.AgentMsgColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgColor
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
+  isExternal: true
+  name: AgentMsgTextColor
+  nameWithType: ChatWidgetSettings.AgentMsgTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.AgentMsgTextColor
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
+  isExternal: true
+  name: ButtonColor
+  nameWithType: ChatWidgetSettings.ButtonColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonColor
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
+  isExternal: true
+  name: ButtonTextColor
+  nameWithType: ChatWidgetSettings.ButtonTextColor
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.ButtonTextColor
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.Font*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.Font
   isExternal: true
   name: Font
   nameWithType: ChatWidgetSettings.Font
   fullName: SuperOffice.CRM.Services.ChatWidgetSettings.Font
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize*
+  commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
+  isExternal: true
+  name: FontSize
+  nameWithType: ChatWidgetSettings.FontSize
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings.FontSize
 - uid: SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled*
   commentId: Overload:SuperOffice.CRM.Services.ChatWidgetSettings.LogoEnabled
   isExternal: true

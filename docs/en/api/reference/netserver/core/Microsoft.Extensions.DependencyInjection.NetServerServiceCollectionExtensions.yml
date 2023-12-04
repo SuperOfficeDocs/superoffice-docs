@@ -1,0 +1,411 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  id: NetServerServiceCollectionExtensions
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  langs:
+  - csharp
+  - vb
+  name: NetServerServiceCollectionExtensions
+  nameWithType: NetServerServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public static class NetServerServiceCollectionExtensions : Object'
+    content.vb: >-
+      Public Module NetServerServiceCollectionExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  id: AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddNetServerCore<TSessionMode>(IServiceCollection, Action<NetServerCoreOptionsBuilder>)
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore<TSessionMode>(IServiceCollection, Action<NetServerCoreOptionsBuilder>)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore<TSessionMode>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: "\nAdd NetServer core\n"
+  remarks: "\nThis method calls <xref href=\"Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)\" data-throw-if-not-resolved=\"false\"></xref> to add logging, if it has need been added previously \n"
+  syntax:
+    content: >-
+      public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, Action<NetServerCoreOptionsBuilder> optionsAction = null)
+
+          where TSessionMode : class, ISoContextProvider
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: optionsAction
+      type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
+    typeParameters:
+    - id: TSessionMode
+      description: Type of Session handler, like <xref href="SuperOffice.Security.Principal.ThreadContextProvider" data-throw-if-not-resolved="false"></xref>, <xref href="SuperOffice.Security.Principal.ProcessContextProvider" data-throw-if-not-resolved="false"></xref> or <see cref="!:SuperOffice.Web.Security.HttpContextProvider"></see>
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNetServerCore(Of TSessionMode As {Class, ISoContextProvider})(services As IServiceCollection, optionsAction As Action(Of NetServerCoreOptionsBuilder) = Nothing) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore*
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddNetServerCore(Of TSessionMode)(IServiceCollection, Action(Of NetServerCoreOptionsBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore(Of TSessionMode)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder))
+  name.vb: AddNetServerCore(Of TSessionMode)(IServiceCollection, Action(Of NetServerCoreOptionsBuilder))
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddDatabaseScoped<TImplementation>(IServiceCollection)
+  nameWithType: NetServerServiceCollectionExtensions.AddDatabaseScoped<TImplementation>(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped<TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: >-
+      public static IServiceCollection AddDatabaseScoped<TImplementation>(this IServiceCollection services)
+
+          where TImplementation : class
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    typeParameters:
+    - id: TImplementation
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddDatabaseScoped(Of TImplementation As Class)(services As IServiceCollection) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped*
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TImplementation)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TImplementation)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddDatabaseScoped(Of TImplementation)(IServiceCollection)
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddDatabaseScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddDatabaseScoped<TService, TImplementation>(IServiceCollection)
+  nameWithType: NetServerServiceCollectionExtensions.AddDatabaseScoped<TService, TImplementation>(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped<TService, TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: >-
+      public static IServiceCollection AddDatabaseScoped<TService, TImplementation>(this IServiceCollection services)
+
+          where TService : class where TImplementation : class, TService
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    typeParameters:
+    - id: TService
+    - id: TImplementation
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddDatabaseScoped(Of TService As Class, TImplementation As {Class, TService})(services As IServiceCollection) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped*
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TService, TImplementation)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TService, TImplementation)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddDatabaseScoped(Of TService, TImplementation)(IServiceCollection)
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddTransientPlugin<TPlugin>(IServiceCollection)
+  nameWithType: NetServerServiceCollectionExtensions.AddTransientPlugin<TPlugin>(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin<TPlugin>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: "\nAdd a Plugin to the service colelction as a transient type and also add it explicitly to the <xref href=\"SuperOffice.Factory.PluginFactory\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"SuperOffice.Factory.ClassFactory\" data-throw-if-not-resolved=\"false\"></xref> as the internal instance resolver. \n"
+  syntax:
+    content: >-
+      public static IServiceCollection AddTransientPlugin<TPlugin>(this IServiceCollection services)
+
+          where TPlugin : class, IPlugin
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    typeParameters:
+    - id: TPlugin
+      description: Type of plugin to explicitly add
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddTransientPlugin(Of TPlugin As {Class, IPlugin})(services As IServiceCollection) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoClassFactoryException
+    commentId: T:SuperOffice.Exceptions.SoClassFactoryException
+    description: Thrown if the type is not a valid plugin with <xref href="SuperOffice.Factory.PluginAttribute.IsAutoDiscoverable" data-throw-if-not-resolved="false"></xref> set to false.
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddTransientPlugin(Of TPlugin)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin(Of TPlugin)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddTransientPlugin(Of TPlugin)(IServiceCollection)
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddSingletonPlugin<TPlugin>(IServiceCollection)
+  nameWithType: NetServerServiceCollectionExtensions.AddSingletonPlugin<TPlugin>(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin<TPlugin>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: "\nAdd a Plugin to the service colelction as a singleton type and also add it explicitly to the <xref href=\"SuperOffice.Factory.PluginFactory\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"SuperOffice.Factory.ClassFactory\" data-throw-if-not-resolved=\"false\"></xref> as the internal instance resolver. \n"
+  syntax:
+    content: >-
+      public static IServiceCollection AddSingletonPlugin<TPlugin>(this IServiceCollection services)
+
+          where TPlugin : class, IPlugin
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    typeParameters:
+    - id: TPlugin
+      description: Type of plugin to explicitly add
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddSingletonPlugin(Of TPlugin As {Class, IPlugin})(services As IServiceCollection) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoClassFactoryException
+    commentId: T:SuperOffice.Exceptions.SoClassFactoryException
+    description: Thrown if the type is not a valid plugin with <xref href="SuperOffice.Factory.PluginAttribute.IsAutoDiscoverable" data-throw-if-not-resolved="false"></xref> set to false.
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddSingletonPlugin(Of TPlugin)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin(Of TPlugin)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddSingletonPlugin(Of TPlugin)(IServiceCollection)
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
+  isExternal: true
+  name: AddNetServerCore
+  nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
+  commentId: '!:System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}'
+  definition: System.Action`1
+  name: Action<NetServerCoreOptionsBuilder>
+  nameWithType: Action<NetServerCoreOptionsBuilder>
+  fullName: System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>
+  nameWithType.vb: Action(Of NetServerCoreOptionsBuilder)
+  fullName.vb: System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder)
+  name.vb: Action(Of NetServerCoreOptionsBuilder)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    name: NetServerCoreOptionsBuilder
+    nameWithType: NetServerCoreOptionsBuilder
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    name: NetServerCoreOptionsBuilder
+    nameWithType: NetServerCoreOptionsBuilder
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped
+  isExternal: true
+  name: AddDatabaseScoped
+  nameWithType: NetServerServiceCollectionExtensions.AddDatabaseScoped
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin
+  isExternal: true
+  name: AddTransientPlugin
+  nameWithType: NetServerServiceCollectionExtensions.AddTransientPlugin
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin
+- uid: SuperOffice.Exceptions.SoClassFactoryException
+  commentId: T:SuperOffice.Exceptions.SoClassFactoryException
+  isExternal: true
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin
+  isExternal: true
+  name: AddSingletonPlugin
+  nameWithType: NetServerServiceCollectionExtensions.AddSingletonPlugin
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin

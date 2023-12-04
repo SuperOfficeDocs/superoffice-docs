@@ -29,6 +29,7 @@ items:
     content: 'public interface IDuplicateRule : IPlugin'
     content.vb: >-
       Public Interface IDuplicateRule
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.EnumUtil.MapEnums``2

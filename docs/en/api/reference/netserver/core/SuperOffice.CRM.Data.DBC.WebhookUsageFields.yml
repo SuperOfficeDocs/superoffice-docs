@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  id: DBC.WebhookUsageFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.ConsecutiveErrors
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.LastError
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.Registered
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalCalls
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalErrors
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.Updated
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.WebhookUsageFields.WebhookUsageId
+  langs:
+  - csharp
+  - vb
+  name: DBC.WebhookUsageFields
+  nameWithType: DBC.WebhookUsageFields
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for WebhookUsage, Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.\n"
+  syntax:
+    content: 'public static class WebhookUsageFields : Object'
+    content.vb: >-
+      Public Module WebhookUsageFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.WebhookUsageId
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.WebhookUsageId
+  id: WebhookUsageId
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: WebhookUsageId
+  nameWithType: DBC.WebhookUsageFields.WebhookUsageId
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.WebhookUsageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.WebhookUsageId: Primary key\n"
+  syntax:
+    content: public const string WebhookUsageId = "webhook_usage_id"
+    return:
+      type: System.String
+    content.vb: Public Const WebhookUsageId As String = "webhook_usage_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalCalls
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalCalls
+  id: TotalCalls
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: TotalCalls
+  nameWithType: DBC.WebhookUsageFields.TotalCalls
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalCalls
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.TotalCalls: Number of times webhook has been invoked since registered. For statistical purposes.\n"
+  syntax:
+    content: public const string TotalCalls = "total_calls"
+    return:
+      type: System.String
+    content.vb: Public Const TotalCalls As String = "total_calls"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalErrors
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalErrors
+  id: TotalErrors
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: TotalErrors
+  nameWithType: DBC.WebhookUsageFields.TotalErrors
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.TotalErrors
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.TotalErrors: Number of times webhook has returned error since registered. For statistical purposes.\n"
+  syntax:
+    content: public const string TotalErrors = "total_errors"
+    return:
+      type: System.String
+    content.vb: Public Const TotalErrors As String = "total_errors"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.ConsecutiveErrors
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.ConsecutiveErrors
+  id: ConsecutiveErrors
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: ConsecutiveErrors
+  nameWithType: DBC.WebhookUsageFields.ConsecutiveErrors
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.ConsecutiveErrors
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.ConsecutiveErrors: Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, webhook.state is changed to TooManyErrors(3) to deactivate webhook.\n"
+  syntax:
+    content: public const string ConsecutiveErrors = "consecutive_errors"
+    return:
+      type: System.String
+    content.vb: Public Const ConsecutiveErrors As String = "consecutive_errors"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.LastError
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.LastError
+  id: LastError
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: DBC.WebhookUsageFields.LastError
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.LastError
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.LastError: Most recent error message received from target. HTTP Headers + body. To help with debugging webhooks.\n"
+  syntax:
+    content: public const string LastError = "last_error"
+    return:
+      type: System.String
+    content.vb: Public Const LastError As String = "last_error"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.WebhookUsageFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.WebhookUsageFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.WebhookUsageFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.WebhookUsageFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.WebhookUsageFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.WebhookUsageFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsageFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

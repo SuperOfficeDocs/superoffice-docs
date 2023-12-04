@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Services.Appointment
   - SuperOffice.CRM.Services.AppointmentAgent
   - SuperOffice.CRM.Services.AppointmentEntity
+  - SuperOffice.CRM.Services.AppointmentSaveData
   - SuperOffice.CRM.Services.AppointmentSyncData
   - SuperOffice.CRM.Services.ApproveRejectResponse
   - SuperOffice.CRM.Services.ArchiveAgent
@@ -28,6 +29,7 @@ items:
   - SuperOffice.CRM.Services.Associate
   - SuperOffice.CRM.Services.AssociateAgent
   - SuperOffice.CRM.Services.AttachmentEntity
+  - SuperOffice.CRM.Services.AttachmentValidationResult
   - SuperOffice.CRM.Services.AudienceAgent
   - SuperOffice.CRM.Services.AudienceConfigParameter
   - SuperOffice.CRM.Services.AudienceLayoutEntity
@@ -39,6 +41,8 @@ items:
   - SuperOffice.CRM.Services.BulkUpdateAgent
   - SuperOffice.CRM.Services.Business
   - SuperOffice.CRM.Services.Cache
+  - SuperOffice.CRM.Services.CallerID
+  - SuperOffice.CRM.Services.CallerIDCollection
   - SuperOffice.CRM.Services.CategorizationModelDetails
   - SuperOffice.CRM.Services.CategorizationStatusResponse
   - SuperOffice.CRM.Services.Category
@@ -47,6 +51,7 @@ items:
   - SuperOffice.CRM.Services.ChangedDataItem
   - SuperOffice.CRM.Services.ChatAgent
   - SuperOffice.CRM.Services.ChatBotSettings
+  - SuperOffice.CRM.Services.ChatbotTurn
   - SuperOffice.CRM.Services.ChatMessage
   - SuperOffice.CRM.Services.ChatOpeningHours
   - SuperOffice.CRM.Services.ChatPresence
@@ -60,9 +65,6 @@ items:
   - SuperOffice.CRM.Services.ColumnDataDictionaryExt
   - SuperOffice.CRM.Services.CommandResult
   - SuperOffice.CRM.Services.Competitor
-  - SuperOffice.CRM.Services.ConfigurableScreenDelta
-  - SuperOffice.CRM.Services.Configuration
-  - SuperOffice.CRM.Services.ConfigurationAgent
   - SuperOffice.CRM.Services.ConsentInfo
   - SuperOffice.CRM.Services.ConsentPerson
   - SuperOffice.CRM.Services.ConsentPurpose
@@ -87,7 +89,10 @@ items:
   - SuperOffice.CRM.Services.CriteriaInformation
   - SuperOffice.CRM.Services.CRMScriptAgent
   - SuperOffice.CRM.Services.CRMScriptEntity
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo
   - SuperOffice.CRM.Services.CRMScriptResult
+  - SuperOffice.CRM.Services.CRMScriptRunResult
+  - SuperOffice.CRM.Services.CRMScriptTraceRun
   - SuperOffice.CRM.Services.CsFeatureToggle
   - SuperOffice.CRM.Services.CsSessionKey
   - SuperOffice.CRM.Services.Currency
@@ -108,6 +113,7 @@ items:
   - SuperOffice.CRM.Services.DashTheme
   - SuperOffice.CRM.Services.DashTile
   - SuperOffice.CRM.Services.DashTileDefinition
+  - SuperOffice.CRM.Services.DashTileHtml
   - SuperOffice.CRM.Services.DatabaseAgent
   - SuperOffice.CRM.Services.DatabaseTableAgent
   - SuperOffice.CRM.Services.DataRight
@@ -115,17 +121,21 @@ items:
   - SuperOffice.CRM.Services.DayInformationListItem
   - SuperOffice.CRM.Services.DeliveryTerm
   - SuperOffice.CRM.Services.DeliveryType
-  - SuperOffice.CRM.Services.DeltaQuery
   - SuperOffice.CRM.Services.Department
   - SuperOffice.CRM.Services.DiagnosticsAgent
-  - SuperOffice.CRM.Services.DiaryViewEntity
   - SuperOffice.CRM.Services.DictionaryStepInformation
   - SuperOffice.CRM.Services.Document
   - SuperOffice.CRM.Services.DocumentAgent
   - SuperOffice.CRM.Services.DocumentEntity
+  - SuperOffice.CRM.Services.DocumentMigrationAgent
+  - SuperOffice.CRM.Services.DocumentMigrationAssociate
+  - SuperOffice.CRM.Services.DocumentMigrationItem
+  - SuperOffice.CRM.Services.DocumentMigrationItemList
+  - SuperOffice.CRM.Services.DocumentMigrationSummary
   - SuperOffice.CRM.Services.DocumentPreview
   - SuperOffice.CRM.Services.DocumentTemplate
   - SuperOffice.CRM.Services.DocumentTemplateEntity
+  - SuperOffice.CRM.Services.DocumentTemplateMigrationList
   - SuperOffice.CRM.Services.DuplicateEntry
   - SuperOffice.CRM.Services.DuplicateRule
   - SuperOffice.CRM.Services.EISActor
@@ -148,8 +158,10 @@ items:
   - SuperOffice.CRM.Services.EMailCustomHeader
   - SuperOffice.CRM.Services.EMailEntity
   - SuperOffice.CRM.Services.EMailEnvelope
+  - SuperOffice.CRM.Services.EmailFlow
   - SuperOffice.CRM.Services.EMailFolder
   - SuperOffice.CRM.Services.EMailSOInfo
+  - SuperOffice.CRM.Services.EntityCounts
   - SuperOffice.CRM.Services.EntityElement
   - SuperOffice.CRM.Services.EntityName
   - SuperOffice.CRM.Services.ErpConnection
@@ -191,6 +203,7 @@ items:
   - SuperOffice.CRM.Services.FieldMetadata
   - SuperOffice.CRM.Services.FieldMetadataDictionary
   - SuperOffice.CRM.Services.FieldMetadataDictionaryExt
+  - SuperOffice.CRM.Services.FieldValue
   - SuperOffice.CRM.Services.FieldValueInfo
   - SuperOffice.CRM.Services.FindAgent
   - SuperOffice.CRM.Services.FindResults
@@ -217,7 +230,6 @@ items:
   - SuperOffice.CRM.Services.IBLOBAgent
   - SuperOffice.CRM.Services.IBulkUpdateAgent
   - SuperOffice.CRM.Services.IChatAgent
-  - SuperOffice.CRM.Services.IConfigurationAgent
   - SuperOffice.CRM.Services.IContactAgent
   - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
   - SuperOffice.CRM.Services.ICRMScriptAgent
@@ -228,6 +240,7 @@ items:
   - SuperOffice.CRM.Services.IDatabaseTableAgent
   - SuperOffice.CRM.Services.IDiagnosticsAgent
   - SuperOffice.CRM.Services.IDocumentAgent
+  - SuperOffice.CRM.Services.IDocumentMigrationAgent
   - SuperOffice.CRM.Services.IEMailAgent
   - SuperOffice.CRM.Services.IEntityCarrier
   - SuperOffice.CRM.Services.IErpSyncAgent
@@ -247,7 +260,6 @@ items:
   - SuperOffice.CRM.Services.ImportColumnInfo
   - SuperOffice.CRM.Services.ImportErpData
   - SuperOffice.CRM.Services.ImportLine
-  - SuperOffice.CRM.Services.INavigatorAgent
   - SuperOffice.CRM.Services.Installation
   - SuperOffice.CRM.Services.INumberAllocationAgent
   - SuperOffice.CRM.Services.IPartnerAgent
@@ -255,7 +267,6 @@ items:
   - SuperOffice.CRM.Services.IPhoneListAgent
   - SuperOffice.CRM.Services.IPocketAgent
   - SuperOffice.CRM.Services.IPreferenceAgent
-  - SuperOffice.CRM.Services.IPreviewsAgent
   - SuperOffice.CRM.Services.IProjectAgent
   - SuperOffice.CRM.Services.IProjectRelationEntityCarrier
   - SuperOffice.CRM.Services.IPublishedCarrier
@@ -269,15 +280,16 @@ items:
   - SuperOffice.CRM.Services.ISaleAgent
   - SuperOffice.CRM.Services.ISelectionAgent
   - SuperOffice.CRM.Services.ISentryAgent
+  - SuperOffice.CRM.Services.ITargetsAgent
   - SuperOffice.CRM.Services.ITicketAgent
   - SuperOffice.CRM.Services.ITimeZoneAgent
-  - SuperOffice.CRM.Services.ITooltipsAgent
   - SuperOffice.CRM.Services.IUdefFieldCarrier
   - SuperOffice.CRM.Services.IUserAgent
   - SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   - SuperOffice.CRM.Services.IViewStateAgent
   - SuperOffice.CRM.Services.IVisibleForCarrier
   - SuperOffice.CRM.Services.IWebhookAgent
+  - SuperOffice.CRM.Services.IWorkflowAgent
   - SuperOffice.CRM.Services.KbCategory
   - SuperOffice.CRM.Services.LanguageInfo
   - SuperOffice.CRM.Services.LegalBase
@@ -291,24 +303,28 @@ items:
   - SuperOffice.CRM.Services.ListEntity
   - SuperOffice.CRM.Services.ListItem
   - SuperOffice.CRM.Services.ListItemEntity
+  - SuperOffice.CRM.Services.LiveUiConfig
   - SuperOffice.CRM.Services.LocalizedField
   - SuperOffice.CRM.Services.LocalizedText
   - SuperOffice.CRM.Services.Logging
   - SuperOffice.CRM.Services.Mailbox
   - SuperOffice.CRM.Services.MailboxEntity
+  - SuperOffice.CRM.Services.MailingStatistics
   - SuperOffice.CRM.Services.MailMergeSettings
   - SuperOffice.CRM.Services.MailMergeTask
   - SuperOffice.CRM.Services.MarketingAgent
   - SuperOffice.CRM.Services.MassOperationResult
   - SuperOffice.CRM.Services.MDOAgent
   - SuperOffice.CRM.Services.MDOListItem
+  - SuperOffice.CRM.Services.MetricPair
   - SuperOffice.CRM.Services.ModuleLicenseLink
   - SuperOffice.CRM.Services.MrMrs
   - SuperOffice.CRM.Services.MultiAlarmData
-  - SuperOffice.CRM.Services.NavigatorAgent
-  - SuperOffice.CRM.Services.NavigatorCompany
+  - SuperOffice.CRM.Services.NextAvailableTime
+  - SuperOffice.CRM.Services.NotificationEvent
   - SuperOffice.CRM.Services.NumberAllocationAgent
   - SuperOffice.CRM.Services.OperationInfo
+  - SuperOffice.CRM.Services.OperationResult
   - SuperOffice.CRM.Services.ParticipantSyncData
   - SuperOffice.CRM.Services.PartnerAgent
   - SuperOffice.CRM.Services.PartnerWebPanel
@@ -317,6 +333,7 @@ items:
   - SuperOffice.CRM.Services.Person
   - SuperOffice.CRM.Services.PersonAgent
   - SuperOffice.CRM.Services.PersonEntity
+  - SuperOffice.CRM.Services.PersonImage
   - SuperOffice.CRM.Services.PersonSummary
   - SuperOffice.CRM.Services.PhoneListAgent
   - SuperOffice.CRM.Services.PhoneListItem
@@ -334,24 +351,18 @@ items:
   - SuperOffice.CRM.Services.PreferenceDescriptionLine
   - SuperOffice.CRM.Services.PreferenceSpec
   - SuperOffice.CRM.Services.PreferenceTestReturn
+  - SuperOffice.CRM.Services.PreferredTimeZone
+  - SuperOffice.CRM.Services.PreviewContact
+  - SuperOffice.CRM.Services.PreviewDash
+  - SuperOffice.CRM.Services.PreviewDashTile
+  - SuperOffice.CRM.Services.PreviewFaqEntry
   - SuperOffice.CRM.Services.PreviewMailing
   - SuperOffice.CRM.Services.PreviewMailingHeader
-  - SuperOffice.CRM.Services.Previews
-  - SuperOffice.CRM.Services.PreviewsAgent
+  - SuperOffice.CRM.Services.PreviewQuickReply
+  - SuperOffice.CRM.Services.PreviewReplyTemplate
   - SuperOffice.CRM.Services.PriceList
   - SuperOffice.CRM.Services.Priority
   - SuperOffice.CRM.Services.PrivacyStatement
-  - SuperOffice.CRM.Services.PrivateAIAgentFactory
-  - SuperOffice.CRM.Services.PrivateAppointmentAgentFactory
-  - SuperOffice.CRM.Services.PrivateAudienceAgentFactory
-  - SuperOffice.CRM.Services.PrivateBulkUpdateAgentFactory
-  - SuperOffice.CRM.Services.PrivateChatAgentFactory
-  - SuperOffice.CRM.Services.PrivateCRMScriptAgentFactory
-  - SuperOffice.CRM.Services.PrivateDashAgentFactory
-  - SuperOffice.CRM.Services.PrivateDatabaseTableAgentFactory
-  - SuperOffice.CRM.Services.PrivateMarketingAgentFactory
-  - SuperOffice.CRM.Services.PrivateTicketAgentFactory
-  - SuperOffice.CRM.Services.PrivateWebhookAgentFactory
   - SuperOffice.CRM.Services.Product
   - SuperOffice.CRM.Services.ProductCategory
   - SuperOffice.CRM.Services.ProductExtraDataField
@@ -372,8 +383,10 @@ items:
   - SuperOffice.CRM.Services.QuoteAgent
   - SuperOffice.CRM.Services.QuoteAlternative
   - SuperOffice.CRM.Services.QuoteAlternativeRecalculated
+  - SuperOffice.CRM.Services.QuoteApproveReason
   - SuperOffice.CRM.Services.QuoteConnection
   - SuperOffice.CRM.Services.QuoteContext
+  - SuperOffice.CRM.Services.QuoteDenyReason
   - SuperOffice.CRM.Services.QuoteEntity
   - SuperOffice.CRM.Services.QuoteLine
   - SuperOffice.CRM.Services.QuoteLineConfiguration
@@ -392,11 +405,13 @@ items:
   - SuperOffice.CRM.Services.Reason
   - SuperOffice.CRM.Services.ReasonSold
   - SuperOffice.CRM.Services.ReasonStalled
+  - SuperOffice.CRM.Services.Recipient
   - SuperOffice.CRM.Services.RecipientStatistics
   - SuperOffice.CRM.Services.RedLetterDetails
   - SuperOffice.CRM.Services.RedLetterInformationListItem
   - SuperOffice.CRM.Services.RedLetterSummary
   - SuperOffice.CRM.Services.RefCountEntity
+  - SuperOffice.CRM.Services.RelatedData
   - SuperOffice.CRM.Services.RelationAgent
   - SuperOffice.CRM.Services.RelationDefinitionEntity
   - SuperOffice.CRM.Services.RelationToOwner
@@ -436,6 +451,7 @@ items:
   - SuperOffice.CRM.Services.SelectionEntity
   - SuperOffice.CRM.Services.SelectionForFind
   - SuperOffice.CRM.Services.SelectionMemberEditValues
+  - SuperOffice.CRM.Services.SelectionSummaryItem
   - SuperOffice.CRM.Services.Sentiment
   - SuperOffice.CRM.Services.Sentry
   - SuperOffice.CRM.Services.SentryAgent
@@ -453,47 +469,66 @@ items:
   - SuperOffice.CRM.Services.SuggestedAppointment
   - SuperOffice.CRM.Services.SuggestedAppointmentEntity
   - SuperOffice.CRM.Services.SuggestedDocumentEntity
+  - SuperOffice.CRM.Services.Summarizer
   - SuperOffice.CRM.Services.SyncUserAccount
   - SuperOffice.CRM.Services.SystemEventEntity
+  - SuperOffice.CRM.Services.SystemTemplateSettings
   - SuperOffice.CRM.Services.TableRecord
   - SuperOffice.CRM.Services.TabOrder
   - SuperOffice.CRM.Services.Tag
+  - SuperOffice.CRM.Services.TargetAssignment
+  - SuperOffice.CRM.Services.TargetChange
+  - SuperOffice.CRM.Services.TargetDimension
+  - SuperOffice.CRM.Services.TargetGroup
+  - SuperOffice.CRM.Services.TargetRevision
+  - SuperOffice.CRM.Services.TargetRevisionHistory
+  - SuperOffice.CRM.Services.TargetsAgent
   - SuperOffice.CRM.Services.Task
   - SuperOffice.CRM.Services.TaskListItem
+  - SuperOffice.CRM.Services.TaskMenu
   - SuperOffice.CRM.Services.TemplateVariablesParameters
   - SuperOffice.CRM.Services.TemporaryKeyInfo
+  - SuperOffice.CRM.Services.TextServices
   - SuperOffice.CRM.Services.Ticket
   - SuperOffice.CRM.Services.TicketAgent
+  - SuperOffice.CRM.Services.TicketBatchReplyData
   - SuperOffice.CRM.Services.TicketCategory
   - SuperOffice.CRM.Services.TicketCategoryEntity
+  - SuperOffice.CRM.Services.TicketCategoryMembershipEntity
   - SuperOffice.CRM.Services.TicketEntity
+  - SuperOffice.CRM.Services.TicketFormSubmission
   - SuperOffice.CRM.Services.TicketInfo
   - SuperOffice.CRM.Services.TicketMessage
+  - SuperOffice.CRM.Services.TicketMessageContent
   - SuperOffice.CRM.Services.TicketMessageEntity
   - SuperOffice.CRM.Services.TicketMessageHeader
   - SuperOffice.CRM.Services.TicketPriority
   - SuperOffice.CRM.Services.TicketPriorityEntity
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
   - SuperOffice.CRM.Services.TicketStatusEntity
   - SuperOffice.CRM.Services.TicketSummaryItem
+  - SuperOffice.CRM.Services.TicketType
+  - SuperOffice.CRM.Services.TicketTypeEntity
   - SuperOffice.CRM.Services.TileData
   - SuperOffice.CRM.Services.TileDataRow
   - SuperOffice.CRM.Services.TimeZoneAgent
   - SuperOffice.CRM.Services.TokenManagementInfo
-  - SuperOffice.CRM.Services.Tooltips
-  - SuperOffice.CRM.Services.TooltipsAgent
   - SuperOffice.CRM.Services.TriggerScriptEntity
   - SuperOffice.CRM.Services.TypicalSearch
   - SuperOffice.CRM.Services.TypicalSearches
+  - SuperOffice.CRM.Services.UiEvent
   - SuperOffice.CRM.Services.UntrustedCredentials
   - SuperOffice.CRM.Services.UpsertRowStatus
   - SuperOffice.CRM.Services.UsageStats
   - SuperOffice.CRM.Services.User
   - SuperOffice.CRM.Services.UserAgent
+  - SuperOffice.CRM.Services.UserCandidate
   - SuperOffice.CRM.Services.UserDefinedFieldInfo
   - SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
   - SuperOffice.CRM.Services.UserGroup
   - SuperOffice.CRM.Services.UserHelper
   - SuperOffice.CRM.Services.UserInfo
+  - SuperOffice.CRM.Services.UserPresenceStatus
   - SuperOffice.CRM.Services.UserValidationResult
   - SuperOffice.CRM.Services.ViewStateAgent
   - SuperOffice.CRM.Services.VisibleFor
@@ -502,7 +537,35 @@ items:
   - SuperOffice.CRM.Services.WebhookAgent
   - SuperOffice.CRM.Services.WebhookResult
   - SuperOffice.CRM.Services.WebPanelEntity
-  - SuperOffice.CRM.Services.WindowPosSize
+  - SuperOffice.CRM.Services.Workflow
+  - SuperOffice.CRM.Services.WorkflowAgent
+  - SuperOffice.CRM.Services.WorkflowEvent
+  - SuperOffice.CRM.Services.WorkflowEventResult
+  - SuperOffice.CRM.Services.WorkflowFilter
+  - SuperOffice.CRM.Services.WorkflowGoal
+  - SuperOffice.CRM.Services.WorkflowStepAddToList
+  - SuperOffice.CRM.Services.WorkflowStepBase
+  - SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale
+  - SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
+  - SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+  - SuperOffice.CRM.Services.WorkflowStepOption
+  - SuperOffice.CRM.Services.WorkflowStepOptionBase
+  - SuperOffice.CRM.Services.WorkflowStepOptionFormSubmission
+  - SuperOffice.CRM.Services.WorkflowStepOptionLinkClicked
+  - SuperOffice.CRM.Services.WorkflowStepOptionPersonData
+  - SuperOffice.CRM.Services.WorkflowStepOptionProjectMembership
+  - SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership
+  - SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  - SuperOffice.CRM.Services.WorkflowStepRunScript
+  - SuperOffice.CRM.Services.WorkflowStepSendEmail
+  - SuperOffice.CRM.Services.WorkflowStepSendSMS
+  - SuperOffice.CRM.Services.WorkflowStepSplit
+  - SuperOffice.CRM.Services.WorkflowStepUpdateParticipant
+  - SuperOffice.CRM.Services.WorkflowStepWaitForAction
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  - SuperOffice.CRM.Services.WorkflowTrigger
   langs:
   - csharp
   - vb
@@ -511,186 +574,8 @@ items:
   fullName: SuperOffice.CRM.Services
   type: Namespace
   assemblies:
-  - SuperOffice.DCF.Services
+  - SuperOffice.Services
 references:
-- uid: SuperOffice.CRM.Services.ConfigurationAgent
-  commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
-  isExternal: true
-  name: ConfigurationAgent
-  nameWithType: ConfigurationAgent
-  fullName: SuperOffice.CRM.Services.ConfigurationAgent
-- uid: SuperOffice.CRM.Services.NavigatorAgent
-  commentId: T:SuperOffice.CRM.Services.NavigatorAgent
-  isExternal: true
-  name: NavigatorAgent
-  nameWithType: NavigatorAgent
-  fullName: SuperOffice.CRM.Services.NavigatorAgent
-- uid: SuperOffice.CRM.Services.PreviewsAgent
-  commentId: T:SuperOffice.CRM.Services.PreviewsAgent
-  isExternal: true
-  name: PreviewsAgent
-  nameWithType: PreviewsAgent
-  fullName: SuperOffice.CRM.Services.PreviewsAgent
-- uid: SuperOffice.CRM.Services.TooltipsAgent
-  commentId: T:SuperOffice.CRM.Services.TooltipsAgent
-  isExternal: true
-  name: TooltipsAgent
-  nameWithType: TooltipsAgent
-  fullName: SuperOffice.CRM.Services.TooltipsAgent
-- uid: SuperOffice.CRM.Services.IConfigurationAgent
-  commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IConfigurationAgent
-  nameWithType: IConfigurationAgent
-  fullName: SuperOffice.CRM.Services.IConfigurationAgent
-- uid: SuperOffice.CRM.Services.INavigatorAgent
-  commentId: T:SuperOffice.CRM.Services.INavigatorAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: INavigatorAgent
-  nameWithType: INavigatorAgent
-  fullName: SuperOffice.CRM.Services.INavigatorAgent
-- uid: SuperOffice.CRM.Services.IPreviewsAgent
-  commentId: T:SuperOffice.CRM.Services.IPreviewsAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IPreviewsAgent
-  nameWithType: IPreviewsAgent
-  fullName: SuperOffice.CRM.Services.IPreviewsAgent
-- uid: SuperOffice.CRM.Services.ITooltipsAgent
-  commentId: T:SuperOffice.CRM.Services.ITooltipsAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ITooltipsAgent
-  nameWithType: ITooltipsAgent
-  fullName: SuperOffice.CRM.Services.ITooltipsAgent
-- uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
-  commentId: T:SuperOffice.CRM.Services.ConfigurableScreenDelta
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ConfigurableScreenDelta
-  nameWithType: ConfigurableScreenDelta
-  fullName: SuperOffice.CRM.Services.ConfigurableScreenDelta
-- uid: SuperOffice.CRM.Services.Configuration
-  commentId: T:SuperOffice.CRM.Services.Configuration
-  isExternal: true
-  name: Configuration
-  nameWithType: Configuration
-  fullName: SuperOffice.CRM.Services.Configuration
-- uid: SuperOffice.CRM.Services.DeltaQuery
-  commentId: T:SuperOffice.CRM.Services.DeltaQuery
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: DeltaQuery
-  nameWithType: DeltaQuery
-  fullName: SuperOffice.CRM.Services.DeltaQuery
-- uid: SuperOffice.CRM.Services.DiaryViewEntity
-  commentId: T:SuperOffice.CRM.Services.DiaryViewEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: DiaryViewEntity
-  nameWithType: DiaryViewEntity
-  fullName: SuperOffice.CRM.Services.DiaryViewEntity
-- uid: SuperOffice.CRM.Services.NavigatorCompany
-  commentId: T:SuperOffice.CRM.Services.NavigatorCompany
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: NavigatorCompany
-  nameWithType: NavigatorCompany
-  fullName: SuperOffice.CRM.Services.NavigatorCompany
-- uid: SuperOffice.CRM.Services.Previews
-  commentId: T:SuperOffice.CRM.Services.Previews
-  isExternal: true
-  name: Previews
-  nameWithType: Previews
-  fullName: SuperOffice.CRM.Services.Previews
-- uid: SuperOffice.CRM.Services.Tooltips
-  commentId: T:SuperOffice.CRM.Services.Tooltips
-  isExternal: true
-  name: Tooltips
-  nameWithType: Tooltips
-  fullName: SuperOffice.CRM.Services.Tooltips
-- uid: SuperOffice.CRM.Services.WindowPosSize
-  commentId: T:SuperOffice.CRM.Services.WindowPosSize
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: WindowPosSize
-  nameWithType: WindowPosSize
-  fullName: SuperOffice.CRM.Services.WindowPosSize
-- uid: SuperOffice.CRM.Services.PrivateAIAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateAIAgentFactory
-  isExternal: true
-  name: PrivateAIAgentFactory
-  nameWithType: PrivateAIAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateAIAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateAppointmentAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateAppointmentAgentFactory
-  isExternal: true
-  name: PrivateAppointmentAgentFactory
-  nameWithType: PrivateAppointmentAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateAppointmentAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateAudienceAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateAudienceAgentFactory
-  isExternal: true
-  name: PrivateAudienceAgentFactory
-  nameWithType: PrivateAudienceAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateAudienceAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateBulkUpdateAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateBulkUpdateAgentFactory
-  isExternal: true
-  name: PrivateBulkUpdateAgentFactory
-  nameWithType: PrivateBulkUpdateAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateBulkUpdateAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateChatAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateChatAgentFactory
-  isExternal: true
-  name: PrivateChatAgentFactory
-  nameWithType: PrivateChatAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateChatAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateCRMScriptAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateCRMScriptAgentFactory
-  isExternal: true
-  name: PrivateCRMScriptAgentFactory
-  nameWithType: PrivateCRMScriptAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateCRMScriptAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateDashAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateDashAgentFactory
-  isExternal: true
-  name: PrivateDashAgentFactory
-  nameWithType: PrivateDashAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateDashAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateDatabaseTableAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateDatabaseTableAgentFactory
-  isExternal: true
-  name: PrivateDatabaseTableAgentFactory
-  nameWithType: PrivateDatabaseTableAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateDatabaseTableAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateMarketingAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateMarketingAgentFactory
-  isExternal: true
-  name: PrivateMarketingAgentFactory
-  nameWithType: PrivateMarketingAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateMarketingAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateTicketAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateTicketAgentFactory
-  isExternal: true
-  name: PrivateTicketAgentFactory
-  nameWithType: PrivateTicketAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateTicketAgentFactory
-- uid: SuperOffice.CRM.Services.PrivateWebhookAgentFactory
-  commentId: T:SuperOffice.CRM.Services.PrivateWebhookAgentFactory
-  isExternal: true
-  name: PrivateWebhookAgentFactory
-  nameWithType: PrivateWebhookAgentFactory
-  fullName: SuperOffice.CRM.Services.PrivateWebhookAgentFactory
-- uid: SuperOffice.CRM.Services.UserHelper
-  commentId: T:SuperOffice.CRM.Services.UserHelper
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: UserHelper
-  nameWithType: UserHelper
-  fullName: SuperOffice.CRM.Services.UserHelper
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -730,6 +615,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent
+  commentId: T:SuperOffice.CRM.Services.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.CRM.Services.AIAgent
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
@@ -748,6 +639,12 @@ references:
   name: AssociateAgent
   nameWithType: AssociateAgent
   fullName: SuperOffice.CRM.Services.AssociateAgent
+- uid: SuperOffice.CRM.Services.AudienceAgent
+  commentId: T:SuperOffice.CRM.Services.AudienceAgent
+  isExternal: true
+  name: AudienceAgent
+  nameWithType: AudienceAgent
+  fullName: SuperOffice.CRM.Services.AudienceAgent
 - uid: SuperOffice.CRM.Services.BatchAgent
   commentId: T:SuperOffice.CRM.Services.BatchAgent
   isExternal: true
@@ -766,6 +663,12 @@ references:
   name: BulkUpdateAgent
   nameWithType: BulkUpdateAgent
   fullName: SuperOffice.CRM.Services.BulkUpdateAgent
+- uid: SuperOffice.CRM.Services.ChatAgent
+  commentId: T:SuperOffice.CRM.Services.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent
 - uid: SuperOffice.CRM.Services.ContactAgent
   commentId: T:SuperOffice.CRM.Services.ContactAgent
   isExternal: true
@@ -784,6 +687,12 @@ references:
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.DashAgent
+  commentId: T:SuperOffice.CRM.Services.DashAgent
+  isExternal: true
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.CRM.Services.DashAgent
 - uid: SuperOffice.CRM.Services.DashboardAgent
   commentId: T:SuperOffice.CRM.Services.DashboardAgent
   isExternal: true
@@ -796,6 +705,12 @@ references:
   name: DatabaseAgent
   nameWithType: DatabaseAgent
   fullName: SuperOffice.CRM.Services.DatabaseAgent
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent
+  commentId: T:SuperOffice.CRM.Services.DatabaseTableAgent
+  isExternal: true
+  name: DatabaseTableAgent
+  nameWithType: DatabaseTableAgent
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent
   commentId: T:SuperOffice.CRM.Services.DiagnosticsAgent
   isExternal: true
@@ -808,6 +723,12 @@ references:
   name: DocumentAgent
   nameWithType: DocumentAgent
   fullName: SuperOffice.CRM.Services.DocumentAgent
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationAgent
+  isExternal: true
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent
 - uid: SuperOffice.CRM.Services.EMailAgent
   commentId: T:SuperOffice.CRM.Services.EMailAgent
   isExternal: true
@@ -970,6 +891,18 @@ references:
   name: SentryAgent
   nameWithType: SentryAgent
   fullName: SuperOffice.CRM.Services.SentryAgent
+- uid: SuperOffice.CRM.Services.TargetsAgent
+  commentId: T:SuperOffice.CRM.Services.TargetsAgent
+  isExternal: true
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.CRM.Services.TargetsAgent
+- uid: SuperOffice.CRM.Services.TicketAgent
+  commentId: T:SuperOffice.CRM.Services.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.CRM.Services.TicketAgent
 - uid: SuperOffice.CRM.Services.TimeZoneAgent
   commentId: T:SuperOffice.CRM.Services.TimeZoneAgent
   isExternal: true
@@ -1000,6 +933,12 @@ references:
   name: WebhookAgent
   nameWithType: WebhookAgent
   fullName: SuperOffice.CRM.Services.WebhookAgent
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
 - uid: SuperOffice.CRM.Services.IAgent
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
@@ -1007,6 +946,13 @@ references:
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
 - uid: SuperOffice.CRM.Services.IAppointmentAgent
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
@@ -1028,6 +974,13 @@ references:
   name: IAssociateAgent
   nameWithType: IAssociateAgent
   fullName: SuperOffice.CRM.Services.IAssociateAgent
+- uid: SuperOffice.CRM.Services.IAudienceAgent
+  commentId: T:SuperOffice.CRM.Services.IAudienceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAudienceAgent
+  nameWithType: IAudienceAgent
+  fullName: SuperOffice.CRM.Services.IAudienceAgent
 - uid: SuperOffice.CRM.Services.IBatchAgent
   commentId: T:SuperOffice.CRM.Services.IBatchAgent
   parent: SuperOffice.CRM.Services
@@ -1049,6 +1002,13 @@ references:
   name: IBulkUpdateAgent
   nameWithType: IBulkUpdateAgent
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+- uid: SuperOffice.CRM.Services.IChatAgent
+  commentId: T:SuperOffice.CRM.Services.IChatAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IChatAgent
+  nameWithType: IChatAgent
+  fullName: SuperOffice.CRM.Services.IChatAgent
 - uid: SuperOffice.CRM.Services.IContactAgent
   commentId: T:SuperOffice.CRM.Services.IContactAgent
   parent: SuperOffice.CRM.Services
@@ -1070,6 +1030,13 @@ references:
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services.IDashAgent
+  commentId: T:SuperOffice.CRM.Services.IDashAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDashAgent
+  nameWithType: IDashAgent
+  fullName: SuperOffice.CRM.Services.IDashAgent
 - uid: SuperOffice.CRM.Services.IDashboardAgent
   commentId: T:SuperOffice.CRM.Services.IDashboardAgent
   parent: SuperOffice.CRM.Services
@@ -1084,6 +1051,13 @@ references:
   name: IDatabaseAgent
   nameWithType: IDatabaseAgent
   fullName: SuperOffice.CRM.Services.IDatabaseAgent
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent
+  commentId: T:SuperOffice.CRM.Services.IDatabaseTableAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDatabaseTableAgent
+  nameWithType: IDatabaseTableAgent
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent
   commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
   parent: SuperOffice.CRM.Services
@@ -1098,6 +1072,13 @@ references:
   name: IDocumentAgent
   nameWithType: IDocumentAgent
   fullName: SuperOffice.CRM.Services.IDocumentAgent
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  commentId: T:SuperOffice.CRM.Services.IDocumentMigrationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDocumentMigrationAgent
+  nameWithType: IDocumentMigrationAgent
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent
 - uid: SuperOffice.CRM.Services.IEMailAgent
   commentId: T:SuperOffice.CRM.Services.IEMailAgent
   parent: SuperOffice.CRM.Services
@@ -1287,6 +1268,20 @@ references:
   name: ISentryAgent
   nameWithType: ISentryAgent
   fullName: SuperOffice.CRM.Services.ISentryAgent
+- uid: SuperOffice.CRM.Services.ITargetsAgent
+  commentId: T:SuperOffice.CRM.Services.ITargetsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITargetsAgent
+  nameWithType: ITargetsAgent
+  fullName: SuperOffice.CRM.Services.ITargetsAgent
+- uid: SuperOffice.CRM.Services.ITicketAgent
+  commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITicketAgent
+  nameWithType: ITicketAgent
+  fullName: SuperOffice.CRM.Services.ITicketAgent
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent
   commentId: T:SuperOffice.CRM.Services.ITimeZoneAgent
   parent: SuperOffice.CRM.Services
@@ -1322,6 +1317,20 @@ references:
   name: IWebhookAgent
   nameWithType: IWebhookAgent
   fullName: SuperOffice.CRM.Services.IWebhookAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.AccessGatewayInfo
+  commentId: T:SuperOffice.CRM.Services.AccessGatewayInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AccessGatewayInfo
+  nameWithType: AccessGatewayInfo
+  fullName: SuperOffice.CRM.Services.AccessGatewayInfo
 - uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
   commentId: T:SuperOffice.CRM.Services.ILinksContainerEntityCarrier
   parent: SuperOffice.CRM.Services
@@ -1398,6 +1407,12 @@ references:
   name: ActivitySummary
   nameWithType: ActivitySummary
   fullName: SuperOffice.CRM.Services.ActivitySummary
+- uid: SuperOffice.CRM.Services.ActivitySummaryItem
+  commentId: T:SuperOffice.CRM.Services.ActivitySummaryItem
+  isExternal: true
+  name: ActivitySummaryItem
+  nameWithType: ActivitySummaryItem
+  fullName: SuperOffice.CRM.Services.ActivitySummaryItem
 - uid: SuperOffice.CRM.Services.Address
   commentId: T:SuperOffice.CRM.Services.Address
   parent: SuperOffice.CRM.Services
@@ -1432,6 +1447,13 @@ references:
   name: Appointment
   nameWithType: Appointment
   fullName: SuperOffice.CRM.Services.Appointment
+- uid: SuperOffice.CRM.Services.AppointmentSaveData
+  commentId: T:SuperOffice.CRM.Services.AppointmentSaveData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AppointmentSaveData
+  nameWithType: AppointmentSaveData
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData
 - uid: SuperOffice.CRM.Services.AppointmentSyncData
   commentId: T:SuperOffice.CRM.Services.AppointmentSyncData
   isExternal: true
@@ -1479,6 +1501,33 @@ references:
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.AttachmentEntity
+  commentId: T:SuperOffice.CRM.Services.AttachmentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity
+  fullName: SuperOffice.CRM.Services.AttachmentEntity
+- uid: SuperOffice.CRM.Services.AttachmentValidationResult
+  commentId: T:SuperOffice.CRM.Services.AttachmentValidationResult
+  isExternal: true
+  name: AttachmentValidationResult
+  nameWithType: AttachmentValidationResult
+  fullName: SuperOffice.CRM.Services.AttachmentValidationResult
+- uid: SuperOffice.CRM.Services.AudienceConfigParameter
+  commentId: T:SuperOffice.CRM.Services.AudienceConfigParameter
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AudienceConfigParameter
+  nameWithType: AudienceConfigParameter
+  fullName: SuperOffice.CRM.Services.AudienceConfigParameter
+- uid: SuperOffice.CRM.Services.AudienceLayoutEntity
+  commentId: T:SuperOffice.CRM.Services.AudienceLayoutEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AudienceLayoutEntity
+  nameWithType: AudienceLayoutEntity
+  fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
 - uid: SuperOffice.CRM.Services.Batch
   commentId: T:SuperOffice.CRM.Services.Batch
   isExternal: true
@@ -1512,6 +1561,33 @@ references:
   name: Cache
   nameWithType: Cache
   fullName: SuperOffice.CRM.Services.Cache
+- uid: SuperOffice.CRM.Services.CallerID
+  commentId: T:SuperOffice.CRM.Services.CallerID
+  isExternal: true
+  name: CallerID
+  nameWithType: CallerID
+  fullName: SuperOffice.CRM.Services.CallerID
+- uid: SuperOffice.CRM.Services.CallerIDCollection
+  commentId: T:SuperOffice.CRM.Services.CallerIDCollection
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CallerIDCollection
+  nameWithType: CallerIDCollection
+  fullName: SuperOffice.CRM.Services.CallerIDCollection
+- uid: SuperOffice.CRM.Services.CategorizationModelDetails
+  commentId: T:SuperOffice.CRM.Services.CategorizationModelDetails
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CategorizationModelDetails
+  nameWithType: CategorizationModelDetails
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails
+- uid: SuperOffice.CRM.Services.CategorizationStatusResponse
+  commentId: T:SuperOffice.CRM.Services.CategorizationStatusResponse
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CategorizationStatusResponse
+  nameWithType: CategorizationStatusResponse
+  fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
 - uid: SuperOffice.CRM.Services.Category
   commentId: T:SuperOffice.CRM.Services.Category
   parent: SuperOffice.CRM.Services
@@ -1519,6 +1595,12 @@ references:
   name: Category
   nameWithType: Category
   fullName: SuperOffice.CRM.Services.Category
+- uid: SuperOffice.CRM.Services.CategoryGuess
+  commentId: T:SuperOffice.CRM.Services.CategoryGuess
+  isExternal: true
+  name: CategoryGuess
+  nameWithType: CategoryGuess
+  fullName: SuperOffice.CRM.Services.CategoryGuess
 - uid: SuperOffice.CRM.Services.ChangedData
   commentId: T:SuperOffice.CRM.Services.ChangedData
   parent: SuperOffice.CRM.Services
@@ -1532,12 +1614,80 @@ references:
   name: ChangedDataItem
   nameWithType: ChangedDataItem
   fullName: SuperOffice.CRM.Services.ChangedDataItem
+- uid: SuperOffice.CRM.Services.ChatBotSettings
+  commentId: T:SuperOffice.CRM.Services.ChatBotSettings
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatBotSettings
+  nameWithType: ChatBotSettings
+  fullName: SuperOffice.CRM.Services.ChatBotSettings
+- uid: SuperOffice.CRM.Services.ChatbotTurn
+  commentId: T:SuperOffice.CRM.Services.ChatbotTurn
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatbotTurn
+  nameWithType: ChatbotTurn
+  fullName: SuperOffice.CRM.Services.ChatbotTurn
+- uid: SuperOffice.CRM.Services.ChatMessage
+  commentId: T:SuperOffice.CRM.Services.ChatMessage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatMessage
+  nameWithType: ChatMessage
+  fullName: SuperOffice.CRM.Services.ChatMessage
+- uid: SuperOffice.CRM.Services.ChatOpeningHours
+  commentId: T:SuperOffice.CRM.Services.ChatOpeningHours
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatOpeningHours
+  nameWithType: ChatOpeningHours
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours
+- uid: SuperOffice.CRM.Services.ChatPresence
+  commentId: T:SuperOffice.CRM.Services.ChatPresence
+  isExternal: true
+  name: ChatPresence
+  nameWithType: ChatPresence
+  fullName: SuperOffice.CRM.Services.ChatPresence
 - uid: SuperOffice.CRM.Services.ChatSession
   commentId: T:SuperOffice.CRM.Services.ChatSession
   isExternal: true
   name: ChatSession
   nameWithType: ChatSession
   fullName: SuperOffice.CRM.Services.ChatSession
+- uid: SuperOffice.CRM.Services.ChatSessionEntity
+  commentId: T:SuperOffice.CRM.Services.ChatSessionEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatSessionEntity
+  nameWithType: ChatSessionEntity
+  fullName: SuperOffice.CRM.Services.ChatSessionEntity
+- uid: SuperOffice.CRM.Services.ChatSummaryItem
+  commentId: T:SuperOffice.CRM.Services.ChatSummaryItem
+  isExternal: true
+  name: ChatSummaryItem
+  nameWithType: ChatSummaryItem
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem
+- uid: SuperOffice.CRM.Services.ChatTopicAgent
+  commentId: T:SuperOffice.CRM.Services.ChatTopicAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatTopicAgent
+  nameWithType: ChatTopicAgent
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent
+- uid: SuperOffice.CRM.Services.ChatTopicEntity
+  commentId: T:SuperOffice.CRM.Services.ChatTopicEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatTopicEntity
+  nameWithType: ChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings
+  commentId: T:SuperOffice.CRM.Services.ChatWidgetSettings
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatWidgetSettings
+  nameWithType: ChatWidgetSettings
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings
 - uid: SuperOffice.CRM.Services.ColumnDataDictionary
   commentId: T:SuperOffice.CRM.Services.ColumnDataDictionary
   parent: SuperOffice.CRM.Services
@@ -1547,7 +1697,6 @@ references:
   fullName: SuperOffice.CRM.Services.ColumnDataDictionary
 - uid: SuperOffice.CRM.Services.ColumnDataDictionaryExt
   commentId: T:SuperOffice.CRM.Services.ColumnDataDictionaryExt
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: ColumnDataDictionaryExt
   nameWithType: ColumnDataDictionaryExt
@@ -1632,6 +1781,13 @@ references:
   name: ContactRelationEntity
   nameWithType: ContactRelationEntity
   fullName: SuperOffice.CRM.Services.ContactRelationEntity
+- uid: SuperOffice.CRM.Services.ContactSummary
+  commentId: T:SuperOffice.CRM.Services.ContactSummary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ContactSummary
+  nameWithType: ContactSummary
+  fullName: SuperOffice.CRM.Services.ContactSummary
 - uid: SuperOffice.CRM.Services.ControlInfo
   commentId: T:SuperOffice.CRM.Services.ControlInfo
   isExternal: true
@@ -1705,6 +1861,34 @@ references:
   name: CRMScriptEntity
   nameWithType: CRMScriptEntity
   fullName: SuperOffice.CRM.Services.CRMScriptEntity
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  commentId: T:SuperOffice.CRM.Services.CRMScriptErrorInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CRMScriptErrorInfo
+  nameWithType: CRMScriptErrorInfo
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo
+- uid: SuperOffice.CRM.Services.CRMScriptResult
+  commentId: T:SuperOffice.CRM.Services.CRMScriptResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CRMScriptResult
+  nameWithType: CRMScriptResult
+  fullName: SuperOffice.CRM.Services.CRMScriptResult
+- uid: SuperOffice.CRM.Services.CRMScriptRunResult
+  commentId: T:SuperOffice.CRM.Services.CRMScriptRunResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CRMScriptRunResult
+  nameWithType: CRMScriptRunResult
+  fullName: SuperOffice.CRM.Services.CRMScriptRunResult
+- uid: SuperOffice.CRM.Services.CRMScriptTraceRun
+  commentId: T:SuperOffice.CRM.Services.CRMScriptTraceRun
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CRMScriptTraceRun
+  nameWithType: CRMScriptTraceRun
+  fullName: SuperOffice.CRM.Services.CRMScriptTraceRun
 - uid: SuperOffice.CRM.Services.CsFeatureToggle
   commentId: T:SuperOffice.CRM.Services.CsFeatureToggle
   isExternal: true
@@ -1738,6 +1922,13 @@ references:
   name: CustomCommand
   nameWithType: CustomCommand
   fullName: SuperOffice.CRM.Services.CustomCommand
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig
+  commentId: T:SuperOffice.CRM.Services.CustomerCenterConfig
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CustomerCenterConfig
+  nameWithType: CustomerCenterConfig
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig
 - uid: SuperOffice.CRM.Services.CustomerLanguage
   commentId: T:SuperOffice.CRM.Services.CustomerLanguage
   parent: SuperOffice.CRM.Services
@@ -1745,6 +1936,26 @@ references:
   name: CustomerLanguage
   nameWithType: CustomerLanguage
   fullName: SuperOffice.CRM.Services.CustomerLanguage
+- uid: SuperOffice.CRM.Services.CustomerServiceConfig
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceConfig
+  isExternal: true
+  name: CustomerServiceConfig
+  nameWithType: CustomerServiceConfig
+  fullName: SuperOffice.CRM.Services.CustomerServiceConfig
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceStartup
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CustomerServiceStartup
+  nameWithType: CustomerServiceStartup
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup
+- uid: SuperOffice.CRM.Services.Dash
+  commentId: T:SuperOffice.CRM.Services.Dash
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Dash
+  nameWithType: Dash
+  fullName: SuperOffice.CRM.Services.Dash
 - uid: SuperOffice.CRM.Services.Dashboard
   commentId: T:SuperOffice.CRM.Services.Dashboard
   parent: SuperOffice.CRM.Services
@@ -1765,6 +1976,41 @@ references:
   name: DashboardTileOption
   nameWithType: DashboardTileOption
   fullName: SuperOffice.CRM.Services.DashboardTileOption
+- uid: SuperOffice.CRM.Services.DashCollection
+  commentId: T:SuperOffice.CRM.Services.DashCollection
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DashCollection
+  nameWithType: DashCollection
+  fullName: SuperOffice.CRM.Services.DashCollection
+- uid: SuperOffice.CRM.Services.DashTheme
+  commentId: T:SuperOffice.CRM.Services.DashTheme
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DashTheme
+  nameWithType: DashTheme
+  fullName: SuperOffice.CRM.Services.DashTheme
+- uid: SuperOffice.CRM.Services.DashTile
+  commentId: T:SuperOffice.CRM.Services.DashTile
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DashTile
+  nameWithType: DashTile
+  fullName: SuperOffice.CRM.Services.DashTile
+- uid: SuperOffice.CRM.Services.DashTileDefinition
+  commentId: T:SuperOffice.CRM.Services.DashTileDefinition
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DashTileDefinition
+  nameWithType: DashTileDefinition
+  fullName: SuperOffice.CRM.Services.DashTileDefinition
+- uid: SuperOffice.CRM.Services.DashTileHtml
+  commentId: T:SuperOffice.CRM.Services.DashTileHtml
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DashTileHtml
+  nameWithType: DashTileHtml
+  fullName: SuperOffice.CRM.Services.DashTileHtml
 - uid: SuperOffice.CRM.Services.DataRight
   commentId: T:SuperOffice.CRM.Services.DataRight
   isExternal: true
@@ -1818,6 +2064,38 @@ references:
   name: Document
   nameWithType: Document
   fullName: SuperOffice.CRM.Services.Document
+- uid: SuperOffice.CRM.Services.DocumentMigrationAssociate
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationAssociate
+  isExternal: true
+  name: DocumentMigrationAssociate
+  nameWithType: DocumentMigrationAssociate
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAssociate
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationItem
+  isExternal: true
+  name: DocumentMigrationItem
+  nameWithType: DocumentMigrationItem
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem
+- uid: SuperOffice.CRM.Services.DocumentMigrationItemList
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationItemList
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DocumentMigrationItemList
+  nameWithType: DocumentMigrationItemList
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItemList
+- uid: SuperOffice.CRM.Services.DocumentMigrationSummary
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationSummary
+  isExternal: true
+  name: DocumentMigrationSummary
+  nameWithType: DocumentMigrationSummary
+  fullName: SuperOffice.CRM.Services.DocumentMigrationSummary
+- uid: SuperOffice.CRM.Services.DocumentPreview
+  commentId: T:SuperOffice.CRM.Services.DocumentPreview
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DocumentPreview
+  nameWithType: DocumentPreview
+  fullName: SuperOffice.CRM.Services.DocumentPreview
 - uid: SuperOffice.CRM.Services.DocumentTemplate
   commentId: T:SuperOffice.CRM.Services.DocumentTemplate
   parent: SuperOffice.CRM.Services
@@ -1832,6 +2110,13 @@ references:
   name: DocumentTemplateEntity
   nameWithType: DocumentTemplateEntity
   fullName: SuperOffice.CRM.Services.DocumentTemplateEntity
+- uid: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+  commentId: T:SuperOffice.CRM.Services.DocumentTemplateMigrationList
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DocumentTemplateMigrationList
+  nameWithType: DocumentTemplateMigrationList
+  fullName: SuperOffice.CRM.Services.DocumentTemplateMigrationList
 - uid: SuperOffice.CRM.Services.DuplicateEntry
   commentId: T:SuperOffice.CRM.Services.DuplicateEntry
   parent: SuperOffice.CRM.Services
@@ -1919,6 +2204,13 @@ references:
   name: EMailAddress
   nameWithType: EMailAddress
   fullName: SuperOffice.CRM.Services.EMailAddress
+- uid: SuperOffice.CRM.Services.EMailAppointment
+  commentId: T:SuperOffice.CRM.Services.EMailAppointment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EMailAppointment
+  nameWithType: EMailAppointment
+  fullName: SuperOffice.CRM.Services.EMailAppointment
 - uid: SuperOffice.CRM.Services.EMailAttachment
   commentId: T:SuperOffice.CRM.Services.EMailAttachment
   parent: SuperOffice.CRM.Services
@@ -1961,6 +2253,13 @@ references:
   name: EMailEnvelope
   nameWithType: EMailEnvelope
   fullName: SuperOffice.CRM.Services.EMailEnvelope
+- uid: SuperOffice.CRM.Services.EmailFlow
+  commentId: T:SuperOffice.CRM.Services.EmailFlow
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EmailFlow
+  nameWithType: EmailFlow
+  fullName: SuperOffice.CRM.Services.EmailFlow
 - uid: SuperOffice.CRM.Services.EMailFolder
   commentId: T:SuperOffice.CRM.Services.EMailFolder
   parent: SuperOffice.CRM.Services
@@ -1975,6 +2274,12 @@ references:
   name: EMailSOInfo
   nameWithType: EMailSOInfo
   fullName: SuperOffice.CRM.Services.EMailSOInfo
+- uid: SuperOffice.CRM.Services.EntityCounts
+  commentId: T:SuperOffice.CRM.Services.EntityCounts
+  isExternal: true
+  name: EntityCounts
+  nameWithType: EntityCounts
+  fullName: SuperOffice.CRM.Services.EntityCounts
 - uid: SuperOffice.CRM.Services.EntityElement
   commentId: T:SuperOffice.CRM.Services.EntityElement
   isExternal: true
@@ -2078,6 +2383,20 @@ references:
   name: ErpSyncFieldValue
   nameWithType: ErpSyncFieldValue
   fullName: SuperOffice.CRM.Services.ErpSyncFieldValue
+- uid: SuperOffice.CRM.Services.EventData
+  commentId: T:SuperOffice.CRM.Services.EventData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EventData
+  nameWithType: EventData
+  fullName: SuperOffice.CRM.Services.EventData
+- uid: SuperOffice.CRM.Services.ExportArchiveResult
+  commentId: T:SuperOffice.CRM.Services.ExportArchiveResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ExportArchiveResult
+  nameWithType: ExportArchiveResult
+  fullName: SuperOffice.CRM.Services.ExportArchiveResult
 - uid: SuperOffice.CRM.Services.ExtAppEntity
   commentId: T:SuperOffice.CRM.Services.ExtAppEntity
   parent: SuperOffice.CRM.Services
@@ -2091,6 +2410,103 @@ references:
   name: Favourite
   nameWithType: Favourite
   fullName: SuperOffice.CRM.Services.Favourite
+- uid: SuperOffice.CRM.Services.FieldInfoAttachment
+  commentId: T:SuperOffice.CRM.Services.FieldInfoAttachment
+  isExternal: true
+  name: FieldInfoAttachment
+  nameWithType: FieldInfoAttachment
+  fullName: SuperOffice.CRM.Services.FieldInfoAttachment
+- uid: SuperOffice.CRM.Services.FieldInfoBase
+  commentId: T:SuperOffice.CRM.Services.FieldInfoBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: FieldInfoBase
+  nameWithType: FieldInfoBase
+  fullName: SuperOffice.CRM.Services.FieldInfoBase
+- uid: SuperOffice.CRM.Services.FieldInfoBlob
+  commentId: T:SuperOffice.CRM.Services.FieldInfoBlob
+  isExternal: true
+  name: FieldInfoBlob
+  nameWithType: FieldInfoBlob
+  fullName: SuperOffice.CRM.Services.FieldInfoBlob
+- uid: SuperOffice.CRM.Services.FieldInfoBool
+  commentId: T:SuperOffice.CRM.Services.FieldInfoBool
+  isExternal: true
+  name: FieldInfoBool
+  nameWithType: FieldInfoBool
+  fullName: SuperOffice.CRM.Services.FieldInfoBool
+- uid: SuperOffice.CRM.Services.FieldInfoDate
+  commentId: T:SuperOffice.CRM.Services.FieldInfoDate
+  isExternal: true
+  name: FieldInfoDate
+  nameWithType: FieldInfoDate
+  fullName: SuperOffice.CRM.Services.FieldInfoDate
+- uid: SuperOffice.CRM.Services.FieldInfoDateTime
+  commentId: T:SuperOffice.CRM.Services.FieldInfoDateTime
+  isExternal: true
+  name: FieldInfoDateTime
+  nameWithType: FieldInfoDateTime
+  fullName: SuperOffice.CRM.Services.FieldInfoDateTime
+- uid: SuperOffice.CRM.Services.FieldInfoDecimal
+  commentId: T:SuperOffice.CRM.Services.FieldInfoDecimal
+  isExternal: true
+  name: FieldInfoDecimal
+  nameWithType: FieldInfoDecimal
+  fullName: SuperOffice.CRM.Services.FieldInfoDecimal
+- uid: SuperOffice.CRM.Services.FieldInfoDynamicLink
+  commentId: T:SuperOffice.CRM.Services.FieldInfoDynamicLink
+  isExternal: true
+  name: FieldInfoDynamicLink
+  nameWithType: FieldInfoDynamicLink
+  fullName: SuperOffice.CRM.Services.FieldInfoDynamicLink
+- uid: SuperOffice.CRM.Services.FieldInfoInt
+  commentId: T:SuperOffice.CRM.Services.FieldInfoInt
+  isExternal: true
+  name: FieldInfoInt
+  nameWithType: FieldInfoInt
+  fullName: SuperOffice.CRM.Services.FieldInfoInt
+- uid: SuperOffice.CRM.Services.FieldInfoListText
+  commentId: T:SuperOffice.CRM.Services.FieldInfoListText
+  isExternal: true
+  name: FieldInfoListText
+  nameWithType: FieldInfoListText
+  fullName: SuperOffice.CRM.Services.FieldInfoListText
+- uid: SuperOffice.CRM.Services.FieldInfoLongText
+  commentId: T:SuperOffice.CRM.Services.FieldInfoLongText
+  isExternal: true
+  name: FieldInfoLongText
+  nameWithType: FieldInfoLongText
+  fullName: SuperOffice.CRM.Services.FieldInfoLongText
+- uid: SuperOffice.CRM.Services.FieldInfoMdoList
+  commentId: T:SuperOffice.CRM.Services.FieldInfoMdoList
+  isExternal: true
+  name: FieldInfoMdoList
+  nameWithType: FieldInfoMdoList
+  fullName: SuperOffice.CRM.Services.FieldInfoMdoList
+- uid: SuperOffice.CRM.Services.FieldInfoRelation
+  commentId: T:SuperOffice.CRM.Services.FieldInfoRelation
+  isExternal: true
+  name: FieldInfoRelation
+  nameWithType: FieldInfoRelation
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation
+- uid: SuperOffice.CRM.Services.FieldInfoShortText
+  commentId: T:SuperOffice.CRM.Services.FieldInfoShortText
+  isExternal: true
+  name: FieldInfoShortText
+  nameWithType: FieldInfoShortText
+  fullName: SuperOffice.CRM.Services.FieldInfoShortText
+- uid: SuperOffice.CRM.Services.FieldInfoTime
+  commentId: T:SuperOffice.CRM.Services.FieldInfoTime
+  isExternal: true
+  name: FieldInfoTime
+  nameWithType: FieldInfoTime
+  fullName: SuperOffice.CRM.Services.FieldInfoTime
+- uid: SuperOffice.CRM.Services.FieldInfoTimeSpan
+  commentId: T:SuperOffice.CRM.Services.FieldInfoTimeSpan
+  isExternal: true
+  name: FieldInfoTimeSpan
+  nameWithType: FieldInfoTimeSpan
+  fullName: SuperOffice.CRM.Services.FieldInfoTimeSpan
 - uid: SuperOffice.CRM.Services.FieldMetadata
   commentId: T:SuperOffice.CRM.Services.FieldMetadata
   isExternal: true
@@ -2106,11 +2522,16 @@ references:
   fullName: SuperOffice.CRM.Services.FieldMetadataDictionary
 - uid: SuperOffice.CRM.Services.FieldMetadataDictionaryExt
   commentId: T:SuperOffice.CRM.Services.FieldMetadataDictionaryExt
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: FieldMetadataDictionaryExt
   nameWithType: FieldMetadataDictionaryExt
   fullName: SuperOffice.CRM.Services.FieldMetadataDictionaryExt
+- uid: SuperOffice.CRM.Services.FieldValue
+  commentId: T:SuperOffice.CRM.Services.FieldValue
+  isExternal: true
+  name: FieldValue
+  nameWithType: FieldValue
+  fullName: SuperOffice.CRM.Services.FieldValue
 - uid: SuperOffice.CRM.Services.FieldValueInfo
   commentId: T:SuperOffice.CRM.Services.FieldValueInfo
   isExternal: true
@@ -2173,6 +2594,13 @@ references:
   name: HeadingEntity
   nameWithType: HeadingEntity
   fullName: SuperOffice.CRM.Services.HeadingEntity
+- uid: SuperOffice.CRM.Services.HierarchyEntity
+  commentId: T:SuperOffice.CRM.Services.HierarchyEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: HierarchyEntity
+  nameWithType: HierarchyEntity
+  fullName: SuperOffice.CRM.Services.HierarchyEntity
 - uid: SuperOffice.CRM.Services.History
   commentId: T:SuperOffice.CRM.Services.History
   parent: SuperOffice.CRM.Services
@@ -2233,6 +2661,12 @@ references:
   name: ImportLine
   nameWithType: ImportLine
   fullName: SuperOffice.CRM.Services.ImportLine
+- uid: SuperOffice.CRM.Services.Installation
+  commentId: T:SuperOffice.CRM.Services.Installation
+  isExternal: true
+  name: Installation
+  nameWithType: Installation
+  fullName: SuperOffice.CRM.Services.Installation
 - uid: SuperOffice.CRM.Services.IPublishedCarrier
   commentId: T:SuperOffice.CRM.Services.IPublishedCarrier
   parent: SuperOffice.CRM.Services
@@ -2254,6 +2688,13 @@ references:
   name: IVisibleForCarrier
   nameWithType: IVisibleForCarrier
   fullName: SuperOffice.CRM.Services.IVisibleForCarrier
+- uid: SuperOffice.CRM.Services.KbCategory
+  commentId: T:SuperOffice.CRM.Services.KbCategory
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: KbCategory
+  nameWithType: KbCategory
+  fullName: SuperOffice.CRM.Services.KbCategory
 - uid: SuperOffice.CRM.Services.LanguageInfo
   commentId: T:SuperOffice.CRM.Services.LanguageInfo
   parent: SuperOffice.CRM.Services
@@ -2308,6 +2749,12 @@ references:
   name: ListEntity
   nameWithType: ListEntity
   fullName: SuperOffice.CRM.Services.ListEntity
+- uid: SuperOffice.CRM.Services.ListItem
+  commentId: T:SuperOffice.CRM.Services.ListItem
+  isExternal: true
+  name: ListItem
+  nameWithType: ListItem
+  fullName: SuperOffice.CRM.Services.ListItem
 - uid: SuperOffice.CRM.Services.ListItemEntity
   commentId: T:SuperOffice.CRM.Services.ListItemEntity
   parent: SuperOffice.CRM.Services
@@ -2328,6 +2775,13 @@ references:
   name: SelectableMDOListItem
   nameWithType: SelectableMDOListItem
   fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+- uid: SuperOffice.CRM.Services.LiveUiConfig
+  commentId: T:SuperOffice.CRM.Services.LiveUiConfig
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: LiveUiConfig
+  nameWithType: LiveUiConfig
+  fullName: SuperOffice.CRM.Services.LiveUiConfig
 - uid: SuperOffice.CRM.Services.LocalizedField
   commentId: T:SuperOffice.CRM.Services.LocalizedField
   isExternal: true
@@ -2347,6 +2801,25 @@ references:
   name: Logging
   nameWithType: Logging
   fullName: SuperOffice.CRM.Services.Logging
+- uid: SuperOffice.CRM.Services.Mailbox
+  commentId: T:SuperOffice.CRM.Services.Mailbox
+  isExternal: true
+  name: Mailbox
+  nameWithType: Mailbox
+  fullName: SuperOffice.CRM.Services.Mailbox
+- uid: SuperOffice.CRM.Services.MailboxEntity
+  commentId: T:SuperOffice.CRM.Services.MailboxEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: MailboxEntity
+  nameWithType: MailboxEntity
+  fullName: SuperOffice.CRM.Services.MailboxEntity
+- uid: SuperOffice.CRM.Services.MailingStatistics
+  commentId: T:SuperOffice.CRM.Services.MailingStatistics
+  isExternal: true
+  name: MailingStatistics
+  nameWithType: MailingStatistics
+  fullName: SuperOffice.CRM.Services.MailingStatistics
 - uid: SuperOffice.CRM.Services.MailMergeSettings
   commentId: T:SuperOffice.CRM.Services.MailMergeSettings
   parent: SuperOffice.CRM.Services
@@ -2368,6 +2841,12 @@ references:
   name: MassOperationResult
   nameWithType: MassOperationResult
   fullName: SuperOffice.CRM.Services.MassOperationResult
+- uid: SuperOffice.CRM.Services.MetricPair
+  commentId: T:SuperOffice.CRM.Services.MetricPair
+  isExternal: true
+  name: MetricPair
+  nameWithType: MetricPair
+  fullName: SuperOffice.CRM.Services.MetricPair
 - uid: SuperOffice.CRM.Services.ModuleLicenseLink
   commentId: T:SuperOffice.CRM.Services.ModuleLicenseLink
   parent: SuperOffice.CRM.Services
@@ -2389,12 +2868,31 @@ references:
   name: MultiAlarmData
   nameWithType: MultiAlarmData
   fullName: SuperOffice.CRM.Services.MultiAlarmData
+- uid: SuperOffice.CRM.Services.NextAvailableTime
+  commentId: T:SuperOffice.CRM.Services.NextAvailableTime
+  isExternal: true
+  name: NextAvailableTime
+  nameWithType: NextAvailableTime
+  fullName: SuperOffice.CRM.Services.NextAvailableTime
+- uid: SuperOffice.CRM.Services.NotificationEvent
+  commentId: T:SuperOffice.CRM.Services.NotificationEvent
+  isExternal: true
+  name: NotificationEvent
+  nameWithType: NotificationEvent
+  fullName: SuperOffice.CRM.Services.NotificationEvent
 - uid: SuperOffice.CRM.Services.OperationInfo
   commentId: T:SuperOffice.CRM.Services.OperationInfo
   isExternal: true
   name: OperationInfo
   nameWithType: OperationInfo
   fullName: SuperOffice.CRM.Services.OperationInfo
+- uid: SuperOffice.CRM.Services.OperationResult
+  commentId: T:SuperOffice.CRM.Services.OperationResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: OperationResult
+  nameWithType: OperationResult
+  fullName: SuperOffice.CRM.Services.OperationResult
 - uid: SuperOffice.CRM.Services.ParticipantSyncData
   commentId: T:SuperOffice.CRM.Services.ParticipantSyncData
   isExternal: true
@@ -2428,6 +2926,20 @@ references:
   name: Person
   nameWithType: Person
   fullName: SuperOffice.CRM.Services.Person
+- uid: SuperOffice.CRM.Services.PersonImage
+  commentId: T:SuperOffice.CRM.Services.PersonImage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PersonImage
+  nameWithType: PersonImage
+  fullName: SuperOffice.CRM.Services.PersonImage
+- uid: SuperOffice.CRM.Services.PersonSummary
+  commentId: T:SuperOffice.CRM.Services.PersonSummary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PersonSummary
+  nameWithType: PersonSummary
+  fullName: SuperOffice.CRM.Services.PersonSummary
 - uid: SuperOffice.CRM.Services.PhoneListItem
   commentId: T:SuperOffice.CRM.Services.PhoneListItem
   isExternal: true
@@ -2511,6 +3023,47 @@ references:
   name: PreferenceSpec
   nameWithType: PreferenceSpec
   fullName: SuperOffice.CRM.Services.PreferenceSpec
+- uid: SuperOffice.CRM.Services.PreferenceTestReturn
+  commentId: T:SuperOffice.CRM.Services.PreferenceTestReturn
+  isExternal: true
+  name: PreferenceTestReturn
+  nameWithType: PreferenceTestReturn
+  fullName: SuperOffice.CRM.Services.PreferenceTestReturn
+- uid: SuperOffice.CRM.Services.PreferredTimeZone
+  commentId: T:SuperOffice.CRM.Services.PreferredTimeZone
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreferredTimeZone
+  nameWithType: PreferredTimeZone
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone
+- uid: SuperOffice.CRM.Services.PreviewContact
+  commentId: T:SuperOffice.CRM.Services.PreviewContact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewContact
+  nameWithType: PreviewContact
+  fullName: SuperOffice.CRM.Services.PreviewContact
+- uid: SuperOffice.CRM.Services.PreviewDash
+  commentId: T:SuperOffice.CRM.Services.PreviewDash
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewDash
+  nameWithType: PreviewDash
+  fullName: SuperOffice.CRM.Services.PreviewDash
+- uid: SuperOffice.CRM.Services.PreviewDashTile
+  commentId: T:SuperOffice.CRM.Services.PreviewDashTile
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewDashTile
+  nameWithType: PreviewDashTile
+  fullName: SuperOffice.CRM.Services.PreviewDashTile
+- uid: SuperOffice.CRM.Services.PreviewFaqEntry
+  commentId: T:SuperOffice.CRM.Services.PreviewFaqEntry
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewFaqEntry
+  nameWithType: PreviewFaqEntry
+  fullName: SuperOffice.CRM.Services.PreviewFaqEntry
 - uid: SuperOffice.CRM.Services.PreviewMailing
   commentId: T:SuperOffice.CRM.Services.PreviewMailing
   parent: SuperOffice.CRM.Services
@@ -2525,6 +3078,20 @@ references:
   name: PreviewMailingHeader
   nameWithType: PreviewMailingHeader
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader
+- uid: SuperOffice.CRM.Services.PreviewQuickReply
+  commentId: T:SuperOffice.CRM.Services.PreviewQuickReply
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewQuickReply
+  nameWithType: PreviewQuickReply
+  fullName: SuperOffice.CRM.Services.PreviewQuickReply
+- uid: SuperOffice.CRM.Services.PreviewReplyTemplate
+  commentId: T:SuperOffice.CRM.Services.PreviewReplyTemplate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewReplyTemplate
+  nameWithType: PreviewReplyTemplate
+  fullName: SuperOffice.CRM.Services.PreviewReplyTemplate
 - uid: SuperOffice.CRM.Services.PriceList
   commentId: T:SuperOffice.CRM.Services.PriceList
   parent: SuperOffice.CRM.Services
@@ -2669,6 +3236,13 @@ references:
   name: QuoteAlternativeRecalculated
   nameWithType: QuoteAlternativeRecalculated
   fullName: SuperOffice.CRM.Services.QuoteAlternativeRecalculated
+- uid: SuperOffice.CRM.Services.QuoteApproveReason
+  commentId: T:SuperOffice.CRM.Services.QuoteApproveReason
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: QuoteApproveReason
+  nameWithType: QuoteApproveReason
+  fullName: SuperOffice.CRM.Services.QuoteApproveReason
 - uid: SuperOffice.CRM.Services.QuoteConnection
   commentId: T:SuperOffice.CRM.Services.QuoteConnection
   parent: SuperOffice.CRM.Services
@@ -2682,6 +3256,13 @@ references:
   name: QuoteContext
   nameWithType: QuoteContext
   fullName: SuperOffice.CRM.Services.QuoteContext
+- uid: SuperOffice.CRM.Services.QuoteDenyReason
+  commentId: T:SuperOffice.CRM.Services.QuoteDenyReason
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: QuoteDenyReason
+  nameWithType: QuoteDenyReason
+  fullName: SuperOffice.CRM.Services.QuoteDenyReason
 - uid: SuperOffice.CRM.Services.QuoteEntity
   commentId: T:SuperOffice.CRM.Services.QuoteEntity
   parent: SuperOffice.CRM.Services
@@ -2803,6 +3384,12 @@ references:
   name: ReasonStalled
   nameWithType: ReasonStalled
   fullName: SuperOffice.CRM.Services.ReasonStalled
+- uid: SuperOffice.CRM.Services.Recipient
+  commentId: T:SuperOffice.CRM.Services.Recipient
+  isExternal: true
+  name: Recipient
+  nameWithType: Recipient
+  fullName: SuperOffice.CRM.Services.Recipient
 - uid: SuperOffice.CRM.Services.RecipientStatistics
   commentId: T:SuperOffice.CRM.Services.RecipientStatistics
   parent: SuperOffice.CRM.Services
@@ -2837,6 +3424,12 @@ references:
   name: RefCountEntity
   nameWithType: RefCountEntity
   fullName: SuperOffice.CRM.Services.RefCountEntity
+- uid: SuperOffice.CRM.Services.RelatedData
+  commentId: T:SuperOffice.CRM.Services.RelatedData
+  isExternal: true
+  name: RelatedData
+  nameWithType: RelatedData
+  fullName: SuperOffice.CRM.Services.RelatedData
 - uid: SuperOffice.CRM.Services.RelationDefinitionEntity
   commentId: T:SuperOffice.CRM.Services.RelationDefinitionEntity
   parent: SuperOffice.CRM.Services
@@ -2856,6 +3449,20 @@ references:
   name: RemoteTimeZoneMethods
   nameWithType: RemoteTimeZoneMethods
   fullName: SuperOffice.CRM.Services.RemoteTimeZoneMethods
+- uid: SuperOffice.CRM.Services.ReplyTemplate
+  commentId: T:SuperOffice.CRM.Services.ReplyTemplate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate
+  fullName: SuperOffice.CRM.Services.ReplyTemplate
+- uid: SuperOffice.CRM.Services.ReplyTemplateParsed
+  commentId: T:SuperOffice.CRM.Services.ReplyTemplateParsed
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ReplyTemplateParsed
+  nameWithType: ReplyTemplateParsed
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
 - uid: SuperOffice.CRM.Services.ReportEntity
   commentId: T:SuperOffice.CRM.Services.ReportEntity
   parent: SuperOffice.CRM.Services
@@ -2959,6 +3566,12 @@ references:
   name: SaleSummary
   nameWithType: SaleSummary
   fullName: SuperOffice.CRM.Services.SaleSummary
+- uid: SuperOffice.CRM.Services.SaleSummaryItem
+  commentId: T:SuperOffice.CRM.Services.SaleSummaryItem
+  isExternal: true
+  name: SaleSummaryItem
+  nameWithType: SaleSummaryItem
+  fullName: SuperOffice.CRM.Services.SaleSummaryItem
 - uid: SuperOffice.CRM.Services.SaleType
   commentId: T:SuperOffice.CRM.Services.SaleType
   parent: SuperOffice.CRM.Services
@@ -3008,6 +3621,13 @@ references:
   name: SelectionEntity
   nameWithType: SelectionEntity
   fullName: SuperOffice.CRM.Services.SelectionEntity
+- uid: SuperOffice.CRM.Services.SelectionForFind
+  commentId: T:SuperOffice.CRM.Services.SelectionForFind
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SelectionForFind
+  nameWithType: SelectionForFind
+  fullName: SuperOffice.CRM.Services.SelectionForFind
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues
   commentId: T:SuperOffice.CRM.Services.SelectionMemberEditValues
   parent: SuperOffice.CRM.Services
@@ -3015,6 +3635,19 @@ references:
   name: SelectionMemberEditValues
   nameWithType: SelectionMemberEditValues
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues
+- uid: SuperOffice.CRM.Services.SelectionSummaryItem
+  commentId: T:SuperOffice.CRM.Services.SelectionSummaryItem
+  isExternal: true
+  name: SelectionSummaryItem
+  nameWithType: SelectionSummaryItem
+  fullName: SuperOffice.CRM.Services.SelectionSummaryItem
+- uid: SuperOffice.CRM.Services.Sentiment
+  commentId: T:SuperOffice.CRM.Services.Sentiment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Sentiment
+  nameWithType: Sentiment
+  fullName: SuperOffice.CRM.Services.Sentiment
 - uid: SuperOffice.CRM.Services.Sentry
   commentId: T:SuperOffice.CRM.Services.Sentry
   isExternal: true
@@ -3028,6 +3661,20 @@ references:
   name: ServiceAuth
   nameWithType: ServiceAuth
   fullName: SuperOffice.CRM.Services.ServiceAuth
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  commentId: T:SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ShipmentMessageBlockEntity
+  nameWithType: ShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.ShipmentMessageEntity
+  commentId: T:SuperOffice.CRM.Services.ShipmentMessageEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ShipmentMessageEntity
+  nameWithType: ShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
 - uid: SuperOffice.CRM.Services.SmsConfig
   commentId: T:SuperOffice.CRM.Services.SmsConfig
   parent: SuperOffice.CRM.Services
@@ -3035,6 +3682,13 @@ references:
   name: SmsConfig
   nameWithType: SmsConfig
   fullName: SuperOffice.CRM.Services.SmsConfig
+- uid: SuperOffice.CRM.Services.SmtpTestResult
+  commentId: T:SuperOffice.CRM.Services.SmtpTestResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SmtpTestResult
+  nameWithType: SmtpTestResult
+  fullName: SuperOffice.CRM.Services.SmtpTestResult
 - uid: SuperOffice.CRM.Services.Source
   commentId: T:SuperOffice.CRM.Services.Source
   parent: SuperOffice.CRM.Services
@@ -3096,6 +3750,12 @@ references:
   name: SuggestedDocumentEntity
   nameWithType: SuggestedDocumentEntity
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity
+- uid: SuperOffice.CRM.Services.Summarizer
+  commentId: T:SuperOffice.CRM.Services.Summarizer
+  isExternal: true
+  name: Summarizer
+  nameWithType: Summarizer
+  fullName: SuperOffice.CRM.Services.Summarizer
 - uid: SuperOffice.CRM.Services.SyncUserAccount
   commentId: T:SuperOffice.CRM.Services.SyncUserAccount
   parent: SuperOffice.CRM.Services
@@ -3105,11 +3765,24 @@ references:
   fullName: SuperOffice.CRM.Services.SyncUserAccount
 - uid: SuperOffice.CRM.Services.SystemEventEntity
   commentId: T:SuperOffice.CRM.Services.SystemEventEntity
-  parent: SuperOffice.CRM.Services
   isExternal: true
   name: SystemEventEntity
   nameWithType: SystemEventEntity
   fullName: SuperOffice.CRM.Services.SystemEventEntity
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings
+  commentId: T:SuperOffice.CRM.Services.SystemTemplateSettings
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SystemTemplateSettings
+  nameWithType: SystemTemplateSettings
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings
+- uid: SuperOffice.CRM.Services.TableRecord
+  commentId: T:SuperOffice.CRM.Services.TableRecord
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TableRecord
+  nameWithType: TableRecord
+  fullName: SuperOffice.CRM.Services.TableRecord
 - uid: SuperOffice.CRM.Services.TabOrder
   commentId: T:SuperOffice.CRM.Services.TabOrder
   parent: SuperOffice.CRM.Services
@@ -3123,6 +3796,47 @@ references:
   name: Tag
   nameWithType: Tag
   fullName: SuperOffice.CRM.Services.Tag
+- uid: SuperOffice.CRM.Services.TargetAssignment
+  commentId: T:SuperOffice.CRM.Services.TargetAssignment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetAssignment
+  nameWithType: TargetAssignment
+  fullName: SuperOffice.CRM.Services.TargetAssignment
+- uid: SuperOffice.CRM.Services.TargetChange
+  commentId: T:SuperOffice.CRM.Services.TargetChange
+  isExternal: true
+  name: TargetChange
+  nameWithType: TargetChange
+  fullName: SuperOffice.CRM.Services.TargetChange
+- uid: SuperOffice.CRM.Services.TargetDimension
+  commentId: T:SuperOffice.CRM.Services.TargetDimension
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetDimension
+  nameWithType: TargetDimension
+  fullName: SuperOffice.CRM.Services.TargetDimension
+- uid: SuperOffice.CRM.Services.TargetGroup
+  commentId: T:SuperOffice.CRM.Services.TargetGroup
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetGroup
+  nameWithType: TargetGroup
+  fullName: SuperOffice.CRM.Services.TargetGroup
+- uid: SuperOffice.CRM.Services.TargetRevision
+  commentId: T:SuperOffice.CRM.Services.TargetRevision
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetRevision
+  nameWithType: TargetRevision
+  fullName: SuperOffice.CRM.Services.TargetRevision
+- uid: SuperOffice.CRM.Services.TargetRevisionHistory
+  commentId: T:SuperOffice.CRM.Services.TargetRevisionHistory
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TargetRevisionHistory
+  nameWithType: TargetRevisionHistory
+  fullName: SuperOffice.CRM.Services.TargetRevisionHistory
 - uid: SuperOffice.CRM.Services.Task
   commentId: T:SuperOffice.CRM.Services.Task
   parent: SuperOffice.CRM.Services
@@ -3137,6 +3851,13 @@ references:
   name: TaskListItem
   nameWithType: TaskListItem
   fullName: SuperOffice.CRM.Services.TaskListItem
+- uid: SuperOffice.CRM.Services.TaskMenu
+  commentId: T:SuperOffice.CRM.Services.TaskMenu
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TaskMenu
+  nameWithType: TaskMenu
+  fullName: SuperOffice.CRM.Services.TaskMenu
 - uid: SuperOffice.CRM.Services.TemplateVariablesParameters
   commentId: T:SuperOffice.CRM.Services.TemplateVariablesParameters
   parent: SuperOffice.CRM.Services
@@ -3151,6 +3872,33 @@ references:
   name: TemporaryKeyInfo
   nameWithType: TemporaryKeyInfo
   fullName: SuperOffice.CRM.Services.TemporaryKeyInfo
+- uid: SuperOffice.CRM.Services.TextServices
+  commentId: T:SuperOffice.CRM.Services.TextServices
+  isExternal: true
+  name: TextServices
+  nameWithType: TextServices
+  fullName: SuperOffice.CRM.Services.TextServices
+- uid: SuperOffice.CRM.Services.Ticket
+  commentId: T:SuperOffice.CRM.Services.Ticket
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Ticket
+  nameWithType: Ticket
+  fullName: SuperOffice.CRM.Services.Ticket
+- uid: SuperOffice.CRM.Services.TicketBatchReplyData
+  commentId: T:SuperOffice.CRM.Services.TicketBatchReplyData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketBatchReplyData
+  nameWithType: TicketBatchReplyData
+  fullName: SuperOffice.CRM.Services.TicketBatchReplyData
+- uid: SuperOffice.CRM.Services.TicketCategory
+  commentId: T:SuperOffice.CRM.Services.TicketCategory
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketCategory
+  nameWithType: TicketCategory
+  fullName: SuperOffice.CRM.Services.TicketCategory
 - uid: SuperOffice.CRM.Services.TicketCategoryEntity
   commentId: T:SuperOffice.CRM.Services.TicketCategoryEntity
   parent: SuperOffice.CRM.Services
@@ -3158,6 +3906,60 @@ references:
   name: TicketCategoryEntity
   nameWithType: TicketCategoryEntity
   fullName: SuperOffice.CRM.Services.TicketCategoryEntity
+- uid: SuperOffice.CRM.Services.TicketCategoryMembershipEntity
+  commentId: T:SuperOffice.CRM.Services.TicketCategoryMembershipEntity
+  isExternal: true
+  name: TicketCategoryMembershipEntity
+  nameWithType: TicketCategoryMembershipEntity
+  fullName: SuperOffice.CRM.Services.TicketCategoryMembershipEntity
+- uid: SuperOffice.CRM.Services.TicketEntity
+  commentId: T:SuperOffice.CRM.Services.TicketEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketEntity
+  nameWithType: TicketEntity
+  fullName: SuperOffice.CRM.Services.TicketEntity
+- uid: SuperOffice.CRM.Services.TicketFormSubmission
+  commentId: T:SuperOffice.CRM.Services.TicketFormSubmission
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketFormSubmission
+  nameWithType: TicketFormSubmission
+  fullName: SuperOffice.CRM.Services.TicketFormSubmission
+- uid: SuperOffice.CRM.Services.TicketInfo
+  commentId: T:SuperOffice.CRM.Services.TicketInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketInfo
+  nameWithType: TicketInfo
+  fullName: SuperOffice.CRM.Services.TicketInfo
+- uid: SuperOffice.CRM.Services.TicketMessage
+  commentId: T:SuperOffice.CRM.Services.TicketMessage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketMessage
+  nameWithType: TicketMessage
+  fullName: SuperOffice.CRM.Services.TicketMessage
+- uid: SuperOffice.CRM.Services.TicketMessageContent
+  commentId: T:SuperOffice.CRM.Services.TicketMessageContent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketMessageContent
+  nameWithType: TicketMessageContent
+  fullName: SuperOffice.CRM.Services.TicketMessageContent
+- uid: SuperOffice.CRM.Services.TicketMessageEntity
+  commentId: T:SuperOffice.CRM.Services.TicketMessageEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketMessageEntity
+  nameWithType: TicketMessageEntity
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity
+- uid: SuperOffice.CRM.Services.TicketMessageHeader
+  commentId: T:SuperOffice.CRM.Services.TicketMessageHeader
+  isExternal: true
+  name: TicketMessageHeader
+  nameWithType: TicketMessageHeader
+  fullName: SuperOffice.CRM.Services.TicketMessageHeader
 - uid: SuperOffice.CRM.Services.TicketPriority
   commentId: T:SuperOffice.CRM.Services.TicketPriority
   parent: SuperOffice.CRM.Services
@@ -3165,13 +3967,6 @@ references:
   name: TicketPriority
   nameWithType: TicketPriority
   fullName: SuperOffice.CRM.Services.TicketPriority
-- uid: SuperOffice.CRM.Services.TicketStatusEntity
-  commentId: T:SuperOffice.CRM.Services.TicketStatusEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TicketStatusEntity
-  nameWithType: TicketStatusEntity
-  fullName: SuperOffice.CRM.Services.TicketStatusEntity
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity
   commentId: T:SuperOffice.CRM.Services.TicketPriorityEntity
   parent: SuperOffice.CRM.Services
@@ -3179,6 +3974,39 @@ references:
   name: TicketPriorityEntity
   nameWithType: TicketPriorityEntity
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  commentId: T:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  isExternal: true
+  name: TicketPriorityEscalationLevelEntity
+  nameWithType: TicketPriorityEscalationLevelEntity
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+- uid: SuperOffice.CRM.Services.TicketStatusEntity
+  commentId: T:SuperOffice.CRM.Services.TicketStatusEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketStatusEntity
+  nameWithType: TicketStatusEntity
+  fullName: SuperOffice.CRM.Services.TicketStatusEntity
+- uid: SuperOffice.CRM.Services.TicketSummaryItem
+  commentId: T:SuperOffice.CRM.Services.TicketSummaryItem
+  isExternal: true
+  name: TicketSummaryItem
+  nameWithType: TicketSummaryItem
+  fullName: SuperOffice.CRM.Services.TicketSummaryItem
+- uid: SuperOffice.CRM.Services.TicketType
+  commentId: T:SuperOffice.CRM.Services.TicketType
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketType
+  nameWithType: TicketType
+  fullName: SuperOffice.CRM.Services.TicketType
+- uid: SuperOffice.CRM.Services.TicketTypeEntity
+  commentId: T:SuperOffice.CRM.Services.TicketTypeEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketTypeEntity
+  nameWithType: TicketTypeEntity
+  fullName: SuperOffice.CRM.Services.TicketTypeEntity
 - uid: SuperOffice.CRM.Services.TileData
   commentId: T:SuperOffice.CRM.Services.TileData
   isExternal: true
@@ -3191,6 +4019,39 @@ references:
   name: TileDataRow
   nameWithType: TileDataRow
   fullName: SuperOffice.CRM.Services.TileDataRow
+- uid: SuperOffice.CRM.Services.TokenManagementInfo
+  commentId: T:SuperOffice.CRM.Services.TokenManagementInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TokenManagementInfo
+  nameWithType: TokenManagementInfo
+  fullName: SuperOffice.CRM.Services.TokenManagementInfo
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity
+  commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TriggerScriptEntity
+  nameWithType: TriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+- uid: SuperOffice.CRM.Services.TypicalSearch
+  commentId: T:SuperOffice.CRM.Services.TypicalSearch
+  isExternal: true
+  name: TypicalSearch
+  nameWithType: TypicalSearch
+  fullName: SuperOffice.CRM.Services.TypicalSearch
+- uid: SuperOffice.CRM.Services.TypicalSearches
+  commentId: T:SuperOffice.CRM.Services.TypicalSearches
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TypicalSearches
+  nameWithType: TypicalSearches
+  fullName: SuperOffice.CRM.Services.TypicalSearches
+- uid: SuperOffice.CRM.Services.UiEvent
+  commentId: T:SuperOffice.CRM.Services.UiEvent
+  isExternal: true
+  name: UiEvent
+  nameWithType: UiEvent
+  fullName: SuperOffice.CRM.Services.UiEvent
 - uid: SuperOffice.CRM.Services.UntrustedCredentials
   commentId: T:SuperOffice.CRM.Services.UntrustedCredentials
   parent: SuperOffice.CRM.Services
@@ -3217,6 +4078,13 @@ references:
   name: User
   nameWithType: User
   fullName: SuperOffice.CRM.Services.User
+- uid: SuperOffice.CRM.Services.UserCandidate
+  commentId: T:SuperOffice.CRM.Services.UserCandidate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: UserCandidate
+  nameWithType: UserCandidate
+  fullName: SuperOffice.CRM.Services.UserCandidate
 - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
   commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfo
   parent: SuperOffice.CRM.Services
@@ -3238,6 +4106,13 @@ references:
   name: UserInfo
   nameWithType: UserInfo
   fullName: SuperOffice.CRM.Services.UserInfo
+- uid: SuperOffice.CRM.Services.UserPresenceStatus
+  commentId: T:SuperOffice.CRM.Services.UserPresenceStatus
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: UserPresenceStatus
+  nameWithType: UserPresenceStatus
+  fullName: SuperOffice.CRM.Services.UserPresenceStatus
 - uid: SuperOffice.CRM.Services.UserValidationResult
   commentId: T:SuperOffice.CRM.Services.UserValidationResult
   parent: SuperOffice.CRM.Services
@@ -3279,588 +4154,188 @@ references:
   name: WebPanelEntity
   nameWithType: WebPanelEntity
   fullName: SuperOffice.CRM.Services.WebPanelEntity
-- uid: SuperOffice.CRM.Services.TicketAgent
-  commentId: T:SuperOffice.CRM.Services.TicketAgent
+- uid: SuperOffice.CRM.Services.Workflow
+  commentId: T:SuperOffice.CRM.Services.Workflow
   isExternal: true
-  name: TicketAgent
-  nameWithType: TicketAgent
-  fullName: SuperOffice.CRM.Services.TicketAgent
-- uid: SuperOffice.CRM.Services.ITicketAgent
-  commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  name: Workflow
+  nameWithType: Workflow
+  fullName: SuperOffice.CRM.Services.Workflow
+- uid: SuperOffice.CRM.Services.WorkflowEvent
+  commentId: T:SuperOffice.CRM.Services.WorkflowEvent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: ITicketAgent
-  nameWithType: ITicketAgent
-  fullName: SuperOffice.CRM.Services.ITicketAgent
-- uid: SuperOffice.CRM.Services.TicketEntity
-  commentId: T:SuperOffice.CRM.Services.TicketEntity
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent
+  fullName: SuperOffice.CRM.Services.WorkflowEvent
+- uid: SuperOffice.CRM.Services.WorkflowEventResult
+  commentId: T:SuperOffice.CRM.Services.WorkflowEventResult
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: TicketEntity
-  nameWithType: TicketEntity
-  fullName: SuperOffice.CRM.Services.TicketEntity
-- uid: SuperOffice.CRM.Services.TicketMessageEntity
-  commentId: T:SuperOffice.CRM.Services.TicketMessageEntity
+  name: WorkflowEventResult
+  nameWithType: WorkflowEventResult
+  fullName: SuperOffice.CRM.Services.WorkflowEventResult
+- uid: SuperOffice.CRM.Services.WorkflowFilter
+  commentId: T:SuperOffice.CRM.Services.WorkflowFilter
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: TicketMessageEntity
-  nameWithType: TicketMessageEntity
-  fullName: SuperOffice.CRM.Services.TicketMessageEntity
-- uid: SuperOffice.CRM.Services.Ticket
-  commentId: T:SuperOffice.CRM.Services.Ticket
+  name: WorkflowFilter
+  nameWithType: WorkflowFilter
+  fullName: SuperOffice.CRM.Services.WorkflowFilter
+- uid: SuperOffice.CRM.Services.WorkflowGoal
+  commentId: T:SuperOffice.CRM.Services.WorkflowGoal
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: Ticket
-  nameWithType: Ticket
-  fullName: SuperOffice.CRM.Services.Ticket
-- uid: SuperOffice.CRM.Services.TicketMessage
-  commentId: T:SuperOffice.CRM.Services.TicketMessage
+  name: WorkflowGoal
+  nameWithType: WorkflowGoal
+  fullName: SuperOffice.CRM.Services.WorkflowGoal
+- uid: SuperOffice.CRM.Services.WorkflowStepAddToList
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepAddToList
+  isExternal: true
+  name: WorkflowStepAddToList
+  nameWithType: WorkflowStepAddToList
+  fullName: SuperOffice.CRM.Services.WorkflowStepAddToList
+- uid: SuperOffice.CRM.Services.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: TicketMessage
-  nameWithType: TicketMessage
-  fullName: SuperOffice.CRM.Services.TicketMessage
-- uid: SuperOffice.CRM.Services.CustomerServiceConfig
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceConfig
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
   isExternal: true
-  name: CustomerServiceConfig
-  nameWithType: CustomerServiceConfig
-  fullName: SuperOffice.CRM.Services.CustomerServiceConfig
-- uid: SuperOffice.CRM.Services.TableRecord
-  commentId: T:SuperOffice.CRM.Services.TableRecord
+  name: WorkflowStepCreateFollowUp
+  nameWithType: WorkflowStepCreateFollowUp
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  isExternal: true
+  name: WorkflowStepCreateRequest
+  nameWithType: WorkflowStepCreateRequest
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepCreateSale
+  isExternal: true
+  name: WorkflowStepCreateSale
+  nameWithType: WorkflowStepCreateSale
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
+  isExternal: true
+  name: WorkflowStepNotifyByEmail
+  nameWithType: WorkflowStepNotifyByEmail
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
+- uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+  isExternal: true
+  name: WorkflowStepNotifyBySMS
+  nameWithType: WorkflowStepNotifyBySMS
+  fullName: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+- uid: SuperOffice.CRM.Services.WorkflowStepOption
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepOption
+  isExternal: true
+  name: WorkflowStepOption
+  nameWithType: WorkflowStepOption
+  fullName: SuperOffice.CRM.Services.WorkflowStepOption
+- uid: SuperOffice.CRM.Services.WorkflowStepOptionBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: TableRecord
-  nameWithType: TableRecord
-  fullName: SuperOffice.CRM.Services.TableRecord
-- uid: SuperOffice.CRM.Services.CRMScriptResult
-  commentId: T:SuperOffice.CRM.Services.CRMScriptResult
+  name: WorkflowStepOptionBase
+  nameWithType: WorkflowStepOptionBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase
+- uid: SuperOffice.CRM.Services.WorkflowStepOptionFormSubmission
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionFormSubmission
+  isExternal: true
+  name: WorkflowStepOptionFormSubmission
+  nameWithType: WorkflowStepOptionFormSubmission
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionFormSubmission
+- uid: SuperOffice.CRM.Services.WorkflowStepOptionLinkClicked
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionLinkClicked
+  isExternal: true
+  name: WorkflowStepOptionLinkClicked
+  nameWithType: WorkflowStepOptionLinkClicked
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionLinkClicked
+- uid: SuperOffice.CRM.Services.WorkflowStepOptionPersonData
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionPersonData
+  isExternal: true
+  name: WorkflowStepOptionPersonData
+  nameWithType: WorkflowStepOptionPersonData
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionPersonData
+- uid: SuperOffice.CRM.Services.WorkflowStepOptionProjectMembership
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionProjectMembership
+  isExternal: true
+  name: WorkflowStepOptionProjectMembership
+  nameWithType: WorkflowStepOptionProjectMembership
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionProjectMembership
+- uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership
+  isExternal: true
+  name: WorkflowStepOptionSelectionMembership
+  nameWithType: WorkflowStepOptionSelectionMembership
+  fullName: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership
+- uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+  isExternal: true
+  name: WorkflowStepRemoveFromList
+  nameWithType: WorkflowStepRemoveFromList
+  fullName: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+- uid: SuperOffice.CRM.Services.WorkflowStepRunScript
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepRunScript
+  isExternal: true
+  name: WorkflowStepRunScript
+  nameWithType: WorkflowStepRunScript
+  fullName: SuperOffice.CRM.Services.WorkflowStepRunScript
+- uid: SuperOffice.CRM.Services.WorkflowStepSendEmail
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepSendEmail
+  isExternal: true
+  name: WorkflowStepSendEmail
+  nameWithType: WorkflowStepSendEmail
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendEmail
+- uid: SuperOffice.CRM.Services.WorkflowStepSendSMS
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepSendSMS
+  isExternal: true
+  name: WorkflowStepSendSMS
+  nameWithType: WorkflowStepSendSMS
+  fullName: SuperOffice.CRM.Services.WorkflowStepSendSMS
+- uid: SuperOffice.CRM.Services.WorkflowStepSplit
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepSplit
+  isExternal: true
+  name: WorkflowStepSplit
+  nameWithType: WorkflowStepSplit
+  fullName: SuperOffice.CRM.Services.WorkflowStepSplit
+- uid: SuperOffice.CRM.Services.WorkflowStepUpdateParticipant
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepUpdateParticipant
+  isExternal: true
+  name: WorkflowStepUpdateParticipant
+  nameWithType: WorkflowStepUpdateParticipant
+  fullName: SuperOffice.CRM.Services.WorkflowStepUpdateParticipant
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForAction
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepWaitForAction
+  isExternal: true
+  name: WorkflowStepWaitForAction
+  nameWithType: WorkflowStepWaitForAction
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForAction
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  isExternal: true
+  name: WorkflowStepWaitForTime
+  nameWithType: WorkflowStepWaitForTime
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+- uid: SuperOffice.CRM.Services.WorkflowTrigger
+  commentId: T:SuperOffice.CRM.Services.WorkflowTrigger
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: CRMScriptResult
-  nameWithType: CRMScriptResult
-  fullName: SuperOffice.CRM.Services.CRMScriptResult
-- uid: SuperOffice.CRM.Services.Mailbox
-  commentId: T:SuperOffice.CRM.Services.Mailbox
-  isExternal: true
-  name: Mailbox
-  nameWithType: Mailbox
-  fullName: SuperOffice.CRM.Services.Mailbox
-- uid: SuperOffice.CRM.Services.TicketInfo
-  commentId: T:SuperOffice.CRM.Services.TicketInfo
+  name: WorkflowTrigger
+  nameWithType: WorkflowTrigger
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger
+- uid: SuperOffice.CRM.Services.UserHelper
+  commentId: T:SuperOffice.CRM.Services.UserHelper
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: TicketInfo
-  nameWithType: TicketInfo
-  fullName: SuperOffice.CRM.Services.TicketInfo
-- uid: SuperOffice.CRM.Services.ChatAgent
-  commentId: T:SuperOffice.CRM.Services.ChatAgent
-  isExternal: true
-  name: ChatAgent
-  nameWithType: ChatAgent
-  fullName: SuperOffice.CRM.Services.ChatAgent
-- uid: SuperOffice.CRM.Services.IChatAgent
-  commentId: T:SuperOffice.CRM.Services.IChatAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IChatAgent
-  nameWithType: IChatAgent
-  fullName: SuperOffice.CRM.Services.IChatAgent
-- uid: SuperOffice.CRM.Services.ChatPresence
-  commentId: T:SuperOffice.CRM.Services.ChatPresence
-  isExternal: true
-  name: ChatPresence
-  nameWithType: ChatPresence
-  fullName: SuperOffice.CRM.Services.ChatPresence
-- uid: SuperOffice.CRM.Services.AudienceAgent
-  commentId: T:SuperOffice.CRM.Services.AudienceAgent
-  isExternal: true
-  name: AudienceAgent
-  nameWithType: AudienceAgent
-  fullName: SuperOffice.CRM.Services.AudienceAgent
-- uid: SuperOffice.CRM.Services.IAudienceAgent
-  commentId: T:SuperOffice.CRM.Services.IAudienceAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IAudienceAgent
-  nameWithType: IAudienceAgent
-  fullName: SuperOffice.CRM.Services.IAudienceAgent
-- uid: SuperOffice.CRM.Services.AudienceConfigParameter
-  commentId: T:SuperOffice.CRM.Services.AudienceConfigParameter
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: AudienceConfigParameter
-  nameWithType: AudienceConfigParameter
-  fullName: SuperOffice.CRM.Services.AudienceConfigParameter
-- uid: SuperOffice.CRM.Services.AudienceLayoutEntity
-  commentId: T:SuperOffice.CRM.Services.AudienceLayoutEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: AudienceLayoutEntity
-  nameWithType: AudienceLayoutEntity
-  fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent
-  commentId: T:SuperOffice.CRM.Services.DatabaseTableAgent
-  isExternal: true
-  name: DatabaseTableAgent
-  nameWithType: DatabaseTableAgent
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent
-- uid: SuperOffice.CRM.Services.IDatabaseTableAgent
-  commentId: T:SuperOffice.CRM.Services.IDatabaseTableAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IDatabaseTableAgent
-  nameWithType: IDatabaseTableAgent
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
-- uid: SuperOffice.CRM.Services.EMailAppointment
-  commentId: T:SuperOffice.CRM.Services.EMailAppointment
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: EMailAppointment
-  nameWithType: EMailAppointment
-  fullName: SuperOffice.CRM.Services.EMailAppointment
-- uid: SuperOffice.CRM.Services.PreferenceTestReturn
-  commentId: T:SuperOffice.CRM.Services.PreferenceTestReturn
-  isExternal: true
-  name: PreferenceTestReturn
-  nameWithType: PreferenceTestReturn
-  fullName: SuperOffice.CRM.Services.PreferenceTestReturn
-- uid: SuperOffice.CRM.Services.SmtpTestResult
-  commentId: T:SuperOffice.CRM.Services.SmtpTestResult
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: SmtpTestResult
-  nameWithType: SmtpTestResult
-  fullName: SuperOffice.CRM.Services.SmtpTestResult
-- uid: SuperOffice.CRM.Services.CustomerServiceStartup
-  commentId: T:SuperOffice.CRM.Services.CustomerServiceStartup
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: CustomerServiceStartup
-  nameWithType: CustomerServiceStartup
-  fullName: SuperOffice.CRM.Services.CustomerServiceStartup
-- uid: SuperOffice.CRM.Services.CustomerCenterConfig
-  commentId: T:SuperOffice.CRM.Services.CustomerCenterConfig
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: CustomerCenterConfig
-  nameWithType: CustomerCenterConfig
-  fullName: SuperOffice.CRM.Services.CustomerCenterConfig
-- uid: SuperOffice.CRM.Services.ActivitySummaryItem
-  commentId: T:SuperOffice.CRM.Services.ActivitySummaryItem
-  isExternal: true
-  name: ActivitySummaryItem
-  nameWithType: ActivitySummaryItem
-  fullName: SuperOffice.CRM.Services.ActivitySummaryItem
-- uid: SuperOffice.CRM.Services.ChatSummaryItem
-  commentId: T:SuperOffice.CRM.Services.ChatSummaryItem
-  isExternal: true
-  name: ChatSummaryItem
-  nameWithType: ChatSummaryItem
-  fullName: SuperOffice.CRM.Services.ChatSummaryItem
-- uid: SuperOffice.CRM.Services.PersonSummary
-  commentId: T:SuperOffice.CRM.Services.PersonSummary
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: PersonSummary
-  nameWithType: PersonSummary
-  fullName: SuperOffice.CRM.Services.PersonSummary
-- uid: SuperOffice.CRM.Services.SaleSummaryItem
-  commentId: T:SuperOffice.CRM.Services.SaleSummaryItem
-  isExternal: true
-  name: SaleSummaryItem
-  nameWithType: SaleSummaryItem
-  fullName: SuperOffice.CRM.Services.SaleSummaryItem
-- uid: SuperOffice.CRM.Services.TicketSummaryItem
-  commentId: T:SuperOffice.CRM.Services.TicketSummaryItem
-  isExternal: true
-  name: TicketSummaryItem
-  nameWithType: TicketSummaryItem
-  fullName: SuperOffice.CRM.Services.TicketSummaryItem
-- uid: SuperOffice.CRM.Services.ContactSummary
-  commentId: T:SuperOffice.CRM.Services.ContactSummary
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ContactSummary
-  nameWithType: ContactSummary
-  fullName: SuperOffice.CRM.Services.ContactSummary
-- uid: SuperOffice.CRM.Services.EventData
-  commentId: T:SuperOffice.CRM.Services.EventData
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: EventData
-  nameWithType: EventData
-  fullName: SuperOffice.CRM.Services.EventData
-- uid: SuperOffice.CRM.Services.FieldInfoBase
-  commentId: T:SuperOffice.CRM.Services.FieldInfoBase
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: FieldInfoBase
-  nameWithType: FieldInfoBase
-  fullName: SuperOffice.CRM.Services.FieldInfoBase
-- uid: SuperOffice.CRM.Services.FieldInfoDate
-  commentId: T:SuperOffice.CRM.Services.FieldInfoDate
-  isExternal: true
-  name: FieldInfoDate
-  nameWithType: FieldInfoDate
-  fullName: SuperOffice.CRM.Services.FieldInfoDate
-- uid: SuperOffice.CRM.Services.FieldInfoInt
-  commentId: T:SuperOffice.CRM.Services.FieldInfoInt
-  isExternal: true
-  name: FieldInfoInt
-  nameWithType: FieldInfoInt
-  fullName: SuperOffice.CRM.Services.FieldInfoInt
-- uid: SuperOffice.CRM.Services.FieldInfoBool
-  commentId: T:SuperOffice.CRM.Services.FieldInfoBool
-  isExternal: true
-  name: FieldInfoBool
-  nameWithType: FieldInfoBool
-  fullName: SuperOffice.CRM.Services.FieldInfoBool
-- uid: SuperOffice.CRM.Services.FieldInfoDateTime
-  commentId: T:SuperOffice.CRM.Services.FieldInfoDateTime
-  isExternal: true
-  name: FieldInfoDateTime
-  nameWithType: FieldInfoDateTime
-  fullName: SuperOffice.CRM.Services.FieldInfoDateTime
-- uid: SuperOffice.CRM.Services.FieldInfoLongText
-  commentId: T:SuperOffice.CRM.Services.FieldInfoLongText
-  isExternal: true
-  name: FieldInfoLongText
-  nameWithType: FieldInfoLongText
-  fullName: SuperOffice.CRM.Services.FieldInfoLongText
-- uid: SuperOffice.CRM.Services.FieldInfoShortText
-  commentId: T:SuperOffice.CRM.Services.FieldInfoShortText
-  isExternal: true
-  name: FieldInfoShortText
-  nameWithType: FieldInfoShortText
-  fullName: SuperOffice.CRM.Services.FieldInfoShortText
-- uid: SuperOffice.CRM.Services.FieldInfoAttachment
-  commentId: T:SuperOffice.CRM.Services.FieldInfoAttachment
-  isExternal: true
-  name: FieldInfoAttachment
-  nameWithType: FieldInfoAttachment
-  fullName: SuperOffice.CRM.Services.FieldInfoAttachment
-- uid: SuperOffice.CRM.Services.FieldInfoDynamicLink
-  commentId: T:SuperOffice.CRM.Services.FieldInfoDynamicLink
-  isExternal: true
-  name: FieldInfoDynamicLink
-  nameWithType: FieldInfoDynamicLink
-  fullName: SuperOffice.CRM.Services.FieldInfoDynamicLink
-- uid: SuperOffice.CRM.Services.FieldInfoMdoList
-  commentId: T:SuperOffice.CRM.Services.FieldInfoMdoList
-  isExternal: true
-  name: FieldInfoMdoList
-  nameWithType: FieldInfoMdoList
-  fullName: SuperOffice.CRM.Services.FieldInfoMdoList
-- uid: SuperOffice.CRM.Services.FieldInfoRelation
-  commentId: T:SuperOffice.CRM.Services.FieldInfoRelation
-  isExternal: true
-  name: FieldInfoRelation
-  nameWithType: FieldInfoRelation
-  fullName: SuperOffice.CRM.Services.FieldInfoRelation
-- uid: SuperOffice.CRM.Services.FieldInfoTime
-  commentId: T:SuperOffice.CRM.Services.FieldInfoTime
-  isExternal: true
-  name: FieldInfoTime
-  nameWithType: FieldInfoTime
-  fullName: SuperOffice.CRM.Services.FieldInfoTime
-- uid: SuperOffice.CRM.Services.FieldInfoTimeSpan
-  commentId: T:SuperOffice.CRM.Services.FieldInfoTimeSpan
-  isExternal: true
-  name: FieldInfoTimeSpan
-  nameWithType: FieldInfoTimeSpan
-  fullName: SuperOffice.CRM.Services.FieldInfoTimeSpan
-- uid: SuperOffice.CRM.Services.FieldInfoDecimal
-  commentId: T:SuperOffice.CRM.Services.FieldInfoDecimal
-  isExternal: true
-  name: FieldInfoDecimal
-  nameWithType: FieldInfoDecimal
-  fullName: SuperOffice.CRM.Services.FieldInfoDecimal
-- uid: SuperOffice.CRM.Services.FieldInfoBlob
-  commentId: T:SuperOffice.CRM.Services.FieldInfoBlob
-  isExternal: true
-  name: FieldInfoBlob
-  nameWithType: FieldInfoBlob
-  fullName: SuperOffice.CRM.Services.FieldInfoBlob
-- uid: SuperOffice.CRM.Services.FieldInfoListText
-  commentId: T:SuperOffice.CRM.Services.FieldInfoListText
-  isExternal: true
-  name: FieldInfoListText
-  nameWithType: FieldInfoListText
-  fullName: SuperOffice.CRM.Services.FieldInfoListText
-- uid: SuperOffice.CRM.Services.Sentiment
-  commentId: T:SuperOffice.CRM.Services.Sentiment
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: Sentiment
-  nameWithType: Sentiment
-  fullName: SuperOffice.CRM.Services.Sentiment
-- uid: SuperOffice.CRM.Services.CategoryGuess
-  commentId: T:SuperOffice.CRM.Services.CategoryGuess
-  isExternal: true
-  name: CategoryGuess
-  nameWithType: CategoryGuess
-  fullName: SuperOffice.CRM.Services.CategoryGuess
-- uid: SuperOffice.CRM.Services.DocumentPreview
-  commentId: T:SuperOffice.CRM.Services.DocumentPreview
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: DocumentPreview
-  nameWithType: DocumentPreview
-  fullName: SuperOffice.CRM.Services.DocumentPreview
-- uid: SuperOffice.CRM.Services.AttachmentEntity
-  commentId: T:SuperOffice.CRM.Services.AttachmentEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: AttachmentEntity
-  nameWithType: AttachmentEntity
-  fullName: SuperOffice.CRM.Services.AttachmentEntity
-- uid: SuperOffice.CRM.Services.SelectionForFind
-  commentId: T:SuperOffice.CRM.Services.SelectionForFind
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: SelectionForFind
-  nameWithType: SelectionForFind
-  fullName: SuperOffice.CRM.Services.SelectionForFind
-- uid: SuperOffice.CRM.Services.TypicalSearch
-  commentId: T:SuperOffice.CRM.Services.TypicalSearch
-  isExternal: true
-  name: TypicalSearch
-  nameWithType: TypicalSearch
-  fullName: SuperOffice.CRM.Services.TypicalSearch
-- uid: SuperOffice.CRM.Services.TypicalSearches
-  commentId: T:SuperOffice.CRM.Services.TypicalSearches
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TypicalSearches
-  nameWithType: TypicalSearches
-  fullName: SuperOffice.CRM.Services.TypicalSearches
-- uid: SuperOffice.CRM.Services.Installation
-  commentId: T:SuperOffice.CRM.Services.Installation
-  isExternal: true
-  name: Installation
-  nameWithType: Installation
-  fullName: SuperOffice.CRM.Services.Installation
-- uid: SuperOffice.CRM.Services.AIAgent
-  commentId: T:SuperOffice.CRM.Services.AIAgent
-  isExternal: true
-  name: AIAgent
-  nameWithType: AIAgent
-  fullName: SuperOffice.CRM.Services.AIAgent
-- uid: SuperOffice.CRM.Services.IAIAgent
-  commentId: T:SuperOffice.CRM.Services.IAIAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IAIAgent
-  nameWithType: IAIAgent
-  fullName: SuperOffice.CRM.Services.IAIAgent
-- uid: SuperOffice.CRM.Services.TriggerScriptEntity
-  commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TriggerScriptEntity
-  nameWithType: TriggerScriptEntity
-  fullName: SuperOffice.CRM.Services.TriggerScriptEntity
-- uid: SuperOffice.CRM.Services.ShipmentMessageEntity
-  commentId: T:SuperOffice.CRM.Services.ShipmentMessageEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ShipmentMessageEntity
-  nameWithType: ShipmentMessageEntity
-  fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
-- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
-  commentId: T:SuperOffice.CRM.Services.ShipmentMessageBlockEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ShipmentMessageBlockEntity
-  nameWithType: ShipmentMessageBlockEntity
-  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
-- uid: SuperOffice.CRM.Services.ChatOpeningHours
-  commentId: T:SuperOffice.CRM.Services.ChatOpeningHours
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ChatOpeningHours
-  nameWithType: ChatOpeningHours
-  fullName: SuperOffice.CRM.Services.ChatOpeningHours
-- uid: SuperOffice.CRM.Services.ChatTopicEntity
-  commentId: T:SuperOffice.CRM.Services.ChatTopicEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ChatTopicEntity
-  nameWithType: ChatTopicEntity
-  fullName: SuperOffice.CRM.Services.ChatTopicEntity
-- uid: SuperOffice.CRM.Services.ChatWidgetSettings
-  commentId: T:SuperOffice.CRM.Services.ChatWidgetSettings
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ChatWidgetSettings
-  nameWithType: ChatWidgetSettings
-  fullName: SuperOffice.CRM.Services.ChatWidgetSettings
-- uid: SuperOffice.CRM.Services.KbCategory
-  commentId: T:SuperOffice.CRM.Services.KbCategory
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: KbCategory
-  nameWithType: KbCategory
-  fullName: SuperOffice.CRM.Services.KbCategory
-- uid: SuperOffice.CRM.Services.ReplyTemplate
-  commentId: T:SuperOffice.CRM.Services.ReplyTemplate
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ReplyTemplate
-  nameWithType: ReplyTemplate
-  fullName: SuperOffice.CRM.Services.ReplyTemplate
-- uid: SuperOffice.CRM.Services.TicketCategory
-  commentId: T:SuperOffice.CRM.Services.TicketCategory
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TicketCategory
-  nameWithType: TicketCategory
-  fullName: SuperOffice.CRM.Services.TicketCategory
-- uid: SuperOffice.CRM.Services.ChatTopicAgent
-  commentId: T:SuperOffice.CRM.Services.ChatTopicAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ChatTopicAgent
-  nameWithType: ChatTopicAgent
-  fullName: SuperOffice.CRM.Services.ChatTopicAgent
-- uid: SuperOffice.CRM.Services.ListItem
-  commentId: T:SuperOffice.CRM.Services.ListItem
-  isExternal: true
-  name: ListItem
-  nameWithType: ListItem
-  fullName: SuperOffice.CRM.Services.ListItem
-- uid: SuperOffice.CRM.Services.HierarchyEntity
-  commentId: T:SuperOffice.CRM.Services.HierarchyEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: HierarchyEntity
-  nameWithType: HierarchyEntity
-  fullName: SuperOffice.CRM.Services.HierarchyEntity
-- uid: SuperOffice.CRM.Services.ChatMessage
-  commentId: T:SuperOffice.CRM.Services.ChatMessage
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ChatMessage
-  nameWithType: ChatMessage
-  fullName: SuperOffice.CRM.Services.ChatMessage
-- uid: SuperOffice.CRM.Services.ChatSessionEntity
-  commentId: T:SuperOffice.CRM.Services.ChatSessionEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ChatSessionEntity
-  nameWithType: ChatSessionEntity
-  fullName: SuperOffice.CRM.Services.ChatSessionEntity
-- uid: SuperOffice.CRM.Services.TicketMessageHeader
-  commentId: T:SuperOffice.CRM.Services.TicketMessageHeader
-  isExternal: true
-  name: TicketMessageHeader
-  nameWithType: TicketMessageHeader
-  fullName: SuperOffice.CRM.Services.TicketMessageHeader
-- uid: SuperOffice.CRM.Services.ExportArchiveResult
-  commentId: T:SuperOffice.CRM.Services.ExportArchiveResult
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ExportArchiveResult
-  nameWithType: ExportArchiveResult
-  fullName: SuperOffice.CRM.Services.ExportArchiveResult
-- uid: SuperOffice.CRM.Services.CategorizationStatusResponse
-  commentId: T:SuperOffice.CRM.Services.CategorizationStatusResponse
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: CategorizationStatusResponse
-  nameWithType: CategorizationStatusResponse
-  fullName: SuperOffice.CRM.Services.CategorizationStatusResponse
-- uid: SuperOffice.CRM.Services.CategorizationModelDetails
-  commentId: T:SuperOffice.CRM.Services.CategorizationModelDetails
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: CategorizationModelDetails
-  nameWithType: CategorizationModelDetails
-  fullName: SuperOffice.CRM.Services.CategorizationModelDetails
-- uid: SuperOffice.CRM.Services.ChatBotSettings
-  commentId: T:SuperOffice.CRM.Services.ChatBotSettings
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ChatBotSettings
-  nameWithType: ChatBotSettings
-  fullName: SuperOffice.CRM.Services.ChatBotSettings
-- uid: SuperOffice.CRM.Services.AccessGatewayInfo
-  commentId: T:SuperOffice.CRM.Services.AccessGatewayInfo
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: AccessGatewayInfo
-  nameWithType: AccessGatewayInfo
-  fullName: SuperOffice.CRM.Services.AccessGatewayInfo
-- uid: SuperOffice.CRM.Services.TokenManagementInfo
-  commentId: T:SuperOffice.CRM.Services.TokenManagementInfo
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: TokenManagementInfo
-  nameWithType: TokenManagementInfo
-  fullName: SuperOffice.CRM.Services.TokenManagementInfo
-- uid: SuperOffice.CRM.Services.MailboxEntity
-  commentId: T:SuperOffice.CRM.Services.MailboxEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: MailboxEntity
-  nameWithType: MailboxEntity
-  fullName: SuperOffice.CRM.Services.MailboxEntity
-- uid: SuperOffice.CRM.Services.DashAgent
-  commentId: T:SuperOffice.CRM.Services.DashAgent
-  isExternal: true
-  name: DashAgent
-  nameWithType: DashAgent
-  fullName: SuperOffice.CRM.Services.DashAgent
-- uid: SuperOffice.CRM.Services.IDashAgent
-  commentId: T:SuperOffice.CRM.Services.IDashAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: IDashAgent
-  nameWithType: IDashAgent
-  fullName: SuperOffice.CRM.Services.IDashAgent
-- uid: SuperOffice.CRM.Services.Dash
-  commentId: T:SuperOffice.CRM.Services.Dash
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: Dash
-  nameWithType: Dash
-  fullName: SuperOffice.CRM.Services.Dash
-- uid: SuperOffice.CRM.Services.DashTile
-  commentId: T:SuperOffice.CRM.Services.DashTile
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: DashTile
-  nameWithType: DashTile
-  fullName: SuperOffice.CRM.Services.DashTile
-- uid: SuperOffice.CRM.Services.DashTheme
-  commentId: T:SuperOffice.CRM.Services.DashTheme
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: DashTheme
-  nameWithType: DashTheme
-  fullName: SuperOffice.CRM.Services.DashTheme
-- uid: SuperOffice.CRM.Services.DashTileDefinition
-  commentId: T:SuperOffice.CRM.Services.DashTileDefinition
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: DashTileDefinition
-  nameWithType: DashTileDefinition
-  fullName: SuperOffice.CRM.Services.DashTileDefinition
-- uid: SuperOffice.CRM.Services.DashCollection
-  commentId: T:SuperOffice.CRM.Services.DashCollection
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: DashCollection
-  nameWithType: DashCollection
-  fullName: SuperOffice.CRM.Services.DashCollection
-- uid: SuperOffice.CRM.Services.ReplyTemplateParsed
-  commentId: T:SuperOffice.CRM.Services.ReplyTemplateParsed
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: ReplyTemplateParsed
-  nameWithType: ReplyTemplateParsed
-  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
+  name: UserHelper
+  nameWithType: UserHelper
+  fullName: SuperOffice.CRM.Services.UserHelper
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true

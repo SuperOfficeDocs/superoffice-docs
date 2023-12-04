@@ -32,6 +32,8 @@ items:
   - SuperOffice.CRM.Archives.DocumentListItem.ProjectName
   - SuperOffice.CRM.Archives.DocumentListItem.PublishedFrom
   - SuperOffice.CRM.Archives.DocumentListItem.PublishedTo
+  - SuperOffice.CRM.Archives.DocumentListItem.SaleId
+  - SuperOffice.CRM.Archives.DocumentListItem.SaleName
   - SuperOffice.CRM.Archives.DocumentListItem.YourRef
   langs:
   - csharp
@@ -51,6 +53,7 @@ items:
     content: 'public sealed class DocumentListItem : ListItemBase<DocumentList.DocumentListQuery>'
     content.vb: >-
       Public NotInheritable Class DocumentListItem
+
           Inherits ListItemBase(Of DocumentList.DocumentListQuery)
   inheritance:
   - System.Object
@@ -63,13 +66,6 @@ items:
   - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.DocumentList.DocumentListQuery}.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,{T}@,System.String)
   - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.DocumentList.DocumentListQuery}.TableRight
   - SuperOffice.CRM.Lists.ListItemBase{SuperOffice.CRM.Archives.DocumentList.DocumentListQuery}.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Archives.DocumentListItem.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Archives.DocumentListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -518,6 +514,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Archives.DocumentListItem.SaleId
+  commentId: P:SuperOffice.CRM.Archives.DocumentListItem.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Archives.DocumentListItem
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: DocumentListItem.SaleId
+  fullName: SuperOffice.CRM.Archives.DocumentListItem.SaleId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nGet SaleId\n"
+  syntax:
+    content: public int SaleId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SaleId As Integer
+  overload: SuperOffice.CRM.Archives.DocumentListItem.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Archives.DocumentListItem.AssociateId
   commentId: P:SuperOffice.CRM.Archives.DocumentListItem.AssociateId
   id: AssociateId
@@ -758,7 +785,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property PublishedFrom As Date
+    content.vb: Public ReadOnly Property PublishedFrom As DateTime
   overload: SuperOffice.CRM.Archives.DocumentListItem.PublishedFrom*
   modifiers.csharp:
   - public
@@ -789,7 +816,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property PublishedTo As Date
+    content.vb: Public ReadOnly Property PublishedTo As DateTime
   overload: SuperOffice.CRM.Archives.DocumentListItem.PublishedTo*
   modifiers.csharp:
   - public
@@ -820,7 +847,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property EventDate As Date
+    content.vb: Public ReadOnly Property EventDate As DateTime
   overload: SuperOffice.CRM.Archives.DocumentListItem.EventDate*
   modifiers.csharp:
   - public
@@ -946,6 +973,37 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property ProjectName As String
   overload: SuperOffice.CRM.Archives.DocumentListItem.ProjectName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Archives.DocumentListItem.SaleName
+  commentId: P:SuperOffice.CRM.Archives.DocumentListItem.SaleName
+  id: SaleName
+  parent: SuperOffice.CRM.Archives.DocumentListItem
+  langs:
+  - csharp
+  - vb
+  name: SaleName
+  nameWithType: DocumentListItem.SaleName
+  fullName: SuperOffice.CRM.Archives.DocumentListItem.SaleName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nGet SaleName\n"
+  syntax:
+    content: public string SaleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SaleName As String
+  overload: SuperOffice.CRM.Archives.DocumentListItem.SaleName*
   modifiers.csharp:
   - public
   - get
@@ -1480,285 +1538,6 @@ references:
   fullName: SuperOffice.CRM.Lists.ListItemBase<SuperOffice.CRM.Archives.DocumentList.DocumentListQuery>.FieldProperties
   nameWithType.vb: ListItemBase(Of DocumentList.DocumentListQuery).FieldProperties
   fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of SuperOffice.CRM.Archives.DocumentList.DocumentListQuery).FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Archives.DocumentListItem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2741,6 +2520,12 @@ references:
   name: ProjectId
   nameWithType: DocumentListItem.ProjectId
   fullName: SuperOffice.CRM.Archives.DocumentListItem.ProjectId
+- uid: SuperOffice.CRM.Archives.DocumentListItem.SaleId*
+  commentId: Overload:SuperOffice.CRM.Archives.DocumentListItem.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: DocumentListItem.SaleId
+  fullName: SuperOffice.CRM.Archives.DocumentListItem.SaleId
 - uid: SuperOffice.CRM.Archives.DocumentListItem.AssociateId*
   commentId: Overload:SuperOffice.CRM.Archives.DocumentListItem.AssociateId
   isExternal: true
@@ -2797,8 +2582,6 @@ references:
   nameWithType: DocumentListItem.PublishedFrom
   fullName: SuperOffice.CRM.Archives.DocumentListItem.PublishedFrom
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2839,3 +2622,9 @@ references:
   name: ProjectName
   nameWithType: DocumentListItem.ProjectName
   fullName: SuperOffice.CRM.Archives.DocumentListItem.ProjectName
+- uid: SuperOffice.CRM.Archives.DocumentListItem.SaleName*
+  commentId: Overload:SuperOffice.CRM.Archives.DocumentListItem.SaleName
+  isExternal: true
+  name: SaleName
+  nameWithType: DocumentListItem.SaleName
+  fullName: SuperOffice.CRM.Archives.DocumentListItem.SaleName

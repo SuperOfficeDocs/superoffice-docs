@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Targets
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Targets
+  id: UserPreferenceStrings.Targets
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Targets.Section
+  - SuperOffice.CRM.UserPreferenceStrings.Targets.TargetPeriod
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Targets
+  nameWithType: UserPreferenceStrings.Targets
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Targets
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: 'public static class Targets : Object'
+    content.vb: >-
+      Public Module Targets
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Targets.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Targets.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Targets
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Targets.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Targets.Section
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string Section = "Targets"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Targets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Targets.TargetPeriod
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Targets.TargetPeriod
+  id: TargetPeriod
+  parent: SuperOffice.CRM.UserPreferenceStrings.Targets
+  langs:
+  - csharp
+  - vb
+  name: TargetPeriod
+  nameWithType: UserPreferenceStrings.Targets.TargetPeriod
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Targets.TargetPeriod
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string TargetPeriod = "TargetPeriod"
+    return:
+      type: System.String
+    content.vb: Public Const TargetPeriod As String = "TargetPeriod"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowEvent
+  commentId: T:SuperOffice.CRM.Services.WorkflowEvent
+  id: WorkflowEvent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowEvent.#ctor
+  - SuperOffice.CRM.Services.WorkflowEvent.Attributes
+  - SuperOffice.CRM.Services.WorkflowEvent.EventType
+  - SuperOffice.CRM.Services.WorkflowEvent.ToString
+  - SuperOffice.CRM.Services.WorkflowEvent.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent
+  fullName: SuperOffice.CRM.Services.WorkflowEvent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflow event carrier\n<p></p>\nCarrier object for WorkflowEvent.\nServices for the WorkflowEvent Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowEvent : Carrier'
+    content.vb: >-
+      Public Class WorkflowEvent
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowEvent.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowEvent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEvent()
+  nameWithType: WorkflowEvent.WorkflowEvent()
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.WorkflowEvent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowEvent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowEvent.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowEvent.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowEvent.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.WorkflowEvent.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowEvent.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowEvent.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowEvent.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.WorkflowEvent.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowEvent.EventType
+  commentId: P:SuperOffice.CRM.Services.WorkflowEvent.EventType
+  id: EventType
+  parent: SuperOffice.CRM.Services.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: EventType
+  nameWithType: WorkflowEvent.EventType
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.EventType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe workflow event type \n"
+  syntax:
+    content: public virtual WorkflowEventType EventType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Overridable Property EventType As WorkflowEventType
+  overload: SuperOffice.CRM.Services.WorkflowEvent.EventType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowEvent.Attributes
+  commentId: P:SuperOffice.CRM.Services.WorkflowEvent.Attributes
+  id: Attributes
+  parent: SuperOffice.CRM.Services.WorkflowEvent
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: WorkflowEvent.Attributes
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.Attributes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEvent info \n"
+  syntax:
+    content: public virtual string Attributes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Attributes As String
+  overload: SuperOffice.CRM.Services.WorkflowEvent.Attributes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowEvent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowEvent.#ctor
+  isExternal: true
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent.WorkflowEvent
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.WorkflowEvent
+- uid: SuperOffice.CRM.Services.WorkflowEvent.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowEvent.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowEvent.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowEvent.EventType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowEvent.EventType
+  isExternal: true
+  name: EventType
+  nameWithType: WorkflowEvent.EventType
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.EventType
+- uid: SuperOffice.Data.WorkflowEventType
+  isExternal: true
+  name: WorkflowEventType
+  nameWithType: WorkflowEventType
+  fullName: SuperOffice.Data.WorkflowEventType
+- uid: SuperOffice.CRM.Services.WorkflowEvent.Attributes*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowEvent.Attributes
+  isExternal: true
+  name: Attributes
+  nameWithType: WorkflowEvent.Attributes
+  fullName: SuperOffice.CRM.Services.WorkflowEvent.Attributes

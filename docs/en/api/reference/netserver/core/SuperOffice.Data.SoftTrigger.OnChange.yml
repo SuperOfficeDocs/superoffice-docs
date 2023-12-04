@@ -15,7 +15,7 @@ items:
   name: SoftTrigger.OnChange
   nameWithType: SoftTrigger.OnChange
   fullName: SuperOffice.Data.SoftTrigger.OnChange
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,33 +24,24 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelegate implemented by subscribers to be notified on changes in the database taking place.\n"
   syntax:
-    content: public delegate void OnChange(SoTable table, SqlType sqlType, int primaryKey, PrivateSave save, SqlCommand orgSqlCommandInner);
-    parameters:
-    - id: table
-      type: SuperOffice.Data.Dictionary.SoTable
-      description: Table in the database being modified.
-    - id: sqlType
-      type: SuperOffice.Data.SQL.SqlType
-      description: Type of modification.
-    - id: primaryKey
-      type: System.Int32
-      description: Primary key of the row being modified.
-    - id: save
-      type: SuperOffice.Data.SQL.PrivateSave
-      description: The actual command being sent to the database.
-    - id: orgSqlCommandInner
-      type: SuperOffice.Data.SQL.SqlCommand
-      description: The original command this change is a part of.  <xref href="SuperOffice.Data.SQL.BatchSave" data-throw-if-not-resolved="false"></xref> commands are expanded to it&apos;s acutal sql command.
-    content.vb: Public Delegate Sub OnChange(table As SoTable, sqlType As SqlType, primaryKey As Integer, save As PrivateSave, orgSqlCommandInner As SqlCommand)
+    content: 'public sealed class OnChange : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class OnChange
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SoftTrigger.OnChange.EnumUtil.MapEnums``2
   - SuperOffice.Data.SoftTrigger.OnChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.SoftTrigger.OnChange.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Data.SoftTrigger.OnChange.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -200,6 +191,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SoftTrigger.OnChange.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -268,41 +266,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Dictionary.SoTable
-  commentId: T:SuperOffice.Data.Dictionary.SoTable
-  parent: SuperOffice.Data.Dictionary
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: SoTable
-  nameWithType: SoTable
-  fullName: SuperOffice.Data.Dictionary.SoTable
-- uid: SuperOffice.Data.SQL.SqlType
-  commentId: T:SuperOffice.Data.SQL.SqlType
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: SqlType
-  nameWithType: SqlType
-  fullName: SuperOffice.Data.SQL.SqlType
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.Data.SQL.PrivateSave
-  commentId: T:SuperOffice.Data.SQL.PrivateSave
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: PrivateSave
-  nameWithType: PrivateSave
-  fullName: SuperOffice.Data.SQL.PrivateSave
-- uid: SuperOffice.Data.SQL.SqlCommand
-  commentId: T:SuperOffice.Data.SQL.SqlCommand
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: SqlCommand
-  nameWithType: SqlCommand
-  fullName: SuperOffice.Data.SQL.SqlCommand
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -394,24 +363,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Data.Dictionary
-  commentId: N:SuperOffice.Data.Dictionary
-  isExternal: true
-  name: SuperOffice.Data.Dictionary
-  nameWithType: SuperOffice.Data.Dictionary
-  fullName: SuperOffice.Data.Dictionary
-- uid: SuperOffice.Data.SQL
-  commentId: N:SuperOffice.Data.SQL
-  isExternal: true
-  name: SuperOffice.Data.SQL
-  nameWithType: SuperOffice.Data.SQL
-  fullName: SuperOffice.Data.SQL
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -424,13 +375,6 @@ references:
   name: OnChange
   nameWithType: SoftTrigger.OnChange.OnChange
   fullName: SuperOffice.Data.SoftTrigger.OnChange.OnChange
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -444,6 +388,53 @@ references:
   name: Invoke
   nameWithType: SoftTrigger.OnChange.Invoke
   fullName: SuperOffice.Data.SoftTrigger.OnChange.Invoke
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.SQL.SqlType
+  commentId: T:SuperOffice.Data.SQL.SqlType
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SqlType
+  nameWithType: SqlType
+  fullName: SuperOffice.Data.SQL.SqlType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL.PrivateSave
+  commentId: T:SuperOffice.Data.SQL.PrivateSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: PrivateSave
+  nameWithType: PrivateSave
+  fullName: SuperOffice.Data.SQL.PrivateSave
+- uid: SuperOffice.Data.SQL.SqlCommand
+  commentId: T:SuperOffice.Data.SQL.SqlCommand
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SqlCommand
+  nameWithType: SqlCommand
+  fullName: SuperOffice.Data.SQL.SqlCommand
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
 - uid: SuperOffice.Data.SoftTrigger.OnChange.BeginInvoke*
   commentId: Overload:SuperOffice.Data.SoftTrigger.OnChange.BeginInvoke
   isExternal: true
@@ -451,15 +442,11 @@ references:
   nameWithType: SoftTrigger.OnChange.BeginInvoke
   fullName: SuperOffice.Data.SoftTrigger.OnChange.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

@@ -10,7 +10,6 @@ items:
   - SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
   - SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
   - SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
-  - SuperOffice.Security.Principal.ISoIdentity.Source
   langs:
   - csharp
   - vb
@@ -29,11 +28,8 @@ items:
     content: 'public interface ISoIdentity : IIdentity'
     content.vb: >-
       Public Interface ISoIdentity
+
           Inherits IIdentity
-  inheritedMembers:
-  - System.Security.Principal.IIdentity.Name
-  - System.Security.Principal.IIdentity.AuthenticationType
-  - System.Security.Principal.IIdentity.IsAuthenticated
   extensionMethods:
   - SuperOffice.Security.Principal.ISoIdentity.EnumUtil.MapEnums``2
   - SuperOffice.Security.Principal.ISoIdentity.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -159,35 +155,6 @@ items:
   - get
   modifiers.vb:
   - ReadOnly
-- uid: SuperOffice.Security.Principal.ISoIdentity.Source
-  commentId: P:SuperOffice.Security.Principal.ISoIdentity.Source
-  id: Source
-  parent: SuperOffice.Security.Principal.ISoIdentity
-  langs:
-  - csharp
-  - vb
-  name: Source
-  nameWithType: ISoIdentity.Source
-  fullName: SuperOffice.Security.Principal.ISoIdentity.Source
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Security.Principal
-  summary: "\nSource for this Identity\n"
-  syntax:
-    content: SecurityToken[] Source { get; }
-    parameters: []
-    return:
-      type: System.IdentityModel.Tokens.SecurityToken[]
-    content.vb: ReadOnly Property Source As SecurityToken()
-  overload: SuperOffice.Security.Principal.ISoIdentity.Source*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
   commentId: P:SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
   id: ProvidedCredentials
@@ -224,27 +191,6 @@ references:
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
-- uid: System.Security.Principal.IIdentity.Name
-  commentId: P:System.Security.Principal.IIdentity.Name
-  parent: System.Security.Principal.IIdentity
-  isExternal: true
-  name: Name
-  nameWithType: IIdentity.Name
-  fullName: System.Security.Principal.IIdentity.Name
-- uid: System.Security.Principal.IIdentity.AuthenticationType
-  commentId: P:System.Security.Principal.IIdentity.AuthenticationType
-  parent: System.Security.Principal.IIdentity
-  isExternal: true
-  name: AuthenticationType
-  nameWithType: IIdentity.AuthenticationType
-  fullName: System.Security.Principal.IIdentity.AuthenticationType
-- uid: System.Security.Principal.IIdentity.IsAuthenticated
-  commentId: P:System.Security.Principal.IIdentity.IsAuthenticated
-  parent: System.Security.Principal.IIdentity
-  isExternal: true
-  name: IsAuthenticated
-  nameWithType: IIdentity.IsAuthenticated
-  fullName: System.Security.Principal.IIdentity.IsAuthenticated
 - uid: SuperOffice.Security.Principal.ISoIdentity.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -313,13 +259,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Security.Principal.IIdentity
-  commentId: T:System.Security.Principal.IIdentity
-  parent: System.Security.Principal
-  isExternal: true
-  name: IIdentity
-  nameWithType: IIdentity
-  fullName: System.Security.Principal.IIdentity
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -411,12 +350,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System.Security.Principal
-  commentId: N:System.Security.Principal
-  isExternal: true
-  name: System.Security.Principal
-  nameWithType: System.Security.Principal
-  fullName: System.Security.Principal
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -461,6 +394,11 @@ references:
   name: InnerIdentity
   nameWithType: ISoIdentity.InnerIdentity
   fullName: SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
+- uid: System.Security.Principal.IIdentity
+  isExternal: true
+  name: IIdentity
+  nameWithType: IIdentity
+  fullName: System.Security.Principal.IIdentity
 - uid: SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType*
   commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
   isExternal: true
@@ -474,38 +412,6 @@ references:
   name: SoAuthenticationType
   nameWithType: SoAuthenticationType
   fullName: SuperOffice.Security.Principal.SoAuthenticationType
-- uid: SuperOffice.Security.Principal.ISoIdentity.Source*
-  commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.Source
-  isExternal: true
-  name: Source
-  nameWithType: ISoIdentity.Source
-  fullName: SuperOffice.Security.Principal.ISoIdentity.Source
-- uid: System.IdentityModel.Tokens.SecurityToken[]
-  isExternal: true
-  name: SecurityToken[]
-  nameWithType: SecurityToken[]
-  fullName: System.IdentityModel.Tokens.SecurityToken[]
-  nameWithType.vb: SecurityToken()
-  fullName.vb: System.IdentityModel.Tokens.SecurityToken()
-  name.vb: SecurityToken()
-  spec.csharp:
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials*
   commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
   isExternal: true

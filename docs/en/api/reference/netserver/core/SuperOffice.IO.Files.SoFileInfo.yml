@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.Files.SoFileInfo
+  commentId: T:SuperOffice.IO.Files.SoFileInfo
+  id: SoFileInfo
+  parent: SuperOffice.IO.Files
+  children:
+  - SuperOffice.IO.Files.SoFileInfo.#ctor(System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})
+  - SuperOffice.IO.Files.SoFileInfo.Created
+  - SuperOffice.IO.Files.SoFileInfo.FullName
+  - SuperOffice.IO.Files.SoFileInfo.LastModified
+  langs:
+  - csharp
+  - vb
+  name: SoFileInfo
+  nameWithType: SoFileInfo
+  fullName: SuperOffice.IO.Files.SoFileInfo
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: 'public class SoFileInfo : Object'
+    content.vb: >-
+      Public Class SoFileInfo
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.IO.Files.SoFileInfo.EnumUtil.MapEnums``2
+  - SuperOffice.IO.Files.SoFileInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.IO.Files.SoFileInfo.#ctor(System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})
+  commentId: M:SuperOffice.IO.Files.SoFileInfo.#ctor(System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})
+  id: '#ctor(System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})'
+  parent: SuperOffice.IO.Files.SoFileInfo
+  langs:
+  - csharp
+  - vb
+  name: SoFileInfo(String, Nullable<DateTimeOffset>, Nullable<DateTimeOffset>)
+  nameWithType: SoFileInfo.SoFileInfo(String, Nullable<DateTimeOffset>, Nullable<DateTimeOffset>)
+  fullName: SuperOffice.IO.Files.SoFileInfo.SoFileInfo(System.String, System.Nullable<System.DateTimeOffset>, System.Nullable<System.DateTimeOffset>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public SoFileInfo(string fullName, Nullable<DateTimeOffset> created, Nullable<DateTimeOffset> lastModified)
+    parameters:
+    - id: fullName
+      type: System.String
+    - id: created
+      type: System.Nullable{System.DateTimeOffset}
+    - id: lastModified
+      type: System.Nullable{System.DateTimeOffset}
+    content.vb: Public Sub New(fullName As String, created As Nullable(Of DateTimeOffset), lastModified As Nullable(Of DateTimeOffset))
+  overload: SuperOffice.IO.Files.SoFileInfo.#ctor*
+  nameWithType.vb: SoFileInfo.SoFileInfo(String, Nullable(Of DateTimeOffset), Nullable(Of DateTimeOffset))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.Files.SoFileInfo.SoFileInfo(System.String, System.Nullable(Of System.DateTimeOffset), System.Nullable(Of System.DateTimeOffset))
+  name.vb: SoFileInfo(String, Nullable(Of DateTimeOffset), Nullable(Of DateTimeOffset))
+- uid: SuperOffice.IO.Files.SoFileInfo.FullName
+  commentId: P:SuperOffice.IO.Files.SoFileInfo.FullName
+  id: FullName
+  parent: SuperOffice.IO.Files.SoFileInfo
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SoFileInfo.FullName
+  fullName: SuperOffice.IO.Files.SoFileInfo.FullName
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public string FullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FullName As String
+  overload: SuperOffice.IO.Files.SoFileInfo.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.IO.Files.SoFileInfo.Created
+  commentId: P:SuperOffice.IO.Files.SoFileInfo.Created
+  id: Created
+  parent: SuperOffice.IO.Files.SoFileInfo
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: SoFileInfo.Created
+  fullName: SuperOffice.IO.Files.SoFileInfo.Created
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public Nullable<DateTimeOffset> Created { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTimeOffset}
+    content.vb: Public ReadOnly Property Created As Nullable(Of DateTimeOffset)
+  overload: SuperOffice.IO.Files.SoFileInfo.Created*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.IO.Files.SoFileInfo.LastModified
+  commentId: P:SuperOffice.IO.Files.SoFileInfo.LastModified
+  id: LastModified
+  parent: SuperOffice.IO.Files.SoFileInfo
+  langs:
+  - csharp
+  - vb
+  name: LastModified
+  nameWithType: SoFileInfo.LastModified
+  fullName: SuperOffice.IO.Files.SoFileInfo.LastModified
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO.Files
+  syntax:
+    content: public Nullable<DateTimeOffset> LastModified { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTimeOffset}
+    content.vb: Public ReadOnly Property LastModified As Nullable(Of DateTimeOffset)
+  overload: SuperOffice.IO.Files.SoFileInfo.LastModified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.IO.Files
+  commentId: N:SuperOffice.IO.Files
+  isExternal: true
+  name: SuperOffice.IO.Files
+  nameWithType: SuperOffice.IO.Files
+  fullName: SuperOffice.IO.Files
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.Files.SoFileInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoFileInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SoFileInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.Files.SoFileInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoFileInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.Files.SoFileInfo, To)()
+  name.vb: MapEnums(Of SoFileInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoFileInfo, To>
+    nameWithType: EnumUtil.MapEnums<SoFileInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.Files.SoFileInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoFileInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SoFileInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.Files.SoFileInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.SoFileInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoFileInfo, To>()
+  nameWithType: Converters.MapEnums<SoFileInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.Files.SoFileInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoFileInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.Files.SoFileInfo, To)()
+  name.vb: MapEnums(Of SoFileInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoFileInfo, To>
+    nameWithType: Converters.MapEnums<SoFileInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.Files.SoFileInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoFileInfo, To)
+    nameWithType: Converters.MapEnums(Of SoFileInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.Files.SoFileInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.IO.Files.SoFileInfo.#ctor*
+  commentId: Overload:SuperOffice.IO.Files.SoFileInfo.#ctor
+  isExternal: true
+  name: SoFileInfo
+  nameWithType: SoFileInfo.SoFileInfo
+  fullName: SuperOffice.IO.Files.SoFileInfo.SoFileInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{System.DateTimeOffset}
+  commentId: '!:System.Nullable{System.DateTimeOffset}'
+  definition: System.Nullable`1
+  name: Nullable<DateTimeOffset>
+  nameWithType: Nullable<DateTimeOffset>
+  fullName: System.Nullable<System.DateTimeOffset>
+  nameWithType.vb: Nullable(Of DateTimeOffset)
+  fullName.vb: System.Nullable(Of System.DateTimeOffset)
+  name.vb: Nullable(Of DateTimeOffset)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Files.SoFileInfo.FullName*
+  commentId: Overload:SuperOffice.IO.Files.SoFileInfo.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SoFileInfo.FullName
+  fullName: SuperOffice.IO.Files.SoFileInfo.FullName
+- uid: SuperOffice.IO.Files.SoFileInfo.Created*
+  commentId: Overload:SuperOffice.IO.Files.SoFileInfo.Created
+  isExternal: true
+  name: Created
+  nameWithType: SoFileInfo.Created
+  fullName: SuperOffice.IO.Files.SoFileInfo.Created
+- uid: SuperOffice.IO.Files.SoFileInfo.LastModified*
+  commentId: Overload:SuperOffice.IO.Files.SoFileInfo.LastModified
+  isExternal: true
+  name: LastModified
+  nameWithType: SoFileInfo.LastModified
+  fullName: SuperOffice.IO.Files.SoFileInfo.LastModified

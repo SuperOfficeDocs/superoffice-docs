@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Entities.Appointment.#ctor(SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase)
   - SuperOffice.CRM.Entities.Appointment.#ctor(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase)
+  - SuperOffice.CRM.Entities.Appointment._agenda
   - SuperOffice.CRM.Entities.Appointment._appointmentText
   - SuperOffice.CRM.Entities.Appointment._assignedBy
   - SuperOffice.CRM.Entities.Appointment._associate
@@ -14,6 +15,7 @@ items:
   - SuperOffice.CRM.Entities.Appointment._contact
   - SuperOffice.CRM.Entities.Appointment._createdAssociate
   - SuperOffice.CRM.Entities.Appointment._docTmpl
+  - SuperOffice.CRM.Entities.Appointment._internalNotes
   - SuperOffice.CRM.Entities.Appointment._invitedPerson
   - SuperOffice.CRM.Entities.Appointment._person
   - SuperOffice.CRM.Entities.Appointment._priority
@@ -28,6 +30,7 @@ items:
   - SuperOffice.CRM.Entities.Appointment._userGroup
   - SuperOffice.CRM.Entities.Appointment.ActiveDate
   - SuperOffice.CRM.Entities.Appointment.ActiveLinks
+  - SuperOffice.CRM.Entities.Appointment.Agenda
   - SuperOffice.CRM.Entities.Appointment.Alarm
   - SuperOffice.CRM.Entities.Appointment.AlldayEvent
   - SuperOffice.CRM.Entities.Appointment.AppointmentId
@@ -61,6 +64,7 @@ items:
   - SuperOffice.CRM.Entities.Appointment.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
   - SuperOffice.CRM.Entities.Appointment.HasAlarm
   - SuperOffice.CRM.Entities.Appointment.InitBookingMaster
+  - SuperOffice.CRM.Entities.Appointment.InternalNotes
   - SuperOffice.CRM.Entities.Appointment.InvitedPerson
   - SuperOffice.CRM.Entities.Appointment.IsDeleted
   - SuperOffice.CRM.Entities.Appointment.IsMarkedForDelete
@@ -101,6 +105,7 @@ items:
   - SuperOffice.CRM.Entities.Appointment.SuperOffice#CRM#Entities#IEntityUdefHelperContainer#UDefSmall
   - SuperOffice.CRM.Entities.Appointment.TableInfo
   - SuperOffice.CRM.Entities.Appointment.Task
+  - SuperOffice.CRM.Entities.Appointment.Title
   - SuperOffice.CRM.Entities.Appointment.ToString
   - SuperOffice.CRM.Entities.Appointment.Type
   - SuperOffice.CRM.Entities.Appointment.UdefHelper
@@ -131,7 +136,9 @@ items:
     content: 'public class Appointment : EntityBase, INestedPersist, ISoItem, ITableRowLoadHandler, IEntityUdefHelperContainer'
     content.vb: >-
       Public Class Appointment
+
           Inherits EntityBase
+
           Implements INestedPersist, ISoItem, ITableRowLoadHandler, IEntityUdefHelperContainer
   inheritance:
   - System.Object
@@ -145,6 +152,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
   - SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  - SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
   - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   - SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
@@ -167,15 +176,13 @@ items:
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.Appointment.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.Appointment.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -616,6 +623,60 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Entities.Appointment._agenda
+  commentId: F:SuperOffice.CRM.Entities.Appointment._agenda
+  id: _agenda
+  parent: SuperOffice.CRM.Entities.Appointment
+  langs:
+  - csharp
+  - vb
+  name: _agenda
+  nameWithType: Appointment._agenda
+  fullName: SuperOffice.CRM.Entities.Appointment._agenda
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected TextRow _agenda
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: Protected _agenda As TextRow
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.Appointment._internalNotes
+  commentId: F:SuperOffice.CRM.Entities.Appointment._internalNotes
+  id: _internalNotes
+  parent: SuperOffice.CRM.Entities.Appointment
+  langs:
+  - csharp
+  - vb
+  name: _internalNotes
+  nameWithType: Appointment._internalNotes
+  fullName: SuperOffice.CRM.Entities.Appointment._internalNotes
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected TextRow _internalNotes
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: Protected _internalNotes As TextRow
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Entities.Appointment._person
   commentId: F:SuperOffice.CRM.Entities.Appointment._person
   id: _person
@@ -819,7 +880,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Entities.Appointment.ToString*
   modifiers.csharp:
   - public
@@ -1146,7 +1206,7 @@ items:
     return:
       type: SuperOffice.CRM.Entities.Appointment
       description: "Row object that represents the result of the search. <xref href=\"SuperOffice.CRM.Entities.Appointment.IsNew\" data-throw-if-not-resolved=\"false\"></xref> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId(activeDate As Date, motherId As Integer, type As AppointmentType, documentId As Integer, appointmentId As Integer, assignedBy As Integer, associateId As Integer, projectId As Integer, groupIdx As Integer, registered As Date, registeredAssociateId As Integer) As Appointment
+    content.vb: Public Shared Function GetFromIdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId(activeDate As DateTime, motherId As Integer, type As AppointmentType, documentId As Integer, appointmentId As Integer, assignedBy As Integer, associateId As Integer, projectId As Integer, groupIdx As Integer, registered As DateTime, registeredAssociateId As Integer) As Appointment
   overload: SuperOffice.CRM.Entities.Appointment.GetFromIdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId*
   modifiers.csharp:
   - public
@@ -1191,7 +1251,7 @@ items:
     return:
       type: SuperOffice.CRM.Entities.Appointment
       description: "Row object that represents the result of the search. <xref href=\"SuperOffice.CRM.Entities.Appointment.IsNew\" data-throw-if-not-resolved=\"false\"></xref> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxActiveDateAssociateIdAppointmentIdMotherId(activeDate As Date, associateId As Integer, appointmentId As Integer, motherId As Integer) As Appointment
+    content.vb: Public Shared Function GetFromIdxActiveDateAssociateIdAppointmentIdMotherId(activeDate As DateTime, associateId As Integer, appointmentId As Integer, motherId As Integer) As Appointment
   overload: SuperOffice.CRM.Entities.Appointment.GetFromIdxActiveDateAssociateIdAppointmentIdMotherId*
   modifiers.csharp:
   - public
@@ -1254,7 +1314,7 @@ items:
     return:
       type: SuperOffice.CRM.Entities.Appointment
       description: "Row object that represents the result of the search. <xref href=\"SuperOffice.CRM.Entities.Appointment.IsNew\" data-throw-if-not-resolved=\"false\"></xref> will be true if \nthe query did not match any row in the table"
-    content.vb: Public Shared Function GetFromIdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId(associateId As Integer, groupIdx As Integer, activeDate As Date, type As AppointmentType, registered As Date, motherId As Integer, appointmentId As Integer, assignedBy As Integer, status As AppointmentStatus, registeredAssociateId As Integer) As Appointment
+    content.vb: Public Shared Function GetFromIdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId(associateId As Integer, groupIdx As Integer, activeDate As DateTime, type As AppointmentType, registered As DateTime, motherId As Integer, appointmentId As Integer, assignedBy As Integer, status As AppointmentStatus, registeredAssociateId As Integer) As Appointment
   overload: SuperOffice.CRM.Entities.Appointment.GetFromIdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId*
   modifiers.csharp:
   - public
@@ -2156,7 +2216,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property Registered As Date
+    content.vb: Public Property Registered As DateTime
   overload: SuperOffice.CRM.Entities.Appointment.Registered*
   modifiers.csharp:
   - public
@@ -2187,7 +2247,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property Done As Date
+    content.vb: Public Property Done As DateTime
   overload: SuperOffice.CRM.Entities.Appointment.Done*
   modifiers.csharp:
   - public
@@ -2218,7 +2278,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property DoBy As Date
+    content.vb: Public Property DoBy As DateTime
   overload: SuperOffice.CRM.Entities.Appointment.DoBy*
   modifiers.csharp:
   - public
@@ -2466,7 +2526,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property ActiveDate As Date
+    content.vb: Public Property ActiveDate As DateTime
   overload: SuperOffice.CRM.Entities.Appointment.ActiveDate*
   modifiers.csharp:
   - public
@@ -2497,7 +2557,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property EndDate As Date
+    content.vb: Public Property EndDate As DateTime
   overload: SuperOffice.CRM.Entities.Appointment.EndDate*
   modifiers.csharp:
   - public
@@ -2590,7 +2650,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property Updated As Date
+    content.vb: Public Property Updated As DateTime
   overload: SuperOffice.CRM.Entities.Appointment.Updated*
   modifiers.csharp:
   - public
@@ -2899,7 +2959,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property OriginalStartDate As Date
+    content.vb: Public Property OriginalStartDate As DateTime
   overload: SuperOffice.CRM.Entities.Appointment.OriginalStartDate*
   modifiers.csharp:
   - public
@@ -3341,6 +3401,99 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Entities.Appointment.Title
+  commentId: P:SuperOffice.CRM.Entities.Appointment.Title
+  id: Title
+  parent: SuperOffice.CRM.Entities.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Appointment.Title
+  fullName: SuperOffice.CRM.Entities.Appointment.Title
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object TextRow: Title text\n"
+  syntax:
+    content: public TextRow Title { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: Public Property Title As TextRow
+  overload: SuperOffice.CRM.Entities.Appointment.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Appointment.Agenda
+  commentId: P:SuperOffice.CRM.Entities.Appointment.Agenda
+  id: Agenda
+  parent: SuperOffice.CRM.Entities.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Agenda
+  nameWithType: Appointment.Agenda
+  fullName: SuperOffice.CRM.Entities.Appointment.Agenda
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object TextRow: Agenda text\n"
+  syntax:
+    content: public TextRow Agenda { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: Public Property Agenda As TextRow
+  overload: SuperOffice.CRM.Entities.Appointment.Agenda*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Appointment.InternalNotes
+  commentId: P:SuperOffice.CRM.Entities.Appointment.InternalNotes
+  id: InternalNotes
+  parent: SuperOffice.CRM.Entities.Appointment
+  langs:
+  - csharp
+  - vb
+  name: InternalNotes
+  nameWithType: Appointment.InternalNotes
+  fullName: SuperOffice.CRM.Entities.Appointment.InternalNotes
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object TextRow: Agenda text\n"
+  syntax:
+    content: public TextRow InternalNotes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: Public Property InternalNotes As TextRow
+  overload: SuperOffice.CRM.Entities.Appointment.InternalNotes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Appointment.Person
   commentId: P:SuperOffice.CRM.Entities.Appointment.Person
   id: Person
@@ -3678,6 +3831,88 @@ references:
     name: Boolean
     nameWithType: Boolean
     fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: add_OnGetRelatedObjects(GetRelatedObjects)
+  nameWithType: EntityBase.add_OnGetRelatedObjects(GetRelatedObjects)
+  fullName: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+    name: add_OnGetRelatedObjects
+    nameWithType: EntityBase.add_OnGetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.GetRelatedObjects
+    name: GetRelatedObjects
+    nameWithType: GetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.GetRelatedObjects
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+    name: add_OnGetRelatedObjects
+    nameWithType: EntityBase.add_OnGetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.GetRelatedObjects
+    name: GetRelatedObjects
+    nameWithType: GetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.GetRelatedObjects
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: remove_OnGetRelatedObjects(GetRelatedObjects)
+  nameWithType: EntityBase.remove_OnGetRelatedObjects(GetRelatedObjects)
+  fullName: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+    name: remove_OnGetRelatedObjects
+    nameWithType: EntityBase.remove_OnGetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.GetRelatedObjects
+    name: GetRelatedObjects
+    nameWithType: GetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.GetRelatedObjects
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+    name: remove_OnGetRelatedObjects
+    nameWithType: EntityBase.remove_OnGetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.GetRelatedObjects
+    name: GetRelatedObjects
+    nameWithType: GetRelatedObjects
+    fullName: SuperOffice.CRM.Entities.GetRelatedObjects
     isExternal: true
   - name: )
     nameWithType: )
@@ -4439,6 +4674,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
@@ -4460,254 +4859,6 @@ references:
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.Appointment.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -5105,8 +5256,7 @@ references:
   nameWithType: Appointment.GetAdditionalRelatedNestedPersist
   fullName: SuperOffice.CRM.Entities.Appointment.GetAdditionalRelatedNestedPersist
 - uid: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.List`1
   name: List<INestedPersist>
   nameWithType: List<INestedPersist>
@@ -5156,14 +5306,13 @@ references:
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -5173,9 +5322,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5188,46 +5337,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -5319,8 +5431,7 @@ references:
   nameWithType: Appointment.Validate
   fullName: SuperOffice.CRM.Entities.Appointment.Validate
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -5379,14 +5490,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -5396,15 +5506,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5417,15 +5527,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -5481,8 +5591,6 @@ references:
   nameWithType: Appointment.GetFromIdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
   fullName: SuperOffice.CRM.Entities.Appointment.GetFromIdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -6299,6 +6407,24 @@ references:
   name: AppointmentText
   nameWithType: Appointment.AppointmentText
   fullName: SuperOffice.CRM.Entities.Appointment.AppointmentText
+- uid: SuperOffice.CRM.Entities.Appointment.Title*
+  commentId: Overload:SuperOffice.CRM.Entities.Appointment.Title
+  isExternal: true
+  name: Title
+  nameWithType: Appointment.Title
+  fullName: SuperOffice.CRM.Entities.Appointment.Title
+- uid: SuperOffice.CRM.Entities.Appointment.Agenda*
+  commentId: Overload:SuperOffice.CRM.Entities.Appointment.Agenda
+  isExternal: true
+  name: Agenda
+  nameWithType: Appointment.Agenda
+  fullName: SuperOffice.CRM.Entities.Appointment.Agenda
+- uid: SuperOffice.CRM.Entities.Appointment.InternalNotes*
+  commentId: Overload:SuperOffice.CRM.Entities.Appointment.InternalNotes
+  isExternal: true
+  name: InternalNotes
+  nameWithType: Appointment.InternalNotes
+  fullName: SuperOffice.CRM.Entities.Appointment.InternalNotes
 - uid: SuperOffice.CRM.Entities.Appointment.Person*
   commentId: Overload:SuperOffice.CRM.Entities.Appointment.Person
   isExternal: true

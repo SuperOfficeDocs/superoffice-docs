@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
   - SuperOffice.CRM.Rows.AppointmentRecordData.ActiveDate
   - SuperOffice.CRM.Rows.AppointmentRecordData.ActiveLinks
+  - SuperOffice.CRM.Rows.AppointmentRecordData.AgendaTextId
   - SuperOffice.CRM.Rows.AppointmentRecordData.Alarm
   - SuperOffice.CRM.Rows.AppointmentRecordData.AlldayEvent
   - SuperOffice.CRM.Rows.AppointmentRecordData.AppointmentId
@@ -25,12 +26,14 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRecordData.FreeBusy
   - SuperOffice.CRM.Rows.AppointmentRecordData.GroupIdx
   - SuperOffice.CRM.Rows.AppointmentRecordData.HasAlarm
+  - SuperOffice.CRM.Rows.AppointmentRecordData.InternalNotesTextId
   - SuperOffice.CRM.Rows.AppointmentRecordData.InvitedPersonId
   - SuperOffice.CRM.Rows.AppointmentRecordData.IsMilestone
   - SuperOffice.CRM.Rows.AppointmentRecordData.JoinVideomeetUrl
   - SuperOffice.CRM.Rows.AppointmentRecordData.LagTime
   - SuperOffice.CRM.Rows.AppointmentRecordData.Leadtime
   - SuperOffice.CRM.Rows.AppointmentRecordData.Location
+  - SuperOffice.CRM.Rows.AppointmentRecordData.ModifiedAppointmentFields
   - SuperOffice.CRM.Rows.AppointmentRecordData.MotherAssociateId
   - SuperOffice.CRM.Rows.AppointmentRecordData.MotherId
   - SuperOffice.CRM.Rows.AppointmentRecordData.OriginalStartDate
@@ -45,6 +48,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRecordData.RejectCounter
   - SuperOffice.CRM.Rows.AppointmentRecordData.RejectReason
   - SuperOffice.CRM.Rows.AppointmentRecordData.SaleId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SendEmail
   - SuperOffice.CRM.Rows.AppointmentRecordData.Source
   - SuperOffice.CRM.Rows.AppointmentRecordData.Status
   - SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedAppointmentId
@@ -73,18 +77,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the appointment table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class AppointmentRecordData
-    content.vb: Public Class AppointmentRecordData
+    content: 'public class AppointmentRecordData : Object'
+    content.vb: >-
+      Public Class AppointmentRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.AppointmentRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AppointmentRecordData)
@@ -254,7 +253,7 @@ items:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -308,7 +307,7 @@ items:
     content: public DateTime Done
     return:
       type: System.DateTime
-    content.vb: Public Done As Date
+    content.vb: Public Done As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -335,7 +334,7 @@ items:
     content: public DateTime DoBy
     return:
       type: System.DateTime
-    content.vb: Public DoBy As Date
+    content.vb: Public DoBy As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -713,7 +712,7 @@ items:
     content: public DateTime ActiveDate
     return:
       type: System.DateTime
-    content.vb: Public ActiveDate As Date
+    content.vb: Public ActiveDate As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -740,7 +739,7 @@ items:
     content: public DateTime EndDate
     return:
       type: System.DateTime
-    content.vb: Public EndDate As Date
+    content.vb: Public EndDate As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -875,7 +874,7 @@ items:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1415,7 +1414,115 @@ items:
     content: public DateTime OriginalStartDate
     return:
       type: System.DateTime
-    content.vb: Public OriginalStartDate As Date
+    content.vb: Public OriginalStartDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.AgendaTextId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.AgendaTextId
+  id: AgendaTextId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: AgendaTextId
+  nameWithType: AppointmentRecordData.AgendaTextId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.AgendaTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of record containing agenda text \n"
+  syntax:
+    content: public int AgendaTextId
+    return:
+      type: System.Int32
+    content.vb: Public AgendaTextId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.InternalNotesTextId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.InternalNotesTextId
+  id: InternalNotesTextId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: InternalNotesTextId
+  nameWithType: AppointmentRecordData.InternalNotesTextId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.InternalNotesTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of record containing internal notes text \n"
+  syntax:
+    content: public int InternalNotesTextId
+    return:
+      type: System.Int32
+    content.vb: Public InternalNotesTextId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SendEmail
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.SendEmail
+  id: SendEmail
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SendEmail
+  nameWithType: AppointmentRecordData.SendEmail
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.SendEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSend invitation and appointment changes by e-mail to this participant. \n"
+  syntax:
+    content: public short SendEmail
+    return:
+      type: System.Int16
+    content.vb: Public SendEmail As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.ModifiedAppointmentFields
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.ModifiedAppointmentFields
+  id: ModifiedAppointmentFields
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModifiedAppointmentFields
+  nameWithType: AppointmentRecordData.ModifiedAppointmentFields
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.ModifiedAppointmentFields
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhich important fields of an appointment have been changed. Used by notifications. \n"
+  syntax:
+    content: public ModifiedAppointmentFields ModifiedAppointmentFields
+    return:
+      type: SuperOffice.Data.ModifiedAppointmentFields
+    content.vb: Public ModifiedAppointmentFields As ModifiedAppointmentFields
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1513,285 +1620,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.AppointmentRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2230,8 +2058,6 @@ references:
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2298,6 +2124,13 @@ references:
   name: FreeBusy
   nameWithType: FreeBusy
   fullName: SuperOffice.Data.FreeBusy
+- uid: SuperOffice.Data.ModifiedAppointmentFields
+  commentId: T:SuperOffice.Data.ModifiedAppointmentFields
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ModifiedAppointmentFields
+  nameWithType: ModifiedAppointmentFields
+  fullName: SuperOffice.Data.ModifiedAppointmentFields
 - uid: SuperOffice.Data.AppointmentCautionWarning
   commentId: T:SuperOffice.Data.AppointmentCautionWarning
   parent: SuperOffice.Data

@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.Data
   children:
   - SuperOffice.Data.S.And(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
-  - SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
+  - SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.Data.S.LookupSingleField``2(System.Func{``0,SuperOffice.Data.SQL.FieldInfo},System.Int32)
   - SuperOffice.Data.S.NewDelete
   - SuperOffice.Data.S.NewDelete(SuperOffice.Data.SQL.FieldInfo,System.Int32)
@@ -18,6 +18,7 @@ items:
   - SuperOffice.Data.S.NewSelect
   - SuperOffice.Data.S.NewSelect(System.String)
   - SuperOffice.Data.S.NewSelect``1
+  - SuperOffice.Data.S.NewSelect``1(SuperOffice.Data.SQL.TableInfo,System.Func{``0,SuperOffice.Data.SQL.Restriction})
   - SuperOffice.Data.S.NewSelect``1(System.Collections.Generic.IEnumerable{System.Int32})
   - SuperOffice.Data.S.NewSelect``1(System.Func{``0,SuperOffice.Data.SQL.Restriction})
   - SuperOffice.Data.S.NewSelect``1(System.Int32[])
@@ -32,6 +33,7 @@ items:
   - SuperOffice.Data.S.Parameter(System.DBNull,System.Boolean)
   - SuperOffice.Data.S.Parameter(System.Double)
   - SuperOffice.Data.S.Parameter(System.Double,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.Int16,System.Boolean)
   - SuperOffice.Data.S.Parameter(System.Int32)
   - SuperOffice.Data.S.Parameter(System.Int32,System.Boolean)
   - SuperOffice.Data.S.Parameter(System.IO.Stream)
@@ -57,18 +59,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static class S
-    content.vb: Public Module S
+    content: 'public static class S : Object'
+    content.vb: >-
+      Public Module S
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -258,6 +255,40 @@ items:
       type: SuperOffice.Data.SQL.Parameter
       description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
     content.vb: Public Shared Function Parameter(parameter As Integer) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Int16,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Int16,System.Boolean)
+  id: Parameter(System.Int16,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Int16, Boolean)
+  nameWithType: S.Parameter(Int16, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.Int16, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static Parameter Parameter(short parameter, bool useSqlParameter = true)
+    parameters:
+    - id: parameter
+      type: System.Int16
+    - id: useSqlParameter
+      type: System.Boolean
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+    content.vb: Public Shared Function Parameter(parameter As Short, useSqlParameter As Boolean = True) As Parameter
   overload: SuperOffice.Data.S.Parameter*
   modifiers.csharp:
   - public
@@ -476,7 +507,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.Parameter
       description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
-    content.vb: Public Shared Function Parameter(parameter As Date) As Parameter
+    content.vb: Public Shared Function Parameter(parameter As DateTime) As Parameter
   overload: SuperOffice.Data.S.Parameter*
   modifiers.csharp:
   - public
@@ -514,7 +545,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.Parameter
       description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
-    content.vb: Public Shared Function Parameter(parameter As Date, useSqlParameter As Boolean) As Parameter
+    content.vb: Public Shared Function Parameter(parameter As DateTime, useSqlParameter As Boolean) As Parameter
   overload: SuperOffice.Data.S.Parameter*
   modifiers.csharp:
   - public
@@ -828,6 +859,7 @@ items:
   syntax:
     content: >-
       public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>(Func<MainTableInfo, Restriction> initialRestriction)
+
           where MainTableInfo : TableInfo
     parameters:
     - id: initialRestriction
@@ -871,6 +903,7 @@ items:
   syntax:
     content: >-
       public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>()
+
           where MainTableInfo : TableInfo
     typeParameters:
     - id: MainTableInfo
@@ -889,6 +922,48 @@ items:
   - Shared
   fullName.vb: SuperOffice.Data.S.NewSelect(Of MainTableInfo)()
   name.vb: NewSelect(Of MainTableInfo)()
+- uid: SuperOffice.Data.S.NewSelect``1(SuperOffice.Data.SQL.TableInfo,System.Func{``0,SuperOffice.Data.SQL.Restriction})
+  commentId: M:SuperOffice.Data.S.NewSelect``1(SuperOffice.Data.SQL.TableInfo,System.Func{``0,SuperOffice.Data.SQL.Restriction})
+  id: NewSelect``1(SuperOffice.Data.SQL.TableInfo,System.Func{``0,SuperOffice.Data.SQL.Restriction})
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewSelect<MainTableInfo>(TableInfo, Func<MainTableInfo, Restriction>)
+  nameWithType: S.NewSelect<MainTableInfo>(TableInfo, Func<MainTableInfo, Restriction>)
+  fullName: SuperOffice.Data.S.NewSelect<MainTableInfo>(SuperOffice.Data.SQL.TableInfo, System.Func<MainTableInfo, SuperOffice.Data.SQL.Restriction>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: >-
+      public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>(TableInfo targetTable, Func<MainTableInfo, Restriction> initialRestriction)
+
+          where MainTableInfo : TableInfo
+    parameters:
+    - id: targetTable
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: initialRestriction
+      type: System.Func{{MainTableInfo},SuperOffice.Data.SQL.Restriction}
+    typeParameters:
+    - id: MainTableInfo
+    return:
+      type: SuperOffice.Data.SQL.TargetedSelect{{MainTableInfo}}
+    content.vb: Public Shared Function NewSelect(Of MainTableInfo As TableInfo)(targetTable As TableInfo, initialRestriction As Func(Of MainTableInfo, Restriction)) As TargetedSelect(Of MainTableInfo)
+  overload: SuperOffice.Data.S.NewSelect*
+  nameWithType.vb: S.NewSelect(Of MainTableInfo)(TableInfo, Func(Of MainTableInfo, Restriction))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.NewSelect(Of MainTableInfo)(SuperOffice.Data.SQL.TableInfo, System.Func(Of MainTableInfo, SuperOffice.Data.SQL.Restriction))
+  name.vb: NewSelect(Of MainTableInfo)(TableInfo, Func(Of MainTableInfo, Restriction))
 - uid: SuperOffice.Data.S.NewSelect``1(System.Int32[])
   commentId: M:SuperOffice.Data.S.NewSelect``1(System.Int32[])
   id: NewSelect``1(System.Int32[])
@@ -910,6 +985,7 @@ items:
   syntax:
     content: >-
       public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>(params int[] primaryKey)
+
           where MainTableInfo : TableInfo
     parameters:
     - id: primaryKey
@@ -953,6 +1029,7 @@ items:
   syntax:
     content: >-
       public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>(IEnumerable<int> primaryKey)
+
           where MainTableInfo : TableInfo
     parameters:
     - id: primaryKey
@@ -995,6 +1072,7 @@ items:
   syntax:
     content: >-
       public static R LookupSingleField<T, R>(Func<T, FieldInfo> getField, int primaryKey)
+
           where T : TableInfo where R : new()
     parameters:
     - id: getField
@@ -1167,6 +1245,7 @@ items:
   syntax:
     content: >-
       public static Delete NewDelete<TI>(int keyValue)
+
           where TI : TableInfo
     parameters:
     - id: keyValue
@@ -1187,16 +1266,16 @@ items:
   - Shared
   fullName.vb: SuperOffice.Data.S.NewDelete(Of TI)(System.Int32)
   name.vb: NewDelete(Of TI)(Int32)
-- uid: SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
-  commentId: M:SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
-  id: DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
+- uid: SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
+  id: DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0},SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.S
   langs:
   - csharp
   - vb
-  name: DeleteFromSelect<TI>(TargetedSelect<TI>)
-  nameWithType: S.DeleteFromSelect<TI>(TargetedSelect<TI>)
-  fullName: SuperOffice.Data.S.DeleteFromSelect<TI>(SuperOffice.Data.SQL.TargetedSelect<TI>)
+  name: DeleteFromSelect<TI>(TargetedSelect<TI>, BatchSave)
+  nameWithType: S.DeleteFromSelect<TI>(TargetedSelect<TI>, BatchSave)
+  fullName: SuperOffice.Data.S.DeleteFromSelect<TI>(SuperOffice.Data.SQL.TargetedSelect<TI>, SuperOffice.Data.SQL.BatchSave)
   type: Method
   source:
     path: SoDataBase
@@ -1207,26 +1286,30 @@ items:
   summary: "\nEvaluate a <xref href=\"SuperOffice.Data.SQL.TargetedSelect%601\" data-throw-if-not-resolved=\"false\"></xref>, fetch primary keys, and generate a <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref> that contains delete&apos;s for each row\n"
   syntax:
     content: >-
-      public static BatchSave DeleteFromSelect<TI>(TargetedSelect<TI> select)
+      public static BatchSave DeleteFromSelect<TI>(TargetedSelect<TI> select, BatchSave batch = null)
+
           where TI : TableInfo
     parameters:
     - id: select
       type: SuperOffice.Data.SQL.TargetedSelect{{TI}}
+    - id: batch
+      type: SuperOffice.Data.SQL.BatchSave
+      description: BatchSave to add deletes to
     typeParameters:
     - id: TI
     return:
       type: SuperOffice.Data.SQL.BatchSave
-    content.vb: Public Shared Function DeleteFromSelect(Of TI As TableInfo)(select As TargetedSelect(Of TI)) As BatchSave
+    content.vb: Public Shared Function DeleteFromSelect(Of TI As TableInfo)(select As TargetedSelect(Of TI), batch As BatchSave = Nothing) As BatchSave
   overload: SuperOffice.Data.S.DeleteFromSelect*
-  nameWithType.vb: S.DeleteFromSelect(Of TI)(TargetedSelect(Of TI))
+  nameWithType.vb: S.DeleteFromSelect(Of TI)(TargetedSelect(Of TI), BatchSave)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Data.S.DeleteFromSelect(Of TI)(SuperOffice.Data.SQL.TargetedSelect(Of TI))
-  name.vb: DeleteFromSelect(Of TI)(TargetedSelect(Of TI))
+  fullName.vb: SuperOffice.Data.S.DeleteFromSelect(Of TI)(SuperOffice.Data.SQL.TargetedSelect(Of TI), SuperOffice.Data.SQL.BatchSave)
+  name.vb: DeleteFromSelect(Of TI)(TargetedSelect(Of TI), BatchSave)
 - uid: SuperOffice.Data.S.NewInsertFromSelect
   commentId: M:SuperOffice.Data.S.NewInsertFromSelect
   id: NewInsertFromSelect
@@ -1495,285 +1578,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1820,6 +1624,13 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
@@ -1835,8 +1646,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1849,25 +1658,15 @@ references:
   nameWithType: Double
   fullName: System.Double
 - uid: System.DBNull
-  commentId: T:System.DBNull
-  parent: System
   isExternal: true
   name: DBNull
   nameWithType: DBNull
   fullName: System.DBNull
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.Data.S.NewSelect*
   commentId: Overload:SuperOffice.Data.S.NewSelect
   isExternal: true
@@ -1882,8 +1681,7 @@ references:
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
 - uid: System.Func{{MainTableInfo},SuperOffice.Data.SQL.Restriction}
-  commentId: T:System.Func{``0,SuperOffice.Data.SQL.Restriction}
-  parent: System
+  commentId: '!:System.Func{``0,SuperOffice.Data.SQL.Restriction}'
   definition: System.Func`2
   name: Func<MainTableInfo, Restriction>
   nameWithType: Func<MainTableInfo, Restriction>
@@ -1978,14 +1776,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Func`2
-  commentId: T:System.Func`2
   isExternal: true
-  name: Func<T, TResult>
-  nameWithType: Func<T, TResult>
-  fullName: System.Func<T, TResult>
-  nameWithType.vb: Func(Of T, TResult)
-  fullName.vb: System.Func(Of T, TResult)
-  name.vb: Func(Of T, TResult)
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -1995,15 +1792,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2016,15 +1813,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -2068,6 +1865,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.Int32[]
   isExternal: true
   name: Int32[]
@@ -2095,8 +1899,7 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Collections.Generic.IEnumerable{System.Int32}
-  commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Int32}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<Int32>
   nameWithType: IEnumerable<Int32>
@@ -2139,14 +1942,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -2156,9 +1958,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2171,18 +1973,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Data.S.LookupSingleField*
   commentId: Overload:SuperOffice.Data.S.LookupSingleField
   isExternal: true
@@ -2190,8 +1986,7 @@ references:
   nameWithType: S.LookupSingleField
   fullName: SuperOffice.Data.S.LookupSingleField
 - uid: System.Func{{T},SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.Func{``0,SuperOffice.Data.SQL.FieldInfo}
-  parent: System
+  commentId: '!:System.Func{``0,SuperOffice.Data.SQL.FieldInfo}'
   definition: System.Func`2
   name: Func<T, FieldInfo>
   nameWithType: Func<T, FieldInfo>
@@ -2374,8 +2169,7 @@ references:
   nameWithType: S.And
   fullName: SuperOffice.Data.S.And
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<Restriction>
   nameWithType: IEnumerable<Restriction>

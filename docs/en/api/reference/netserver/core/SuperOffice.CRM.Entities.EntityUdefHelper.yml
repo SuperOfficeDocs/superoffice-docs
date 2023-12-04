@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.EntityUdefHelper.#ctor(SuperOffice.CRM.Entities.IEntityUdefHelperContainer)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
   - SuperOffice.CRM.Entities.EntityUdefHelper.ConvertDbTypeToString(System.String,System.Object)
   - SuperOffice.CRM.Entities.EntityUdefHelper.ConvertSpecificTypeToString(System.String,System.Object)
   - SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo(SuperOffice.CRM.Entities.EntityUdefHelper)
@@ -17,6 +18,7 @@ items:
   - SuperOffice.CRM.Entities.EntityUdefHelper.Item(System.String)
   - SuperOffice.CRM.Entities.EntityUdefHelper.OnUdefValueChange
   - SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
+  - SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
   - SuperOffice.CRM.Entities.EntityUdefHelper.SetDefault(System.String)
   - SuperOffice.CRM.Entities.EntityUdefHelper.SetDefaults
   - SuperOffice.CRM.Entities.EntityUdefHelper.SetValue(System.String,System.Object)
@@ -41,6 +43,7 @@ items:
     content: 'public sealed class EntityUdefHelper : UdefValueHelper'
     content.vb: >-
       Public NotInheritable Class EntityUdefHelper
+
           Inherits UdefValueHelper
   seealso:
   - linkId: SuperOffice.CRM.Entities.Contact
@@ -68,13 +71,6 @@ items:
   - SuperOffice.CRM.Data.Util.UdefValueHelper.ErrorIdentification(SuperOffice.CRM.Rows.UDefFieldRow)
   - SuperOffice.CRM.Data.Util.UdefValueHelper.TimeTLocal2DateTime(System.Int32)
   - SuperOffice.CRM.Data.Util.UdefValueHelper.DateTime2TimeTLocal(System.DateTime)
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.EntityUdefHelper.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.EntityUdefHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -444,6 +440,62 @@ items:
       description: The other udef helper to set the values on.
     content.vb: Public Sub CopyTo(otherUdefHelper As EntityUdefHelper)
   overload: SuperOffice.CRM.Entities.EntityUdefHelper.CopyTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  id: add_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: add_OnUdefValueChange(EntityUdefHelper.UdefValueChange)
+  nameWithType: EntityUdefHelper.add_OnUdefValueChange(EntityUdefHelper.UdefValueChange)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public void add_OnUdefValueChange(EntityUdefHelper.UdefValueChange value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+    content.vb: Public Sub add_OnUdefValueChange(value As EntityUdefHelper.UdefValueChange)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  id: remove_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper
+  langs:
+  - csharp
+  - vb
+  name: remove_OnUdefValueChange(EntityUdefHelper.UdefValueChange)
+  nameWithType: EntityUdefHelper.remove_OnUdefValueChange(EntityUdefHelper.UdefValueChange)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange(SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public void remove_OnUdefValueChange(EntityUdefHelper.UdefValueChange value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+    content.vb: Public Sub remove_OnUdefValueChange(value As EntityUdefHelper.UdefValueChange)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1330,285 +1382,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityUdefHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1933,6 +1706,25 @@ references:
   name: EntityUdefHelper
   nameWithType: EntityUdefHelper
   fullName: SuperOffice.CRM.Entities.EntityUdefHelper
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange
+  isExternal: true
+  name: add_OnUdefValueChange
+  nameWithType: EntityUdefHelper.add_OnUdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.add_OnUdefValueChange
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityUdefHelper.UdefValueChange
+  nameWithType: EntityUdefHelper.UdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange
+  isExternal: true
+  name: remove_OnUdefValueChange
+  nameWithType: EntityUdefHelper.remove_OnUdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.remove_OnUdefValueChange
 - uid: SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds*
   commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
   isExternal: true
@@ -1940,8 +1732,7 @@ references:
   nameWithType: EntityUdefHelper.ProgIds
   fullName: SuperOffice.CRM.Entities.EntityUdefHelper.ProgIds
 - uid: System.Collections.Generic.List{System.String}
-  commentId: T:System.Collections.Generic.List{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.String}'
   definition: System.Collections.Generic.List`1
   name: List<String>
   nameWithType: List<String>
@@ -1984,14 +1775,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -2001,9 +1791,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2016,18 +1806,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Entities.EntityUdefHelper.Item*
   commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.Item
   isExternal: true
@@ -2046,10 +1830,3 @@ references:
   name: DisplayTooltipSuffix
   nameWithType: EntityUdefHelper.DisplayTooltipSuffix
   fullName: SuperOffice.CRM.Entities.EntityUdefHelper.DisplayTooltipSuffix
-- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
-  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  name: EntityUdefHelper.UdefValueChange
-  nameWithType: EntityUdefHelper.UdefValueChange
-  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange

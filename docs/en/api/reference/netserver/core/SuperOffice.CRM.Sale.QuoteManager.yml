@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Sale.QuoteManager.#ctor(System.Int32)
   - SuperOffice.CRM.Sale.QuoteManager.ApproveQuoteVersion(System.Int32,System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest(System.Int32)
   - SuperOffice.CRM.Sale.QuoteManager.CanProvideCapability(System.String)
   - SuperOffice.CRM.Sale.QuoteManager.ChangeQuoteVersionStateTo(System.Int32,SuperOffice.Data.QuoteVersionState)
   - SuperOffice.CRM.Sale.QuoteManager.ContactId
@@ -60,7 +61,7 @@ items:
   - SuperOffice.CRM.Sale.QuoteManager.GetQuoteVersionStatus(System.Int32,System.Int32)
   - SuperOffice.CRM.Sale.QuoteManager.GetQuoteVersionStatus(System.Int32,System.Int32,SuperOffice.CRM.Rows.QuoteVersionRow)
   - SuperOffice.CRM.Sale.QuoteManager.GetShippingAddress(System.Int32)
-  - SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.Data.QuoteVersionState,System.DateTime,System.String@,System.String@,System.String@)
+  - SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.CRM.QuoteVersionInfo,System.DateTime,System.String@,System.String@,System.String@)
   - SuperOffice.CRM.Sale.QuoteManager.HasQuote
   - SuperOffice.CRM.Sale.QuoteManager.HasValidConnection
   - SuperOffice.CRM.Sale.QuoteManager.MoveQuoteLine(System.Int32,System.Boolean)
@@ -82,6 +83,7 @@ items:
   - SuperOffice.CRM.Sale.QuoteManager.RecalculateQuoteLine(SuperOffice.CRM.QuoteLineInfo,System.String[])
   - SuperOffice.CRM.Sale.QuoteManager.RejectQuoteVersion(System.Int32,System.String,System.Int32,System.String)
   - SuperOffice.CRM.Sale.QuoteManager.RenameQuoteAlternative(System.Int32,System.String)
+  - SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval(System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Sale.QuoteManager.SaleId
   - SuperOffice.CRM.Sale.QuoteManager.SaleRow
   - SuperOffice.CRM.Sale.QuoteManager.SaveQuote(SuperOffice.CRM.QuoteInfo)
@@ -109,18 +111,13 @@ items:
   namespace: SuperOffice.CRM.Sale
   summary: "\nHandle all business logic for quotes on a sale.  \nA QuoteManager is created for a given sale/quote and manages the versions+alternatives for the sale/quote.\nA QuoteManager is not a singleton.\nUses the <xref href=\"SuperOffice.CRM.Sale.QuoteManager.QuoteConnectionManager\" data-throw-if-not-resolved=\"false\"></xref> to manage and initialize Quote Connections. \n"
   syntax:
-    content: public sealed class QuoteManager
-    content.vb: Public NotInheritable Class QuoteManager
+    content: 'public sealed class QuoteManager : Object'
+    content.vb: >-
+      Public NotInheritable Class QuoteManager
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Sale.QuoteManager.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Sale.QuoteManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -1180,16 +1177,19 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Sale
-  summary: "\nCreate a quoteline from a productKey by calling the erp connector.\n"
+  summary: "\nCreate one or more quoteline(s) from a productKey by calling the erp connector.\n"
   syntax:
     content: public QuoteLineInfo CreateQuoteLine(int quoteAlternativeId, string productKey)
     parameters:
     - id: quoteAlternativeId
       type: System.Int32
+      description: alternative to add to
     - id: productKey
       type: System.String
+      description: product id
     return:
       type: SuperOffice.CRM.QuoteLineInfo
+      description: First non-null quoteline
     content.vb: Public Function CreateQuoteLine(quoteAlternativeId As Integer, productKey As String) As QuoteLineInfo
   overload: SuperOffice.CRM.Sale.QuoteManager.CreateQuoteLine*
   modifiers.csharp:
@@ -1766,6 +1766,73 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest(System.Int32)
+  id: CancelQuoteApprovalRequest(System.Int32)
+  parent: SuperOffice.CRM.Sale.QuoteManager
+  langs:
+  - csharp
+  - vb
+  name: CancelQuoteApprovalRequest(Int32)
+  nameWithType: QuoteManager.CancelQuoteApprovalRequest(Int32)
+  fullName: SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nCancels a pending quote approval request\n"
+  syntax:
+    content: public PluginResponseInfo CancelQuoteApprovalRequest(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: QuoteVersionId that has a pending approval.
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+      description: Response of the the operation
+    content.vb: Public Function CancelQuoteApprovalRequest(quoteVersionId As Integer) As PluginResponseInfo
+  overload: SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval(System.Int32,System.Int32,System.String)
+  id: RequestQuoteApproval(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Sale.QuoteManager
+  langs:
+  - csharp
+  - vb
+  name: RequestQuoteApproval(Int32, Int32, String)
+  nameWithType: QuoteManager.RequestQuoteApproval(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: public PluginResponseInfo RequestQuoteApproval(int quoteVersionId, int associateId, string comment)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: associateId
+      type: System.Int32
+    - id: comment
+      type: System.String
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+    content.vb: Public Function RequestQuoteApproval(quoteVersionId As Integer, associateId As Integer, comment As String) As PluginResponseInfo
+  overload: SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Sale.QuoteManager.RejectQuoteVersion(System.Int32,System.String,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Sale.QuoteManager.RejectQuoteVersion(System.Int32,System.String,System.Int32,System.String)
   id: RejectQuoteVersion(System.Int32,System.String,System.Int32,System.String)
@@ -2129,7 +2196,7 @@ items:
     return:
       type: SuperOffice.CRM.Sale.PluginResponseInfoWithChanges
       description: Modified quote version/alternative/line objects. Url to open if call was successful.
-    content.vb: Public Function SendQuoteVersion(quoteVersionId As Integer, expiryDate As Date, followupDate As Date, followupText As String, culture As String) As PluginResponseInfoWithChanges
+    content.vb: Public Function SendQuoteVersion(quoteVersionId As Integer, expiryDate As DateTime, followupDate As DateTime, followupText As String, culture As String) As PluginResponseInfoWithChanges
   overload: SuperOffice.CRM.Sale.QuoteManager.SendQuoteVersion*
   modifiers.csharp:
   - public
@@ -2232,16 +2299,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.Data.QuoteVersionState,System.DateTime,System.String@,System.String@,System.String@)
-  commentId: M:SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.Data.QuoteVersionState,System.DateTime,System.String@,System.String@,System.String@)
-  id: GetStateImageAndText(SuperOffice.Data.QuoteVersionState,System.DateTime,System.String@,System.String@,System.String@)
+- uid: SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.CRM.QuoteVersionInfo,System.DateTime,System.String@,System.String@,System.String@)
+  commentId: M:SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.CRM.QuoteVersionInfo,System.DateTime,System.String@,System.String@,System.String@)
+  id: GetStateImageAndText(SuperOffice.CRM.QuoteVersionInfo,System.DateTime,System.String@,System.String@,System.String@)
   parent: SuperOffice.CRM.Sale.QuoteManager
   langs:
   - csharp
   - vb
-  name: GetStateImageAndText(QuoteVersionState, DateTime, out String, out String, out String)
-  nameWithType: QuoteManager.GetStateImageAndText(QuoteVersionState, DateTime, out String, out String, out String)
-  fullName: SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.Data.QuoteVersionState, System.DateTime, out System.String, out System.String, out System.String)
+  name: GetStateImageAndText(QuoteVersionInfo, DateTime, out String, out String, out String)
+  nameWithType: QuoteManager.GetStateImageAndText(QuoteVersionInfo, DateTime, out String, out String, out String)
+  fullName: SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.CRM.QuoteVersionInfo, System.DateTime, out System.String, out System.String, out System.String)
   type: Method
   source:
     path: SoDataBase
@@ -2250,10 +2317,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Sale
   syntax:
-    content: public static void GetStateImageAndText(QuoteVersionState quoteVersionState, DateTime expiration, out string imageHint, out string displayText, out string tooltipText)
+    content: public static void GetStateImageAndText(QuoteVersionInfo quoteVersion, DateTime expiration, out string imageHint, out string displayText, out string tooltipText)
     parameters:
-    - id: quoteVersionState
-      type: SuperOffice.Data.QuoteVersionState
+    - id: quoteVersion
+      type: SuperOffice.CRM.QuoteVersionInfo
     - id: expiration
       type: System.DateTime
     - id: imageHint
@@ -2262,17 +2329,17 @@ items:
       type: System.String
     - id: tooltipText
       type: System.String
-    content.vb: Public Shared Sub GetStateImageAndText(quoteVersionState As QuoteVersionState, expiration As Date, ByRef imageHint As String, ByRef displayText As String, ByRef tooltipText As String)
+    content.vb: Public Shared Sub GetStateImageAndText(quoteVersion As QuoteVersionInfo, expiration As DateTime, ByRef imageHint As String, ByRef displayText As String, ByRef tooltipText As String)
   overload: SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText*
-  nameWithType.vb: QuoteManager.GetStateImageAndText(QuoteVersionState, DateTime, ByRef String, ByRef String, ByRef String)
+  nameWithType.vb: QuoteManager.GetStateImageAndText(QuoteVersionInfo, DateTime, ByRef String, ByRef String, ByRef String)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.Data.QuoteVersionState, System.DateTime, ByRef System.String, ByRef System.String, ByRef System.String)
-  name.vb: GetStateImageAndText(QuoteVersionState, DateTime, ByRef String, ByRef String, ByRef String)
+  fullName.vb: SuperOffice.CRM.Sale.QuoteManager.GetStateImageAndText(SuperOffice.CRM.QuoteVersionInfo, System.DateTime, ByRef System.String, ByRef System.String, ByRef System.String)
+  name.vb: GetStateImageAndText(QuoteVersionInfo, DateTime, ByRef String, ByRef String, ByRef String)
 - uid: SuperOffice.CRM.Sale.QuoteManager.FindProduct(System.String,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Sale.QuoteManager.FindProduct(System.String,System.Int32,System.String)
   id: FindProduct(System.String,System.Int32,System.String)
@@ -3037,285 +3104,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Sale.QuoteManager.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -3556,8 +3344,7 @@ references:
   nameWithType: QuoteManager.GetConnections
   fullName: SuperOffice.CRM.Sale.QuoteManager.GetConnections
 - uid: System.Collections.Generic.List{SuperOffice.CRM.QuoteConnection}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.QuoteConnection}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.QuoteConnection}'
   definition: System.Collections.Generic.List`1
   name: List<QuoteConnection>
   nameWithType: List<QuoteConnection>
@@ -3600,14 +3387,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -3617,9 +3403,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3632,18 +3418,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Sale.QuoteManager.CreateNewQuote*
   commentId: Overload:SuperOffice.CRM.Sale.QuoteManager.CreateNewQuote
   isExternal: true
@@ -3855,8 +3635,7 @@ references:
   nameWithType: QuoteManager.GetQuoteVersions
   fullName: SuperOffice.CRM.Sale.QuoteManager.GetQuoteVersions
 - uid: System.Collections.Generic.List{SuperOffice.CRM.QuoteVersionInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.QuoteVersionInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.QuoteVersionInfo}'
   definition: System.Collections.Generic.List`1
   name: List<QuoteVersionInfo>
   nameWithType: List<QuoteVersionInfo>
@@ -3911,8 +3690,7 @@ references:
   nameWithType: QuoteManager.GetQuoteAlternatives
   fullName: SuperOffice.CRM.Sale.QuoteManager.GetQuoteAlternatives
 - uid: System.Collections.Generic.List{SuperOffice.CRM.QuoteAlternativeInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.QuoteAlternativeInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.QuoteAlternativeInfo}'
   definition: System.Collections.Generic.List`1
   name: List<QuoteAlternativeInfo>
   nameWithType: List<QuoteAlternativeInfo>
@@ -3980,8 +3758,7 @@ references:
   nameWithType: QuoteManager.GetQuoteAlternativeRows
   fullName: SuperOffice.CRM.Sale.QuoteManager.GetQuoteAlternativeRows
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Rows.QuoteAlternativeRow}'
   definition: System.Collections.Generic.List`1
   name: List<QuoteAlternativeRow>
   nameWithType: List<QuoteAlternativeRow>
@@ -4281,6 +4058,25 @@ references:
   name: ApproveRejectResponseInfo
   nameWithType: ApproveRejectResponseInfo
   fullName: SuperOffice.CRM.ApproveRejectResponseInfo
+- uid: SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest
+  isExternal: true
+  name: CancelQuoteApprovalRequest
+  nameWithType: QuoteManager.CancelQuoteApprovalRequest
+  fullName: SuperOffice.CRM.Sale.QuoteManager.CancelQuoteApprovalRequest
+- uid: SuperOffice.CRM.PluginResponseInfo
+  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+- uid: SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval
+  isExternal: true
+  name: RequestQuoteApproval
+  nameWithType: QuoteManager.RequestQuoteApproval
+  fullName: SuperOffice.CRM.Sale.QuoteManager.RequestQuoteApproval
 - uid: SuperOffice.CRM.Sale.QuoteManager.RejectQuoteVersion*
   commentId: Overload:SuperOffice.CRM.Sale.QuoteManager.RejectQuoteVersion
   isExternal: true
@@ -4357,8 +4153,6 @@ references:
   nameWithType: QuoteManager.SendQuoteVersion
   fullName: SuperOffice.CRM.Sale.QuoteManager.SendQuoteVersion
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -4615,8 +4409,7 @@ references:
   nameWithType: QuoteManager.VersionAttachmentRows
   fullName: SuperOffice.CRM.Sale.QuoteManager.VersionAttachmentRows
 - uid: System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionAttachmentRows}
-  commentId: T:System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionAttachmentRows}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{SuperOffice.CRM.Rows.QuoteVersionRow,SuperOffice.CRM.Rows.QuoteVersionAttachmentRows}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<QuoteVersionRow, QuoteVersionAttachmentRows>
   nameWithType: Dictionary<QuoteVersionRow, QuoteVersionAttachmentRows>
@@ -4675,14 +4468,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -4692,15 +4484,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4713,15 +4505,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

@@ -27,6 +27,7 @@ items:
   - SuperOffice.License.ProductLicense.SyncEngine
   - SuperOffice.License.ProductLicense.Travel
   - SuperOffice.License.ProductLicense.User
+  - SuperOffice.License.ProductLicense.value__
   - SuperOffice.License.ProductLicense.Web
   - SuperOffice.License.ProductLicense.WebLogin
   - SuperOffice.License.ProductLicense.WebServices
@@ -38,7 +39,7 @@ items:
   name: ProductLicense
   nameWithType: ProductLicense
   fullName: SuperOffice.License.ProductLicense
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -47,40 +48,54 @@ items:
   namespace: SuperOffice.License
   summary: "\nDifferent licenses that products can require.\n"
   syntax:
-    content: >-
-      [Obsolete("Not relevant for the new license system", false)]
-
-      [Flags]
-
-      public enum ProductLicense : uint
+    content: 'public sealed class ProductLicense : Enum'
     content.vb: >-
-      <Obsolete("Not relevant for the new license system", False)>
+      Public NotInheritable Class ProductLicense
 
-      <Flags>
+          Inherits
 
-      Public Enum ProductLicense As UInteger
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.License.ProductLicense.EnumUtil.MapEnums``2
-  - SuperOffice.License.ProductLicense.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.ProductLicense)
-  - SuperOffice.License.ProductLicense.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.License.ProductLicense.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Not relevant for the new license system
-    - type: System.Boolean
-      value: false
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.License.ProductLicense.value__
+  commentId: F:SuperOffice.License.ProductLicense.value__
+  id: value__
+  parent: SuperOffice.License.ProductLicense
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ProductLicense.value__
+  fullName: SuperOffice.License.ProductLicense.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  syntax:
+    content: public uint value__
+    return:
+      type: System.UInt32
+    content.vb: Public value__ As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.ProductLicense.All
   commentId: F:SuperOffice.License.ProductLicense.All
   id: All
@@ -100,10 +115,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nAll available licenses.\n"
   syntax:
-    content: All = 4294967295U
+    content: public const ProductLicense All
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: All = 4294967295UI
+    content.vb: Public Const All As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -129,10 +144,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nAll possible site licenses.\n"
   syntax:
-    content: Site = 4294901760U
+    content: public const ProductLicense Site
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Site = 4294901760UI
+    content.vb: Public Const Site As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -158,10 +173,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nAll possible user licenses.\n"
   syntax:
-    content: User = 65535U
+    content: public const ProductLicense User
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: User = 65535UI
+    content.vb: Public Const User As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -187,10 +202,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nAll licenses that can be deprecated. But what does this really mean??\n"
   syntax:
-    content: Deprecatable = 4278251520U
+    content: public const ProductLicense Deprecatable
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Deprecatable = 4278251520UI
+    content.vb: Public Const Deprecatable As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -216,10 +231,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nNo available licenses\n"
   syntax:
-    content: None = 0U
+    content: public const ProductLicense None
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: None = 0UI
+    content.vb: Public Const None As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -245,10 +260,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to log in.\n"
   syntax:
-    content: Login = 1U
+    content: public const ProductLicense Login
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Login = 1UI
+    content.vb: Public Const Login As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -274,10 +289,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to log in to windows clients.\n"
   syntax:
-    content: WinLogin = 2U
+    content: public const ProductLicense WinLogin
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: WinLogin = 2UI
+    content.vb: Public Const WinLogin As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -303,10 +318,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to log in to web clients.\n"
   syntax:
-    content: WebLogin = 4U
+    content: public const ProductLicense WebLogin
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: WebLogin = 4UI
+    content.vb: Public Const WebLogin As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -332,10 +347,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is permitted to publish.\n"
   syntax:
-    content: Publish = 16U
+    content: public const ProductLicense Publish
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Publish = 16UI
+    content.vb: Public Const Publish As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -361,10 +376,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is permitted to create external persons.\n"
   syntax:
-    content: CreateExternalPerson = 32U
+    content: public const ProductLicense CreateExternalPerson
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: CreateExternalPerson = 32UI
+    content.vb: Public Const CreateExternalPerson As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -390,10 +405,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is permitted to create external appointments.\n"
   syntax:
-    content: ConfidentialAppointment = 64U
+    content: public const ProductLicense ConfidentialAppointment
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: ConfidentialAppointment = 64UI
+    content.vb: Public Const ConfidentialAppointment As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -419,10 +434,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to use reporter studio.\n"
   syntax:
-    content: ReporterStudio = 128U
+    content: public const ProductLicense ReporterStudio
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: ReporterStudio = 128UI
+    content.vb: Public Const ReporterStudio As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -448,10 +463,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nTBD\n"
   syntax:
-    content: Travel = 256U
+    content: public const ProductLicense Travel
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Travel = 256UI
+    content.vb: Public Const Travel As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -477,10 +492,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to use remote travel.\n"
   syntax:
-    content: RemoteTravel = 512U
+    content: public const ProductLicense RemoteTravel
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: RemoteTravel = 512UI
+    content.vb: Public Const RemoteTravel As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -506,10 +521,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nThe user is licensed to use the sync engine.\n"
   syntax:
-    content: SyncEngine = 1024U
+    content: public const ProductLicense SyncEngine
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: SyncEngine = 1024UI
+    content.vb: Public Const SyncEngine As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -535,10 +550,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nPocket CRM license is required\n"
   syntax:
-    content: PocketLogin = 2048U
+    content: public const ProductLicense PocketLogin
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: PocketLogin = 2048UI
+    content.vb: Public Const PocketLogin As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -564,10 +579,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nWindows client\n"
   syntax:
-    content: Win = 65536U
+    content: public const ProductLicense Win
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Win = 65536UI
+    content.vb: Public Const Win As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -593,10 +608,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nWebClient (SIX.Web) license is required.\n"
   syntax:
-    content: Web = 131072U
+    content: public const ProductLicense Web
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Web = 131072UI
+    content.vb: Public Const Web As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -622,10 +637,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nAudience license is required.\n"
   syntax:
-    content: Audience = 262144U
+    content: public const ProductLicense Audience
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Audience = 262144UI
+    content.vb: Public Const Audience As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -651,10 +666,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nExpanderKey license is required.\n"
   syntax:
-    content: ExpanderKey = 16777216U
+    content: public const ProductLicense ExpanderKey
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: ExpanderKey = 16777216UI
+    content.vb: Public Const ExpanderKey As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -680,10 +695,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nExpander for collaboration license is required\n"
   syntax:
-    content: ExpanderForCollaboration = 33554432U
+    content: public const ProductLicense ExpanderForCollaboration
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: ExpanderForCollaboration = 33554432UI
+    content.vb: Public Const ExpanderForCollaboration As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -709,10 +724,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nWebServices license is required.\n"
   syntax:
-    content: WebServices = 67108864U
+    content: public const ProductLicense WebServices
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: WebServices = 67108864UI
+    content.vb: Public Const WebServices As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -738,10 +753,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nSaint license is required\n"
   syntax:
-    content: Saint = 134217728U
+    content: public const ProductLicense Saint
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Saint = 134217728UI
+    content.vb: Public Const Saint As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -767,10 +782,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nPocket CRM license is present\n"
   syntax:
-    content: Pocket = 268435456U
+    content: public const ProductLicense Pocket
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: Pocket = 268435456UI
+    content.vb: Public Const Pocket As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -796,10 +811,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nProduct type is &quot;conventional, installed&quot;\n"
   syntax:
-    content: ProductTypeCRMSoftware = 536870912U
+    content: public const ProductLicense ProductTypeCRMSoftware
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: ProductTypeCRMSoftware = 536870912UI
+    content.vb: Public Const ProductTypeCRMSoftware As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -825,10 +840,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nProduct type is &quot;Online, standard edition&quot;\n"
   syntax:
-    content: ProductTypeOnlineStd = 1073741824U
+    content: public const ProductLicense ProductTypeOnlineStd
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: ProductTypeOnlineStd = 1073741824UI
+    content.vb: Public Const ProductTypeOnlineStd As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -854,10 +869,10 @@ items:
   namespace: SuperOffice.License
   summary: "\nProduct type is &quot;Online, professional edition&quot;\n"
   syntax:
-    content: ProductTypeOnlinePro = 2147483648U
+    content: public const ProductLicense ProductTypeOnlinePro
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: ProductTypeOnlinePro = 2147483648UI
+    content.vb: Public Const ProductTypeOnlinePro As ProductLicense
   modifiers.csharp:
   - public
   - const
@@ -871,6 +886,13 @@ references:
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.License.ProductLicense.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -898,84 +920,6 @@ references:
     name: MapEnums(Of ProductLicense, To)
     nameWithType: EnumUtil.MapEnums(Of ProductLicense, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.License.ProductLicense, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.License.ProductLicense.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.ProductLicense)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ProductLicense>(ProductLicense)
-  nameWithType: ObjectExtensions.AssignByReflection<ProductLicense>(ProductLicense)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.ProductLicense>(SuperOffice.License.ProductLicense)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProductLicense)(ProductLicense)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.ProductLicense)(SuperOffice.License.ProductLicense)
-  name.vb: AssignByReflection(Of ProductLicense)(ProductLicense)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ProductLicense>
-    nameWithType: ObjectExtensions.AssignByReflection<ProductLicense>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.ProductLicense>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.License.ProductLicense
-    name: ProductLicense
-    nameWithType: ProductLicense
-    fullName: SuperOffice.License.ProductLicense
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ProductLicense)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ProductLicense)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.ProductLicense)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.License.ProductLicense
-    name: ProductLicense
-    nameWithType: ProductLicense
-    fullName: SuperOffice.License.ProductLicense
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.License.ProductLicense.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ProductLicense>()
-  nameWithType: ObjectExtensions.GraphCopy<ProductLicense>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.ProductLicense>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProductLicense)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.ProductLicense)()
-  name.vb: GraphCopy(Of ProductLicense)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ProductLicense>
-    nameWithType: ObjectExtensions.GraphCopy<ProductLicense>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.ProductLicense>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ProductLicense)
-    nameWithType: ObjectExtensions.GraphCopy(Of ProductLicense)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.ProductLicense)
     isExternal: true
   - name: (
     nameWithType: (
@@ -1017,6 +961,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1062,103 +1012,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -1205,18 +1058,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
 - uid: SuperOffice.License.ProductLicense
   commentId: T:SuperOffice.License.ProductLicense
   parent: SuperOffice.License

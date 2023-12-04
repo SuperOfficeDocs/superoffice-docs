@@ -1,0 +1,955 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowUtil
+  id: WorkflowUtil
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.WorkflowUtil.#ctor
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStylePrefix
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStyleSuffix
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSParserPrefix
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSParserSuffix
+  - SuperOffice.CRM.Workflow.WorkflowUtil.CSSpmLinkNameLink
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName(System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds(System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds(System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds(System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds(System.Int32,SuperOffice.Data.WorkflowStepType)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowUtil
+  nameWithType: WorkflowUtil
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class WorkflowUtil : Object'
+    content.vb: >-
+      Public Class WorkflowUtil
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.WorkflowUtil.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowUtil.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowUtil)
+  - SuperOffice.CRM.Workflow.WorkflowUtil.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.WorkflowUtil.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserPrefix
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSParserPrefix
+  id: CSParserPrefix
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: CSParserPrefix
+  nameWithType: WorkflowUtil.CSParserPrefix
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserPrefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const string CSParserPrefix = "[["
+    return:
+      type: System.String
+    content.vb: Public Const CSParserPrefix As String = "[["
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserSuffix
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSParserSuffix
+  id: CSParserSuffix
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: CSParserSuffix
+  nameWithType: WorkflowUtil.CSParserSuffix
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserSuffix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const string CSParserSuffix = "]]"
+    return:
+      type: System.String
+    content.vb: Public Const CSParserSuffix As String = "]]"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStylePrefix
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStylePrefix
+  id: CSParserOldStylePrefix
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: CSParserOldStylePrefix
+  nameWithType: WorkflowUtil.CSParserOldStylePrefix
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStylePrefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const string CSParserOldStylePrefix = "%"
+    return:
+      type: System.String
+    content.vb: Public Const CSParserOldStylePrefix As String = "%"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStyleSuffix
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStyleSuffix
+  id: CSParserOldStyleSuffix
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: CSParserOldStyleSuffix
+  nameWithType: WorkflowUtil.CSParserOldStyleSuffix
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSParserOldStyleSuffix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const string CSParserOldStyleSuffix = "%"
+    return:
+      type: System.String
+    content.vb: Public Const CSParserOldStyleSuffix As String = "%"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.CSSpmLinkNameLink
+  commentId: F:SuperOffice.CRM.Workflow.WorkflowUtil.CSSpmLinkNameLink
+  id: CSSpmLinkNameLink
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: CSSpmLinkNameLink
+  nameWithType: WorkflowUtil.CSSpmLinkNameLink
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.CSSpmLinkNameLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public const string CSSpmLinkNameLink = "spmLink"
+    return:
+      type: System.String
+    content.vb: Public Const CSSpmLinkNameLink As String = "spmLink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds(System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds(System.Int32)
+  id: GetRootStepIds(System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetRootStepIds(Int32)
+  nameWithType: WorkflowUtil.GetRootStepIds(Int32)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static IEnumerable<int> GetRootStepIds(int workflowId)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    content.vb: Public Shared Function GetRootStepIds(workflowId As Integer) As IEnumerable(Of Integer)
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds(System.Int32,SuperOffice.Data.WorkflowStepType)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds(System.Int32,SuperOffice.Data.WorkflowStepType)
+  id: GetStepIds(System.Int32,SuperOffice.Data.WorkflowStepType)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetStepIds(Int32, WorkflowStepType)
+  nameWithType: WorkflowUtil.GetStepIds(Int32, WorkflowStepType)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds(System.Int32, SuperOffice.Data.WorkflowStepType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static IEnumerable<int> GetStepIds(int workflowId, WorkflowStepType stepType)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: stepType
+      type: SuperOffice.Data.WorkflowStepType
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    content.vb: Public Shared Function GetStepIds(workflowId As Integer, stepType As WorkflowStepType) As IEnumerable(Of Integer)
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds(System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds(System.Int32)
+  id: GetOptionStepIds(System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetOptionStepIds(Int32)
+  nameWithType: WorkflowUtil.GetOptionStepIds(Int32)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static IEnumerable<int> GetOptionStepIds(int optionId)
+    parameters:
+    - id: optionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    content.vb: Public Shared Function GetOptionStepIds(optionId As Integer) As IEnumerable(Of Integer)
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds(System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds(System.Int32)
+  id: GetOptionIds(System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetOptionIds(Int32)
+  nameWithType: WorkflowUtil.GetOptionIds(Int32)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static IEnumerable<int> GetOptionIds(int stepId)
+    parameters:
+    - id: stepId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    content.vb: Public Shared Function GetOptionIds(stepId As Integer) As IEnumerable(Of Integer)
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName(System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName(System.Int32)
+  id: GetCreatedByWorkflowName(System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetCreatedByWorkflowName(Int32)
+  nameWithType: WorkflowUtil.GetCreatedByWorkflowName(Int32)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static string GetCreatedByWorkflowName(int workflowId)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCreatedByWorkflowName(workflowId As Integer) As String
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  id: GetWorkflowStep(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowStep(WorkflowStepRow, WorkflowInstanceRow)
+  nameWithType: WorkflowUtil.GetWorkflowStep(WorkflowStepRow, WorkflowInstanceRow)
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep(SuperOffice.CRM.Rows.WorkflowStepRow, SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static WorkflowStepBase GetWorkflowStep(WorkflowStepRow row, WorkflowInstanceRow instanceRow)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.WorkflowStepRow
+    - id: instanceRow
+      type: SuperOffice.CRM.Rows.WorkflowInstanceRow
+    return:
+      type: SuperOffice.CRM.Workflow.WorkflowStepBase
+    content.vb: Public Shared Function GetWorkflowStep(row As WorkflowStepRow, instanceRow As WorkflowInstanceRow) As WorkflowStepBase
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowUtil.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Workflow.WorkflowUtil
+  langs:
+  - csharp
+  - vb
+  name: WorkflowUtil()
+  nameWithType: WorkflowUtil.WorkflowUtil()
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.WorkflowUtil()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public WorkflowUtil()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Workflow.WorkflowUtil.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowUtil, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowUtil, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowUtil, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil, To)()
+  name.vb: MapEnums(Of WorkflowUtil, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowUtil, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowUtil, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowUtil, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowUtil, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.WorkflowUtil)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkflowUtil>(WorkflowUtil)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowUtil>(WorkflowUtil)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowUtil>(SuperOffice.CRM.Workflow.WorkflowUtil)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowUtil)(WorkflowUtil)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowUtil)(SuperOffice.CRM.Workflow.WorkflowUtil)
+  name.vb: AssignByReflection(Of WorkflowUtil)(WorkflowUtil)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowUtil>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowUtil>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.WorkflowUtil>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowUtil
+    name: WorkflowUtil
+    nameWithType: WorkflowUtil
+    fullName: SuperOffice.CRM.Workflow.WorkflowUtil
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowUtil)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowUtil)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.WorkflowUtil)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.WorkflowUtil
+    name: WorkflowUtil
+    nameWithType: WorkflowUtil
+    fullName: SuperOffice.CRM.Workflow.WorkflowUtil
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkflowUtil>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowUtil>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowUtil>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowUtil)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowUtil)()
+  name.vb: GraphCopy(Of WorkflowUtil)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowUtil>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowUtil>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.WorkflowUtil>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowUtil)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowUtil)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.WorkflowUtil)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowUtil, To>()
+  nameWithType: Converters.MapEnums<WorkflowUtil, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowUtil, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil, To)()
+  name.vb: MapEnums(Of WorkflowUtil, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowUtil, To>
+    nameWithType: Converters.MapEnums<WorkflowUtil, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowUtil, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowUtil, To)
+    nameWithType: Converters.MapEnums(Of WorkflowUtil, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowUtil, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds
+  isExternal: true
+  name: GetRootStepIds
+  nameWithType: WorkflowUtil.GetRootStepIds
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetRootStepIds
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IEnumerable{System.Int32}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Int32}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Int32>
+  nameWithType: IEnumerable<Int32>
+  fullName: System.Collections.Generic.IEnumerable<System.Int32>
+  nameWithType.vb: IEnumerable(Of Int32)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Int32)
+  name.vb: IEnumerable(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds
+  isExternal: true
+  name: GetStepIds
+  nameWithType: WorkflowUtil.GetStepIds
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetStepIds
+- uid: SuperOffice.Data.WorkflowStepType
+  commentId: T:SuperOffice.Data.WorkflowStepType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: SuperOffice.Data.WorkflowStepType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds
+  isExternal: true
+  name: GetOptionStepIds
+  nameWithType: WorkflowUtil.GetOptionStepIds
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionStepIds
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds
+  isExternal: true
+  name: GetOptionIds
+  nameWithType: WorkflowUtil.GetOptionIds
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetOptionIds
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName
+  isExternal: true
+  name: GetCreatedByWorkflowName
+  nameWithType: WorkflowUtil.GetCreatedByWorkflowName
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetCreatedByWorkflowName
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep
+  isExternal: true
+  name: GetWorkflowStep
+  nameWithType: WorkflowUtil.GetWorkflowStep
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.GetWorkflowStep
+- uid: SuperOffice.CRM.Rows.WorkflowStepRow
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowStepRow
+  nameWithType: WorkflowStepRow
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRow
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRow
+  commentId: T:SuperOffice.CRM.Rows.WorkflowInstanceRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowInstanceRow
+  nameWithType: WorkflowInstanceRow
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRow
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepBase
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Workflow.WorkflowUtil.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowUtil.#ctor
+  isExternal: true
+  name: WorkflowUtil
+  nameWithType: WorkflowUtil.WorkflowUtil
+  fullName: SuperOffice.CRM.Workflow.WorkflowUtil.WorkflowUtil

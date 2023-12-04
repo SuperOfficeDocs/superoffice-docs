@@ -6,8 +6,9 @@ items:
   parent: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.ThreadContextProvider.#ctor
-  - SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
-  - SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  - SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager
+  - SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrentPrincipal
+  - SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentPrincipal(System.Security.Principal.IPrincipal)
   langs:
   - csharp
   - vb
@@ -23,55 +24,39 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nPlug-in for storing the internal state of NetServer in a thread-static variable\n"
   syntax:
-    content: >-
-      [SoContextProvider("Thread")]
-
-      public class ThreadContextProvider : ISoContextProvider, IPlugin
+    content: 'public class ThreadContextProvider : Object, ISoContextProvider'
     content.vb: >-
-      <SoContextProvider("Thread")>
-
       Public Class ThreadContextProvider
-          Implements ISoContextProvider, IPlugin
+
+          Inherits Object
+
+          Implements ISoContextProvider
   inheritance:
   - System.Object
   implements:
   - SuperOffice.Security.Principal.ISoContextProvider
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Security.Principal.ThreadContextProvider.EnumUtil.MapEnums``2
   - SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.ThreadContextProvider)
   - SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: SuperOffice.Security.Principal.SoContextProviderAttribute
-    ctor: SuperOffice.Security.Principal.SoContextProviderAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Thread
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
-  commentId: M:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
-  id: SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrentPrincipal
+  commentId: M:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrentPrincipal
+  id: SuperOffice#Security#Principal#ISoContextProvider#GetCurrentPrincipal
   isEii: true
   parent: SuperOffice.Security.Principal.ThreadContextProvider
   langs:
   - csharp
   - vb
-  name: ISoContextProvider.SetCurrentContext(SoContextContainer)
-  nameWithType: ThreadContextProvider.ISoContextProvider.SetCurrentContext(SoContextContainer)
-  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  name: ISoContextProvider.GetCurrentPrincipal()
+  nameWithType: ThreadContextProvider.ISoContextProvider.GetCurrentPrincipal()
+  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal()
   type: Method
   source:
     path: SoCore
@@ -80,44 +65,44 @@ items:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: void ISoContextProvider.SetCurrentContext(SoContextContainer context)
-    parameters:
-    - id: context
-      type: SuperOffice.Security.Principal.SoContextContainer
-    content.vb: Sub SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(context As SoContextContainer) Implements ISoContextProvider.SetCurrentContext
-  overload: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext*
-  implements:
-  - SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
-  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SoContextContainer)
-  name.vb: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SoContextContainer)
-- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
-  commentId: M:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
-  id: SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
-  isEii: true
-  parent: SuperOffice.Security.Principal.ThreadContextProvider
-  langs:
-  - csharp
-  - vb
-  name: ISoContextProvider.GetCurrenContext()
-  nameWithType: ThreadContextProvider.ISoContextProvider.GetCurrenContext()
-  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Security.Principal
-  syntax:
-    content: SoContextContainer ISoContextProvider.GetCurrenContext()
+    content: IPrincipal ISoContextProvider.GetCurrentPrincipal()
     return:
-      type: SuperOffice.Security.Principal.SoContextContainer
-    content.vb: Function SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext As SoContextContainer Implements ISoContextProvider.GetCurrenContext
-  overload: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext*
+      type: System.Security.Principal.IPrincipal
+    content.vb: Function SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal As IPrincipal Implements ISoContextProvider.GetCurrentPrincipal
+  overload: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrentPrincipal*
   implements:
-  - SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
-  name.vb: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
+  - SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
+  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal()
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal()
+- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  commentId: M:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  id: SuperOffice#Security#Principal#ISoContextProvider#SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  isEii: true
+  parent: SuperOffice.Security.Principal.ThreadContextProvider
+  langs:
+  - csharp
+  - vb
+  name: ISoContextProvider.SetCurrentPrincipal(IPrincipal)
+  nameWithType: ThreadContextProvider.ISoContextProvider.SetCurrentPrincipal(IPrincipal)
+  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: void ISoContextProvider.SetCurrentPrincipal(IPrincipal principal)
+    parameters:
+    - id: principal
+      type: System.Security.Principal.IPrincipal
+    content.vb: Sub SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(principal As IPrincipal) Implements ISoContextProvider.SetCurrentPrincipal
+  overload: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentPrincipal*
+  implements:
+  - SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(IPrincipal)
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(IPrincipal)
 - uid: SuperOffice.Security.Principal.ThreadContextProvider.#ctor
   commentId: M:SuperOffice.Security.Principal.ThreadContextProvider.#ctor
   id: '#ctor'
@@ -143,6 +128,38 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager
+  commentId: P:SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager
+  id: InheritSynchronizationContextInThreadManager
+  parent: SuperOffice.Security.Principal.ThreadContextProvider
+  langs:
+  - csharp
+  - vb
+  name: InheritSynchronizationContextInThreadManager
+  nameWithType: ThreadContextProvider.InheritSynchronizationContextInThreadManager
+  fullName: SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public bool InheritSynchronizationContextInThreadManager { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property InheritSynchronizationContextInThreadManager As Boolean
+  overload: SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager*
+  implements:
+  - SuperOffice.Security.Principal.ISoContextProvider.InheritSynchronizationContextInThreadManager
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -164,285 +181,6 @@ references:
   name: ISoContextProvider
   nameWithType: ISoContextProvider
   fullName: SuperOffice.Security.Principal.ISoContextProvider
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Security.Principal.ThreadContextProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -795,82 +533,26 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext*
-  commentId: Overload:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext
+- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrentPrincipal*
+  commentId: Overload:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrentPrincipal
   isExternal: true
-  name: ISoContextProvider.SetCurrentContext
-  nameWithType: ThreadContextProvider.ISoContextProvider.SetCurrentContext
-  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
-  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
-  name.vb: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
-- uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
-  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  name: ISoContextProvider.GetCurrentPrincipal
+  nameWithType: ThreadContextProvider.ISoContextProvider.GetCurrentPrincipal
+  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
+  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
+- uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
+  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
   parent: SuperOffice.Security.Principal.ISoContextProvider
   isExternal: true
-  name: SetCurrentContext(SoContextContainer)
-  nameWithType: ISoContextProvider.SetCurrentContext(SoContextContainer)
-  fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  name: GetCurrentPrincipal()
+  nameWithType: ISoContextProvider.GetCurrentPrincipal()
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal()
   spec.csharp:
-  - uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
-    name: SetCurrentContext
-    nameWithType: ISoContextProvider.SetCurrentContext
-    fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Principal.SoContextContainer
-    name: SoContextContainer
-    nameWithType: SoContextContainer
-    fullName: SuperOffice.Security.Principal.SoContextContainer
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
-    name: SetCurrentContext
-    nameWithType: ISoContextProvider.SetCurrentContext
-    fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Principal.SoContextContainer
-    name: SoContextContainer
-    nameWithType: SoContextContainer
-    fullName: SuperOffice.Security.Principal.SoContextContainer
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Security.Principal.SoContextContainer
-  commentId: T:SuperOffice.Security.Principal.SoContextContainer
-  parent: SuperOffice.Security.Principal
-  isExternal: true
-  name: SoContextContainer
-  nameWithType: SoContextContainer
-  fullName: SuperOffice.Security.Principal.SoContextContainer
-- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext*
-  commentId: Overload:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
-  isExternal: true
-  name: ISoContextProvider.GetCurrenContext
-  nameWithType: ThreadContextProvider.ISoContextProvider.GetCurrenContext
-  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-  name.vb: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-- uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-  parent: SuperOffice.Security.Principal.ISoContextProvider
-  isExternal: true
-  name: GetCurrenContext()
-  nameWithType: ISoContextProvider.GetCurrenContext()
-  fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
-  spec.csharp:
-  - uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-    name: GetCurrenContext
-    nameWithType: ISoContextProvider.GetCurrenContext
-    fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
+    name: GetCurrentPrincipal
+    nameWithType: ISoContextProvider.GetCurrentPrincipal
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
     isExternal: true
   - name: (
     nameWithType: (
@@ -879,14 +561,68 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
-    name: GetCurrenContext
-    nameWithType: ISoContextProvider.GetCurrenContext
-    fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
+    name: GetCurrentPrincipal
+    nameWithType: ISoContextProvider.GetCurrentPrincipal
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrentPrincipal
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.Principal.IPrincipal
+  isExternal: true
+  name: IPrincipal
+  nameWithType: IPrincipal
+  fullName: System.Security.Principal.IPrincipal
+- uid: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentPrincipal*
+  commentId: Overload:SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentPrincipal
+  isExternal: true
+  name: ISoContextProvider.SetCurrentPrincipal
+  nameWithType: ThreadContextProvider.ISoContextProvider.SetCurrentPrincipal
+  fullName: SuperOffice.Security.Principal.ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal
+  nameWithType.vb: ThreadContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal
+- uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  parent: SuperOffice.Security.Principal.ISoContextProvider
+  isExternal: true
+  name: SetCurrentPrincipal(IPrincipal)
+  nameWithType: ISoContextProvider.SetCurrentPrincipal(IPrincipal)
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+    name: SetCurrentPrincipal
+    nameWithType: ISoContextProvider.SetCurrentPrincipal
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Principal.IPrincipal
+    name: IPrincipal
+    nameWithType: IPrincipal
+    fullName: System.Security.Principal.IPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal(System.Security.Principal.IPrincipal)
+    name: SetCurrentPrincipal
+    nameWithType: ISoContextProvider.SetCurrentPrincipal
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentPrincipal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Security.Principal.IPrincipal
+    name: IPrincipal
+    nameWithType: IPrincipal
+    fullName: System.Security.Principal.IPrincipal
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -896,3 +632,23 @@ references:
   name: ThreadContextProvider
   nameWithType: ThreadContextProvider.ThreadContextProvider
   fullName: SuperOffice.Security.Principal.ThreadContextProvider.ThreadContextProvider
+- uid: SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager*
+  commentId: Overload:SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager
+  isExternal: true
+  name: InheritSynchronizationContextInThreadManager
+  nameWithType: ThreadContextProvider.InheritSynchronizationContextInThreadManager
+  fullName: SuperOffice.Security.Principal.ThreadContextProvider.InheritSynchronizationContextInThreadManager
+- uid: SuperOffice.Security.Principal.ISoContextProvider.InheritSynchronizationContextInThreadManager
+  commentId: P:SuperOffice.Security.Principal.ISoContextProvider.InheritSynchronizationContextInThreadManager
+  parent: SuperOffice.Security.Principal.ISoContextProvider
+  isExternal: true
+  name: InheritSynchronizationContextInThreadManager
+  nameWithType: ISoContextProvider.InheritSynchronizationContextInThreadManager
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.InheritSynchronizationContextInThreadManager
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

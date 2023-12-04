@@ -15,7 +15,7 @@ items:
   name: ExecuteDelegate
   nameWithType: ExecuteDelegate
   fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,47 +24,24 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nDelegate method called when this action should be executed - in a <strong>Windows client context</strong>\n"
   syntax:
-    content: public delegate ArchiveRestrictionInfo ExecuteDelegate(RowInfo[] rowInfo);
-    parameters:
-    - id: rowInfo
-      type: SuperOffice.CRM.ArchiveLists.RowInfo[]
-      description: Information about selected row(s)
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-      description: >
-        The result is processed as follows:
+    content: 'public sealed class ExecuteDelegate : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class ExecuteDelegate
 
-        <p></p>If a null value is returned here, no action is taken by the archive control
-
-        <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
-
-        in force, and the data provider is called. The result set is then processed depending on matching primary
-
-        keys and row types of the result set with those already in the <strong>selected rows only</strong> of the archive:
-
-        <p></p>
-
-        <table><thead><tr><th>Provider returns</th><th>Action taken in archive</th></tr></thead><tbody><tr><td>PrimaryKey+RowType match</td><td>The existing row is updated with the values from the provider</td></tr><tr><td>PrimaryKey+RowType mismatch</td><td>A new row is added</td></tr><tr><td>Existing row not matched by new provider result</td><td>Previously selected row is deleted from archive</td></tr></tbody></table>
-
-        <p></p>
-
-        This delegate should thus return an archive restriction that <strong>refetches</strong> the currently selected rows, as far as is
-
-        relevant; and this result set will update/replace/extend the currently selected rows.
-
-        <p></p>
-
-        If there are no currently selected rows, then no rows can/will be deleted from the archive
-    content.vb: Public Delegate Function ExecuteDelegate(rowInfo As RowInfo()) As ArchiveRestrictionInfo
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ExecuteDelegate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -208,6 +185,13 @@ references:
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -276,39 +260,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.RowInfo[]
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: RowInfo[]
-  nameWithType: RowInfo[]
-  fullName: SuperOffice.CRM.ArchiveLists.RowInfo[]
-  nameWithType.vb: RowInfo()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.RowInfo()
-  name.vb: RowInfo()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
-    name: RowInfo
-    nameWithType: RowInfo
-    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
-    name: RowInfo
-    nameWithType: RowInfo
-    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  name: ArchiveRestrictionInfo
-  nameWithType: ArchiveRestrictionInfo
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -412,13 +369,6 @@ references:
   name: ExecuteDelegate
   nameWithType: ExecuteDelegate.ExecuteDelegate
   fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.ExecuteDelegate
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -426,18 +376,45 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke
   isExternal: true
   name: Invoke
   nameWithType: ExecuteDelegate.Invoke
   fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.Invoke
+- uid: SuperOffice.CRM.ArchiveLists.RowInfo[]
+  isExternal: true
+  name: RowInfo[]
+  nameWithType: RowInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.RowInfo[]
+  nameWithType.vb: RowInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RowInfo()
+  name.vb: RowInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
+    name: RowInfo
+    nameWithType: RowInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
+    name: RowInfo
+    nameWithType: RowInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
 - uid: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke
   isExternal: true
@@ -445,15 +422,11 @@ references:
   nameWithType: ExecuteDelegate.BeginInvoke
   fullName: SuperOffice.CRM.ArchiveLists.ExecuteDelegate.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetGroupFields
+  id: DBC.TargetGroupFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.EntityType
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.PeriodType
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.Registered
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetDimensionId
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetGroupId
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.Updated
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.TargetGroupFields.Year
+  langs:
+  - csharp
+  - vb
+  name: DBC.TargetGroupFields
+  nameWithType: DBC.TargetGroupFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TargetGroup, Info about a set of (sales, project, selection...) targets\n"
+  syntax:
+    content: 'public static class TargetGroupFields : Object'
+    content.vb: >-
+      Public Module TargetGroupFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetGroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetGroupId
+  id: TargetGroupId
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: TargetGroupId
+  nameWithType: DBC.TargetGroupFields.TargetGroupId
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetGroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.TargetGroupId: Primary key\n"
+  syntax:
+    content: public const string TargetGroupId = "target_group_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetGroupId As String = "target_group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.Year
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.Year
+  id: Year
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: DBC.TargetGroupFields.Year
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.Year
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.Year: The year this set of targets are associated with (2020, 2021...)\n"
+  syntax:
+    content: public const string Year = "year"
+    return:
+      type: System.String
+    content.vb: Public Const Year As String = "year"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.EntityType
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: DBC.TargetGroupFields.EntityType
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.EntityType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.EntityType: Entity type for this set of targets (Sale, Project, Selection, Appointment...)\n"
+  syntax:
+    content: public const string EntityType = "entity_type"
+    return:
+      type: System.String
+    content.vb: Public Const EntityType As String = "entity_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.PeriodType
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.PeriodType
+  id: PeriodType
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: PeriodType
+  nameWithType: DBC.TargetGroupFields.PeriodType
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.PeriodType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.PeriodType: Period type for editing this set of targets (Year, Quarter...)\n"
+  syntax:
+    content: public const string PeriodType = "period_type"
+    return:
+      type: System.String
+    content.vb: Public Const PeriodType As String = "period_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TargetGroupFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TargetGroupFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TargetGroupFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TargetGroupFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TargetGroupFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetDimensionId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetDimensionId
+  id: TargetDimensionId
+  parent: SuperOffice.CRM.Data.DBC.TargetGroupFields
+  langs:
+  - csharp
+  - vb
+  name: TargetDimensionId
+  nameWithType: DBC.TargetGroupFields.TargetDimensionId
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroupFields.TargetDimensionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup.TargetDimensionId: Dimension this target is in\n"
+  syntax:
+    content: public const string TargetDimensionId = "target_dimension_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetDimensionId As String = "target_dimension_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

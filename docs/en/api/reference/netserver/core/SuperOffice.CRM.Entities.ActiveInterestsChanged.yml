@@ -15,7 +15,7 @@ items:
   name: ActiveInterestsChanged
   nameWithType: ActiveInterestsChanged
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,21 +24,24 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nDelegate used for raising events when the number of active interests are changed.\n"
   syntax:
-    content: public delegate void ActiveInterestsChanged(int activeInterests);
-    parameters:
-    - id: activeInterests
-      type: System.Int32
-      description: New number of active interests.
-    content.vb: Public Delegate Sub ActiveInterestsChanged(activeInterests As Integer)
+    content: 'public sealed class ActiveInterestsChanged : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class ActiveInterestsChanged
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Entities.ActiveInterestsChanged.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.ActiveInterestsChanged.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Entities.ActiveInterestsChanged.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -172,6 +175,13 @@ references:
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -240,13 +250,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -338,12 +347,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -356,13 +359,6 @@ references:
   name: ActiveInterestsChanged
   nameWithType: ActiveInterestsChanged.ActiveInterestsChanged
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.ActiveInterestsChanged
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -376,6 +372,13 @@ references:
   name: Invoke
   nameWithType: ActiveInterestsChanged.Invoke
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.Invoke
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke
   isExternal: true
@@ -383,15 +386,11 @@ references:
   nameWithType: ActiveInterestsChanged.BeginInvoke
   fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

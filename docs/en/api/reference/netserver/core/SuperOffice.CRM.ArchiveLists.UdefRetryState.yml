@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState
+  commentId: T:SuperOffice.CRM.ArchiveLists.UdefRetryState
+  id: UdefRetryState
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.UdefRetryState.#ctor
+  - SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt
+  langs:
+  - csharp
+  - vb
+  name: UdefRetryState
+  nameWithType: UdefRetryState
+  fullName: SuperOffice.CRM.ArchiveLists.UdefRetryState
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: >-
+      [SoInject("Database")]
+
+      public class UdefRetryState : Object
+    content.vb: >-
+      <SoInject("Database")>
+
+      Public Class UdefRetryState
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.UdefRetryState.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.UdefRetryState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.UdefRetryState.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.UdefRetryState
+  langs:
+  - csharp
+  - vb
+  name: UdefRetryState()
+  nameWithType: UdefRetryState.UdefRetryState()
+  fullName: SuperOffice.CRM.ArchiveLists.UdefRetryState.UdefRetryState()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: >-
+      [SoInjectConstructor]
+
+      protected UdefRetryState()
+    content.vb: >-
+      <SoInjectConstructor>
+
+      Protected Sub New
+  overload: SuperOffice.CRM.ArchiveLists.UdefRetryState.#ctor*
+  attributes:
+  - type: SuperOffice.Factory.SoInjectConstructorAttribute
+    ctor: SuperOffice.Factory.SoInjectConstructorAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt
+  commentId: P:SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt
+  id: RetriedAt
+  parent: SuperOffice.CRM.ArchiveLists.UdefRetryState
+  langs:
+  - csharp
+  - vb
+  name: RetriedAt
+  nameWithType: UdefRetryState.RetriedAt
+  fullName: SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public DateTime RetriedAt { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property RetriedAt As DateTime
+  overload: SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UdefRetryState, To>()
+  nameWithType: EnumUtil.MapEnums<UdefRetryState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.UdefRetryState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UdefRetryState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.UdefRetryState, To)()
+  name.vb: MapEnums(Of UdefRetryState, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UdefRetryState, To>
+    nameWithType: EnumUtil.MapEnums<UdefRetryState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.UdefRetryState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UdefRetryState, To)
+    nameWithType: EnumUtil.MapEnums(Of UdefRetryState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.UdefRetryState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UdefRetryState, To>()
+  nameWithType: Converters.MapEnums<UdefRetryState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.UdefRetryState, To>()
+  nameWithType.vb: Converters.MapEnums(Of UdefRetryState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.UdefRetryState, To)()
+  name.vb: MapEnums(Of UdefRetryState, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UdefRetryState, To>
+    nameWithType: Converters.MapEnums<UdefRetryState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.UdefRetryState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UdefRetryState, To)
+    nameWithType: Converters.MapEnums(Of UdefRetryState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.UdefRetryState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.UdefRetryState.#ctor
+  isExternal: true
+  name: UdefRetryState
+  nameWithType: UdefRetryState.UdefRetryState
+  fullName: SuperOffice.CRM.ArchiveLists.UdefRetryState.UdefRetryState
+- uid: SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt
+  isExternal: true
+  name: RetriedAt
+  nameWithType: UdefRetryState.RetriedAt
+  fullName: SuperOffice.CRM.ArchiveLists.UdefRetryState.RetriedAt
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

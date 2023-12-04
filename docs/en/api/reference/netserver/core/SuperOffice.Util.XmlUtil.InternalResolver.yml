@@ -27,6 +27,7 @@ items:
     content: 'public class InternalResolver : XmlResolver'
     content.vb: >-
       Public Class InternalResolver
+
           Inherits XmlResolver
   inheritance:
   - System.Object
@@ -385,8 +386,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
@@ -468,8 +467,7 @@ references:
   nameWithType: XmlUtil.InternalResolver.Add
   fullName: SuperOffice.Util.XmlUtil.InternalResolver.Add
 - uid: System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}
-  commentId: T:System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}'
   definition: System.Collections.Generic.KeyValuePair`2
   name: KeyValuePair<String, XmlNode>
   nameWithType: KeyValuePair<String, XmlNode>
@@ -528,14 +526,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.KeyValuePair`2
-  commentId: T:System.Collections.Generic.KeyValuePair`2
   isExternal: true
-  name: KeyValuePair<TKey, TValue>
-  nameWithType: KeyValuePair<TKey, TValue>
-  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
-  nameWithType.vb: KeyValuePair(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
-  name.vb: KeyValuePair(Of TKey, TValue)
+  name: KeyValuePair<, >
+  nameWithType: KeyValuePair<, >
+  fullName: System.Collections.Generic.KeyValuePair<, >
+  nameWithType.vb: KeyValuePair(Of , )
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of , )
+  name.vb: KeyValuePair(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.KeyValuePair`2
     name: KeyValuePair
@@ -545,15 +542,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -566,24 +563,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Util.XmlUtil.InternalResolver.Credentials*
   commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.Credentials
   isExternal: true

@@ -24,6 +24,7 @@ items:
     content: 'public interface IDynamicMDOProvider : ISoListProvider, ISoList'
     content.vb: >-
       Public Interface IDynamicMDOProvider
+
           Inherits ISoListProvider, ISoList
   inheritedMembers:
   - SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)

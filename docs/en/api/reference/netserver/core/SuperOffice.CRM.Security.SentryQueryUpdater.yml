@@ -8,7 +8,7 @@ items:
   - SuperOffice.CRM.Security.SentryQueryUpdater.#ctor(SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Security.SentryQueryUpdater.AfterCommit
   - SuperOffice.CRM.Security.SentryQueryUpdater.AfterCommitOrAutoCommit
-  - SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand)
+  - SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand,System.Int32)
   - SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecuteFailed(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.CRM.Security.SentryQueryUpdater.AfterGenerate(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.CRM.Security.SentryQueryUpdater.AfterRead(SuperOffice.Data.SoCommand,SuperOffice.Data.SoDataReader,System.Boolean@)
@@ -31,20 +31,15 @@ items:
   namespace: SuperOffice.CRM.Security
   summary: "\nModifies SELECT queries according to the fields used in the query. For example, if a person row is being read, \nthen a contact row will be outer-joined to provide the contact.associate-id for the sentry. If the appointment \ntable is being searched, then the appointment table is inner-joined with the visible-for table to filter out any \nhidden/private appointments.\n<p></p>\nThe query updater will analyze the query and automatically add the sentries it considers relevant to the query \nunless the SoCommand.IsAutoSentry flag is cleared.\n<p></p>\nThe query updater uses the sentries attached to the query to modify the query to ensure that all the \nright fields and restrictions are in place. This ensures that private or unpublished data\nis filtered out on the server.\n<p></p>\nThis plug-in will also throw an SoSentryException if an update violates a sentry&apos;s rules.\n"
   syntax:
-    content: 'public sealed class SentryQueryUpdater : IQueryProcessorPlugin'
+    content: 'public sealed class SentryQueryUpdater : Object, IQueryProcessorPlugin'
     content.vb: >-
       Public NotInheritable Class SentryQueryUpdater
+
+          Inherits Object
+
           Implements IQueryProcessorPlugin
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Security.SentryQueryUpdater.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Security.SentryQueryUpdater.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -218,16 +213,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand)
-  id: AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand)
+- uid: SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand,System.Int32)
+  id: AfterExecute(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SQL.SqlCommand,System.Int32)
   parent: SuperOffice.CRM.Security.SentryQueryUpdater
   langs:
   - csharp
   - vb
-  name: AfterExecute(SqlCommand, SqlCommand)
-  nameWithType: SentryQueryUpdater.AfterExecute(SqlCommand, SqlCommand)
-  fullName: SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SQL.SqlCommand)
+  name: AfterExecute(SqlCommand, SqlCommand, Int32)
+  nameWithType: SentryQueryUpdater.AfterExecute(SqlCommand, SqlCommand, Int32)
+  fullName: SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SQL.SqlCommand, System.Int32)
   type: Method
   source:
     path: SoDataBase
@@ -236,13 +231,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
   syntax:
-    content: public void AfterExecute(SqlCommand orgCommand, SqlCommand command)
+    content: public void AfterExecute(SqlCommand orgCommand, SqlCommand command, int rowsAffected)
     parameters:
     - id: orgCommand
       type: SuperOffice.Data.SQL.SqlCommand
     - id: command
       type: SuperOffice.Data.SQL.SqlCommand
-    content.vb: Public Sub AfterExecute(orgCommand As SqlCommand, command As SqlCommand)
+    - id: rowsAffected
+      type: System.Int32
+    content.vb: Public Sub AfterExecute(orgCommand As SqlCommand, command As SqlCommand, rowsAffected As Integer)
   overload: SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute*
   modifiers.csharp:
   - public
@@ -402,285 +399,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Security.SentryQueryUpdater.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -914,6 +632,13 @@ references:
   name: AfterExecute
   nameWithType: SentryQueryUpdater.AfterExecute
   fullName: SuperOffice.CRM.Security.SentryQueryUpdater.AfterExecute
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Security.SentryQueryUpdater.AfterRead*
   commentId: Overload:SuperOffice.CRM.Security.SentryQueryUpdater.AfterRead
   isExternal: true

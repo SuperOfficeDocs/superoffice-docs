@@ -1,0 +1,717 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TimeZoneUtility
+  commentId: T:SuperOffice.Util.TimeZoneUtility
+  id: TimeZoneUtility
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection(System.String,System.String,System.String)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset(NodaTime.Offset,System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location(System.String,System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,System.Int32,System.Nullable{System.Int32},System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String[]@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],System.Int32,System.Nullable{System.Int32},System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(NodaTime.Offset,NodaTime.Offset,System.String@)
+  - SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset(NodaTime.Offset,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneUtility
+  nameWithType: TimeZoneUtility
+  fullName: SuperOffice.Util.TimeZoneUtility
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: 'public static class TimeZoneUtility : Object'
+    content.vb: >-
+      Public Module TimeZoneUtility
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,System.Int32,System.Nullable{System.Int32},System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,System.Int32,System.Nullable{System.Int32},System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,System.Int32,System.Nullable{System.Int32},System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Int32, Nullable<Int32>, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Int32, Nullable<Int32>, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String, System.Int32, System.Nullable<System.Int32>, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(string location, int std_bias, Nullable<int> dst_bias, out string iana_id)
+    parameters:
+    - id: location
+      type: System.String
+    - id: std_bias
+      type: System.Int32
+    - id: dst_bias
+      type: System.Nullable{System.Int32}
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(location As String, std_bias As Integer, dst_bias As Nullable(Of Integer), ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Int32, Nullable(Of Int32), ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String, System.Int32, System.Nullable(Of System.Int32), ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Int32, Nullable(Of Int32), ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String,NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Offset, Nullable<Offset>, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Offset, Nullable<Offset>, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String, NodaTime.Offset, System.Nullable<NodaTime.Offset>, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nAttempts to find an IANA-id.\n1. Tries to map on name of location. This would be most accurate.\n2. Tries to map based on matching both std_offset and the dst_offset.\n3. Falls back to only matching on std_offset. Debatable if wise.\n"
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(string location, Offset std_offset, Nullable<Offset> dst_offset, out string iana_id)
+    parameters:
+    - id: location
+      type: System.String
+    - id: std_offset
+      type: NodaTime.Offset
+    - id: dst_offset
+      type: System.Nullable{NodaTime.Offset}
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(location As String, std_offset As Offset, dst_offset As Nullable(Of Offset), ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Offset, Nullable(Of Offset), ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(System.String, NodaTime.Offset, System.Nullable(Of NodaTime.Offset), ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset(String, Offset, Nullable(Of Offset), ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],System.Int32,System.Nullable{System.Int32},System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],System.Int32,System.Nullable{System.Int32},System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],System.Int32,System.Nullable{System.Int32},System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String[], Int32, Nullable<Int32>, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String[], Int32, Nullable<Int32>, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[], System.Int32, System.Nullable<System.Int32>, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(string[] locations, int std_bias, Nullable<int> dst_bias, out string iana_id)
+    parameters:
+    - id: locations
+      type: System.String[]
+    - id: std_bias
+      type: System.Int32
+    - id: dst_bias
+      type: System.Nullable{System.Int32}
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(locations As String(), std_bias As Integer, dst_bias As Nullable(Of Integer), ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String(), Int32, Nullable(Of Int32), ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String(), System.Int32, System.Nullable(Of System.Int32), ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String(), Int32, Nullable(Of Int32), ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[],NodaTime.Offset,System.Nullable{NodaTime.Offset},System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String[], Offset, Nullable<Offset>, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String[], Offset, Nullable<Offset>, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String[], NodaTime.Offset, System.Nullable<NodaTime.Offset>, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nAttempts to find an IANA-id.\n1. Tries to map on name of city. This would be most accurate.\n2. Tries to map based on matching both std_offset and the dst_offset.\n3. Falls back to only matching on std_offset. Debatable if wise.\n"
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(string[] locations, Offset std_offset, Nullable<Offset> dst_offset, out string iana_id)
+    parameters:
+    - id: locations
+      type: System.String[]
+    - id: std_offset
+      type: NodaTime.Offset
+    - id: dst_offset
+      type: System.Nullable{NodaTime.Offset}
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(locations As String(), std_offset As Offset, dst_offset As Nullable(Of Offset), ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String(), Offset, Nullable(Of Offset), ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(System.String(), NodaTime.Offset, System.Nullable(Of NodaTime.Offset), ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset(String(), Offset, Nullable(Of Offset), ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location(System.String,System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location(System.String,System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_Location(System.String,System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_Location(String, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location(String, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location(System.String, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_Location(string location, out string id)
+    parameters:
+    - id: location
+      type: System.String
+    - id: id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_Location(location As String, ByRef id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location(String, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location(System.String, ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_Location(String, ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String[]@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String[]@)
+  id: Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String[]@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_Locations(String[], out String[])
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(String[], out String[])
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[], out System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_Locations(string[] locations, out string[] iana_ids)
+    parameters:
+    - id: locations
+      type: System.String[]
+    - id: iana_ids
+      type: System.String[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_Locations(locations As String(), ByRef iana_ids As String()) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(String(), ByRef String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String(), ByRef System.String())
+  name.vb: Try_Get_IANA_TimeZone_ID_For_Locations(String(), ByRef String())
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_Locations(System.String[],System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_Locations(String[], out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(String[], out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String[], out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_Locations(string[] locations, out string iana_id)
+    parameters:
+    - id: locations
+      type: System.String[]
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_Locations(locations As String(), ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(String(), ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations(System.String(), ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_Locations(String(), ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(NodaTime.Offset,NodaTime.Offset,System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(NodaTime.Offset,NodaTime.Offset,System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(NodaTime.Offset,NodaTime.Offset,System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(Offset, Offset, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(Offset, Offset, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(NodaTime.Offset, NodaTime.Offset, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nAttempts to find an IANA-id that matches both the std_offset and dst_offset.\n"
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(Offset std_offset, Offset dst_offset, out string iana_id)
+    parameters:
+    - id: std_offset
+      type: NodaTime.Offset
+    - id: dst_offset
+      type: NodaTime.Offset
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(std_offset As Offset, dst_offset As Offset, ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(Offset, Offset, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(NodaTime.Offset, NodaTime.Offset, ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset(Offset, Offset, ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset(NodaTime.Offset,System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset(NodaTime.Offset,System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_STD_Offset(NodaTime.Offset,System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_STD_Offset(Offset, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset(Offset, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset(NodaTime.Offset, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_STD_Offset(Offset std_offset, out string iana_id)
+    parameters:
+    - id: std_offset
+      type: NodaTime.Offset
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_STD_Offset(std_offset As Offset, ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset(Offset, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset(NodaTime.Offset, ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_STD_Offset(Offset, ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset(NodaTime.Offset,System.String@)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset(NodaTime.Offset,System.String@)
+  id: Try_Get_IANA_TimeZone_ID_For_DST_Offset(NodaTime.Offset,System.String@)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Try_Get_IANA_TimeZone_ID_For_DST_Offset(Offset, out String)
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset(Offset, out String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset(NodaTime.Offset, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool Try_Get_IANA_TimeZone_ID_For_DST_Offset(Offset dst_offset, out string iana_id)
+    parameters:
+    - id: dst_offset
+      type: NodaTime.Offset
+    - id: iana_id
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Try_Get_IANA_TimeZone_ID_For_DST_Offset(dst_offset As Offset, ByRef iana_id As String) As Boolean
+  overload: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset*
+  nameWithType.vb: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset(Offset, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset(NodaTime.Offset, ByRef System.String)
+  name.vb: Try_Get_IANA_TimeZone_ID_For_DST_Offset(Offset, ByRef String)
+- uid: SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection(System.String,System.String,System.String)
+  id: Construct_Loction_Collection(System.String,System.String,System.String)
+  parent: SuperOffice.Util.TimeZoneUtility
+  langs:
+  - csharp
+  - vb
+  name: Construct_Loction_Collection(String, String, String)
+  nameWithType: TimeZoneUtility.Construct_Loction_Collection(String, String, String)
+  fullName: SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string[] Construct_Loction_Collection(string cities, string region, string country)
+    parameters:
+    - id: cities
+      type: System.String
+    - id: region
+      type: System.String
+    - id: country
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function Construct_Loction_Collection(cities As String, region As String, country As String) As String()
+  overload: SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset
+  isExternal: true
+  name: Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location_Or_Offset
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: NodaTime.Offset
+  isExternal: true
+  name: Offset
+  nameWithType: Offset
+  fullName: NodaTime.Offset
+- uid: System.Nullable{NodaTime.Offset}
+  commentId: '!:System.Nullable{NodaTime.Offset}'
+  definition: System.Nullable`1
+  name: Nullable<Offset>
+  nameWithType: Nullable<Offset>
+  fullName: System.Nullable<NodaTime.Offset>
+  nameWithType.vb: Nullable(Of Offset)
+  fullName.vb: System.Nullable(Of NodaTime.Offset)
+  name.vb: Nullable(Of Offset)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: NodaTime.Offset
+    name: Offset
+    nameWithType: Offset
+    fullName: NodaTime.Offset
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: NodaTime.Offset
+    name: Offset
+    nameWithType: Offset
+    fullName: NodaTime.Offset
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset
+  isExternal: true
+  name: Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations_Or_Offset
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location
+  isExternal: true
+  name: Try_Get_IANA_TimeZone_ID_For_Location
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Location
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations
+  isExternal: true
+  name: Try_Get_IANA_TimeZone_ID_For_Locations
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_Locations
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset
+  isExternal: true
+  name: Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_And_DST_Offset
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset
+  isExternal: true
+  name: Try_Get_IANA_TimeZone_ID_For_STD_Offset
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_STD_Offset
+- uid: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset
+  isExternal: true
+  name: Try_Get_IANA_TimeZone_ID_For_DST_Offset
+  nameWithType: TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset
+  fullName: SuperOffice.Util.TimeZoneUtility.Try_Get_IANA_TimeZone_ID_For_DST_Offset
+- uid: SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection*
+  commentId: Overload:SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection
+  isExternal: true
+  name: Construct_Loction_Collection
+  nameWithType: TimeZoneUtility.Construct_Loction_Collection
+  fullName: SuperOffice.Util.TimeZoneUtility.Construct_Loction_Collection

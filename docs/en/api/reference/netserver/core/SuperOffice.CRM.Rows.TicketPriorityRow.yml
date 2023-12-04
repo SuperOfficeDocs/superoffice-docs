@@ -33,32 +33,6 @@ items:
   - SuperOffice.CRM.Rows.TicketPriorityRow._currentTueStop
   - SuperOffice.CRM.Rows.TicketPriorityRow._currentWedStart
   - SuperOffice.CRM.Rows.TicketPriorityRow._currentWedStop
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onChangedOwnerChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onDeadlineChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onFlagsChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onFriStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onFriStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onMonStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onMonStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onNameChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onNonDatesChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onSatStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onSatStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onSortOrderChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onStatusChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onSunStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onSunStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onThuStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onThuStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onTicketChangedPriorityChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onTicketClosedChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewinfoChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onTicketReadChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onTueStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onTueStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onWedStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow._onWedStopChange
   - SuperOffice.CRM.Rows.TicketPriorityRow._persistedChangedOwner
   - SuperOffice.CRM.Rows.TicketPriorityRow._persistedDeadline
   - SuperOffice.CRM.Rows.TicketPriorityRow._persistedFlags
@@ -108,35 +82,9 @@ items:
   - SuperOffice.CRM.Rows.TicketPriorityRow.MonStop
   - SuperOffice.CRM.Rows.TicketPriorityRow.Name
   - SuperOffice.CRM.Rows.TicketPriorityRow.NonDates
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnChangedOwnerChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnDeadlineChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnFlagsChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStopChange
   - SuperOffice.CRM.Rows.TicketPriorityRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnNameChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnNonDatesChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStopChange
   - SuperOffice.CRM.Rows.TicketPriorityRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.TicketPriorityRow.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnSortOrderChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnStatusChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketChangedPriorityChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketClosedChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewinfoChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketReadChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStopChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStartChange
-  - SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStopChange
   - SuperOffice.CRM.Rows.TicketPriorityRow.Reset
   - SuperOffice.CRM.Rows.TicketPriorityRow.SatStart
   - SuperOffice.CRM.Rows.TicketPriorityRow.SatStop
@@ -182,7 +130,9 @@ items:
     content: 'public class TicketPriorityRow : TableRowBase, INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem'
     content.vb: >-
       Public Class TicketPriorityRow
+
           Inherits TableRowBase
+
           Implements INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem
   inheritance:
   - System.Object
@@ -197,8 +147,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowBase._saveOwner
   - SuperOffice.CRM.Rows.TableRowBase._sentries
-  - SuperOffice.CRM.Rows.TableRowBase._onValueChange
   - SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+  - SuperOffice.CRM.Rows.TableRowBase._isSaving
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
@@ -217,6 +167,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Rows.TableRowBase.Validate
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice#Data#INestedPersist#OnPreIdUpdate
@@ -241,13 +195,17 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SqlType
   - SuperOffice.CRM.Rows.TableRowBase.IsSentryIgnored
   - SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
   - SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   - SuperOffice.CRM.Rows.TableRowBase.OnElementIdUpdate
   - SuperOffice.Data.SQL.PrivateSave.GetTableInfos
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -259,17 +217,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.TicketPriorityRow.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.TicketPriorityRow.SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.TicketPriorityRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -407,7 +360,7 @@ items:
     content: protected DateTime _persistedMonStart
     return:
       type: System.DateTime
-    content.vb: Protected _persistedMonStart As Date
+    content.vb: Protected _persistedMonStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -434,7 +387,7 @@ items:
     content: protected DateTime _persistedMonStop
     return:
       type: System.DateTime
-    content.vb: Protected _persistedMonStop As Date
+    content.vb: Protected _persistedMonStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -461,7 +414,7 @@ items:
     content: protected DateTime _persistedTueStart
     return:
       type: System.DateTime
-    content.vb: Protected _persistedTueStart As Date
+    content.vb: Protected _persistedTueStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -488,7 +441,7 @@ items:
     content: protected DateTime _persistedTueStop
     return:
       type: System.DateTime
-    content.vb: Protected _persistedTueStop As Date
+    content.vb: Protected _persistedTueStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -515,7 +468,7 @@ items:
     content: protected DateTime _persistedWedStart
     return:
       type: System.DateTime
-    content.vb: Protected _persistedWedStart As Date
+    content.vb: Protected _persistedWedStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -542,7 +495,7 @@ items:
     content: protected DateTime _persistedWedStop
     return:
       type: System.DateTime
-    content.vb: Protected _persistedWedStop As Date
+    content.vb: Protected _persistedWedStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -569,7 +522,7 @@ items:
     content: protected DateTime _persistedThuStart
     return:
       type: System.DateTime
-    content.vb: Protected _persistedThuStart As Date
+    content.vb: Protected _persistedThuStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -596,7 +549,7 @@ items:
     content: protected DateTime _persistedThuStop
     return:
       type: System.DateTime
-    content.vb: Protected _persistedThuStop As Date
+    content.vb: Protected _persistedThuStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -623,7 +576,7 @@ items:
     content: protected DateTime _persistedFriStart
     return:
       type: System.DateTime
-    content.vb: Protected _persistedFriStart As Date
+    content.vb: Protected _persistedFriStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -650,7 +603,7 @@ items:
     content: protected DateTime _persistedFriStop
     return:
       type: System.DateTime
-    content.vb: Protected _persistedFriStop As Date
+    content.vb: Protected _persistedFriStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -677,7 +630,7 @@ items:
     content: protected DateTime _persistedSatStart
     return:
       type: System.DateTime
-    content.vb: Protected _persistedSatStart As Date
+    content.vb: Protected _persistedSatStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -704,7 +657,7 @@ items:
     content: protected DateTime _persistedSatStop
     return:
       type: System.DateTime
-    content.vb: Protected _persistedSatStop As Date
+    content.vb: Protected _persistedSatStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -731,7 +684,7 @@ items:
     content: protected DateTime _persistedSunStart
     return:
       type: System.DateTime
-    content.vb: Protected _persistedSunStart As Date
+    content.vb: Protected _persistedSunStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -758,7 +711,7 @@ items:
     content: protected DateTime _persistedSunStop
     return:
       type: System.DateTime
-    content.vb: Protected _persistedSunStop As Date
+    content.vb: Protected _persistedSunStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1136,7 +1089,7 @@ items:
     content: protected DateTime _currentMonStart
     return:
       type: System.DateTime
-    content.vb: Protected _currentMonStart As Date
+    content.vb: Protected _currentMonStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1163,7 +1116,7 @@ items:
     content: protected DateTime _currentMonStop
     return:
       type: System.DateTime
-    content.vb: Protected _currentMonStop As Date
+    content.vb: Protected _currentMonStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1190,7 +1143,7 @@ items:
     content: protected DateTime _currentTueStart
     return:
       type: System.DateTime
-    content.vb: Protected _currentTueStart As Date
+    content.vb: Protected _currentTueStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1217,7 +1170,7 @@ items:
     content: protected DateTime _currentTueStop
     return:
       type: System.DateTime
-    content.vb: Protected _currentTueStop As Date
+    content.vb: Protected _currentTueStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1244,7 +1197,7 @@ items:
     content: protected DateTime _currentWedStart
     return:
       type: System.DateTime
-    content.vb: Protected _currentWedStart As Date
+    content.vb: Protected _currentWedStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1271,7 +1224,7 @@ items:
     content: protected DateTime _currentWedStop
     return:
       type: System.DateTime
-    content.vb: Protected _currentWedStop As Date
+    content.vb: Protected _currentWedStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1298,7 +1251,7 @@ items:
     content: protected DateTime _currentThuStart
     return:
       type: System.DateTime
-    content.vb: Protected _currentThuStart As Date
+    content.vb: Protected _currentThuStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1325,7 +1278,7 @@ items:
     content: protected DateTime _currentThuStop
     return:
       type: System.DateTime
-    content.vb: Protected _currentThuStop As Date
+    content.vb: Protected _currentThuStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1352,7 +1305,7 @@ items:
     content: protected DateTime _currentFriStart
     return:
       type: System.DateTime
-    content.vb: Protected _currentFriStart As Date
+    content.vb: Protected _currentFriStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1379,7 +1332,7 @@ items:
     content: protected DateTime _currentFriStop
     return:
       type: System.DateTime
-    content.vb: Protected _currentFriStop As Date
+    content.vb: Protected _currentFriStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1406,7 +1359,7 @@ items:
     content: protected DateTime _currentSatStart
     return:
       type: System.DateTime
-    content.vb: Protected _currentSatStart As Date
+    content.vb: Protected _currentSatStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1433,7 +1386,7 @@ items:
     content: protected DateTime _currentSatStop
     return:
       type: System.DateTime
-    content.vb: Protected _currentSatStop As Date
+    content.vb: Protected _currentSatStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1460,7 +1413,7 @@ items:
     content: protected DateTime _currentSunStart
     return:
       type: System.DateTime
-    content.vb: Protected _currentSunStart As Date
+    content.vb: Protected _currentSunStart As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1487,7 +1440,7 @@ items:
     content: protected DateTime _currentSunStop
     return:
       type: System.DateTime
-    content.vb: Protected _currentSunStop As Date
+    content.vb: Protected _currentSunStop As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2071,7 +2024,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.ToString*
   modifiers.csharp:
   - public
@@ -2605,7 +2557,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. The primary key (auto-incremented) \n"
-  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>		\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
+  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>        \n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
   syntax:
     content: public virtual int TicketPriorityId { get; }
     parameters: []
@@ -2740,14 +2692,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime. When the timeframe starts on monday. \n"
+  summary: "\n.NET type: DateTime. The work hour start for Mondays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime MonStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property MonStart As Date
+    content.vb: Public Overridable Property MonStart As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.MonStart*
   modifiers.csharp:
   - public
@@ -2774,14 +2726,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime. When the timeframe ends on monday. \n"
+  summary: "\n.NET type: DateTime. The work hour start for Mondays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime MonStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property MonStop As Date
+    content.vb: Public Overridable Property MonStop As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.MonStop*
   modifiers.csharp:
   - public
@@ -2808,14 +2760,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour start for Tuesdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime TueStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property TueStart As Date
+    content.vb: Public Overridable Property TueStart As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.TueStart*
   modifiers.csharp:
   - public
@@ -2842,14 +2794,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour stop for Tuesdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime TueStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property TueStop As Date
+    content.vb: Public Overridable Property TueStop As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.TueStop*
   modifiers.csharp:
   - public
@@ -2876,14 +2828,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour start for Wednesdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime WedStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WedStart As Date
+    content.vb: Public Overridable Property WedStart As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.WedStart*
   modifiers.csharp:
   - public
@@ -2910,14 +2862,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour stop for Wednesdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime WedStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WedStop As Date
+    content.vb: Public Overridable Property WedStop As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.WedStop*
   modifiers.csharp:
   - public
@@ -2944,14 +2896,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour start for Thursdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime ThuStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ThuStart As Date
+    content.vb: Public Overridable Property ThuStart As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.ThuStart*
   modifiers.csharp:
   - public
@@ -2978,14 +2930,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour stop for Thursdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime ThuStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ThuStop As Date
+    content.vb: Public Overridable Property ThuStop As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.ThuStop*
   modifiers.csharp:
   - public
@@ -3012,14 +2964,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour start for Fridays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime FriStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FriStart As Date
+    content.vb: Public Overridable Property FriStart As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.FriStart*
   modifiers.csharp:
   - public
@@ -3046,14 +2998,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour stop for Fridays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime FriStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FriStop As Date
+    content.vb: Public Overridable Property FriStop As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.FriStop*
   modifiers.csharp:
   - public
@@ -3080,14 +3032,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour start for Saturdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime SatStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SatStart As Date
+    content.vb: Public Overridable Property SatStart As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.SatStart*
   modifiers.csharp:
   - public
@@ -3114,14 +3066,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour stop for Saturdays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime SatStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SatStop As Date
+    content.vb: Public Overridable Property SatStop As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.SatStop*
   modifiers.csharp:
   - public
@@ -3148,14 +3100,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour start for Sundays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime SunStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SunStart As Date
+    content.vb: Public Overridable Property SunStart As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.SunStart*
   modifiers.csharp:
   - public
@@ -3182,14 +3134,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: DateTime.  \n"
+  summary: "\n.NET type: DateTime. The work hour stop for Sundays. Note that only the time part of the DateTime is used \n"
   remarks: "\nOriginal type in dictionary:  DateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual DateTime SunStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SunStop As Date
+    content.vb: Public Overridable Property SunStop As DateTime
   overload: SuperOffice.CRM.Rows.TicketPriorityRow.SunStop*
   modifiers.csharp:
   - public
@@ -3505,1410 +3457,6 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onNameChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onNameChange
-  id: _onNameChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onNameChange
-  nameWithType: TicketPriorityRow._onNameChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.Name\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onStatusChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onStatusChange
-  id: _onStatusChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onStatusChange
-  nameWithType: TicketPriorityRow._onStatusChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onStatusChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.Status\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityStatus> _onStatusChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityStatus}
-    content.vb: Protected Event _onStatusChange As OnFieldChange(Of TicketPriorityStatus)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onFlagsChange
-  id: _onFlagsChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onFlagsChange
-  nameWithType: TicketPriorityRow._onFlagsChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.Flags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityFlags> _onFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityFlags}
-    content.vb: Protected Event _onFlagsChange As OnFieldChange(Of TicketPriorityFlags)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onMonStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onMonStartChange
-  id: _onMonStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onMonStartChange
-  nameWithType: TicketPriorityRow._onMonStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onMonStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.MonStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onMonStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onMonStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onMonStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onMonStopChange
-  id: _onMonStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onMonStopChange
-  nameWithType: TicketPriorityRow._onMonStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onMonStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.MonStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onMonStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onMonStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onTueStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onTueStartChange
-  id: _onTueStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onTueStartChange
-  nameWithType: TicketPriorityRow._onTueStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onTueStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.TueStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onTueStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onTueStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onTueStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onTueStopChange
-  id: _onTueStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onTueStopChange
-  nameWithType: TicketPriorityRow._onTueStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onTueStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.TueStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onTueStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onTueStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onWedStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onWedStartChange
-  id: _onWedStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onWedStartChange
-  nameWithType: TicketPriorityRow._onWedStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onWedStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.WedStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onWedStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onWedStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onWedStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onWedStopChange
-  id: _onWedStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onWedStopChange
-  nameWithType: TicketPriorityRow._onWedStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onWedStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.WedStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onWedStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onWedStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onThuStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onThuStartChange
-  id: _onThuStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onThuStartChange
-  nameWithType: TicketPriorityRow._onThuStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onThuStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.ThuStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onThuStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onThuStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onThuStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onThuStopChange
-  id: _onThuStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onThuStopChange
-  nameWithType: TicketPriorityRow._onThuStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onThuStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.ThuStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onThuStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onThuStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onFriStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onFriStartChange
-  id: _onFriStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onFriStartChange
-  nameWithType: TicketPriorityRow._onFriStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onFriStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.FriStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onFriStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onFriStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onFriStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onFriStopChange
-  id: _onFriStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onFriStopChange
-  nameWithType: TicketPriorityRow._onFriStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onFriStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.FriStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onFriStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onFriStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onSatStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onSatStartChange
-  id: _onSatStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onSatStartChange
-  nameWithType: TicketPriorityRow._onSatStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onSatStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.SatStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onSatStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onSatStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onSatStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onSatStopChange
-  id: _onSatStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onSatStopChange
-  nameWithType: TicketPriorityRow._onSatStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onSatStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.SatStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onSatStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onSatStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onSunStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onSunStartChange
-  id: _onSunStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onSunStartChange
-  nameWithType: TicketPriorityRow._onSunStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onSunStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.SunStart\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onSunStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onSunStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onSunStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onSunStopChange
-  id: _onSunStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onSunStopChange
-  nameWithType: TicketPriorityRow._onSunStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onSunStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.SunStop\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onSunStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onSunStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onNonDatesChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onNonDatesChange
-  id: _onNonDatesChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onNonDatesChange
-  nameWithType: TicketPriorityRow._onNonDatesChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onNonDatesChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.NonDates\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onNonDatesChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onNonDatesChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onDeadlineChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onDeadlineChange
-  id: _onDeadlineChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onDeadlineChange
-  nameWithType: TicketPriorityRow._onDeadlineChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onDeadlineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.Deadline\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onDeadlineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onDeadlineChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onSortOrderChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onSortOrderChange
-  id: _onSortOrderChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onSortOrderChange
-  nameWithType: TicketPriorityRow._onSortOrderChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onSortOrderChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.SortOrder\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onSortOrderChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onSortOrderChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketReadChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onTicketReadChange
-  id: _onTicketReadChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onTicketReadChange
-  nameWithType: TicketPriorityRow._onTicketReadChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketReadChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.TicketRead\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityEscalateEvent> _onTicketReadChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Protected Event _onTicketReadChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onChangedOwnerChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onChangedOwnerChange
-  id: _onChangedOwnerChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onChangedOwnerChange
-  nameWithType: TicketPriorityRow._onChangedOwnerChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onChangedOwnerChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.ChangedOwner\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityEscalateEvent> _onChangedOwnerChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Protected Event _onChangedOwnerChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewinfoChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewinfoChange
-  id: _onTicketNewinfoChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onTicketNewinfoChange
-  nameWithType: TicketPriorityRow._onTicketNewinfoChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewinfoChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.TicketNewinfo\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityEscalateEvent> _onTicketNewinfoChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Protected Event _onTicketNewinfoChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketClosedChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onTicketClosedChange
-  id: _onTicketClosedChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onTicketClosedChange
-  nameWithType: TicketPriorityRow._onTicketClosedChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketClosedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.TicketClosed\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityEscalateEvent> _onTicketClosedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Protected Event _onTicketClosedChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketChangedPriorityChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onTicketChangedPriorityChange
-  id: _onTicketChangedPriorityChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onTicketChangedPriorityChange
-  nameWithType: TicketPriorityRow._onTicketChangedPriorityChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketChangedPriorityChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.TicketChangedPriority\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityEscalateEvent> _onTicketChangedPriorityChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Protected Event _onTicketChangedPriorityChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewChange
-  id: _onTicketNewChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: _onTicketNewChange
-  nameWithType: TicketPriorityRow._onTicketNewChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow._onTicketNewChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.TicketPriorityRow.TicketNew\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<TicketPriorityEscalateEvent> _onTicketNewChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Protected Event _onTicketNewChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnNameChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnNameChange
-  id: OnNameChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnNameChange
-  nameWithType: TicketPriorityRow.OnNameChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Name is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnStatusChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnStatusChange
-  id: OnStatusChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnStatusChange
-  nameWithType: TicketPriorityRow.OnStatusChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnStatusChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Status is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityStatus> OnStatusChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityStatus}
-    content.vb: Public Event OnStatusChange As OnFieldChange(Of TicketPriorityStatus)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnFlagsChange
-  id: OnFlagsChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnFlagsChange
-  nameWithType: TicketPriorityRow.OnFlagsChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Flags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityFlags> OnFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityFlags}
-    content.vb: Public Event OnFlagsChange As OnFieldChange(Of TicketPriorityFlags)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStartChange
-  id: OnMonStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnMonStartChange
-  nameWithType: TicketPriorityRow.OnMonStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when MonStart is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnMonStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnMonStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStopChange
-  id: OnMonStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnMonStopChange
-  nameWithType: TicketPriorityRow.OnMonStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnMonStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when MonStop is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnMonStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnMonStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStartChange
-  id: OnTueStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnTueStartChange
-  nameWithType: TicketPriorityRow.OnTueStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TueStart is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnTueStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnTueStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStopChange
-  id: OnTueStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnTueStopChange
-  nameWithType: TicketPriorityRow.OnTueStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnTueStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TueStop is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnTueStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnTueStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStartChange
-  id: OnWedStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnWedStartChange
-  nameWithType: TicketPriorityRow.OnWedStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when WedStart is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnWedStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnWedStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStopChange
-  id: OnWedStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnWedStopChange
-  nameWithType: TicketPriorityRow.OnWedStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnWedStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when WedStop is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnWedStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnWedStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStartChange
-  id: OnThuStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnThuStartChange
-  nameWithType: TicketPriorityRow.OnThuStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ThuStart is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnThuStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnThuStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStopChange
-  id: OnThuStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnThuStopChange
-  nameWithType: TicketPriorityRow.OnThuStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnThuStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ThuStop is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnThuStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnThuStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStartChange
-  id: OnFriStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnFriStartChange
-  nameWithType: TicketPriorityRow.OnFriStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when FriStart is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnFriStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnFriStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStopChange
-  id: OnFriStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnFriStopChange
-  nameWithType: TicketPriorityRow.OnFriStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnFriStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when FriStop is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnFriStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnFriStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStartChange
-  id: OnSatStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnSatStartChange
-  nameWithType: TicketPriorityRow.OnSatStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SatStart is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnSatStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnSatStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStopChange
-  id: OnSatStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnSatStopChange
-  nameWithType: TicketPriorityRow.OnSatStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnSatStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SatStop is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnSatStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnSatStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStartChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStartChange
-  id: OnSunStartChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnSunStartChange
-  nameWithType: TicketPriorityRow.OnSunStartChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStartChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SunStart is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnSunStartChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnSunStartChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStopChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStopChange
-  id: OnSunStopChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnSunStopChange
-  nameWithType: TicketPriorityRow.OnSunStopChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnSunStopChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SunStop is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnSunStopChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnSunStopChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnNonDatesChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnNonDatesChange
-  id: OnNonDatesChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnNonDatesChange
-  nameWithType: TicketPriorityRow.OnNonDatesChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnNonDatesChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when NonDates is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnNonDatesChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnNonDatesChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnDeadlineChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnDeadlineChange
-  id: OnDeadlineChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnDeadlineChange
-  nameWithType: TicketPriorityRow.OnDeadlineChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnDeadlineChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Deadline is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnDeadlineChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnDeadlineChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnSortOrderChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnSortOrderChange
-  id: OnSortOrderChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnSortOrderChange
-  nameWithType: TicketPriorityRow.OnSortOrderChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnSortOrderChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SortOrder is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnSortOrderChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnSortOrderChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketReadChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketReadChange
-  id: OnTicketReadChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnTicketReadChange
-  nameWithType: TicketPriorityRow.OnTicketReadChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketReadChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TicketRead is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityEscalateEvent> OnTicketReadChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Public Event OnTicketReadChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnChangedOwnerChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnChangedOwnerChange
-  id: OnChangedOwnerChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnChangedOwnerChange
-  nameWithType: TicketPriorityRow.OnChangedOwnerChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnChangedOwnerChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ChangedOwner is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityEscalateEvent> OnChangedOwnerChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Public Event OnChangedOwnerChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewinfoChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewinfoChange
-  id: OnTicketNewinfoChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnTicketNewinfoChange
-  nameWithType: TicketPriorityRow.OnTicketNewinfoChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewinfoChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TicketNewinfo is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityEscalateEvent> OnTicketNewinfoChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Public Event OnTicketNewinfoChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketClosedChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketClosedChange
-  id: OnTicketClosedChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnTicketClosedChange
-  nameWithType: TicketPriorityRow.OnTicketClosedChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketClosedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TicketClosed is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityEscalateEvent> OnTicketClosedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Public Event OnTicketClosedChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketChangedPriorityChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketChangedPriorityChange
-  id: OnTicketChangedPriorityChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnTicketChangedPriorityChange
-  nameWithType: TicketPriorityRow.OnTicketChangedPriorityChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketChangedPriorityChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TicketChangedPriority is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityEscalateEvent> OnTicketChangedPriorityChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Public Event OnTicketChangedPriorityChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewChange
-  commentId: E:SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewChange
-  id: OnTicketNewChange
-  parent: SuperOffice.CRM.Rows.TicketPriorityRow
-  langs:
-  - csharp
-  - vb
-  name: OnTicketNewChange
-  nameWithType: TicketPriorityRow.OnTicketNewChange
-  fullName: SuperOffice.CRM.Rows.TicketPriorityRow.OnTicketNewChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TicketNew is changing.\n"
-  syntax:
-    content: public event OnFieldChange<TicketPriorityEscalateEvent> OnTicketNewChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-    content.vb: Public Event OnTicketNewChange As OnFieldChange(Of TicketPriorityEscalateEvent)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -4986,13 +3534,6 @@ references:
   name: _sentries
   nameWithType: TableRowBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowBase._sentries
-- uid: SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  commentId: F:SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: _onValueChange
-  nameWithType: TableRowBase._onValueChange
-  fullName: SuperOffice.CRM.Rows.TableRowBase._onValueChange
 - uid: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5000,6 +3541,13 @@ references:
   name: _relatedNestedPersistMembers
   nameWithType: TableRowBase._relatedNestedPersistMembers
   fullName: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+- uid: SuperOffice.CRM.Rows.TableRowBase._isSaving
+  commentId: F:SuperOffice.CRM.Rows.TableRowBase._isSaving
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: _isSaving
+  nameWithType: TableRowBase._isSaving
+  fullName: SuperOffice.CRM.Rows.TableRowBase._isSaving
 - uid: SuperOffice.CRM.Rows.TableRowBase._sqlType
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._sqlType
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5738,6 +4286,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6454,13 +5166,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: OnValueChanged
-  nameWithType: TableRowBase.OnValueChanged
-  fullName: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6506,6 +5211,88 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -6537,6 +5324,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   commentId: E:SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -6551,6 +5402,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -6933,254 +5791,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketPriorityRow.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -7314,6 +5924,37 @@ references:
     name: ExecuteNonQuery
     nameWithType: QueryExectionExtensions.ExecuteNonQuery
     fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketPriorityRow.SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
+  commentId: M:SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketPriorityRow)
+  parent: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketPriorityRow)
+  name: ToRecordData()
+  nameWithType: TicketPriorityRecordDataExtensions.ToRecordData()
+  fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: TicketPriorityRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: TicketPriorityRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
     isExternal: true
   - name: (
     nameWithType: (
@@ -7570,6 +6211,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketPriorityRow)
+  commentId: M:SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketPriorityRow)
+  isExternal: true
+  name: ToRecordData(TicketPriorityRow)
+  nameWithType: TicketPriorityRecordDataExtensions.ToRecordData(TicketPriorityRow)
+  fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketPriorityRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketPriorityRow)
+    name: ToRecordData
+    nameWithType: TicketPriorityRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRow
+    name: TicketPriorityRow
+    nameWithType: TicketPriorityRow
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TicketPriorityRow)
+    name: ToRecordData
+    nameWithType: TicketPriorityRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketPriorityRow
+    name: TicketPriorityRow
+    nameWithType: TicketPriorityRow
+    fullName: SuperOffice.CRM.Rows.TicketPriorityRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketPriorityRecordDataExtensions
+  nameWithType: TicketPriorityRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -7651,8 +6339,6 @@ references:
   nameWithType: TicketPriorityFlags
   fullName: SuperOffice.Data.TicketPriorityFlags
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -7963,37 +6649,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketPriorityRow.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.TicketPriorityRow.ToString
   isExternal: true
@@ -8656,306 +7311,3 @@ references:
   name: TicketNew
   nameWithType: TicketPriorityRow.TicketNew
   fullName: SuperOffice.CRM.Rows.TicketPriorityRow.TicketNew
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<String>
-  nameWithType: OnFieldChange<String>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.String>
-  nameWithType.vb: OnFieldChange(Of String)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.String)
-  name.vb: OnFieldChange(Of String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange`1
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
-  isExternal: true
-  name: OnFieldChange<TValue>
-  nameWithType: OnFieldChange<TValue>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  nameWithType.vb: OnFieldChange(Of TValue)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
-  name.vb: OnFieldChange(Of TValue)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityStatus}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityStatus}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<TicketPriorityStatus>
-  nameWithType: OnFieldChange<TicketPriorityStatus>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.TicketPriorityStatus>
-  nameWithType.vb: OnFieldChange(Of TicketPriorityStatus)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.TicketPriorityStatus)
-  name.vb: OnFieldChange(Of TicketPriorityStatus)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.TicketPriorityStatus
-    name: TicketPriorityStatus
-    nameWithType: TicketPriorityStatus
-    fullName: SuperOffice.Data.TicketPriorityStatus
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.TicketPriorityStatus
-    name: TicketPriorityStatus
-    nameWithType: TicketPriorityStatus
-    fullName: SuperOffice.Data.TicketPriorityStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityFlags}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityFlags}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<TicketPriorityFlags>
-  nameWithType: OnFieldChange<TicketPriorityFlags>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.TicketPriorityFlags>
-  nameWithType.vb: OnFieldChange(Of TicketPriorityFlags)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.TicketPriorityFlags)
-  name.vb: OnFieldChange(Of TicketPriorityFlags)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.TicketPriorityFlags
-    name: TicketPriorityFlags
-    nameWithType: TicketPriorityFlags
-    fullName: SuperOffice.Data.TicketPriorityFlags
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.TicketPriorityFlags
-    name: TicketPriorityFlags
-    nameWithType: TicketPriorityFlags
-    fullName: SuperOffice.Data.TicketPriorityFlags
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DateTime>
-  nameWithType: OnFieldChange<DateTime>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
-  nameWithType.vb: OnFieldChange(Of DateTime)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
-  name.vb: OnFieldChange(Of DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int32>
-  nameWithType: OnFieldChange<Int32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
-  nameWithType.vb: OnFieldChange(Of Int32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
-  name.vb: OnFieldChange(Of Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.TicketPriorityEscalateEvent}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<TicketPriorityEscalateEvent>
-  nameWithType: OnFieldChange<TicketPriorityEscalateEvent>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.TicketPriorityEscalateEvent>
-  nameWithType.vb: OnFieldChange(Of TicketPriorityEscalateEvent)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.TicketPriorityEscalateEvent)
-  name.vb: OnFieldChange(Of TicketPriorityEscalateEvent)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.TicketPriorityEscalateEvent
-    name: TicketPriorityEscalateEvent
-    nameWithType: TicketPriorityEscalateEvent
-    fullName: SuperOffice.Data.TicketPriorityEscalateEvent
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.TicketPriorityEscalateEvent
-    name: TicketPriorityEscalateEvent
-    nameWithType: TicketPriorityEscalateEvent
-    fullName: SuperOffice.Data.TicketPriorityEscalateEvent
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )

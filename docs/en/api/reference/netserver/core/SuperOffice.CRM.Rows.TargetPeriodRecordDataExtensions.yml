@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  id: TargetPeriodRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  - SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  - SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetPeriodRecordData)
+  - SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData})
+  - SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetPeriodRow)
+  langs:
+  - csharp
+  - vb
+  name: TargetPeriodRecordDataExtensions
+  nameWithType: TargetPeriodRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.TargetPeriodRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: 'public static class TargetPeriodRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module TargetPeriodRecordDataExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TargetPeriodTableInfo>)
+  nameWithType: TargetPeriodRecordDataExtensions.FromSelect(TargetedSelect<TargetPeriodTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetPeriodTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TargetPeriodTableInfo>, execute it and return an IEnumerable&lt;TargetPeriodRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TargetPeriodRecordData> FromSelect(this TargetedSelect<TargetPeriodTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TargetPeriodTableInfo)) As IEnumerable(Of TargetPeriodRecordData)
+  overload: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect*
+  nameWithType.vb: TargetPeriodRecordDataExtensions.FromSelect(TargetedSelect(Of TargetPeriodTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetPeriodTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TargetPeriodTableInfo))
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetPeriodTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<TargetPeriodTableInfo>)
+  nameWithType: TargetPeriodRecordDataExtensions.FromRecord(TargetedDataRecord<TargetPeriodTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.TargetPeriodTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;TargetPeriodTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.TargetPeriodRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { TargetPeriodItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static TargetPeriodRecordData FromRecord(this TargetedDataRecord<TargetPeriodTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.TargetPeriodRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of TargetPeriodTableInfo)) As TargetPeriodRecordData
+  overload: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord*
+  nameWithType.vb: TargetPeriodRecordDataExtensions.FromRecord(TargetedDataRecord(Of TargetPeriodTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TargetPeriodTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of TargetPeriodTableInfo))
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetPeriodRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetPeriodRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.TargetPeriodRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(TargetPeriodRecordData)
+  nameWithType: TargetPeriodRecordDataExtensions.ToInsert(TargetPeriodRecordData)
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetPeriodRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this TargetPeriodRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.TargetPeriodRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As TargetPeriodRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData})
+  commentId: M:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<TargetPeriodRecordData>)
+  nameWithType: TargetPeriodRecordDataExtensions.ToInserts(IEnumerable<TargetPeriodRecordData>)
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetPeriodRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TargetPeriodRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of TargetPeriodRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts*
+  nameWithType.vb: TargetPeriodRecordDataExtensions.ToInserts(IEnumerable(Of TargetPeriodRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetPeriodRecordData))
+  name.vb: ToInserts(IEnumerable(Of TargetPeriodRecordData))
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetPeriodRow)
+  commentId: M:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetPeriodRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.TargetPeriodRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(TargetPeriodRow)
+  nameWithType: TargetPeriodRecordDataExtensions.ToRecordData(TargetPeriodRow)
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetPeriodRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static TargetPeriodRecordData ToRecordData(this TargetPeriodRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.TargetPeriodRow
+    return:
+      type: SuperOffice.CRM.Rows.TargetPeriodRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As TargetPeriodRow) As TargetPeriodRecordData
+  overload: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TargetPeriodRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<TargetPeriodTableInfo>
+  nameWithType: TargetedSelect<TargetPeriodTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetPeriodTableInfo>
+  nameWithType.vb: TargetedSelect(Of TargetPeriodTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetPeriodTableInfo)
+  name.vb: TargetedSelect(Of TargetPeriodTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    name: TargetPeriodTableInfo
+    nameWithType: TargetPeriodTableInfo
+    fullName: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    name: TargetPeriodTableInfo
+    nameWithType: TargetPeriodTableInfo
+    fullName: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetPeriodRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TargetPeriodRecordData>
+  nameWithType: IEnumerable<TargetPeriodRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetPeriodRecordData>
+  nameWithType.vb: IEnumerable(Of TargetPeriodRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetPeriodRecordData)
+  name.vb: IEnumerable(Of TargetPeriodRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TargetPeriodRecordData
+    name: TargetPeriodRecordData
+    nameWithType: TargetPeriodRecordData
+    fullName: SuperOffice.CRM.Rows.TargetPeriodRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TargetPeriodRecordData
+    name: TargetPeriodRecordData
+    nameWithType: TargetPeriodRecordData
+    fullName: SuperOffice.CRM.Rows.TargetPeriodRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: TargetPeriodRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetPeriodTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<TargetPeriodTableInfo>
+  nameWithType: TargetedDataRecord<TargetPeriodTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.TargetPeriodTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of TargetPeriodTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TargetPeriodTableInfo)
+  name.vb: TargetedDataRecord(Of TargetPeriodTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    name: TargetPeriodTableInfo
+    nameWithType: TargetPeriodTableInfo
+    fullName: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    name: TargetPeriodTableInfo
+    nameWithType: TargetPeriodTableInfo
+    fullName: SuperOffice.CRM.Data.TargetPeriodTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordData
+  commentId: T:SuperOffice.CRM.Rows.TargetPeriodRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TargetPeriodRecordData
+  nameWithType: TargetPeriodRecordData
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: TargetPeriodRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: TargetPeriodRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData
+  isExternal: true
+  name: ToRecordData
+  nameWithType: TargetPeriodRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.TargetPeriodRow
+  commentId: T:SuperOffice.CRM.Rows.TargetPeriodRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TargetPeriodRow
+  nameWithType: TargetPeriodRow
+  fullName: SuperOffice.CRM.Rows.TargetPeriodRow

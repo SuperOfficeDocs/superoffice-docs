@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  id: TargetRevisionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  - SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  - SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionRecordData)
+  - SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData})
+  - SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetRevisionRow)
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionRecordDataExtensions
+  nameWithType: TargetRevisionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.TargetRevisionRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: 'public static class TargetRevisionRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module TargetRevisionRecordDataExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<TargetRevisionTableInfo>)
+  nameWithType: TargetRevisionRecordDataExtensions.FromSelect(TargetedSelect<TargetRevisionTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetRevisionTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;TargetRevisionTableInfo>, execute it and return an IEnumerable&lt;TargetRevisionRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<TargetRevisionRecordData> FromSelect(this TargetedSelect<TargetRevisionTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of TargetRevisionTableInfo)) As IEnumerable(Of TargetRevisionRecordData)
+  overload: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect*
+  nameWithType.vb: TargetRevisionRecordDataExtensions.FromSelect(TargetedSelect(Of TargetRevisionTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetRevisionTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of TargetRevisionTableInfo))
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<TargetRevisionTableInfo>)
+  nameWithType: TargetRevisionRecordDataExtensions.FromRecord(TargetedDataRecord<TargetRevisionTableInfo>)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.TargetRevisionTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;TargetRevisionTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.TargetRevisionRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { TargetRevisionItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static TargetRevisionRecordData FromRecord(this TargetedDataRecord<TargetRevisionTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.TargetRevisionRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of TargetRevisionTableInfo)) As TargetRevisionRecordData
+  overload: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord*
+  nameWithType.vb: TargetRevisionRecordDataExtensions.FromRecord(TargetedDataRecord(Of TargetRevisionTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TargetRevisionTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of TargetRevisionTableInfo))
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.TargetRevisionRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(TargetRevisionRecordData)
+  nameWithType: TargetRevisionRecordDataExtensions.ToInsert(TargetRevisionRecordData)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this TargetRevisionRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.TargetRevisionRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As TargetRevisionRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData})
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<TargetRevisionRecordData>)
+  nameWithType: TargetRevisionRecordDataExtensions.ToInserts(IEnumerable<TargetRevisionRecordData>)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetRevisionRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<TargetRevisionRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of TargetRevisionRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts*
+  nameWithType.vb: TargetRevisionRecordDataExtensions.ToInserts(IEnumerable(Of TargetRevisionRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetRevisionRecordData))
+  name.vb: ToInserts(IEnumerable(Of TargetRevisionRecordData))
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetRevisionRow)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetRevisionRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.TargetRevisionRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(TargetRevisionRow)
+  nameWithType: TargetRevisionRecordDataExtensions.ToRecordData(TargetRevisionRow)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.TargetRevisionRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static TargetRevisionRecordData ToRecordData(this TargetRevisionRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.TargetRevisionRow
+    return:
+      type: SuperOffice.CRM.Rows.TargetRevisionRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As TargetRevisionRow) As TargetRevisionRecordData
+  overload: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: TargetRevisionRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.TargetRevisionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<TargetRevisionTableInfo>
+  nameWithType: TargetedSelect<TargetRevisionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.TargetRevisionTableInfo>
+  nameWithType.vb: TargetedSelect(Of TargetRevisionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.TargetRevisionTableInfo)
+  name.vb: TargetedSelect(Of TargetRevisionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    name: TargetRevisionTableInfo
+    nameWithType: TargetRevisionTableInfo
+    fullName: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    name: TargetRevisionTableInfo
+    nameWithType: TargetRevisionTableInfo
+    fullName: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.TargetRevisionRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TargetRevisionRecordData>
+  nameWithType: IEnumerable<TargetRevisionRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.TargetRevisionRecordData>
+  nameWithType.vb: IEnumerable(Of TargetRevisionRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.TargetRevisionRecordData)
+  name.vb: IEnumerable(Of TargetRevisionRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.TargetRevisionRecordData
+    name: TargetRevisionRecordData
+    nameWithType: TargetRevisionRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.TargetRevisionRecordData
+    name: TargetRevisionRecordData
+    nameWithType: TargetRevisionRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: TargetRevisionRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.TargetRevisionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<TargetRevisionTableInfo>
+  nameWithType: TargetedDataRecord<TargetRevisionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.TargetRevisionTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of TargetRevisionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.TargetRevisionTableInfo)
+  name.vb: TargetedDataRecord(Of TargetRevisionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    name: TargetRevisionTableInfo
+    nameWithType: TargetRevisionTableInfo
+    fullName: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    name: TargetRevisionTableInfo
+    nameWithType: TargetRevisionTableInfo
+    fullName: SuperOffice.CRM.Data.TargetRevisionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordData
+  commentId: T:SuperOffice.CRM.Rows.TargetRevisionRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TargetRevisionRecordData
+  nameWithType: TargetRevisionRecordData
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: TargetRevisionRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: TargetRevisionRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData
+  isExternal: true
+  name: ToRecordData
+  nameWithType: TargetRevisionRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.TargetRevisionRow
+  commentId: T:SuperOffice.CRM.Rows.TargetRevisionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TargetRevisionRow
+  nameWithType: TargetRevisionRow
+  fullName: SuperOffice.CRM.Rows.TargetRevisionRow

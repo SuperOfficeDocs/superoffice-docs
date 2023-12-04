@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.XsrfHelper
+  commentId: T:SuperOffice.CRM.XsrfHelper
+  id: XsrfHelper
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.XsrfHelper.#ctor
+  - SuperOffice.CRM.XsrfHelper.GetXsrfPaths(System.String)
+  - SuperOffice.CRM.XsrfHelper.SetXsrfPaths(System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: XsrfHelper
+  nameWithType: XsrfHelper
+  fullName: SuperOffice.CRM.XsrfHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nHelper class to update/parse XSRF Paths and store/update the user preference.\n"
+  syntax:
+    content: 'public class XsrfHelper : Object'
+    content.vb: >-
+      Public Class XsrfHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.XsrfHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.XsrfHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.XsrfHelper)
+  - SuperOffice.CRM.XsrfHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.XsrfHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.XsrfHelper.GetXsrfPaths(System.String)
+  commentId: M:SuperOffice.CRM.XsrfHelper.GetXsrfPaths(System.String)
+  id: GetXsrfPaths(System.String)
+  parent: SuperOffice.CRM.XsrfHelper
+  langs:
+  - csharp
+  - vb
+  name: GetXsrfPaths(String)
+  nameWithType: XsrfHelper.GetXsrfPaths(String)
+  fullName: SuperOffice.CRM.XsrfHelper.GetXsrfPaths(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string[] GetXsrfPaths(string hostname)
+    parameters:
+    - id: hostname
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetXsrfPaths(hostname As String) As String()
+  overload: SuperOffice.CRM.XsrfHelper.GetXsrfPaths*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.XsrfHelper.SetXsrfPaths(System.String,System.String[])
+  commentId: M:SuperOffice.CRM.XsrfHelper.SetXsrfPaths(System.String,System.String[])
+  id: SetXsrfPaths(System.String,System.String[])
+  parent: SuperOffice.CRM.XsrfHelper
+  langs:
+  - csharp
+  - vb
+  name: SetXsrfPaths(String, String[])
+  nameWithType: XsrfHelper.SetXsrfPaths(String, String[])
+  fullName: SuperOffice.CRM.XsrfHelper.SetXsrfPaths(System.String, System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void SetXsrfPaths(string hostname, string[] paths)
+    parameters:
+    - id: hostname
+      type: System.String
+    - id: paths
+      type: System.String[]
+    content.vb: Public Shared Sub SetXsrfPaths(hostname As String, paths As String())
+  overload: SuperOffice.CRM.XsrfHelper.SetXsrfPaths*
+  nameWithType.vb: XsrfHelper.SetXsrfPaths(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.XsrfHelper.SetXsrfPaths(System.String, System.String())
+  name.vb: SetXsrfPaths(String, String())
+- uid: SuperOffice.CRM.XsrfHelper.#ctor
+  commentId: M:SuperOffice.CRM.XsrfHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.XsrfHelper
+  langs:
+  - csharp
+  - vb
+  name: XsrfHelper()
+  nameWithType: XsrfHelper.XsrfHelper()
+  fullName: SuperOffice.CRM.XsrfHelper.XsrfHelper()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public XsrfHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.XsrfHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.XsrfHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<XsrfHelper, To>()
+  nameWithType: EnumUtil.MapEnums<XsrfHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.XsrfHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of XsrfHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.XsrfHelper, To)()
+  name.vb: MapEnums(Of XsrfHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<XsrfHelper, To>
+    nameWithType: EnumUtil.MapEnums<XsrfHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.XsrfHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of XsrfHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of XsrfHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.XsrfHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.XsrfHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.XsrfHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<XsrfHelper>(XsrfHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<XsrfHelper>(XsrfHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.XsrfHelper>(SuperOffice.CRM.XsrfHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of XsrfHelper)(XsrfHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.XsrfHelper)(SuperOffice.CRM.XsrfHelper)
+  name.vb: AssignByReflection(Of XsrfHelper)(XsrfHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<XsrfHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<XsrfHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.XsrfHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.XsrfHelper
+    name: XsrfHelper
+    nameWithType: XsrfHelper
+    fullName: SuperOffice.CRM.XsrfHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of XsrfHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of XsrfHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.XsrfHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.XsrfHelper
+    name: XsrfHelper
+    nameWithType: XsrfHelper
+    fullName: SuperOffice.CRM.XsrfHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.XsrfHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<XsrfHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<XsrfHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.XsrfHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of XsrfHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.XsrfHelper)()
+  name.vb: GraphCopy(Of XsrfHelper)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<XsrfHelper>
+    nameWithType: ObjectExtensions.GraphCopy<XsrfHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.XsrfHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of XsrfHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of XsrfHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.XsrfHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.XsrfHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<XsrfHelper, To>()
+  nameWithType: Converters.MapEnums<XsrfHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.XsrfHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of XsrfHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.XsrfHelper, To)()
+  name.vb: MapEnums(Of XsrfHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<XsrfHelper, To>
+    nameWithType: Converters.MapEnums<XsrfHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.XsrfHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of XsrfHelper, To)
+    nameWithType: Converters.MapEnums(Of XsrfHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.XsrfHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.XsrfHelper.GetXsrfPaths*
+  commentId: Overload:SuperOffice.CRM.XsrfHelper.GetXsrfPaths
+  isExternal: true
+  name: GetXsrfPaths
+  nameWithType: XsrfHelper.GetXsrfPaths
+  fullName: SuperOffice.CRM.XsrfHelper.GetXsrfPaths
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.XsrfHelper.SetXsrfPaths*
+  commentId: Overload:SuperOffice.CRM.XsrfHelper.SetXsrfPaths
+  isExternal: true
+  name: SetXsrfPaths
+  nameWithType: XsrfHelper.SetXsrfPaths
+  fullName: SuperOffice.CRM.XsrfHelper.SetXsrfPaths
+- uid: SuperOffice.CRM.XsrfHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.XsrfHelper.#ctor
+  isExternal: true
+  name: XsrfHelper
+  nameWithType: XsrfHelper.XsrfHelper
+  fullName: SuperOffice.CRM.XsrfHelper.XsrfHelper

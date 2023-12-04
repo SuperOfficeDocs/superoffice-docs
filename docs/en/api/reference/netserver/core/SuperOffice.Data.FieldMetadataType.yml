@@ -13,13 +13,14 @@ items:
   - SuperOffice.Data.FieldMetadataType.List
   - SuperOffice.Data.FieldMetadataType.Password
   - SuperOffice.Data.FieldMetadataType.Text
+  - SuperOffice.Data.FieldMetadataType.value__
   langs:
   - csharp
   - vb
   name: FieldMetadataType
   nameWithType: FieldMetadataType
   fullName: SuperOffice.Data.FieldMetadataType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -28,20 +29,55 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDescribes the different types of controls that can appear in the Configure connection dialog\nThis Enum is used by:  ErpField.FieldType\n"
   syntax:
-    content: 'public enum FieldMetadataType : short'
-    content.vb: Public Enum FieldMetadataType As Short
+    content: 'public sealed class FieldMetadataType : Enum'
+    content.vb: >-
+      Public NotInheritable Class FieldMetadataType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.FieldMetadataType.EnumUtil.ConvertToFieldMetadataTypeInfo
   - SuperOffice.Data.FieldMetadataType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.FieldMetadataType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldMetadataType)
-  - SuperOffice.Data.FieldMetadataType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.FieldMetadataType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.FieldMetadataType.value__
+  commentId: F:SuperOffice.Data.FieldMetadataType.value__
+  id: value__
+  parent: SuperOffice.Data.FieldMetadataType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FieldMetadataType.value__
+  fullName: SuperOffice.Data.FieldMetadataType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.FieldMetadataType.Checkbox
   commentId: F:SuperOffice.Data.FieldMetadataType.Checkbox
   id: Checkbox
@@ -61,9 +97,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Checkbox widget: Boolean value\n"
   syntax:
-    content: Checkbox = 0
+    content: public const FieldMetadataType Checkbox
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const Checkbox As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -89,9 +126,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Single line textbox.\n"
   syntax:
-    content: Text = 1
+    content: public const FieldMetadataType Text
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const Text As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -117,9 +155,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Single line edit field with password characters - input is hidden.\n"
   syntax:
-    content: Password = 2
+    content: public const FieldMetadataType Password
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const Password As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -145,9 +184,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Single line integer number field. \n"
   syntax:
-    content: Integer = 3
+    content: public const FieldMetadataType Integer
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const Integer As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -173,9 +213,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Single line decimal number field. \n"
   syntax:
-    content: Double = 4
+    content: public const FieldMetadataType Double
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const Double As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -201,9 +242,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Dropdown listbox. The list name must be provided. The list items are provided by another interface. The default value should be the list key, not the text of the list item.\n"
   syntax:
-    content: List = 5
+    content: public const FieldMetadataType List
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const List As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -229,9 +271,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Date\n"
   syntax:
-    content: Date = 6
+    content: public const FieldMetadataType Date
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const Date As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -257,9 +300,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n99: Static text - has no input widget associated with it. Can be used for spacing/layout.\n"
   syntax:
-    content: Label = 99
+    content: public const FieldMetadataType Label
     return:
       type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Const Label As FieldMetadataType
   modifiers.csharp:
   - public
   - const
@@ -273,6 +317,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.FieldMetadataType.EnumUtil.ConvertToFieldMetadataTypeInfo
   commentId: M:EnumUtil.ConvertToFieldMetadataTypeInfo(SuperOffice.Data.FieldMetadataType)
   parent: EnumUtil
@@ -338,84 +389,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.FieldMetadataType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldMetadataType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FieldMetadataType>(FieldMetadataType)
-  nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataType>(FieldMetadataType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FieldMetadataType>(SuperOffice.Data.FieldMetadataType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldMetadataType)(FieldMetadataType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FieldMetadataType)(SuperOffice.Data.FieldMetadataType)
-  name.vb: AssignByReflection(Of FieldMetadataType)(FieldMetadataType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FieldMetadataType>
-    nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FieldMetadataType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.FieldMetadataType
-    name: FieldMetadataType
-    nameWithType: FieldMetadataType
-    fullName: SuperOffice.Data.FieldMetadataType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FieldMetadataType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FieldMetadataType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FieldMetadataType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.FieldMetadataType
-    name: FieldMetadataType
-    nameWithType: FieldMetadataType
-    fullName: SuperOffice.Data.FieldMetadataType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.FieldMetadataType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FieldMetadataType>()
-  nameWithType: ObjectExtensions.GraphCopy<FieldMetadataType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FieldMetadataType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldMetadataType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FieldMetadataType)()
-  name.vb: GraphCopy(Of FieldMetadataType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FieldMetadataType>
-    nameWithType: ObjectExtensions.GraphCopy<FieldMetadataType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FieldMetadataType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FieldMetadataType)
-    nameWithType: ObjectExtensions.GraphCopy(Of FieldMetadataType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FieldMetadataType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.FieldMetadataType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -450,6 +423,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.ConvertToFieldMetadataTypeInfo(SuperOffice.Data.FieldMetadataType)
   commentId: M:EnumUtil.ConvertToFieldMetadataTypeInfo(SuperOffice.Data.FieldMetadataType)
   isExternal: true
@@ -535,103 +514,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -678,18 +560,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.FieldMetadataType
   commentId: T:SuperOffice.Data.FieldMetadataType
   parent: SuperOffice.Data

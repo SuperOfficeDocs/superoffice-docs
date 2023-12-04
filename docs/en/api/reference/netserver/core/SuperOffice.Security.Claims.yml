@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Claims
+  commentId: N:SuperOffice.Security.Claims
+  id: SuperOffice.Security.Claims
+  children:
+  - SuperOffice.Security.Claims.ClaimsExtensions
+  - SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+  - SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  - SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  - SuperOffice.Security.Claims.ClaimsIdentityHelper
+  - SuperOffice.Security.Claims.SoClaimTypes
+  - SuperOffice.Security.Claims.SoTokenType
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Security.Claims
+  nameWithType: SuperOffice.Security.Claims
+  fullName: SuperOffice.Security.Claims
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: SuperOffice.Security.Claims.SoTokenType
+  commentId: T:SuperOffice.Security.Claims.SoTokenType
+  parent: SuperOffice.Security.Claims
+  isExternal: true
+  name: SoTokenType
+  nameWithType: SoTokenType
+  fullName: SuperOffice.Security.Claims.SoTokenType
+- uid: SuperOffice.Security.Claims.ClaimsIdentityHelper
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentityHelper
+  isExternal: true
+  name: ClaimsIdentityHelper
+  nameWithType: ClaimsIdentityHelper
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityHelper
+- uid: SuperOffice.Security.Claims.ClaimsExtensions
+  commentId: T:SuperOffice.Security.Claims.ClaimsExtensions
+  isExternal: true
+  name: ClaimsExtensions
+  nameWithType: ClaimsExtensions
+  fullName: SuperOffice.Security.Claims.ClaimsExtensions
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+  parent: SuperOffice.Security.Claims
+  isExternal: true
+  name: ClaimsIdentitiesBuilder
+  nameWithType: ClaimsIdentitiesBuilder
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesBuilder
+- uid: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+  isExternal: true
+  name: ClaimsIdentitiesExtensions
+  nameWithType: ClaimsIdentitiesExtensions
+  fullName: SuperOffice.Security.Claims.ClaimsIdentitiesExtensions
+- uid: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  commentId: T:SuperOffice.Security.Claims.ClaimsIdentityBuilder
+  parent: SuperOffice.Security.Claims
+  isExternal: true
+  name: ClaimsIdentityBuilder
+  nameWithType: ClaimsIdentityBuilder
+  fullName: SuperOffice.Security.Claims.ClaimsIdentityBuilder
+- uid: SuperOffice.Security.Claims.SoClaimTypes
+  commentId: T:SuperOffice.Security.Claims.SoClaimTypes
+  isExternal: true
+  name: SoClaimTypes
+  nameWithType: SoClaimTypes
+  fullName: SuperOffice.Security.Claims.SoClaimTypes
+- uid: SuperOffice.Security.Claims
+  commentId: N:SuperOffice.Security.Claims
+  isExternal: true
+  name: SuperOffice.Security.Claims
+  nameWithType: SuperOffice.Security.Claims
+  fullName: SuperOffice.Security.Claims

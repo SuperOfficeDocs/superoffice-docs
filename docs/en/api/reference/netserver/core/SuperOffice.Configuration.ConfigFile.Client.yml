@@ -16,6 +16,9 @@ items:
   - SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   - SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
   - SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+  - SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
+  - SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
+  - SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
   - SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
   - SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
   - SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
@@ -40,18 +43,13 @@ items:
   namespace: SuperOffice.Configuration
   summary: "\nConfiguration values related to client configuration, extension of ClientConfigurationProvider\n"
   syntax:
-    content: public static class Client
-    content.vb: Public Module Client
+    content: 'public static class Client : Object'
+    content.vb: >-
+      Public Module Client
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -719,6 +717,105 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
+  id: IdleTimeout
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: IdleTimeout
+  nameWithType: ConfigFile.Client.IdleTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIdle detection threshold in minutes. When exceeded user is logged out. Default is off.\n"
+  syntax:
+    content: public static int IdleTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property IdleTimeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
+  id: LiveUiPollingInterval
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: LiveUiPollingInterval
+  nameWithType: ConfigFile.Client.LiveUiPollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInterval (in seconds) defining how often UI events should be polled.\n"
+  syntax:
+    content: public static int LiveUiPollingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property LiveUiPollingInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
+  id: LiveUiEventLimit
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: LiveUiEventLimit
+  nameWithType: ConfigFile.Client.LiveUiEventLimit
+  fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nMax amount of UI events to be stored on a backend.\n"
+  syntax:
+    content: public static int LiveUiEventLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property LiveUiEventLimit As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
@@ -733,285 +830,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1159,3 +977,21 @@ references:
   name: WWW3Url
   nameWithType: ConfigFile.Client.WWW3Url
   fullName: SuperOffice.Configuration.ConfigFile.Client.WWW3Url
+- uid: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
+  isExternal: true
+  name: IdleTimeout
+  nameWithType: ConfigFile.Client.IdleTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
+- uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
+  isExternal: true
+  name: LiveUiPollingInterval
+  nameWithType: ConfigFile.Client.LiveUiPollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
+- uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
+  isExternal: true
+  name: LiveUiEventLimit
+  nameWithType: ConfigFile.Client.LiveUiEventLimit
+  fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit

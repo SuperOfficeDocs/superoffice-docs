@@ -5,7 +5,6 @@ items:
   id: AssociateCache
   parent: SuperOffice.CRM.Cache
   children:
-  - SuperOffice.CRM.Cache.AssociateCache.#ctor
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociate(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateContact(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateContactId(System.Int32)
@@ -26,7 +25,6 @@ items:
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociatePersonId(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateTitle(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateType(System.Int32)
-  - SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers
   - SuperOffice.CRM.Cache.AssociateCache.GetCurrent
   - SuperOffice.CRM.Cache.AssociateCache.GetEjUserAssociateId(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetPersonAssociateId(System.Int32)
@@ -36,11 +34,11 @@ items:
   - SuperOffice.CRM.Cache.AssociateCache.IsAssociateTypeNoSentry(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.IsAssociateTypeResource(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.IsAssociateTypeSomeKindOfPerson(System.Int32)
-  - SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  - SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate(System.Int32,System.Boolean)
   - SuperOffice.CRM.Cache.AssociateCache.IsUserInSameContact(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.IsUserInSameContact(System.Int32,System.Int32)
+  - SuperOffice.CRM.Cache.AssociateCache.OnLoad
+  - SuperOffice.CRM.Cache.AssociateCache.TableNames
   - SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate(System.Int32)
   langs:
   - csharp
@@ -57,44 +55,42 @@ items:
   namespace: SuperOffice.CRM.Cache
   syntax:
     content: >-
-      [Cache(600, "Database")]
+      [CacheV2("Database", 0)]
 
-      public class AssociateCache : XCacheBase, IFlushable
+      public class AssociateCache : CacheBaseV2, IFlushableV2, IDisposable
     content.vb: >-
-      <Cache(600, "Database")>
+      <CacheV2("Database", 0)>
 
       Public Class AssociateCache
-          Inherits XCacheBase
-          Implements IFlushable
+
+          Inherits CacheBaseV2
+
+          Implements IFlushableV2, IDisposable
   inheritance:
   - System.Object
-  - SuperOffice.Data.Cache.XCacheBase
+  - SuperOffice.Data.Cache.CacheBaseV2
   implements:
-  - SuperOffice.Data.Cache.IFlushable
+  - SuperOffice.Data.Cache.IFlushableV2
+  - System.IDisposable
   inheritedMembers:
-  - SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-  - SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-  - SuperOffice.Data.Cache.XCacheBase.Flush
-  - SuperOffice.Data.Cache.XCacheBase.Timeout
-  - SuperOffice.Data.Cache.XCacheBase.LastTouch
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  - SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  - SuperOffice.Data.Cache.CacheBaseV2.Flush
+  - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  - SuperOffice.Data.Cache.CacheBaseV2.Load
+  - SuperOffice.Data.Cache.CacheBaseV2.Disposed
   extensionMethods:
   - SuperOffice.CRM.Cache.AssociateCache.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Cache.AssociateCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
-  - type: SuperOffice.Data.Cache.CacheAttribute
-    ctor: SuperOffice.Data.Cache.CacheAttribute.#ctor(System.Int32,System.String)
+  - type: SuperOffice.Data.Cache.CacheV2Attribute
+    ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
     arguments:
-    - type: System.Int32
-      value: 600
     - type: System.String
       value: Database
+    - type: System.Int32
+      value: 0
   modifiers.csharp:
   - public
   - class
@@ -118,13 +114,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nGet all associate id&apos;s as an array\n"
+  summary: "\nGet all associate id&apos;s\n"
   syntax:
-    content: public int[] GetAssociateIds()
+    content: public IEnumerable<int> GetAssociateIds()
     return:
-      type: System.Int32[]
-      description: Array, may be empty but never null
-    content.vb: Public Function GetAssociateIds As Integer()
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    content.vb: Public Function GetAssociateIds As IEnumerable(Of Integer)
   overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateIds*
   modifiers.csharp:
   - public
@@ -180,17 +175,17 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nGet an Associate based on it&apos;s associateId\n"
+  summary: "\nGet an Associate based on it&apos;s associate Id\n"
   syntax:
-    content: public AssociateRow GetAssociate(int associateId)
+    content: public AssociateRecordData GetAssociate(int associateId)
     parameters:
     - id: associateId
       type: System.Int32
       description: Primary key for the Associate.
     return:
-      type: SuperOffice.CRM.Rows.AssociateRow
+      type: SuperOffice.CRM.Rows.AssociateRecordData
       description: Associate entity.
-    content.vb: Public Function GetAssociate(associateId As Integer) As AssociateRow
+    content.vb: Public Function GetAssociate(associateId As Integer) As AssociateRecordData
   overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociate*
   modifiers.csharp:
   - public
@@ -243,13 +238,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nGet the <see cref=\"!:UserType\"></see> for a user.\n"
+  summary: "\nGet the <xref href=\"SuperOffice.Data.AssociateType\" data-throw-if-not-resolved=\"false\"></xref> for a user.\n"
   syntax:
     content: public AssociateType GetAssociateType(int associateId)
     parameters:
     - id: associateId
       type: System.Int32
-      description: AssociateId for the user to check the <see cref="!:UserType"></see> for.
+      description: AssociateId for the user to check the <xref href="SuperOffice.Data.AssociateType" data-throw-if-not-resolved="false"></xref> for.
     return:
       type: SuperOffice.Data.AssociateType
       description: Type of user.
@@ -276,7 +271,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nDetermine whether this associate has a diary, \nbased on the <see cref=\"!:Superoffice.Security.Principal.UserType\"></see> flag bits of the associate type.\n"
+  summary: "\nDetermine whether this associate has a diary, based on the <xref href=\"SuperOffice.Data.AssociateType.NoCalenderBit\" data-throw-if-not-resolved=\"false\"></xref> flag bits of the associate type.\n"
   syntax:
     content: public bool IsAssociateTypeDiaryOwner(int associateId)
     parameters:
@@ -285,7 +280,7 @@ items:
       description: Associate to check
     return:
       type: System.Boolean
-      description: true if the associate has a diary
+      description: true if the associate has a diary (AssociateType.NoCalenderBit = 0)
     content.vb: Public Function IsAssociateTypeDiaryOwner(associateId As Integer) As Boolean
   overload: SuperOffice.CRM.Cache.AssociateCache.IsAssociateTypeDiaryOwner*
   modifiers.csharp:
@@ -309,7 +304,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nDetermine whether this associate is some kind of person (resource, for instamce, are not),\nbased on the <see cref=\"!:Superoffice.Security.Principal.UserType\"></see> flag bits of the associate type.\n"
+  summary: "\nDetermine whether this associate is some kind of person (resource, for instance, are not),\nbased on the <xref href=\"SuperOffice.Data.AssociateType\" data-throw-if-not-resolved=\"false\"></xref> flag bits of the associate type.\n"
   syntax:
     content: public bool IsAssociateTypeSomeKindOfPerson(int associateId)
     parameters:
@@ -342,7 +337,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nDetermine whether this associate is anonymous, \nbased on the <see cref=\"!:Superoffice.Security.Principal.UserType\"></see> flag bits of the associate type.\n"
+  summary: "\nDetermine whether this associate is anonymous, \nbased on the <xref href=\"SuperOffice.Data.AssociateType\" data-throw-if-not-resolved=\"false\"></xref> flag bits of the associate type.\n"
   syntax:
     content: public bool IsAssociateTypeAnonymous(int associateId)
     parameters:
@@ -375,7 +370,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nDetermine whether this associate is exempt from Sentry checks,\nbased on the <see cref=\"!:Superoffice.Security.Principal.UserType\"></see> flag bits of the associate type.\n"
+  summary: "\nDetermine whether this associate is exempt from Sentry checks,\nbased on the <xref href=\"SuperOffice.Data.AssociateType\" data-throw-if-not-resolved=\"false\"></xref> flag bits of the associate type.\n"
   syntax:
     content: public bool IsAssociateTypeNoSentry(int associateId)
     parameters:
@@ -408,7 +403,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nDetermine whether this associate is a resource\nbased on the <see cref=\"!:Superoffice.Security.Principal.UserType\"></see> flag bits of the associate type.\n"
+  summary: "\nDetermine whether this associate is a resource\nbased on the <xref href=\"SuperOffice.Data.AssociateType\" data-throw-if-not-resolved=\"false\"></xref> flag bits of the associate type.\n"
   syntax:
     content: public bool IsAssociateTypeResource(int associateId)
     parameters:
@@ -552,72 +547,6 @@ items:
       description: First name of the associate&apos;s person
     content.vb: Public Function GetAssociateFirstName(associateId As Integer) As String
   overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateFirstName*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
-  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
-  id: GetAssociateDateOfBirth(System.Int32)
-  parent: SuperOffice.CRM.Cache.AssociateCache
-  langs:
-  - csharp
-  - vb
-  name: GetAssociateDateOfBirth(Int32)
-  nameWithType: AssociateCache.GetAssociateDateOfBirth(Int32)
-  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  summary: "\nGet the date of birth of the associate (from person record that the associate belongs to)\n"
-  syntax:
-    content: public DateTime GetAssociateDateOfBirth(int associateId)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: Associate to look up
-    return:
-      type: System.DateTime
-      description: Date of birth of the associate&apos;s person
-    content.vb: Public Function GetAssociateDateOfBirth(associateId As Integer) As Date
-  overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId(System.Int32)
-  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId(System.Int32)
-  id: GetAssociateEmailId(System.Int32)
-  parent: SuperOffice.CRM.Cache.AssociateCache
-  langs:
-  - csharp
-  - vb
-  name: GetAssociateEmailId(Int32)
-  nameWithType: AssociateCache.GetAssociateEmailId(Int32)
-  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  summary: "\nGet the email-id, of rank 1, if it exists for an associate\n"
-  syntax:
-    content: public int GetAssociateEmailId(int associateId)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: Associate to look up
-    return:
-      type: System.Int32
-      description: email_id of rank 0 linked to associates&apos; person; 0 is returned in any other case
-    content.vb: Public Function GetAssociateEmailId(associateId As Integer) As Integer
-  overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -820,6 +749,72 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId(System.Int32)
+  id: GetAssociateEmailId(System.Int32)
+  parent: SuperOffice.CRM.Cache.AssociateCache
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateEmailId(Int32)
+  nameWithType: AssociateCache.GetAssociateEmailId(Int32)
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nGet the email-id, of rank 1, if it exists for an associate\n"
+  syntax:
+    content: public int GetAssociateEmailId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate to look up
+    return:
+      type: System.Int32
+      description: email_id of rank 0 linked to associates&apos; person; 0 is returned in any other case
+    content.vb: Public Function GetAssociateEmailId(associateId As Integer) As Integer
+  overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
+  id: GetAssociateDateOfBirth(System.Int32)
+  parent: SuperOffice.CRM.Cache.AssociateCache
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateDateOfBirth(Int32)
+  nameWithType: AssociateCache.GetAssociateDateOfBirth(Int32)
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nGet the date of birth of the associate (from person record that the associate belongs to)\n"
+  syntax:
+    content: public DateTime GetAssociateDateOfBirth(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate to look up
+    return:
+      type: System.DateTime
+      description: Date of birth of the associate&apos;s person
+    content.vb: Public Function GetAssociateDateOfBirth(associateId As Integer) As DateTime
+  overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Cache.AssociateCache.IsUserInSameContact(System.Int32)
   commentId: M:SuperOffice.CRM.Cache.AssociateCache.IsUserInSameContact(System.Int32)
   id: IsUserInSameContact(System.Int32)
@@ -889,39 +884,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate(System.Int32)
-  commentId: M:SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate(System.Int32)
-  id: IsPersonAssociate(System.Int32)
-  parent: SuperOffice.CRM.Cache.AssociateCache
-  langs:
-  - csharp
-  - vb
-  name: IsPersonAssociate(Int32)
-  nameWithType: AssociateCache.IsPersonAssociate(Int32)
-  fullName: SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  summary: "\nIs a given person an associate (e.g. user).\n"
-  syntax:
-    content: public bool IsPersonAssociate(int personId)
-    parameters:
-    - id: personId
-      type: System.Int32
-      description: PersonId of the person to check if it is an associate.
-    return:
-      type: System.Boolean
-      description: True if the person is an associate.
-    content.vb: Public Function IsPersonAssociate(personId As Integer) As Boolean
-  overload: SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate(System.Int32,System.Boolean)
   id: IsPersonAssociate(System.Int32,System.Boolean)
@@ -941,7 +903,7 @@ items:
   namespace: SuperOffice.CRM.Cache
   summary: "\nIs a given person an associate (e.g. user).\n"
   syntax:
-    content: public bool IsPersonAssociate(int personId, bool useFailSafeValidation)
+    content: public bool IsPersonAssociate(int personId, bool useFailSafeValidation = false)
     parameters:
     - id: personId
       type: System.Int32
@@ -952,7 +914,7 @@ items:
     return:
       type: System.Boolean
       description: True if the person is an associate.
-    content.vb: Public Function IsPersonAssociate(personId As Integer, useFailSafeValidation As Boolean) As Boolean
+    content.vb: Public Function IsPersonAssociate(personId As Integer, useFailSafeValidation As Boolean = False) As Boolean
   overload: SuperOffice.CRM.Cache.AssociateCache.IsPersonAssociate*
   modifiers.csharp:
   - public
@@ -1008,6 +970,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
+  summary: "\nGet the AssociateId for a given EjUser\n"
   syntax:
     content: public int GetEjUserAssociateId(int ejUserId)
     parameters:
@@ -1038,6 +1001,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
+  summary: "\nGet the EjUserId for a given associate\n"
   syntax:
     content: public int GetAssociateEjUserId(int associateId)
     parameters:
@@ -1101,16 +1065,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
-  summary: "\nGet the ContactId for an associate.\n"
   syntax:
     content: public bool IsAssociateRetired(int associateId)
     parameters:
     - id: associateId
       type: System.Int32
-      description: The associate id of the user to get the ContactId for.
     return:
       type: System.Boolean
-      description: ContactId for the user.
     content.vb: Public Function IsAssociateRetired(associateId As Integer) As Boolean
   overload: SuperOffice.CRM.Cache.AssociateCache.IsAssociateRetired*
   modifiers.csharp:
@@ -1136,152 +1097,20 @@ items:
   namespace: SuperOffice.CRM.Cache
   summary: "\nGet the (cached) contact for an associate\n"
   syntax:
-    content: public ContactRow GetAssociateContact(int associateId)
+    content: public ContactRecordData GetAssociateContact(int associateId)
     parameters:
     - id: associateId
       type: System.Int32
       description: The associate id of the user to get the contact for
     return:
-      type: SuperOffice.CRM.Rows.ContactRow
+      type: SuperOffice.CRM.Rows.ContactRecordData
       description: ContactRow, or null if the associate does not have an owning contact (is a resource, for instance)
-    content.vb: Public Function GetAssociateContact(associateId As Integer) As ContactRow
+    content.vb: Public Function GetAssociateContact(associateId As Integer) As ContactRecordData
   overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateContact*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers
-  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers
-  id: GetCachedTableNumbers
-  parent: SuperOffice.CRM.Cache.AssociateCache
-  langs:
-  - csharp
-  - vb
-  name: GetCachedTableNumbers()
-  nameWithType: AssociateCache.GetCachedTableNumbers()
-  fullName: SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: public override int[] GetCachedTableNumbers()
-    return:
-      type: System.Int32[]
-    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
-  overridden: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-  overload: SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
-- uid: SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  commentId: M:SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  id: IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  parent: SuperOffice.CRM.Cache.AssociateCache
-  langs:
-  - csharp
-  - vb
-  name: IsCacheInvalidated(Int32, SqlType, Int32)
-  nameWithType: AssociateCache.IsCacheInvalidated(Int32, SqlType, Int32)
-  fullName: SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: protected override bool IsCacheInvalidated(int tableNumber, SqlType sqlType, int primaryKey)
-    parameters:
-    - id: tableNumber
-      type: System.Int32
-    - id: sqlType
-      type: SuperOffice.Data.SQL.SqlType
-    - id: primaryKey
-      type: System.Int32
-    return:
-      type: System.Boolean
-    content.vb: Protected Overrides Function IsCacheInvalidated(tableNumber As Integer, sqlType As SqlType, primaryKey As Integer) As Boolean
-  overridden: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  overload: SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
-- uid: SuperOffice.CRM.Cache.AssociateCache.GetCurrent
-  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetCurrent
-  id: GetCurrent
-  parent: SuperOffice.CRM.Cache.AssociateCache
-  langs:
-  - csharp
-  - vb
-  name: GetCurrent()
-  nameWithType: AssociateCache.GetCurrent()
-  fullName: SuperOffice.CRM.Cache.AssociateCache.GetCurrent()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  syntax:
-    content: public static AssociateCache GetCurrent()
-    return:
-      type: SuperOffice.CRM.Cache.AssociateCache
-    content.vb: Public Shared Function GetCurrent As AssociateCache
-  overload: SuperOffice.CRM.Cache.AssociateCache.GetCurrent*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: SuperOffice.CRM.Cache.AssociateCache.#ctor
-  commentId: M:SuperOffice.CRM.Cache.AssociateCache.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Cache.AssociateCache
-  langs:
-  - csharp
-  - vb
-  name: AssociateCache()
-  nameWithType: AssociateCache.AssociateCache()
-  fullName: SuperOffice.CRM.Cache.AssociateCache.AssociateCache()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Cache
-  summary: "\nRefresh the content of the cache\n"
-  syntax:
-    content: >-
-      [SoInjectConstructor]
-
-      protected AssociateCache()
-    content.vb: >-
-      <SoInjectConstructor>
-
-      Protected Sub New
-  overload: SuperOffice.CRM.Cache.AssociateCache.#ctor*
-  attributes:
-  - type: SuperOffice.Factory.SoInjectConstructorAttribute
-    ctor: SuperOffice.Factory.SoInjectConstructorAttribute.#ctor
-    arguments: []
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate(System.Int32)
   commentId: M:SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate(System.Int32)
   id: ValidateAndTestAssociate(System.Int32)
@@ -1314,6 +1143,96 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetCurrent
+  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.CRM.Cache.AssociateCache
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: AssociateCache.GetCurrent()
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public static AssociateCache GetCurrent()
+    return:
+      type: SuperOffice.CRM.Cache.AssociateCache
+    content.vb: Public Shared Function GetCurrent As AssociateCache
+  overload: SuperOffice.CRM.Cache.AssociateCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Cache.AssociateCache.OnLoad
+  commentId: M:SuperOffice.CRM.Cache.AssociateCache.OnLoad
+  id: OnLoad
+  parent: SuperOffice.CRM.Cache.AssociateCache
+  langs:
+  - csharp
+  - vb
+  name: OnLoad()
+  nameWithType: AssociateCache.OnLoad()
+  fullName: SuperOffice.CRM.Cache.AssociateCache.OnLoad()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: protected override void OnLoad()
+    content.vb: Protected Overrides Sub OnLoad
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  overload: SuperOffice.CRM.Cache.AssociateCache.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Cache.AssociateCache.TableNames
+  commentId: P:SuperOffice.CRM.Cache.AssociateCache.TableNames
+  id: TableNames
+  parent: SuperOffice.CRM.Cache.AssociateCache
+  langs:
+  - csharp
+  - vb
+  name: TableNames
+  nameWithType: AssociateCache.TableNames
+  fullName: SuperOffice.CRM.Cache.AssociateCache.TableNames
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: protected override IEnumerable<string> TableNames { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Protected Overrides ReadOnly Property TableNames As IEnumerable(Of String)
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.TableNames
+  overload: SuperOffice.CRM.Cache.AssociateCache.TableNames*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Cache
   commentId: N:SuperOffice.CRM.Cache
@@ -1328,76 +1247,110 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: SuperOffice.Data.Cache.XCacheBase
-  commentId: T:SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2
+  commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: XCacheBase
-  nameWithType: XCacheBase
-  fullName: SuperOffice.Data.Cache.XCacheBase
-- uid: SuperOffice.Data.Cache.IFlushable
-  commentId: T:SuperOffice.Data.Cache.IFlushable
+  name: CacheBaseV2
+  nameWithType: CacheBaseV2
+  fullName: SuperOffice.Data.Cache.CacheBaseV2
+- uid: SuperOffice.Data.Cache.IFlushableV2
+  commentId: T:SuperOffice.Data.Cache.IFlushableV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: IFlushable
-  nameWithType: IFlushable
-  fullName: SuperOffice.Data.Cache.IFlushable
-- uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-  parent: SuperOffice.Data.Cache.XCacheBase
+  name: IFlushableV2
+  nameWithType: IFlushableV2
+  fullName: SuperOffice.Data.Cache.IFlushableV2
+- uid: System.IDisposable
   isExternal: true
-  name: GetCacheAttribute(Type)
-  nameWithType: XCacheBase.GetCacheAttribute(Type)
-  fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: IsCacheInvalidated(String, Int32, PrivateSave)
+  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-    name: GetCacheAttribute
-    nameWithType: XCacheBase.GetCacheAttribute
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+    name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
-    name: GetCacheAttribute
-    nameWithType: XCacheBase.GetCacheAttribute
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+    name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
     isExternal: true
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-  parent: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: GetCurrentInstance<CacheType>()
-  nameWithType: XCacheBase.GetCurrentInstance<CacheType>()
-  fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>()
-  nameWithType.vb: XCacheBase.GetCurrentInstance(Of CacheType)()
-  fullName.vb: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)()
-  name.vb: GetCurrentInstance(Of CacheType)()
+  name: Dispose()
+  nameWithType: CacheBaseV2.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-    name: GetCurrentInstance<CacheType>
-    nameWithType: XCacheBase.GetCurrentInstance<CacheType>
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -1406,10 +1359,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
-    name: GetCurrentInstance(Of CacheType)
-    nameWithType: XCacheBase.GetCurrentInstance(Of CacheType)
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
+    name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
   - name: (
     nameWithType: (
@@ -1417,18 +1370,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.XCacheBase.Flush
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.Flush
-  parent: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
   name: Flush()
-  nameWithType: XCacheBase.Flush()
-  fullName: SuperOffice.Data.Cache.XCacheBase.Flush()
+  nameWithType: CacheBaseV2.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
   spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
-    nameWithType: XCacheBase.Flush
-    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
   - name: (
     nameWithType: (
@@ -1437,10 +1390,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
-    nameWithType: XCacheBase.Flush
-    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
   - name: (
     nameWithType: (
@@ -1448,32 +1401,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.Cache.XCacheBase.Timeout
-  commentId: P:SuperOffice.Data.Cache.XCacheBase.Timeout
-  parent: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: Timeout
-  nameWithType: XCacheBase.Timeout
-  fullName: SuperOffice.Data.Cache.XCacheBase.Timeout
-- uid: SuperOffice.Data.Cache.XCacheBase.LastTouch
-  commentId: P:SuperOffice.Data.Cache.XCacheBase.LastTouch
-  parent: SuperOffice.Data.Cache.XCacheBase
-  isExternal: true
-  name: LastTouch
-  nameWithType: XCacheBase.LastTouch
-  fullName: SuperOffice.Data.Cache.XCacheBase.LastTouch
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  name: BeginDisableAutoUpdate()
+  nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
   spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
   - name: (
     nameWithType: (
@@ -1482,10 +1421,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
+    name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
   - name: (
     nameWithType: (
@@ -1493,173 +1432,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+- uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  name: GetCurrent<T>()
+  nameWithType: CacheBaseV2.GetCurrent<T>()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
+  nameWithType.vb: CacheBaseV2.GetCurrent(Of T)()
+  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)()
+  name.vb: GetCurrent(Of T)()
   spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+    name: GetCurrent<T>
+    nameWithType: CacheBaseV2.GetCurrent<T>
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
     isExternal: true
   - name: (
     nameWithType: (
@@ -1668,10 +1455,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+    name: GetCurrent(Of T)
+    nameWithType: CacheBaseV2.GetCurrent(Of T)
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
     isExternal: true
   - name: (
     nameWithType: (
@@ -1679,18 +1466,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  name: Load()
+  nameWithType: CacheBaseV2.Load()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
   spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
   - name: (
     nameWithType: (
@@ -1699,10 +1486,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
   - name: (
     nameWithType: (
@@ -1710,37 +1497,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Disposed
+  commentId: P:SuperOffice.Data.Cache.CacheBaseV2.Disposed
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: Disposed
+  nameWithType: CacheBaseV2.Disposed
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Disposed
 - uid: SuperOffice.CRM.Cache.AssociateCache.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1924,32 +1687,87 @@ references:
   name: GetAssociateIds
   nameWithType: AssociateCache.GetAssociateIds
   fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateIds
-- uid: System.Int32[]
-  isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+- uid: System.Collections.Generic.IEnumerable{System.Int32}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Int32}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Int32>
+  nameWithType: IEnumerable<Int32>
+  fullName: System.Collections.Generic.IEnumerable<System.Int32>
+  nameWithType.vb: IEnumerable(Of Int32)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Int32)
+  name.vb: IEnumerable(Of Int32)
   spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
     fullName: System.Int32
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateId*
   commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateId
   isExternal: true
@@ -1976,13 +1794,13 @@ references:
   name: GetAssociate
   nameWithType: AssociateCache.GetAssociate
   fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociate
-- uid: SuperOffice.CRM.Rows.AssociateRow
-  commentId: T:SuperOffice.CRM.Rows.AssociateRow
+- uid: SuperOffice.CRM.Rows.AssociateRecordData
+  commentId: T:SuperOffice.CRM.Rows.AssociateRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  name: AssociateRow
-  nameWithType: AssociateRow
-  fullName: SuperOffice.CRM.Rows.AssociateRow
+  name: AssociateRecordData
+  nameWithType: AssociateRecordData
+  fullName: SuperOffice.CRM.Rows.AssociateRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
@@ -2075,25 +1893,6 @@ references:
   name: GetAssociateFirstName
   nameWithType: AssociateCache.GetAssociateFirstName
   fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateFirstName
-- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth*
-  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth
-  isExternal: true
-  name: GetAssociateDateOfBirth
-  nameWithType: AssociateCache.GetAssociateDateOfBirth
-  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId*
-  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId
-  isExternal: true
-  name: GetAssociateEmailId
-  nameWithType: AssociateCache.GetAssociateEmailId
-  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId
 - uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateLastName*
   commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateLastName
   isExternal: true
@@ -2130,6 +1929,23 @@ references:
   name: GetAssociateFormalName
   nameWithType: AssociateCache.GetAssociateFormalName
   fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateFormalName
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId*
+  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId
+  isExternal: true
+  name: GetAssociateEmailId
+  nameWithType: AssociateCache.GetAssociateEmailId
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateEmailId
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth*
+  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth
+  isExternal: true
+  name: GetAssociateDateOfBirth
+  nameWithType: AssociateCache.GetAssociateDateOfBirth
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateDateOfBirth
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: SuperOffice.CRM.Cache.AssociateCache.IsUserInSameContact*
   commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.IsUserInSameContact
   isExternal: true
@@ -2178,142 +1994,19 @@ references:
   name: GetAssociateContact
   nameWithType: AssociateCache.GetAssociateContact
   fullName: SuperOffice.CRM.Cache.AssociateCache.GetAssociateContact
-- uid: SuperOffice.CRM.Rows.ContactRow
-  commentId: T:SuperOffice.CRM.Rows.ContactRow
+- uid: SuperOffice.CRM.Rows.ContactRecordData
+  commentId: T:SuperOffice.CRM.Rows.ContactRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  name: ContactRow
-  nameWithType: ContactRow
-  fullName: SuperOffice.CRM.Rows.ContactRow
-- uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-  parent: SuperOffice.Data.Cache.XCacheBase
+  name: ContactRecordData
+  nameWithType: ContactRecordData
+  fullName: SuperOffice.CRM.Rows.ContactRecordData
+- uid: SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate*
+  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate
   isExternal: true
-  name: GetCachedTableNumbers()
-  nameWithType: XCacheBase.GetCachedTableNumbers()
-  fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers()
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    name: GetCachedTableNumbers
-    nameWithType: XCacheBase.GetCachedTableNumbers
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    name: GetCachedTableNumbers
-    nameWithType: XCacheBase.GetCachedTableNumbers
-    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers*
-  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers
-  isExternal: true
-  name: GetCachedTableNumbers
-  nameWithType: AssociateCache.GetCachedTableNumbers
-  fullName: SuperOffice.CRM.Cache.AssociateCache.GetCachedTableNumbers
-- uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  commentId: M:SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-  parent: SuperOffice.Data.Cache.XCacheBase
-  isExternal: true
-  name: IsCacheInvalidated(Int32, SqlType, Int32)
-  nameWithType: XCacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
-  fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-    name: IsCacheInvalidated
-    nameWithType: XCacheBase.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
-    name: IsCacheInvalidated
-    nameWithType: XCacheBase.IsCacheInvalidated
-    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.Data.SQL.SqlType
-    name: SqlType
-    nameWithType: SqlType
-    fullName: SuperOffice.Data.SQL.SqlType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated*
-  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated
-  isExternal: true
-  name: IsCacheInvalidated
-  nameWithType: AssociateCache.IsCacheInvalidated
-  fullName: SuperOffice.CRM.Cache.AssociateCache.IsCacheInvalidated
-- uid: SuperOffice.Data.SQL.SqlType
-  commentId: T:SuperOffice.Data.SQL.SqlType
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: SqlType
-  nameWithType: SqlType
-  fullName: SuperOffice.Data.SQL.SqlType
-- uid: SuperOffice.Data.SQL
-  commentId: N:SuperOffice.Data.SQL
-  isExternal: true
-  name: SuperOffice.Data.SQL
-  nameWithType: SuperOffice.Data.SQL
-  fullName: SuperOffice.Data.SQL
+  name: ValidateAndTestAssociate
+  nameWithType: AssociateCache.ValidateAndTestAssociate
+  fullName: SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate
 - uid: SuperOffice.CRM.Cache.AssociateCache.GetCurrent*
   commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetCurrent
   isExternal: true
@@ -2327,15 +2020,96 @@ references:
   name: AssociateCache
   nameWithType: AssociateCache
   fullName: SuperOffice.CRM.Cache.AssociateCache
-- uid: SuperOffice.CRM.Cache.AssociateCache.#ctor*
-  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.#ctor
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+  parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  name: AssociateCache
-  nameWithType: AssociateCache.AssociateCache
-  fullName: SuperOffice.CRM.Cache.AssociateCache.AssociateCache
-- uid: SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate*
-  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate
+  name: OnLoad()
+  nameWithType: CacheBaseV2.OnLoad()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.AssociateCache.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.OnLoad
   isExternal: true
-  name: ValidateAndTestAssociate
-  nameWithType: AssociateCache.ValidateAndTestAssociate
-  fullName: SuperOffice.CRM.Cache.AssociateCache.ValidateAndTestAssociate
+  name: OnLoad
+  nameWithType: AssociateCache.OnLoad
+  fullName: SuperOffice.CRM.Cache.AssociateCache.OnLoad
+- uid: SuperOffice.Data.Cache.CacheBaseV2.TableNames
+  commentId: P:SuperOffice.Data.Cache.CacheBaseV2.TableNames
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: TableNames
+  nameWithType: CacheBaseV2.TableNames
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.TableNames
+- uid: SuperOffice.CRM.Cache.AssociateCache.TableNames*
+  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.TableNames
+  isExternal: true
+  name: TableNames
+  nameWithType: AssociateCache.TableNames
+  fullName: SuperOffice.CRM.Cache.AssociateCache.TableNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

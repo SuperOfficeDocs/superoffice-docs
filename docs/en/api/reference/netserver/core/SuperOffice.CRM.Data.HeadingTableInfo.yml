@@ -39,6 +39,8 @@ items:
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_ProductTypeHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_ProjStatusHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_ProjTypeHeadingLink_HeadingId
+  - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_ReasonHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_ReasonSoldHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_ReasonStalledHeadingLink_HeadingId
@@ -53,6 +55,7 @@ items:
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_SubscriptionUnitHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TagsHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskHeadingLink_HeadingId
+  - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_UDListHeadingLink_HeadingId
   - SuperOffice.CRM.Data.HeadingTableInfo.ListTableId
   - SuperOffice.CRM.Data.HeadingTableInfo.Name
@@ -90,7 +93,9 @@ items:
       <DatabaseTable("Heading")>
 
       Public Class HeadingTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -112,12 +117,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.HeadingTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.HeadingTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -212,26 +211,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.HeadingTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -539,7 +524,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;Heading&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;Heading&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -601,7 +586,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;Heading&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;Heading&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -2041,6 +2026,99 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  commentId: P:SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  id: LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  parent: SuperOffice.CRM.Data.HeadingTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  nameWithType: HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  fullName: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key HeadingId on this table, to TaskMenuHeadingLink.<xref href=\"SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo.HeadingId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TaskMenuHeadingLinkTableInfo> LeftOuterJoin_TaskMenuHeadingLink_HeadingId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TaskMenuHeadingLink_HeadingId As TargetedLeftOuterJoin(Of TaskMenuHeadingLinkTableInfo)
+  overload: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  commentId: P:SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  id: LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  parent: SuperOffice.CRM.Data.HeadingTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  nameWithType: HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  fullName: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key HeadingId on this table, to QuoteApprReasonHeadingLink.<xref href=\"SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo.HeadingId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<QuoteApprReasonHeadingLinkTableInfo> LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId As TargetedLeftOuterJoin(Of QuoteApprReasonHeadingLinkTableInfo)
+  overload: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  commentId: P:SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  id: LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  parent: SuperOffice.CRM.Data.HeadingTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  nameWithType: HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  fullName: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key HeadingId on this table, to QuoteDenyReasonHeadingLink.<xref href=\"SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo.HeadingId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<QuoteDenyReasonHeadingLinkTableInfo> LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId As TargetedLeftOuterJoin(Of QuoteDenyReasonHeadingLinkTableInfo)
+  overload: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2063,8 +2141,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -2397,254 +2473,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.HeadingTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -5254,6 +5082,156 @@ references:
     name: TagsHeadingLinkTableInfo
     nameWithType: TagsHeadingLinkTableInfo
     fullName: SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId*
+  commentId: Overload:SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  isExternal: true
+  name: LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  nameWithType: HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+  fullName: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_TaskMenuHeadingLink_HeadingId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TaskMenuHeadingLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TaskMenuHeadingLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TaskMenuHeadingLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TaskMenuHeadingLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+    name: TaskMenuHeadingLinkTableInfo
+    nameWithType: TaskMenuHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+    name: TaskMenuHeadingLinkTableInfo
+    nameWithType: TaskMenuHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TaskMenuHeadingLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId*
+  commentId: Overload:SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  isExternal: true
+  name: LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  nameWithType: HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+  fullName: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteApprReasonHeadingLink_HeadingId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<QuoteApprReasonHeadingLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<QuoteApprReasonHeadingLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of QuoteApprReasonHeadingLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of QuoteApprReasonHeadingLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+    name: QuoteApprReasonHeadingLinkTableInfo
+    nameWithType: QuoteApprReasonHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+    name: QuoteApprReasonHeadingLinkTableInfo
+    nameWithType: QuoteApprReasonHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteApprReasonHeadingLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId*
+  commentId: Overload:SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  isExternal: true
+  name: LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  nameWithType: HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+  fullName: SuperOffice.CRM.Data.HeadingTableInfo.LeftOuterJoin_QuoteDenyReasonHeadingLink_HeadingId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<QuoteDenyReasonHeadingLinkTableInfo>
+  nameWithType: TargetedLeftOuterJoin<QuoteDenyReasonHeadingLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of QuoteDenyReasonHeadingLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of QuoteDenyReasonHeadingLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+    name: QuoteDenyReasonHeadingLinkTableInfo
+    nameWithType: QuoteDenyReasonHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
+    name: QuoteDenyReasonHeadingLinkTableInfo
+    nameWithType: QuoteDenyReasonHeadingLinkTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteDenyReasonHeadingLinkTableInfo
     isExternal: true
   - name: )
     nameWithType: )

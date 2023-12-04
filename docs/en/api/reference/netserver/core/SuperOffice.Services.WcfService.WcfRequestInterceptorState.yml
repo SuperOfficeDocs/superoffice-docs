@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  commentId: T:SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  id: WcfRequestInterceptorState
+  parent: SuperOffice.Services.WcfService
+  children:
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.#ctor
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName
+  langs:
+  - csharp
+  - vb
+  name: WcfRequestInterceptorState
+  nameWithType: WcfRequestInterceptorState
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Services.WcfService
+  syntax:
+    content: 'public class WcfRequestInterceptorState : Object'
+    content.vb: >-
+      Public Class WcfRequestInterceptorState
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.EnumUtil.MapEnums``2
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.#ctor
+  commentId: M:SuperOffice.Services.WcfService.WcfRequestInterceptorState.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  langs:
+  - csharp
+  - vb
+  name: WcfRequestInterceptorState()
+  nameWithType: WcfRequestInterceptorState.WcfRequestInterceptorState()
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.WcfRequestInterceptorState()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Services.WcfService
+  syntax:
+    content: public WcfRequestInterceptorState()
+    content.vb: Public Sub New
+  overload: SuperOffice.Services.WcfService.WcfRequestInterceptorState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName
+  commentId: P:SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: WcfRequestInterceptorState.ApplicationName
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Services.WcfService
+  syntax:
+    content: public string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationName As String
+  overload: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName
+  commentId: P:SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName
+  id: PartnerName
+  parent: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  langs:
+  - csharp
+  - vb
+  name: PartnerName
+  nameWithType: WcfRequestInterceptorState.PartnerName
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Services.WcfService
+  syntax:
+    content: public string PartnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PartnerName As String
+  overload: SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId
+  commentId: P:SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId
+  id: ApplicationClientId
+  parent: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  langs:
+  - csharp
+  - vb
+  name: ApplicationClientId
+  nameWithType: WcfRequestInterceptorState.ApplicationClientId
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Services.WcfService
+  summary: "\nApplication&apos;s ClientId - not secret.\n"
+  syntax:
+    content: public string ApplicationClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationClientId As String
+  overload: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Services.WcfService
+  commentId: N:SuperOffice.Services.WcfService
+  isExternal: true
+  name: SuperOffice.Services.WcfService
+  nameWithType: SuperOffice.Services.WcfService
+  fullName: SuperOffice.Services.WcfService
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WcfRequestInterceptorState, To>()
+  nameWithType: EnumUtil.MapEnums<WcfRequestInterceptorState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Services.WcfService.WcfRequestInterceptorState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WcfRequestInterceptorState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState, To)()
+  name.vb: MapEnums(Of WcfRequestInterceptorState, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WcfRequestInterceptorState, To>
+    nameWithType: EnumUtil.MapEnums<WcfRequestInterceptorState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Services.WcfService.WcfRequestInterceptorState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WcfRequestInterceptorState, To)
+    nameWithType: EnumUtil.MapEnums(Of WcfRequestInterceptorState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WcfRequestInterceptorState>(WcfRequestInterceptorState)
+  nameWithType: ObjectExtensions.AssignByReflection<WcfRequestInterceptorState>(WcfRequestInterceptorState)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Services.WcfService.WcfRequestInterceptorState>(SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WcfRequestInterceptorState)(WcfRequestInterceptorState)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState)(SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+  name.vb: AssignByReflection(Of WcfRequestInterceptorState)(WcfRequestInterceptorState)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WcfRequestInterceptorState>
+    nameWithType: ObjectExtensions.AssignByReflection<WcfRequestInterceptorState>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Services.WcfService.WcfRequestInterceptorState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+    name: WcfRequestInterceptorState
+    nameWithType: WcfRequestInterceptorState
+    fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WcfRequestInterceptorState)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WcfRequestInterceptorState)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+    name: WcfRequestInterceptorState
+    nameWithType: WcfRequestInterceptorState
+    fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WcfRequestInterceptorState>()
+  nameWithType: ObjectExtensions.GraphCopy<WcfRequestInterceptorState>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Services.WcfService.WcfRequestInterceptorState>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WcfRequestInterceptorState)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState)()
+  name.vb: GraphCopy(Of WcfRequestInterceptorState)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WcfRequestInterceptorState>
+    nameWithType: ObjectExtensions.GraphCopy<WcfRequestInterceptorState>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Services.WcfService.WcfRequestInterceptorState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WcfRequestInterceptorState)
+    nameWithType: ObjectExtensions.GraphCopy(Of WcfRequestInterceptorState)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WcfRequestInterceptorState, To>()
+  nameWithType: Converters.MapEnums<WcfRequestInterceptorState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Services.WcfService.WcfRequestInterceptorState, To>()
+  nameWithType.vb: Converters.MapEnums(Of WcfRequestInterceptorState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState, To)()
+  name.vb: MapEnums(Of WcfRequestInterceptorState, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WcfRequestInterceptorState, To>
+    nameWithType: Converters.MapEnums<WcfRequestInterceptorState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Services.WcfService.WcfRequestInterceptorState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WcfRequestInterceptorState, To)
+    nameWithType: Converters.MapEnums(Of WcfRequestInterceptorState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Services.WcfService.WcfRequestInterceptorState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.#ctor*
+  commentId: Overload:SuperOffice.Services.WcfService.WcfRequestInterceptorState.#ctor
+  isExternal: true
+  name: WcfRequestInterceptorState
+  nameWithType: WcfRequestInterceptorState.WcfRequestInterceptorState
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.WcfRequestInterceptorState
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName*
+  commentId: Overload:SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: WcfRequestInterceptorState.ApplicationName
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName*
+  commentId: Overload:SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName
+  isExternal: true
+  name: PartnerName
+  nameWithType: WcfRequestInterceptorState.PartnerName
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.PartnerName
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId*
+  commentId: Overload:SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId
+  isExternal: true
+  name: ApplicationClientId
+  nameWithType: WcfRequestInterceptorState.ApplicationClientId
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState.ApplicationClientId

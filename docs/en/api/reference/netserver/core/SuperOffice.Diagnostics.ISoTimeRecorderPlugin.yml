@@ -25,6 +25,7 @@ items:
     content: 'public interface ISoTimeRecorderPlugin : IPlugin'
     content.vb: >-
       Public Interface ISoTimeRecorderPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Diagnostics.ISoTimeRecorderPlugin.EnumUtil.MapEnums``2
@@ -295,8 +296,7 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.Func{System.String}
-  commentId: T:System.Func{System.String}
-  parent: System
+  commentId: '!:System.Func{System.String}'
   definition: System.Func`1
   name: Func<String>
   nameWithType: Func<String>
@@ -352,14 +352,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Func`1
-  commentId: T:System.Func`1
   isExternal: true
-  name: Func<TResult>
-  nameWithType: Func<TResult>
-  fullName: System.Func<TResult>
-  nameWithType.vb: Func(Of TResult)
-  fullName.vb: System.Func(Of TResult)
-  name.vb: Func(Of TResult)
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
   spec.csharp:
   - uid: System.Func`1
     name: Func
@@ -369,9 +368,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -384,9 +383,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

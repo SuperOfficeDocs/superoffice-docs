@@ -33,8 +33,6 @@ items:
   - SuperOffice.CRM.Documents.SoArc2.GetSupportedDocumentTypesForDocumentTemplates
   - SuperOffice.CRM.Documents.SoArc2.GetTemplateExtension(SuperOffice.CRM.IDocumentTemplateInfo)
   - SuperOffice.CRM.Documents.SoArc2.GetVersionList(SuperOffice.CRM.IDocumentInfo)
-  - SuperOffice.CRM.Documents.SoArc2.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  - SuperOffice.CRM.Documents.SoArc2.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
   - SuperOffice.CRM.Documents.SoArc2.IsNameValid(System.String)
   - SuperOffice.CRM.Documents.SoArc2.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
   - SuperOffice.CRM.Documents.SoArc2.LoadDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
@@ -66,28 +64,22 @@ items:
   summary: "\nDocument plugin for SuperOffice standard document archive (i.e SO_ARC) with Check-in/Check-out &amp; versioning features.\n"
   syntax:
     content: >-
-      [DocumentPlugin2("SO Archive", 0)]
+      [DocumentPlugin2("SO Archive", 0, IsAutoDiscoverable = false)]
 
-      public class SoArc2 : IDocumentPlugin2, IPlugin, IAssociateRename, IDocumentPluginTravel
+      public class SoArc2 : Object, IDocumentPlugin2, IPlugin, IAssociateRename
     content.vb: >-
-      <DocumentPlugin2("SO Archive", 0)>
+      <DocumentPlugin2("SO Archive", 0, IsAutoDiscoverable:=False)>
 
       Public Class SoArc2
-          Implements IDocumentPlugin2, IPlugin, IAssociateRename, IDocumentPluginTravel
+
+          Inherits Object
+
+          Implements IDocumentPlugin2, IPlugin, IAssociateRename
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.Documents.IDocumentPlugin2
   - SuperOffice.Plugins.CRM.Documents.IAssociateRename
-  - SuperOffice.CRM.Documents.IDocumentPluginTravel
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Documents.SoArc2.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Documents.SoArc2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -99,6 +91,10 @@ items:
       value: SO Archive
     - type: System.Int32
       value: 0
+    namedArguments:
+    - name: IsAutoDiscoverable
+      type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - class
@@ -1243,94 +1239,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Documents.SoArc2.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  parent: SuperOffice.CRM.Documents.SoArc2
-  langs:
-  - csharp
-  - vb
-  name: GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: SoArc2.GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.Documents.SoArc2.GoTravel(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  summary: "\nStart a Travel (offline) session. This method is called at a time when both the central and local storage\nsystems are available, and should copy or otherwise prepare for an offline session. \n"
-  remarks: "\nWhile offline, the following document archive items need to be available:\n<ul><li>All templates, in all language variants</li><li>All documents for the current user, in the current period</li><li>All documents for the current user, in the previous period</li></ul>\nA period is half a year. In May this would mean the Jul-Dec + Jan-Jun. Since there may be <strong>many</strong> templates,\ncaching them between travel sessions is highly recommended, almost mandatory; otherwise template/document copying\nmay be the major time consumer when going on travel.\n"
-  syntax:
-    content: public ReturnInfo GoTravel(int associateId, string localArchiveRoot, ProgressEstimateCallback estimate, ProgressStepCallback step)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: ID of associate who is the document owner
-    - id: localArchiveRoot
-      type: System.String
-      description: "ROot directory of local archive. This is a value that is only known to the \nTravel system in the Windows client, so it has to be passed in as a parameter"
-    - id: estimate
-      type: SuperOffice.CRM.ProgressEstimateCallback
-      description: Callback to set the expected number of items to copy, to scale the progress bar
-    - id: step
-      type: SuperOffice.CRM.ProgressStepCallback
-      description: Callback to advance the progress bar by one step
-    return:
-      type: SuperOffice.CRM.ReturnInfo
-    content.vb: Public Function GoTravel(associateId As Integer, localArchiveRoot As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback) As ReturnInfo
-  overload: SuperOffice.CRM.Documents.SoArc2.GoTravel*
-  implements:
-  - SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Documents.SoArc2.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  id: HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  parent: SuperOffice.CRM.Documents.SoArc2
-  langs:
-  - csharp
-  - vb
-  name: HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: SoArc2.HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.Documents.SoArc2.HomeComing(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  summary: "\nEnd a Travel (offline) session. This method is called at a time when both the central and local storage\nsystems are available, and should update any documents whose content has been changed locally, into the central storage.\nTemplates cannot be changed locally and should not be copied back!\n"
-  remarks: "\n"
-  syntax:
-    content: public ReturnInfo HomeComing(int associateId, string centralArchiveRoot, ProgressEstimateCallback estimate, ProgressStepCallback step)
-    parameters:
-    - id: associateId
-      type: System.Int32
-      description: ID of associate who is the document owner
-    - id: centralArchiveRoot
-      type: System.String
-      description: "Root directory of <strong>central!</strong> archive. This is a value that is only known to the \nTravel system in the Windows client at this time, so it has to be passed in as a parameter (ArchivePath points to the local archive)"
-    - id: estimate
-      type: SuperOffice.CRM.ProgressEstimateCallback
-      description: Callback to set the expected number of items to copy, to scale the progress bar
-    - id: step
-      type: SuperOffice.CRM.ProgressStepCallback
-      description: Callback to advance the progress bar by one step
-    return:
-      type: SuperOffice.CRM.ReturnInfo
-    content.vb: Public Function HomeComing(associateId As Integer, centralArchiveRoot As String, estimate As ProgressEstimateCallback, step As ProgressStepCallback) As ReturnInfo
-  overload: SuperOffice.CRM.Documents.SoArc2.HomeComing*
-  implements:
-  - SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Documents.SoArc2.CreateDefaultDocumentTemplate(System.Int32,SuperOffice.CRM.IDocumentTemplateInfo)
   commentId: M:SuperOffice.CRM.Documents.SoArc2.CreateDefaultDocumentTemplate(System.Int32,SuperOffice.CRM.IDocumentTemplateInfo)
   id: CreateDefaultDocumentTemplate(System.Int32,SuperOffice.CRM.IDocumentTemplateInfo)
@@ -1923,292 +1831,6 @@ references:
   name: IAssociateRename
   nameWithType: IAssociateRename
   fullName: SuperOffice.Plugins.CRM.Documents.IAssociateRename
-- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel
-  commentId: T:SuperOffice.CRM.Documents.IDocumentPluginTravel
-  parent: SuperOffice.CRM.Documents
-  isExternal: true
-  name: IDocumentPluginTravel
-  nameWithType: IDocumentPluginTravel
-  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Documents.SoArc2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2520,8 +2142,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -2580,14 +2201,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -2597,15 +2217,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2618,24 +2238,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Documents.SoArc2.GetDocumentProperties*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2.GetDocumentProperties
   isExternal: true
@@ -3498,18 +3112,10 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Documents.SoArc2.SaveDocumentTemplateStream*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2.SaveDocumentTemplateStream
   isExternal: true
@@ -4468,217 +4074,6 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SuperOffice.CRM.Documents.SoArc2.GoTravel*
-  commentId: Overload:SuperOffice.CRM.Documents.SoArc2.GoTravel
-  isExternal: true
-  name: GoTravel
-  nameWithType: SoArc2.GoTravel
-  fullName: SuperOffice.CRM.Documents.SoArc2.GoTravel
-- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  parent: SuperOffice.CRM.Documents.IDocumentPluginTravel
-  isExternal: true
-  name: GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: IDocumentPluginTravel.GoTravel(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-    name: GoTravel
-    nameWithType: IDocumentPluginTravel.GoTravel
-    fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressEstimateCallback
-    name: ProgressEstimateCallback
-    nameWithType: ProgressEstimateCallback
-    fullName: SuperOffice.CRM.ProgressEstimateCallback
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressStepCallback
-    name: ProgressStepCallback
-    nameWithType: ProgressStepCallback
-    fullName: SuperOffice.CRM.ProgressStepCallback
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-    name: GoTravel
-    nameWithType: IDocumentPluginTravel.GoTravel
-    fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.GoTravel
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressEstimateCallback
-    name: ProgressEstimateCallback
-    nameWithType: ProgressEstimateCallback
-    fullName: SuperOffice.CRM.ProgressEstimateCallback
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressStepCallback
-    name: ProgressStepCallback
-    nameWithType: ProgressStepCallback
-    fullName: SuperOffice.CRM.ProgressStepCallback
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: SuperOffice.CRM.ProgressEstimateCallback
-  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: ProgressEstimateCallback
-  nameWithType: ProgressEstimateCallback
-  fullName: SuperOffice.CRM.ProgressEstimateCallback
-- uid: SuperOffice.CRM.ProgressStepCallback
-  commentId: T:SuperOffice.CRM.ProgressStepCallback
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: ProgressStepCallback
-  nameWithType: ProgressStepCallback
-  fullName: SuperOffice.CRM.ProgressStepCallback
-- uid: SuperOffice.CRM.Documents.SoArc2.HomeComing*
-  commentId: Overload:SuperOffice.CRM.Documents.SoArc2.HomeComing
-  isExternal: true
-  name: HomeComing
-  nameWithType: SoArc2.HomeComing
-  fullName: SuperOffice.CRM.Documents.SoArc2.HomeComing
-- uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  commentId: M:SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-  parent: SuperOffice.CRM.Documents.IDocumentPluginTravel
-  isExternal: true
-  name: HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  nameWithType: IDocumentPluginTravel.HomeComing(Int32, String, ProgressEstimateCallback, ProgressStepCallback)
-  fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32, System.String, SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-    name: HomeComing
-    nameWithType: IDocumentPluginTravel.HomeComing
-    fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressEstimateCallback
-    name: ProgressEstimateCallback
-    nameWithType: ProgressEstimateCallback
-    fullName: SuperOffice.CRM.ProgressEstimateCallback
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressStepCallback
-    name: ProgressStepCallback
-    nameWithType: ProgressStepCallback
-    fullName: SuperOffice.CRM.ProgressStepCallback
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing(System.Int32,System.String,SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
-    name: HomeComing
-    nameWithType: IDocumentPluginTravel.HomeComing
-    fullName: SuperOffice.CRM.Documents.IDocumentPluginTravel.HomeComing
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressEstimateCallback
-    name: ProgressEstimateCallback
-    nameWithType: ProgressEstimateCallback
-    fullName: SuperOffice.CRM.ProgressEstimateCallback
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ProgressStepCallback
-    name: ProgressStepCallback
-    nameWithType: ProgressStepCallback
-    fullName: SuperOffice.CRM.ProgressStepCallback
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Documents.SoArc2.CreateDefaultDocumentTemplate*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2.CreateDefaultDocumentTemplate
   isExternal: true
@@ -4742,6 +4137,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Documents.SoArc2.GetSupportedDocumentTypesForDocumentTemplates*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2.GetSupportedDocumentTypesForDocumentTemplates
   isExternal: true
@@ -4780,8 +4182,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary{System.Int32,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, String>
   nameWithType: Dictionary<Int32, String>

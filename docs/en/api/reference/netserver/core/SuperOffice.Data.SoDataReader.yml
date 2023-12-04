@@ -97,7 +97,6 @@ items:
   - SuperOffice.Data.SoDataReader.RecordsAffected
   - SuperOffice.Data.SoDataReader.Sentries
   - SuperOffice.Data.SoDataReader.SetPreAcceptDelegate(System.Func{SuperOffice.Data.SoDataReader,System.Boolean})
-  - SuperOffice.Data.SoDataReader.System#Collections#IEnumerable#GetEnumerator
   - SuperOffice.Data.SoDataReader.ToString
   - SuperOffice.Data.SoDataReader.TryGetValue(SuperOffice.Data.SQL.FieldInfo,System.Boolean@)
   - SuperOffice.Data.SoDataReader.TryGetValue(SuperOffice.Data.SQL.FieldInfo,System.DateTime@)
@@ -120,33 +119,23 @@ items:
   namespace: SuperOffice.Data
   summary: "\nImplements the IDataReader interface.\n"
   syntax:
-    content: 'public sealed class SoDataReader : MarshalByRefObject, IDataReader, IDisposable, IDataRecord, ISoDataLookup, ISentryIgnorable, IEnumerable, ISoDataRecord'
+    content: 'public sealed class SoDataReader : MarshalByRefObject, IDataReader, IDataRecord, IDisposable, ISoDataLookup, ISentryIgnorable, IEnumerable, ISoDataRecord'
     content.vb: >-
       Public NotInheritable Class SoDataReader
+
           Inherits MarshalByRefObject
-          Implements IDataReader, IDisposable, IDataRecord, ISoDataLookup, ISentryIgnorable, IEnumerable, ISoDataRecord
+
+          Implements IDataReader, IDataRecord, IDisposable, ISoDataLookup, ISentryIgnorable, IEnumerable, ISoDataRecord
   inheritance:
   - System.Object
-  - System.MarshalByRefObject
   implements:
   - System.Data.IDataReader
-  - System.IDisposable
   - System.Data.IDataRecord
+  - System.IDisposable
   - SuperOffice.CRM.Security.ISoDataLookup
   - SuperOffice.CRM.Security.ISentryIgnorable
   - System.Collections.IEnumerable
   - SuperOffice.Data.ISoDataRecord
-  inheritedMembers:
-  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  - System.MarshalByRefObject.GetLifetimeService
-  - System.MarshalByRefObject.InitializeLifetimeService
-  - System.MarshalByRefObject.CreateObjRef(System.Type)
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SoDataReader.EnumUtil.MapEnums``2
   - SuperOffice.Data.SoDataReader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -473,7 +462,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.Data.SoDataReader.ToString*
   modifiers.csharp:
   - public
@@ -2291,7 +2279,7 @@ items:
   summary: "\nGets the value of the specified column as a decimal.\n"
   remarks: "\nReturns Zero if the column is hidden by a sentry\n"
   syntax:
-    content: public decimal GetDecimal(int i)
+    content: public Decimal GetDecimal(int i)
     parameters:
     - id: i
       type: System.Int32
@@ -2324,7 +2312,7 @@ items:
   summary: "\nGets the value of the specified column as a decimal.\n"
   remarks: "\nReturns Zero if the column is hidden by a sentry\n"
   syntax:
-    content: public decimal GetDecimal(FieldInfo fieldInfo)
+    content: public Decimal GetDecimal(FieldInfo fieldInfo)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
@@ -2359,7 +2347,7 @@ items:
   summary: "\nGets the value of the specified column as a decimal.\n"
   remarks: "\nReturns Zero if the column is hidden by a sentry\n"
   syntax:
-    content: public decimal GetDecimal(string name)
+    content: public Decimal GetDecimal(string name)
     parameters:
     - id: name
       type: System.String
@@ -2399,7 +2387,7 @@ items:
       description: Column index
     return:
       type: System.DateTime
-    content.vb: Public Function GetDateTime(i As Integer) As Date
+    content.vb: Public Function GetDateTime(i As Integer) As DateTime
   overload: SuperOffice.Data.SoDataReader.GetDateTime*
   modifiers.csharp:
   - public
@@ -2432,7 +2420,7 @@ items:
       description: Column identifier
     return:
       type: System.DateTime
-    content.vb: Public Function GetDateTime(fieldInfo As FieldInfo) As Date
+    content.vb: Public Function GetDateTime(fieldInfo As FieldInfo) As DateTime
   overload: SuperOffice.Data.SoDataReader.GetDateTime*
   implements:
   - SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
@@ -2467,7 +2455,7 @@ items:
       description: Column name; if more than one column has this name, the first matching one is used
     return:
       type: System.DateTime
-    content.vb: Public Function GetDateTime(name As String) As Date
+    content.vb: Public Function GetDateTime(name As String) As DateTime
   overload: SuperOffice.Data.SoDataReader.GetDateTime*
   modifiers.csharp:
   - public
@@ -2692,7 +2680,7 @@ items:
     return:
       type: System.Boolean
       description: True if the value is assigned.
-    content.vb: Public Function TryGetValue(field As FieldInfo, ByRef value As Date) As Boolean
+    content.vb: Public Function TryGetValue(field As FieldInfo, ByRef value As DateTime) As Boolean
   overload: SuperOffice.Data.SoDataReader.TryGetValue*
   nameWithType.vb: SoDataReader.TryGetValue(FieldInfo, ByRef DateTime)
   modifiers.csharp:
@@ -2867,8 +2855,6 @@ items:
     content: public void Dispose()
     content.vb: Public Sub Dispose
   overload: SuperOffice.Data.SoDataReader.Dispose*
-  implements:
-  - System.IDisposable.Dispose
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3076,34 +3062,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.Data.SoDataReader.System#Collections#IEnumerable#GetEnumerator
-  commentId: M:SuperOffice.Data.SoDataReader.System#Collections#IEnumerable#GetEnumerator
-  id: System#Collections#IEnumerable#GetEnumerator
-  isEii: true
-  parent: SuperOffice.Data.SoDataReader
-  langs:
-  - csharp
-  - vb
-  name: IEnumerable.GetEnumerator()
-  nameWithType: SoDataReader.IEnumerable.GetEnumerator()
-  fullName: SuperOffice.Data.SoDataReader.System.Collections.IEnumerable.GetEnumerator()
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  syntax:
-    content: IEnumerator IEnumerable.GetEnumerator()
-    return:
-      type: System.Collections.IEnumerator
-    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
-  overload: SuperOffice.Data.SoDataReader.System#Collections#IEnumerable#GetEnumerator*
-  implements:
-  - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: SoDataReader.System.Collections.IEnumerable.GetEnumerator()
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
 - uid: SuperOffice.Data.SoDataReader.BeginIgnoreSentryCheck
   commentId: M:SuperOffice.Data.SoDataReader.BeginIgnoreSentryCheck
   id: BeginIgnoreSentryCheck
@@ -3575,30 +3533,21 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.MarshalByRefObject
-  commentId: T:System.MarshalByRefObject
-  parent: System
-  isExternal: true
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Data.IDataReader
   isExternal: true
   name: IDataReader
   nameWithType: IDataReader
   fullName: System.Data.IDataReader
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
 - uid: System.Data.IDataRecord
   isExternal: true
   name: IDataRecord
   nameWithType: IDataRecord
   fullName: System.Data.IDataRecord
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: SuperOffice.CRM.Security.ISoDataLookup
   commentId: T:SuperOffice.CRM.Security.ISoDataLookup
   parent: SuperOffice.CRM.Security
@@ -3614,8 +3563,6 @@ references:
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
 - uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
   isExternal: true
   name: IEnumerable
   nameWithType: IEnumerable
@@ -3627,398 +3574,6 @@ references:
   name: ISoDataRecord
   nameWithType: ISoDataRecord
   fullName: SuperOffice.Data.ISoDataRecord
-- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: MemberwiseClone(Boolean)
-  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
-  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    nameWithType: MarshalByRefObject.MemberwiseClone
-    fullName: System.MarshalByRefObject.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    nameWithType: MarshalByRefObject.MemberwiseClone
-    fullName: System.MarshalByRefObject.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.GetLifetimeService
-  commentId: M:System.MarshalByRefObject.GetLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: GetLifetimeService()
-  nameWithType: MarshalByRefObject.GetLifetimeService()
-  fullName: System.MarshalByRefObject.GetLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    nameWithType: MarshalByRefObject.GetLifetimeService
-    fullName: System.MarshalByRefObject.GetLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    nameWithType: MarshalByRefObject.GetLifetimeService
-    fullName: System.MarshalByRefObject.GetLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.InitializeLifetimeService
-  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: InitializeLifetimeService()
-  nameWithType: MarshalByRefObject.InitializeLifetimeService()
-  fullName: System.MarshalByRefObject.InitializeLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    nameWithType: MarshalByRefObject.InitializeLifetimeService
-    fullName: System.MarshalByRefObject.InitializeLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    nameWithType: MarshalByRefObject.InitializeLifetimeService
-    fullName: System.MarshalByRefObject.InitializeLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: CreateObjRef(Type)
-  nameWithType: MarshalByRefObject.CreateObjRef(Type)
-  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-    name: CreateObjRef
-    nameWithType: MarshalByRefObject.CreateObjRef
-    fullName: System.MarshalByRefObject.CreateObjRef
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-    name: CreateObjRef
-    nameWithType: MarshalByRefObject.CreateObjRef
-    fullName: System.MarshalByRefObject.CreateObjRef
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SoDataReader.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -4099,12 +3654,6 @@ references:
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -4209,8 +3758,7 @@ references:
   nameWithType: SoDataReader.SetPreAcceptDelegate
   fullName: SuperOffice.Data.SoDataReader.SetPreAcceptDelegate
 - uid: System.Func{SuperOffice.Data.SoDataReader,System.Boolean}
-  commentId: T:System.Func{SuperOffice.Data.SoDataReader,System.Boolean}
-  parent: System
+  commentId: '!:System.Func{SuperOffice.Data.SoDataReader,System.Boolean}'
   definition: System.Func`2
   name: Func<SoDataReader, Boolean>
   nameWithType: Func<SoDataReader, Boolean>
@@ -4269,14 +3817,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Func`2
-  commentId: T:System.Func`2
   isExternal: true
-  name: Func<T, TResult>
-  nameWithType: Func<T, TResult>
-  fullName: System.Func<T, TResult>
-  nameWithType.vb: Func(Of T, TResult)
-  fullName.vb: System.Func(Of T, TResult)
-  name.vb: Func(Of T, TResult)
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -4286,15 +3833,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4307,15 +3854,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4452,43 +3999,10 @@ references:
   nameWithType: SoDataReader.GetFieldType
   fullName: SuperOffice.Data.SoDataReader.GetFieldType
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SoDataReader.ToString*
   commentId: Overload:SuperOffice.Data.SoDataReader.ToString
   isExternal: true
@@ -4990,8 +4504,6 @@ references:
   nameWithType: SoDataReader.GetGuid
   fullName: SuperOffice.Data.SoDataReader.GetGuid
 - uid: System.Guid
-  commentId: T:System.Guid
-  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
@@ -5461,8 +4973,6 @@ references:
   nameWithType: SoDataReader.GetDecimal
   fullName: SuperOffice.Data.SoDataReader.GetDecimal
 - uid: System.Decimal
-  commentId: T:System.Decimal
-  parent: System
   isExternal: true
   name: Decimal
   nameWithType: Decimal
@@ -5515,8 +5025,6 @@ references:
   nameWithType: SoDataReader.GetDateTime
   fullName: SuperOffice.Data.SoDataReader.GetDateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -5627,37 +5135,6 @@ references:
   name: Dispose
   nameWithType: SoDataReader.Dispose
   fullName: SuperOffice.Data.SoDataReader.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SoDataReader.GetFieldValue*
   commentId: Overload:SuperOffice.Data.SoDataReader.GetFieldValue
   isExternal: true
@@ -5890,8 +5367,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.SQL.FieldInfo}'
   definition: System.Collections.Generic.List`1
   name: List<FieldInfo>
   nameWithType: List<FieldInfo>
@@ -5934,14 +5410,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -5951,9 +5426,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -5966,64 +5441,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: SuperOffice.Data.SoDataReader.System#Collections#IEnumerable#GetEnumerator*
-  commentId: Overload:SuperOffice.Data.SoDataReader.System#Collections#IEnumerable#GetEnumerator
-  isExternal: true
-  name: IEnumerable.GetEnumerator
-  nameWithType: SoDataReader.IEnumerable.GetEnumerator
-  fullName: SuperOffice.Data.SoDataReader.System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: SoDataReader.System.Collections.IEnumerable.GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.IEnumerator
-  commentId: T:System.Collections.IEnumerator
-  parent: System.Collections
-  isExternal: true
-  name: IEnumerator
-  nameWithType: IEnumerator
-  fullName: System.Collections.IEnumerator
 - uid: SuperOffice.Data.SoDataReader.BeginIgnoreSentryCheck*
   commentId: Overload:SuperOffice.Data.SoDataReader.BeginIgnoreSentryCheck
   isExternal: true

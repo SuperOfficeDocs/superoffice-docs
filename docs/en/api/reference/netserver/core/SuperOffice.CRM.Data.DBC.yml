@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.Data.DBC.CategoryGroupLink
   - SuperOffice.CRM.Data.DBC.CategoryHeadingLink
   - SuperOffice.CRM.Data.DBC.CategoryMembership
+  - SuperOffice.CRM.Data.DBC.CcTemplate
   - SuperOffice.CRM.Data.DBC.ChatMessage
   - SuperOffice.CRM.Data.DBC.ChatSession
   - SuperOffice.CRM.Data.DBC.ChatTopic
@@ -52,6 +53,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ComptrGroupLink
   - SuperOffice.CRM.Data.DBC.ComptrHeadingLink
   - SuperOffice.CRM.Data.DBC.Config
+  - SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesTo
   - SuperOffice.CRM.Data.DBC.ConfigurableScreenDelta
   - SuperOffice.CRM.Data.DBC.ConnectionConfigField
   - SuperOffice.CRM.Data.DBC.ConsentPerson
@@ -124,8 +126,11 @@ items:
   - SuperOffice.CRM.Data.DBC.Email
   - SuperOffice.CRM.Data.DBC.EmailAccount
   - SuperOffice.CRM.Data.DBC.EmailAttachment
+  - SuperOffice.CRM.Data.DBC.EmailFlow
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLink
   - SuperOffice.CRM.Data.DBC.EmailFolder
   - SuperOffice.CRM.Data.DBC.EmailItem
+  - SuperOffice.CRM.Data.DBC.EntityCounts
   - SuperOffice.CRM.Data.DBC.ErpConfiguration
   - SuperOffice.CRM.Data.DBC.ErpConnection
   - SuperOffice.CRM.Data.DBC.ErpConnectionAccess
@@ -211,6 +216,7 @@ items:
   - SuperOffice.CRM.Data.DBC.MailAlias
   - SuperOffice.CRM.Data.DBC.MailBlock
   - SuperOffice.CRM.Data.DBC.MailInFilter
+  - SuperOffice.CRM.Data.DBC.MailingDomains
   - SuperOffice.CRM.Data.DBC.MailInUidl
   - SuperOffice.CRM.Data.DBC.MergeMoveLog
   - SuperOffice.CRM.Data.DBC.Message
@@ -229,6 +235,10 @@ items:
   - SuperOffice.CRM.Data.DBC.MsTrashbin
   - SuperOffice.CRM.Data.DBC.NoticeFrame
   - SuperOffice.CRM.Data.DBC.Notify
+  - SuperOffice.CRM.Data.DBC.Obsolete1
+  - SuperOffice.CRM.Data.DBC.Obsolete2
+  - SuperOffice.CRM.Data.DBC.Obsolete3
+  - SuperOffice.CRM.Data.DBC.Obsolete4
   - SuperOffice.CRM.Data.DBC.OLEField
   - SuperOffice.CRM.Data.DBC.OLEFieldText
   - SuperOffice.CRM.Data.DBC.OLESubject
@@ -298,8 +308,14 @@ items:
   - SuperOffice.CRM.Data.DBC.QuickReply
   - SuperOffice.CRM.Data.DBC.Quote
   - SuperOffice.CRM.Data.DBC.QuoteAlternative
+  - SuperOffice.CRM.Data.DBC.QuoteApprReason
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLink
+  - SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLink
   - SuperOffice.CRM.Data.DBC.QuoteConnection
   - SuperOffice.CRM.Data.DBC.QuoteConnectionAccess
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReason
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLink
+  - SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLink
   - SuperOffice.CRM.Data.DBC.QuoteLine
   - SuperOffice.CRM.Data.DBC.QuoteLineConfiguration
   - SuperOffice.CRM.Data.DBC.QuoteVersion
@@ -431,9 +447,21 @@ items:
   - SuperOffice.CRM.Data.DBC.Tags
   - SuperOffice.CRM.Data.DBC.TagsGroupLink
   - SuperOffice.CRM.Data.DBC.TagsHeadingLink
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfo
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentValue
+  - SuperOffice.CRM.Data.DBC.TargetChange
+  - SuperOffice.CRM.Data.DBC.TargetDimension
+  - SuperOffice.CRM.Data.DBC.TargetGroup
+  - SuperOffice.CRM.Data.DBC.TargetPeriod
+  - SuperOffice.CRM.Data.DBC.TargetRevision
+  - SuperOffice.CRM.Data.DBC.TargetRevisionHistory
   - SuperOffice.CRM.Data.DBC.Task
   - SuperOffice.CRM.Data.DBC.TaskGroupLink
   - SuperOffice.CRM.Data.DBC.TaskHeadingLink
+  - SuperOffice.CRM.Data.DBC.TaskMenu
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLink
+  - SuperOffice.CRM.Data.DBC.TaskMenuHeadingLink
+  - SuperOffice.CRM.Data.DBC.TempDbLock
   - SuperOffice.CRM.Data.DBC.TemporaryKey
   - SuperOffice.CRM.Data.DBC.TemporaryWords
   - SuperOffice.CRM.Data.DBC.Text
@@ -445,12 +473,11 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketLogAction
   - SuperOffice.CRM.Data.DBC.TicketLogChange
   - SuperOffice.CRM.Data.DBC.TicketPriority
-  - SuperOffice.CRM.Data.DBC.TicketRelation
-  - SuperOffice.CRM.Data.DBC.TicketRelationAction
-  - SuperOffice.CRM.Data.DBC.TicketRelationType
   - SuperOffice.CRM.Data.DBC.TicketStatus
   - SuperOffice.CRM.Data.DBC.TicketStatusHistory
   - SuperOffice.CRM.Data.DBC.TicketType
+  - SuperOffice.CRM.Data.DBC.TicketTypePriority
+  - SuperOffice.CRM.Data.DBC.TicketTypeStatus
   - SuperOffice.CRM.Data.DBC.Timestamps
   - SuperOffice.CRM.Data.DBC.TravelCurrent
   - SuperOffice.CRM.Data.DBC.TravelGeneratedDatabase
@@ -496,8 +523,16 @@ items:
   - SuperOffice.CRM.Data.DBC.VisibleFor
   - SuperOffice.CRM.Data.DBC.WebAppUsage
   - SuperOffice.CRM.Data.DBC.Webhook
+  - SuperOffice.CRM.Data.DBC.WebhookUsage
   - SuperOffice.CRM.Data.DBC.WinPosSize
   - SuperOffice.CRM.Data.DBC.WordRelations
+  - SuperOffice.CRM.Data.DBC.Workflow
+  - SuperOffice.CRM.Data.DBC.WorkflowGoal
+  - SuperOffice.CRM.Data.DBC.WorkflowInstance
+  - SuperOffice.CRM.Data.DBC.WorkflowStep
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOption
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLink
+  - SuperOffice.CRM.Data.DBC.WorkflowTrigger
   - SuperOffice.CRM.Data.DBC.WsdlDescription
   - SuperOffice.CRM.Data.DBC.ZipToCity
   langs:
@@ -515,18 +550,13 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nConstants for database tables and fields\n"
   syntax:
-    content: public static class DBC
-    content.vb: Public Module DBC
+    content: 'public static class DBC : Object'
+    content.vb: >-
+      Public Module DBC
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -928,7 +958,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSale: Sales  For every Sale record edited through the SuperOffice GUI, a copy of the previous version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  \n"
+  summary: "\nSale: Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  \n"
   syntax:
     content: public const string Sale = "sale"
     return:
@@ -5104,7 +5134,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nSaleHist: Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the previous record of the sale is moved here. \n"
+  summary: "\nSaleHist: Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here. \n"
   syntax:
     content: public const string SaleHist = "SaleHist"
     return:
@@ -13613,16 +13643,16 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.Data.DBC.TicketType
-  commentId: F:SuperOffice.CRM.Data.DBC.TicketType
-  id: TicketType
+- uid: SuperOffice.CRM.Data.DBC.Obsolete1
+  commentId: F:SuperOffice.CRM.Data.DBC.Obsolete1
+  id: Obsolete1
   parent: SuperOffice.CRM.Data.DBC
   langs:
   - csharp
   - vb
-  name: TicketType
-  nameWithType: DBC.TicketType
-  fullName: SuperOffice.CRM.Data.DBC.TicketType
+  name: Obsolete1
+  nameWithType: DBC.Obsolete1
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete1
   type: Field
   source:
     path: SoDataBase
@@ -13630,28 +13660,28 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTicketType: Contains ticket types, used to drive processing logic together with ticket relations\n"
+  summary: "\nObsolete1: Obsolete table for functionality that was never implemented\n"
   syntax:
-    content: public const string TicketType = "ticket_type"
+    content: public const string Obsolete1 = "obsolete_1"
     return:
       type: System.String
-    content.vb: Public Const TicketType As String = "ticket_type"
+    content.vb: Public Const Obsolete1 As String = "obsolete_1"
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.Data.DBC.TicketRelationType
-  commentId: F:SuperOffice.CRM.Data.DBC.TicketRelationType
-  id: TicketRelationType
+- uid: SuperOffice.CRM.Data.DBC.Obsolete2
+  commentId: F:SuperOffice.CRM.Data.DBC.Obsolete2
+  id: Obsolete2
   parent: SuperOffice.CRM.Data.DBC
   langs:
   - csharp
   - vb
-  name: TicketRelationType
-  nameWithType: DBC.TicketRelationType
-  fullName: SuperOffice.CRM.Data.DBC.TicketRelationType
+  name: Obsolete2
+  nameWithType: DBC.Obsolete2
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete2
   type: Field
   source:
     path: SoDataBase
@@ -13659,28 +13689,28 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTicketRelationType: Contains ticket relation types, used to drive processing logic together with ticket relations\n"
+  summary: "\nObsolete2: Obsolete table for functionality that was never implemented\n"
   syntax:
-    content: public const string TicketRelationType = "ticket_relation_type"
+    content: public const string Obsolete2 = "obsolete_2"
     return:
       type: System.String
-    content.vb: Public Const TicketRelationType As String = "ticket_relation_type"
+    content.vb: Public Const Obsolete2 As String = "obsolete_2"
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.Data.DBC.TicketRelationAction
-  commentId: F:SuperOffice.CRM.Data.DBC.TicketRelationAction
-  id: TicketRelationAction
+- uid: SuperOffice.CRM.Data.DBC.Obsolete3
+  commentId: F:SuperOffice.CRM.Data.DBC.Obsolete3
+  id: Obsolete3
   parent: SuperOffice.CRM.Data.DBC
   langs:
   - csharp
   - vb
-  name: TicketRelationAction
-  nameWithType: DBC.TicketRelationAction
-  fullName: SuperOffice.CRM.Data.DBC.TicketRelationAction
+  name: Obsolete3
+  nameWithType: DBC.Obsolete3
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete3
   type: Field
   source:
     path: SoDataBase
@@ -13688,28 +13718,28 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTicketRelationAction: Contains ticket relation actions, used to drive processing logic together with ticket relations\n"
+  summary: "\nObsolete3: Obsolete table for functionality that was never implemented\n"
   syntax:
-    content: public const string TicketRelationAction = "ticket_relation_action"
+    content: public const string Obsolete3 = "obsolete_3"
     return:
       type: System.String
-    content.vb: Public Const TicketRelationAction As String = "ticket_relation_action"
+    content.vb: Public Const Obsolete3 As String = "obsolete_3"
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.Data.DBC.TicketRelation
-  commentId: F:SuperOffice.CRM.Data.DBC.TicketRelation
-  id: TicketRelation
+- uid: SuperOffice.CRM.Data.DBC.Obsolete4
+  commentId: F:SuperOffice.CRM.Data.DBC.Obsolete4
+  id: Obsolete4
   parent: SuperOffice.CRM.Data.DBC
   langs:
   - csharp
   - vb
-  name: TicketRelation
-  nameWithType: DBC.TicketRelation
-  fullName: SuperOffice.CRM.Data.DBC.TicketRelation
+  name: Obsolete4
+  nameWithType: DBC.Obsolete4
+  fullName: SuperOffice.CRM.Data.DBC.Obsolete4
   type: Field
   source:
     path: SoDataBase
@@ -13717,12 +13747,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTicketRelation: Contains ticket relations, used to drive processing logic\n"
+  summary: "\nObsolete4: Obsolete table for functionality that was never implemented\n"
   syntax:
-    content: public const string TicketRelation = "ticket_relation"
+    content: public const string Obsolete4 = "obsolete_4"
     return:
       type: System.String
-    content.vb: Public Const TicketRelation As String = "ticket_relation"
+    content.vb: Public Const Obsolete4 As String = "obsolete_4"
   modifiers.csharp:
   - public
   - const
@@ -13955,6 +13985,122 @@ items:
     return:
       type: System.String
     content.vb: Public Const ConfigurableScreenDelta As String = "ConfigurableScreenDelta"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesTo
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesTo
+  id: ConfigurableScreenAppliesTo
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: ConfigurableScreenAppliesTo
+  nameWithType: DBC.ConfigurableScreenAppliesTo
+  fullName: SuperOffice.CRM.Data.DBC.ConfigurableScreenAppliesTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfigurableScreenAppliesTo: Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on\n"
+  syntax:
+    content: public const string ConfigurableScreenAppliesTo = "ConfigurableScreenAppliesTo"
+    return:
+      type: System.String
+    content.vb: Public Const ConfigurableScreenAppliesTo As String = "ConfigurableScreenAppliesTo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenu
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenu
+  id: TaskMenu
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TaskMenu
+  nameWithType: DBC.TaskMenu
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenu
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenu: List items to merge into menues\n"
+  syntax:
+    content: public const string TaskMenu = "TaskMenu"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenu As String = "TaskMenu"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLink
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLink
+  id: TaskMenuGroupLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuGroupLink
+  nameWithType: DBC.TaskMenuGroupLink
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink: User group link table for TaskMenu, for MDO item hiding\n"
+  syntax:
+    content: public const string TaskMenuGroupLink = "TaskMenuGroupLink"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenuGroupLink As String = "TaskMenuGroupLink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLink
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuHeadingLink
+  id: TaskMenuHeadingLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuHeadingLink
+  nameWithType: DBC.TaskMenuHeadingLink
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuHeadingLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuHeadingLink: Heading link table for TaskMenu, for MDO headers\n"
+  syntax:
+    content: public const string TaskMenuHeadingLink = "TaskMenuHeadingLink"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenuHeadingLink As String = "TaskMenuHeadingLink"
   modifiers.csharp:
   - public
   - const
@@ -14216,6 +14362,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const CustConfig As String = "cust_config"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplate
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplate
+  id: CcTemplate
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: CcTemplate
+  nameWithType: DBC.CcTemplate
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate: This table contains templates for the customer center\n"
+  syntax:
+    content: public const string CcTemplate = "cc_template"
+    return:
+      type: System.String
+    content.vb: Public Const CcTemplate As String = "cc_template"
   modifiers.csharp:
   - public
   - const
@@ -14628,6 +14803,35 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomains
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomains
+  id: MailingDomains
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: MailingDomains
+  nameWithType: DBC.MailingDomains
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomains
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains: List of allowed domains used in a Mailing\n"
+  syntax:
+    content: public const string MailingDomains = "MailingDomains"
+    return:
+      type: System.String
+    content.vb: Public Const MailingDomains As String = "MailingDomains"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TypicalSearch
   commentId: F:SuperOffice.CRM.Data.DBC.TypicalSearch
   id: TypicalSearch
@@ -14802,6 +15006,238 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetGroup
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetGroup
+  id: TargetGroup
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetGroup
+  nameWithType: DBC.TargetGroup
+  fullName: SuperOffice.CRM.Data.DBC.TargetGroup
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetGroup: Info about a set of (sales, project, selection...) targets\n"
+  syntax:
+    content: public const string TargetGroup = "target_group"
+    return:
+      type: System.String
+    content.vb: Public Const TargetGroup As String = "target_group"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetPeriod
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetPeriod
+  id: TargetPeriod
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetPeriod
+  nameWithType: DBC.TargetPeriod
+  fullName: SuperOffice.CRM.Data.DBC.TargetPeriod
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetPeriod: A set of periods linked with target amounts for users/usergroups and the target groups/years.\n"
+  syntax:
+    content: public const string TargetPeriod = "target_period"
+    return:
+      type: System.String
+    content.vb: Public Const TargetPeriod As String = "target_period"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfo
+  id: TargetAssignmentInfo
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignmentInfo
+  nameWithType: DBC.TargetAssignmentInfo
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo: Linking associate, company or user group target and other information with target values\n"
+  syntax:
+    content: public const string TargetAssignmentInfo = "target_assignment_info"
+    return:
+      type: System.String
+    content.vb: Public Const TargetAssignmentInfo As String = "target_assignment_info"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentValue
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentValue
+  id: TargetAssignmentValue
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignmentValue
+  nameWithType: DBC.TargetAssignmentValue
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentValue: A set of values linked to assignment info and a period in a target group.\n"
+  syntax:
+    content: public const string TargetAssignmentValue = "target_assignment_value"
+    return:
+      type: System.String
+    content.vb: Public Const TargetAssignmentValue As String = "target_assignment_value"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistory
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistory
+  id: TargetRevisionHistory
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionHistory
+  nameWithType: DBC.TargetRevisionHistory
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevisionHistory: Revision history info in case the original target group or assignment info was deleted\n"
+  syntax:
+    content: public const string TargetRevisionHistory = "target_revision_history"
+    return:
+      type: System.String
+    content.vb: Public Const TargetRevisionHistory As String = "target_revision_history"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetRevision
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetRevision
+  id: TargetRevision
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetRevision
+  nameWithType: DBC.TargetRevision
+  fullName: SuperOffice.CRM.Data.DBC.TargetRevision
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetRevision: One batch of changes made to targets\n"
+  syntax:
+    content: public const string TargetRevision = "target_revision"
+    return:
+      type: System.String
+    content.vb: Public Const TargetRevision As String = "target_revision"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChange
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChange
+  id: TargetChange
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetChange
+  nameWithType: DBC.TargetChange
+  fullName: SuperOffice.CRM.Data.DBC.TargetChange
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange: A single field change.\n"
+  syntax:
+    content: public const string TargetChange = "target_change"
+    return:
+      type: System.String
+    content.vb: Public Const TargetChange As String = "target_change"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimension
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimension
+  id: TargetDimension
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TargetDimension
+  nameWithType: DBC.TargetDimension
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimension
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension: Defining target dimension\n"
+  syntax:
+    content: public const string TargetDimension = "target_dimension"
+    return:
+      type: System.String
+    content.vb: Public Const TargetDimension As String = "target_dimension"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.Webhook
   commentId: F:SuperOffice.CRM.Data.DBC.Webhook
   id: Webhook
@@ -14825,6 +15261,325 @@ items:
     return:
       type: System.String
     content.vb: Public Const Webhook As String = "Webhook"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WebhookUsage
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookUsage
+  id: WebhookUsage
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WebhookUsage
+  nameWithType: DBC.WebhookUsage
+  fullName: SuperOffice.CRM.Data.DBC.WebhookUsage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWebhookUsage: Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.\n"
+  syntax:
+    content: public const string WebhookUsage = "Webhook_usage"
+    return:
+      type: System.String
+    content.vb: Public Const WebhookUsage As String = "Webhook_usage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.Workflow
+  commentId: F:SuperOffice.CRM.Data.DBC.Workflow
+  id: Workflow
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: Workflow
+  nameWithType: DBC.Workflow
+  fullName: SuperOffice.CRM.Data.DBC.Workflow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflow: SuperOffice specific info about a workflow\n"
+  syntax:
+    content: public const string Workflow = "workflow"
+    return:
+      type: System.String
+    content.vb: Public Const Workflow As String = "workflow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlow
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlow
+  id: EmailFlow
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: EmailFlow
+  nameWithType: DBC.EmailFlow
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlow: A set of properties related to the email workflow.\n"
+  syntax:
+    content: public const string EmailFlow = "email_flow"
+    return:
+      type: System.String
+    content.vb: Public Const EmailFlow As String = "email_flow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstance
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstance
+  id: WorkflowInstance
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstance
+  nameWithType: DBC.WorkflowInstance
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstance
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance: A set of properties related to the workflow instance of one participant going through the flow\n"
+  syntax:
+    content: public const string WorkflowInstance = "workflow_instance"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowInstance As String = "workflow_instance"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoal
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoal
+  id: WorkflowGoal
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoal
+  nameWithType: DBC.WorkflowGoal
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoal
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal: A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.\n"
+  syntax:
+    content: public const string WorkflowGoal = "workflow_goal"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowGoal As String = "workflow_goal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStep
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStep
+  id: WorkflowStep
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStep
+  nameWithType: DBC.WorkflowStep
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStep
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStep: A set of steps related to a workflow.\n"
+  syntax:
+    content: public const string WorkflowStep = "workflow_step"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowStep As String = "workflow_step"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTrigger
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTrigger
+  id: WorkflowTrigger
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTrigger
+  nameWithType: DBC.WorkflowTrigger
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTrigger
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger: A set of triggers related to a workflow.\n"
+  syntax:
+    content: public const string WorkflowTrigger = "workflow_trigger"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowTrigger As String = "workflow_trigger"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOption
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOption
+  id: WorkflowStepOption
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOption
+  nameWithType: DBC.WorkflowStepOption
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOption
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOption: Some steps can have optional child &apos;flows&apos;, a new series of steps\n"
+  syntax:
+    content: public const string WorkflowStepOption = "workflow_step_option"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowStepOption As String = "workflow_step_option"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLink
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLink
+  id: WorkflowStepOptionLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionLink
+  nameWithType: DBC.WorkflowStepOptionLink
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink: Link steps to other steps through step options\n"
+  syntax:
+    content: public const string WorkflowStepOptionLink = "workflow_step_option_link"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowStepOptionLink As String = "workflow_step_option_link"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLink
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLink
+  id: EmailFlowContentLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowContentLink
+  nameWithType: DBC.EmailFlowContentLink
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink: Link message content to an email workflow\n"
+  syntax:
+    content: public const string EmailFlowContentLink = "email_flow_content_link"
+    return:
+      type: System.String
+    content.vb: Public Const EmailFlowContentLink As String = "email_flow_content_link"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLock
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLock
+  id: TempDbLock
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TempDbLock
+  nameWithType: DBC.TempDbLock
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLock
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock: Represents a temporary lock on a resource identified by table_id and key\n"
+  syntax:
+    content: public const string TempDbLock = "temp_db_lock"
+    return:
+      type: System.String
+    content.vb: Public Const TempDbLock As String = "temp_db_lock"
   modifiers.csharp:
   - public
   - const
@@ -14889,6 +15644,296 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReason
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReason
+  id: QuoteApprReason
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuoteApprReason
+  nameWithType: DBC.QuoteApprReason
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReason: Predefined reasons for quote approval\n"
+  syntax:
+    content: public const string QuoteApprReason = "QuoteApprReason"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteApprReason As String = "QuoteApprReason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLink
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLink
+  id: QuoteApprReasonGroupLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuoteApprReasonGroupLink
+  nameWithType: DBC.QuoteApprReasonGroupLink
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonGroupLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReasonGroupLink: User group link table for QuoteApprReason, for MDO item hiding\n"
+  syntax:
+    content: public const string QuoteApprReasonGroupLink = "QuoteApprReasonGroupLink"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteApprReasonGroupLink As String = "QuoteApprReasonGroupLink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLink
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLink
+  id: QuoteApprReasonHeadingLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuoteApprReasonHeadingLink
+  nameWithType: DBC.QuoteApprReasonHeadingLink
+  fullName: SuperOffice.CRM.Data.DBC.QuoteApprReasonHeadingLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteApprReasonHeadingLink: Heading link table for QuoteApprReason, for MDO headers\n"
+  syntax:
+    content: public const string QuoteApprReasonHeadingLink = "QuoteApprReasonHeadingLink"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteApprReasonHeadingLink As String = "QuoteApprReasonHeadingLink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReason
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReason
+  id: QuoteDenyReason
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuoteDenyReason
+  nameWithType: DBC.QuoteDenyReason
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReason: Predefined reasons for quote denial\n"
+  syntax:
+    content: public const string QuoteDenyReason = "QuoteDenyReason"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDenyReason As String = "QuoteDenyReason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLink
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLink
+  id: QuoteDenyReasonGroupLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuoteDenyReasonGroupLink
+  nameWithType: DBC.QuoteDenyReasonGroupLink
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonGroupLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonGroupLink: User group link table for QuoteDenyReason, for MDO item hiding\n"
+  syntax:
+    content: public const string QuoteDenyReasonGroupLink = "QuoteDenyReasonGroupLink"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDenyReasonGroupLink As String = "QuoteDenyReasonGroupLink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLink
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLink
+  id: QuoteDenyReasonHeadingLink
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuoteDenyReasonHeadingLink
+  nameWithType: DBC.QuoteDenyReasonHeadingLink
+  fullName: SuperOffice.CRM.Data.DBC.QuoteDenyReasonHeadingLink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteDenyReasonHeadingLink: Heading link table for QuoteDenyReason, for MDO headers\n"
+  syntax:
+    content: public const string QuoteDenyReasonHeadingLink = "QuoteDenyReasonHeadingLink"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDenyReasonHeadingLink As String = "QuoteDenyReasonHeadingLink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EntityCounts
+  commentId: F:SuperOffice.CRM.Data.DBC.EntityCounts
+  id: EntityCounts
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: EntityCounts
+  nameWithType: DBC.EntityCounts
+  fullName: SuperOffice.CRM.Data.DBC.EntityCounts
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEntityCounts: Number of different entities an associate has created for usage statistics\n"
+  syntax:
+    content: public const string EntityCounts = "EntityCounts"
+    return:
+      type: System.String
+    content.vb: Public Const EntityCounts As String = "EntityCounts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketType
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketType
+  id: TicketType
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TicketType
+  nameWithType: DBC.TicketType
+  fullName: SuperOffice.CRM.Data.DBC.TicketType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketType: A ticket (request) type\n"
+  syntax:
+    content: public const string TicketType = "ticket_type"
+    return:
+      type: System.String
+    content.vb: Public Const TicketType As String = "ticket_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriority
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriority
+  id: TicketTypePriority
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TicketTypePriority
+  nameWithType: DBC.TicketTypePriority
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority: Link table defining what Priorities are relevant to a particular Ticket type\n"
+  syntax:
+    content: public const string TicketTypePriority = "ticket_type_priority"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTypePriority As String = "ticket_type_priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypeStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypeStatus
+  id: TicketTypeStatus
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeStatus
+  nameWithType: DBC.TicketTypeStatus
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypeStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypeStatus: Link table defining what Statuses are relevant to a particular Ticket type\n"
+  syntax:
+    content: public const string TicketTypeStatus = "ticket_type_status"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTypeStatus As String = "ticket_type_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -14903,285 +15948,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

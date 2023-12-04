@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.FieldValue
+  commentId: T:SuperOffice.CRM.Services.FieldValue
+  id: FieldValue
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.FieldValue.#ctor
+  - SuperOffice.CRM.Services.FieldValue.Key
+  - SuperOffice.CRM.Services.FieldValue.ToString
+  - SuperOffice.CRM.Services.FieldValue.ToString(System.String)
+  - SuperOffice.CRM.Services.FieldValue.Values
+  langs:
+  - csharp
+  - vb
+  name: FieldValue
+  nameWithType: FieldValue
+  fullName: SuperOffice.CRM.Services.FieldValue
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFieldValue carrier\n<p></p>\nCarrier object for FieldValue.\nServices for the FieldValue Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class FieldValue : Carrier'
+    content.vb: >-
+      Public Class FieldValue
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.FieldValue.#ctor
+  commentId: M:SuperOffice.CRM.Services.FieldValue.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.FieldValue
+  langs:
+  - csharp
+  - vb
+  name: FieldValue()
+  nameWithType: FieldValue.FieldValue()
+  fullName: SuperOffice.CRM.Services.FieldValue.FieldValue()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public FieldValue()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.FieldValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FieldValue.ToString
+  commentId: M:SuperOffice.CRM.Services.FieldValue.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.FieldValue
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldValue.ToString()
+  fullName: SuperOffice.CRM.Services.FieldValue.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.FieldValue.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.FieldValue.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FieldValue.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.FieldValue
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: FieldValue.ToString(String)
+  fullName: SuperOffice.CRM.Services.FieldValue.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.FieldValue.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FieldValue.Key
+  commentId: P:SuperOffice.CRM.Services.FieldValue.Key
+  id: Key
+  parent: SuperOffice.CRM.Services.FieldValue
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: FieldValue.Key
+  fullName: SuperOffice.CRM.Services.FieldValue.Key
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField key \n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.CRM.Services.FieldValue.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValue.Values
+  commentId: P:SuperOffice.CRM.Services.FieldValue.Values
+  id: Values
+  parent: SuperOffice.CRM.Services.FieldValue
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: FieldValue.Values
+  fullName: SuperOffice.CRM.Services.FieldValue.Values
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValues to change \n"
+  syntax:
+    content: public virtual string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Values As String()
+  overload: SuperOffice.CRM.Services.FieldValue.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.FieldValue.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValue.#ctor
+  isExternal: true
+  name: FieldValue
+  nameWithType: FieldValue.FieldValue
+  fullName: SuperOffice.CRM.Services.FieldValue.FieldValue
+- uid: SuperOffice.CRM.Services.FieldValue.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValue.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldValue.ToString
+  fullName: SuperOffice.CRM.Services.FieldValue.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FieldValue.Key*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValue.Key
+  isExternal: true
+  name: Key
+  nameWithType: FieldValue.Key
+  fullName: SuperOffice.CRM.Services.FieldValue.Key
+- uid: SuperOffice.CRM.Services.FieldValue.Values*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValue.Values
+  isExternal: true
+  name: Values
+  nameWithType: FieldValue.Values
+  fullName: SuperOffice.CRM.Services.FieldValue.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

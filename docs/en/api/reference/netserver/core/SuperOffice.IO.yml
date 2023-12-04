@@ -6,13 +6,12 @@ items:
   children:
   - SuperOffice.IO.BinaryGenerator
   - SuperOffice.IO.BinaryGenerator.State
-  - SuperOffice.IO.FileSystem
   - SuperOffice.IO.Generator
   - SuperOffice.IO.IFastSerializationTypeSurrogate
-  - SuperOffice.IO.IFileSystem
   - SuperOffice.IO.IOwnedDataSerializable
   - SuperOffice.IO.IOwnedDataSerializableAndRecreatable
   - SuperOffice.IO.IStreamProvider
+  - SuperOffice.IO.ITempFileProvider
   - SuperOffice.IO.MsWordGenerator
   - SuperOffice.IO.OptimizationException
   - SuperOffice.IO.ProviderStream
@@ -106,19 +105,6 @@ references:
   name: IFastSerializationTypeSurrogate
   nameWithType: IFastSerializationTypeSurrogate
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate
-- uid: SuperOffice.IO.IFileSystem
-  commentId: T:SuperOffice.IO.IFileSystem
-  parent: SuperOffice.IO
-  isExternal: true
-  name: IFileSystem
-  nameWithType: IFileSystem
-  fullName: SuperOffice.IO.IFileSystem
-- uid: SuperOffice.IO.FileSystem
-  commentId: T:SuperOffice.IO.FileSystem
-  isExternal: true
-  name: FileSystem
-  nameWithType: FileSystem
-  fullName: SuperOffice.IO.FileSystem
 - uid: SuperOffice.IO.Generator
   commentId: T:SuperOffice.IO.Generator
   parent: SuperOffice.IO
@@ -126,6 +112,13 @@ references:
   name: Generator
   nameWithType: Generator
   fullName: SuperOffice.IO.Generator
+- uid: SuperOffice.IO.ITempFileProvider
+  commentId: T:SuperOffice.IO.ITempFileProvider
+  parent: SuperOffice.IO
+  isExternal: true
+  name: ITempFileProvider
+  nameWithType: ITempFileProvider
+  fullName: SuperOffice.IO.ITempFileProvider
 - uid: SuperOffice.IO.MsWordGenerator
   commentId: T:SuperOffice.IO.MsWordGenerator
   isExternal: true

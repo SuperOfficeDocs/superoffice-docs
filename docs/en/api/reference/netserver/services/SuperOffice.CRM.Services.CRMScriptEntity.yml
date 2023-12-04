@@ -402,7 +402,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Registered*
   modifiers.csharp:
   - public
@@ -468,7 +468,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Services.CRMScriptEntity.Updated*
   modifiers.csharp:
   - public
@@ -518,13 +518,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.CRMScriptAgent
   commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
   isExternal: true
@@ -681,12 +674,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -713,6 +700,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptEntity.EjscriptId
   isExternal: true
@@ -769,8 +762,6 @@ references:
   nameWithType: CRMScriptEntity.Registered
   fullName: SuperOffice.CRM.Services.CRMScriptEntity.Registered
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

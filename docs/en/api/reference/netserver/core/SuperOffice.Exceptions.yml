@@ -4,14 +4,17 @@ items:
   commentId: N:SuperOffice.Exceptions
   id: SuperOffice.Exceptions
   children:
+  - SuperOffice.Exceptions.DirectInvokeAjaxServiceException
   - SuperOffice.Exceptions.ExceptionHelper
   - SuperOffice.Exceptions.PerformanceMonitoring
-  - SuperOffice.Exceptions.SoAsyncProviderTimeoutException
+  - SuperOffice.Exceptions.SoConsentException
   - SuperOffice.Exceptions.SoDbAccessException
   - SuperOffice.Exceptions.SoDuplicateException
   - SuperOffice.Exceptions.SoException
   - SuperOffice.Exceptions.SoExceptionInfo
   - SuperOffice.Exceptions.SoExceptionInfoParameters
+  - SuperOffice.Exceptions.SoFileNotFoundException
+  - SuperOffice.Exceptions.SoHttpResponseException
   - SuperOffice.Exceptions.SoIllegalOperationException
   - SuperOffice.Exceptions.SoIllegalXmlException
   - SuperOffice.Exceptions.SoInvalidArgumentException
@@ -37,6 +40,12 @@ items:
   assemblies:
   - SoCore
 references:
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  commentId: T:SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  isExternal: true
+  name: DirectInvokeAjaxServiceException
+  nameWithType: DirectInvokeAjaxServiceException
+  fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
 - uid: SuperOffice.Exceptions.ExceptionHelper
   commentId: T:SuperOffice.Exceptions.ExceptionHelper
   parent: SuperOffice.Exceptions
@@ -50,6 +59,12 @@ references:
   name: PerformanceMonitoring
   nameWithType: PerformanceMonitoring
   fullName: SuperOffice.Exceptions.PerformanceMonitoring
+- uid: SuperOffice.Exceptions.SoConsentException
+  commentId: T:SuperOffice.Exceptions.SoConsentException
+  isExternal: true
+  name: SoConsentException
+  nameWithType: SoConsentException
+  fullName: SuperOffice.Exceptions.SoConsentException
 - uid: SuperOffice.Exceptions.SoDbAccessException
   commentId: T:SuperOffice.Exceptions.SoDbAccessException
   isExternal: true
@@ -62,6 +77,39 @@ references:
   name: SoDuplicateException
   nameWithType: SoDuplicateException
   fullName: SuperOffice.Exceptions.SoDuplicateException
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
+- uid: SuperOffice.Exceptions.SoExceptionInfoParameters
+  commentId: T:SuperOffice.Exceptions.SoExceptionInfoParameters
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoExceptionInfoParameters
+  nameWithType: SoExceptionInfoParameters
+  fullName: SuperOffice.Exceptions.SoExceptionInfoParameters
+- uid: SuperOffice.Exceptions.SoExceptionInfo
+  commentId: T:SuperOffice.Exceptions.SoExceptionInfo
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo
+  fullName: SuperOffice.Exceptions.SoExceptionInfo
+- uid: SuperOffice.Exceptions.SoHttpResponseException
+  commentId: T:SuperOffice.Exceptions.SoHttpResponseException
+  isExternal: true
+  name: SoHttpResponseException
+  nameWithType: SoHttpResponseException
+  fullName: SuperOffice.Exceptions.SoHttpResponseException
+- uid: SuperOffice.Exceptions.SoIllegalOperationException
+  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+  isExternal: true
+  name: SoIllegalOperationException
+  nameWithType: SoIllegalOperationException
+  fullName: SuperOffice.Exceptions.SoIllegalOperationException
 - uid: SuperOffice.Exceptions.SoIllegalXmlException
   commentId: T:SuperOffice.Exceptions.SoIllegalXmlException
   isExternal: true
@@ -110,51 +158,18 @@ references:
   name: SoNotFoundException
   nameWithType: SoNotFoundException
   fullName: SuperOffice.Exceptions.SoNotFoundException
-- uid: SuperOffice.Exceptions.SoNotSupportedException
-  commentId: T:SuperOffice.Exceptions.SoNotSupportedException
-  isExternal: true
-  name: SoNotSupportedException
-  nameWithType: SoNotSupportedException
-  fullName: SuperOffice.Exceptions.SoNotSupportedException
-- uid: SuperOffice.Exceptions.SoException
-  commentId: T:SuperOffice.Exceptions.SoException
-  parent: SuperOffice.Exceptions
-  isExternal: true
-  name: SoException
-  nameWithType: SoException
-  fullName: SuperOffice.Exceptions.SoException
-- uid: SuperOffice.Exceptions.SoExceptionInfoParameters
-  commentId: T:SuperOffice.Exceptions.SoExceptionInfoParameters
-  parent: SuperOffice.Exceptions
-  isExternal: true
-  name: SoExceptionInfoParameters
-  nameWithType: SoExceptionInfoParameters
-  fullName: SuperOffice.Exceptions.SoExceptionInfoParameters
-- uid: SuperOffice.Exceptions.SoExceptionInfo
-  commentId: T:SuperOffice.Exceptions.SoExceptionInfo
-  parent: SuperOffice.Exceptions
-  isExternal: true
-  name: SoExceptionInfo
-  nameWithType: SoExceptionInfo
-  fullName: SuperOffice.Exceptions.SoExceptionInfo
-- uid: SuperOffice.Exceptions.SoIllegalOperationException
-  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
-  isExternal: true
-  name: SoIllegalOperationException
-  nameWithType: SoIllegalOperationException
-  fullName: SuperOffice.Exceptions.SoIllegalOperationException
 - uid: SuperOffice.Exceptions.SoNotImplementedException
   commentId: T:SuperOffice.Exceptions.SoNotImplementedException
   isExternal: true
   name: SoNotImplementedException
   nameWithType: SoNotImplementedException
   fullName: SuperOffice.Exceptions.SoNotImplementedException
-- uid: SuperOffice.Exceptions.SoValidationException
-  commentId: T:SuperOffice.Exceptions.SoValidationException
+- uid: SuperOffice.Exceptions.SoNotSupportedException
+  commentId: T:SuperOffice.Exceptions.SoNotSupportedException
   isExternal: true
-  name: SoValidationException
-  nameWithType: SoValidationException
-  fullName: SuperOffice.Exceptions.SoValidationException
+  name: SoNotSupportedException
+  nameWithType: SoNotSupportedException
+  fullName: SuperOffice.Exceptions.SoNotSupportedException
 - uid: SuperOffice.Exceptions.SoSentryException
   commentId: T:SuperOffice.Exceptions.SoSentryException
   isExternal: true
@@ -173,12 +188,18 @@ references:
   name: SoSessionException
   nameWithType: SoSessionException
   fullName: SuperOffice.Exceptions.SoSessionException
-- uid: SuperOffice.Exceptions.SoAsyncProviderTimeoutException
-  commentId: T:SuperOffice.Exceptions.SoAsyncProviderTimeoutException
+- uid: SuperOffice.Exceptions.SoValidationException
+  commentId: T:SuperOffice.Exceptions.SoValidationException
   isExternal: true
-  name: SoAsyncProviderTimeoutException
-  nameWithType: SoAsyncProviderTimeoutException
-  fullName: SuperOffice.Exceptions.SoAsyncProviderTimeoutException
+  name: SoValidationException
+  nameWithType: SoValidationException
+  fullName: SuperOffice.Exceptions.SoValidationException
+- uid: SuperOffice.Exceptions.SoFileNotFoundException
+  commentId: T:SuperOffice.Exceptions.SoFileNotFoundException
+  isExternal: true
+  name: SoFileNotFoundException
+  nameWithType: SoFileNotFoundException
+  fullName: SuperOffice.Exceptions.SoFileNotFoundException
 - uid: SuperOffice.Exceptions
   commentId: N:SuperOffice.Exceptions
   isExternal: true

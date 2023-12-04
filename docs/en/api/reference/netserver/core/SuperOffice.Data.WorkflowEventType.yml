@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WorkflowEventType
+  commentId: T:SuperOffice.Data.WorkflowEventType
+  id: WorkflowEventType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WorkflowEventType.AddedMessage
+  - SuperOffice.Data.WorkflowEventType.AddedToProject
+  - SuperOffice.Data.WorkflowEventType.AddedToSelection
+  - SuperOffice.Data.WorkflowEventType.CreatedRequest
+  - SuperOffice.Data.WorkflowEventType.FormSubmitted
+  - SuperOffice.Data.WorkflowEventType.LinkClicked
+  - SuperOffice.Data.WorkflowEventType.None
+  - SuperOffice.Data.WorkflowEventType.OrderPlaced
+  - SuperOffice.Data.WorkflowEventType.PersonCreated
+  - SuperOffice.Data.WorkflowEventType.PersonUpdated
+  - SuperOffice.Data.WorkflowEventType.Run
+  - SuperOffice.Data.WorkflowEventType.SaleCreated
+  - SuperOffice.Data.WorkflowEventType.SaleLost
+  - SuperOffice.Data.WorkflowEventType.SaleSold
+  - SuperOffice.Data.WorkflowEventType.StartedChat
+  - SuperOffice.Data.WorkflowEventType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEventType
+  nameWithType: WorkflowEventType
+  fullName: SuperOffice.Data.WorkflowEventType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nWorkflow event type\n"
+  syntax:
+    content: 'public sealed class WorkflowEventType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowEventType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.WorkflowEventType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WorkflowEventType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowEventType.value__
+  commentId: F:SuperOffice.Data.WorkflowEventType.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowEventType.value__
+  fullName: SuperOffice.Data.WorkflowEventType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.WorkflowEventType.None
+  commentId: F:SuperOffice.Data.WorkflowEventType.None
+  id: None
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowEventType.None
+  fullName: SuperOffice.Data.WorkflowEventType.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowEventType None
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const None As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.Run
+  commentId: F:SuperOffice.Data.WorkflowEventType.Run
+  id: Run
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: Run
+  nameWithType: WorkflowEventType.Run
+  fullName: SuperOffice.Data.WorkflowEventType.Run
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Run\n"
+  syntax:
+    content: public const WorkflowEventType Run
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const Run As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.PersonCreated
+  commentId: F:SuperOffice.Data.WorkflowEventType.PersonCreated
+  id: PersonCreated
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: PersonCreated
+  nameWithType: WorkflowEventType.PersonCreated
+  fullName: SuperOffice.Data.WorkflowEventType.PersonCreated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1001: PersonCreated\n"
+  syntax:
+    content: public const WorkflowEventType PersonCreated
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const PersonCreated As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.PersonUpdated
+  commentId: F:SuperOffice.Data.WorkflowEventType.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: WorkflowEventType.PersonUpdated
+  fullName: SuperOffice.Data.WorkflowEventType.PersonUpdated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1002: PersonUpdated\n"
+  syntax:
+    content: public const WorkflowEventType PersonUpdated
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const PersonUpdated As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.AddedToProject
+  commentId: F:SuperOffice.Data.WorkflowEventType.AddedToProject
+  id: AddedToProject
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: AddedToProject
+  nameWithType: WorkflowEventType.AddedToProject
+  fullName: SuperOffice.Data.WorkflowEventType.AddedToProject
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1003: AddedToProject\n"
+  syntax:
+    content: public const WorkflowEventType AddedToProject
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const AddedToProject As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.CreatedRequest
+  commentId: F:SuperOffice.Data.WorkflowEventType.CreatedRequest
+  id: CreatedRequest
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: CreatedRequest
+  nameWithType: WorkflowEventType.CreatedRequest
+  fullName: SuperOffice.Data.WorkflowEventType.CreatedRequest
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1004: CreatedRequest\n"
+  syntax:
+    content: public const WorkflowEventType CreatedRequest
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const CreatedRequest As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.LinkClicked
+  commentId: F:SuperOffice.Data.WorkflowEventType.LinkClicked
+  id: LinkClicked
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: LinkClicked
+  nameWithType: WorkflowEventType.LinkClicked
+  fullName: SuperOffice.Data.WorkflowEventType.LinkClicked
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1005: LinkClicked\n"
+  syntax:
+    content: public const WorkflowEventType LinkClicked
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const LinkClicked As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.AddedToSelection
+  commentId: F:SuperOffice.Data.WorkflowEventType.AddedToSelection
+  id: AddedToSelection
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: AddedToSelection
+  nameWithType: WorkflowEventType.AddedToSelection
+  fullName: SuperOffice.Data.WorkflowEventType.AddedToSelection
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1006: AddedToSelection\n"
+  syntax:
+    content: public const WorkflowEventType AddedToSelection
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const AddedToSelection As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.FormSubmitted
+  commentId: F:SuperOffice.Data.WorkflowEventType.FormSubmitted
+  id: FormSubmitted
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: FormSubmitted
+  nameWithType: WorkflowEventType.FormSubmitted
+  fullName: SuperOffice.Data.WorkflowEventType.FormSubmitted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1007: FormSubmitted\n"
+  syntax:
+    content: public const WorkflowEventType FormSubmitted
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const FormSubmitted As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.AddedMessage
+  commentId: F:SuperOffice.Data.WorkflowEventType.AddedMessage
+  id: AddedMessage
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: AddedMessage
+  nameWithType: WorkflowEventType.AddedMessage
+  fullName: SuperOffice.Data.WorkflowEventType.AddedMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1008: AddedMessage\n"
+  syntax:
+    content: public const WorkflowEventType AddedMessage
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const AddedMessage As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.StartedChat
+  commentId: F:SuperOffice.Data.WorkflowEventType.StartedChat
+  id: StartedChat
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: StartedChat
+  nameWithType: WorkflowEventType.StartedChat
+  fullName: SuperOffice.Data.WorkflowEventType.StartedChat
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1009: StartedChat\n"
+  syntax:
+    content: public const WorkflowEventType StartedChat
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const StartedChat As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.OrderPlaced
+  commentId: F:SuperOffice.Data.WorkflowEventType.OrderPlaced
+  id: OrderPlaced
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: OrderPlaced
+  nameWithType: WorkflowEventType.OrderPlaced
+  fullName: SuperOffice.Data.WorkflowEventType.OrderPlaced
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1010: OrderPlaced\n"
+  syntax:
+    content: public const WorkflowEventType OrderPlaced
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const OrderPlaced As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.SaleCreated
+  commentId: F:SuperOffice.Data.WorkflowEventType.SaleCreated
+  id: SaleCreated
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: SaleCreated
+  nameWithType: WorkflowEventType.SaleCreated
+  fullName: SuperOffice.Data.WorkflowEventType.SaleCreated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1011: SaleCreated\n"
+  syntax:
+    content: public const WorkflowEventType SaleCreated
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const SaleCreated As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.SaleSold
+  commentId: F:SuperOffice.Data.WorkflowEventType.SaleSold
+  id: SaleSold
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: SaleSold
+  nameWithType: WorkflowEventType.SaleSold
+  fullName: SuperOffice.Data.WorkflowEventType.SaleSold
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1012: SaleSold\n"
+  syntax:
+    content: public const WorkflowEventType SaleSold
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const SaleSold As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowEventType.SaleLost
+  commentId: F:SuperOffice.Data.WorkflowEventType.SaleLost
+  id: SaleLost
+  parent: SuperOffice.Data.WorkflowEventType
+  langs:
+  - csharp
+  - vb
+  name: SaleLost
+  nameWithType: WorkflowEventType.SaleLost
+  fullName: SuperOffice.Data.WorkflowEventType.SaleLost
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1013: SaleLost\n"
+  syntax:
+    content: public const WorkflowEventType SaleLost
+    return:
+      type: SuperOffice.Data.WorkflowEventType
+    content.vb: Public Const SaleLost As WorkflowEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.WorkflowEventType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowEventType, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowEventType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowEventType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowEventType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowEventType, To)()
+  name.vb: MapEnums(Of WorkflowEventType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowEventType, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowEventType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowEventType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowEventType, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowEventType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowEventType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WorkflowEventType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowEventType, To>()
+  nameWithType: Converters.MapEnums<WorkflowEventType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowEventType, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowEventType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowEventType, To)()
+  name.vb: MapEnums(Of WorkflowEventType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowEventType, To>
+    nameWithType: Converters.MapEnums<WorkflowEventType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowEventType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowEventType, To)
+    nameWithType: Converters.MapEnums(Of WorkflowEventType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowEventType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.WorkflowEventType
+  commentId: T:SuperOffice.Data.WorkflowEventType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowEventType
+  nameWithType: WorkflowEventType
+  fullName: SuperOffice.Data.WorkflowEventType

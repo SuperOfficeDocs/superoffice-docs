@@ -27,6 +27,7 @@ items:
     content: 'public interface IAppointmentInfo2 : IAppointmentInfo'
     content.vb: >-
       Public Interface IAppointmentInfo2
+
           Inherits IAppointmentInfo
   inheritedMembers:
   - SuperOffice.CRM.IAppointmentInfo.GetUserDefinedDecimal(System.Int32)

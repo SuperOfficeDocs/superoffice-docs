@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.DashTileUsage
+  commentId: T:SuperOffice.Data.DashTileUsage
+  id: DashTileUsage
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.DashTileUsage.Dashboard
+  - SuperOffice.Data.DashTileUsage.None
+  - SuperOffice.Data.DashTileUsage.Selection
+  - SuperOffice.Data.DashTileUsage.value__
+  langs:
+  - csharp
+  - vb
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.Data.DashTileUsage
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nDefines where a DashTileDefinition can be used\nThis Enum is used by:  dashboard_tile_definition.usage\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class DashTileUsage : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashTileUsage
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.DashTileUsage.EnumUtil.MapEnums``2
+  - SuperOffice.Data.DashTileUsage.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.DashTileUsage.value__
+  commentId: F:SuperOffice.Data.DashTileUsage.value__
+  id: value__
+  parent: SuperOffice.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileUsage.value__
+  fullName: SuperOffice.Data.DashTileUsage.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DashTileUsage.None
+  commentId: F:SuperOffice.Data.DashTileUsage.None
+  id: None
+  parent: SuperOffice.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashTileUsage.None
+  fullName: SuperOffice.Data.DashTileUsage.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Not visible anywhere\n"
+  syntax:
+    content: public const DashTileUsage None
+    return:
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Public Const None As DashTileUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DashTileUsage.Dashboard
+  commentId: F:SuperOffice.Data.DashTileUsage.Dashboard
+  id: Dashboard
+  parent: SuperOffice.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: DashTileUsage.Dashboard
+  fullName: SuperOffice.Data.DashTileUsage.Dashboard
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Visible in the tile library on the dashboard page\n"
+  syntax:
+    content: public const DashTileUsage Dashboard
+    return:
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Public Const Dashboard As DashTileUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DashTileUsage.Selection
+  commentId: F:SuperOffice.Data.DashTileUsage.Selection
+  id: Selection
+  parent: SuperOffice.Data.DashTileUsage
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: DashTileUsage.Selection
+  fullName: SuperOffice.Data.DashTileUsage.Selection
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Visible in the tile library on the selection page\n"
+  syntax:
+    content: public const DashTileUsage Selection
+    return:
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Public Const Selection As DashTileUsage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.DashTileUsage.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DashTileUsage, To>()
+  nameWithType: EnumUtil.MapEnums<DashTileUsage, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.DashTileUsage, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DashTileUsage, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.DashTileUsage, To)()
+  name.vb: MapEnums(Of DashTileUsage, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DashTileUsage, To>
+    nameWithType: EnumUtil.MapEnums<DashTileUsage, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.DashTileUsage, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DashTileUsage, To)
+    nameWithType: EnumUtil.MapEnums(Of DashTileUsage, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DashTileUsage, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DashTileUsage.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DashTileUsage, To>()
+  nameWithType: Converters.MapEnums<DashTileUsage, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DashTileUsage, To>()
+  nameWithType.vb: Converters.MapEnums(Of DashTileUsage, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DashTileUsage, To)()
+  name.vb: MapEnums(Of DashTileUsage, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DashTileUsage, To>
+    nameWithType: Converters.MapEnums<DashTileUsage, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DashTileUsage, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DashTileUsage, To)
+    nameWithType: Converters.MapEnums(Of DashTileUsage, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DashTileUsage, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.DashTileUsage
+  commentId: T:SuperOffice.Data.DashTileUsage
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.Data.DashTileUsage

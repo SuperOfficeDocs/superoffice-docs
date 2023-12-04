@@ -327,7 +327,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property GenerationStart As Date
+    content.vb: Public Overridable Property GenerationStart As DateTime
   overload: SuperOffice.CRM.Services.SaintConfiguration.GenerationStart*
   modifiers.csharp:
   - public
@@ -360,7 +360,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property GenerationEnd As Date
+    content.vb: Public Overridable Property GenerationEnd As DateTime
   overload: SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd*
   modifiers.csharp:
   - public
@@ -410,13 +410,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.SaintAgent
   commentId: T:SuperOffice.CRM.Services.SaintAgent
   isExternal: true
@@ -430,12 +423,6 @@ references:
   name: ISaintAgent
   nameWithType: ISaintAgent
   fullName: SuperOffice.CRM.Services.ISaintAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SaintConfiguration.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.#ctor
   isExternal: true
@@ -455,6 +442,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SaintConfiguration.OwnerTable*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.OwnerTable
   isExternal: true
@@ -513,8 +506,6 @@ references:
   nameWithType: SaintConfiguration.GenerationStart
   fullName: SuperOffice.CRM.Services.SaintConfiguration.GenerationStart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

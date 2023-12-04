@@ -26,6 +26,7 @@ items:
     content: 'public interface INextDueDatePlugin : IPlugin'
     content.vb: >-
       Public Interface INextDueDatePlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.INextDueDatePlugin.EnumUtil.MapEnums``2

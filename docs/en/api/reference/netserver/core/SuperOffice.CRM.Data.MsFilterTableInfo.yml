@@ -30,6 +30,9 @@ items:
   - SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority
   - SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority_InnerJoin_TicketPriority
   - SuperOffice.CRM.Data.MsFilterTableInfo.NewSlevel
+  - SuperOffice.CRM.Data.MsFilterTableInfo.NewTags
+  - SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType
+  - SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
   - SuperOffice.CRM.Data.MsFilterTableInfo.ParseMode
   - SuperOffice.CRM.Data.MsFilterTableInfo.Priority
   - SuperOffice.CRM.Data.MsFilterTableInfo.ReplyTemplate
@@ -64,7 +67,9 @@ items:
       <DatabaseTable("ms_filter")>
 
       Public Class MsFilterTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -86,12 +91,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.MsFilterTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.MsFilterTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -186,26 +185,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.MsFilterTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -513,7 +498,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;new_priority&apos; in table &apos;ms_filter&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the priority to set for the ticket if specified by action.\n"
+  summary: "\nField &apos;new_priority&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: TicketPriority, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the priority to set for the ticket if specified by action.\n"
   syntax:
     content: public Int32FieldInfo NewPriority { get; }
     parameters: []
@@ -544,7 +529,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;new_category&apos; in table &apos;ms_filter&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the category to set for the ticket if specified by action.\n"
+  summary: "\nField &apos;new_category&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: EjCategory, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the category to set for the ticket if specified by action.\n"
   syntax:
     content: public Int32FieldInfo NewCategory { get; }
     parameters: []
@@ -575,7 +560,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;new_owner&apos; in table &apos;ms_filter&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the owner to set for the ticket if specified by action.\n"
+  summary: "\nField &apos;new_owner&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: Ejuser, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the owner to set for the ticket if specified by action.\n"
   syntax:
     content: public Int32FieldInfo NewOwner { get; }
     parameters: []
@@ -637,7 +622,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;reply_template&apos; in table &apos;ms_filter&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the template to use as the reply template if specified by action.\n"
+  summary: "\nField &apos;reply_template&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: ReplyTemplate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the template to use as the reply template if specified by action.\n"
   syntax:
     content: public Int32FieldInfo ReplyTemplate { get; }
     parameters: []
@@ -730,7 +715,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;body_template&apos; in table &apos;ms_filter&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe template to use for the body of the message.\n"
+  summary: "\nField &apos;body_template&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: ReplyTemplate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe template to use for the body of the message.\n"
   syntax:
     content: public Int32FieldInfo BodyTemplate { get; }
     parameters: []
@@ -792,7 +777,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;autofaq_reply_category&apos; in table &apos;ms_filter&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe root folder for the auto faq search.\n"
+  summary: "\nField &apos;autofaq_reply_category&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: ReplyTemplateFolder, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe root folder for the auto faq search.\n"
   syntax:
     content: public Int32FieldInfo AutofaqReplyCategory { get; }
     parameters: []
@@ -885,7 +870,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ejscript&apos; in table &apos;ms_filter&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe reference to the ejscript to execute for this filter.\n"
+  summary: "\nField &apos;ejscript&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: Ejscript, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe reference to the ejscript to execute for this filter.\n"
   syntax:
     content: public Int32FieldInfo Ejscript { get; }
     parameters: []
@@ -893,6 +878,68 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Ejscript As Int32FieldInfo
   overload: SuperOffice.CRM.Data.MsFilterTableInfo.Ejscript*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewTags
+  commentId: P:SuperOffice.CRM.Data.MsFilterTableInfo.NewTags
+  id: NewTags
+  parent: SuperOffice.CRM.Data.MsFilterTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NewTags
+  nameWithType: MsFilterTableInfo.NewTags
+  fullName: SuperOffice.CRM.Data.MsFilterTableInfo.NewTags
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;new_tags&apos; in table &apos;ms_filter&apos;: Dictionary type FKArray, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe tags to set for tickets modified by this filter\n"
+  syntax:
+    content: public Int32ArrayFieldInfo NewTags { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+    content.vb: Public ReadOnly Property NewTags As Int32ArrayFieldInfo
+  overload: SuperOffice.CRM.Data.MsFilterTableInfo.NewTags*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType
+  commentId: P:SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType
+  id: NewTicketType
+  parent: SuperOffice.CRM.Data.MsFilterTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NewTicketType
+  nameWithType: MsFilterTableInfo.NewTicketType
+  fullName: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;new_ticket_type&apos; in table &apos;ms_filter&apos;: Dictionary type FK, target: TicketType, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTickettype of the ticket\n"
+  syntax:
+    content: public Int32FieldInfo NewTicketType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property NewTicketType As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType*
   modifiers.csharp:
   - public
   - get
@@ -1116,6 +1163,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
+  commentId: P:SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
+  id: NewTicketType_InnerJoin_TicketType
+  parent: SuperOffice.CRM.Data.MsFilterTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NewTicketType_InnerJoin_TicketType
+  nameWithType: MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
+  fullName: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key NewTicketType in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TicketTypeTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<TicketTypeTableInfo> NewTicketType_InnerJoin_TicketType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+    content.vb: Public ReadOnly Property NewTicketType_InnerJoin_TicketType As TargetedInnerJoin(Of TicketTypeTableInfo)
+  overload: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.MsFilterTableInfo.LeftOuterJoin_MsFilterMail_MailSorterId
   commentId: P:SuperOffice.CRM.Data.MsFilterTableInfo.LeftOuterJoin_MsFilterMail_MailSorterId
   id: LeftOuterJoin_MsFilterMail_MailSorterId
@@ -1231,8 +1309,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1565,254 +1641,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.MsFilterTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2196,6 +2024,25 @@ references:
   name: Ejscript
   nameWithType: MsFilterTableInfo.Ejscript
   fullName: SuperOffice.CRM.Data.MsFilterTableInfo.Ejscript
+- uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewTags*
+  commentId: Overload:SuperOffice.CRM.Data.MsFilterTableInfo.NewTags
+  isExternal: true
+  name: NewTags
+  nameWithType: MsFilterTableInfo.NewTags
+  fullName: SuperOffice.CRM.Data.MsFilterTableInfo.NewTags
+- uid: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32ArrayFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32ArrayFieldInfo
+  nameWithType: Int32ArrayFieldInfo
+  fullName: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+- uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType*
+  commentId: Overload:SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType
+  isExternal: true
+  name: NewTicketType
+  nameWithType: MsFilterTableInfo.NewTicketType
+  fullName: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType
 - uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority_InnerJoin_TicketPriority*
   commentId: Overload:SuperOffice.CRM.Data.MsFilterTableInfo.NewPriority_InnerJoin_TicketPriority
   isExternal: true
@@ -2537,6 +2384,56 @@ references:
     name: EjscriptTableInfo
     nameWithType: EjscriptTableInfo
     fullName: SuperOffice.CRM.Data.EjscriptTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType*
+  commentId: Overload:SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
+  isExternal: true
+  name: NewTicketType_InnerJoin_TicketType
+  nameWithType: MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
+  fullName: SuperOffice.CRM.Data.MsFilterTableInfo.NewTicketType_InnerJoin_TicketType
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<TicketTypeTableInfo>
+  nameWithType: TargetedInnerJoin<TicketTypeTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TicketTypeTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TicketTypeTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.TicketTypeTableInfo)
+  name.vb: TargetedInnerJoin(Of TicketTypeTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+    name: TicketTypeTableInfo
+    nameWithType: TicketTypeTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+    name: TicketTypeTableInfo
+    nameWithType: TicketTypeTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
     isExternal: true
   - name: )
     nameWithType: )

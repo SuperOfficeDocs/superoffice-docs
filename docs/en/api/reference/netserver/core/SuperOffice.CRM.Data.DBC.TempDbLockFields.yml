@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TempDbLockFields
+  id: DBC.TempDbLockFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.Key
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.Registered
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.TableNumber
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.TempDbLockId
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.TimeoutAt
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.Updated
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TempDbLockFields
+  nameWithType: DBC.TempDbLockFields
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TempDbLock, Represents a temporary lock on a resource identified by table_id and key\n"
+  syntax:
+    content: 'public static class TempDbLockFields : Object'
+    content.vb: >-
+      Public Module TempDbLockFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.TempDbLockId
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.TempDbLockId
+  id: TempDbLockId
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: TempDbLockId
+  nameWithType: DBC.TempDbLockFields.TempDbLockId
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.TempDbLockId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.TempDbLockId: Primary key\n"
+  syntax:
+    content: public const string TempDbLockId = "temp_db_lock_id"
+    return:
+      type: System.String
+    content.vb: Public Const TempDbLockId As String = "temp_db_lock_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.TableNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: DBC.TempDbLockFields.TableNumber
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.TableNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.TableNumber: The table number (or domain) of the locked resource\n"
+  syntax:
+    content: public const string TableNumber = "table_number"
+    return:
+      type: System.String
+    content.vb: Public Const TableNumber As String = "table_number"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.Key
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.Key
+  id: Key
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: DBC.TempDbLockFields.Key
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.Key
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.Key: The key/id of the locked resource\n"
+  syntax:
+    content: public const string Key = "key"
+    return:
+      type: System.String
+    content.vb: Public Const Key As String = "key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.TimeoutAt
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.TimeoutAt
+  id: TimeoutAt
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: TimeoutAt
+  nameWithType: DBC.TempDbLockFields.TimeoutAt
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.TimeoutAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.TimeoutAt: When this lock times out. Refreshing this while working is a good idea.\n"
+  syntax:
+    content: public const string TimeoutAt = "timeout_at"
+    return:
+      type: System.String
+    content.vb: Public Const TimeoutAt As String = "timeout_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TempDbLockFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TempDbLockFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TempDbLockFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TempDbLockFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TempDbLockFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TempDbLockFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TempDbLockFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTempDbLock.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

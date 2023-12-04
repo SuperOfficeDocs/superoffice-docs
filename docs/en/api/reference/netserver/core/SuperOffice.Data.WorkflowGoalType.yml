@@ -1,0 +1,600 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WorkflowGoalType
+  commentId: T:SuperOffice.Data.WorkflowGoalType
+  id: WorkflowGoalType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WorkflowGoalType.AddedToProject
+  - SuperOffice.Data.WorkflowGoalType.AddedToSelection
+  - SuperOffice.Data.WorkflowGoalType.AppointmentCreated
+  - SuperOffice.Data.WorkflowGoalType.FormSubmitted
+  - SuperOffice.Data.WorkflowGoalType.HadChat
+  - SuperOffice.Data.WorkflowGoalType.LinkClicked
+  - SuperOffice.Data.WorkflowGoalType.None
+  - SuperOffice.Data.WorkflowGoalType.PersonUpdated
+  - SuperOffice.Data.WorkflowGoalType.RequestCreated
+  - SuperOffice.Data.WorkflowGoalType.SaleCreatedOnCompany
+  - SuperOffice.Data.WorkflowGoalType.SaleCreatedOnPerson
+  - SuperOffice.Data.WorkflowGoalType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoalType
+  nameWithType: WorkflowGoalType
+  fullName: SuperOffice.Data.WorkflowGoalType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nWorkflow Goal Type\nThis Enum is used by:  workflow_goal.goal_type\n"
+  syntax:
+    content: 'public sealed class WorkflowGoalType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowGoalType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.WorkflowGoalType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WorkflowGoalType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowGoalType.value__
+  commentId: F:SuperOffice.Data.WorkflowGoalType.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowGoalType.value__
+  fullName: SuperOffice.Data.WorkflowGoalType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.WorkflowGoalType.None
+  commentId: F:SuperOffice.Data.WorkflowGoalType.None
+  id: None
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowGoalType.None
+  fullName: SuperOffice.Data.WorkflowGoalType.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowGoalType None
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const None As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.PersonUpdated
+  commentId: F:SuperOffice.Data.WorkflowGoalType.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: WorkflowGoalType.PersonUpdated
+  fullName: SuperOffice.Data.WorkflowGoalType.PersonUpdated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: PersonUpdated\n"
+  syntax:
+    content: public const WorkflowGoalType PersonUpdated
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const PersonUpdated As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.SaleCreatedOnPerson
+  commentId: F:SuperOffice.Data.WorkflowGoalType.SaleCreatedOnPerson
+  id: SaleCreatedOnPerson
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: SaleCreatedOnPerson
+  nameWithType: WorkflowGoalType.SaleCreatedOnPerson
+  fullName: SuperOffice.Data.WorkflowGoalType.SaleCreatedOnPerson
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: SaleCreatedOnPerson\n"
+  syntax:
+    content: public const WorkflowGoalType SaleCreatedOnPerson
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const SaleCreatedOnPerson As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.SaleCreatedOnCompany
+  commentId: F:SuperOffice.Data.WorkflowGoalType.SaleCreatedOnCompany
+  id: SaleCreatedOnCompany
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: SaleCreatedOnCompany
+  nameWithType: WorkflowGoalType.SaleCreatedOnCompany
+  fullName: SuperOffice.Data.WorkflowGoalType.SaleCreatedOnCompany
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: SaleCreatedOnCompany\n"
+  syntax:
+    content: public const WorkflowGoalType SaleCreatedOnCompany
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const SaleCreatedOnCompany As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.AppointmentCreated
+  commentId: F:SuperOffice.Data.WorkflowGoalType.AppointmentCreated
+  id: AppointmentCreated
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: AppointmentCreated
+  nameWithType: WorkflowGoalType.AppointmentCreated
+  fullName: SuperOffice.Data.WorkflowGoalType.AppointmentCreated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: AppointmentCreated\n"
+  syntax:
+    content: public const WorkflowGoalType AppointmentCreated
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const AppointmentCreated As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.AddedToProject
+  commentId: F:SuperOffice.Data.WorkflowGoalType.AddedToProject
+  id: AddedToProject
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: AddedToProject
+  nameWithType: WorkflowGoalType.AddedToProject
+  fullName: SuperOffice.Data.WorkflowGoalType.AddedToProject
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: AddedToProject\n"
+  syntax:
+    content: public const WorkflowGoalType AddedToProject
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const AddedToProject As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.AddedToSelection
+  commentId: F:SuperOffice.Data.WorkflowGoalType.AddedToSelection
+  id: AddedToSelection
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: AddedToSelection
+  nameWithType: WorkflowGoalType.AddedToSelection
+  fullName: SuperOffice.Data.WorkflowGoalType.AddedToSelection
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: AddedToSelection\n"
+  syntax:
+    content: public const WorkflowGoalType AddedToSelection
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const AddedToSelection As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.FormSubmitted
+  commentId: F:SuperOffice.Data.WorkflowGoalType.FormSubmitted
+  id: FormSubmitted
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: FormSubmitted
+  nameWithType: WorkflowGoalType.FormSubmitted
+  fullName: SuperOffice.Data.WorkflowGoalType.FormSubmitted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: FormSubmitted\n"
+  syntax:
+    content: public const WorkflowGoalType FormSubmitted
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const FormSubmitted As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.HadChat
+  commentId: F:SuperOffice.Data.WorkflowGoalType.HadChat
+  id: HadChat
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: HadChat
+  nameWithType: WorkflowGoalType.HadChat
+  fullName: SuperOffice.Data.WorkflowGoalType.HadChat
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: HadChat\n"
+  syntax:
+    content: public const WorkflowGoalType HadChat
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const HadChat As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.LinkClicked
+  commentId: F:SuperOffice.Data.WorkflowGoalType.LinkClicked
+  id: LinkClicked
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: LinkClicked
+  nameWithType: WorkflowGoalType.LinkClicked
+  fullName: SuperOffice.Data.WorkflowGoalType.LinkClicked
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: LinkClicked\n"
+  syntax:
+    content: public const WorkflowGoalType LinkClicked
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const LinkClicked As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowGoalType.RequestCreated
+  commentId: F:SuperOffice.Data.WorkflowGoalType.RequestCreated
+  id: RequestCreated
+  parent: SuperOffice.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: RequestCreated
+  nameWithType: WorkflowGoalType.RequestCreated
+  fullName: SuperOffice.Data.WorkflowGoalType.RequestCreated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: RequestCreated\n"
+  syntax:
+    content: public const WorkflowGoalType RequestCreated
+    return:
+      type: SuperOffice.Data.WorkflowGoalType
+    content.vb: Public Const RequestCreated As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.WorkflowGoalType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowGoalType, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowGoalType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowGoalType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowGoalType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowGoalType, To)()
+  name.vb: MapEnums(Of WorkflowGoalType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowGoalType, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowGoalType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowGoalType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowGoalType, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowGoalType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowGoalType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WorkflowGoalType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowGoalType, To>()
+  nameWithType: Converters.MapEnums<WorkflowGoalType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowGoalType, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowGoalType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowGoalType, To)()
+  name.vb: MapEnums(Of WorkflowGoalType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowGoalType, To>
+    nameWithType: Converters.MapEnums<WorkflowGoalType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowGoalType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowGoalType, To)
+    nameWithType: Converters.MapEnums(Of WorkflowGoalType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowGoalType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.WorkflowGoalType
+  commentId: T:SuperOffice.Data.WorkflowGoalType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowGoalType
+  nameWithType: WorkflowGoalType
+  fullName: SuperOffice.Data.WorkflowGoalType

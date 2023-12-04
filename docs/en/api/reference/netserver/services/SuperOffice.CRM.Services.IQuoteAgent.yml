@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.IQuoteAgent.AddSaleTypeQuoteAttachment(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IQuoteAgent.ApproveQuoteVersion(System.Int32,System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest(System.Int32)
   - SuperOffice.CRM.Services.IQuoteAgent.CanConnectorProvideCapability(System.Int32,System.String)
   - SuperOffice.CRM.Services.IQuoteAgent.CopyQuoteAlternative(System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Services.IQuoteAgent.CopySuperOfficePriceList(System.Int32,System.String,System.DateTime,System.DateTime,System.Int32,System.Boolean)
@@ -81,6 +82,7 @@ items:
   - SuperOffice.CRM.Services.IQuoteAgent.RecalculateQuoteLine(SuperOffice.CRM.Services.QuoteLine,System.String[])
   - SuperOffice.CRM.Services.IQuoteAgent.RejectQuoteVersion(System.Int32,System.String,System.Int32,System.String)
   - SuperOffice.CRM.Services.IQuoteAgent.RemoveProduct(System.Int32)
+  - SuperOffice.CRM.Services.IQuoteAgent.RequestApproval(System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Services.IQuoteAgent.RestoreConnection(System.Int32)
   - SuperOffice.CRM.Services.IQuoteAgent.SaveConnection(SuperOffice.CRM.Services.QuoteConnection)
   - SuperOffice.CRM.Services.IQuoteAgent.SaveConnectionConfigFields(System.Int32,SuperOffice.CRM.Services.StringDictionary)
@@ -493,7 +495,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.PriceList
       description: The copied PriceList
-    content.vb: Function CopySuperOfficePriceList(originalPriceListId As Integer, newName As String, validFrom As Date, validTo As Date, newCurrencyId As Integer, convertCurrency As Boolean) As PriceList
+    content.vb: Function CopySuperOfficePriceList(originalPriceListId As Integer, newName As String, validFrom As DateTime, validTo As DateTime, newCurrencyId As Integer, convertCurrency As Boolean) As PriceList
   overload: SuperOffice.CRM.Services.IQuoteAgent.CopySuperOfficePriceList*
 - uid: SuperOffice.CRM.Services.IQuoteAgent.GetProductImage(System.Int32,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetProductImage(System.Int32,System.String,System.Int32)
@@ -764,256 +766,6 @@ items:
       description: The Quote
     content.vb: Function GetQuoteFromSaleId(saleId As Integer) As Quote
   overload: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteFromSaleId*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote(System.Int32,System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote(System.Int32,System.Int32,System.String)
-  id: CreateAndSaveQuote(System.Int32,System.Int32,System.String)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateAndSaveQuote(Int32, Int32, String)
-  nameWithType: IQuoteAgent.CreateAndSaveQuote(Int32, Int32, String)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote(System.Int32, System.Int32, System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nCreates a new quote on a sale.\n"
-  syntax:
-    content: QuoteEntity CreateAndSaveQuote(int saleId, int connectionId, string firstAlternativeName)
-    parameters:
-    - id: saleId
-      type: System.Int32
-      description: SaleId of the connected sale
-    - id: connectionId
-      type: System.Int32
-      description: ConnectionId
-    - id: firstAlternativeName
-      type: System.String
-      description: Name to be given to the default alternative
-    return:
-      type: SuperOffice.CRM.Services.QuoteEntity
-      description: Quote carrier
-    content.vb: Function CreateAndSaveQuote(saleId As Integer, connectionId As Integer, firstAlternativeName As String) As QuoteEntity
-  overload: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity(System.Int32)
-  id: GetQuoteEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: GetQuoteEntity(Int32)
-  nameWithType: IQuoteAgent.GetQuoteEntity(Int32)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet a Quote\n"
-  syntax:
-    content: QuoteEntity GetQuoteEntity(int quoteId)
-    parameters:
-    - id: quoteId
-      type: System.Int32
-      description: QuoteId of the Quote to get.
-    return:
-      type: SuperOffice.CRM.Services.QuoteEntity
-      description: The Quote
-    content.vb: Function GetQuoteEntity(quoteId As Integer) As QuoteEntity
-  overload: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId(System.Int32)
-  id: GetQuoteEntityFromSaleId(System.Int32)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: GetQuoteEntityFromSaleId(Int32)
-  nameWithType: IQuoteAgent.GetQuoteEntityFromSaleId(Int32)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet a Quote for a sale\n"
-  syntax:
-    content: QuoteEntity GetQuoteEntityFromSaleId(int saleId)
-    parameters:
-    - id: saleId
-      type: System.Int32
-      description: SaleId of the Quote to get.
-    return:
-      type: SuperOffice.CRM.Services.QuoteEntity
-      description: The Quote
-    content.vb: Function GetQuoteEntityFromSaleId(saleId As Integer) As QuoteEntity
-  overload: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
-  id: SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveQuoteEntity(QuoteEntity)
-  nameWithType: IQuoteAgent.SaveQuoteEntity(QuoteEntity)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nSaves a QuoteEntity. Versions and alternatives will not be saved by this call.\n"
-  syntax:
-    content: QuoteEntity SaveQuoteEntity(QuoteEntity quoteEntity)
-    parameters:
-    - id: quoteEntity
-      type: SuperOffice.CRM.Services.QuoteEntity
-      description: The Quote entity to save
-    return:
-      type: SuperOffice.CRM.Services.QuoteEntity
-      description: The saved Quote
-    content.vb: Function SaveQuoteEntity(quoteEntity As QuoteEntity) As QuoteEntity
-  overload: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale(System.Int32,System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale(System.Int32,System.Int32)
-  id: CreateAndSaveQuoteFromSale(System.Int32,System.Int32)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateAndSaveQuoteFromSale(Int32, Int32)
-  nameWithType: IQuoteAgent.CreateAndSaveQuoteFromSale(Int32, Int32)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale(System.Int32, System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nCreates a copy the active version with connected alternatives and quotelines from another sale.\n"
-  syntax:
-    content: QuoteEntity CreateAndSaveQuoteFromSale(int copyFromSaleId, int copyToSaleId)
-    parameters:
-    - id: copyFromSaleId
-      type: System.Int32
-      description: Id of the sale to copy the active quote from.
-    - id: copyToSaleId
-      type: System.Int32
-      description: Id of the sale to copy the active quote to.
-    return:
-      type: SuperOffice.CRM.Services.QuoteEntity
-      description: The created Quote
-    content.vb: Function CreateAndSaveQuoteFromSale(copyFromSaleId As Integer, copyToSaleId As Integer) As QuoteEntity
-  overload: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder(System.Int32,System.Boolean,System.String,System.String,System.String)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder(System.Int32,System.Boolean,System.String,System.String,System.String)
-  id: PlaceOrder(System.Int32,System.Boolean,System.String,System.String,System.String)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: PlaceOrder(Int32, Boolean, String, String, String)
-  nameWithType: IQuoteAgent.PlaceOrder(Int32, Boolean, String, String, String)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder(System.Int32, System.Boolean, System.String, System.String, System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nPlace an order in the ERP system.\n"
-  syntax:
-    content: PluginUrlResponse PlaceOrder(int quoteAlternativeId, bool markSaleAsSold, string poNumber, string orderComment, string culture)
-    parameters:
-    - id: quoteAlternativeId
-      type: System.Int32
-      description: Id of the alternative to place the order on.
-    - id: markSaleAsSold
-      type: System.Boolean
-      description: Should the state of the owning Sale be set to sold
-    - id: poNumber
-      type: System.String
-      description: Purchase order number, saved to Quote record
-    - id: orderComment
-      type: System.String
-      description: Order comment, saved to Quote record
-    - id: culture
-      type: System.String
-      description: Desired culture for email body and other culture-sensitive templates/content
-    return:
-      type: SuperOffice.CRM.Services.PluginUrlResponse
-      description: Status for the placed order.
-    content.vb: Function PlaceOrder(quoteAlternativeId As Integer, markSaleAsSold As Boolean, poNumber As String, orderComment As String, culture As String) As PluginUrlResponse
-  overload: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetOrderState(System.Int32)
-  id: GetOrderState(System.Int32)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: GetOrderState(Int32)
-  nameWithType: IQuoteAgent.GetOrderState(Int32)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nIf there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative. A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.\n"
-  syntax:
-    content: PluginUrlResponse GetOrderState(int quoteVersionId)
-    parameters:
-    - id: quoteVersionId
-      type: System.Int32
-      description: the QuoteVersionId of the ordered version.
-    return:
-      type: SuperOffice.CRM.Services.PluginUrlResponse
-      description: The order state. If a new quoteversion is created, the QuoteVersionId will be found in Changes.AddedRecords.
-    content.vb: Function GetOrderState(quoteVersionId As Integer) As PluginUrlResponse
-  overload: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState*
-- uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote(System.Int32)
-  id: DeleteQuote(System.Int32)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteQuote(Int32)
-  nameWithType: IQuoteAgent.DeleteQuote(Int32)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDelete a Quote\n"
-  syntax:
-    content: void DeleteQuote(int quoteId)
-    parameters:
-    - id: quoteId
-      type: System.Int32
-      description: QuoteId of the Quote to delete.
-    content.vb: Sub DeleteQuote(quoteId As Integer)
-  overload: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote*
 - uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteAlternative(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteAlternative(System.Int32)
   id: GetQuoteAlternative(System.Int32)
@@ -1827,6 +1579,256 @@ items:
       description: Config Fields
     content.vb: Function SaveConnectionConfigFields(quoteConnectionId As Integer, connectionConfigFields As StringDictionary) As StringDictionary
   overload: SuperOffice.CRM.Services.IQuoteAgent.SaveConnectionConfigFields*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote(System.Int32,System.Int32,System.String)
+  id: CreateAndSaveQuote(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateAndSaveQuote(Int32, Int32, String)
+  nameWithType: IQuoteAgent.CreateAndSaveQuote(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a new quote on a sale.\n"
+  syntax:
+    content: QuoteEntity CreateAndSaveQuote(int saleId, int connectionId, string firstAlternativeName)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: SaleId of the connected sale
+    - id: connectionId
+      type: System.Int32
+      description: ConnectionId
+    - id: firstAlternativeName
+      type: System.String
+      description: Name to be given to the default alternative
+    return:
+      type: SuperOffice.CRM.Services.QuoteEntity
+      description: Quote carrier
+    content.vb: Function CreateAndSaveQuote(saleId As Integer, connectionId As Integer, firstAlternativeName As String) As QuoteEntity
+  overload: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity(System.Int32)
+  id: GetQuoteEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteEntity(Int32)
+  nameWithType: IQuoteAgent.GetQuoteEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a Quote\n"
+  syntax:
+    content: QuoteEntity GetQuoteEntity(int quoteId)
+    parameters:
+    - id: quoteId
+      type: System.Int32
+      description: QuoteId of the Quote to get.
+    return:
+      type: SuperOffice.CRM.Services.QuoteEntity
+      description: The Quote
+    content.vb: Function GetQuoteEntity(quoteId As Integer) As QuoteEntity
+  overload: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId(System.Int32)
+  id: GetQuoteEntityFromSaleId(System.Int32)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteEntityFromSaleId(Int32)
+  nameWithType: IQuoteAgent.GetQuoteEntityFromSaleId(Int32)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a Quote for a sale\n"
+  syntax:
+    content: QuoteEntity GetQuoteEntityFromSaleId(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: SaleId of the Quote to get.
+    return:
+      type: SuperOffice.CRM.Services.QuoteEntity
+      description: The Quote
+    content.vb: Function GetQuoteEntityFromSaleId(saleId As Integer) As QuoteEntity
+  overload: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
+  id: SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveQuoteEntity(QuoteEntity)
+  nameWithType: IQuoteAgent.SaveQuoteEntity(QuoteEntity)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity(SuperOffice.CRM.Services.QuoteEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves a QuoteEntity. Versions and alternatives will not be saved by this call.\n"
+  syntax:
+    content: QuoteEntity SaveQuoteEntity(QuoteEntity quoteEntity)
+    parameters:
+    - id: quoteEntity
+      type: SuperOffice.CRM.Services.QuoteEntity
+      description: The Quote entity to save
+    return:
+      type: SuperOffice.CRM.Services.QuoteEntity
+      description: The saved Quote
+    content.vb: Function SaveQuoteEntity(quoteEntity As QuoteEntity) As QuoteEntity
+  overload: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale(System.Int32,System.Int32)
+  id: CreateAndSaveQuoteFromSale(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateAndSaveQuoteFromSale(Int32, Int32)
+  nameWithType: IQuoteAgent.CreateAndSaveQuoteFromSale(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a copy the active version with connected alternatives and quotelines from another sale.\n"
+  syntax:
+    content: QuoteEntity CreateAndSaveQuoteFromSale(int copyFromSaleId, int copyToSaleId)
+    parameters:
+    - id: copyFromSaleId
+      type: System.Int32
+      description: Id of the sale to copy the active quote from.
+    - id: copyToSaleId
+      type: System.Int32
+      description: Id of the sale to copy the active quote to.
+    return:
+      type: SuperOffice.CRM.Services.QuoteEntity
+      description: The created Quote
+    content.vb: Function CreateAndSaveQuoteFromSale(copyFromSaleId As Integer, copyToSaleId As Integer) As QuoteEntity
+  overload: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder(System.Int32,System.Boolean,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder(System.Int32,System.Boolean,System.String,System.String,System.String)
+  id: PlaceOrder(System.Int32,System.Boolean,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: PlaceOrder(Int32, Boolean, String, String, String)
+  nameWithType: IQuoteAgent.PlaceOrder(Int32, Boolean, String, String, String)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder(System.Int32, System.Boolean, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPlace an order in the ERP system.\n"
+  syntax:
+    content: PluginUrlResponse PlaceOrder(int quoteAlternativeId, bool markSaleAsSold, string poNumber, string orderComment, string culture)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+      description: Id of the alternative to place the order on.
+    - id: markSaleAsSold
+      type: System.Boolean
+      description: Should the state of the owning Sale be set to sold
+    - id: poNumber
+      type: System.String
+      description: Purchase order number, saved to Quote record
+    - id: orderComment
+      type: System.String
+      description: Order comment, saved to Quote record
+    - id: culture
+      type: System.String
+      description: Desired culture for email body and other culture-sensitive templates/content
+    return:
+      type: SuperOffice.CRM.Services.PluginUrlResponse
+      description: 'Status for the placed order: OkWithInfo / Warn / Error with message or URL to open.'
+    content.vb: Function PlaceOrder(quoteAlternativeId As Integer, markSaleAsSold As Boolean, poNumber As String, orderComment As String, culture As String) As PluginUrlResponse
+  overload: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetOrderState(System.Int32)
+  id: GetOrderState(System.Int32)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOrderState(Int32)
+  nameWithType: IQuoteAgent.GetOrderState(Int32)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative. A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.\n"
+  syntax:
+    content: PluginUrlResponse GetOrderState(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: the QuoteVersionId of the ordered version.
+    return:
+      type: SuperOffice.CRM.Services.PluginUrlResponse
+      description: The order state. If a new quoteversion is created, the QuoteVersionId will be found in Changes.AddedRecords.
+    content.vb: Function GetOrderState(quoteVersionId As Integer) As PluginUrlResponse
+  overload: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote(System.Int32)
+  id: DeleteQuote(System.Int32)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuote(Int32)
+  nameWithType: IQuoteAgent.DeleteQuote(Int32)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a Quote\n"
+  syntax:
+    content: void DeleteQuote(int quoteId)
+    parameters:
+    - id: quoteId
+      type: System.Int32
+      description: QuoteId of the Quote to delete.
+    content.vb: Sub DeleteQuote(quoteId As Integer)
+  overload: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote*
 - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateQuoteLine(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateQuoteLine(System.Int32,System.String)
   id: CreateQuoteLine(System.Int32,System.String)
@@ -2549,7 +2551,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.PluginUrlResponse
       description: Response of the operation
-    content.vb: Function SendQuoteVersion(quoteVersionId As Integer, expiryDate As Date, followupDate As Date, followupText As String, culture As String) As PluginUrlResponse
+    content.vb: Function SendQuoteVersion(quoteVersionId As Integer, expiryDate As DateTime, followupDate As DateTime, followupText As String, culture As String) As PluginUrlResponse
   overload: SuperOffice.CRM.Services.IQuoteAgent.SendQuoteVersion*
 - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
   commentId: M:SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteVersion(SuperOffice.CRM.Services.QuoteVersion)
@@ -2915,6 +2917,70 @@ items:
       description: Most important status text + icon information.
     content.vb: Function GetQuoteVersionWorkflowStatusInfo(quoteVersionId As Integer) As QuoteVersionStatusInformation
   overload: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteVersionWorkflowStatusInfo*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.RequestApproval(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.RequestApproval(System.Int32,System.Int32,System.String)
+  id: RequestApproval(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: RequestApproval(Int32, Int32, String)
+  nameWithType: IQuoteAgent.RequestApproval(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.RequestApproval(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNotifies specified associate that this quote needs approval.\n"
+  syntax:
+    content: PluginResponse RequestApproval(int quoteVersionId, int associateId, string comment)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: The quoteversion to be approved.
+    - id: associateId
+      type: System.Int32
+      description: The associate that should be notified.
+    - id: comment
+      type: System.String
+      description: Details or reason for request
+    return:
+      type: SuperOffice.CRM.Services.PluginResponse
+      description: Response of the the operation
+    content.vb: Function RequestApproval(quoteVersionId As Integer, associateId As Integer, comment As String) As PluginResponse
+  overload: SuperOffice.CRM.Services.IQuoteAgent.RequestApproval*
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest(System.Int32)
+  id: CancelApprovalRequest(System.Int32)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: CancelApprovalRequest(Int32)
+  nameWithType: IQuoteAgent.CancelApprovalRequest(Int32)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCancel a pending quote approval request.\n"
+  syntax:
+    content: PluginResponse CancelApprovalRequest(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: The quoteversion for which approval was previously sent.
+    return:
+      type: SuperOffice.CRM.Services.PluginResponse
+      description: Response of the the operation
+    content.vb: Function CancelApprovalRequest(quoteVersionId As Integer) As PluginResponse
+  overload: SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest*
 - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateOrUpdateQuoteVersionAttachments(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateOrUpdateQuoteVersionAttachments(System.Int32)
   id: CreateOrUpdateQuoteVersionAttachments(System.Int32)
@@ -3235,8 +3301,6 @@ references:
   nameWithType: IQuoteAgent.CopySuperOfficePriceList
   fullName: SuperOffice.CRM.Services.IQuoteAgent.CopySuperOfficePriceList
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -3335,68 +3399,6 @@ references:
   name: GetQuoteFromSaleId
   nameWithType: IQuoteAgent.GetQuoteFromSaleId
   fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteFromSaleId
-- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote
-  isExternal: true
-  name: CreateAndSaveQuote
-  nameWithType: IQuoteAgent.CreateAndSaveQuote
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote
-- uid: SuperOffice.CRM.Services.QuoteEntity
-  commentId: T:SuperOffice.CRM.Services.QuoteEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: QuoteEntity
-  nameWithType: QuoteEntity
-  fullName: SuperOffice.CRM.Services.QuoteEntity
-- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity
-  isExternal: true
-  name: GetQuoteEntity
-  nameWithType: IQuoteAgent.GetQuoteEntity
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity
-- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId
-  isExternal: true
-  name: GetQuoteEntityFromSaleId
-  nameWithType: IQuoteAgent.GetQuoteEntityFromSaleId
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId
-- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity
-  isExternal: true
-  name: SaveQuoteEntity
-  nameWithType: IQuoteAgent.SaveQuoteEntity
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity
-- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale
-  isExternal: true
-  name: CreateAndSaveQuoteFromSale
-  nameWithType: IQuoteAgent.CreateAndSaveQuoteFromSale
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale
-- uid: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder
-  isExternal: true
-  name: PlaceOrder
-  nameWithType: IQuoteAgent.PlaceOrder
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder
-- uid: SuperOffice.CRM.Services.PluginUrlResponse
-  commentId: T:SuperOffice.CRM.Services.PluginUrlResponse
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: PluginUrlResponse
-  nameWithType: PluginUrlResponse
-  fullName: SuperOffice.CRM.Services.PluginUrlResponse
-- uid: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.GetOrderState
-  isExternal: true
-  name: GetOrderState
-  nameWithType: IQuoteAgent.GetOrderState
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState
-- uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote*
-  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote
-  isExternal: true
-  name: DeleteQuote
-  nameWithType: IQuoteAgent.DeleteQuote
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote
 - uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteAlternative*
   commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteAlternative
   isExternal: true
@@ -3709,6 +3711,68 @@ references:
   name: SaveConnectionConfigFields
   nameWithType: IQuoteAgent.SaveConnectionConfigFields
   fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveConnectionConfigFields
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote
+  isExternal: true
+  name: CreateAndSaveQuote
+  nameWithType: IQuoteAgent.CreateAndSaveQuote
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote
+- uid: SuperOffice.CRM.Services.QuoteEntity
+  commentId: T:SuperOffice.CRM.Services.QuoteEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: QuoteEntity
+  nameWithType: QuoteEntity
+  fullName: SuperOffice.CRM.Services.QuoteEntity
+- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity
+  isExternal: true
+  name: GetQuoteEntity
+  nameWithType: IQuoteAgent.GetQuoteEntity
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntity
+- uid: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId
+  isExternal: true
+  name: GetQuoteEntityFromSaleId
+  nameWithType: IQuoteAgent.GetQuoteEntityFromSaleId
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetQuoteEntityFromSaleId
+- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity
+  isExternal: true
+  name: SaveQuoteEntity
+  nameWithType: IQuoteAgent.SaveQuoteEntity
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteEntity
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale
+  isExternal: true
+  name: CreateAndSaveQuoteFromSale
+  nameWithType: IQuoteAgent.CreateAndSaveQuoteFromSale
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuoteFromSale
+- uid: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder
+  isExternal: true
+  name: PlaceOrder
+  nameWithType: IQuoteAgent.PlaceOrder
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.PlaceOrder
+- uid: SuperOffice.CRM.Services.PluginUrlResponse
+  commentId: T:SuperOffice.CRM.Services.PluginUrlResponse
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PluginUrlResponse
+  nameWithType: PluginUrlResponse
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse
+- uid: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.GetOrderState
+  isExternal: true
+  name: GetOrderState
+  nameWithType: IQuoteAgent.GetOrderState
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetOrderState
+- uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote
+  isExternal: true
+  name: DeleteQuote
+  nameWithType: IQuoteAgent.DeleteQuote
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.DeleteQuote
 - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateQuoteLine*
   commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.CreateQuoteLine
   isExternal: true
@@ -4148,6 +4212,18 @@ references:
   name: QuoteVersionStatusInformation
   nameWithType: QuoteVersionStatusInformation
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation
+- uid: SuperOffice.CRM.Services.IQuoteAgent.RequestApproval*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.RequestApproval
+  isExternal: true
+  name: RequestApproval
+  nameWithType: IQuoteAgent.RequestApproval
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.RequestApproval
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest*
+  commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest
+  isExternal: true
+  name: CancelApprovalRequest
+  nameWithType: IQuoteAgent.CancelApprovalRequest
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest
 - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateOrUpdateQuoteVersionAttachments*
   commentId: Overload:SuperOffice.CRM.Services.IQuoteAgent.CreateOrUpdateQuoteVersionAttachments
   isExternal: true

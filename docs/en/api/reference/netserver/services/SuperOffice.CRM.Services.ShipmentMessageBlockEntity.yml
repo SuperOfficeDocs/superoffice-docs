@@ -263,7 +263,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered*
   modifiers.csharp:
   - public
@@ -329,7 +329,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated*
   modifiers.csharp:
   - public
@@ -412,13 +412,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.MarketingAgent
   commentId: T:SuperOffice.CRM.Services.MarketingAgent
   isExternal: true
@@ -432,12 +425,6 @@ references:
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.CRM.Services.IMarketingAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor
   isExternal: true
@@ -457,6 +444,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId*
   commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId
   isExternal: true
@@ -489,8 +482,6 @@ references:
   nameWithType: ShipmentMessageBlockEntity.Registered
   fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

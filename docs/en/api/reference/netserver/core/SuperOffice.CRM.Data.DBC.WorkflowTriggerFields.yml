@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  id: DBC.WorkflowTriggerFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Registered
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.TriggerType
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Updated
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowId
+  - SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowTriggerId
+  langs:
+  - csharp
+  - vb
+  name: DBC.WorkflowTriggerFields
+  nameWithType: DBC.WorkflowTriggerFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for WorkflowTrigger, A set of triggers related to a workflow.\n"
+  syntax:
+    content: 'public static class WorkflowTriggerFields : Object'
+    content.vb: >-
+      Public Module WorkflowTriggerFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowTriggerId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowTriggerId
+  id: WorkflowTriggerId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerId
+  nameWithType: DBC.WorkflowTriggerFields.WorkflowTriggerId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowTriggerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.WorkflowTriggerId: Primary key\n"
+  syntax:
+    content: public const string WorkflowTriggerId = "workflow_trigger_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowTriggerId As String = "workflow_trigger_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: DBC.WorkflowTriggerFields.WorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.WorkflowId: The flow this trigger belongs to\n"
+  syntax:
+    content: public const string WorkflowId = "workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowId As String = "workflow_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.TriggerType
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.TriggerType
+  id: TriggerType
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: TriggerType
+  nameWithType: DBC.WorkflowTriggerFields.TriggerType
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.TriggerType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.TriggerType: What kind of trigger is this\n"
+  syntax:
+    content: public const string TriggerType = "trigger_type"
+    return:
+      type: System.String
+    content.vb: Public Const TriggerType As String = "trigger_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.WorkflowTriggerFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.WorkflowTriggerFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.WorkflowTriggerFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.WorkflowTriggerFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.WorkflowTriggerFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowTriggerFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowTrigger.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

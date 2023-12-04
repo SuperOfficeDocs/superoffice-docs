@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.NotificationEvent
+  commentId: T:SuperOffice.CRM.Services.NotificationEvent
+  id: NotificationEvent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.NotificationEvent.#ctor
+  - SuperOffice.CRM.Services.NotificationEvent.Id
+  - SuperOffice.CRM.Services.NotificationEvent.ToString
+  - SuperOffice.CRM.Services.NotificationEvent.ToString(System.String)
+  - SuperOffice.CRM.Services.NotificationEvent.Type
+  langs:
+  - csharp
+  - vb
+  name: NotificationEvent
+  nameWithType: NotificationEvent
+  fullName: SuperOffice.CRM.Services.NotificationEvent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier for a notification event for a given notification type and entity id\n<p></p>\nCarrier object for NotificationEvent.\nServices for the NotificationEvent Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPocketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class NotificationEvent : Object'
+    content.vb: >-
+      Public Class NotificationEvent
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PocketAgent
+    commentId: T:SuperOffice.CRM.Services.PocketAgent
+  - linkId: SuperOffice.CRM.Services.IPocketAgent
+    commentId: T:SuperOffice.CRM.Services.IPocketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.NotificationEvent.#ctor
+  commentId: M:SuperOffice.CRM.Services.NotificationEvent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: NotificationEvent()
+  nameWithType: NotificationEvent.NotificationEvent()
+  fullName: SuperOffice.CRM.Services.NotificationEvent.NotificationEvent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public NotificationEvent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.NotificationEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NotificationEvent.ToString
+  commentId: M:SuperOffice.CRM.Services.NotificationEvent.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: NotificationEvent.ToString()
+  fullName: SuperOffice.CRM.Services.NotificationEvent.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.NotificationEvent.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.NotificationEvent.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.NotificationEvent.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: NotificationEvent.ToString(String)
+  fullName: SuperOffice.CRM.Services.NotificationEvent.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.NotificationEvent.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NotificationEvent.Type
+  commentId: P:SuperOffice.CRM.Services.NotificationEvent.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: NotificationEvent.Type
+  fullName: SuperOffice.CRM.Services.NotificationEvent.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nType of notification event \n"
+  syntax:
+    content: public virtual NotificationEventType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.NotificationEventType
+    content.vb: Public Overridable Property Type As NotificationEventType
+  overload: SuperOffice.CRM.Services.NotificationEvent.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.NotificationEvent.Id
+  commentId: P:SuperOffice.CRM.Services.NotificationEvent.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.NotificationEvent
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: NotificationEvent.Id
+  fullName: SuperOffice.CRM.Services.NotificationEvent.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of entity this notification event is about \n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.NotificationEvent.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.PocketAgent
+  commentId: T:SuperOffice.CRM.Services.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.CRM.Services.PocketAgent
+- uid: SuperOffice.CRM.Services.IPocketAgent
+  commentId: T:SuperOffice.CRM.Services.IPocketAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPocketAgent
+  nameWithType: IPocketAgent
+  fullName: SuperOffice.CRM.Services.IPocketAgent
+- uid: SuperOffice.CRM.Services.NotificationEvent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NotificationEvent.#ctor
+  isExternal: true
+  name: NotificationEvent
+  nameWithType: NotificationEvent.NotificationEvent
+  fullName: SuperOffice.CRM.Services.NotificationEvent.NotificationEvent
+- uid: SuperOffice.CRM.Services.NotificationEvent.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.NotificationEvent.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: NotificationEvent.ToString
+  fullName: SuperOffice.CRM.Services.NotificationEvent.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.NotificationEvent.Type*
+  commentId: Overload:SuperOffice.CRM.Services.NotificationEvent.Type
+  isExternal: true
+  name: Type
+  nameWithType: NotificationEvent.Type
+  fullName: SuperOffice.CRM.Services.NotificationEvent.Type
+- uid: SuperOffice.Data.NotificationEventType
+  isExternal: true
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: SuperOffice.Data.NotificationEventType
+- uid: SuperOffice.CRM.Services.NotificationEvent.Id*
+  commentId: Overload:SuperOffice.CRM.Services.NotificationEvent.Id
+  isExternal: true
+  name: Id
+  nameWithType: NotificationEvent.Id
+  fullName: SuperOffice.CRM.Services.NotificationEvent.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  id: WorkflowStepRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  - SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  - SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepRecordData)
+  - SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData})
+  - SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepRow)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepRecordDataExtensions
+  nameWithType: WorkflowStepRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.WorkflowStepRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: 'public static class WorkflowStepRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module WorkflowStepRecordDataExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<WorkflowStepTableInfo>)
+  nameWithType: WorkflowStepRecordDataExtensions.FromSelect(TargetedSelect<WorkflowStepTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WorkflowStepTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;WorkflowStepTableInfo>, execute it and return an IEnumerable&lt;WorkflowStepRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<WorkflowStepRecordData> FromSelect(this TargetedSelect<WorkflowStepTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of WorkflowStepTableInfo)) As IEnumerable(Of WorkflowStepRecordData)
+  overload: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect*
+  nameWithType.vb: WorkflowStepRecordDataExtensions.FromSelect(TargetedSelect(Of WorkflowStepTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WorkflowStepTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of WorkflowStepTableInfo))
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<WorkflowStepTableInfo>)
+  nameWithType: WorkflowStepRecordDataExtensions.FromRecord(TargetedDataRecord<WorkflowStepTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WorkflowStepTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;WorkflowStepTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.WorkflowStepRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { WorkflowStepItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static WorkflowStepRecordData FromRecord(this TargetedDataRecord<WorkflowStepTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.WorkflowStepRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of WorkflowStepTableInfo)) As WorkflowStepRecordData
+  overload: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord*
+  nameWithType.vb: WorkflowStepRecordDataExtensions.FromRecord(TargetedDataRecord(Of WorkflowStepTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WorkflowStepTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of WorkflowStepTableInfo))
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.WorkflowStepRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(WorkflowStepRecordData)
+  nameWithType: WorkflowStepRecordDataExtensions.ToInsert(WorkflowStepRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this WorkflowStepRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.WorkflowStepRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As WorkflowStepRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<WorkflowStepRecordData>)
+  nameWithType: WorkflowStepRecordDataExtensions.ToInserts(IEnumerable<WorkflowStepRecordData>)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WorkflowStepRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<WorkflowStepRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of WorkflowStepRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts*
+  nameWithType.vb: WorkflowStepRecordDataExtensions.ToInserts(IEnumerable(Of WorkflowStepRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WorkflowStepRecordData))
+  name.vb: ToInserts(IEnumerable(Of WorkflowStepRecordData))
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepRow)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.WorkflowStepRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(WorkflowStepRow)
+  nameWithType: WorkflowStepRecordDataExtensions.ToRecordData(WorkflowStepRow)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static WorkflowStepRecordData ToRecordData(this WorkflowStepRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.WorkflowStepRow
+    return:
+      type: SuperOffice.CRM.Rows.WorkflowStepRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As WorkflowStepRow) As WorkflowStepRecordData
+  overload: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: WorkflowStepRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<WorkflowStepTableInfo>
+  nameWithType: TargetedSelect<WorkflowStepTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WorkflowStepTableInfo>
+  nameWithType.vb: TargetedSelect(Of WorkflowStepTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WorkflowStepTableInfo)
+  name.vb: TargetedSelect(Of WorkflowStepTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<WorkflowStepRecordData>
+  nameWithType: IEnumerable<WorkflowStepRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WorkflowStepRecordData>
+  nameWithType.vb: IEnumerable(Of WorkflowStepRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WorkflowStepRecordData)
+  name.vb: IEnumerable(Of WorkflowStepRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.WorkflowStepRecordData
+    name: WorkflowStepRecordData
+    nameWithType: WorkflowStepRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.WorkflowStepRecordData
+    name: WorkflowStepRecordData
+    nameWithType: WorkflowStepRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: WorkflowStepRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<WorkflowStepTableInfo>
+  nameWithType: TargetedDataRecord<WorkflowStepTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WorkflowStepTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of WorkflowStepTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WorkflowStepTableInfo)
+  name.vb: TargetedDataRecord(Of WorkflowStepTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordData
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowStepRecordData
+  nameWithType: WorkflowStepRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: WorkflowStepRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: WorkflowStepRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData
+  isExternal: true
+  name: ToRecordData
+  nameWithType: WorkflowStepRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.WorkflowStepRow
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowStepRow
+  nameWithType: WorkflowStepRow
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRow

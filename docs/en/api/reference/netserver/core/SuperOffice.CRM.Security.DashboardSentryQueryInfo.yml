@@ -1,0 +1,1503 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  id: DashboardSentryQueryInfo
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo.#ctor(SuperOffice.CRM.Data.DashboardTableInfo)
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DashboardSentryQueryInfo
+  nameWithType: DashboardSentryQueryInfo
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: 'public class DashboardSentryQueryInfo : SentryQueryInfo<DashboardTableInfo>, IEnumerable<TableInfo>, IEnumerable'
+    content.vb: >-
+      Public Class DashboardSentryQueryInfo
+
+          Inherits SentryQueryInfo(Of DashboardTableInfo)
+
+          Implements IEnumerable(Of TableInfo), IEnumerable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Security.SentryQueryInfo
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  implements:
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetTypedMembers
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetEnumerator
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.ParentFields
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.MainTable
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.HasVisibleFor
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.VisibleForTableInfo
+  extensionMethods:
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.DashboardSentryQueryInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates
+  commentId: M:SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates
+  id: GetOwnerTableCandidates
+  parent: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerTableCandidates()
+  nameWithType: DashboardSentryQueryInfo.GetOwnerTableCandidates()
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected override TableInfo[] GetOwnerTableCandidates()
+    return:
+      type: SuperOffice.Data.SQL.TableInfo[]
+    content.vb: Protected Overrides Function GetOwnerTableCandidates As TableInfo()
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetOwnerTableCandidates
+  overload: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.#ctor(SuperOffice.CRM.Data.DashboardTableInfo)
+  commentId: M:SuperOffice.CRM.Security.DashboardSentryQueryInfo.#ctor(SuperOffice.CRM.Data.DashboardTableInfo)
+  id: '#ctor(SuperOffice.CRM.Data.DashboardTableInfo)'
+  parent: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  langs:
+  - csharp
+  - vb
+  name: DashboardSentryQueryInfo(DashboardTableInfo)
+  nameWithType: DashboardSentryQueryInfo.DashboardSentryQueryInfo(DashboardTableInfo)
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.DashboardSentryQueryInfo(SuperOffice.CRM.Data.DashboardTableInfo)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public DashboardSentryQueryInfo(DashboardTableInfo tableInfo)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.CRM.Data.DashboardTableInfo
+    content.vb: Public Sub New(tableInfo As DashboardTableInfo)
+  overload: SuperOffice.CRM.Security.DashboardSentryQueryInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers
+  commentId: M:SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers
+  id: GetUntypedMembers
+  parent: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUntypedMembers()
+  nameWithType: DashboardSentryQueryInfo.GetUntypedMembers()
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected override TableInfo[] GetUntypedMembers()
+    return:
+      type: SuperOffice.Data.SQL.TableInfo[]
+    content.vb: Protected Overrides Function GetUntypedMembers As TableInfo()
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetUntypedMembers
+  overload: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo
+  commentId: P:SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo
+  id: MemberTableInfo
+  parent: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  langs:
+  - csharp
+  - vb
+  name: MemberTableInfo
+  nameWithType: DashboardSentryQueryInfo.MemberTableInfo
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public DashboardTableInfo MemberTableInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Data.DashboardTableInfo
+    content.vb: Public ReadOnly Property MemberTableInfo As DashboardTableInfo
+  overload: SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo
+  commentId: P:SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo
+  id: PublishTableInfo
+  parent: SuperOffice.CRM.Security.DashboardSentryQueryInfo
+  langs:
+  - csharp
+  - vb
+  name: PublishTableInfo
+  nameWithType: DashboardSentryQueryInfo.PublishTableInfo
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public PublishTableInfo PublishTableInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Data.PublishTableInfo
+    content.vb: Public ReadOnly Property PublishTableInfo As PublishTableInfo
+  overload: SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Security.SentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryQueryInfo
+  nameWithType: SentryQueryInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  parent: SuperOffice.CRM.Security
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1
+  name: SentryQueryInfo<DashboardTableInfo>
+  nameWithType: SentryQueryInfo<DashboardTableInfo>
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo)
+  name.vb: SentryQueryInfo(Of DashboardTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
+    name: SentryQueryInfo
+    nameWithType: SentryQueryInfo
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DashboardTableInfo
+    name: DashboardTableInfo
+    nameWithType: DashboardTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
+    name: SentryQueryInfo
+    nameWithType: SentryQueryInfo
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DashboardTableInfo
+    name: DashboardTableInfo
+    nameWithType: DashboardTableInfo
+    fullName: SuperOffice.CRM.Data.DashboardTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TableInfo>
+  nameWithType: IEnumerable<TableInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.TableInfo>
+  nameWithType.vb: IEnumerable(Of TableInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.TableInfo)
+  name.vb: IEnumerable(Of TableInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  name: AnalyzeQuery(PrivateSelect)
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.AnalyzeQuery(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).AnalyzeQuery(PrivateSelect)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+    name: AnalyzeQuery
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.AnalyzeQuery
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.AnalyzeQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+    name: AnalyzeQuery
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).AnalyzeQuery
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).AnalyzeQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  name: CanCoverTable(TableInfo)
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.CanCoverTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).CanCoverTable(TableInfo)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+    name: CanCoverTable
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.CanCoverTable
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.CanCoverTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+    name: CanCoverTable
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).CanCoverTable
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).CanCoverTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  name: UpdateTypedMembers(PrivateSelect)
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.UpdateTypedMembers(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).UpdateTypedMembers(PrivateSelect)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+    name: UpdateTypedMembers
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.UpdateTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.UpdateTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+    name: UpdateTypedMembers
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).UpdateTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).UpdateTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetTypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetTypedMembers
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+  name: GetTypedMembers()
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.GetTypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetTypedMembers()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).GetTypedMembers()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetTypedMembers()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+    name: GetTypedMembers
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.GetTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+    name: GetTypedMembers
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).GetTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  name: UpdateRelatedTableInfo<T>(PrivateSelect, T)
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.UpdateRelatedTableInfo<T>(PrivateSelect, T)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, T)
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T)
+  name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+    name: UpdateRelatedTableInfo<T>
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.UpdateRelatedTableInfo<T>
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.UpdateRelatedTableInfo<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+    name: UpdateRelatedTableInfo(Of T)
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).UpdateRelatedTableInfo(Of T)
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).UpdateRelatedTableInfo(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  name: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo[])
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo())
+  name.vb: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+    name: ReplaceRelatedTableInstance
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.ReplaceRelatedTableInstance
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.ReplaceRelatedTableInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+    name: ReplaceRelatedTableInstance
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).ReplaceRelatedTableInstance
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).ReplaceRelatedTableInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetEnumerator
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetEnumerator()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.ParentFields
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.ParentFields
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
+  name: ParentFields
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.ParentFields
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.ParentFields
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).ParentFields
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).ParentFields
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.MainTable
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.MainTable
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
+  name: MainTable
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.MainTable
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.MainTable
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).MainTable
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).MainTable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.HasVisibleFor
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.HasVisibleFor
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
+  name: HasVisibleFor
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.HasVisibleFor
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.HasVisibleFor
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).HasVisibleFor
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).HasVisibleFor
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.VisibleForTableInfo
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
+  name: VisibleForTableInfo
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.VisibleForTableInfo
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).VisibleForTableInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).VisibleForTableInfo
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DashboardSentryQueryInfo, To>()
+  nameWithType: EnumUtil.MapEnums<DashboardSentryQueryInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.DashboardSentryQueryInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DashboardSentryQueryInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.DashboardSentryQueryInfo, To)()
+  name.vb: MapEnums(Of DashboardSentryQueryInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DashboardSentryQueryInfo, To>
+    nameWithType: EnumUtil.MapEnums<DashboardSentryQueryInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.DashboardSentryQueryInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DashboardSentryQueryInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of DashboardSentryQueryInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.DashboardSentryQueryInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DashboardSentryQueryInfo, To>()
+  nameWithType: Converters.MapEnums<DashboardSentryQueryInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.DashboardSentryQueryInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of DashboardSentryQueryInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.DashboardSentryQueryInfo, To)()
+  name.vb: MapEnums(Of DashboardSentryQueryInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DashboardSentryQueryInfo, To>
+    nameWithType: Converters.MapEnums<DashboardSentryQueryInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.DashboardSentryQueryInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DashboardSentryQueryInfo, To)
+    nameWithType: Converters.MapEnums(Of DashboardSentryQueryInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.DashboardSentryQueryInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1
+  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo`1
+  isExternal: true
+  name: SentryQueryInfo<TMainTable>
+  nameWithType: SentryQueryInfo<TMainTable>
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>
+  nameWithType.vb: SentryQueryInfo(Of TMainTable)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable)
+  name.vb: SentryQueryInfo(Of TMainTable)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
+    name: SentryQueryInfo
+    nameWithType: SentryQueryInfo
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMainTable
+    nameWithType: TMainTable
+    fullName: TMainTable
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1
+    name: SentryQueryInfo
+    nameWithType: SentryQueryInfo
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMainTable
+    nameWithType: TMainTable
+    fullName: TMainTable
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  isExternal: true
+  name: AnalyzeQuery(PrivateSelect)
+  nameWithType: SentryQueryInfo<TMainTable>.AnalyzeQuery(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).AnalyzeQuery(PrivateSelect)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+    name: AnalyzeQuery
+    nameWithType: SentryQueryInfo<TMainTable>.AnalyzeQuery
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.AnalyzeQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+    name: AnalyzeQuery
+    nameWithType: SentryQueryInfo(Of TMainTable).AnalyzeQuery
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).AnalyzeQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  isExternal: true
+  name: CanCoverTable(TableInfo)
+  nameWithType: SentryQueryInfo<TMainTable>.CanCoverTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).CanCoverTable(TableInfo)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+    name: CanCoverTable
+    nameWithType: SentryQueryInfo<TMainTable>.CanCoverTable
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.CanCoverTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+    name: CanCoverTable
+    nameWithType: SentryQueryInfo(Of TMainTable).CanCoverTable
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).CanCoverTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  isExternal: true
+  name: UpdateTypedMembers(PrivateSelect)
+  nameWithType: SentryQueryInfo<TMainTable>.UpdateTypedMembers(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateTypedMembers(PrivateSelect)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+    name: UpdateTypedMembers
+    nameWithType: SentryQueryInfo<TMainTable>.UpdateTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+    name: UpdateTypedMembers
+    nameWithType: SentryQueryInfo(Of TMainTable).UpdateTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+  isExternal: true
+  name: GetTypedMembers()
+  nameWithType: SentryQueryInfo<TMainTable>.GetTypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetTypedMembers()
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetTypedMembers()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetTypedMembers()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+    name: GetTypedMembers
+    nameWithType: SentryQueryInfo<TMainTable>.GetTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+    name: GetTypedMembers
+    nameWithType: SentryQueryInfo(Of TMainTable).GetTypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetTypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  isExternal: true
+  name: UpdateRelatedTableInfo<T>(PrivateSelect, T)
+  nameWithType: SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(PrivateSelect, T)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, T)
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T)
+  name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+    name: UpdateRelatedTableInfo<T>
+    nameWithType: SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+    name: UpdateRelatedTableInfo(Of T)
+    nameWithType: SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  isExternal: true
+  name: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
+  nameWithType: SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo[])
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo())
+  name.vb: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+    name: ReplaceRelatedTableInstance
+    nameWithType: SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+    name: ReplaceRelatedTableInstance
+    nameWithType: SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: SentryQueryInfo<TMainTable>.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetEnumerator()
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SentryQueryInfo<TMainTable>.GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SentryQueryInfo(Of TMainTable).GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
+  isExternal: true
+  name: ParentFields
+  nameWithType: SentryQueryInfo<TMainTable>.ParentFields
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.ParentFields
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).ParentFields
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).ParentFields
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
+  isExternal: true
+  name: MainTable
+  nameWithType: SentryQueryInfo<TMainTable>.MainTable
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.MainTable
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).MainTable
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).MainTable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
+  isExternal: true
+  name: HasVisibleFor
+  nameWithType: SentryQueryInfo<TMainTable>.HasVisibleFor
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.HasVisibleFor
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).HasVisibleFor
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).HasVisibleFor
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: SentryQueryInfo<TMainTable>.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.VisibleForTableInfo
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).VisibleForTableInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).VisibleForTableInfo
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetOwnerTableCandidates
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetOwnerTableCandidates
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+  name: GetOwnerTableCandidates()
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.GetOwnerTableCandidates()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetOwnerTableCandidates()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).GetOwnerTableCandidates()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetOwnerTableCandidates()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+    name: GetOwnerTableCandidates
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.GetOwnerTableCandidates
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetOwnerTableCandidates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+    name: GetOwnerTableCandidates
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).GetOwnerTableCandidates
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetOwnerTableCandidates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates*
+  commentId: Overload:SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates
+  isExternal: true
+  name: GetOwnerTableCandidates
+  nameWithType: DashboardSentryQueryInfo.GetOwnerTableCandidates
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetOwnerTableCandidates
+- uid: SuperOffice.Data.SQL.TableInfo[]
+  isExternal: true
+  name: TableInfo[]
+  nameWithType: TableInfo[]
+  fullName: SuperOffice.Data.SQL.TableInfo[]
+  nameWithType.vb: TableInfo()
+  fullName.vb: SuperOffice.Data.SQL.TableInfo()
+  name.vb: TableInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+  isExternal: true
+  name: GetOwnerTableCandidates()
+  nameWithType: SentryQueryInfo<TMainTable>.GetOwnerTableCandidates()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetOwnerTableCandidates()
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+    name: GetOwnerTableCandidates
+    nameWithType: SentryQueryInfo<TMainTable>.GetOwnerTableCandidates
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetOwnerTableCandidates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+    name: GetOwnerTableCandidates
+    nameWithType: SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.DashboardSentryQueryInfo.#ctor
+  isExternal: true
+  name: DashboardSentryQueryInfo
+  nameWithType: DashboardSentryQueryInfo.DashboardSentryQueryInfo
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.DashboardSentryQueryInfo
+- uid: SuperOffice.CRM.Data.DashboardTableInfo
+  commentId: T:SuperOffice.CRM.Data.DashboardTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: DashboardTableInfo
+  nameWithType: DashboardTableInfo
+  fullName: SuperOffice.CRM.Data.DashboardTableInfo
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetUntypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}.GetUntypedMembers
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DashboardTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+  name: GetUntypedMembers()
+  nameWithType: SentryQueryInfo<DashboardTableInfo>.GetUntypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetUntypedMembers()
+  nameWithType.vb: SentryQueryInfo(Of DashboardTableInfo).GetUntypedMembers()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetUntypedMembers()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+    name: GetUntypedMembers
+    nameWithType: SentryQueryInfo<DashboardTableInfo>.GetUntypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DashboardTableInfo>.GetUntypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+    name: GetUntypedMembers
+    nameWithType: SentryQueryInfo(Of DashboardTableInfo).GetUntypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DashboardTableInfo).GetUntypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers*
+  commentId: Overload:SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers
+  isExternal: true
+  name: GetUntypedMembers
+  nameWithType: DashboardSentryQueryInfo.GetUntypedMembers
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.GetUntypedMembers
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+  isExternal: true
+  name: GetUntypedMembers()
+  nameWithType: SentryQueryInfo<TMainTable>.GetUntypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetUntypedMembers()
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetUntypedMembers()
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetUntypedMembers()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+    name: GetUntypedMembers
+    nameWithType: SentryQueryInfo<TMainTable>.GetUntypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetUntypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+    name: GetUntypedMembers
+    nameWithType: SentryQueryInfo(Of TMainTable).GetUntypedMembers
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetUntypedMembers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo*
+  commentId: Overload:SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo
+  isExternal: true
+  name: MemberTableInfo
+  nameWithType: DashboardSentryQueryInfo.MemberTableInfo
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.MemberTableInfo
+- uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo*
+  commentId: Overload:SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo
+  isExternal: true
+  name: PublishTableInfo
+  nameWithType: DashboardSentryQueryInfo.PublishTableInfo
+  fullName: SuperOffice.CRM.Security.DashboardSentryQueryInfo.PublishTableInfo
+- uid: SuperOffice.CRM.Data.PublishTableInfo
+  commentId: T:SuperOffice.CRM.Data.PublishTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PublishTableInfo
+  nameWithType: PublishTableInfo
+  fullName: SuperOffice.CRM.Data.PublishTableInfo

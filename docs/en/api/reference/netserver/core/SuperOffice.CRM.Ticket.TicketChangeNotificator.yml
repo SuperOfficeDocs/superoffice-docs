@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.TicketChangeNotificator
+  commentId: T:SuperOffice.CRM.Ticket.TicketChangeNotificator
+  id: TicketChangeNotificator
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(System.Int32,System.Int32)
+  - SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData,SuperOffice.CRM.Ticket.TicketChangeData)
+  - SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TicketChangeNotificator
+  nameWithType: TicketChangeNotificator
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: 'public static class TicketChangeNotificator : Object'
+    content.vb: >-
+      Public Module TicketChangeNotificator
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData,SuperOffice.CRM.Ticket.TicketChangeData)
+  commentId: M:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData,SuperOffice.CRM.Ticket.TicketChangeData)
+  id: SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData,SuperOffice.CRM.Ticket.TicketChangeData)
+  parent: SuperOffice.CRM.Ticket.TicketChangeNotificator
+  langs:
+  - csharp
+  - vb
+  name: SendStandardTicketNotifications(TicketChangeData, TicketChangeData)
+  nameWithType: TicketChangeNotificator.SendStandardTicketNotifications(TicketChangeData, TicketChangeData)
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData, SuperOffice.CRM.Ticket.TicketChangeData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static void SendStandardTicketNotifications(TicketChangeData oldData, TicketChangeData newData)
+    parameters:
+    - id: oldData
+      type: SuperOffice.CRM.Ticket.TicketChangeData
+    - id: newData
+      type: SuperOffice.CRM.Ticket.TicketChangeData
+    content.vb: Public Shared Sub SendStandardTicketNotifications(oldData As TicketChangeData, newData As TicketChangeData)
+  overload: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(System.Int32,System.Int32,System.Int32)
+  id: SendTicketTakenOverNotification(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketChangeNotificator
+  langs:
+  - csharp
+  - vb
+  name: SendTicketTakenOverNotification(Int32, Int32, Int32)
+  nameWithType: TicketChangeNotificator.SendTicketTakenOverNotification(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static void SendTicketTakenOverNotification(int ticketId, int oldOwner, int newOwner)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    - id: oldOwner
+      type: System.Int32
+    - id: newOwner
+      type: System.Int32
+    content.vb: Public Shared Sub SendTicketTakenOverNotification(ticketId As Integer, oldOwner As Integer, newOwner As Integer)
+  overload: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(System.Int32,System.Int32)
+  id: DeleteTicketNotifyEntries(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketChangeNotificator
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketNotifyEntries(Int32, Int32)
+  nameWithType: TicketChangeNotificator.DeleteTicketNotifyEntries(Int32, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static void DeleteTicketNotifyEntries(int ticketId, int userId)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    - id: userId
+      type: System.Int32
+    content.vb: Public Shared Sub DeleteTicketNotifyEntries(ticketId As Integer, userId As Integer)
+  overload: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications
+  isExternal: true
+  name: SendStandardTicketNotifications
+  nameWithType: TicketChangeNotificator.SendStandardTicketNotifications
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications
+- uid: SuperOffice.CRM.Ticket.TicketChangeData
+  commentId: T:SuperOffice.CRM.Ticket.TicketChangeData
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  name: TicketChangeData
+  nameWithType: TicketChangeData
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData
+- uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification
+  isExternal: true
+  name: SendTicketTakenOverNotification
+  nameWithType: TicketChangeNotificator.SendTicketTakenOverNotification
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries
+  isExternal: true
+  name: DeleteTicketNotifyEntries
+  nameWithType: TicketChangeNotificator.DeleteTicketNotifyEntries
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries

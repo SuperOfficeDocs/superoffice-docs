@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  id: WorkflowStepWaitForTime
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime.#ctor
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString(System.String)
+  - SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepWaitForTime
+  nameWithType: WorkflowStepWaitForTime
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStep in workflow that waits for time.\n<p></p>\nCarrier object for WorkflowStepWaitForTime.\nServices for the WorkflowStepWaitForTime Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowStepWaitForTime : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepWaitForTime
+
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  - SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  - SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepWaitForTime.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepWaitForTime()
+  nameWithType: WorkflowStepWaitForTime.WorkflowStepWaitForTime()
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.WorkflowStepWaitForTime()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowStepWaitForTime()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowStepWaitForTime.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowStepWaitForTime.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  overload: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowStepWaitForTime.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm
+  id: TimeWaitAlgorithm
+  parent: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  langs:
+  - csharp
+  - vb
+  name: TimeWaitAlgorithm
+  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWaiting algorithm \n"
+  syntax:
+    content: public virtual WorkflowTimeWaitAlgorithm TimeWaitAlgorithm { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowTimeWaitAlgorithm
+    content.vb: Public Overridable Property TimeWaitAlgorithm As WorkflowTimeWaitAlgorithm
+  overload: SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals
+  id: NumIntervals
+  parent: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  langs:
+  - csharp
+  - vb
+  name: NumIntervals
+  nameWithType: WorkflowStepWaitForTime.NumIntervals
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe given number of intervals to wait, if this algorithm is selected \n"
+  syntax:
+    content: public virtual int NumIntervals { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumIntervals As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType
+  id: IntervalType
+  parent: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  langs:
+  - csharp
+  - vb
+  name: IntervalType
+  nameWithType: WorkflowStepWaitForTime.IntervalType
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterval type (Minutes, days, weeks...) \n"
+  syntax:
+    content: public virtual WorkflowTimeWaitIntervalType IntervalType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowTimeWaitIntervalType
+    content.vb: Public Overridable Property IntervalType As WorkflowTimeWaitIntervalType
+  overload: SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until
+  id: Until
+  parent: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+  langs:
+  - csharp
+  - vb
+  name: Until
+  nameWithType: WorkflowStepWaitForTime.Until
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWait until specific datetime, in [DT: ] format, interpreted in workflow time zone \n"
+  syntax:
+    content: public virtual string Until { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Until As String
+  overload: SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepWaitForTime.#ctor
+  isExternal: true
+  name: WorkflowStepWaitForTime
+  nameWithType: WorkflowStepWaitForTime.WorkflowStepWaitForTime
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.WorkflowStepWaitForTime
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString()
+  nameWithType: WorkflowStepBase.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowStepWaitForTime.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString(String)
+  nameWithType: WorkflowStepBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm
+  isExternal: true
+  name: TimeWaitAlgorithm
+  nameWithType: WorkflowStepWaitForTime.TimeWaitAlgorithm
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.TimeWaitAlgorithm
+- uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
+  commentId: '!:SuperOffice.Data.WorkflowTimeWaitAlgorithm'
+  isExternal: true
+  name: WorkflowTimeWaitAlgorithm
+  nameWithType: WorkflowTimeWaitAlgorithm
+  fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals
+  isExternal: true
+  name: NumIntervals
+  nameWithType: WorkflowStepWaitForTime.NumIntervals
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.NumIntervals
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType
+  isExternal: true
+  name: IntervalType
+  nameWithType: WorkflowStepWaitForTime.IntervalType
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.IntervalType
+- uid: SuperOffice.Data.WorkflowTimeWaitIntervalType
+  isExternal: true
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: SuperOffice.Data.WorkflowTimeWaitIntervalType
+- uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until
+  isExternal: true
+  name: Until
+  nameWithType: WorkflowStepWaitForTime.Until
+  fullName: SuperOffice.CRM.Services.WorkflowStepWaitForTime.Until

@@ -9,18 +9,23 @@ items:
   - SuperOffice.Data.DashTileType.Bar
   - SuperOffice.Data.DashTileType.BigNum
   - SuperOffice.Data.DashTileType.Column
-  - SuperOffice.Data.DashTileType.Combined
+  - SuperOffice.Data.DashTileType.CombinedBarLine
+  - SuperOffice.Data.DashTileType.CombinedColumnLine
+  - SuperOffice.Data.DashTileType.Gauge
+  - SuperOffice.Data.DashTileType.HTML
   - SuperOffice.Data.DashTileType.Line
   - SuperOffice.Data.DashTileType.List
   - SuperOffice.Data.DashTileType.None
   - SuperOffice.Data.DashTileType.Pie
+  - SuperOffice.Data.DashTileType.value__
+  - SuperOffice.Data.DashTileType.WebPanel
   langs:
   - csharp
   - vb
   name: DashTileType
   nameWithType: DashTileType
   fullName: SuperOffice.Data.DashTileType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -29,19 +34,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDashboard tile chart type (V2)\nThis Enum is used by:  dashboard_tile_definition.tile_type\n"
   syntax:
-    content: 'public enum DashTileType : short'
-    content.vb: Public Enum DashTileType As Short
+    content: 'public sealed class DashTileType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashTileType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.DashTileType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashTileType)
-  - SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.DashTileType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.DashTileType.value__
+  commentId: F:SuperOffice.Data.DashTileType.value__
+  id: value__
+  parent: SuperOffice.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileType.value__
+  fullName: SuperOffice.Data.DashTileType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.DashTileType.None
   commentId: F:SuperOffice.Data.DashTileType.None
   id: None
@@ -61,9 +101,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: None\n"
   syntax:
-    content: None = 0
+    content: public const DashTileType None
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const None As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -89,9 +130,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Pie\n"
   syntax:
-    content: Pie = 1
+    content: public const DashTileType Pie
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const Pie As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -117,9 +159,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: List\n"
   syntax:
-    content: List = 2
+    content: public const DashTileType List
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const List As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -145,9 +188,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: BigNum\n"
   syntax:
-    content: BigNum = 3
+    content: public const DashTileType BigNum
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const BigNum As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -173,9 +217,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Bar\n"
   syntax:
-    content: Bar = 4
+    content: public const DashTileType Bar
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const Bar As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -201,9 +246,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Line\n"
   syntax:
-    content: Line = 5
+    content: public const DashTileType Line
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const Line As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -229,9 +275,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Area\n"
   syntax:
-    content: Area = 6
+    content: public const DashTileType Area
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const Area As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -257,25 +304,26 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Column\n"
   syntax:
-    content: Column = 7
+    content: public const DashTileType Column
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const Column As DashTileType
   modifiers.csharp:
   - public
   - const
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.Data.DashTileType.Combined
-  commentId: F:SuperOffice.Data.DashTileType.Combined
-  id: Combined
+- uid: SuperOffice.Data.DashTileType.CombinedBarLine
+  commentId: F:SuperOffice.Data.DashTileType.CombinedBarLine
+  id: CombinedBarLine
   parent: SuperOffice.Data.DashTileType
   langs:
   - csharp
   - vb
-  name: Combined
-  nameWithType: DashTileType.Combined
-  fullName: SuperOffice.Data.DashTileType.Combined
+  name: CombinedBarLine
+  nameWithType: DashTileType.CombinedBarLine
+  fullName: SuperOffice.Data.DashTileType.CombinedBarLine
   type: Field
   source:
     path: SoCore
@@ -283,11 +331,128 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "\n8: Combined\n"
+  summary: "\n8: CombinedBarLine\n"
   syntax:
-    content: Combined = 8
+    content: public const DashTileType CombinedBarLine
     return:
       type: SuperOffice.Data.DashTileType
+    content.vb: Public Const CombinedBarLine As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DashTileType.CombinedColumnLine
+  commentId: F:SuperOffice.Data.DashTileType.CombinedColumnLine
+  id: CombinedColumnLine
+  parent: SuperOffice.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: CombinedColumnLine
+  nameWithType: DashTileType.CombinedColumnLine
+  fullName: SuperOffice.Data.DashTileType.CombinedColumnLine
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: CombinedColumnLine\n"
+  syntax:
+    content: public const DashTileType CombinedColumnLine
+    return:
+      type: SuperOffice.Data.DashTileType
+    content.vb: Public Const CombinedColumnLine As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DashTileType.WebPanel
+  commentId: F:SuperOffice.Data.DashTileType.WebPanel
+  id: WebPanel
+  parent: SuperOffice.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: WebPanel
+  nameWithType: DashTileType.WebPanel
+  fullName: SuperOffice.Data.DashTileType.WebPanel
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: WebPanel\n"
+  syntax:
+    content: public const DashTileType WebPanel
+    return:
+      type: SuperOffice.Data.DashTileType
+    content.vb: Public Const WebPanel As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DashTileType.HTML
+  commentId: F:SuperOffice.Data.DashTileType.HTML
+  id: HTML
+  parent: SuperOffice.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: HTML
+  nameWithType: DashTileType.HTML
+  fullName: SuperOffice.Data.DashTileType.HTML
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n11: HTML\n"
+  syntax:
+    content: public const DashTileType HTML
+    return:
+      type: SuperOffice.Data.DashTileType
+    content.vb: Public Const HTML As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DashTileType.Gauge
+  commentId: F:SuperOffice.Data.DashTileType.Gauge
+  id: Gauge
+  parent: SuperOffice.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Gauge
+  nameWithType: DashTileType.Gauge
+  fullName: SuperOffice.Data.DashTileType.Gauge
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: Gauge\n"
+  syntax:
+    content: public const DashTileType Gauge
+    return:
+      type: SuperOffice.Data.DashTileType
+    content.vb: Public Const Gauge As DashTileType
   modifiers.csharp:
   - public
   - const
@@ -301,6 +466,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.DashTileType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -328,84 +500,6 @@ references:
     name: MapEnums(Of DashTileType, To)
     nameWithType: EnumUtil.MapEnums(Of DashTileType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DashTileType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashTileType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DashTileType>(DashTileType)
-  nameWithType: ObjectExtensions.AssignByReflection<DashTileType>(DashTileType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DashTileType>(SuperOffice.Data.DashTileType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DashTileType)(DashTileType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DashTileType)(SuperOffice.Data.DashTileType)
-  name.vb: AssignByReflection(Of DashTileType)(DashTileType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DashTileType>
-    nameWithType: ObjectExtensions.AssignByReflection<DashTileType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DashTileType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    nameWithType: DashTileType
-    fullName: SuperOffice.Data.DashTileType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DashTileType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DashTileType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DashTileType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    nameWithType: DashTileType
-    fullName: SuperOffice.Data.DashTileType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DashTileType>()
-  nameWithType: ObjectExtensions.GraphCopy<DashTileType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DashTileType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DashTileType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DashTileType)()
-  name.vb: GraphCopy(Of DashTileType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DashTileType>
-    nameWithType: ObjectExtensions.GraphCopy<DashTileType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DashTileType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DashTileType)
-    nameWithType: ObjectExtensions.GraphCopy(Of DashTileType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DashTileType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -447,6 +541,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -492,103 +592,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -635,18 +638,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.DashTileType
   commentId: T:SuperOffice.Data.DashTileType
   parent: SuperOffice.Data

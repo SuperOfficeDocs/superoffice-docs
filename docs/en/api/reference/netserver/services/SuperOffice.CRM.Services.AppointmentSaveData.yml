@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AppointmentSaveData
+  commentId: T:SuperOffice.CRM.Services.AppointmentSaveData
+  id: AppointmentSaveData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AppointmentSaveData.#ctor
+  - SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity
+  - SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated
+  - SuperOffice.CRM.Services.AppointmentSaveData.ToString
+  - SuperOffice.CRM.Services.AppointmentSaveData.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AppointmentSaveData
+  nameWithType: AppointmentSaveData
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis class contains the updated appointment entity and a flag for if any emails were queued when saving\n<p></p>\nCarrier object for AppointmentSaveData.\nServices for the AppointmentSaveData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class AppointmentSaveData : Carrier'
+    content.vb: >-
+      Public Class AppointmentSaveData
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.#ctor
+  commentId: M:SuperOffice.CRM.Services.AppointmentSaveData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentSaveData()
+  nameWithType: AppointmentSaveData.AppointmentSaveData()
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.AppointmentSaveData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public AppointmentSaveData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.AppointmentSaveData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.ToString
+  commentId: M:SuperOffice.CRM.Services.AppointmentSaveData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AppointmentSaveData.ToString()
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.AppointmentSaveData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.AppointmentSaveData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: AppointmentSaveData.ToString(String)
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.AppointmentSaveData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity
+  commentId: P:SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity
+  id: AppointmentEntity
+  parent: SuperOffice.CRM.Services.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentEntity
+  nameWithType: AppointmentSaveData.AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdated AppointmentEntity \n"
+  syntax:
+    content: public virtual AppointmentEntity AppointmentEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.AppointmentEntity
+    content.vb: Public Overridable Property AppointmentEntity As AppointmentEntity
+  overload: SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated
+  commentId: P:SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated
+  id: EmailCreated
+  parent: SuperOffice.CRM.Services.AppointmentSaveData
+  langs:
+  - csharp
+  - vb
+  name: EmailCreated
+  nameWithType: AppointmentSaveData.EmailCreated
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFlag for if an email was created for webtools, or if an email is queued on an smtp server \n"
+  syntax:
+    content: public virtual bool EmailCreated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property EmailCreated As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSaveData.#ctor
+  isExternal: true
+  name: AppointmentSaveData
+  nameWithType: AppointmentSaveData.AppointmentSaveData
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.AppointmentSaveData
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSaveData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: AppointmentSaveData.ToString
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentSaveData.AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.AppointmentEntity
+- uid: SuperOffice.CRM.Services.AppointmentEntity
+  commentId: T:SuperOffice.CRM.Services.AppointmentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentEntity
+- uid: SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated
+  isExternal: true
+  name: EmailCreated
+  nameWithType: AppointmentSaveData.EmailCreated
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData.EmailCreated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

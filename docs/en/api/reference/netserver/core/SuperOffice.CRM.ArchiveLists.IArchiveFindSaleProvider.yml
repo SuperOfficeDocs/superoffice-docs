@@ -22,6 +22,7 @@ items:
     content: 'public interface IArchiveFindSaleProvider : IArchiveFindProviderBase<ArchiveFindSaleRow>, IArchiveTypedProvider<ArchiveFindSaleRow>, IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
     content.vb: >-
       Public Interface IArchiveFindSaleProvider
+
           Inherits IArchiveFindProviderBase(Of ArchiveFindSaleRow), IArchiveTypedProvider(Of ArchiveFindSaleRow), IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveFindSaleRow}.FetchAndSetCriteria(System.Int32)

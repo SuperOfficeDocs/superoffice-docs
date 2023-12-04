@@ -25,6 +25,7 @@ items:
     content: 'public interface ISelectableListItem : ISoListItem'
     content.vb: >-
       Public Interface ISelectableListItem
+
           Inherits ISoListItem
   inheritedMembers:
   - SuperOffice.CRM.Lists.ISoListItem.Id
@@ -98,7 +99,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property LastChange As Date
+    content.vb: Property LastChange As DateTime
   overload: SuperOffice.CRM.Lists.ISelectableListItem.LastChange*
   modifiers.csharp:
   - get
@@ -385,8 +386,6 @@ references:
   nameWithType: ISelectableListItem.LastChange
   fullName: SuperOffice.CRM.Lists.ISelectableListItem.LastChange
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

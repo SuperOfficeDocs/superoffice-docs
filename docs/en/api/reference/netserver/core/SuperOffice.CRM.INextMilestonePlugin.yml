@@ -26,6 +26,7 @@ items:
     content: 'public interface INextMilestonePlugin : IPlugin'
     content.vb: >-
       Public Interface INextMilestonePlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.INextMilestonePlugin.EnumUtil.MapEnums``2

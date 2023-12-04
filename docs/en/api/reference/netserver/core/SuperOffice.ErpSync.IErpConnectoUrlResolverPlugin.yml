@@ -24,6 +24,7 @@ items:
     content: 'public interface IErpConnectoUrlResolverPlugin : IPlugin'
     content.vb: >-
       Public Interface IErpConnectoUrlResolverPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.EnumUtil.MapEnums``2

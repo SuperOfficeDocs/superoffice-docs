@@ -20,10 +20,12 @@ items:
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
+  summary: "\nInterface providing information about a contact with support person info\n"
   syntax:
     content: 'public interface IContactInfo2 : IContactInfo'
     content.vb: >-
       Public Interface IContactInfo2
+
           Inherits IContactInfo
   inheritedMembers:
   - SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)

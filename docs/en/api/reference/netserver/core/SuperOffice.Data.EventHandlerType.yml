@@ -24,6 +24,7 @@ items:
   - SuperOffice.Data.EventHandlerType.NewTicketFromForm
   - SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
   - SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
@@ -31,12 +32,15 @@ items:
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveRejectQuote
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
   - SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveTicket
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
   - SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
@@ -44,11 +48,13 @@ items:
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveRejectQuote
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
   - SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
   - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
   - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
@@ -102,13 +108,14 @@ items:
   - SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
   - SuperOffice.Data.EventHandlerType.TicketSave
   - SuperOffice.Data.EventHandlerType.Unknown
+  - SuperOffice.Data.EventHandlerType.value__
   langs:
   - csharp
   - vb
   name: EventHandlerType
   nameWithType: EventHandlerType
   fullName: SuperOffice.Data.EventHandlerType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -117,19 +124,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nCrmScript Event triggers - when CRMScript is run based on user or system actions. \n"
   syntax:
-    content: public enum EventHandlerType
-    content.vb: Public Enum EventHandlerType
+    content: 'public sealed class EventHandlerType : Enum'
+    content.vb: >-
+      Public NotInheritable Class EventHandlerType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.EventHandlerType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType)
-  - SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.EventHandlerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.EventHandlerType.value__
+  commentId: F:SuperOffice.Data.EventHandlerType.value__
+  id: value__
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EventHandlerType.value__
+  fullName: SuperOffice.Data.EventHandlerType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.EventHandlerType.Unknown
   commentId: F:SuperOffice.Data.EventHandlerType.Unknown
   id: Unknown
@@ -149,9 +191,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown trigger\n"
   syntax:
-    content: Unknown = 0
+    content: public const EventHandlerType Unknown
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const Unknown As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -177,9 +220,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n100: NewTicket\n"
   syntax:
-    content: NewTicket = 100
+    content: public const EventHandlerType NewTicket
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const NewTicket As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -205,9 +249,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n101: NewTicketFromCustomerCenter\n"
   syntax:
-    content: NewTicketFromCustomerCenter = 101
+    content: public const EventHandlerType NewTicketFromCustomerCenter
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromCustomerCenter As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -233,9 +278,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n102: NewTicketFromEmail\n"
   syntax:
-    content: NewTicketFromEmail = 102
+    content: public const EventHandlerType NewTicketFromEmail
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromEmail As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -261,9 +307,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n103: NewTicketFromCustomerCenterBeforeSave\n"
   syntax:
-    content: NewTicketFromCustomerCenterBeforeSave = 103
+    content: public const EventHandlerType NewTicketFromCustomerCenterBeforeSave
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromCustomerCenterBeforeSave As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -289,9 +336,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n104: NewTicketFromSpmLink\n"
   syntax:
-    content: NewTicketFromSpmLink = 104
+    content: public const EventHandlerType NewTicketFromSpmLink
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromSpmLink As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -317,9 +365,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n105: NewNotifyTicketFromForm\n"
   syntax:
-    content: NewNotifyTicketFromForm = 105
+    content: public const EventHandlerType NewNotifyTicketFromForm
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const NewNotifyTicketFromForm As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -345,9 +394,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n106: NewTicketFromForm\n"
   syntax:
-    content: NewTicketFromForm = 106
+    content: public const EventHandlerType NewTicketFromForm
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromForm As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -373,9 +423,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n109: TicketSave\n"
   syntax:
-    content: TicketSave = 109
+    content: public const EventHandlerType TicketSave
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketSave As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -401,9 +452,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n110: TicketClosed\n"
   syntax:
-    content: TicketClosed = 110
+    content: public const EventHandlerType TicketClosed
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketClosed As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -429,9 +481,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n111: TicketPostponed\n"
   syntax:
-    content: TicketPostponed = 111
+    content: public const EventHandlerType TicketPostponed
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketPostponed As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -457,9 +510,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n112: TicketDeleted\n"
   syntax:
-    content: TicketDeleted = 112
+    content: public const EventHandlerType TicketDeleted
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketDeleted As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -485,9 +539,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n113: TicketActivated\n"
   syntax:
-    content: TicketActivated = 113
+    content: public const EventHandlerType TicketActivated
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketActivated As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -513,9 +568,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n120: TicketReopened\n"
   syntax:
-    content: TicketReopened = 120
+    content: public const EventHandlerType TicketReopened
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketReopened As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -541,9 +597,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n121: TicketReopenedFromCustomerCenter\n"
   syntax:
-    content: TicketReopenedFromCustomerCenter = 121
+    content: public const EventHandlerType TicketReopenedFromCustomerCenter
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketReopenedFromCustomerCenter As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -569,9 +626,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n122: TicketReopenedFromEmail\n"
   syntax:
-    content: TicketReopenedFromEmail = 122
+    content: public const EventHandlerType TicketReopenedFromEmail
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketReopenedFromEmail As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -597,9 +655,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n140: TicketChangedPriority\n"
   syntax:
-    content: TicketChangedPriority = 140
+    content: public const EventHandlerType TicketChangedPriority
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketChangedPriority As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -625,9 +684,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n141: TicketChangedCategory\n"
   syntax:
-    content: TicketChangedCategory = 141
+    content: public const EventHandlerType TicketChangedCategory
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketChangedCategory As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -653,9 +713,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n142: TicketChangedOwnedBy\n"
   syntax:
-    content: TicketChangedOwnedBy = 142
+    content: public const EventHandlerType TicketChangedOwnedBy
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketChangedOwnedBy As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -681,9 +742,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n143: TicketChangedPrimaryCustomer\n"
   syntax:
-    content: TicketChangedPrimaryCustomer = 143
+    content: public const EventHandlerType TicketChangedPrimaryCustomer
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketChangedPrimaryCustomer As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -709,9 +771,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n144: TicketChangedTicketStatus\n"
   syntax:
-    content: TicketChangedTicketStatus = 144
+    content: public const EventHandlerType TicketChangedTicketStatus
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketChangedTicketStatus As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -737,9 +800,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n145: TicketChangedSlevel\n"
   syntax:
-    content: TicketChangedSlevel = 145
+    content: public const EventHandlerType TicketChangedSlevel
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketChangedSlevel As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -765,9 +829,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n150: TicketMessageAdded\n"
   syntax:
-    content: TicketMessageAdded = 150
+    content: public const EventHandlerType TicketMessageAdded
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketMessageAdded As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -793,9 +858,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n151: TicketInternalMessageAdded\n"
   syntax:
-    content: TicketInternalMessageAdded = 151
+    content: public const EventHandlerType TicketInternalMessageAdded
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketInternalMessageAdded As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -821,9 +887,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n152: TicketExternalMessageAdded\n"
   syntax:
-    content: TicketExternalMessageAdded = 152
+    content: public const EventHandlerType TicketExternalMessageAdded
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketExternalMessageAdded As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -849,9 +916,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n153: TicketMessageSentimentCalculated\n"
   syntax:
-    content: TicketMessageSentimentCalculated = 153
+    content: public const EventHandlerType TicketMessageSentimentCalculated
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const TicketMessageSentimentCalculated As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -877,9 +945,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n200: CompactModeInjection\n"
   syntax:
-    content: CompactModeInjection = 200
+    content: public const EventHandlerType CompactModeInjection
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const CompactModeInjection As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -905,9 +974,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n210: CustomerCenterAuthentication\n"
   syntax:
-    content: CustomerCenterAuthentication = 210
+    content: public const EventHandlerType CustomerCenterAuthentication
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const CustomerCenterAuthentication As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -933,9 +1003,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n300: ScheduledTaskFailed\n"
   syntax:
-    content: ScheduledTaskFailed = 300
+    content: public const EventHandlerType ScheduledTaskFailed
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ScheduledTaskFailed As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -961,9 +1032,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n301: DbiTaskFailed\n"
   syntax:
-    content: DbiTaskFailed = 301
+    content: public const EventHandlerType DbiTaskFailed
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const DbiTaskFailed As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -989,9 +1061,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n302: CustomerSetSubscriptions\n"
   syntax:
-    content: CustomerSetSubscriptions = 302
+    content: public const EventHandlerType CustomerSetSubscriptions
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const CustomerSetSubscriptions As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1017,9 +1090,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n303: ImportMailBeforeProcessing\n"
   syntax:
-    content: ImportMailBeforeProcessing = 303
+    content: public const EventHandlerType ImportMailBeforeProcessing
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ImportMailBeforeProcessing As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1045,9 +1119,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n304: ImportMailAfterProcessing\n"
   syntax:
-    content: ImportMailAfterProcessing = 304
+    content: public const EventHandlerType ImportMailAfterProcessing
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ImportMailAfterProcessing As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1073,9 +1148,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n305: MainMenu\n"
   syntax:
-    content: MainMenu = 305
+    content: public const EventHandlerType MainMenu
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const MainMenu As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1101,9 +1177,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n400: ChatNewSession\n"
   syntax:
-    content: ChatNewSession = 400
+    content: public const EventHandlerType ChatNewSession
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ChatNewSession As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1129,9 +1206,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n401: ChatSessionChangedStatus\n"
   syntax:
-    content: ChatSessionChangedStatus = 401
+    content: public const EventHandlerType ChatSessionChangedStatus
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ChatSessionChangedStatus As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1157,9 +1235,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n402: ChatBeforeSaveNewMessage\n"
   syntax:
-    content: ChatBeforeSaveNewMessage = 402
+    content: public const EventHandlerType ChatBeforeSaveNewMessage
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ChatBeforeSaveNewMessage As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1185,9 +1264,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n403: ChatAfterSaveNewMessage\n"
   syntax:
-    content: ChatAfterSaveNewMessage = 403
+    content: public const EventHandlerType ChatAfterSaveNewMessage
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ChatAfterSaveNewMessage As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1213,9 +1293,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n500: ServiceScreenNewTicketLoad\n"
   syntax:
-    content: ServiceScreenNewTicketLoad = 500
+    content: public const EventHandlerType ServiceScreenNewTicketLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewTicketLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1241,9 +1322,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n501: ServiceScreenNewQuickTicketLoad\n"
   syntax:
-    content: ServiceScreenNewQuickTicketLoad = 501
+    content: public const EventHandlerType ServiceScreenNewQuickTicketLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewQuickTicketLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1269,9 +1351,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n502: ServiceScreenListTicketMessagesLoad\n"
   syntax:
-    content: ServiceScreenListTicketMessagesLoad = 502
+    content: public const EventHandlerType ServiceScreenListTicketMessagesLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenListTicketMessagesLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1297,9 +1380,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n503: ServiceScreenAddMessageLoad\n"
   syntax:
-    content: ServiceScreenAddMessageLoad = 503
+    content: public const EventHandlerType ServiceScreenAddMessageLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenAddMessageLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1325,9 +1409,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n504: ServiceScreenEditTicketLoad\n"
   syntax:
-    content: ServiceScreenEditTicketLoad = 504
+    content: public const EventHandlerType ServiceScreenEditTicketLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditTicketLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1353,9 +1438,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n505: ServiceScreenViewCustomerLoad\n"
   syntax:
-    content: ServiceScreenViewCustomerLoad = 505
+    content: public const EventHandlerType ServiceScreenViewCustomerLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCustomerLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1381,9 +1467,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n506: ServiceScreenEditCustomerLoad\n"
   syntax:
-    content: ServiceScreenEditCustomerLoad = 506
+    content: public const EventHandlerType ServiceScreenEditCustomerLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCustomerLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1409,9 +1496,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n507: ServiceScreenViewCompanyLoad\n"
   syntax:
-    content: ServiceScreenViewCompanyLoad = 507
+    content: public const EventHandlerType ServiceScreenViewCompanyLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCompanyLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1437,9 +1525,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n508: ServiceScreenEditCompanyLoad\n"
   syntax:
-    content: ServiceScreenEditCompanyLoad = 508
+    content: public const EventHandlerType ServiceScreenEditCompanyLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCompanyLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1465,9 +1554,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n509: ServiceScreenForwardLoad\n"
   syntax:
-    content: ServiceScreenForwardLoad = 509
+    content: public const EventHandlerType ServiceScreenForwardLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenForwardLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1493,9 +1583,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n510: ServiceScreenEditExtraTableLoad\n"
   syntax:
-    content: ServiceScreenEditExtraTableLoad = 510
+    content: public const EventHandlerType ServiceScreenEditExtraTableLoad
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditExtraTableLoad As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1521,9 +1612,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n600: ServiceScreenNewTicketBeforeSubmit\n"
   syntax:
-    content: ServiceScreenNewTicketBeforeSubmit = 600
+    content: public const EventHandlerType ServiceScreenNewTicketBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewTicketBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1549,9 +1641,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n601: ServiceScreenNewQuickTicketBeforeSubmit\n"
   syntax:
-    content: ServiceScreenNewQuickTicketBeforeSubmit = 601
+    content: public const EventHandlerType ServiceScreenNewQuickTicketBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewQuickTicketBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1577,9 +1670,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n602: ServiceScreenListTicketMessagesBeforeSubmit\n"
   syntax:
-    content: ServiceScreenListTicketMessagesBeforeSubmit = 602
+    content: public const EventHandlerType ServiceScreenListTicketMessagesBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenListTicketMessagesBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1605,9 +1699,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n603: ServiceScreenAddMessageBeforeSubmit\n"
   syntax:
-    content: ServiceScreenAddMessageBeforeSubmit = 603
+    content: public const EventHandlerType ServiceScreenAddMessageBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenAddMessageBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1633,9 +1728,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n604: ServiceScreenEditTicketBeforeSubmit\n"
   syntax:
-    content: ServiceScreenEditTicketBeforeSubmit = 604
+    content: public const EventHandlerType ServiceScreenEditTicketBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditTicketBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1661,9 +1757,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n605: ServiceScreenViewCustomerBeforeSubmit\n"
   syntax:
-    content: ServiceScreenViewCustomerBeforeSubmit = 605
+    content: public const EventHandlerType ServiceScreenViewCustomerBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCustomerBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1689,9 +1786,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n606: ServiceScreenEditCustomerBeforeSubmit\n"
   syntax:
-    content: ServiceScreenEditCustomerBeforeSubmit = 606
+    content: public const EventHandlerType ServiceScreenEditCustomerBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCustomerBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1717,9 +1815,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n607: ServiceScreenViewCompanyBeforeSubmit\n"
   syntax:
-    content: ServiceScreenViewCompanyBeforeSubmit = 607
+    content: public const EventHandlerType ServiceScreenViewCompanyBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCompanyBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1745,9 +1844,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n608: ServiceScreenEditCompanyBeforeSubmit\n"
   syntax:
-    content: ServiceScreenEditCompanyBeforeSubmit = 608
+    content: public const EventHandlerType ServiceScreenEditCompanyBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCompanyBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1773,9 +1873,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n609: ServiceScreenForwardBeforeSubmit\n"
   syntax:
-    content: ServiceScreenForwardBeforeSubmit = 609
+    content: public const EventHandlerType ServiceScreenForwardBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenForwardBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1801,9 +1902,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n610: ServiceScreenEditExtraTableBeforeSubmit\n"
   syntax:
-    content: ServiceScreenEditExtraTableBeforeSubmit = 610
+    content: public const EventHandlerType ServiceScreenEditExtraTableBeforeSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditExtraTableBeforeSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1829,9 +1931,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n700: ServiceScreenNewTicketAfterSubmit\n"
   syntax:
-    content: ServiceScreenNewTicketAfterSubmit = 700
+    content: public const EventHandlerType ServiceScreenNewTicketAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewTicketAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1857,9 +1960,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n701: ServiceScreenNewQuickTicketAfterSubmit\n"
   syntax:
-    content: ServiceScreenNewQuickTicketAfterSubmit = 701
+    content: public const EventHandlerType ServiceScreenNewQuickTicketAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewQuickTicketAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1885,9 +1989,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n702: ServiceScreenListTicketMessagesAfterSubmit\n"
   syntax:
-    content: ServiceScreenListTicketMessagesAfterSubmit = 702
+    content: public const EventHandlerType ServiceScreenListTicketMessagesAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenListTicketMessagesAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1913,9 +2018,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n703: ServiceScreenAddMessageAfterSubmit\n"
   syntax:
-    content: ServiceScreenAddMessageAfterSubmit = 703
+    content: public const EventHandlerType ServiceScreenAddMessageAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenAddMessageAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1941,9 +2047,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n704: ServiceScreenEditTicketAfterSubmit\n"
   syntax:
-    content: ServiceScreenEditTicketAfterSubmit = 704
+    content: public const EventHandlerType ServiceScreenEditTicketAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditTicketAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1969,9 +2076,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n705: ServiceScreenViewCustomerAfterSubmit\n"
   syntax:
-    content: ServiceScreenViewCustomerAfterSubmit = 705
+    content: public const EventHandlerType ServiceScreenViewCustomerAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCustomerAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -1997,9 +2105,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n706: ServiceScreenEditCustomerAfterSubmit\n"
   syntax:
-    content: ServiceScreenEditCustomerAfterSubmit = 706
+    content: public const EventHandlerType ServiceScreenEditCustomerAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCustomerAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2025,9 +2134,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n707: ServiceScreenViewCompanyAfterSubmit\n"
   syntax:
-    content: ServiceScreenViewCompanyAfterSubmit = 707
+    content: public const EventHandlerType ServiceScreenViewCompanyAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCompanyAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2053,9 +2163,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n708: ServiceScreenEditCompanyAfterSubmit\n"
   syntax:
-    content: ServiceScreenEditCompanyAfterSubmit = 708
+    content: public const EventHandlerType ServiceScreenEditCompanyAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCompanyAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2081,9 +2192,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n709: ServiceScreenForwardAfterSubmit\n"
   syntax:
-    content: ServiceScreenForwardAfterSubmit = 709
+    content: public const EventHandlerType ServiceScreenForwardAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenForwardAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2109,9 +2221,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n710: ServiceScreenEditExtraTableAfterSubmit\n"
   syntax:
-    content: ServiceScreenEditExtraTableAfterSubmit = 710
+    content: public const EventHandlerType ServiceScreenEditExtraTableAfterSubmit
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditExtraTableAfterSubmit As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2137,9 +2250,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1001: SalesBeforeSaveAppointment\n"
   syntax:
-    content: SalesBeforeSaveAppointment = 1001
+    content: public const EventHandlerType SalesBeforeSaveAppointment
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveAppointment As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2165,9 +2279,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1002: SalesBeforeSaveStakeholder\n"
   syntax:
-    content: SalesBeforeSaveStakeholder = 1002
+    content: public const EventHandlerType SalesBeforeSaveStakeholder
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveStakeholder As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2193,9 +2308,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1003: SalesBeforeSaveQuote\n"
   syntax:
-    content: SalesBeforeSaveQuote = 1003
+    content: public const EventHandlerType SalesBeforeSaveQuote
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveQuote As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2221,9 +2337,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1004: SalesBeforeSaveDocument\n"
   syntax:
-    content: SalesBeforeSaveDocument = 1004
+    content: public const EventHandlerType SalesBeforeSaveDocument
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveDocument As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2249,9 +2366,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1005: SalesBeforeSaveContact\n"
   syntax:
-    content: SalesBeforeSaveContact = 1005
+    content: public const EventHandlerType SalesBeforeSaveContact
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveContact As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2277,9 +2395,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1006: SalesBeforeSavePerson\n"
   syntax:
-    content: SalesBeforeSavePerson = 1006
+    content: public const EventHandlerType SalesBeforeSavePerson
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSavePerson As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2305,9 +2424,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1007: SalesBeforeSaveRelation\n"
   syntax:
-    content: SalesBeforeSaveRelation = 1007
+    content: public const EventHandlerType SalesBeforeSaveRelation
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveRelation As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2333,9 +2453,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1008: SalesBeforeSaveSale\n"
   syntax:
-    content: SalesBeforeSaveSale = 1008
+    content: public const EventHandlerType SalesBeforeSaveSale
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveSale As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2361,9 +2482,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1009: SalesBeforeSaveProject\n"
   syntax:
-    content: SalesBeforeSaveProject = 1009
+    content: public const EventHandlerType SalesBeforeSaveProject
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveProject As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2389,9 +2511,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1010: SalesBeforeSaveSelection\n"
   syntax:
-    content: SalesBeforeSaveSelection = 1010
+    content: public const EventHandlerType SalesBeforeSaveSelection
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveSelection As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2417,9 +2540,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1011: SalesBeforeSaveProjectMember\n"
   syntax:
-    content: SalesBeforeSaveProjectMember = 1011
+    content: public const EventHandlerType SalesBeforeSaveProjectMember
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveProjectMember As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2445,9 +2569,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1012: SalesBeforeSaveSelectionMember\n"
   syntax:
-    content: SalesBeforeSaveSelectionMember = 1012
+    content: public const EventHandlerType SalesBeforeSaveSelectionMember
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveSelectionMember As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2473,9 +2598,97 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1013: SalesBeforeSaveQuoteLine\n"
   syntax:
-    content: SalesBeforeSaveQuoteLine = 1013
+    content: public const EventHandlerType SalesBeforeSaveQuoteLine
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveQuoteLine As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
+  id: SalesBeforeSaveApproveQuote
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveApproveQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveApproveQuote
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveApproveQuote
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1014: SalesBeforeSaveApproveQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveApproveQuote
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveApproveQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRejectQuote
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveRejectQuote
+  id: SalesBeforeSaveRejectQuote
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveRejectQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveRejectQuote
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRejectQuote
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1015: SalesBeforeSaveRejectQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveRejectQuote
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveRejectQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
+  id: SalesBeforeSaveTicket
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveTicket
+  nameWithType: EventHandlerType.SalesBeforeSaveTicket
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1016: SalesBeforeSaveTicket\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveTicket
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveTicket As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2501,9 +2714,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1101: SalesAfterSaveAppointment\n"
   syntax:
-    content: SalesAfterSaveAppointment = 1101
+    content: public const EventHandlerType SalesAfterSaveAppointment
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveAppointment As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2529,9 +2743,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1102: SalesAfterSaveStakeholder\n"
   syntax:
-    content: SalesAfterSaveStakeholder = 1102
+    content: public const EventHandlerType SalesAfterSaveStakeholder
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveStakeholder As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2557,9 +2772,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1103: SalesAfterSaveQuote\n"
   syntax:
-    content: SalesAfterSaveQuote = 1103
+    content: public const EventHandlerType SalesAfterSaveQuote
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveQuote As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2585,9 +2801,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1104: SalesAfterSaveDocument\n"
   syntax:
-    content: SalesAfterSaveDocument = 1104
+    content: public const EventHandlerType SalesAfterSaveDocument
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveDocument As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2613,9 +2830,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1105: SalesAfterSaveContact\n"
   syntax:
-    content: SalesAfterSaveContact = 1105
+    content: public const EventHandlerType SalesAfterSaveContact
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveContact As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2641,9 +2859,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1106: SalesAfterSavePerson\n"
   syntax:
-    content: SalesAfterSavePerson = 1106
+    content: public const EventHandlerType SalesAfterSavePerson
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSavePerson As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2669,9 +2888,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1107: SalesAfterSaveRelation\n"
   syntax:
-    content: SalesAfterSaveRelation = 1107
+    content: public const EventHandlerType SalesAfterSaveRelation
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveRelation As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2697,9 +2917,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1108: SalesAfterSaveSale\n"
   syntax:
-    content: SalesAfterSaveSale = 1108
+    content: public const EventHandlerType SalesAfterSaveSale
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveSale As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2725,9 +2946,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1109: SalesAfterSaveProject\n"
   syntax:
-    content: SalesAfterSaveProject = 1109
+    content: public const EventHandlerType SalesAfterSaveProject
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveProject As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2753,9 +2975,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1110: SalesAfterSaveSelection\n"
   syntax:
-    content: SalesAfterSaveSelection = 1110
+    content: public const EventHandlerType SalesAfterSaveSelection
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveSelection As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2781,9 +3004,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1111: SalesAfterSaveProjectMember\n"
   syntax:
-    content: SalesAfterSaveProjectMember = 1111
+    content: public const EventHandlerType SalesAfterSaveProjectMember
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveProjectMember As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2809,9 +3033,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1112: SalesAfterSaveSelectionMember\n"
   syntax:
-    content: SalesAfterSaveSelectionMember = 1112
+    content: public const EventHandlerType SalesAfterSaveSelectionMember
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveSelectionMember As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2837,9 +3062,97 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1113: SalesAfterSaveQuoteLine\n"
   syntax:
-    content: SalesAfterSaveQuoteLine = 1113
+    content: public const EventHandlerType SalesAfterSaveQuoteLine
     return:
       type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveQuoteLine As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
+  id: SalesAfterSaveApproveQuote
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveApproveQuote
+  nameWithType: EventHandlerType.SalesAfterSaveApproveQuote
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveApproveQuote
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1114: SalesAfterSaveApproveQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveApproveQuote
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveApproveQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveRejectQuote
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveRejectQuote
+  id: SalesAfterSaveRejectQuote
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveRejectQuote
+  nameWithType: EventHandlerType.SalesAfterSaveRejectQuote
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveRejectQuote
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1115: SalesAfterSaveRejectQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveRejectQuote
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveRejectQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveTicket
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveTicket
+  id: SalesAfterSaveTicket
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveTicket
+  nameWithType: EventHandlerType.SalesAfterSaveTicket
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1116: SalesAfterSaveTicket\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveTicket
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveTicket As EventHandlerType
   modifiers.csharp:
   - public
   - const
@@ -2853,6 +3166,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.EventHandlerType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2880,84 +3200,6 @@ references:
     name: MapEnums(Of EventHandlerType, To)
     nameWithType: EnumUtil.MapEnums(Of EventHandlerType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EventHandlerType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<EventHandlerType>(EventHandlerType)
-  nameWithType: ObjectExtensions.AssignByReflection<EventHandlerType>(EventHandlerType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EventHandlerType>(SuperOffice.Data.EventHandlerType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EventHandlerType)(EventHandlerType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EventHandlerType)(SuperOffice.Data.EventHandlerType)
-  name.vb: AssignByReflection(Of EventHandlerType)(EventHandlerType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<EventHandlerType>
-    nameWithType: ObjectExtensions.AssignByReflection<EventHandlerType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EventHandlerType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.EventHandlerType
-    name: EventHandlerType
-    nameWithType: EventHandlerType
-    fullName: SuperOffice.Data.EventHandlerType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of EventHandlerType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of EventHandlerType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EventHandlerType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.EventHandlerType
-    name: EventHandlerType
-    nameWithType: EventHandlerType
-    fullName: SuperOffice.Data.EventHandlerType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<EventHandlerType>()
-  nameWithType: ObjectExtensions.GraphCopy<EventHandlerType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EventHandlerType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of EventHandlerType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EventHandlerType)()
-  name.vb: GraphCopy(Of EventHandlerType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<EventHandlerType>
-    nameWithType: ObjectExtensions.GraphCopy<EventHandlerType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EventHandlerType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of EventHandlerType)
-    nameWithType: ObjectExtensions.GraphCopy(Of EventHandlerType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EventHandlerType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -2999,6 +3241,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -3044,103 +3292,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -3187,18 +3338,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data

@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TemporaryFeatureToggle
+  commentId: T:SuperOffice.Util.TemporaryFeatureToggle
+  id: TemporaryFeatureToggle
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TemporaryFeatureToggle.#ctor(System.String,System.Boolean)
+  - SuperOffice.Util.TemporaryFeatureToggle.Dispose
+  langs:
+  - csharp
+  - vb
+  name: TemporaryFeatureToggle
+  nameWithType: TemporaryFeatureToggle
+  fullName: SuperOffice.Util.TemporaryFeatureToggle
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nForce a given FeatureToggle to the desired state, cleanup on Dispose\n"
+  remarks: "\n<seealso cref=\"!:TemporaryFunctionRight\"></seealso>\n<seealso cref=\"!:TemporaryModuleLicense\"></seealso>\n<xref href=\"SuperOffice.Util.TemporaryConfigOverride\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: 'public class TemporaryFeatureToggle : Object, IDisposable'
+    content.vb: >-
+      Public Class TemporaryFeatureToggle
+
+          Inherits Object
+
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  extensionMethods:
+  - SuperOffice.Util.TemporaryFeatureToggle.EnumUtil.MapEnums``2
+  - SuperOffice.Util.TemporaryFeatureToggle.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.TemporaryFeatureToggle.#ctor(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.TemporaryFeatureToggle.#ctor(System.String,System.Boolean)
+  id: '#ctor(System.String,System.Boolean)'
+  parent: SuperOffice.Util.TemporaryFeatureToggle
+  langs:
+  - csharp
+  - vb
+  name: TemporaryFeatureToggle(String, Boolean)
+  nameWithType: TemporaryFeatureToggle.TemporaryFeatureToggle(String, Boolean)
+  fullName: SuperOffice.Util.TemporaryFeatureToggle.TemporaryFeatureToggle(System.String, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public TemporaryFeatureToggle(string name, bool enabled = true)
+    parameters:
+    - id: name
+      type: System.String
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub New(name As String, enabled As Boolean = True)
+  overload: SuperOffice.Util.TemporaryFeatureToggle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.TemporaryFeatureToggle.Dispose
+  commentId: M:SuperOffice.Util.TemporaryFeatureToggle.Dispose
+  id: Dispose
+  parent: SuperOffice.Util.TemporaryFeatureToggle
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: TemporaryFeatureToggle.Dispose()
+  fullName: SuperOffice.Util.TemporaryFeatureToggle.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Util.TemporaryFeatureToggle.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Util.TemporaryFeatureToggle.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TemporaryFeatureToggle, To>()
+  nameWithType: EnumUtil.MapEnums<TemporaryFeatureToggle, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryFeatureToggle, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)()
+  name.vb: MapEnums(Of TemporaryFeatureToggle, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TemporaryFeatureToggle, To>
+    nameWithType: EnumUtil.MapEnums<TemporaryFeatureToggle, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TemporaryFeatureToggle, To)
+    nameWithType: EnumUtil.MapEnums(Of TemporaryFeatureToggle, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TemporaryFeatureToggle.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TemporaryFeatureToggle, To>()
+  nameWithType: Converters.MapEnums<TemporaryFeatureToggle, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>()
+  nameWithType.vb: Converters.MapEnums(Of TemporaryFeatureToggle, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)()
+  name.vb: MapEnums(Of TemporaryFeatureToggle, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TemporaryFeatureToggle, To>
+    nameWithType: Converters.MapEnums<TemporaryFeatureToggle, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryFeatureToggle, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TemporaryFeatureToggle, To)
+    nameWithType: Converters.MapEnums(Of TemporaryFeatureToggle, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryFeatureToggle, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.TemporaryFeatureToggle.#ctor*
+  commentId: Overload:SuperOffice.Util.TemporaryFeatureToggle.#ctor
+  isExternal: true
+  name: TemporaryFeatureToggle
+  nameWithType: TemporaryFeatureToggle.TemporaryFeatureToggle
+  fullName: SuperOffice.Util.TemporaryFeatureToggle.TemporaryFeatureToggle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.TemporaryFeatureToggle.Dispose*
+  commentId: Overload:SuperOffice.Util.TemporaryFeatureToggle.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: TemporaryFeatureToggle.Dispose
+  fullName: SuperOffice.Util.TemporaryFeatureToggle.Dispose

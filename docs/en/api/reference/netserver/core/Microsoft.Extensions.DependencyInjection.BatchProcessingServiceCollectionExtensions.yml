@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
+  id: BatchProcessingServiceCollectionExtensions
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  langs:
+  - csharp
+  - vb
+  name: BatchProcessingServiceCollectionExtensions
+  nameWithType: BatchProcessingServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
+  type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public static class BatchProcessingServiceCollectionExtensions : Object'
+    content.vb: >-
+      Public Module BatchProcessingServiceCollectionExtensions
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddNetServerBatchProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddNetServerBatchProcessing(IServiceCollection)
+  nameWithType: BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: public static IServiceCollection AddNetServerBatchProcessing(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNetServerBatchProcessing(services As IServiceCollection) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddNetServerBatchProcessing``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddNetServerBatchProcessing<TBatchTaskInitializer>(IServiceCollection)
+  nameWithType: BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing<TBatchTaskInitializer>(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing<TBatchTaskInitializer>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: >-
+      public static IServiceCollection AddNetServerBatchProcessing<TBatchTaskInitializer>(this IServiceCollection services)
+          where TBatchTaskInitializer : class, IBatchTaskInitializer
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    typeParameters:
+    - id: TBatchTaskInitializer
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNetServerBatchProcessing(Of TBatchTaskInitializer As {Class, IBatchTaskInitializer})(services As IServiceCollection) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing*
+  nameWithType.vb: BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing(Of TBatchTaskInitializer)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing(Of TBatchTaskInitializer)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddNetServerBatchProcessing(Of TBatchTaskInitializer)(IServiceCollection)
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing
+  isExternal: true
+  name: AddNetServerBatchProcessing
+  nameWithType: BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing
+  fullName: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.AddNetServerBatchProcessing
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection

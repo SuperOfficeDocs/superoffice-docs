@@ -5,6 +5,7 @@ items:
   id: SuperOffice.Globalization
   children:
   - SuperOffice.Globalization.CultureSettingHelper
+  - SuperOffice.Globalization.IResourceManager
   - SuperOffice.Globalization.IResourceProvider
   - SuperOffice.Globalization.ISearchableResourceProvider
   - SuperOffice.Globalization.ITranslatedResourceProvider
@@ -28,6 +29,12 @@ references:
   name: CultureSettingHelper
   nameWithType: CultureSettingHelper
   fullName: SuperOffice.Globalization.CultureSettingHelper
+- uid: SuperOffice.Globalization.IResourceManager
+  commentId: T:SuperOffice.Globalization.IResourceManager
+  isExternal: true
+  name: IResourceManager
+  nameWithType: IResourceManager
+  fullName: SuperOffice.Globalization.IResourceManager
 - uid: SuperOffice.Globalization.RC
   commentId: T:SuperOffice.Globalization.RC
   isExternal: true

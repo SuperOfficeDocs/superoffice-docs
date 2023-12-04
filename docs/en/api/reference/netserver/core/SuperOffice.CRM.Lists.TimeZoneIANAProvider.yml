@@ -1,0 +1,1526 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  commentId: T:SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  id: TimeZoneIANAProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.#ctor
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneIANAProvider
+  nameWithType: TimeZoneIANAProvider
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nProvides the timezone list.\nThe extrainfo contains the IANA-id of the timezone.\nThe iconhint follows the structure &apos;Flag_[country_name]&apos;.\n"
+  syntax:
+    content: >-
+      [MDOProviderPlugin("TimeZoneIANA")]
+
+      public class TimeZoneIANAProvider : TimeZoneProvider, ISoListProvider, ISoList, IPlugin
+    content.vb: >-
+      <MDOProviderPlugin("TimeZoneIANA")>
+
+      Public Class TimeZoneIANAProvider
+
+          Inherits TimeZoneProvider
+
+          Implements ISoListProvider, ISoList, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Lists.TimeZoneProvider
+  implements:
+  - SuperOffice.CRM.Lists.ISoListProvider
+  - SuperOffice.CRM.Lists.ISoList
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+  - SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+  - SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
+  - SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double,System.String)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#HistoryInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HistoryItems
+  - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#RootItems
+  - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HeadingItems
+  extensionMethods:
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.TimeZoneIANAProvider)
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.TimeZoneIANAProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
+    ctor: SuperOffice.CRM.Lists.MDOProviderPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TimeZoneIANA
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.ProviderName
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneIANAProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: TimeZoneIANAProvider.ProviderName
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const string ProviderName = "TimeZoneIANA"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "TimeZoneIANA"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  id: PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  langs:
+  - csharp
+  - vb
+  name: PopulateFromReader(List<ISoListItem>, SoDataReader, Boolean, Boolean, Boolean)
+  nameWithType: TimeZoneIANAProvider.PopulateFromReader(List<ISoListItem>, SoDataReader, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, SuperOffice.Data.SoDataReader, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override void PopulateFromReader(List<ISoListItem> items, SoDataReader reader, bool includeCountryName, bool isHistoryItem = false, bool useCodeAsType = false)
+    parameters:
+    - id: items
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: includeCountryName
+      type: System.Boolean
+    - id: isHistoryItem
+      type: System.Boolean
+    - id: useCodeAsType
+      type: System.Boolean
+    content.vb: Protected Overrides Sub PopulateFromReader(items As List(Of ISoListItem), reader As SoDataReader, includeCountryName As Boolean, isHistoryItem As Boolean = False, useCodeAsType As Boolean = False)
+  overridden: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  overload: SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader*
+  nameWithType.vb: TimeZoneIANAProvider.PopulateFromReader(List(Of ISoListItem), SoDataReader, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), SuperOffice.Data.SoDataReader, System.Boolean, System.Boolean, System.Boolean)
+  name.vb: PopulateFromReader(List(Of ISoListItem), SoDataReader, Boolean, Boolean, Boolean)
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  id: OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  langs:
+  - csharp
+  - vb
+  name: OnBaseTimeItemCreated(SoListItem)
+  nameWithType: TimeZoneIANAProvider.OnBaseTimeItemCreated(SoListItem)
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override void OnBaseTimeItemCreated(SoListItem baseTimeItem)
+    parameters:
+    - id: baseTimeItem
+      type: SuperOffice.CRM.Lists.SoListItem
+    content.vb: Protected Overrides Sub OnBaseTimeItemCreated(baseTimeItem As SoListItem)
+  overridden: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  overload: SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  id: IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  langs:
+  - csharp
+  - vb
+  name: IsSameCountry(SoListItem, SoListItem)
+  nameWithType: TimeZoneIANAProvider.IsSameCountry(SoListItem, SoListItem)
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem, SuperOffice.CRM.Lists.SoListItem)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override bool IsSameCountry(SoListItem itemA, SoListItem itemB)
+    parameters:
+    - id: itemA
+      type: SuperOffice.CRM.Lists.SoListItem
+    - id: itemB
+      type: SuperOffice.CRM.Lists.SoListItem
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function IsSameCountry(itemA As SoListItem, itemB As SoListItem) As Boolean
+  overridden: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  overload: SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery
+  id: BaseQuery
+  parent: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  langs:
+  - csharp
+  - vb
+  name: BaseQuery()
+  nameWithType: TimeZoneIANAProvider.BaseQuery()
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override Select BaseQuery()
+    return:
+      type: SuperOffice.Data.SQL.Select
+    content.vb: 'Protected Overrides Function BaseQuery As '
+  overridden: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+  overload: SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.#ctor
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneIANAProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneIANAProvider()
+  nameWithType: TimeZoneIANAProvider.TimeZoneIANAProvider()
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.TimeZoneIANAProvider()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public TimeZoneIANAProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Lists.TimeZoneIANAProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider
+  commentId: T:SuperOffice.CRM.Lists.TimeZoneProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: TimeZoneProvider
+  nameWithType: TimeZoneProvider
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.ISoList
+  commentId: T:SuperOffice.CRM.Lists.ISoList
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoList
+  nameWithType: ISoList
+  fullName: SuperOffice.CRM.Lists.ISoList
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _TZLocationTableInfo
+  nameWithType: TimeZoneProvider._TZLocationTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _countryTableInfo
+  nameWithType: TimeZoneProvider._countryTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _TZStdRuleTableInfo
+  nameWithType: TimeZoneProvider._TZStdRuleTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _TZDstRuleTableInfo
+  nameWithType: TimeZoneProvider._TZDstRuleTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _homeItem
+  nameWithType: TimeZoneProvider._homeItem
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _searchValue
+  nameWithType: TimeZoneProvider._searchValue
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _forceFlatList
+  nameWithType: TimeZoneProvider._forceFlatList
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _additionalInfo
+  nameWithType: TimeZoneProvider._additionalInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: ISoListProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: TimeZoneProvider.ISoListProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: SuperOffice.CRM.Lists.ISoListProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: ISoListProvider.Construct
+    nameWithType: TimeZoneProvider.ISoListProvider.Construct
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: SuperOffice.CRM.Lists.ISoListProvider.Construct
+    nameWithType: TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.Construct
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: GetCountryHeader(String, SoListItem, SoListHeading)
+  nameWithType: TimeZoneProvider.GetCountryHeader(String, SoListItem, SoListHeading)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String, SuperOffice.CRM.Lists.SoListItem, SuperOffice.CRM.Lists.SoListHeading)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+    name: GetCountryHeader
+    nameWithType: TimeZoneProvider.GetCountryHeader
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListHeading
+    name: SoListHeading
+    nameWithType: SoListHeading
+    fullName: SuperOffice.CRM.Lists.SoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+    name: GetCountryHeader
+    nameWithType: TimeZoneProvider.GetCountryHeader
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListHeading
+    name: SoListHeading
+    nameWithType: SoListHeading
+    fullName: SuperOffice.CRM.Lists.SoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: AddItems(Boolean)
+  nameWithType: TimeZoneProvider.AddItems(Boolean)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
+    name: AddItems
+    nameWithType: TimeZoneProvider.AddItems
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
+    name: AddItems
+    nameWithType: TimeZoneProvider.AddItems
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: GenerateName(String, Double)
+  nameWithType: TimeZoneProvider.GenerateName(String, Double)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String, System.Double)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
+    name: GenerateName
+    nameWithType: TimeZoneProvider.GenerateName
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
+    name: GenerateName
+    nameWithType: TimeZoneProvider.GenerateName
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double,System.String)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double,System.String)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: GenerateOffsetString(Double, String)
+  nameWithType: TimeZoneProvider.GenerateOffsetString(Double, String)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double,System.String)
+    name: GenerateOffsetString
+    nameWithType: TimeZoneProvider.GenerateOffsetString
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double,System.String)
+    name: GenerateOffsetString
+    nameWithType: TimeZoneProvider.GenerateOffsetString
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#HistoryInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: ISoListProvider.HistoryInfo
+  nameWithType: TimeZoneProvider.ISoListProvider.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  nameWithType.vb: TimeZoneProvider.SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  name.vb: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HistoryItems
+  commentId: P:SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HistoryItems
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: ISoList.HistoryItems
+  nameWithType: TimeZoneProvider.ISoList.HistoryItems
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.HistoryItems
+  nameWithType.vb: TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.HistoryItems
+  name.vb: SuperOffice.CRM.Lists.ISoList.HistoryItems
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#RootItems
+  commentId: P:SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#RootItems
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: ISoList.RootItems
+  nameWithType: TimeZoneProvider.ISoList.RootItems
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.RootItems
+  nameWithType.vb: TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.RootItems
+  name.vb: SuperOffice.CRM.Lists.ISoList.RootItems
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HeadingItems
+  commentId: P:SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HeadingItems
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: ISoList.HeadingItems
+  nameWithType: TimeZoneProvider.ISoList.HeadingItems
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.HeadingItems
+  nameWithType.vb: TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.HeadingItems
+  name.vb: SuperOffice.CRM.Lists.ISoList.HeadingItems
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TimeZoneIANAProvider, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneIANAProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.TimeZoneIANAProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneIANAProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider, To)()
+  name.vb: MapEnums(Of TimeZoneIANAProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneIANAProvider, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneIANAProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.TimeZoneIANAProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneIANAProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneIANAProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.TimeZoneIANAProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TimeZoneIANAProvider>(TimeZoneIANAProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<TimeZoneIANAProvider>(TimeZoneIANAProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.TimeZoneIANAProvider>(SuperOffice.CRM.Lists.TimeZoneIANAProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TimeZoneIANAProvider)(TimeZoneIANAProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider)(SuperOffice.CRM.Lists.TimeZoneIANAProvider)
+  name.vb: AssignByReflection(Of TimeZoneIANAProvider)(TimeZoneIANAProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TimeZoneIANAProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<TimeZoneIANAProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.TimeZoneIANAProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+    name: TimeZoneIANAProvider
+    nameWithType: TimeZoneIANAProvider
+    fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TimeZoneIANAProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TimeZoneIANAProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+    name: TimeZoneIANAProvider
+    nameWithType: TimeZoneIANAProvider
+    fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TimeZoneIANAProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<TimeZoneIANAProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.TimeZoneIANAProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TimeZoneIANAProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider)()
+  name.vb: GraphCopy(Of TimeZoneIANAProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TimeZoneIANAProvider>
+    nameWithType: ObjectExtensions.GraphCopy<TimeZoneIANAProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.TimeZoneIANAProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TimeZoneIANAProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of TimeZoneIANAProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TimeZoneIANAProvider, To>()
+  nameWithType: Converters.MapEnums<TimeZoneIANAProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.TimeZoneIANAProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneIANAProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider, To)()
+  name.vb: MapEnums(Of TimeZoneIANAProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneIANAProvider, To>
+    nameWithType: Converters.MapEnums<TimeZoneIANAProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.TimeZoneIANAProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneIANAProvider, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneIANAProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.TimeZoneIANAProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: PopulateFromReader(List<ISoListItem>, SoDataReader, Boolean, Boolean, Boolean)
+  nameWithType: TimeZoneProvider.PopulateFromReader(List<ISoListItem>, SoDataReader, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, SuperOffice.Data.SoDataReader, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: TimeZoneProvider.PopulateFromReader(List(Of ISoListItem), SoDataReader, Boolean, Boolean, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), SuperOffice.Data.SoDataReader, System.Boolean, System.Boolean, System.Boolean)
+  name.vb: PopulateFromReader(List(Of ISoListItem), SoDataReader, Boolean, Boolean, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+    name: PopulateFromReader
+    nameWithType: TimeZoneProvider.PopulateFromReader
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
+    name: PopulateFromReader
+    nameWithType: TimeZoneProvider.PopulateFromReader
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.PopulateFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader*
+  commentId: Overload:SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader
+  isExternal: true
+  name: PopulateFromReader
+  nameWithType: TimeZoneIANAProvider.PopulateFromReader
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.PopulateFromReader
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
+  definition: System.Collections.Generic.List`1
+  name: List<ISoListItem>
+  nameWithType: List<ISoListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: List(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: List(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: OnBaseTimeItemCreated(SoListItem)
+  nameWithType: TimeZoneProvider.OnBaseTimeItemCreated(SoListItem)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+    name: OnBaseTimeItemCreated
+    nameWithType: TimeZoneProvider.OnBaseTimeItemCreated
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+    name: OnBaseTimeItemCreated
+    nameWithType: TimeZoneProvider.OnBaseTimeItemCreated
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated*
+  commentId: Overload:SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated
+  isExternal: true
+  name: OnBaseTimeItemCreated
+  nameWithType: TimeZoneIANAProvider.OnBaseTimeItemCreated
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.OnBaseTimeItemCreated
+- uid: SuperOffice.CRM.Lists.SoListItem
+  commentId: T:SuperOffice.CRM.Lists.SoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: SoListItem
+  nameWithType: SoListItem
+  fullName: SuperOffice.CRM.Lists.SoListItem
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: IsSameCountry(SoListItem, SoListItem)
+  nameWithType: TimeZoneProvider.IsSameCountry(SoListItem, SoListItem)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem, SuperOffice.CRM.Lists.SoListItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+    name: IsSameCountry
+    nameWithType: TimeZoneProvider.IsSameCountry
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+    name: IsSameCountry
+    nameWithType: TimeZoneProvider.IsSameCountry
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry*
+  commentId: Overload:SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry
+  isExternal: true
+  name: IsSameCountry
+  nameWithType: TimeZoneIANAProvider.IsSameCountry
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.IsSameCountry
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: BaseQuery()
+  nameWithType: TimeZoneProvider.BaseQuery()
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    name: BaseQuery
+    nameWithType: TimeZoneProvider.BaseQuery
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    name: BaseQuery
+    nameWithType: TimeZoneProvider.BaseQuery
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery*
+  commentId: Overload:SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery
+  isExternal: true
+  name: BaseQuery
+  nameWithType: TimeZoneIANAProvider.BaseQuery
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.BaseQuery
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Lists.TimeZoneIANAProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.TimeZoneIANAProvider.#ctor
+  isExternal: true
+  name: TimeZoneIANAProvider
+  nameWithType: TimeZoneIANAProvider.TimeZoneIANAProvider
+  fullName: SuperOffice.CRM.Lists.TimeZoneIANAProvider.TimeZoneIANAProvider

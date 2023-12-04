@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Services.WcfService
+  commentId: N:SuperOffice.Services.WcfService
+  id: SuperOffice.Services.WcfService
+  children:
+  - SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+  - SuperOffice.Services.WcfService.OnAuthenticateResponse
+  - SuperOffice.Services.WcfService.SoWcfRequestInterceptor
+  - SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Services.WcfService
+  nameWithType: SuperOffice.Services.WcfService
+  fullName: SuperOffice.Services.WcfService
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: SuperOffice.Services.WcfService.SoWcfRequestInterceptor
+  commentId: T:SuperOffice.Services.WcfService.SoWcfRequestInterceptor
+  isExternal: true
+  name: SoWcfRequestInterceptor
+  nameWithType: SoWcfRequestInterceptor
+  fullName: SuperOffice.Services.WcfService.SoWcfRequestInterceptor
+- uid: SuperOffice.Services.WcfService.OnAuthenticateResponse
+  commentId: T:SuperOffice.Services.WcfService.OnAuthenticateResponse
+  parent: SuperOffice.Services.WcfService
+  isExternal: true
+  name: OnAuthenticateResponse
+  nameWithType: OnAuthenticateResponse
+  fullName: SuperOffice.Services.WcfService.OnAuthenticateResponse
+- uid: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  commentId: T:SuperOffice.Services.WcfService.WcfRequestInterceptorState
+  parent: SuperOffice.Services.WcfService
+  isExternal: true
+  name: WcfRequestInterceptorState
+  nameWithType: WcfRequestInterceptorState
+  fullName: SuperOffice.Services.WcfService.WcfRequestInterceptorState
+- uid: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+  commentId: T:SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+  parent: SuperOffice.Services.WcfService
+  isExternal: true
+  name: ISoWcfRequestInterceptorPlugin
+  nameWithType: ISoWcfRequestInterceptorPlugin
+  fullName: SuperOffice.Services.WcfService.ISoWcfRequestInterceptorPlugin
+- uid: SuperOffice.Services.WcfService
+  commentId: N:SuperOffice.Services.WcfService
+  isExternal: true
+  name: SuperOffice.Services.WcfService
+  nameWithType: SuperOffice.Services.WcfService
+  fullName: SuperOffice.Services.WcfService

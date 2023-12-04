@@ -329,7 +329,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ArchivedAt As Date
+    content.vb: Public Overridable Property ArchivedAt As DateTime
   overload: SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt*
   modifiers.csharp:
   - public
@@ -412,13 +412,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.EMailAgent
   commentId: T:SuperOffice.CRM.Services.EMailAgent
   isExternal: true
@@ -432,12 +425,6 @@ references:
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.CRM.Services.IEMailAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EMailSOInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.#ctor
   isExternal: true
@@ -457,6 +444,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EMailSOInfo.DocumentId*
   commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.DocumentId
   isExternal: true
@@ -508,8 +501,6 @@ references:
   nameWithType: EMailSOInfo.ArchivedAt
   fullName: SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

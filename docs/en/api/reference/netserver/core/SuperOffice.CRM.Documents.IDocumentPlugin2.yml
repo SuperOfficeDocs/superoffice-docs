@@ -56,6 +56,7 @@ items:
     content: 'public interface IDocumentPlugin2 : IPlugin'
     content.vb: >-
       Public Interface IDocumentPlugin2
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Documents.IDocumentPlugin2.EnumUtil.MapEnums``2
@@ -1436,8 +1437,7 @@ references:
   nameWithType: IDocumentPlugin2.GetPluginCapabilities
   fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -1496,14 +1496,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -1513,15 +1512,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1534,24 +1533,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties*
   commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties
   isExternal: true
@@ -1726,8 +1719,6 @@ references:
   nameWithType: IDocumentTemplateInfo
   fullName: SuperOffice.CRM.IDocumentTemplateInfo
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
@@ -1739,12 +1730,6 @@ references:
   name: TemplateInfo
   nameWithType: TemplateInfo
   fullName: SuperOffice.CRM.Documents.TemplateInfo
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream*
   commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream
   isExternal: true
@@ -1815,8 +1800,7 @@ references:
   nameWithType: IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
   fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
 - uid: System.Collections.Generic.Dictionary{System.Int32,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, String>
   nameWithType: Dictionary<Int32, String>

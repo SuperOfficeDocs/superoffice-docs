@@ -22,6 +22,8 @@ items:
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_OrigPriority
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_Ticket_Priority
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketAlert_Priority
+  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+  - SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStart
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.MonStop
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.Name
@@ -69,7 +71,9 @@ items:
       <DatabaseTable("ticket_priority")>
 
       Public Class TicketPriorityTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -91,12 +95,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.TicketPriorityTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -191,26 +189,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -394,7 +378,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;mon_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen the timeframe starts on monday.\n"
+  summary: "\nField &apos;mon_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Mondays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo MonStart { get; }
     parameters: []
@@ -425,7 +409,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;mon_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen the timeframe ends on monday.\n"
+  summary: "\nField &apos;mon_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Mondays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo MonStop { get; }
     parameters: []
@@ -456,7 +440,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tue_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;tue_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Tuesdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo TueStart { get; }
     parameters: []
@@ -487,7 +471,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tue_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;tue_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Tuesdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo TueStop { get; }
     parameters: []
@@ -518,7 +502,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;wed_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;wed_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Wednesdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo WedStart { get; }
     parameters: []
@@ -549,7 +533,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;wed_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;wed_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Wednesdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo WedStop { get; }
     parameters: []
@@ -580,7 +564,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;thu_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;thu_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Thursdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo ThuStart { get; }
     parameters: []
@@ -611,7 +595,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;thu_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;thu_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Thursdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo ThuStop { get; }
     parameters: []
@@ -642,7 +626,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;fri_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;fri_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Fridays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo FriStart { get; }
     parameters: []
@@ -673,7 +657,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;fri_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;fri_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Fridays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo FriStop { get; }
     parameters: []
@@ -704,7 +688,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sat_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;sat_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Saturdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo SatStart { get; }
     parameters: []
@@ -735,7 +719,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sat_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;sat_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Saturdays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo SatStop { get; }
     parameters: []
@@ -766,7 +750,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sun_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;sun_start&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour start for Sundays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo SunStart { get; }
     parameters: []
@@ -797,7 +781,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;sun_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n\n"
+  summary: "\nField &apos;sun_stop&apos; in table &apos;ticket_priority&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe work hour stop for Sundays. Note that only the time part of the DateTime is used\n"
   syntax:
     content: public DateTimeFieldInfo SunStop { get; }
     parameters: []
@@ -1369,6 +1353,68 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+  commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+  id: LeftOuterJoin_TicketType_DefaultPriority
+  parent: SuperOffice.CRM.Data.TicketPriorityTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketType_DefaultPriority
+  nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+  fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to TicketType.<xref href=\"SuperOffice.CRM.Data.TicketTypeTableInfo.DefaultPriority\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketTypeTableInfo> LeftOuterJoin_TicketType_DefaultPriority { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketType_DefaultPriority As TargetedLeftOuterJoin(Of TicketTypeTableInfo)
+  overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  commentId: P:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  id: LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  parent: SuperOffice.CRM.Data.TicketPriorityTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key TicketPriorityId on this table, to TicketTypePriority.<xref href=\"SuperOffice.CRM.Data.TicketTypePriorityTableInfo.TicketPriorityId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<TicketTypePriorityTableInfo> LeftOuterJoin_TicketTypePriority_TicketPriorityId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypePriorityTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TicketTypePriority_TicketPriorityId As TargetedLeftOuterJoin(Of TicketTypePriorityTableInfo)
+  overload: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1391,8 +1437,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1725,254 +1769,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2847,6 +2643,106 @@ references:
     name: SLinkTableInfo
     nameWithType: SLinkTableInfo
     fullName: SuperOffice.CRM.Data.SLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority*
+  commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+  isExternal: true
+  name: LeftOuterJoin_TicketType_DefaultPriority
+  nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+  fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketType_DefaultPriority
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypeTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TicketTypeTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TicketTypeTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTypeTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TicketTypeTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketTypeTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TicketTypeTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+    name: TicketTypeTableInfo
+    nameWithType: TicketTypeTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
+    name: TicketTypeTableInfo
+    nameWithType: TicketTypeTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypeTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId*
+  commentId: Overload:SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  isExternal: true
+  name: LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  nameWithType: TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+  fullName: SuperOffice.CRM.Data.TicketPriorityTableInfo.LeftOuterJoin_TicketTypePriority_TicketPriorityId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypePriorityTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTypePriorityTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<TicketTypePriorityTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TicketTypePriorityTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTypePriorityTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TicketTypePriorityTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TicketTypePriorityTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TicketTypePriorityTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+    name: TicketTypePriorityTableInfo
+    nameWithType: TicketTypePriorityTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
+    name: TicketTypePriorityTableInfo
+    nameWithType: TicketTypePriorityTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTypePriorityTableInfo
     isExternal: true
   - name: )
     nameWithType: )

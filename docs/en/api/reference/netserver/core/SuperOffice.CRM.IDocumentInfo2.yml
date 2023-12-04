@@ -23,6 +23,7 @@ items:
     content: 'public interface IDocumentInfo2 : IDocumentInfo'
     content.vb: >-
       Public Interface IDocumentInfo2
+
           Inherits IDocumentInfo
   inheritedMembers:
   - SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)

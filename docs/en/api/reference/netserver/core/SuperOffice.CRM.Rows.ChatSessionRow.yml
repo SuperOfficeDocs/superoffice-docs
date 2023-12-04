@@ -27,6 +27,7 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow._currentPhone
   - SuperOffice.CRM.Rows.ChatSessionRow._currentProjectId
   - SuperOffice.CRM.Rows.ChatSessionRow._currentRank
+  - SuperOffice.CRM.Rows.ChatSessionRow._currentRating
   - SuperOffice.CRM.Rows.ChatSessionRow._currentSaleId
   - SuperOffice.CRM.Rows.ChatSessionRow._currentSessionKey
   - SuperOffice.CRM.Rows.ChatSessionRow._currentStatus
@@ -37,36 +38,6 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow._currentWhenEnded
   - SuperOffice.CRM.Rows.ChatSessionRow._currentWhenRequested
   - SuperOffice.CRM.Rows.ChatSessionRow._currentWhenStarted
-  - SuperOffice.CRM.Rows.ChatSessionRow._onAlertLevelChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onCompanyNameChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onConsentedChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onContactIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onCustomerAliasChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onCustomerFetchChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onCustomerHostChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onCustomerIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onEmailChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onFirstMessageChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onFlagsChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onIdleChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onInitialQueuePosChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onLastMessageChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onNameChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onPhoneChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onProjectIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onRankChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onSaleIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onSessionKeyChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onStatusChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onTicketIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onTopicIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onTransferToChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onUserIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onWhenEndedChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onWhenRequestedChange
-  - SuperOffice.CRM.Rows.ChatSessionRow._onWhenStartedChange
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedAlertLevel
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedChatbotIsactive
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedChatSessionId
@@ -88,6 +59,7 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedPhone
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedProjectId
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedRank
+  - SuperOffice.CRM.Rows.ChatSessionRow._persistedRating
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedSaleId
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedSessionKey
   - SuperOffice.CRM.Rows.ChatSessionRow._persistedStatus
@@ -130,42 +102,13 @@ items:
   - SuperOffice.CRM.Rows.ChatSessionRow.Item(System.String)
   - SuperOffice.CRM.Rows.ChatSessionRow.LastMessage
   - SuperOffice.CRM.Rows.ChatSessionRow.Name
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnAlertLevelChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnCompanyNameChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnConsentedChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnContactIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerAliasChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerFetchChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerHostChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnEmailChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnFirstMessageChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnFlagsChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnIdleChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnInitialQueuePosChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnLastMessageChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnNameChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnPhoneChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnProjectIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnRankChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnSaleIdChange
   - SuperOffice.CRM.Rows.ChatSessionRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.ChatSessionRow.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnSessionKeyChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnStatusChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnTicketIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnTopicIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnTransferToChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnUserIdChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnWhenEndedChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnWhenRequestedChange
-  - SuperOffice.CRM.Rows.ChatSessionRow.OnWhenStartedChange
   - SuperOffice.CRM.Rows.ChatSessionRow.Phone
   - SuperOffice.CRM.Rows.ChatSessionRow.ProjectId
   - SuperOffice.CRM.Rows.ChatSessionRow.Rank
+  - SuperOffice.CRM.Rows.ChatSessionRow.Rating
   - SuperOffice.CRM.Rows.ChatSessionRow.Reset
   - SuperOffice.CRM.Rows.ChatSessionRow.SaleId
   - SuperOffice.CRM.Rows.ChatSessionRow.SessionKey
@@ -202,7 +145,9 @@ items:
     content: 'public class ChatSessionRow : TableRowBase, INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem'
     content.vb: >-
       Public Class ChatSessionRow
+
           Inherits TableRowBase
+
           Implements INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem
   inheritance:
   - System.Object
@@ -217,8 +162,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowBase._saveOwner
   - SuperOffice.CRM.Rows.TableRowBase._sentries
-  - SuperOffice.CRM.Rows.TableRowBase._onValueChange
   - SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+  - SuperOffice.CRM.Rows.TableRowBase._isSaving
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
@@ -237,6 +182,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Rows.TableRowBase.Validate
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice#Data#INestedPersist#OnPreIdUpdate
@@ -261,13 +210,17 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SqlType
   - SuperOffice.CRM.Rows.TableRowBase.IsSentryIgnored
   - SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
   - SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   - SuperOffice.CRM.Rows.TableRowBase.OnElementIdUpdate
   - SuperOffice.Data.SQL.PrivateSave.GetTableInfos
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -279,17 +232,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ChatSessionRow.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.ChatSessionRow.SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.ChatSessionRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -481,7 +429,7 @@ items:
     content: protected DateTime _persistedWhenRequested
     return:
       type: System.DateTime
-    content.vb: Protected _persistedWhenRequested As Date
+    content.vb: Protected _persistedWhenRequested As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -508,7 +456,7 @@ items:
     content: protected DateTime _persistedWhenStarted
     return:
       type: System.DateTime
-    content.vb: Protected _persistedWhenStarted As Date
+    content.vb: Protected _persistedWhenStarted As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -535,7 +483,7 @@ items:
     content: protected DateTime _persistedWhenEnded
     return:
       type: System.DateTime
-    content.vb: Protected _persistedWhenEnded As Date
+    content.vb: Protected _persistedWhenEnded As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -562,7 +510,7 @@ items:
     content: protected DateTime _persistedIdle
     return:
       type: System.DateTime
-    content.vb: Protected _persistedIdle As Date
+    content.vb: Protected _persistedIdle As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -589,7 +537,7 @@ items:
     content: protected DateTime _persistedCustomerFetch
     return:
       type: System.DateTime
-    content.vb: Protected _persistedCustomerFetch As Date
+    content.vb: Protected _persistedCustomerFetch As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1134,6 +1082,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._persistedRating
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._persistedRating
+  id: _persistedRating
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedRating
+  nameWithType: ChatSessionRow._persistedRating
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._persistedRating
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Rating\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _persistedRating
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedRating As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.ChatSessionRow._currentChatSessionId
   commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._currentChatSessionId
   id: _currentChatSessionId
@@ -1318,7 +1293,7 @@ items:
     content: protected DateTime _currentWhenRequested
     return:
       type: System.DateTime
-    content.vb: Protected _currentWhenRequested As Date
+    content.vb: Protected _currentWhenRequested As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1345,7 +1320,7 @@ items:
     content: protected DateTime _currentWhenStarted
     return:
       type: System.DateTime
-    content.vb: Protected _currentWhenStarted As Date
+    content.vb: Protected _currentWhenStarted As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1372,7 +1347,7 @@ items:
     content: protected DateTime _currentWhenEnded
     return:
       type: System.DateTime
-    content.vb: Protected _currentWhenEnded As Date
+    content.vb: Protected _currentWhenEnded As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1399,7 +1374,7 @@ items:
     content: protected DateTime _currentIdle
     return:
       type: System.DateTime
-    content.vb: Protected _currentIdle As Date
+    content.vb: Protected _currentIdle As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1426,7 +1401,7 @@ items:
     content: protected DateTime _currentCustomerFetch
     return:
       type: System.DateTime
-    content.vb: Protected _currentCustomerFetch As Date
+    content.vb: Protected _currentCustomerFetch As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1971,6 +1946,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.ChatSessionRow._currentRating
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRow._currentRating
+  id: _currentRating
+  parent: SuperOffice.CRM.Rows.ChatSessionRow
+  langs:
+  - csharp
+  - vb
+  name: _currentRating
+  nameWithType: ChatSessionRow._currentRating
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow._currentRating
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Rating\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected int _currentRating
+    return:
+      type: System.Int32
+    content.vb: Protected _currentRating As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.ChatSessionRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ChatSessionRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2307,7 +2309,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.ChatSessionRow.ToString*
   modifiers.csharp:
   - public
@@ -2841,7 +2842,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. The primary key (auto-incremented) \n"
-  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>		\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
+  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>        \n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
   syntax:
     content: public virtual int ChatSessionId { get; }
     parameters: []
@@ -3051,7 +3052,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenRequested As Date
+    content.vb: Public Overridable Property WhenRequested As DateTime
   overload: SuperOffice.CRM.Rows.ChatSessionRow.WhenRequested*
   modifiers.csharp:
   - public
@@ -3085,7 +3086,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenStarted As Date
+    content.vb: Public Overridable Property WhenStarted As DateTime
   overload: SuperOffice.CRM.Rows.ChatSessionRow.WhenStarted*
   modifiers.csharp:
   - public
@@ -3119,7 +3120,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenEnded As Date
+    content.vb: Public Overridable Property WhenEnded As DateTime
   overload: SuperOffice.CRM.Rows.ChatSessionRow.WhenEnded*
   modifiers.csharp:
   - public
@@ -3153,7 +3154,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Idle As Date
+    content.vb: Public Overridable Property Idle As DateTime
   overload: SuperOffice.CRM.Rows.ChatSessionRow.Idle*
   modifiers.csharp:
   - public
@@ -3187,7 +3188,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CustomerFetch As Date
+    content.vb: Public Overridable Property CustomerFetch As DateTime
   overload: SuperOffice.CRM.Rows.ChatSessionRow.CustomerFetch*
   modifiers.csharp:
   - public
@@ -3877,1626 +3878,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onTopicIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onTopicIdChange
-  id: _onTopicIdChange
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.Rating
+  commentId: P:SuperOffice.CRM.Rows.ChatSessionRow.Rating
+  id: Rating
   parent: SuperOffice.CRM.Rows.ChatSessionRow
   langs:
   - csharp
   - vb
-  name: _onTopicIdChange
-  nameWithType: ChatSessionRow._onTopicIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onTopicIdChange
-  type: Event
+  name: Rating
+  nameWithType: ChatSessionRow.Rating
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.Rating
+  type: Property
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.TopicId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
+  summary: "\n.NET type: int. Rating of this chat conversation given by the customer \n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
-    content: protected event OnFieldChange<int> _onTopicIdChange
+    content: public virtual int Rating { get; set; }
+    parameters: []
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onTopicIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onUserIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onUserIdChange
-  id: _onUserIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onUserIdChange
-  nameWithType: ChatSessionRow._onUserIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onUserIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.UserId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onUserIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onUserIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onCustomerIdChange
-  id: _onCustomerIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCustomerIdChange
-  nameWithType: ChatSessionRow._onCustomerIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.CustomerId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onCustomerIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onCustomerIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerAliasChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onCustomerAliasChange
-  id: _onCustomerAliasChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCustomerAliasChange
-  nameWithType: ChatSessionRow._onCustomerAliasChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerAliasChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.CustomerAlias\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onCustomerAliasChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onCustomerAliasChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onStatusChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onStatusChange
-  id: _onStatusChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onStatusChange
-  nameWithType: ChatSessionRow._onStatusChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onStatusChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Status\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<ChatSessionStatus> _onStatusChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionStatus}
-    content.vb: Protected Event _onStatusChange As OnFieldChange(Of ChatSessionStatus)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onWhenRequestedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onWhenRequestedChange
-  id: _onWhenRequestedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onWhenRequestedChange
-  nameWithType: ChatSessionRow._onWhenRequestedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onWhenRequestedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.WhenRequested\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onWhenRequestedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onWhenRequestedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onWhenStartedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onWhenStartedChange
-  id: _onWhenStartedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onWhenStartedChange
-  nameWithType: ChatSessionRow._onWhenStartedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onWhenStartedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.WhenStarted\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onWhenStartedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onWhenStartedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onWhenEndedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onWhenEndedChange
-  id: _onWhenEndedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onWhenEndedChange
-  nameWithType: ChatSessionRow._onWhenEndedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onWhenEndedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.WhenEnded\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onWhenEndedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onWhenEndedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onIdleChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onIdleChange
-  id: _onIdleChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onIdleChange
-  nameWithType: ChatSessionRow._onIdleChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onIdleChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Idle\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onIdleChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onIdleChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerFetchChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onCustomerFetchChange
-  id: _onCustomerFetchChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCustomerFetchChange
-  nameWithType: ChatSessionRow._onCustomerFetchChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerFetchChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.CustomerFetch\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onCustomerFetchChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onCustomerFetchChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onSessionKeyChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onSessionKeyChange
-  id: _onSessionKeyChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onSessionKeyChange
-  nameWithType: ChatSessionRow._onSessionKeyChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onSessionKeyChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.SessionKey\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onSessionKeyChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onSessionKeyChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onInitialQueuePosChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onInitialQueuePosChange
-  id: _onInitialQueuePosChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onInitialQueuePosChange
-  nameWithType: ChatSessionRow._onInitialQueuePosChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onInitialQueuePosChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.InitialQueuePos\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onInitialQueuePosChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onInitialQueuePosChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerHostChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onCustomerHostChange
-  id: _onCustomerHostChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCustomerHostChange
-  nameWithType: ChatSessionRow._onCustomerHostChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onCustomerHostChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.CustomerHost\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onCustomerHostChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onCustomerHostChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onAlertLevelChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onAlertLevelChange
-  id: _onAlertLevelChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onAlertLevelChange
-  nameWithType: ChatSessionRow._onAlertLevelChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onAlertLevelChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.AlertLevel\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onAlertLevelChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onAlertLevelChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onRankChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onRankChange
-  id: _onRankChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onRankChange
-  nameWithType: ChatSessionRow._onRankChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onRankChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Rank\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onRankChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onRankChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onNameChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onNameChange
-  id: _onNameChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onNameChange
-  nameWithType: ChatSessionRow._onNameChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Name\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onCompanyNameChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onCompanyNameChange
-  id: _onCompanyNameChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCompanyNameChange
-  nameWithType: ChatSessionRow._onCompanyNameChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onCompanyNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.CompanyName\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onCompanyNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onCompanyNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onEmailChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onEmailChange
-  id: _onEmailChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onEmailChange
-  nameWithType: ChatSessionRow._onEmailChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onEmailChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Email\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onEmailChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onEmailChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onPhoneChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onPhoneChange
-  id: _onPhoneChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onPhoneChange
-  nameWithType: ChatSessionRow._onPhoneChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onPhoneChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Phone\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onPhoneChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onPhoneChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onFirstMessageChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onFirstMessageChange
-  id: _onFirstMessageChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onFirstMessageChange
-  nameWithType: ChatSessionRow._onFirstMessageChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onFirstMessageChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.FirstMessage\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onFirstMessageChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onFirstMessageChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onLastMessageChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onLastMessageChange
-  id: _onLastMessageChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onLastMessageChange
-  nameWithType: ChatSessionRow._onLastMessageChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onLastMessageChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.LastMessage\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onLastMessageChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onLastMessageChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onFlagsChange
-  id: _onFlagsChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onFlagsChange
-  nameWithType: ChatSessionRow._onFlagsChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Flags\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<ChatSessionFlags> _onFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionFlags}
-    content.vb: Protected Event _onFlagsChange As OnFieldChange(Of ChatSessionFlags)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onProjectIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onProjectIdChange
-  id: _onProjectIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onProjectIdChange
-  nameWithType: ChatSessionRow._onProjectIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onProjectIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.ProjectId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onProjectIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onProjectIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onSaleIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onSaleIdChange
-  id: _onSaleIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onSaleIdChange
-  nameWithType: ChatSessionRow._onSaleIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onSaleIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.SaleId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onSaleIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onSaleIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onTicketIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onTicketIdChange
-  id: _onTicketIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onTicketIdChange
-  nameWithType: ChatSessionRow._onTicketIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onTicketIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.TicketId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onTicketIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onTicketIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onContactIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onContactIdChange
-  id: _onContactIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onContactIdChange
-  nameWithType: ChatSessionRow._onContactIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onContactIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.ContactId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onContactIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onContactIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onTransferToChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onTransferToChange
-  id: _onTransferToChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onTransferToChange
-  nameWithType: ChatSessionRow._onTransferToChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onTransferToChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.TransferTo\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onTransferToChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onTransferToChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onConsentedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onConsentedChange
-  id: _onConsentedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onConsentedChange
-  nameWithType: ChatSessionRow._onConsentedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onConsentedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Consented\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onConsentedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onConsentedChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
-  id: _onChatbotIsactiveChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onChatbotIsactiveChange
-  nameWithType: ChatSessionRow._onChatbotIsactiveChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onChatbotIsactiveChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.ChatbotIsactive\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onChatbotIsactiveChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onChatbotIsactiveChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
-  id: _onCountryChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCountryChange
-  nameWithType: ChatSessionRow._onCountryChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow._onCountryChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow.Country\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onCountryChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onCountryChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnTopicIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnTopicIdChange
-  id: OnTopicIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnTopicIdChange
-  nameWithType: ChatSessionRow.OnTopicIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnTopicIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TopicId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnTopicIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnTopicIdChange As OnFieldChange(Of Integer)
+      type: System.Int32
+    content.vb: Public Overridable Property Rating As Integer
+  overload: SuperOffice.CRM.Rows.ChatSessionRow.Rating*
   modifiers.csharp:
   - public
+  - virtual
+  - get
+  - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnUserIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnUserIdChange
-  id: OnUserIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnUserIdChange
-  nameWithType: ChatSessionRow.OnUserIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnUserIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UserId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnUserIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnUserIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerIdChange
-  id: OnCustomerIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCustomerIdChange
-  nameWithType: ChatSessionRow.OnCustomerIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CustomerId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnCustomerIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnCustomerIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerAliasChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerAliasChange
-  id: OnCustomerAliasChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCustomerAliasChange
-  nameWithType: ChatSessionRow.OnCustomerAliasChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerAliasChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CustomerAlias is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnCustomerAliasChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnCustomerAliasChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnStatusChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnStatusChange
-  id: OnStatusChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnStatusChange
-  nameWithType: ChatSessionRow.OnStatusChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnStatusChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Status is changing.\n"
-  syntax:
-    content: public event OnFieldChange<ChatSessionStatus> OnStatusChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionStatus}
-    content.vb: Public Event OnStatusChange As OnFieldChange(Of ChatSessionStatus)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnWhenRequestedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnWhenRequestedChange
-  id: OnWhenRequestedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnWhenRequestedChange
-  nameWithType: ChatSessionRow.OnWhenRequestedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnWhenRequestedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when WhenRequested is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnWhenRequestedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnWhenRequestedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnWhenStartedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnWhenStartedChange
-  id: OnWhenStartedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnWhenStartedChange
-  nameWithType: ChatSessionRow.OnWhenStartedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnWhenStartedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when WhenStarted is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnWhenStartedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnWhenStartedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnWhenEndedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnWhenEndedChange
-  id: OnWhenEndedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnWhenEndedChange
-  nameWithType: ChatSessionRow.OnWhenEndedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnWhenEndedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when WhenEnded is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnWhenEndedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnWhenEndedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnIdleChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnIdleChange
-  id: OnIdleChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnIdleChange
-  nameWithType: ChatSessionRow.OnIdleChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnIdleChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Idle is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnIdleChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnIdleChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerFetchChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerFetchChange
-  id: OnCustomerFetchChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCustomerFetchChange
-  nameWithType: ChatSessionRow.OnCustomerFetchChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerFetchChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CustomerFetch is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnCustomerFetchChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnCustomerFetchChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnSessionKeyChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnSessionKeyChange
-  id: OnSessionKeyChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnSessionKeyChange
-  nameWithType: ChatSessionRow.OnSessionKeyChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnSessionKeyChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SessionKey is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnSessionKeyChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnSessionKeyChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnInitialQueuePosChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnInitialQueuePosChange
-  id: OnInitialQueuePosChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnInitialQueuePosChange
-  nameWithType: ChatSessionRow.OnInitialQueuePosChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnInitialQueuePosChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when InitialQueuePos is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnInitialQueuePosChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnInitialQueuePosChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerHostChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerHostChange
-  id: OnCustomerHostChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCustomerHostChange
-  nameWithType: ChatSessionRow.OnCustomerHostChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnCustomerHostChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CustomerHost is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnCustomerHostChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnCustomerHostChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnAlertLevelChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnAlertLevelChange
-  id: OnAlertLevelChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnAlertLevelChange
-  nameWithType: ChatSessionRow.OnAlertLevelChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnAlertLevelChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when AlertLevel is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnAlertLevelChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnAlertLevelChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnRankChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnRankChange
-  id: OnRankChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnRankChange
-  nameWithType: ChatSessionRow.OnRankChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnRankChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Rank is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnRankChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnRankChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnNameChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnNameChange
-  id: OnNameChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnNameChange
-  nameWithType: ChatSessionRow.OnNameChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Name is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnCompanyNameChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnCompanyNameChange
-  id: OnCompanyNameChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCompanyNameChange
-  nameWithType: ChatSessionRow.OnCompanyNameChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnCompanyNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CompanyName is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnCompanyNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnCompanyNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnEmailChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnEmailChange
-  id: OnEmailChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnEmailChange
-  nameWithType: ChatSessionRow.OnEmailChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnEmailChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Email is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnEmailChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnEmailChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnPhoneChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnPhoneChange
-  id: OnPhoneChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnPhoneChange
-  nameWithType: ChatSessionRow.OnPhoneChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnPhoneChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Phone is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnPhoneChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnPhoneChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnFirstMessageChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnFirstMessageChange
-  id: OnFirstMessageChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnFirstMessageChange
-  nameWithType: ChatSessionRow.OnFirstMessageChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnFirstMessageChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when FirstMessage is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnFirstMessageChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnFirstMessageChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnLastMessageChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnLastMessageChange
-  id: OnLastMessageChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnLastMessageChange
-  nameWithType: ChatSessionRow.OnLastMessageChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnLastMessageChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when LastMessage is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnLastMessageChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnLastMessageChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnFlagsChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnFlagsChange
-  id: OnFlagsChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnFlagsChange
-  nameWithType: ChatSessionRow.OnFlagsChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnFlagsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Flags is changing.\n"
-  syntax:
-    content: public event OnFieldChange<ChatSessionFlags> OnFlagsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionFlags}
-    content.vb: Public Event OnFlagsChange As OnFieldChange(Of ChatSessionFlags)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnProjectIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnProjectIdChange
-  id: OnProjectIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnProjectIdChange
-  nameWithType: ChatSessionRow.OnProjectIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnProjectIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ProjectId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnProjectIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnProjectIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnSaleIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnSaleIdChange
-  id: OnSaleIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnSaleIdChange
-  nameWithType: ChatSessionRow.OnSaleIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnSaleIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SaleId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnSaleIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnSaleIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnTicketIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnTicketIdChange
-  id: OnTicketIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnTicketIdChange
-  nameWithType: ChatSessionRow.OnTicketIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnTicketIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TicketId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnTicketIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnTicketIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnContactIdChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnContactIdChange
-  id: OnContactIdChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnContactIdChange
-  nameWithType: ChatSessionRow.OnContactIdChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnContactIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ContactId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnContactIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnContactIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnTransferToChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnTransferToChange
-  id: OnTransferToChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnTransferToChange
-  nameWithType: ChatSessionRow.OnTransferToChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnTransferToChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TransferTo is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnTransferToChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnTransferToChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnConsentedChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnConsentedChange
-  id: OnConsentedChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnConsentedChange
-  nameWithType: ChatSessionRow.OnConsentedChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnConsentedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Consented is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnConsentedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnConsentedChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
-  id: OnChatbotIsactiveChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnChatbotIsactiveChange
-  nameWithType: ChatSessionRow.OnChatbotIsactiveChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnChatbotIsactiveChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ChatbotIsactive is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnChatbotIsactiveChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnChatbotIsactiveChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
-  commentId: E:SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
-  id: OnCountryChange
-  parent: SuperOffice.CRM.Rows.ChatSessionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCountryChange
-  nameWithType: ChatSessionRow.OnCountryChange
-  fullName: SuperOffice.CRM.Rows.ChatSessionRow.OnCountryChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Country is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnCountryChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnCountryChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -5574,13 +3989,6 @@ references:
   name: _sentries
   nameWithType: TableRowBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowBase._sentries
-- uid: SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  commentId: F:SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: _onValueChange
-  nameWithType: TableRowBase._onValueChange
-  fullName: SuperOffice.CRM.Rows.TableRowBase._onValueChange
 - uid: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5588,6 +3996,13 @@ references:
   name: _relatedNestedPersistMembers
   nameWithType: TableRowBase._relatedNestedPersistMembers
   fullName: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+- uid: SuperOffice.CRM.Rows.TableRowBase._isSaving
+  commentId: F:SuperOffice.CRM.Rows.TableRowBase._isSaving
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: _isSaving
+  nameWithType: TableRowBase._isSaving
+  fullName: SuperOffice.CRM.Rows.TableRowBase._isSaving
 - uid: SuperOffice.CRM.Rows.TableRowBase._sqlType
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._sqlType
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6326,6 +4741,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7042,13 +5621,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: OnValueChanged
-  nameWithType: TableRowBase.OnValueChanged
-  fullName: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7094,6 +5666,88 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -7125,6 +5779,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   commentId: E:SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -7139,6 +5857,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -7521,254 +6246,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ChatSessionRow.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -7902,6 +6379,37 @@ references:
     name: ExecuteNonQuery
     nameWithType: QueryExectionExtensions.ExecuteNonQuery
     fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
+  commentId: M:SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatSessionRow)
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatSessionRow)
+  name: ToRecordData()
+  nameWithType: ChatSessionRecordDataExtensions.ToRecordData()
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: ChatSessionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: ChatSessionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
     isExternal: true
   - name: (
     nameWithType: (
@@ -8158,6 +6666,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatSessionRow)
+  commentId: M:SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatSessionRow)
+  isExternal: true
+  name: ToRecordData(ChatSessionRow)
+  nameWithType: ChatSessionRecordDataExtensions.ToRecordData(ChatSessionRow)
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatSessionRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatSessionRow)
+    name: ToRecordData
+    nameWithType: ChatSessionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatSessionRow
+    name: ChatSessionRow
+    nameWithType: ChatSessionRow
+    fullName: SuperOffice.CRM.Rows.ChatSessionRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ChatSessionRow)
+    name: ToRecordData
+    nameWithType: ChatSessionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatSessionRow
+    name: ChatSessionRow
+    nameWithType: ChatSessionRow
+    fullName: SuperOffice.CRM.Rows.ChatSessionRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ChatSessionRecordDataExtensions
+  nameWithType: ChatSessionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -8232,8 +6787,6 @@ references:
   nameWithType: ChatSessionStatus
   fullName: SuperOffice.Data.ChatSessionStatus
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -8551,37 +7104,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ChatSessionRow.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.ChatSessionRow.ToString
   isExternal: true
@@ -9268,306 +7790,9 @@ references:
   name: Country
   nameWithType: ChatSessionRow.Country
   fullName: SuperOffice.CRM.Rows.ChatSessionRow.Country
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int32>
-  nameWithType: OnFieldChange<Int32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
-  nameWithType.vb: OnFieldChange(Of Int32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
-  name.vb: OnFieldChange(Of Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange`1
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
+- uid: SuperOffice.CRM.Rows.ChatSessionRow.Rating*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatSessionRow.Rating
   isExternal: true
-  name: OnFieldChange<TValue>
-  nameWithType: OnFieldChange<TValue>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  nameWithType.vb: OnFieldChange(Of TValue)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
-  name.vb: OnFieldChange(Of TValue)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<String>
-  nameWithType: OnFieldChange<String>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.String>
-  nameWithType.vb: OnFieldChange(Of String)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.String)
-  name.vb: OnFieldChange(Of String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionStatus}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionStatus}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<ChatSessionStatus>
-  nameWithType: OnFieldChange<ChatSessionStatus>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.ChatSessionStatus>
-  nameWithType.vb: OnFieldChange(Of ChatSessionStatus)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.ChatSessionStatus)
-  name.vb: OnFieldChange(Of ChatSessionStatus)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    nameWithType: ChatSessionStatus
-    fullName: SuperOffice.Data.ChatSessionStatus
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    nameWithType: ChatSessionStatus
-    fullName: SuperOffice.Data.ChatSessionStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DateTime>
-  nameWithType: OnFieldChange<DateTime>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
-  nameWithType.vb: OnFieldChange(Of DateTime)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
-  name.vb: OnFieldChange(Of DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionFlags}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ChatSessionFlags}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<ChatSessionFlags>
-  nameWithType: OnFieldChange<ChatSessionFlags>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.ChatSessionFlags>
-  nameWithType.vb: OnFieldChange(Of ChatSessionFlags)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.ChatSessionFlags)
-  name.vb: OnFieldChange(Of ChatSessionFlags)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.ChatSessionFlags
-    name: ChatSessionFlags
-    nameWithType: ChatSessionFlags
-    fullName: SuperOffice.Data.ChatSessionFlags
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.ChatSessionFlags
-    name: ChatSessionFlags
-    nameWithType: ChatSessionFlags
-    fullName: SuperOffice.Data.ChatSessionFlags
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: Rating
+  nameWithType: ChatSessionRow.Rating
+  fullName: SuperOffice.CRM.Rows.ChatSessionRow.Rating

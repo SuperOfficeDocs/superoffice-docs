@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  id: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.HttpContextItem
+  - SuperOffice.WebApi.IOnlineAppRequestInfo
+  - SuperOffice.WebApi.OnlineAppRequestInfo
+  - SuperOffice.WebApi.PartnerAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: SuperOffice.WebApi.HttpContextItem
+  commentId: T:SuperOffice.WebApi.HttpContextItem
+  isExternal: true
+  name: HttpContextItem
+  nameWithType: HttpContextItem
+  fullName: SuperOffice.WebApi.HttpContextItem
+- uid: SuperOffice.WebApi.PartnerAppRequestInfo
+  commentId: T:SuperOffice.WebApi.PartnerAppRequestInfo
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: PartnerAppRequestInfo
+  nameWithType: PartnerAppRequestInfo
+  fullName: SuperOffice.WebApi.PartnerAppRequestInfo
+- uid: SuperOffice.WebApi.IOnlineAppRequestInfo
+  commentId: T:SuperOffice.WebApi.IOnlineAppRequestInfo
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IOnlineAppRequestInfo
+  nameWithType: IOnlineAppRequestInfo
+  fullName: SuperOffice.WebApi.IOnlineAppRequestInfo
+- uid: SuperOffice.WebApi.OnlineAppRequestInfo
+  commentId: T:SuperOffice.WebApi.OnlineAppRequestInfo
+  isExternal: true
+  name: OnlineAppRequestInfo
+  nameWithType: OnlineAppRequestInfo
+  fullName: SuperOffice.WebApi.OnlineAppRequestInfo
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi

@@ -1,0 +1,582 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  id: WorkflowStepCreateRequest
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.#ctor
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString
+  - SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateRequest
+  nameWithType: WorkflowStepCreateRequest
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStep in workflow.\n<p></p>\nCarrier object for WorkflowStepCreateRequest.\nServices for the WorkflowStepCreateRequest Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowStepCreateRequest : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepCreateRequest
+
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  - SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  - SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateRequest()
+  nameWithType: WorkflowStepCreateRequest.WorkflowStepCreateRequest()
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.WorkflowStepCreateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowStepCreateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowStepCreateRequest.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowStepCreateRequest.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: WorkflowStepCreateRequest.Title
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRequest title \n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType
+  id: RequestType
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: RequestType
+  nameWithType: WorkflowStepCreateRequest.RequestType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRequest type \n"
+  syntax:
+    content: public virtual int RequestType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RequestType As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category
+  id: Category
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: WorkflowStepCreateRequest.Category
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRequest category \n"
+  syntax:
+    content: public virtual int Category { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Category As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: WorkflowStepCreateRequest.Priority
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRequest priority \n"
+  syntax:
+    content: public virtual int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Priority As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: WorkflowStepCreateRequest.Status
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRequest status \n"
+  syntax:
+    content: public virtual int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Status As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message
+  id: Message
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: WorkflowStepCreateRequest.Message
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMessage \n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner
+  id: Owner
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: WorkflowStepCreateRequest.Owner
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRequest owner \n"
+  syntax:
+    content: public virtual int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Owner As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.#ctor
+  isExternal: true
+  name: WorkflowStepCreateRequest
+  nameWithType: WorkflowStepCreateRequest.WorkflowStepCreateRequest
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.WorkflowStepCreateRequest
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString()
+  nameWithType: WorkflowStepBase.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowStepCreateRequest.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString(String)
+  nameWithType: WorkflowStepBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title
+  isExternal: true
+  name: Title
+  nameWithType: WorkflowStepCreateRequest.Title
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Title
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType
+  isExternal: true
+  name: RequestType
+  nameWithType: WorkflowStepCreateRequest.RequestType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.RequestType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category
+  isExternal: true
+  name: Category
+  nameWithType: WorkflowStepCreateRequest.Category
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Category
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: WorkflowStepCreateRequest.Priority
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Priority
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status
+  isExternal: true
+  name: Status
+  nameWithType: WorkflowStepCreateRequest.Status
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Status
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message
+  isExternal: true
+  name: Message
+  nameWithType: WorkflowStepCreateRequest.Message
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Message
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: WorkflowStepCreateRequest.Owner
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateRequest.Owner

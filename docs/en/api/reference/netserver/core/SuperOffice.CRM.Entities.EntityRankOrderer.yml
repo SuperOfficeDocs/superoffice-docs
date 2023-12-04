@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.EntityRankOrderer
+  commentId: T:SuperOffice.CRM.Entities.EntityRankOrderer
+  id: EntityRankOrderer
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition(SuperOffice.Data.SQL.Int32FieldInfo,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: EntityRankOrderer
+  nameWithType: EntityRankOrderer
+  fullName: SuperOffice.CRM.Entities.EntityRankOrderer
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHelper method for sorting items in a table <xref href=\"SuperOffice.CRM.Entities.EntityRankOrderer\" data-throw-if-not-resolved=\"false\"></xref>.\nMethod will take care of gaps and duplicate values by ordering all rows starting from 1\nIt will only update rows having actual changes\n"
+  syntax:
+    content: 'public static class EntityRankOrderer : Object'
+    content.vb: >-
+      Public Module EntityRankOrderer
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition(SuperOffice.Data.SQL.Int32FieldInfo,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition(SuperOffice.Data.SQL.Int32FieldInfo,System.Int32,System.Int32)
+  id: SetItemPosition(SuperOffice.Data.SQL.Int32FieldInfo,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Entities.EntityRankOrderer
+  langs:
+  - csharp
+  - vb
+  name: SetItemPosition(Int32FieldInfo, Int32, Int32)
+  nameWithType: EntityRankOrderer.SetItemPosition(Int32FieldInfo, Int32, Int32)
+  fullName: SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition(SuperOffice.Data.SQL.Int32FieldInfo, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRe-order items in a table, based on some int rank/sortorder field\n"
+  syntax:
+    content: public static void SetItemPosition(Int32FieldInfo orderField, int pkToMove, int newPosition)
+    parameters:
+    - id: orderField
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+      description: The field that is used to order the items
+    - id: pkToMove
+      type: System.Int32
+      description: The primary key of the item to be moved
+    - id: newPosition
+      type: System.Int32
+      description: The new position (1-based) of the item to be moved
+    content.vb: Public Shared Sub SetItemPosition(orderField As Int32FieldInfo, pkToMove As Integer, newPosition As Integer)
+  overload: SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition
+  isExternal: true
+  name: SetItemPosition
+  nameWithType: EntityRankOrderer.SetItemPosition
+  fullName: SuperOffice.CRM.Entities.EntityRankOrderer.SetItemPosition
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL

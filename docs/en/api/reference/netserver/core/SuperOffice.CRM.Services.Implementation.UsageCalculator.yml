@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator
+  commentId: T:SuperOffice.CRM.Services.Implementation.UsageCalculator
+  id: UsageCalculator
+  parent: SuperOffice.CRM.Services.Implementation
+  children:
+  - SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
+  - SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: UsageCalculator
+  nameWithType: UsageCalculator
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nHelper class to calculate resource usage\n"
+  syntax:
+    content: 'public static class UsageCalculator : Object'
+    content.vb: >-
+      Public Module UsageCalculator
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
+  id: GetRecordsFromResults(System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.UsageCalculator
+  langs:
+  - csharp
+  - vb
+  name: GetRecordsFromResults(Object)
+  nameWithType: UsageCalculator.GetRecordsFromResults(Object)
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults(System.Object)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nCalculate resource usage from a result.\n"
+  syntax:
+    content: public static int GetRecordsFromResults(object results)
+    parameters:
+    - id: results
+      type: System.Object
+      description: Return value to calculate records from.
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetRecordsFromResults(results As Object) As Integer
+  overload: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
+  id: RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket,System.Object)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.Implementation.UsageCalculator
+  langs:
+  - csharp
+  - vb
+  name: RecordDatabaseRecordsFromResult(IResourceUsageBucket, Object)
+  nameWithType: UsageCalculator.RecordDatabaseRecordsFromResult(IResourceUsageBucket, Object)
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult(SuperOffice.Diagnostics.IResourceUsageBucket, System.Object)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nRecord usage from the result of a service call\n"
+  syntax:
+    content: public static int RecordDatabaseRecordsFromResult(this IResourceUsageBucket resourceUsageBucket, object results)
+    parameters:
+    - id: resourceUsageBucket
+      type: SuperOffice.Diagnostics.IResourceUsageBucket
+      description: Resource usage bucket to calculate usage to.
+    - id: results
+      type: System.Object
+      description: Return value to calculate records from.
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RecordDatabaseRecordsFromResult(resourceUsageBucket As IResourceUsageBucket, results As Object) As Integer
+  overload: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Services.Implementation
+  commentId: N:SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation
+  nameWithType: SuperOffice.CRM.Services.Implementation
+  fullName: SuperOffice.CRM.Services.Implementation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults
+  isExternal: true
+  name: GetRecordsFromResults
+  nameWithType: UsageCalculator.GetRecordsFromResults
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.GetRecordsFromResults
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult
+  isExternal: true
+  name: RecordDatabaseRecordsFromResult
+  nameWithType: UsageCalculator.RecordDatabaseRecordsFromResult
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator.RecordDatabaseRecordsFromResult
+- uid: SuperOffice.Diagnostics.IResourceUsageBucket
+  commentId: T:SuperOffice.Diagnostics.IResourceUsageBucket
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: IResourceUsageBucket
+  nameWithType: IResourceUsageBucket
+  fullName: SuperOffice.Diagnostics.IResourceUsageBucket
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics

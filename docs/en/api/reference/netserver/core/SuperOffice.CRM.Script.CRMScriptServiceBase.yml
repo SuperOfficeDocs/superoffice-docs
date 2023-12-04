@@ -1,0 +1,782 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase
+  commentId: T:SuperOffice.CRM.Script.CRMScriptServiceBase
+  id: CRMScriptServiceBase
+  parent: SuperOffice.CRM.Script
+  children:
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptServiceBase
+  nameWithType: CRMScriptServiceBase
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: 'public abstract class CRMScriptServiceBase : Object, ICRMScriptService'
+    content.vb: >-
+      Public MustInherit Class CRMScriptServiceBase
+
+          Inherits Object
+
+          Implements ICRMScriptService
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Script.ICRMScriptService
+  extensionMethods:
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Script.CRMScriptServiceBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor
+  commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Script.CRMScriptServiceBase
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptServiceBase()
+  nameWithType: CRMScriptServiceBase.CRMScriptServiceBase()
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.CRMScriptServiceBase()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: protected CRMScriptServiceBase()
+    content.vb: Protected Sub New
+  overload: SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  id: ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  parent: SuperOffice.CRM.Script.CRMScriptServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScript(Scriptwithcontext)
+  nameWithType: CRMScriptServiceBase.ExecuteScript(Scriptwithcontext)
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: public Response2 ExecuteScript(Scriptwithcontext body)
+    parameters:
+    - id: body
+      type: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+    return:
+      type: SuperOffice.CRMScript.RTE.Client.Response2
+    content.vb: Public Function ExecuteScript(body As Scriptwithcontext) As Response2
+  overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript*
+  implements:
+  - SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  id: ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  parent: SuperOffice.CRM.Script.CRMScriptServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ValidateScript(Scriptwithoutcontext)
+  nameWithType: CRMScriptServiceBase.ValidateScript(Scriptwithoutcontext)
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: public Response ValidateScript(Scriptwithoutcontext body)
+    parameters:
+    - id: body
+      type: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+    return:
+      type: SuperOffice.CRMScript.RTE.Client.Response
+    content.vb: Public Function ValidateScript(body As Scriptwithoutcontext) As Response
+  overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript*
+  implements:
+  - SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.String,System.Threading.CancellationToken)
+  id: ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Script.CRMScriptServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScriptAsync(Scriptwithcontext, String, CancellationToken)
+  nameWithType: CRMScriptServiceBase.ExecuteScriptAsync(Scriptwithcontext, String, CancellationToken)
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: public abstract Task<Response2> ExecuteScriptAsync(Scriptwithcontext body, string accessToken, CancellationToken cancellationToken)
+    parameters:
+    - id: body
+      type: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+    - id: accessToken
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response2}
+    content.vb: Public MustOverride Function ExecuteScriptAsync(body As Scriptwithcontext, accessToken As String, cancellationToken As CancellationToken) As Task(Of Response2)
+  overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext,System.Threading.CancellationToken)
+  id: ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Script.CRMScriptServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ValidateScriptAsync(Scriptwithoutcontext, CancellationToken)
+  nameWithType: CRMScriptServiceBase.ValidateScriptAsync(Scriptwithoutcontext, CancellationToken)
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: public abstract Task<Response> ValidateScriptAsync(Scriptwithoutcontext body, CancellationToken cancellation)
+    parameters:
+    - id: body
+      type: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+    - id: cancellation
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response}
+    content.vb: Public MustOverride Function ValidateScriptAsync(body As Scriptwithoutcontext, cancellation As CancellationToken) As Task(Of Response)
+  overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
+  commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
+  id: GetCallbackAccessToken
+  parent: SuperOffice.CRM.Script.CRMScriptServiceBase
+  langs:
+  - csharp
+  - vb
+  name: GetCallbackAccessToken()
+  nameWithType: CRMScriptServiceBase.GetCallbackAccessToken()
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: protected abstract string GetCallbackAccessToken()
+    return:
+      type: System.String
+    content.vb: Protected MustOverride Function GetCallbackAccessToken As String
+  overload: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
+  commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
+  id: GetCallbackBaseUrl
+  parent: SuperOffice.CRM.Script.CRMScriptServiceBase
+  langs:
+  - csharp
+  - vb
+  name: GetCallbackBaseUrl()
+  nameWithType: CRMScriptServiceBase.GetCallbackBaseUrl()
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: protected abstract Task<string> GetCallbackBaseUrl()
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Protected MustOverride Function GetCallbackBaseUrl As Task(Of String)
+  overload: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+references:
+- uid: SuperOffice.CRM.Script
+  commentId: N:SuperOffice.CRM.Script
+  isExternal: true
+  name: SuperOffice.CRM.Script
+  nameWithType: SuperOffice.CRM.Script
+  fullName: SuperOffice.CRM.Script
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Script.ICRMScriptService
+  commentId: T:SuperOffice.CRM.Script.ICRMScriptService
+  parent: SuperOffice.CRM.Script
+  isExternal: true
+  name: ICRMScriptService
+  nameWithType: ICRMScriptService
+  fullName: SuperOffice.CRM.Script.ICRMScriptService
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CRMScriptServiceBase, To>()
+  nameWithType: EnumUtil.MapEnums<CRMScriptServiceBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CRMScriptServiceBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)()
+  name.vb: MapEnums(Of CRMScriptServiceBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CRMScriptServiceBase, To>
+    nameWithType: EnumUtil.MapEnums<CRMScriptServiceBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CRMScriptServiceBase, To)
+    nameWithType: EnumUtil.MapEnums(Of CRMScriptServiceBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CRMScriptServiceBase, To>()
+  nameWithType: Converters.MapEnums<CRMScriptServiceBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of CRMScriptServiceBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)()
+  name.vb: MapEnums(Of CRMScriptServiceBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CRMScriptServiceBase, To>
+    nameWithType: Converters.MapEnums<CRMScriptServiceBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CRMScriptServiceBase, To)
+    nameWithType: Converters.MapEnums(Of CRMScriptServiceBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor
+  isExternal: true
+  name: CRMScriptServiceBase
+  nameWithType: CRMScriptServiceBase.CRMScriptServiceBase
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.CRMScriptServiceBase
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript*
+  commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript
+  isExternal: true
+  name: ExecuteScript
+  nameWithType: CRMScriptServiceBase.ExecuteScript
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript
+- uid: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  commentId: M:SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  parent: SuperOffice.CRM.Script.ICRMScriptService
+  isExternal: true
+  name: ExecuteScript(Scriptwithcontext)
+  nameWithType: ICRMScriptService.ExecuteScript(Scriptwithcontext)
+  fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+    name: ExecuteScript
+    nameWithType: ICRMScriptService.ExecuteScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+    name: Scriptwithcontext
+    nameWithType: Scriptwithcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+    name: ExecuteScript
+    nameWithType: ICRMScriptService.ExecuteScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+    name: Scriptwithcontext
+    nameWithType: Scriptwithcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+  isExternal: true
+  name: Scriptwithcontext
+  nameWithType: Scriptwithcontext
+  fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+- uid: SuperOffice.CRMScript.RTE.Client.Response2
+  isExternal: true
+  name: Response2
+  nameWithType: Response2
+  fullName: SuperOffice.CRMScript.RTE.Client.Response2
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript*
+  commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript
+  isExternal: true
+  name: ValidateScript
+  nameWithType: CRMScriptServiceBase.ValidateScript
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript
+- uid: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  commentId: M:SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  parent: SuperOffice.CRM.Script.ICRMScriptService
+  isExternal: true
+  name: ValidateScript(Scriptwithoutcontext)
+  nameWithType: ICRMScriptService.ValidateScript(Scriptwithoutcontext)
+  fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+    name: ValidateScript
+    nameWithType: ICRMScriptService.ValidateScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+    name: Scriptwithoutcontext
+    nameWithType: Scriptwithoutcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+    name: ValidateScript
+    nameWithType: ICRMScriptService.ValidateScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+    name: Scriptwithoutcontext
+    nameWithType: Scriptwithoutcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+  isExternal: true
+  name: Scriptwithoutcontext
+  nameWithType: Scriptwithoutcontext
+  fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+- uid: SuperOffice.CRMScript.RTE.Client.Response
+  isExternal: true
+  name: Response
+  nameWithType: Response
+  fullName: SuperOffice.CRMScript.RTE.Client.Response
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync*
+  commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync
+  isExternal: true
+  name: ExecuteScriptAsync
+  nameWithType: CRMScriptServiceBase.ExecuteScriptAsync
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response2}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response2}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Response2>
+  nameWithType: Task<Response2>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRMScript.RTE.Client.Response2>
+  nameWithType.vb: Task(Of Response2)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRMScript.RTE.Client.Response2)
+  name.vb: Task(Of Response2)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRMScript.RTE.Client.Response2
+    name: Response2
+    nameWithType: Response2
+    fullName: SuperOffice.CRMScript.RTE.Client.Response2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRMScript.RTE.Client.Response2
+    name: Response2
+    nameWithType: Response2
+    fullName: SuperOffice.CRMScript.RTE.Client.Response2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync*
+  commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync
+  isExternal: true
+  name: ValidateScriptAsync
+  nameWithType: CRMScriptServiceBase.ValidateScriptAsync
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Response>
+  nameWithType: Task<Response>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRMScript.RTE.Client.Response>
+  nameWithType.vb: Task(Of Response)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRMScript.RTE.Client.Response)
+  name.vb: Task(Of Response)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRMScript.RTE.Client.Response
+    name: Response
+    nameWithType: Response
+    fullName: SuperOffice.CRMScript.RTE.Client.Response
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRMScript.RTE.Client.Response
+    name: Response
+    nameWithType: Response
+    fullName: SuperOffice.CRMScript.RTE.Client.Response
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken*
+  commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
+  isExternal: true
+  name: GetCallbackAccessToken
+  nameWithType: CRMScriptServiceBase.GetCallbackAccessToken
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
+- uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl*
+  commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
+  isExternal: true
+  name: GetCallbackBaseUrl
+  nameWithType: CRMScriptServiceBase.GetCallbackBaseUrl
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

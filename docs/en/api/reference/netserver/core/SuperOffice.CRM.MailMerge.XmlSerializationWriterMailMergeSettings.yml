@@ -25,6 +25,7 @@ items:
     content: 'public class XmlSerializationWriterMailMergeSettings : XmlSerializationWriter'
     content.vb: >-
       Public Class XmlSerializationWriterMailMergeSettings
+
           Inherits XmlSerializationWriter
   inheritance:
   - System.Object

@@ -15,13 +15,14 @@ items:
   - SuperOffice.CRM.Rows.MDOType.SaleType
   - SuperOffice.CRM.Rows.MDOType.SelectionSearchCategory
   - SuperOffice.CRM.Rows.MDOType.TodoTask
+  - SuperOffice.CRM.Rows.MDOType.value__
   langs:
   - csharp
   - vb
   name: MDOType
   nameWithType: MDOType
   fullName: SuperOffice.CRM.Rows.MDOType
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -30,19 +31,54 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nType of MDO list\n"
   syntax:
-    content: public enum MDOType
-    content.vb: Public Enum MDOType
+    content: 'public sealed class MDOType : Enum'
+    content.vb: >-
+      Public NotInheritable Class MDOType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Rows.MDOType.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.MDOType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MDOType)
-  - SuperOffice.CRM.Rows.MDOType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Rows.MDOType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Rows.MDOType.value__
+  commentId: F:SuperOffice.CRM.Rows.MDOType.value__
+  id: value__
+  parent: SuperOffice.CRM.Rows.MDOType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MDOType.value__
+  fullName: SuperOffice.CRM.Rows.MDOType.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MDOType.Category
   commentId: F:SuperOffice.CRM.Rows.MDOType.Category
   id: Category
@@ -62,9 +98,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nContact&apos;s category\n"
   syntax:
-    content: Category = 0
+    content: public const MDOType Category
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const Category As MDOType
   modifiers.csharp:
   - public
   - const
@@ -90,9 +127,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nContact&apos;s business\n"
   syntax:
-    content: Business = 1
+    content: public const MDOType Business
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const Business As MDOType
   modifiers.csharp:
   - public
   - const
@@ -118,9 +156,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nProject&apos;s type.\n"
   syntax:
-    content: ProjectType = 2
+    content: public const MDOType ProjectType
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const ProjectType As MDOType
   modifiers.csharp:
   - public
   - const
@@ -146,9 +185,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nProject&apos;s status.\n"
   syntax:
-    content: ProjectStatus = 3
+    content: public const MDOType ProjectStatus
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const ProjectStatus As MDOType
   modifiers.csharp:
   - public
   - const
@@ -174,9 +214,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nDefault document type\n"
   syntax:
-    content: DocumentType = 4
+    content: public const MDOType DocumentType
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const DocumentType As MDOType
   modifiers.csharp:
   - public
   - const
@@ -202,9 +243,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nDefault appointment type\n"
   syntax:
-    content: AppointmentTask = 6
+    content: public const MDOType AppointmentTask
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const AppointmentTask As MDOType
   modifiers.csharp:
   - public
   - const
@@ -230,9 +272,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nDefault phone call type\n"
   syntax:
-    content: PhoneCallTask = 7
+    content: public const MDOType PhoneCallTask
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const PhoneCallTask As MDOType
   modifiers.csharp:
   - public
   - const
@@ -258,9 +301,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nDefault task type\n"
   syntax:
-    content: TodoTask = 8
+    content: public const MDOType TodoTask
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const TodoTask As MDOType
   modifiers.csharp:
   - public
   - const
@@ -286,9 +330,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\n\n"
   syntax:
-    content: SelectionSearchCategory = 9
+    content: public const MDOType SelectionSearchCategory
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const SelectionSearchCategory As MDOType
   modifiers.csharp:
   - public
   - const
@@ -314,9 +359,10 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nDefault sale type\n"
   syntax:
-    content: SaleType = 10
+    content: public const MDOType SaleType
     return:
       type: SuperOffice.CRM.Rows.MDOType
+    content.vb: Public Const SaleType As MDOType
   modifiers.csharp:
   - public
   - const
@@ -330,6 +376,13 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.MDOType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -357,84 +410,6 @@ references:
     name: MapEnums(Of MDOType, To)
     nameWithType: EnumUtil.MapEnums(Of MDOType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MDOType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.MDOType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MDOType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<MDOType>(MDOType)
-  nameWithType: ObjectExtensions.AssignByReflection<MDOType>(MDOType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MDOType>(SuperOffice.CRM.Rows.MDOType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MDOType)(MDOType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MDOType)(SuperOffice.CRM.Rows.MDOType)
-  name.vb: AssignByReflection(Of MDOType)(MDOType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<MDOType>
-    nameWithType: ObjectExtensions.AssignByReflection<MDOType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MDOType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.MDOType
-    name: MDOType
-    nameWithType: MDOType
-    fullName: SuperOffice.CRM.Rows.MDOType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of MDOType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of MDOType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MDOType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.MDOType
-    name: MDOType
-    nameWithType: MDOType
-    fullName: SuperOffice.CRM.Rows.MDOType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.MDOType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<MDOType>()
-  nameWithType: ObjectExtensions.GraphCopy<MDOType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MDOType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MDOType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MDOType)()
-  name.vb: GraphCopy(Of MDOType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<MDOType>
-    nameWithType: ObjectExtensions.GraphCopy<MDOType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MDOType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of MDOType)
-    nameWithType: ObjectExtensions.GraphCopy(Of MDOType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MDOType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -476,6 +451,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -521,103 +502,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -664,18 +548,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.MDOType
   commentId: T:SuperOffice.CRM.Rows.MDOType
   parent: SuperOffice.CRM.Rows

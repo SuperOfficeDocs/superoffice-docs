@@ -1,0 +1,1356 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.BatchData
+  commentId: T:SuperOffice.CRM.BatchProcessing.BatchData
+  id: BatchData
+  parent: SuperOffice.CRM.BatchProcessing
+  children:
+  - SuperOffice.CRM.BatchProcessing.BatchData.#ctor
+  - SuperOffice.CRM.BatchProcessing.BatchData.AquireTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  - SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask(System.Int32)
+  - SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks(System.Int32[])
+  - SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo(System.Int32)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32,SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.String,System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks(SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(System.String,SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow(SuperOffice.CRM.Rows.BatchTaskRow)
+  - SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin(System.String)
+  - SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo)
+  - SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(System.Object)
+  - SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.Data.BatchTaskState)
+  - SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  langs:
+  - csharp
+  - vb
+  name: BatchData
+  nameWithType: BatchData
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData
+  type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nBatchData handles all batch database access.\n"
+  syntax:
+    content: 'public class BatchData : Object'
+    content.vb: >-
+      Public Class BatchData
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.BatchProcessing.BatchData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BatchProcessing.BatchData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.BatchData)
+  - SuperOffice.CRM.BatchProcessing.BatchData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.BatchProcessing.BatchData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  id: GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTasks(Int32[], BatchTaskState, DateTime, DateTime)
+  nameWithType: BatchData.GetBatchTasks(Int32[], BatchTaskState, DateTime, DateTime)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[], SuperOffice.Data.BatchTaskState, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nGet all tasks for a specified user and state in a specified time period.\n"
+  syntax:
+    content: public static BatchTaskInfo[] GetBatchTasks(int[] associateIds, BatchTaskState state, DateTime fromDate, DateTime toDate)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+    - id: fromDate
+      type: System.DateTime
+      description: Do not get task created before this date. Use DateTime.MinValue for no restriction.
+    - id: toDate
+      type: System.DateTime
+      description: Do not get task created after this date. Use DateTime.MaxValue for no restriction.
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      description: An array of BatchTaskInfo
+    content.vb: Public Shared Function GetBatchTasks(associateIds As Integer(), state As BatchTaskState, fromDate As DateTime, toDate As DateTime) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks*
+  nameWithType.vb: BatchData.GetBatchTasks(Int32(), BatchTaskState, DateTime, DateTime)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32(), SuperOffice.Data.BatchTaskState, System.DateTime, System.DateTime)
+  name.vb: GetBatchTasks(Int32(), BatchTaskState, DateTime, DateTime)
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.AquireTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.AquireTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  id: AquireTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: AquireTask(BatchTaskInfo)
+  nameWithType: BatchData.AquireTask(BatchTaskInfo)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.AquireTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nWhen a task is retrieved from the batch task system and is ready to be started, we need a mechanism \nthat will ensure a task is not started by two or more instances of a batch service. Before starting\na task, try to aquire it with this method.\n"
+  syntax:
+    content: public static bool AquireTask(BatchTaskInfo batchTaskInfo)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    return:
+      type: System.Boolean
+      description: True if the task was aquired, false if someone else had aquired it before we got to do it.
+    content.vb: Public Shared Function AquireTask(batchTaskInfo As BatchTaskInfo) As Boolean
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.AquireTask*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.String,System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.String,System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  id: GetBatchTasks(System.String,System.Int32[],SuperOffice.Data.BatchTaskState,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTasks(String, Int32[], BatchTaskState, DateTime, DateTime)
+  nameWithType: BatchData.GetBatchTasks(String, Int32[], BatchTaskState, DateTime, DateTime)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.String, System.Int32[], SuperOffice.Data.BatchTaskState, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public static BatchTaskInfo[] GetBatchTasks(string batchDefinitionName, int[] associateIds, BatchTaskState state, DateTime fromDate, DateTime toDate)
+    parameters:
+    - id: batchDefinitionName
+      type: System.String
+    - id: associateIds
+      type: System.Int32[]
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+    - id: fromDate
+      type: System.DateTime
+    - id: toDate
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+    content.vb: Public Shared Function GetBatchTasks(batchDefinitionName As String, associateIds As Integer(), state As BatchTaskState, fromDate As DateTime, toDate As DateTime) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks*
+  nameWithType.vb: BatchData.GetBatchTasks(String, Int32(), BatchTaskState, DateTime, DateTime)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.String, System.Int32(), SuperOffice.Data.BatchTaskState, System.DateTime, System.DateTime)
+  name.vb: GetBatchTasks(String, Int32(), BatchTaskState, DateTime, DateTime)
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32,SuperOffice.Data.BatchTaskState)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32,SuperOffice.Data.BatchTaskState)
+  id: GetBatchTasks(System.Int32,SuperOffice.Data.BatchTaskState)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTasks(Int32, BatchTaskState)
+  nameWithType: BatchData.GetBatchTasks(Int32, BatchTaskState)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32, SuperOffice.Data.BatchTaskState)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nGet all tasks for a specified user and state.\n"
+  syntax:
+    content: public static BatchTaskInfo[] GetBatchTasks(int associateId, BatchTaskState state)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The user to get tasks for.
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+      description: 'Get tasks with a <xref href="SuperOffice.Data.BatchTaskState" data-throw-if-not-resolved="false"></xref> state '
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      description: <xref href="SuperOffice.CRM.Services.BatchTaskInfo" data-throw-if-not-resolved="false"></xref> collection
+    content.vb: Public Shared Function GetBatchTasks(associateId As Integer, state As BatchTaskState) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState)
+  id: GetBatchTasks(System.Int32[],SuperOffice.Data.BatchTaskState)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTasks(Int32[], BatchTaskState)
+  nameWithType: BatchData.GetBatchTasks(Int32[], BatchTaskState)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32[], SuperOffice.Data.BatchTaskState)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nGet all tasks for specified users and state.\n"
+  syntax:
+    content: public static BatchTaskInfo[] GetBatchTasks(int[] associateIds, BatchTaskState state)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: The users to get tasks for.
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+      description: 'Get tasks with a <xref href="SuperOffice.Data.BatchTaskState" data-throw-if-not-resolved="false"></xref> state '
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      description: <xref href="SuperOffice.CRM.Services.BatchTaskInfo" data-throw-if-not-resolved="false"></xref> collection
+    content.vb: Public Shared Function GetBatchTasks(associateIds As Integer(), state As BatchTaskState) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks*
+  nameWithType.vb: BatchData.GetBatchTasks(Int32(), BatchTaskState)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks(System.Int32(), SuperOffice.Data.BatchTaskState)
+  name.vb: GetBatchTasks(Int32(), BatchTaskState)
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks(SuperOffice.Data.BatchTaskState)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks(SuperOffice.Data.BatchTaskState)
+  id: GetSystemBatchTasks(SuperOffice.Data.BatchTaskState)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetSystemBatchTasks(BatchTaskState)
+  nameWithType: BatchData.GetSystemBatchTasks(BatchTaskState)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks(SuperOffice.Data.BatchTaskState)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nGet all tasks marked as system tasks for a specified state\n"
+  syntax:
+    content: public static BatchTaskInfo[] GetSystemBatchTasks(BatchTaskState state)
+    parameters:
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+      description: 'Get tasks with a <xref href="SuperOffice.Data.BatchTaskState" data-throw-if-not-resolved="false"></xref> state '
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      description: <xref href="SuperOffice.CRM.Services.BatchTaskInfo" data-throw-if-not-resolved="false"></xref> collection
+    content.vb: Public Shared Function GetSystemBatchTasks(state As BatchTaskState) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(SuperOffice.Data.BatchTaskState)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(SuperOffice.Data.BatchTaskState)
+  id: GetUserBatchTasks(SuperOffice.Data.BatchTaskState)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetUserBatchTasks(BatchTaskState)
+  nameWithType: BatchData.GetUserBatchTasks(BatchTaskState)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(SuperOffice.Data.BatchTaskState)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nGet all user tasks for a specified state\n"
+  syntax:
+    content: public static BatchTaskInfo[] GetUserBatchTasks(BatchTaskState state)
+    parameters:
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+      description: 'Get tasks with a <xref href="SuperOffice.Data.BatchTaskState" data-throw-if-not-resolved="false"></xref> state '
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      description: <xref href="SuperOffice.CRM.Services.BatchTaskInfo" data-throw-if-not-resolved="false"></xref> collection
+    content.vb: Public Shared Function GetUserBatchTasks(state As BatchTaskState) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(System.String,SuperOffice.Data.BatchTaskState)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(System.String,SuperOffice.Data.BatchTaskState)
+  id: GetUserBatchTasks(System.String,SuperOffice.Data.BatchTaskState)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetUserBatchTasks(String, BatchTaskState)
+  nameWithType: BatchData.GetUserBatchTasks(String, BatchTaskState)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks(System.String, SuperOffice.Data.BatchTaskState)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nGet all user tasks for a specified batchtask definition and state\n"
+  syntax:
+    content: public static BatchTaskInfo[] GetUserBatchTasks(string batchDefinitionName, BatchTaskState state)
+    parameters:
+    - id: batchDefinitionName
+      type: System.String
+      description: Batch task definition name
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+      description: 'Get tasks with a <xref href="SuperOffice.Data.BatchTaskState" data-throw-if-not-resolved="false"></xref> state '
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo[]
+      description: <xref href="SuperOffice.CRM.Services.BatchTaskInfo" data-throw-if-not-resolved="false"></xref> collection
+    content.vb: Public Shared Function GetUserBatchTasks(batchDefinitionName As String, state As BatchTaskState) As BatchTaskInfo()
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo(System.Int32)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo(System.Int32)
+  id: GetBatchTaskInfo(System.Int32)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfo(Int32)
+  nameWithType: BatchData.GetBatchTaskInfo(Int32)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo(System.Int32)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nGet information about a specified task.\n"
+  syntax:
+    content: public static BatchTaskInfo GetBatchTaskInfo(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: batch task id.
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    content.vb: Public Shared Function GetBatchTaskInfo(id As Integer) As BatchTaskInfo
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask(System.Int32)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask(System.Int32)
+  id: DeleteBatchTask(System.Int32)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: DeleteBatchTask(Int32)
+  nameWithType: BatchData.DeleteBatchTask(Int32)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask(System.Int32)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nDelete a batch task from the database.\n"
+  syntax:
+    content: public static bool DeleteBatchTask(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function DeleteBatchTask(id As Integer) As Boolean
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks(System.Int32[])
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks(System.Int32[])
+  id: DeleteBatchTasks(System.Int32[])
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: DeleteBatchTasks(Int32[])
+  nameWithType: BatchData.DeleteBatchTasks(Int32[])
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks(System.Int32[])
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nDelete batch tasks from the database.\n"
+  syntax:
+    content: public static bool DeleteBatchTasks(int[] ids)
+    parameters:
+    - id: ids
+      type: System.Int32[]
+      description: Array of ids to delete.
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function DeleteBatchTasks(ids As Integer()) As Boolean
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks*
+  nameWithType.vb: BatchData.DeleteBatchTasks(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks(System.Int32())
+  name.vb: DeleteBatchTasks(Int32())
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo)
+  id: SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: SaveBatchTaskInfo(BatchTaskInfo)
+  nameWithType: BatchData.SaveBatchTaskInfo(BatchTaskInfo)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nSave a new BatchTaskInfo to the database\n"
+  syntax:
+    content: public static int SaveBatchTaskInfo(BatchTaskInfo batchTaskInfo)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function SaveBatchTaskInfo(batchTaskInfo As BatchTaskInfo) As Integer
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.Services.StringDictionary)
+  id: SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: SaveBatchTaskInfo(BatchTaskInfo, StringDictionary)
+  nameWithType: BatchData.SaveBatchTaskInfo(BatchTaskInfo, StringDictionary)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo(SuperOffice.CRM.Services.BatchTaskInfo, SuperOffice.CRM.Services.StringDictionary)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nSave a new BatchTaskInfo to the database a parameter object saved to BinaryObject table.\n"
+  syntax:
+    content: public static int SaveBatchTaskInfo(BatchTaskInfo batchTaskInfo, StringDictionary parameterObject)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: parameterObject
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: A serializable object. Will be saved to BinaryObject table. The link will be set using DetailsTable and DetailsRecord in object BatchTaskInfo.
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function SaveBatchTaskInfo(batchTaskInfo As BatchTaskInfo, parameterObject As StringDictionary) As Integer
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  id: UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: UpdateBatchTask(BatchTaskInfo)
+  nameWithType: BatchData.UpdateBatchTask(BatchTaskInfo)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask(SuperOffice.CRM.Services.BatchTaskInfo)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nUpdate information about a BatchTask.\n<remarks>Only the following properties can be updated: State, Description, Response and Request</remarks>\n"
+  syntax:
+    content: public static BatchTaskInfo UpdateBatchTask(BatchTaskInfo batchTaskInfo)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+      description: The updated information to save.
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+      description: The updated BatchTaskInfo
+    content.vb: Public Shared Function UpdateBatchTask(batchTaskInfo As BatchTaskInfo) As BatchTaskInfo
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin(System.String)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin(System.String)
+  id: RegisterPlugin(System.String)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: RegisterPlugin(String)
+  nameWithType: BatchData.RegisterPlugin(String)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin(System.String)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nRegister a plugin to the BatchTaskDefinition table\n"
+  syntax:
+    content: public static int RegisterPlugin(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function RegisterPlugin(name As String) As Integer
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.Data.BatchTaskState)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.Data.BatchTaskState)
+  id: SetBatchTaskInfoState(SuperOffice.CRM.Services.BatchTaskInfo,SuperOffice.Data.BatchTaskState)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: SetBatchTaskInfoState(BatchTaskInfo, BatchTaskState)
+  nameWithType: BatchData.SetBatchTaskInfoState(BatchTaskInfo, BatchTaskState)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState(SuperOffice.CRM.Services.BatchTaskInfo, SuperOffice.Data.BatchTaskState)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nUpdate state on a BatchTaskInfo row\n"
+  syntax:
+    content: public static void SetBatchTaskInfoState(BatchTaskInfo batchTaskInfo, BatchTaskState state)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: state
+      type: SuperOffice.Data.BatchTaskState
+    content.vb: Public Shared Sub SetBatchTaskInfoState(batchTaskInfo As BatchTaskInfo, state As BatchTaskState)
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow(SuperOffice.CRM.Rows.BatchTaskRow)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow(SuperOffice.CRM.Rows.BatchTaskRow)
+  id: PopulateBatchTaskInfoFromRow(SuperOffice.CRM.Rows.BatchTaskRow)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: PopulateBatchTaskInfoFromRow(BatchTaskRow)
+  nameWithType: BatchData.PopulateBatchTaskInfoFromRow(BatchTaskRow)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow(SuperOffice.CRM.Rows.BatchTaskRow)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nTake a BatchTaskRow and return a <xref href=\"SuperOffice.CRM.Services.BatchTaskInfo\" data-throw-if-not-resolved=\"false\"></xref> object\n"
+  syntax:
+    content: protected static BatchTaskInfo PopulateBatchTaskInfoFromRow(BatchTaskRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.BatchTaskRow
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    content.vb: Protected Shared Function PopulateBatchTaskInfoFromRow(row As BatchTaskRow) As BatchTaskInfo
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(System.Object)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(System.Object)
+  id: SerializeParameterObjectToBinaryObjectRow(System.Object)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: SerializeParameterObjectToBinaryObjectRow(Object)
+  nameWithType: BatchData.SerializeParameterObjectToBinaryObjectRow(Object)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow(System.Object)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nSerialize an object to a row in <xref href=\"SuperOffice.CRM.Rows.BinaryObjectRow\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  remarks: The object must be serializable.
+  syntax:
+    content: protected static BinaryObjectRow SerializeParameterObjectToBinaryObjectRow(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: Object to serialize
+    return:
+      type: SuperOffice.CRM.Rows.BinaryObjectRow
+      description: A <xref href="SuperOffice.CRM.Rows.BinaryObjectRow" data-throw-if-not-resolved="false"></xref>
+    content.vb: Protected Shared Function SerializeParameterObjectToBinaryObjectRow(obj As Object) As BinaryObjectRow
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
+  id: DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: DeserializeFromBinaryObjectRowToParameterObject(Int32)
+  nameWithType: BatchData.DeserializeFromBinaryObjectRowToParameterObject(Int32)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject(System.Int32)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nDeserialize an entry in <xref href=\"SuperOffice.CRM.Rows.BinaryObjectRow\" data-throw-if-not-resolved=\"false\"></xref> to a object.\n"
+  syntax:
+    content: protected static object DeserializeFromBinaryObjectRowToParameterObject(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Id of the row to deserialize
+    return:
+      type: System.Object
+      description: The deserialized object.
+    content.vb: Protected Shared Function DeserializeFromBinaryObjectRowToParameterObject(id As Integer) As Object
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.#ctor
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.BatchProcessing.BatchData
+  langs:
+  - csharp
+  - vb
+  name: BatchData()
+  nameWithType: BatchData.BatchData()
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.BatchData()
+  type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public BatchData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.BatchProcessing.BatchData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.BatchProcessing
+  commentId: N:SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  name: SuperOffice.CRM.BatchProcessing
+  nameWithType: SuperOffice.CRM.BatchProcessing
+  fullName: SuperOffice.CRM.BatchProcessing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BatchData, To>()
+  nameWithType: EnumUtil.MapEnums<BatchData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.BatchData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BatchData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchData, To)()
+  name.vb: MapEnums(Of BatchData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BatchData, To>
+    nameWithType: EnumUtil.MapEnums<BatchData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.BatchData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BatchData, To)
+    nameWithType: EnumUtil.MapEnums(Of BatchData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.BatchData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<BatchData>(BatchData)
+  nameWithType: ObjectExtensions.AssignByReflection<BatchData>(BatchData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.BatchData>(SuperOffice.CRM.BatchProcessing.BatchData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BatchData)(BatchData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.BatchData)(SuperOffice.CRM.BatchProcessing.BatchData)
+  name.vb: AssignByReflection(Of BatchData)(BatchData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<BatchData>
+    nameWithType: ObjectExtensions.AssignByReflection<BatchData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.BatchData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.BatchProcessing.BatchData
+    name: BatchData
+    nameWithType: BatchData
+    fullName: SuperOffice.CRM.BatchProcessing.BatchData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of BatchData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of BatchData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.BatchData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.BatchProcessing.BatchData
+    name: BatchData
+    nameWithType: BatchData
+    fullName: SuperOffice.CRM.BatchProcessing.BatchData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<BatchData>()
+  nameWithType: ObjectExtensions.GraphCopy<BatchData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.BatchData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of BatchData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.BatchData)()
+  name.vb: GraphCopy(Of BatchData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<BatchData>
+    nameWithType: ObjectExtensions.GraphCopy<BatchData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.BatchData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of BatchData)
+    nameWithType: ObjectExtensions.GraphCopy(Of BatchData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.BatchData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BatchData, To>()
+  nameWithType: Converters.MapEnums<BatchData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.BatchData, To>()
+  nameWithType.vb: Converters.MapEnums(Of BatchData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchData, To)()
+  name.vb: MapEnums(Of BatchData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BatchData, To>
+    nameWithType: Converters.MapEnums<BatchData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.BatchData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BatchData, To)
+    nameWithType: Converters.MapEnums(Of BatchData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks
+  isExternal: true
+  name: GetBatchTasks
+  nameWithType: BatchData.GetBatchTasks
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTasks
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.BatchTaskState
+  commentId: T:SuperOffice.Data.BatchTaskState
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: SuperOffice.Data.BatchTaskState
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.BatchTaskInfo[]
+  isExternal: true
+  name: BatchTaskInfo[]
+  nameWithType: BatchTaskInfo[]
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo[]
+  nameWithType.vb: BatchTaskInfo()
+  fullName.vb: SuperOffice.CRM.Services.BatchTaskInfo()
+  name.vb: BatchTaskInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.CRM.Services.BatchTaskInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.CRM.Services.BatchTaskInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.AquireTask*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.AquireTask
+  isExternal: true
+  name: AquireTask
+  nameWithType: BatchData.AquireTask
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.AquireTask
+- uid: SuperOffice.CRM.Services.BatchTaskInfo
+  isExternal: true
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks
+  isExternal: true
+  name: GetSystemBatchTasks
+  nameWithType: BatchData.GetSystemBatchTasks
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetSystemBatchTasks
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks
+  isExternal: true
+  name: GetUserBatchTasks
+  nameWithType: BatchData.GetUserBatchTasks
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetUserBatchTasks
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo
+  isExternal: true
+  name: GetBatchTaskInfo
+  nameWithType: BatchData.GetBatchTaskInfo
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.GetBatchTaskInfo
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask
+  isExternal: true
+  name: DeleteBatchTask
+  nameWithType: BatchData.DeleteBatchTask
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTask
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks
+  isExternal: true
+  name: DeleteBatchTasks
+  nameWithType: BatchData.DeleteBatchTasks
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.DeleteBatchTasks
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo
+  isExternal: true
+  name: SaveBatchTaskInfo
+  nameWithType: BatchData.SaveBatchTaskInfo
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SaveBatchTaskInfo
+- uid: SuperOffice.CRM.Services.StringDictionary
+  commentId: T:SuperOffice.CRM.Services.StringDictionary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask
+  isExternal: true
+  name: UpdateBatchTask
+  nameWithType: BatchData.UpdateBatchTask
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.UpdateBatchTask
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin
+  isExternal: true
+  name: RegisterPlugin
+  nameWithType: BatchData.RegisterPlugin
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.RegisterPlugin
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState
+  isExternal: true
+  name: SetBatchTaskInfoState
+  nameWithType: BatchData.SetBatchTaskInfoState
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SetBatchTaskInfoState
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow
+  isExternal: true
+  name: PopulateBatchTaskInfoFromRow
+  nameWithType: BatchData.PopulateBatchTaskInfoFromRow
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.PopulateBatchTaskInfoFromRow
+- uid: SuperOffice.CRM.Rows.BatchTaskRow
+  commentId: T:SuperOffice.CRM.Rows.BatchTaskRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: BatchTaskRow
+  nameWithType: BatchTaskRow
+  fullName: SuperOffice.CRM.Rows.BatchTaskRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow
+  isExternal: true
+  name: SerializeParameterObjectToBinaryObjectRow
+  nameWithType: BatchData.SerializeParameterObjectToBinaryObjectRow
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.SerializeParameterObjectToBinaryObjectRow
+- uid: SuperOffice.CRM.Rows.BinaryObjectRow
+  commentId: T:SuperOffice.CRM.Rows.BinaryObjectRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: BinaryObjectRow
+  nameWithType: BinaryObjectRow
+  fullName: SuperOffice.CRM.Rows.BinaryObjectRow
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject
+  isExternal: true
+  name: DeserializeFromBinaryObjectRowToParameterObject
+  nameWithType: BatchData.DeserializeFromBinaryObjectRowToParameterObject
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.DeserializeFromBinaryObjectRowToParameterObject
+- uid: SuperOffice.CRM.BatchProcessing.BatchData.#ctor*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchData.#ctor
+  isExternal: true
+  name: BatchData
+  nameWithType: BatchData.BatchData
+  fullName: SuperOffice.CRM.BatchProcessing.BatchData.BatchData

@@ -15,7 +15,7 @@ items:
   name: OnTableValueChange
   nameWithType: OnTableValueChange
   fullName: SuperOffice.CRM.Rows.OnTableValueChange
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,28 +24,24 @@ items:
   namespace: SuperOffice.CRM.Rows
   summary: "\nEvent raised when one of the values in an instance of TableRowBase is modified.\n"
   syntax:
-    content: public delegate void OnTableValueChange(TableRowBase fieldOwner, FieldInfo field, object persistedValue, object currentValue, object newValue);
-    parameters:
-    - id: fieldOwner
-      type: SuperOffice.CRM.Rows.TableRowBase
-    - id: field
-      type: SuperOffice.Data.SQL.FieldInfo
-    - id: persistedValue
-      type: System.Object
-    - id: currentValue
-      type: System.Object
-    - id: newValue
-      type: System.Object
-    content.vb: Public Delegate Sub OnTableValueChange(fieldOwner As TableRowBase, field As FieldInfo, persistedValue As Object, currentValue As Object, newValue As Object)
+    content: 'public sealed class OnTableValueChange : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class OnTableValueChange
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Rows.OnTableValueChange.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.OnTableValueChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Rows.OnTableValueChange.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Rows.OnTableValueChange.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -195,6 +191,13 @@ references:
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.OnTableValueChange.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -263,27 +266,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Rows.TableRowBase
-  commentId: T:SuperOffice.CRM.Rows.TableRowBase
-  parent: SuperOffice.CRM.Rows
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: TableRowBase
-  nameWithType: TableRowBase
-  fullName: SuperOffice.CRM.Rows.TableRowBase
-- uid: SuperOffice.Data.SQL.FieldInfo
-  commentId: T:SuperOffice.Data.SQL.FieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: FieldInfo
-  nameWithType: FieldInfo
-  fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -375,18 +363,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Data.SQL
-  commentId: N:SuperOffice.Data.SQL
-  isExternal: true
-  name: SuperOffice.Data.SQL
-  nameWithType: SuperOffice.Data.SQL
-  fullName: SuperOffice.Data.SQL
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -412,6 +388,26 @@ references:
   name: Invoke
   nameWithType: OnTableValueChange.Invoke
   fullName: SuperOffice.CRM.Rows.OnTableValueChange.Invoke
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
 - uid: SuperOffice.CRM.Rows.OnTableValueChange.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Rows.OnTableValueChange.BeginInvoke
   isExternal: true
@@ -419,15 +415,11 @@ references:
   nameWithType: OnTableValueChange.BeginInvoke
   fullName: SuperOffice.CRM.Rows.OnTableValueChange.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

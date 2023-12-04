@@ -22,6 +22,7 @@ items:
     content: 'public interface IArchiveFindAppointmentProvider : IArchiveFindProviderBase<ArchiveFindAppointmentRow>, IArchiveTypedProvider<ArchiveFindAppointmentRow>, IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
     content.vb: >-
       Public Interface IArchiveFindAppointmentProvider
+
           Inherits IArchiveFindProviderBase(Of ArchiveFindAppointmentRow), IArchiveTypedProvider(Of ArchiveFindAppointmentRow), IArchiveTypedProviderBase, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.IArchiveFindProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveFindAppointmentRow}.FetchAndSetCriteria(System.Int32)

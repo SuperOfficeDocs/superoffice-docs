@@ -1,0 +1,2490 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TicketLogAction
+  commentId: T:SuperOffice.Data.TicketLogAction
+  id: TicketLogAction
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
+  - SuperOffice.Data.TicketLogAction.Message_AddMassMessage
+  - SuperOffice.Data.TicketLogAction.Message_AddMessage
+  - SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
+  - SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
+  - SuperOffice.Data.TicketLogAction.Message_BounceMessage
+  - SuperOffice.Data.TicketLogAction.Message_Continue
+  - SuperOffice.Data.TicketLogAction.Message_CustomDescription
+  - SuperOffice.Data.TicketLogAction.Message_EditMessage
+  - SuperOffice.Data.TicketLogAction.Message_EditMessageFromSoap
+  - SuperOffice.Data.TicketLogAction.Message_EditTicket
+  - SuperOffice.Data.TicketLogAction.Message_ForwardMessage
+  - SuperOffice.Data.TicketLogAction.Message_ImportMailAddMessage
+  - SuperOffice.Data.TicketLogAction.Message_ImportTicketFromEmail
+  - SuperOffice.Data.TicketLogAction.Message_InlineImagesConverted
+  - SuperOffice.Data.TicketLogAction.Message_NewMessageFromSpecialForm
+  - SuperOffice.Data.TicketLogAction.Message_NewTicket
+  - SuperOffice.Data.TicketLogAction.Message_NewTicketFromCustomer
+  - SuperOffice.Data.TicketLogAction.Message_OutboxMessage
+  - SuperOffice.Data.TicketLogAction.Message_SavedFromEjScript
+  - SuperOffice.Data.TicketLogAction.Message_SendingReplyTemplate
+  - SuperOffice.Data.TicketLogAction.Message_SendingSMS
+  - SuperOffice.Data.TicketLogAction.Message_SendingSpmMessage
+  - SuperOffice.Data.TicketLogAction.Message_TicketNotifyFAQ
+  - SuperOffice.Data.TicketLogAction.Message_Unknown
+  - SuperOffice.Data.TicketLogAction.No_Logging
+  - SuperOffice.Data.TicketLogAction.Ticket_AddMessage
+  - SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromCustomer
+  - SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromSoap
+  - SuperOffice.Data.TicketLogAction.Ticket_AttachmentConnectedToTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_AutoCategorized
+  - SuperOffice.Data.TicketLogAction.Ticket_BatchCloseTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsRead
+  - SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsUnread
+  - SuperOffice.Data.TicketLogAction.Ticket_BatchOperation
+  - SuperOffice.Data.TicketLogAction.Ticket_ChangeSecurityStatus
+  - SuperOffice.Data.TicketLogAction.Ticket_ChangeStatus
+  - SuperOffice.Data.TicketLogAction.Ticket_CloseAfterMassMessage
+  - SuperOffice.Data.TicketLogAction.Ticket_CloseTicketAfterForward
+  - SuperOffice.Data.TicketLogAction.Ticket_CloseTicketFromSoap
+  - SuperOffice.Data.TicketLogAction.Ticket_ConnectTwoTickets
+  - SuperOffice.Data.TicketLogAction.Ticket_CustomDescription
+  - SuperOffice.Data.TicketLogAction.Ticket_DeleteTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_EditMessage
+  - SuperOffice.Data.TicketLogAction.Ticket_EditTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_ImportMailExistingTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_ImportMailNewTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_ImportTicketFromEmail
+  - SuperOffice.Data.TicketLogAction.Ticket_JoinTickets
+  - SuperOffice.Data.TicketLogAction.Ticket_MessageAddedToTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_NewTicket
+  - SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromCustomer
+  - SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSoap
+  - SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSpecialForm
+  - SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDate
+  - SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDateTime
+  - SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraField
+  - SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraTime
+  - SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
+  - SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
+  - SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
+  - SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
+  - SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
+  - SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  - SuperOffice.Data.TicketLogAction.Ticket_SetValuesFromSoap
+  - SuperOffice.Data.TicketLogAction.Ticket_SwapExtraField
+  - SuperOffice.Data.TicketLogAction.Ticket_TicketActivated
+  - SuperOffice.Data.TicketLogAction.Ticket_TicketActivatedByBounce
+  - SuperOffice.Data.TicketLogAction.Ticket_TicketClosedByFAQ
+  - SuperOffice.Data.TicketLogAction.Ticket_TicketEscalated
+  - SuperOffice.Data.TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  - SuperOffice.Data.TicketLogAction.Ticket_Unknown
+  - SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
+  - SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
+  - SuperOffice.Data.TicketLogAction.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketLogAction
+  nameWithType: TicketLogAction
+  fullName: SuperOffice.Data.TicketLogAction
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nValue representing action that caused a ticket to change\nThis Enum is used by:  ticket_log_action.log_action\n"
+  syntax:
+    content: 'public sealed class TicketLogAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketLogAction
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.TicketLogAction.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TicketLogAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketLogAction.value__
+  commentId: F:SuperOffice.Data.TicketLogAction.value__
+  id: value__
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketLogAction.value__
+  fullName: SuperOffice.Data.TicketLogAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.TicketLogAction.No_Logging
+  commentId: F:SuperOffice.Data.TicketLogAction.No_Logging
+  id: No_Logging
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: No_Logging
+  nameWithType: TicketLogAction.No_Logging
+  fullName: SuperOffice.Data.TicketLogAction.No_Logging
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: No_Logging\n"
+  syntax:
+    content: public const TicketLogAction No_Logging
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const No_Logging As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_Unknown
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_Unknown
+  id: Ticket_Unknown
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_Unknown
+  nameWithType: TicketLogAction.Ticket_Unknown
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_Unknown
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Ticket_Unknown action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_Unknown
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_Unknown As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_CustomDescription
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CustomDescription
+  id: Ticket_CustomDescription
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CustomDescription
+  nameWithType: TicketLogAction.Ticket_CustomDescription
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_CustomDescription
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Ticket_CustomDescription action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_CustomDescription
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_CustomDescription As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ImportTicketFromEmail
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ImportTicketFromEmail
+  id: Ticket_ImportTicketFromEmail
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ImportTicketFromEmail
+  nameWithType: TicketLogAction.Ticket_ImportTicketFromEmail
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ImportTicketFromEmail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Ticket_ImportTicketFromEmail action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ImportTicketFromEmail
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ImportTicketFromEmail As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ImportMailNewTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ImportMailNewTicket
+  id: Ticket_ImportMailNewTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ImportMailNewTicket
+  nameWithType: TicketLogAction.Ticket_ImportMailNewTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ImportMailNewTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Ticket_ImportMailNewTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ImportMailNewTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ImportMailNewTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ImportMailExistingTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ImportMailExistingTicket
+  id: Ticket_ImportMailExistingTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ImportMailExistingTicket
+  nameWithType: TicketLogAction.Ticket_ImportMailExistingTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ImportMailExistingTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Ticket_ImportMailExistingTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ImportMailExistingTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ImportMailExistingTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_AttachmentConnectedToTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AttachmentConnectedToTicket
+  id: Ticket_AttachmentConnectedToTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_AttachmentConnectedToTicket
+  nameWithType: TicketLogAction.Ticket_AttachmentConnectedToTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_AttachmentConnectedToTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Ticket_AttachmentConnectedToTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_AttachmentConnectedToTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_AttachmentConnectedToTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_TicketActivated
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketActivated
+  id: Ticket_TicketActivated
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_TicketActivated
+  nameWithType: TicketLogAction.Ticket_TicketActivated
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketActivated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Ticket_TicketActivated action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_TicketActivated
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_TicketActivated As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalated
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketEscalated
+  id: Ticket_TicketEscalated
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_TicketEscalated
+  nameWithType: TicketLogAction.Ticket_TicketEscalated
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Ticket_TicketEscalated action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_TicketEscalated
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_TicketEscalated As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ConnectTwoTickets
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ConnectTwoTickets
+  id: Ticket_ConnectTwoTickets
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ConnectTwoTickets
+  nameWithType: TicketLogAction.Ticket_ConnectTwoTickets
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ConnectTwoTickets
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Ticket_ConnectTwoTickets action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ConnectTwoTickets
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ConnectTwoTickets As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_MessageAddedToTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_MessageAddedToTicket
+  id: Ticket_MessageAddedToTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_MessageAddedToTicket
+  nameWithType: TicketLogAction.Ticket_MessageAddedToTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_MessageAddedToTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Ticket_MessageAddedToTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_MessageAddedToTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_MessageAddedToTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
+  id: Ticket_SendingSpmMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SendingSpmMessage
+  nameWithType: TicketLogAction.Ticket_SendingSpmMessage
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: Ticket_SendingSpmMessage action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_SendingSpmMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_SendingSpmMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
+  id: Ticket_SavedFromEjScript
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SavedFromEjScript
+  nameWithType: TicketLogAction.Ticket_SavedFromEjScript
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Ticket_SavedFromEjScript action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_SavedFromEjScript
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_SavedFromEjScript As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  id: Ticket_TicketEscalatedFromEjScript
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_TicketEscalatedFromEjScript
+  nameWithType: TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n14: Ticket_TicketEscalatedFromEjScript action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_TicketEscalatedFromEjScript
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_TicketEscalatedFromEjScript As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_SetValuesFromSoap
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SetValuesFromSoap
+  id: Ticket_SetValuesFromSoap
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetValuesFromSoap
+  nameWithType: TicketLogAction.Ticket_SetValuesFromSoap
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_SetValuesFromSoap
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n15: Ticket_SetValuesFromSoap action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_SetValuesFromSoap
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_SetValuesFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromSoap
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromSoap
+  id: Ticket_AddMessageFromSoap
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_AddMessageFromSoap
+  nameWithType: TicketLogAction.Ticket_AddMessageFromSoap
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromSoap
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Ticket_AddMessageFromSoap action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_AddMessageFromSoap
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_AddMessageFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSoap
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSoap
+  id: Ticket_NewTicketFromSoap
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_NewTicketFromSoap
+  nameWithType: TicketLogAction.Ticket_NewTicketFromSoap
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSoap
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n17: Ticket_NewTicketFromSoap action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_NewTicketFromSoap
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_NewTicketFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_AddMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AddMessage
+  id: Ticket_AddMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_AddMessage
+  nameWithType: TicketLogAction.Ticket_AddMessage
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_AddMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n18: Ticket_AddMessage action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_AddMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_AddMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicket
+  id: Ticket_NewTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_NewTicket
+  nameWithType: TicketLogAction.Ticket_NewTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n19: Ticket_NewTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_NewTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_NewTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
+  id: Ticket_UserTakesOwnership
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UserTakesOwnership
+  nameWithType: TicketLogAction.Ticket_UserTakesOwnership
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n20: Ticket_UserTakesOwnership action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_UserTakesOwnership
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_UserTakesOwnership As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ChangeStatus
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ChangeStatus
+  id: Ticket_ChangeStatus
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ChangeStatus
+  nameWithType: TicketLogAction.Ticket_ChangeStatus
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ChangeStatus
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n21: Ticket_ChangeStatus action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ChangeStatus
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ChangeStatus As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ChangeSecurityStatus
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ChangeSecurityStatus
+  id: Ticket_ChangeSecurityStatus
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ChangeSecurityStatus
+  nameWithType: TicketLogAction.Ticket_ChangeSecurityStatus
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ChangeSecurityStatus
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n22: Ticket_ChangeSecurityStatus action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ChangeSecurityStatus
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ChangeSecurityStatus As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDateTime
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDateTime
+  id: Ticket_QuickSetExtraDateTime
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_QuickSetExtraDateTime
+  nameWithType: TicketLogAction.Ticket_QuickSetExtraDateTime
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDateTime
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n23: Ticket_QuickSetExtraDateTime action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_QuickSetExtraDateTime
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_QuickSetExtraDateTime As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDate
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDate
+  id: Ticket_QuickSetExtraDate
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_QuickSetExtraDate
+  nameWithType: TicketLogAction.Ticket_QuickSetExtraDate
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDate
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n24: Ticket_QuickSetExtraDate action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_QuickSetExtraDate
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_QuickSetExtraDate As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraTime
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraTime
+  id: Ticket_QuickSetExtraTime
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_QuickSetExtraTime
+  nameWithType: TicketLogAction.Ticket_QuickSetExtraTime
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraTime
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n25: Ticket_QuickSetExtraTime action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_QuickSetExtraTime
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_QuickSetExtraTime As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraField
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraField
+  id: Ticket_QuickSetExtraField
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_QuickSetExtraField
+  nameWithType: TicketLogAction.Ticket_QuickSetExtraField
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraField
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n26: Ticket_QuickSetExtraField action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_QuickSetExtraField
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_QuickSetExtraField As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_SwapExtraField
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SwapExtraField
+  id: Ticket_SwapExtraField
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SwapExtraField
+  nameWithType: TicketLogAction.Ticket_SwapExtraField
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_SwapExtraField
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n27: Ticket_SwapExtraField action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_SwapExtraField
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_SwapExtraField As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
+  id: Ticket_ReadByUser
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ReadByUser
+  nameWithType: TicketLogAction.Ticket_ReadByUser
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n28: Ticket_ReadByUser action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ReadByUser
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ReadByUser As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_BatchOperation
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchOperation
+  id: Ticket_BatchOperation
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_BatchOperation
+  nameWithType: TicketLogAction.Ticket_BatchOperation
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchOperation
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n29: Ticket_BatchOperation action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_BatchOperation
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_BatchOperation As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsRead
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsRead
+  id: Ticket_BatchMarkAsRead
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_BatchMarkAsRead
+  nameWithType: TicketLogAction.Ticket_BatchMarkAsRead
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsRead
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n30: Ticket_BatchMarkAsRead action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_BatchMarkAsRead
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_BatchMarkAsRead As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsUnread
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsUnread
+  id: Ticket_BatchMarkAsUnread
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_BatchMarkAsUnread
+  nameWithType: TicketLogAction.Ticket_BatchMarkAsUnread
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsUnread
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n31: Ticket_BatchMarkAsUnread action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_BatchMarkAsUnread
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_BatchMarkAsUnread As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_BatchCloseTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchCloseTicket
+  id: Ticket_BatchCloseTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_BatchCloseTicket
+  nameWithType: TicketLogAction.Ticket_BatchCloseTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchCloseTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n32: Ticket_BatchCloseTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_BatchCloseTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_BatchCloseTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_EditTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_EditTicket
+  id: Ticket_EditTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_EditTicket
+  nameWithType: TicketLogAction.Ticket_EditTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_EditTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n33: Ticket_EditTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_EditTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_EditTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_DeleteTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_DeleteTicket
+  id: Ticket_DeleteTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_DeleteTicket
+  nameWithType: TicketLogAction.Ticket_DeleteTicket
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_DeleteTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n34: Ticket_DeleteTicket action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_DeleteTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_DeleteTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_JoinTickets
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_JoinTickets
+  id: Ticket_JoinTickets
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_JoinTickets
+  nameWithType: TicketLogAction.Ticket_JoinTickets
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_JoinTickets
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n35: Ticket_JoinTickets action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_JoinTickets
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_JoinTickets As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_EditMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_EditMessage
+  id: Ticket_EditMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_EditMessage
+  nameWithType: TicketLogAction.Ticket_EditMessage
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_EditMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n36: Ticket_EditMessage action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_EditMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_EditMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketAfterForward
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CloseTicketAfterForward
+  id: Ticket_CloseTicketAfterForward
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CloseTicketAfterForward
+  nameWithType: TicketLogAction.Ticket_CloseTicketAfterForward
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketAfterForward
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n37: Ticket_CloseTicketAfterForward action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_CloseTicketAfterForward
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_CloseTicketAfterForward As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_CloseAfterMassMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CloseAfterMassMessage
+  id: Ticket_CloseAfterMassMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CloseAfterMassMessage
+  nameWithType: TicketLogAction.Ticket_CloseAfterMassMessage
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_CloseAfterMassMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n38: Ticket_CloseAfterMassMessage action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_CloseAfterMassMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_CloseAfterMassMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketFromSoap
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CloseTicketFromSoap
+  id: Ticket_CloseTicketFromSoap
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_CloseTicketFromSoap
+  nameWithType: TicketLogAction.Ticket_CloseTicketFromSoap
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketFromSoap
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n39: Ticket_CloseTicketFromSoap action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_CloseTicketFromSoap
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_CloseTicketFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
+  id: Ticket_ReadTicketFromSoap
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ReadTicketFromSoap
+  nameWithType: TicketLogAction.Ticket_ReadTicketFromSoap
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n40: Ticket_ReadTicketFromSoap action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ReadTicketFromSoap
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ReadTicketFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
+  id: Ticket_UserDeletedOwneraction
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UserDeletedOwneraction
+  nameWithType: TicketLogAction.Ticket_UserDeletedOwneraction
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n41: Ticket_UserDeletedOwneraction action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_UserDeletedOwneraction
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_UserDeletedOwneraction As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSpecialForm
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSpecialForm
+  id: Ticket_NewTicketFromSpecialForm
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_NewTicketFromSpecialForm
+  nameWithType: TicketLogAction.Ticket_NewTicketFromSpecialForm
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSpecialForm
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n42: Ticket_NewTicketFromSpecialForm action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_NewTicketFromSpecialForm
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_NewTicketFromSpecialForm As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_TicketClosedByFAQ
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketClosedByFAQ
+  id: Ticket_TicketClosedByFAQ
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_TicketClosedByFAQ
+  nameWithType: TicketLogAction.Ticket_TicketClosedByFAQ
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketClosedByFAQ
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n43: Ticket_TicketClosedByFAQ action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_TicketClosedByFAQ
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_TicketClosedByFAQ As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromCustomer
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromCustomer
+  id: Ticket_NewTicketFromCustomer
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_NewTicketFromCustomer
+  nameWithType: TicketLogAction.Ticket_NewTicketFromCustomer
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n44: Ticket_NewTicketFromCustomer action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_NewTicketFromCustomer
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_NewTicketFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromCustomer
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromCustomer
+  id: Ticket_AddMessageFromCustomer
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_AddMessageFromCustomer
+  nameWithType: TicketLogAction.Ticket_AddMessageFromCustomer
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n45: Ticket_AddMessageFromCustomer action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_AddMessageFromCustomer
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_AddMessageFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
+  id: Ticket_ReadByCustomer
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_ReadByCustomer
+  nameWithType: TicketLogAction.Ticket_ReadByCustomer
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n46: Ticket_ReadByCustomer action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_ReadByCustomer
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_ReadByCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  id: Ticket_SetRepliedAtByMassMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_SetRepliedAtByMassMessage
+  nameWithType: TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n47: Ticket_SetRepliedAtByMassMessage action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_SetRepliedAtByMassMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_SetRepliedAtByMassMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_TicketActivatedByBounce
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketActivatedByBounce
+  id: Ticket_TicketActivatedByBounce
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_TicketActivatedByBounce
+  nameWithType: TicketLogAction.Ticket_TicketActivatedByBounce
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketActivatedByBounce
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n48: Ticket_TicketActivatedByBounce action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_TicketActivatedByBounce
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_TicketActivatedByBounce As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Ticket_AutoCategorized
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AutoCategorized
+  id: Ticket_AutoCategorized
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_AutoCategorized
+  nameWithType: TicketLogAction.Ticket_AutoCategorized
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_AutoCategorized
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n49: Ticket_AutoCategorized action\n"
+  syntax:
+    content: public const TicketLogAction Ticket_AutoCategorized
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Ticket_AutoCategorized As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_Unknown
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_Unknown
+  id: Message_Unknown
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_Unknown
+  nameWithType: TicketLogAction.Message_Unknown
+  fullName: SuperOffice.Data.TicketLogAction.Message_Unknown
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10001: Message_Unknown action\n"
+  syntax:
+    content: public const TicketLogAction Message_Unknown
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_Unknown As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_CustomDescription
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_CustomDescription
+  id: Message_CustomDescription
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_CustomDescription
+  nameWithType: TicketLogAction.Message_CustomDescription
+  fullName: SuperOffice.Data.TicketLogAction.Message_CustomDescription
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10002: Message_CustomDescription action\n"
+  syntax:
+    content: public const TicketLogAction Message_CustomDescription
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_CustomDescription As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_Continue
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_Continue
+  id: Message_Continue
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_Continue
+  nameWithType: TicketLogAction.Message_Continue
+  fullName: SuperOffice.Data.TicketLogAction.Message_Continue
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10003: Message_Continue action\n"
+  syntax:
+    content: public const TicketLogAction Message_Continue
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_Continue As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_ImportTicketFromEmail
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_ImportTicketFromEmail
+  id: Message_ImportTicketFromEmail
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_ImportTicketFromEmail
+  nameWithType: TicketLogAction.Message_ImportTicketFromEmail
+  fullName: SuperOffice.Data.TicketLogAction.Message_ImportTicketFromEmail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10004: Message_ImportTicketFromEmail action\n"
+  syntax:
+    content: public const TicketLogAction Message_ImportTicketFromEmail
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_ImportTicketFromEmail As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_ImportMailAddMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_ImportMailAddMessage
+  id: Message_ImportMailAddMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_ImportMailAddMessage
+  nameWithType: TicketLogAction.Message_ImportMailAddMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_ImportMailAddMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10005: Message_ImportMailAddMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_ImportMailAddMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_ImportMailAddMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
+  id: Message_AddedDebugInfo
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_AddedDebugInfo
+  nameWithType: TicketLogAction.Message_AddedDebugInfo
+  fullName: SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10006: Message_AddedDebugInfo action\n"
+  syntax:
+    content: public const TicketLogAction Message_AddedDebugInfo
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_AddedDebugInfo As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_SendingReplyTemplate
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_SendingReplyTemplate
+  id: Message_SendingReplyTemplate
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_SendingReplyTemplate
+  nameWithType: TicketLogAction.Message_SendingReplyTemplate
+  fullName: SuperOffice.Data.TicketLogAction.Message_SendingReplyTemplate
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10007: Message_SendingReplyTemplate action\n"
+  syntax:
+    content: public const TicketLogAction Message_SendingReplyTemplate
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_SendingReplyTemplate As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_SendingSMS
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_SendingSMS
+  id: Message_SendingSMS
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_SendingSMS
+  nameWithType: TicketLogAction.Message_SendingSMS
+  fullName: SuperOffice.Data.TicketLogAction.Message_SendingSMS
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10008: Message_SendingSMS action\n"
+  syntax:
+    content: public const TicketLogAction Message_SendingSMS
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_SendingSMS As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_SendingSpmMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_SendingSpmMessage
+  id: Message_SendingSpmMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_SendingSpmMessage
+  nameWithType: TicketLogAction.Message_SendingSpmMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_SendingSpmMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10009: Message_SendingSpmMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_SendingSpmMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_SendingSpmMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_SavedFromEjScript
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_SavedFromEjScript
+  id: Message_SavedFromEjScript
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_SavedFromEjScript
+  nameWithType: TicketLogAction.Message_SavedFromEjScript
+  fullName: SuperOffice.Data.TicketLogAction.Message_SavedFromEjScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10010: Message_SavedFromEjScript action\n"
+  syntax:
+    content: public const TicketLogAction Message_SavedFromEjScript
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_SavedFromEjScript As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
+  id: Message_AddMessageFromSoap
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_AddMessageFromSoap
+  nameWithType: TicketLogAction.Message_AddMessageFromSoap
+  fullName: SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10011: Message_AddMessageFromSoap action\n"
+  syntax:
+    content: public const TicketLogAction Message_AddMessageFromSoap
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_AddMessageFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_AddMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMessage
+  id: Message_AddMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_AddMessage
+  nameWithType: TicketLogAction.Message_AddMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_AddMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10012: Message_AddMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_AddMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_AddMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_NewTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_NewTicket
+  id: Message_NewTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_NewTicket
+  nameWithType: TicketLogAction.Message_NewTicket
+  fullName: SuperOffice.Data.TicketLogAction.Message_NewTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10013: Message_NewTicket action\n"
+  syntax:
+    content: public const TicketLogAction Message_NewTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_NewTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_EditTicket
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_EditTicket
+  id: Message_EditTicket
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_EditTicket
+  nameWithType: TicketLogAction.Message_EditTicket
+  fullName: SuperOffice.Data.TicketLogAction.Message_EditTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10014: Message_EditTicket action\n"
+  syntax:
+    content: public const TicketLogAction Message_EditTicket
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_EditTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_EditMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_EditMessage
+  id: Message_EditMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_EditMessage
+  nameWithType: TicketLogAction.Message_EditMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_EditMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10015: Message_EditMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_EditMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_EditMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_ForwardMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_ForwardMessage
+  id: Message_ForwardMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_ForwardMessage
+  nameWithType: TicketLogAction.Message_ForwardMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_ForwardMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10016: Message_ForwardMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_ForwardMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_ForwardMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_AddMassMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMassMessage
+  id: Message_AddMassMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_AddMassMessage
+  nameWithType: TicketLogAction.Message_AddMassMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_AddMassMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10017: Message_AddMassMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_AddMassMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_AddMassMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_NewMessageFromSpecialForm
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_NewMessageFromSpecialForm
+  id: Message_NewMessageFromSpecialForm
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_NewMessageFromSpecialForm
+  nameWithType: TicketLogAction.Message_NewMessageFromSpecialForm
+  fullName: SuperOffice.Data.TicketLogAction.Message_NewMessageFromSpecialForm
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10018: Message_NewMessageFromSpecialForm action\n"
+  syntax:
+    content: public const TicketLogAction Message_NewMessageFromSpecialForm
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_NewMessageFromSpecialForm As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_TicketNotifyFAQ
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_TicketNotifyFAQ
+  id: Message_TicketNotifyFAQ
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_TicketNotifyFAQ
+  nameWithType: TicketLogAction.Message_TicketNotifyFAQ
+  fullName: SuperOffice.Data.TicketLogAction.Message_TicketNotifyFAQ
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10019: Message_TicketNotifyFAQ action\n"
+  syntax:
+    content: public const TicketLogAction Message_TicketNotifyFAQ
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_TicketNotifyFAQ As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_NewTicketFromCustomer
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_NewTicketFromCustomer
+  id: Message_NewTicketFromCustomer
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_NewTicketFromCustomer
+  nameWithType: TicketLogAction.Message_NewTicketFromCustomer
+  fullName: SuperOffice.Data.TicketLogAction.Message_NewTicketFromCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10020: Message_NewTicketFromCustomer action\n"
+  syntax:
+    content: public const TicketLogAction Message_NewTicketFromCustomer
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_NewTicketFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
+  id: Message_AddMessageFromCustomer
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_AddMessageFromCustomer
+  nameWithType: TicketLogAction.Message_AddMessageFromCustomer
+  fullName: SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10021: Message_AddMessageFromCustomer action\n"
+  syntax:
+    content: public const TicketLogAction Message_AddMessageFromCustomer
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_AddMessageFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_BounceMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_BounceMessage
+  id: Message_BounceMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_BounceMessage
+  nameWithType: TicketLogAction.Message_BounceMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_BounceMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10022: Message_BounceMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_BounceMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_BounceMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_OutboxMessage
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_OutboxMessage
+  id: Message_OutboxMessage
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_OutboxMessage
+  nameWithType: TicketLogAction.Message_OutboxMessage
+  fullName: SuperOffice.Data.TicketLogAction.Message_OutboxMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10023: Message_OutboxMessage action\n"
+  syntax:
+    content: public const TicketLogAction Message_OutboxMessage
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_OutboxMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_EditMessageFromSoap
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_EditMessageFromSoap
+  id: Message_EditMessageFromSoap
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_EditMessageFromSoap
+  nameWithType: TicketLogAction.Message_EditMessageFromSoap
+  fullName: SuperOffice.Data.TicketLogAction.Message_EditMessageFromSoap
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10024: Message_EditMessageFromSoap action\n"
+  syntax:
+    content: public const TicketLogAction Message_EditMessageFromSoap
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_EditMessageFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogAction.Message_InlineImagesConverted
+  commentId: F:SuperOffice.Data.TicketLogAction.Message_InlineImagesConverted
+  id: Message_InlineImagesConverted
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Message_InlineImagesConverted
+  nameWithType: TicketLogAction.Message_InlineImagesConverted
+  fullName: SuperOffice.Data.TicketLogAction.Message_InlineImagesConverted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10025: Message_InlineImagesConverted action\n"
+  syntax:
+    content: public const TicketLogAction Message_InlineImagesConverted
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: Public Const Message_InlineImagesConverted As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.TicketLogAction.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketLogAction, To>()
+  nameWithType: EnumUtil.MapEnums<TicketLogAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogAction, To)()
+  name.vb: MapEnums(Of TicketLogAction, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketLogAction, To>
+    nameWithType: EnumUtil.MapEnums<TicketLogAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketLogAction, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketLogAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TicketLogAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketLogAction, To>()
+  nameWithType: Converters.MapEnums<TicketLogAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketLogAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogAction, To)()
+  name.vb: MapEnums(Of TicketLogAction, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketLogAction, To>
+    nameWithType: Converters.MapEnums<TicketLogAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketLogAction, To)
+    nameWithType: Converters.MapEnums(Of TicketLogAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.TicketLogAction
+  commentId: T:SuperOffice.Data.TicketLogAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketLogAction
+  nameWithType: TicketLogAction
+  fullName: SuperOffice.Data.TicketLogAction

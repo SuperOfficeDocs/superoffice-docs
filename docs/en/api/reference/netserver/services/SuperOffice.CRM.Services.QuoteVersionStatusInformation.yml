@@ -152,7 +152,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nStatus information for the quote version. \n"
+  summary: "\nStatus information for the quote version: Ok / OkWithInfo / Warn / Error. \n"
   syntax:
     content: public virtual QuoteStatus Status { get; set; }
     parameters: []
@@ -274,13 +274,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -294,12 +287,6 @@ references:
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.#ctor
   isExternal: true
@@ -319,6 +306,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status
   isExternal: true

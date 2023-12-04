@@ -23,6 +23,7 @@ items:
     content: 'public interface IAppointmentInfo3 : IAppointmentInfo2, IAppointmentInfo'
     content.vb: >-
       Public Interface IAppointmentInfo3
+
           Inherits IAppointmentInfo2, IAppointmentInfo
   inheritedMembers:
   - SuperOffice.CRM.IAppointmentInfo2.IsMilestone

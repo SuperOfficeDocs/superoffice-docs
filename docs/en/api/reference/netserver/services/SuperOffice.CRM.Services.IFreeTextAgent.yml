@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
   - SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
+  - SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
   - SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
   - SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
   - SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
@@ -323,6 +324,38 @@ items:
       description: Information about the batch task, if batch execution was requested. Otherwise null
     content.vb: Function RegenerateIndex(runAsBatch As Boolean) As BatchTaskInfo
   overload: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex*
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
+  id: FreetextIndexRows(System.String,System.Int32[])
+  parent: SuperOffice.CRM.Services.IFreeTextAgent
+  langs:
+  - csharp
+  - vb
+  name: FreetextIndexRows(String, Int32[])
+  nameWithType: IFreeTextAgent.FreetextIndexRows(String, Int32[])
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate the freetext index for one or more rows from the same table\n"
+  syntax:
+    content: void FreetextIndexRows(string tableName, int[] iDs)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table the rows come from; this table should have at least one freetext-indexable field
+    - id: iDs
+      type: System.Int32[]
+      description: One or more primary keys, identifying records to be (re)indexed. It doesn&apos;t matter if they have been indexed before or not
+    content.vb: Sub FreetextIndexRows(tableName As String, iDs As Integer())
+  overload: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows*
+  nameWithType.vb: IFreeTextAgent.FreetextIndexRows(String, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String, System.Int32())
+  name.vb: FreetextIndexRows(String, Int32())
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -514,3 +547,9 @@ references:
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.CRM.Services.BatchTaskInfo
+- uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows*
+  commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows
+  isExternal: true
+  name: FreetextIndexRows
+  nameWithType: IFreeTextAgent.FreetextIndexRows
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows

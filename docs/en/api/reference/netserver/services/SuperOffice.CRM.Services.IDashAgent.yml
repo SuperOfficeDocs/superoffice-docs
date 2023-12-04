@@ -14,6 +14,8 @@ items:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
+  - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
   - SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
@@ -21,18 +23,24 @@ items:
   - SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
   - SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+  - SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
   - SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
+  - SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
   - SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
   langs:
   - csharp
@@ -155,6 +163,31 @@ items:
       description: The identity of the Dash
     content.vb: Sub DeleteDash(dashId As Integer)
   overload: SuperOffice.CRM.Services.IDashAgent.DeleteDash*
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
+  id: CreateDefaultDashCollection
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDashCollection()
+  nameWithType: IDashAgent.CreateDefaultDashCollection()
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new DashCollection.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: DashCollection CreateDefaultDashCollection()
+    return:
+      type: SuperOffice.CRM.Services.DashCollection
+      description: New DashCollection with default values
+    content.vb: Function CreateDefaultDashCollection As DashCollection
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection*
 - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
   id: CreateDefaultDashTheme
@@ -395,16 +428,16 @@ items:
       description: The identity of the DashTileDefinition
     content.vb: Sub DeleteDashTileDefinition(dashTileDefinitionId As Integer)
   overload: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition*
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
-  id: CreateDefaultDashCollection
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
+  id: CreateDefaultPreviewDash
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultDashCollection()
-  nameWithType: IDashAgent.CreateDefaultDashCollection()
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection()
+  name: CreateDefaultPreviewDash()
+  nameWithType: IDashAgent.CreateDefaultPreviewDash()
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash()
   type: Method
   source:
     path: SuperOffice.Services
@@ -412,14 +445,39 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new DashCollection.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: "\nLoading default values into a new PreviewDash.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
-    content: DashCollection CreateDefaultDashCollection()
+    content: PreviewDash CreateDefaultPreviewDash()
     return:
-      type: SuperOffice.CRM.Services.DashCollection
-      description: New DashCollection with default values
-    content.vb: Function CreateDefaultDashCollection As DashCollection
-  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection*
+      type: SuperOffice.CRM.Services.PreviewDash
+      description: New PreviewDash with default values
+    content.vb: Function CreateDefaultPreviewDash As PreviewDash
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash*
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
+  id: CreateDefaultPreviewDashTile
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPreviewDashTile()
+  nameWithType: IDashAgent.CreateDefaultPreviewDashTile()
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new PreviewDashTile.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: PreviewDashTile CreateDefaultPreviewDashTile()
+    return:
+      type: SuperOffice.CRM.Services.PreviewDashTile
+      description: New PreviewDashTile with default values
+    content.vb: Function CreateDefaultPreviewDashTile As PreviewDashTile
+  overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile*
 - uid: SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
   id: GetDash(System.Int32)
@@ -545,6 +603,63 @@ items:
       description: New dashboard
     content.vb: Function DuplicateDashboard(dashboardId As Integer, name As String) As Dash
   overload: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard*
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
+  id: GetDashList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashList(Int32[])
+  nameWithType: IDashAgent.GetDashList(Int32[])
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the ordered list of dashboards\n"
+  syntax:
+    content: Dash[] GetDashList(int[] dashboards)
+    parameters:
+    - id: dashboards
+      type: System.Int32[]
+      description: List of dashboardIds
+    return:
+      type: SuperOffice.CRM.Services.Dash[]
+      description: List of dashboards
+    content.vb: Function GetDashList(dashboards As Integer()) As Dash()
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashList*
+  nameWithType.vb: IDashAgent.GetDashList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32())
+  name.vb: GetDashList(Int32())
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+  id: GetDashCollection
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashCollection()
+  nameWithType: IDashAgent.GetDashCollection()
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a collection of dashboards for the current associate\n"
+  syntax:
+    content: DashCollection GetDashCollection()
+    return:
+      type: SuperOffice.CRM.Services.DashCollection
+      description: Dashboard collection
+    content.vb: Function GetDashCollection As DashCollection
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashCollection*
 - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
   id: GetDashTheme(System.Int32)
@@ -809,6 +924,38 @@ items:
       description: Default
     content.vb: Function CreateDefaultTileForEntity(entityName As String) As DashTile
   overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity*
+- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
+  id: DuplicateTile(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: DuplicateTile(Int32, String)
+  nameWithType: IDashAgent.DuplicateTile(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDuplicate for the tile and all the sub elements\n"
+  syntax:
+    content: DashTile DuplicateTile(int dashTileId, string name)
+    parameters:
+    - id: dashTileId
+      type: System.Int32
+      description: The id of the tile to copy
+    - id: name
+      type: System.String
+      description: The name of the new tile
+    return:
+      type: SuperOffice.CRM.Services.DashTile
+      description: New tile
+    content.vb: Function DuplicateTile(dashTileId As Integer, name As String) As DashTile
+  overload: SuperOffice.CRM.Services.IDashAgent.DuplicateTile*
 - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
   id: GetDashTileDefinition(System.Int32)
@@ -867,16 +1014,16 @@ items:
       description: Default
     content.vb: Function CreateDefaultTileDefinitionForEntity(entityName As String) As DashTileDefinition
   overload: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity*
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
-  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashCollection
-  id: GetDashCollection
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
+  id: GetDashTileHtml(System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IDashAgent
   langs:
   - csharp
   - vb
-  name: GetDashCollection()
-  nameWithType: IDashAgent.GetDashCollection()
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection()
+  name: GetDashTileHtml(Int32, String)
+  nameWithType: IDashAgent.GetDashTileHtml(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32, System.String)
   type: Method
   source:
     path: SuperOffice.Services
@@ -884,14 +1031,112 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nGets a collection of dashboards for the current associate\n"
+  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML\n"
   syntax:
-    content: DashCollection GetDashCollection()
+    content: DashTileHtml GetDashTileHtml(int dashboardTileDefinitionId, string languageCode)
+    parameters:
+    - id: dashboardTileDefinitionId
+      type: System.Int32
+      description: The id of the dashboard tile definition
+    - id: languageCode
+      type: System.String
+      description: Preferred language code.
     return:
-      type: SuperOffice.CRM.Services.DashCollection
-      description: Dashboard collection
-    content.vb: Function GetDashCollection As DashCollection
-  overload: SuperOffice.CRM.Services.IDashAgent.GetDashCollection*
+      type: SuperOffice.CRM.Services.DashTileHtml
+      description: HTML data
+    content.vb: Function GetDashTileHtml(dashboardTileDefinitionId As Integer, languageCode As String) As DashTileHtml
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml*
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
+  id: GetDashTileHtmlList(System.Int32)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashTileHtmlList(Int32)
+  nameWithType: IDashAgent.GetDashTileHtmlList(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.\n"
+  syntax:
+    content: DashTileHtml[] GetDashTileHtmlList(int dashboardTileDefinitionId)
+    parameters:
+    - id: dashboardTileDefinitionId
+      type: System.Int32
+      description: The id of the dashboard tile definition
+    return:
+      type: SuperOffice.CRM.Services.DashTileHtml[]
+    content.vb: Function GetDashTileHtmlList(dashboardTileDefinitionId As Integer) As DashTileHtml()
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList*
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
+  id: SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashTileHtmlList(Int32, DashTileHtml[])
+  nameWithType: IDashAgent.SaveDashTileHtmlList(Int32, DashTileHtml[])
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the HTML data for a tile with TileType = HTML.\n"
+  syntax:
+    content: DashTileHtml[] SaveDashTileHtmlList(int dashboardTileDefinitionId, DashTileHtml[] languages)
+    parameters:
+    - id: dashboardTileDefinitionId
+      type: System.Int32
+      description: The id of the dashboard tile definition
+    - id: languages
+      type: SuperOffice.CRM.Services.DashTileHtml[]
+      description: List of HTML content per language
+    return:
+      type: SuperOffice.CRM.Services.DashTileHtml[]
+    content.vb: Function SaveDashTileHtmlList(dashboardTileDefinitionId As Integer, languages As DashTileHtml()) As DashTileHtml()
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList*
+  nameWithType.vb: IDashAgent.SaveDashTileHtmlList(Int32, DashTileHtml())
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml())
+  name.vb: SaveDashTileHtmlList(Int32, DashTileHtml())
+- uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
+  id: GetPreviewDash(System.Int32)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewDash(Int32)
+  nameWithType: IDashAgent.GetPreviewDash(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a dashboard from its id\n"
+  syntax:
+    content: PreviewDash GetPreviewDash(int dashboardId)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: Dashboard ID
+    return:
+      type: SuperOffice.CRM.Services.PreviewDash
+      description: Dashboard suitable for preview
+    content.vb: Function GetPreviewDash(dashboardId As Integer) As PreviewDash
+  overload: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -937,6 +1182,19 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
+  isExternal: true
+  name: CreateDefaultDashCollection
+  nameWithType: IDashAgent.CreateDefaultDashCollection
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
+- uid: SuperOffice.CRM.Services.DashCollection
+  commentId: T:SuperOffice.CRM.Services.DashCollection
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DashCollection
+  nameWithType: DashCollection
+  fullName: SuperOffice.CRM.Services.DashCollection
 - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme*
   commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
   isExternal: true
@@ -1012,19 +1270,32 @@ references:
   name: DeleteDashTileDefinition
   nameWithType: IDashAgent.DeleteDashTileDefinition
   fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition
-- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
   isExternal: true
-  name: CreateDefaultDashCollection
-  nameWithType: IDashAgent.CreateDefaultDashCollection
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
-- uid: SuperOffice.CRM.Services.DashCollection
-  commentId: T:SuperOffice.CRM.Services.DashCollection
+  name: CreateDefaultPreviewDash
+  nameWithType: IDashAgent.CreateDefaultPreviewDash
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
+- uid: SuperOffice.CRM.Services.PreviewDash
+  commentId: T:SuperOffice.CRM.Services.PreviewDash
   parent: SuperOffice.CRM.Services
   isExternal: true
-  name: DashCollection
-  nameWithType: DashCollection
-  fullName: SuperOffice.CRM.Services.DashCollection
+  name: PreviewDash
+  nameWithType: PreviewDash
+  fullName: SuperOffice.CRM.Services.PreviewDash
+- uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
+  isExternal: true
+  name: CreateDefaultPreviewDashTile
+  nameWithType: IDashAgent.CreateDefaultPreviewDashTile
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
+- uid: SuperOffice.CRM.Services.PreviewDashTile
+  commentId: T:SuperOffice.CRM.Services.PreviewDashTile
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewDashTile
+  nameWithType: PreviewDashTile
+  fullName: SuperOffice.CRM.Services.PreviewDashTile
 - uid: SuperOffice.CRM.Services.IDashAgent.GetDash*
   commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDash
   isExternal: true
@@ -1056,6 +1327,70 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashList*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashList
+  isExternal: true
+  name: GetDashList
+  nameWithType: IDashAgent.GetDashList
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Dash[]
+  isExternal: true
+  name: Dash[]
+  nameWithType: Dash[]
+  fullName: SuperOffice.CRM.Services.Dash[]
+  nameWithType.vb: Dash()
+  fullName.vb: SuperOffice.CRM.Services.Dash()
+  name.vb: Dash()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Dash
+    name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.CRM.Services.Dash
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Dash
+    name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.CRM.Services.Dash
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+  isExternal: true
+  name: GetDashCollection
+  nameWithType: IDashAgent.GetDashCollection
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
 - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTheme*
   commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTheme
   isExternal: true
@@ -1136,6 +1471,12 @@ references:
   name: CreateDefaultTileForEntity
   nameWithType: IDashAgent.CreateDefaultTileForEntity
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity
+- uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTile*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.DuplicateTile
+  isExternal: true
+  name: DuplicateTile
+  nameWithType: IDashAgent.DuplicateTile
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile
 - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition*
   commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition
   isExternal: true
@@ -1148,9 +1489,60 @@ references:
   name: CreateDefaultTileDefinitionForEntity
   nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntity
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity
-- uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection*
-  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml
   isExternal: true
-  name: GetDashCollection
-  nameWithType: IDashAgent.GetDashCollection
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+  name: GetDashTileHtml
+  nameWithType: IDashAgent.GetDashTileHtml
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml
+- uid: SuperOffice.CRM.Services.DashTileHtml
+  commentId: T:SuperOffice.CRM.Services.DashTileHtml
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DashTileHtml
+  nameWithType: DashTileHtml
+  fullName: SuperOffice.CRM.Services.DashTileHtml
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList
+  isExternal: true
+  name: GetDashTileHtmlList
+  nameWithType: IDashAgent.GetDashTileHtmlList
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList
+- uid: SuperOffice.CRM.Services.DashTileHtml[]
+  isExternal: true
+  name: DashTileHtml[]
+  nameWithType: DashTileHtml[]
+  fullName: SuperOffice.CRM.Services.DashTileHtml[]
+  nameWithType.vb: DashTileHtml()
+  fullName.vb: SuperOffice.CRM.Services.DashTileHtml()
+  name.vb: DashTileHtml()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.CRM.Services.DashTileHtml
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DashTileHtml
+    name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.CRM.Services.DashTileHtml
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList
+  isExternal: true
+  name: SaveDashTileHtmlList
+  nameWithType: IDashAgent.SaveDashTileHtmlList
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList
+- uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetPreviewDash
+  isExternal: true
+  name: GetPreviewDash
+  nameWithType: IDashAgent.GetPreviewDash
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash

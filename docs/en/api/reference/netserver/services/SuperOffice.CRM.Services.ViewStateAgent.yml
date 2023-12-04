@@ -14,8 +14,10 @@ items:
   - SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
   - SuperOffice.CRM.Services.ViewStateAgent.GetHistory(System.Int32)
   - SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue
+  - SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig
   - SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent(System.String,System.Int32)
   - SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
   - SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
   - SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
   - SuperOffice.CRM.Services.ViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
@@ -54,19 +56,43 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig
+  id: GetLiveUiConfig
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLiveUiConfig()
+  nameWithType: ViewStateAgent.GetLiveUiConfig()
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets live UI configuration\n"
+  syntax:
+    content: public LiveUiConfig GetLiveUiConfig()
+    return:
+      type: SuperOffice.CRM.Services.LiveUiConfig
+      description: Live UI configuration containing the parameters needed for live UI functionality
+    content.vb: Public Function GetLiveUiConfig As LiveUiConfig
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistory(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetHistory(System.Int32)
   id: GetHistory(System.Int32)
@@ -566,6 +592,50 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest())
   name.vb: GetHistoriesByNamesAndIds(HistoryRequest())
+- uid: SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  id: PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  nameWithType: ViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent[], SuperOffice.CRM.Services.MetricPair[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPublish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded\n"
+  syntax:
+    content: public UiEvent[] PublishAndRetrieveUiEvents(int latestKnownEventId, UiEvent[] publishEvents, MetricPair[] metrics)
+    parameters:
+    - id: latestKnownEventId
+      type: System.Int32
+      description: The last event ID that this client knows about. The return value will be any events occurring /after/ that point, numbered by the server. Clients need to keep track themselves of this number between calls
+    - id: publishEvents
+      type: SuperOffice.CRM.Services.UiEvent[]
+      description: Array of events to publish. This can be empty if the client only wants to retrieve information
+    - id: metrics
+      type: SuperOffice.CRM.Services.MetricPair[]
+      description: Optional statistical and performance metrics collected by the frontend. Can be null or empty. Metrics are sum-accumulated and reported once a minute; please do not report the same logical event twice
+    return:
+      type: SuperOffice.CRM.Services.UiEvent[]
+      description: Array of events since the given event ID; within the time span kept by the event mechanism. Event/primarykey combinations are not guaranteed to be unique, and events in the PublishEvents parameter are echoed back to the client
+    content.vb: Public Function PublishAndRetrieveUiEvents(latestKnownEventId As Integer, publishEvents As UiEvent(), metrics As MetricPair()) As UiEvent()
+  overload: SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  nameWithType.vb: ViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent(), SuperOffice.CRM.Services.MetricPair())
+  name.vb: PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
 - uid: SuperOffice.CRM.Services.ViewStateAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.ViewStateAgent.#ctor
   id: '#ctor'
@@ -598,13 +668,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}
   parent: SuperOffice.CRM.Services
@@ -650,8 +713,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -712,291 +773,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IViewStateAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IViewStateAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IViewStateAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -1076,6 +852,50 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of TAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig
+  isExternal: true
+  name: GetLiveUiConfig
+  nameWithType: ViewStateAgent.GetLiveUiConfig
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetLiveUiConfig
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetLiveUiConfig()
+  nameWithType: IViewStateAgent.GetLiveUiConfig()
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+    name: GetLiveUiConfig
+    nameWithType: IViewStateAgent.GetLiveUiConfig
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+    name: GetLiveUiConfig
+    nameWithType: IViewStateAgent.GetLiveUiConfig
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.LiveUiConfig
+  commentId: T:SuperOffice.CRM.Services.LiveUiConfig
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: LiveUiConfig
+  nameWithType: LiveUiConfig
+  fullName: SuperOffice.CRM.Services.LiveUiConfig
 - uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistory*
   commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetHistory
   isExternal: true
@@ -1137,6 +957,12 @@ references:
   name: History
   nameWithType: History
   fullName: SuperOffice.CRM.Services.History
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ViewStateAgent.GetCurrent*
   commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetCurrent
   isExternal: true
@@ -1909,6 +1735,152 @@ references:
     name: HistoryRequest
     nameWithType: HistoryRequest
     fullName: SuperOffice.CRM.Services.HistoryRequest
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents
+  isExternal: true
+  name: PublishAndRetrieveUiEvents
+  nameWithType: ViewStateAgent.PublishAndRetrieveUiEvents
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.PublishAndRetrieveUiEvents
+- uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent[], SuperOffice.CRM.Services.MetricPair[])
+  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent(), SuperOffice.CRM.Services.MetricPair())
+  name.vb: PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+    name: PublishAndRetrieveUiEvents
+    nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+    name: PublishAndRetrieveUiEvents
+    nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.UiEvent[]
+  isExternal: true
+  name: UiEvent[]
+  nameWithType: UiEvent[]
+  fullName: SuperOffice.CRM.Services.UiEvent[]
+  nameWithType.vb: UiEvent()
+  fullName.vb: SuperOffice.CRM.Services.UiEvent()
+  name.vb: UiEvent()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.MetricPair[]
+  isExternal: true
+  name: MetricPair[]
+  nameWithType: MetricPair[]
+  fullName: SuperOffice.CRM.Services.MetricPair[]
+  nameWithType.vb: MetricPair()
+  fullName.vb: SuperOffice.CRM.Services.MetricPair()
+  name.vb: MetricPair()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
     isExternal: true
   - name: ()
     nameWithType: ()

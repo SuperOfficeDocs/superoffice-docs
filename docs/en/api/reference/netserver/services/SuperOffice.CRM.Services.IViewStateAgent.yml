@@ -13,8 +13,10 @@ items:
   - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
   - SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
   - SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+  - SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
   - SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
   - SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
   - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
   - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
   - SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
@@ -60,6 +62,31 @@ items:
   modifiers.vb:
   - Public
   - Interface
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+  id: GetLiveUiConfig
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLiveUiConfig()
+  nameWithType: IViewStateAgent.GetLiveUiConfig()
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets live UI configuration\n"
+  syntax:
+    content: LiveUiConfig GetLiveUiConfig()
+    return:
+      type: SuperOffice.CRM.Services.LiveUiConfig
+      description: Live UI configuration containing the parameters needed for live UI functionality
+    content.vb: Function GetLiveUiConfig As LiveUiConfig
+  overload: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig*
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
   id: GetHistory(System.Int32)
@@ -475,6 +502,44 @@ items:
   nameWithType.vb: IViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest())
   fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest())
   name.vb: GetHistoriesByNamesAndIds(HistoryRequest())
+- uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  id: PublishAndRetrieveUiEvents(System.Int32,SuperOffice.CRM.Services.UiEvent[],SuperOffice.CRM.Services.MetricPair[])
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent[], SuperOffice.CRM.Services.MetricPair[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPublish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded\n"
+  syntax:
+    content: UiEvent[] PublishAndRetrieveUiEvents(int latestKnownEventId, UiEvent[] publishEvents, MetricPair[] metrics)
+    parameters:
+    - id: latestKnownEventId
+      type: System.Int32
+      description: The last event ID that this client knows about. The return value will be any events occurring /after/ that point, numbered by the server. Clients need to keep track themselves of this number between calls
+    - id: publishEvents
+      type: SuperOffice.CRM.Services.UiEvent[]
+      description: Array of events to publish. This can be empty if the client only wants to retrieve information
+    - id: metrics
+      type: SuperOffice.CRM.Services.MetricPair[]
+      description: Optional statistical and performance metrics collected by the frontend. Can be null or empty. Metrics are sum-accumulated and reported once a minute; please do not report the same logical event twice
+    return:
+      type: SuperOffice.CRM.Services.UiEvent[]
+      description: Array of events since the given event ID; within the time span kept by the event mechanism. Event/primarykey combinations are not guaranteed to be unique, and events in the PublishEvents parameter are echoed back to the client
+    content.vb: Function PublishAndRetrieveUiEvents(latestKnownEventId As Integer, publishEvents As UiEvent(), metrics As MetricPair()) As UiEvent()
+  overload: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents*
+  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent(), SuperOffice.CRM.Services.MetricPair())
+  name.vb: PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -482,6 +547,19 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+  isExternal: true
+  name: GetLiveUiConfig
+  nameWithType: IViewStateAgent.GetLiveUiConfig
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
+- uid: SuperOffice.CRM.Services.LiveUiConfig
+  commentId: T:SuperOffice.CRM.Services.LiveUiConfig
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: LiveUiConfig
+  nameWithType: LiveUiConfig
+  fullName: SuperOffice.CRM.Services.LiveUiConfig
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistory
   isExternal: true
@@ -667,6 +745,64 @@ references:
     name: HistoryRequest
     nameWithType: HistoryRequest
     fullName: SuperOffice.CRM.Services.HistoryRequest
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents*
+  commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
+  isExternal: true
+  name: PublishAndRetrieveUiEvents
+  nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
+- uid: SuperOffice.CRM.Services.UiEvent[]
+  isExternal: true
+  name: UiEvent[]
+  nameWithType: UiEvent[]
+  fullName: SuperOffice.CRM.Services.UiEvent[]
+  nameWithType.vb: UiEvent()
+  fullName.vb: SuperOffice.CRM.Services.UiEvent()
+  name.vb: UiEvent()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.MetricPair[]
+  isExternal: true
+  name: MetricPair[]
+  nameWithType: MetricPair[]
+  fullName: SuperOffice.CRM.Services.MetricPair[]
+  nameWithType.vb: MetricPair()
+  fullName.vb: SuperOffice.CRM.Services.MetricPair()
+  name.vb: MetricPair()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MetricPair
+    name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
     isExternal: true
   - name: ()
     nameWithType: ()

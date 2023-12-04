@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowFilter
+  commentId: T:SuperOffice.CRM.Services.WorkflowFilter
+  id: WorkflowFilter
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowFilter.#ctor
+  - SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups
+  - SuperOffice.CRM.Services.WorkflowFilter.ToString
+  - SuperOffice.CRM.Services.WorkflowFilter.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowFilter
+  nameWithType: WorkflowFilter
+  fullName: SuperOffice.CRM.Services.WorkflowFilter
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflow filter carrier\n<p></p>\nCarrier object for WorkflowFilter.\nServices for the WorkflowFilter Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowFilter : Carrier'
+    content.vb: >-
+      Public Class WorkflowFilter
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowFilter.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowFilter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowFilter
+  langs:
+  - csharp
+  - vb
+  name: WorkflowFilter()
+  nameWithType: WorkflowFilter.WorkflowFilter()
+  fullName: SuperOffice.CRM.Services.WorkflowFilter.WorkflowFilter()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowFilter()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowFilter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowFilter.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowFilter.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowFilter
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowFilter.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowFilter.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.WorkflowFilter.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowFilter.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowFilter.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowFilter
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowFilter.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowFilter.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.WorkflowFilter.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups
+  commentId: P:SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups
+  id: RestrictionGroups
+  parent: SuperOffice.CRM.Services.WorkflowFilter
+  langs:
+  - csharp
+  - vb
+  name: RestrictionGroups
+  nameWithType: WorkflowFilter.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe restrictions (can be multiple groups) that make up the Workflow filter \n"
+  syntax:
+    content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+    content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
+  overload: SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowFilter.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowFilter.#ctor
+  isExternal: true
+  name: WorkflowFilter
+  nameWithType: WorkflowFilter.WorkflowFilter
+  fullName: SuperOffice.CRM.Services.WorkflowFilter.WorkflowFilter
+- uid: SuperOffice.CRM.Services.WorkflowFilter.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowFilter.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowFilter.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowFilter.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups
+  isExternal: true
+  name: RestrictionGroups
+  nameWithType: WorkflowFilter.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.WorkflowFilter.RestrictionGroups
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

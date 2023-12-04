@@ -7,10 +7,17 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.#ctor
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyFullname
+  - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyFullpathIds
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyId
+  - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyName
+  - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colParentId
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyFullname
+  - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyFullpathIds
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyId
+  - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyName
+  - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyParentId
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerModifyQuery
+  - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   langs:
   - csharp
   - vb
@@ -28,7 +35,9 @@ items:
     content: 'public abstract class HierarchyExtenderBase : TableExtenderBase<HierarchyTableInfo>, IArchiveProviderQueryMapping, IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IPlugin'
     content.vb: >-
       Public MustInherit Class HierarchyExtenderBase
+
           Inherits TableExtenderBase(Of HierarchyTableInfo)
+
           Implements IArchiveProviderQueryMapping, IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IPlugin
   inheritance:
   - System.Object
@@ -37,6 +46,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.EjscriptHierarchyExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowFolderEmailFlowFolderExtender
+  - SuperOffice.CRM.ArchiveLists.EmailFlowHierarchyExtender
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyExtender
+  - SuperOffice.CRM.ArchiveLists.ExternalDocumentHierarchyRootExtender
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
   - SuperOffice.CRM.ArchiveLists.IArchiveExtender
@@ -46,7 +59,6 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}._ourTable
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.ModifyQuery
-  - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.TableToExtend
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.MainTableName
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.SetJoin
@@ -59,6 +71,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DenyOrderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetAllRestriction
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNoneRestriction
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAvailableColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetAvailableColumns
@@ -78,6 +91,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuppressTableResults(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuppressDeepTableResults(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddColumnNameOverride(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverrides(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddSubExtenderMapping(System.String,SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOutput(System.String[])
@@ -94,11 +108,13 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.IsQueryRestriction
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapReturnField(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.FieldInfo,System.Boolean,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapIdField(SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapEjUserField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapSimpleReturnField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapSimpleImageField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Int32,System.Int32)
@@ -134,7 +150,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddRegisteredMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddLastUpdatedMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedBy(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAssociateFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetIdFieldTag(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
@@ -159,13 +175,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateDisplayValue
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateTooltipHint
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -205,6 +214,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyName
+  commentId: F:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyName
+  id: ColumnHierarchyName
+  parent: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ColumnHierarchyName
+  nameWithType: HierarchyExtenderBase.ColumnHierarchyName
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnHierarchyName = "hierarchyName"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnHierarchyName As String = "hierarchyName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyId
   commentId: F:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyId
   id: ColumnHierarchyId
@@ -227,6 +264,62 @@ items:
     return:
       type: System.String
     content.vb: Public Const ColumnHierarchyId As String = "hierarchyId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyParentId
+  commentId: F:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyParentId
+  id: ColumnHierarchyParentId
+  parent: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ColumnHierarchyParentId
+  nameWithType: HierarchyExtenderBase.ColumnHierarchyParentId
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyParentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnHierarchyParentId = "hierarchyParentId"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnHierarchyParentId As String = "hierarchyParentId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyFullpathIds
+  commentId: F:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyFullpathIds
+  id: ColumnHierarchyFullpathIds
+  parent: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ColumnHierarchyFullpathIds
+  nameWithType: HierarchyExtenderBase.ColumnHierarchyFullpathIds
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.ColumnHierarchyFullpathIds
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnHierarchyFullpathIds = "hierarchyFullpathIds"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnHierarchyFullpathIds As String = "hierarchyFullpathIds"
   modifiers.csharp:
   - public
   - const
@@ -285,6 +378,84 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyName
+  commentId: F:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyName
+  id: _colHierarchyName
+  parent: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colHierarchyName
+  nameWithType: HierarchyExtenderBase._colHierarchyName
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colHierarchyName
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colHierarchyName As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colParentId
+  commentId: F:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colParentId
+  id: _colParentId
+  parent: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colParentId
+  nameWithType: HierarchyExtenderBase._colParentId
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colParentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colParentId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colParentId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyFullpathIds
+  commentId: F:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyFullpathIds
+  id: _colHierarchyFullpathIds
+  parent: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colHierarchyFullpathIds
+  nameWithType: HierarchyExtenderBase._colHierarchyFullpathIds
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase._colHierarchyFullpathIds
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colHierarchyFullpathIds
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colHierarchyFullpathIds As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerModifyQuery
   id: InnerModifyQuery
@@ -307,6 +478,39 @@ items:
     content.vb: Protected Overrides Sub InnerModifyQuery
   overridden: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.InnerModifyQuery
   overload: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerModifyQuery*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: HierarchyExtenderBase.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected override void InnerPopulateRowFromReader(SoDataReader reader, ArchiveRow row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    content.vb: Protected Overrides Sub InnerPopulateRowFromReader(reader As SoDataReader, row As ArchiveRow)
+  overridden: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader*
   modifiers.csharp:
   - protected
   - override
@@ -524,65 +728,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  commentId: M:SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  parent: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}
-  definition: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  nameWithType: TableExtenderBase<HierarchyTableInfo>.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<SuperOffice.CRM.Data.HierarchyTableInfo>.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  nameWithType.vb: TableExtenderBase(Of HierarchyTableInfo).InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of SuperOffice.CRM.Data.HierarchyTableInfo).InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: TableExtenderBase<HierarchyTableInfo>.InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<SuperOffice.CRM.Data.HierarchyTableInfo>.InnerPopulateRowFromReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: TableExtenderBase(Of HierarchyTableInfo).InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of SuperOffice.CRM.Data.HierarchyTableInfo).InnerPopulateRowFromReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.TableToExtend
   commentId: P:SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.TableToExtend
   parent: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}
@@ -735,6 +880,47 @@ references:
   name: GetNoneRestriction
   nameWithType: ExtensibleColumnsBase.GetNoneRestriction
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNoneRestriction
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: GetNameOrOverrideName(String)
+  nameWithType: ExtensibleColumnsBase.GetNameOrOverrideName(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+    name: GetNameOrOverrideName
+    nameWithType: ExtensibleColumnsBase.GetNameOrOverrideName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName(System.String)
+    name: GetNameOrOverrideName
+    nameWithType: ExtensibleColumnsBase.GetNameOrOverrideName
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetNameOrOverrideName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -1675,6 +1861,37 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: ApplyColumnNameOverridesToRestrictions()
+  nameWithType: ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions()
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+    name: ApplyColumnNameOverridesToRestrictions
+    nameWithType: ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+    name: ApplyColumnNameOverridesToRestrictions
+    nameWithType: ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverridesToRestrictions
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverrides(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ApplyColumnNameOverrides(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -2449,6 +2666,104 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: SetLeftOuterJoin(Equal)
+  nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin(Equal)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+    name: SetLeftOuterJoin
+    nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Equal
+    name: Equal
+    nameWithType: Equal
+    fullName: SuperOffice.Data.SQL.Equal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal)
+    name: SetLeftOuterJoin
+    nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Equal
+    name: Equal
+    nameWithType: Equal
+    fullName: SuperOffice.Data.SQL.Equal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: SetLeftOuterJoin(Equal, Restriction)
+  nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin(Equal, Restriction)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal, SuperOffice.Data.SQL.Restriction)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+    name: SetLeftOuterJoin
+    nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Equal
+    name: Equal
+    nameWithType: Equal
+    fullName: SuperOffice.Data.SQL.Equal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+    name: SetLeftOuterJoin
+    nameWithType: ExtensibleColumnsBase.SetLeftOuterJoin
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Equal
+    name: Equal
+    nameWithType: Equal
+    fullName: SuperOffice.Data.SQL.Equal
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetLeftOuterOrInnerJoin(SuperOffice.Data.SQL.Equal)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -2702,15 +3017,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
   isExternal: true
-  name: MapAssociateField(FieldInfo, ArchiveColumnInfo)
-  nameWithType: ExtensibleColumnsBase.MapAssociateField(FieldInfo, ArchiveColumnInfo)
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name: MapAssociateField(FieldInfo, ArchiveColumnInfo, Boolean)
+  nameWithType: ExtensibleColumnsBase.MapAssociateField(FieldInfo, ArchiveColumnInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
     name: MapAssociateField
     nameWithType: ExtensibleColumnsBase.MapAssociateField
     fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField
@@ -2730,12 +3045,20 @@ references:
     name: ArchiveColumnInfo
     nameWithType: ArchiveColumnInfo
     fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,System.Boolean)
     name: MapAssociateField
     nameWithType: ExtensibleColumnsBase.MapAssociateField
     fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapAssociateField
@@ -2755,6 +3078,14 @@ references:
     name: ArchiveColumnInfo
     nameWithType: ArchiveColumnInfo
     fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
@@ -4806,15 +5137,15 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
   isExternal: true
-  name: AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo)
-  nameWithType: ExtensibleColumnsBase.AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo)
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
+  name: AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo, Boolean)
+  nameWithType: ExtensibleColumnsBase.AddUpdatedDate(SoDataReader, ArchiveRow, ArchiveColumnInfo, FieldInfo, FieldInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
     name: AddUpdatedDate
     nameWithType: ExtensibleColumnsBase.AddUpdatedDate
     fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate
@@ -4858,12 +5189,20 @@ references:
     name: FieldInfo
     nameWithType: FieldInfo
     fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
     name: AddUpdatedDate
     nameWithType: ExtensibleColumnsBase.AddUpdatedDate
     fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddUpdatedDate
@@ -4907,6 +5246,14 @@ references:
     name: FieldInfo
     nameWithType: FieldInfo
     fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
@@ -5238,285 +5585,6 @@ references:
   name: DebugXML
   nameWithType: ExtensibleColumnsBase.DebugXML
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -5706,64 +5774,6 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  commentId: M:SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  isExternal: true
-  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  nameWithType: TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  nameWithType.vb: TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -6157,6 +6167,149 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.HierarchyTableInfo}
+  definition: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: TableExtenderBase<HierarchyTableInfo>.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<SuperOffice.CRM.Data.HierarchyTableInfo>.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  nameWithType.vb: TableExtenderBase(Of HierarchyTableInfo).InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of SuperOffice.CRM.Data.HierarchyTableInfo).InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: TableExtenderBase<HierarchyTableInfo>.InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<SuperOffice.CRM.Data.HierarchyTableInfo>.InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: TableExtenderBase(Of HierarchyTableInfo).InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of SuperOffice.CRM.Data.HierarchyTableInfo).InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader
+  isExternal: true
+  name: InnerPopulateRowFromReader
+  nameWithType: HierarchyExtenderBase.InnerPopulateRowFromReader
+  fullName: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.InnerPopulateRowFromReader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  isExternal: true
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  nameWithType.vb: TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase<MainTableInfo>.InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.TableExtenderBase(Of MainTableInfo).InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
 - uid: SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase.#ctor
   isExternal: true

@@ -23,6 +23,7 @@ items:
     content: 'public interface IOwnedDataSerializableAndRecreatable : IOwnedDataSerializable'
     content.vb: >-
       Public Interface IOwnedDataSerializableAndRecreatable
+
           Inherits IOwnedDataSerializable
   inheritedMembers:
   - SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData(SuperOffice.IO.SerializationWriter,System.Object)

@@ -1,0 +1,379 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowTrigger
+  commentId: T:SuperOffice.CRM.Services.WorkflowTrigger
+  id: WorkflowTrigger
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowTrigger.#ctor
+  - SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups
+  - SuperOffice.CRM.Services.WorkflowTrigger.ToString
+  - SuperOffice.CRM.Services.WorkflowTrigger.ToString(System.String)
+  - SuperOffice.CRM.Services.WorkflowTrigger.TriggerType
+  - SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId
+  - SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTrigger
+  nameWithType: WorkflowTrigger
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWorkflow trigger carrier\n<p></p>\nCarrier object for WorkflowTrigger.\nServices for the WorkflowTrigger Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet WorkflowTrigger 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new WorkflowAgent();\n    var workflowTrigger = agent.GetWorkflowTrigger( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class WorkflowTrigger : Carrier'
+    content.vb: >-
+      Public Class WorkflowTrigger
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowTrigger.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTrigger()
+  nameWithType: WorkflowTrigger.WorkflowTrigger()
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTrigger()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowTrigger()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowTrigger.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowTrigger.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowTrigger.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.WorkflowTrigger.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowTrigger.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowTrigger.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.WorkflowTrigger.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId
+  commentId: P:SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId
+  id: WorkflowTriggerId
+  parent: SuperOffice.CRM.Services.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerId
+  nameWithType: WorkflowTrigger.WorkflowTriggerId
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int WorkflowTriggerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WorkflowTriggerId As Integer
+  overload: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowTrigger.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe flow this trigger belongs to \n"
+  syntax:
+    content: public virtual int WorkflowId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WorkflowId As Integer
+  overload: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.TriggerType
+  commentId: P:SuperOffice.CRM.Services.WorkflowTrigger.TriggerType
+  id: TriggerType
+  parent: SuperOffice.CRM.Services.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: TriggerType
+  nameWithType: WorkflowTrigger.TriggerType
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.TriggerType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe workflow trigger type \n"
+  syntax:
+    content: public virtual WorkflowTriggerType TriggerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Overridable Property TriggerType As WorkflowTriggerType
+  overload: SuperOffice.CRM.Services.WorkflowTrigger.TriggerType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups
+  commentId: P:SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups
+  id: RestrictionGroups
+  parent: SuperOffice.CRM.Services.WorkflowTrigger
+  langs:
+  - csharp
+  - vb
+  name: RestrictionGroups
+  nameWithType: WorkflowTrigger.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe restrictions (can be multiple groups) that make up the Workflow trigger criteria \n"
+  syntax:
+    content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+    content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
+  overload: SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowTrigger.#ctor
+  isExternal: true
+  name: WorkflowTrigger
+  nameWithType: WorkflowTrigger.WorkflowTrigger
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTrigger
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowTrigger.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowTrigger.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId
+  isExternal: true
+  name: WorkflowTriggerId
+  nameWithType: WorkflowTrigger.WorkflowTriggerId
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowTriggerId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowTrigger.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.TriggerType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowTrigger.TriggerType
+  isExternal: true
+  name: TriggerType
+  nameWithType: WorkflowTrigger.TriggerType
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.TriggerType
+- uid: SuperOffice.Data.WorkflowTriggerType
+  commentId: '!:SuperOffice.Data.WorkflowTriggerType'
+  isExternal: true
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.Data.WorkflowTriggerType
+- uid: SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups
+  isExternal: true
+  name: RestrictionGroups
+  nameWithType: WorkflowTrigger.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger.RestrictionGroups
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,761 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  id: WorkflowStepOptionLinkRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Registered
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Updated
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepId
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionId
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionLinkRecordData
+  nameWithType: WorkflowStepOptionLinkRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the workflow_step_option_link table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class WorkflowStepOptionLinkRecordData : Object'
+    content.vb: >-
+      Public Class WorkflowStepOptionLinkRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkId
+  id: WorkflowStepOptionLinkId
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionLinkId
+  nameWithType: WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkId
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int WorkflowStepOptionLinkId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowStepOptionLinkId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionId
+  id: WorkflowStepOptionId
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionId
+  nameWithType: WorkflowStepOptionLinkRecordData.WorkflowStepOptionId
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe workflow step option to connect to \n"
+  syntax:
+    content: public int WorkflowStepOptionId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowStepOptionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepId
+  id: WorkflowStepId
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepId
+  nameWithType: WorkflowStepOptionLinkRecordData.WorkflowStepId
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA workflow step connected to the option \n"
+  syntax:
+    content: public int WorkflowStepId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowStepId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: WorkflowStepOptionLinkRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: WorkflowStepOptionLinkRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: WorkflowStepOptionLinkRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: WorkflowStepOptionLinkRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: WorkflowStepOptionLinkRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionLinkRecordData()
+  nameWithType: WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkRecordData()
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public WorkflowStepOptionLinkRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowStepOptionLinkRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowStepOptionLinkRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowStepOptionLinkRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To)()
+  name.vb: MapEnums(Of WorkflowStepOptionLinkRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowStepOptionLinkRecordData, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowStepOptionLinkRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowStepOptionLinkRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowStepOptionLinkRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkflowStepOptionLinkRecordData>(WorkflowStepOptionLinkRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowStepOptionLinkRecordData>(WorkflowStepOptionLinkRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData>(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowStepOptionLinkRecordData)(WorkflowStepOptionLinkRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  name.vb: AssignByReflection(Of WorkflowStepOptionLinkRecordData)(WorkflowStepOptionLinkRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowStepOptionLinkRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowStepOptionLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    name: WorkflowStepOptionLinkRecordData
+    nameWithType: WorkflowStepOptionLinkRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowStepOptionLinkRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowStepOptionLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    name: WorkflowStepOptionLinkRecordData
+    nameWithType: WorkflowStepOptionLinkRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkflowStepOptionLinkRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowStepOptionLinkRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowStepOptionLinkRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)()
+  name.vb: GraphCopy(Of WorkflowStepOptionLinkRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowStepOptionLinkRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowStepOptionLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowStepOptionLinkRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowStepOptionLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  name: ToInsert()
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowStepOptionLinkRecordData, To>()
+  nameWithType: Converters.MapEnums<WorkflowStepOptionLinkRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowStepOptionLinkRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To)()
+  name.vb: MapEnums(Of WorkflowStepOptionLinkRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowStepOptionLinkRecordData, To>
+    nameWithType: Converters.MapEnums<WorkflowStepOptionLinkRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowStepOptionLinkRecordData, To)
+    nameWithType: Converters.MapEnums(Of WorkflowStepOptionLinkRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  isExternal: true
+  name: ToInsert(WorkflowStepOptionLinkRecordData)
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert(WorkflowStepOptionLinkRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+    name: ToInsert
+    nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    name: WorkflowStepOptionLinkRecordData
+    nameWithType: WorkflowStepOptionLinkRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+    name: ToInsert
+    nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    name: WorkflowStepOptionLinkRecordData
+    nameWithType: WorkflowStepOptionLinkRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowStepOptionLinkRecordDataExtensions
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.#ctor
+  isExternal: true
+  name: WorkflowStepOptionLinkRecordData
+  nameWithType: WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData.WorkflowStepOptionLinkRecordData

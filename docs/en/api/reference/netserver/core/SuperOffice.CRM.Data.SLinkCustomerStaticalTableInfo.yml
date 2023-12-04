@@ -10,6 +10,8 @@ items:
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.Email
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.HttpUserAgent
+  - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType(SuperOffice.Data.ShipmentLinkType)
+  - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId(System.Int32)
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.LinkId
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.LinkId_InnerJoin_SLink
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.LinkType
@@ -43,7 +45,9 @@ items:
       <DatabaseTable("s_link_customer_statical")>
 
       Public Class SLinkCustomerStaticalTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -65,12 +69,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -115,6 +113,68 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId(System.Int32)
+  id: IdxShipmentId(System.Int32)
+  parent: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxShipmentId(Int32)
+  nameWithType: SLinkCustomerStaticalTableInfo.IdxShipmentId(Int32)
+  fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index ShipmentId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ShipmentId</td><td>Which shipment the customer received.</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxShipmentId(int shipmentId)
+    parameters:
+    - id: shipmentId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxShipmentId(shipmentId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType(SuperOffice.Data.ShipmentLinkType)
+  commentId: M:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType(SuperOffice.Data.ShipmentLinkType)
+  id: IdxLinkType(SuperOffice.Data.ShipmentLinkType)
+  parent: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxLinkType(ShipmentLinkType)
+  nameWithType: SLinkCustomerStaticalTableInfo.IdxLinkType(ShipmentLinkType)
+  fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType(SuperOffice.Data.ShipmentLinkType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index LinkType, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>LinkType</td><td>If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxLinkType(ShipmentLinkType linkType)
+    parameters:
+    - id: linkType
+      type: SuperOffice.Data.ShipmentLinkType
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxLinkType(linkType As ShipmentLinkType) As Restriction
+  overload: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -165,26 +225,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -306,7 +352,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;link_id&apos; in table &apos;s_link_customer_statical&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nConnection to a link that the customer clicked on\n"
+  summary: "\nField &apos;link_id&apos; in table &apos;s_link_customer_statical&apos;: Dictionary type FK, target: SLink, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nConnection to a link that the customer clicked on\n"
   syntax:
     content: public Int32FieldInfo LinkId { get; }
     parameters: []
@@ -337,7 +383,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;shipment_id&apos; in table &apos;s_link_customer_statical&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhich shipment the customer received.\n"
+  summary: "\nField &apos;shipment_id&apos; in table &apos;s_link_customer_statical&apos;: Dictionary type FK, target: SShipment, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhich shipment the customer received.\n"
   syntax:
     content: public Int32FieldInfo ShipmentId { get; }
     parameters: []
@@ -559,8 +605,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -893,254 +937,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1325,12 +1121,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber*
-  commentId: Overload:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId
   isExternal: true
-  name: DictionaryTableNumber
-  nameWithType: SLinkCustomerStaticalTableInfo.DictionaryTableNumber
-  fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber
+  name: IdxShipmentId
+  nameWithType: SLinkCustomerStaticalTableInfo.IdxShipmentId
+  fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxShipmentId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1338,6 +1134,38 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType
+  isExternal: true
+  name: IdxLinkType
+  nameWithType: SLinkCustomerStaticalTableInfo.IdxLinkType
+  fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.IdxLinkType
+- uid: SuperOffice.Data.ShipmentLinkType
+  commentId: T:SuperOffice.Data.ShipmentLinkType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: SuperOffice.Data.ShipmentLinkType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: SLinkCustomerStaticalTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.DictionaryTableNumber
 - uid: SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo.RuntimeDefinition
   isExternal: true

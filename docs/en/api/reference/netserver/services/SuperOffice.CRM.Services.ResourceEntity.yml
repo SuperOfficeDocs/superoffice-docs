@@ -44,6 +44,8 @@ items:
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.ResourceEntity.SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Administration.SoResource)
   modifiers.csharp:
   - public
   - class
@@ -378,13 +380,47 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ResourceEntity.SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Administration.SoResource)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Services.ResourceEntity,SuperOffice.CRM.Administration.SoResource)
+  parent: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper
+  definition: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Services.ResourceEntity,SuperOffice.CRM.Administration.SoResource)
+  name: UpdateSoResource(SoResource)
+  nameWithType: ResourceEntityHelper.UpdateSoResource(SoResource)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Administration.SoResource)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Administration.SoResource)
+    name: UpdateSoResource
+    nameWithType: ResourceEntityHelper.UpdateSoResource
+    fullName: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Administration.SoResource
+    name: SoResource
+    nameWithType: SoResource
+    fullName: SuperOffice.CRM.Administration.SoResource
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Administration.SoResource)
+    name: UpdateSoResource
+    nameWithType: ResourceEntityHelper.UpdateSoResource
+    fullName: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Administration.SoResource
+    name: SoResource
+    nameWithType: SoResource
+    fullName: SuperOffice.CRM.Administration.SoResource
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ListAgent
   commentId: T:SuperOffice.CRM.Services.ListAgent
   isExternal: true
@@ -398,12 +434,75 @@ references:
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Services.ResourceEntity,SuperOffice.CRM.Administration.SoResource)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Services.ResourceEntity,SuperOffice.CRM.Administration.SoResource)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: UpdateSoResource(ResourceEntity, SoResource)
+  nameWithType: ResourceEntityHelper.UpdateSoResource(ResourceEntity, SoResource)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Services.ResourceEntity, SuperOffice.CRM.Administration.SoResource)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Services.ResourceEntity,SuperOffice.CRM.Administration.SoResource)
+    name: UpdateSoResource
+    nameWithType: ResourceEntityHelper.UpdateSoResource
+    fullName: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ResourceEntity
+    name: ResourceEntity
+    nameWithType: ResourceEntity
+    fullName: SuperOffice.CRM.Services.ResourceEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Administration.SoResource
+    name: SoResource
+    nameWithType: SoResource
+    fullName: SuperOffice.CRM.Administration.SoResource
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource(SuperOffice.CRM.Services.ResourceEntity,SuperOffice.CRM.Administration.SoResource)
+    name: UpdateSoResource
+    nameWithType: ResourceEntityHelper.UpdateSoResource
+    fullName: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper.UpdateSoResource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ResourceEntity
+    name: ResourceEntity
+    nameWithType: ResourceEntity
+    fullName: SuperOffice.CRM.Services.ResourceEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Administration.SoResource
+    name: SoResource
+    nameWithType: SoResource
+    fullName: SuperOffice.CRM.Administration.SoResource
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper
+  parent: SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: ResourceEntityHelper
+  nameWithType: ResourceEntityHelper
+  fullName: SuperOffice.CRM.Services.Implementation.BL.ResourceEntityHelper
+- uid: SuperOffice.CRM.Services.Implementation.BL
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation.BL
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL
+  fullName: SuperOffice.CRM.Services.Implementation.BL
 - uid: SuperOffice.CRM.Services.ResourceEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ResourceEntity.#ctor
   isExternal: true
@@ -423,6 +522,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ResourceEntity.ResourceId*
   commentId: Overload:SuperOffice.CRM.Services.ResourceEntity.ResourceId
   isExternal: true

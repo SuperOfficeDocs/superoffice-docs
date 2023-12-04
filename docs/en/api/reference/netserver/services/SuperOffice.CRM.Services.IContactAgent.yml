@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Services.IContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
   - SuperOffice.CRM.Services.IContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
   - SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+  - SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
   - SuperOffice.CRM.Services.IContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
   - SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity(System.Int32)
   - SuperOffice.CRM.Services.IContactAgent.DeleteExpired
@@ -19,6 +20,7 @@ items:
   - SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32[])
   - SuperOffice.CRM.Services.IContactAgent.GetContactSummary(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons(System.Int32)
+  - SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
   - SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
   - SuperOffice.CRM.Services.IContactAgent.GetDuplicates(System.String)
   - SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
@@ -28,6 +30,7 @@ items:
   - SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
   - SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
   - SuperOffice.CRM.Services.IContactAgent.GetPersons(System.Int32)
+  - SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
   - SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
   - SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
   - SuperOffice.CRM.Services.IContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
@@ -157,6 +160,31 @@ items:
       description: The identity of the ContactEntity
     content.vb: Sub DeleteContactEntity(contactEntityId As Integer)
   overload: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity*
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+  id: CreateDefaultPreviewContact
+  parent: SuperOffice.CRM.Services.IContactAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPreviewContact()
+  nameWithType: IContactAgent.CreateDefaultPreviewContact()
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new PreviewContact.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: PreviewContact CreateDefaultPreviewContact()
+    return:
+      type: SuperOffice.CRM.Services.PreviewContact
+      description: New PreviewContact with default values
+    content.vb: Function CreateDefaultPreviewContact As PreviewContact
+  overload: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact*
 - uid: SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
   id: GetContact(System.Int32)
@@ -219,7 +247,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.ContactActivity[]
       description: Array of contacts where there have been activity in the period.
-    content.vb: Function GetMyActiveContacts(activityStartTime As Date, contactCategories As Integer(), actionType As ContactAction) As ContactActivity()
+    content.vb: Function GetMyActiveContacts(activityStartTime As DateTime, contactCategories As Integer(), actionType As ContactAction) As ContactActivity()
   overload: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts*
   nameWithType.vb: IContactAgent.GetMyActiveContacts(DateTime, Int32(), ContactAction)
   fullName.vb: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime, System.Int32(), SuperOffice.CRM.Services.Util.ContactAction)
@@ -725,6 +753,35 @@ items:
       description: Any records matching the specified name and department
     content.vb: Function GetNameDepartmentDuplicates(name As String, department As String) As DuplicateEntry()
   overload: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates*
+- uid: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+  id: GetDomainDuplicates(System.String)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDomainDuplicates(String)
+  nameWithType: IContactAgent.GetDomainDuplicates(String)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet duplicates based on the domain\n"
+  syntax:
+    content: DuplicateEntry[] GetDomainDuplicates(string domain)
+    parameters:
+    - id: domain
+      type: System.String
+      description: Domain used for lookup
+    return:
+      type: SuperOffice.CRM.Services.DuplicateEntry[]
+      description: Any records matching the specified domain
+    content.vb: Function GetDomainDuplicates(domain As String) As DuplicateEntry()
+  overload: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates*
 - uid: SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
   id: IsNumberValid(System.Int32,System.String)
@@ -748,10 +805,13 @@ items:
     parameters:
     - id: contactId
       type: System.Int32
+      description: Primary key
     - id: number
       type: System.String
+      description: Number field value to check.
     return:
       type: System.Boolean
+      description: True if the number satisifies the configured rules for uniqueness.
     content.vb: Function IsNumberValid(contactId As Integer, number As String) As Boolean
   overload: SuperOffice.CRM.Services.IContactAgent.IsNumberValid*
 - uid: SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
@@ -990,6 +1050,35 @@ items:
       description: Arrayof contacts
     content.vb: Function GetMyRecentContacts(sourceType As ContactSourceType) As Contact()
   overload: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts*
+- uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+  id: GetPreviewContact(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewContact(Int32)
+  nameWithType: IContactAgent.GetPreviewContact(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a contact from its ID\n"
+  syntax:
+    content: PreviewContact GetPreviewContact(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact ID
+    return:
+      type: SuperOffice.CRM.Services.PreviewContact
+      description: Contact minimal contact suitable for preview
+    content.vb: Function GetPreviewContact(contactId As Integer) As PreviewContact
+  overload: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1035,6 +1124,19 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+  isExternal: true
+  name: CreateDefaultPreviewContact
+  nameWithType: IContactAgent.CreateDefaultPreviewContact
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+- uid: SuperOffice.CRM.Services.PreviewContact
+  commentId: T:SuperOffice.CRM.Services.PreviewContact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewContact
+  nameWithType: PreviewContact
+  fullName: SuperOffice.CRM.Services.PreviewContact
 - uid: SuperOffice.CRM.Services.IContactAgent.GetContact*
   commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetContact
   isExternal: true
@@ -1055,8 +1157,6 @@ references:
   nameWithType: IContactAgent.GetMyActiveContacts
   fullName: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1341,6 +1441,12 @@ references:
   name: GetNameDepartmentDuplicates
   nameWithType: IContactAgent.GetNameDepartmentDuplicates
   fullName: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates
+- uid: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates
+  isExternal: true
+  name: GetDomainDuplicates
+  nameWithType: IContactAgent.GetDomainDuplicates
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates
 - uid: SuperOffice.CRM.Services.IContactAgent.IsNumberValid*
   commentId: Overload:SuperOffice.CRM.Services.IContactAgent.IsNumberValid
   isExternal: true
@@ -1471,3 +1577,9 @@ references:
   name: ContactSourceType
   nameWithType: ContactSourceType
   fullName: SuperOffice.CRM.Services.Util.ContactSourceType
+- uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetPreviewContact
+  isExternal: true
+  name: GetPreviewContact
+  nameWithType: IContactAgent.GetPreviewContact
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact

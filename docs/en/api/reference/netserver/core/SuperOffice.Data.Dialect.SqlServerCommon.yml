@@ -36,6 +36,7 @@ items:
   - SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.Trim)
   - SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.UnEqual)
   - SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.Upper)
+  - SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
   - SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.SQL.Year)
   langs:
   - csharp
@@ -55,6 +56,7 @@ items:
     content: 'public class SqlServerCommon : Dialect'
     content.vb: >-
       Public Class SqlServerCommon
+
           Inherits Dialect
   inheritance:
   - System.Object
@@ -70,7 +72,6 @@ items:
   - SuperOffice.Data.Dialect.Dialect._filterCallbacks
   - SuperOffice.Data.Dialect.Dialect._cmd
   - SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
-  - SuperOffice.Data.Dialect.Dialect.SoParameterCollection
   - SuperOffice.Data.Dialect.Dialect.CheckForDuplicateRow(System.Data.IDataReader)
   - SuperOffice.Data.Dialect.Dialect.CheckForDistinct(SuperOffice.Data.SQL.PrivateSelect)
   - SuperOffice.Data.Dialect.Dialect.ShouldRowBeSkipped(System.Data.IDataReader)
@@ -107,6 +108,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.And)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Or)
   - SuperOffice.Data.Dialect.Dialect.ParseMathematicalArguments(SuperOffice.Data.SQL.MathematicalExpression,System.String)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Add)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Subtract)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Multiply)
@@ -118,6 +120,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Distinct)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Alias)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldTypeConvert)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.FieldDataType)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Soundex)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Sum)
@@ -179,13 +182,6 @@ items:
   - SuperOffice.Data.Dialect.Dialect.CurrentOuterSqlType
   - SuperOffice.Data.Dialect.Dialect.ReturnFieldsIndexer
   - SuperOffice.Data.Dialect.Dialect.VarcharType
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Dialect.SqlServerCommon.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dialect.SqlServerCommon.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -322,7 +318,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
-  summary: "\nOverride: If we have a LIKE operator, used on a field that has fulltext indexing, and fulltext indexing is\nenabled on this database, THEN use the custom syntax (in its simplest form) for that. Handle multi-word searches as &quot;exact sentence&quot;\nReference: ms-help://MS.SQLCC.v9/MS.SQLSVR.v9.en/fulltxt9/html/7624ba76-594b-4be5-ac10-c3ac4a3529bd.htm or http://msdn.microsoft.com/en-us/library/ms187787.aspx\n"
+  summary: "\nOverride: If we have a LIKE operator, used on a field that has fulltext indexing, and fulltext indexing preference is\nenabled on this database, THEN use the custom syntax (in its simplest form) for that. Handle multi-word searches as &quot;exact sentence&quot;\nReference: ms-help://MS.SQLCC.v9/MS.SQLSVR.v9.en/fulltxt9/html/7624ba76-594b-4be5-ac10-c3ac4a3529bd.htm or http://msdn.microsoft.com/en-us/library/ms187787.aspx\n"
   syntax:
     content: protected override string ToSql(Like arg)
     parameters:
@@ -1065,6 +1061,36 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
+- uid: SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
+  commentId: M:SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
+  id: ToSql(SuperOffice.Data.Sql.WaitFor)
+  parent: SuperOffice.Data.Dialect.SqlServerCommon
+  langs:
+  - csharp
+  - vb
+  name: ToSql(WaitFor)
+  nameWithType: SqlServerCommon.ToSql(WaitFor)
+  fullName: SuperOffice.Data.Dialect.SqlServerCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected string ToSql(WaitFor arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.Sql.WaitFor
+    return:
+      type: System.String
+    content.vb: Protected Function ToSql(arg As WaitFor) As String
+  overload: SuperOffice.Data.Dialect.SqlServerCommon.ToSql*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.Data.Dialect.SqlServerCommon.DateToVarchar(System.String)
   commentId: M:SuperOffice.Data.Dialect.SqlServerCommon.DateToVarchar(System.String)
   id: DateToVarchar(System.String)
@@ -1401,13 +1427,6 @@ references:
   name: _stringFieldsInOrderByWithDistinct
   nameWithType: Dialect._stringFieldsInOrderByWithDistinct
   fullName: SuperOffice.Data.Dialect.Dialect._stringFieldsInOrderByWithDistinct
-- uid: SuperOffice.Data.Dialect.Dialect.SoParameterCollection
-  commentId: F:SuperOffice.Data.Dialect.Dialect.SoParameterCollection
-  parent: SuperOffice.Data.Dialect.Dialect
-  isExternal: true
-  name: SoParameterCollection
-  nameWithType: Dialect.SoParameterCollection
-  fullName: SuperOffice.Data.Dialect.Dialect.SoParameterCollection
 - uid: SuperOffice.Data.Dialect.Dialect.CheckForDuplicateRow(System.Data.IDataReader)
   commentId: M:SuperOffice.Data.Dialect.Dialect.CheckForDuplicateRow(System.Data.IDataReader)
   parent: SuperOffice.Data.Dialect.Dialect
@@ -3003,6 +3022,47 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: ToSql(Greatest)
+  nameWithType: Dialect.ToSql(Greatest)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+    name: ToSql
+    nameWithType: Dialect.ToSql
+    fullName: SuperOffice.Data.Dialect.Dialect.ToSql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Greatest
+    name: Greatest
+    nameWithType: Greatest
+    fullName: SuperOffice.Data.SQL.Greatest
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Greatest)
+    name: ToSql
+    nameWithType: Dialect.ToSql
+    fullName: SuperOffice.Data.Dialect.Dialect.ToSql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Greatest
+    name: Greatest
+    nameWithType: Greatest
+    fullName: SuperOffice.Data.SQL.Greatest
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Add)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Add)
   parent: SuperOffice.Data.Dialect.Dialect
@@ -3450,6 +3510,47 @@ references:
     name: FieldTypeConvert
     nameWithType: FieldTypeConvert
     fullName: SuperOffice.Data.SQL.FieldTypeConvert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: ToSql(JsonValue)
+  nameWithType: Dialect.ToSql(JsonValue)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+    name: ToSql
+    nameWithType: Dialect.ToSql
+    fullName: SuperOffice.Data.Dialect.Dialect.ToSql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.JsonValue
+    name: JsonValue
+    nameWithType: JsonValue
+    fullName: SuperOffice.Data.SQL.JsonValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.JsonValue)
+    name: ToSql
+    nameWithType: Dialect.ToSql
+    fullName: SuperOffice.Data.Dialect.Dialect.ToSql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.JsonValue
+    name: JsonValue
+    nameWithType: JsonValue
+    fullName: SuperOffice.Data.SQL.JsonValue
     isExternal: true
   - name: )
     nameWithType: )
@@ -6570,285 +6671,6 @@ references:
   name: VarcharType
   nameWithType: Dialect.VarcharType
   fullName: SuperOffice.Data.Dialect.Dialect.VarcharType
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.Dialect.SqlServerCommon.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -7192,8 +7014,6 @@ references:
   nameWithType: SqlServerCommon.ComposeSelect
   fullName: SuperOffice.Data.Dialect.SqlServerCommon.ComposeSelect
 - uid: System.Text.StringBuilder
-  commentId: T:System.Text.StringBuilder
-  parent: System.Text
   isExternal: true
   name: StringBuilder
   nameWithType: StringBuilder
@@ -7205,12 +7025,6 @@ references:
   name: PrivateSelect
   nameWithType: PrivateSelect
   fullName: SuperOffice.Data.SQL.PrivateSelect
-- uid: System.Text
-  commentId: N:System.Text
-  isExternal: true
-  name: System.Text
-  nameWithType: System.Text
-  fullName: System.Text
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
@@ -8326,6 +8140,19 @@ references:
   name: MissingAll
   nameWithType: MissingAll
   fullName: SuperOffice.Data.SQL.MissingAll
+- uid: SuperOffice.Data.Sql.WaitFor
+  commentId: T:SuperOffice.Data.Sql.WaitFor
+  parent: SuperOffice.Data.Sql
+  isExternal: true
+  name: WaitFor
+  nameWithType: WaitFor
+  fullName: SuperOffice.Data.Sql.WaitFor
+- uid: SuperOffice.Data.Sql
+  commentId: N:SuperOffice.Data.Sql
+  isExternal: true
+  name: SuperOffice.Data.Sql
+  nameWithType: SuperOffice.Data.Sql
+  fullName: SuperOffice.Data.Sql
 - uid: SuperOffice.Data.Dialect.Dialect.DateToVarchar(System.String)
   commentId: M:SuperOffice.Data.Dialect.Dialect.DateToVarchar(System.String)
   parent: SuperOffice.Data.Dialect.Dialect

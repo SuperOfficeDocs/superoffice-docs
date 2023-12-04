@@ -84,6 +84,8 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.QuoteLine.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
   modifiers.csharp:
   - public
   - class
@@ -1259,7 +1261,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SubscriptionStart As Date
+    content.vb: Public Overridable Property SubscriptionStart As DateTime
   overload: SuperOffice.CRM.Services.QuoteLine.SubscriptionStart*
   modifiers.csharp:
   - public
@@ -1804,13 +1806,37 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteLine.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo(SuperOffice.CRM.Services.QuoteLine)
+  parent: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  definition: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo(SuperOffice.CRM.Services.QuoteLine)
+  name: GetQuoteLineInfo()
+  nameWithType: QuoteConverter.GetQuoteLineInfo()
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
+    name: GetQuoteLineInfo
+    nameWithType: QuoteConverter.GetQuoteLineInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
+    name: GetQuoteLineInfo
+    nameWithType: QuoteConverter.GetQuoteLineInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -1824,12 +1850,59 @@ references:
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo(SuperOffice.CRM.Services.QuoteLine)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo(SuperOffice.CRM.Services.QuoteLine)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: GetQuoteLineInfo(QuoteLine)
+  nameWithType: QuoteConverter.GetQuoteLineInfo(QuoteLine)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo(SuperOffice.CRM.Services.QuoteLine)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo(SuperOffice.CRM.Services.QuoteLine)
+    name: GetQuoteLineInfo
+    nameWithType: QuoteConverter.GetQuoteLineInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.QuoteLine
+    name: QuoteLine
+    nameWithType: QuoteLine
+    fullName: SuperOffice.CRM.Services.QuoteLine
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo(SuperOffice.CRM.Services.QuoteLine)
+    name: GetQuoteLineInfo
+    nameWithType: QuoteConverter.GetQuoteLineInfo
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteLineInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.QuoteLine
+    name: QuoteLine
+    nameWithType: QuoteLine
+    fullName: SuperOffice.CRM.Services.QuoteLine
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  parent: SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: QuoteConverter
+  nameWithType: QuoteConverter
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+- uid: SuperOffice.CRM.Services.Implementation.BL
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation.BL
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL
+  fullName: SuperOffice.CRM.Services.Implementation.BL
 - uid: SuperOffice.CRM.Services.QuoteLine.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLine.#ctor
   isExternal: true
@@ -1849,6 +1922,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteLine.QuoteLineId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLine.QuoteLineId
   isExternal: true
@@ -2100,8 +2179,6 @@ references:
   nameWithType: QuoteLine.SubscriptionStart
   fullName: SuperOffice.CRM.Services.QuoteLine.SubscriptionStart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  id: ExportSelectionToFileBatchParameters
+  parent: SuperOffice.CRM.BatchProcessing.Plugins
+  children:
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.#ctor
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.InitDesc
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.OrderBy
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.PluginName
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.ProgressDesc
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SelectionId
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.TemplateFile
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.UseContacts
+  langs:
+  - csharp
+  - vb
+  name: ExportSelectionToFileBatchParameters
+  nameWithType: ExportSelectionToFileBatchParameters
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: 'public class ExportSelectionToFileBatchParameters : Object'
+    content.vb: >-
+      Public Class ExportSelectionToFileBatchParameters
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.PluginName
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.PluginName
+  id: PluginName
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: PluginName
+  nameWithType: ExportSelectionToFileBatchParameters.PluginName
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.PluginName
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public const string PluginName = "ExportSelectionToFileBatchPlugin"
+    return:
+      type: System.String
+    content.vb: Public Const PluginName As String = "ExportSelectionToFileBatchPlugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SelectionId
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: ExportSelectionToFileBatchParameters.SelectionId
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SelectionId
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public int SelectionId
+    return:
+      type: System.Int32
+    content.vb: Public SelectionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.TemplateFile
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.TemplateFile
+  id: TemplateFile
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: TemplateFile
+  nameWithType: ExportSelectionToFileBatchParameters.TemplateFile
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.TemplateFile
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public string TemplateFile
+    return:
+      type: System.String
+    content.vb: Public TemplateFile As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.UseContacts
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.UseContacts
+  id: UseContacts
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: UseContacts
+  nameWithType: ExportSelectionToFileBatchParameters.UseContacts
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.UseContacts
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public bool UseContacts
+    return:
+      type: System.Boolean
+    content.vb: Public UseContacts As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.OrderBy
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.OrderBy
+  id: OrderBy
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: ExportSelectionToFileBatchParameters.OrderBy
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.OrderBy
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public string OrderBy
+    return:
+      type: System.String
+    content.vb: Public OrderBy As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.InitDesc
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.InitDesc
+  id: InitDesc
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: InitDesc
+  nameWithType: ExportSelectionToFileBatchParameters.InitDesc
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.InitDesc
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public string InitDesc
+    return:
+      type: System.String
+    content.vb: Public InitDesc As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.ProgressDesc
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.ProgressDesc
+  id: ProgressDesc
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: ProgressDesc
+  nameWithType: ExportSelectionToFileBatchParameters.ProgressDesc
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.ProgressDesc
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public string ProgressDesc
+    return:
+      type: System.String
+    content.vb: Public ProgressDesc As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.#ctor
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+  langs:
+  - csharp
+  - vb
+  name: ExportSelectionToFileBatchParameters()
+  nameWithType: ExportSelectionToFileBatchParameters.ExportSelectionToFileBatchParameters()
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.ExportSelectionToFileBatchParameters()
+  type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public ExportSelectionToFileBatchParameters()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.BatchProcessing.Plugins
+  commentId: N:SuperOffice.CRM.BatchProcessing.Plugins
+  isExternal: true
+  name: SuperOffice.CRM.BatchProcessing.Plugins
+  nameWithType: SuperOffice.CRM.BatchProcessing.Plugins
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ExportSelectionToFileBatchParameters, To>()
+  nameWithType: EnumUtil.MapEnums<ExportSelectionToFileBatchParameters, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExportSelectionToFileBatchParameters, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To)()
+  name.vb: MapEnums(Of ExportSelectionToFileBatchParameters, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExportSelectionToFileBatchParameters, To>
+    nameWithType: EnumUtil.MapEnums<ExportSelectionToFileBatchParameters, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExportSelectionToFileBatchParameters, To)
+    nameWithType: EnumUtil.MapEnums(Of ExportSelectionToFileBatchParameters, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ExportSelectionToFileBatchParameters>(ExportSelectionToFileBatchParameters)
+  nameWithType: ObjectExtensions.AssignByReflection<ExportSelectionToFileBatchParameters>(ExportSelectionToFileBatchParameters)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters>(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExportSelectionToFileBatchParameters)(ExportSelectionToFileBatchParameters)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)
+  name.vb: AssignByReflection(Of ExportSelectionToFileBatchParameters)(ExportSelectionToFileBatchParameters)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ExportSelectionToFileBatchParameters>
+    nameWithType: ObjectExtensions.AssignByReflection<ExportSelectionToFileBatchParameters>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+    name: ExportSelectionToFileBatchParameters
+    nameWithType: ExportSelectionToFileBatchParameters
+    fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ExportSelectionToFileBatchParameters)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ExportSelectionToFileBatchParameters)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+    name: ExportSelectionToFileBatchParameters
+    nameWithType: ExportSelectionToFileBatchParameters
+    fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ExportSelectionToFileBatchParameters>()
+  nameWithType: ObjectExtensions.GraphCopy<ExportSelectionToFileBatchParameters>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExportSelectionToFileBatchParameters)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)()
+  name.vb: GraphCopy(Of ExportSelectionToFileBatchParameters)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ExportSelectionToFileBatchParameters>
+    nameWithType: ObjectExtensions.GraphCopy<ExportSelectionToFileBatchParameters>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ExportSelectionToFileBatchParameters)
+    nameWithType: ObjectExtensions.GraphCopy(Of ExportSelectionToFileBatchParameters)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExportSelectionToFileBatchParameters, To>()
+  nameWithType: Converters.MapEnums<ExportSelectionToFileBatchParameters, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExportSelectionToFileBatchParameters, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To)()
+  name.vb: MapEnums(Of ExportSelectionToFileBatchParameters, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExportSelectionToFileBatchParameters, To>
+    nameWithType: Converters.MapEnums<ExportSelectionToFileBatchParameters, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExportSelectionToFileBatchParameters, To)
+    nameWithType: Converters.MapEnums(Of ExportSelectionToFileBatchParameters, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.#ctor*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.#ctor
+  isExternal: true
+  name: ExportSelectionToFileBatchParameters
+  nameWithType: ExportSelectionToFileBatchParameters.ExportSelectionToFileBatchParameters
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.ExportSelectionToFileBatchParameters

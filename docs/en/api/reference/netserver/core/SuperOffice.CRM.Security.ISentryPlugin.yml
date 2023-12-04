@@ -26,6 +26,7 @@ items:
     content: 'public interface ISentryPlugin : IPlugin'
     content.vb: >-
       Public Interface ISentryPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Security.ISentryPlugin.EnumUtil.MapEnums``2

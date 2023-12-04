@@ -27,6 +27,7 @@ items:
     content: 'public interface IUserValidatorPlugin : IPlugin'
     content.vb: >-
       Public Interface IUserValidatorPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Administration.IUserValidatorPlugin.EnumUtil.MapEnums``2

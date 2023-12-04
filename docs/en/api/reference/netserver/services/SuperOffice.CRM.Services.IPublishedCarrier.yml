@@ -55,7 +55,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property PublishEventDate As Date
+    content.vb: Property PublishEventDate As DateTime
   overload: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate*
   modifiers.csharp:
   - get
@@ -83,7 +83,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property PublishTo As Date
+    content.vb: Property PublishTo As DateTime
   overload: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo*
   modifiers.csharp:
   - get
@@ -111,7 +111,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property PublishFrom As Date
+    content.vb: Property PublishFrom As DateTime
   overload: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom*
   modifiers.csharp:
   - get
@@ -158,18 +158,10 @@ references:
   nameWithType: IPublishedCarrier.PublishEventDate
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo*
   commentId: Overload:SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
   isExternal: true
@@ -195,3 +187,9 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

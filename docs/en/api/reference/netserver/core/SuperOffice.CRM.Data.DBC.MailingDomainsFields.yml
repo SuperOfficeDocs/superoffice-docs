@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  id: DBC.MailingDomainsFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.Deleted
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.MailingDomainsId
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.Name
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.Rank
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.Registered
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.Updated
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.MailingDomainsFields
+  nameWithType: DBC.MailingDomainsFields
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for MailingDomains, List of allowed domains used in a Mailing\n"
+  syntax:
+    content: 'public static class MailingDomainsFields : Object'
+    content.vb: >-
+      Public Module MailingDomainsFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.MailingDomainsId
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.MailingDomainsId
+  id: MailingDomainsId
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: MailingDomainsId
+  nameWithType: DBC.MailingDomainsFields.MailingDomainsId
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.MailingDomainsId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.MailingDomainsId: Primary key\n"
+  syntax:
+    content: public const string MailingDomainsId = "mailingdomains_id"
+    return:
+      type: System.String
+    content.vb: Public Const MailingDomainsId As String = "mailingdomains_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.MailingDomainsFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.MailingDomainsFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.MailingDomainsFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.MailingDomainsFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.MailingDomainsFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.MailingDomainsFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.MailingDomainsFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.MailingDomainsFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.MailingDomainsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.MailingDomainsFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.MailingDomainsFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMailingDomains.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

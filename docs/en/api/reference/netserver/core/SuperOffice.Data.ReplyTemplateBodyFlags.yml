@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags
+  commentId: T:SuperOffice.Data.ReplyTemplateBodyFlags
+  id: ReplyTemplateBodyFlags
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  - SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  - SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  - SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  - SuperOffice.Data.ReplyTemplateBodyFlags.value__
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateBodyFlags
+  nameWithType: ReplyTemplateBodyFlags
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nFlags for the reply template body\nThis Enum is used by:  reply_template_body.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ReplyTemplateBodyFlags : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReplyTemplateBodyFlags
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.ReplyTemplateBodyFlags.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ReplyTemplateBodyFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags.value__
+  commentId: F:SuperOffice.Data.ReplyTemplateBodyFlags.value__
+  id: value__
+  parent: SuperOffice.Data.ReplyTemplateBodyFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReplyTemplateBodyFlags.value__
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  commentId: F:SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  id: ReplyTemplateBodyNone
+  parent: SuperOffice.Data.ReplyTemplateBodyFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateBodyNone
+  nameWithType: ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const ReplyTemplateBodyFlags ReplyTemplateBodyNone
+    return:
+      type: SuperOffice.Data.ReplyTemplateBodyFlags
+    content.vb: Public Const ReplyTemplateBodyNone As ReplyTemplateBodyFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  commentId: F:SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  id: ReplyTemplateBodyDefault
+  parent: SuperOffice.Data.ReplyTemplateBodyFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateBodyDefault
+  nameWithType: ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Default\n"
+  syntax:
+    content: public const ReplyTemplateBodyFlags ReplyTemplateBodyDefault
+    return:
+      type: SuperOffice.Data.ReplyTemplateBodyFlags
+    content.vb: Public Const ReplyTemplateBodyDefault As ReplyTemplateBodyFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  commentId: F:SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  id: ReplyTemplateBodyIncludePlain
+  parent: SuperOffice.Data.ReplyTemplateBodyFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateBodyIncludePlain
+  nameWithType: ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Plaintext\n"
+  syntax:
+    content: public const ReplyTemplateBodyFlags ReplyTemplateBodyIncludePlain
+    return:
+      type: SuperOffice.Data.ReplyTemplateBodyFlags
+    content.vb: Public Const ReplyTemplateBodyIncludePlain As ReplyTemplateBodyFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  commentId: F:SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  id: ReplyTemplateBodyIncludeHtml
+  parent: SuperOffice.Data.ReplyTemplateBodyFlags
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateBodyIncludeHtml
+  nameWithType: ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Html\n"
+  syntax:
+    content: public const ReplyTemplateBodyFlags ReplyTemplateBodyIncludeHtml
+    return:
+      type: SuperOffice.Data.ReplyTemplateBodyFlags
+    content.vb: Public Const ReplyTemplateBodyIncludeHtml As ReplyTemplateBodyFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ReplyTemplateBodyFlags, To>()
+  nameWithType: EnumUtil.MapEnums<ReplyTemplateBodyFlags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ReplyTemplateBodyFlags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReplyTemplateBodyFlags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ReplyTemplateBodyFlags, To)()
+  name.vb: MapEnums(Of ReplyTemplateBodyFlags, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReplyTemplateBodyFlags, To>
+    nameWithType: EnumUtil.MapEnums<ReplyTemplateBodyFlags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ReplyTemplateBodyFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReplyTemplateBodyFlags, To)
+    nameWithType: EnumUtil.MapEnums(Of ReplyTemplateBodyFlags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ReplyTemplateBodyFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReplyTemplateBodyFlags, To>()
+  nameWithType: Converters.MapEnums<ReplyTemplateBodyFlags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReplyTemplateBodyFlags, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReplyTemplateBodyFlags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReplyTemplateBodyFlags, To)()
+  name.vb: MapEnums(Of ReplyTemplateBodyFlags, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReplyTemplateBodyFlags, To>
+    nameWithType: Converters.MapEnums<ReplyTemplateBodyFlags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReplyTemplateBodyFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReplyTemplateBodyFlags, To)
+    nameWithType: Converters.MapEnums(Of ReplyTemplateBodyFlags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReplyTemplateBodyFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.ReplyTemplateBodyFlags
+  commentId: T:SuperOffice.Data.ReplyTemplateBodyFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ReplyTemplateBodyFlags
+  nameWithType: ReplyTemplateBodyFlags
+  fullName: SuperOffice.Data.ReplyTemplateBodyFlags

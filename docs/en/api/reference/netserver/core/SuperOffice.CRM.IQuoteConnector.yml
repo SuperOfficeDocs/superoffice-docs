@@ -54,9 +54,8 @@ items:
     content: 'public interface IQuoteConnector : IDisposable, IPlugin'
     content.vb: >-
       Public Interface IQuoteConnector
+
           Inherits IDisposable, IPlugin
-  inheritedMembers:
-  - System.IDisposable.Dispose
   extensionMethods:
   - SuperOffice.CRM.IQuoteConnector.EnumUtil.MapEnums``2
   - SuperOffice.CRM.IQuoteConnector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -690,6 +689,7 @@ items:
       type: System.String
     return:
       type: System.Int32
+      description: Count of images
     content.vb: Function GetNumberOfProductImages(erpProductKey As String) As Integer
   overload: SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages*
 - uid: SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String,System.Int32)
@@ -1055,37 +1055,6 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.IQuoteConnector.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1154,13 +1123,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1252,12 +1214,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -1271,8 +1227,7 @@ references:
   nameWithType: IQuoteConnector.GetConfigurationFields
   fullName: SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, FieldMetadataInfo>
   nameWithType: Dictionary<String, FieldMetadataInfo>
@@ -1331,14 +1286,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -1348,15 +1302,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1369,24 +1323,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.IQuoteConnector.TestConnection*
   commentId: Overload:SuperOffice.CRM.IQuoteConnector.TestConnection
   isExternal: true
@@ -1394,8 +1342,7 @@ references:
   nameWithType: IQuoteConnector.TestConnection
   fullName: SuperOffice.CRM.IQuoteConnector.TestConnection
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -1494,6 +1441,12 @@ references:
   name: IProductRegisterCache
   nameWithType: IProductRegisterCache
   fullName: SuperOffice.CRM.IProductRegisterCache
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.IQuoteConnector.GetCapabilities*
   commentId: Overload:SuperOffice.CRM.IQuoteConnector.GetCapabilities
   isExternal: true
@@ -1501,8 +1454,7 @@ references:
   nameWithType: IQuoteConnector.GetCapabilities
   fullName: SuperOffice.CRM.IQuoteConnector.GetCapabilities
 - uid: System.Collections.Generic.Dictionary{System.String,System.Boolean}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Boolean}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.Boolean}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, Boolean>
   nameWithType: Dictionary<String, Boolean>
@@ -1797,8 +1749,6 @@ references:
   commentId: T:System.ArgumentException
   isExternal: true
 - uid: System.Exception
-  commentId: T:System.Exception
-  parent: System
   isExternal: true
   name: Exception
   nameWithType: Exception

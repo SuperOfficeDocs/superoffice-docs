@@ -34,7 +34,6 @@ items:
   - SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
   - SuperOffice.CRM.Globalization.IQuoteVersionInfoPopulator
   - SuperOffice.CRM.Globalization.LanguageIdHelper
-  - SuperOffice.CRM.Globalization.LanguageInfoCache
   - SuperOffice.CRM.Globalization.Metaphone
   - SuperOffice.CRM.Globalization.OwnPersonVariables
   - SuperOffice.CRM.Globalization.PersonAddressData
@@ -197,13 +196,6 @@ references:
   name: LanguageIdHelper
   nameWithType: LanguageIdHelper
   fullName: SuperOffice.CRM.Globalization.LanguageIdHelper
-- uid: SuperOffice.CRM.Globalization.LanguageInfoCache
-  commentId: T:SuperOffice.CRM.Globalization.LanguageInfoCache
-  parent: SuperOffice.CRM.Globalization
-  isExternal: true
-  name: LanguageInfoCache
-  nameWithType: LanguageInfoCache
-  fullName: SuperOffice.CRM.Globalization.LanguageInfoCache
 - uid: SuperOffice.CRM.Globalization.PersonAddressData
   commentId: T:SuperOffice.CRM.Globalization.PersonAddressData
   isExternal: true

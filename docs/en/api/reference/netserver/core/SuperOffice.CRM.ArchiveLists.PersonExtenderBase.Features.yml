@@ -30,6 +30,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.PersonEmailInSelection
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Phones
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ProjectMember
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Relation
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Request
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Saint
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SearchAddress
@@ -41,13 +42,15 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ShallowContact
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SupportPerson
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Udef
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.value__
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.WorkflowConnectedInfo
   langs:
   - csharp
   - vb
   name: PersonExtenderBase.Features
   nameWithType: PersonExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -55,29 +58,54 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: >-
-      [Flags]
-
-      public enum Features
+    content: 'public sealed class Features : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class Features
 
-      Public Enum Features
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: PersonExtenderBase.Features.value__
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.None
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.None
   id: None
@@ -96,9 +124,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: None = 0
+    content: public const PersonExtenderBase.Features None
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const None As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -123,9 +152,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: DeepContact = 1
+    content: public const PersonExtenderBase.Features DeepContact
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const DeepContact As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -150,9 +180,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: ShallowContact = 2
+    content: public const PersonExtenderBase.Features ShallowContact
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const ShallowContact As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -177,9 +208,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NoContact = 1024
+    content: public const PersonExtenderBase.Features NoContact
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const NoContact As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -204,9 +236,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NoContactPrefix = 4
+    content: public const PersonExtenderBase.Features NoContactPrefix
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const NoContactPrefix As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -231,9 +264,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Udef = 8
+    content: public const PersonExtenderBase.Features Udef
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Udef As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -258,9 +292,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: InfoText = 16
+    content: public const PersonExtenderBase.Features InfoText
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const InfoText As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -285,9 +320,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Email = 32
+    content: public const PersonExtenderBase.Features Email
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Email As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -312,9 +348,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Phones = 64
+    content: public const PersonExtenderBase.Features Phones
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Phones As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -339,9 +376,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Interests = 128
+    content: public const PersonExtenderBase.Features Interests
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Interests As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -366,9 +404,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Address = 256
+    content: public const PersonExtenderBase.Features Address
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Address As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -393,9 +432,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NavigationLinks = 512
+    content: public const PersonExtenderBase.Features NavigationLinks
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const NavigationLinks As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -420,9 +460,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: DisableContactRestrictions = 2048
+    content: public const PersonExtenderBase.Features DisableContactRestrictions
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const DisableContactRestrictions As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -447,9 +488,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SearchPhone = 4096
+    content: public const PersonExtenderBase.Features SearchPhone
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const SearchPhone As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -474,9 +516,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SearchAddress = 8192
+    content: public const PersonExtenderBase.Features SearchAddress
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const SearchAddress As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -501,9 +544,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SelectionMemberInfo = 16384
+    content: public const PersonExtenderBase.Features SelectionMemberInfo
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const SelectionMemberInfo As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -528,9 +572,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: ContactUdef = 32768
+    content: public const PersonExtenderBase.Features ContactUdef
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const ContactUdef As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -555,9 +600,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: DisableOverlappingColumnsWithContact = 65536
+    content: public const PersonExtenderBase.Features DisableOverlappingColumnsWithContact
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const DisableOverlappingColumnsWithContact As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -582,9 +628,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Associate = 131072
+    content: public const PersonExtenderBase.Features Associate
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Associate As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -609,9 +656,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: ContactUrl = 262144
+    content: public const PersonExtenderBase.Features ContactUrl
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const ContactUrl As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -636,9 +684,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: PersonEmailInSelection = 524288
+    content: public const PersonExtenderBase.Features PersonEmailInSelection
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const PersonEmailInSelection As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -663,9 +712,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: ContactEmailInSelection = 1048576
+    content: public const PersonExtenderBase.Features ContactEmailInSelection
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const ContactEmailInSelection As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -690,9 +740,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Consent = 2097152
+    content: public const PersonExtenderBase.Features Consent
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Consent As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -717,9 +768,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Saint = 4194304
+    content: public const PersonExtenderBase.Features Saint
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Saint As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -744,9 +796,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Request = 8388608
+    content: public const PersonExtenderBase.Features Request
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Request As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -771,9 +824,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: ProjectMember = 16777216
+    content: public const PersonExtenderBase.Features ProjectMember
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const ProjectMember As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -798,9 +852,66 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Appointment = 33554432
+    content: public const PersonExtenderBase.Features Appointment
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Appointment As PersonExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Relation
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Relation
+  id: Relation
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: PersonExtenderBase.Features.Relation
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Relation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const PersonExtenderBase.Features Relation
+    return:
+      type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Relation As PersonExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.WorkflowConnectedInfo
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.WorkflowConnectedInfo
+  id: WorkflowConnectedInfo
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: WorkflowConnectedInfo
+  nameWithType: PersonExtenderBase.Features.WorkflowConnectedInfo
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.WorkflowConnectedInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const PersonExtenderBase.Features WorkflowConnectedInfo
+    return:
+      type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const WorkflowConnectedInfo As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -825,9 +936,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: All = 65156089
+    content: public const PersonExtenderBase.Features All
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const All As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -852,9 +964,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Shallow = 6305276
+    content: public const PersonExtenderBase.Features Shallow
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const Shallow As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -879,9 +992,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SelectionPerson = 65669084
+    content: public const PersonExtenderBase.Features SelectionPerson
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const SelectionPerson As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -906,9 +1020,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SelectionStaticPerson = 67077086
+    content: public const PersonExtenderBase.Features SelectionStaticPerson
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const SelectionStaticPerson As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -933,9 +1048,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NewSelectionPerson = 67077086
+    content: public const PersonExtenderBase.Features NewSelectionPerson
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const NewSelectionPerson As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -960,9 +1076,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: FindActivity = 552
+    content: public const PersonExtenderBase.Features FindActivity
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const FindActivity As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -987,9 +1104,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: InvitedPersons = 2082
+    content: public const PersonExtenderBase.Features InvitedPersons
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const InvitedPersons As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -1014,9 +1132,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SupportPerson = 2098200
+    content: public const PersonExtenderBase.Features SupportPerson
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const SupportPerson As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -1041,9 +1160,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: ConsentPerson = 1400
+    content: public const PersonExtenderBase.Features ConsentPerson
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Const ConsentPerson As PersonExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -1057,6 +1177,13 @@ references:
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1084,84 +1211,6 @@ references:
     name: MapEnums(Of PersonExtenderBase.Features, To)
     nameWithType: EnumUtil.MapEnums(Of PersonExtenderBase.Features, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<PersonExtenderBase.Features>(PersonExtenderBase.Features)
-  nameWithType: ObjectExtensions.AssignByReflection<PersonExtenderBase.Features>(PersonExtenderBase.Features)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PersonExtenderBase.Features)(PersonExtenderBase.Features)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-  name.vb: AssignByReflection(Of PersonExtenderBase.Features)(PersonExtenderBase.Features)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<PersonExtenderBase.Features>
-    nameWithType: ObjectExtensions.AssignByReflection<PersonExtenderBase.Features>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    name: PersonExtenderBase.Features
-    nameWithType: PersonExtenderBase.Features
-    fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of PersonExtenderBase.Features)
-    nameWithType: ObjectExtensions.AssignByReflection(Of PersonExtenderBase.Features)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    name: PersonExtenderBase.Features
-    nameWithType: PersonExtenderBase.Features
-    fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<PersonExtenderBase.Features>()
-  nameWithType: ObjectExtensions.GraphCopy<PersonExtenderBase.Features>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PersonExtenderBase.Features)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)()
-  name.vb: GraphCopy(Of PersonExtenderBase.Features)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<PersonExtenderBase.Features>
-    nameWithType: ObjectExtensions.GraphCopy<PersonExtenderBase.Features>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of PersonExtenderBase.Features)
-    nameWithType: ObjectExtensions.GraphCopy(Of PersonExtenderBase.Features)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
     isExternal: true
   - name: (
     nameWithType: (
@@ -1203,6 +1252,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1248,103 +1303,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -1391,18 +1349,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
   commentId: T:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
   parent: SuperOffice.CRM.ArchiveLists

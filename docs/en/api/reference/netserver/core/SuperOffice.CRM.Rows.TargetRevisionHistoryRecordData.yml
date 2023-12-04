@@ -1,0 +1,914 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  commentId: T:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  id: TargetRevisionHistoryRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.#ctor
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.AssociateId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.ContactId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.EntityType
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Registered
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetAssignmentInfoId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetGroupId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetRevisionHistoryId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Updated
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UsergroupId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Year
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionHistoryRecordData
+  nameWithType: TargetRevisionHistoryRecordData
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the target_revision_history table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TargetRevisionHistoryRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class TargetRevisionHistoryRecordData : Object'
+    content.vb: >-
+      Public Class TargetRevisionHistoryRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetRevisionHistoryId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetRevisionHistoryId
+  id: TargetRevisionHistoryId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionHistoryId
+  nameWithType: TargetRevisionHistoryRecordData.TargetRevisionHistoryId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetRevisionHistoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int TargetRevisionHistoryId
+    return:
+      type: System.Int32
+    content.vb: Public TargetRevisionHistoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetGroupId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetGroupId
+  id: TargetGroupId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TargetGroupId
+  nameWithType: TargetRevisionHistoryRecordData.TargetGroupId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetGroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe group id - but it may not still exist \n"
+  syntax:
+    content: public int TargetGroupId
+    return:
+      type: System.Int32
+    content.vb: Public TargetGroupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Year
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Year
+  id: Year
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: TargetRevisionHistoryRecordData.Year
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Year
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe year this set of targets are associated with (2020, 2021...) \n"
+  syntax:
+    content: public int Year
+    return:
+      type: System.Int32
+    content.vb: Public Year As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.EntityType
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: TargetRevisionHistoryRecordData.EntityType
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.EntityType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEntity type for this set of targets (Sale, Project, Selection, Appointment...) \n"
+  syntax:
+    content: public TargetEntityType EntityType
+    return:
+      type: SuperOffice.Data.TargetEntityType
+    content.vb: Public EntityType As TargetEntityType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.AssociateId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: TargetRevisionHistoryRecordData.AssociateId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAssociate who owns this target \n"
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UsergroupId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UsergroupId
+  id: UsergroupId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: UsergroupId
+  nameWithType: TargetRevisionHistoryRecordData.UsergroupId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UsergroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUser group who owns this target \n"
+  syntax:
+    content: public int UsergroupId
+    return:
+      type: System.Int32
+    content.vb: Public UsergroupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: TargetRevisionHistoryRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCompany who owns this target \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: TargetRevisionHistoryRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: TargetRevisionHistoryRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: TargetRevisionHistoryRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: TargetRevisionHistoryRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: TargetRevisionHistoryRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetAssignmentInfoId
+  commentId: F:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetAssignmentInfoId
+  id: TargetAssignmentInfoId
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignmentInfoId
+  nameWithType: TargetRevisionHistoryRecordData.TargetAssignmentInfoId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetAssignmentInfoId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTargetAssignmentInfo associated with the logged info \n"
+  syntax:
+    content: public int TargetAssignmentInfoId
+    return:
+      type: System.Int32
+    content.vb: Public TargetAssignmentInfoId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionHistoryRecordData()
+  nameWithType: TargetRevisionHistoryRecordData.TargetRevisionHistoryRecordData()
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetRevisionHistoryRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public TargetRevisionHistoryRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TargetRevisionHistoryRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<TargetRevisionHistoryRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TargetRevisionHistoryRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To)()
+  name.vb: MapEnums(Of TargetRevisionHistoryRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TargetRevisionHistoryRecordData, To>
+    nameWithType: EnumUtil.MapEnums<TargetRevisionHistoryRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TargetRevisionHistoryRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of TargetRevisionHistoryRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TargetRevisionHistoryRecordData>(TargetRevisionHistoryRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TargetRevisionHistoryRecordData>(TargetRevisionHistoryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TargetRevisionHistoryRecordData)(TargetRevisionHistoryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  name.vb: AssignByReflection(Of TargetRevisionHistoryRecordData)(TargetRevisionHistoryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TargetRevisionHistoryRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<TargetRevisionHistoryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    name: TargetRevisionHistoryRecordData
+    nameWithType: TargetRevisionHistoryRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TargetRevisionHistoryRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TargetRevisionHistoryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    name: TargetRevisionHistoryRecordData
+    nameWithType: TargetRevisionHistoryRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TargetRevisionHistoryRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<TargetRevisionHistoryRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TargetRevisionHistoryRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)()
+  name.vb: GraphCopy(Of TargetRevisionHistoryRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TargetRevisionHistoryRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<TargetRevisionHistoryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TargetRevisionHistoryRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TargetRevisionHistoryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  name: ToInsert()
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TargetRevisionHistoryRecordData, To>()
+  nameWithType: Converters.MapEnums<TargetRevisionHistoryRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TargetRevisionHistoryRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To)()
+  name.vb: MapEnums(Of TargetRevisionHistoryRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TargetRevisionHistoryRecordData, To>
+    nameWithType: Converters.MapEnums<TargetRevisionHistoryRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TargetRevisionHistoryRecordData, To)
+    nameWithType: Converters.MapEnums(Of TargetRevisionHistoryRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  isExternal: true
+  name: ToInsert(TargetRevisionHistoryRecordData)
+  nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert(TargetRevisionHistoryRecordData)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+    name: ToInsert
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    name: TargetRevisionHistoryRecordData
+    nameWithType: TargetRevisionHistoryRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData)
+    name: ToInsert
+    nameWithType: TargetRevisionHistoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    name: TargetRevisionHistoryRecordData
+    nameWithType: TargetRevisionHistoryRecordData
+    fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TargetRevisionHistoryRecordDataExtensions
+  nameWithType: TargetRevisionHistoryRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.TargetEntityType
+  commentId: T:SuperOffice.Data.TargetEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: SuperOffice.Data.TargetEntityType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.#ctor
+  isExternal: true
+  name: TargetRevisionHistoryRecordData
+  nameWithType: TargetRevisionHistoryRecordData.TargetRevisionHistoryRecordData
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRecordData.TargetRevisionHistoryRecordData

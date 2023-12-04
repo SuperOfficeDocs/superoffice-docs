@@ -10,13 +10,14 @@ items:
   - SuperOffice.Data.UpsertRowActionStatus.Inserted
   - SuperOffice.Data.UpsertRowActionStatus.NoUpdateNeeded
   - SuperOffice.Data.UpsertRowActionStatus.Updated
+  - SuperOffice.Data.UpsertRowActionStatus.value__
   langs:
   - csharp
   - vb
   name: UpsertRowActionStatus
   nameWithType: UpsertRowActionStatus
   fullName: SuperOffice.Data.UpsertRowActionStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -25,19 +26,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nUpsert: Action status for each row\n"
   syntax:
-    content: public enum UpsertRowActionStatus
-    content.vb: Public Enum UpsertRowActionStatus
+    content: 'public sealed class UpsertRowActionStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class UpsertRowActionStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.UpsertRowActionStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.UpsertRowActionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UpsertRowActionStatus)
-  - SuperOffice.Data.UpsertRowActionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.UpsertRowActionStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.UpsertRowActionStatus.value__
+  commentId: F:SuperOffice.Data.UpsertRowActionStatus.value__
+  id: value__
+  parent: SuperOffice.Data.UpsertRowActionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UpsertRowActionStatus.value__
+  fullName: SuperOffice.Data.UpsertRowActionStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.UpsertRowActionStatus.Inserted
   commentId: F:SuperOffice.Data.UpsertRowActionStatus.Inserted
   id: Inserted
@@ -57,9 +93,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Row not found in target, inserted; primary key assigned as required\n"
   syntax:
-    content: Inserted = 1
+    content: public const UpsertRowActionStatus Inserted
     return:
       type: SuperOffice.Data.UpsertRowActionStatus
+    content.vb: Public Const Inserted As UpsertRowActionStatus
   modifiers.csharp:
   - public
   - const
@@ -85,9 +122,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Row found in target, update needed\n"
   syntax:
-    content: Updated = 2
+    content: public const UpsertRowActionStatus Updated
     return:
       type: SuperOffice.Data.UpsertRowActionStatus
+    content.vb: Public Const Updated As UpsertRowActionStatus
   modifiers.csharp:
   - public
   - const
@@ -113,9 +151,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Row found in target, no updated needed\n"
   syntax:
-    content: NoUpdateNeeded = 3
+    content: public const UpsertRowActionStatus NoUpdateNeeded
     return:
       type: SuperOffice.Data.UpsertRowActionStatus
+    content.vb: Public Const NoUpdateNeeded As UpsertRowActionStatus
   modifiers.csharp:
   - public
   - const
@@ -141,9 +180,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Row not matched in incoming keys and DELETED\n"
   syntax:
-    content: Deleted = 4
+    content: public const UpsertRowActionStatus Deleted
     return:
       type: SuperOffice.Data.UpsertRowActionStatus
+    content.vb: Public Const Deleted As UpsertRowActionStatus
   modifiers.csharp:
   - public
   - const
@@ -169,9 +209,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Row not matched in incoming keys and COLUMNS ZEROED\n"
   syntax:
-    content: ColumnsZeroed = 5
+    content: public const UpsertRowActionStatus ColumnsZeroed
     return:
       type: SuperOffice.Data.UpsertRowActionStatus
+    content.vb: Public Const ColumnsZeroed As UpsertRowActionStatus
   modifiers.csharp:
   - public
   - const
@@ -185,6 +226,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.UpsertRowActionStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -212,84 +260,6 @@ references:
     name: MapEnums(Of UpsertRowActionStatus, To)
     nameWithType: EnumUtil.MapEnums(Of UpsertRowActionStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.UpsertRowActionStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.UpsertRowActionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UpsertRowActionStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<UpsertRowActionStatus>(UpsertRowActionStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<UpsertRowActionStatus>(UpsertRowActionStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.UpsertRowActionStatus>(SuperOffice.Data.UpsertRowActionStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UpsertRowActionStatus)(UpsertRowActionStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.UpsertRowActionStatus)(SuperOffice.Data.UpsertRowActionStatus)
-  name.vb: AssignByReflection(Of UpsertRowActionStatus)(UpsertRowActionStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<UpsertRowActionStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<UpsertRowActionStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.UpsertRowActionStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.UpsertRowActionStatus
-    name: UpsertRowActionStatus
-    nameWithType: UpsertRowActionStatus
-    fullName: SuperOffice.Data.UpsertRowActionStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of UpsertRowActionStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of UpsertRowActionStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.UpsertRowActionStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.UpsertRowActionStatus
-    name: UpsertRowActionStatus
-    nameWithType: UpsertRowActionStatus
-    fullName: SuperOffice.Data.UpsertRowActionStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.UpsertRowActionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<UpsertRowActionStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<UpsertRowActionStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.UpsertRowActionStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of UpsertRowActionStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.UpsertRowActionStatus)()
-  name.vb: GraphCopy(Of UpsertRowActionStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<UpsertRowActionStatus>
-    nameWithType: ObjectExtensions.GraphCopy<UpsertRowActionStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.UpsertRowActionStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of UpsertRowActionStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of UpsertRowActionStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.UpsertRowActionStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -331,6 +301,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -376,103 +352,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -519,18 +398,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.UpsertRowActionStatus
   commentId: T:SuperOffice.Data.UpsertRowActionStatus
   parent: SuperOffice.Data

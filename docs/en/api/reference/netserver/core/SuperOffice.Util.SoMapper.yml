@@ -7,8 +7,9 @@ items:
   children:
   - SuperOffice.Util.SoMapper.#ctor
   - SuperOffice.Util.SoMapper.Clone``1(``0)
-  - SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
-  - SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean)
+  - SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.Util.SoMapper.CopyProperties``2(``0[],``1[],System.Boolean,System.Boolean,System.Boolean)
   - SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
   - SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
   - SuperOffice.Util.SoMapper.Instance
@@ -29,18 +30,13 @@ items:
   namespace: SuperOffice.Util
   summary: "\nClass for mapping values between class-instances and types based on similarly named properties with\nfundamentally compatible types.\n\nbasic principle of operation is adhering to the &quot;Duck test&quot;:\n&quot;When I see a bird that walks like a duck and swims like a duck and quacks like a duck,\nI call that bird a duck.&quot;\n\n<seealso ref=\"https://en.wikipedia.org/wiki/Duck_typing\"></seealso>\n"
   syntax:
-    content: public class SoMapper
-    content.vb: Public Class SoMapper
+    content: 'public class SoMapper : Object'
+    content.vb: >-
+      Public Class SoMapper
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.SoMapper.EnumUtil.MapEnums``2
   - SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoMapper)
@@ -99,6 +95,7 @@ items:
   syntax:
     content: >-
       public TResult Map<TInput, TResult>(TInput source, bool throwOnMismatch = true)
+
           where TResult : new()
     parameters:
     - id: source
@@ -145,6 +142,7 @@ items:
   syntax:
     content: >-
       public TInput Clone<TInput>(TInput source)
+
           where TInput : new()
     parameters:
     - id: source
@@ -165,16 +163,16 @@ items:
   - Public
   fullName.vb: SuperOffice.Util.SoMapper.Clone(Of TInput)(TInput)
   name.vb: Clone(Of TInput)(TInput)
-- uid: SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean)
-  commentId: M:SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean)
-  id: CopyProperties``2(``0,``1,System.Boolean)
+- uid: SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean,System.Boolean,System.Boolean)
+  id: CopyProperties``2(``0,``1,System.Boolean,System.Boolean,System.Boolean)
   parent: SuperOffice.Util.SoMapper
   langs:
   - csharp
   - vb
-  name: CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean)
-  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean)
-  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, System.Boolean)
+  name: CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean, Boolean, Boolean)
+  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, System.Boolean, System.Boolean, System.Boolean)
   type: Method
   source:
     path: SoCore
@@ -184,7 +182,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
   syntax:
-    content: public void CopyProperties<TSource, TDestination>(TSource source, TDestination destination, bool throwOnMismatch)
+    content: public void CopyProperties<TSource, TDestination>(TSource source, TDestination destination, bool throwOnMismatch, bool copyNulls = false, bool caseInsensitive = false)
     parameters:
     - id: source
       type: '{TSource}'
@@ -195,30 +193,81 @@ items:
     - id: throwOnMismatch
       type: System.Boolean
       description: "\nIf true, throws when there is a mismatch between the types being converted.\nIf false, silently ignores property with mismatch and moves along to the next one.\n"
+    - id: copyNulls
+      type: System.Boolean
+      description: Should null values on source be skipped and left unchanged on dest, or copied to destionation?
+    - id: caseInsensitive
+      type: System.Boolean
+      description: Exact match of parameter names or case insensitivity?
     typeParameters:
     - id: TSource
       description: Type of the source value.
     - id: TDestination
       description: Type of the destination value.
-    content.vb: Public Sub CopyProperties(Of TSource, TDestination)(source As TSource, destination As TDestination, throwOnMismatch As Boolean)
+    content.vb: Public Sub CopyProperties(Of TSource, TDestination)(source As TSource, destination As TDestination, throwOnMismatch As Boolean, copyNulls As Boolean = False, caseInsensitive As Boolean = False)
   overload: SuperOffice.Util.SoMapper.CopyProperties*
-  nameWithType.vb: SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean)
+  nameWithType.vb: SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean, Boolean, Boolean)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, System.Boolean)
-  name.vb: CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean)
-- uid: SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
-  id: CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
+  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, System.Boolean, System.Boolean, System.Boolean)
+  name.vb: CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean, Boolean, Boolean)
+- uid: SuperOffice.Util.SoMapper.CopyProperties``2(``0[],``1[],System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Util.SoMapper.CopyProperties``2(``0[],``1[],System.Boolean,System.Boolean,System.Boolean)
+  id: CopyProperties``2(``0[],``1[],System.Boolean,System.Boolean,System.Boolean)
   parent: SuperOffice.Util.SoMapper
   langs:
   - csharp
   - vb
-  name: CopyProperties(Type, Type, Object, Object, Boolean, Boolean)
-  nameWithType: SoMapper.CopyProperties(Type, Type, Object, Object, Boolean, Boolean)
-  fullName: SuperOffice.Util.SoMapper.CopyProperties(System.Type, System.Type, System.Object, System.Object, System.Boolean, System.Boolean)
+  name: CopyProperties<TSource, TDestination>(TSource[], TDestination[], Boolean, Boolean, Boolean)
+  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource[], TDestination[], Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource[], TDestination[], System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: >-
+      public void CopyProperties<TSource, TDestination>(TSource[] source, TDestination[] destination, bool throwOnMismatch, bool copyNulls = false, bool caseInsensitive = false)
+
+          where TDestination : new()
+    parameters:
+    - id: source
+      type: '{TSource}[]'
+    - id: destination
+      type: '{TDestination}[]'
+    - id: throwOnMismatch
+      type: System.Boolean
+    - id: copyNulls
+      type: System.Boolean
+    - id: caseInsensitive
+      type: System.Boolean
+    typeParameters:
+    - id: TSource
+    - id: TDestination
+    content.vb: Public Sub CopyProperties(Of TSource, TDestination As New)(source As TSource(), destination As TDestination(), throwOnMismatch As Boolean, copyNulls As Boolean = False, caseInsensitive As Boolean = False)
+  overload: SuperOffice.Util.SoMapper.CopyProperties*
+  nameWithType.vb: SoMapper.CopyProperties(Of TSource, TDestination)(TSource(), TDestination(), Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource(), TDestination(), System.Boolean, System.Boolean, System.Boolean)
+  name.vb: CopyProperties(Of TSource, TDestination)(TSource(), TDestination(), Boolean, Boolean, Boolean)
+- uid: SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean,System.Boolean)
+  id: CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean,System.Boolean)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: CopyProperties(Type, Type, Object, Object, Boolean, Boolean, Boolean)
+  nameWithType: SoMapper.CopyProperties(Type, Type, Object, Object, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties(System.Type, System.Type, System.Object, System.Object, System.Boolean, System.Boolean, System.Boolean)
   type: Method
   source:
     path: SoCore
@@ -228,7 +277,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
   syntax:
-    content: public void CopyProperties(Type sourceType, Type destinationType, object source, object destination, bool throwOnMismatch, bool copyNulls = false)
+    content: public void CopyProperties(Type sourceType, Type destinationType, object source, object destination, bool throwOnMismatch, bool copyNulls = false, bool caseInsensitive = false)
     parameters:
     - id: sourceType
       type: System.Type
@@ -248,7 +297,10 @@ items:
     - id: copyNulls
       type: System.Boolean
       description: Should null values on source be skipped and left unchanged on dest, or copied to destionation?
-    content.vb: Public Sub CopyProperties(sourceType As Type, destinationType As Type, source As Object, destination As Object, throwOnMismatch As Boolean, copyNulls As Boolean = False)
+    - id: caseInsensitive
+      type: System.Boolean
+      description: Exact match of parameter names or case insensitivity?
+    content.vb: Public Sub CopyProperties(sourceType As Type, destinationType As Type, source As Object, destination As Object, throwOnMismatch As Boolean, copyNulls As Boolean = False, caseInsensitive As Boolean = False)
   overload: SuperOffice.Util.SoMapper.CopyProperties*
   modifiers.csharp:
   - public
@@ -397,285 +449,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.SoMapper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1095,9 +868,51 @@ references:
   name: TDestination
   nameWithType: TDestination
   fullName: TDestination
+- uid: '{TSource}[]'
+  isExternal: true
+  name: TSource[]
+  nameWithType: TSource[]
+  fullName: TSource[]
+  nameWithType.vb: TSource()
+  fullName.vb: TSource()
+  name.vb: TSource()
+  spec.csharp:
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: '{TDestination}[]'
+  isExternal: true
+  name: TDestination[]
+  nameWithType: TDestination[]
+  fullName: TDestination[]
+  nameWithType.vb: TDestination()
+  fullName.vb: TDestination()
+  name.vb: TDestination()
+  spec.csharp:
+  - name: TDestination
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: TDestination
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type

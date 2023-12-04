@@ -11,7 +11,6 @@ items:
   - SuperOffice.Util.AccessGateway.TenantRegistrationInfo
   - SuperOffice.Util.AccessGateway.TokenManagementInfo
   - SuperOffice.Util.AppointmentUtility
-  - SuperOffice.Util.AssemblyHelper
   - SuperOffice.Util.AsyncListProviderWrapper
   - SuperOffice.Util.AttributeFetcher
   - SuperOffice.Util.ByteOrderMarkerEncodingDetector
@@ -22,12 +21,15 @@ items:
   - SuperOffice.Util.DateTimeSearchType
   - SuperOffice.Util.DateTimeUtil
   - SuperOffice.Util.DateUtility
+  - SuperOffice.Util.DocumentSaveChangeAnalyzer
   - SuperOffice.Util.DomainHelper
   - SuperOffice.Util.doubleExtensions
+  - SuperOffice.Util.DurationTimeHelper
   - SuperOffice.Util.Encoding
   - SuperOffice.Util.EnumerableWriter
   - SuperOffice.Util.ExpiringDictionary`2
   - SuperOffice.Util.ExpressionUtil
+  - SuperOffice.Util.FileExtensionValidator
   - SuperOffice.Util.FileNameHelper
   - SuperOffice.Util.HtmlHelper
   - SuperOffice.Util.HttpHelper
@@ -62,14 +64,22 @@ items:
   - SuperOffice.Util.shortAndboolExtensions
   - SuperOffice.Util.SJArray
   - SuperOffice.Util.SJElement
+  - SuperOffice.Util.SoDocumentPlugin
+  - SuperOffice.Util.SoDocumentPluginPreferenceHelper
   - SuperOffice.Util.SoMapper
   - SuperOffice.Util.StackTracer
   - SuperOffice.Util.StringHelper
+  - SuperOffice.Util.StructurePatchingHelper
+  - SuperOffice.Util.StructurePatchingHelper.TypeAction
+  - SuperOffice.Util.TargetHelper
+  - SuperOffice.Util.TemporaryConfigOverride
+  - SuperOffice.Util.TemporaryFeatureToggle
   - SuperOffice.Util.TextEncodingHelper
   - SuperOffice.Util.ThreadedQueueProcessor`1
   - SuperOffice.Util.TimeConverter
   - SuperOffice.Util.TimeConverterData
   - SuperOffice.Util.TimeConverterHelper
+  - SuperOffice.Util.TimeZoneUtility
   - SuperOffice.Util.TSRandom
   - SuperOffice.Util.TwipsConverter
   - SuperOffice.Util.TwoWayDictionary`2
@@ -78,15 +88,13 @@ items:
   - SuperOffice.Util.VideoMeetingHelper
   - SuperOffice.Util.VideoMeetingHelper.SoAppointment
   - SuperOffice.Util.VisitorPatternHelper`1
+  - SuperOffice.Util.Wrapper`1
   - SuperOffice.Util.XmlObjectHelper
   - SuperOffice.Util.XmlSchemaUtil
   - SuperOffice.Util.XmlUtil
   - SuperOffice.Util.XmlUtil.InternalResolver
   - SuperOffice.Util.XmlUtil.Override
-  - SuperOffice.Util.ZFDHelper
   - SuperOffice.Util.Zip
-  - SuperOffice.Util.ZipEntry
-  - SuperOffice.Util.ZipFile
   - SuperOffice.Util.ZipType
   langs:
   - csharp
@@ -98,12 +106,6 @@ items:
   assemblies:
   - SoCore
 references:
-- uid: SuperOffice.Util.AssemblyHelper
-  commentId: T:SuperOffice.Util.AssemblyHelper
-  isExternal: true
-  name: AssemblyHelper
-  nameWithType: AssemblyHelper
-  fullName: SuperOffice.Util.AssemblyHelper
 - uid: SuperOffice.Util.AttributeFetcher
   commentId: T:SuperOffice.Util.AttributeFetcher
   isExternal: true
@@ -112,7 +114,6 @@ references:
   fullName: SuperOffice.Util.AttributeFetcher
 - uid: SuperOffice.Util.CollectionOps
   commentId: T:SuperOffice.Util.CollectionOps
-  parent: SuperOffice.Util
   isExternal: true
   name: CollectionOps
   nameWithType: CollectionOps
@@ -313,6 +314,13 @@ references:
   name: ExpressionUtil
   nameWithType: ExpressionUtil
   fullName: SuperOffice.Util.ExpressionUtil
+- uid: SuperOffice.Util.FileExtensionValidator
+  commentId: T:SuperOffice.Util.FileExtensionValidator
+  parent: SuperOffice.Util
+  isExternal: true
+  name: FileExtensionValidator
+  nameWithType: FileExtensionValidator
+  fullName: SuperOffice.Util.FileExtensionValidator
 - uid: SuperOffice.Util.FileNameHelper
   commentId: T:SuperOffice.Util.FileNameHelper
   isExternal: true
@@ -347,7 +355,6 @@ references:
   fullName: SuperOffice.Util.HttpHelper.RequestType
 - uid: SuperOffice.Util.ImageUtilities
   commentId: T:SuperOffice.Util.ImageUtilities
-  parent: SuperOffice.Util
   isExternal: true
   name: ImageUtilities
   nameWithType: ImageUtilities
@@ -554,6 +561,12 @@ references:
   name: OperationTracker
   nameWithType: OperationTracker
   fullName: SuperOffice.Util.OperationTracker
+- uid: SuperOffice.Util.ParameterBuilder
+  commentId: T:SuperOffice.Util.ParameterBuilder
+  isExternal: true
+  name: ParameterBuilder
+  nameWithType: ParameterBuilder
+  fullName: SuperOffice.Util.ParameterBuilder
 - uid: SuperOffice.Util.PreferenceLicenseRequired
   commentId: T:SuperOffice.Util.PreferenceLicenseRequired
   isExternal: true
@@ -578,6 +591,13 @@ references:
   name: shortAndboolExtensions
   nameWithType: shortAndboolExtensions
   fullName: SuperOffice.Util.shortAndboolExtensions
+- uid: SuperOffice.Util.SoDocumentPlugin
+  commentId: T:SuperOffice.Util.SoDocumentPlugin
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SoDocumentPlugin
+  nameWithType: SoDocumentPlugin
+  fullName: SuperOffice.Util.SoDocumentPlugin
 - uid: SuperOffice.Util.SoMapper
   commentId: T:SuperOffice.Util.SoMapper
   parent: SuperOffice.Util
@@ -598,6 +618,18 @@ references:
   name: StringHelper
   nameWithType: StringHelper
   fullName: SuperOffice.Util.StringHelper
+- uid: SuperOffice.Util.StructurePatchingHelper
+  commentId: T:SuperOffice.Util.StructurePatchingHelper
+  isExternal: true
+  name: StructurePatchingHelper
+  nameWithType: StructurePatchingHelper
+  fullName: SuperOffice.Util.StructurePatchingHelper
+- uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
+  commentId: T:SuperOffice.Util.StructurePatchingHelper.TypeAction
+  isExternal: true
+  name: StructurePatchingHelper.TypeAction
+  nameWithType: StructurePatchingHelper.TypeAction
+  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction
 - uid: SuperOffice.Util.TextEncodingHelper
   commentId: T:SuperOffice.Util.TextEncodingHelper
   isExternal: true
@@ -800,6 +832,45 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Util.Wrapper`1
+  commentId: T:SuperOffice.Util.Wrapper`1
+  isExternal: true
+  name: Wrapper<T>
+  nameWithType: Wrapper<T>
+  fullName: SuperOffice.Util.Wrapper<T>
+  nameWithType.vb: Wrapper(Of T)
+  fullName.vb: SuperOffice.Util.Wrapper(Of T)
+  name.vb: Wrapper(Of T)
+  spec.csharp:
+  - uid: SuperOffice.Util.Wrapper`1
+    name: Wrapper
+    nameWithType: Wrapper
+    fullName: SuperOffice.Util.Wrapper
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.Wrapper`1
+    name: Wrapper
+    nameWithType: Wrapper
+    fullName: SuperOffice.Util.Wrapper
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.XmlObjectHelper
   commentId: T:SuperOffice.Util.XmlObjectHelper
   isExternal: true
@@ -844,25 +915,6 @@ references:
   name: Zip
   nameWithType: Zip
   fullName: SuperOffice.Util.Zip
-- uid: SuperOffice.Util.ZipEntry
-  commentId: T:SuperOffice.Util.ZipEntry
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ZipEntry
-  nameWithType: ZipEntry
-  fullName: SuperOffice.Util.ZipEntry
-- uid: SuperOffice.Util.ZipFile
-  commentId: T:SuperOffice.Util.ZipFile
-  isExternal: true
-  name: ZipFile
-  nameWithType: ZipFile
-  fullName: SuperOffice.Util.ZipFile
-- uid: SuperOffice.Util.ParameterBuilder
-  commentId: T:SuperOffice.Util.ParameterBuilder
-  isExternal: true
-  name: ParameterBuilder
-  nameWithType: ParameterBuilder
-  fullName: SuperOffice.Util.ParameterBuilder
 - uid: SuperOffice.Util.DateTimeSearchType
   commentId: T:SuperOffice.Util.DateTimeSearchType
   parent: SuperOffice.Util
@@ -934,6 +986,18 @@ references:
   name: AppointmentUtility
   nameWithType: AppointmentUtility
   fullName: SuperOffice.Util.AppointmentUtility
+- uid: SuperOffice.Util.DocumentSaveChangeAnalyzer
+  commentId: T:SuperOffice.Util.DocumentSaveChangeAnalyzer
+  isExternal: true
+  name: DocumentSaveChangeAnalyzer
+  nameWithType: DocumentSaveChangeAnalyzer
+  fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer
+- uid: SuperOffice.Util.DurationTimeHelper
+  commentId: T:SuperOffice.Util.DurationTimeHelper
+  isExternal: true
+  name: DurationTimeHelper
+  nameWithType: DurationTimeHelper
+  fullName: SuperOffice.Util.DurationTimeHelper
 - uid: SuperOffice.Util.iCalendarUtility
   commentId: T:SuperOffice.Util.iCalendarUtility
   parent: SuperOffice.Util
@@ -966,6 +1030,36 @@ references:
   name: NSWinListProviderHelper
   nameWithType: NSWinListProviderHelper
   fullName: SuperOffice.Util.NSWinListProviderHelper
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  commentId: T:SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  isExternal: true
+  name: SoDocumentPluginPreferenceHelper
+  nameWithType: SoDocumentPluginPreferenceHelper
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+- uid: SuperOffice.Util.TargetHelper
+  commentId: T:SuperOffice.Util.TargetHelper
+  isExternal: true
+  name: TargetHelper
+  nameWithType: TargetHelper
+  fullName: SuperOffice.Util.TargetHelper
+- uid: SuperOffice.Util.TemporaryConfigOverride
+  commentId: T:SuperOffice.Util.TemporaryConfigOverride
+  isExternal: true
+  name: TemporaryConfigOverride
+  nameWithType: TemporaryConfigOverride
+  fullName: SuperOffice.Util.TemporaryConfigOverride
+- uid: SuperOffice.Util.TemporaryFeatureToggle
+  commentId: T:SuperOffice.Util.TemporaryFeatureToggle
+  isExternal: true
+  name: TemporaryFeatureToggle
+  nameWithType: TemporaryFeatureToggle
+  fullName: SuperOffice.Util.TemporaryFeatureToggle
+- uid: SuperOffice.Util.TimeZoneUtility
+  commentId: T:SuperOffice.Util.TimeZoneUtility
+  isExternal: true
+  name: TimeZoneUtility
+  nameWithType: TimeZoneUtility
+  fullName: SuperOffice.Util.TimeZoneUtility
 - uid: SuperOffice.Util.VideoMeetingHelper
   commentId: T:SuperOffice.Util.VideoMeetingHelper
   isExternal: true
@@ -978,12 +1072,6 @@ references:
   name: VideoMeetingHelper.SoAppointment
   nameWithType: VideoMeetingHelper.SoAppointment
   fullName: SuperOffice.Util.VideoMeetingHelper.SoAppointment
-- uid: SuperOffice.Util.ZFDHelper
-  commentId: T:SuperOffice.Util.ZFDHelper
-  isExternal: true
-  name: ZFDHelper
-  nameWithType: ZFDHelper
-  fullName: SuperOffice.Util.ZFDHelper
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true

@@ -15,7 +15,7 @@ items:
   - SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean)
   - SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean,System.Boolean)
   - SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString(System.String)
-  - SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean,System.Boolean)
   - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds(System.String)
   - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
   - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.Int32[])
@@ -58,7 +58,9 @@ items:
     content: 'public sealed class MessageStoreSession : MailSession<ISoIncomingMailInterface>, IDisposable'
     content.vb: >-
       Public NotInheritable Class MessageStoreSession
+
           Inherits MailSession(Of ISoIncomingMailInterface)
+
           Implements IDisposable
   inheritance:
   - System.Object
@@ -73,13 +75,6 @@ items:
   - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.UseSSL
   - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Password
   - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.MailInterface
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Mail.MessageStoreSession.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Mail.MessageStoreSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -854,16 +849,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean)
-  id: GetEMailStream(System.Int32,System.Boolean)
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean,System.Boolean)
+  id: GetEMailStream(System.Int32,System.Boolean,System.Boolean)
   parent: SuperOffice.CRM.Mail.MessageStoreSession
   langs:
   - csharp
   - vb
-  name: GetEMailStream(Int32, Boolean)
-  nameWithType: MessageStoreSession.GetEMailStream(Int32, Boolean)
-  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32, System.Boolean)
+  name: GetEMailStream(Int32, Boolean, Boolean)
+  nameWithType: MessageStoreSession.GetEMailStream(Int32, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32, System.Boolean, System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -873,7 +868,7 @@ items:
   namespace: SuperOffice.CRM.Mail
   summary: "\nFetch a single e-mail optionally stripping attachments and deliver a stream to the raw MIME data(RFC 822)\n"
   syntax:
-    content: public Stream GetEMailStream(int messageServerId, bool stripAttachments)
+    content: public Stream GetEMailStream(int messageServerId, bool stripAttachments, bool sanitizeAttachments)
     parameters:
     - id: messageServerId
       type: System.Int32
@@ -881,10 +876,13 @@ items:
     - id: stripAttachments
       type: System.Boolean
       description: If true, get stream without attachments
+    - id: sanitizeAttachments
+      type: System.Boolean
+      description: If true, remove bad attachments.
     return:
       type: System.IO.Stream
       description: Stream to a RFC 822 MIME representation of the e-mail
-    content.vb: Public Function GetEMailStream(messageServerId As Integer, stripAttachments As Boolean) As Stream
+    content.vb: Public Function GetEMailStream(messageServerId As Integer, stripAttachments As Boolean, sanitizeAttachments As Boolean) As Stream
   overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream*
   modifiers.csharp:
   - public
@@ -1382,8 +1380,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -1499,285 +1495,6 @@ references:
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.MailInterface
   nameWithType.vb: MailSession(Of ISoIncomingMailInterface).MailInterface
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).MailInterface
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Mail.MessageStoreSession.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2659,18 +2376,10 @@ references:
   nameWithType: MessageStoreSession.GetEMailStream
   fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString*
   commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString
   isExternal: true

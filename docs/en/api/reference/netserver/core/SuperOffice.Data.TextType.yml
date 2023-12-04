@@ -33,13 +33,14 @@ items:
   - SuperOffice.Data.TextType.TooltipExtension
   - SuperOffice.Data.TextType.UdefListSQL
   - SuperOffice.Data.TextType.Unknown
+  - SuperOffice.Data.TextType.value__
   langs:
   - csharp
   - vb
   name: TextType
   nameWithType: TextType
   fullName: SuperOffice.Data.TextType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -48,19 +49,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;type&apos; in table &apos;text&apos;.\nThis Enum is used by:  text.type\n"
   syntax:
-    content: 'public enum TextType : short'
-    content.vb: Public Enum TextType As Short
+    content: 'public sealed class TextType : Enum'
+    content.vb: >-
+      Public NotInheritable Class TextType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TextType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TextType)
-  - SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.TextType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TextType.value__
+  commentId: F:SuperOffice.Data.TextType.value__
+  id: value__
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TextType.value__
+  fullName: SuperOffice.Data.TextType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TextType.Unknown
   commentId: F:SuperOffice.Data.TextType.Unknown
   id: Unknown
@@ -80,9 +116,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing\n"
   syntax:
-    content: Unknown = 0
+    content: public const TextType Unknown
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const Unknown As TextType
   modifiers.csharp:
   - public
   - const
@@ -108,9 +145,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: A Post-it (paperclip) on the  contact card\n"
   syntax:
-    content: ContactInfo = 1
+    content: public const TextType ContactInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const ContactInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -136,9 +174,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: A Post-it in the person dialog, shown as a descriptive text box in the info panel\n"
   syntax:
-    content: PersonInfo = 2
+    content: public const TextType PersonInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const PersonInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -164,9 +203,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: PersonEmail - currently not in use (4.5 legacy, removed by conversion program)\n"
   syntax:
-    content: Reserved1 = 3
+    content: public const TextType Reserved1
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const Reserved1 As TextType
   modifiers.csharp:
   - public
   - const
@@ -192,9 +232,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Descriptive text area in the appointment dialog. \n"
   syntax:
-    content: AppointmentText = 4
+    content: public const TextType AppointmentText
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const AppointmentText As TextType
   modifiers.csharp:
   - public
   - const
@@ -220,9 +261,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Document optional long description (keywords). Owner is document.\n"
   syntax:
-    content: DocumentText = 5
+    content: public const TextType DocumentText
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const DocumentText As TextType
   modifiers.csharp:
   - public
   - const
@@ -248,9 +290,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Descriptive text area on the project card. \n"
   syntax:
-    content: ProjectText = 6
+    content: public const TextType ProjectText
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const ProjectText As TextType
   modifiers.csharp:
   - public
   - const
@@ -276,9 +319,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Descriptive text area in the sale dialog.\n"
   syntax:
-    content: SaleText = 7
+    content: public const TextType SaleText
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const SaleText As TextType
   modifiers.csharp:
   - public
   - const
@@ -304,9 +348,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Personal notepad as used extensively in 4.5.  \n"
   syntax:
-    content: Notepad = 8
+    content: public const TextType Notepad
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const Notepad As TextType
   modifiers.csharp:
   - public
   - const
@@ -332,9 +377,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: MailAppointmentText - currently not in use (4.5 legacy, removed by conversion program)\n"
   syntax:
-    content: Reserved2 = 9
+    content: public const TextType Reserved2
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const Reserved2 As TextType
   modifiers.csharp:
   - public
   - const
@@ -360,9 +406,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: ContactUrl - currently not in use (4.5 legacy, removed by conversion program)\n"
   syntax:
-    content: Reserved3 = 10
+    content: public const TextType Reserved3
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const Reserved3 As TextType
   modifiers.csharp:
   - public
   - const
@@ -388,9 +435,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: A Post-it (paperclip) on the project card. \n"
   syntax:
-    content: ProjectInfo = 11
+    content: public const TextType ProjectInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const ProjectInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -416,9 +464,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: A Post-it (paperclip) on the selection card. \n"
   syntax:
-    content: SelectionInfo = 12
+    content: public const TextType SelectionInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const SelectionInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -444,9 +493,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n13: Descriptive text area in the project member dialog. \n"
   syntax:
-    content: ProjectMemberText = 13
+    content: public const TextType ProjectMemberText
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const ProjectMemberText As TextType
   modifiers.csharp:
   - public
   - const
@@ -472,9 +522,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n14: Descriptive text area on the selection card. \n"
   syntax:
-    content: SelectionText = 14
+    content: public const TextType SelectionText
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const SelectionText As TextType
   modifiers.csharp:
   - public
   - const
@@ -500,9 +551,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n15: A Post-it attached to a specific day (via an appointment)\n"
   syntax:
-    content: DayInfo = 15
+    content: public const TextType DayInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const DayInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -528,9 +580,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16: Extra information for a saved set of search criteria\n"
   syntax:
-    content: LongPreference = 16
+    content: public const TextType LongPreference
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const LongPreference As TextType
   modifiers.csharp:
   - public
   - const
@@ -556,9 +609,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n17: Extra information for a saved search criteria subgroup\n"
   syntax:
-    content: SearchCriteriaInfo = 17
+    content: public const TextType SearchCriteriaInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const SearchCriteriaInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -584,9 +638,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n18: Extra information about a user role\n"
   syntax:
-    content: SearchCriteriaGroupInfo = 18
+    content: public const TextType SearchCriteriaGroupInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const SearchCriteriaGroupInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -612,9 +667,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n19: Extra information about a user role\n"
   syntax:
-    content: RoleInfo = 19
+    content: public const TextType RoleInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const RoleInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -640,9 +696,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n20: SQL text to be executed when populating a user-defined fields&apos; drop-down box\n"
   syntax:
-    content: UdefListSQL = 20
+    content: public const TextType UdefListSQL
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const UdefListSQL As TextType
   modifiers.csharp:
   - public
   - const
@@ -668,9 +725,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n21: Extra information about a status monitor (linked to statusdef)\n"
   syntax:
-    content: StatusMonitorInfo = 21
+    content: public const TextType StatusMonitorInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const StatusMonitorInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -696,9 +754,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n22: Confirmation text to be shown to users who &apos;sign on&apos; to an event, in Audience\n"
   syntax:
-    content: AudienceSignOnConfirmation = 22
+    content: public const TextType AudienceSignOnConfirmation
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const AudienceSignOnConfirmation As TextType
   modifiers.csharp:
   - public
   - const
@@ -724,9 +783,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n23: Confirmation text to be shown to users who &apos;sign off&apos; from an event, in Audience\n"
   syntax:
-    content: AudienceSignOffConfirmation = 23
+    content: public const TextType AudienceSignOffConfirmation
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const AudienceSignOffConfirmation As TextType
   modifiers.csharp:
   - public
   - const
@@ -752,9 +812,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n24: Default task text for new tasks created in response to a status monitor watermark (linked to statusdef)\n"
   syntax:
-    content: StatusMonitorDefaultTaskText = 24
+    content: public const TextType StatusMonitorDefaultTaskText
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const StatusMonitorDefaultTaskText As TextType
   modifiers.csharp:
   - public
   - const
@@ -780,9 +841,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n25: A Post-it (paperclip) on the Sale panel\n"
   syntax:
-    content: SaleInfo = 25
+    content: public const TextType SaleInfo
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const SaleInfo As TextType
   modifiers.csharp:
   - public
   - const
@@ -808,9 +870,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n26: Extension of NAME of MDO list\n"
   syntax:
-    content: NameExtension = 26
+    content: public const TextType NameExtension
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const NameExtension As TextType
   modifiers.csharp:
   - public
   - const
@@ -836,9 +899,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n27: Extension of TOOLTIP of MDO list\n"
   syntax:
-    content: TooltipExtension = 27
+    content: public const TextType TooltipExtension
     return:
       type: SuperOffice.Data.TextType
+    content.vb: Public Const TooltipExtension As TextType
   modifiers.csharp:
   - public
   - const
@@ -852,6 +916,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TextType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -879,84 +950,6 @@ references:
     name: MapEnums(Of TextType, To)
     nameWithType: EnumUtil.MapEnums(Of TextType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TextType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TextType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<TextType>(TextType)
-  nameWithType: ObjectExtensions.AssignByReflection<TextType>(TextType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TextType>(SuperOffice.Data.TextType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TextType)(TextType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TextType)(SuperOffice.Data.TextType)
-  name.vb: AssignByReflection(Of TextType)(TextType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<TextType>
-    nameWithType: ObjectExtensions.AssignByReflection<TextType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TextType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TextType
-    name: TextType
-    nameWithType: TextType
-    fullName: SuperOffice.Data.TextType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of TextType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of TextType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TextType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.TextType
-    name: TextType
-    nameWithType: TextType
-    fullName: SuperOffice.Data.TextType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<TextType>()
-  nameWithType: ObjectExtensions.GraphCopy<TextType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TextType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TextType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TextType)()
-  name.vb: GraphCopy(Of TextType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<TextType>
-    nameWithType: ObjectExtensions.GraphCopy<TextType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TextType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of TextType)
-    nameWithType: ObjectExtensions.GraphCopy(Of TextType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TextType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -998,6 +991,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1043,103 +1042,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -1186,18 +1088,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TextType
   commentId: T:SuperOffice.Data.TextType
   parent: SuperOffice.Data

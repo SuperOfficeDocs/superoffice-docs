@@ -15,7 +15,7 @@ items:
   name: UpdateField
   nameWithType: UpdateField
   fullName: SuperOffice.Data.SQL.UpdateField
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -25,24 +25,24 @@ items:
   summary: "\nThis delegate is used by the Data layer if it has updated - manipulated - the data in a\nquery, and the client might wish to know. \n"
   remarks: "\nExamples of such changes are soundex generation and registered/last updated. In some cases\nthe client could not care less, while the Row objects do care and need to update their internal\nvariables to correspond to the changes that have been done. Note that you may be called about\nfields that were NOT part of your original query, and you will be called at least once for each changed field.\n"
   syntax:
-    content: public delegate void UpdateField(FieldInfo whichField, Parameter newValue);
-    parameters:
-    - id: whichField
-      type: SuperOffice.Data.SQL.FieldInfo
-      description: FieldInfo taken from the same TableInfo as the query&apos;s table(s)
-    - id: newValue
-      type: SuperOffice.Data.SQL.Parameter
-      description: The desired new value of the field encapsulated in a parameter.
-    content.vb: Public Delegate Sub UpdateField(whichField As FieldInfo, newValue As Parameter)
+    content: 'public sealed class UpdateField : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class UpdateField
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SQL.UpdateField.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.UpdateField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.SQL.UpdateField.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Data.SQL.UpdateField.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -180,6 +180,13 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.UpdateField.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -248,20 +255,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.SQL.FieldInfo
-  commentId: T:SuperOffice.Data.SQL.FieldInfo
-  parent: SuperOffice.Data.SQL
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: FieldInfo
-  nameWithType: FieldInfo
-  fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: SuperOffice.Data.SQL.Parameter
-  commentId: T:SuperOffice.Data.SQL.Parameter
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: Parameter
-  nameWithType: Parameter
-  fullName: SuperOffice.Data.SQL.Parameter
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -365,13 +364,6 @@ references:
   name: UpdateField
   nameWithType: UpdateField.UpdateField
   fullName: SuperOffice.Data.SQL.UpdateField.UpdateField
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -379,18 +371,26 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Data.SQL.UpdateField.Invoke*
   commentId: Overload:SuperOffice.Data.SQL.UpdateField.Invoke
   isExternal: true
   name: Invoke
   nameWithType: UpdateField.Invoke
   fullName: SuperOffice.Data.SQL.UpdateField.Invoke
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL.Parameter
+  commentId: T:SuperOffice.Data.SQL.Parameter
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Parameter
+  nameWithType: Parameter
+  fullName: SuperOffice.Data.SQL.Parameter
 - uid: SuperOffice.Data.SQL.UpdateField.BeginInvoke*
   commentId: Overload:SuperOffice.Data.SQL.UpdateField.BeginInvoke
   isExternal: true
@@ -398,15 +398,11 @@ references:
   nameWithType: UpdateField.BeginInvoke
   fullName: SuperOffice.Data.SQL.UpdateField.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

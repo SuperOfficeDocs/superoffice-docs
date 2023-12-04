@@ -344,13 +344,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ReplicationAgent
   commentId: T:SuperOffice.CRM.Services.ReplicationAgent
   isExternal: true
@@ -364,12 +357,6 @@ references:
   name: IReplicationAgent
   nameWithType: IReplicationAgent
   fullName: SuperOffice.CRM.Services.IReplicationAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Area.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Area.#ctor
   isExternal: true
@@ -389,6 +376,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Area.AreaId*
   commentId: Overload:SuperOffice.CRM.Services.Area.AreaId
   isExternal: true

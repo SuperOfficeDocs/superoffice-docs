@@ -24,6 +24,7 @@ items:
     content: 'public interface ICustomWebhookPlugin : IPlugin'
     content.vb: >-
       Public Interface ICustomWebhookPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.EnumUtil.MapEnums``2

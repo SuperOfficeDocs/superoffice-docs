@@ -15,7 +15,7 @@ items:
   name: AsyncOperationFailure
   nameWithType: AsyncOperationFailure
   fullName: SuperOffice.Threading.AsyncOperationFailure
-  type: Delegate
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,24 +24,24 @@ items:
   namespace: SuperOffice.Threading
   summary: "\nDelegate describing the function signature required for a method that is called\nwhenever an asynchronous operation throws an exception.\n"
   syntax:
-    content: public delegate void AsyncOperationFailure(AsyncContext context, Exception exception);
-    parameters:
-    - id: context
-      type: SuperOffice.Threading.AsyncContext
-      description: NetServer context
-    - id: exception
-      type: System.Exception
-      description: The exception being thrown. Log it, eat it, whatever
-    content.vb: Public Delegate Sub AsyncOperationFailure(context As AsyncContext, exception As Exception)
+    content: 'public sealed class AsyncOperationFailure : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class AsyncOperationFailure
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Threading.AsyncOperationFailure.EnumUtil.MapEnums``2
   - SuperOffice.Threading.AsyncOperationFailure.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Threading.AsyncOperationFailure.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Threading.AsyncOperationFailure.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -179,6 +179,13 @@ references:
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.AsyncOperationFailure.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -247,20 +254,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
-- uid: System.Exception
-  commentId: T:System.Exception
-  parent: System
-  isExternal: true
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -352,12 +351,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -370,13 +363,6 @@ references:
   name: AsyncOperationFailure
   nameWithType: AsyncOperationFailure.AsyncOperationFailure
   fullName: SuperOffice.Threading.AsyncOperationFailure.AsyncOperationFailure
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -390,6 +376,18 @@ references:
   name: Invoke
   nameWithType: AsyncOperationFailure.Invoke
   fullName: SuperOffice.Threading.AsyncOperationFailure.Invoke
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
 - uid: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke*
   commentId: Overload:SuperOffice.Threading.AsyncOperationFailure.BeginInvoke
   isExternal: true
@@ -397,15 +395,11 @@ references:
   nameWithType: AsyncOperationFailure.BeginInvoke
   fullName: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

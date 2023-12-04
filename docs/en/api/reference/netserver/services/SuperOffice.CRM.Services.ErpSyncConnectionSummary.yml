@@ -292,7 +292,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastSync As Date
+    content.vb: Public Overridable Property LastSync As DateTime
   overload: SuperOffice.CRM.Services.ErpSyncConnectionSummary.LastSync*
   modifiers.csharp:
   - public
@@ -342,13 +342,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ErpSyncAgent
   commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
   isExternal: true
@@ -362,12 +355,6 @@ references:
   name: IErpSyncAgent
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.CRM.Services.IErpSyncAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ErpSyncConnectionSummary.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectionSummary.#ctor
   isExternal: true
@@ -387,6 +374,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ErpSyncConnectionSummary.DisplayName*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectionSummary.DisplayName
   isExternal: true
@@ -425,8 +418,6 @@ references:
   nameWithType: ErpSyncConnectionSummary.LastSync
   fullName: SuperOffice.CRM.Services.ErpSyncConnectionSummary.LastSync
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

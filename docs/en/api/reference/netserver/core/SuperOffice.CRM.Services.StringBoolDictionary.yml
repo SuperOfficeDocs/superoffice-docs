@@ -1,0 +1,916 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.StringBoolDictionary
+  commentId: T:SuperOffice.CRM.Services.StringBoolDictionary
+  id: StringBoolDictionary
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.StringBoolDictionary.#ctor
+  - SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  - SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Boolean})
+  - SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Int32)
+  - SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  - SuperOffice.CRM.Services.StringBoolDictionary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary
+  nameWithType: StringBoolDictionary
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSerializable dictionary.\nThis class works as a regular dictionary. The only restriction is that the string is a value type\n"
+  remarks: "\nSerializes a dictionary to and from XML. Used as part of the data-carriers.\n"
+  example:
+  - "\n<pre><code> StringDictionary dict = new StringDictionary();\n dict[&quot;foo&quot;] = &quot;bar&quot;;\n dict[&quot;baz&quot;] = &quot;quux&quot;;\n dict.WriteXml( xmlWriter );</code></pre>\nresults in XML that looks like this:\n<pre><code>  &lt;StringDictionary>\n     &lt;StringKeyValuePair>\n        &lt;Key>foo&lt;/Key>&lt;Value>bar&lt;/Value>\n     &lt;/StringKeyValuePair>\n     &lt;StringKeyValuePair>\n        &lt;Key>baz&lt;/Key>&lt;Value>quux&lt;/Value>\n     &lt;/StringKeyValuePair>\n  &lt;/StringDictionary></code></pre>\n"
+  syntax:
+    content: 'public class StringBoolDictionary : Dictionary<string, bool>'
+    content.vb: >-
+      Public Class StringBoolDictionary
+
+          Inherits Dictionary(Of String, Boolean)
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.StringBoolDictionary.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.StringBoolDictionary.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.StringBoolDictionary)
+  - SuperOffice.CRM.Services.StringBoolDictionary.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Services.StringBoolDictionary.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.#ctor
+  commentId: M:SuperOffice.CRM.Services.StringBoolDictionary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary()
+  nameWithType: StringBoolDictionary.StringBoolDictionary()
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public StringBoolDictionary()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.StringBoolDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.CRM.Services.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary(Int32)
+  nameWithType: StringBoolDictionary.StringBoolDictionary(Int32)
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary(System.Int32)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public StringBoolDictionary(int capacity)
+    parameters:
+    - id: capacity
+      type: System.Int32
+    content.vb: Public Sub New(capacity As Integer)
+  overload: SuperOffice.CRM.Services.StringBoolDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  commentId: M:SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  id: '#ctor(System.Collections.Generic.Dictionary{System.String,System.Boolean})'
+  parent: SuperOffice.CRM.Services.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary(Dictionary<String, Boolean>)
+  nameWithType: StringBoolDictionary.StringBoolDictionary(Dictionary<String, Boolean>)
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary(System.Collections.Generic.Dictionary<System.String, System.Boolean>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMake a copy of a generic string dictionary\n"
+  syntax:
+    content: public StringBoolDictionary(Dictionary<string, bool> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+    content.vb: Public Sub New(source As Dictionary(Of String, Boolean))
+  overload: SuperOffice.CRM.Services.StringBoolDictionary.#ctor*
+  nameWithType.vb: StringBoolDictionary.StringBoolDictionary(Dictionary(Of String, Boolean))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary(System.Collections.Generic.Dictionary(Of System.String, System.Boolean))
+  name.vb: StringBoolDictionary(Dictionary(Of String, Boolean))
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Boolean})
+  commentId: M:SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Boolean})
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Boolean})'
+  parent: SuperOffice.CRM.Services.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary(IEnumerable<String>, IEnumerable<Boolean>)
+  nameWithType: StringBoolDictionary.StringBoolDictionary(IEnumerable<String>, IEnumerable<Boolean>)
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary(System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.Boolean>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMake a string dictionary from two string arrays\n"
+  syntax:
+    content: public StringBoolDictionary(IEnumerable<string> keys, IEnumerable<bool> values)
+    parameters:
+    - id: keys
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: values
+      type: System.Collections.Generic.IEnumerable{System.Boolean}
+    content.vb: Public Sub New(keys As IEnumerable(Of String), values As IEnumerable(Of Boolean))
+  overload: SuperOffice.CRM.Services.StringBoolDictionary.#ctor*
+  nameWithType.vb: StringBoolDictionary.StringBoolDictionary(IEnumerable(Of String), IEnumerable(Of Boolean))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary(System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.Boolean))
+  name.vb: StringBoolDictionary(IEnumerable(Of String), IEnumerable(Of Boolean))
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:SuperOffice.CRM.Services.StringBoolDictionary.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: SuperOffice.CRM.Services.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: StringBoolDictionary(SerializationInfo, StreamingContext)
+  nameWithType: StringBoolDictionary.StringBoolDictionary(SerializationInfo, StreamingContext)
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInitializes a new instance with serialized data.\n"
+  syntax:
+    content: public StringBoolDictionary(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: Contains the information to de-serialize
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: Context
+    content.vb: Public Sub New(info As SerializationInfo, context As StreamingContext)
+  overload: SuperOffice.CRM.Services.StringBoolDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.StringBoolDictionary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: StringBoolDictionary.ToString(String)
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.ToString(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.StringBoolDictionary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  commentId: M:SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  id: FromDictionary(System.Collections.Generic.Dictionary{System.String,System.Boolean})
+  parent: SuperOffice.CRM.Services.StringBoolDictionary
+  langs:
+  - csharp
+  - vb
+  name: FromDictionary(Dictionary<String, Boolean>)
+  nameWithType: StringBoolDictionary.FromDictionary(Dictionary<String, Boolean>)
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary(System.Collections.Generic.Dictionary<System.String, System.Boolean>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static StringBoolDictionary FromDictionary(Dictionary<string, bool> input)
+    parameters:
+    - id: input
+      type: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+    return:
+      type: SuperOffice.CRM.Services.StringBoolDictionary
+    content.vb: Public Shared Function FromDictionary(input As Dictionary(Of String, Boolean)) As StringBoolDictionary
+  overload: SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary*
+  nameWithType.vb: StringBoolDictionary.FromDictionary(Dictionary(Of String, Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary(System.Collections.Generic.Dictionary(Of System.String, System.Boolean))
+  name.vb: FromDictionary(Dictionary(Of String, Boolean))
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<StringBoolDictionary, To>()
+  nameWithType: EnumUtil.MapEnums<StringBoolDictionary, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.StringBoolDictionary, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of StringBoolDictionary, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.StringBoolDictionary, To)()
+  name.vb: MapEnums(Of StringBoolDictionary, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<StringBoolDictionary, To>
+    nameWithType: EnumUtil.MapEnums<StringBoolDictionary, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.StringBoolDictionary, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of StringBoolDictionary, To)
+    nameWithType: EnumUtil.MapEnums(Of StringBoolDictionary, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.StringBoolDictionary, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.StringBoolDictionary)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<StringBoolDictionary>(StringBoolDictionary)
+  nameWithType: ObjectExtensions.AssignByReflection<StringBoolDictionary>(StringBoolDictionary)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.StringBoolDictionary>(SuperOffice.CRM.Services.StringBoolDictionary)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of StringBoolDictionary)(StringBoolDictionary)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.StringBoolDictionary)(SuperOffice.CRM.Services.StringBoolDictionary)
+  name.vb: AssignByReflection(Of StringBoolDictionary)(StringBoolDictionary)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<StringBoolDictionary>
+    nameWithType: ObjectExtensions.AssignByReflection<StringBoolDictionary>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.StringBoolDictionary>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.StringBoolDictionary
+    name: StringBoolDictionary
+    nameWithType: StringBoolDictionary
+    fullName: SuperOffice.CRM.Services.StringBoolDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of StringBoolDictionary)
+    nameWithType: ObjectExtensions.AssignByReflection(Of StringBoolDictionary)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.StringBoolDictionary)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.StringBoolDictionary
+    name: StringBoolDictionary
+    nameWithType: StringBoolDictionary
+    fullName: SuperOffice.CRM.Services.StringBoolDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<StringBoolDictionary>()
+  nameWithType: ObjectExtensions.GraphCopy<StringBoolDictionary>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.StringBoolDictionary>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of StringBoolDictionary)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.StringBoolDictionary)()
+  name.vb: GraphCopy(Of StringBoolDictionary)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<StringBoolDictionary>
+    nameWithType: ObjectExtensions.GraphCopy<StringBoolDictionary>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.StringBoolDictionary>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of StringBoolDictionary)
+    nameWithType: ObjectExtensions.GraphCopy(Of StringBoolDictionary)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.StringBoolDictionary)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<StringBoolDictionary, To>()
+  nameWithType: Converters.MapEnums<StringBoolDictionary, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.StringBoolDictionary, To>()
+  nameWithType.vb: Converters.MapEnums(Of StringBoolDictionary, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.StringBoolDictionary, To)()
+  name.vb: MapEnums(Of StringBoolDictionary, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<StringBoolDictionary, To>
+    nameWithType: Converters.MapEnums<StringBoolDictionary, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.StringBoolDictionary, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of StringBoolDictionary, To)
+    nameWithType: Converters.MapEnums(Of StringBoolDictionary, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.StringBoolDictionary, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.StringBoolDictionary.#ctor
+  isExternal: true
+  name: StringBoolDictionary
+  nameWithType: StringBoolDictionary.StringBoolDictionary
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.StringBoolDictionary
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.Dictionary{System.String,System.Boolean}
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.Boolean}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Boolean>
+  nameWithType: Dictionary<String, Boolean>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Boolean>
+  nameWithType.vb: Dictionary(Of String, Boolean)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Boolean)
+  name.vb: Dictionary(Of String, Boolean)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Boolean}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Boolean}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Boolean>
+  nameWithType: IEnumerable<Boolean>
+  fullName: System.Collections.Generic.IEnumerable<System.Boolean>
+  nameWithType.vb: IEnumerable(Of Boolean)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Boolean)
+  name.vb: IEnumerable(Of Boolean)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Runtime.Serialization.SerializationInfo
+  isExternal: true
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  isExternal: true
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.StringBoolDictionary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: StringBoolDictionary.ToString
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary*
+  commentId: Overload:SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary
+  isExternal: true
+  name: FromDictionary
+  nameWithType: StringBoolDictionary.FromDictionary
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary.FromDictionary
+- uid: SuperOffice.CRM.Services.StringBoolDictionary
+  commentId: T:SuperOffice.CRM.Services.StringBoolDictionary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: StringBoolDictionary
+  nameWithType: StringBoolDictionary
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary

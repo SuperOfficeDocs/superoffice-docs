@@ -20,7 +20,6 @@ items:
   - SuperOffice.CRM.Lists.SoListItem.Name
   - SuperOffice.CRM.Lists.SoListItem.Rank
   - SuperOffice.CRM.Lists.SoListItem.StyleHint
-  - SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo(System.Object)
   - SuperOffice.CRM.Lists.SoListItem.Tooltip
   - SuperOffice.CRM.Lists.SoListItem.ToString
   - SuperOffice.CRM.Lists.SoListItem.Type
@@ -39,9 +38,12 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nDefault ListProvider item\n"
   syntax:
-    content: 'public class SoListItem : ISoListItem, IComparable<ISoListItem>, IComparable'
+    content: 'public class SoListItem : Object, ISoListItem, IComparable<ISoListItem>, IComparable'
     content.vb: >-
       Public Class SoListItem
+
+          Inherits Object
+
           Implements ISoListItem, IComparable(Of ISoListItem), IComparable
   inheritance:
   - System.Object
@@ -53,12 +55,6 @@ items:
   - SuperOffice.CRM.Lists.ISoListItem
   - System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
   - System.IComparable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.SoListItem.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.SoListItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.SoListItem)
@@ -243,7 +239,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Lists.SoListItem.ToString*
   modifiers.csharp:
   - public
@@ -280,8 +275,6 @@ items:
       description: Rank compared to other&apos;s rank.
     content.vb: Public Function CompareTo(other As ISoListItem) As Integer
   overload: SuperOffice.CRM.Lists.SoListItem.CompareTo*
-  implements:
-  - System.IComparable{SuperOffice.CRM.Lists.ISoListItem}.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -308,7 +301,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public Overrides Function GetHashCode As Integer
-  overridden: System.Object.GetHashCode
   overload: SuperOffice.CRM.Lists.SoListItem.GetHashCode*
   modifiers.csharp:
   - public
@@ -316,37 +308,6 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo(System.Object)
-  commentId: M:SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo(System.Object)
-  id: System#IComparable#CompareTo(System.Object)
-  isEii: true
-  parent: SuperOffice.CRM.Lists.SoListItem
-  langs:
-  - csharp
-  - vb
-  name: IComparable.CompareTo(Object)
-  nameWithType: SoListItem.IComparable.CompareTo(Object)
-  fullName: SuperOffice.CRM.Lists.SoListItem.System.IComparable.CompareTo(System.Object)
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.Lists
-  syntax:
-    content: int IComparable.CompareTo(object obj)
-    parameters:
-    - id: obj
-      type: System.Object
-    return:
-      type: System.Int32
-    content.vb: Function System.IComparable.CompareTo(obj As Object) As Integer Implements IComparable.CompareTo
-  overload: SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo*
-  implements:
-  - System.IComparable.CompareTo(System.Object)
-  nameWithType.vb: SoListItem.System.IComparable.CompareTo(Object)
-  name.vb: System.IComparable.CompareTo(Object)
 - uid: SuperOffice.CRM.Lists.SoListItem.Id
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Id
   id: Id
@@ -731,8 +692,7 @@ references:
   nameWithType: ISoListItem
   fullName: SuperOffice.CRM.Lists.ISoListItem
 - uid: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System
+  commentId: '!:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.IComparable`1
   name: IComparable<ISoListItem>
   nameWithType: IComparable<ISoListItem>
@@ -775,229 +735,10 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IComparable
-  commentId: T:System.IComparable
-  parent: System
   isExternal: true
   name: IComparable
   nameWithType: IComparable
   fullName: System.IComparable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1151,14 +892,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.IComparable`1
-  commentId: T:System.IComparable`1
   isExternal: true
-  name: IComparable<T>
-  nameWithType: IComparable<T>
-  fullName: System.IComparable<T>
-  nameWithType.vb: IComparable(Of T)
-  fullName.vb: System.IComparable(Of T)
-  name.vb: IComparable(Of T)
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: System.IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: System.IComparable(Of )
+  name.vb: IComparable(Of )
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
@@ -1168,9 +908,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1183,9 +923,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -1423,37 +1163,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.ToString*
   commentId: Overload:SuperOffice.CRM.Lists.SoListItem.ToString
   isExternal: true
@@ -1466,173 +1175,12 @@ references:
   name: CompareTo
   nameWithType: SoListItem.CompareTo
   fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo
-- uid: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
-  commentId: M:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
-  parent: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
-  definition: System.IComparable`1.CompareTo(`0)
-  name: CompareTo(ISoListItem)
-  nameWithType: IComparable<ISoListItem>.CompareTo(ISoListItem)
-  fullName: System.IComparable<SuperOffice.CRM.Lists.ISoListItem>.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
-  nameWithType.vb: IComparable(Of ISoListItem).CompareTo(ISoListItem)
-  fullName.vb: System.IComparable(Of SuperOffice.CRM.Lists.ISoListItem).CompareTo(SuperOffice.CRM.Lists.ISoListItem)
-  spec.csharp:
-  - uid: System.IComparable`1.CompareTo(`0)
-    name: CompareTo
-    nameWithType: IComparable<ISoListItem>.CompareTo
-    fullName: System.IComparable<SuperOffice.CRM.Lists.ISoListItem>.CompareTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.ISoListItem
-    name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IComparable`1.CompareTo(`0)
-    name: CompareTo
-    nameWithType: IComparable(Of ISoListItem).CompareTo
-    fullName: System.IComparable(Of SuperOffice.CRM.Lists.ISoListItem).CompareTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.ISoListItem
-    name: ISoListItem
-    nameWithType: ISoListItem
-    fullName: SuperOffice.CRM.Lists.ISoListItem
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IComparable`1.CompareTo(`0)
-  commentId: M:System.IComparable`1.CompareTo(`0)
-  isExternal: true
-  name: CompareTo(T)
-  nameWithType: IComparable<T>.CompareTo(T)
-  fullName: System.IComparable<T>.CompareTo(T)
-  nameWithType.vb: IComparable(Of T).CompareTo(T)
-  fullName.vb: System.IComparable(Of T).CompareTo(T)
-  spec.csharp:
-  - uid: System.IComparable`1.CompareTo(`0)
-    name: CompareTo
-    nameWithType: IComparable<T>.CompareTo
-    fullName: System.IComparable<T>.CompareTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IComparable`1.CompareTo(`0)
-    name: CompareTo
-    nameWithType: IComparable(Of T).CompareTo
-    fullName: System.IComparable(Of T).CompareTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode*
   commentId: Overload:SuperOffice.CRM.Lists.SoListItem.GetHashCode
   isExternal: true
   name: GetHashCode
   nameWithType: SoListItem.GetHashCode
   fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode
-- uid: SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo*
-  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo
-  isExternal: true
-  name: IComparable.CompareTo
-  nameWithType: SoListItem.IComparable.CompareTo
-  fullName: SuperOffice.CRM.Lists.SoListItem.System.IComparable.CompareTo
-  nameWithType.vb: SoListItem.System.IComparable.CompareTo
-  name.vb: System.IComparable.CompareTo
-- uid: System.IComparable.CompareTo(System.Object)
-  commentId: M:System.IComparable.CompareTo(System.Object)
-  parent: System.IComparable
-  isExternal: true
-  name: CompareTo(Object)
-  nameWithType: IComparable.CompareTo(Object)
-  fullName: System.IComparable.CompareTo(System.Object)
-  spec.csharp:
-  - uid: System.IComparable.CompareTo(System.Object)
-    name: CompareTo
-    nameWithType: IComparable.CompareTo
-    fullName: System.IComparable.CompareTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IComparable.CompareTo(System.Object)
-    name: CompareTo
-    nameWithType: IComparable.CompareTo
-    fullName: System.IComparable.CompareTo
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.Id*
   commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Id
   isExternal: true

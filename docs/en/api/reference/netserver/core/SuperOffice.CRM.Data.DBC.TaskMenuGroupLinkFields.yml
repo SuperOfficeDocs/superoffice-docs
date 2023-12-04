@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  id: DBC.TaskMenuGroupLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.GroupId
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Registered
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuGroupLinkId
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuId
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Updated
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TaskMenuGroupLinkFields
+  nameWithType: DBC.TaskMenuGroupLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TaskMenuGroupLink, User group link table for TaskMenu, for MDO item hiding\n"
+  syntax:
+    content: 'public static class TaskMenuGroupLinkFields : Object'
+    content.vb: >-
+      Public Module TaskMenuGroupLinkFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuGroupLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuGroupLinkId
+  id: TaskMenuGroupLinkId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuGroupLinkId
+  nameWithType: DBC.TaskMenuGroupLinkFields.TaskMenuGroupLinkId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuGroupLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.TaskMenuGroupLinkId: Primary key\n"
+  syntax:
+    content: public const string TaskMenuGroupLinkId = "taskmenugrouplink_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenuGroupLinkId As String = "taskmenugrouplink_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuId
+  id: TaskMenuId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: TaskMenuId
+  nameWithType: DBC.TaskMenuGroupLinkFields.TaskMenuId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.TaskMenuId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.TaskMenuId: Link to TaskMenu list table\n"
+  syntax:
+    content: public const string TaskMenuId = "taskMenu_id"
+    return:
+      type: System.String
+    content.vb: Public Const TaskMenuId As String = "taskMenu_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.GroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: DBC.TaskMenuGroupLinkFields.GroupId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.GroupId: Link to Group table\n"
+  syntax:
+    content: public const string GroupId = "group_id"
+    return:
+      type: System.String
+    content.vb: Public Const GroupId As String = "group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TaskMenuGroupLinkFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TaskMenuGroupLinkFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TaskMenuGroupLinkFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TaskMenuGroupLinkFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TaskMenuGroupLinkFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TaskMenuGroupLinkFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTaskMenuGroupLink.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

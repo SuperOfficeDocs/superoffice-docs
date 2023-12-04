@@ -384,7 +384,7 @@ items:
     return:
       type: System.DateTime
       description: Next due date for the given sale.
-    content.vb: Function GetNextDueDate(saleId As Integer) As Date
+    content.vb: Function GetNextDueDate(saleId As Integer) As DateTime
   overload: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate*
 - uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
   commentId: M:SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
@@ -827,7 +827,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Sale[]
       description: Array of sales.
-    content.vb: Function GetSalesByDate(fromDate As Date, toDate As Date, amountLimit As Integer, status As SaleStatus) As Sale()
+    content.vb: Function GetSalesByDate(fromDate As DateTime, toDate As DateTime, amountLimit As Integer, status As SaleStatus) As Sale()
   overload: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate*
 - uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
@@ -1157,7 +1157,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.SaleSummary
-    content.vb: Function GetSummaryByAssociate(associateId As Integer, fromDate As Date, toDate As Date) As SaleSummary
+    content.vb: Function GetSummaryByAssociate(associateId As Integer, fromDate As DateTime, toDate As DateTime) As SaleSummary
   overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate*
 - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
   commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
@@ -1188,7 +1188,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.SaleSummary
-    content.vb: Function GetSummaryByGroup(groupId As Integer, fromDate As Date, toDate As Date) As SaleSummary
+    content.vb: Function GetSummaryByGroup(groupId As Integer, fromDate As DateTime, toDate As DateTime) As SaleSummary
   overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup*
 - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
   commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
@@ -1219,7 +1219,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.SaleSummary
-    content.vb: Function GetSummaryByContact(contactId As Integer, fromDate As Date, toDate As Date) As SaleSummary
+    content.vb: Function GetSummaryByContact(contactId As Integer, fromDate As DateTime, toDate As DateTime) As SaleSummary
   overload: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact*
 references:
 - uid: SuperOffice.CRM.Services
@@ -1343,8 +1343,6 @@ references:
   nameWithType: ISaleAgent.GetNextDueDate
   fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

@@ -1,0 +1,1982 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.IQuoteConnector2
+  commentId: T:SuperOffice.CRM.IQuoteConnector2
+  id: IQuoteConnector2
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  - SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  - SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  langs:
+  - csharp
+  - vb
+  name: IQuoteConnector2
+  nameWithType: IQuoteConnector2
+  fullName: SuperOffice.CRM.IQuoteConnector2
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nEnhanced Quote Connector abilities: modify state changes (approvals)\n"
+  syntax:
+    content: 'public interface IQuoteConnector2 : IQuoteConnector, IDisposable, IPlugin'
+    content.vb: >-
+      Public Interface IQuoteConnector2
+
+          Inherits IQuoteConnector, IDisposable, IPlugin
+  inheritedMembers:
+  - SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
+  - SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo,SuperOffice.CRM.UserInfo,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.IProductRegisterCache)
+  - SuperOffice.CRM.IQuoteConnector.GetCapabilities
+  - SuperOffice.CRM.IQuoteConnector.CanProvideCapability(System.String)
+  - SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo,SuperOffice.CRM.ISaleInfo,SuperOffice.CRM.IContactInfo)
+  - SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetActivePriceLists(System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetAllPriceLists(System.String)
+  - SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+  - SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages(System.String)
+  - SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String,System.Int32)
+  - SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+  - SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+  - SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+  - SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
+  - SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+  - SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.GetOrderState(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.GetAddresses(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  - SuperOffice.CRM.IQuoteConnector.CRMConnectionId
+  extensionMethods:
+  - SuperOffice.CRM.IQuoteConnector2.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.IQuoteConnector2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  id: OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector2
+  langs:
+  - csharp
+  - vb
+  name: OnQuoteVersionRequestApproval(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector2.OnQuoteVersionRequestApproval(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCalled when a version needs approval before it can be sent.\n"
+  syntax:
+    content: QuoteVersionResponseInfo OnQuoteVersionRequestApproval(QuoteVersionContextInfo context)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+      description: Quote Version that needs approval
+    return:
+      type: SuperOffice.CRM.QuoteVersionResponseInfo
+      description: Updated version state.
+    content.vb: Function OnQuoteVersionRequestApproval(context As QuoteVersionContextInfo) As QuoteVersionResponseInfo
+  overload: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval*
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  id: OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector2
+  langs:
+  - csharp
+  - vb
+  name: OnQuoteVersionApproved(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector2.OnQuoteVersionApproved(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCalled when quote that needs approval is approved.\n"
+  syntax:
+    content: QuoteVersionResponseInfo OnQuoteVersionApproved(QuoteVersionContextInfo context)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+      description: Quote version after approval
+    return:
+      type: SuperOffice.CRM.QuoteVersionResponseInfo
+      description: Updated quote version
+    content.vb: Function OnQuoteVersionApproved(context As QuoteVersionContextInfo) As QuoteVersionResponseInfo
+  overload: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved*
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  id: OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector2
+  langs:
+  - csharp
+  - vb
+  name: OnQuoteVersionRejected(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector2.OnQuoteVersionRejected(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCalled when quote that needs approval is rejected.\n"
+  syntax:
+    content: QuoteVersionResponseInfo OnQuoteVersionRejected(QuoteVersionContextInfo context)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+      description: Version state after rejection
+    return:
+      type: SuperOffice.CRM.QuoteVersionResponseInfo
+      description: Updated version state.
+    content.vb: Function OnQuoteVersionRejected(context As QuoteVersionContextInfo) As QuoteVersionResponseInfo
+  overload: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected*
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetConfigurationFields()
+  nameWithType: IQuoteConnector.GetConfigurationFields()
+  fullName: SuperOffice.CRM.IQuoteConnector.GetConfigurationFields()
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
+    name: GetConfigurationFields
+    nameWithType: IQuoteConnector.GetConfigurationFields
+    fullName: SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
+    name: GetConfigurationFields
+    nameWithType: IQuoteConnector.GetConfigurationFields
+    fullName: SuperOffice.CRM.IQuoteConnector.GetConfigurationFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: TestConnection(Dictionary<String, String>)
+  nameWithType: IQuoteConnector.TestConnection(Dictionary<String, String>)
+  fullName: SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: IQuoteConnector.TestConnection(Dictionary(Of String, String))
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: TestConnection(Dictionary(Of String, String))
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary{System.String,System.String})
+    name: TestConnection
+    nameWithType: IQuoteConnector.TestConnection
+    fullName: SuperOffice.CRM.IQuoteConnector.TestConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.TestConnection(System.Collections.Generic.Dictionary{System.String,System.String})
+    name: TestConnection
+    nameWithType: IQuoteConnector.TestConnection
+    fullName: SuperOffice.CRM.IQuoteConnector.TestConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo,SuperOffice.CRM.UserInfo,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.IProductRegisterCache)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo,SuperOffice.CRM.UserInfo,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.IProductRegisterCache)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: InitializeConnection(QuoteConnectionInfo, UserInfo, Boolean, Dictionary<String, String>, IProductRegisterCache)
+  nameWithType: IQuoteConnector.InitializeConnection(QuoteConnectionInfo, UserInfo, Boolean, Dictionary<String, String>, IProductRegisterCache)
+  fullName: SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo, SuperOffice.CRM.UserInfo, System.Boolean, System.Collections.Generic.Dictionary<System.String, System.String>, SuperOffice.CRM.IProductRegisterCache)
+  nameWithType.vb: IQuoteConnector.InitializeConnection(QuoteConnectionInfo, UserInfo, Boolean, Dictionary(Of String, String), IProductRegisterCache)
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo, SuperOffice.CRM.UserInfo, System.Boolean, System.Collections.Generic.Dictionary(Of System.String, System.String), SuperOffice.CRM.IProductRegisterCache)
+  name.vb: InitializeConnection(QuoteConnectionInfo, UserInfo, Boolean, Dictionary(Of String, String), IProductRegisterCache)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo,SuperOffice.CRM.UserInfo,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.IProductRegisterCache)
+    name: InitializeConnection
+    nameWithType: IQuoteConnector.InitializeConnection
+    fullName: SuperOffice.CRM.IQuoteConnector.InitializeConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteConnectionInfo
+    name: QuoteConnectionInfo
+    nameWithType: QuoteConnectionInfo
+    fullName: SuperOffice.CRM.QuoteConnectionInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.UserInfo
+    name: UserInfo
+    nameWithType: UserInfo
+    fullName: SuperOffice.CRM.UserInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    nameWithType: IProductRegisterCache
+    fullName: SuperOffice.CRM.IProductRegisterCache
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo,SuperOffice.CRM.UserInfo,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.IProductRegisterCache)
+    name: InitializeConnection
+    nameWithType: IQuoteConnector.InitializeConnection
+    fullName: SuperOffice.CRM.IQuoteConnector.InitializeConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteConnectionInfo
+    name: QuoteConnectionInfo
+    nameWithType: QuoteConnectionInfo
+    fullName: SuperOffice.CRM.QuoteConnectionInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.UserInfo
+    name: UserInfo
+    nameWithType: UserInfo
+    fullName: SuperOffice.CRM.UserInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.IProductRegisterCache
+    name: IProductRegisterCache
+    nameWithType: IProductRegisterCache
+    fullName: SuperOffice.CRM.IProductRegisterCache
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetCapabilities
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetCapabilities
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetCapabilities()
+  nameWithType: IQuoteConnector.GetCapabilities()
+  fullName: SuperOffice.CRM.IQuoteConnector.GetCapabilities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetCapabilities
+    name: GetCapabilities
+    nameWithType: IQuoteConnector.GetCapabilities
+    fullName: SuperOffice.CRM.IQuoteConnector.GetCapabilities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetCapabilities
+    name: GetCapabilities
+    nameWithType: IQuoteConnector.GetCapabilities
+    fullName: SuperOffice.CRM.IQuoteConnector.GetCapabilities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.CanProvideCapability(System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.CanProvideCapability(System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: CanProvideCapability(String)
+  nameWithType: IQuoteConnector.CanProvideCapability(String)
+  fullName: SuperOffice.CRM.IQuoteConnector.CanProvideCapability(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.CanProvideCapability(System.String)
+    name: CanProvideCapability
+    nameWithType: IQuoteConnector.CanProvideCapability
+    fullName: SuperOffice.CRM.IQuoteConnector.CanProvideCapability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.CanProvideCapability(System.String)
+    name: CanProvideCapability
+    nameWithType: IQuoteConnector.CanProvideCapability
+    fullName: SuperOffice.CRM.IQuoteConnector.CanProvideCapability
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: OnBeforeCreateQuote(QuoteAlternativeContextInfo)
+  nameWithType: IQuoteConnector.OnBeforeCreateQuote(QuoteAlternativeContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: OnBeforeCreateQuote
+    nameWithType: IQuoteConnector.OnBeforeCreateQuote
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: OnBeforeCreateQuote
+    nameWithType: IQuoteConnector.OnBeforeCreateQuote
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: OnBeforeCreateQuoteVersion(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector.OnBeforeCreateQuoteVersion(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnBeforeCreateQuoteVersion
+    nameWithType: IQuoteConnector.OnBeforeCreateQuoteVersion
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnBeforeCreateQuoteVersion
+    nameWithType: IQuoteConnector.OnBeforeCreateQuoteVersion
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: OnBeforeCreateQuoteAlternative(QuoteAlternativeContextInfo)
+  nameWithType: IQuoteConnector.OnBeforeCreateQuoteAlternative(QuoteAlternativeContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: OnBeforeCreateQuoteAlternative
+    nameWithType: IQuoteConnector.OnBeforeCreateQuoteAlternative
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: OnBeforeCreateQuoteAlternative
+    nameWithType: IQuoteConnector.OnBeforeCreateQuoteAlternative
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeCreateQuoteAlternative
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: OnAfterSaveQuote(QuoteAlternativeContextInfo)
+  nameWithType: IQuoteConnector.OnAfterSaveQuote(QuoteAlternativeContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: OnAfterSaveQuote
+    nameWithType: IQuoteConnector.OnAfterSaveQuote
+    fullName: SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: OnAfterSaveQuote
+    nameWithType: IQuoteConnector.OnAfterSaveQuote
+    fullName: SuperOffice.CRM.IQuoteConnector.OnAfterSaveQuote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo,SuperOffice.CRM.ISaleInfo,SuperOffice.CRM.IContactInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo,SuperOffice.CRM.ISaleInfo,SuperOffice.CRM.IContactInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: OnBeforeDeleteQuote(QuoteInfo, ISaleInfo, IContactInfo)
+  nameWithType: IQuoteConnector.OnBeforeDeleteQuote(QuoteInfo, ISaleInfo, IContactInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo, SuperOffice.CRM.ISaleInfo, SuperOffice.CRM.IContactInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo,SuperOffice.CRM.ISaleInfo,SuperOffice.CRM.IContactInfo)
+    name: OnBeforeDeleteQuote
+    nameWithType: IQuoteConnector.OnBeforeDeleteQuote
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteInfo
+    name: QuoteInfo
+    nameWithType: QuoteInfo
+    fullName: SuperOffice.CRM.QuoteInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ISaleInfo
+    name: ISaleInfo
+    nameWithType: ISaleInfo
+    fullName: SuperOffice.CRM.ISaleInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.IContactInfo
+    name: IContactInfo
+    nameWithType: IContactInfo
+    fullName: SuperOffice.CRM.IContactInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo,SuperOffice.CRM.ISaleInfo,SuperOffice.CRM.IContactInfo)
+    name: OnBeforeDeleteQuote
+    nameWithType: IQuoteConnector.OnBeforeDeleteQuote
+    fullName: SuperOffice.CRM.IQuoteConnector.OnBeforeDeleteQuote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteInfo
+    name: QuoteInfo
+    nameWithType: QuoteInfo
+    fullName: SuperOffice.CRM.QuoteInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ISaleInfo
+    name: ISaleInfo
+    nameWithType: ISaleInfo
+    fullName: SuperOffice.CRM.ISaleInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.IContactInfo
+    name: IContactInfo
+    nameWithType: IContactInfo
+    fullName: SuperOffice.CRM.IContactInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: OnAfterSentQuoteVersion(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector.OnAfterSentQuoteVersion(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnAfterSentQuoteVersion
+    nameWithType: IQuoteConnector.OnAfterSentQuoteVersion
+    fullName: SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnAfterSentQuoteVersion
+    nameWithType: IQuoteConnector.OnAfterSentQuoteVersion
+    fullName: SuperOffice.CRM.IQuoteConnector.OnAfterSentQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetQuoteList(String)
+  nameWithType: IQuoteConnector.GetQuoteList(String)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+    name: GetQuoteList
+    nameWithType: IQuoteConnector.GetQuoteList
+    fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetQuoteList(System.String)
+    name: GetQuoteList
+    nameWithType: IQuoteConnector.GetQuoteList
+    fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetNumberOfActivePriceLists(String)
+  nameWithType: IQuoteConnector.GetNumberOfActivePriceLists(String)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
+    name: GetNumberOfActivePriceLists
+    nameWithType: IQuoteConnector.GetNumberOfActivePriceLists
+    fullName: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists(System.String)
+    name: GetNumberOfActivePriceLists
+    nameWithType: IQuoteConnector.GetNumberOfActivePriceLists
+    fullName: SuperOffice.CRM.IQuoteConnector.GetNumberOfActivePriceLists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetActivePriceLists(System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetActivePriceLists(System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetActivePriceLists(String)
+  nameWithType: IQuoteConnector.GetActivePriceLists(String)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetActivePriceLists(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetActivePriceLists(System.String)
+    name: GetActivePriceLists
+    nameWithType: IQuoteConnector.GetActivePriceLists
+    fullName: SuperOffice.CRM.IQuoteConnector.GetActivePriceLists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetActivePriceLists(System.String)
+    name: GetActivePriceLists
+    nameWithType: IQuoteConnector.GetActivePriceLists
+    fullName: SuperOffice.CRM.IQuoteConnector.GetActivePriceLists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists(System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetAllPriceLists(System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetAllPriceLists(String)
+  nameWithType: IQuoteConnector.GetAllPriceLists(String)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists(System.String)
+    name: GetAllPriceLists
+    nameWithType: IQuoteConnector.GetAllPriceLists
+    fullName: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists(System.String)
+    name: GetAllPriceLists
+    nameWithType: IQuoteConnector.GetAllPriceLists
+    fullName: SuperOffice.CRM.IQuoteConnector.GetAllPriceLists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: FindProduct(QuoteAlternativeContextInfo, String, String, String)
+  nameWithType: IQuoteConnector.FindProduct(QuoteAlternativeContextInfo, String, String, String)
+  fullName: SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+    name: FindProduct
+    nameWithType: IQuoteConnector.FindProduct
+    fullName: SuperOffice.CRM.IQuoteConnector.FindProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.FindProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String,System.String,System.String)
+    name: FindProduct
+    nameWithType: IQuoteConnector.FindProduct
+    fullName: SuperOffice.CRM.IQuoteConnector.FindProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetProduct(QuoteAlternativeContextInfo, String)
+  nameWithType: IQuoteConnector.GetProduct(QuoteAlternativeContextInfo, String)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+    name: GetProduct
+    nameWithType: IQuoteConnector.GetProduct
+    fullName: SuperOffice.CRM.IQuoteConnector.GetProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+    name: GetProduct
+    nameWithType: IQuoteConnector.GetProduct
+    fullName: SuperOffice.CRM.IQuoteConnector.GetProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetProducts(QuoteAlternativeContextInfo, String[])
+  nameWithType: IQuoteConnector.GetProducts(QuoteAlternativeContextInfo, String[])
+  fullName: SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String[])
+  nameWithType.vb: IQuoteConnector.GetProducts(QuoteAlternativeContextInfo, String())
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String())
+  name.vb: GetProducts(QuoteAlternativeContextInfo, String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+    name: GetProducts
+    nameWithType: IQuoteConnector.GetProducts
+    fullName: SuperOffice.CRM.IQuoteConnector.GetProducts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetProducts(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String[])
+    name: GetProducts
+    nameWithType: IQuoteConnector.GetProducts
+    fullName: SuperOffice.CRM.IQuoteConnector.GetProducts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
+  nameWithType: IQuoteConnector.GetQuoteLinesFromProduct(QuoteAlternativeContextInfo, String)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+    name: GetQuoteLinesFromProduct
+    nameWithType: IQuoteConnector.GetQuoteLinesFromProduct
+    fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct(SuperOffice.CRM.QuoteAlternativeContextInfo,System.String)
+    name: GetQuoteLinesFromProduct
+    nameWithType: IQuoteConnector.GetQuoteLinesFromProduct
+    fullName: SuperOffice.CRM.IQuoteConnector.GetQuoteLinesFromProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages(System.String)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages(System.String)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetNumberOfProductImages(String)
+  nameWithType: IQuoteConnector.GetNumberOfProductImages(String)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages(System.String)
+    name: GetNumberOfProductImages
+    nameWithType: IQuoteConnector.GetNumberOfProductImages
+    fullName: SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages(System.String)
+    name: GetNumberOfProductImages
+    nameWithType: IQuoteConnector.GetNumberOfProductImages
+    fullName: SuperOffice.CRM.IQuoteConnector.GetNumberOfProductImages
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String,System.Int32)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetProductImage(String, Int32)
+  nameWithType: IQuoteConnector.GetProductImage(String, Int32)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String,System.Int32)
+    name: GetProductImage
+    nameWithType: IQuoteConnector.GetProductImage
+    fullName: SuperOffice.CRM.IQuoteConnector.GetProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetProductImage(System.String,System.Int32)
+    name: GetProductImage
+    nameWithType: IQuoteConnector.GetProductImage
+    fullName: SuperOffice.CRM.IQuoteConnector.GetProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetSearchableFields()
+  nameWithType: IQuoteConnector.GetSearchableFields()
+  fullName: SuperOffice.CRM.IQuoteConnector.GetSearchableFields()
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+    name: GetSearchableFields
+    nameWithType: IQuoteConnector.GetSearchableFields
+    fullName: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+    name: GetSearchableFields
+    nameWithType: IQuoteConnector.GetSearchableFields
+    fullName: SuperOffice.CRM.IQuoteConnector.GetSearchableFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetSearchResults(SearchRestrictionInfo[])
+  nameWithType: IQuoteConnector.GetSearchResults(SearchRestrictionInfo[])
+  fullName: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+  nameWithType.vb: IQuoteConnector.GetSearchResults(SearchRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo())
+  name.vb: GetSearchResults(SearchRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+    name: GetSearchResults
+    nameWithType: IQuoteConnector.GetSearchResults
+    fullName: SuperOffice.CRM.IQuoteConnector.GetSearchResults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.SearchRestrictionInfo
+    name: SearchRestrictionInfo
+    nameWithType: SearchRestrictionInfo
+    fullName: SuperOffice.CRM.SearchRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetSearchResults(SuperOffice.CRM.SearchRestrictionInfo[])
+    name: GetSearchResults
+    nameWithType: IQuoteConnector.GetSearchResults
+    fullName: SuperOffice.CRM.IQuoteConnector.GetSearchResults
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.SearchRestrictionInfo
+    name: SearchRestrictionInfo
+    nameWithType: SearchRestrictionInfo
+    fullName: SuperOffice.CRM.SearchRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+  commentId: M:SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String[])
+  nameWithType: IQuoteConnector.OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String[])
+  fullName: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.QuoteLineInfo, System.String[])
+  nameWithType.vb: IQuoteConnector.OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String())
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo, SuperOffice.CRM.QuoteLineInfo, System.String())
+  name.vb: OnQuoteLineChanged(QuoteAlternativeContextInfo, QuoteLineInfo, String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+    name: OnQuoteLineChanged
+    nameWithType: IQuoteConnector.OnQuoteLineChanged
+    fullName: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    nameWithType: QuoteLineInfo
+    fullName: SuperOffice.CRM.QuoteLineInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+    name: OnQuoteLineChanged
+    nameWithType: IQuoteConnector.OnQuoteLineChanged
+    fullName: SuperOffice.CRM.IQuoteConnector.OnQuoteLineChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.QuoteLineInfo
+    name: QuoteLineInfo
+    nameWithType: QuoteLineInfo
+    fullName: SuperOffice.CRM.QuoteLineInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: RecalculateQuoteAlternative(QuoteAlternativeContextInfo)
+  nameWithType: IQuoteConnector.RecalculateQuoteAlternative(QuoteAlternativeContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: RecalculateQuoteAlternative
+    nameWithType: IQuoteConnector.RecalculateQuoteAlternative
+    fullName: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: RecalculateQuoteAlternative
+    nameWithType: IQuoteConnector.RecalculateQuoteAlternative
+    fullName: SuperOffice.CRM.IQuoteConnector.RecalculateQuoteAlternative
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: ValidateQuoteVersion(QuoteVersionContextInfo, QuoteAction)
+  nameWithType: IQuoteConnector.ValidateQuoteVersion(QuoteVersionContextInfo, QuoteAction)
+  fullName: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo, SuperOffice.CRM.QuoteAction)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
+    name: ValidateQuoteVersion
+    nameWithType: IQuoteConnector.ValidateQuoteVersion
+    fullName: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.QuoteAction
+    name: QuoteAction
+    nameWithType: QuoteAction
+    fullName: SuperOffice.CRM.QuoteAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo,SuperOffice.CRM.QuoteAction)
+    name: ValidateQuoteVersion
+    nameWithType: IQuoteConnector.ValidateQuoteVersion
+    fullName: SuperOffice.CRM.IQuoteConnector.ValidateQuoteVersion
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.QuoteAction
+    name: QuoteAction
+    nameWithType: QuoteAction
+    fullName: SuperOffice.CRM.QuoteAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+  commentId: M:SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet<String>)
+  nameWithType: IQuoteConnector.UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet<String>)
+  fullName: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo, System.Collections.Generic.HashSet<System.String>)
+  nameWithType.vb: IQuoteConnector.UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet(Of String))
+  fullName.vb: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo, System.Collections.Generic.HashSet(Of System.String))
+  name.vb: UpdateQuoteVersionPrices(QuoteVersionContextInfo, HashSet(Of String))
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+    name: UpdateQuoteVersionPrices
+    nameWithType: IQuoteConnector.UpdateQuoteVersionPrices
+    fullName: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices(SuperOffice.CRM.QuoteVersionContextInfo,System.Collections.Generic.HashSet{System.String})
+    name: UpdateQuoteVersionPrices
+    nameWithType: IQuoteConnector.UpdateQuoteVersionPrices
+    fullName: SuperOffice.CRM.IQuoteConnector.UpdateQuoteVersionPrices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: PlaceOrder(QuoteAlternativeContextInfo)
+  nameWithType: IQuoteConnector.PlaceOrder(QuoteAlternativeContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: PlaceOrder
+    nameWithType: IQuoteConnector.PlaceOrder
+    fullName: SuperOffice.CRM.IQuoteConnector.PlaceOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: PlaceOrder
+    nameWithType: IQuoteConnector.PlaceOrder
+    fullName: SuperOffice.CRM.IQuoteConnector.PlaceOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetOrderState(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetOrderState(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetOrderState(QuoteAlternativeContextInfo)
+  nameWithType: IQuoteConnector.GetOrderState(QuoteAlternativeContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetOrderState(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetOrderState(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: GetOrderState
+    nameWithType: IQuoteConnector.GetOrderState
+    fullName: SuperOffice.CRM.IQuoteConnector.GetOrderState
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetOrderState(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: GetOrderState
+    nameWithType: IQuoteConnector.GetOrderState
+    fullName: SuperOffice.CRM.IQuoteConnector.GetOrderState
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.GetAddresses(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector.GetAddresses(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: GetAddresses(QuoteAlternativeContextInfo)
+  nameWithType: IQuoteConnector.GetAddresses(QuoteAlternativeContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector.GetAddresses(SuperOffice.CRM.QuoteAlternativeContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetAddresses(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: GetAddresses
+    nameWithType: IQuoteConnector.GetAddresses
+    fullName: SuperOffice.CRM.IQuoteConnector.GetAddresses
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector.GetAddresses(SuperOffice.CRM.QuoteAlternativeContextInfo)
+    name: GetAddresses
+    nameWithType: IQuoteConnector.GetAddresses
+    fullName: SuperOffice.CRM.IQuoteConnector.GetAddresses
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteAlternativeContextInfo
+    name: QuoteAlternativeContextInfo
+    nameWithType: QuoteAlternativeContextInfo
+    fullName: SuperOffice.CRM.QuoteAlternativeContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector.CRMConnectionId
+  commentId: P:SuperOffice.CRM.IQuoteConnector.CRMConnectionId
+  parent: SuperOffice.CRM.IQuoteConnector
+  isExternal: true
+  name: CRMConnectionId
+  nameWithType: IQuoteConnector.CRMConnectionId
+  fullName: SuperOffice.CRM.IQuoteConnector.CRMConnectionId
+- uid: SuperOffice.CRM.IQuoteConnector2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IQuoteConnector2, To>()
+  nameWithType: EnumUtil.MapEnums<IQuoteConnector2, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IQuoteConnector2, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IQuoteConnector2, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IQuoteConnector2, To)()
+  name.vb: MapEnums(Of IQuoteConnector2, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IQuoteConnector2, To>
+    nameWithType: EnumUtil.MapEnums<IQuoteConnector2, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IQuoteConnector2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IQuoteConnector2, To)
+    nameWithType: EnumUtil.MapEnums(Of IQuoteConnector2, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IQuoteConnector2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IQuoteConnector2, To>()
+  nameWithType: Converters.MapEnums<IQuoteConnector2, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IQuoteConnector2, To>()
+  nameWithType.vb: Converters.MapEnums(Of IQuoteConnector2, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IQuoteConnector2, To)()
+  name.vb: MapEnums(Of IQuoteConnector2, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IQuoteConnector2, To>
+    nameWithType: Converters.MapEnums<IQuoteConnector2, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IQuoteConnector2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IQuoteConnector2, To)
+    nameWithType: Converters.MapEnums(Of IQuoteConnector2, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IQuoteConnector2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IQuoteConnector
+  commentId: T:SuperOffice.CRM.IQuoteConnector
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IQuoteConnector
+  nameWithType: IQuoteConnector
+  fullName: SuperOffice.CRM.IQuoteConnector
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval
+  isExternal: true
+  name: OnQuoteVersionRequestApproval
+  nameWithType: IQuoteConnector2.OnQuoteVersionRequestApproval
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval
+- uid: SuperOffice.CRM.QuoteVersionContextInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionContextInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteVersionContextInfo
+  nameWithType: QuoteVersionContextInfo
+  fullName: SuperOffice.CRM.QuoteVersionContextInfo
+- uid: SuperOffice.CRM.QuoteVersionResponseInfo
+  commentId: T:SuperOffice.CRM.QuoteVersionResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: QuoteVersionResponseInfo
+  nameWithType: QuoteVersionResponseInfo
+  fullName: SuperOffice.CRM.QuoteVersionResponseInfo
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved
+  isExternal: true
+  name: OnQuoteVersionApproved
+  nameWithType: IQuoteConnector2.OnQuoteVersionApproved
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected*
+  commentId: Overload:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected
+  isExternal: true
+  name: OnQuoteVersionRejected
+  nameWithType: IQuoteConnector2.OnQuoteVersionRejected
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected

@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  commentId: T:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  id: TicketPriorityEscalationLevelEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.#ctor
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString
+  - SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEscalationLevelEntity
+  nameWithType: TicketPriorityEscalationLevelEntity
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEntity for ticket priority escalation level. Entity describes properties/actions when escalation(alert) happens. Alert is raised according to TicketPriority timing intervals\n<p></p>\nCarrier object for TicketPriorityEscalationLevelEntity.\nServices for the TicketPriorityEscalationLevelEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TicketPriorityEscalationLevelEntity : Carrier'
+    content.vb: >-
+      Public Class TicketPriorityEscalationLevelEntity
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEscalationLevelEntity()
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity()
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TicketPriorityEscalationLevelEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketPriorityEscalationLevelEntity.ToString()
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TicketPriorityEscalationLevelEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId
+  id: TicketAlertId
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketAlertId
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketAlertId
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public virtual int TicketAlertId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketAlertId As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel
+  id: AlertLevel
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertLevel
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertLevel
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe alert level (strictly ascending number). \n"
+  syntax:
+    content: public virtual short AlertLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property AlertLevel As Short
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout
+  id: AlertTimeout
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertTimeout
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertTimeout
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe time (in minutes) before ticket is escalated to next level. \n"
+  syntax:
+    content: public virtual int AlertTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AlertTimeout As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action
+  id: Action
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: TicketPriorityEscalationLevelEntity.Action
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBitmap indicating what should be done when escalating *to* this level. \n"
+  syntax:
+    content: public virtual int Action { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Action As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo
+  id: DelegateTo
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: DelegateTo
+  nameWithType: TicketPriorityEscalationLevelEntity.DelegateTo
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf ticket should be redelegated on escalation, this field contains the id of the target user. \n"
+  syntax:
+    content: public virtual int DelegateTo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DelegateTo As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId
+  id: ScriptId
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ScriptId
+  nameWithType: TicketPriorityEscalationLevelEntity.ScriptId
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nScript that can be executed then the ticket alert action occur. \n"
+  syntax:
+    content: public virtual int ScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ScriptId As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo
+  id: EmailTo
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: EmailTo
+  nameWithType: TicketPriorityEscalationLevelEntity.EmailTo
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf an email should be sent when escalating, this field will contain the recipient email address. \n"
+  syntax:
+    content: public virtual string EmailTo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailTo As String
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo
+  id: SmsTo
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: SmsTo
+  nameWithType: TicketPriorityEscalationLevelEntity.SmsTo
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf an sms should be sent when escalating, this field will contain the recipient email address. \n"
+  syntax:
+    content: public virtual string SmsTo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SmsTo As String
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  id: ReplyTemplateIdCustomer
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCustomer
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for mail to customer \n"
+  syntax:
+    content: public virtual int ReplyTemplateIdCustomer { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdCustomer As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  id: ReplyTemplateIdUser
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdUser
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for mail to owner of ticket \n"
+  syntax:
+    content: public virtual int ReplyTemplateIdUser { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdUser As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  id: ReplyTemplateIdCatmast
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCatmast
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for mail to category master \n"
+  syntax:
+    content: public virtual int ReplyTemplateIdCatmast { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdCatmast As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  id: ReplyTemplateIdEmail
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdEmail
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for mail to custom address \n"
+  syntax:
+    content: public virtual int ReplyTemplateIdEmail { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdEmail As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  id: RtiCustomerSms
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: RtiCustomerSms
+  nameWithType: TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for sms to customer \n"
+  syntax:
+    content: public virtual int RtiCustomerSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RtiCustomerSms As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  id: ReplyTemplateIdUserSms
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdUserSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for sms to owner of ticket \n"
+  syntax:
+    content: public virtual int ReplyTemplateIdUserSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdUserSms As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  id: ReplyTemplateIdCatmastSms
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdCatmastSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for sms to category master \n"
+  syntax:
+    content: public virtual int ReplyTemplateIdCatmastSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdCatmastSms As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  id: ReplyTemplateIdSms
+  parent: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplateIdSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to the reply template used in this alert, for sms to custom address \n"
+  syntax:
+    content: public virtual int ReplyTemplateIdSms { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplateIdSms As Integer
+  overload: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.#ctor
+  isExternal: true
+  name: TicketPriorityEscalationLevelEntity
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketPriorityEscalationLevelEntity
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TicketPriorityEscalationLevelEntity.ToString
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId
+  isExternal: true
+  name: TicketAlertId
+  nameWithType: TicketPriorityEscalationLevelEntity.TicketAlertId
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.TicketAlertId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel
+  isExternal: true
+  name: AlertLevel
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertLevel
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertLevel
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout
+  isExternal: true
+  name: AlertTimeout
+  nameWithType: TicketPriorityEscalationLevelEntity.AlertTimeout
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.AlertTimeout
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action
+  isExternal: true
+  name: Action
+  nameWithType: TicketPriorityEscalationLevelEntity.Action
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.Action
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo
+  isExternal: true
+  name: DelegateTo
+  nameWithType: TicketPriorityEscalationLevelEntity.DelegateTo
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.DelegateTo
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId
+  isExternal: true
+  name: ScriptId
+  nameWithType: TicketPriorityEscalationLevelEntity.ScriptId
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ScriptId
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo
+  isExternal: true
+  name: EmailTo
+  nameWithType: TicketPriorityEscalationLevelEntity.EmailTo
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.EmailTo
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo
+  isExternal: true
+  name: SmsTo
+  nameWithType: TicketPriorityEscalationLevelEntity.SmsTo
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.SmsTo
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  isExternal: true
+  name: ReplyTemplateIdCustomer
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCustomer
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  isExternal: true
+  name: ReplyTemplateIdUser
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUser
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  isExternal: true
+  name: ReplyTemplateIdCatmast
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmast
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  isExternal: true
+  name: ReplyTemplateIdEmail
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdEmail
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  isExternal: true
+  name: RtiCustomerSms
+  nameWithType: TicketPriorityEscalationLevelEntity.RtiCustomerSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.RtiCustomerSms
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  isExternal: true
+  name: ReplyTemplateIdUserSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdUserSms
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  isExternal: true
+  name: ReplyTemplateIdCatmastSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdCatmastSms
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  isExternal: true
+  name: ReplyTemplateIdSms
+  nameWithType: TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity.ReplyTemplateIdSms

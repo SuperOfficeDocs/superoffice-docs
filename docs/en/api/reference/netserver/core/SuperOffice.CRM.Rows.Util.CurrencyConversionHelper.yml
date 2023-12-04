@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency
   - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId
-  - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRow,SuperOffice.CRM.Rows.CurrencyRow)
+  - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
   - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,System.Double,System.Double,System.Double,System.Double)
   - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,System.Int32,System.Int32)
   - SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase(System.Double,System.Int32)
@@ -34,18 +34,13 @@ items:
   namespace: SuperOffice.CRM.Rows.Util
   summary: "\nCurrency conversions, the one-stop-shop. Methods and properties for determining whether\ncurrency is enabled, and for doing currency conversions.\n"
   syntax:
-    content: public static class CurrencyConversionHelper
-    content.vb: Public Module CurrencyConversionHelper
+    content: 'public static class CurrencyConversionHelper : Object'
+    content.vb: >-
+      Public Module CurrencyConversionHelper
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -94,16 +89,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRow,SuperOffice.CRM.Rows.CurrencyRow)
-  commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRow,SuperOffice.CRM.Rows.CurrencyRow)
-  id: ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRow,SuperOffice.CRM.Rows.CurrencyRow)
+- uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
+  commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
+  id: ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
   parent: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
   langs:
   - csharp
   - vb
-  name: ConvertAmount(Double, CurrencyRow, CurrencyRow)
-  nameWithType: CurrencyConversionHelper.ConvertAmount(Double, CurrencyRow, CurrencyRow)
-  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double, SuperOffice.CRM.Rows.CurrencyRow, SuperOffice.CRM.Rows.CurrencyRow)
+  name: ConvertAmount(Double, CurrencyRecordData, CurrencyRecordData)
+  nameWithType: CurrencyConversionHelper.ConvertAmount(Double, CurrencyRecordData, CurrencyRecordData)
+  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double, SuperOffice.CRM.Rows.CurrencyRecordData, SuperOffice.CRM.Rows.CurrencyRecordData)
   type: Method
   source:
     path: SoDataBase
@@ -113,21 +108,21 @@ items:
   namespace: SuperOffice.CRM.Rows.Util
   summary: "\nConvert an amount from one currency to another, based on currency rows of the currencies involved.\nThis method is silently fail-safe and will return the original amount unconverted if any errors occur\n(like missing currencies, rate=0 or other nasty things that can happen).\n"
   syntax:
-    content: public static double ConvertAmount(double amount, CurrencyRow from, CurrencyRow to)
+    content: public static double ConvertAmount(double amount, CurrencyRecordData from, CurrencyRecordData to)
     parameters:
     - id: amount
       type: System.Double
       description: Amount to convert
     - id: from
-      type: SuperOffice.CRM.Rows.CurrencyRow
-      description: Currency row to convert from
+      type: SuperOffice.CRM.Rows.CurrencyRecordData
+      description: Currency record to convert from
     - id: to
-      type: SuperOffice.CRM.Rows.CurrencyRow
-      description: Currency ro to convert to
+      type: SuperOffice.CRM.Rows.CurrencyRecordData
+      description: Currency record to convert to
     return:
       type: System.Double
       description: Converted amount, or original if anything went wrong (silent failure)
-    content.vb: Public Shared Function ConvertAmount(amount As Double, from As CurrencyRow, to As CurrencyRow) As Double
+    content.vb: Public Shared Function ConvertAmount(amount As Double, from As CurrencyRecordData, to As CurrencyRecordData) As Double
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount*
   modifiers.csharp:
   - public
@@ -433,11 +428,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
   syntax:
-    content: public static CurrencyRow HomeCountryCurrency { get; }
+    content: public static CurrencyRecordData HomeCountryCurrency { get; }
     parameters: []
     return:
-      type: SuperOffice.CRM.Rows.CurrencyRow
-    content.vb: Public Shared ReadOnly Property HomeCountryCurrency As CurrencyRow
+      type: SuperOffice.CRM.Rows.CurrencyRecordData
+    content.vb: Public Shared ReadOnly Property HomeCountryCurrency As CurrencyRecordData
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency*
   modifiers.csharp:
   - public
@@ -497,13 +492,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: "\nRetrieve the Currency row of the base currency; if it does not exist or currency is disabled, an empty (IsNew == true) row is returned\n"
+  summary: "\nRetrieve the Currency row of the base currency; if it does not exist or currency is disabled, null is returned\n"
   syntax:
-    content: public static CurrencyRow BaseCurrency { get; }
+    content: public static CurrencyRecordData BaseCurrency { get; }
     parameters: []
     return:
-      type: SuperOffice.CRM.Rows.CurrencyRow
-    content.vb: Public Shared ReadOnly Property BaseCurrency As CurrencyRow
+      type: SuperOffice.CRM.Rows.CurrencyRecordData
+    content.vb: Public Shared ReadOnly Property BaseCurrency As CurrencyRecordData
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency*
   modifiers.csharp:
   - public
@@ -530,13 +525,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: "\nRetrieve the Currency row of our currency; if it does not exist or currency is disabled, an empty (IsNew == true) row is returned\n"
+  summary: "\nRetrieve the Currency row of our currency; if it does not exist or currency is disabled, null is returned\n"
   syntax:
-    content: public static CurrencyRow OurCurrency { get; }
+    content: public static CurrencyRecordData OurCurrency { get; }
     parameters: []
     return:
-      type: SuperOffice.CRM.Rows.CurrencyRow
-    content.vb: Public Shared ReadOnly Property OurCurrency As CurrencyRow
+      type: SuperOffice.CRM.Rows.CurrencyRecordData
+    content.vb: Public Shared ReadOnly Property OurCurrency As CurrencyRecordData
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency*
   modifiers.csharp:
   - public
@@ -560,285 +555,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -865,13 +581,13 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: SuperOffice.CRM.Rows.CurrencyRow
-  commentId: T:SuperOffice.CRM.Rows.CurrencyRow
+- uid: SuperOffice.CRM.Rows.CurrencyRecordData
+  commentId: T:SuperOffice.CRM.Rows.CurrencyRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  name: CurrencyRow
-  nameWithType: CurrencyRow
-  fullName: SuperOffice.CRM.Rows.CurrencyRow
+  name: CurrencyRecordData
+  nameWithType: CurrencyRecordData
+  fullName: SuperOffice.CRM.Rows.CurrencyRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true

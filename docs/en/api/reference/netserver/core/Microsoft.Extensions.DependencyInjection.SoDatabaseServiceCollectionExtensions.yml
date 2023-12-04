@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
+  id: SoDatabaseServiceCollectionExtensions
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder})
+  langs:
+  - csharp
+  - vb
+  name: SoDatabaseServiceCollectionExtensions
+  nameWithType: SoDatabaseServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public static class SoDatabaseServiceCollectionExtensions : Object'
+    content.vb: >-
+      Public Module SoDatabaseServiceCollectionExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder})
+  commentId: M:Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder})
+  id: AddSoDatabase(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder})
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddSoDatabase(IServiceCollection, Action<NetServerLocalOptionsBuilder>)
+  nameWithType: SoDatabaseServiceCollectionExtensions.AddSoDatabase(IServiceCollection, Action<NetServerLocalOptionsBuilder>)
+  fullName: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: "\nSet up NetServer Local (SoDatabase).  This is independent of <see cref=\"!:SuperOffice.Configuration.ConfigFile.Services.DefaultMode\"></see>.\n"
+  syntax:
+    content: public static IServiceCollection AddSoDatabase(this IServiceCollection services, Action<NetServerLocalOptionsBuilder> builderAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: Service collection to configure
+    - id: builderAction
+      type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder}
+      description: Optional override of default behaviour
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddSoDatabase(services As IServiceCollection, builderAction As Action(Of NetServerLocalOptionsBuilder) = Nothing) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase*
+  nameWithType.vb: SoDatabaseServiceCollectionExtensions.AddSoDatabase(IServiceCollection, Action(Of NetServerLocalOptionsBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder))
+  name.vb: AddSoDatabase(IServiceCollection, Action(Of NetServerLocalOptionsBuilder))
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase
+  isExternal: true
+  name: AddSoDatabase
+  nameWithType: SoDatabaseServiceCollectionExtensions.AddSoDatabase
+  fullName: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.AddSoDatabase
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder}
+  commentId: '!:System.Action{Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder}'
+  definition: System.Action`1
+  name: Action<NetServerLocalOptionsBuilder>
+  nameWithType: Action<NetServerLocalOptionsBuilder>
+  fullName: System.Action<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder>
+  nameWithType.vb: Action(Of NetServerLocalOptionsBuilder)
+  fullName.vb: System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
+  name.vb: Action(Of NetServerLocalOptionsBuilder)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
+    name: NetServerLocalOptionsBuilder
+    nameWithType: NetServerLocalOptionsBuilder
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
+    name: NetServerLocalOptionsBuilder
+    nameWithType: NetServerLocalOptionsBuilder
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

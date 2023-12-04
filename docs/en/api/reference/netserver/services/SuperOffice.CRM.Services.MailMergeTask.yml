@@ -231,7 +231,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartDate As Date
+    content.vb: Public Overridable Property StartDate As DateTime
   overload: SuperOffice.CRM.Services.MailMergeTask.StartDate*
   modifiers.csharp:
   - public
@@ -512,13 +512,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.SelectionAgent
   commentId: T:SuperOffice.CRM.Services.SelectionAgent
   isExternal: true
@@ -532,12 +525,6 @@ references:
   name: ISelectionAgent
   nameWithType: ISelectionAgent
   fullName: SuperOffice.CRM.Services.ISelectionAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.MailMergeTask.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.#ctor
   isExternal: true
@@ -557,6 +544,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.MailMergeTask.ProjectId*
   commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.ProjectId
   isExternal: true
@@ -583,8 +576,6 @@ references:
   nameWithType: MailMergeTask.StartDate
   fullName: SuperOffice.CRM.Services.MailMergeTask.StartDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

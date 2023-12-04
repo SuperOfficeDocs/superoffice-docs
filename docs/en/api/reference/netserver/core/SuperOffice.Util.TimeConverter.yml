@@ -51,18 +51,13 @@ items:
   namespace: SuperOffice.Util
   summary: "\nUtility class for converting between superoffice time values (seconds after 1.1.1970) and .Net DateTime values\n"
   syntax:
-    content: public static class TimeConverter
-    content.vb: Public Module TimeConverter
+    content: 'public static class TimeConverter : Object'
+    content.vb: >-
+      Public Module TimeConverter
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -97,7 +92,7 @@ items:
     return:
       type: System.DateTime
       description: Local time DateTime converted to, which will have Kind = Local
-    content.vb: Public Shared Function TimeTUtc2DateTime(time As Integer) As Date
+    content.vb: Public Shared Function TimeTUtc2DateTime(time As Integer) As DateTime
   overload: SuperOffice.Util.TimeConverter.TimeTUtc2DateTime*
   modifiers.csharp:
   - public
@@ -132,7 +127,7 @@ items:
     return:
       type: System.DateTime
       description: Local-time DateTime converted to, which will have Kind = Local
-    content.vb: Public Shared Function TimeTLocal2DateTime(time As Integer) As Date
+    content.vb: Public Shared Function TimeTLocal2DateTime(time As Integer) As DateTime
   overload: SuperOffice.Util.TimeConverter.TimeTLocal2DateTime*
   modifiers.csharp:
   - public
@@ -202,7 +197,7 @@ items:
     return:
       type: System.Int32
       description: Seconds since UTC January 1st, 1970
-    content.vb: Public Shared Function DateTime2TimeTUtc(dateTime As Date) As Integer
+    content.vb: Public Shared Function DateTime2TimeTUtc(dateTime As DateTime) As Integer
   overload: SuperOffice.Util.TimeConverter.DateTime2TimeTUtc*
   modifiers.csharp:
   - public
@@ -237,7 +232,7 @@ items:
     return:
       type: System.Int32
       description: Seconds since local-time January 1st, 1970
-    content.vb: Public Shared Function DateTime2TimeTLocal(dateTime As Date) As Integer
+    content.vb: Public Shared Function DateTime2TimeTLocal(dateTime As DateTime) As Integer
   overload: SuperOffice.Util.TimeConverter.DateTime2TimeTLocal*
   modifiers.csharp:
   - public
@@ -274,7 +269,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function IsEdgeTime(time As Date) As Boolean
+      Public Shared Function IsEdgeTime(time As DateTime) As Boolean
   overload: SuperOffice.Util.TimeConverter.IsEdgeTime*
   modifiers.csharp:
   - public
@@ -311,7 +306,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function SnapToEdge(time As Date) As Date
+      Public Shared Function SnapToEdge(time As DateTime) As DateTime
   overload: SuperOffice.Util.TimeConverter.SnapToEdge*
   modifiers.csharp:
   - public
@@ -346,7 +341,7 @@ items:
     return:
       type: System.DateTime
       description: Base time
-    content.vb: Public Shared Function ConvertLocalToBase(localTime As Date) As Date
+    content.vb: Public Shared Function ConvertLocalToBase(localTime As DateTime) As DateTime
   overload: SuperOffice.Util.TimeConverter.ConvertLocalToBase*
   modifiers.csharp:
   - public
@@ -380,7 +375,7 @@ items:
     return:
       type: System.DateTime
       description: Local time, zone determined by the current context
-    content.vb: Public Shared Function ConvertBaseToLocal(baseTime As Date) As Date
+    content.vb: Public Shared Function ConvertBaseToLocal(baseTime As DateTime) As DateTime
   overload: SuperOffice.Util.TimeConverter.ConvertBaseToLocal*
   modifiers.csharp:
   - public
@@ -417,7 +412,7 @@ items:
     return:
       type: System.DateTime
       description: Database time
-    content.vb: Public Shared Function ConvertFromTimeZone(time As Date, sourceTZLocation As Integer) As Date
+    content.vb: Public Shared Function ConvertFromTimeZone(time As DateTime, sourceTZLocation As Integer) As DateTime
   overload: SuperOffice.Util.TimeConverter.ConvertFromTimeZone*
   modifiers.csharp:
   - public
@@ -452,7 +447,7 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ConvertToTimeZone(time As Date, destinationTZLocation As Integer) As Date
+    content.vb: Public Shared Function ConvertToTimeZone(time As DateTime, destinationTZLocation As Integer) As DateTime
   overload: SuperOffice.Util.TimeConverter.ConvertToTimeZone*
   modifiers.csharp:
   - public
@@ -486,7 +481,7 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ConvertToUTC(time As Date, sourceTZLocation As Integer) As Date
+    content.vb: Public Shared Function ConvertToUTC(time As DateTime, sourceTZLocation As Integer) As DateTime
   overload: SuperOffice.Util.TimeConverter.ConvertToUTC*
   modifiers.csharp:
   - public
@@ -518,7 +513,7 @@ items:
       type: System.DateTime
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ConvertFromBaseToUTC(time As Date) As Date
+    content.vb: Public Shared Function ConvertFromBaseToUTC(time As DateTime) As DateTime
   overload: SuperOffice.Util.TimeConverter.ConvertFromBaseToUTC*
   modifiers.csharp:
   - public
@@ -552,7 +547,7 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ConvertFromUTC(time As Date, destinationTZLocation As Integer) As Date
+    content.vb: Public Shared Function ConvertFromUTC(time As DateTime, destinationTZLocation As Integer) As DateTime
   overload: SuperOffice.Util.TimeConverter.ConvertFromUTC*
   modifiers.csharp:
   - public
@@ -749,7 +744,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property MinDate As Date
+    content.vb: Public Shared ReadOnly Property MinDate As DateTime
   overload: SuperOffice.Util.TimeConverter.MinDate*
   modifiers.csharp:
   - public
@@ -782,7 +777,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property MaxDate As Date
+    content.vb: Public Shared ReadOnly Property MaxDate As DateTime
   overload: SuperOffice.Util.TimeConverter.MaxDate*
   modifiers.csharp:
   - public
@@ -815,7 +810,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property MinDateUtc As Date
+    content.vb: Public Shared ReadOnly Property MinDateUtc As DateTime
   overload: SuperOffice.Util.TimeConverter.MinDateUtc*
   modifiers.csharp:
   - public
@@ -848,7 +843,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property MaxDateUtc As Date
+    content.vb: Public Shared ReadOnly Property MaxDateUtc As DateTime
   overload: SuperOffice.Util.TimeConverter.MaxDateUtc*
   modifiers.csharp:
   - public
@@ -881,7 +876,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Shared ReadOnly Property YearZero As Date
+    content.vb: Public Shared ReadOnly Property YearZero As DateTime
   overload: SuperOffice.Util.TimeConverter.YearZero*
   modifiers.csharp:
   - public
@@ -943,26 +938,12 @@ items:
   namespace: SuperOffice.Util
   summary: "\nDictionary of TimeZoneData indexed on locationID\n"
   syntax:
-    content: >-
-      [Obsolete("Use GetTimeZoneDataById", true)]
-
-      public static Dictionary<int, TimeZoneData> TimeZoneDataById { get; }
+    content: public static Dictionary<int, TimeZoneData> TimeZoneDataById { get; }
     parameters: []
     return:
       type: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.TimeZoneData}
-    content.vb: >-
-      <Obsolete("Use GetTimeZoneDataById", True)>
-
-      Public Shared ReadOnly Property TimeZoneDataById As Dictionary(Of Integer, TimeZoneData)
+    content.vb: Public Shared ReadOnly Property TimeZoneDataById As Dictionary(Of Integer, TimeZoneData)
   overload: SuperOffice.Util.TimeConverter.TimeZoneDataById*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use GetTimeZoneDataById
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -990,26 +971,12 @@ items:
   namespace: SuperOffice.Util
   summary: "\nDictionary of TimeZoneData indexed on location code\n"
   syntax:
-    content: >-
-      [Obsolete("Use GetTimeZoneDataByCode", true)]
-
-      public static Dictionary<string, TimeZoneData> TimeZoneDataByCode { get; }
+    content: public static Dictionary<string, TimeZoneData> TimeZoneDataByCode { get; }
     parameters: []
     return:
       type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.TimeZoneData}
-    content.vb: >-
-      <Obsolete("Use GetTimeZoneDataByCode", True)>
-
-      Public Shared ReadOnly Property TimeZoneDataByCode As Dictionary(Of String, TimeZoneData)
+    content.vb: Public Shared ReadOnly Property TimeZoneDataByCode As Dictionary(Of String, TimeZoneData)
   overload: SuperOffice.Util.TimeConverter.TimeZoneDataByCode*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use GetTimeZoneDataByCode
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -1035,7 +1002,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: "\nThe base time <xref href=\"SuperOffice.Util.TimeConverter.TimeZoneData\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  summary: "\nThe base time <xref href=\"SuperOffice.Util.TimeConverter.TimeZoneData\" data-throw-if-not-resolved=\"false\"></xref>.\nNULL if time zones are not enabled.\n"
   syntax:
     content: public static TimeZoneData BaseTimeZoneData { get; }
     parameters: []
@@ -1163,285 +1130,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1462,8 +1150,6 @@ references:
   nameWithType: Int32
   fullName: System.Int32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1672,8 +1358,7 @@ references:
   nameWithType: TimeConverter.TimeZoneDataById
   fullName: SuperOffice.Util.TimeConverter.TimeZoneDataById
 - uid: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.TimeZoneData}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.TimeZoneData}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.TimeZoneData}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, TimeZoneData>
   nameWithType: Dictionary<Int32, TimeZoneData>
@@ -1732,14 +1417,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -1749,15 +1433,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1770,24 +1454,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Util.TimeConverter.TimeZoneDataByCode*
   commentId: Overload:SuperOffice.Util.TimeConverter.TimeZoneDataByCode
   isExternal: true
@@ -1795,8 +1473,7 @@ references:
   nameWithType: TimeConverter.TimeZoneDataByCode
   fullName: SuperOffice.Util.TimeConverter.TimeZoneDataByCode
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.TimeZoneData}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.TimeZoneData}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.TimeZoneData}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, TimeZoneData>
   nameWithType: Dictionary<String, TimeZoneData>

@@ -881,19 +881,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.#ctor
   isExternal: true
@@ -913,6 +900,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory
   isExternal: true

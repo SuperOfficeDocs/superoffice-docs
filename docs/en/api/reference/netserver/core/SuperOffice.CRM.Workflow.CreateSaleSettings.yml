@@ -1,0 +1,854 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings
+  commentId: T:SuperOffice.CRM.Workflow.CreateSaleSettings
+  id: CreateSaleSettings
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.#ctor
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.Amount
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.Currency
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.Description
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.Project
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.Stage
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.Title
+  langs:
+  - csharp
+  - vb
+  name: CreateSaleSettings
+  nameWithType: CreateSaleSettings
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class CreateSaleSettings : StepSettings'
+    content.vb: >-
+      Public Class CreateSaleSettings
+
+          Inherits StepSettings
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Workflow.StepSettings
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.CreateSaleSettings)
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.CreateSaleSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.CreateSaleSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: CreateSaleSettings()
+  nameWithType: CreateSaleSettings.CreateSaleSettings()
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.CreateSaleSettings()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public CreateSaleSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: CreateSaleSettings.AssociateId
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate
+  id: SaleDate
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: SaleDate
+  nameWithType: CreateSaleSettings.SaleDate
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public DateTime SaleDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SaleDate As DateTime
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Title
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.Title
+  id: Title
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CreateSaleSettings.Title
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Title
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType
+  id: SaleType
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: SaleType
+  nameWithType: CreateSaleSettings.SaleType
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int SaleType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleType As Integer
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Stage
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.Stage
+  id: Stage
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: CreateSaleSettings.Stage
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Stage
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Stage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Stage As Integer
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.Stage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Amount
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.Amount
+  id: Amount
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: CreateSaleSettings.Amount
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Amount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public double Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Amount As Double
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.Amount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Currency
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.Currency
+  id: Currency
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: CreateSaleSettings.Currency
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Currency
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Currency { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Currency As Integer
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.Currency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Description
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.Description
+  id: Description
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CreateSaleSettings.Description
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Description
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Project
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.Project
+  id: Project
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: CreateSaleSettings.Project
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Project
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int Project { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Project As Integer
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.Project*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType
+  commentId: P:SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType
+  id: SaleDateType
+  parent: SuperOffice.CRM.Workflow.CreateSaleSettings
+  langs:
+  - csharp
+  - vb
+  name: SaleDateType
+  nameWithType: CreateSaleSettings.SaleDateType
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public WorkflowSaleDateType SaleDateType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowSaleDateType
+    content.vb: Public Property SaleDateType As WorkflowSaleDateType
+  overload: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.StepSettings
+  commentId: T:SuperOffice.CRM.Workflow.StepSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: StepSettings
+  nameWithType: StepSettings
+  fullName: SuperOffice.CRM.Workflow.StepSettings
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CreateSaleSettings, To>()
+  nameWithType: EnumUtil.MapEnums<CreateSaleSettings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.CreateSaleSettings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CreateSaleSettings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.CreateSaleSettings, To)()
+  name.vb: MapEnums(Of CreateSaleSettings, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CreateSaleSettings, To>
+    nameWithType: EnumUtil.MapEnums<CreateSaleSettings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.CreateSaleSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CreateSaleSettings, To)
+    nameWithType: EnumUtil.MapEnums(Of CreateSaleSettings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.CreateSaleSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.CreateSaleSettings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CreateSaleSettings>(CreateSaleSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<CreateSaleSettings>(CreateSaleSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.CreateSaleSettings>(SuperOffice.CRM.Workflow.CreateSaleSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CreateSaleSettings)(CreateSaleSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.CreateSaleSettings)(SuperOffice.CRM.Workflow.CreateSaleSettings)
+  name.vb: AssignByReflection(Of CreateSaleSettings)(CreateSaleSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CreateSaleSettings>
+    nameWithType: ObjectExtensions.AssignByReflection<CreateSaleSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.CreateSaleSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.CreateSaleSettings
+    name: CreateSaleSettings
+    nameWithType: CreateSaleSettings
+    fullName: SuperOffice.CRM.Workflow.CreateSaleSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CreateSaleSettings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CreateSaleSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.CreateSaleSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.CreateSaleSettings
+    name: CreateSaleSettings
+    nameWithType: CreateSaleSettings
+    fullName: SuperOffice.CRM.Workflow.CreateSaleSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CreateSaleSettings>()
+  nameWithType: ObjectExtensions.GraphCopy<CreateSaleSettings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.CreateSaleSettings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CreateSaleSettings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.CreateSaleSettings)()
+  name.vb: GraphCopy(Of CreateSaleSettings)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CreateSaleSettings>
+    nameWithType: ObjectExtensions.GraphCopy<CreateSaleSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.CreateSaleSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CreateSaleSettings)
+    nameWithType: ObjectExtensions.GraphCopy(Of CreateSaleSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.CreateSaleSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CreateSaleSettings, To>()
+  nameWithType: Converters.MapEnums<CreateSaleSettings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.CreateSaleSettings, To>()
+  nameWithType.vb: Converters.MapEnums(Of CreateSaleSettings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.CreateSaleSettings, To)()
+  name.vb: MapEnums(Of CreateSaleSettings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CreateSaleSettings, To>
+    nameWithType: Converters.MapEnums<CreateSaleSettings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.CreateSaleSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CreateSaleSettings, To)
+    nameWithType: Converters.MapEnums(Of CreateSaleSettings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.CreateSaleSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.#ctor
+  isExternal: true
+  name: CreateSaleSettings
+  nameWithType: CreateSaleSettings.CreateSaleSettings
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.CreateSaleSettings
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: CreateSaleSettings.AssociateId
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate
+  isExternal: true
+  name: SaleDate
+  nameWithType: CreateSaleSettings.SaleDate
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Title*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.Title
+  isExternal: true
+  name: Title
+  nameWithType: CreateSaleSettings.Title
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType
+  isExternal: true
+  name: SaleType
+  nameWithType: CreateSaleSettings.SaleType
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleType
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Stage*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.Stage
+  isExternal: true
+  name: Stage
+  nameWithType: CreateSaleSettings.Stage
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Stage
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Amount*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.Amount
+  isExternal: true
+  name: Amount
+  nameWithType: CreateSaleSettings.Amount
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Amount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Currency*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: CreateSaleSettings.Currency
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Currency
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Description*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.Description
+  isExternal: true
+  name: Description
+  nameWithType: CreateSaleSettings.Description
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Description
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.Project*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.Project
+  isExternal: true
+  name: Project
+  nameWithType: CreateSaleSettings.Project
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.Project
+- uid: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType*
+  commentId: Overload:SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType
+  isExternal: true
+  name: SaleDateType
+  nameWithType: CreateSaleSettings.SaleDateType
+  fullName: SuperOffice.CRM.Workflow.CreateSaleSettings.SaleDateType
+- uid: SuperOffice.Data.WorkflowSaleDateType
+  commentId: T:SuperOffice.Data.WorkflowSaleDateType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowSaleDateType
+  nameWithType: WorkflowSaleDateType
+  fullName: SuperOffice.Data.WorkflowSaleDateType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data

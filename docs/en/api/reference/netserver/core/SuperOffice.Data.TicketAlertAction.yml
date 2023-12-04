@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TicketAlertAction
+  commentId: T:SuperOffice.Data.TicketAlertAction
+  id: TicketAlertAction
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TicketAlertAction.ActionDelegate
+  - SuperOffice.Data.TicketAlertAction.ActionEmail
+  - SuperOffice.Data.TicketAlertAction.ActionEmailCategoryMaster
+  - SuperOffice.Data.TicketAlertAction.ActionEmailCustomer
+  - SuperOffice.Data.TicketAlertAction.ActionEmailUser
+  - SuperOffice.Data.TicketAlertAction.ActionScript
+  - SuperOffice.Data.TicketAlertAction.ActionSms
+  - SuperOffice.Data.TicketAlertAction.ActionSmsCategoryMaster
+  - SuperOffice.Data.TicketAlertAction.ActionSmsCustomer
+  - SuperOffice.Data.TicketAlertAction.ActionSmsUser
+  - SuperOffice.Data.TicketAlertAction.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketAlertAction
+  nameWithType: TicketAlertAction
+  fullName: SuperOffice.Data.TicketAlertAction
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nBitmask available ticket alert action\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class TicketAlertAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketAlertAction
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.TicketAlertAction.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TicketAlertAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketAlertAction.value__
+  commentId: F:SuperOffice.Data.TicketAlertAction.value__
+  id: value__
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketAlertAction.value__
+  fullName: SuperOffice.Data.TicketAlertAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.TicketAlertAction.ActionDelegate
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionDelegate
+  id: ActionDelegate
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionDelegate
+  nameWithType: TicketAlertAction.ActionDelegate
+  fullName: SuperOffice.Data.TicketAlertAction.ActionDelegate
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Controls Reassign\n"
+  syntax:
+    content: public const TicketAlertAction ActionDelegate
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionDelegate As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionEmail
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionEmail
+  id: ActionEmail
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionEmail
+  nameWithType: TicketAlertAction.ActionEmail
+  fullName: SuperOffice.Data.TicketAlertAction.ActionEmail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Controls Email others\n"
+  syntax:
+    content: public const TicketAlertAction ActionEmail
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionEmail As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionEmailCustomer
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionEmailCustomer
+  id: ActionEmailCustomer
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionEmailCustomer
+  nameWithType: TicketAlertAction.ActionEmailCustomer
+  fullName: SuperOffice.Data.TicketAlertAction.ActionEmailCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Controls Email Contact\n"
+  syntax:
+    content: public const TicketAlertAction ActionEmailCustomer
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionEmailCustomer As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionEmailUser
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionEmailUser
+  id: ActionEmailUser
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionEmailUser
+  nameWithType: TicketAlertAction.ActionEmailUser
+  fullName: SuperOffice.Data.TicketAlertAction.ActionEmailUser
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Controls Email User\n"
+  syntax:
+    content: public const TicketAlertAction ActionEmailUser
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionEmailUser As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionEmailCategoryMaster
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionEmailCategoryMaster
+  id: ActionEmailCategoryMaster
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionEmailCategoryMaster
+  nameWithType: TicketAlertAction.ActionEmailCategoryMaster
+  fullName: SuperOffice.Data.TicketAlertAction.ActionEmailCategoryMaster
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n32: Controls Email Category administrator\n"
+  syntax:
+    content: public const TicketAlertAction ActionEmailCategoryMaster
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionEmailCategoryMaster As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionSms
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionSms
+  id: ActionSms
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionSms
+  nameWithType: TicketAlertAction.ActionSms
+  fullName: SuperOffice.Data.TicketAlertAction.ActionSms
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n64: Controls SMS others\n"
+  syntax:
+    content: public const TicketAlertAction ActionSms
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionSms As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionSmsCustomer
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionSmsCustomer
+  id: ActionSmsCustomer
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionSmsCustomer
+  nameWithType: TicketAlertAction.ActionSmsCustomer
+  fullName: SuperOffice.Data.TicketAlertAction.ActionSmsCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n128: Controls SMS Contact\n"
+  syntax:
+    content: public const TicketAlertAction ActionSmsCustomer
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionSmsCustomer As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionSmsUser
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionSmsUser
+  id: ActionSmsUser
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionSmsUser
+  nameWithType: TicketAlertAction.ActionSmsUser
+  fullName: SuperOffice.Data.TicketAlertAction.ActionSmsUser
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n256: Controls SMS User\n"
+  syntax:
+    content: public const TicketAlertAction ActionSmsUser
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionSmsUser As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionSmsCategoryMaster
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionSmsCategoryMaster
+  id: ActionSmsCategoryMaster
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionSmsCategoryMaster
+  nameWithType: TicketAlertAction.ActionSmsCategoryMaster
+  fullName: SuperOffice.Data.TicketAlertAction.ActionSmsCategoryMaster
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n512: Controls SMS Category administrator\n"
+  syntax:
+    content: public const TicketAlertAction ActionSmsCategoryMaster
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionSmsCategoryMaster As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketAlertAction.ActionScript
+  commentId: F:SuperOffice.Data.TicketAlertAction.ActionScript
+  id: ActionScript
+  parent: SuperOffice.Data.TicketAlertAction
+  langs:
+  - csharp
+  - vb
+  name: ActionScript
+  nameWithType: TicketAlertAction.ActionScript
+  fullName: SuperOffice.Data.TicketAlertAction.ActionScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1024: Controls Script\n"
+  syntax:
+    content: public const TicketAlertAction ActionScript
+    return:
+      type: SuperOffice.Data.TicketAlertAction
+    content.vb: Public Const ActionScript As TicketAlertAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.TicketAlertAction.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketAlertAction, To>()
+  nameWithType: EnumUtil.MapEnums<TicketAlertAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketAlertAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketAlertAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketAlertAction, To)()
+  name.vb: MapEnums(Of TicketAlertAction, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketAlertAction, To>
+    nameWithType: EnumUtil.MapEnums<TicketAlertAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketAlertAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketAlertAction, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketAlertAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketAlertAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TicketAlertAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketAlertAction, To>()
+  nameWithType: Converters.MapEnums<TicketAlertAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketAlertAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketAlertAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketAlertAction, To)()
+  name.vb: MapEnums(Of TicketAlertAction, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketAlertAction, To>
+    nameWithType: Converters.MapEnums<TicketAlertAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketAlertAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketAlertAction, To)
+    nameWithType: Converters.MapEnums(Of TicketAlertAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketAlertAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.TicketAlertAction
+  commentId: T:SuperOffice.Data.TicketAlertAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketAlertAction
+  nameWithType: TicketAlertAction
+  fullName: SuperOffice.Data.TicketAlertAction

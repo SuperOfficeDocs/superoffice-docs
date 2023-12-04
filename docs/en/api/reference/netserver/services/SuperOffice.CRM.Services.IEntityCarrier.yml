@@ -110,7 +110,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property CreatedDate As Date
+    content.vb: Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate*
   modifiers.csharp:
   - get
@@ -138,7 +138,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property UpdatedDate As Date
+    content.vb: Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate*
   modifiers.csharp:
   - get
@@ -176,18 +176,10 @@ references:
   nameWithType: IEntityCarrier.CreatedDate
   fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
   isExternal: true

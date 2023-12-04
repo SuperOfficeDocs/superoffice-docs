@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Attachment
+  commentId: N:SuperOffice.CRM.Attachment
+  id: SuperOffice.CRM.Attachment
+  children:
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  - SuperOffice.CRM.Attachment.AttachmentHelper
+  - SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  - SuperOffice.CRM.Attachment.AttachmentPluginFactory
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Attachment
+  nameWithType: SuperOffice.CRM.Attachment
+  fullName: SuperOffice.CRM.Attachment
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  commentId: T:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  isExternal: true
+  name: AttachmentFilesystemPlugin
+  nameWithType: AttachmentFilesystemPlugin
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+- uid: SuperOffice.CRM.Attachment.AttachmentHelper
+  commentId: T:SuperOffice.CRM.Attachment.AttachmentHelper
+  isExternal: true
+  name: AttachmentHelper
+  nameWithType: AttachmentHelper
+  fullName: SuperOffice.CRM.Attachment.AttachmentHelper
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginFactory
+  commentId: T:SuperOffice.CRM.Attachment.AttachmentPluginFactory
+  isExternal: true
+  name: AttachmentPluginFactory
+  nameWithType: AttachmentPluginFactory
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginFactory
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  commentId: T:SuperOffice.CRM.Attachment.IAttachmentPlugin
+  parent: SuperOffice.CRM.Attachment
+  isExternal: true
+  name: IAttachmentPlugin
+  nameWithType: IAttachmentPlugin
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  commentId: T:SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  parent: SuperOffice.CRM.Attachment
+  isExternal: true
+  name: AttachmentPluginAttribute
+  nameWithType: AttachmentPluginAttribute
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+- uid: SuperOffice.CRM.Attachment
+  commentId: N:SuperOffice.CRM.Attachment
+  isExternal: true
+  name: SuperOffice.CRM.Attachment
+  nameWithType: SuperOffice.CRM.Attachment
+  fullName: SuperOffice.CRM.Attachment

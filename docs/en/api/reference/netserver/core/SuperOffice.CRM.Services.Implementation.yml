@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Services.Implementation.ServiceLogger
   - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
   - SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
+  - SuperOffice.CRM.Services.Implementation.UsageCalculator
   langs:
   - csharp
   - vb
@@ -57,6 +58,13 @@ references:
   name: ServiceDatabaseResourceLoggerContext
   nameWithType: ServiceDatabaseResourceLoggerContext
   fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
+- uid: SuperOffice.CRM.Services.Implementation.UsageCalculator
+  commentId: T:SuperOffice.CRM.Services.Implementation.UsageCalculator
+  parent: SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: UsageCalculator
+  nameWithType: UsageCalculator
+  fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator
 - uid: SuperOffice.CRM.Services.Implementation
   commentId: N:SuperOffice.CRM.Services.Implementation
   isExternal: true

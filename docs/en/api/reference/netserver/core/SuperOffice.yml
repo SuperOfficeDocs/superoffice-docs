@@ -12,6 +12,7 @@ items:
   - SuperOffice.NetServerVersion
   - SuperOffice.OperationContextType
   - SuperOffice.Pair`2
+  - SuperOffice.ServiceConstants
   - SuperOffice.SoContext
   - SuperOffice.SoDatabaseContext
   - SuperOffice.SoDatabaseContext.DatabaseContext
@@ -44,12 +45,26 @@ references:
   name: ListNameConstants
   nameWithType: ListNameConstants
   fullName: SuperOffice.ListNameConstants
+- uid: SuperOffice.NetServerBuildType
+  commentId: T:SuperOffice.NetServerBuildType
+  parent: SuperOffice
+  isExternal: true
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: SuperOffice.NetServerBuildType
 - uid: SuperOffice.NetServerVersion
   commentId: T:SuperOffice.NetServerVersion
   isExternal: true
   name: NetServerVersion
   nameWithType: NetServerVersion
   fullName: SuperOffice.NetServerVersion
+- uid: SuperOffice.UpgradeStatus
+  commentId: T:SuperOffice.UpgradeStatus
+  parent: SuperOffice
+  isExternal: true
+  name: UpgradeStatus
+  nameWithType: UpgradeStatus
+  fullName: SuperOffice.UpgradeStatus
 - uid: SuperOffice.Pair`2
   commentId: T:SuperOffice.Pair`2
   isExternal: true
@@ -101,6 +116,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.ServiceConstants
+  commentId: T:SuperOffice.ServiceConstants
+  isExternal: true
+  name: ServiceConstants
+  nameWithType: ServiceConstants
+  fullName: SuperOffice.ServiceConstants
 - uid: SuperOffice.SoContext
   commentId: T:SuperOffice.SoContext
   isExternal: true
@@ -207,20 +228,6 @@ references:
   name: UserPreferenceDefaults
   nameWithType: UserPreferenceDefaults
   fullName: SuperOffice.UserPreferenceDefaults
-- uid: SuperOffice.NetServerBuildType
-  commentId: T:SuperOffice.NetServerBuildType
-  parent: SuperOffice
-  isExternal: true
-  name: NetServerBuildType
-  nameWithType: NetServerBuildType
-  fullName: SuperOffice.NetServerBuildType
-- uid: SuperOffice.UpgradeStatus
-  commentId: T:SuperOffice.UpgradeStatus
-  parent: SuperOffice
-  isExternal: true
-  name: UpgradeStatus
-  nameWithType: UpgradeStatus
-  fullName: SuperOffice.UpgradeStatus
 - uid: SuperOffice.DoneNotDoneSplitter`2
   commentId: T:SuperOffice.DoneNotDoneSplitter`2
   isExternal: true

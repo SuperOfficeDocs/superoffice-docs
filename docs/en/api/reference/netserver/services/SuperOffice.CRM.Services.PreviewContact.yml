@@ -1,0 +1,672 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PreviewContact
+  commentId: T:SuperOffice.CRM.Services.PreviewContact
+  id: PreviewContact
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PreviewContact.#ctor
+  - SuperOffice.CRM.Services.PreviewContact.Address
+  - SuperOffice.CRM.Services.PreviewContact.AssociateFullName
+  - SuperOffice.CRM.Services.PreviewContact.BusinessName
+  - SuperOffice.CRM.Services.PreviewContact.CategoryName
+  - SuperOffice.CRM.Services.PreviewContact.ContactId
+  - SuperOffice.CRM.Services.PreviewContact.CountryId
+  - SuperOffice.CRM.Services.PreviewContact.Department
+  - SuperOffice.CRM.Services.PreviewContact.DirectPhone
+  - SuperOffice.CRM.Services.PreviewContact.EmailAddress
+  - SuperOffice.CRM.Services.PreviewContact.Name
+  - SuperOffice.CRM.Services.PreviewContact.Number2
+  - SuperOffice.CRM.Services.PreviewContact.ToString
+  - SuperOffice.CRM.Services.PreviewContact.ToString(System.String)
+  - SuperOffice.CRM.Services.PreviewContact.URL
+  langs:
+  - csharp
+  - vb
+  name: PreviewContact
+  nameWithType: PreviewContact
+  fullName: SuperOffice.CRM.Services.PreviewContact
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact preview\n<p></p>\nCarrier object for PreviewContact.\nServices for the PreviewContact Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IContactAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class PreviewContact : Object'
+    content.vb: >-
+      Public Class PreviewContact
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ContactAgent
+    commentId: T:SuperOffice.CRM.Services.ContactAgent
+  - linkId: SuperOffice.CRM.Services.IContactAgent
+    commentId: T:SuperOffice.CRM.Services.IContactAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PreviewContact.#ctor
+  commentId: M:SuperOffice.CRM.Services.PreviewContact.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: PreviewContact()
+  nameWithType: PreviewContact.PreviewContact()
+  fullName: SuperOffice.CRM.Services.PreviewContact.PreviewContact()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PreviewContact()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PreviewContact.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreviewContact.ToString
+  commentId: M:SuperOffice.CRM.Services.PreviewContact.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PreviewContact.ToString()
+  fullName: SuperOffice.CRM.Services.PreviewContact.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PreviewContact.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PreviewContact.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PreviewContact.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PreviewContact.ToString(String)
+  fullName: SuperOffice.CRM.Services.PreviewContact.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PreviewContact.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreviewContact.ContactId
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: PreviewContact.ContactId
+  fullName: SuperOffice.CRM.Services.PreviewContact.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.PreviewContact.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.Name
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PreviewContact.Name
+  fullName: SuperOffice.CRM.Services.PreviewContact.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact name \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.PreviewContact.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.Department
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.Department
+  id: Department
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: PreviewContact.Department
+  fullName: SuperOffice.CRM.Services.PreviewContact.Department
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDepartment \n"
+  syntax:
+    content: public virtual string Department { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Department As String
+  overload: SuperOffice.CRM.Services.PreviewContact.Department*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.CountryId
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: PreviewContact.CountryId
+  fullName: SuperOffice.CRM.Services.PreviewContact.CountryId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCountry \n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.CRM.Services.PreviewContact.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.Number2
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.Number2
+  id: Number2
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: Number2
+  nameWithType: PreviewContact.Number2
+  fullName: SuperOffice.CRM.Services.PreviewContact.Number2
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAlphanumeric user field \n"
+  syntax:
+    content: public virtual string Number2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Number2 As String
+  overload: SuperOffice.CRM.Services.PreviewContact.Number2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.DirectPhone
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.DirectPhone
+  id: DirectPhone
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: DirectPhone
+  nameWithType: PreviewContact.DirectPhone
+  fullName: SuperOffice.CRM.Services.PreviewContact.DirectPhone
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contacts phone \n"
+  syntax:
+    content: public virtual string DirectPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DirectPhone As String
+  overload: SuperOffice.CRM.Services.PreviewContact.DirectPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.URL
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.URL
+  id: URL
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: PreviewContact.URL
+  fullName: SuperOffice.CRM.Services.PreviewContact.URL
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe internet address to this contact \n"
+  syntax:
+    content: public virtual string URL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property URL As String
+  overload: SuperOffice.CRM.Services.PreviewContact.URL*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.EmailAddress
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: PreviewContact.EmailAddress
+  fullName: SuperOffice.CRM.Services.PreviewContact.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact email address \n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.CRM.Services.PreviewContact.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.BusinessName
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.BusinessName
+  id: BusinessName
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: BusinessName
+  nameWithType: PreviewContact.BusinessName
+  fullName: SuperOffice.CRM.Services.PreviewContact.BusinessName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe business list item name \n"
+  syntax:
+    content: public virtual string BusinessName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BusinessName As String
+  overload: SuperOffice.CRM.Services.PreviewContact.BusinessName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.CategoryName
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.CategoryName
+  id: CategoryName
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: CategoryName
+  nameWithType: PreviewContact.CategoryName
+  fullName: SuperOffice.CRM.Services.PreviewContact.CategoryName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe category list item name \n"
+  syntax:
+    content: public virtual string CategoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CategoryName As String
+  overload: SuperOffice.CRM.Services.PreviewContact.CategoryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.AssociateFullName
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.AssociateFullName
+  id: AssociateFullName
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullName
+  nameWithType: PreviewContact.AssociateFullName
+  fullName: SuperOffice.CRM.Services.PreviewContact.AssociateFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate&apos;s culture formatted fullname (firstname, middleName and lastname) \n"
+  syntax:
+    content: public virtual string AssociateFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssociateFullName As String
+  overload: SuperOffice.CRM.Services.PreviewContact.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewContact.Address
+  commentId: P:SuperOffice.CRM.Services.PreviewContact.Address
+  id: Address
+  parent: SuperOffice.CRM.Services.PreviewContact
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: PreviewContact.Address
+  fullName: SuperOffice.CRM.Services.PreviewContact.Address
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact address as a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display.  \n"
+  syntax:
+    content: public virtual Address Address { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Address
+    content.vb: Public Overridable Property Address As Address
+  overload: SuperOffice.CRM.Services.PreviewContact.Address*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ContactAgent
+  commentId: T:SuperOffice.CRM.Services.ContactAgent
+  isExternal: true
+  name: ContactAgent
+  nameWithType: ContactAgent
+  fullName: SuperOffice.CRM.Services.ContactAgent
+- uid: SuperOffice.CRM.Services.IContactAgent
+  commentId: T:SuperOffice.CRM.Services.IContactAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IContactAgent
+  nameWithType: IContactAgent
+  fullName: SuperOffice.CRM.Services.IContactAgent
+- uid: SuperOffice.CRM.Services.PreviewContact.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.#ctor
+  isExternal: true
+  name: PreviewContact
+  nameWithType: PreviewContact.PreviewContact
+  fullName: SuperOffice.CRM.Services.PreviewContact.PreviewContact
+- uid: SuperOffice.CRM.Services.PreviewContact.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PreviewContact.ToString
+  fullName: SuperOffice.CRM.Services.PreviewContact.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PreviewContact.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: PreviewContact.ContactId
+  fullName: SuperOffice.CRM.Services.PreviewContact.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PreviewContact.Name*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.Name
+  isExternal: true
+  name: Name
+  nameWithType: PreviewContact.Name
+  fullName: SuperOffice.CRM.Services.PreviewContact.Name
+- uid: SuperOffice.CRM.Services.PreviewContact.Department*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.Department
+  isExternal: true
+  name: Department
+  nameWithType: PreviewContact.Department
+  fullName: SuperOffice.CRM.Services.PreviewContact.Department
+- uid: SuperOffice.CRM.Services.PreviewContact.CountryId*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: PreviewContact.CountryId
+  fullName: SuperOffice.CRM.Services.PreviewContact.CountryId
+- uid: SuperOffice.CRM.Services.PreviewContact.Number2*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.Number2
+  isExternal: true
+  name: Number2
+  nameWithType: PreviewContact.Number2
+  fullName: SuperOffice.CRM.Services.PreviewContact.Number2
+- uid: SuperOffice.CRM.Services.PreviewContact.DirectPhone*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.DirectPhone
+  isExternal: true
+  name: DirectPhone
+  nameWithType: PreviewContact.DirectPhone
+  fullName: SuperOffice.CRM.Services.PreviewContact.DirectPhone
+- uid: SuperOffice.CRM.Services.PreviewContact.URL*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.URL
+  isExternal: true
+  name: URL
+  nameWithType: PreviewContact.URL
+  fullName: SuperOffice.CRM.Services.PreviewContact.URL
+- uid: SuperOffice.CRM.Services.PreviewContact.EmailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: PreviewContact.EmailAddress
+  fullName: SuperOffice.CRM.Services.PreviewContact.EmailAddress
+- uid: SuperOffice.CRM.Services.PreviewContact.BusinessName*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.BusinessName
+  isExternal: true
+  name: BusinessName
+  nameWithType: PreviewContact.BusinessName
+  fullName: SuperOffice.CRM.Services.PreviewContact.BusinessName
+- uid: SuperOffice.CRM.Services.PreviewContact.CategoryName*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.CategoryName
+  isExternal: true
+  name: CategoryName
+  nameWithType: PreviewContact.CategoryName
+  fullName: SuperOffice.CRM.Services.PreviewContact.CategoryName
+- uid: SuperOffice.CRM.Services.PreviewContact.AssociateFullName*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.AssociateFullName
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: PreviewContact.AssociateFullName
+  fullName: SuperOffice.CRM.Services.PreviewContact.AssociateFullName
+- uid: SuperOffice.CRM.Services.PreviewContact.Address*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewContact.Address
+  isExternal: true
+  name: Address
+  nameWithType: PreviewContact.Address
+  fullName: SuperOffice.CRM.Services.PreviewContact.Address
+- uid: SuperOffice.CRM.Services.Address
+  commentId: T:SuperOffice.CRM.Services.Address
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Address
+  nameWithType: Address
+  fullName: SuperOffice.CRM.Services.Address

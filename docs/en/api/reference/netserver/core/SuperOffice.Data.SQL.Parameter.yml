@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.SQL.Parameter.#ctor(System.DBNull,System.Boolean)
   - SuperOffice.Data.SQL.Parameter.#ctor(System.Double)
   - SuperOffice.Data.SQL.Parameter.#ctor(System.Double,System.Boolean)
+  - SuperOffice.Data.SQL.Parameter.#ctor(System.Int16,System.Boolean)
   - SuperOffice.Data.SQL.Parameter.#ctor(System.Int32)
   - SuperOffice.Data.SQL.Parameter.#ctor(System.Int32,System.Boolean)
   - SuperOffice.Data.SQL.Parameter.#ctor(System.IO.Stream)
@@ -49,7 +50,9 @@ items:
     content: 'public sealed class Parameter : Argument, ICloneable'
     content.vb: >-
       Public NotInheritable Class Parameter
+
           Inherits Argument
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -83,12 +86,6 @@ items:
   - SuperOffice.Data.SQL.Argument.Alias
   - SuperOffice.Data.SQL.Argument.DataType
   - SuperOffice.Data.SQL.Argument.Size
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.Parameter.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.Parameter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -158,6 +155,36 @@ items:
       type: System.Boolean
       description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
     content.vb: Public Sub New(parameter As Integer, useSqlParameter As Boolean)
+  overload: SuperOffice.Data.SQL.Parameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.Parameter.#ctor(System.Int16,System.Boolean)
+  commentId: M:SuperOffice.Data.SQL.Parameter.#ctor(System.Int16,System.Boolean)
+  id: '#ctor(System.Int16,System.Boolean)'
+  parent: SuperOffice.Data.SQL.Parameter
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Int16, Boolean)
+  nameWithType: Parameter.Parameter(Int16, Boolean)
+  fullName: SuperOffice.Data.SQL.Parameter.Parameter(System.Int16, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public Parameter(short parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.Int16
+    - id: useSqlParameter
+      type: System.Boolean
+    content.vb: Public Sub New(parameter As Short, useSqlParameter As Boolean)
   overload: SuperOffice.Data.SQL.Parameter.#ctor*
   modifiers.csharp:
   - public
@@ -314,7 +341,7 @@ items:
     - id: parameter
       type: System.DateTime
       description: DateTime value to be stored
-    content.vb: Public Sub New(parameter As Date)
+    content.vb: Public Sub New(parameter As DateTime)
   overload: SuperOffice.Data.SQL.Parameter.#ctor*
   modifiers.csharp:
   - public
@@ -348,7 +375,7 @@ items:
     - id: useSqlParameter
       type: System.Boolean
       description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
-    content.vb: Public Sub New(parameter As Date, useSqlParameter As Boolean)
+    content.vb: Public Sub New(parameter As DateTime, useSqlParameter As Boolean)
   overload: SuperOffice.Data.SQL.Parameter.#ctor*
   modifiers.csharp:
   - public
@@ -710,8 +737,6 @@ items:
     content.vb: Public Overrides Function Clone As Object
   overridden: SuperOffice.Data.SQL.QueryElement.Clone
   overload: SuperOffice.Data.SQL.Parameter.Clone*
-  implements:
-  - System.ICloneable.Clone
   modifiers.csharp:
   - public
   - override
@@ -742,7 +767,6 @@ items:
       type: System.String
       description: "\nA <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> that represents the current <xref href=\"System.Object\" data-throw-if-not-resolved=\"false\"></xref>.\n"
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.Data.SQL.Parameter.ToString*
   modifiers.csharp:
   - public
@@ -801,26 +825,12 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: "\nGet/Set values for object\n"
   syntax:
-    content: >-
-      [Obsolete("Use Value", false)]
-
-      public object Param { get; set; }
+    content: public object Param { get; set; }
     parameters: []
     return:
       type: System.Object
-    content.vb: >-
-      <Obsolete("Use Value", False)>
-
-      Public Property Param As Object
+    content.vb: Public Property Param As Object
   overload: SuperOffice.Data.SQL.Parameter.Param*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use Value
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - get
@@ -981,8 +991,6 @@ references:
   nameWithType: Argument
   fullName: SuperOffice.Data.SQL.Argument
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1992,254 +2000,6 @@ references:
   name: Size
   nameWithType: Argument.Size
   fullName: SuperOffice.Data.SQL.Argument.Size
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.Parameter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2537,6 +2297,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
@@ -2552,8 +2319,6 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2585,25 +2350,15 @@ references:
   nameWithType: SoInvalidArgumentException
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException
 - uid: System.DBNull
-  commentId: T:System.DBNull
-  parent: System
   isExternal: true
   name: DBNull
   nameWithType: DBNull
   fullName: System.DBNull
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.Data.SQL.Parameter.CopyTo*
   commentId: Overload:SuperOffice.Data.SQL.Parameter.CopyTo
   isExternal: true
@@ -2652,68 +2407,6 @@ references:
   name: Clone
   nameWithType: Parameter.Clone
   fullName: SuperOffice.Data.SQL.Parameter.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.SQL.Parameter.ToString*
   commentId: Overload:SuperOffice.Data.SQL.Parameter.ToString
   isExternal: true

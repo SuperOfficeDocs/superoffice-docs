@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationItem
+  id: DocumentMigrationItem
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DocumentMigrationItem.#ctor
+  - SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.ContactId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.PersonId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.SaleId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.ToString
+  - SuperOffice.CRM.Services.DocumentMigrationItem.ToString(System.String)
+  - SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId
+  - SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationItem
+  nameWithType: DocumentMigrationItem
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nClass used to summarize all document-properties relevant for migrating documents.\n<p></p>\nCarrier object for DocumentMigrationItem.\nServices for the DocumentMigrationItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDocumentMigrationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class DocumentMigrationItem : Object'
+    content.vb: >-
+      Public Class DocumentMigrationItem
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DocumentMigrationAgent
+    commentId: T:SuperOffice.CRM.Services.DocumentMigrationAgent
+  - linkId: SuperOffice.CRM.Services.IDocumentMigrationAgent
+    commentId: T:SuperOffice.CRM.Services.IDocumentMigrationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.#ctor
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: DocumentMigrationItem()
+  nameWithType: DocumentMigrationItem.DocumentMigrationItem()
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.DocumentMigrationItem()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DocumentMigrationItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.ToString
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationItem.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DocumentMigrationItem.ToString()
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationItem.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DocumentMigrationItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: DocumentMigrationItem.DocumentId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.ContactId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DocumentMigrationItem.ContactId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact ID of owning contact, may be 0 \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.PersonId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DocumentMigrationItem.PersonId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson ID of person the appointment is with, may be 0 \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.SaleId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: DocumentMigrationItem.SaleId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOwning sale, if any (may be 0) \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: DocumentMigrationItem.ProjectId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nID of project referred to, may be 0 \n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId
+  id: DocTmplId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: DocTmplId
+  nameWithType: DocumentMigrationItem.DocTmplId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int DocTmplId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocTmplId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DocumentMigrationItem.AssociateId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nID of associate whose diary the appointment is in, REQUIRED \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId
+  id: UserGroupId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: UserGroupId
+  nameWithType: DocumentMigrationItem.UserGroupId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int UserGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserGroupId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId
+  commentId: P:SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId
+  id: VisibleForId
+  parent: SuperOffice.CRM.Services.DocumentMigrationItem
+  langs:
+  - csharp
+  - vb
+  name: VisibleForId
+  nameWithType: DocumentMigrationItem.VisibleForId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int VisibleForId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property VisibleForId As Integer
+  overload: SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent
+  commentId: T:SuperOffice.CRM.Services.DocumentMigrationAgent
+  isExternal: true
+  name: DocumentMigrationAgent
+  nameWithType: DocumentMigrationAgent
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  commentId: T:SuperOffice.CRM.Services.IDocumentMigrationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDocumentMigrationAgent
+  nameWithType: IDocumentMigrationAgent
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.#ctor
+  isExternal: true
+  name: DocumentMigrationItem
+  nameWithType: DocumentMigrationItem.DocumentMigrationItem
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.DocumentMigrationItem
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DocumentMigrationItem.ToString
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: DocumentMigrationItem.DocumentId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: DocumentMigrationItem.ContactId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.ContactId
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: DocumentMigrationItem.PersonId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.PersonId
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: DocumentMigrationItem.SaleId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.SaleId
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: DocumentMigrationItem.ProjectId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.ProjectId
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId
+  isExternal: true
+  name: DocTmplId
+  nameWithType: DocumentMigrationItem.DocTmplId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.DocTmplId
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: DocumentMigrationItem.AssociateId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.AssociateId
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId
+  isExternal: true
+  name: UserGroupId
+  nameWithType: DocumentMigrationItem.UserGroupId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.UserGroupId
+- uid: SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId
+  isExternal: true
+  name: VisibleForId
+  nameWithType: DocumentMigrationItem.VisibleForId
+  fullName: SuperOffice.CRM.Services.DocumentMigrationItem.VisibleForId

@@ -9,6 +9,8 @@ items:
   - SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.Math.NewDivide(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.Math.NewMultiply(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
@@ -27,18 +29,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public static class Math
-    content.vb: Public Module Math
+    content: 'public static class Math : Object'
+    content.vb: >-
+      Public Module Math
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -120,6 +117,75 @@ items:
   - Shared
   fullName.vb: SuperOffice.Data.S.Math.NewAdd(SuperOffice.Data.SQL.Argument())
   name.vb: NewAdd(Argument())
+- uid: SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  id: NewGreatest(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewGreatest(Argument, Argument)
+  nameWithType: S.Math.NewGreatest(Argument, Argument)
+  fullName: SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static Greatest NewGreatest(Argument left, Argument right)
+    parameters:
+    - id: left
+      type: SuperOffice.Data.SQL.Argument
+    - id: right
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Greatest
+    content.vb: Public Shared Function NewGreatest(left As Argument, right As Argument) As Greatest
+  overload: SuperOffice.Data.S.Math.NewGreatest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument[])
+  id: NewGreatest(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.S.Math
+  langs:
+  - csharp
+  - vb
+  name: NewGreatest(Argument[])
+  nameWithType: S.Math.NewGreatest(Argument[])
+  fullName: SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static Greatest NewGreatest(params Argument[] arguments)
+    parameters:
+    - id: arguments
+      type: SuperOffice.Data.SQL.Argument[]
+    return:
+      type: SuperOffice.Data.SQL.Greatest
+    content.vb: Public Shared Function NewGreatest(ParamArray arguments As Argument()) As Greatest
+  overload: SuperOffice.Data.S.Math.NewGreatest*
+  nameWithType.vb: S.Math.NewGreatest(Argument())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.Math.NewGreatest(SuperOffice.Data.SQL.Argument())
+  name.vb: NewGreatest(Argument())
 - uid: SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.S.Math.NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   id: NewSubtract(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
@@ -356,285 +422,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -693,6 +480,19 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.Data.S.Math.NewGreatest*
+  commentId: Overload:SuperOffice.Data.S.Math.NewGreatest
+  isExternal: true
+  name: NewGreatest
+  nameWithType: S.Math.NewGreatest
+  fullName: SuperOffice.Data.S.Math.NewGreatest
+- uid: SuperOffice.Data.SQL.Greatest
+  commentId: T:SuperOffice.Data.SQL.Greatest
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Greatest
+  nameWithType: Greatest
+  fullName: SuperOffice.Data.SQL.Greatest
 - uid: SuperOffice.Data.S.Math.NewSubtract*
   commentId: Overload:SuperOffice.Data.S.Math.NewSubtract
   isExternal: true

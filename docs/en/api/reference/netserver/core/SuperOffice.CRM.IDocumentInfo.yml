@@ -490,7 +490,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: ReadOnly Property ActiveDate As Date
+    content.vb: ReadOnly Property ActiveDate As DateTime
   overload: SuperOffice.CRM.IDocumentInfo.ActiveDate*
   modifiers.csharp:
   - get
@@ -577,7 +577,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: ReadOnly Property Registered As Date
+    content.vb: ReadOnly Property Registered As DateTime
   overload: SuperOffice.CRM.IDocumentInfo.Registered*
   modifiers.csharp:
   - get
@@ -1203,8 +1203,6 @@ references:
   nameWithType: IDocumentInfo.ActiveDate
   fullName: SuperOffice.CRM.IDocumentInfo.ActiveDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

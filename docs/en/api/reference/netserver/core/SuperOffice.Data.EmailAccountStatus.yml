@@ -10,13 +10,14 @@ items:
   - SuperOffice.Data.EmailAccountStatus.Failing
   - SuperOffice.Data.EmailAccountStatus.Ok
   - SuperOffice.Data.EmailAccountStatus.Unknown
+  - SuperOffice.Data.EmailAccountStatus.value__
   langs:
   - csharp
   - vb
   name: EmailAccountStatus
   nameWithType: EmailAccountStatus
   fullName: SuperOffice.Data.EmailAccountStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -25,19 +26,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPossible statuses for an EmailAccount.\nThis Enum is used by:  email_account.account_status\n"
   syntax:
-    content: 'public enum EmailAccountStatus : short'
-    content.vb: Public Enum EmailAccountStatus As Short
+    content: 'public sealed class EmailAccountStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class EmailAccountStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.EmailAccountStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.EmailAccountStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailAccountStatus)
-  - SuperOffice.Data.EmailAccountStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.EmailAccountStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.EmailAccountStatus.value__
+  commentId: F:SuperOffice.Data.EmailAccountStatus.value__
+  id: value__
+  parent: SuperOffice.Data.EmailAccountStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EmailAccountStatus.value__
+  fullName: SuperOffice.Data.EmailAccountStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.EmailAccountStatus.Unknown
   commentId: F:SuperOffice.Data.EmailAccountStatus.Unknown
   id: Unknown
@@ -57,9 +93,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown status\n"
   syntax:
-    content: Unknown = 0
+    content: public const EmailAccountStatus Unknown
     return:
       type: SuperOffice.Data.EmailAccountStatus
+    content.vb: Public Const Unknown As EmailAccountStatus
   modifiers.csharp:
   - public
   - const
@@ -85,9 +122,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Account is deleted\n"
   syntax:
-    content: Deleted = 1
+    content: public const EmailAccountStatus Deleted
     return:
       type: SuperOffice.Data.EmailAccountStatus
+    content.vb: Public Const Deleted As EmailAccountStatus
   modifiers.csharp:
   - public
   - const
@@ -113,9 +151,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Account is failing\n"
   syntax:
-    content: Failing = 2
+    content: public const EmailAccountStatus Failing
     return:
       type: SuperOffice.Data.EmailAccountStatus
+    content.vb: Public Const Failing As EmailAccountStatus
   modifiers.csharp:
   - public
   - const
@@ -141,9 +180,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Account has failed\n"
   syntax:
-    content: Failed = 3
+    content: public const EmailAccountStatus Failed
     return:
       type: SuperOffice.Data.EmailAccountStatus
+    content.vb: Public Const Failed As EmailAccountStatus
   modifiers.csharp:
   - public
   - const
@@ -169,9 +209,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Account is OK\n"
   syntax:
-    content: Ok = 4
+    content: public const EmailAccountStatus Ok
     return:
       type: SuperOffice.Data.EmailAccountStatus
+    content.vb: Public Const Ok As EmailAccountStatus
   modifiers.csharp:
   - public
   - const
@@ -185,6 +226,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.EmailAccountStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -212,84 +260,6 @@ references:
     name: MapEnums(Of EmailAccountStatus, To)
     nameWithType: EnumUtil.MapEnums(Of EmailAccountStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EmailAccountStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.EmailAccountStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailAccountStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<EmailAccountStatus>(EmailAccountStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<EmailAccountStatus>(EmailAccountStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EmailAccountStatus>(SuperOffice.Data.EmailAccountStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EmailAccountStatus)(EmailAccountStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EmailAccountStatus)(SuperOffice.Data.EmailAccountStatus)
-  name.vb: AssignByReflection(Of EmailAccountStatus)(EmailAccountStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<EmailAccountStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<EmailAccountStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EmailAccountStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.EmailAccountStatus
-    name: EmailAccountStatus
-    nameWithType: EmailAccountStatus
-    fullName: SuperOffice.Data.EmailAccountStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of EmailAccountStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of EmailAccountStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EmailAccountStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.EmailAccountStatus
-    name: EmailAccountStatus
-    nameWithType: EmailAccountStatus
-    fullName: SuperOffice.Data.EmailAccountStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.EmailAccountStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<EmailAccountStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<EmailAccountStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EmailAccountStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of EmailAccountStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EmailAccountStatus)()
-  name.vb: GraphCopy(Of EmailAccountStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<EmailAccountStatus>
-    nameWithType: ObjectExtensions.GraphCopy<EmailAccountStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EmailAccountStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of EmailAccountStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of EmailAccountStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EmailAccountStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -331,6 +301,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -376,103 +352,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -519,18 +398,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.EmailAccountStatus
   commentId: T:SuperOffice.Data.EmailAccountStatus
   parent: SuperOffice.Data

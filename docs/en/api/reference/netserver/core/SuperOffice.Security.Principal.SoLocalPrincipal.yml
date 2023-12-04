@@ -38,11 +38,12 @@ items:
     content: 'public sealed class SoLocalPrincipal : SoPrincipal, IPrincipal'
     content.vb: >-
       Public NotInheritable Class SoLocalPrincipal
+
           Inherits SoPrincipal
+
           Implements IPrincipal
   inheritance:
   - System.Object
-  - System.MarshalByRefObject
   - SuperOffice.Security.Principal.SoPrincipal
   implements:
   - System.Security.Principal.IPrincipal
@@ -70,8 +71,7 @@ items:
   - SuperOffice.Security.Principal.SoPrincipal.ClearCache
   - SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist(System.String)
   - SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String,System.Object@)
-  - SuperOffice.Security.Principal.SoPrincipal.Tokens
-  - SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
+  - SuperOffice.Security.Principal.SoPrincipal.Identities
   - SuperOffice.Security.Principal.SoPrincipal.TimeZone
   - SuperOffice.Security.Principal.SoPrincipal.UserName
   - SuperOffice.Security.Principal.SoPrincipal.UserType
@@ -102,18 +102,9 @@ items:
   - SuperOffice.Security.Principal.SoPrincipal.EjAccessLevel
   - SuperOffice.Security.Principal.SoPrincipal.EjUserStatus
   - SuperOffice.Security.Principal.SoPrincipal.SecondaryGroups
-  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  - System.MarshalByRefObject.GetLifetimeService
-  - System.MarshalByRefObject.InitializeLifetimeService
-  - System.MarshalByRefObject.CreateObjRef(System.Type)
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Security.Principal.SoLocalPrincipal.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.SoPrincipal.SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
   - SuperOffice.Security.Principal.SoLocalPrincipal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -434,26 +425,12 @@ items:
   example:
   - "\nThis code should be used as part of a using section:\n<pre><code>SuperOffice.Security.Permissions.SoStrongName.Permission.Assert();\nusing (localPrincipal.BeginIgnoreSentry())\n{\n    // ToDo: Your stuff that by-passes Sentry\n}</code></pre>\n"
   syntax:
-    content: >-
-      [Obsolete("This method manipulates the IgnoreSentry flag across ALL THREADS; this is VERY seldom the behaviour you want. Please consider using ThreadManager.BeginIgnoreSentry() instead, which applies to the current thread and inherits the status to all child threads", false)]
-
-      public SoLocalPrincipal.IgnoreSentryModifier BeginIgnoreSentry()
+    content: public SoLocalPrincipal.IgnoreSentryModifier BeginIgnoreSentry()
     return:
       type: SuperOffice.Security.Principal.SoLocalPrincipal.IgnoreSentryModifier
       description: Disposable object ignoring sentry while it is in context.  Always put this value inside using(...)
-    content.vb: >-
-      <Obsolete("This method manipulates the IgnoreSentry flag across ALL THREADS; this is VERY seldom the behaviour you want. Please consider using ThreadManager.BeginIgnoreSentry() instead, which applies to the current thread and inherits the status to all child threads", False)>
-
-      Public Function BeginIgnoreSentry As SoLocalPrincipal.IgnoreSentryModifier
+    content.vb: Public Function BeginIgnoreSentry As SoLocalPrincipal.IgnoreSentryModifier
   overload: SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This method manipulates the IgnoreSentry flag across ALL THREADS; this is VERY seldom the behaviour you want. Please consider using ThreadManager.BeginIgnoreSentry() instead, which applies to the current thread and inherits the status to all child threads
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -536,13 +513,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.MarshalByRefObject
-  commentId: T:System.MarshalByRefObject
-  parent: System
-  isExternal: true
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: SuperOffice.Security.Principal.SoPrincipal
   commentId: T:SuperOffice.Security.Principal.SoPrincipal
   parent: SuperOffice.Security.Principal
@@ -551,8 +521,6 @@ references:
   nameWithType: SoPrincipal
   fullName: SuperOffice.Security.Principal.SoPrincipal
 - uid: System.Security.Principal.IPrincipal
-  commentId: T:System.Security.Principal.IPrincipal
-  parent: System.Security.Principal
   isExternal: true
   name: IPrincipal
   nameWithType: IPrincipal
@@ -1520,22 +1488,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Security.Principal.SoPrincipal.Tokens
-  commentId: P:SuperOffice.Security.Principal.SoPrincipal.Tokens
+- uid: SuperOffice.Security.Principal.SoPrincipal.Identities
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.Identities
   parent: SuperOffice.Security.Principal.SoPrincipal
   isExternal: true
-  name: Tokens
-  nameWithType: SoPrincipal.Tokens
-  fullName: SuperOffice.Security.Principal.SoPrincipal.Tokens
-- uid: SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
-  commentId: P:SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
-  parent: SuperOffice.Security.Principal.SoPrincipal
-  isExternal: true
-  name: IPrincipal.Identity
-  nameWithType: SoPrincipal.IPrincipal.Identity
-  fullName: SuperOffice.Security.Principal.SoPrincipal.System.Security.Principal.IPrincipal.Identity
-  nameWithType.vb: SoPrincipal.System.Security.Principal.IPrincipal.Identity
-  name.vb: System.Security.Principal.IPrincipal.Identity
+  name: Identities
+  nameWithType: SoPrincipal.Identities
+  fullName: SuperOffice.Security.Principal.SoPrincipal.Identities
 - uid: SuperOffice.Security.Principal.SoPrincipal.TimeZone
   commentId: P:SuperOffice.Security.Principal.SoPrincipal.TimeZone
   parent: SuperOffice.Security.Principal.SoPrincipal
@@ -1746,398 +1705,6 @@ references:
   name: SecondaryGroups
   nameWithType: SoPrincipal.SecondaryGroups
   fullName: SuperOffice.Security.Principal.SoPrincipal.SecondaryGroups
-- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: MemberwiseClone(Boolean)
-  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
-  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    nameWithType: MarshalByRefObject.MemberwiseClone
-    fullName: System.MarshalByRefObject.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    nameWithType: MarshalByRefObject.MemberwiseClone
-    fullName: System.MarshalByRefObject.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.GetLifetimeService
-  commentId: M:System.MarshalByRefObject.GetLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: GetLifetimeService()
-  nameWithType: MarshalByRefObject.GetLifetimeService()
-  fullName: System.MarshalByRefObject.GetLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    nameWithType: MarshalByRefObject.GetLifetimeService
-    fullName: System.MarshalByRefObject.GetLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    nameWithType: MarshalByRefObject.GetLifetimeService
-    fullName: System.MarshalByRefObject.GetLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.InitializeLifetimeService
-  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: InitializeLifetimeService()
-  nameWithType: MarshalByRefObject.InitializeLifetimeService()
-  fullName: System.MarshalByRefObject.InitializeLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    nameWithType: MarshalByRefObject.InitializeLifetimeService
-    fullName: System.MarshalByRefObject.InitializeLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    nameWithType: MarshalByRefObject.InitializeLifetimeService
-    fullName: System.MarshalByRefObject.InitializeLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: CreateObjRef(Type)
-  nameWithType: MarshalByRefObject.CreateObjRef(Type)
-  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-    name: CreateObjRef
-    nameWithType: MarshalByRefObject.CreateObjRef
-    fullName: System.MarshalByRefObject.CreateObjRef
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-    name: CreateObjRef
-    nameWithType: MarshalByRefObject.CreateObjRef
-    fullName: System.MarshalByRefObject.CreateObjRef
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Security.Principal.SoLocalPrincipal.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2165,6 +1732,37 @@ references:
     name: MapEnums(Of SoLocalPrincipal, To)
     nameWithType: EnumUtil.MapEnums(Of SoLocalPrincipal, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoLocalPrincipal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+  commentId: M:SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  parent: SuperOffice.Security.Principal.SoPrincipalExtensions
+  definition: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  name: IsValid()
+  nameWithType: SoPrincipalExtensions.IsValid()
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
     isExternal: true
   - name: (
     nameWithType: (
@@ -2212,12 +1810,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Security.Principal
-  commentId: N:System.Security.Principal
-  isExternal: true
-  name: System.Security.Principal
-  nameWithType: System.Security.Principal
-  fullName: System.Security.Principal
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -2263,6 +1855,53 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
+- uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  isExternal: true
+  name: IsValid(SoPrincipal)
+  nameWithType: SoPrincipalExtensions.IsValid(SoPrincipal)
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoPrincipal
+    name: SoPrincipal
+    nameWithType: SoPrincipal
+    fullName: SuperOffice.Security.Principal.SoPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoPrincipal
+    name: SoPrincipal
+    nameWithType: SoPrincipal
+    fullName: SuperOffice.Security.Principal.SoPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipalExtensions
+  commentId: T:SuperOffice.Security.Principal.SoPrincipalExtensions
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipalExtensions
+  nameWithType: SoPrincipalExtensions
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -2582,8 +2221,7 @@ references:
   nameWithType: SoLocalPrincipal.HasGrantedModuleLicense
   fullName: SuperOffice.Security.Principal.SoLocalPrincipal.HasGrantedModuleLicense
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.GrantedModuleLicense}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<GrantedModuleLicense>
   nameWithType: IEnumerable<GrantedModuleLicense>
@@ -2626,14 +2264,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -2643,9 +2280,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2658,18 +2295,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry*
   commentId: Overload:SuperOffice.Security.Principal.SoLocalPrincipal.BeginIgnoreSentry
   isExternal: true

@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  id: DBC.TargetAssignmentInfoFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.ContactId
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.CurrencyId
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Locked
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Registered
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetAssignmentInfoId
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetDimensionItemId
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Updated
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UsergroupId
+  langs:
+  - csharp
+  - vb
+  name: DBC.TargetAssignmentInfoFields
+  nameWithType: DBC.TargetAssignmentInfoFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TargetAssignmentInfo, Linking associate, company or user group target and other information with target values\n"
+  syntax:
+    content: 'public static class TargetAssignmentInfoFields : Object'
+    content.vb: >-
+      Public Module TargetAssignmentInfoFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetAssignmentInfoId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetAssignmentInfoId
+  id: TargetAssignmentInfoId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignmentInfoId
+  nameWithType: DBC.TargetAssignmentInfoFields.TargetAssignmentInfoId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetAssignmentInfoId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.TargetAssignmentInfoId: Primary key\n"
+  syntax:
+    content: public const string TargetAssignmentInfoId = "target_assignment_info_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetAssignmentInfoId As String = "target_assignment_info_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.TargetAssignmentInfoFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.AssociateId: Associate who owns this target\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.TargetAssignmentInfoFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.ContactId: Company who owns this target\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UsergroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UsergroupId
+  id: UsergroupId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: UsergroupId
+  nameWithType: DBC.TargetAssignmentInfoFields.UsergroupId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UsergroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.UsergroupId: User group who owns this target\n"
+  syntax:
+    content: public const string UsergroupId = "usergroup_id"
+    return:
+      type: System.String
+    content.vb: Public Const UsergroupId As String = "usergroup_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.CurrencyId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: DBC.TargetAssignmentInfoFields.CurrencyId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.CurrencyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.CurrencyId: Currency for value\n"
+  syntax:
+    content: public const string CurrencyId = "currency_id"
+    return:
+      type: System.String
+    content.vb: Public Const CurrencyId As String = "currency_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Locked
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Locked
+  id: Locked
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: DBC.TargetAssignmentInfoFields.Locked
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Locked
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.Locked: Locked, should not be editable\n"
+  syntax:
+    content: public const string Locked = "locked"
+    return:
+      type: System.String
+    content.vb: Public Const Locked As String = "locked"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TargetAssignmentInfoFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TargetAssignmentInfoFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TargetAssignmentInfoFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TargetAssignmentInfoFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TargetAssignmentInfoFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetDimensionItemId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetDimensionItemId
+  id: TargetDimensionItemId
+  parent: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields
+  langs:
+  - csharp
+  - vb
+  name: TargetDimensionItemId
+  nameWithType: DBC.TargetAssignmentInfoFields.TargetDimensionItemId
+  fullName: SuperOffice.CRM.Data.DBC.TargetAssignmentInfoFields.TargetDimensionItemId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetAssignmentInfo.TargetDimensionItemId: Dimension item this target assignment is in\n"
+  syntax:
+    content: public const string TargetDimensionItemId = "target_dimension_item_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetDimensionItemId As String = "target_dimension_item_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

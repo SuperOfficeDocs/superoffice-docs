@@ -50,6 +50,8 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.QuoteConnection.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
   modifiers.csharp:
   - public
   - class
@@ -648,13 +650,37 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteConnection.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection(SuperOffice.CRM.Services.QuoteConnection)
+  parent: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  definition: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection(SuperOffice.CRM.Services.QuoteConnection)
+  name: GetQuoteConnection()
+  nameWithType: QuoteConverter.GetQuoteConnection()
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
+    name: GetQuoteConnection
+    nameWithType: QuoteConverter.GetQuoteConnection
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
+    name: GetQuoteConnection
+    nameWithType: QuoteConverter.GetQuoteConnection
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -668,12 +694,59 @@ references:
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection(SuperOffice.CRM.Services.QuoteConnection)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection(SuperOffice.CRM.Services.QuoteConnection)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: GetQuoteConnection(QuoteConnection)
+  nameWithType: QuoteConverter.GetQuoteConnection(QuoteConnection)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection(SuperOffice.CRM.Services.QuoteConnection)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection(SuperOffice.CRM.Services.QuoteConnection)
+    name: GetQuoteConnection
+    nameWithType: QuoteConverter.GetQuoteConnection
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.QuoteConnection
+    name: QuoteConnection
+    nameWithType: QuoteConnection
+    fullName: SuperOffice.CRM.Services.QuoteConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection(SuperOffice.CRM.Services.QuoteConnection)
+    name: GetQuoteConnection
+    nameWithType: QuoteConverter.GetQuoteConnection
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetQuoteConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.QuoteConnection
+    name: QuoteConnection
+    nameWithType: QuoteConnection
+    fullName: SuperOffice.CRM.Services.QuoteConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  parent: SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: QuoteConverter
+  nameWithType: QuoteConverter
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+- uid: SuperOffice.CRM.Services.Implementation.BL
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation.BL
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL
+  fullName: SuperOffice.CRM.Services.Implementation.BL
 - uid: SuperOffice.CRM.Services.QuoteConnection.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.#ctor
   isExternal: true
@@ -693,6 +766,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId
   isExternal: true

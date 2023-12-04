@@ -25,6 +25,7 @@ items:
     content: 'public interface IEventEngine : IPlugin'
     content.vb: >-
       Public Interface IEventEngine
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Events.IEventEngine.EnumUtil.MapEnums``2

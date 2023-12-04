@@ -1,0 +1,969 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket
+  commentId: T:SuperOffice.Diagnostics.ResourceUsageBucket
+  id: ResourceUsageBucket
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ResourceUsageBucket.#ctor
+  - SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage
+  - SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage
+  - SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  - SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ResourceUsageBucket
+  nameWithType: ResourceUsageBucket
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: 'public class ResourceUsageBucket : Object, IResourceUsageBucket'
+    content.vb: >-
+      Public Class ResourceUsageBucket
+
+          Inherits Object
+
+          Implements IResourceUsageBucket
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.IResourceUsageBucket
+  extensionMethods:
+  - SuperOffice.Diagnostics.ResourceUsageBucket.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.ResourceUsageBucket.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ResourceUsageBucket)
+  - SuperOffice.Diagnostics.ResourceUsageBucket.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Diagnostics.ResourceUsageBucket.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.#ctor
+  commentId: M:SuperOffice.Diagnostics.ResourceUsageBucket.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Diagnostics.ResourceUsageBucket
+  langs:
+  - csharp
+  - vb
+  name: ResourceUsageBucket()
+  nameWithType: ResourceUsageBucket.ResourceUsageBucket()
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.ResourceUsageBucket()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ResourceUsageBucket()
+    content.vb: Public Sub New
+  overload: SuperOffice.Diagnostics.ResourceUsageBucket.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage
+  commentId: M:SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage
+  id: ClearUsage
+  parent: SuperOffice.Diagnostics.ResourceUsageBucket
+  langs:
+  - csharp
+  - vb
+  name: ClearUsage()
+  nameWithType: ResourceUsageBucket.ClearUsage()
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public void ClearUsage()
+    content.vb: Public Sub ClearUsage
+  overload: SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage*
+  implements:
+  - SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  commentId: M:SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  id: RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  parent: SuperOffice.Diagnostics.ResourceUsageBucket
+  langs:
+  - csharp
+  - vb
+  name: RecordUsage(SoTimerType, String, Func<String>, TimeSpan, TimeSpan, Int32)
+  nameWithType: ResourceUsageBucket.RecordUsage(SoTimerType, String, Func<String>, TimeSpan, TimeSpan, Int32)
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>, System.TimeSpan, System.TimeSpan, System.Int32)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public void RecordUsage(SoTimerType type, string category, Func<string> getDescription, TimeSpan clockTime, TimeSpan cpuTime, int items)
+    parameters:
+    - id: type
+      type: SuperOffice.Diagnostics.SoTimerType
+    - id: category
+      type: System.String
+    - id: getDescription
+      type: System.Func{System.String}
+    - id: clockTime
+      type: System.TimeSpan
+    - id: cpuTime
+      type: System.TimeSpan
+    - id: items
+      type: System.Int32
+    content.vb: Public Sub RecordUsage(type As SoTimerType, category As String, getDescription As Func(Of String), clockTime As TimeSpan, cpuTime As TimeSpan, items As Integer)
+  overload: SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage*
+  implements:
+  - SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  nameWithType.vb: ResourceUsageBucket.RecordUsage(SoTimerType, String, Func(Of String), TimeSpan, TimeSpan, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func(Of System.String), System.TimeSpan, System.TimeSpan, System.Int32)
+  name.vb: RecordUsage(SoTimerType, String, Func(Of String), TimeSpan, TimeSpan, Int32)
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage
+  commentId: M:SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage
+  id: GetResourceUsage
+  parent: SuperOffice.Diagnostics.ResourceUsageBucket
+  langs:
+  - csharp
+  - vb
+  name: GetResourceUsage()
+  nameWithType: ResourceUsageBucket.GetResourceUsage()
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public ResourceUsage GetResourceUsage()
+    return:
+      type: SuperOffice.Diagnostics.ResourceUsage
+    content.vb: Public Function GetResourceUsage As ResourceUsage
+  overload: SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage*
+  implements:
+  - SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  commentId: M:SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  id: RecordDatabaseRecords(System.Int32)
+  parent: SuperOffice.Diagnostics.ResourceUsageBucket
+  langs:
+  - csharp
+  - vb
+  name: RecordDatabaseRecords(Int32)
+  nameWithType: ResourceUsageBucket.RecordDatabaseRecords(Int32)
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public void RecordDatabaseRecords(int records)
+    parameters:
+    - id: records
+      type: System.Int32
+    content.vb: Public Sub RecordDatabaseRecords(records As Integer)
+  overload: SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords*
+  implements:
+  - SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.IResourceUsageBucket
+  commentId: T:SuperOffice.Diagnostics.IResourceUsageBucket
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: IResourceUsageBucket
+  nameWithType: IResourceUsageBucket
+  fullName: SuperOffice.Diagnostics.IResourceUsageBucket
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ResourceUsageBucket, To>()
+  nameWithType: EnumUtil.MapEnums<ResourceUsageBucket, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ResourceUsageBucket, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ResourceUsageBucket, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ResourceUsageBucket, To)()
+  name.vb: MapEnums(Of ResourceUsageBucket, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ResourceUsageBucket, To>
+    nameWithType: EnumUtil.MapEnums<ResourceUsageBucket, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ResourceUsageBucket, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ResourceUsageBucket, To)
+    nameWithType: EnumUtil.MapEnums(Of ResourceUsageBucket, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ResourceUsageBucket, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.ResourceUsageBucket)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ResourceUsageBucket>(ResourceUsageBucket)
+  nameWithType: ObjectExtensions.AssignByReflection<ResourceUsageBucket>(ResourceUsageBucket)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.ResourceUsageBucket>(SuperOffice.Diagnostics.ResourceUsageBucket)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ResourceUsageBucket)(ResourceUsageBucket)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.ResourceUsageBucket)(SuperOffice.Diagnostics.ResourceUsageBucket)
+  name.vb: AssignByReflection(Of ResourceUsageBucket)(ResourceUsageBucket)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ResourceUsageBucket>
+    nameWithType: ObjectExtensions.AssignByReflection<ResourceUsageBucket>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.ResourceUsageBucket>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.ResourceUsageBucket
+    name: ResourceUsageBucket
+    nameWithType: ResourceUsageBucket
+    fullName: SuperOffice.Diagnostics.ResourceUsageBucket
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ResourceUsageBucket)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ResourceUsageBucket)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.ResourceUsageBucket)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.ResourceUsageBucket
+    name: ResourceUsageBucket
+    nameWithType: ResourceUsageBucket
+    fullName: SuperOffice.Diagnostics.ResourceUsageBucket
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ResourceUsageBucket>()
+  nameWithType: ObjectExtensions.GraphCopy<ResourceUsageBucket>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.ResourceUsageBucket>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ResourceUsageBucket)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.ResourceUsageBucket)()
+  name.vb: GraphCopy(Of ResourceUsageBucket)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ResourceUsageBucket>
+    nameWithType: ObjectExtensions.GraphCopy<ResourceUsageBucket>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.ResourceUsageBucket>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ResourceUsageBucket)
+    nameWithType: ObjectExtensions.GraphCopy(Of ResourceUsageBucket)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.ResourceUsageBucket)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ResourceUsageBucket, To>()
+  nameWithType: Converters.MapEnums<ResourceUsageBucket, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ResourceUsageBucket, To>()
+  nameWithType.vb: Converters.MapEnums(Of ResourceUsageBucket, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ResourceUsageBucket, To)()
+  name.vb: MapEnums(Of ResourceUsageBucket, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ResourceUsageBucket, To>
+    nameWithType: Converters.MapEnums<ResourceUsageBucket, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ResourceUsageBucket, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ResourceUsageBucket, To)
+    nameWithType: Converters.MapEnums(Of ResourceUsageBucket, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ResourceUsageBucket, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.ResourceUsageBucket.#ctor
+  isExternal: true
+  name: ResourceUsageBucket
+  nameWithType: ResourceUsageBucket.ResourceUsageBucket
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.ResourceUsageBucket
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage*
+  commentId: Overload:SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage
+  isExternal: true
+  name: ClearUsage
+  nameWithType: ResourceUsageBucket.ClearUsage
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.ClearUsage
+- uid: SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage
+  commentId: M:SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage
+  parent: SuperOffice.Diagnostics.IResourceUsageBucket
+  isExternal: true
+  name: ClearUsage()
+  nameWithType: IResourceUsageBucket.ClearUsage()
+  fullName: SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage
+    name: ClearUsage
+    nameWithType: IResourceUsageBucket.ClearUsage
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage
+    name: ClearUsage
+    nameWithType: IResourceUsageBucket.ClearUsage
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.ClearUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage*
+  commentId: Overload:SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage
+  isExternal: true
+  name: RecordUsage
+  nameWithType: ResourceUsageBucket.RecordUsage
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.RecordUsage
+- uid: SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  commentId: M:SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+  parent: SuperOffice.Diagnostics.IResourceUsageBucket
+  isExternal: true
+  name: RecordUsage(SoTimerType, String, Func<String>, TimeSpan, TimeSpan, Int32)
+  nameWithType: IResourceUsageBucket.RecordUsage(SoTimerType, String, Func<String>, TimeSpan, TimeSpan, Int32)
+  fullName: SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>, System.TimeSpan, System.TimeSpan, System.Int32)
+  nameWithType.vb: IResourceUsageBucket.RecordUsage(SoTimerType, String, Func(Of String), TimeSpan, TimeSpan, Int32)
+  fullName.vb: SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func(Of System.String), System.TimeSpan, System.TimeSpan, System.Int32)
+  name.vb: RecordUsage(SoTimerType, String, Func(Of String), TimeSpan, TimeSpan, Int32)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+    name: RecordUsage
+    nameWithType: IResourceUsageBucket.RecordUsage
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    nameWithType: SoTimerType
+    fullName: SuperOffice.Diagnostics.SoTimerType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String},System.TimeSpan,System.TimeSpan,System.Int32)
+    name: RecordUsage
+    nameWithType: IResourceUsageBucket.RecordUsage
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.RecordUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    nameWithType: SoTimerType
+    fullName: SuperOffice.Diagnostics.SoTimerType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimerType
+  commentId: T:SuperOffice.Diagnostics.SoTimerType
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoTimerType
+  nameWithType: SoTimerType
+  fullName: SuperOffice.Diagnostics.SoTimerType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Func{System.String}
+  commentId: '!:System.Func{System.String}'
+  definition: System.Func`1
+  name: Func<String>
+  nameWithType: Func<String>
+  fullName: System.Func<System.String>
+  nameWithType.vb: Func(Of String)
+  fullName.vb: System.Func(Of System.String)
+  name.vb: Func(Of String)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage*
+  commentId: Overload:SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage
+  isExternal: true
+  name: GetResourceUsage
+  nameWithType: ResourceUsageBucket.GetResourceUsage
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.GetResourceUsage
+- uid: SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage
+  commentId: M:SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage
+  parent: SuperOffice.Diagnostics.IResourceUsageBucket
+  isExternal: true
+  name: GetResourceUsage()
+  nameWithType: IResourceUsageBucket.GetResourceUsage()
+  fullName: SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage()
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage
+    name: GetResourceUsage
+    nameWithType: IResourceUsageBucket.GetResourceUsage
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage
+    name: GetResourceUsage
+    nameWithType: IResourceUsageBucket.GetResourceUsage
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.GetResourceUsage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ResourceUsage
+  commentId: T:SuperOffice.Diagnostics.ResourceUsage
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: ResourceUsage
+  nameWithType: ResourceUsage
+  fullName: SuperOffice.Diagnostics.ResourceUsage
+- uid: SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords*
+  commentId: Overload:SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords
+  isExternal: true
+  name: RecordDatabaseRecords
+  nameWithType: ResourceUsageBucket.RecordDatabaseRecords
+  fullName: SuperOffice.Diagnostics.ResourceUsageBucket.RecordDatabaseRecords
+- uid: SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  commentId: M:SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  parent: SuperOffice.Diagnostics.IResourceUsageBucket
+  isExternal: true
+  name: RecordDatabaseRecords(Int32)
+  nameWithType: IResourceUsageBucket.RecordDatabaseRecords(Int32)
+  fullName: SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+    name: RecordDatabaseRecords
+    nameWithType: IResourceUsageBucket.RecordDatabaseRecords
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords(System.Int32)
+    name: RecordDatabaseRecords
+    nameWithType: IResourceUsageBucket.RecordDatabaseRecords
+    fullName: SuperOffice.Diagnostics.IResourceUsageBucket.RecordDatabaseRecords
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

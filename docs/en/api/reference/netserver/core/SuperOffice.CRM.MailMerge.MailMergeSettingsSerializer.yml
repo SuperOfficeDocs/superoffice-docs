@@ -26,6 +26,7 @@ items:
     content: 'public sealed class MailMergeSettingsSerializer : XmlSerializer1'
     content.vb: >-
       Public NotInheritable Class MailMergeSettingsSerializer
+
           Inherits XmlSerializer1
   inheritance:
   - System.Object

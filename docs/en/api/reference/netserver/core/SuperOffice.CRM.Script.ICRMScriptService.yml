@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Script.ICRMScriptService
+  commentId: T:SuperOffice.CRM.Script.ICRMScriptService
+  id: ICRMScriptService
+  parent: SuperOffice.CRM.Script
+  children:
+  - SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  - SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  langs:
+  - csharp
+  - vb
+  name: ICRMScriptService
+  nameWithType: ICRMScriptService
+  fullName: SuperOffice.CRM.Script.ICRMScriptService
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: public interface ICRMScriptService
+    content.vb: Public Interface ICRMScriptService
+  extensionMethods:
+  - SuperOffice.CRM.Script.ICRMScriptService.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Script.ICRMScriptService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  commentId: M:SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  id: ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  parent: SuperOffice.CRM.Script.ICRMScriptService
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScript(Scriptwithcontext)
+  nameWithType: ICRMScriptService.ExecuteScript(Scriptwithcontext)
+  fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: Response2 ExecuteScript(Scriptwithcontext body)
+    parameters:
+    - id: body
+      type: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+    return:
+      type: SuperOffice.CRMScript.RTE.Client.Response2
+    content.vb: Function ExecuteScript(body As Scriptwithcontext) As Response2
+  overload: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript*
+- uid: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  commentId: M:SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  id: ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  parent: SuperOffice.CRM.Script.ICRMScriptService
+  langs:
+  - csharp
+  - vb
+  name: ValidateScript(Scriptwithoutcontext)
+  nameWithType: ICRMScriptService.ValidateScript(Scriptwithoutcontext)
+  fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Script
+  syntax:
+    content: Response ValidateScript(Scriptwithoutcontext body)
+    parameters:
+    - id: body
+      type: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+    return:
+      type: SuperOffice.CRMScript.RTE.Client.Response
+    content.vb: Function ValidateScript(body As Scriptwithoutcontext) As Response
+  overload: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript*
+references:
+- uid: SuperOffice.CRM.Script
+  commentId: N:SuperOffice.CRM.Script
+  isExternal: true
+  name: SuperOffice.CRM.Script
+  nameWithType: SuperOffice.CRM.Script
+  fullName: SuperOffice.CRM.Script
+- uid: SuperOffice.CRM.Script.ICRMScriptService.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ICRMScriptService, To>()
+  nameWithType: EnumUtil.MapEnums<ICRMScriptService, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Script.ICRMScriptService, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ICRMScriptService, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Script.ICRMScriptService, To)()
+  name.vb: MapEnums(Of ICRMScriptService, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ICRMScriptService, To>
+    nameWithType: EnumUtil.MapEnums<ICRMScriptService, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Script.ICRMScriptService, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ICRMScriptService, To)
+    nameWithType: EnumUtil.MapEnums(Of ICRMScriptService, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Script.ICRMScriptService, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Script.ICRMScriptService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ICRMScriptService, To>()
+  nameWithType: Converters.MapEnums<ICRMScriptService, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Script.ICRMScriptService, To>()
+  nameWithType.vb: Converters.MapEnums(Of ICRMScriptService, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Script.ICRMScriptService, To)()
+  name.vb: MapEnums(Of ICRMScriptService, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ICRMScriptService, To>
+    nameWithType: Converters.MapEnums<ICRMScriptService, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Script.ICRMScriptService, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ICRMScriptService, To)
+    nameWithType: Converters.MapEnums(Of ICRMScriptService, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Script.ICRMScriptService, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript*
+  commentId: Overload:SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript
+  isExternal: true
+  name: ExecuteScript
+  nameWithType: ICRMScriptService.ExecuteScript
+  fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript
+- uid: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+  isExternal: true
+  name: Scriptwithcontext
+  nameWithType: Scriptwithcontext
+  fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
+- uid: SuperOffice.CRMScript.RTE.Client.Response2
+  isExternal: true
+  name: Response2
+  nameWithType: Response2
+  fullName: SuperOffice.CRMScript.RTE.Client.Response2
+- uid: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript*
+  commentId: Overload:SuperOffice.CRM.Script.ICRMScriptService.ValidateScript
+  isExternal: true
+  name: ValidateScript
+  nameWithType: ICRMScriptService.ValidateScript
+  fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript
+- uid: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+  isExternal: true
+  name: Scriptwithoutcontext
+  nameWithType: Scriptwithoutcontext
+  fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
+- uid: SuperOffice.CRMScript.RTE.Client.Response
+  isExternal: true
+  name: Response
+  nameWithType: Response
+  fullName: SuperOffice.CRMScript.RTE.Client.Response

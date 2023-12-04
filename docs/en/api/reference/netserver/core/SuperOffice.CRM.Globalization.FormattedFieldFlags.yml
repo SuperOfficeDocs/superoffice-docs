@@ -10,13 +10,14 @@ items:
   - SuperOffice.CRM.Globalization.FormattedFieldFlags.UcaseAll
   - SuperOffice.CRM.Globalization.FormattedFieldFlags.UcaseInitial
   - SuperOffice.CRM.Globalization.FormattedFieldFlags.UcaseWords
+  - SuperOffice.CRM.Globalization.FormattedFieldFlags.value__
   langs:
   - csharp
   - vb
   name: FormattedFieldFlags
   nameWithType: FormattedFieldFlags
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -25,29 +26,54 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\n\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum FormattedFieldFlags
+    content: 'public sealed class FormattedFieldFlags : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class FormattedFieldFlags
 
-      Public Enum FormattedFieldFlags
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Globalization.FormattedFieldFlags.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Globalization.FormattedFieldFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Globalization.FormattedFieldFlags)
-  - SuperOffice.CRM.Globalization.FormattedFieldFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Globalization.FormattedFieldFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Globalization.FormattedFieldFlags.value__
+  commentId: F:SuperOffice.CRM.Globalization.FormattedFieldFlags.value__
+  id: value__
+  parent: SuperOffice.CRM.Globalization.FormattedFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FormattedFieldFlags.value__
+  fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Globalization.FormattedFieldFlags.None
   commentId: F:SuperOffice.CRM.Globalization.FormattedFieldFlags.None
   id: None
@@ -67,9 +93,10 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nNo flags.\n"
   syntax:
-    content: None = 0
+    content: public const FormattedFieldFlags None
     return:
       type: SuperOffice.CRM.Globalization.FormattedFieldFlags
+    content.vb: Public Const None As FormattedFieldFlags
   modifiers.csharp:
   - public
   - const
@@ -95,9 +122,10 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUppercase all.\n"
   syntax:
-    content: UcaseAll = 1
+    content: public const FormattedFieldFlags UcaseAll
     return:
       type: SuperOffice.CRM.Globalization.FormattedFieldFlags
+    content.vb: Public Const UcaseAll As FormattedFieldFlags
   modifiers.csharp:
   - public
   - const
@@ -123,9 +151,10 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUpper case all words\n"
   syntax:
-    content: UcaseWords = 2
+    content: public const FormattedFieldFlags UcaseWords
     return:
       type: SuperOffice.CRM.Globalization.FormattedFieldFlags
+    content.vb: Public Const UcaseWords As FormattedFieldFlags
   modifiers.csharp:
   - public
   - const
@@ -151,9 +180,10 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUppercase first letter\n"
   syntax:
-    content: UcaseInitial = 4
+    content: public const FormattedFieldFlags UcaseInitial
     return:
       type: SuperOffice.CRM.Globalization.FormattedFieldFlags
+    content.vb: Public Const UcaseInitial As FormattedFieldFlags
   modifiers.csharp:
   - public
   - const
@@ -179,9 +209,10 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nUse country prefix\n"
   syntax:
-    content: CountryPrefix = 8
+    content: public const FormattedFieldFlags CountryPrefix
     return:
       type: SuperOffice.CRM.Globalization.FormattedFieldFlags
+    content.vb: Public Const CountryPrefix As FormattedFieldFlags
   modifiers.csharp:
   - public
   - const
@@ -195,6 +226,13 @@ references:
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Globalization.FormattedFieldFlags.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -222,84 +260,6 @@ references:
     name: MapEnums(Of FormattedFieldFlags, To)
     nameWithType: EnumUtil.MapEnums(Of FormattedFieldFlags, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FormattedFieldFlags, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Globalization.FormattedFieldFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Globalization.FormattedFieldFlags)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FormattedFieldFlags>(FormattedFieldFlags)
-  nameWithType: ObjectExtensions.AssignByReflection<FormattedFieldFlags>(FormattedFieldFlags)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Globalization.FormattedFieldFlags>(SuperOffice.CRM.Globalization.FormattedFieldFlags)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormattedFieldFlags)(FormattedFieldFlags)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Globalization.FormattedFieldFlags)(SuperOffice.CRM.Globalization.FormattedFieldFlags)
-  name.vb: AssignByReflection(Of FormattedFieldFlags)(FormattedFieldFlags)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FormattedFieldFlags>
-    nameWithType: ObjectExtensions.AssignByReflection<FormattedFieldFlags>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Globalization.FormattedFieldFlags>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Globalization.FormattedFieldFlags
-    name: FormattedFieldFlags
-    nameWithType: FormattedFieldFlags
-    fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FormattedFieldFlags)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FormattedFieldFlags)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Globalization.FormattedFieldFlags)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Globalization.FormattedFieldFlags
-    name: FormattedFieldFlags
-    nameWithType: FormattedFieldFlags
-    fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Globalization.FormattedFieldFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FormattedFieldFlags>()
-  nameWithType: ObjectExtensions.GraphCopy<FormattedFieldFlags>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Globalization.FormattedFieldFlags>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormattedFieldFlags)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Globalization.FormattedFieldFlags)()
-  name.vb: GraphCopy(Of FormattedFieldFlags)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FormattedFieldFlags>
-    nameWithType: ObjectExtensions.GraphCopy<FormattedFieldFlags>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Globalization.FormattedFieldFlags>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FormattedFieldFlags)
-    nameWithType: ObjectExtensions.GraphCopy(Of FormattedFieldFlags)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Globalization.FormattedFieldFlags)
     isExternal: true
   - name: (
     nameWithType: (
@@ -341,6 +301,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -386,103 +352,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -529,18 +398,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Globalization.FormattedFieldFlags
   commentId: T:SuperOffice.CRM.Globalization.FormattedFieldFlags
   parent: SuperOffice.CRM.Globalization

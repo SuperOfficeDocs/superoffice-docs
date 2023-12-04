@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EntityCountsFields
+  id: DBC.EntityCountsFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EntityCountsFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityCountsId
+  - SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityName
+  - SuperOffice.CRM.Data.DBC.EntityCountsFields.Records
+  - SuperOffice.CRM.Data.DBC.EntityCountsFields.Registered
+  langs:
+  - csharp
+  - vb
+  name: DBC.EntityCountsFields
+  nameWithType: DBC.EntityCountsFields
+  fullName: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for EntityCounts, Number of different entities an associate has created for usage statistics\n"
+  syntax:
+    content: 'public static class EntityCountsFields : Object'
+    content.vb: >-
+      Public Module EntityCountsFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityCountsId
+  commentId: F:SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityCountsId
+  id: EntityCountsId
+  parent: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  langs:
+  - csharp
+  - vb
+  name: EntityCountsId
+  nameWithType: DBC.EntityCountsFields.EntityCountsId
+  fullName: SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityCountsId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEntityCounts.EntityCountsId: Primary key\n"
+  syntax:
+    content: public const string EntityCountsId = "entitycounts_id"
+    return:
+      type: System.String
+    content.vb: Public Const EntityCountsId As String = "entitycounts_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EntityCountsFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EntityCountsFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.EntityCountsFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EntityCountsFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEntityCounts.AssociateId: Associate who created the entity\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityName
+  commentId: F:SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityName
+  id: EntityName
+  parent: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: DBC.EntityCountsFields.EntityName
+  fullName: SuperOffice.CRM.Data.DBC.EntityCountsFields.EntityName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEntityCounts.EntityName: The entity measured by this tile\n"
+  syntax:
+    content: public const string EntityName = "entity_name"
+    return:
+      type: System.String
+    content.vb: Public Const EntityName As String = "entity_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EntityCountsFields.Records
+  commentId: F:SuperOffice.CRM.Data.DBC.EntityCountsFields.Records
+  id: Records
+  parent: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  langs:
+  - csharp
+  - vb
+  name: Records
+  nameWithType: DBC.EntityCountsFields.Records
+  fullName: SuperOffice.CRM.Data.DBC.EntityCountsFields.Records
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEntityCounts.Records: Number of related entities an associate has created\n"
+  syntax:
+    content: public const string Records = "records"
+    return:
+      type: System.String
+    content.vb: Public Const Records As String = "records"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EntityCountsFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.EntityCountsFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.EntityCountsFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.EntityCountsFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.EntityCountsFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEntityCounts.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

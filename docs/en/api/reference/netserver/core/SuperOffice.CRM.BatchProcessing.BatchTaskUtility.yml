@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility
+  commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskUtility
+  id: BatchTaskUtility
+  parent: SuperOffice.CRM.BatchProcessing
+  children:
+  - SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter``1(System.String)
+  - SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskUtility
+  nameWithType: BatchTaskUtility
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility
+  type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  summary: "\nUtility functions for simplifying batchtask creation and execution.\n"
+  syntax:
+    content: 'public static class BatchTaskUtility : Object'
+    content.vb: >-
+      Public Module BatchTaskUtility
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter``1(System.String)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter``1(System.String)
+  id: DeserializeParameter``1(System.String)
+  parent: SuperOffice.CRM.BatchProcessing.BatchTaskUtility
+  langs:
+  - csharp
+  - vb
+  name: DeserializeParameter<T>(String)
+  nameWithType: BatchTaskUtility.DeserializeParameter<T>(String)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter<T>(System.String)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public static T DeserializeParameter<T>(string serializedData)
+    parameters:
+    - id: serializedData
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function DeserializeParameter(Of T)(serializedData As String) As T
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter*
+  nameWithType.vb: BatchTaskUtility.DeserializeParameter(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter(Of T)(System.String)
+  name.vb: DeserializeParameter(Of T)(String)
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter``1(``0)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter``1(``0)
+  id: SerializeParameter``1(``0)
+  parent: SuperOffice.CRM.BatchProcessing.BatchTaskUtility
+  langs:
+  - csharp
+  - vb
+  name: SerializeParameter<T>(T)
+  nameWithType: BatchTaskUtility.SerializeParameter<T>(T)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter<T>(T)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing
+  syntax:
+    content: public static string SerializeParameter<T>(T objectToSerialize)
+    parameters:
+    - id: objectToSerialize
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Shared Function SerializeParameter(Of T)(objectToSerialize As T) As String
+  overload: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter*
+  nameWithType.vb: BatchTaskUtility.SerializeParameter(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter(Of T)(T)
+  name.vb: SerializeParameter(Of T)(T)
+references:
+- uid: SuperOffice.CRM.BatchProcessing
+  commentId: N:SuperOffice.CRM.BatchProcessing
+  isExternal: true
+  name: SuperOffice.CRM.BatchProcessing
+  nameWithType: SuperOffice.CRM.BatchProcessing
+  fullName: SuperOffice.CRM.BatchProcessing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter
+  isExternal: true
+  name: DeserializeParameter
+  nameWithType: BatchTaskUtility.DeserializeParameter
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.DeserializeParameter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter
+  isExternal: true
+  name: SerializeParameter
+  nameWithType: BatchTaskUtility.SerializeParameter
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.SerializeParameter

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Data.EmailType.Chat
   - SuperOffice.Data.EmailType.Email
+  - SuperOffice.Data.EmailType.value__
   - SuperOffice.Data.EmailType.VoiP
   langs:
   - csharp
@@ -14,7 +15,7 @@ items:
   name: EmailType
   nameWithType: EmailType
   fullName: SuperOffice.Data.EmailType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -23,19 +24,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nWhat kind of email address - email, or some other communication type (chat, voip)\nThis Enum is used by:  Email.type\n"
   syntax:
-    content: 'public enum EmailType : short'
-    content.vb: Public Enum EmailType As Short
+    content: 'public sealed class EmailType : Enum'
+    content.vb: >-
+      Public NotInheritable Class EmailType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.EmailType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.EmailType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailType)
-  - SuperOffice.Data.EmailType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.EmailType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.EmailType.value__
+  commentId: F:SuperOffice.Data.EmailType.value__
+  id: value__
+  parent: SuperOffice.Data.EmailType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EmailType.value__
+  fullName: SuperOffice.Data.EmailType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.EmailType.Email
   commentId: F:SuperOffice.Data.EmailType.Email
   id: Email
@@ -55,9 +91,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: This is a conventional email\n"
   syntax:
-    content: Email = 0
+    content: public const EmailType Email
     return:
       type: SuperOffice.Data.EmailType
+    content.vb: Public Const Email As EmailType
   modifiers.csharp:
   - public
   - const
@@ -83,9 +120,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: This is a chat channel address\n"
   syntax:
-    content: Chat = 1
+    content: public const EmailType Chat
     return:
       type: SuperOffice.Data.EmailType
+    content.vb: Public Const Chat As EmailType
   modifiers.csharp:
   - public
   - const
@@ -111,9 +149,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: This is a voip (such as skype) channel address\n"
   syntax:
-    content: VoiP = 2
+    content: public const EmailType VoiP
     return:
       type: SuperOffice.Data.EmailType
+    content.vb: Public Const VoiP As EmailType
   modifiers.csharp:
   - public
   - const
@@ -127,6 +166,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.EmailType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -154,84 +200,6 @@ references:
     name: MapEnums(Of EmailType, To)
     nameWithType: EnumUtil.MapEnums(Of EmailType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EmailType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.EmailType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EmailType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<EmailType>(EmailType)
-  nameWithType: ObjectExtensions.AssignByReflection<EmailType>(EmailType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EmailType>(SuperOffice.Data.EmailType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EmailType)(EmailType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EmailType)(SuperOffice.Data.EmailType)
-  name.vb: AssignByReflection(Of EmailType)(EmailType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<EmailType>
-    nameWithType: ObjectExtensions.AssignByReflection<EmailType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EmailType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.EmailType
-    name: EmailType
-    nameWithType: EmailType
-    fullName: SuperOffice.Data.EmailType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of EmailType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of EmailType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EmailType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.EmailType
-    name: EmailType
-    nameWithType: EmailType
-    fullName: SuperOffice.Data.EmailType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.EmailType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<EmailType>()
-  nameWithType: ObjectExtensions.GraphCopy<EmailType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EmailType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of EmailType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EmailType)()
-  name.vb: GraphCopy(Of EmailType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<EmailType>
-    nameWithType: ObjectExtensions.GraphCopy<EmailType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EmailType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of EmailType)
-    nameWithType: ObjectExtensions.GraphCopy(Of EmailType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EmailType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -273,6 +241,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -318,103 +292,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -461,18 +338,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.EmailType
   commentId: T:SuperOffice.Data.EmailType
   parent: SuperOffice.Data

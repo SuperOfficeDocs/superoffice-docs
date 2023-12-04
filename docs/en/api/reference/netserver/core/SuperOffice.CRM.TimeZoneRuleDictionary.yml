@@ -23,7 +23,8 @@ items:
     content: 'public class TimeZoneRuleDictionary : SortedDictionary<DateTime, TimeZoneRule>'
     content.vb: >-
       Public Class TimeZoneRuleDictionary
-          Inherits SortedDictionary(Of Date, TimeZoneRule)
+
+          Inherits SortedDictionary(Of DateTime, TimeZoneRule)
   inheritance:
   - System.Object
   extensionMethods:

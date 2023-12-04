@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Factory
+  commentId: T:SuperOffice.Configuration.ConfigFile.Factory
+  id: ConfigFile.Factory
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Factory.CustomFactories
+  - SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Factory
+  nameWithType: ConfigFile.Factory
+  fullName: SuperOffice.Configuration.ConfigFile.Factory
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class used to access class factory information in the config file.\n"
+  syntax:
+    content: 'public static class Factory : Object'
+    content.vb: >-
+      Public Module Factory
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Factory.CustomFactories
+  commentId: P:SuperOffice.Configuration.ConfigFile.Factory.CustomFactories
+  id: CustomFactories
+  parent: SuperOffice.Configuration.ConfigFile.Factory
+  langs:
+  - csharp
+  - vb
+  name: CustomFactories
+  nameWithType: ConfigFile.Factory.CustomFactories
+  fullName: SuperOffice.Configuration.ConfigFile.Factory.CustomFactories
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCustom factories that are to replace the default factories. The name of the class to ovveride is the key and the name of the assmebly where the custom factory resides is the value.\n"
+  syntax:
+    content: public static NameValueCollection CustomFactories { get; }
+    parameters: []
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Shared ReadOnly Property CustomFactories As NameValueCollection
+  overload: SuperOffice.Configuration.ConfigFile.Factory.CustomFactories*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad
+  commentId: P:SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad
+  id: DynamicLoad
+  parent: SuperOffice.Configuration.ConfigFile.Factory
+  langs:
+  - csharp
+  - vb
+  name: DynamicLoad
+  nameWithType: ConfigFile.Factory.DynamicLoad
+  fullName: SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAssemblies that are to be dynamically loaded (keys will be ignored, values must specify assemblies)\n"
+  syntax:
+    content: public static NameValueCollection DynamicLoad { get; }
+    parameters: []
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Shared ReadOnly Property DynamicLoad As NameValueCollection
+  overload: SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Factory.CustomFactories*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Factory.CustomFactories
+  isExternal: true
+  name: CustomFactories
+  nameWithType: ConfigFile.Factory.CustomFactories
+  fullName: SuperOffice.Configuration.ConfigFile.Factory.CustomFactories
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad
+  isExternal: true
+  name: DynamicLoad
+  nameWithType: ConfigFile.Factory.DynamicLoad
+  fullName: SuperOffice.Configuration.ConfigFile.Factory.DynamicLoad

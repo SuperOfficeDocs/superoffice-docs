@@ -1,0 +1,1025 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings
+  commentId: T:SuperOffice.CRM.Services.SystemTemplateSettings
+  id: SystemTemplateSettings
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SystemTemplateSettings.#ctor
+  - SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
+  - SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.ToString
+  - SuperOffice.CRM.Services.SystemTemplateSettings.ToString(System.String)
+  - SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  - SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
+  langs:
+  - csharp
+  - vb
+  name: SystemTemplateSettings
+  nameWithType: SystemTemplateSettings
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSystem template settings item\n<p></p>\nCarrier object for SystemTemplateSettings.\nServices for the SystemTemplateSettings Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class SystemTemplateSettings : Carrier'
+    content.vb: >-
+      Public Class SystemTemplateSettings
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.#ctor
+  commentId: M:SuperOffice.CRM.Services.SystemTemplateSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: SystemTemplateSettings()
+  nameWithType: SystemTemplateSettings.SystemTemplateSettings()
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.SystemTemplateSettings()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SystemTemplateSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.ToString
+  commentId: M:SuperOffice.CRM.Services.SystemTemplateSettings.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SystemTemplateSettings.ToString()
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SystemTemplateSettings.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SystemTemplateSettings.ToString(String)
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  id: CustomerNewCustomerTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerNewCustomerTemplateId
+  nameWithType: SystemTemplateSettings.CustomerNewCustomerTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for new contacts \n"
+  syntax:
+    content: public virtual int CustomerNewCustomerTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerNewCustomerTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  id: CustomerCustomerReplyTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerCustomerReplyTemplateId
+  nameWithType: SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for auto-reply \n"
+  syntax:
+    content: public virtual int CustomerCustomerReplyTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerCustomerReplyTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
+  id: CustomerPasswordTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerPasswordTemplateId
+  nameWithType: SystemTemplateSettings.CustomerPasswordTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for sending password to contacts \n"
+  syntax:
+    content: public virtual int CustomerPasswordTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerPasswordTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  id: CustomerConfirmEmailTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerConfirmEmailTemplateId
+  nameWithType: SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for sending confirmation e-mail to contacts \n"
+  syntax:
+    content: public virtual int CustomerConfirmEmailTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerConfirmEmailTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
+  id: CustomerChatLogTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomerChatLogTemplateId
+  nameWithType: SystemTemplateSettings.CustomerChatLogTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for customer chat log \n"
+  syntax:
+    content: public virtual int CustomerChatLogTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustomerChatLogTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
+  id: NewLinkTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: NewLinkTemplateId
+  nameWithType: SystemTemplateSettings.NewLinkTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for new link \n"
+  syntax:
+    content: public virtual int NewLinkTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NewLinkTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
+  id: HotlistNewMessageTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: HotlistNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.HotlistNewMessageTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of a new message in the favourites list \n"
+  syntax:
+    content: public virtual int HotlistNewMessageTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HotlistNewMessageTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  id: HotlistTicketActivatedTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: HotlistTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of a activated ticket in the favourites list \n"
+  syntax:
+    content: public virtual int HotlistTicketActivatedTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HotlistTicketActivatedTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
+  id: UserTicketAlarmTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserTicketAlarmTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketAlarmTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of escalated request \n"
+  syntax:
+    content: public virtual int UserTicketAlarmTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserTicketAlarmTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  id: HotlistTicketTakenOverTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: HotlistTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of reassignment of a request in the favourites list \n"
+  syntax:
+    content: public virtual int HotlistTicketTakenOverTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HotlistTicketTakenOverTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
+  id: UserActiveTicketsTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserActiveTicketsTemplateId
+  nameWithType: SystemTemplateSettings.UserActiveTicketsTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of open requests \n"
+  syntax:
+    content: public virtual int UserActiveTicketsTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserActiveTicketsTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
+  id: UserNewMessageTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.UserNewMessageTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of new message \n"
+  syntax:
+    content: public virtual int UserNewMessageTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserNewMessageTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
+  id: UserTicketActivatedTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketActivatedTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of activated request \n"
+  syntax:
+    content: public virtual int UserTicketActivatedTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserTicketActivatedTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
+  id: UserNewTicketTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserNewTicketTemplateId
+  nameWithType: SystemTemplateSettings.UserNewTicketTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for new ticket notification \n"
+  syntax:
+    content: public virtual int UserNewTicketTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserNewTicketTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
+  id: PublishKbQuestionTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: PublishKbQuestionTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbQuestionTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for formatting FAQ questions \n"
+  syntax:
+    content: public virtual int PublishKbQuestionTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PublishKbQuestionTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
+  id: PublishKbAnswerTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: PublishKbAnswerTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbAnswerTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for formatting FAQ answers \n"
+  syntax:
+    content: public virtual int PublishKbAnswerTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PublishKbAnswerTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  id: UserTicketTakenOverTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: UserTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketTakenOverTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for ticket reassignment \n"
+  syntax:
+    content: public virtual int UserTicketTakenOverTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserTicketTakenOverTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
+  id: PrintTicketTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: PrintTicketTemplateId
+  nameWithType: SystemTemplateSettings.PrintTicketTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for printing a ticket \n"
+  syntax:
+    content: public virtual int PrintTicketTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrintTicketTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
+  id: WeekStatTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: WeekStatTemplateId
+  nameWithType: SystemTemplateSettings.WeekStatTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for weekly statistics \n"
+  syntax:
+    content: public virtual int WeekStatTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WeekStatTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  id: TicketAlarmHotlistTemplateId
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: TicketAlarmHotlistTemplateId
+  nameWithType: SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate for notification of an escalated request in the favourites list \n"
+  syntax:
+    content: public virtual int TicketAlarmHotlistTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketAlarmHotlistTemplateId As Integer
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
+  commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
+  id: EmailAddresses
+  parent: SuperOffice.CRM.Services.SystemTemplateSettings
+  langs:
+  - csharp
+  - vb
+  name: EmailAddresses
+  nameWithType: SystemTemplateSettings.EmailAddresses
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOne or more e-mail addresses (comma-separated) \n"
+  syntax:
+    content: public virtual string EmailAddresses { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddresses As String
+  overload: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICustomerServiceAgent
+  nameWithType: ICustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.#ctor
+  isExternal: true
+  name: SystemTemplateSettings
+  nameWithType: SystemTemplateSettings.SystemTemplateSettings
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.SystemTemplateSettings
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SystemTemplateSettings.ToString
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
+  isExternal: true
+  name: CustomerNewCustomerTemplateId
+  nameWithType: SystemTemplateSettings.CustomerNewCustomerTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  isExternal: true
+  name: CustomerCustomerReplyTemplateId
+  nameWithType: SystemTemplateSettings.CustomerCustomerReplyTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
+  isExternal: true
+  name: CustomerPasswordTemplateId
+  nameWithType: SystemTemplateSettings.CustomerPasswordTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  isExternal: true
+  name: CustomerConfirmEmailTemplateId
+  nameWithType: SystemTemplateSettings.CustomerConfirmEmailTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
+  isExternal: true
+  name: CustomerChatLogTemplateId
+  nameWithType: SystemTemplateSettings.CustomerChatLogTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
+  isExternal: true
+  name: NewLinkTemplateId
+  nameWithType: SystemTemplateSettings.NewLinkTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
+  isExternal: true
+  name: HotlistNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.HotlistNewMessageTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  isExternal: true
+  name: HotlistTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketActivatedTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
+  isExternal: true
+  name: UserTicketAlarmTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketAlarmTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  isExternal: true
+  name: HotlistTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
+  isExternal: true
+  name: UserActiveTicketsTemplateId
+  nameWithType: SystemTemplateSettings.UserActiveTicketsTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
+  isExternal: true
+  name: UserNewMessageTemplateId
+  nameWithType: SystemTemplateSettings.UserNewMessageTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
+  isExternal: true
+  name: UserTicketActivatedTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketActivatedTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
+  isExternal: true
+  name: UserNewTicketTemplateId
+  nameWithType: SystemTemplateSettings.UserNewTicketTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
+  isExternal: true
+  name: PublishKbQuestionTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbQuestionTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
+  isExternal: true
+  name: PublishKbAnswerTemplateId
+  nameWithType: SystemTemplateSettings.PublishKbAnswerTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
+  isExternal: true
+  name: UserTicketTakenOverTemplateId
+  nameWithType: SystemTemplateSettings.UserTicketTakenOverTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
+  isExternal: true
+  name: PrintTicketTemplateId
+  nameWithType: SystemTemplateSettings.PrintTicketTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
+  isExternal: true
+  name: WeekStatTemplateId
+  nameWithType: SystemTemplateSettings.WeekStatTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  isExternal: true
+  name: TicketAlarmHotlistTemplateId
+  nameWithType: SystemTemplateSettings.TicketAlarmHotlistTemplateId
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
+- uid: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses*
+  commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
+  isExternal: true
+  name: EmailAddresses
+  nameWithType: SystemTemplateSettings.EmailAddresses
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses

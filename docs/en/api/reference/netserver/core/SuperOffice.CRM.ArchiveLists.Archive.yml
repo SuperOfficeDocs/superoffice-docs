@@ -30,9 +30,21 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionStaticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.AssociateProjectSelectionStaticProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderBaseV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionStaticProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderSingleCriteriaGroup
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionStaticProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ColumnNormalizer
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator
   - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  - SuperOffice.CRM.ArchiveLists.Archive.ConfigurableArchiveProvider
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionCombinedProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderSingleCriteriaGroup
   - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderV2
@@ -63,9 +75,31 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionMultiCriteriaGroupBase
   - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionProviderBase`2
   - SuperOffice.CRM.ArchiveLists.Archive.DynamicSelectionProviderBaseV2`3
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderSingleCriteriaGroup
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderBaseV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionStaticProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderSingleCriteriaGroup
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionStaticProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ICanMapColumns
   - SuperOffice.CRM.ArchiveLists.Archive.ICanMapColumnsV2
   - SuperOffice.CRM.ArchiveLists.Archive.IntersectCombinator
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderSingleCriteriaGroup
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderBaseV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionStaticProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderSingleCriteriaGroup
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionStaticProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionCombinedProvider
   - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionCombinedProviderV2
   - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProvider
@@ -173,6 +207,12 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ConfigurableArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ConfigurableArchiveProvider
+  isExternal: true
+  name: ConfigurableArchiveProvider
+  nameWithType: ConfigurableArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ConfigurableArchiveProvider
 - uid: SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionDynamicProviderV2
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionDynamicProviderV2
   isExternal: true
@@ -242,6 +282,75 @@ references:
   name: AppointmentShadowSelectionStaticProviderV2
   nameWithType: AppointmentShadowSelectionStaticProviderV2
   fullName: SuperOffice.CRM.ArchiveLists.Archive.AppointmentShadowSelectionStaticProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderV2
+  isExternal: true
+  name: ChatConversationSelectionDynamicProviderV2
+  nameWithType: ChatConversationSelectionDynamicProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: ChatConversationSelectionDynamicProviderSingleCriteriaGroup
+  nameWithType: ChatConversationSelectionDynamicProviderSingleCriteriaGroup
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionDynamicProviderSingleCriteriaGroup
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderV2
+  isExternal: true
+  name: ChatConversationShadowSelectionDynamicProviderV2
+  nameWithType: ChatConversationShadowSelectionDynamicProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderSingleCriteriaGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderSingleCriteriaGroup
+  isExternal: true
+  name: ChatConversationShadowSelectionDynamicProviderSingleCriteriaGroup
+  nameWithType: ChatConversationShadowSelectionDynamicProviderSingleCriteriaGroup
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionDynamicProviderSingleCriteriaGroup
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionCombinedProviderV2
+  isExternal: true
+  name: ChatConversationSelectionCombinedProviderV2
+  nameWithType: ChatConversationSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionCombinedProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionCombinedProviderV2
+  isExternal: true
+  name: ChatConversationShadowSelectionCombinedProviderV2
+  nameWithType: ChatConversationShadowSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionCombinedProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderV2
+  isExternal: true
+  name: ChatConversationSelectionProviderV2
+  nameWithType: ChatConversationSelectionProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionProviderV2
+  isExternal: true
+  name: ChatConversationShadowSelectionProviderV2
+  nameWithType: ChatConversationShadowSelectionProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderBaseV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderBaseV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: ChatConversationSelectionProviderBaseV2
+  nameWithType: ChatConversationSelectionProviderBaseV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionProviderBaseV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionStaticProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionStaticProviderV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: ChatConversationSelectionStaticProviderV2
+  nameWithType: ChatConversationSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationSelectionStaticProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionStaticProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionStaticProviderV2
+  isExternal: true
+  name: ChatConversationShadowSelectionStaticProviderV2
+  nameWithType: ChatConversationShadowSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ChatConversationShadowSelectionStaticProviderV2
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderV2
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionDynamicProviderV2
   isExternal: true
@@ -442,6 +551,144 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderV2
+  isExternal: true
+  name: FormSubmissionSelectionDynamicProviderV2
+  nameWithType: FormSubmissionSelectionDynamicProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderSingleCriteriaGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderSingleCriteriaGroup
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: FormSubmissionSelectionDynamicProviderSingleCriteriaGroup
+  nameWithType: FormSubmissionSelectionDynamicProviderSingleCriteriaGroup
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionDynamicProviderSingleCriteriaGroup
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderV2
+  isExternal: true
+  name: FormSubmissionShadowSelectionDynamicProviderV2
+  nameWithType: FormSubmissionShadowSelectionDynamicProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderSingleCriteriaGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderSingleCriteriaGroup
+  isExternal: true
+  name: FormSubmissionShadowSelectionDynamicProviderSingleCriteriaGroup
+  nameWithType: FormSubmissionShadowSelectionDynamicProviderSingleCriteriaGroup
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionDynamicProviderSingleCriteriaGroup
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionCombinedProviderV2
+  isExternal: true
+  name: FormSubmissionSelectionCombinedProviderV2
+  nameWithType: FormSubmissionSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionCombinedProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionCombinedProviderV2
+  isExternal: true
+  name: FormSubmissionShadowSelectionCombinedProviderV2
+  nameWithType: FormSubmissionShadowSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionCombinedProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderV2
+  isExternal: true
+  name: FormSubmissionSelectionProviderV2
+  nameWithType: FormSubmissionSelectionProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionProviderV2
+  isExternal: true
+  name: FormSubmissionShadowSelectionProviderV2
+  nameWithType: FormSubmissionShadowSelectionProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderBaseV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderBaseV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: FormSubmissionSelectionProviderBaseV2
+  nameWithType: FormSubmissionSelectionProviderBaseV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionProviderBaseV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionStaticProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionStaticProviderV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: FormSubmissionSelectionStaticProviderV2
+  nameWithType: FormSubmissionSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionSelectionStaticProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionStaticProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionStaticProviderV2
+  isExternal: true
+  name: FormSubmissionShadowSelectionStaticProviderV2
+  nameWithType: FormSubmissionShadowSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.FormSubmissionShadowSelectionStaticProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderV2
+  isExternal: true
+  name: MailingsSelectionDynamicProviderV2
+  nameWithType: MailingsSelectionDynamicProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderSingleCriteriaGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderSingleCriteriaGroup
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: MailingsSelectionDynamicProviderSingleCriteriaGroup
+  nameWithType: MailingsSelectionDynamicProviderSingleCriteriaGroup
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionDynamicProviderSingleCriteriaGroup
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderV2
+  isExternal: true
+  name: MailingsShadowSelectionDynamicProviderV2
+  nameWithType: MailingsShadowSelectionDynamicProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderSingleCriteriaGroup
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderSingleCriteriaGroup
+  isExternal: true
+  name: MailingsShadowSelectionDynamicProviderSingleCriteriaGroup
+  nameWithType: MailingsShadowSelectionDynamicProviderSingleCriteriaGroup
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionDynamicProviderSingleCriteriaGroup
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionCombinedProviderV2
+  isExternal: true
+  name: MailingsSelectionCombinedProviderV2
+  nameWithType: MailingsSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionCombinedProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionCombinedProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionCombinedProviderV2
+  isExternal: true
+  name: MailingsShadowSelectionCombinedProviderV2
+  nameWithType: MailingsShadowSelectionCombinedProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionCombinedProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderV2
+  isExternal: true
+  name: MailingsSelectionProviderV2
+  nameWithType: MailingsSelectionProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionProviderV2
+  isExternal: true
+  name: MailingsShadowSelectionProviderV2
+  nameWithType: MailingsShadowSelectionProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderBaseV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderBaseV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: MailingsSelectionProviderBaseV2
+  nameWithType: MailingsSelectionProviderBaseV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionProviderBaseV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionStaticProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionStaticProviderV2
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: MailingsSelectionStaticProviderV2
+  nameWithType: MailingsSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsSelectionStaticProviderV2
+- uid: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionStaticProviderV2
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionStaticProviderV2
+  isExternal: true
+  name: MailingsShadowSelectionStaticProviderV2
+  nameWithType: MailingsShadowSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.MailingsShadowSelectionStaticProviderV2
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProviderV2
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionDynamicProviderV2
   isExternal: true

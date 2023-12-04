@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.TicketChangeData
+  commentId: T:SuperOffice.CRM.Ticket.TicketChangeData
+  id: TicketChangeData
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.TicketChangeData.#ctor
+  - SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
+  - SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
+  - SuperOffice.CRM.Ticket.TicketChangeData.TicketId
+  langs:
+  - csharp
+  - vb
+  name: TicketChangeData
+  nameWithType: TicketChangeData
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: 'public class TicketChangeData : Object'
+    content.vb: >-
+      Public Class TicketChangeData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Ticket.TicketChangeData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Ticket.TicketChangeData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Ticket.TicketChangeData)
+  - SuperOffice.CRM.Ticket.TicketChangeData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Ticket.TicketChangeData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.#ctor
+  commentId: M:SuperOffice.CRM.Ticket.TicketChangeData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: TicketChangeData()
+  nameWithType: TicketChangeData.TicketChangeData()
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketChangeData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public TicketChangeData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
+  id: OwnerEjUserId
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: OwnerEjUserId
+  nameWithType: TicketChangeData.OwnerEjUserId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public int OwnerEjUserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OwnerEjUserId As Integer
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
+  id: CategoryId
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: TicketChangeData.CategoryId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public int CategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CategoryId As Integer
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.CategoryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.TicketId
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: TicketChangeData.TicketId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketChangeData, To>()
+  nameWithType: EnumUtil.MapEnums<TicketChangeData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.TicketChangeData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketChangeData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.TicketChangeData, To)()
+  name.vb: MapEnums(Of TicketChangeData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketChangeData, To>
+    nameWithType: EnumUtil.MapEnums<TicketChangeData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.TicketChangeData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketChangeData, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketChangeData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.TicketChangeData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Ticket.TicketChangeData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TicketChangeData>(TicketChangeData)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketChangeData>(TicketChangeData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Ticket.TicketChangeData>(SuperOffice.CRM.Ticket.TicketChangeData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketChangeData)(TicketChangeData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Ticket.TicketChangeData)(SuperOffice.CRM.Ticket.TicketChangeData)
+  name.vb: AssignByReflection(Of TicketChangeData)(TicketChangeData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketChangeData>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketChangeData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Ticket.TicketChangeData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Ticket.TicketChangeData
+    name: TicketChangeData
+    nameWithType: TicketChangeData
+    fullName: SuperOffice.CRM.Ticket.TicketChangeData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketChangeData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketChangeData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Ticket.TicketChangeData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Ticket.TicketChangeData
+    name: TicketChangeData
+    nameWithType: TicketChangeData
+    fullName: SuperOffice.CRM.Ticket.TicketChangeData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TicketChangeData>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketChangeData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Ticket.TicketChangeData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketChangeData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Ticket.TicketChangeData)()
+  name.vb: GraphCopy(Of TicketChangeData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketChangeData>
+    nameWithType: ObjectExtensions.GraphCopy<TicketChangeData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Ticket.TicketChangeData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketChangeData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketChangeData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Ticket.TicketChangeData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketChangeData, To>()
+  nameWithType: Converters.MapEnums<TicketChangeData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.TicketChangeData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketChangeData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.TicketChangeData, To)()
+  name.vb: MapEnums(Of TicketChangeData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketChangeData, To>
+    nameWithType: Converters.MapEnums<TicketChangeData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.TicketChangeData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketChangeData, To)
+    nameWithType: Converters.MapEnums(Of TicketChangeData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.TicketChangeData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.#ctor
+  isExternal: true
+  name: TicketChangeData
+  nameWithType: TicketChangeData.TicketChangeData
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketChangeData
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
+  isExternal: true
+  name: OwnerEjUserId
+  nameWithType: TicketChangeData.OwnerEjUserId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.CategoryId*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
+  isExternal: true
+  name: CategoryId
+  nameWithType: TicketChangeData.CategoryId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.TicketId*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: TicketChangeData.TicketId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketId

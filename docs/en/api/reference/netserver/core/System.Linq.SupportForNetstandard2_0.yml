@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Linq.SupportForNetstandard2_0
+  commentId: N:System.Linq.SupportForNetstandard2_0
+  id: System.Linq.SupportForNetstandard2_0
+  children:
+  - System.Linq.SupportForNetstandard2_0.LinqExtensions
+  langs:
+  - csharp
+  - vb
+  name: System.Linq.SupportForNetstandard2_0
+  nameWithType: System.Linq.SupportForNetstandard2_0
+  fullName: System.Linq.SupportForNetstandard2_0
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: System.Linq.SupportForNetstandard2_0.LinqExtensions
+  commentId: T:System.Linq.SupportForNetstandard2_0.LinqExtensions
+  isExternal: true
+  name: LinqExtensions
+  nameWithType: LinqExtensions
+  fullName: System.Linq.SupportForNetstandard2_0.LinqExtensions

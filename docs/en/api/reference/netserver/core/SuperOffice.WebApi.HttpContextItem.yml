@@ -1,0 +1,534 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.HttpContextItem
+  commentId: T:SuperOffice.WebApi.HttpContextItem
+  id: HttpContextItem
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.HttpContextItem.#ctor
+  - SuperOffice.WebApi.HttpContextItem.AccountId
+  - SuperOffice.WebApi.HttpContextItem.SuccessOverride
+  - SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
+  langs:
+  - csharp
+  - vb
+  name: HttpContextItem
+  nameWithType: HttpContextItem
+  fullName: SuperOffice.WebApi.HttpContextItem
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nNames of <see cref=\"!:HttpContext.Items\"></see> processed by <see cref=\"!:TelemetryInitializer\"></see>.\nAdded to context to improve telemetry.\n"
+  syntax:
+    content: 'public class HttpContextItem : Object'
+    content.vb: >-
+      Public Class HttpContextItem
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.WebApi.HttpContextItem.EnumUtil.MapEnums``2
+  - SuperOffice.WebApi.HttpContextItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.WebApi.HttpContextItem)
+  - SuperOffice.WebApi.HttpContextItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.WebApi.HttpContextItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.HttpContextItem.AccountId
+  commentId: F:SuperOffice.WebApi.HttpContextItem.AccountId
+  id: AccountId
+  parent: SuperOffice.WebApi.HttpContextItem
+  langs:
+  - csharp
+  - vb
+  name: AccountId
+  nameWithType: HttpContextItem.AccountId
+  fullName: SuperOffice.WebApi.HttpContextItem.AccountId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string AccountId = "accountId"
+    return:
+      type: System.String
+    content.vb: Public Const AccountId As String = "accountId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.HttpContextItem.SuccessOverride
+  commentId: F:SuperOffice.WebApi.HttpContextItem.SuccessOverride
+  id: SuccessOverride
+  parent: SuperOffice.WebApi.HttpContextItem
+  langs:
+  - csharp
+  - vb
+  name: SuccessOverride
+  nameWithType: HttpContextItem.SuccessOverride
+  fullName: SuperOffice.WebApi.HttpContextItem.SuccessOverride
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nTell telemetry that success/failure state of operation is overridden with bool value\n"
+  syntax:
+    content: public const string SuccessOverride = "isSuccess"
+    return:
+      type: System.String
+    content.vb: Public Const SuccessOverride As String = "isSuccess"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
+  commentId: F:SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
+  id: TelemetryOperationName
+  parent: SuperOffice.WebApi.HttpContextItem
+  langs:
+  - csharp
+  - vb
+  name: TelemetryOperationName
+  nameWithType: HttpContextItem.TelemetryOperationName
+  fullName: SuperOffice.WebApi.HttpContextItem.TelemetryOperationName
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nOverride automatically generated operation name in telemetry\n"
+  syntax:
+    content: public const string TelemetryOperationName = "TelemetryOperationName"
+    return:
+      type: System.String
+    content.vb: Public Const TelemetryOperationName As String = "TelemetryOperationName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.HttpContextItem.#ctor
+  commentId: M:SuperOffice.WebApi.HttpContextItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.HttpContextItem
+  langs:
+  - csharp
+  - vb
+  name: HttpContextItem()
+  nameWithType: HttpContextItem.HttpContextItem()
+  fullName: SuperOffice.WebApi.HttpContextItem.HttpContextItem()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public HttpContextItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.HttpContextItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.HttpContextItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<HttpContextItem, To>()
+  nameWithType: EnumUtil.MapEnums<HttpContextItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.WebApi.HttpContextItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of HttpContextItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.WebApi.HttpContextItem, To)()
+  name.vb: MapEnums(Of HttpContextItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<HttpContextItem, To>
+    nameWithType: EnumUtil.MapEnums<HttpContextItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.WebApi.HttpContextItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of HttpContextItem, To)
+    nameWithType: EnumUtil.MapEnums(Of HttpContextItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.WebApi.HttpContextItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.HttpContextItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.WebApi.HttpContextItem)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<HttpContextItem>(HttpContextItem)
+  nameWithType: ObjectExtensions.AssignByReflection<HttpContextItem>(HttpContextItem)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.WebApi.HttpContextItem>(SuperOffice.WebApi.HttpContextItem)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HttpContextItem)(HttpContextItem)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.WebApi.HttpContextItem)(SuperOffice.WebApi.HttpContextItem)
+  name.vb: AssignByReflection(Of HttpContextItem)(HttpContextItem)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<HttpContextItem>
+    nameWithType: ObjectExtensions.AssignByReflection<HttpContextItem>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.WebApi.HttpContextItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.HttpContextItem
+    name: HttpContextItem
+    nameWithType: HttpContextItem
+    fullName: SuperOffice.WebApi.HttpContextItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of HttpContextItem)
+    nameWithType: ObjectExtensions.AssignByReflection(Of HttpContextItem)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.WebApi.HttpContextItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.HttpContextItem
+    name: HttpContextItem
+    nameWithType: HttpContextItem
+    fullName: SuperOffice.WebApi.HttpContextItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.HttpContextItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<HttpContextItem>()
+  nameWithType: ObjectExtensions.GraphCopy<HttpContextItem>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.WebApi.HttpContextItem>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of HttpContextItem)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.WebApi.HttpContextItem)()
+  name.vb: GraphCopy(Of HttpContextItem)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<HttpContextItem>
+    nameWithType: ObjectExtensions.GraphCopy<HttpContextItem>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.WebApi.HttpContextItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of HttpContextItem)
+    nameWithType: ObjectExtensions.GraphCopy(Of HttpContextItem)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.WebApi.HttpContextItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.HttpContextItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<HttpContextItem, To>()
+  nameWithType: Converters.MapEnums<HttpContextItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.HttpContextItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of HttpContextItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.HttpContextItem, To)()
+  name.vb: MapEnums(Of HttpContextItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<HttpContextItem, To>
+    nameWithType: Converters.MapEnums<HttpContextItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.HttpContextItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of HttpContextItem, To)
+    nameWithType: Converters.MapEnums(Of HttpContextItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.HttpContextItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.HttpContextItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.HttpContextItem.#ctor
+  isExternal: true
+  name: HttpContextItem
+  nameWithType: HttpContextItem.HttpContextItem
+  fullName: SuperOffice.WebApi.HttpContextItem.HttpContextItem

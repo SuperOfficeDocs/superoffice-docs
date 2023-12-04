@@ -28,10 +28,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String,System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String,System.Int32,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn(System.String,System.TimeSpan,System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddParent(System.String,System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddStyleHint(System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddTooltipToField(System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AlignToTargetColumnSet(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.ColumnData
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.Equals(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.FieldCount
@@ -58,6 +60,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.GetString(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.GetValue(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.GetValues(System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint(System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.IsDBNull(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.Item(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.Item(System.String)
@@ -89,9 +92,12 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries the data of one archive row\n"
   syntax:
-    content: 'public class ArchiveRow : IDataRecord, IEquatable<ArchiveRow>'
+    content: 'public class ArchiveRow : Object, IDataRecord, IEquatable<ArchiveRow>'
     content.vb: >-
       Public Class ArchiveRow
+
+          Inherits Object
+
           Implements IDataRecord, IEquatable(Of ArchiveRow)
   inheritance:
   - System.Object
@@ -105,13 +111,6 @@ items:
   implements:
   - System.Data.IDataRecord
   - System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -423,7 +422,7 @@ items:
       type: System.String
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-    content.vb: Public Function AddOverlappingDateTimeColumn(name As String, value As Date, tooltipHint As String, linkHint As String) As ArchiveColumnData
+    content.vb: Public Function AddOverlappingDateTimeColumn(name As String, value As DateTime, tooltipHint As String, linkHint As String) As ArchiveColumnData
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDateTimeColumn*
   modifiers.csharp:
   - public
@@ -457,7 +456,7 @@ items:
       type: System.String
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-    content.vb: Public Function AddOverlappingDateTimeColumn(name As String, value As Date, tooltipHint As String) As ArchiveColumnData
+    content.vb: Public Function AddOverlappingDateTimeColumn(name As String, value As DateTime, tooltipHint As String) As ArchiveColumnData
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDateTimeColumn*
   modifiers.csharp:
   - public
@@ -489,8 +488,44 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-    content.vb: Public Function AddOverlappingDateTimeColumn(name As String, value As Date) As ArchiveColumnData
+    content.vb: Public Function AddOverlappingDateTimeColumn(name As String, value As DateTime) As ArchiveColumnData
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDateTimeColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn(System.String,System.TimeSpan,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn(System.String,System.TimeSpan,System.String,System.String)
+  id: AddOverlappingTimeSpanColumn(System.String,System.TimeSpan,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  langs:
+  - csharp
+  - vb
+  name: AddOverlappingTimeSpanColumn(String, TimeSpan, String, String)
+  nameWithType: ArchiveRow.AddOverlappingTimeSpanColumn(String, TimeSpan, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn(System.String, System.TimeSpan, System.String, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ArchiveColumnData AddOverlappingTimeSpanColumn(string name, TimeSpan value, string tooltipHint = "", string linkHint = "")
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.TimeSpan
+    - id: tooltipHint
+      type: System.String
+    - id: linkHint
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Function AddOverlappingTimeSpanColumn(name As String, value As TimeSpan, tooltipHint As String = "", linkHint As String = "") As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -927,6 +962,33 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone
+  id: Clone
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ArchiveRow.Clone()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ArchiveRow Clone()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    content.vb: Public Function Clone As ArchiveRow
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddStyleHint(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRow.AddStyleHint(System.String)
   id: AddStyleHint(System.String)
@@ -1044,6 +1106,37 @@ items:
       type: System.String
     content.vb: Public Sub ReplaceLinkHint(linkKey As String, linkValue As String)
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.ReplaceLinkHint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint(System.String)
+  id: HasLinkHint(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  langs:
+  - csharp
+  - vb
+  name: HasLinkHint(String)
+  nameWithType: ArchiveRow.HasLinkHint(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCheck if link hint exists\n"
+  syntax:
+    content: public bool HasLinkHint(string hintName)
+    parameters:
+    - id: hintName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasLinkHint(hintName As String) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1228,7 +1321,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.ToString*
   modifiers.csharp:
   - public
@@ -1265,8 +1357,6 @@ items:
       description: True if input is not null and matches row type and key, false if not.
     content.vb: Public Function Equals(other As ArchiveRow) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.Equals*
-  implements:
-  - System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}.Equals(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1603,7 +1693,7 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Function GetDateTime(i As Integer) As Date
+    content.vb: Public Function GetDateTime(i As Integer) As DateTime
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDateTime*
   modifiers.csharp:
   - public
@@ -1627,7 +1717,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public decimal GetDecimal(int i)
+    content: public Decimal GetDecimal(int i)
     parameters:
     - id: i
       type: System.Int32
@@ -2368,8 +2458,7 @@ references:
   nameWithType: IDataRecord
   fullName: System.Data.IDataRecord
 - uid: System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: T:System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  parent: System
+  commentId: '!:System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
   definition: System.IEquatable`1
   name: IEquatable<ArchiveRow>
   nameWithType: IEquatable<ArchiveRow>
@@ -2408,254 +2497,6 @@ references:
     nameWithType: ArchiveRow
     fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -2869,14 +2710,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.IEquatable`1
-  commentId: T:System.IEquatable`1
   isExternal: true
-  name: IEquatable<T>
-  nameWithType: IEquatable<T>
-  fullName: System.IEquatable<T>
-  nameWithType.vb: IEquatable(Of T)
-  fullName.vb: System.IEquatable(Of T)
-  name.vb: IEquatable(Of T)
+  name: IEquatable<>
+  nameWithType: IEquatable<>
+  fullName: System.IEquatable<>
+  nameWithType.vb: IEquatable(Of )
+  fullName.vb: System.IEquatable(Of )
+  name.vb: IEquatable(Of )
   spec.csharp:
   - uid: System.IEquatable`1
     name: IEquatable
@@ -2886,9 +2726,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2901,9 +2741,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3245,12 +3085,21 @@ references:
   nameWithType: ArchiveRow.AddOverlappingDateTimeColumn
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingDateTimeColumn
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn
+  isExternal: true
+  name: AddOverlappingTimeSpanColumn
+  nameWithType: ArchiveRow.AddOverlappingTimeSpanColumn
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingTimeSpanColumn
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingBoolColumn*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingBoolColumn
   isExternal: true
@@ -3315,6 +3164,12 @@ references:
   name: PopulateFromBase
   nameWithType: ArchiveRow.PopulateFromBase
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.PopulateFromBase
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: ArchiveRow.Clone
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Clone
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddStyleHint*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.AddStyleHint
   isExternal: true
@@ -3339,6 +3194,12 @@ references:
   name: ReplaceLinkHint
   nameWithType: ArchiveRow.ReplaceLinkHint
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ReplaceLinkHint
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint
+  isExternal: true
+  name: HasLinkHint
+  nameWithType: ArchiveRow.HasLinkHint
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.HasLinkHint
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetLinkHintValue*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.GetLinkHintValue
   isExternal: true
@@ -3369,37 +3230,6 @@ references:
   name: GetDisplayValue
   nameWithType: ArchiveRow.GetDisplayValue
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDisplayValue
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.ToString*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.ToString
   isExternal: true
@@ -3412,87 +3242,6 @@ references:
   name: Equals
   nameWithType: ArchiveRow.Equals
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Equals
-- uid: System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}.Equals(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  commentId: M:System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}.Equals(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  parent: System.IEquatable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  definition: System.IEquatable`1.Equals(`0)
-  name: Equals(ArchiveRow)
-  nameWithType: IEquatable<ArchiveRow>.Equals(ArchiveRow)
-  fullName: System.IEquatable<SuperOffice.CRM.ArchiveLists.ArchiveRow>.Equals(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  nameWithType.vb: IEquatable(Of ArchiveRow).Equals(ArchiveRow)
-  fullName.vb: System.IEquatable(Of SuperOffice.CRM.ArchiveLists.ArchiveRow).Equals(SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  spec.csharp:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable<ArchiveRow>.Equals
-    fullName: System.IEquatable<SuperOffice.CRM.ArchiveLists.ArchiveRow>.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable(Of ArchiveRow).Equals
-    fullName: System.IEquatable(Of SuperOffice.CRM.ArchiveLists.ArchiveRow).Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.IEquatable`1.Equals(`0)
-  commentId: M:System.IEquatable`1.Equals(`0)
-  isExternal: true
-  name: Equals(T)
-  nameWithType: IEquatable<T>.Equals(T)
-  fullName: System.IEquatable<T>.Equals(T)
-  nameWithType.vb: IEquatable(Of T).Equals(T)
-  fullName.vb: System.IEquatable(Of T).Equals(T)
-  spec.csharp:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable<T>.Equals
-    fullName: System.IEquatable<T>.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    nameWithType: IEquatable(Of T).Equals
-    fullName: System.IEquatable(Of T).Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.ToIdDictionary*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.ToIdDictionary
   isExternal: true
@@ -3526,8 +3275,7 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRow}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, ArchiveRow>
   nameWithType: Dictionary<Int32, ArchiveRow>
@@ -3586,14 +3334,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -3603,15 +3350,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3624,27 +3371,20 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: System.Collections.Generic.ICollection{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.ICollection{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
   definition: System.Collections.Generic.ICollection`1
   name: ICollection<ArchiveRow>
   nameWithType: ICollection<ArchiveRow>
@@ -3687,14 +3427,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
   isExternal: true
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
   spec.csharp:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
@@ -3704,9 +3443,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3719,9 +3458,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3858,8 +3597,6 @@ references:
   nameWithType: ArchiveRow.GetDecimal
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetDecimal
 - uid: System.Decimal
-  commentId: T:System.Decimal
-  parent: System
   isExternal: true
   name: Decimal
   nameWithType: Decimal
@@ -3877,8 +3614,6 @@ references:
   nameWithType: ArchiveRow.GetFieldType
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetFieldType
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type
@@ -3903,8 +3638,6 @@ references:
   nameWithType: ArchiveRow.GetGuid
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.GetGuid
 - uid: System.Guid
-  commentId: T:System.Guid
-  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
@@ -4003,8 +3736,7 @@ references:
   nameWithType: ArchiveRow.ColumnData
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.ColumnData
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, ArchiveColumnData>
   nameWithType: Dictionary<String, ArchiveColumnData>
@@ -4112,8 +3844,7 @@ references:
   nameWithType: ArchiveRow.Parents
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.Parents
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowParent}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowParent}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowParent}'
   definition: System.Collections.Generic.List`1
   name: List<ArchiveRowParent>
   nameWithType: List<ArchiveRowParent>
@@ -4156,14 +3887,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -4173,9 +3903,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4188,9 +3918,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

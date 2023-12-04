@@ -8,13 +8,14 @@ items:
   - SuperOffice.Data.ServiceAuthStatus.Error
   - SuperOffice.Data.ServiceAuthStatus.Initialized
   - SuperOffice.Data.ServiceAuthStatus.Unknown
+  - SuperOffice.Data.ServiceAuthStatus.value__
   langs:
   - csharp
   - vb
   name: ServiceAuthStatus
   nameWithType: ServiceAuthStatus
   fullName: SuperOffice.Data.ServiceAuthStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -23,19 +24,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nPossible statuses for a ServiceAuth.\nThis Enum is used by:  service_auth.auth_status\n"
   syntax:
-    content: 'public enum ServiceAuthStatus : short'
-    content.vb: Public Enum ServiceAuthStatus As Short
+    content: 'public sealed class ServiceAuthStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class ServiceAuthStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ServiceAuthStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.ServiceAuthStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ServiceAuthStatus)
-  - SuperOffice.Data.ServiceAuthStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.ServiceAuthStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ServiceAuthStatus.value__
+  commentId: F:SuperOffice.Data.ServiceAuthStatus.value__
+  id: value__
+  parent: SuperOffice.Data.ServiceAuthStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ServiceAuthStatus.value__
+  fullName: SuperOffice.Data.ServiceAuthStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ServiceAuthStatus.Unknown
   commentId: F:SuperOffice.Data.ServiceAuthStatus.Unknown
   id: Unknown
@@ -55,9 +91,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown status\n"
   syntax:
-    content: Unknown = 0
+    content: public const ServiceAuthStatus Unknown
     return:
       type: SuperOffice.Data.ServiceAuthStatus
+    content.vb: Public Const Unknown As ServiceAuthStatus
   modifiers.csharp:
   - public
   - const
@@ -83,9 +120,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Initialized\n"
   syntax:
-    content: Initialized = 1
+    content: public const ServiceAuthStatus Initialized
     return:
       type: SuperOffice.Data.ServiceAuthStatus
+    content.vb: Public Const Initialized As ServiceAuthStatus
   modifiers.csharp:
   - public
   - const
@@ -111,9 +149,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Error\n"
   syntax:
-    content: Error = 2
+    content: public const ServiceAuthStatus Error
     return:
       type: SuperOffice.Data.ServiceAuthStatus
+    content.vb: Public Const Error As ServiceAuthStatus
   modifiers.csharp:
   - public
   - const
@@ -127,6 +166,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ServiceAuthStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -154,84 +200,6 @@ references:
     name: MapEnums(Of ServiceAuthStatus, To)
     nameWithType: EnumUtil.MapEnums(Of ServiceAuthStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ServiceAuthStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ServiceAuthStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ServiceAuthStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ServiceAuthStatus>(ServiceAuthStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<ServiceAuthStatus>(ServiceAuthStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ServiceAuthStatus>(SuperOffice.Data.ServiceAuthStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServiceAuthStatus)(ServiceAuthStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ServiceAuthStatus)(SuperOffice.Data.ServiceAuthStatus)
-  name.vb: AssignByReflection(Of ServiceAuthStatus)(ServiceAuthStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ServiceAuthStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<ServiceAuthStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ServiceAuthStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ServiceAuthStatus
-    name: ServiceAuthStatus
-    nameWithType: ServiceAuthStatus
-    fullName: SuperOffice.Data.ServiceAuthStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ServiceAuthStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ServiceAuthStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ServiceAuthStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ServiceAuthStatus
-    name: ServiceAuthStatus
-    nameWithType: ServiceAuthStatus
-    fullName: SuperOffice.Data.ServiceAuthStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ServiceAuthStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ServiceAuthStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<ServiceAuthStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ServiceAuthStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServiceAuthStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ServiceAuthStatus)()
-  name.vb: GraphCopy(Of ServiceAuthStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ServiceAuthStatus>
-    nameWithType: ObjectExtensions.GraphCopy<ServiceAuthStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ServiceAuthStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ServiceAuthStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of ServiceAuthStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ServiceAuthStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -273,6 +241,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -318,103 +292,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -461,18 +338,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ServiceAuthStatus
   commentId: T:SuperOffice.Data.ServiceAuthStatus
   parent: SuperOffice.Data

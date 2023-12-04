@@ -265,15 +265,7 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Text.Encoding
-  commentId: T:System.Text.Encoding
-  parent: System.Text
   isExternal: true
   name: Encoding
   nameWithType: Encoding
   fullName: System.Text.Encoding
-- uid: System.Text
-  commentId: N:System.Text
-  isExternal: true
-  name: System.Text
-  nameWithType: System.Text
-  fullName: System.Text

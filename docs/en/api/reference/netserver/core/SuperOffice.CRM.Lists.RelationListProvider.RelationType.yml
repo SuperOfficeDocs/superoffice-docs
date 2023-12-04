@@ -9,13 +9,14 @@ items:
   - SuperOffice.CRM.Lists.RelationListProvider.RelationType.CP
   - SuperOffice.CRM.Lists.RelationListProvider.RelationType.PC
   - SuperOffice.CRM.Lists.RelationListProvider.RelationType.PP
+  - SuperOffice.CRM.Lists.RelationListProvider.RelationType.value__
   langs:
   - csharp
   - vb
   name: RelationListProvider.RelationType
   nameWithType: RelationListProvider.RelationType
   fullName: SuperOffice.CRM.Lists.RelationListProvider.RelationType
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,19 +25,54 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nRelation type to fetch list for - use ToString() on one of the values as the additionalInfo parameter\n"
   syntax:
-    content: public enum RelationType
-    content.vb: Public Enum RelationType
+    content: 'public sealed class RelationType : Enum'
+    content.vb: >-
+      Public NotInheritable Class RelationType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Lists.RelationListProvider.RelationType.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Lists.RelationListProvider.RelationType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.RelationListProvider.RelationType)
-  - SuperOffice.CRM.Lists.RelationListProvider.RelationType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Lists.RelationListProvider.RelationType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType.value__
+  commentId: F:SuperOffice.CRM.Lists.RelationListProvider.RelationType.value__
+  id: value__
+  parent: SuperOffice.CRM.Lists.RelationListProvider.RelationType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RelationListProvider.RelationType.value__
+  fullName: SuperOffice.CRM.Lists.RelationListProvider.RelationType.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType.CC
   commentId: F:SuperOffice.CRM.Lists.RelationListProvider.RelationType.CC
   id: CC
@@ -56,9 +92,10 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nContact - contact relation (between companies)\n"
   syntax:
-    content: CC = 0
+    content: public const RelationListProvider.RelationType CC
     return:
       type: SuperOffice.CRM.Lists.RelationListProvider.RelationType
+    content.vb: Public Const CC As RelationListProvider.RelationType
   modifiers.csharp:
   - public
   - const
@@ -84,9 +121,10 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nContact - person relation (company to person)\n"
   syntax:
-    content: CP = 1
+    content: public const RelationListProvider.RelationType CP
     return:
       type: SuperOffice.CRM.Lists.RelationListProvider.RelationType
+    content.vb: Public Const CP As RelationListProvider.RelationType
   modifiers.csharp:
   - public
   - const
@@ -112,9 +150,10 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nPerson - contact relation (person to company)\n"
   syntax:
-    content: PC = 2
+    content: public const RelationListProvider.RelationType PC
     return:
       type: SuperOffice.CRM.Lists.RelationListProvider.RelationType
+    content.vb: Public Const PC As RelationListProvider.RelationType
   modifiers.csharp:
   - public
   - const
@@ -140,9 +179,10 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nPerson - person relation (person to person)\n"
   syntax:
-    content: PP = 3
+    content: public const RelationListProvider.RelationType PP
     return:
       type: SuperOffice.CRM.Lists.RelationListProvider.RelationType
+    content.vb: Public Const PP As RelationListProvider.RelationType
   modifiers.csharp:
   - public
   - const
@@ -156,6 +196,13 @@ references:
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -183,84 +230,6 @@ references:
     name: MapEnums(Of RelationListProvider.RelationType, To)
     nameWithType: EnumUtil.MapEnums(Of RelationListProvider.RelationType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.RelationListProvider.RelationType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.RelationListProvider.RelationType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<RelationListProvider.RelationType>(RelationListProvider.RelationType)
-  nameWithType: ObjectExtensions.AssignByReflection<RelationListProvider.RelationType>(RelationListProvider.RelationType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.RelationListProvider.RelationType>(SuperOffice.CRM.Lists.RelationListProvider.RelationType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RelationListProvider.RelationType)(RelationListProvider.RelationType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.RelationListProvider.RelationType)(SuperOffice.CRM.Lists.RelationListProvider.RelationType)
-  name.vb: AssignByReflection(Of RelationListProvider.RelationType)(RelationListProvider.RelationType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<RelationListProvider.RelationType>
-    nameWithType: ObjectExtensions.AssignByReflection<RelationListProvider.RelationType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.RelationListProvider.RelationType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType
-    name: RelationListProvider.RelationType
-    nameWithType: RelationListProvider.RelationType
-    fullName: SuperOffice.CRM.Lists.RelationListProvider.RelationType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of RelationListProvider.RelationType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of RelationListProvider.RelationType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.RelationListProvider.RelationType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType
-    name: RelationListProvider.RelationType
-    nameWithType: RelationListProvider.RelationType
-    fullName: SuperOffice.CRM.Lists.RelationListProvider.RelationType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<RelationListProvider.RelationType>()
-  nameWithType: ObjectExtensions.GraphCopy<RelationListProvider.RelationType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.RelationListProvider.RelationType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RelationListProvider.RelationType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.RelationListProvider.RelationType)()
-  name.vb: GraphCopy(Of RelationListProvider.RelationType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<RelationListProvider.RelationType>
-    nameWithType: ObjectExtensions.GraphCopy<RelationListProvider.RelationType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.RelationListProvider.RelationType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of RelationListProvider.RelationType)
-    nameWithType: ObjectExtensions.GraphCopy(Of RelationListProvider.RelationType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.RelationListProvider.RelationType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -302,6 +271,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -347,103 +322,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -490,18 +368,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Lists.RelationListProvider.RelationType
   commentId: T:SuperOffice.CRM.Lists.RelationListProvider.RelationType
   parent: SuperOffice.CRM.Lists

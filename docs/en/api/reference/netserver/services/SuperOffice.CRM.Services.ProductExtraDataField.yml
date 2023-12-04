@@ -38,6 +38,8 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.ProductExtraDataField.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
   modifiers.csharp:
   - public
   - class
@@ -240,13 +242,37 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ProductExtraDataField.SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField(SuperOffice.CRM.Services.ProductExtraDataField)
+  parent: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  definition: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField(SuperOffice.CRM.Services.ProductExtraDataField)
+  name: GetProductExtraDataField()
+  nameWithType: QuoteConverter.GetProductExtraDataField()
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
+    name: GetProductExtraDataField
+    nameWithType: QuoteConverter.GetProductExtraDataField
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
+    name: GetProductExtraDataField
+    nameWithType: QuoteConverter.GetProductExtraDataField
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
@@ -260,12 +286,59 @@ references:
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField(SuperOffice.CRM.Services.ProductExtraDataField)
+  commentId: M:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField(SuperOffice.CRM.Services.ProductExtraDataField)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: GetProductExtraDataField(ProductExtraDataField)
+  nameWithType: QuoteConverter.GetProductExtraDataField(ProductExtraDataField)
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField(SuperOffice.CRM.Services.ProductExtraDataField)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField(SuperOffice.CRM.Services.ProductExtraDataField)
+    name: GetProductExtraDataField
+    nameWithType: QuoteConverter.GetProductExtraDataField
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.CRM.Services.ProductExtraDataField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField(SuperOffice.CRM.Services.ProductExtraDataField)
+    name: GetProductExtraDataField
+    nameWithType: QuoteConverter.GetProductExtraDataField
+    fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter.GetProductExtraDataField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.CRM.Services.ProductExtraDataField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+  parent: SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: QuoteConverter
+  nameWithType: QuoteConverter
+  fullName: SuperOffice.CRM.Services.Implementation.BL.QuoteConverter
+- uid: SuperOffice.CRM.Services.Implementation.BL
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation.BL
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL
+  fullName: SuperOffice.CRM.Services.Implementation.BL
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ProductExtraDataField.#ctor
   isExternal: true
@@ -285,6 +358,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.Name*
   commentId: Overload:SuperOffice.CRM.Services.ProductExtraDataField.Name
   isExternal: true

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.BatchTaskInfo.#ctor
   - SuperOffice.CRM.Services.BatchTaskInfo.AssociateId
+  - SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour
   - SuperOffice.CRM.Services.BatchTaskInfo.Context
   - SuperOffice.CRM.Services.BatchTaskInfo.Created
   - SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber
@@ -439,7 +440,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastStarted As Date
+    content.vb: Public Overridable Property LastStarted As DateTime
   overload: SuperOffice.CRM.Services.BatchTaskInfo.LastStarted*
   modifiers.csharp:
   - public
@@ -472,7 +473,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Created As Date
+    content.vb: Public Overridable Property Created As DateTime
   overload: SuperOffice.CRM.Services.BatchTaskInfo.Created*
   modifiers.csharp:
   - public
@@ -845,6 +846,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour
+  id: CancellationBehaviour
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: CancellationBehaviour
+  nameWithType: BatchTaskInfo.CancellationBehaviour
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIndicate if the task can be stopped. \n"
+  syntax:
+    content: public virtual BatchTaskCancellationBehaviour CancellationBehaviour { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.BatchTaskCancellationBehaviour
+    content.vb: Public Overridable Property CancellationBehaviour As BatchTaskCancellationBehaviour
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -852,13 +886,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.BatchAgent
   commentId: T:SuperOffice.CRM.Services.BatchAgent
   isExternal: true
@@ -872,12 +899,6 @@ references:
   name: IBatchAgent
   nameWithType: IBatchAgent
   fullName: SuperOffice.CRM.Services.IBatchAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.BatchTaskInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.#ctor
   isExternal: true
@@ -897,6 +918,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.BatchTaskInfo.Id*
   commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Id
   isExternal: true
@@ -978,8 +1005,6 @@ references:
   nameWithType: BatchTaskInfo.LastStarted
   fullName: SuperOffice.CRM.Services.BatchTaskInfo.LastStarted
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1061,3 +1086,15 @@ references:
   name: FileName
   nameWithType: BatchTaskInfo.FileName
   fullName: SuperOffice.CRM.Services.BatchTaskInfo.FileName
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour
+  isExternal: true
+  name: CancellationBehaviour
+  nameWithType: BatchTaskInfo.CancellationBehaviour
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.CancellationBehaviour
+- uid: SuperOffice.Data.BatchTaskCancellationBehaviour
+  commentId: '!:SuperOffice.Data.BatchTaskCancellationBehaviour'
+  isExternal: true
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: SuperOffice.Data.BatchTaskCancellationBehaviour

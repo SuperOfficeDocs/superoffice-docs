@@ -5,9 +5,10 @@ items:
   id: SoAccessTokenHelper
   parent: SuperOffice.Security.Principal
   children:
-  - SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
   - SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(System.String)
   - SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt(SuperOffice.Security.Principal.SoAccessToken)
+  - SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity(SuperOffice.Security.Principal.SoAccessToken,System.String)
+  - SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity(System.Security.Claims.ClaimsIdentity,SuperOffice.Security.Principal.SoAccessToken@)
   langs:
   - csharp
   - vb
@@ -22,18 +23,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public static class SoAccessTokenHelper
-    content.vb: Public Module SoAccessTokenHelper
+    content: 'public static class SoAccessTokenHelper : Object'
+    content.vb: >-
+      Public Module SoAccessTokenHelper
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -110,17 +106,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
-  commentId: M:SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
-  id: Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
-  isExtensionMethod: true
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity(System.Security.Claims.ClaimsIdentity,SuperOffice.Security.Principal.SoAccessToken@)
+  commentId: M:SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity(System.Security.Claims.ClaimsIdentity,SuperOffice.Security.Principal.SoAccessToken@)
+  id: TryGetFromClaimsIdentity(System.Security.Claims.ClaimsIdentity,SuperOffice.Security.Principal.SoAccessToken@)
   parent: SuperOffice.Security.Principal.SoAccessTokenHelper
   langs:
   - csharp
   - vb
-  name: Decrypt(SoAccessTokenSecurityToken)
-  nameWithType: SoAccessTokenHelper.Decrypt(SoAccessTokenSecurityToken)
-  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
+  name: TryGetFromClaimsIdentity(ClaimsIdentity, out SoAccessToken)
+  nameWithType: SoAccessTokenHelper.TryGetFromClaimsIdentity(ClaimsIdentity, out SoAccessToken)
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity(System.Security.Claims.ClaimsIdentity, out SuperOffice.Security.Principal.SoAccessToken)
   type: Method
   source:
     path: SoDataBase
@@ -129,15 +124,53 @@ items:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public static void Decrypt(this SoAccessTokenSecurityToken token)
+    content: public static bool TryGetFromClaimsIdentity(ClaimsIdentity identity, out SoAccessToken accessToken)
     parameters:
-    - id: token
-      type: SuperOffice.Security.Principal.SoAccessTokenSecurityToken
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub Decrypt(token As SoAccessTokenSecurityToken)
-  overload: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt*
+    - id: identity
+      type: System.Security.Claims.ClaimsIdentity
+    - id: accessToken
+      type: SuperOffice.Security.Principal.SoAccessToken
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryGetFromClaimsIdentity(identity As ClaimsIdentity, ByRef accessToken As SoAccessToken) As Boolean
+  overload: SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity*
+  nameWithType.vb: SoAccessTokenHelper.TryGetFromClaimsIdentity(ClaimsIdentity, ByRef SoAccessToken)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity(System.Security.Claims.ClaimsIdentity, ByRef SuperOffice.Security.Principal.SoAccessToken)
+  name.vb: TryGetFromClaimsIdentity(ClaimsIdentity, ByRef SoAccessToken)
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity(SuperOffice.Security.Principal.SoAccessToken,System.String)
+  commentId: M:SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity(SuperOffice.Security.Principal.SoAccessToken,System.String)
+  id: GetClaimsIdentity(SuperOffice.Security.Principal.SoAccessToken,System.String)
+  parent: SuperOffice.Security.Principal.SoAccessTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: GetClaimsIdentity(SoAccessToken, String)
+  nameWithType: SoAccessTokenHelper.GetClaimsIdentity(SoAccessToken, String)
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity(SuperOffice.Security.Principal.SoAccessToken, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public static ClaimsIdentity GetClaimsIdentity(SoAccessToken accessToken, string accessTokenData)
+    parameters:
+    - id: accessToken
+      type: SuperOffice.Security.Principal.SoAccessToken
+    - id: accessTokenData
+      type: System.String
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public Shared Function GetClaimsIdentity(accessToken As SoAccessToken, accessTokenData As String) As ClaimsIdentity
+  overload: SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity*
   modifiers.csharp:
   - public
   - static
@@ -158,285 +191,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -469,10 +223,27 @@ references:
   name: Encrypt
   nameWithType: SoAccessTokenHelper.Encrypt
   fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt
-- uid: SuperOffice.Security.Principal.SoAccessTokenSecurityToken
-  commentId: T:SuperOffice.Security.Principal.SoAccessTokenSecurityToken
-  parent: SuperOffice.Security.Principal
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity*
+  commentId: Overload:SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity
   isExternal: true
-  name: SoAccessTokenSecurityToken
-  nameWithType: SoAccessTokenSecurityToken
-  fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken
+  name: TryGetFromClaimsIdentity
+  nameWithType: SoAccessTokenHelper.TryGetFromClaimsIdentity
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.TryGetFromClaimsIdentity
+- uid: System.Security.Claims.ClaimsIdentity
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity*
+  commentId: Overload:SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity
+  isExternal: true
+  name: GetClaimsIdentity
+  nameWithType: SoAccessTokenHelper.GetClaimsIdentity
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.GetClaimsIdentity

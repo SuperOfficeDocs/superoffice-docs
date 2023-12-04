@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
+  commentId: T:SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
+  id: ExceptionLoggingContextExtensions
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext(SuperOffice.Factory.ISoRequestItemsAccessor)
+  langs:
+  - csharp
+  - vb
+  name: ExceptionLoggingContextExtensions
+  nameWithType: ExceptionLoggingContextExtensions
+  fullName: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: 'public static class ExceptionLoggingContextExtensions : Object'
+    content.vb: >-
+      Public Module ExceptionLoggingContextExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext(SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext(SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: GetExceptionLoggingContext(SuperOffice.Factory.ISoRequestItemsAccessor)
+  isExtensionMethod: true
+  parent: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetExceptionLoggingContext(ISoRequestItemsAccessor)
+  nameWithType: ExceptionLoggingContextExtensions.GetExceptionLoggingContext(ISoRequestItemsAccessor)
+  fullName: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext(SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nObtain reference to exception context for the current request\n"
+  syntax:
+    content: public static IExceptionLoggingContext GetExceptionLoggingContext(this ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+      description: Instance of request items accessor.
+    return:
+      type: SuperOffice.Diagnostics.IExceptionLoggingContext
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetExceptionLoggingContext(accessor As ISoRequestItemsAccessor) As IExceptionLoggingContext
+  overload: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext*
+  commentId: Overload:SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext
+  isExternal: true
+  name: GetExceptionLoggingContext
+  nameWithType: ExceptionLoggingContextExtensions.GetExceptionLoggingContext
+  fullName: SuperOffice.Diagnostics.ExceptionLoggingContextExtensions.GetExceptionLoggingContext
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  commentId: T:SuperOffice.Factory.ISoRequestItemsAccessor
+  parent: SuperOffice.Factory
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.Diagnostics.IExceptionLoggingContext
+  commentId: T:SuperOffice.Diagnostics.IExceptionLoggingContext
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: IExceptionLoggingContext
+  nameWithType: IExceptionLoggingContext
+  fullName: SuperOffice.Diagnostics.IExceptionLoggingContext
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  isExternal: true
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory

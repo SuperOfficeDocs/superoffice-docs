@@ -73,8 +73,11 @@ items:
   - SuperOffice.Data.Navigation.SelectionQuoteLineArchive
   - SuperOffice.Data.Navigation.SelectionSaleArchive
   - SuperOffice.Data.Navigation.SelectionTaskCard
+  - SuperOffice.Data.Navigation.TicketCard
+  - SuperOffice.Data.Navigation.TicketMinicard
   - SuperOffice.Data.Navigation.ToolboxMenu
   - SuperOffice.Data.Navigation.TopPanelNewMenu
+  - SuperOffice.Data.Navigation.value__
   - SuperOffice.Data.Navigation.ViewMenu
   langs:
   - csharp
@@ -82,7 +85,7 @@ items:
   name: Navigation
   nameWithType: Navigation
   fullName: SuperOffice.Data.Navigation
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -91,19 +94,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for the navigation field in table externalapplication\nThis Enum is used by:  ExtApp.navigation\n"
   syntax:
-    content: 'public enum Navigation : short'
-    content.vb: Public Enum Navigation As Short
+    content: 'public sealed class Navigation : Enum'
+    content.vb: >-
+      Public NotInheritable Class Navigation
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.Navigation.EnumUtil.MapEnums``2
-  - SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Navigation)
-  - SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.Navigation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.Navigation.value__
+  commentId: F:SuperOffice.Data.Navigation.value__
+  id: value__
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Navigation.value__
+  fullName: SuperOffice.Data.Navigation.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Navigation.Invisible
   commentId: F:SuperOffice.Data.Navigation.Invisible
   id: Invisible
@@ -123,9 +161,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: This application has no explicit navigation in GUI\n"
   syntax:
-    content: Invisible = 0
+    content: public const Navigation Invisible
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const Invisible As Navigation
   modifiers.csharp:
   - public
   - const
@@ -151,9 +190,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: This application appears in the list of the Toolbox icon in the CRM5 Navigator sidebar\n"
   syntax:
-    content: ToolboxMenu = 1
+    content: public const Navigation ToolboxMenu
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ToolboxMenu As Navigation
   modifiers.csharp:
   - public
   - const
@@ -179,9 +219,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: This application has its own navigator button (remember to set icon resource)\n"
   syntax:
-    content: NavigatorButton = 2
+    content: public const Navigation NavigatorButton
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const NavigatorButton As Navigation
   modifiers.csharp:
   - public
   - const
@@ -207,9 +248,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: This application appears in the View pulldown menu\n"
   syntax:
-    content: ViewMenu = 3
+    content: public const Navigation ViewMenu
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ViewMenu As Navigation
   modifiers.csharp:
   - public
   - const
@@ -235,9 +277,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: (not yet implemented) This application appears as a Task in the Selection Task card\n"
   syntax:
-    content: SelectionTaskCard = 4
+    content: public const Navigation SelectionTaskCard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionTaskCard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -263,9 +306,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Contact card\n"
   syntax:
-    content: ContactCard = 5
+    content: public const Navigation ContactCard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ContactCard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -291,9 +335,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Contact Archive\n"
   syntax:
-    content: ContactArchive = 6
+    content: public const Navigation ContactArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ContactArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -319,9 +364,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project card\n"
   syntax:
-    content: ProjectCard = 7
+    content: public const Navigation ProjectCard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjectCard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -347,9 +393,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project Archive\n"
   syntax:
-    content: ProjectArchive = 8
+    content: public const Navigation ProjectArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjectArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -375,9 +422,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Sale dialog\n"
   syntax:
-    content: SaleCard = 9
+    content: public const Navigation SaleCard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleCard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -403,9 +451,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Card\n"
   syntax:
-    content: PersonCard = 10
+    content: public const Navigation PersonCard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const PersonCard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -431,9 +480,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Appointment dialog\n"
   syntax:
-    content: ActivityDialog = 11
+    content: public const Navigation ActivityDialog
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ActivityDialog As Navigation
   modifiers.csharp:
   - public
   - const
@@ -459,9 +509,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Document dialog\n"
   syntax:
-    content: DocumentDialog = 12
+    content: public const Navigation DocumentDialog
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DocumentDialog As Navigation
   modifiers.csharp:
   - public
   - const
@@ -487,9 +538,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n13: In the Browser panel\n"
   syntax:
-    content: BrowserPanel = 13
+    content: public const Navigation BrowserPanel
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const BrowserPanel As Navigation
   modifiers.csharp:
   - public
   - const
@@ -515,9 +567,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n14: Task button visible on the Contact Selection task panel\n"
   syntax:
-    content: ContSelectionTask = 14
+    content: public const Navigation ContSelectionTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ContSelectionTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -543,9 +596,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n15: Task button visible on the Appointment Selection task panel\n"
   syntax:
-    content: AppntSelectionTask = 15
+    content: public const Navigation AppntSelectionTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const AppntSelectionTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -571,9 +625,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n16: Task button visible on the Sale Selection task panel\n"
   syntax:
-    content: SaleSelectionTask = 16
+    content: public const Navigation SaleSelectionTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleSelectionTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -599,9 +654,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n17: Task button visible on the Document Selection task panel\n"
   syntax:
-    content: DocSelectionTask = 17
+    content: public const Navigation DocSelectionTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DocSelectionTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -627,9 +683,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n18: Task button visible on the Project Selection task panel\n"
   syntax:
-    content: ProjSelectionTask = 18
+    content: public const Navigation ProjSelectionTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjSelectionTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -655,9 +712,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n19: In company minicard\n"
   syntax:
-    content: CompanyMinicard = 19
+    content: public const Navigation CompanyMinicard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const CompanyMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -683,9 +741,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n20: In project minicard\n"
   syntax:
-    content: ProjectMinicard = 20
+    content: public const Navigation ProjectMinicard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjectMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -711,9 +770,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n21: In diary minicard\n"
   syntax:
-    content: DiaryMinicard = 21
+    content: public const Navigation DiaryMinicard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DiaryMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -739,9 +799,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n22: In selection minicard\n"
   syntax:
-    content: SelectionMinicard = 22
+    content: public const Navigation SelectionMinicard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -767,9 +828,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n23: In the main ButtonBar\n"
   syntax:
-    content: ButtonPanelTask = 23
+    content: public const Navigation ButtonPanelTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ButtonPanelTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -795,9 +857,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n24: In the appointment dialog\n"
   syntax:
-    content: AppointmentDialogTask = 24
+    content: public const Navigation AppointmentDialogTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const AppointmentDialogTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -823,9 +886,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n25: In the sale dialog\n"
   syntax:
-    content: SaleDialogTask = 25
+    content: public const Navigation SaleDialogTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleDialogTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -851,9 +915,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n26: In the document dialog\n"
   syntax:
-    content: DocumentDialogTask = 26
+    content: public const Navigation DocumentDialogTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DocumentDialogTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -879,9 +944,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n27: In the person dialog\n"
   syntax:
-    content: PersonDialogTask = 27
+    content: public const Navigation PersonDialogTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const PersonDialogTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -907,9 +973,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n28: In the sale minicard\n"
   syntax:
-    content: SaleMinicard = 28
+    content: public const Navigation SaleMinicard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -935,9 +1002,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n29: In the sale archive\n"
   syntax:
-    content: SaleArchive = 29
+    content: public const Navigation SaleArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -963,9 +1031,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n30: Task tab for appointment selection, while showing shadow sel\n"
   syntax:
-    content: AppntSelectionShadowTask = 30
+    content: public const Navigation AppntSelectionShadowTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const AppntSelectionShadowTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -991,9 +1060,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n31: Task tab for sale selection, while showing shadow sel\n"
   syntax:
-    content: SaleSelectionShadowTask = 31
+    content: public const Navigation SaleSelectionShadowTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleSelectionShadowTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1019,9 +1089,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n32: Task tab for document selection, while showing shadow sel\n"
   syntax:
-    content: DocSelectionShadowTask = 32
+    content: public const Navigation DocSelectionShadowTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DocSelectionShadowTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1047,9 +1118,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n33: Task tab for project selection, while showing shadow sel\n"
   syntax:
-    content: ProjSelectionShadowTask = 33
+    content: public const Navigation ProjSelectionShadowTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjSelectionShadowTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1075,9 +1147,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n34: Context (popup) menu in Diary archive\n"
   syntax:
-    content: DiaryArchive = 34
+    content: public const Navigation DiaryArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DiaryArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1103,9 +1176,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n35: Context (popup) menu in Contact selection\n"
   syntax:
-    content: SelectionContactArchive = 35
+    content: public const Navigation SelectionContactArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionContactArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1131,9 +1205,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n36: Context (popup) menu in Project archive\n"
   syntax:
-    content: SelectionProjectArchive = 36
+    content: public const Navigation SelectionProjectArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionProjectArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1159,9 +1234,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n37: Context (popup) menu in Sale archive\n"
   syntax:
-    content: SelectionSaleArchive = 37
+    content: public const Navigation SelectionSaleArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionSaleArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1187,9 +1263,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n38: Context (popup) menu in Appointment archive\n"
   syntax:
-    content: SelectionAppointmentArchive = 38
+    content: public const Navigation SelectionAppointmentArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionAppointmentArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1215,9 +1292,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n39: Context (popup) menu in Document archive\n"
   syntax:
-    content: SelectionDocumentArchive = 39
+    content: public const Navigation SelectionDocumentArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionDocumentArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1243,9 +1321,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n40: Task card in Contact selection, when a custom archive is shown\n"
   syntax:
-    content: ContSelectionCustomTask = 40
+    content: public const Navigation ContSelectionCustomTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ContSelectionCustomTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1271,9 +1350,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n41: Task card in Appointment selection, when a custom archive is shown\n"
   syntax:
-    content: AppntSelectionCustomTask = 41
+    content: public const Navigation AppntSelectionCustomTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const AppntSelectionCustomTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1299,9 +1379,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n42: Task card in Sale selection, when a custom archive is shown\n"
   syntax:
-    content: SaleSelectionCustomTask = 42
+    content: public const Navigation SaleSelectionCustomTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleSelectionCustomTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1327,9 +1408,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n43: Task card in Document selection, when a custom archive is shown\n"
   syntax:
-    content: DocSelectionCustomTask = 43
+    content: public const Navigation DocSelectionCustomTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DocSelectionCustomTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1355,9 +1437,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n44: Task card in Project selection, when a custom archive is shown\n"
   syntax:
-    content: ProjSelectionCustomTask = 44
+    content: public const Navigation ProjSelectionCustomTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjSelectionCustomTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1383,9 +1466,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n45: ?\n"
   syntax:
-    content: CustomArchiveMiniCard = 45
+    content: public const Navigation CustomArchiveMiniCard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const CustomArchiveMiniCard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1411,9 +1495,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n46: ?\n"
   syntax:
-    content: SelectionCard = 46
+    content: public const Navigation SelectionCard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionCard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1439,9 +1524,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n47: In the Reporter panel minicard, so far only in Web\n"
   syntax:
-    content: ReportMinicard = 47
+    content: public const Navigation ReportMinicard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ReportMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1467,9 +1553,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n48: \n"
   syntax:
-    content: QuoteDialog = 48
+    content: public const Navigation QuoteDialog
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteDialog As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1495,9 +1582,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n49: \n"
   syntax:
-    content: QuoteDialogTask = 49
+    content: public const Navigation QuoteDialogTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteDialogTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1523,9 +1611,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n50: \n"
   syntax:
-    content: QuoteDialogArchive = 50
+    content: public const Navigation QuoteDialogArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteDialogArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1551,9 +1640,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n51: \n"
   syntax:
-    content: QuoteLineDialogTask = 51
+    content: public const Navigation QuoteLineDialogTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteLineDialogTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1579,9 +1669,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n52: \n"
   syntax:
-    content: QuoteLineDialog = 52
+    content: public const Navigation QuoteLineDialog
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteLineDialog As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1607,9 +1698,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n53: \n"
   syntax:
-    content: QuoteLineSelectionMainTask = 53
+    content: public const Navigation QuoteLineSelectionMainTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteLineSelectionMainTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1635,9 +1727,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n54: \n"
   syntax:
-    content: QuoteLineSelectionShadowTask = 54
+    content: public const Navigation QuoteLineSelectionShadowTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteLineSelectionShadowTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1663,9 +1756,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n55: \n"
   syntax:
-    content: SelectionQuoteLineArchive = 55
+    content: public const Navigation SelectionQuoteLineArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SelectionQuoteLineArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1691,9 +1785,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n56: \n"
   syntax:
-    content: QuoteLineSelectionCustomTask = 56
+    content: public const Navigation QuoteLineSelectionCustomTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteLineSelectionCustomTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1719,9 +1814,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n57: \n"
   syntax:
-    content: FindSystem = 57
+    content: public const Navigation FindSystem
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const FindSystem As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1747,9 +1843,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n58: Task button visible on the Mailing Selection task panel\n"
   syntax:
-    content: MailingSelectionTask = 58
+    content: public const Navigation MailingSelectionTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const MailingSelectionTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1775,9 +1872,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n59: Task button visible on the Mailing Selection task panel\n"
   syntax:
-    content: ContactSelectionMailingsTask = 59
+    content: public const Navigation ContactSelectionMailingsTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ContactSelectionMailingsTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1803,9 +1901,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n60: Task button visible on the Mailing Selection task panel\n"
   syntax:
-    content: AppointmentSelectionMailingsTask = 60
+    content: public const Navigation AppointmentSelectionMailingsTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const AppointmentSelectionMailingsTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1831,9 +1930,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n61: Task button visible on the Mailing Selection task panel\n"
   syntax:
-    content: SaleSelectionMailingsTask = 61
+    content: public const Navigation SaleSelectionMailingsTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const SaleSelectionMailingsTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1859,9 +1959,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n62: Task button visible on the Mailing Selection task panel\n"
   syntax:
-    content: DocumentSelectionMailingsTask = 62
+    content: public const Navigation DocumentSelectionMailingsTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const DocumentSelectionMailingsTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1887,9 +1988,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n63: Task button visible on the Mailing Selection task panel\n"
   syntax:
-    content: ProjectSelectionMailingsTask = 63
+    content: public const Navigation ProjectSelectionMailingsTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjectSelectionMailingsTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1915,9 +2017,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n64: Task button visible on the Mailing Selection task panel\n"
   syntax:
-    content: QuoteLineSelectionMailingsTask = 64
+    content: public const Navigation QuoteLineSelectionMailingsTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const QuoteLineSelectionMailingsTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1943,9 +2046,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n65: Visible in top panels new menu\n"
   syntax:
-    content: TopPanelNewMenu = 65
+    content: public const Navigation TopPanelNewMenu
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const TopPanelNewMenu As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1971,9 +2075,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n66: Dashboard panel\n"
   syntax:
-    content: Dashboard = 66
+    content: public const Navigation Dashboard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const Dashboard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -1999,9 +2104,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n67: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Archive\n"
   syntax:
-    content: PersonArchive = 67
+    content: public const Navigation PersonArchive
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const PersonArchive As Navigation
   modifiers.csharp:
   - public
   - const
@@ -2027,9 +2133,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n68: In the person minicard\n"
   syntax:
-    content: PersonMinicard = 68
+    content: public const Navigation PersonMinicard
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const PersonMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -2055,9 +2162,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n69: In the company card, task button\n"
   syntax:
-    content: CompanyCardTask = 69
+    content: public const Navigation CompanyCardTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const CompanyCardTask As Navigation
   modifiers.csharp:
   - public
   - const
@@ -2083,9 +2191,68 @@ items:
   namespace: SuperOffice.Data
   summary: "\n70: In the project card, task button\n"
   syntax:
-    content: ProjectCardTask = 70
+    content: public const Navigation ProjectCardTask
     return:
       type: SuperOffice.Data.Navigation
+    content.vb: Public Const ProjectCardTask As Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.TicketCard
+  commentId: F:SuperOffice.Data.Navigation.TicketCard
+  id: TicketCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: TicketCard
+  nameWithType: Navigation.TicketCard
+  fullName: SuperOffice.Data.Navigation.TicketCard
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n71: This application (type IntegratedHTML or IntegratedURL) appears as a tab in the Request card\n"
+  syntax:
+    content: public const Navigation TicketCard
+    return:
+      type: SuperOffice.Data.Navigation
+    content.vb: Public Const TicketCard As Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.TicketMinicard
+  commentId: F:SuperOffice.Data.Navigation.TicketMinicard
+  id: TicketMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: TicketMinicard
+  nameWithType: Navigation.TicketMinicard
+  fullName: SuperOffice.Data.Navigation.TicketMinicard
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n72: In the ticket minicard\n"
+  syntax:
+    content: public const Navigation TicketMinicard
+    return:
+      type: SuperOffice.Data.Navigation
+    content.vb: Public Const TicketMinicard As Navigation
   modifiers.csharp:
   - public
   - const
@@ -2099,6 +2266,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.Navigation.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2126,84 +2300,6 @@ references:
     name: MapEnums(Of Navigation, To)
     nameWithType: EnumUtil.MapEnums(Of Navigation, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Navigation, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Navigation)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<Navigation>(Navigation)
-  nameWithType: ObjectExtensions.AssignByReflection<Navigation>(Navigation)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Navigation>(SuperOffice.Data.Navigation)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Navigation)(Navigation)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Navigation)(SuperOffice.Data.Navigation)
-  name.vb: AssignByReflection(Of Navigation)(Navigation)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<Navigation>
-    nameWithType: ObjectExtensions.AssignByReflection<Navigation>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Navigation>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Navigation
-    name: Navigation
-    nameWithType: Navigation
-    fullName: SuperOffice.Data.Navigation
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of Navigation)
-    nameWithType: ObjectExtensions.AssignByReflection(Of Navigation)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Navigation)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.Navigation
-    name: Navigation
-    nameWithType: Navigation
-    fullName: SuperOffice.Data.Navigation
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<Navigation>()
-  nameWithType: ObjectExtensions.GraphCopy<Navigation>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Navigation>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of Navigation)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Navigation)()
-  name.vb: GraphCopy(Of Navigation)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<Navigation>
-    nameWithType: ObjectExtensions.GraphCopy<Navigation>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Navigation>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of Navigation)
-    nameWithType: ObjectExtensions.GraphCopy(Of Navigation)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Navigation)
     isExternal: true
   - name: (
     nameWithType: (
@@ -2245,6 +2341,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -2290,103 +2392,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -2433,18 +2438,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.Navigation
   commentId: T:SuperOffice.Data.Navigation
   parent: SuperOffice.Data

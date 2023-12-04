@@ -5,23 +5,21 @@ items:
   id: WebhookUsageTableInfo
   parent: SuperOffice.CRM.Data
   children:
+  - SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.Definition
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.Registered
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.RuntimeDefinition
-  - SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls
-  - SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.TotalCalls
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.TotalErrors
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.Updated
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.UpdatedAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.UpdatedCount
-  - SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId
-  - SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookUsageId
   langs:
   - csharp
@@ -36,18 +34,20 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nTable &apos;WebhookUsage&apos;: Usage counters for a specific webhook. Since these are updated frequently, we keep them in a separate table. Used to determine if too many errors are happening.\n"
+  summary: "\nTable &apos;Webhook_usage&apos;: Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.\n"
   remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetWebhookUsageInfo()\"></see>.\n"
   syntax:
     content: >-
-      [DatabaseTable("WebhookUsage")]
+      [DatabaseTable("Webhook_usage")]
 
       public class WebhookUsageTableInfo : TableInfo, ICloneable
     content.vb: >-
-      <DatabaseTable("WebhookUsage")>
+      <DatabaseTable("Webhook_usage")>
 
       Public Class WebhookUsageTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -69,12 +69,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.WebhookUsageTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -83,7 +77,7 @@ items:
     ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: WebhookUsage
+      value: Webhook_usage
   modifiers.csharp:
   - public
   - class
@@ -107,12 +101,12 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nConceptual name of table WebhookUsage in the database dictionary: WebhookUsage\n"
+  summary: "\nConceptual name of table WebhookUsage in the database dictionary: Webhook_usage\n"
   syntax:
-    content: public const string DictionaryTableName = "WebhookUsage"
+    content: public const string DictionaryTableName = "Webhook_usage"
     return:
       type: System.String
-    content.vb: Public Const DictionaryTableName As String = "WebhookUsage"
+    content.vb: Public Const DictionaryTableName As String = "Webhook_usage"
   modifiers.csharp:
   - public
   - const
@@ -169,26 +163,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -248,7 +228,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;webhookusage_id&apos; in table &apos;WebhookUsage&apos;: Dictionary type PK, .NET type: int<p></p>\nPrimary key\n"
+  summary: "\nField &apos;webhook_usage_id&apos; in table &apos;Webhook_usage&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo WebhookUsageId { get; }
     parameters: []
@@ -256,37 +236,6 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property WebhookUsageId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookUsageId*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId
-  commentId: P:SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId
-  id: WebhookId
-  parent: SuperOffice.CRM.Data.WebhookUsageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: WebhookId
-  nameWithType: WebhookUsageTableInfo.WebhookId
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;webhook_id&apos; in table &apos;WebhookUsage&apos;: Dictionary type FK, .NET type: int<p></p>\nWebhook that this is a counter for\n"
-  syntax:
-    content: public Int32FieldInfo WebhookId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property WebhookId As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId*
   modifiers.csharp:
   - public
   - get
@@ -310,7 +259,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;total_calls&apos; in table &apos;WebhookUsage&apos;: Dictionary type Int, .NET type: int<p></p>\nNumber of times webhook has been invoked since registered\n"
+  summary: "\nField &apos;total_calls&apos; in table &apos;Webhook_usage&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of times webhook has been invoked since registered. For statistical purposes.\n"
   syntax:
     content: public Int32FieldInfo TotalCalls { get; }
     parameters: []
@@ -341,7 +290,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;total_errors&apos; in table &apos;WebhookUsage&apos;: Dictionary type Int, .NET type: int<p></p>\nNumber of times webhook has returned error since registered\n"
+  summary: "\nField &apos;total_errors&apos; in table &apos;Webhook_usage&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of times webhook has returned error since registered. For statistical purposes.\n"
   syntax:
     content: public Int32FieldInfo TotalErrors { get; }
     parameters: []
@@ -355,16 +304,16 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls
-  commentId: P:SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls
-  id: TodayCalls
+- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors
+  commentId: P:SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors
+  id: ConsecutiveErrors
   parent: SuperOffice.CRM.Data.WebhookUsageTableInfo
   langs:
   - csharp
   - vb
-  name: TodayCalls
-  nameWithType: WebhookUsageTableInfo.TodayCalls
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls
+  name: ConsecutiveErrors
+  nameWithType: WebhookUsageTableInfo.ConsecutiveErrors
+  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors
   type: Property
   source:
     path: SoDataBase
@@ -372,30 +321,30 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;today_calls&apos; in table &apos;WebhookUsage&apos;: Dictionary type Int, .NET type: int<p></p>\nNumber of times webhook has been invoked today\n"
+  summary: "\nField &apos;consecutive_errors&apos; in table &apos;Webhook_usage&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of consecutive errors. Reset to 0 when an non-error is received. If too many errors, webhook.state is changed to TooManyErrors(3) to deactivate webhook.\n"
   syntax:
-    content: public Int32FieldInfo TodayCalls { get; }
+    content: public Int32FieldInfo ConsecutiveErrors { get; }
     parameters: []
     return:
       type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property TodayCalls As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls*
+    content.vb: Public ReadOnly Property ConsecutiveErrors As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors
-  commentId: P:SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors
-  id: TodayErrors
+- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError
+  commentId: P:SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError
+  id: LastError
   parent: SuperOffice.CRM.Data.WebhookUsageTableInfo
   langs:
   - csharp
   - vb
-  name: TodayErrors
-  nameWithType: WebhookUsageTableInfo.TodayErrors
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors
+  name: LastError
+  nameWithType: WebhookUsageTableInfo.LastError
+  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError
   type: Property
   source:
     path: SoDataBase
@@ -403,14 +352,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;today_errors&apos; in table &apos;WebhookUsage&apos;: Dictionary type Int, .NET type: int<p></p>\nNumber of times webhook has returned error today\n"
+  summary: "\nField &apos;last_error&apos; in table &apos;Webhook_usage&apos;: Dictionary type String[4001], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nMost recent error message received from target. HTTP Headers + body. To help with debugging webhooks.\n"
   syntax:
-    content: public Int32FieldInfo TodayErrors { get; }
+    content: public StringFieldInfo LastError { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.Int32FieldInfo
-    content.vb: Public ReadOnly Property TodayErrors As Int32FieldInfo
-  overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors*
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LastError As StringFieldInfo
+  overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError*
   modifiers.csharp:
   - public
   - get
@@ -434,7 +383,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered&apos; in table &apos;WebhookUsage&apos;: Dictionary type UtcDateTime, .NET type: DateTime<p></p>\nRegistered when\n"
+  summary: "\nField &apos;registered&apos; in table &apos;Webhook_usage&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -465,7 +414,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;WebhookUsage&apos;: Dictionary type FK, .NET type: int<p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;Webhook_usage&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -496,7 +445,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated&apos; in table &apos;WebhookUsage&apos;: Dictionary type UtcDateTime, .NET type: DateTime<p></p>\nLast updated when\n"
+  summary: "\nField &apos;updated&apos; in table &apos;Webhook_usage&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -527,7 +476,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;WebhookUsage&apos;: Dictionary type FK, .NET type: int<p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;Webhook_usage&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -558,7 +507,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updatedCount&apos; in table &apos;WebhookUsage&apos;: Dictionary type UShort, .NET type: short<p></p>\nNumber of updates made to this record\n"
+  summary: "\nField &apos;updatedCount&apos; in table &apos;Webhook_usage&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -566,37 +515,6 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.UpdatedCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
-  commentId: P:SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
-  id: WebhookId_InnerJoin_Webhook
-  parent: SuperOffice.CRM.Data.WebhookUsageTableInfo
-  langs:
-  - csharp
-  - vb
-  name: WebhookId_InnerJoin_Webhook
-  nameWithType: WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nGenerated join from the foreign key WebhookId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WebhookTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: public TargetedInnerJoin<WebhookTableInfo> WebhookId_InnerJoin_Webhook { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WebhookTableInfo}
-    content.vb: Public ReadOnly Property WebhookId_InnerJoin_Webhook As TargetedInnerJoin(Of WebhookTableInfo)
-  overload: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook*
   modifiers.csharp:
   - public
   - get
@@ -687,8 +605,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1021,254 +937,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1511,12 +1179,6 @@ references:
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId*
-  commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId
-  isExternal: true
-  name: WebhookId
-  nameWithType: WebhookUsageTableInfo.WebhookId
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId
 - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.TotalCalls*
   commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.TotalCalls
   isExternal: true
@@ -1529,18 +1191,25 @@ references:
   name: TotalErrors
   nameWithType: WebhookUsageTableInfo.TotalErrors
   fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.TotalErrors
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls*
-  commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls
+- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors*
+  commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors
   isExternal: true
-  name: TodayCalls
-  nameWithType: WebhookUsageTableInfo.TodayCalls
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayCalls
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors*
-  commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors
+  name: ConsecutiveErrors
+  nameWithType: WebhookUsageTableInfo.ConsecutiveErrors
+  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.ConsecutiveErrors
+- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError*
+  commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError
   isExternal: true
-  name: TodayErrors
-  nameWithType: WebhookUsageTableInfo.TodayErrors
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.TodayErrors
+  name: LastError
+  nameWithType: WebhookUsageTableInfo.LastError
+  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.LastError
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.Registered
   isExternal: true
@@ -1585,95 +1254,6 @@ references:
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
-- uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook*
-  commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
-  isExternal: true
-  name: WebhookId_InnerJoin_Webhook
-  nameWithType: WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
-  fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo.WebhookId_InnerJoin_Webhook
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WebhookTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WebhookTableInfo}
-  parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  name: TargetedInnerJoin<WebhookTableInfo>
-  nameWithType: TargetedInnerJoin<WebhookTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WebhookTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of WebhookTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WebhookTableInfo)
-  name.vb: TargetedInnerJoin(Of WebhookTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.CRM.Data.WebhookTableInfo
-    name: WebhookTableInfo
-    nameWithType: WebhookTableInfo
-    fullName: SuperOffice.CRM.Data.WebhookTableInfo
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.CRM.Data.WebhookTableInfo
-    name: WebhookTableInfo
-    nameWithType: WebhookTableInfo
-    fullName: SuperOffice.CRM.Data.WebhookTableInfo
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
-  isExternal: true
-  name: TargetedInnerJoin<TargetTableInfo>
-  nameWithType: TargetedInnerJoin<TargetTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
-  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
-  name.vb: TargetedInnerJoin(Of TargetTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
-    name: TargetedInnerJoin
-    nameWithType: TargetedInnerJoin
-    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TargetTableInfo
-    nameWithType: TargetTableInfo
-    fullName: TargetTableInfo
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.WebhookUsageTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
@@ -1721,6 +1301,45 @@ references:
     nameWithType: AssociateTableInfo
     fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
     nameWithType: )
     fullName: )

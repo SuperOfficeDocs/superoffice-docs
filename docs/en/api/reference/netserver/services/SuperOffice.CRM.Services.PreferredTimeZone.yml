@@ -1,0 +1,432 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PreferredTimeZone
+  commentId: T:SuperOffice.CRM.Services.PreferredTimeZone
+  id: PreferredTimeZone
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PreferredTimeZone.#ctor
+  - SuperOffice.CRM.Services.PreferredTimeZone.Bias
+  - SuperOffice.CRM.Services.PreferredTimeZone.Country
+  - SuperOffice.CRM.Services.PreferredTimeZone.Description
+  - SuperOffice.CRM.Services.PreferredTimeZone.LocationCode
+  - SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId
+  - SuperOffice.CRM.Services.PreferredTimeZone.ToString
+  - SuperOffice.CRM.Services.PreferredTimeZone.ToString(System.String)
+  - SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId
+  langs:
+  - csharp
+  - vb
+  name: PreferredTimeZone
+  nameWithType: PreferredTimeZone
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis service support fetching of client interface configuration data. &lt;para/> Client configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls. &lt;para/> Separate access points also exist for fetching object mappings and filter lists.\n<p></p>\nCarrier object for PreferredTimeZone.\nServices for the PreferredTimeZone Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITimeZoneAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class PreferredTimeZone : Object'
+    content.vb: >-
+      Public Class PreferredTimeZone
+
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.CRM.Services.TimeZoneAgent
+    commentId: T:SuperOffice.CRM.Services.TimeZoneAgent
+  - linkId: SuperOffice.CRM.Services.ITimeZoneAgent
+    commentId: T:SuperOffice.CRM.Services.ITimeZoneAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.#ctor
+  commentId: M:SuperOffice.CRM.Services.PreferredTimeZone.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: PreferredTimeZone()
+  nameWithType: PreferredTimeZone.PreferredTimeZone()
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.PreferredTimeZone()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PreferredTimeZone()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.ToString
+  commentId: M:SuperOffice.CRM.Services.PreferredTimeZone.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PreferredTimeZone.ToString()
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferredTimeZone.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PreferredTimeZone.ToString(String)
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId
+  commentId: P:SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId
+  id: PreferenceId
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: PreferenceId
+  nameWithType: PreferredTimeZone.PreferenceId
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key of userpreference row that specifies the TZLocationId, if set; 0 if the data are from a fallback (but still valid) \n"
+  syntax:
+    content: public virtual int PreferenceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PreferenceId As Integer
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId
+  commentId: P:SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId
+  id: TZLocationId
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: TZLocationId
+  nameWithType: PreferredTimeZone.TZLocationId
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int TZLocationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TZLocationId As Integer
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.LocationCode
+  commentId: P:SuperOffice.CRM.Services.PreferredTimeZone.LocationCode
+  id: LocationCode
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: LocationCode
+  nameWithType: PreferredTimeZone.LocationCode
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.LocationCode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCode, such as CA-NT, identifying the timezone location in the imported data. Unique, NOT equal to the culture codes of Windows \n"
+  syntax:
+    content: public virtual string LocationCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LocationCode As String
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.LocationCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.Description
+  commentId: P:SuperOffice.CRM.Services.PreferredTimeZone.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PreferredTimeZone.Description
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the time zone \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.Country
+  commentId: P:SuperOffice.CRM.Services.PreferredTimeZone.Country
+  id: Country
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: PreferredTimeZone.Country
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.Country
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the country of the time zone \n"
+  syntax:
+    content: public virtual string Country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Country As String
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.Country*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.Bias
+  commentId: P:SuperOffice.CRM.Services.PreferredTimeZone.Bias
+  id: Bias
+  parent: SuperOffice.CRM.Services.PreferredTimeZone
+  langs:
+  - csharp
+  - vb
+  name: Bias
+  nameWithType: PreferredTimeZone.Bias
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.Bias
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nnumber of minutes bias relative to UTC time \n"
+  syntax:
+    content: public virtual short Bias { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Bias As Short
+  overload: SuperOffice.CRM.Services.PreferredTimeZone.Bias*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.TimeZoneAgent
+  commentId: T:SuperOffice.CRM.Services.TimeZoneAgent
+  isExternal: true
+  name: TimeZoneAgent
+  nameWithType: TimeZoneAgent
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent
+  commentId: T:SuperOffice.CRM.Services.ITimeZoneAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITimeZoneAgent
+  nameWithType: ITimeZoneAgent
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.#ctor
+  isExternal: true
+  name: PreferredTimeZone
+  nameWithType: PreferredTimeZone.PreferredTimeZone
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.PreferredTimeZone
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PreferredTimeZone.ToString
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId
+  isExternal: true
+  name: PreferenceId
+  nameWithType: PreferredTimeZone.PreferenceId
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.PreferenceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId
+  isExternal: true
+  name: TZLocationId
+  nameWithType: PreferredTimeZone.TZLocationId
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.TZLocationId
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.LocationCode*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.LocationCode
+  isExternal: true
+  name: LocationCode
+  nameWithType: PreferredTimeZone.LocationCode
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.LocationCode
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.Description*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.Description
+  isExternal: true
+  name: Description
+  nameWithType: PreferredTimeZone.Description
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.Description
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.Country*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.Country
+  isExternal: true
+  name: Country
+  nameWithType: PreferredTimeZone.Country
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.Country
+- uid: SuperOffice.CRM.Services.PreferredTimeZone.Bias*
+  commentId: Overload:SuperOffice.CRM.Services.PreferredTimeZone.Bias
+  isExternal: true
+  name: Bias
+  nameWithType: PreferredTimeZone.Bias
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone.Bias
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

@@ -261,7 +261,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.ForeignKey.CreatedDate*
   modifiers.csharp:
   - public
@@ -294,7 +294,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.ForeignKey.UpdatedDate*
   modifiers.csharp:
   - public
@@ -410,13 +410,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ForeignSystemAgent
   commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
   isExternal: true
@@ -430,12 +423,6 @@ references:
   name: IForeignSystemAgent
   nameWithType: IForeignSystemAgent
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ForeignKey.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ForeignKey.#ctor
   isExternal: true
@@ -455,6 +442,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ForeignKey.Key*
   commentId: Overload:SuperOffice.CRM.Services.ForeignKey.Key
   isExternal: true
@@ -487,8 +480,6 @@ references:
   nameWithType: ForeignKey.CreatedDate
   fullName: SuperOffice.CRM.Services.ForeignKey.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.SoPrincipalExtensions
+  commentId: T:SuperOffice.Security.Principal.SoPrincipalExtensions
+  id: SoPrincipalExtensions
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  langs:
+  - csharp
+  - vb
+  name: SoPrincipalExtensions
+  nameWithType: SoPrincipalExtensions
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: 'public static class SoPrincipalExtensions : Object'
+    content.vb: >-
+      Public Module SoPrincipalExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  id: IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.Security.Principal.SoPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsValid(SoPrincipal)
+  nameWithType: SoPrincipalExtensions.IsValid(SoPrincipal)
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nCheck if the principal has an instance and is of a different type than <xref href=\"SuperOffice.License.UserType.AnonymousAssociate\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public static bool IsValid(this SoPrincipal principal)
+    parameters:
+    - id: principal
+      type: SuperOffice.Security.Principal.SoPrincipal
+      description: Principal to verify.  Null-value is permitted and will result in false.
+    return:
+      type: System.Boolean
+      description: True if the principal has an instance and is of a different type than <xref href="SuperOffice.License.UserType.AnonymousAssociate" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsValid(principal As SoPrincipal) As Boolean
+  overload: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid*
+  commentId: Overload:SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+  isExternal: true
+  name: IsValid
+  nameWithType: SoPrincipalExtensions.IsValid
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+- uid: SuperOffice.Security.Principal.SoPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoPrincipal
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipal
+  nameWithType: SoPrincipal
+  fullName: SuperOffice.Security.Principal.SoPrincipal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

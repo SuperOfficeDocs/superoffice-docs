@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus(SuperOffice.Data.ShipmentAddrStatus)
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.LeftOuterJoin_FormSubmission_ResponseShipmentAddrId
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Name
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.RuntimeDefinition
@@ -32,6 +33,10 @@ items:
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.TicketId_InnerJoin_Ticket
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Timestamp
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.Type
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
   langs:
   - csharp
   - vb
@@ -56,7 +61,9 @@ items:
       <DatabaseTable("s_shipment_addr")>
 
       Public Class SShipmentAddrTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -78,12 +85,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.SShipmentAddrTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -128,6 +129,37 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus(SuperOffice.Data.ShipmentAddrStatus)
+  commentId: M:SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus(SuperOffice.Data.ShipmentAddrStatus)
+  id: IdxStatus(SuperOffice.Data.ShipmentAddrStatus)
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxStatus(ShipmentAddrStatus)
+  nameWithType: SShipmentAddrTableInfo.IdxStatus(ShipmentAddrStatus)
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus(SuperOffice.Data.ShipmentAddrStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index Status, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Status</td><td>Status for sending to this particular recipient</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxStatus(ShipmentAddrStatus status)
+    parameters:
+    - id: status
+      type: SuperOffice.Data.ShipmentAddrStatus
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxStatus(status As ShipmentAddrStatus) As Restriction
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -178,26 +210,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -288,7 +306,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;shipment_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhich shipment this address belongs to\n"
+  summary: "\nField &apos;shipment_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, target: SShipment, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhich shipment this address belongs to\n"
   syntax:
     content: public Int32FieldInfo ShipmentId { get; }
     parameters: []
@@ -412,7 +430,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;customer_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of the customer if this entry is created by a dynamic list\n"
+  summary: "\nField &apos;customer_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, target: Person, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of the customer if this entry is created by a dynamic list\n"
   syntax:
     content: public Int32FieldInfo CustomerId { get; }
     parameters: []
@@ -505,7 +523,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;ticket_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of the ticket if this entry is created by a ticketSelection list\n"
+  summary: "\nField &apos;ticket_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, target: Ticket, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of the ticket if this entry is created by a ticketSelection list\n"
   syntax:
     content: public Int32FieldInfo TicketId { get; }
     parameters: []
@@ -567,7 +585,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;contact_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of contact bound to shipment address\n"
+  summary: "\nField &apos;contact_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, target: Contact, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of contact bound to shipment address\n"
   syntax:
     content: public Int32FieldInfo ContactId { get; }
     parameters: []
@@ -660,7 +678,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;form_submission_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this mailing recipient is created from a form submission, this will contain a reference to that submission\n"
+  summary: "\nField &apos;form_submission_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, target: FormSubmission, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf this mailing recipient is created from a form submission, this will contain a reference to that submission\n"
   syntax:
     content: public Int32FieldInfo FormSubmissionId { get; }
     parameters: []
@@ -761,6 +779,68 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Cleaned As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.Cleaned*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId
+  id: WorkflowStepId
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepId
+  nameWithType: SShipmentAddrTableInfo.WorkflowStepId
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;workflow_step_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, target: WorkflowStep, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe row was created by this workflow step\n"
+  syntax:
+    content: public Int32FieldInfo WorkflowStepId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property WorkflowStepId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId
+  id: WorkflowInstanceId
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceId
+  nameWithType: SShipmentAddrTableInfo.WorkflowInstanceId
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;workflow_instance_id&apos; in table &apos;s_shipment_addr&apos;: Dictionary type FK, target: WorkflowInstance, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe row was created by this workflow instance\n"
+  syntax:
+    content: public Int32FieldInfo WorkflowInstanceId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property WorkflowInstanceId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId*
   modifiers.csharp:
   - public
   - get
@@ -922,6 +1002,68 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
+  id: WorkflowStepId_InnerJoin_WorkflowStep
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepId_InnerJoin_WorkflowStep
+  nameWithType: SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key WorkflowStepId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WorkflowStepTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<WorkflowStepTableInfo> WorkflowStepId_InnerJoin_WorkflowStep { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+    content.vb: Public ReadOnly Property WorkflowStepId_InnerJoin_WorkflowStep As TargetedInnerJoin(Of WorkflowStepTableInfo)
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+  commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+  id: WorkflowInstanceId_InnerJoin_WorkflowInstance
+  parent: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceId_InnerJoin_WorkflowInstance
+  nameWithType: SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key WorkflowInstanceId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WorkflowInstanceTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<WorkflowInstanceTableInfo> WorkflowInstanceId_InnerJoin_WorkflowInstance { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
+    content.vb: Public ReadOnly Property WorkflowInstanceId_InnerJoin_WorkflowInstance As TargetedInnerJoin(Of WorkflowInstanceTableInfo)
+  overload: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.LeftOuterJoin_FormSubmission_ResponseShipmentAddrId
   commentId: P:SuperOffice.CRM.Data.SShipmentAddrTableInfo.LeftOuterJoin_FormSubmission_ResponseShipmentAddrId
   id: LeftOuterJoin_FormSubmission_ResponseShipmentAddrId
@@ -975,8 +1117,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1309,254 +1449,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1741,6 +1633,32 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus
+  isExternal: true
+  name: IdxStatus
+  nameWithType: SShipmentAddrTableInfo.IdxStatus
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.IdxStatus
+- uid: SuperOffice.Data.ShipmentAddrStatus
+  commentId: T:SuperOffice.Data.ShipmentAddrStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ShipmentAddrStatus
+  nameWithType: ShipmentAddrStatus
+  fullName: SuperOffice.Data.ShipmentAddrStatus
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.DictionaryTableNumber
   isExternal: true
@@ -1923,6 +1841,18 @@ references:
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: SShipmentAddrTableInfo.WorkflowStepId
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId
+  isExternal: true
+  name: WorkflowInstanceId
+  nameWithType: SShipmentAddrTableInfo.WorkflowInstanceId
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId
 - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment*
   commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.ShipmentId_InnerJoin_SShipment
   isExternal: true
@@ -2208,6 +2138,106 @@ references:
     name: FormSubmissionTableInfo
     nameWithType: FormSubmissionTableInfo
     fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
+  isExternal: true
+  name: WorkflowStepId_InnerJoin_WorkflowStep
+  nameWithType: SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowStepId_InnerJoin_WorkflowStep
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<WorkflowStepTableInfo>
+  nameWithType: TargetedInnerJoin<WorkflowStepTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowStepTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of WorkflowStepTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowStepTableInfo)
+  name.vb: TargetedInnerJoin(Of WorkflowStepTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+  isExternal: true
+  name: WorkflowInstanceId_InnerJoin_WorkflowInstance
+  nameWithType: SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+  fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId_InnerJoin_WorkflowInstance
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<WorkflowInstanceTableInfo>
+  nameWithType: TargetedInnerJoin<WorkflowInstanceTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowInstanceTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of WorkflowInstanceTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowInstanceTableInfo)
+  name.vb: TargetedInnerJoin(Of WorkflowInstanceTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+    name: WorkflowInstanceTableInfo
+    nameWithType: WorkflowInstanceTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+    name: WorkflowInstanceTableInfo
+    nameWithType: WorkflowInstanceTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
     isExternal: true
   - name: )
     nameWithType: )

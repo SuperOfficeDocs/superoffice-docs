@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
   - SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.AgendaTextId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
   - SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
   - SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
@@ -24,12 +25,14 @@ items:
   - SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
   - SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
   - SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.InternalNotesTextId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
   - SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
   - SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Location
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.ModifiedAppointmentFields
   - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
@@ -44,6 +47,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
   - SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
   - SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.SendEmail
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Source
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Status
   - SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
@@ -71,18 +75,13 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nFields for Appointment, Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. \n"
   syntax:
-    content: public static class AppointmentFields
-    content.vb: Public Module AppointmentFields
+    content: 'public static class AppointmentFields : Object'
+    content.vb: >-
+      Public Module AppointmentFields
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -1511,6 +1510,122 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AgendaTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AgendaTextId
+  id: AgendaTextId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: AgendaTextId
+  nameWithType: DBC.AppointmentFields.AgendaTextId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AgendaTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.AgendaTextId: ID of record containing agenda text\n"
+  syntax:
+    content: public const string AgendaTextId = "agenda_text_id"
+    return:
+      type: System.String
+    content.vb: Public Const AgendaTextId As String = "agenda_text_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.InternalNotesTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.InternalNotesTextId
+  id: InternalNotesTextId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: InternalNotesTextId
+  nameWithType: DBC.AppointmentFields.InternalNotesTextId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.InternalNotesTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.InternalNotesTextId: ID of record containing internal notes text\n"
+  syntax:
+    content: public const string InternalNotesTextId = "internal_notes_text_id"
+    return:
+      type: System.String
+    content.vb: Public Const InternalNotesTextId As String = "internal_notes_text_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SendEmail
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SendEmail
+  id: SendEmail
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: SendEmail
+  nameWithType: DBC.AppointmentFields.SendEmail
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SendEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.SendEmail: Send invitation and appointment changes by e-mail to this participant.\n"
+  syntax:
+    content: public const string SendEmail = "SendEmail"
+    return:
+      type: System.String
+    content.vb: Public Const SendEmail As String = "SendEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ModifiedAppointmentFields
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ModifiedAppointmentFields
+  id: ModifiedAppointmentFields
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: ModifiedAppointmentFields
+  nameWithType: DBC.AppointmentFields.ModifiedAppointmentFields
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ModifiedAppointmentFields
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.ModifiedAppointmentFields: Which important fields of an appointment have been changed. Used by notifications.\n"
+  syntax:
+    content: public const string ModifiedAppointmentFields = "modified_appointment_fields"
+    return:
+      type: System.String
+    content.vb: Public Const ModifiedAppointmentFields As String = "modified_appointment_fields"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
   commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
   id: CautionWarning
@@ -1583,285 +1698,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true

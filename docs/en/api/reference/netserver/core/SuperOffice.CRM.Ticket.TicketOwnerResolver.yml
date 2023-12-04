@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver
+  commentId: T:SuperOffice.CRM.Ticket.TicketOwnerResolver
+  id: TicketOwnerResolver
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
+  - SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TicketOwnerResolver
+  nameWithType: TicketOwnerResolver
+  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: 'public static class TicketOwnerResolver : Object'
+    content.vb: >-
+      Public Module TicketOwnerResolver
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: ResolveOwner(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketOwnerResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveOwner(Int32, Int32, Int32, Int32)
+  nameWithType: TicketOwnerResolver.ResolveOwner(Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static int ResolveOwner(int ticketId, int ejCategoryId, int personId, int ownedBy)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    - id: ejCategoryId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: ownedBy
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ResolveOwner(ticketId As Integer, ejCategoryId As Integer, personId As Integer, ownedBy As Integer) As Integer
+  overload: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
+  commentId: M:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
+  id: ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
+  parent: SuperOffice.CRM.Ticket.TicketOwnerResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveOwner(TicketRow)
+  nameWithType: TicketOwnerResolver.ResolveOwner(TicketRow)
+  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner(SuperOffice.CRM.Rows.TicketRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static int ResolveOwner(TicketRow ticketRow)
+    parameters:
+    - id: ticketRow
+      type: SuperOffice.CRM.Rows.TicketRow
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ResolveOwner(ticketRow As TicketRow) As Integer
+  overload: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner
+  isExternal: true
+  name: ResolveOwner
+  nameWithType: TicketOwnerResolver.ResolveOwner
+  fullName: SuperOffice.CRM.Ticket.TicketOwnerResolver.ResolveOwner
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.TicketRow
+  commentId: T:SuperOffice.CRM.Rows.TicketRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketRow
+  nameWithType: TicketRow
+  fullName: SuperOffice.CRM.Rows.TicketRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows

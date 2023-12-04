@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData
+  commentId: T:SuperOffice.CRM.Rows.Obsolete1RecordData
+  id: Obsolete1RecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.Obsolete1RecordData.#ctor
+  - SuperOffice.CRM.Rows.Obsolete1RecordData.TicketTypeId
+  langs:
+  - csharp
+  - vb
+  name: Obsolete1RecordData
+  nameWithType: Obsolete1RecordData
+  fullName: SuperOffice.CRM.Rows.Obsolete1RecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the obsolete_1 table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.Obsolete1Row\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.Obsolete1TableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class Obsolete1RecordData : Object'
+    content.vb: >-
+      Public Class Obsolete1RecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.Obsolete1RecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  - SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.TicketTypeId
+  commentId: F:SuperOffice.CRM.Rows.Obsolete1RecordData.TicketTypeId
+  id: TicketTypeId
+  parent: SuperOffice.CRM.Rows.Obsolete1RecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeId
+  nameWithType: Obsolete1RecordData.TicketTypeId
+  fullName: SuperOffice.CRM.Rows.Obsolete1RecordData.TicketTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int TicketTypeId
+    return:
+      type: System.Int32
+    content.vb: Public TicketTypeId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.Obsolete1RecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.Obsolete1RecordData
+  langs:
+  - csharp
+  - vb
+  name: Obsolete1RecordData()
+  nameWithType: Obsolete1RecordData.Obsolete1RecordData()
+  fullName: SuperOffice.CRM.Rows.Obsolete1RecordData.Obsolete1RecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public Obsolete1RecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.Obsolete1RecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Obsolete1RecordData, To>()
+  nameWithType: EnumUtil.MapEnums<Obsolete1RecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.Obsolete1RecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Obsolete1RecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.Obsolete1RecordData, To)()
+  name.vb: MapEnums(Of Obsolete1RecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Obsolete1RecordData, To>
+    nameWithType: EnumUtil.MapEnums<Obsolete1RecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.Obsolete1RecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Obsolete1RecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of Obsolete1RecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.Obsolete1RecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<Obsolete1RecordData>(Obsolete1RecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<Obsolete1RecordData>(Obsolete1RecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.Obsolete1RecordData>(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Obsolete1RecordData)(Obsolete1RecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.Obsolete1RecordData)(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  name.vb: AssignByReflection(Of Obsolete1RecordData)(Obsolete1RecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<Obsolete1RecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<Obsolete1RecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.Obsolete1RecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordData
+    name: Obsolete1RecordData
+    nameWithType: Obsolete1RecordData
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of Obsolete1RecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of Obsolete1RecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.Obsolete1RecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordData
+    name: Obsolete1RecordData
+    nameWithType: Obsolete1RecordData
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<Obsolete1RecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<Obsolete1RecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.Obsolete1RecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Obsolete1RecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.Obsolete1RecordData)()
+  name.vb: GraphCopy(Of Obsolete1RecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<Obsolete1RecordData>
+    nameWithType: ObjectExtensions.GraphCopy<Obsolete1RecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.Obsolete1RecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of Obsolete1RecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of Obsolete1RecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.Obsolete1RecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  parent: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions
+  definition: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  name: ToInsert()
+  nameWithType: Obsolete1RecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: Obsolete1RecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: Obsolete1RecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Obsolete1RecordData, To>()
+  nameWithType: Converters.MapEnums<Obsolete1RecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.Obsolete1RecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of Obsolete1RecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.Obsolete1RecordData, To)()
+  name.vb: MapEnums(Of Obsolete1RecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Obsolete1RecordData, To>
+    nameWithType: Converters.MapEnums<Obsolete1RecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.Obsolete1RecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Obsolete1RecordData, To)
+    nameWithType: Converters.MapEnums(Of Obsolete1RecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.Obsolete1RecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  commentId: M:SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  isExternal: true
+  name: ToInsert(Obsolete1RecordData)
+  nameWithType: Obsolete1RecordDataExtensions.ToInsert(Obsolete1RecordData)
+  fullName: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete1RecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete1RecordData)
+    name: ToInsert
+    nameWithType: Obsolete1RecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordData
+    name: Obsolete1RecordData
+    nameWithType: Obsolete1RecordData
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.Obsolete1RecordData)
+    name: ToInsert
+    nameWithType: Obsolete1RecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.Obsolete1RecordData
+    name: Obsolete1RecordData
+    nameWithType: Obsolete1RecordData
+    fullName: SuperOffice.CRM.Rows.Obsolete1RecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: Obsolete1RecordDataExtensions
+  nameWithType: Obsolete1RecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.Obsolete1RecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.Obsolete1RecordData.#ctor
+  isExternal: true
+  name: Obsolete1RecordData
+  nameWithType: Obsolete1RecordData.Obsolete1RecordData
+  fullName: SuperOffice.CRM.Rows.Obsolete1RecordData.Obsolete1RecordData

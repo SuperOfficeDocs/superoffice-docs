@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.MessageActionType
+  commentId: T:SuperOffice.Data.MessageActionType
+  id: MessageActionType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.MessageActionType.Forward
+  - SuperOffice.Data.MessageActionType.InternalComment
+  - SuperOffice.Data.MessageActionType.None
+  - SuperOffice.Data.MessageActionType.Reply
+  - SuperOffice.Data.MessageActionType.ReplyAll
+  - SuperOffice.Data.MessageActionType.value__
+  langs:
+  - csharp
+  - vb
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: SuperOffice.Data.MessageActionType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nTicket message actions\n"
+  syntax:
+    content: 'public sealed class MessageActionType : Enum'
+    content.vb: >-
+      Public NotInheritable Class MessageActionType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.MessageActionType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.MessageActionType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.MessageActionType.value__
+  commentId: F:SuperOffice.Data.MessageActionType.value__
+  id: value__
+  parent: SuperOffice.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MessageActionType.value__
+  fullName: SuperOffice.Data.MessageActionType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.MessageActionType.None
+  commentId: F:SuperOffice.Data.MessageActionType.None
+  id: None
+  parent: SuperOffice.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MessageActionType.None
+  fullName: SuperOffice.Data.MessageActionType.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const MessageActionType None
+    return:
+      type: SuperOffice.Data.MessageActionType
+    content.vb: Public Const None As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageActionType.Reply
+  commentId: F:SuperOffice.Data.MessageActionType.Reply
+  id: Reply
+  parent: SuperOffice.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: Reply
+  nameWithType: MessageActionType.Reply
+  fullName: SuperOffice.Data.MessageActionType.Reply
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Reply to message\n"
+  syntax:
+    content: public const MessageActionType Reply
+    return:
+      type: SuperOffice.Data.MessageActionType
+    content.vb: Public Const Reply As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageActionType.ReplyAll
+  commentId: F:SuperOffice.Data.MessageActionType.ReplyAll
+  id: ReplyAll
+  parent: SuperOffice.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: ReplyAll
+  nameWithType: MessageActionType.ReplyAll
+  fullName: SuperOffice.Data.MessageActionType.ReplyAll
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Reply to all\n"
+  syntax:
+    content: public const MessageActionType ReplyAll
+    return:
+      type: SuperOffice.Data.MessageActionType
+    content.vb: Public Const ReplyAll As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageActionType.Forward
+  commentId: F:SuperOffice.Data.MessageActionType.Forward
+  id: Forward
+  parent: SuperOffice.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: MessageActionType.Forward
+  fullName: SuperOffice.Data.MessageActionType.Forward
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Forward message\n"
+  syntax:
+    content: public const MessageActionType Forward
+    return:
+      type: SuperOffice.Data.MessageActionType
+    content.vb: Public Const Forward As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageActionType.InternalComment
+  commentId: F:SuperOffice.Data.MessageActionType.InternalComment
+  id: InternalComment
+  parent: SuperOffice.Data.MessageActionType
+  langs:
+  - csharp
+  - vb
+  name: InternalComment
+  nameWithType: MessageActionType.InternalComment
+  fullName: SuperOffice.Data.MessageActionType.InternalComment
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Add internal commnet\n"
+  syntax:
+    content: public const MessageActionType InternalComment
+    return:
+      type: SuperOffice.Data.MessageActionType
+    content.vb: Public Const InternalComment As MessageActionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.MessageActionType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MessageActionType, To>()
+  nameWithType: EnumUtil.MapEnums<MessageActionType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.MessageActionType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MessageActionType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.MessageActionType, To)()
+  name.vb: MapEnums(Of MessageActionType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MessageActionType, To>
+    nameWithType: EnumUtil.MapEnums<MessageActionType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.MessageActionType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MessageActionType, To)
+    nameWithType: EnumUtil.MapEnums(Of MessageActionType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.MessageActionType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.MessageActionType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MessageActionType, To>()
+  nameWithType: Converters.MapEnums<MessageActionType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.MessageActionType, To>()
+  nameWithType.vb: Converters.MapEnums(Of MessageActionType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.MessageActionType, To)()
+  name.vb: MapEnums(Of MessageActionType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MessageActionType, To>
+    nameWithType: Converters.MapEnums<MessageActionType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.MessageActionType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MessageActionType, To)
+    nameWithType: Converters.MapEnums(Of MessageActionType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.MessageActionType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.MessageActionType
+  commentId: T:SuperOffice.Data.MessageActionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: SuperOffice.Data.MessageActionType

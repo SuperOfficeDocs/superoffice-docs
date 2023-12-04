@@ -5,12 +5,11 @@ items:
   id: Country
   parent: SuperOffice.CRM.Globalization
   children:
-  - SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRow)
+  - SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRecordData)
   - SuperOffice.CRM.Globalization.Country.AddressLayout
   - SuperOffice.CRM.Globalization.Country.AddressLayoutDomestic
   - SuperOffice.CRM.Globalization.Country.AddressLayoutForeign
   - SuperOffice.CRM.Globalization.Country.CountryId
-  - SuperOffice.CRM.Globalization.Country.Cultures
   - SuperOffice.CRM.Globalization.Country.CurrencyId
   - SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
   - SuperOffice.CRM.Globalization.Country.DefaultLCID
@@ -23,7 +22,6 @@ items:
   - SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixMandatoryOnNationalCalls
   - SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
   - SuperOffice.CRM.Globalization.Country.ISO3166Alpha3
-  - SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
   - SuperOffice.CRM.Globalization.Country.ISO3166Number
   - SuperOffice.CRM.Globalization.Country.Name
   - SuperOffice.CRM.Globalization.Country.OrgNrText
@@ -35,7 +33,6 @@ items:
   - SuperOffice.CRM.Globalization.Country.PhoneIsNorthAmerican
   - SuperOffice.CRM.Globalization.Country.Rank
   - SuperOffice.CRM.Globalization.Country.RegionInfo
-  - SuperOffice.CRM.Globalization.Country.Row
   - SuperOffice.CRM.Globalization.Country.Tooltip
   - SuperOffice.CRM.Globalization.Country.ToString
   - SuperOffice.CRM.Globalization.Country.ZipPrefix
@@ -52,19 +49,15 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\nClass that holds one row of the Country table\n"
+  summary: "\nClass that holds one record from the Country table\n"
   syntax:
-    content: public class Country
-    content.vb: Public Class Country
+    content: 'public class Country : Object'
+    content.vb: >-
+      Public Class Country
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Globalization.Country.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Globalization.Country.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -74,16 +67,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRow)
-  commentId: M:SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRow)
-  id: '#ctor(SuperOffice.CRM.Rows.CountryRow)'
+- uid: SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRecordData)
+  commentId: M:SuperOffice.CRM.Globalization.Country.#ctor(SuperOffice.CRM.Rows.CountryRecordData)
+  id: '#ctor(SuperOffice.CRM.Rows.CountryRecordData)'
   parent: SuperOffice.CRM.Globalization.Country
   langs:
   - csharp
   - vb
-  name: Country(CountryRow)
-  nameWithType: Country.Country(CountryRow)
-  fullName: SuperOffice.CRM.Globalization.Country.Country(SuperOffice.CRM.Rows.CountryRow)
+  name: Country(CountryRecordData)
+  nameWithType: Country.Country(CountryRecordData)
+  fullName: SuperOffice.CRM.Globalization.Country.Country(SuperOffice.CRM.Rows.CountryRecordData)
   type: Constructor
   source:
     path: SoDataBase
@@ -92,11 +85,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
   syntax:
-    content: public Country(CountryRow row)
+    content: public Country(CountryRecordData record)
     parameters:
-    - id: row
-      type: SuperOffice.CRM.Rows.CountryRow
-    content.vb: Public Sub New(row As CountryRow)
+    - id: record
+      type: SuperOffice.CRM.Rows.CountryRecordData
+    content.vb: Public Sub New(record As CountryRecordData)
   overload: SuperOffice.CRM.Globalization.Country.#ctor*
   modifiers.csharp:
   - public
@@ -158,7 +151,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Globalization.Country.ToString*
   modifiers.csharp:
   - public
@@ -166,36 +158,6 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.CRM.Globalization.Country.Row
-  commentId: P:SuperOffice.CRM.Globalization.Country.Row
-  id: Row
-  parent: SuperOffice.CRM.Globalization.Country
-  langs:
-  - csharp
-  - vb
-  name: Row
-  nameWithType: Country.Row
-  fullName: SuperOffice.CRM.Globalization.Country.Row
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  syntax:
-    content: public CountryRow Row { get; }
-    parameters: []
-    return:
-      type: SuperOffice.CRM.Rows.CountryRow
-    content.vb: Public ReadOnly Property Row As CountryRow
-  overload: SuperOffice.CRM.Globalization.Country.Row*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.Country.CountryId
   commentId: P:SuperOffice.CRM.Globalization.Country.CountryId
   id: CountryId
@@ -213,7 +175,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Primary key  </p>\n"
+  summary: "\n<p>Primary key</p>\n"
   syntax:
     content: public int CountryId { get; }
     parameters: []
@@ -244,7 +206,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Country name in local language  </p>\n"
+  summary: "\n<p>Country name in local language</p>\n"
   syntax:
     content: public string Name { get; }
     parameters: []
@@ -275,7 +237,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Rank order  </p>\n"
+  summary: "\n<p>Rank order</p>\n"
   syntax:
     content: public short Rank { get; }
     parameters: []
@@ -306,7 +268,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Tooltip or other description  </p>\n"
+  summary: "\n<p>Tooltip or other description</p>\n"
   syntax:
     content: public string Tooltip { get; }
     parameters: []
@@ -337,7 +299,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Country name in English  </p>\n"
+  summary: "\n<p>Country name in English</p>\n"
   syntax:
     content: public string EnglishName { get; }
     parameters: []
@@ -345,51 +307,6 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property EnglishName As String
   overload: SuperOffice.CRM.Globalization.Country.EnglishName*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
-  commentId: P:SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
-  id: ISO3166EnglishName
-  parent: SuperOffice.CRM.Globalization.Country
-  langs:
-  - csharp
-  - vb
-  name: ISO3166EnglishName
-  nameWithType: Country.ISO3166EnglishName
-  fullName: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nEnglish short name according to ISO3166\n"
-  syntax:
-    content: >-
-      [Obsolete("Use English name instead", true)]
-
-      public string ISO3166EnglishName { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: >-
-      <Obsolete("Use English name instead", True)>
-
-      Public ReadOnly Property ISO3166EnglishName As String
-  overload: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use English name instead
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -539,26 +456,12 @@ items:
   namespace: SuperOffice.CRM.Globalization
   summary: "\nPhone code for Fax to dial out from the country.\n"
   syntax:
-    content: >-
-      [Obsolete("Use PhoneDialOutPrefix instead", false)]
-
-      public string PhoneDialOutFaxPrefix { get; }
+    content: public string PhoneDialOutFaxPrefix { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete("Use PhoneDialOutPrefix instead", False)>
-
-      Public ReadOnly Property PhoneDialOutFaxPrefix As String
+    content.vb: Public ReadOnly Property PhoneDialOutFaxPrefix As String
   overload: SuperOffice.CRM.Globalization.Country.PhoneDialOutFaxPrefix*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use PhoneDialOutPrefix instead
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - get
@@ -679,26 +582,12 @@ items:
   summary: "\nClassic inter-area prefixes behave in the following way: If you are in the\nsame area as the one you&apos;re calling to, you drop the prefix (typically 0) and also\nthe area code. If you are outside, but inside the country, you dial the 0 and the area\ncode. If you are outside the country, you dial your country&apos;s dial-out, the target country,\nand the target area code (without the 0).\nNon-classic inter-area prefixes retain the 0 and the area code inside the country, and drop\nthe 0 when calling from another country.\n"
   remarks: "\nClassic inter-area prefixes are displayed like +46 (0) 8 123 4567, while non-classics\nwould look like +46 8 12 456 from abroad; inside, a classic would be 8 123 4567, while \na non-classic would be 08 123 4567. \nIf the inter-area code is non-empty and not exactly equal to &quot;0&quot;, it is considered classic.\nThe inter-area code of &quot;0&quot; is NOT classic by default, but can be forced to be classic\nby ending the customphonedescription field with the token &quot;/classic&quot;.\n<p></p>Complain to your national phone authority if you are confused. We did not invent this :-).\n"
   syntax:
-    content: >-
-      [Obsolete("This feature is removed, as it is not supported when dialing phone numbers.", false)]
-
-      public bool IsInterAreaPrefixClassic { get; }
+    content: public bool IsInterAreaPrefixClassic { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("This feature is removed, as it is not supported when dialing phone numbers.", False)>
-
-      Public ReadOnly Property IsInterAreaPrefixClassic As Boolean
+    content.vb: Public ReadOnly Property IsInterAreaPrefixClassic As Boolean
   overload: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This feature is removed, as it is not supported when dialing phone numbers.
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - get
@@ -786,7 +675,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>N- DK- etc.  </p>\n"
+  summary: "\n<p>N- DK- etc.</p>\n"
   syntax:
     content: public string ZipPrefix { get; }
     parameters: []
@@ -817,28 +706,14 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Internal resource ID of flag  </p>\n"
+  summary: "\n<p>Internal resource ID of flag</p>\n"
   syntax:
-    content: >-
-      [Obsolete("The flag is now available as an image: Use Flag", false)]
-
-      public uint FlagresId { get; }
+    content: public uint FlagresId { get; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: >-
-      <Obsolete("The flag is now available as an image: Use Flag", False)>
-
-      Public ReadOnly Property FlagresId As UInteger
+    content.vb: Public ReadOnly Property FlagresId As UInteger
   overload: SuperOffice.CRM.Globalization.Country.FlagresId*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: 'The flag is now available as an image: Use Flag'
-    - type: System.Boolean
-      value: false
   modifiers.csharp:
   - public
   - get
@@ -862,7 +737,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Points to address format used in the GUI  </p>\n"
+  summary: "\n<p>Points to address format used in the GUI</p>\n"
   syntax:
     content: public AddressLayout AddressLayout { get; }
     parameters: []
@@ -893,7 +768,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Points to address format used for labels to own country  </p>\n"
+  summary: "\n<p>Points to address format used for labels to own country</p>\n"
   syntax:
     content: public AddressLayout AddressLayoutDomestic { get; }
     parameters: []
@@ -924,7 +799,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Points to address format used for labels to other countries than own country  </p>\n"
+  summary: "\n<p>Points to address format used for labels to other countries than own country</p>\n"
   syntax:
     content: public AddressLayout AddressLayoutForeign { get; }
     parameters: []
@@ -955,7 +830,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Default currency for this country  </p>\n"
+  summary: "\n<p>Default currency for this country</p>\n"
   syntax:
     content: public int CurrencyId { get; }
     parameters: []
@@ -986,7 +861,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Lead text for organisation field, multi-language format  </p>\n"
+  summary: "\n<p>Lead text for organisation field, multi-language format</p>\n"
   syntax:
     content: public string OrgNrText { get; }
     parameters: []
@@ -1017,7 +892,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "\n<p>Web domain identifier (.no, .uk, etc; but without the dot)  </p>\n"
+  summary: "\n<p>Web domain identifier (.no, .uk, etc; but without the dot)</p>\n"
   syntax:
     content: public string DomainName { get; }
     parameters: []
@@ -1152,51 +1027,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Globalization.Country.Cultures
-  commentId: P:SuperOffice.CRM.Globalization.Country.Cultures
-  id: Cultures
-  parent: SuperOffice.CRM.Globalization.Country
-  langs:
-  - csharp
-  - vb
-  name: Cultures
-  nameWithType: Country.Cultures
-  fullName: SuperOffice.CRM.Globalization.Country.Cultures
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Globalization
-  summary: "\nMicrosoft .NET supported cultures that represents languages in the country.\n"
-  syntax:
-    content: >-
-      [Obsolete("Temporary unavailable", true)]
-
-      public CultureInfo[] Cultures { get; }
-    parameters: []
-    return:
-      type: System.Globalization.CultureInfo[]
-    content.vb: >-
-      <Obsolete("Temporary unavailable", True)>
-
-      Public ReadOnly Property Cultures As CultureInfo()
-  overload: SuperOffice.CRM.Globalization.Country.Cultures*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Temporary unavailable
-    - type: System.Boolean
-      value: true
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
@@ -1211,254 +1041,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Globalization.Country.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1636,13 +1218,13 @@ references:
   name: Country
   nameWithType: Country.Country
   fullName: SuperOffice.CRM.Globalization.Country.Country
-- uid: SuperOffice.CRM.Rows.CountryRow
-  commentId: T:SuperOffice.CRM.Rows.CountryRow
+- uid: SuperOffice.CRM.Rows.CountryRecordData
+  commentId: T:SuperOffice.CRM.Rows.CountryRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  name: CountryRow
-  nameWithType: CountryRow
-  fullName: SuperOffice.CRM.Rows.CountryRow
+  name: CountryRecordData
+  nameWithType: CountryRecordData
+  fullName: SuperOffice.CRM.Rows.CountryRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
@@ -1662,49 +1244,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Globalization.Country.ToString*
   commentId: Overload:SuperOffice.CRM.Globalization.Country.ToString
   isExternal: true
   name: ToString
   nameWithType: Country.ToString
   fullName: SuperOffice.CRM.Globalization.Country.ToString
-- uid: SuperOffice.CRM.Globalization.Country.Row*
-  commentId: Overload:SuperOffice.CRM.Globalization.Country.Row
-  isExternal: true
-  name: Row
-  nameWithType: Country.Row
-  fullName: SuperOffice.CRM.Globalization.Country.Row
 - uid: SuperOffice.CRM.Globalization.Country.CountryId*
   commentId: Overload:SuperOffice.CRM.Globalization.Country.CountryId
   isExternal: true
@@ -1749,12 +1294,6 @@ references:
   name: EnglishName
   nameWithType: Country.EnglishName
   fullName: SuperOffice.CRM.Globalization.Country.EnglishName
-- uid: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName*
-  commentId: Overload:SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
-  isExternal: true
-  name: ISO3166EnglishName
-  nameWithType: Country.ISO3166EnglishName
-  fullName: SuperOffice.CRM.Globalization.Country.ISO3166EnglishName
 - uid: SuperOffice.CRM.Globalization.Country.ISO3166Alpha2*
   commentId: Overload:SuperOffice.CRM.Globalization.Country.ISO3166Alpha2
   isExternal: true
@@ -1897,18 +1436,11 @@ references:
   nameWithType: Country.RegionInfo
   fullName: SuperOffice.CRM.Globalization.Country.RegionInfo
 - uid: System.Globalization.RegionInfo
-  commentId: T:System.Globalization.RegionInfo
-  parent: System.Globalization
+  commentId: '!:System.Globalization.RegionInfo'
   isExternal: true
   name: RegionInfo
   nameWithType: RegionInfo
   fullName: System.Globalization.RegionInfo
-- uid: System.Globalization
-  commentId: N:System.Globalization
-  isExternal: true
-  name: System.Globalization
-  nameWithType: System.Globalization
-  fullName: System.Globalization
 - uid: SuperOffice.CRM.Globalization.Country.DefaultLCID*
   commentId: Overload:SuperOffice.CRM.Globalization.Country.DefaultLCID
   isExternal: true
@@ -1927,35 +1459,3 @@ references:
   name: DefaultLanguageCode
   nameWithType: Country.DefaultLanguageCode
   fullName: SuperOffice.CRM.Globalization.Country.DefaultLanguageCode
-- uid: SuperOffice.CRM.Globalization.Country.Cultures*
-  commentId: Overload:SuperOffice.CRM.Globalization.Country.Cultures
-  isExternal: true
-  name: Cultures
-  nameWithType: Country.Cultures
-  fullName: SuperOffice.CRM.Globalization.Country.Cultures
-- uid: System.Globalization.CultureInfo[]
-  isExternal: true
-  name: CultureInfo[]
-  nameWithType: CultureInfo[]
-  fullName: System.Globalization.CultureInfo[]
-  nameWithType.vb: CultureInfo()
-  fullName.vb: System.Globalization.CultureInfo()
-  name.vb: CultureInfo()
-  spec.csharp:
-  - uid: System.Globalization.CultureInfo
-    name: CultureInfo
-    nameWithType: CultureInfo
-    fullName: System.Globalization.CultureInfo
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Globalization.CultureInfo
-    name: CultureInfo
-    nameWithType: CultureInfo
-    fullName: System.Globalization.CultureInfo
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()

@@ -19,14 +19,14 @@ items:
   - SuperOffice.Util.iCalendarUtility.CreateEmail(SuperOffice.CRM.Mail.MailEnvelope,SuperOffice.Data.CalMethod,System.String,System.String)
   - SuperOffice.Util.iCalendarUtility.CreateEmailAttachment(Ical.Net.Calendar)
   - SuperOffice.Util.iCalendarUtility.CreateIcalFromAppointmentUpdate(System.Int32,System.Boolean)
-  - SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
+  - SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,SuperOffice.CRM.Rows.AppointmentRow[])
   - SuperOffice.Util.iCalendarUtility.CreateInvitationIcal(System.Int32,System.String,System.String)
   - SuperOffice.Util.iCalendarUtility.CreateOnlyThisEvent(SuperOffice.CRM.Rows.InvitationRecordData,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.AppointmentRow[],System.Boolean)
   - SuperOffice.Util.iCalendarUtility.CreateOnlyThisUpdateEvent(SuperOffice.CRM.Rows.InvitationRecordData,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.AppointmentRow[])
   - SuperOffice.Util.iCalendarUtility.CreateOrganizerEnvelope(Ical.Net.CalendarComponents.CalendarEvent)
   - SuperOffice.Util.iCalendarUtility.CreateReply(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.AssociateRow,System.String,System.String)
   - SuperOffice.Util.iCalendarUtility.CreateThisAndForwardEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[],System.Func{Ical.Net.CalendarComponents.CalendarEvent,System.ValueTuple{System.String,System.Int32,System.String}})
-  - SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
+  - SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[],System.String)
   - SuperOffice.Util.iCalendarUtility.CreateThisAndForwardUpdateEvent(SuperOffice.CRM.Rows.InvitationRecordData,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
   - SuperOffice.Util.iCalendarUtility.CreateThisAndForwardUpdateEvent(System.String,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
   - SuperOffice.Util.iCalendarUtility.CreateUpdate(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
@@ -42,7 +42,7 @@ items:
   - SuperOffice.Util.iCalendarUtility.GetPersonEmailAddress(SuperOffice.CRM.Entities.Person)
   - SuperOffice.Util.iCalendarUtility.GetPersonFullName(SuperOffice.CRM.Entities.Person)
   - SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(SuperOffice.CRM.Entities.Appointment)
-  - SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(System.Int32,System.String)
+  - SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(SuperOffice.CRM.Rows.AppointmentRow,System.String)
   - SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(System.String,System.String)
   - SuperOffice.Util.iCalendarUtility.GetWeekdays(System.Collections.Generic.List{Ical.Net.DataTypes.WeekDay})
   - SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName(System.Nullable{System.DateTime})
@@ -69,18 +69,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static class iCalendarUtility
-    content.vb: Public Module iCalendarUtility
+    content: 'public static class iCalendarUtility : Object'
+    content.vb: >-
+      Public Module iCalendarUtility
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -237,17 +232,17 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
-  commentId: M:SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
-  id: CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
+- uid: SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,SuperOffice.CRM.Rows.AppointmentRow[])
+  commentId: M:SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,SuperOffice.CRM.Rows.AppointmentRow[])
+  id: CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,SuperOffice.CRM.Rows.AppointmentRow[])
   isExtensionMethod: true
   parent: SuperOffice.Util.iCalendarUtility
   langs:
   - csharp
   - vb
-  name: CreateInvitation(AppointmentRow, Nullable<DateTime>, Nullable<DateTime>, AppointmentRow[])
-  nameWithType: iCalendarUtility.CreateInvitation(AppointmentRow, Nullable<DateTime>, Nullable<DateTime>, AppointmentRow[])
-  fullName: SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, SuperOffice.CRM.Rows.AppointmentRow[])
+  name: CreateInvitation(AppointmentRow, Nullable<DateTime>, Nullable<DateTime>, String, AppointmentRow[])
+  nameWithType: iCalendarUtility.CreateInvitation(AppointmentRow, Nullable<DateTime>, Nullable<DateTime>, String, AppointmentRow[])
+  fullName: SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow, System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.String, SuperOffice.CRM.Rows.AppointmentRow[])
   type: Method
   source:
     path: SoDataBase
@@ -257,7 +252,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nGenerates a calendar object with values from the organizerAppointment. A new unique UID is generated, and a corresponding row in the invitation table is created.\n"
   syntax:
-    content: public static Calendar CreateInvitation(this AppointmentRow organizerAppointment, DateTime? recurrenceStartDate, DateTime? recurrenceEndDate, AppointmentRow[] participants = null)
+    content: public static Calendar CreateInvitation(this AppointmentRow organizerAppointment, Nullable<DateTime> recurrenceStartDate, Nullable<DateTime> recurrenceEndDate, string templateLanguage, AppointmentRow[] participants = null)
     parameters:
     - id: organizerAppointment
       type: SuperOffice.CRM.Rows.AppointmentRow
@@ -265,6 +260,8 @@ items:
       type: System.Nullable{System.DateTime}
     - id: recurrenceEndDate
       type: System.Nullable{System.DateTime}
+    - id: templateLanguage
+      type: System.String
     - id: participants
       type: SuperOffice.CRM.Rows.AppointmentRow[]
     return:
@@ -272,17 +269,17 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function CreateInvitation(organizerAppointment As AppointmentRow, recurrenceStartDate As Date?, recurrenceEndDate As Date?, participants As AppointmentRow() = Nothing) As Calendar
+      Public Shared Function CreateInvitation(organizerAppointment As AppointmentRow, recurrenceStartDate As Nullable(Of DateTime), recurrenceEndDate As Nullable(Of DateTime), templateLanguage As String, participants As AppointmentRow() = Nothing) As Calendar
   overload: SuperOffice.Util.iCalendarUtility.CreateInvitation*
-  nameWithType.vb: iCalendarUtility.CreateInvitation(AppointmentRow, Nullable(Of DateTime), Nullable(Of DateTime), AppointmentRow())
+  nameWithType.vb: iCalendarUtility.CreateInvitation(AppointmentRow, Nullable(Of DateTime), Nullable(Of DateTime), String, AppointmentRow())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow, System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), SuperOffice.CRM.Rows.AppointmentRow())
-  name.vb: CreateInvitation(AppointmentRow, Nullable(Of DateTime), Nullable(Of DateTime), AppointmentRow())
+  fullName.vb: SuperOffice.Util.iCalendarUtility.CreateInvitation(SuperOffice.CRM.Rows.AppointmentRow, System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.String, SuperOffice.CRM.Rows.AppointmentRow())
+  name.vb: CreateInvitation(AppointmentRow, Nullable(Of DateTime), Nullable(Of DateTime), String, AppointmentRow())
 - uid: SuperOffice.Util.iCalendarUtility.CreateUpdate(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
   commentId: M:SuperOffice.Util.iCalendarUtility.CreateUpdate(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
   id: CreateUpdate(SuperOffice.CRM.Rows.AppointmentRow,System.Nullable{System.DateTime},SuperOffice.CRM.Rows.AppointmentRow[])
@@ -302,7 +299,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static Calendar CreateUpdate(this AppointmentRow organizerAppointment, DateTime? recurringStartDate = default(DateTime? ), AppointmentRow[] participants = null)
+    content: public static Calendar CreateUpdate(this AppointmentRow organizerAppointment, Nullable<DateTime> recurringStartDate = null, AppointmentRow[] participants = null)
     parameters:
     - id: organizerAppointment
       type: SuperOffice.CRM.Rows.AppointmentRow
@@ -315,7 +312,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function CreateUpdate(organizerAppointment As AppointmentRow, recurringStartDate As Date? = Nothing, participants As AppointmentRow() = Nothing) As Calendar
+      Public Shared Function CreateUpdate(organizerAppointment As AppointmentRow, recurringStartDate As Nullable(Of DateTime) = Nothing, participants As AppointmentRow() = Nothing) As Calendar
   overload: SuperOffice.Util.iCalendarUtility.CreateUpdate*
   nameWithType.vb: iCalendarUtility.CreateUpdate(AppointmentRow, Nullable(Of DateTime), AppointmentRow())
   modifiers.csharp:
@@ -344,10 +341,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static (int startInSeconds, int endInSeconds) GetAllDayPreferenceInSeconds()
+    content: public static ValueTuple<int, int> GetAllDayPreferenceInSeconds()
     return:
       type: System.ValueTuple{System.Int32,System.Int32}
-    content.vb: Public Shared Function GetAllDayPreferenceInSeconds As(startInSeconds As Integer, endInSeconds As Integer)
+    content.vb: Public Shared Function GetAllDayPreferenceInSeconds As ValueTuple(Of Integer, Integer)
   overload: SuperOffice.Util.iCalendarUtility.GetAllDayPreferenceInSeconds*
   modifiers.csharp:
   - public
@@ -415,7 +412,7 @@ items:
   namespace: SuperOffice.Util
   summary: "\nCreates a calendar-object with default values.\n"
   syntax:
-    content: public static Calendar CreateCalendar(string method = "REQUEST", DateTime? start = default(DateTime? ))
+    content: public static Calendar CreateCalendar(string method = "REQUEST", Nullable<DateTime> start = null)
     parameters:
     - id: method
       type: System.String
@@ -423,7 +420,7 @@ items:
       type: System.Nullable{System.DateTime}
     return:
       type: Ical.Net.Calendar
-    content.vb: Public Shared Function CreateCalendar(method As String = "REQUEST", start As Date? = Nothing) As Calendar
+    content.vb: Public Shared Function CreateCalendar(method As String = "REQUEST", start As Nullable(Of DateTime) = Nothing) As Calendar
   overload: SuperOffice.Util.iCalendarUtility.CreateCalendar*
   nameWithType.vb: iCalendarUtility.CreateCalendar(String, Nullable(Of DateTime))
   modifiers.csharp:
@@ -453,14 +450,14 @@ items:
   namespace: SuperOffice.Util
   summary: "\nAttempts to map database-tz country-code for current principal to windows-timezone name.\n"
   syntax:
-    content: public static string GetWindowsTimeZoneName(DateTime? start = default(DateTime? ))
+    content: public static string GetWindowsTimeZoneName(Nullable<DateTime> start = null)
     parameters:
     - id: start
       type: System.Nullable{System.DateTime}
     return:
       type: System.String
       description: Empty string if no match is found, otherwise returns the Windows-id of the timezone.
-    content.vb: Public Shared Function GetWindowsTimeZoneName(start As Date? = Nothing) As String
+    content.vb: Public Shared Function GetWindowsTimeZoneName(start As Nullable(Of DateTime) = Nothing) As String
   overload: SuperOffice.Util.iCalendarUtility.GetWindowsTimeZoneName*
   nameWithType.vb: iCalendarUtility.GetWindowsTimeZoneName(Nullable(Of DateTime))
   modifiers.csharp:
@@ -639,8 +636,8 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[], Func<CalendarEvent, (String uid, Int32 sequence, String organizerEmail)>)
-  nameWithType: iCalendarUtility.CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[], Func<CalendarEvent, (String uid, Int32 sequence, String organizerEmail)>)
+  name: CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[], Func<CalendarEvent, ValueTuple<String, Int32, String>>)
+  nameWithType: iCalendarUtility.CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[], Func<CalendarEvent, ValueTuple<String, Int32, String>>)
   fullName: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardEvent(SuperOffice.CRM.Rows.AppointmentRow, System.DateTime, System.DateTime, System.DateTime, SuperOffice.CRM.Rows.AppointmentRow[], System.Func<Ical.Net.CalendarComponents.CalendarEvent, System.ValueTuple<System.String, System.Int32, System.String>>)
   type: Method
   source:
@@ -650,7 +647,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static CalendarEvent CreateThisAndForwardEvent(AppointmentRow row, DateTime start, DateTime end, DateTime until, AppointmentRow[] participantRows, Func<CalendarEvent, (string uid, int sequence, string organizerEmail)> uidAndSequenceFunc)
+    content: public static CalendarEvent CreateThisAndForwardEvent(AppointmentRow row, DateTime start, DateTime end, DateTime until, AppointmentRow[] participantRows, Func<CalendarEvent, ValueTuple<string, int, string>> uidAndSequenceFunc)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.AppointmentRow
@@ -666,9 +663,9 @@ items:
       type: System.Func{Ical.Net.CalendarComponents.CalendarEvent,System.ValueTuple{System.String,System.Int32,System.String}}
     return:
       type: Ical.Net.CalendarComponents.CalendarEvent
-    content.vb: Public Shared Function CreateThisAndForwardEvent(row As AppointmentRow, start As Date, end As Date, until As Date, participantRows As AppointmentRow(), uidAndSequenceFunc As Func(Of CalendarEvent, (uid As String, sequence As Integer, organizerEmail As String))) As CalendarEvent
+    content.vb: Public Shared Function CreateThisAndForwardEvent(row As AppointmentRow, start As DateTime, end As DateTime, until As DateTime, participantRows As AppointmentRow(), uidAndSequenceFunc As Func(Of CalendarEvent, ValueTuple(Of String, Integer, String))) As CalendarEvent
   overload: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardEvent*
-  nameWithType.vb: iCalendarUtility.CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow(), Func(Of CalendarEvent, (uid As String, sequence As Int32, organizerEmail As String)))
+  nameWithType.vb: iCalendarUtility.CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow(), Func(Of CalendarEvent, ValueTuple(Of String, Int32, String)))
   modifiers.csharp:
   - public
   - static
@@ -676,7 +673,7 @@ items:
   - Public
   - Shared
   fullName.vb: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardEvent(SuperOffice.CRM.Rows.AppointmentRow, System.DateTime, System.DateTime, System.DateTime, SuperOffice.CRM.Rows.AppointmentRow(), System.Func(Of Ical.Net.CalendarComponents.CalendarEvent, System.ValueTuple(Of System.String, System.Int32, System.String)))
-  name.vb: CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow(), Func(Of CalendarEvent, (uid As String, sequence As Int32, organizerEmail As String)))
+  name.vb: CreateThisAndForwardEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow(), Func(Of CalendarEvent, ValueTuple(Of String, Int32, String)))
 - uid: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardUpdateEvent(SuperOffice.CRM.Rows.InvitationRecordData,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
   commentId: M:SuperOffice.Util.iCalendarUtility.CreateThisAndForwardUpdateEvent(SuperOffice.CRM.Rows.InvitationRecordData,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
   id: CreateThisAndForwardUpdateEvent(SuperOffice.CRM.Rows.InvitationRecordData,SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
@@ -711,7 +708,7 @@ items:
       type: SuperOffice.CRM.Rows.AppointmentRow[]
     return:
       type: Ical.Net.CalendarComponents.CalendarEvent
-    content.vb: Public Shared Function CreateThisAndForwardUpdateEvent(invitationRecord As InvitationRecordData, row As AppointmentRow, start As Date, end As Date, until As Date, participantRows As AppointmentRow()) As CalendarEvent
+    content.vb: Public Shared Function CreateThisAndForwardUpdateEvent(invitationRecord As InvitationRecordData, row As AppointmentRow, start As DateTime, end As DateTime, until As DateTime, participantRows As AppointmentRow()) As CalendarEvent
   overload: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardUpdateEvent*
   nameWithType.vb: iCalendarUtility.CreateThisAndForwardUpdateEvent(InvitationRecordData, AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow())
   modifiers.csharp:
@@ -756,7 +753,7 @@ items:
       type: SuperOffice.CRM.Rows.AppointmentRow[]
     return:
       type: Ical.Net.CalendarComponents.CalendarEvent
-    content.vb: Public Shared Function CreateThisAndForwardUpdateEvent(uid As String, row As AppointmentRow, start As Date, end As Date, until As Date, participantRows As AppointmentRow()) As CalendarEvent
+    content.vb: Public Shared Function CreateThisAndForwardUpdateEvent(uid As String, row As AppointmentRow, start As DateTime, end As DateTime, until As DateTime, participantRows As AppointmentRow()) As CalendarEvent
   overload: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardUpdateEvent*
   nameWithType.vb: iCalendarUtility.CreateThisAndForwardUpdateEvent(String, AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow())
   modifiers.csharp:
@@ -767,16 +764,16 @@ items:
   - Shared
   fullName.vb: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardUpdateEvent(System.String, SuperOffice.CRM.Rows.AppointmentRow, System.DateTime, System.DateTime, System.DateTime, SuperOffice.CRM.Rows.AppointmentRow())
   name.vb: CreateThisAndForwardUpdateEvent(String, AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow())
-- uid: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
-  commentId: M:SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
-  id: CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[])
+- uid: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[],System.String)
+  commentId: M:SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[],System.String)
+  id: CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow,System.DateTime,System.DateTime,System.DateTime,SuperOffice.CRM.Rows.AppointmentRow[],System.String)
   parent: SuperOffice.Util.iCalendarUtility
   langs:
   - csharp
   - vb
-  name: CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[])
-  nameWithType: iCalendarUtility.CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[])
-  fullName: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow, System.DateTime, System.DateTime, System.DateTime, SuperOffice.CRM.Rows.AppointmentRow[])
+  name: CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[], String)
+  nameWithType: iCalendarUtility.CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow[], String)
+  fullName: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow, System.DateTime, System.DateTime, System.DateTime, SuperOffice.CRM.Rows.AppointmentRow[], System.String)
   type: Method
   source:
     path: SoDataBase
@@ -785,7 +782,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static CalendarEvent CreateThisAndForwardInvitationEvent(AppointmentRow row, DateTime start, DateTime end, DateTime until, AppointmentRow[] participantRows)
+    content: public static CalendarEvent CreateThisAndForwardInvitationEvent(AppointmentRow row, DateTime start, DateTime end, DateTime until, AppointmentRow[] participantRows, string templateLanguage)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.AppointmentRow
@@ -797,19 +794,21 @@ items:
       type: System.DateTime
     - id: participantRows
       type: SuperOffice.CRM.Rows.AppointmentRow[]
+    - id: templateLanguage
+      type: System.String
     return:
       type: Ical.Net.CalendarComponents.CalendarEvent
-    content.vb: Public Shared Function CreateThisAndForwardInvitationEvent(row As AppointmentRow, start As Date, end As Date, until As Date, participantRows As AppointmentRow()) As CalendarEvent
+    content.vb: Public Shared Function CreateThisAndForwardInvitationEvent(row As AppointmentRow, start As DateTime, end As DateTime, until As DateTime, participantRows As AppointmentRow(), templateLanguage As String) As CalendarEvent
   overload: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent*
-  nameWithType.vb: iCalendarUtility.CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow())
+  nameWithType.vb: iCalendarUtility.CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow(), String)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow, System.DateTime, System.DateTime, System.DateTime, SuperOffice.CRM.Rows.AppointmentRow())
-  name.vb: CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow())
+  fullName.vb: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardInvitationEvent(SuperOffice.CRM.Rows.AppointmentRow, System.DateTime, System.DateTime, System.DateTime, SuperOffice.CRM.Rows.AppointmentRow(), System.String)
+  name.vb: CreateThisAndForwardInvitationEvent(AppointmentRow, DateTime, DateTime, DateTime, AppointmentRow(), String)
 - uid: SuperOffice.Util.iCalendarUtility.SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
   commentId: M:SuperOffice.Util.iCalendarUtility.SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
   id: SetAllDateTimesFromAppointment(Ical.Net.CalendarComponents.CalendarEvent,SuperOffice.CRM.Rows.AppointmentRow)
@@ -1015,7 +1014,7 @@ items:
       type: System.DateTime
     return:
       type: System.DateTime
-    content.vb: Public Shared Function ConvertToUTC(dt As Date) As Date
+    content.vb: Public Shared Function ConvertToUTC(dt As DateTime) As DateTime
   overload: SuperOffice.Util.iCalendarUtility.ConvertToUTC*
   modifiers.csharp:
   - public
@@ -1041,7 +1040,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static CalDateTime ConvertToCalDateTimeUTC(DateTime dt, DateTime? start = default(DateTime? ))
+    content: public static CalDateTime ConvertToCalDateTimeUTC(DateTime dt, Nullable<DateTime> start = null)
     parameters:
     - id: dt
       type: System.DateTime
@@ -1049,7 +1048,7 @@ items:
       type: System.Nullable{System.DateTime}
     return:
       type: Ical.Net.DataTypes.CalDateTime
-    content.vb: Public Shared Function ConvertToCalDateTimeUTC(dt As Date, start As Date? = Nothing) As CalDateTime
+    content.vb: Public Shared Function ConvertToCalDateTimeUTC(dt As DateTime, start As Nullable(Of DateTime) = Nothing) As CalDateTime
   overload: SuperOffice.Util.iCalendarUtility.ConvertToCalDateTimeUTC*
   nameWithType.vb: iCalendarUtility.ConvertToCalDateTimeUTC(DateTime, Nullable(Of DateTime))
   modifiers.csharp:
@@ -1091,7 +1090,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Sub SetRecurrenceId(calendarEvent As CalendarEvent, appointmentRow As AppointmentRow, recurrenceIdTimeComponent As Date)
+      Public Shared Sub SetRecurrenceId(calendarEvent As CalendarEvent, appointmentRow As AppointmentRow, recurrenceIdTimeComponent As DateTime)
   overload: SuperOffice.Util.iCalendarUtility.SetRecurrenceId*
   modifiers.csharp:
   - public
@@ -1354,13 +1353,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static (string summary, string description) GetSummaryAndDescription(Appointment appointment)
+    content: public static ValueTuple<string, string> GetSummaryAndDescription(Appointment appointment)
     parameters:
     - id: appointment
       type: SuperOffice.CRM.Entities.Appointment
     return:
       type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Shared Function GetSummaryAndDescription(appointment As Appointment) As(summary As String, description As String)
+    content.vb: Public Shared Function GetSummaryAndDescription(appointment As Appointment) As ValueTuple(Of String, String)
   overload: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription*
   modifiers.csharp:
   - public
@@ -1368,16 +1367,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(System.Int32,System.String)
-  commentId: M:SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(System.Int32,System.String)
-  id: GetSummaryAndDescription(System.Int32,System.String)
+- uid: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(SuperOffice.CRM.Rows.AppointmentRow,System.String)
+  commentId: M:SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(SuperOffice.CRM.Rows.AppointmentRow,System.String)
+  id: GetSummaryAndDescription(SuperOffice.CRM.Rows.AppointmentRow,System.String)
   parent: SuperOffice.Util.iCalendarUtility
   langs:
   - csharp
   - vb
-  name: GetSummaryAndDescription(Int32, String)
-  nameWithType: iCalendarUtility.GetSummaryAndDescription(Int32, String)
-  fullName: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(System.Int32, System.String)
+  name: GetSummaryAndDescription(AppointmentRow, String)
+  nameWithType: iCalendarUtility.GetSummaryAndDescription(AppointmentRow, String)
+  fullName: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription(SuperOffice.CRM.Rows.AppointmentRow, System.String)
   type: Method
   source:
     path: SoDataBase
@@ -1386,15 +1385,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static (string summary, string description) GetSummaryAndDescription(int textRowId, string videomeetingUrl = null)
+    content: public static ValueTuple<string, string> GetSummaryAndDescription(AppointmentRow row, string videomeetingUrl = null)
     parameters:
-    - id: textRowId
-      type: System.Int32
+    - id: row
+      type: SuperOffice.CRM.Rows.AppointmentRow
     - id: videomeetingUrl
       type: System.String
     return:
       type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Shared Function GetSummaryAndDescription(textRowId As Integer, videomeetingUrl As String = Nothing) As(summary As String, description As String)
+    content.vb: Public Shared Function GetSummaryAndDescription(row As AppointmentRow, videomeetingUrl As String = Nothing) As ValueTuple(Of String, String)
   overload: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription*
   modifiers.csharp:
   - public
@@ -1420,7 +1419,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public static (string summary, string description) GetSummaryAndDescription(string appointmentText, string videomeetingUrl = null)
+    content: public static ValueTuple<string, string> GetSummaryAndDescription(string appointmentText, string videomeetingUrl = null)
     parameters:
     - id: appointmentText
       type: System.String
@@ -1428,7 +1427,7 @@ items:
       type: System.String
     return:
       type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Shared Function GetSummaryAndDescription(appointmentText As String, videomeetingUrl As String = Nothing) As(summary As String, description As String)
+    content.vb: Public Shared Function GetSummaryAndDescription(appointmentText As String, videomeetingUrl As String = Nothing) As ValueTuple(Of String, String)
   overload: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription*
   modifiers.csharp:
   - public
@@ -1970,285 +1969,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2337,8 +2057,7 @@ references:
   nameWithType: iCalendarUtility.CreateInvitation
   fullName: SuperOffice.Util.iCalendarUtility.CreateInvitation
 - uid: System.Nullable{System.DateTime}
-  commentId: T:System.Nullable{System.DateTime}
-  parent: System
+  commentId: '!:System.Nullable{System.DateTime}'
   definition: System.Nullable`1
   name: Nullable<DateTime>
   nameWithType: Nullable<DateTime>
@@ -2407,14 +2126,13 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -2424,9 +2142,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2439,9 +2157,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -2458,9 +2176,8 @@ references:
   nameWithType: iCalendarUtility.GetAllDayPreferenceInSeconds
   fullName: SuperOffice.Util.iCalendarUtility.GetAllDayPreferenceInSeconds
 - uid: System.ValueTuple{System.Int32,System.Int32}
-  commentId: T:System.ValueTuple{System.Int32,System.Int32}
-  parent: System
-  isExternal: true
+  commentId: '!:System.ValueTuple{System.Int32,System.Int32}'
+  definition: System.ValueTuple`2
   name: ValueTuple<Int32, Int32>
   nameWithType: ValueTuple<Int32, Int32>
   fullName: System.ValueTuple<System.Int32, System.Int32>
@@ -2514,6 +2231,56 @@ references:
     nameWithType: Int32
     fullName: System.Int32
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`2
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -2583,15 +2350,12 @@ references:
   nameWithType: iCalendarUtility.CreateThisAndForwardEvent
   fullName: SuperOffice.Util.iCalendarUtility.CreateThisAndForwardEvent
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
 - uid: System.Func{Ical.Net.CalendarComponents.CalendarEvent,System.ValueTuple{System.String,System.Int32,System.String}}
-  commentId: T:System.Func{Ical.Net.CalendarComponents.CalendarEvent,System.ValueTuple{System.String,System.Int32,System.String}}
-  parent: System
+  commentId: '!:System.Func{Ical.Net.CalendarComponents.CalendarEvent,System.ValueTuple{System.String,System.Int32,System.String}}'
   definition: System.Func`2
   name: Func<CalendarEvent, ValueTuple<String, Int32, String>>
   nameWithType: Func<CalendarEvent, ValueTuple<String, Int32, String>>
@@ -2704,14 +2468,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Func`2
-  commentId: T:System.Func`2
   isExternal: true
-  name: Func<T, TResult>
-  nameWithType: Func<T, TResult>
-  fullName: System.Func<T, TResult>
-  nameWithType.vb: Func(Of T, TResult)
-  fullName.vb: System.Func(Of T, TResult)
-  name.vb: Func(Of T, TResult)
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -2721,15 +2484,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2742,15 +2505,15 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -2840,8 +2603,7 @@ references:
   nameWithType: iCalendarUtility.GetAllMotherAppointmentIdsOfRecurrenceRuleId
   fullName: SuperOffice.Util.iCalendarUtility.GetAllMotherAppointmentIdsOfRecurrenceRuleId
 - uid: System.Collections.Generic.List{System.Int32}
-  commentId: T:System.Collections.Generic.List{System.Int32}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.Int32}'
   definition: System.Collections.Generic.List`1
   name: List<Int32>
   nameWithType: List<Int32>
@@ -2884,14 +2646,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -2901,9 +2662,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2916,18 +2677,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Util.iCalendarUtility.GetParticipationStatus*
   commentId: Overload:SuperOffice.Util.iCalendarUtility.GetParticipationStatus
   isExternal: true
@@ -2998,9 +2753,8 @@ references:
   nameWithType: iCalendarUtility.GetSummaryAndDescription
   fullName: SuperOffice.Util.iCalendarUtility.GetSummaryAndDescription
 - uid: System.ValueTuple{System.String,System.String}
-  commentId: T:System.ValueTuple{System.String,System.String}
-  parent: System
-  isExternal: true
+  commentId: '!:System.ValueTuple{System.String,System.String}'
+  definition: System.ValueTuple`2
   name: ValueTuple<String, String>
   nameWithType: ValueTuple<String, String>
   fullName: System.ValueTuple<System.String, System.String>
@@ -3141,8 +2895,7 @@ references:
   nameWithType: iCalendarUtility.GetWeekdays
   fullName: SuperOffice.Util.iCalendarUtility.GetWeekdays
 - uid: System.Collections.Generic.List{Ical.Net.DataTypes.WeekDay}
-  commentId: T:System.Collections.Generic.List{Ical.Net.DataTypes.WeekDay}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{Ical.Net.DataTypes.WeekDay}'
   definition: System.Collections.Generic.List`1
   name: List<WeekDay>
   nameWithType: List<WeekDay>

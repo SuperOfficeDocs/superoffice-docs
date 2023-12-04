@@ -31,6 +31,8 @@
     name: AppointmentAgent
   - uid: SuperOffice.CRM.Services.AppointmentEntity
     name: AppointmentEntity
+  - uid: SuperOffice.CRM.Services.AppointmentSaveData
+    name: AppointmentSaveData
   - uid: SuperOffice.CRM.Services.AppointmentSyncData
     name: AppointmentSyncData
   - uid: SuperOffice.CRM.Services.ApproveRejectResponse
@@ -51,6 +53,8 @@
     name: AssociateAgent
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+  - uid: SuperOffice.CRM.Services.AttachmentValidationResult
+    name: AttachmentValidationResult
   - uid: SuperOffice.CRM.Services.AudienceAgent
     name: AudienceAgent
   - uid: SuperOffice.CRM.Services.AudienceConfigParameter
@@ -73,6 +77,10 @@
     name: Business
   - uid: SuperOffice.CRM.Services.Cache
     name: Cache
+  - uid: SuperOffice.CRM.Services.CallerID
+    name: CallerID
+  - uid: SuperOffice.CRM.Services.CallerIDCollection
+    name: CallerIDCollection
   - uid: SuperOffice.CRM.Services.CategorizationModelDetails
     name: CategorizationModelDetails
   - uid: SuperOffice.CRM.Services.CategorizationStatusResponse
@@ -89,6 +97,8 @@
     name: ChatAgent
   - uid: SuperOffice.CRM.Services.ChatBotSettings
     name: ChatBotSettings
+  - uid: SuperOffice.CRM.Services.ChatbotTurn
+    name: ChatbotTurn
   - uid: SuperOffice.CRM.Services.ChatMessage
     name: ChatMessage
   - uid: SuperOffice.CRM.Services.ChatOpeningHours
@@ -115,12 +125,6 @@
     name: CommandResult
   - uid: SuperOffice.CRM.Services.Competitor
     name: Competitor
-  - uid: SuperOffice.CRM.Services.ConfigurableScreenDelta
-    name: ConfigurableScreenDelta
-  - uid: SuperOffice.CRM.Services.Configuration
-    name: Configuration
-  - uid: SuperOffice.CRM.Services.ConfigurationAgent
-    name: ConfigurationAgent
   - uid: SuperOffice.CRM.Services.ConsentInfo
     name: ConsentInfo
   - uid: SuperOffice.CRM.Services.ConsentPerson
@@ -169,8 +173,14 @@
     name: CRMScriptAgent
   - uid: SuperOffice.CRM.Services.CRMScriptEntity
     name: CRMScriptEntity
+  - uid: SuperOffice.CRM.Services.CRMScriptErrorInfo
+    name: CRMScriptErrorInfo
   - uid: SuperOffice.CRM.Services.CRMScriptResult
     name: CRMScriptResult
+  - uid: SuperOffice.CRM.Services.CRMScriptRunResult
+    name: CRMScriptRunResult
+  - uid: SuperOffice.CRM.Services.CRMScriptTraceRun
+    name: CRMScriptTraceRun
   - uid: SuperOffice.CRM.Services.CsFeatureToggle
     name: CsFeatureToggle
   - uid: SuperOffice.CRM.Services.CsSessionKey
@@ -211,6 +221,8 @@
     name: DashTile
   - uid: SuperOffice.CRM.Services.DashTileDefinition
     name: DashTileDefinition
+  - uid: SuperOffice.CRM.Services.DashTileHtml
+    name: DashTileHtml
   - uid: SuperOffice.CRM.Services.DatabaseAgent
     name: DatabaseAgent
   - uid: SuperOffice.CRM.Services.DatabaseTableAgent
@@ -225,14 +237,10 @@
     name: DeliveryTerm
   - uid: SuperOffice.CRM.Services.DeliveryType
     name: DeliveryType
-  - uid: SuperOffice.CRM.Services.DeltaQuery
-    name: DeltaQuery
   - uid: SuperOffice.CRM.Services.Department
     name: Department
   - uid: SuperOffice.CRM.Services.DiagnosticsAgent
     name: DiagnosticsAgent
-  - uid: SuperOffice.CRM.Services.DiaryViewEntity
-    name: DiaryViewEntity
   - uid: SuperOffice.CRM.Services.DictionaryStepInformation
     name: DictionaryStepInformation
   - uid: SuperOffice.CRM.Services.Document
@@ -241,12 +249,24 @@
     name: DocumentAgent
   - uid: SuperOffice.CRM.Services.DocumentEntity
     name: DocumentEntity
+  - uid: SuperOffice.CRM.Services.DocumentMigrationAgent
+    name: DocumentMigrationAgent
+  - uid: SuperOffice.CRM.Services.DocumentMigrationAssociate
+    name: DocumentMigrationAssociate
+  - uid: SuperOffice.CRM.Services.DocumentMigrationItem
+    name: DocumentMigrationItem
+  - uid: SuperOffice.CRM.Services.DocumentMigrationItemList
+    name: DocumentMigrationItemList
+  - uid: SuperOffice.CRM.Services.DocumentMigrationSummary
+    name: DocumentMigrationSummary
   - uid: SuperOffice.CRM.Services.DocumentPreview
     name: DocumentPreview
   - uid: SuperOffice.CRM.Services.DocumentTemplate
     name: DocumentTemplate
   - uid: SuperOffice.CRM.Services.DocumentTemplateEntity
     name: DocumentTemplateEntity
+  - uid: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+    name: DocumentTemplateMigrationList
   - uid: SuperOffice.CRM.Services.DuplicateEntry
     name: DuplicateEntry
   - uid: SuperOffice.CRM.Services.DuplicateRule
@@ -291,10 +311,14 @@
     name: EMailEntity
   - uid: SuperOffice.CRM.Services.EMailEnvelope
     name: EMailEnvelope
+  - uid: SuperOffice.CRM.Services.EmailFlow
+    name: EmailFlow
   - uid: SuperOffice.CRM.Services.EMailFolder
     name: EMailFolder
   - uid: SuperOffice.CRM.Services.EMailSOInfo
     name: EMailSOInfo
+  - uid: SuperOffice.CRM.Services.EntityCounts
+    name: EntityCounts
   - uid: SuperOffice.CRM.Services.EntityElement
     name: EntityElement
   - uid: SuperOffice.CRM.Services.EntityName
@@ -377,6 +401,8 @@
     name: FieldMetadataDictionary
   - uid: SuperOffice.CRM.Services.FieldMetadataDictionaryExt
     name: FieldMetadataDictionaryExt
+  - uid: SuperOffice.CRM.Services.FieldValue
+    name: FieldValue
   - uid: SuperOffice.CRM.Services.FieldValueInfo
     name: FieldValueInfo
   - uid: SuperOffice.CRM.Services.FindAgent
@@ -429,8 +455,6 @@
     name: IBulkUpdateAgent
   - uid: SuperOffice.CRM.Services.IChatAgent
     name: IChatAgent
-  - uid: SuperOffice.CRM.Services.IConfigurationAgent
-    name: IConfigurationAgent
   - uid: SuperOffice.CRM.Services.IContactAgent
     name: IContactAgent
   - uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
@@ -451,6 +475,8 @@
     name: IDiagnosticsAgent
   - uid: SuperOffice.CRM.Services.IDocumentAgent
     name: IDocumentAgent
+  - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent
+    name: IDocumentMigrationAgent
   - uid: SuperOffice.CRM.Services.IEMailAgent
     name: IEMailAgent
   - uid: SuperOffice.CRM.Services.IEntityCarrier
@@ -489,8 +515,6 @@
     name: ImportErpData
   - uid: SuperOffice.CRM.Services.ImportLine
     name: ImportLine
-  - uid: SuperOffice.CRM.Services.INavigatorAgent
-    name: INavigatorAgent
   - uid: SuperOffice.CRM.Services.Installation
     name: Installation
   - uid: SuperOffice.CRM.Services.INumberAllocationAgent
@@ -505,8 +529,6 @@
     name: IPocketAgent
   - uid: SuperOffice.CRM.Services.IPreferenceAgent
     name: IPreferenceAgent
-  - uid: SuperOffice.CRM.Services.IPreviewsAgent
-    name: IPreviewsAgent
   - uid: SuperOffice.CRM.Services.IProjectAgent
     name: IProjectAgent
   - uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
@@ -533,12 +555,12 @@
     name: ISelectionAgent
   - uid: SuperOffice.CRM.Services.ISentryAgent
     name: ISentryAgent
+  - uid: SuperOffice.CRM.Services.ITargetsAgent
+    name: ITargetsAgent
   - uid: SuperOffice.CRM.Services.ITicketAgent
     name: ITicketAgent
   - uid: SuperOffice.CRM.Services.ITimeZoneAgent
     name: ITimeZoneAgent
-  - uid: SuperOffice.CRM.Services.ITooltipsAgent
-    name: ITooltipsAgent
   - uid: SuperOffice.CRM.Services.IUdefFieldCarrier
     name: IUdefFieldCarrier
   - uid: SuperOffice.CRM.Services.IUserAgent
@@ -551,6 +573,8 @@
     name: IVisibleForCarrier
   - uid: SuperOffice.CRM.Services.IWebhookAgent
     name: IWebhookAgent
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent
+    name: IWorkflowAgent
   - uid: SuperOffice.CRM.Services.KbCategory
     name: KbCategory
   - uid: SuperOffice.CRM.Services.LanguageInfo
@@ -577,6 +601,8 @@
     name: ListItem
   - uid: SuperOffice.CRM.Services.ListItemEntity
     name: ListItemEntity
+  - uid: SuperOffice.CRM.Services.LiveUiConfig
+    name: LiveUiConfig
   - uid: SuperOffice.CRM.Services.LocalizedField
     name: LocalizedField
   - uid: SuperOffice.CRM.Services.LocalizedText
@@ -587,6 +613,8 @@
     name: Mailbox
   - uid: SuperOffice.CRM.Services.MailboxEntity
     name: MailboxEntity
+  - uid: SuperOffice.CRM.Services.MailingStatistics
+    name: MailingStatistics
   - uid: SuperOffice.CRM.Services.MailMergeSettings
     name: MailMergeSettings
   - uid: SuperOffice.CRM.Services.MailMergeTask
@@ -599,20 +627,24 @@
     name: MDOAgent
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
+  - uid: SuperOffice.CRM.Services.MetricPair
+    name: MetricPair
   - uid: SuperOffice.CRM.Services.ModuleLicenseLink
     name: ModuleLicenseLink
   - uid: SuperOffice.CRM.Services.MrMrs
     name: MrMrs
   - uid: SuperOffice.CRM.Services.MultiAlarmData
     name: MultiAlarmData
-  - uid: SuperOffice.CRM.Services.NavigatorAgent
-    name: NavigatorAgent
-  - uid: SuperOffice.CRM.Services.NavigatorCompany
-    name: NavigatorCompany
+  - uid: SuperOffice.CRM.Services.NextAvailableTime
+    name: NextAvailableTime
+  - uid: SuperOffice.CRM.Services.NotificationEvent
+    name: NotificationEvent
   - uid: SuperOffice.CRM.Services.NumberAllocationAgent
     name: NumberAllocationAgent
   - uid: SuperOffice.CRM.Services.OperationInfo
     name: OperationInfo
+  - uid: SuperOffice.CRM.Services.OperationResult
+    name: OperationResult
   - uid: SuperOffice.CRM.Services.ParticipantSyncData
     name: ParticipantSyncData
   - uid: SuperOffice.CRM.Services.PartnerAgent
@@ -629,6 +661,8 @@
     name: PersonAgent
   - uid: SuperOffice.CRM.Services.PersonEntity
     name: PersonEntity
+  - uid: SuperOffice.CRM.Services.PersonImage
+    name: PersonImage
   - uid: SuperOffice.CRM.Services.PersonSummary
     name: PersonSummary
   - uid: SuperOffice.CRM.Services.PhoneListAgent
@@ -663,42 +697,30 @@
     name: PreferenceSpec
   - uid: SuperOffice.CRM.Services.PreferenceTestReturn
     name: PreferenceTestReturn
+  - uid: SuperOffice.CRM.Services.PreferredTimeZone
+    name: PreferredTimeZone
+  - uid: SuperOffice.CRM.Services.PreviewContact
+    name: PreviewContact
+  - uid: SuperOffice.CRM.Services.PreviewDash
+    name: PreviewDash
+  - uid: SuperOffice.CRM.Services.PreviewDashTile
+    name: PreviewDashTile
+  - uid: SuperOffice.CRM.Services.PreviewFaqEntry
+    name: PreviewFaqEntry
   - uid: SuperOffice.CRM.Services.PreviewMailing
     name: PreviewMailing
   - uid: SuperOffice.CRM.Services.PreviewMailingHeader
     name: PreviewMailingHeader
-  - uid: SuperOffice.CRM.Services.Previews
-    name: Previews
-  - uid: SuperOffice.CRM.Services.PreviewsAgent
-    name: PreviewsAgent
+  - uid: SuperOffice.CRM.Services.PreviewQuickReply
+    name: PreviewQuickReply
+  - uid: SuperOffice.CRM.Services.PreviewReplyTemplate
+    name: PreviewReplyTemplate
   - uid: SuperOffice.CRM.Services.PriceList
     name: PriceList
   - uid: SuperOffice.CRM.Services.Priority
     name: Priority
   - uid: SuperOffice.CRM.Services.PrivacyStatement
     name: PrivacyStatement
-  - uid: SuperOffice.CRM.Services.PrivateAIAgentFactory
-    name: PrivateAIAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateAppointmentAgentFactory
-    name: PrivateAppointmentAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateAudienceAgentFactory
-    name: PrivateAudienceAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateBulkUpdateAgentFactory
-    name: PrivateBulkUpdateAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateChatAgentFactory
-    name: PrivateChatAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateCRMScriptAgentFactory
-    name: PrivateCRMScriptAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateDashAgentFactory
-    name: PrivateDashAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateDatabaseTableAgentFactory
-    name: PrivateDatabaseTableAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateMarketingAgentFactory
-    name: PrivateMarketingAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateTicketAgentFactory
-    name: PrivateTicketAgentFactory
-  - uid: SuperOffice.CRM.Services.PrivateWebhookAgentFactory
-    name: PrivateWebhookAgentFactory
   - uid: SuperOffice.CRM.Services.Product
     name: Product
   - uid: SuperOffice.CRM.Services.ProductCategory
@@ -739,10 +761,14 @@
     name: QuoteAlternative
   - uid: SuperOffice.CRM.Services.QuoteAlternativeRecalculated
     name: QuoteAlternativeRecalculated
+  - uid: SuperOffice.CRM.Services.QuoteApproveReason
+    name: QuoteApproveReason
   - uid: SuperOffice.CRM.Services.QuoteConnection
     name: QuoteConnection
   - uid: SuperOffice.CRM.Services.QuoteContext
     name: QuoteContext
+  - uid: SuperOffice.CRM.Services.QuoteDenyReason
+    name: QuoteDenyReason
   - uid: SuperOffice.CRM.Services.QuoteEntity
     name: QuoteEntity
   - uid: SuperOffice.CRM.Services.QuoteLine
@@ -779,6 +805,8 @@
     name: ReasonSold
   - uid: SuperOffice.CRM.Services.ReasonStalled
     name: ReasonStalled
+  - uid: SuperOffice.CRM.Services.Recipient
+    name: Recipient
   - uid: SuperOffice.CRM.Services.RecipientStatistics
     name: RecipientStatistics
   - uid: SuperOffice.CRM.Services.RedLetterDetails
@@ -789,6 +817,8 @@
     name: RedLetterSummary
   - uid: SuperOffice.CRM.Services.RefCountEntity
     name: RefCountEntity
+  - uid: SuperOffice.CRM.Services.RelatedData
+    name: RelatedData
   - uid: SuperOffice.CRM.Services.RelationAgent
     name: RelationAgent
   - uid: SuperOffice.CRM.Services.RelationDefinitionEntity
@@ -867,6 +897,8 @@
     name: SelectionForFind
   - uid: SuperOffice.CRM.Services.SelectionMemberEditValues
     name: SelectionMemberEditValues
+  - uid: SuperOffice.CRM.Services.SelectionSummaryItem
+    name: SelectionSummaryItem
   - uid: SuperOffice.CRM.Services.Sentiment
     name: Sentiment
   - uid: SuperOffice.CRM.Services.Sentry
@@ -901,38 +933,68 @@
     name: SuggestedAppointmentEntity
   - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
     name: SuggestedDocumentEntity
+  - uid: SuperOffice.CRM.Services.Summarizer
+    name: Summarizer
   - uid: SuperOffice.CRM.Services.SyncUserAccount
     name: SyncUserAccount
   - uid: SuperOffice.CRM.Services.SystemEventEntity
     name: SystemEventEntity
+  - uid: SuperOffice.CRM.Services.SystemTemplateSettings
+    name: SystemTemplateSettings
   - uid: SuperOffice.CRM.Services.TableRecord
     name: TableRecord
   - uid: SuperOffice.CRM.Services.TabOrder
     name: TabOrder
   - uid: SuperOffice.CRM.Services.Tag
     name: Tag
+  - uid: SuperOffice.CRM.Services.TargetAssignment
+    name: TargetAssignment
+  - uid: SuperOffice.CRM.Services.TargetChange
+    name: TargetChange
+  - uid: SuperOffice.CRM.Services.TargetDimension
+    name: TargetDimension
+  - uid: SuperOffice.CRM.Services.TargetGroup
+    name: TargetGroup
+  - uid: SuperOffice.CRM.Services.TargetRevision
+    name: TargetRevision
+  - uid: SuperOffice.CRM.Services.TargetRevisionHistory
+    name: TargetRevisionHistory
+  - uid: SuperOffice.CRM.Services.TargetsAgent
+    name: TargetsAgent
   - uid: SuperOffice.CRM.Services.Task
     name: Task
   - uid: SuperOffice.CRM.Services.TaskListItem
     name: TaskListItem
+  - uid: SuperOffice.CRM.Services.TaskMenu
+    name: TaskMenu
   - uid: SuperOffice.CRM.Services.TemplateVariablesParameters
     name: TemplateVariablesParameters
   - uid: SuperOffice.CRM.Services.TemporaryKeyInfo
     name: TemporaryKeyInfo
+  - uid: SuperOffice.CRM.Services.TextServices
+    name: TextServices
   - uid: SuperOffice.CRM.Services.Ticket
     name: Ticket
   - uid: SuperOffice.CRM.Services.TicketAgent
     name: TicketAgent
+  - uid: SuperOffice.CRM.Services.TicketBatchReplyData
+    name: TicketBatchReplyData
   - uid: SuperOffice.CRM.Services.TicketCategory
     name: TicketCategory
   - uid: SuperOffice.CRM.Services.TicketCategoryEntity
     name: TicketCategoryEntity
+  - uid: SuperOffice.CRM.Services.TicketCategoryMembershipEntity
+    name: TicketCategoryMembershipEntity
   - uid: SuperOffice.CRM.Services.TicketEntity
     name: TicketEntity
+  - uid: SuperOffice.CRM.Services.TicketFormSubmission
+    name: TicketFormSubmission
   - uid: SuperOffice.CRM.Services.TicketInfo
     name: TicketInfo
   - uid: SuperOffice.CRM.Services.TicketMessage
     name: TicketMessage
+  - uid: SuperOffice.CRM.Services.TicketMessageContent
+    name: TicketMessageContent
   - uid: SuperOffice.CRM.Services.TicketMessageEntity
     name: TicketMessageEntity
   - uid: SuperOffice.CRM.Services.TicketMessageHeader
@@ -941,10 +1003,16 @@
     name: TicketPriority
   - uid: SuperOffice.CRM.Services.TicketPriorityEntity
     name: TicketPriorityEntity
+  - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+    name: TicketPriorityEscalationLevelEntity
   - uid: SuperOffice.CRM.Services.TicketStatusEntity
     name: TicketStatusEntity
   - uid: SuperOffice.CRM.Services.TicketSummaryItem
     name: TicketSummaryItem
+  - uid: SuperOffice.CRM.Services.TicketType
+    name: TicketType
+  - uid: SuperOffice.CRM.Services.TicketTypeEntity
+    name: TicketTypeEntity
   - uid: SuperOffice.CRM.Services.TileData
     name: TileData
   - uid: SuperOffice.CRM.Services.TileDataRow
@@ -953,16 +1021,14 @@
     name: TimeZoneAgent
   - uid: SuperOffice.CRM.Services.TokenManagementInfo
     name: TokenManagementInfo
-  - uid: SuperOffice.CRM.Services.Tooltips
-    name: Tooltips
-  - uid: SuperOffice.CRM.Services.TooltipsAgent
-    name: TooltipsAgent
   - uid: SuperOffice.CRM.Services.TriggerScriptEntity
     name: TriggerScriptEntity
   - uid: SuperOffice.CRM.Services.TypicalSearch
     name: TypicalSearch
   - uid: SuperOffice.CRM.Services.TypicalSearches
     name: TypicalSearches
+  - uid: SuperOffice.CRM.Services.UiEvent
+    name: UiEvent
   - uid: SuperOffice.CRM.Services.UntrustedCredentials
     name: UntrustedCredentials
   - uid: SuperOffice.CRM.Services.UpsertRowStatus
@@ -973,6 +1039,8 @@
     name: User
   - uid: SuperOffice.CRM.Services.UserAgent
     name: UserAgent
+  - uid: SuperOffice.CRM.Services.UserCandidate
+    name: UserCandidate
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
@@ -983,6 +1051,8 @@
     name: UserHelper
   - uid: SuperOffice.CRM.Services.UserInfo
     name: UserInfo
+  - uid: SuperOffice.CRM.Services.UserPresenceStatus
+    name: UserPresenceStatus
   - uid: SuperOffice.CRM.Services.UserValidationResult
     name: UserValidationResult
   - uid: SuperOffice.CRM.Services.ViewStateAgent
@@ -999,25 +1069,64 @@
     name: WebhookResult
   - uid: SuperOffice.CRM.Services.WebPanelEntity
     name: WebPanelEntity
-  - uid: SuperOffice.CRM.Services.WindowPosSize
-    name: WindowPosSize
-- uid: SuperOffice.Messaging
-  name: SuperOffice.Messaging
-  items:
-  - uid: SuperOffice.Messaging.IMessagingPlugin
-    name: IMessagingPlugin
-  - uid: SuperOffice.Messaging.IMessagingWithConfigPlugin
-    name: IMessagingWithConfigPlugin
-  - uid: SuperOffice.Messaging.InboxItem
-    name: InboxItem
-  - uid: SuperOffice.Messaging.MessagingManager
-    name: MessagingManager
-  - uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
-    name: MessagingManager.MessageReplyStatus
-  - uid: SuperOffice.Messaging.MessagingPluginAttribute
-    name: MessagingPluginAttribute
-  - uid: SuperOffice.Messaging.MessagingWithConfigPluginAttribute
-    name: MessagingWithConfigPluginAttribute
+  - uid: SuperOffice.CRM.Services.Workflow
+    name: Workflow
+  - uid: SuperOffice.CRM.Services.WorkflowAgent
+    name: WorkflowAgent
+  - uid: SuperOffice.CRM.Services.WorkflowEvent
+    name: WorkflowEvent
+  - uid: SuperOffice.CRM.Services.WorkflowEventResult
+    name: WorkflowEventResult
+  - uid: SuperOffice.CRM.Services.WorkflowFilter
+    name: WorkflowFilter
+  - uid: SuperOffice.CRM.Services.WorkflowGoal
+    name: WorkflowGoal
+  - uid: SuperOffice.CRM.Services.WorkflowStepAddToList
+    name: WorkflowStepAddToList
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase
+    name: WorkflowStepBase
+  - uid: SuperOffice.CRM.Services.WorkflowStepCreateFollowUp
+    name: WorkflowStepCreateFollowUp
+  - uid: SuperOffice.CRM.Services.WorkflowStepCreateRequest
+    name: WorkflowStepCreateRequest
+  - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale
+    name: WorkflowStepCreateSale
+  - uid: SuperOffice.CRM.Services.WorkflowStepNotifyByEmail
+    name: WorkflowStepNotifyByEmail
+  - uid: SuperOffice.CRM.Services.WorkflowStepNotifyBySMS
+    name: WorkflowStepNotifyBySMS
+  - uid: SuperOffice.CRM.Services.WorkflowStepOption
+    name: WorkflowStepOption
+  - uid: SuperOffice.CRM.Services.WorkflowStepOptionBase
+    name: WorkflowStepOptionBase
+  - uid: SuperOffice.CRM.Services.WorkflowStepOptionFormSubmission
+    name: WorkflowStepOptionFormSubmission
+  - uid: SuperOffice.CRM.Services.WorkflowStepOptionLinkClicked
+    name: WorkflowStepOptionLinkClicked
+  - uid: SuperOffice.CRM.Services.WorkflowStepOptionPersonData
+    name: WorkflowStepOptionPersonData
+  - uid: SuperOffice.CRM.Services.WorkflowStepOptionProjectMembership
+    name: WorkflowStepOptionProjectMembership
+  - uid: SuperOffice.CRM.Services.WorkflowStepOptionSelectionMembership
+    name: WorkflowStepOptionSelectionMembership
+  - uid: SuperOffice.CRM.Services.WorkflowStepRemoveFromList
+    name: WorkflowStepRemoveFromList
+  - uid: SuperOffice.CRM.Services.WorkflowStepRunScript
+    name: WorkflowStepRunScript
+  - uid: SuperOffice.CRM.Services.WorkflowStepSendEmail
+    name: WorkflowStepSendEmail
+  - uid: SuperOffice.CRM.Services.WorkflowStepSendSMS
+    name: WorkflowStepSendSMS
+  - uid: SuperOffice.CRM.Services.WorkflowStepSplit
+    name: WorkflowStepSplit
+  - uid: SuperOffice.CRM.Services.WorkflowStepUpdateParticipant
+    name: WorkflowStepUpdateParticipant
+  - uid: SuperOffice.CRM.Services.WorkflowStepWaitForAction
+    name: WorkflowStepWaitForAction
+  - uid: SuperOffice.CRM.Services.WorkflowStepWaitForTime
+    name: WorkflowStepWaitForTime
+  - uid: SuperOffice.CRM.Services.WorkflowTrigger
+    name: WorkflowTrigger
 - uid: SuperOffice.Services
   name: SuperOffice.Services
   items:

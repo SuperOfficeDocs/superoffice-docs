@@ -15,13 +15,14 @@ items:
   - SuperOffice.Data.AppointmentType.Note
   - SuperOffice.Data.AppointmentType.SavedReport
   - SuperOffice.Data.AppointmentType.Unknown
+  - SuperOffice.Data.AppointmentType.value__
   langs:
   - csharp
   - vb
   name: AppointmentType
   nameWithType: AppointmentType
   fullName: SuperOffice.Data.AppointmentType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -30,19 +31,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;type&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.type\n"
   syntax:
-    content: 'public enum AppointmentType : short'
-    content.vb: Public Enum AppointmentType As Short
+    content: 'public sealed class AppointmentType : Enum'
+    content.vb: >-
+      Public NotInheritable Class AppointmentType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.AppointmentType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.AppointmentType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentType)
-  - SuperOffice.Data.AppointmentType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.AppointmentType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.AppointmentType.value__
+  commentId: F:SuperOffice.Data.AppointmentType.value__
+  id: value__
+  parent: SuperOffice.Data.AppointmentType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentType.value__
+  fullName: SuperOffice.Data.AppointmentType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.AppointmentType.Unknown
   commentId: F:SuperOffice.Data.AppointmentType.Unknown
   id: Unknown
@@ -62,9 +98,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Unknown - used when initializing \n"
   syntax:
-    content: Unknown = 0
+    content: public const AppointmentType Unknown
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const Unknown As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -90,9 +127,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Show in diary. If overdue or done today, show in checklist also\n"
   syntax:
-    content: inDiary = 1
+    content: public const AppointmentType inDiary
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const inDiary As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -118,9 +156,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Appointment is a followup with no specific starttime\n"
   syntax:
-    content: inChecklist = 2
+    content: public const AppointmentType inChecklist
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const inChecklist As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -146,9 +185,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Paper clip on diary, expands to “post-it” note when clicked\n"
   syntax:
-    content: Note = 3
+    content: public const AppointmentType Note
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const Note As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -174,9 +214,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Document of any kind, including outgoing, incoming and email\n"
   syntax:
-    content: Document = 4
+    content: public const AppointmentType Document
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const Document As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -202,9 +243,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Saved Report (i.e., not a Report Definition but the result of an actual report run)\n"
   syntax:
-    content: SavedReport = 5
+    content: public const AppointmentType SavedReport
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const SavedReport As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -230,9 +272,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Booking, made for diary. When accepted this will change type to inDiary\n"
   syntax:
-    content: BookingForDiary = 6
+    content: public const AppointmentType BookingForDiary
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const BookingForDiary As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -258,9 +301,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Booking, made for check list. When accepted this will change type to inChecklist\n"
   syntax:
-    content: BookingForChecklist = 7
+    content: public const AppointmentType BookingForChecklist
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const BookingForChecklist As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -286,9 +330,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Document is a template for mailmerge operations\n"
   syntax:
-    content: MergeDraft = 8
+    content: public const AppointmentType MergeDraft
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const MergeDraft As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -314,9 +359,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: Document is a result of a mailmerge operations (there are probably many documents like this!)\n"
   syntax:
-    content: MergeFinal = 9
+    content: public const AppointmentType MergeFinal
     return:
       type: SuperOffice.Data.AppointmentType
+    content.vb: Public Const MergeFinal As AppointmentType
   modifiers.csharp:
   - public
   - const
@@ -330,6 +376,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.AppointmentType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -357,84 +410,6 @@ references:
     name: MapEnums(Of AppointmentType, To)
     nameWithType: EnumUtil.MapEnums(Of AppointmentType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.AppointmentType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<AppointmentType>(AppointmentType)
-  nameWithType: ObjectExtensions.AssignByReflection<AppointmentType>(AppointmentType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppointmentType>(SuperOffice.Data.AppointmentType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentType)(AppointmentType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppointmentType)(SuperOffice.Data.AppointmentType)
-  name.vb: AssignByReflection(Of AppointmentType)(AppointmentType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<AppointmentType>
-    nameWithType: ObjectExtensions.AssignByReflection<AppointmentType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppointmentType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.AppointmentType
-    name: AppointmentType
-    nameWithType: AppointmentType
-    fullName: SuperOffice.Data.AppointmentType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of AppointmentType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of AppointmentType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppointmentType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.AppointmentType
-    name: AppointmentType
-    nameWithType: AppointmentType
-    fullName: SuperOffice.Data.AppointmentType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.AppointmentType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<AppointmentType>()
-  nameWithType: ObjectExtensions.GraphCopy<AppointmentType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppointmentType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppointmentType)()
-  name.vb: GraphCopy(Of AppointmentType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<AppointmentType>
-    nameWithType: ObjectExtensions.GraphCopy<AppointmentType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppointmentType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of AppointmentType)
-    nameWithType: ObjectExtensions.GraphCopy(Of AppointmentType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppointmentType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -476,6 +451,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -521,103 +502,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -664,18 +548,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.AppointmentType
   commentId: T:SuperOffice.Data.AppointmentType
   parent: SuperOffice.Data

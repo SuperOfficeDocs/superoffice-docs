@@ -56,6 +56,7 @@ items:
   - SuperOffice.CRM.Services.IEMailAgent.GetEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
   - SuperOffice.CRM.Services.IEMailAgent.GetEmailsAsString(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String[])
   - SuperOffice.CRM.Services.IEMailAgent.GetEMailSOInfo(System.Int32)
+  - SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
   - SuperOffice.CRM.Services.IEMailAgent.GetFolderEMailCount(SuperOffice.CRM.Services.EMailConnectionInfo,System.Boolean)
   - SuperOffice.CRM.Services.IEMailAgent.GetFolderHasNewEMail(SuperOffice.CRM.Services.EMailConnectionInfo)
   - SuperOffice.CRM.Services.IEMailAgent.GetFolderInfo(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[])
@@ -78,6 +79,7 @@ items:
   - SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.IEMailAgent.HasMXRecord(System.String)
   - SuperOffice.CRM.Services.IEMailAgent.HasNewMail(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
   - SuperOffice.CRM.Services.IEMailAgent.LatestItemIdByFolder(System.Int32)
   - SuperOffice.CRM.Services.IEMailAgent.MarkAsRead(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.Boolean)
   - SuperOffice.CRM.Services.IEMailAgent.MarkEmailsAsRead(System.Int32[],System.Boolean)
@@ -87,6 +89,7 @@ items:
   - SuperOffice.CRM.Services.IEMailAgent.RefreshFolder(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[])
   - SuperOffice.CRM.Services.IEMailAgent.RefreshFolderForAssociate(System.String[])
   - SuperOffice.CRM.Services.IEMailAgent.RelayMessage(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String,System.String,System.String[])
+  - SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
   - SuperOffice.CRM.Services.IEMailAgent.Save(SuperOffice.CRM.Services.EMailEntity)
   - SuperOffice.CRM.Services.IEMailAgent.SaveDraft(SuperOffice.CRM.Services.EMailEntity)
   - SuperOffice.CRM.Services.IEMailAgent.SaveEMail(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailEntity)
@@ -143,6 +146,86 @@ items:
   modifiers.vb:
   - Public
   - Interface
+- uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+  id: CreateDefaultEMailAccount
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultEMailAccount()
+  nameWithType: IEMailAgent.CreateDefaultEMailAccount()
+  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new EMailAccount.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: EMailAccount CreateDefaultEMailAccount()
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: New EMailAccount with default values
+    content.vb: Function CreateDefaultEMailAccount As EMailAccount
+  overload: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount*
+- uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  id: SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveEMailAccount(EMailAccount)
+  nameWithType: IEMailAgent.SaveEMailAccount(EMailAccount)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: EMailAccount SaveEMailAccount(EMailAccount eMailAccount)
+    parameters:
+    - id: eMailAccount
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: The EMailAccount that is saved.
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: New or updated EMailAccount
+    content.vb: Function SaveEMailAccount(eMailAccount As EMailAccount) As EMailAccount
+  overload: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount*
+- uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  id: DeleteEMailAccount(System.Int32)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteEMailAccount(Int32)
+  nameWithType: IEMailAgent.DeleteEMailAccount(Int32)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the EMailAccount\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: void DeleteEMailAccount(int eMailAccountId)
+    parameters:
+    - id: eMailAccountId
+      type: System.Int32
+      description: The identity of the EMailAccount
+    content.vb: Sub DeleteEMailAccount(eMailAccountId As Integer)
+  overload: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount*
 - uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAddress
   commentId: M:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAddress
   id: CreateDefaultEMailAddress
@@ -393,16 +476,16 @@ items:
       description: New EMailSOInfo with default values
     content.vb: Function CreateDefaultEMailSOInfo As EMailSOInfo
   overload: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailSOInfo*
-- uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-  id: CreateDefaultEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
+  id: GetEMailAccount(System.Int32)
   parent: SuperOffice.CRM.Services.IEMailAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultEMailAccount()
-  nameWithType: IEMailAgent.CreateDefaultEMailAccount()
-  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount()
+  name: GetEMailAccount(Int32)
+  nameWithType: IEMailAgent.GetEMailAccount(Int32)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
   type: Method
   source:
     path: SuperOffice.Services
@@ -410,69 +493,97 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new EMailAccount.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  summary: "\nGets a EMailAccount object.                        \n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
-    content: EMailAccount CreateDefaultEMailAccount()
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: New EMailAccount with default values
-    content.vb: Function CreateDefaultEMailAccount As EMailAccount
-  overload: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount*
-- uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  id: SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveEMailAccount(EMailAccount)
-  nameWithType: IEMailAgent.SaveEMailAccount(EMailAccount)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
-  syntax:
-    content: EMailAccount SaveEMailAccount(EMailAccount eMailAccount)
-    parameters:
-    - id: eMailAccount
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: The EMailAccount that is saved.
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: New or updated EMailAccount
-    content.vb: Function SaveEMailAccount(eMailAccount As EMailAccount) As EMailAccount
-  overload: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount*
-- uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-  id: DeleteEMailAccount(System.Int32)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteEMailAccount(Int32)
-  nameWithType: IEMailAgent.DeleteEMailAccount(Int32)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the EMailAccount\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
-  syntax:
-    content: void DeleteEMailAccount(int eMailAccountId)
+    content: EMailAccount GetEMailAccount(int eMailAccountId)
     parameters:
     - id: eMailAccountId
       type: System.Int32
-      description: The identity of the EMailAccount
-    content.vb: Sub DeleteEMailAccount(eMailAccountId As Integer)
-  overload: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount*
+      description: The identifier of the EMailAccount object
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: EMailAccount
+    content.vb: Function GetEMailAccount(eMailAccountId As Integer) As EMailAccount
+  overload: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount*
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  id: GetEMailAccountFromEMailAddress(System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAccountFromEMailAddress(String)
+  nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress(String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the email account corresponding to this email address (for the current associate).\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: EMailAccount GetEMailAccountFromEMailAddress(string fromAddress)
+    parameters:
+    - id: fromAddress
+      type: System.String
+      description: The address associated with this email account
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: Found or empty email account
+    content.vb: Function GetEMailAccountFromEMailAddress(fromAddress As String) As EMailAccount
+  overload: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress*
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+  id: GetCurrentAccountId
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentAccountId()
+  nameWithType: IEMailAgent.GetCurrentAccountId()
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet current accountId (last logged into should normally be current) for logged in associate\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: int GetCurrentAccountId()
+    return:
+      type: System.Int32
+      description: Id of current account
+    content.vb: Function GetCurrentAccountId As Integer
+  overload: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId*
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+  id: GetCurrentAccount
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentAccount()
+  nameWithType: IEMailAgent.GetCurrentAccount()
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet current account (last logged into should normally be current) for logged in associate\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: EMailAccount GetCurrentAccount()
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: Id of current account
+    content.vb: Function GetCurrentAccount As EMailAccount
+  overload: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount*
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress(System.String)
   commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress(System.String)
   id: GetPersonEntitiesFromEmailAddress(System.String)
@@ -558,6 +669,67 @@ items:
       description: True if there is at least one MX record
     content.vb: Function HasMXRecord(mailDomain As String) As Boolean
   overload: SuperOffice.CRM.Services.IEMailAgent.HasMXRecord*
+- uid: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
+  id: HasSPFRecord(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: HasSPFRecord(String, String)
+  nameWithType: IEMailAgent.HasSPFRecord(String, String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn true if target domain contains a SPF record which is under the given SPF record\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: bool HasSPFRecord(string sourceSpf, string targetDomain)
+    parameters:
+    - id: sourceSpf
+      type: System.String
+      description: The SPF to match from
+    - id: targetDomain
+      type: System.String
+      description: The domain to verify if it has at least one SPF record contained in the source SPF
+    return:
+      type: System.Boolean
+      description: True if a match is found
+    content.vb: Function HasSPFRecord(sourceSpf As String, targetDomain As String) As Boolean
+  overload: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord*
+- uid: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+  id: ResolveEMailRecipients(System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: ResolveEMailRecipients(String)
+  nameWithType: IEMailAgent.ResolveEMailRecipients(String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nResolve separate emails from single string. Also lookup persons by emails.\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: EMailAddress[] ResolveEMailRecipients(string emailAddress)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The string to lookup emails from
+    return:
+      type: SuperOffice.CRM.Services.EMailAddress[]
+      description: Resolved EMail recipients
+    content.vb: Function ResolveEMailRecipients(emailAddress As String) As EMailAddress()
+  overload: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients*
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromId(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailFromId(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean)
   id: GetEMailFromId(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean)
@@ -1623,6 +1795,33 @@ items:
       type: System.String[]
     content.vb: Function GetEmailMessageIds(connectionInfoExtended As EMailConnectionInfoExtended) As String()
   overload: SuperOffice.CRM.Services.IEMailAgent.GetEmailMessageIds*
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  id: GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetExtendedEmailMessageIds(EMailConnectionInfoExtended)
+  nameWithType: IEMailAgent.GetExtendedEmailMessageIds(EMailConnectionInfoExtended)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets not only the Message-Id&apos;s but also the UID&apos;s and the uniquevalidity property in this format-> uvalidity:uid:MsgId - and this format should be understood by GetEmailsAsString() and DeleteExtended().\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: string[] GetExtendedEmailMessageIds(EMailConnectionInfoExtended connectionInfoExtended)
+    parameters:
+    - id: connectionInfoExtended
+      type: SuperOffice.CRM.Services.EMailConnectionInfoExtended
+    return:
+      type: System.String[]
+    content.vb: Function GetExtendedEmailMessageIds(connectionInfoExtended As EMailConnectionInfoExtended) As String()
+  overload: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds*
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetEmailsAsString(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String[])
   commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEmailsAsString(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String[])
   id: GetEmailsAsString(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String[])
@@ -2887,114 +3086,6 @@ items:
       description: EMailSOInfo
     content.vb: Function GetEMailSOInfo(eMailSOInfoId As Integer) As EMailSOInfo
   overload: SuperOffice.CRM.Services.IEMailAgent.GetEMailSOInfo*
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-  id: GetEMailAccount(System.Int32)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetEMailAccount(Int32)
-  nameWithType: IEMailAgent.GetEMailAccount(Int32)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGets a EMailAccount object.                        \n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
-  syntax:
-    content: EMailAccount GetEMailAccount(int eMailAccountId)
-    parameters:
-    - id: eMailAccountId
-      type: System.Int32
-      description: The identifier of the EMailAccount object
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: EMailAccount
-    content.vb: Function GetEMailAccount(eMailAccountId As Integer) As EMailAccount
-  overload: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount*
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  id: GetEMailAccountFromEMailAddress(System.String)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetEMailAccountFromEMailAddress(String)
-  nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress(String)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the email account corresponding to this email address (for the current associate).\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
-  syntax:
-    content: EMailAccount GetEMailAccountFromEMailAddress(string fromAddress)
-    parameters:
-    - id: fromAddress
-      type: System.String
-      description: The address associated with this email account
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: Found or empty email account
-    content.vb: Function GetEMailAccountFromEMailAddress(fromAddress As String) As EMailAccount
-  overload: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress*
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-  id: GetCurrentAccountId
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetCurrentAccountId()
-  nameWithType: IEMailAgent.GetCurrentAccountId()
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet current accountId (last logged into should normally be current) for logged in associate\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
-  syntax:
-    content: int GetCurrentAccountId()
-    return:
-      type: System.Int32
-      description: Id of current account
-    content.vb: Function GetCurrentAccountId As Integer
-  overload: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId*
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-  id: GetCurrentAccount
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetCurrentAccount()
-  nameWithType: IEMailAgent.GetCurrentAccount()
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet current account (last logged into should normally be current) for logged in associate\n<p></p>\n<strong>Online Restricted:</strong> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
-  syntax:
-    content: EMailAccount GetCurrentAccount()
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: Id of current account
-    content.vb: Function GetCurrentAccount As EMailAccount
-  overload: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount*
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetReadySyncEmailAccounts
   commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetReadySyncEmailAccounts
   id: GetReadySyncEmailAccounts
@@ -3082,6 +3173,44 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+  isExternal: true
+  name: CreateDefaultEMailAccount
+  nameWithType: IEMailAgent.CreateDefaultEMailAccount
+  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+- uid: SuperOffice.CRM.Services.EMailAccount
+  commentId: T:SuperOffice.CRM.Services.EMailAccount
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EMailAccount
+  nameWithType: EMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
+  isExternal: true
+  name: SaveEMailAccount
+  nameWithType: IEMailAgent.SaveEMailAccount
+  fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
+  isExternal: true
+  name: DeleteEMailAccount
+  nameWithType: IEMailAgent.DeleteEMailAccount
+  fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAddress*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAddress
   isExternal: true
@@ -3212,50 +3341,18 @@ references:
   name: EMailSOInfo
   nameWithType: EMailSOInfo
   fullName: SuperOffice.CRM.Services.EMailSOInfo
-- uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
   isExternal: true
-  name: CreateDefaultEMailAccount
-  nameWithType: IEMailAgent.CreateDefaultEMailAccount
-  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-- uid: SuperOffice.CRM.Services.EMailAccount
-  commentId: T:SuperOffice.CRM.Services.EMailAccount
-  parent: SuperOffice.CRM.Services
+  name: GetEMailAccount
+  nameWithType: IEMailAgent.GetEMailAccount
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
   isExternal: true
-  name: EMailAccount
-  nameWithType: EMailAccount
-  fullName: SuperOffice.CRM.Services.EMailAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
-  isExternal: true
-  name: SaveEMailAccount
-  nameWithType: IEMailAgent.SaveEMailAccount
-  fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
-  isExternal: true
-  name: DeleteEMailAccount
-  nameWithType: IEMailAgent.DeleteEMailAccount
-  fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress
-  isExternal: true
-  name: GetPersonEntitiesFromEmailAddress
-  nameWithType: IEMailAgent.GetPersonEntitiesFromEmailAddress
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress
+  name: GetEMailAccountFromEMailAddress
+  nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -3263,6 +3360,24 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+  isExternal: true
+  name: GetCurrentAccountId
+  nameWithType: IEMailAgent.GetCurrentAccountId
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+  isExternal: true
+  name: GetCurrentAccount
+  nameWithType: IEMailAgent.GetCurrentAccount
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress
+  isExternal: true
+  name: GetPersonEntitiesFromEmailAddress
+  nameWithType: IEMailAgent.GetPersonEntitiesFromEmailAddress
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetPersonEntitiesFromEmailAddress
 - uid: SuperOffice.CRM.Services.PersonEntity[]
   isExternal: true
   name: PersonEntity[]
@@ -3334,6 +3449,44 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord
+  isExternal: true
+  name: HasSPFRecord
+  nameWithType: IEMailAgent.HasSPFRecord
+  fullName: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord
+- uid: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients
+  isExternal: true
+  name: ResolveEMailRecipients
+  nameWithType: IEMailAgent.ResolveEMailRecipients
+  fullName: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients
+- uid: SuperOffice.CRM.Services.EMailAddress[]
+  isExternal: true
+  name: EMailAddress[]
+  nameWithType: EMailAddress[]
+  fullName: SuperOffice.CRM.Services.EMailAddress[]
+  nameWithType.vb: EMailAddress()
+  fullName.vb: SuperOffice.CRM.Services.EMailAddress()
+  name.vb: EMailAddress()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromId*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailFromId
   isExternal: true
@@ -3496,50 +3649,16 @@ references:
   nameWithType: IEMailAgent.GetEMailAsStream
   fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStream
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Services.IEMailAgent.FindAddress*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.FindAddress
   isExternal: true
   name: FindAddress
   nameWithType: IEMailAgent.FindAddress
   fullName: SuperOffice.CRM.Services.IEMailAgent.FindAddress
-- uid: SuperOffice.CRM.Services.EMailAddress[]
-  isExternal: true
-  name: EMailAddress[]
-  nameWithType: EMailAddress[]
-  fullName: SuperOffice.CRM.Services.EMailAddress[]
-  nameWithType.vb: EMailAddress()
-  fullName.vb: SuperOffice.CRM.Services.EMailAddress()
-  name.vb: EMailAddress()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.EMailAddress
-    name: EMailAddress
-    nameWithType: EMailAddress
-    fullName: SuperOffice.CRM.Services.EMailAddress
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.EMailAddress
-    name: EMailAddress
-    nameWithType: EMailAddress
-    fullName: SuperOffice.CRM.Services.EMailAddress
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromDocumentId*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailFromDocumentId
   isExternal: true
@@ -3713,6 +3832,12 @@ references:
   name: GetEmailMessageIds
   nameWithType: IEMailAgent.GetEmailMessageIds
   fullName: SuperOffice.CRM.Services.IEMailAgent.GetEmailMessageIds
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds
+  isExternal: true
+  name: GetExtendedEmailMessageIds
+  nameWithType: IEMailAgent.GetExtendedEmailMessageIds
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetEmailsAsString*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEmailsAsString
   isExternal: true
@@ -3997,30 +4122,6 @@ references:
   name: GetEMailSOInfo
   nameWithType: IEMailAgent.GetEMailSOInfo
   fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailSOInfo
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
-  isExternal: true
-  name: GetEMailAccount
-  nameWithType: IEMailAgent.GetEMailAccount
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
-  isExternal: true
-  name: GetEMailAccountFromEMailAddress
-  nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-  isExternal: true
-  name: GetCurrentAccountId
-  nameWithType: IEMailAgent.GetCurrentAccountId
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount*
-  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-  isExternal: true
-  name: GetCurrentAccount
-  nameWithType: IEMailAgent.GetCurrentAccount
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetReadySyncEmailAccounts*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetReadySyncEmailAccounts
   isExternal: true

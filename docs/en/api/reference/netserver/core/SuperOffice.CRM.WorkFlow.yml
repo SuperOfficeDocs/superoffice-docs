@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.WorkFlow
+  commentId: N:SuperOffice.CRM.WorkFlow
+  id: SuperOffice.CRM.WorkFlow
+  children:
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine
+  - SuperOffice.CRM.WorkFlow.WorkflowEvent
+  - SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  - SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.WorkFlow
+  nameWithType: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.WorkFlow
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+  isExternal: true
+  name: WorkflowInstanceVariables
+  nameWithType: WorkflowInstanceVariables
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEvent
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEvent
+  parent: SuperOffice.CRM.WorkFlow
+  isExternal: true
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEvent
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  parent: SuperOffice.CRM.WorkFlow
+  isExternal: true
+  name: WorkflowEventResult
+  nameWithType: WorkflowEventResult
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEngine
+  isExternal: true
+  name: WorkflowEngine
+  nameWithType: WorkflowEngine
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine
+- uid: SuperOffice.CRM.WorkFlow
+  commentId: N:SuperOffice.CRM.WorkFlow
+  isExternal: true
+  name: SuperOffice.CRM.WorkFlow
+  nameWithType: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.WorkFlow

@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.IResourceManager
+  commentId: T:SuperOffice.Globalization.IResourceManager
+  id: IResourceManager
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.IResourceManager.GetString(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IResourceManager
+  nameWithType: IResourceManager
+  fullName: SuperOffice.Globalization.IResourceManager
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "\nInterface used in DI constructs to make Resource Manager accessible\n"
+  syntax:
+    content: public interface IResourceManager
+    content.vb: Public Interface IResourceManager
+  extensionMethods:
+  - SuperOffice.Globalization.IResourceManager.EnumUtil.MapEnums``2
+  - SuperOffice.Globalization.IResourceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Globalization.IResourceManager.GetString(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.IResourceManager.GetString(System.String,System.String)
+  id: GetString(System.String,System.String)
+  parent: SuperOffice.Globalization.IResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetString(String, String)
+  nameWithType: IResourceManager.GetString(String, String)
+  fullName: SuperOffice.Globalization.IResourceManager.GetString(System.String, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "\nGet the translated string for a resource\n"
+  syntax:
+    content: string GetString(string resourceName, string culturename)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: Name of resource; see the <xref href="SuperOffice.Globalization.RC" data-throw-if-not-resolved="false"></xref> class for generated symbol constants
+    - id: culturename
+      type: System.String
+      description: Name of culture, such as &apos;nb-no&apos;; or leave empty to get the current culture as set by middleware
+    return:
+      type: System.String
+      description: Translated string, if known
+    content.vb: Function GetString(resourceName As String, culturename As String) As String
+  overload: SuperOffice.Globalization.IResourceManager.GetString*
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: SuperOffice.Globalization.IResourceManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IResourceManager, To>()
+  nameWithType: EnumUtil.MapEnums<IResourceManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IResourceManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)()
+  name.vb: MapEnums(Of IResourceManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IResourceManager, To>
+    nameWithType: EnumUtil.MapEnums<IResourceManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IResourceManager, To)
+    nameWithType: EnumUtil.MapEnums(Of IResourceManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.IResourceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IResourceManager, To>()
+  nameWithType: Converters.MapEnums<IResourceManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of IResourceManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)()
+  name.vb: MapEnums(Of IResourceManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IResourceManager, To>
+    nameWithType: Converters.MapEnums<IResourceManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IResourceManager, To)
+    nameWithType: Converters.MapEnums(Of IResourceManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Globalization.IResourceManager.GetString*
+  commentId: Overload:SuperOffice.Globalization.IResourceManager.GetString
+  isExternal: true
+  name: GetString
+  nameWithType: IResourceManager.GetString
+  fullName: SuperOffice.Globalization.IResourceManager.GetString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

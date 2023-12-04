@@ -5,7 +5,7 @@ items:
   id: ISoSecurityTokenValidator
   parent: SuperOffice.Security
   children:
-  - SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
+  - SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String@)
   langs:
   - csharp
   - vb
@@ -24,6 +24,7 @@ items:
     content: 'public interface ISoSecurityTokenValidator : IPlugin'
     content.vb: >-
       Public Interface ISoSecurityTokenValidator
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Security.ISoSecurityTokenValidator.EnumUtil.MapEnums``2
@@ -34,16 +35,16 @@ items:
   modifiers.vb:
   - Public
   - Interface
-- uid: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
-  commentId: M:SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
-  id: TryValidateTokens(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},System.String@)
+- uid: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String@)
+  commentId: M:SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String@)
+  id: TryValidateTokens(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.String@)
   parent: SuperOffice.Security.ISoSecurityTokenValidator
   langs:
   - csharp
   - vb
-  name: TryValidateTokens(IList<SecurityToken>, out String)
-  nameWithType: ISoSecurityTokenValidator.TryValidateTokens(IList<SecurityToken>, out String)
-  fullName: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, out System.String)
+  name: TryValidateTokens(IEnumerable<ClaimsIdentity>, out String)
+  nameWithType: ISoSecurityTokenValidator.TryValidateTokens(IEnumerable<ClaimsIdentity>, out String)
+  fullName: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, out System.String)
   type: Method
   source:
     path: SuperOffice.Plugins
@@ -53,22 +54,21 @@ items:
   namespace: SuperOffice.Security
   summary: "\nValidate the tokens before they are resolved.  The Authentication \nprocess fails if one of the validators return Rejected.\n"
   syntax:
-    content: TokenValidationResult TryValidateTokens(IList<SecurityToken> tokens, out string reason)
+    content: TokenValidationResult TryValidateTokens(IEnumerable<ClaimsIdentity> identities, out string reason)
     parameters:
-    - id: tokens
-      type: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
-      description: Tokens to validate
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
     - id: reason
       type: System.String
       description: "The reason for the result.  This value should \nalways be set to something meaningfull if Rejected is returned."
     return:
       type: SuperOffice.Security.TokenValidationResult
       description: Result of validation.
-    content.vb: Function TryValidateTokens(tokens As IList(Of SecurityToken), ByRef reason As String) As TokenValidationResult
+    content.vb: Function TryValidateTokens(identities As IEnumerable(Of ClaimsIdentity), ByRef reason As String) As TokenValidationResult
   overload: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens*
-  nameWithType.vb: ISoSecurityTokenValidator.TryValidateTokens(IList(Of SecurityToken), ByRef String)
-  fullName.vb: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), ByRef System.String)
-  name.vb: TryValidateTokens(IList(Of SecurityToken), ByRef String)
+  nameWithType.vb: ISoSecurityTokenValidator.TryValidateTokens(IEnumerable(Of ClaimsIdentity), ByRef String)
+  fullName.vb: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), ByRef System.String)
+  name.vb: TryValidateTokens(IEnumerable(Of ClaimsIdentity), ByRef String)
 references:
 - uid: SuperOffice.Security
   commentId: N:SuperOffice.Security
@@ -247,46 +247,45 @@ references:
   name: TryValidateTokens
   nameWithType: ISoSecurityTokenValidator.TryValidateTokens
   fullName: SuperOffice.Security.ISoSecurityTokenValidator.TryValidateTokens
-- uid: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
-  commentId: T:System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IList`1
-  name: IList<SecurityToken>
-  nameWithType: IList<SecurityToken>
-  fullName: System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>
-  nameWithType.vb: IList(Of SecurityToken)
-  fullName.vb: System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken)
-  name.vb: IList(Of SecurityToken)
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ClaimsIdentity>
+  nameWithType: IEnumerable<ClaimsIdentity>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
+  nameWithType.vb: IEnumerable(Of ClaimsIdentity)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity)
+  name.vb: IEnumerable(Of ClaimsIdentity)
   spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
   - name: )
     nameWithType: )
@@ -305,51 +304,44 @@ references:
   name: TokenValidationResult
   nameWithType: TokenValidationResult
   fullName: SuperOffice.Security.TokenValidationResult
-- uid: System.Collections.Generic.IList`1
-  commentId: T:System.Collections.Generic.IList`1
+- uid: System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IList<T>
-  nameWithType: IList<T>
-  fullName: System.Collections.Generic.IList<T>
-  nameWithType.vb: IList(Of T)
-  fullName.vb: System.Collections.Generic.IList(Of T)
-  name.vb: IList(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: System
   commentId: N:System
   isExternal: true

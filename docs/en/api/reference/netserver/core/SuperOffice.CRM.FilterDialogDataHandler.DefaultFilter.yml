@@ -9,13 +9,14 @@ items:
   - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.OwnData
   - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.PrimaryGroup
   - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.PrimarySecondaryGroups
+  - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.value__
   langs:
   - csharp
   - vb
   name: FilterDialogDataHandler.DefaultFilter
   nameWithType: FilterDialogDataHandler.DefaultFilter
   fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,19 +25,54 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nEnum for possible values of the Filter.DefaultFilter preference, which controls behaviour before the first Save has been done.\n"
   syntax:
-    content: public enum DefaultFilter
-    content.vb: Public Enum DefaultFilter
+    content: 'public sealed class DefaultFilter : Enum'
+    content.vb: >-
+      Public NotInheritable Class DefaultFilter
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)
-  - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.value__
+  commentId: F:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.value__
+  id: value__
+  parent: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FilterDialogDataHandler.DefaultFilter.value__
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.OwnData
   commentId: F:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.OwnData
   id: OwnData
@@ -55,9 +91,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: OwnData = 0
+    content: public const FilterDialogDataHandler.DefaultFilter OwnData
     return:
       type: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    content.vb: Public Const OwnData As FilterDialogDataHandler.DefaultFilter
   modifiers.csharp:
   - public
   - const
@@ -82,9 +119,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: PrimaryGroup = 1
+    content: public const FilterDialogDataHandler.DefaultFilter PrimaryGroup
     return:
       type: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    content.vb: Public Const PrimaryGroup As FilterDialogDataHandler.DefaultFilter
   modifiers.csharp:
   - public
   - const
@@ -109,9 +147,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: PrimarySecondaryGroups = 2
+    content: public const FilterDialogDataHandler.DefaultFilter PrimarySecondaryGroups
     return:
       type: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    content.vb: Public Const PrimarySecondaryGroups As FilterDialogDataHandler.DefaultFilter
   modifiers.csharp:
   - public
   - const
@@ -136,9 +175,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: All = 3
+    content: public const FilterDialogDataHandler.DefaultFilter All
     return:
       type: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
+    content.vb: Public Const All As FilterDialogDataHandler.DefaultFilter
   modifiers.csharp:
   - public
   - const
@@ -152,6 +192,13 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -179,84 +226,6 @@ references:
     name: MapEnums(Of FilterDialogDataHandler.DefaultFilter, To)
     nameWithType: EnumUtil.MapEnums(Of FilterDialogDataHandler.DefaultFilter, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<FilterDialogDataHandler.DefaultFilter>(FilterDialogDataHandler.DefaultFilter)
-  nameWithType: ObjectExtensions.AssignByReflection<FilterDialogDataHandler.DefaultFilter>(FilterDialogDataHandler.DefaultFilter)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter>(SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FilterDialogDataHandler.DefaultFilter)(FilterDialogDataHandler.DefaultFilter)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)(SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)
-  name.vb: AssignByReflection(Of FilterDialogDataHandler.DefaultFilter)(FilterDialogDataHandler.DefaultFilter)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<FilterDialogDataHandler.DefaultFilter>
-    nameWithType: ObjectExtensions.AssignByReflection<FilterDialogDataHandler.DefaultFilter>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-    name: FilterDialogDataHandler.DefaultFilter
-    nameWithType: FilterDialogDataHandler.DefaultFilter
-    fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of FilterDialogDataHandler.DefaultFilter)
-    nameWithType: ObjectExtensions.AssignByReflection(Of FilterDialogDataHandler.DefaultFilter)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-    name: FilterDialogDataHandler.DefaultFilter
-    nameWithType: FilterDialogDataHandler.DefaultFilter
-    fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<FilterDialogDataHandler.DefaultFilter>()
-  nameWithType: ObjectExtensions.GraphCopy<FilterDialogDataHandler.DefaultFilter>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FilterDialogDataHandler.DefaultFilter)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)()
-  name.vb: GraphCopy(Of FilterDialogDataHandler.DefaultFilter)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<FilterDialogDataHandler.DefaultFilter>
-    nameWithType: ObjectExtensions.GraphCopy<FilterDialogDataHandler.DefaultFilter>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of FilterDialogDataHandler.DefaultFilter)
-    nameWithType: ObjectExtensions.GraphCopy(Of FilterDialogDataHandler.DefaultFilter)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter)
     isExternal: true
   - name: (
     nameWithType: (
@@ -298,6 +267,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -343,103 +318,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -486,18 +364,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
   commentId: T:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
   parent: SuperOffice.CRM

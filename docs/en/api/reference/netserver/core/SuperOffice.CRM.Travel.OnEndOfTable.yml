@@ -15,7 +15,7 @@ items:
   name: OnEndOfTable
   nameWithType: OnEndOfTable
   fullName: SuperOffice.CRM.Travel.OnEndOfTable
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -23,22 +23,24 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Travel
   syntax:
-    content: public delegate ProcessingOption OnEndOfTable(TableModel table);
-    parameters:
-    - id: table
-      type: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
-    return:
-      type: SuperOffice.CRM.Travel.ProcessingOption
-    content.vb: Public Delegate Function OnEndOfTable(table As TableModel) As ProcessingOption
+    content: 'public sealed class OnEndOfTable : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class OnEndOfTable
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Travel.OnEndOfTable.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Travel.OnEndOfTable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Travel.OnEndOfTable.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Travel.OnEndOfTable.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -176,6 +178,13 @@ references:
   name: SuperOffice.CRM.Travel
   nameWithType: SuperOffice.CRM.Travel
   fullName: SuperOffice.CRM.Travel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Travel.OnEndOfTable.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -244,18 +253,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: TableModel
-  nameWithType: TableModel
-  fullName: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
-- uid: SuperOffice.CRM.Travel.ProcessingOption
-  commentId: T:SuperOffice.CRM.Travel.ProcessingOption
-  parent: SuperOffice.CRM.Travel
-  isExternal: true
-  name: ProcessingOption
-  nameWithType: ProcessingOption
-  fullName: SuperOffice.CRM.Travel.ProcessingOption
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -359,13 +362,6 @@ references:
   name: OnEndOfTable
   nameWithType: OnEndOfTable.OnEndOfTable
   fullName: SuperOffice.CRM.Travel.OnEndOfTable.OnEndOfTable
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -373,18 +369,24 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Travel.OnEndOfTable.Invoke*
   commentId: Overload:SuperOffice.CRM.Travel.OnEndOfTable.Invoke
   isExternal: true
   name: Invoke
   nameWithType: OnEndOfTable.Invoke
   fullName: SuperOffice.CRM.Travel.OnEndOfTable.Invoke
+- uid: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
+  isExternal: true
+  name: TableModel
+  nameWithType: TableModel
+  fullName: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
+- uid: SuperOffice.CRM.Travel.ProcessingOption
+  commentId: T:SuperOffice.CRM.Travel.ProcessingOption
+  parent: SuperOffice.CRM.Travel
+  isExternal: true
+  name: ProcessingOption
+  nameWithType: ProcessingOption
+  fullName: SuperOffice.CRM.Travel.ProcessingOption
 - uid: SuperOffice.CRM.Travel.OnEndOfTable.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Travel.OnEndOfTable.BeginInvoke
   isExternal: true
@@ -392,15 +394,11 @@ references:
   nameWithType: OnEndOfTable.BeginInvoke
   fullName: SuperOffice.CRM.Travel.OnEndOfTable.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

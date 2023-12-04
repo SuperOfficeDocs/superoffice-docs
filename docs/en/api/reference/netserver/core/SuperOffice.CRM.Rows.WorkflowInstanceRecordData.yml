@@ -1,0 +1,1033 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  commentId: T:SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  id: WorkflowInstanceRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.#ctor
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.ContactId
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.CurrentStep
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.DropoutReason
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.LastCommunicationStep
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.PersonId
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Registered
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Status
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepLevel
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepStarted
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Updated
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Variables
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WaitUntil
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowId
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowInstanceId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceRecordData
+  nameWithType: WorkflowInstanceRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the workflow_instance table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.WorkflowInstanceRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.WorkflowInstanceTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: 'public class WorkflowInstanceRecordData : Object'
+    content.vb: >-
+      Public Class WorkflowInstanceRecordData
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowInstanceId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowInstanceId
+  id: WorkflowInstanceId
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceId
+  nameWithType: WorkflowInstanceRecordData.WorkflowInstanceId
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowInstanceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int WorkflowInstanceId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowInstanceId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowInstanceRecordData.WorkflowId
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe flow this instance belongs to \n"
+  syntax:
+    content: public int WorkflowId
+    return:
+      type: System.Int32
+    content.vb: Public WorkflowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: WorkflowInstanceRecordData.Status
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nStatus of the workflow instance \n"
+  syntax:
+    content: public WorkflowInstanceStatus Status
+    return:
+      type: SuperOffice.Data.WorkflowInstanceStatus
+    content.vb: Public Status As WorkflowInstanceStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.PersonId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: WorkflowInstanceRecordData.PersonId
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPerson ID of person going through the flow \n"
+  syntax:
+    content: public int PersonId
+    return:
+      type: System.Int32
+    content.vb: Public PersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: WorkflowInstanceRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nContact ID of contact contact going through the flow \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Variables
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Variables
+  id: Variables
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: WorkflowInstanceRecordData.Variables
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Variables
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nInstance data and variables \n"
+  syntax:
+    content: public string Variables
+    return:
+      type: System.String
+    content.vb: Public Variables As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: WorkflowInstanceRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: WorkflowInstanceRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: WorkflowInstanceRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: WorkflowInstanceRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: WorkflowInstanceRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.CurrentStep
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.CurrentStep
+  id: CurrentStep
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: CurrentStep
+  nameWithType: WorkflowInstanceRecordData.CurrentStep
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.CurrentStep
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNext step to be executed when conditions are met \n"
+  syntax:
+    content: public int CurrentStep
+    return:
+      type: System.Int32
+    content.vb: Public CurrentStep As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WaitUntil
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WaitUntil
+  id: WaitUntil
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: WaitUntil
+  nameWithType: WorkflowInstanceRecordData.WaitUntil
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WaitUntil
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDon&apos;t evaluate conditions until given time (set by a waiting step, and status Suspended). An event may change the wait_until or status to Running. \n"
+  syntax:
+    content: public DateTime WaitUntil
+    return:
+      type: System.DateTime
+    content.vb: Public WaitUntil As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.LastCommunicationStep
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.LastCommunicationStep
+  id: LastCommunicationStep
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastCommunicationStep
+  nameWithType: WorkflowInstanceRecordData.LastCommunicationStep
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.LastCommunicationStep
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast completed step with email/sms to customer \n"
+  syntax:
+    content: public int LastCommunicationStep
+    return:
+      type: System.Int32
+    content.vb: Public LastCommunicationStep As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.DropoutReason
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.DropoutReason
+  id: DropoutReason
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: DropoutReason
+  nameWithType: WorkflowInstanceRecordData.DropoutReason
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.DropoutReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nReason for dropout/failure \n"
+  syntax:
+    content: public string DropoutReason
+    return:
+      type: System.String
+    content.vb: Public DropoutReason As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepStarted
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepStarted
+  id: StepStarted
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: StepStarted
+  nameWithType: WorkflowInstanceRecordData.StepStarted
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepStarted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe currently executing step was started at this time \n"
+  syntax:
+    content: public DateTime StepStarted
+    return:
+      type: System.DateTime
+    content.vb: Public StepStarted As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepLevel
+  commentId: F:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepLevel
+  id: StepLevel
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: StepLevel
+  nameWithType: WorkflowInstanceRecordData.StepLevel
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.StepLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSome steps have multiple levels, this indicates what level is reached \n"
+  syntax:
+    content: public int StepLevel
+    return:
+      type: System.Int32
+    content.vb: Public StepLevel As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceRecordData()
+  nameWithType: WorkflowInstanceRecordData.WorkflowInstanceRecordData()
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowInstanceRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public WorkflowInstanceRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowInstanceRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowInstanceRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To)()
+  name.vb: MapEnums(Of WorkflowInstanceRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowInstanceRecordData, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowInstanceRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowInstanceRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkflowInstanceRecordData>(WorkflowInstanceRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceRecordData>(WorkflowInstanceRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowInstanceRecordData>(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowInstanceRecordData)(WorkflowInstanceRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData)(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  name.vb: AssignByReflection(Of WorkflowInstanceRecordData)(WorkflowInstanceRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowInstanceRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowInstanceRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowInstanceRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    name: WorkflowInstanceRecordData
+    nameWithType: WorkflowInstanceRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowInstanceRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowInstanceRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    name: WorkflowInstanceRecordData
+    nameWithType: WorkflowInstanceRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkflowInstanceRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowInstanceRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowInstanceRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData)()
+  name.vb: GraphCopy(Of WorkflowInstanceRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowInstanceRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowInstanceRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowInstanceRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowInstanceRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowInstanceRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  parent: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  name: ToInsert()
+  nameWithType: WorkflowInstanceRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowInstanceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowInstanceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceRecordData, To>()
+  nameWithType: Converters.MapEnums<WorkflowInstanceRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowInstanceRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To)()
+  name.vb: MapEnums(Of WorkflowInstanceRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowInstanceRecordData, To>
+    nameWithType: Converters.MapEnums<WorkflowInstanceRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceRecordData, To)
+    nameWithType: Converters.MapEnums(Of WorkflowInstanceRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowInstanceRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  isExternal: true
+  name: ToInsert(WorkflowInstanceRecordData)
+  nameWithType: WorkflowInstanceRecordDataExtensions.ToInsert(WorkflowInstanceRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+    name: ToInsert
+    nameWithType: WorkflowInstanceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    name: WorkflowInstanceRecordData
+    nameWithType: WorkflowInstanceRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowInstanceRecordData)
+    name: ToInsert
+    nameWithType: WorkflowInstanceRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    name: WorkflowInstanceRecordData
+    nameWithType: WorkflowInstanceRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowInstanceRecordDataExtensions
+  nameWithType: WorkflowInstanceRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.WorkflowInstanceStatus
+  commentId: T:SuperOffice.Data.WorkflowInstanceStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowInstanceStatus
+  nameWithType: WorkflowInstanceStatus
+  fullName: SuperOffice.Data.WorkflowInstanceStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowInstanceRecordData.#ctor
+  isExternal: true
+  name: WorkflowInstanceRecordData
+  nameWithType: WorkflowInstanceRecordData.WorkflowInstanceRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRecordData.WorkflowInstanceRecordData

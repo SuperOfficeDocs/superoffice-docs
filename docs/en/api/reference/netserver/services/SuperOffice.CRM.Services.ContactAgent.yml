@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
   - SuperOffice.CRM.Services.ContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
   - SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity
+  - SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact
   - SuperOffice.CRM.Services.ContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
   - SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity(System.Int32)
   - SuperOffice.CRM.Services.ContactAgent.DeleteExpired
@@ -20,6 +21,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent.GetContactList(System.Int32[])
   - SuperOffice.CRM.Services.ContactAgent.GetContactSummary(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates(System.String)
   - SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules
   - SuperOffice.CRM.Services.ContactAgent.GetDuplicates(System.String)
   - SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
@@ -29,6 +31,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
   - SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
   - SuperOffice.CRM.Services.ContactAgent.GetPersons(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetPreviewContact(System.Int32)
   - SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses(System.Int32)
   - SuperOffice.CRM.Services.ContactAgent.IsNumberValid(System.Int32,System.String)
   - SuperOffice.CRM.Services.ContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
@@ -71,13 +74,6 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
@@ -182,6 +178,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact
+  id: CreateDefaultPreviewContact
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPreviewContact()
+  nameWithType: ContactAgent.CreateDefaultPreviewContact()
+  fullName: SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new PreviewContact.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public PreviewContact CreateDefaultPreviewContact()
+    return:
+      type: SuperOffice.CRM.Services.PreviewContact
+      description: New PreviewContact with default values
+    content.vb: Public Function CreateDefaultPreviewContact As PreviewContact
+  overload: SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContact(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContact(System.Int32)
   id: GetContact(System.Int32)
@@ -250,7 +277,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.ContactActivity[]
       description: Array of contacts where there have been activity in the period.
-    content.vb: Public Function GetMyActiveContacts(activityStartTime As Date, contactCategories As Integer(), actionType As ContactAction) As ContactActivity()
+    content.vb: Public Function GetMyActiveContacts(activityStartTime As DateTime, contactCategories As Integer(), actionType As ContactAction) As ContactActivity()
   overload: SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts*
   implements:
   - SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
@@ -864,6 +891,41 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates(System.String)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates(System.String)
+  id: GetDomainDuplicates(System.String)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDomainDuplicates(String)
+  nameWithType: ContactAgent.GetDomainDuplicates(String)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet duplicates based on the domain\n"
+  syntax:
+    content: public DuplicateEntry[] GetDomainDuplicates(string domain)
+    parameters:
+    - id: domain
+      type: System.String
+      description: Domain used for lookup
+    return:
+      type: SuperOffice.CRM.Services.DuplicateEntry[]
+      description: Any records matching the specified domain
+    content.vb: Public Function GetDomainDuplicates(domain As String) As DuplicateEntry()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ContactAgent.IsNumberValid(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.ContactAgent.IsNumberValid(System.Int32,System.String)
   id: IsNumberValid(System.Int32,System.String)
@@ -887,10 +949,13 @@ items:
     parameters:
     - id: contactId
       type: System.Int32
+      description: Primary key
     - id: number
       type: System.String
+      description: Number field value to check.
     return:
       type: System.Boolean
+      description: True if the number satisifies the configured rules for uniqueness.
     content.vb: Public Function IsNumberValid(contactId As Integer, number As String) As Boolean
   overload: SuperOffice.CRM.Services.ContactAgent.IsNumberValid*
   implements:
@@ -1183,6 +1248,41 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetPreviewContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetPreviewContact(System.Int32)
+  id: GetPreviewContact(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewContact(Int32)
+  nameWithType: ContactAgent.GetPreviewContact(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetPreviewContact(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a contact from its ID\n"
+  syntax:
+    content: public PreviewContact GetPreviewContact(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact ID
+    return:
+      type: SuperOffice.CRM.Services.PreviewContact
+      description: Contact minimal contact suitable for preview
+    content.vb: Public Function GetPreviewContact(contactId As Integer) As PreviewContact
+  overload: SuperOffice.CRM.Services.ContactAgent.GetPreviewContact*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ContactAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.ContactAgent.#ctor
   id: '#ctor'
@@ -1215,13 +1315,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}
   parent: SuperOffice.CRM.Services
@@ -1267,8 +1360,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -1329,291 +1420,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IContactAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IContactAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IContactAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -1838,6 +1644,56 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact
+  isExternal: true
+  name: CreateDefaultPreviewContact
+  nameWithType: ContactAgent.CreateDefaultPreviewContact
+  fullName: SuperOffice.CRM.Services.ContactAgent.CreateDefaultPreviewContact
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: CreateDefaultPreviewContact()
+  nameWithType: IContactAgent.CreateDefaultPreviewContact()
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+    name: CreateDefaultPreviewContact
+    nameWithType: IContactAgent.CreateDefaultPreviewContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+    name: CreateDefaultPreviewContact
+    nameWithType: IContactAgent.CreateDefaultPreviewContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreviewContact
+  commentId: T:SuperOffice.CRM.Services.PreviewContact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewContact
+  nameWithType: PreviewContact
+  fullName: SuperOffice.CRM.Services.PreviewContact
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContact*
   commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContact
   isExternal: true
@@ -1981,8 +1837,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -3103,6 +2957,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates
+  isExternal: true
+  name: GetDomainDuplicates
+  nameWithType: ContactAgent.GetDomainDuplicates
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetDomainDuplicates
+- uid: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetDomainDuplicates(String)
+  nameWithType: IContactAgent.GetDomainDuplicates(String)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+    name: GetDomainDuplicates
+    nameWithType: IContactAgent.GetDomainDuplicates
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates(System.String)
+    name: GetDomainDuplicates
+    nameWithType: IContactAgent.GetDomainDuplicates
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetDomainDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ContactAgent.IsNumberValid*
   commentId: Overload:SuperOffice.CRM.Services.ContactAgent.IsNumberValid
   isExternal: true
@@ -3671,6 +3572,53 @@ references:
   name: ContactSourceType
   nameWithType: ContactSourceType
   fullName: SuperOffice.CRM.Services.Util.ContactSourceType
+- uid: SuperOffice.CRM.Services.ContactAgent.GetPreviewContact*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetPreviewContact
+  isExternal: true
+  name: GetPreviewContact
+  nameWithType: ContactAgent.GetPreviewContact
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetPreviewContact
+- uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetPreviewContact(Int32)
+  nameWithType: IContactAgent.GetPreviewContact(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+    name: GetPreviewContact
+    nameWithType: IContactAgent.GetPreviewContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact(System.Int32)
+    name: GetPreviewContact
+    nameWithType: IContactAgent.GetPreviewContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetPreviewContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ContactAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ContactAgent.#ctor
   isExternal: true

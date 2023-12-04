@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TargetAssignment
+  commentId: T:SuperOffice.CRM.Services.TargetAssignment
+  id: TargetAssignment
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TargetAssignment.#ctor
+  - SuperOffice.CRM.Services.TargetAssignment.Currency
+  - SuperOffice.CRM.Services.TargetAssignment.DimensionListItem
+  - SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName
+  - SuperOffice.CRM.Services.TargetAssignment.Locked
+  - SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId
+  - SuperOffice.CRM.Services.TargetAssignment.TargetAssociate
+  - SuperOffice.CRM.Services.TargetAssignment.TargetContact
+  - SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup
+  - SuperOffice.CRM.Services.TargetAssignment.ToString
+  - SuperOffice.CRM.Services.TargetAssignment.ToString(System.String)
+  - SuperOffice.CRM.Services.TargetAssignment.Values
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignment
+  nameWithType: TargetAssignment
+  fullName: SuperOffice.CRM.Services.TargetAssignment
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTarget Period Assignment carrier\n<p></p>\nCarrier object for TargetAssignment.\nServices for the TargetAssignment Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITargetsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TargetAssignment : Carrier'
+    content.vb: >-
+      Public Class TargetAssignment
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.TargetsAgent
+    commentId: T:SuperOffice.CRM.Services.TargetsAgent
+  - linkId: SuperOffice.CRM.Services.ITargetsAgent
+    commentId: T:SuperOffice.CRM.Services.ITargetsAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TargetAssignment.#ctor
+  commentId: M:SuperOffice.CRM.Services.TargetAssignment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignment()
+  nameWithType: TargetAssignment.TargetAssignment()
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetAssignment()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TargetAssignment()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TargetAssignment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TargetAssignment.ToString
+  commentId: M:SuperOffice.CRM.Services.TargetAssignment.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TargetAssignment.ToString()
+  fullName: SuperOffice.CRM.Services.TargetAssignment.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TargetAssignment.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TargetAssignment.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TargetAssignment.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TargetAssignment.ToString(String)
+  fullName: SuperOffice.CRM.Services.TargetAssignment.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TargetAssignment.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId
+  id: TargetAssignmentInfoId
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: TargetAssignmentInfoId
+  nameWithType: TargetAssignment.TargetAssignmentInfoId
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int TargetAssignmentInfoId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TargetAssignmentInfoId As Integer
+  overload: SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.Values
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.Values
+  id: Values
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: TargetAssignment.Values
+  fullName: SuperOffice.CRM.Services.TargetAssignment.Values
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValues of the target; all periods; in ascending order. \n"
+  syntax:
+    content: public virtual double[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.Double[]
+    content.vb: Public Overridable Property Values As Double()
+  overload: SuperOffice.CRM.Services.TargetAssignment.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.Locked
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.Locked
+  id: Locked
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: TargetAssignment.Locked
+  fullName: SuperOffice.CRM.Services.TargetAssignment.Locked
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLocked, should not be editable \n"
+  syntax:
+    content: public virtual bool Locked { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Locked As Boolean
+  overload: SuperOffice.CRM.Services.TargetAssignment.Locked*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetAssociate
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.TargetAssociate
+  id: TargetAssociate
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: TargetAssociate
+  nameWithType: TargetAssignment.TargetAssociate
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetAssociate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. \n"
+  syntax:
+    content: public virtual Associate TargetAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property TargetAssociate As Associate
+  overload: SuperOffice.CRM.Services.TargetAssignment.TargetAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetContact
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.TargetContact
+  id: TargetContact
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: TargetContact
+  nameWithType: TargetAssignment.TargetContact
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetContact
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. \n"
+  syntax:
+    content: public virtual Contact TargetContact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Contact
+    content.vb: Public Overridable Property TargetContact As Contact
+  overload: SuperOffice.CRM.Services.TargetAssignment.TargetContact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup
+  id: TargetUserGroup
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: TargetUserGroup
+  nameWithType: TargetAssignment.TargetUserGroup
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe usergroup this target is set for. Only one of TargetAssociate, TargetContact and TargetUserGroup will be set for a target. \n"
+  syntax:
+    content: public virtual UserGroup TargetUserGroup { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.UserGroup
+    content.vb: Public Overridable Property TargetUserGroup As UserGroup
+  overload: SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.Currency
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.Currency
+  id: Currency
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: TargetAssignment.Currency
+  fullName: SuperOffice.CRM.Services.TargetAssignment.Currency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe currency of the target. \n<p>Use MDO List name &quot;currency&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Currency Currency { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Currency
+    content.vb: Public Overridable Property Currency As Currency
+  overload: SuperOffice.CRM.Services.TargetAssignment.Currency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.DimensionListItem
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.DimensionListItem
+  id: DimensionListItem
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: DimensionListItem
+  nameWithType: TargetAssignment.DimensionListItem
+  fullName: SuperOffice.CRM.Services.TargetAssignment.DimensionListItem
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the dimension list item this assignement is for \n"
+  syntax:
+    content: public virtual int DimensionListItem { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DimensionListItem As Integer
+  overload: SuperOffice.CRM.Services.TargetAssignment.DimensionListItem*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName
+  commentId: P:SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName
+  id: DimensionListItemDisplayName
+  parent: SuperOffice.CRM.Services.TargetAssignment
+  langs:
+  - csharp
+  - vb
+  name: DimensionListItemDisplayName
+  nameWithType: TargetAssignment.DimensionListItemDisplayName
+  fullName: SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDisplay name of the dimension list item this assignement is for. \n"
+  syntax:
+    content: public virtual string DimensionListItemDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DimensionListItemDisplayName As String
+  overload: SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.TargetsAgent
+  commentId: T:SuperOffice.CRM.Services.TargetsAgent
+  isExternal: true
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.CRM.Services.TargetsAgent
+- uid: SuperOffice.CRM.Services.ITargetsAgent
+  commentId: T:SuperOffice.CRM.Services.ITargetsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITargetsAgent
+  nameWithType: ITargetsAgent
+  fullName: SuperOffice.CRM.Services.ITargetsAgent
+- uid: SuperOffice.CRM.Services.TargetAssignment.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.#ctor
+  isExternal: true
+  name: TargetAssignment
+  nameWithType: TargetAssignment.TargetAssignment
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetAssignment
+- uid: SuperOffice.CRM.Services.TargetAssignment.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TargetAssignment.ToString
+  fullName: SuperOffice.CRM.Services.TargetAssignment.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId
+  isExternal: true
+  name: TargetAssignmentInfoId
+  nameWithType: TargetAssignment.TargetAssignmentInfoId
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetAssignmentInfoId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TargetAssignment.Values*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.Values
+  isExternal: true
+  name: Values
+  nameWithType: TargetAssignment.Values
+  fullName: SuperOffice.CRM.Services.TargetAssignment.Values
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.TargetAssignment.Locked*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.Locked
+  isExternal: true
+  name: Locked
+  nameWithType: TargetAssignment.Locked
+  fullName: SuperOffice.CRM.Services.TargetAssignment.Locked
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetAssociate*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.TargetAssociate
+  isExternal: true
+  name: TargetAssociate
+  nameWithType: TargetAssignment.TargetAssociate
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetAssociate
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetContact*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.TargetContact
+  isExternal: true
+  name: TargetContact
+  nameWithType: TargetAssignment.TargetContact
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetContact
+- uid: SuperOffice.CRM.Services.Contact
+  commentId: T:SuperOffice.CRM.Services.Contact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Services.Contact
+- uid: SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup
+  isExternal: true
+  name: TargetUserGroup
+  nameWithType: TargetAssignment.TargetUserGroup
+  fullName: SuperOffice.CRM.Services.TargetAssignment.TargetUserGroup
+- uid: SuperOffice.CRM.Services.UserGroup
+  commentId: T:SuperOffice.CRM.Services.UserGroup
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: UserGroup
+  nameWithType: UserGroup
+  fullName: SuperOffice.CRM.Services.UserGroup
+- uid: SuperOffice.CRM.Services.TargetAssignment.Currency*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: TargetAssignment.Currency
+  fullName: SuperOffice.CRM.Services.TargetAssignment.Currency
+- uid: SuperOffice.CRM.Services.Currency
+  commentId: T:SuperOffice.CRM.Services.Currency
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Currency
+  nameWithType: Currency
+  fullName: SuperOffice.CRM.Services.Currency
+- uid: SuperOffice.CRM.Services.TargetAssignment.DimensionListItem*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.DimensionListItem
+  isExternal: true
+  name: DimensionListItem
+  nameWithType: TargetAssignment.DimensionListItem
+  fullName: SuperOffice.CRM.Services.TargetAssignment.DimensionListItem
+- uid: SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName
+  isExternal: true
+  name: DimensionListItemDisplayName
+  nameWithType: TargetAssignment.DimensionListItemDisplayName
+  fullName: SuperOffice.CRM.Services.TargetAssignment.DimensionListItemDisplayName

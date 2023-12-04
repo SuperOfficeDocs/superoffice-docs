@@ -60,6 +60,8 @@ items:
     commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
   inheritance:
   - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Services.SaleStakeholder.SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
   modifiers.csharp:
   - public
   - class
@@ -790,13 +792,37 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+- uid: SuperOffice.CRM.Services.SaleStakeholder.SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow(SuperOffice.CRM.Services.SaleStakeholder)
+  parent: SuperOffice.CRM.Services.SaleStakeholderExtensions
+  definition: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow(SuperOffice.CRM.Services.SaleStakeholder)
+  name: ToRow()
+  nameWithType: SaleStakeholderExtensions.ToRow()
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
+    name: ToRow
+    nameWithType: SaleStakeholderExtensions.ToRow
+    fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
+    name: ToRow
+    nameWithType: SaleStakeholderExtensions.ToRow
+    fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.SaleAgent
   commentId: T:SuperOffice.CRM.Services.SaleAgent
   isExternal: true
@@ -953,12 +979,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow(SuperOffice.CRM.Services.SaleStakeholder)
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow(SuperOffice.CRM.Services.SaleStakeholder)
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+  name: ToRow(SaleStakeholder)
+  nameWithType: SaleStakeholderExtensions.ToRow(SaleStakeholder)
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow(SuperOffice.CRM.Services.SaleStakeholder)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow(SuperOffice.CRM.Services.SaleStakeholder)
+    name: ToRow
+    nameWithType: SaleStakeholderExtensions.ToRow
+    fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow(SuperOffice.CRM.Services.SaleStakeholder)
+    name: ToRow
+    nameWithType: SaleStakeholderExtensions.ToRow
+    fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions.ToRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleStakeholderExtensions
+  commentId: T:SuperOffice.CRM.Services.SaleStakeholderExtensions
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SaleStakeholderExtensions
+  nameWithType: SaleStakeholderExtensions
+  fullName: SuperOffice.CRM.Services.SaleStakeholderExtensions
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -985,6 +1052,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName*
   commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName
   isExternal: true

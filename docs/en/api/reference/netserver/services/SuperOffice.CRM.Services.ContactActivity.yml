@@ -399,7 +399,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ActionTime As Date
+    content.vb: Public Overridable Property ActionTime As DateTime
   overload: SuperOffice.CRM.Services.ContactActivity.ActionTime*
   modifiers.csharp:
   - public
@@ -614,13 +614,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ContactAgent
   commentId: T:SuperOffice.CRM.Services.ContactAgent
   isExternal: true
@@ -634,12 +627,6 @@ references:
   name: IContactAgent
   nameWithType: IContactAgent
   fullName: SuperOffice.CRM.Services.IContactAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ContactActivity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ContactActivity.#ctor
   isExternal: true
@@ -659,6 +646,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ContactActivity.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.ContactActivity.ContactId
   isExternal: true
@@ -728,8 +721,6 @@ references:
   nameWithType: ContactActivity.ActionTime
   fullName: SuperOffice.CRM.Services.ContactActivity.ActionTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

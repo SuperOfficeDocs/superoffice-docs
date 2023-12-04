@@ -11,13 +11,14 @@ items:
   - SuperOffice.Security.Principal.AuthorizationState.Closed
   - SuperOffice.Security.Principal.AuthorizationState.Suspended
   - SuperOffice.Security.Principal.AuthorizationState.Unauthorized
+  - SuperOffice.Security.Principal.AuthorizationState.value__
   langs:
   - csharp
   - vb
   name: AuthorizationState
   nameWithType: AuthorizationState
   fullName: SuperOffice.Security.Principal.AuthorizationState
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -27,19 +28,54 @@ items:
   summary: "\nAuthorization state of the current <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref>.  \nThis replaces Authentication state of <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref> which now is made obsolete.\n"
   remarks: "\nThe initial state of <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref> is allways Unauthorized.  \nWhen the Authorization starts, the state is set to Authorizing.  The state is set to \nAuthorized if the Authorization succeeded and AuthorizationFailed if the Authorization failed.\n<p>\nThe Authorization state is set to Disconnected or Closed if such operations are performed on <xref href=\"SuperOffice.SoSession\" data-throw-if-not-resolved=\"false\"></xref>.\n</p><p>\nA value greater than Unauthorized means that the process of Authorization is either being carried out or has actually \nbeen successfull.  <xref href=\"SuperOffice.SoContext.CurrentPrincipal\" data-throw-if-not-resolved=\"false\"></xref> is available when the Authorization are in these states.\n</p><p>\nA value less than Unauthorized means that we don&apos;t have a valid session.\n</p>\n"
   syntax:
-    content: public enum AuthorizationState
-    content.vb: Public Enum AuthorizationState
+    content: 'public sealed class AuthorizationState : Enum'
+    content.vb: >-
+      Public NotInheritable Class AuthorizationState
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Security.Principal.AuthorizationState.EnumUtil.MapEnums``2
-  - SuperOffice.Security.Principal.AuthorizationState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.AuthorizationState)
-  - SuperOffice.Security.Principal.AuthorizationState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Security.Principal.AuthorizationState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Principal.AuthorizationState.value__
+  commentId: F:SuperOffice.Security.Principal.AuthorizationState.value__
+  id: value__
+  parent: SuperOffice.Security.Principal.AuthorizationState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AuthorizationState.value__
+  fullName: SuperOffice.Security.Principal.AuthorizationState.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Security.Principal.AuthorizationState.Unauthorized
   commentId: F:SuperOffice.Security.Principal.AuthorizationState.Unauthorized
   id: Unauthorized
@@ -59,9 +95,10 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nThe process of Authorization has not been carried out.\n"
   syntax:
-    content: Unauthorized = 0
+    content: public const AuthorizationState Unauthorized
     return:
       type: SuperOffice.Security.Principal.AuthorizationState
+    content.vb: Public Const Unauthorized As AuthorizationState
   modifiers.csharp:
   - public
   - const
@@ -87,9 +124,10 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session is currently being Authorizing\n"
   syntax:
-    content: Authorizing = 1
+    content: public const AuthorizationState Authorizing
     return:
       type: SuperOffice.Security.Principal.AuthorizationState
+    content.vb: Public Const Authorizing As AuthorizationState
   modifiers.csharp:
   - public
   - const
@@ -115,9 +153,10 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session is Authorized\n"
   syntax:
-    content: Authorized = 2
+    content: public const AuthorizationState Authorized
     return:
       type: SuperOffice.Security.Principal.AuthorizationState
+    content.vb: Public Const Authorized As AuthorizationState
   modifiers.csharp:
   - public
   - const
@@ -143,9 +182,10 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nThe Authorization has failed.\n"
   syntax:
-    content: AuthorizationFailed = -1
+    content: public const AuthorizationState AuthorizationFailed
     return:
       type: SuperOffice.Security.Principal.AuthorizationState
+    content.vb: Public Const AuthorizationFailed As AuthorizationState
   modifiers.csharp:
   - public
   - const
@@ -171,9 +211,10 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session has been suspended.\n"
   syntax:
-    content: Suspended = -2
+    content: public const AuthorizationState Suspended
     return:
       type: SuperOffice.Security.Principal.AuthorizationState
+    content.vb: Public Const Suspended As AuthorizationState
   modifiers.csharp:
   - public
   - const
@@ -199,9 +240,10 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nThe session has closed\n"
   syntax:
-    content: Closed = -3
+    content: public const AuthorizationState Closed
     return:
       type: SuperOffice.Security.Principal.AuthorizationState
+    content.vb: Public Const Closed As AuthorizationState
   modifiers.csharp:
   - public
   - const
@@ -215,6 +257,13 @@ references:
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Security.Principal.AuthorizationState.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -242,84 +291,6 @@ references:
     name: MapEnums(Of AuthorizationState, To)
     nameWithType: EnumUtil.MapEnums(Of AuthorizationState, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.AuthorizationState, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Security.Principal.AuthorizationState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.AuthorizationState)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<AuthorizationState>(AuthorizationState)
-  nameWithType: ObjectExtensions.AssignByReflection<AuthorizationState>(AuthorizationState)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.AuthorizationState>(SuperOffice.Security.Principal.AuthorizationState)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AuthorizationState)(AuthorizationState)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.AuthorizationState)(SuperOffice.Security.Principal.AuthorizationState)
-  name.vb: AssignByReflection(Of AuthorizationState)(AuthorizationState)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<AuthorizationState>
-    nameWithType: ObjectExtensions.AssignByReflection<AuthorizationState>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.AuthorizationState>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Principal.AuthorizationState
-    name: AuthorizationState
-    nameWithType: AuthorizationState
-    fullName: SuperOffice.Security.Principal.AuthorizationState
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of AuthorizationState)
-    nameWithType: ObjectExtensions.AssignByReflection(Of AuthorizationState)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.AuthorizationState)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Principal.AuthorizationState
-    name: AuthorizationState
-    nameWithType: AuthorizationState
-    fullName: SuperOffice.Security.Principal.AuthorizationState
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Security.Principal.AuthorizationState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<AuthorizationState>()
-  nameWithType: ObjectExtensions.GraphCopy<AuthorizationState>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.AuthorizationState>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AuthorizationState)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.AuthorizationState)()
-  name.vb: GraphCopy(Of AuthorizationState)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<AuthorizationState>
-    nameWithType: ObjectExtensions.GraphCopy<AuthorizationState>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.AuthorizationState>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of AuthorizationState)
-    nameWithType: ObjectExtensions.GraphCopy(Of AuthorizationState)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.AuthorizationState)
     isExternal: true
   - name: (
     nameWithType: (
@@ -361,6 +332,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -406,103 +383,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -549,18 +429,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Security.Principal.AuthorizationState
   commentId: T:SuperOffice.Security.Principal.AuthorizationState
   parent: SuperOffice.Security.Principal

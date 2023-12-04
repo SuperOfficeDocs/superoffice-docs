@@ -1,0 +1,2220 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TicketLogFieldChange
+  commentId: T:SuperOffice.Data.TicketLogFieldChange
+  id: TicketLogFieldChange
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TicketLogFieldChange.Activate
+  - SuperOffice.Data.TicketLogFieldChange.AgentId
+  - SuperOffice.Data.TicketLogFieldChange.AlertLevel
+  - SuperOffice.Data.TicketLogFieldChange.AlertStop
+  - SuperOffice.Data.TicketLogFieldChange.AlertTimeout
+  - SuperOffice.Data.TicketLogFieldChange.Author
+  - SuperOffice.Data.TicketLogFieldChange.Category
+  - SuperOffice.Data.TicketLogFieldChange.ClosedAt
+  - SuperOffice.Data.TicketLogFieldChange.ConnectId
+  - SuperOffice.Data.TicketLogFieldChange.CreatedAt
+  - SuperOffice.Data.TicketLogFieldChange.CreatedBy
+  - SuperOffice.Data.TicketLogFieldChange.CustId
+  - SuperOffice.Data.TicketLogFieldChange.DbiKey
+  - SuperOffice.Data.TicketLogFieldChange.DbiLastSyncronized
+  - SuperOffice.Data.TicketLogFieldChange.Deadline
+  - SuperOffice.Data.TicketLogFieldChange.DisplayFilter
+  - SuperOffice.Data.TicketLogFieldChange.ExtraField
+  - SuperOffice.Data.TicketLogFieldChange.FilterAddress
+  - SuperOffice.Data.TicketLogFieldChange.FilterId
+  - SuperOffice.Data.TicketLogFieldChange.FirstReadByOwner
+  - SuperOffice.Data.TicketLogFieldChange.FirstReadByUser
+  - SuperOffice.Data.TicketLogFieldChange.HasAttachment
+  - SuperOffice.Data.TicketLogFieldChange.LastChanged
+  - SuperOffice.Data.TicketLogFieldChange.Message_Author
+  - SuperOffice.Data.TicketLogFieldChange.Message_Body
+  - SuperOffice.Data.TicketLogFieldChange.Message_BodyHtml
+  - SuperOffice.Data.TicketLogFieldChange.Message_CreatedAt
+  - SuperOffice.Data.TicketLogFieldChange.Message_CreatedBy
+  - SuperOffice.Data.TicketLogFieldChange.Message_CustomerId
+  - SuperOffice.Data.TicketLogFieldChange.Message_DebugInfo
+  - SuperOffice.Data.TicketLogFieldChange.Message_EmailHeader
+  - SuperOffice.Data.TicketLogFieldChange.Message_ExtraField
+  - SuperOffice.Data.TicketLogFieldChange.Message_MailSorter
+  - SuperOffice.Data.TicketLogFieldChange.Message_MessageCategory
+  - SuperOffice.Data.TicketLogFieldChange.Message_MessageId
+  - SuperOffice.Data.TicketLogFieldChange.Message_SLevel
+  - SuperOffice.Data.TicketLogFieldChange.Message_TicketId
+  - SuperOffice.Data.TicketLogFieldChange.Message_TimeSpent
+  - SuperOffice.Data.TicketLogFieldChange.Message_Type
+  - SuperOffice.Data.TicketLogFieldChange.NumMessages
+  - SuperOffice.Data.TicketLogFieldChange.NumReplies
+  - SuperOffice.Data.TicketLogFieldChange.OwnedBy
+  - SuperOffice.Data.TicketLogFieldChange.Priority
+  - SuperOffice.Data.TicketLogFieldChange.ProjectId
+  - SuperOffice.Data.TicketLogFieldChange.ReadByCustomer
+  - SuperOffice.Data.TicketLogFieldChange.ReadByOwner
+  - SuperOffice.Data.TicketLogFieldChange.ReadStatus
+  - SuperOffice.Data.TicketLogFieldChange.RealTimeSpentExternally
+  - SuperOffice.Data.TicketLogFieldChange.RealTimeSpentInternally
+  - SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
+  - SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
+  - SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
+  - SuperOffice.Data.TicketLogFieldChange.RepliedAt
+  - SuperOffice.Data.TicketLogFieldChange.SaleId
+  - SuperOffice.Data.TicketLogFieldChange.SLevel
+  - SuperOffice.Data.TicketLogFieldChange.Status
+  - SuperOffice.Data.TicketLogFieldChange.Tags
+  - SuperOffice.Data.TicketLogFieldChange.TicketStatus
+  - SuperOffice.Data.TicketLogFieldChange.TicketType
+  - SuperOffice.Data.TicketLogFieldChange.TimeSpentExternally
+  - SuperOffice.Data.TicketLogFieldChange.TimeSpentInternally
+  - SuperOffice.Data.TicketLogFieldChange.TimeSpentQueue
+  - SuperOffice.Data.TicketLogFieldChange.TimeToClose
+  - SuperOffice.Data.TicketLogFieldChange.TimeToReply
+  - SuperOffice.Data.TicketLogFieldChange.Title
+  - SuperOffice.Data.TicketLogFieldChange.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketLogFieldChange
+  nameWithType: TicketLogFieldChange
+  fullName: SuperOffice.Data.TicketLogFieldChange
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nValue representing a ticket field or a ticket message field that changed\n"
+  syntax:
+    content: 'public sealed class TicketLogFieldChange : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketLogFieldChange
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.TicketLogFieldChange.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TicketLogFieldChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketLogFieldChange.value__
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.value__
+  id: value__
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketLogFieldChange.value__
+  fullName: SuperOffice.Data.TicketLogFieldChange.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.TicketLogFieldChange.CreatedAt
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: TicketLogFieldChange.CreatedAt
+  fullName: SuperOffice.Data.TicketLogFieldChange.CreatedAt
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: CreatedAt changed\n"
+  syntax:
+    content: public const TicketLogFieldChange CreatedAt
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const CreatedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Title
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Title
+  id: Title
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TicketLogFieldChange.Title
+  fullName: SuperOffice.Data.TicketLogFieldChange.Title
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Title changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Title
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Title As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.LastChanged
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.LastChanged
+  id: LastChanged
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: TicketLogFieldChange.LastChanged
+  fullName: SuperOffice.Data.TicketLogFieldChange.LastChanged
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: LastChanged changed\n"
+  syntax:
+    content: public const TicketLogFieldChange LastChanged
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const LastChanged As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.ReadByOwner
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.ReadByOwner
+  id: ReadByOwner
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: ReadByOwner
+  nameWithType: TicketLogFieldChange.ReadByOwner
+  fullName: SuperOffice.Data.TicketLogFieldChange.ReadByOwner
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: ReadByOwner changed\n"
+  syntax:
+    content: public const TicketLogFieldChange ReadByOwner
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const ReadByOwner As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.ReadByCustomer
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.ReadByCustomer
+  id: ReadByCustomer
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: ReadByCustomer
+  nameWithType: TicketLogFieldChange.ReadByCustomer
+  fullName: SuperOffice.Data.TicketLogFieldChange.ReadByCustomer
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: ReadByCustomer changed\n"
+  syntax:
+    content: public const TicketLogFieldChange ReadByCustomer
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const ReadByCustomer As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.ClosedAt
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.ClosedAt
+  id: ClosedAt
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: ClosedAt
+  nameWithType: TicketLogFieldChange.ClosedAt
+  fullName: SuperOffice.Data.TicketLogFieldChange.ClosedAt
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: ClosedAt changed\n"
+  syntax:
+    content: public const TicketLogFieldChange ClosedAt
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const ClosedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.TimeToClose
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeToClose
+  id: TimeToClose
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: TimeToClose
+  nameWithType: TicketLogFieldChange.TimeToClose
+  fullName: SuperOffice.Data.TicketLogFieldChange.TimeToClose
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: TimeToClose changed\n"
+  syntax:
+    content: public const TicketLogFieldChange TimeToClose
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const TimeToClose As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
+  id: RealTimeToClose
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: RealTimeToClose
+  nameWithType: TicketLogFieldChange.RealTimeToClose
+  fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: RealTimeToClose changed\n"
+  syntax:
+    content: public const TicketLogFieldChange RealTimeToClose
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const RealTimeToClose As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.TimeToReply
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeToReply
+  id: TimeToReply
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: TimeToReply
+  nameWithType: TicketLogFieldChange.TimeToReply
+  fullName: SuperOffice.Data.TicketLogFieldChange.TimeToReply
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: TimeToReply changed\n"
+  syntax:
+    content: public const TicketLogFieldChange TimeToReply
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const TimeToReply As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
+  id: RealTimeToReply
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: RealTimeToReply
+  nameWithType: TicketLogFieldChange.RealTimeToReply
+  fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: RealTimeToReply changed\n"
+  syntax:
+    content: public const TicketLogFieldChange RealTimeToReply
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const RealTimeToReply As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Author
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Author
+  id: Author
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: TicketLogFieldChange.Author
+  fullName: SuperOffice.Data.TicketLogFieldChange.Author
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Author changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Author
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Author As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.CreatedBy
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: TicketLogFieldChange.CreatedBy
+  fullName: SuperOffice.Data.TicketLogFieldChange.CreatedBy
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: CreatedBy changed\n"
+  syntax:
+    content: public const TicketLogFieldChange CreatedBy
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const CreatedBy As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.AlertLevel
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.AlertLevel
+  id: AlertLevel
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: AlertLevel
+  nameWithType: TicketLogFieldChange.AlertLevel
+  fullName: SuperOffice.Data.TicketLogFieldChange.AlertLevel
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n13: AlertLevel changed\n"
+  syntax:
+    content: public const TicketLogFieldChange AlertLevel
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const AlertLevel As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.AlertTimeout
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.AlertTimeout
+  id: AlertTimeout
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: AlertTimeout
+  nameWithType: TicketLogFieldChange.AlertTimeout
+  fullName: SuperOffice.Data.TicketLogFieldChange.AlertTimeout
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n14: AlertTimeout changed\n"
+  syntax:
+    content: public const TicketLogFieldChange AlertTimeout
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const AlertTimeout As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.ConnectId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.ConnectId
+  id: ConnectId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: ConnectId
+  nameWithType: TicketLogFieldChange.ConnectId
+  fullName: SuperOffice.Data.TicketLogFieldChange.ConnectId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n15: ConnectId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange ConnectId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const ConnectId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.FilterId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.FilterId
+  id: FilterId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: FilterId
+  nameWithType: TicketLogFieldChange.FilterId
+  fullName: SuperOffice.Data.TicketLogFieldChange.FilterId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n16: FilterId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange FilterId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const FilterId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.ReadStatus
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.ReadStatus
+  id: ReadStatus
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: ReadStatus
+  nameWithType: TicketLogFieldChange.ReadStatus
+  fullName: SuperOffice.Data.TicketLogFieldChange.ReadStatus
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n17: ReadStatus changed\n"
+  syntax:
+    content: public const TicketLogFieldChange ReadStatus
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const ReadStatus As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.HasAttachment
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.HasAttachment
+  id: HasAttachment
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: HasAttachment
+  nameWithType: TicketLogFieldChange.HasAttachment
+  fullName: SuperOffice.Data.TicketLogFieldChange.HasAttachment
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n18: HasAttachment changed\n"
+  syntax:
+    content: public const TicketLogFieldChange HasAttachment
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const HasAttachment As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.DisplayFilter
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.DisplayFilter
+  id: DisplayFilter
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: DisplayFilter
+  nameWithType: TicketLogFieldChange.DisplayFilter
+  fullName: SuperOffice.Data.TicketLogFieldChange.DisplayFilter
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n19: DisplayFilter changed\n"
+  syntax:
+    content: public const TicketLogFieldChange DisplayFilter
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const DisplayFilter As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.AlertStop
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.AlertStop
+  id: AlertStop
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: AlertStop
+  nameWithType: TicketLogFieldChange.AlertStop
+  fullName: SuperOffice.Data.TicketLogFieldChange.AlertStop
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n20: AlertStop changed\n"
+  syntax:
+    content: public const TicketLogFieldChange AlertStop
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const AlertStop As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.RepliedAt
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.RepliedAt
+  id: RepliedAt
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: RepliedAt
+  nameWithType: TicketLogFieldChange.RepliedAt
+  fullName: SuperOffice.Data.TicketLogFieldChange.RepliedAt
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n21: RepliedAt changed\n"
+  syntax:
+    content: public const TicketLogFieldChange RepliedAt
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const RepliedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.SLevel
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.SLevel
+  id: SLevel
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: SLevel
+  nameWithType: TicketLogFieldChange.SLevel
+  fullName: SuperOffice.Data.TicketLogFieldChange.SLevel
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n22: SLevel changed\n"
+  syntax:
+    content: public const TicketLogFieldChange SLevel
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const SLevel As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Category
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Category
+  id: Category
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: TicketLogFieldChange.Category
+  fullName: SuperOffice.Data.TicketLogFieldChange.Category
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n23: Category changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Category
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Category As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Priority
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Priority
+  id: Priority
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: TicketLogFieldChange.Priority
+  fullName: SuperOffice.Data.TicketLogFieldChange.Priority
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n24: Priority changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Priority
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Priority As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.CustId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.CustId
+  id: CustId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: CustId
+  nameWithType: TicketLogFieldChange.CustId
+  fullName: SuperOffice.Data.TicketLogFieldChange.CustId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n25: CustId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange CustId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const CustId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Status
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Status
+  id: Status
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TicketLogFieldChange.Status
+  fullName: SuperOffice.Data.TicketLogFieldChange.Status
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n26: Status changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Status
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Status As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.FirstReadByUser
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.FirstReadByUser
+  id: FirstReadByUser
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: FirstReadByUser
+  nameWithType: TicketLogFieldChange.FirstReadByUser
+  fullName: SuperOffice.Data.TicketLogFieldChange.FirstReadByUser
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n27: FirstReadByUser changed\n"
+  syntax:
+    content: public const TicketLogFieldChange FirstReadByUser
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const FirstReadByUser As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Activate
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Activate
+  id: Activate
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Activate
+  nameWithType: TicketLogFieldChange.Activate
+  fullName: SuperOffice.Data.TicketLogFieldChange.Activate
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n28: Activate changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Activate
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Activate As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.OwnedBy
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.OwnedBy
+  id: OwnedBy
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: OwnedBy
+  nameWithType: TicketLogFieldChange.OwnedBy
+  fullName: SuperOffice.Data.TicketLogFieldChange.OwnedBy
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n29: OwnedBy changed\n"
+  syntax:
+    content: public const TicketLogFieldChange OwnedBy
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const OwnedBy As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.AgentId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.AgentId
+  id: AgentId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: AgentId
+  nameWithType: TicketLogFieldChange.AgentId
+  fullName: SuperOffice.Data.TicketLogFieldChange.AgentId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n30: AgentId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange AgentId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const AgentId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.DbiKey
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.DbiKey
+  id: DbiKey
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: TicketLogFieldChange.DbiKey
+  fullName: SuperOffice.Data.TicketLogFieldChange.DbiKey
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n31: DbiKey changed\n"
+  syntax:
+    content: public const TicketLogFieldChange DbiKey
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const DbiKey As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.DbiLastSyncronized
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: TicketLogFieldChange.DbiLastSyncronized
+  fullName: SuperOffice.Data.TicketLogFieldChange.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n32: DbiLastSyncronized changed\n"
+  syntax:
+    content: public const TicketLogFieldChange DbiLastSyncronized
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const DbiLastSyncronized As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.ExtraField
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.ExtraField
+  id: ExtraField
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: ExtraField
+  nameWithType: TicketLogFieldChange.ExtraField
+  fullName: SuperOffice.Data.TicketLogFieldChange.ExtraField
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n33: ExtraField changed\n"
+  syntax:
+    content: public const TicketLogFieldChange ExtraField
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const ExtraField As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.FirstReadByOwner
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.FirstReadByOwner
+  id: FirstReadByOwner
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: FirstReadByOwner
+  nameWithType: TicketLogFieldChange.FirstReadByOwner
+  fullName: SuperOffice.Data.TicketLogFieldChange.FirstReadByOwner
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n34: FirstReadByOwner changed\n"
+  syntax:
+    content: public const TicketLogFieldChange FirstReadByOwner
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const FirstReadByOwner As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.TicketStatus
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.TicketStatus
+  id: TicketStatus
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: TicketStatus
+  nameWithType: TicketLogFieldChange.TicketStatus
+  fullName: SuperOffice.Data.TicketLogFieldChange.TicketStatus
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n35: TicketStatus changed\n"
+  syntax:
+    content: public const TicketLogFieldChange TicketStatus
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const TicketStatus As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Deadline
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Deadline
+  id: Deadline
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Deadline
+  nameWithType: TicketLogFieldChange.Deadline
+  fullName: SuperOffice.Data.TicketLogFieldChange.Deadline
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n36: Deadline changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Deadline
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Deadline As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.FilterAddress
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.FilterAddress
+  id: FilterAddress
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: FilterAddress
+  nameWithType: TicketLogFieldChange.FilterAddress
+  fullName: SuperOffice.Data.TicketLogFieldChange.FilterAddress
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n37: FilterAddress changed\n"
+  syntax:
+    content: public const TicketLogFieldChange FilterAddress
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const FilterAddress As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.TimeSpentInternally
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeSpentInternally
+  id: TimeSpentInternally
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentInternally
+  nameWithType: TicketLogFieldChange.TimeSpentInternally
+  fullName: SuperOffice.Data.TicketLogFieldChange.TimeSpentInternally
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n38: TimeSpentInternally changed\n"
+  syntax:
+    content: public const TicketLogFieldChange TimeSpentInternally
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const TimeSpentInternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.TimeSpentExternally
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeSpentExternally
+  id: TimeSpentExternally
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentExternally
+  nameWithType: TicketLogFieldChange.TimeSpentExternally
+  fullName: SuperOffice.Data.TicketLogFieldChange.TimeSpentExternally
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n39: TimeSpentExternally changed\n"
+  syntax:
+    content: public const TicketLogFieldChange TimeSpentExternally
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const TimeSpentExternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.TimeSpentQueue
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeSpentQueue
+  id: TimeSpentQueue
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentQueue
+  nameWithType: TicketLogFieldChange.TimeSpentQueue
+  fullName: SuperOffice.Data.TicketLogFieldChange.TimeSpentQueue
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n40: TimeSpentQueue changed\n"
+  syntax:
+    content: public const TicketLogFieldChange TimeSpentQueue
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const TimeSpentQueue As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentInternally
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeSpentInternally
+  id: RealTimeSpentInternally
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentInternally
+  nameWithType: TicketLogFieldChange.RealTimeSpentInternally
+  fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentInternally
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n41: RealTimeSpentInternally changed\n"
+  syntax:
+    content: public const TicketLogFieldChange RealTimeSpentInternally
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const RealTimeSpentInternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentExternally
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeSpentExternally
+  id: RealTimeSpentExternally
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentExternally
+  nameWithType: TicketLogFieldChange.RealTimeSpentExternally
+  fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentExternally
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n42: RealTimeSpentExternally changed\n"
+  syntax:
+    content: public const TicketLogFieldChange RealTimeSpentExternally
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const RealTimeSpentExternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
+  id: RealTimeSpentQueue
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentQueue
+  nameWithType: TicketLogFieldChange.RealTimeSpentQueue
+  fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n43: RealTimeSpentQueue changed\n"
+  syntax:
+    content: public const TicketLogFieldChange RealTimeSpentQueue
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const RealTimeSpentQueue As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.NumReplies
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.NumReplies
+  id: NumReplies
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: NumReplies
+  nameWithType: TicketLogFieldChange.NumReplies
+  fullName: SuperOffice.Data.TicketLogFieldChange.NumReplies
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n44: NumReplies changed\n"
+  syntax:
+    content: public const TicketLogFieldChange NumReplies
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const NumReplies As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.NumMessages
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.NumMessages
+  id: NumMessages
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: NumMessages
+  nameWithType: TicketLogFieldChange.NumMessages
+  fullName: SuperOffice.Data.TicketLogFieldChange.NumMessages
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n45: NumMessages changed\n"
+  syntax:
+    content: public const TicketLogFieldChange NumMessages
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const NumMessages As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Tags
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Tags
+  id: Tags
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: TicketLogFieldChange.Tags
+  fullName: SuperOffice.Data.TicketLogFieldChange.Tags
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n46: Tags changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Tags
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Tags As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.SaleId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.SaleId
+  id: SaleId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: TicketLogFieldChange.SaleId
+  fullName: SuperOffice.Data.TicketLogFieldChange.SaleId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n47: SaleId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange SaleId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const SaleId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.ProjectId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.ProjectId
+  id: ProjectId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: TicketLogFieldChange.ProjectId
+  fullName: SuperOffice.Data.TicketLogFieldChange.ProjectId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n48: ProjectId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange ProjectId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const ProjectId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.TicketType
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.TicketType
+  id: TicketType
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: TicketType
+  nameWithType: TicketLogFieldChange.TicketType
+  fullName: SuperOffice.Data.TicketLogFieldChange.TicketType
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n49: TicketType changed\n"
+  syntax:
+    content: public const TicketLogFieldChange TicketType
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const TicketType As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_TicketId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_TicketId
+  id: Message_TicketId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_TicketId
+  nameWithType: TicketLogFieldChange.Message_TicketId
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_TicketId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10001: Message TicketId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_TicketId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_TicketId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_CreatedAt
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_CreatedAt
+  id: Message_CreatedAt
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_CreatedAt
+  nameWithType: TicketLogFieldChange.Message_CreatedAt
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_CreatedAt
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10002: Message CreatedAt changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_CreatedAt
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_CreatedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_CreatedBy
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_CreatedBy
+  id: Message_CreatedBy
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_CreatedBy
+  nameWithType: TicketLogFieldChange.Message_CreatedBy
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_CreatedBy
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10003: Message CreatedBy changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_CreatedBy
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_CreatedBy As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_Author
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_Author
+  id: Message_Author
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_Author
+  nameWithType: TicketLogFieldChange.Message_Author
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_Author
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10004: Message Author changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_Author
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_Author As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_SLevel
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_SLevel
+  id: Message_SLevel
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_SLevel
+  nameWithType: TicketLogFieldChange.Message_SLevel
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_SLevel
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10005: Message SLevel changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_SLevel
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_SLevel As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_Type
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_Type
+  id: Message_Type
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_Type
+  nameWithType: TicketLogFieldChange.Message_Type
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_Type
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10006: Message Type changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_Type
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_Type As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_MessageId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_MessageId
+  id: Message_MessageId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_MessageId
+  nameWithType: TicketLogFieldChange.Message_MessageId
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_MessageId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10007: Message MessageId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_MessageId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_MessageId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_TimeSpent
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_TimeSpent
+  id: Message_TimeSpent
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_TimeSpent
+  nameWithType: TicketLogFieldChange.Message_TimeSpent
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_TimeSpent
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10008: Message TimeSpent changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_TimeSpent
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_TimeSpent As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_Body
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_Body
+  id: Message_Body
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_Body
+  nameWithType: TicketLogFieldChange.Message_Body
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_Body
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10009: Message Body changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_Body
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_Body As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_BodyHtml
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_BodyHtml
+  id: Message_BodyHtml
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_BodyHtml
+  nameWithType: TicketLogFieldChange.Message_BodyHtml
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_BodyHtml
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10010: Message BodyHtml changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_BodyHtml
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_BodyHtml As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_EmailHeader
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_EmailHeader
+  id: Message_EmailHeader
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_EmailHeader
+  nameWithType: TicketLogFieldChange.Message_EmailHeader
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_EmailHeader
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10011: Message EmailHeader changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_EmailHeader
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_EmailHeader As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_ExtraField
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_ExtraField
+  id: Message_ExtraField
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_ExtraField
+  nameWithType: TicketLogFieldChange.Message_ExtraField
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_ExtraField
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10012: Message ExtraField changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_ExtraField
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_ExtraField As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_MailSorter
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_MailSorter
+  id: Message_MailSorter
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_MailSorter
+  nameWithType: TicketLogFieldChange.Message_MailSorter
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_MailSorter
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10013: Message MailSorter changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_MailSorter
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_MailSorter As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_MessageCategory
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_MessageCategory
+  id: Message_MessageCategory
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_MessageCategory
+  nameWithType: TicketLogFieldChange.Message_MessageCategory
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_MessageCategory
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10014: Message MessageCategory changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_MessageCategory
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_MessageCategory As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_CustomerId
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_CustomerId
+  id: Message_CustomerId
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_CustomerId
+  nameWithType: TicketLogFieldChange.Message_CustomerId
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_CustomerId
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10015: Message CustomerId changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_CustomerId
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_CustomerId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketLogFieldChange.Message_DebugInfo
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_DebugInfo
+  id: Message_DebugInfo
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Message_DebugInfo
+  nameWithType: TicketLogFieldChange.Message_DebugInfo
+  fullName: SuperOffice.Data.TicketLogFieldChange.Message_DebugInfo
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10016: Message DebugInfo changed\n"
+  syntax:
+    content: public const TicketLogFieldChange Message_DebugInfo
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: Public Const Message_DebugInfo As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.TicketLogFieldChange.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketLogFieldChange, To>()
+  nameWithType: EnumUtil.MapEnums<TicketLogFieldChange, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogFieldChange, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)()
+  name.vb: MapEnums(Of TicketLogFieldChange, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketLogFieldChange, To>
+    nameWithType: EnumUtil.MapEnums<TicketLogFieldChange, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketLogFieldChange, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketLogFieldChange, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TicketLogFieldChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketLogFieldChange, To>()
+  nameWithType: Converters.MapEnums<TicketLogFieldChange, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketLogFieldChange, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)()
+  name.vb: MapEnums(Of TicketLogFieldChange, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketLogFieldChange, To>
+    nameWithType: Converters.MapEnums<TicketLogFieldChange, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketLogFieldChange, To)
+    nameWithType: Converters.MapEnums(Of TicketLogFieldChange, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.TicketLogFieldChange
+  commentId: T:SuperOffice.Data.TicketLogFieldChange
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketLogFieldChange
+  nameWithType: TicketLogFieldChange
+  fullName: SuperOffice.Data.TicketLogFieldChange

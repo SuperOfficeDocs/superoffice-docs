@@ -11,13 +11,14 @@ items:
   - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.Participant
   - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.ParticipantSecretary
   - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.Unknown
+  - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.value__
   langs:
   - csharp
   - vb
   name: AppointmentMatrix.OwnershipIndex
   nameWithType: AppointmentMatrix.OwnershipIndex
   fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -25,19 +26,54 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public enum OwnershipIndex
-    content.vb: Public Enum OwnershipIndex
+    content: 'public sealed class OwnershipIndex : Enum'
+    content.vb: >-
+      Public NotInheritable Class OwnershipIndex
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
-  - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.value__
+  commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.value__
+  id: value__
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentMatrix.OwnershipIndex.value__
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.Unknown
   commentId: F:SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.Unknown
   id: Unknown
@@ -57,9 +93,10 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nIt is not possible to determine\n"
   syntax:
-    content: Unknown = 0
+    content: public const AppointmentMatrix.OwnershipIndex Unknown
     return:
       type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    content.vb: Public Const Unknown As AppointmentMatrix.OwnershipIndex
   modifiers.csharp:
   - public
   - const
@@ -85,9 +122,10 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nThere are no ownership to the matrix.\n"
   syntax:
-    content: None = 1
+    content: public const AppointmentMatrix.OwnershipIndex None
     return:
       type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    content.vb: Public Const None As AppointmentMatrix.OwnershipIndex
   modifiers.csharp:
   - public
   - const
@@ -113,9 +151,10 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nThe currently logged in user is a secretary working on a participant record.\n"
   syntax:
-    content: ParticipantSecretary = 2
+    content: public const AppointmentMatrix.OwnershipIndex ParticipantSecretary
     return:
       type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    content.vb: Public Const ParticipantSecretary As AppointmentMatrix.OwnershipIndex
   modifiers.csharp:
   - public
   - const
@@ -141,9 +180,10 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nThe currently logged in user is a participant.\n"
   syntax:
-    content: Participant = 3
+    content: public const AppointmentMatrix.OwnershipIndex Participant
     return:
       type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    content.vb: Public Const Participant As AppointmentMatrix.OwnershipIndex
   modifiers.csharp:
   - public
   - const
@@ -169,9 +209,10 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nThe currently logged in user is a secretary and is working on an \nappointment or a booking as the booking owner.  The currently logged in user may or may not be a participant.\n"
   syntax:
-    content: OwnerSecretary = 4
+    content: public const AppointmentMatrix.OwnershipIndex OwnerSecretary
     return:
       type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    content.vb: Public Const OwnerSecretary As AppointmentMatrix.OwnershipIndex
   modifiers.csharp:
   - public
   - const
@@ -197,9 +238,10 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nThe currently logged in user is a\n"
   syntax:
-    content: Owner = 5
+    content: public const AppointmentMatrix.OwnershipIndex Owner
     return:
       type: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+    content.vb: Public Const Owner As AppointmentMatrix.OwnershipIndex
   modifiers.csharp:
   - public
   - const
@@ -213,6 +255,13 @@ references:
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -240,84 +289,6 @@ references:
     name: MapEnums(Of AppointmentMatrix.OwnershipIndex, To)
     nameWithType: EnumUtil.MapEnums(Of AppointmentMatrix.OwnershipIndex, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<AppointmentMatrix.OwnershipIndex>(AppointmentMatrix.OwnershipIndex)
-  nameWithType: ObjectExtensions.AssignByReflection<AppointmentMatrix.OwnershipIndex>(AppointmentMatrix.OwnershipIndex)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex>(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentMatrix.OwnershipIndex)(AppointmentMatrix.OwnershipIndex)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
-  name.vb: AssignByReflection(Of AppointmentMatrix.OwnershipIndex)(AppointmentMatrix.OwnershipIndex)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<AppointmentMatrix.OwnershipIndex>
-    nameWithType: ObjectExtensions.AssignByReflection<AppointmentMatrix.OwnershipIndex>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-    name: AppointmentMatrix.OwnershipIndex
-    nameWithType: AppointmentMatrix.OwnershipIndex
-    fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of AppointmentMatrix.OwnershipIndex)
-    nameWithType: ObjectExtensions.AssignByReflection(Of AppointmentMatrix.OwnershipIndex)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-    name: AppointmentMatrix.OwnershipIndex
-    nameWithType: AppointmentMatrix.OwnershipIndex
-    fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<AppointmentMatrix.OwnershipIndex>()
-  nameWithType: ObjectExtensions.GraphCopy<AppointmentMatrix.OwnershipIndex>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentMatrix.OwnershipIndex)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)()
-  name.vb: GraphCopy(Of AppointmentMatrix.OwnershipIndex)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<AppointmentMatrix.OwnershipIndex>
-    nameWithType: ObjectExtensions.GraphCopy<AppointmentMatrix.OwnershipIndex>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of AppointmentMatrix.OwnershipIndex)
-    nameWithType: ObjectExtensions.GraphCopy(Of AppointmentMatrix.OwnershipIndex)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
     isExternal: true
   - name: (
     nameWithType: (
@@ -359,6 +330,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -404,103 +381,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -547,18 +427,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
   commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
   parent: SuperOffice.CRM.Entities

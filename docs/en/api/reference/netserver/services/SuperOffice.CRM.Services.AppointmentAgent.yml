@@ -14,9 +14,11 @@ items:
   - SuperOffice.CRM.Services.AppointmentAgent.CalculateDays(SuperOffice.CRM.Services.AppointmentEntity)
   - SuperOffice.CRM.Services.AppointmentAgent.CanAssignToProjectMember(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeleted(System.Int32[])
+  - SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.AppointmentAgent.CleanUpRecurringBookingDeleted
   - SuperOffice.CRM.Services.AppointmentAgent.CreateAndAccept(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.AppointmentAgent.CreateAndAcceptWithEmailConfirmation(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
+  - SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
   - SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentForUID(SuperOffice.CRM.Services.AppointmentEntity,System.String)
   - SuperOffice.CRM.Services.AppointmentAgent.CreateDefaultAppointmentEntity
   - SuperOffice.CRM.Services.AppointmentAgent.CreateDefaultAppointmentEntityByType(SuperOffice.Data.TaskType)
@@ -35,6 +37,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentAgent.GetActivityInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
   - SuperOffice.CRM.Services.AppointmentAgent.GetAlarms(System.Boolean,System.Boolean,System.Int32)
   - SuperOffice.CRM.Services.AppointmentAgent.GetAppointment(System.Int32)
+  - SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
   - SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEntity(System.Int32)
   - SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentFromUID(System.String)
   - SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentHaveParticipantsWithEmail(System.Int32)
@@ -56,6 +59,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentAgent.GetMyPublishedAppointments
   - SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
   - SuperOffice.CRM.Services.AppointmentAgent.GetMyTasks(System.Int32)
+  - SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.AppointmentAgent.GetNextSuggestedAppointmentBySale(System.Int32,System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.AppointmentAgent.GetOrganizerName(System.Int32)
   - SuperOffice.CRM.Services.AppointmentAgent.GetPersonAppointments(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32)
@@ -93,8 +97,10 @@ items:
   - SuperOffice.CRM.Services.AppointmentAgent.SaveAppointmentEntity(SuperOffice.CRM.Services.AppointmentEntity)
   - SuperOffice.CRM.Services.AppointmentAgent.SaveSuggestedAppointmentEntity(SuperOffice.CRM.Services.SuggestedAppointmentEntity)
   - SuperOffice.CRM.Services.AppointmentAgent.SaveTaskListItem(SuperOffice.CRM.Services.TaskListItem)
+  - SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.AppointmentAgent.SetActivityStatus(System.String[],SuperOffice.Data.ActivityStatus)
   - SuperOffice.CRM.Services.AppointmentAgent.SetSeen(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
+  - SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.AppointmentAgent.ToggleActivities(System.String[])
   - SuperOffice.CRM.Services.AppointmentAgent.ToggleActivity(System.String)
   - SuperOffice.CRM.Services.AppointmentAgent.ToggleAndSetActivities(System.String[])
@@ -138,13 +144,6 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAppointmentAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAppointmentAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
@@ -600,44 +599,6 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.AppointmentAgent.ToggleAndSetActivities(System.String())
   name.vb: ToggleAndSetActivities(String())
-- uid: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
-  id: GetMySyncAppointments(System.DateTime,System.DateTime)
-  parent: SuperOffice.CRM.Services.AppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: GetMySyncAppointments(DateTime, DateTime)
-  nameWithType: AppointmentAgent.GetMySyncAppointments(DateTime, DateTime)
-  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments(System.DateTime, System.DateTime)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nMethod that returns a specified number of appointments within a time range. The appointments belong to the currently logged on user.\n"
-  syntax:
-    content: public AppointmentSyncData[] GetMySyncAppointments(DateTime startTime, DateTime endTime)
-    parameters:
-    - id: startTime
-      type: System.DateTime
-      description: The start of the time interval in which we want appointments. This will usually be the current time.
-    - id: endTime
-      type: System.DateTime
-      description: The end of the time interval.
-    return:
-      type: SuperOffice.CRM.Services.AppointmentSyncData[]
-      description: Array of Appointments.
-    content.vb: Public Function GetMySyncAppointments(startTime As Date, endTime As Date) As AppointmentSyncData()
-  overload: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments*
-  implements:
-  - SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEntity(System.Int32)
   id: GetAppointmentEntity(System.Int32)
@@ -690,7 +651,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCreates a AppointmentEntity populated with the default values for the specific type.\n"
+  summary: "\nCreates an AppointmentEntity populated with the default values for the specific type.\n"
   syntax:
     content: public AppointmentEntity CreateDefaultAppointmentEntityByType(TaskType type)
     parameters:
@@ -704,6 +665,44 @@ items:
   overload: SuperOffice.CRM.Services.AppointmentAgent.CreateDefaultAppointmentEntityByType*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityByType(SuperOffice.Data.TaskType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
+  id: CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateAppointmentEntityFromExisting(Int32, Int32)
+  nameWithType: AppointmentAgent.CreateAppointmentEntityFromExisting(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates an AppointmentEntity populated with values from an existing appointment. The new appointment will get the same task type and participant list as the source appointment. The date of the new appointment will be set to today, but the time component is kept.\n"
+  syntax:
+    content: public AppointmentEntity CreateAppointmentEntityFromExisting(int appointmentId, int associateId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: Source appointment ID
+    - id: associateId
+      type: System.Int32
+      description: Associate owning the new appointment. If 0 the current associate is used.
+    return:
+      type: SuperOffice.CRM.Services.AppointmentEntity
+      description: AppointmentEntity with values copied from an existing appointment. Values that are not copied will be the default values.
+    content.vb: Public Function CreateAppointmentEntityFromExisting(appointmentId As Integer, associateId As Integer) As AppointmentEntity
+  overload: SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting*
+  implements:
+  - SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1146,7 +1145,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.RecurrenceDate[]
       description: Array of RecurrenceDate object for each validated date.
-    content.vb: Public Function ValidateDays(appointmentEntity As AppointmentEntity, dates As Date()) As RecurrenceDate()
+    content.vb: Public Function ValidateDays(appointmentEntity As AppointmentEntity, dates As DateTime()) As RecurrenceDate()
   overload: SuperOffice.CRM.Services.AppointmentAgent.ValidateDays*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.ValidateDays(SuperOffice.CRM.Services.AppointmentEntity,System.DateTime[])
@@ -1263,6 +1262,44 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  id: SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  parent: SuperOffice.CRM.Services.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: SetSeenMany(Int32[], RecurrenceUpdateMode)
+  nameWithType: AppointmentAgent.SetSeenMany(Int32[], RecurrenceUpdateMode)
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany(System.Int32[], SuperOffice.Data.RecurrenceUpdateMode)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSets a list of appointment invitations to seen. The same update mode will be used for all appointments in this batch.\n"
+  syntax:
+    content: public void SetSeenMany(int[] appointmentIds, RecurrenceUpdateMode updateMode)
+    parameters:
+    - id: appointmentIds
+      type: System.Int32[]
+      description: List of appointment IDs
+    - id: updateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+      description: Update mode for a recurring appointment.
+    content.vb: Public Sub SetSeenMany(appointmentIds As Integer(), updateMode As RecurrenceUpdateMode)
+  overload: SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany*
+  implements:
+  - SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  nameWithType.vb: AppointmentAgent.SetSeenMany(Int32(), RecurrenceUpdateMode)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany(System.Int32(), SuperOffice.Data.RecurrenceUpdateMode)
+  name.vb: SetSeenMany(Int32(), RecurrenceUpdateMode)
 - uid: SuperOffice.CRM.Services.AppointmentAgent.Move(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode)
   commentId: M:SuperOffice.CRM.Services.AppointmentAgent.Move(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode)
   id: Move(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode)
@@ -1296,7 +1333,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.AppointmentEntity
       description: Updated AppointmentEntity
-    content.vb: Public Function Move(appointmentId As Integer, newStartTime As Date, updateMode As RecurrenceUpdateMode) As AppointmentEntity
+    content.vb: Public Function Move(appointmentId As Integer, newStartTime As DateTime, updateMode As RecurrenceUpdateMode) As AppointmentEntity
   overload: SuperOffice.CRM.Services.AppointmentAgent.Move*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.Move(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode)
@@ -1368,7 +1405,7 @@ items:
       description: Date of which the recurring pattern should start.
     return:
       type: SuperOffice.CRM.Services.RecurrenceInfo
-    content.vb: Public Function CreateDefaultRecurrenceByDate(startDate As Date) As RecurrenceInfo
+    content.vb: Public Function CreateDefaultRecurrenceByDate(startDate As DateTime) As RecurrenceInfo
   overload: SuperOffice.CRM.Services.AppointmentAgent.CreateDefaultRecurrenceByDate*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultRecurrenceByDate(System.DateTime)
@@ -1401,6 +1438,7 @@ items:
       type: System.Int32[]
     return:
       type: System.Int32
+      description: Number of modified or deleted appointments
     content.vb: Public Function CleanUpBookingDeleted(appointmentIds As Integer()) As Integer
   overload: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeleted*
   implements:
@@ -1412,6 +1450,44 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeleted(System.Int32())
   name.vb: CleanUpBookingDeleted(Int32())
+- uid: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  id: CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  parent: SuperOffice.CRM.Services.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: CleanUpBookingDeletedWithUpdateMode(Int32[], RecurrenceUpdateMode)
+  nameWithType: AppointmentAgent.CleanUpBookingDeletedWithUpdateMode(Int32[], RecurrenceUpdateMode)
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[], SuperOffice.Data.RecurrenceUpdateMode)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes all appointments(within the appointmentIds array) with status BookingDeleted. All appointments in the list will be deleted using the same recurrence update mode.\n"
+  syntax:
+    content: public void CleanUpBookingDeletedWithUpdateMode(int[] appointmentIds, RecurrenceUpdateMode updateMode)
+    parameters:
+    - id: appointmentIds
+      type: System.Int32[]
+      description: List of appointment IDs
+    - id: updateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+      description: Update mode
+    content.vb: Public Sub CleanUpBookingDeletedWithUpdateMode(appointmentIds As Integer(), updateMode As RecurrenceUpdateMode)
+  overload: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode*
+  implements:
+  - SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  nameWithType.vb: AppointmentAgent.CleanUpBookingDeletedWithUpdateMode(Int32(), RecurrenceUpdateMode)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32(), SuperOffice.Data.RecurrenceUpdateMode)
+  name.vb: CleanUpBookingDeletedWithUpdateMode(Int32(), RecurrenceUpdateMode)
 - uid: SuperOffice.CRM.Services.AppointmentAgent.CleanUpRecurringBookingDeleted
   commentId: M:SuperOffice.CRM.Services.AppointmentAgent.CleanUpRecurringBookingDeleted
   id: CleanUpRecurringBookingDeleted
@@ -2042,6 +2118,102 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+  id: GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+  parent: SuperOffice.CRM.Services.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentEmailInvitation(AppointmentEntity, String, String)
+  nameWithType: AppointmentAgent.GetAppointmentEmailInvitation(AppointmentEntity, String, String)
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate an EMailEntity (without an ical attachment) with the email sent to participants when the appointment is saved\n"
+  syntax:
+    content: public EMailEntity GetAppointmentEmailInvitation(AppointmentEntity appointment, string templateName, string language)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Services.AppointmentEntity
+      description: The appointment carrier with changes made.
+    - id: templateName
+      type: System.String
+      description: Filename of invitation template
+    - id: language
+      type: System.String
+      description: The desired SO-language for the template
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+      description: Email entity with the preview in HTMLBody
+    content.vb: Public Function GetAppointmentEmailInvitation(appointment As AppointmentEntity, templateName As String, language As String) As EMailEntity
+  overload: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation*
+  implements:
+  - SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+  id: SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWithCustomInvitation(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String)
+  nameWithType: AppointmentAgent.SaveWithCustomInvitation(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String)
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity, SuperOffice.Data.RecurrenceUpdateMode, System.Boolean, SuperOffice.CRM.Services.EMailConnectionInfo, SuperOffice.CRM.Services.EMailConnectionInfo, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSave a booking and send a custom invitation email to participants\n"
+  syntax:
+    content: public AppointmentSaveData SaveWithCustomInvitation(AppointmentEntity appointmentEntity, RecurrenceUpdateMode updateMode, bool sendEmailToParticipants, EMailConnectionInfo smtpEMailConnectionInfo, EMailConnectionInfo imapEMailConnectionInfo, string emailBody, string subject, string templateLanguage)
+    parameters:
+    - id: appointmentEntity
+      type: SuperOffice.CRM.Services.AppointmentEntity
+    - id: updateMode
+      type: SuperOffice.Data.RecurrenceUpdateMode
+      description: Update mode for a recurring appointment.
+    - id: sendEmailToParticipants
+      type: System.Boolean
+      description: If true, emails will be sent to all participants that is marked with send email flag. If false no mails will be sent even if the send email flag is true.
+    - id: smtpEMailConnectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: Login information for outgoing smtp email server. Will be null if no login information is relevant.
+    - id: imapEMailConnectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: Login information for imap server. Will be null if no login information is relevant.
+    - id: emailBody
+      type: System.String
+      description: The email-body to be used for new invitations
+    - id: subject
+      type: System.String
+      description: The email-subject to be used for new invitations
+    - id: templateLanguage
+      type: System.String
+      description: The template language to use for invitation updates
+    return:
+      type: SuperOffice.CRM.Services.AppointmentSaveData
+      description: Appointment entity and flag for if email was queued to be sent
+    content.vb: Public Function SaveWithCustomInvitation(appointmentEntity As AppointmentEntity, updateMode As RecurrenceUpdateMode, sendEmailToParticipants As Boolean, smtpEMailConnectionInfo As EMailConnectionInfo, imapEMailConnectionInfo As EMailConnectionInfo, emailBody As String, subject As String, templateLanguage As String) As AppointmentSaveData
+  overload: SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation*
+  implements:
+  - SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentList(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentList(System.Int32[])
   id: GetAppointmentList(System.Int32[])
@@ -2113,7 +2285,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetMyAppointments(startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetMyAppointments(startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetMyAppointments*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetMyAppointments(System.DateTime,System.DateTime,System.Int32)
@@ -2160,7 +2332,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetPersonAppointments(personId As Integer, includeProjectAppointments As Boolean, startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetPersonAppointments(personId As Integer, includeProjectAppointments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetPersonAppointments*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetPersonAppointments(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32)
@@ -2201,7 +2373,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetMyDiary(startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetMyDiary(startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetMyDiary*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetMyDiary(System.DateTime,System.DateTime,System.Int32)
@@ -2280,7 +2452,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetPersonDiary(personId As Integer, startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetPersonDiary(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetPersonDiary*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetPersonDiary(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -2368,7 +2540,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetPersonAppointmentsByType(personId As Integer, includeProjectAppointments As Boolean, startTime As Date, endTime As Date, count As Integer, appointmentType As AppointmentType) As Appointment()
+    content.vb: Public Function GetPersonAppointmentsByType(personId As Integer, includeProjectAppointments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer, appointmentType As AppointmentType) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetPersonAppointmentsByType*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetPersonAppointmentsByType(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.AppointmentType)
@@ -2412,7 +2584,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectAppointments(projectId As Integer, startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetProjectAppointments(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectAppointments*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectAppointments(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -2459,7 +2631,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectAppointmentsByType(projectId As Integer, startTime As Date, endTime As Date, count As Integer, appointmentType As AppointmentType) As Appointment()
+    content.vb: Public Function GetProjectAppointmentsByType(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, appointmentType As AppointmentType) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectAppointmentsByType*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectAppointmentsByType(System.Int32,System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.AppointmentType)
@@ -2503,7 +2675,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetContactAppointments(contactId As Integer, startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetContactAppointments(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetContactAppointments*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetContactAppointments(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -2550,7 +2722,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetContactAppointmentsByType(contactId As Integer, startTime As Date, endTime As Date, count As Integer, appointmentType As AppointmentType) As Appointment()
+    content.vb: Public Function GetContactAppointmentsByType(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, appointmentType As AppointmentType) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetContactAppointmentsByType*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetContactAppointmentsByType(System.Int32,System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.AppointmentType)
@@ -2594,7 +2766,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectMemberAppointments(personId As Integer, startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetProjectMemberAppointments(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectMemberAppointments*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectMemberAppointments(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -2641,7 +2813,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectMemberAppointmentsByType(personId As Integer, startTime As Date, endTime As Date, count As Integer, appointmentType As AppointmentType) As Appointment()
+    content.vb: Public Function GetProjectMemberAppointmentsByType(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, appointmentType As AppointmentType) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectMemberAppointmentsByType*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectMemberAppointmentsByType(System.Int32,System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.AppointmentType)
@@ -2691,7 +2863,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetPersonAppointmentsByTask(personId As Integer, includeProjectAppointments As Boolean, startTime As Date, endTime As Date, count As Integer, taskId As Integer) As Appointment()
+    content.vb: Public Function GetPersonAppointmentsByTask(personId As Integer, includeProjectAppointments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer, taskId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetPersonAppointmentsByTask*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetPersonAppointmentsByTask(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -2741,7 +2913,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetPersonAppointmentsByTasks(personId As Integer, includeProjectAppointments As Boolean, startTime As Date, endTime As Date, count As Integer, taskIds As Integer()) As Appointment()
+    content.vb: Public Function GetPersonAppointmentsByTasks(personId As Integer, includeProjectAppointments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer, taskIds As Integer()) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetPersonAppointmentsByTasks*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetPersonAppointmentsByTasks(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32[])
@@ -2794,7 +2966,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetPersonAppointmentsByTaskHeading(personId As Integer, includeProjectAppointments As Boolean, startTime As Date, endTime As Date, count As Integer, taskHeadingId As Integer) As Appointment()
+    content.vb: Public Function GetPersonAppointmentsByTaskHeading(personId As Integer, includeProjectAppointments As Boolean, startTime As DateTime, endTime As DateTime, count As Integer, taskHeadingId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetPersonAppointmentsByTaskHeading*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetPersonAppointmentsByTaskHeading(System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -2841,7 +3013,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectAppointmentsByTask(projectId As Integer, startTime As Date, endTime As Date, count As Integer, taskId As Integer) As Appointment()
+    content.vb: Public Function GetProjectAppointmentsByTask(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectAppointmentsByTask*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectAppointmentsByTask(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -2888,7 +3060,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectAppointmentsByTasks(projectId As Integer, startTime As Date, endTime As Date, count As Integer, taskIds As Integer()) As Appointment()
+    content.vb: Public Function GetProjectAppointmentsByTasks(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskIds As Integer()) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectAppointmentsByTasks*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectAppointmentsByTasks(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32[])
@@ -2938,7 +3110,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectAppointmentsByTaskHeading(projectId As Integer, startTime As Date, endTime As Date, count As Integer, taskHeadingId As Integer) As Appointment()
+    content.vb: Public Function GetProjectAppointmentsByTaskHeading(projectId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskHeadingId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectAppointmentsByTaskHeading*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectAppointmentsByTaskHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -2985,7 +3157,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectMemberAppointmentsByTask(personId As Integer, startTime As Date, endTime As Date, count As Integer, taskId As Integer) As Appointment()
+    content.vb: Public Function GetProjectMemberAppointmentsByTask(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectMemberAppointmentsByTask*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectMemberAppointmentsByTask(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -3032,7 +3204,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectMemberAppointmentsByTasks(personId As Integer, startTime As Date, endTime As Date, count As Integer, taskIds As Integer()) As Appointment()
+    content.vb: Public Function GetProjectMemberAppointmentsByTasks(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskIds As Integer()) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectMemberAppointmentsByTasks*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectMemberAppointmentsByTasks(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32[])
@@ -3082,7 +3254,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetProjectMemberAppointmentsByTaskHeading(personId As Integer, startTime As Date, endTime As Date, count As Integer, taskHeadingId As Integer) As Appointment()
+    content.vb: Public Function GetProjectMemberAppointmentsByTaskHeading(personId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskHeadingId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetProjectMemberAppointmentsByTaskHeading*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -3129,7 +3301,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetContactAppointmentsByTask(contactId As Integer, startTime As Date, endTime As Date, count As Integer, taskId As Integer) As Appointment()
+    content.vb: Public Function GetContactAppointmentsByTask(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetContactAppointmentsByTask*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetContactAppointmentsByTask(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -3176,7 +3348,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetContactAppointmentsByTasks(contactId As Integer, startTime As Date, endTime As Date, count As Integer, taskIds As Integer()) As Appointment()
+    content.vb: Public Function GetContactAppointmentsByTasks(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskIds As Integer()) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetContactAppointmentsByTasks*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetContactAppointmentsByTasks(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32[])
@@ -3226,7 +3398,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment[]
       description: Array of Appointments.
-    content.vb: Public Function GetContactAppointmentsByTaskHeading(contactId As Integer, startTime As Date, endTime As Date, count As Integer, taskHeadingId As Integer) As Appointment()
+    content.vb: Public Function GetContactAppointmentsByTaskHeading(contactId As Integer, startTime As DateTime, endTime As DateTime, count As Integer, taskHeadingId As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetContactAppointmentsByTaskHeading*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetContactAppointmentsByTaskHeading(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)
@@ -3439,7 +3611,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.CRM.Services.Appointment[]
-    content.vb: Public Function GetAssociateDiary(associateId As Integer, startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetAssociateDiary(associateId As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetAssociateDiary*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetAssociateDiary(System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -3480,7 +3652,7 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.CRM.Services.Appointment[]
-    content.vb: Public Function GetDiaryByGroup(groupId As Integer, groupType As Integer, startTime As Date, endTime As Date, count As Integer) As Appointment()
+    content.vb: Public Function GetDiaryByGroup(groupId As Integer, groupType As Integer, startTime As DateTime, endTime As DateTime, count As Integer) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetDiaryByGroup*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetDiaryByGroup(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Int32)
@@ -3524,7 +3696,7 @@ items:
       description: The appointment owner&apos;s id (associate id)
     return:
       type: SuperOffice.CRM.Services.Appointment
-    content.vb: Public Function UpdateAppointment(id As Integer, startTime As Date, endTime As Date, status As Integer, type As Integer, associateId As Integer) As Appointment
+    content.vb: Public Function UpdateAppointment(id As Integer, startTime As DateTime, endTime As DateTime, status As Integer, type As Integer, associateId As Integer) As Appointment
   overload: SuperOffice.CRM.Services.AppointmentAgent.UpdateAppointment*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointment(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32)
@@ -3561,7 +3733,7 @@ items:
       type: System.DateTime
     return:
       type: SuperOffice.CRM.Services.Appointment[]
-    content.vb: Public Function GetAssociatesDiary(associateIds As Integer(), startTime As Date, endTime As Date) As Appointment()
+    content.vb: Public Function GetAssociatesDiary(associateIds As Integer(), startTime As DateTime, endTime As DateTime) As Appointment()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetAssociatesDiary*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetAssociatesDiary(System.Int32[],System.DateTime,System.DateTime)
@@ -3609,6 +3781,44 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
+  id: GetMySyncAppointments(System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMySyncAppointments(DateTime, DateTime)
+  nameWithType: AppointmentAgent.GetMySyncAppointments(DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod that returns a specified number of appointments within a time range. The appointments belong to the currently logged on user.\n"
+  syntax:
+    content: public AppointmentSyncData[] GetMySyncAppointments(DateTime startTime, DateTime endTime)
+    parameters:
+    - id: startTime
+      type: System.DateTime
+      description: The start of the time interval in which we want appointments. This will usually be the current time.
+    - id: endTime
+      type: System.DateTime
+      description: The end of the time interval.
+    return:
+      type: SuperOffice.CRM.Services.AppointmentSyncData[]
+      description: Array of Appointments.
+    content.vb: Public Function GetMySyncAppointments(startTime As DateTime, endTime As DateTime) As AppointmentSyncData()
+  overload: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments*
+  implements:
+  - SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GetDayInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GetDayInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
   id: GetDayInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
@@ -3642,7 +3852,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.DayInformationListItem[]
       description: Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
-    content.vb: Public Function GetDayInformationListByDatesAndAssociate(startDate As Date, endDate As Date, associateId As Integer) As DayInformationListItem()
+    content.vb: Public Function GetDayInformationListByDatesAndAssociate(startDate As DateTime, endDate As DateTime, associateId As Integer) As DayInformationListItem()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetDayInformationListByDatesAndAssociate*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetDayInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
@@ -3683,7 +3893,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.ActivityInformationListItem[]
       description: Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
-    content.vb: Public Function GetActivityInformationListByDatesAndAssociate(startDate As Date, endDate As Date, associateId As Integer) As ActivityInformationListItem()
+    content.vb: Public Function GetActivityInformationListByDatesAndAssociate(startDate As DateTime, endDate As DateTime, associateId As Integer) As ActivityInformationListItem()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetActivityInformationListByDatesAndAssociate*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetActivityInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
@@ -3724,7 +3934,7 @@ items:
     return:
       type: SuperOffice.CRM.Services.RedLetterInformationListItem[]
       description: Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
-    content.vb: Public Function GetRedLetterInformationListByDatesAndAssociate(startDate As Date, endDate As Date, associateId As Integer) As RedLetterInformationListItem()
+    content.vb: Public Function GetRedLetterInformationListByDatesAndAssociate(startDate As DateTime, endDate As DateTime, associateId As Integer) As RedLetterInformationListItem()
   overload: SuperOffice.CRM.Services.AppointmentAgent.GetRedLetterInformationListByDatesAndAssociate*
   implements:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
@@ -3769,6 +3979,56 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  id: GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextAvailableTime(Int32[], DateTime, DateTime, Int32, Boolean)
+  nameWithType: AppointmentAgent.GetNextAvailableTime(Int32[], DateTime, DateTime, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime(System.Int32[], System.DateTime, System.DateTime, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn array of the soonest-available working time slots.\n"
+  syntax:
+    content: public NextAvailableTime[] GetNextAvailableTime(int[] associates, DateTime startTime, DateTime endTime, int count, bool isAllDay)
+    parameters:
+    - id: associates
+      type: System.Int32[]
+      description: Associate participants we want to account for while finding the next available times.
+    - id: startTime
+      type: System.DateTime
+      description: 'The start of the time interval we want appointments from. '
+    - id: endTime
+      type: System.DateTime
+      description: The end of the time interval.
+    - id: count
+      type: System.Int32
+      description: How many next-available date time slots should be returned.
+    - id: isAllDay
+      type: System.Boolean
+      description: Is the appointment an all day event.
+    return:
+      type: SuperOffice.CRM.Services.NextAvailableTime[]
+      description: Array of the soonest-available working time slots.
+    content.vb: Public Function GetNextAvailableTime(associates As Integer(), startTime As DateTime, endTime As DateTime, count As Integer, isAllDay As Boolean) As NextAvailableTime()
+  overload: SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime*
+  implements:
+  - SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  nameWithType.vb: AppointmentAgent.GetNextAvailableTime(Int32(), DateTime, DateTime, Int32, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime(System.Int32(), System.DateTime, System.DateTime, System.Int32, System.Boolean)
+  name.vb: GetNextAvailableTime(Int32(), DateTime, DateTime, Int32, Boolean)
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GenerateLead(System.Int32,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.AppointmentAgent.GenerateLead(System.Int32,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
   id: GenerateLead(System.Int32,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
@@ -4065,13 +4325,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAppointmentAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAppointmentAgent}
   parent: SuperOffice.CRM.Services
@@ -4117,8 +4370,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -4179,291 +4430,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAppointmentAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IAppointmentAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAppointmentAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -4688,6 +4654,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AppointmentAgent.CreateDefaultSuggestedAppointmentEntity*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.CreateDefaultSuggestedAppointmentEntity
   isExternal: true
@@ -5245,102 +5217,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments*
-  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments
-  isExternal: true
-  name: GetMySyncAppointments
-  nameWithType: AppointmentAgent.GetMySyncAppointments
-  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  isExternal: true
-  name: GetMySyncAppointments(DateTime, DateTime)
-  nameWithType: IAppointmentAgent.GetMySyncAppointments(DateTime, DateTime)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime, System.DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
-    name: GetMySyncAppointments
-    nameWithType: IAppointmentAgent.GetMySyncAppointments
-    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
-    name: GetMySyncAppointments
-    nameWithType: IAppointmentAgent.GetMySyncAppointments
-    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: SuperOffice.CRM.Services.AppointmentSyncData[]
-  isExternal: true
-  name: AppointmentSyncData[]
-  nameWithType: AppointmentSyncData[]
-  fullName: SuperOffice.CRM.Services.AppointmentSyncData[]
-  nameWithType.vb: AppointmentSyncData()
-  fullName.vb: SuperOffice.CRM.Services.AppointmentSyncData()
-  name.vb: AppointmentSyncData()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.AppointmentSyncData
-    name: AppointmentSyncData
-    nameWithType: AppointmentSyncData
-    fullName: SuperOffice.CRM.Services.AppointmentSyncData
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.AppointmentSyncData
-    name: AppointmentSyncData
-    nameWithType: AppointmentSyncData
-    fullName: SuperOffice.CRM.Services.AppointmentSyncData
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEntity*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEntity
   isExternal: true
@@ -5440,6 +5316,69 @@ references:
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.Data.TaskType
+- uid: SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting
+  isExternal: true
+  name: CreateAppointmentEntityFromExisting
+  nameWithType: AppointmentAgent.CreateAppointmentEntityFromExisting
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.CreateAppointmentEntityFromExisting
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  isExternal: true
+  name: CreateAppointmentEntityFromExisting(Int32, Int32)
+  nameWithType: IAppointmentAgent.CreateAppointmentEntityFromExisting(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
+    name: CreateAppointmentEntityFromExisting
+    nameWithType: IAppointmentAgent.CreateAppointmentEntityFromExisting
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
+    name: CreateAppointmentEntityFromExisting
+    nameWithType: IAppointmentAgent.CreateAppointmentEntityFromExisting
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AppointmentAgent.Accept*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.Accept
   isExternal: true
@@ -6561,6 +6500,104 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany
+  isExternal: true
+  name: SetSeenMany
+  nameWithType: AppointmentAgent.SetSeenMany
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.SetSeenMany
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  isExternal: true
+  name: SetSeenMany(Int32[], RecurrenceUpdateMode)
+  nameWithType: IAppointmentAgent.SetSeenMany(Int32[], RecurrenceUpdateMode)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany(System.Int32[], SuperOffice.Data.RecurrenceUpdateMode)
+  nameWithType.vb: IAppointmentAgent.SetSeenMany(Int32(), RecurrenceUpdateMode)
+  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany(System.Int32(), SuperOffice.Data.RecurrenceUpdateMode)
+  name.vb: SetSeenMany(Int32(), RecurrenceUpdateMode)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+    name: SetSeenMany
+    nameWithType: IAppointmentAgent.SetSeenMany
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.RecurrenceUpdateMode
+    name: RecurrenceUpdateMode
+    nameWithType: RecurrenceUpdateMode
+    fullName: SuperOffice.Data.RecurrenceUpdateMode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+    name: SetSeenMany
+    nameWithType: IAppointmentAgent.SetSeenMany
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.SetSeenMany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.RecurrenceUpdateMode
+    name: RecurrenceUpdateMode
+    nameWithType: RecurrenceUpdateMode
+    fullName: SuperOffice.Data.RecurrenceUpdateMode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.AppointmentAgent.Move*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.Move
   isExternal: true
@@ -6640,6 +6677,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: SuperOffice.CRM.Services.AppointmentAgent.AcceptRejected*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.AcceptRejected
   isExternal: true
@@ -6806,15 +6848,31 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32[]
+- uid: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode
   isExternal: true
-  name: Int32[]
-  nameWithType: Int32[]
-  fullName: System.Int32[]
-  nameWithType.vb: Int32()
-  fullName.vb: System.Int32()
-  name.vb: Int32()
+  name: CleanUpBookingDeletedWithUpdateMode
+  nameWithType: AppointmentAgent.CleanUpBookingDeletedWithUpdateMode
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.CleanUpBookingDeletedWithUpdateMode
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  isExternal: true
+  name: CleanUpBookingDeletedWithUpdateMode(Int32[], RecurrenceUpdateMode)
+  nameWithType: IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(Int32[], RecurrenceUpdateMode)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[], SuperOffice.Data.RecurrenceUpdateMode)
+  nameWithType.vb: IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(Int32(), RecurrenceUpdateMode)
+  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32(), SuperOffice.Data.RecurrenceUpdateMode)
+  name.vb: CleanUpBookingDeletedWithUpdateMode(Int32(), RecurrenceUpdateMode)
   spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+    name: CleanUpBookingDeletedWithUpdateMode
+    nameWithType: IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
@@ -6823,7 +6881,26 @@ references:
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.RecurrenceUpdateMode
+    name: RecurrenceUpdateMode
+    nameWithType: RecurrenceUpdateMode
+    fullName: SuperOffice.Data.RecurrenceUpdateMode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
+    name: CleanUpBookingDeletedWithUpdateMode
+    nameWithType: IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
     name: Int32
     nameWithType: Int32
@@ -6832,6 +6909,17 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.RecurrenceUpdateMode
+    name: RecurrenceUpdateMode
+    nameWithType: RecurrenceUpdateMode
+    fullName: SuperOffice.Data.RecurrenceUpdateMode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AppointmentAgent.CleanUpRecurringBookingDeleted*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.CleanUpRecurringBookingDeleted
   isExternal: true
@@ -7684,18 +7772,10 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Services.AppointmentAgent.ValidateAppointmentEntity*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.ValidateAppointmentEntity
   isExternal: true
@@ -7969,6 +8049,258 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation
+  isExternal: true
+  name: GetAppointmentEmailInvitation
+  nameWithType: AppointmentAgent.GetAppointmentEmailInvitation
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentEmailInvitation
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  isExternal: true
+  name: GetAppointmentEmailInvitation(AppointmentEntity, String, String)
+  nameWithType: IAppointmentAgent.GetAppointmentEmailInvitation(AppointmentEntity, String, String)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+    name: GetAppointmentEmailInvitation
+    nameWithType: IAppointmentAgent.GetAppointmentEmailInvitation
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    nameWithType: AppointmentEntity
+    fullName: SuperOffice.CRM.Services.AppointmentEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation(SuperOffice.CRM.Services.AppointmentEntity,System.String,System.String)
+    name: GetAppointmentEmailInvitation
+    nameWithType: IAppointmentAgent.GetAppointmentEmailInvitation
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEmailInvitation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    nameWithType: AppointmentEntity
+    fullName: SuperOffice.CRM.Services.AppointmentEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailEntity
+  commentId: T:SuperOffice.CRM.Services.EMailEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EMailEntity
+  nameWithType: EMailEntity
+  fullName: SuperOffice.CRM.Services.EMailEntity
+- uid: SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation
+  isExternal: true
+  name: SaveWithCustomInvitation
+  nameWithType: AppointmentAgent.SaveWithCustomInvitation
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.SaveWithCustomInvitation
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  isExternal: true
+  name: SaveWithCustomInvitation(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String)
+  nameWithType: IAppointmentAgent.SaveWithCustomInvitation(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity, SuperOffice.Data.RecurrenceUpdateMode, System.Boolean, SuperOffice.CRM.Services.EMailConnectionInfo, SuperOffice.CRM.Services.EMailConnectionInfo, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+    name: SaveWithCustomInvitation
+    nameWithType: IAppointmentAgent.SaveWithCustomInvitation
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    nameWithType: AppointmentEntity
+    fullName: SuperOffice.CRM.Services.AppointmentEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.RecurrenceUpdateMode
+    name: RecurrenceUpdateMode
+    nameWithType: RecurrenceUpdateMode
+    fullName: SuperOffice.Data.RecurrenceUpdateMode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    nameWithType: EMailConnectionInfo
+    fullName: SuperOffice.CRM.Services.EMailConnectionInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    nameWithType: EMailConnectionInfo
+    fullName: SuperOffice.CRM.Services.EMailConnectionInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.String)
+    name: SaveWithCustomInvitation
+    nameWithType: IAppointmentAgent.SaveWithCustomInvitation
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    nameWithType: AppointmentEntity
+    fullName: SuperOffice.CRM.Services.AppointmentEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.RecurrenceUpdateMode
+    name: RecurrenceUpdateMode
+    nameWithType: RecurrenceUpdateMode
+    fullName: SuperOffice.Data.RecurrenceUpdateMode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    nameWithType: EMailConnectionInfo
+    fullName: SuperOffice.CRM.Services.EMailConnectionInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    nameWithType: EMailConnectionInfo
+    fullName: SuperOffice.CRM.Services.EMailConnectionInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AppointmentSaveData
+  commentId: T:SuperOffice.CRM.Services.AppointmentSaveData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AppointmentSaveData
+  nameWithType: AppointmentSaveData
+  fullName: SuperOffice.CRM.Services.AppointmentSaveData
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentList*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GetAppointmentList
   isExternal: true
@@ -11409,6 +11741,95 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments
+  isExternal: true
+  name: GetMySyncAppointments
+  nameWithType: AppointmentAgent.GetMySyncAppointments
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetMySyncAppointments
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  isExternal: true
+  name: GetMySyncAppointments(DateTime, DateTime)
+  nameWithType: IAppointmentAgent.GetMySyncAppointments(DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime, System.DateTime)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
+    name: GetMySyncAppointments
+    nameWithType: IAppointmentAgent.GetMySyncAppointments
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments(System.DateTime,System.DateTime)
+    name: GetMySyncAppointments
+    nameWithType: IAppointmentAgent.GetMySyncAppointments
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetMySyncAppointments
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AppointmentSyncData[]
+  isExternal: true
+  name: AppointmentSyncData[]
+  nameWithType: AppointmentSyncData[]
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData[]
+  nameWithType.vb: AppointmentSyncData()
+  fullName.vb: SuperOffice.CRM.Services.AppointmentSyncData()
+  name.vb: AppointmentSyncData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AppointmentSyncData
+    name: AppointmentSyncData
+    nameWithType: AppointmentSyncData
+    fullName: SuperOffice.CRM.Services.AppointmentSyncData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AppointmentSyncData
+    name: AppointmentSyncData
+    nameWithType: AppointmentSyncData
+    fullName: SuperOffice.CRM.Services.AppointmentSyncData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GetDayInformationListByDatesAndAssociate*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GetDayInformationListByDatesAndAssociate
   isExternal: true
@@ -11810,6 +12231,152 @@ references:
   name: MultiAlarmData
   nameWithType: MultiAlarmData
   fullName: SuperOffice.CRM.Services.MultiAlarmData
+- uid: SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime
+  isExternal: true
+  name: GetNextAvailableTime
+  nameWithType: AppointmentAgent.GetNextAvailableTime
+  fullName: SuperOffice.CRM.Services.AppointmentAgent.GetNextAvailableTime
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  isExternal: true
+  name: GetNextAvailableTime(Int32[], DateTime, DateTime, Int32, Boolean)
+  nameWithType: IAppointmentAgent.GetNextAvailableTime(Int32[], DateTime, DateTime, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime(System.Int32[], System.DateTime, System.DateTime, System.Int32, System.Boolean)
+  nameWithType.vb: IAppointmentAgent.GetNextAvailableTime(Int32(), DateTime, DateTime, Int32, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime(System.Int32(), System.DateTime, System.DateTime, System.Int32, System.Boolean)
+  name.vb: GetNextAvailableTime(Int32(), DateTime, DateTime, Int32, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+    name: GetNextAvailableTime
+    nameWithType: IAppointmentAgent.GetNextAvailableTime
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime(System.Int32[],System.DateTime,System.DateTime,System.Int32,System.Boolean)
+    name: GetNextAvailableTime
+    nameWithType: IAppointmentAgent.GetNextAvailableTime
+    fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetNextAvailableTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.NextAvailableTime[]
+  isExternal: true
+  name: NextAvailableTime[]
+  nameWithType: NextAvailableTime[]
+  fullName: SuperOffice.CRM.Services.NextAvailableTime[]
+  nameWithType.vb: NextAvailableTime()
+  fullName.vb: SuperOffice.CRM.Services.NextAvailableTime()
+  name.vb: NextAvailableTime()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.NextAvailableTime
+    name: NextAvailableTime
+    nameWithType: NextAvailableTime
+    fullName: SuperOffice.CRM.Services.NextAvailableTime
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.NextAvailableTime
+    name: NextAvailableTime
+    nameWithType: NextAvailableTime
+    fullName: SuperOffice.CRM.Services.NextAvailableTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.AppointmentAgent.GenerateLead*
   commentId: Overload:SuperOffice.CRM.Services.AppointmentAgent.GenerateLead
   isExternal: true

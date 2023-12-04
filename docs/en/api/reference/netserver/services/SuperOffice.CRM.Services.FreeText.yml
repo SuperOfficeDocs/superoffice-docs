@@ -326,7 +326,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastGenerated As Date
+    content.vb: Public Overridable Property LastGenerated As DateTime
   overload: SuperOffice.CRM.Services.FreeText.LastGenerated*
   modifiers.csharp:
   - public
@@ -376,13 +376,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.FreeTextAgent
   commentId: T:SuperOffice.CRM.Services.FreeTextAgent
   isExternal: true
@@ -396,12 +389,6 @@ references:
   name: IFreeTextAgent
   nameWithType: IFreeTextAgent
   fullName: SuperOffice.CRM.Services.IFreeTextAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.FreeText.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.FreeText.#ctor
   isExternal: true
@@ -421,6 +408,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.FreeText.FreeTextEnabled*
   commentId: Overload:SuperOffice.CRM.Services.FreeText.FreeTextEnabled
   isExternal: true
@@ -477,8 +470,6 @@ references:
   nameWithType: FreeText.LastGenerated
   fullName: SuperOffice.CRM.Services.FreeText.LastGenerated
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

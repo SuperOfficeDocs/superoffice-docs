@@ -23,6 +23,7 @@ items:
     content: 'public interface IProjectDuplicateRule : IDuplicateRule, IPlugin'
     content.vb: >-
       Public Interface IProjectDuplicateRule
+
           Inherits IDuplicateRule, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])

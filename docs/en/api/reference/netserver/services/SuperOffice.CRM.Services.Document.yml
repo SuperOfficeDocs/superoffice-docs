@@ -22,6 +22,8 @@ items:
   - SuperOffice.CRM.Services.Document.PersonId
   - SuperOffice.CRM.Services.Document.ProjectId
   - SuperOffice.CRM.Services.Document.ProjectName
+  - SuperOffice.CRM.Services.Document.SaleId
+  - SuperOffice.CRM.Services.Document.SaleName
   - SuperOffice.CRM.Services.Document.Snum
   - SuperOffice.CRM.Services.Document.ToString
   - SuperOffice.CRM.Services.Document.ToString(System.String)
@@ -745,6 +747,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.Document.SaleId
+  commentId: P:SuperOffice.CRM.Services.Document.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Document.SaleId
+  fullName: SuperOffice.CRM.Services.Document.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOwning sale, if any (may be 0) \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.Document.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.SaleName
+  commentId: P:SuperOffice.CRM.Services.Document.SaleName
+  id: SaleName
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: SaleName
+  nameWithType: Document.SaleName
+  fullName: SuperOffice.CRM.Services.Document.SaleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHeading of Owning sale, if any. (may be blank) \n"
+  syntax:
+    content: public virtual string SaleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleName As String
+  overload: SuperOffice.CRM.Services.Document.SaleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -752,13 +820,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.DocumentAgent
   commentId: T:SuperOffice.CRM.Services.DocumentAgent
   isExternal: true
@@ -772,12 +833,6 @@ references:
   name: IDocumentAgent
   nameWithType: IDocumentAgent
   fullName: SuperOffice.CRM.Services.IDocumentAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Document.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Document.#ctor
   isExternal: true
@@ -797,6 +852,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Document.DocumentId*
   commentId: Overload:SuperOffice.CRM.Services.Document.DocumentId
   isExternal: true
@@ -919,3 +980,15 @@ references:
   name: Snum
   nameWithType: Document.Snum
   fullName: SuperOffice.CRM.Services.Document.Snum
+- uid: SuperOffice.CRM.Services.Document.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.Document.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Document.SaleId
+  fullName: SuperOffice.CRM.Services.Document.SaleId
+- uid: SuperOffice.CRM.Services.Document.SaleName*
+  commentId: Overload:SuperOffice.CRM.Services.Document.SaleName
+  isExternal: true
+  name: SaleName
+  nameWithType: Document.SaleName
+  fullName: SuperOffice.CRM.Services.Document.SaleName

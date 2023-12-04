@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.SplitSettings
+  commentId: T:SuperOffice.CRM.Workflow.SplitSettings
+  id: SplitSettings
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.SplitSettings.#ctor
+  - SuperOffice.CRM.Workflow.SplitSettings.ExitFlow
+  - SuperOffice.CRM.Workflow.SplitSettings.ShipmentId
+  - SuperOffice.CRM.Workflow.SplitSettings.SplitName
+  - SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType
+  langs:
+  - csharp
+  - vb
+  name: SplitSettings
+  nameWithType: SplitSettings
+  fullName: SuperOffice.CRM.Workflow.SplitSettings
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class SplitSettings : StepSettings'
+    content.vb: >-
+      Public Class SplitSettings
+
+          Inherits StepSettings
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Workflow.StepSettings
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.SplitSettings.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.SplitSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.SplitSettings)
+  - SuperOffice.CRM.Workflow.SplitSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Workflow.SplitSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Workflow.SplitSettings.#ctor
+  commentId: M:SuperOffice.CRM.Workflow.SplitSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Workflow.SplitSettings
+  langs:
+  - csharp
+  - vb
+  name: SplitSettings()
+  nameWithType: SplitSettings.SplitSettings()
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.SplitSettings()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public SplitSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Workflow.SplitSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType
+  commentId: P:SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType
+  id: SplitOptionType
+  parent: SuperOffice.CRM.Workflow.SplitSettings
+  langs:
+  - csharp
+  - vb
+  name: SplitOptionType
+  nameWithType: SplitSettings.SplitOptionType
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public WorkflowSplitOptionType SplitOptionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowSplitOptionType
+    content.vb: Public Property SplitOptionType As WorkflowSplitOptionType
+  overload: SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.SplitSettings.ShipmentId
+  commentId: P:SuperOffice.CRM.Workflow.SplitSettings.ShipmentId
+  id: ShipmentId
+  parent: SuperOffice.CRM.Workflow.SplitSettings
+  langs:
+  - csharp
+  - vb
+  name: ShipmentId
+  nameWithType: SplitSettings.ShipmentId
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.ShipmentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public int ShipmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ShipmentId As Integer
+  overload: SuperOffice.CRM.Workflow.SplitSettings.ShipmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.SplitSettings.SplitName
+  commentId: P:SuperOffice.CRM.Workflow.SplitSettings.SplitName
+  id: SplitName
+  parent: SuperOffice.CRM.Workflow.SplitSettings
+  langs:
+  - csharp
+  - vb
+  name: SplitName
+  nameWithType: SplitSettings.SplitName
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.SplitName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public string SplitName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SplitName As String
+  overload: SuperOffice.CRM.Workflow.SplitSettings.SplitName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.SplitSettings.ExitFlow
+  commentId: P:SuperOffice.CRM.Workflow.SplitSettings.ExitFlow
+  id: ExitFlow
+  parent: SuperOffice.CRM.Workflow.SplitSettings
+  langs:
+  - csharp
+  - vb
+  name: ExitFlow
+  nameWithType: SplitSettings.ExitFlow
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.ExitFlow
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public bool ExitFlow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ExitFlow As Boolean
+  overload: SuperOffice.CRM.Workflow.SplitSettings.ExitFlow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.StepSettings
+  commentId: T:SuperOffice.CRM.Workflow.StepSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: StepSettings
+  nameWithType: StepSettings
+  fullName: SuperOffice.CRM.Workflow.StepSettings
+- uid: SuperOffice.CRM.Workflow.SplitSettings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SplitSettings, To>()
+  nameWithType: EnumUtil.MapEnums<SplitSettings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.SplitSettings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SplitSettings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.SplitSettings, To)()
+  name.vb: MapEnums(Of SplitSettings, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SplitSettings, To>
+    nameWithType: EnumUtil.MapEnums<SplitSettings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.SplitSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SplitSettings, To)
+    nameWithType: EnumUtil.MapEnums(Of SplitSettings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.SplitSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.SplitSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Workflow.SplitSettings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SplitSettings>(SplitSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<SplitSettings>(SplitSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.SplitSettings>(SuperOffice.CRM.Workflow.SplitSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SplitSettings)(SplitSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.SplitSettings)(SuperOffice.CRM.Workflow.SplitSettings)
+  name.vb: AssignByReflection(Of SplitSettings)(SplitSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SplitSettings>
+    nameWithType: ObjectExtensions.AssignByReflection<SplitSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Workflow.SplitSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.SplitSettings
+    name: SplitSettings
+    nameWithType: SplitSettings
+    fullName: SuperOffice.CRM.Workflow.SplitSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SplitSettings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SplitSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Workflow.SplitSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Workflow.SplitSettings
+    name: SplitSettings
+    nameWithType: SplitSettings
+    fullName: SuperOffice.CRM.Workflow.SplitSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.SplitSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SplitSettings>()
+  nameWithType: ObjectExtensions.GraphCopy<SplitSettings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.SplitSettings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SplitSettings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.SplitSettings)()
+  name.vb: GraphCopy(Of SplitSettings)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SplitSettings>
+    nameWithType: ObjectExtensions.GraphCopy<SplitSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Workflow.SplitSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SplitSettings)
+    nameWithType: ObjectExtensions.GraphCopy(Of SplitSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Workflow.SplitSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.SplitSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SplitSettings, To>()
+  nameWithType: Converters.MapEnums<SplitSettings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.SplitSettings, To>()
+  nameWithType.vb: Converters.MapEnums(Of SplitSettings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.SplitSettings, To)()
+  name.vb: MapEnums(Of SplitSettings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SplitSettings, To>
+    nameWithType: Converters.MapEnums<SplitSettings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.SplitSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SplitSettings, To)
+    nameWithType: Converters.MapEnums(Of SplitSettings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.SplitSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Workflow.SplitSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.SplitSettings.#ctor
+  isExternal: true
+  name: SplitSettings
+  nameWithType: SplitSettings.SplitSettings
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.SplitSettings
+- uid: SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType*
+  commentId: Overload:SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType
+  isExternal: true
+  name: SplitOptionType
+  nameWithType: SplitSettings.SplitOptionType
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.SplitOptionType
+- uid: SuperOffice.Data.WorkflowSplitOptionType
+  commentId: T:SuperOffice.Data.WorkflowSplitOptionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: SuperOffice.Data.WorkflowSplitOptionType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Workflow.SplitSettings.ShipmentId*
+  commentId: Overload:SuperOffice.CRM.Workflow.SplitSettings.ShipmentId
+  isExternal: true
+  name: ShipmentId
+  nameWithType: SplitSettings.ShipmentId
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.ShipmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Workflow.SplitSettings.SplitName*
+  commentId: Overload:SuperOffice.CRM.Workflow.SplitSettings.SplitName
+  isExternal: true
+  name: SplitName
+  nameWithType: SplitSettings.SplitName
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.SplitName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Workflow.SplitSettings.ExitFlow*
+  commentId: Overload:SuperOffice.CRM.Workflow.SplitSettings.ExitFlow
+  isExternal: true
+  name: ExitFlow
+  nameWithType: SplitSettings.ExitFlow
+  fullName: SuperOffice.CRM.Workflow.SplitSettings.ExitFlow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -39,18 +39,13 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: public class TimeZoneData
-    content.vb: Public Class TimeZoneData
+    content: 'public class TimeZoneData : Object'
+    content.vb: >-
+      Public Class TimeZoneData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.TimeZoneData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.TimeZoneData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.TimeZoneData)
@@ -182,7 +177,7 @@ items:
     - id: tzOffset
       type: System.Int32
       description: Timezone offset
-    content.vb: Public Sub AddSTDRule(validFrom As Date, tzOffset As Integer)
+    content.vb: Public Sub AddSTDRule(validFrom As DateTime, tzOffset As Integer)
   overload: SuperOffice.CRM.TimeZoneData.AddSTDRule*
   modifiers.csharp:
   - public
@@ -221,7 +216,7 @@ items:
     - id: endRulePattern
       type: System.String
       description: Daylight saving time end pattern
-    content.vb: Public Sub AddDSTRule(validFrom As Date, tzOffset As Integer, startRulePattern As String, endRulePattern As String)
+    content.vb: Public Sub AddDSTRule(validFrom As DateTime, tzOffset As Integer, startRulePattern As String, endRulePattern As String)
   overload: SuperOffice.CRM.TimeZoneData.AddDSTRule*
   modifiers.csharp:
   - public
@@ -262,7 +257,7 @@ items:
       type: System.Int32
     - id: endMonth
       type: System.Int32
-    content.vb: Public Sub AddDSTRule(validFrom As Date, tzOffset As Integer, startDay As Integer, startMonth As Integer, endDay As Integer, endMonth As Integer)
+    content.vb: Public Sub AddDSTRule(validFrom As DateTime, tzOffset As Integer, startDay As Integer, startMonth As Integer, endDay As Integer, endMonth As Integer)
   overload: SuperOffice.CRM.TimeZoneData.AddDSTRule*
   modifiers.csharp:
   - public
@@ -295,7 +290,7 @@ items:
     return:
       type: SuperOffice.CRM.TimeZoneRule
       description: The standard rule for the given date
-    content.vb: Public Function GetValidSTDRule(date As Date) As TimeZoneRule
+    content.vb: Public Function GetValidSTDRule(date As DateTime) As TimeZoneRule
   overload: SuperOffice.CRM.TimeZoneData.GetValidSTDRule*
   modifiers.csharp:
   - public
@@ -328,7 +323,7 @@ items:
     return:
       type: SuperOffice.CRM.TimeZoneRule
       description: The daylight savings rule for the given date
-    content.vb: Public Function GetValidDSTRule(date As Date) As TimeZoneRule
+    content.vb: Public Function GetValidDSTRule(date As DateTime) As TimeZoneRule
   overload: SuperOffice.CRM.TimeZoneData.GetValidDSTRule*
   modifiers.csharp:
   - public
@@ -358,7 +353,7 @@ items:
       type: System.DateTime
     return:
       type: System.String
-    content.vb: Public Function GetiCalStandardPattern(date As Date) As String
+    content.vb: Public Function GetiCalStandardPattern(date As DateTime) As String
   overload: SuperOffice.CRM.TimeZoneData.GetiCalStandardPattern*
   modifiers.csharp:
   - public
@@ -388,7 +383,7 @@ items:
       type: System.DateTime
     return:
       type: System.String
-    content.vb: Public Function getiCalDaylightSavingTimePattern(date As Date) As String
+    content.vb: Public Function getiCalDaylightSavingTimePattern(date As DateTime) As String
   overload: SuperOffice.CRM.TimeZoneData.getiCalDaylightSavingTimePattern*
   modifiers.csharp:
   - public
@@ -419,7 +414,7 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-    content.vb: Public Function GetTZOffset(inDate As Date) As Integer
+    content.vb: Public Function GetTZOffset(inDate As DateTime) As Integer
   overload: SuperOffice.CRM.TimeZoneData.GetTZOffset*
   modifiers.csharp:
   - public
@@ -449,7 +444,7 @@ items:
       type: System.DateTime
     return:
       type: System.Boolean
-    content.vb: Public Function IsDayLightSavingsTime(inDate As Date) As Boolean
+    content.vb: Public Function IsDayLightSavingsTime(inDate As DateTime) As Boolean
   overload: SuperOffice.CRM.TimeZoneData.IsDayLightSavingsTime*
   modifiers.csharp:
   - public
@@ -719,285 +714,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.TimeZoneData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1383,8 +1099,6 @@ references:
   nameWithType: TimeZoneData.AddSTDRule
   fullName: SuperOffice.CRM.TimeZoneData.AddSTDRule
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

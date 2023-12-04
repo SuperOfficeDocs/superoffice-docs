@@ -24,6 +24,7 @@ items:
     content: 'public interface ISoftTriggerPlugin : IPlugin'
     content.vb: >-
       Public Interface ISoftTriggerPlugin
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Data.ISoftTriggerPlugin.EnumUtil.MapEnums``2

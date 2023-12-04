@@ -9,9 +9,13 @@ items:
   - SuperOffice.CRM.Data.SShipmentTableInfo.ActualCount
   - SuperOffice.CRM.Data.SShipmentTableInfo.ActualRate
   - SuperOffice.CRM.Data.SShipmentTableInfo.ActualTime
+  - SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty
+  - SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum
+  - SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate
   - SuperOffice.CRM.Data.SShipmentTableInfo.Configuration
   - SuperOffice.CRM.Data.SShipmentTableInfo.CurrentSender
   - SuperOffice.CRM.Data.SShipmentTableInfo.Definition
+  - SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum
   - SuperOffice.CRM.Data.SShipmentTableInfo.Description
   - SuperOffice.CRM.Data.SShipmentTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.SShipmentTableInfo.DictionaryTableNumber
@@ -22,6 +26,9 @@ items:
   - SuperOffice.CRM.Data.SShipmentTableInfo.FromAddr
   - SuperOffice.CRM.Data.SShipmentTableInfo.GeneratedDocumentId
   - SuperOffice.CRM.Data.SShipmentTableInfo.GeneratedDocumentId_InnerJoin_Document
+  - SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum
+  - SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate
+  - SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty(System.Int16)
   - SuperOffice.CRM.Data.SShipmentTableInfo.LeftOuterJoin_Form_ResponseShipmentId
   - SuperOffice.CRM.Data.SShipmentTableInfo.LeftOuterJoin_SBounceShipment_ShipmentId
   - SuperOffice.CRM.Data.SShipmentTableInfo.LeftOuterJoin_SLinkCustomer_ShipmentId
@@ -33,6 +40,8 @@ items:
   - SuperOffice.CRM.Data.SShipmentTableInfo.LeftOuterJoin_SSmtpServers_ShipmentId
   - SuperOffice.CRM.Data.SShipmentTableInfo.MessageId
   - SuperOffice.CRM.Data.SShipmentTableInfo.MessageId_InnerJoin_SMessage
+  - SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum
+  - SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate
   - SuperOffice.CRM.Data.SShipmentTableInfo.ProjectId
   - SuperOffice.CRM.Data.SShipmentTableInfo.ProjectId_InnerJoin_Project
   - SuperOffice.CRM.Data.SShipmentTableInfo.Recipients
@@ -44,16 +53,21 @@ items:
   - SuperOffice.CRM.Data.SShipmentTableInfo.SelectionId
   - SuperOffice.CRM.Data.SShipmentTableInfo.SelectionId_InnerJoin_Selection
   - SuperOffice.CRM.Data.SShipmentTableInfo.SendRate
+  - SuperOffice.CRM.Data.SShipmentTableInfo.SentNum
   - SuperOffice.CRM.Data.SShipmentTableInfo.ShipmenttypeId
   - SuperOffice.CRM.Data.SShipmentTableInfo.ShipmenttypeId_InnerJoin_ShipmentType
   - SuperOffice.CRM.Data.SShipmentTableInfo.SmtpPort
   - SuperOffice.CRM.Data.SShipmentTableInfo.SmtpServ
+  - SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum
+  - SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate
   - SuperOffice.CRM.Data.SShipmentTableInfo.Sorting
   - SuperOffice.CRM.Data.SShipmentTableInfo.SShipmentId
   - SuperOffice.CRM.Data.SShipmentTableInfo.StartDate
   - SuperOffice.CRM.Data.SShipmentTableInfo.Status
   - SuperOffice.CRM.Data.SShipmentTableInfo.TicketCategory
   - SuperOffice.CRM.Data.SShipmentTableInfo.TicketOwner
+  - SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum
+  - SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate
   - SuperOffice.CRM.Data.SShipmentTableInfo.Updated
   - SuperOffice.CRM.Data.SShipmentTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.SShipmentTableInfo.UpdatedAssociateId_InnerJoin_Associate
@@ -82,7 +96,9 @@ items:
       <DatabaseTable("s_shipment")>
 
       Public Class SShipmentTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -104,12 +120,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.SShipmentTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.SShipmentTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -154,6 +164,37 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty(System.Int16)
+  commentId: M:SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty(System.Int16)
+  id: IdxAreStatisticsDirty(System.Int16)
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxAreStatisticsDirty(Int16)
+  nameWithType: SShipmentTableInfo.IdxAreStatisticsDirty(Int16)
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty(System.Int16)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index AreStatisticsDirty, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>AreStatisticsDirty</td><td>Indicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxAreStatisticsDirty(short areStatisticsDirty)
+    parameters:
+    - id: areStatisticsDirty
+      type: System.Int16
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxAreStatisticsDirty(areStatisticsDirty As Short) As Restriction
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -204,26 +245,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.SShipmentTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -345,7 +372,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;message_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the message that is sent in this shipment\n"
+  summary: "\nField &apos;message_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, target: SMessage, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the message that is sent in this shipment\n"
   syntax:
     content: public Int32FieldInfo MessageId { get; }
     parameters: []
@@ -965,7 +992,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;selection_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSet if this shipment should be related to a Selection\n"
+  summary: "\nField &apos;selection_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, target: Selection, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSet if this shipment should be related to a Selection\n"
   syntax:
     content: public Int32FieldInfo SelectionId { get; }
     parameters: []
@@ -996,7 +1023,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;project_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSet if this shipment should be related to a Project\n"
+  summary: "\nField &apos;project_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, target: Project, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSet if this shipment should be related to a Project\n"
   syntax:
     content: public Int32FieldInfo ProjectId { get; }
     parameters: []
@@ -1027,7 +1054,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;generated_document_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of the merged document that is the result of the shipment\n"
+  summary: "\nField &apos;generated_document_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, target: Document, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of the merged document that is the result of the shipment\n"
   syntax:
     content: public Int32FieldInfo GeneratedDocumentId { get; }
     parameters: []
@@ -1089,7 +1116,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;registered_associate_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -1151,7 +1178,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;updated_associate_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -1258,6 +1285,409 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum
+  id: DeliveredNum
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DeliveredNum
+  nameWithType: SShipmentTableInfo.DeliveredNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;delivered_num&apos; in table &apos;s_shipment&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of mails sent minus bounces\n"
+  syntax:
+    content: public Int32FieldInfo DeliveredNum { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DeliveredNum As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum
+  id: OpenNum
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OpenNum
+  nameWithType: SShipmentTableInfo.OpenNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;open_num&apos; in table &apos;s_shipment&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of opened emails count\n"
+  syntax:
+    content: public Int32FieldInfo OpenNum { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property OpenNum As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate
+  id: OpenRate
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OpenRate
+  nameWithType: SShipmentTableInfo.OpenRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;open_rate&apos; in table &apos;s_shipment&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOpen rate % (open_num / delivered_num)\n"
+  syntax:
+    content: public DoubleFieldInfo OpenRate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property OpenRate As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum
+  id: ClickNum
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ClickNum
+  nameWithType: SShipmentTableInfo.ClickNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;click_num&apos; in table &apos;s_shipment&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of links clicked\n"
+  syntax:
+    content: public Int32FieldInfo ClickNum { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ClickNum As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate
+  id: ClickRate
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ClickRate
+  nameWithType: SShipmentTableInfo.ClickRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;click_rate&apos; in table &apos;s_shipment&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nClick rate % (click_num / delivered_num)\n"
+  syntax:
+    content: public DoubleFieldInfo ClickRate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property ClickRate As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum
+  id: HardbounceNum
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: HardbounceNum
+  nameWithType: SShipmentTableInfo.HardbounceNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;hardbounce_num&apos; in table &apos;s_shipment&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of hard bounces\n"
+  syntax:
+    content: public Int32FieldInfo HardbounceNum { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property HardbounceNum As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate
+  id: HardbounceRate
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: HardbounceRate
+  nameWithType: SShipmentTableInfo.HardbounceRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;hardbounce_rate&apos; in table &apos;s_shipment&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nHard bounce rate % (hardbounce_num / number_transmitted)\n"
+  syntax:
+    content: public DoubleFieldInfo HardbounceRate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property HardbounceRate As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum
+  id: SoftbounceNum
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceNum
+  nameWithType: SShipmentTableInfo.SoftbounceNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;softbounce_num&apos; in table &apos;s_shipment&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of soft bounces\n"
+  syntax:
+    content: public Int32FieldInfo SoftbounceNum { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SoftbounceNum As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate
+  id: SoftbounceRate
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SoftbounceRate
+  nameWithType: SShipmentTableInfo.SoftbounceRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;softbounce_rate&apos; in table &apos;s_shipment&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSoft bounce rate % (softbounce_num / number_transmitted)\n"
+  syntax:
+    content: public DoubleFieldInfo SoftbounceRate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property SoftbounceRate As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum
+  id: TotalbounceNum
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceNum
+  nameWithType: SShipmentTableInfo.TotalbounceNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;totalbounce_num&apos; in table &apos;s_shipment&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal number of bounces\n"
+  syntax:
+    content: public Int32FieldInfo TotalbounceNum { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property TotalbounceNum As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate
+  id: TotalbounceRate
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TotalbounceRate
+  nameWithType: SShipmentTableInfo.TotalbounceRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;totalbounce_rate&apos; in table &apos;s_shipment&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTotal bounce rate % (totalbounce_num / number_transmitted)\n"
+  syntax:
+    content: public DoubleFieldInfo TotalbounceRate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DoubleFieldInfo
+    content.vb: Public ReadOnly Property TotalbounceRate As DoubleFieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty
+  id: AreStatisticsDirty
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AreStatisticsDirty
+  nameWithType: SShipmentTableInfo.AreStatisticsDirty
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;are_statistics_dirty&apos; in table &apos;s_shipment&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIndicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens\n"
+  syntax:
+    content: public UInt16FieldInfo AreStatisticsDirty { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property AreStatisticsDirty As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.SentNum
+  commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.SentNum
+  id: SentNum
+  parent: SuperOffice.CRM.Data.SShipmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SentNum
+  nameWithType: SShipmentTableInfo.SentNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.SentNum
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;sent_num&apos; in table &apos;s_shipment&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of mails sent\n"
+  syntax:
+    content: public Int32FieldInfo SentNum { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SentNum As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SShipmentTableInfo.SentNum*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo.ShipmenttypeId
   commentId: P:SuperOffice.CRM.Data.SShipmentTableInfo.ShipmenttypeId
   id: ShipmenttypeId
@@ -1275,7 +1705,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;shipmenttype_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of subscriptionType that this shipment has, so we may check for reservations\n"
+  summary: "\nField &apos;shipmenttype_id&apos; in table &apos;s_shipment&apos;: Dictionary type FK, target: ShipmentType, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nId of subscriptionType that this shipment has, so we may check for reservations\n"
   syntax:
     content: public Int32FieldInfo ShipmenttypeId { get; }
     parameters: []
@@ -1807,8 +2237,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -2141,254 +2569,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2573,6 +2753,26 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty
+  isExternal: true
+  name: IdxAreStatisticsDirty
+  nameWithType: SShipmentTableInfo.IdxAreStatisticsDirty
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.IdxAreStatisticsDirty
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.DictionaryTableNumber
   isExternal: true
@@ -2859,6 +3059,91 @@ references:
   name: RecipientSortingFieldInfo
   nameWithType: RecipientSortingFieldInfo
   fullName: SuperOffice.Data.SQL.RecipientSortingFieldInfo
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum
+  isExternal: true
+  name: DeliveredNum
+  nameWithType: SShipmentTableInfo.DeliveredNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.DeliveredNum
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum
+  isExternal: true
+  name: OpenNum
+  nameWithType: SShipmentTableInfo.OpenNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.OpenNum
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate
+  isExternal: true
+  name: OpenRate
+  nameWithType: SShipmentTableInfo.OpenRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.OpenRate
+- uid: SuperOffice.Data.SQL.DoubleFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DoubleFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DoubleFieldInfo
+  nameWithType: DoubleFieldInfo
+  fullName: SuperOffice.Data.SQL.DoubleFieldInfo
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum
+  isExternal: true
+  name: ClickNum
+  nameWithType: SShipmentTableInfo.ClickNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.ClickNum
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate
+  isExternal: true
+  name: ClickRate
+  nameWithType: SShipmentTableInfo.ClickRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.ClickRate
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum
+  isExternal: true
+  name: HardbounceNum
+  nameWithType: SShipmentTableInfo.HardbounceNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceNum
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate
+  isExternal: true
+  name: HardbounceRate
+  nameWithType: SShipmentTableInfo.HardbounceRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.HardbounceRate
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum
+  isExternal: true
+  name: SoftbounceNum
+  nameWithType: SShipmentTableInfo.SoftbounceNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceNum
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate
+  isExternal: true
+  name: SoftbounceRate
+  nameWithType: SShipmentTableInfo.SoftbounceRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.SoftbounceRate
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum
+  isExternal: true
+  name: TotalbounceNum
+  nameWithType: SShipmentTableInfo.TotalbounceNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceNum
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate
+  isExternal: true
+  name: TotalbounceRate
+  nameWithType: SShipmentTableInfo.TotalbounceRate
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.TotalbounceRate
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty
+  isExternal: true
+  name: AreStatisticsDirty
+  nameWithType: SShipmentTableInfo.AreStatisticsDirty
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.AreStatisticsDirty
+- uid: SuperOffice.CRM.Data.SShipmentTableInfo.SentNum*
+  commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.SentNum
+  isExternal: true
+  name: SentNum
+  nameWithType: SShipmentTableInfo.SentNum
+  fullName: SuperOffice.CRM.Data.SShipmentTableInfo.SentNum
 - uid: SuperOffice.CRM.Data.SShipmentTableInfo.ShipmenttypeId*
   commentId: Overload:SuperOffice.CRM.Data.SShipmentTableInfo.ShipmenttypeId
   isExternal: true

@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ScriptType
+  commentId: T:SuperOffice.Data.ScriptType
+  id: ScriptType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ScriptType.CRMScript
+  - SuperOffice.Data.ScriptType.JavaScript
+  - SuperOffice.Data.ScriptType.Unknown
+  - SuperOffice.Data.ScriptType.value__
+  langs:
+  - csharp
+  - vb
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: SuperOffice.Data.ScriptType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;Type&apos; in table &apos;ej_script&apos;. Indicates what type of script this is.\nThis Enum is used by:  ejscript.type\n"
+  syntax:
+    content: 'public sealed class ScriptType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ScriptType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.ScriptType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ScriptType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ScriptType.value__
+  commentId: F:SuperOffice.Data.ScriptType.value__
+  id: value__
+  parent: SuperOffice.Data.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ScriptType.value__
+  fullName: SuperOffice.Data.ScriptType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ScriptType.Unknown
+  commentId: F:SuperOffice.Data.ScriptType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ScriptType.Unknown
+  fullName: SuperOffice.Data.ScriptType.Unknown
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Unknown script type\n"
+  syntax:
+    content: public const ScriptType Unknown
+    return:
+      type: SuperOffice.Data.ScriptType
+    content.vb: Public Const Unknown As ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScriptType.CRMScript
+  commentId: F:SuperOffice.Data.ScriptType.CRMScript
+  id: CRMScript
+  parent: SuperOffice.Data.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: CRMScript
+  nameWithType: ScriptType.CRMScript
+  fullName: SuperOffice.Data.ScriptType.CRMScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: CRMScript\n"
+  syntax:
+    content: public const ScriptType CRMScript
+    return:
+      type: SuperOffice.Data.ScriptType
+    content.vb: Public Const CRMScript As ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScriptType.JavaScript
+  commentId: F:SuperOffice.Data.ScriptType.JavaScript
+  id: JavaScript
+  parent: SuperOffice.Data.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: JavaScript
+  nameWithType: ScriptType.JavaScript
+  fullName: SuperOffice.Data.ScriptType.JavaScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: JavaScript\n"
+  syntax:
+    content: public const ScriptType JavaScript
+    return:
+      type: SuperOffice.Data.ScriptType
+    content.vb: Public Const JavaScript As ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ScriptType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ScriptType, To>()
+  nameWithType: EnumUtil.MapEnums<ScriptType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ScriptType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ScriptType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ScriptType, To)()
+  name.vb: MapEnums(Of ScriptType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ScriptType, To>
+    nameWithType: EnumUtil.MapEnums<ScriptType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ScriptType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ScriptType, To)
+    nameWithType: EnumUtil.MapEnums(Of ScriptType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ScriptType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ScriptType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ScriptType, To>()
+  nameWithType: Converters.MapEnums<ScriptType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ScriptType, To>()
+  nameWithType.vb: Converters.MapEnums(Of ScriptType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ScriptType, To)()
+  name.vb: MapEnums(Of ScriptType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ScriptType, To>
+    nameWithType: Converters.MapEnums<ScriptType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ScriptType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ScriptType, To)
+    nameWithType: Converters.MapEnums(Of ScriptType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ScriptType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.ScriptType
+  commentId: T:SuperOffice.Data.ScriptType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ScriptType
+  nameWithType: ScriptType
+  fullName: SuperOffice.Data.ScriptType

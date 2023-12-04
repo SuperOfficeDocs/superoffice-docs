@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.KeyedMatrix`3.#ctor
+  - SuperOffice.Util.KeyedMatrix`3.#ctor(System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})
   - SuperOffice.Util.KeyedMatrix`3.AddColumn(`0)
   - SuperOffice.Util.KeyedMatrix`3.AddRow(`1)
   - SuperOffice.Util.KeyedMatrix`3.AlterColumnKey(`0,`0)
@@ -34,7 +35,6 @@ items:
   - SuperOffice.Util.KeyedMatrix`3.MoveItems(SuperOffice.Util.KeyedMatrix{`0,`1,`2},System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}},System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}})
   - SuperOffice.Util.KeyedMatrix`3.RemoveColumn(`0)
   - SuperOffice.Util.KeyedMatrix`3.RemoveRow(`1)
-  - SuperOffice.Util.KeyedMatrix`3.System#Collections#IEnumerable#GetEnumerator
   - SuperOffice.Util.KeyedMatrix`3.ToArray
   - SuperOffice.Util.KeyedMatrix`3.Width
   langs:
@@ -52,39 +52,24 @@ items:
   namespace: SuperOffice.Util
   summary: "\n\n"
   syntax:
-    content: 'public class KeyedMatrix<TKeyColumn, TKeyRow, TItem> : IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, IEnumerable where TItem : class'
+    content: 'public class KeyedMatrix<TKeyColumn, TKeyRow, TItem> : Object, IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>, IEnumerable where TItem : class'
     typeParameters:
     - id: TKeyColumn
     - id: TKeyRow
     - id: TItem
     content.vb: >-
       Public Class KeyedMatrix(Of TKeyColumn, TKeyRow, TItem As Class)
+
+          Inherits Object
+
           Implements IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)), IEnumerable
   inheritance:
   - System.Object
   implements:
   - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
   - System.Collections.IEnumerable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.KeyedMatrix`3.EnumUtil.MapEnums``2
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}})
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}})
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.Batch``1(System.Int32)
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.IndexOf``1(SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},System.Int32)
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.IndexOf``1(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},System.Boolean},System.Int32)
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.Permute``1(System.Int32)
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}})
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}},System.Collections.Generic.IEqualityComparer{{K}})
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
   - SuperOffice.Util.KeyedMatrix`3.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.KeyedMatrix{{TKeyColumn},{TKeyRow},{TItem}})
   - SuperOffice.Util.KeyedMatrix`3.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Util.KeyedMatrix`3.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -125,6 +110,39 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).KeyedMatrix()
+- uid: SuperOffice.Util.KeyedMatrix`3.#ctor(System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})
+  commentId: M:SuperOffice.Util.KeyedMatrix`3.#ctor(System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})
+  id: '#ctor(System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})'
+  parent: SuperOffice.Util.KeyedMatrix`3
+  langs:
+  - csharp
+  - vb
+  name: KeyedMatrix(IEqualityComparer<TKeyColumn>, IEqualityComparer<TKeyRow>)
+  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.KeyedMatrix(IEqualityComparer<TKeyColumn>, IEqualityComparer<TKeyRow>)
+  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.KeyedMatrix(System.Collections.Generic.IEqualityComparer<TKeyColumn>, System.Collections.Generic.IEqualityComparer<TKeyRow>)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public KeyedMatrix(IEqualityComparer<TKeyColumn> columnComparer, IEqualityComparer<TKeyRow> rowComparer)
+    parameters:
+    - id: columnComparer
+      type: System.Collections.Generic.IEqualityComparer{{TKeyColumn}}
+    - id: rowComparer
+      type: System.Collections.Generic.IEqualityComparer{{TKeyRow}}
+    content.vb: Public Sub New(columnComparer As IEqualityComparer(Of TKeyColumn), rowComparer As IEqualityComparer(Of TKeyRow))
+  overload: SuperOffice.Util.KeyedMatrix`3.#ctor*
+  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).KeyedMatrix(IEqualityComparer(Of TKeyColumn), IEqualityComparer(Of TKeyRow))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).KeyedMatrix(System.Collections.Generic.IEqualityComparer(Of TKeyColumn), System.Collections.Generic.IEqualityComparer(Of TKeyRow))
+  name.vb: KeyedMatrix(IEqualityComparer(Of TKeyColumn), IEqualityComparer(Of TKeyRow))
 - uid: SuperOffice.Util.KeyedMatrix`3.AddColumn(`0)
   commentId: M:SuperOffice.Util.KeyedMatrix`3.AddColumn(`0)
   id: AddColumn(`0)
@@ -967,43 +985,12 @@ items:
       type: System.Collections.Generic.IEnumerator{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
     content.vb: Public Function GetEnumerator As IEnumerator(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
   overload: SuperOffice.Util.KeyedMatrix`3.GetEnumerator*
-  implements:
-  - System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}.GetEnumerator
   nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).GetEnumerator()
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
   fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).GetEnumerator()
-- uid: SuperOffice.Util.KeyedMatrix`3.System#Collections#IEnumerable#GetEnumerator
-  commentId: M:SuperOffice.Util.KeyedMatrix`3.System#Collections#IEnumerable#GetEnumerator
-  id: System#Collections#IEnumerable#GetEnumerator
-  isEii: true
-  parent: SuperOffice.Util.KeyedMatrix`3
-  langs:
-  - csharp
-  - vb
-  name: IEnumerable.GetEnumerator()
-  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.IEnumerable.GetEnumerator()
-  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.System.Collections.IEnumerable.GetEnumerator()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: IEnumerator IEnumerable.GetEnumerator()
-    return:
-      type: System.Collections.IEnumerator
-    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
-  overload: SuperOffice.Util.KeyedMatrix`3.System#Collections#IEnumerable#GetEnumerator*
-  implements:
-  - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).System.Collections.IEnumerable.GetEnumerator()
-  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).System.Collections.IEnumerable.GetEnumerator()
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
 - uid: SuperOffice.Util.KeyedMatrix`3.Item(System.Int32,System.Int32)
   commentId: P:SuperOffice.Util.KeyedMatrix`3.Item(System.Int32,System.Int32)
   id: Item(System.Int32,System.Int32)
@@ -1161,8 +1148,7 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>
   nameWithType: IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>
@@ -1247,291 +1233,10 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
   isExternal: true
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Util.KeyedMatrix`3.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1559,1088 +1264,6 @@ references:
     name: MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
     nameWithType: EnumUtil.MapEnums(Of KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem), To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}})
-  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  name: ForEach<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  nameWithType: IEnumerableExtensions.ForEach<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  fullName: IEnumerableExtensions.ForEach<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(System.Action<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  nameWithType.vb: IEnumerableExtensions.ForEach(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Action(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  fullName.vb: IEnumerableExtensions.ForEach(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(System.Action(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  name.vb: ForEach(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Action(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  spec.csharp:
-  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
-    name: ForEach<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: IEnumerableExtensions.ForEach<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: IEnumerableExtensions.ForEach<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
-    name: ForEach(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: IEnumerableExtensions.ForEach(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: IEnumerableExtensions.ForEach(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}})
-  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  name: ContainsAny<MatrixItem<TKeyColumn, TKeyRow, TItem>>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  nameWithType: IEnumerableExtensions.ContainsAny<MatrixItem<TKeyColumn, TKeyRow, TItem>>(IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  fullName: IEnumerableExtensions.ContainsAny<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>)
-  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  fullName.vb: IEnumerableExtensions.ContainsAny(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  name.vb: ContainsAny(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)))
-  spec.csharp:
-  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
-    name: ContainsAny<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: IEnumerableExtensions.ContainsAny<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: IEnumerableExtensions.ContainsAny<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
-    name: ContainsAny(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: IEnumerableExtensions.ContainsAny(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: IEnumerableExtensions.ContainsAny(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.Batch``1(System.Int32)
-  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  name: Batch<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
-  nameWithType: IEnumerableExtensions.Batch<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
-  fullName: IEnumerableExtensions.Batch<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(System.Int32)
-  nameWithType.vb: IEnumerableExtensions.Batch(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
-  fullName.vb: IEnumerableExtensions.Batch(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(System.Int32)
-  name.vb: Batch(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.Batch``1(System.Int32)
-    name: Batch<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: IEnumerableExtensions.Batch<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: IEnumerableExtensions.Batch<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.Batch``1(System.Int32)
-    name: Batch(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: IEnumerableExtensions.Batch(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: IEnumerableExtensions.Batch(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.IndexOf``1(SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},System.Int32)
-  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
-  name: IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>(MatrixItem<TKeyColumn, TKeyRow, TItem>, Int32)
-  nameWithType: IEnumerableExtensions.IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>(MatrixItem<TKeyColumn, TKeyRow, TItem>, Int32)
-  fullName: IEnumerableExtensions.IndexOf<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, System.Int32)
-  nameWithType.vb: IEnumerableExtensions.IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(MatrixItem(Of TKeyColumn, TKeyRow, TItem), Int32)
-  fullName.vb: IEnumerableExtensions.IndexOf(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), System.Int32)
-  name.vb: IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(MatrixItem(Of TKeyColumn, TKeyRow, TItem), Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
-    name: IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: IEnumerableExtensions.IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: IEnumerableExtensions.IndexOf<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
-    name: IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: IEnumerableExtensions.IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: IEnumerableExtensions.IndexOf(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.IndexOf``1(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},System.Boolean},System.Int32)
-  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
-  name: IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, Boolean>, Int32)
-  nameWithType: IEnumerableExtensions.IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, Boolean>, Int32)
-  fullName: IEnumerableExtensions.IndexOf<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, System.Boolean>, System.Int32)
-  nameWithType.vb: IEnumerableExtensions.IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), Boolean), Int32)
-  fullName.vb: IEnumerableExtensions.IndexOf(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), System.Boolean), System.Int32)
-  name.vb: IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), Boolean), Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
-    name: IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: IEnumerableExtensions.IndexOf<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: IEnumerableExtensions.IndexOf<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
-    name: IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: IEnumerableExtensions.IndexOf(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: IEnumerableExtensions.IndexOf(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.Permute``1(System.Int32)
-  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  name: Permute<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
-  nameWithType: IEnumerableExtensions.Permute<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
-  fullName: IEnumerableExtensions.Permute<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(System.Int32)
-  nameWithType.vb: IEnumerableExtensions.Permute(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
-  fullName.vb: IEnumerableExtensions.Permute(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(System.Int32)
-  name.vb: Permute(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.Permute``1(System.Int32)
-    name: Permute<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: IEnumerableExtensions.Permute<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: IEnumerableExtensions.Permute<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.Permute``1(System.Int32)
-    name: Permute(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: IEnumerableExtensions.Permute(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: IEnumerableExtensions.Permute(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}})
-  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-  name: PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>(Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, K>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, V>)
-  nameWithType: IEnumerableExtensions.PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>(Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, K>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, V>)
-  fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>(System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, K>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, V>)
-  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)(Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), V))
-  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)(System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), K), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), V))
-  name.vb: PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)(Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), V))
-  spec.csharp:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
-    name: PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>
-    fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
-    name: PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)
-    fullName: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{K}},System.Func{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}},{V}},System.Collections.Generic.IEqualityComparer{{K}})
-  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  name: PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>(Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, K>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, V>, IEqualityComparer<K>)
-  nameWithType: IEnumerableExtensions.PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>(Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, K>, Func<MatrixItem<TKeyColumn, TKeyRow, TItem>, V>, IEqualityComparer<K>)
-  fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>(System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, K>, System.Func<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, V>, System.Collections.Generic.IEqualityComparer<K>)
-  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)(Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), V), IEqualityComparer(Of K))
-  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)(System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), K), System.Func(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), V), System.Collections.Generic.IEqualityComparer(Of K))
-  name.vb: PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)(Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K), Func(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), V), IEqualityComparer(Of K))
-  spec.csharp:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-    name: PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary<MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>
-    fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>, K, V>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-    name: PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)
-    fullName: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem), K, V)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Util.MatrixItem`3
-    name: MatrixItem
-    nameWithType: MatrixItem
-    fullName: SuperOffice.Util.MatrixItem
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKeyColumn
-    nameWithType: TKeyColumn
-    fullName: TKeyColumn
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TKeyRow
-    nameWithType: TKeyRow
-    fullName: TKeyRow
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TItem
-    nameWithType: TItem
-    fullName: TItem
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
-  commentId: M:IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  parent: IEnumerableExtensions
-  definition: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  name: GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
-  nameWithType: IEnumerableExtensions.GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>(Int32)
-  fullName: IEnumerableExtensions.GetDifferentCombinations<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>(System.Int32)
-  nameWithType.vb: IEnumerableExtensions.GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
-  fullName.vb: IEnumerableExtensions.GetDifferentCombinations(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))(System.Int32)
-  name.vb: GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))(Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
-    name: GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: IEnumerableExtensions.GetDifferentCombinations<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: IEnumerableExtensions.GetDifferentCombinations<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Int32)
-    name: GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: IEnumerableExtensions.GetDifferentCombinations(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: IEnumerableExtensions.GetDifferentCombinations(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
-  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
-  parent: SuperOffice.Util.CollectionOps
-  definition: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
-  name: AtLeastOne<MatrixItem<TKeyColumn, TKeyRow, TItem>>()
-  nameWithType: CollectionOps.AtLeastOne<MatrixItem<TKeyColumn, TKeyRow, TItem>>()
-  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>()
-  nameWithType.vb: CollectionOps.AtLeastOne(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))()
-  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))()
-  name.vb: AtLeastOne(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))()
-  spec.csharp:
-  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
-    name: AtLeastOne<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    nameWithType: CollectionOps.AtLeastOne<MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
-    name: AtLeastOne(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    nameWithType: CollectionOps.AtLeastOne(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem))
-    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem))
     isExternal: true
   - name: (
     nameWithType: (
@@ -2809,14 +1432,13 @@ references:
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -2826,9 +1448,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2841,24 +1463,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -2904,1057 +1514,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  isExternal: true
-  name: ForEach<T>(IEnumerable<T>, Action<T>)
-  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
-  fullName: IEnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
-  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
-  fullName.vb: IEnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
-  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
-  spec.csharp:
-  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-    name: ForEach<T>
-    nameWithType: IEnumerableExtensions.ForEach<T>
-    fullName: IEnumerableExtensions.ForEach<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-    name: ForEach(Of T)
-    nameWithType: IEnumerableExtensions.ForEach(Of T)
-    fullName: IEnumerableExtensions.ForEach(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Action`1
-    name: Action
-    nameWithType: Action
-    fullName: System.Action
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions
-  commentId: T:IEnumerableExtensions
-  isExternal: true
-  name: IEnumerableExtensions
-  nameWithType: IEnumerableExtensions
-  fullName: IEnumerableExtensions
-- uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  isExternal: true
-  name: ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
-  nameWithType: IEnumerableExtensions.ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
-  fullName: IEnumerableExtensions.ContainsAny<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
-  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
-  fullName.vb: IEnumerableExtensions.ContainsAny(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T))
-  name.vb: ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
-  spec.csharp:
-  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-    name: ContainsAny<T>
-    nameWithType: IEnumerableExtensions.ContainsAny<T>
-    fullName: IEnumerableExtensions.ContainsAny<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-    name: ContainsAny(Of T)
-    nameWithType: IEnumerableExtensions.ContainsAny(Of T)
-    fullName: IEnumerableExtensions.ContainsAny(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  isExternal: true
-  name: Batch<T>(IEnumerable<T>, Int32)
-  nameWithType: IEnumerableExtensions.Batch<T>(IEnumerable<T>, Int32)
-  fullName: IEnumerableExtensions.Batch<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
-  nameWithType.vb: IEnumerableExtensions.Batch(Of T)(IEnumerable(Of T), Int32)
-  fullName.vb: IEnumerableExtensions.Batch(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
-  name.vb: Batch(Of T)(IEnumerable(Of T), Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-    name: Batch<T>
-    nameWithType: IEnumerableExtensions.Batch<T>
-    fullName: IEnumerableExtensions.Batch<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-    name: Batch(Of T)
-    nameWithType: IEnumerableExtensions.Batch(Of T)
-    fullName: IEnumerableExtensions.Batch(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
-  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
-  isExternal: true
-  name: IndexOf<T>(IEnumerable<T>, T, Int32)
-  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, T, Int32)
-  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, T, System.Int32)
-  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), T, Int32)
-  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), T, System.Int32)
-  name.vb: IndexOf(Of T)(IEnumerable(Of T), T, Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
-    name: IndexOf<T>
-    nameWithType: IEnumerableExtensions.IndexOf<T>
-    fullName: IEnumerableExtensions.IndexOf<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
-    name: IndexOf(Of T)
-    nameWithType: IEnumerableExtensions.IndexOf(Of T)
-    fullName: IEnumerableExtensions.IndexOf(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
-  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
-  isExternal: true
-  name: IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
-  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
-  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Boolean>, System.Int32)
-  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
-  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Boolean), System.Int32)
-  name.vb: IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
-    name: IndexOf<T>
-    nameWithType: IEnumerableExtensions.IndexOf<T>
-    fullName: IEnumerableExtensions.IndexOf<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
-    name: IndexOf(Of T)
-    nameWithType: IEnumerableExtensions.IndexOf(Of T)
-    fullName: IEnumerableExtensions.IndexOf(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  isExternal: true
-  name: Permute<T>(IEnumerable<T>, Int32)
-  nameWithType: IEnumerableExtensions.Permute<T>(IEnumerable<T>, Int32)
-  fullName: IEnumerableExtensions.Permute<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
-  nameWithType.vb: IEnumerableExtensions.Permute(Of T)(IEnumerable(Of T), Int32)
-  fullName.vb: IEnumerableExtensions.Permute(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
-  name.vb: Permute(Of T)(IEnumerable(Of T), Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-    name: Permute<T>
-    nameWithType: IEnumerableExtensions.Permute<T>
-    fullName: IEnumerableExtensions.Permute<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-    name: Permute(Of T)
-    nameWithType: IEnumerableExtensions.Permute(Of T)
-    fullName: IEnumerableExtensions.Permute(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-  isExternal: true
-  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
-  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
-  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>)
-  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
-  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V))
-  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
-  spec.csharp:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-    name: PermissiveToDictionary<T, K, V>
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
-    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
-    name: PermissiveToDictionary(Of T, K, V)
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
-    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-  isExternal: true
-  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
-  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
-  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>, System.Collections.Generic.IEqualityComparer<K>)
-  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
-  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V), System.Collections.Generic.IEqualityComparer(Of K))
-  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
-  spec.csharp:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-    name: PermissiveToDictionary<T, K, V>
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
-    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
-    name: PermissiveToDictionary(Of T, K, V)
-    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
-    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: V
-    nameWithType: V
-    fullName: V
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: K
-    nameWithType: K
-    fullName: K
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  commentId: M:IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-  isExternal: true
-  name: GetDifferentCombinations<T>(IEnumerable<T>, Int32)
-  nameWithType: IEnumerableExtensions.GetDifferentCombinations<T>(IEnumerable<T>, Int32)
-  fullName: IEnumerableExtensions.GetDifferentCombinations<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
-  nameWithType.vb: IEnumerableExtensions.GetDifferentCombinations(Of T)(IEnumerable(Of T), Int32)
-  fullName.vb: IEnumerableExtensions.GetDifferentCombinations(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
-  name.vb: GetDifferentCombinations(Of T)(IEnumerable(Of T), Int32)
-  spec.csharp:
-  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-    name: GetDifferentCombinations<T>
-    nameWithType: IEnumerableExtensions.GetDifferentCombinations<T>
-    fullName: IEnumerableExtensions.GetDifferentCombinations<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: IEnumerableExtensions.GetDifferentCombinations``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
-    name: GetDifferentCombinations(Of T)
-    nameWithType: IEnumerableExtensions.GetDifferentCombinations(Of T)
-    fullName: IEnumerableExtensions.GetDifferentCombinations(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
-  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
-  isExternal: true
-  name: AtLeastOne<T>(IEnumerable<T>)
-  nameWithType: CollectionOps.AtLeastOne<T>(IEnumerable<T>)
-  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>(System.Collections.Generic.IEnumerable<T>)
-  nameWithType.vb: CollectionOps.AtLeastOne(Of T)(IEnumerable(Of T))
-  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)(System.Collections.Generic.IEnumerable(Of T))
-  name.vb: AtLeastOne(Of T)(IEnumerable(Of T))
-  spec.csharp:
-  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
-    name: AtLeastOne<T>
-    nameWithType: CollectionOps.AtLeastOne<T>
-    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
-    name: AtLeastOne(Of T)
-    nameWithType: CollectionOps.AtLeastOne(Of T)
-    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.CollectionOps
-  commentId: T:SuperOffice.Util.CollectionOps
-  parent: SuperOffice.Util
-  isExternal: true
-  name: CollectionOps
-  nameWithType: CollectionOps
-  fullName: SuperOffice.Util.CollectionOps
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
@@ -4112,6 +1671,122 @@ references:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.KeyedMatrix
   nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).KeyedMatrix
   fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).KeyedMatrix
+- uid: System.Collections.Generic.IEqualityComparer{{TKeyColumn}}
+  commentId: '!:System.Collections.Generic.IEqualityComparer{`0}'
+  definition: System.Collections.Generic.IEqualityComparer`1
+  name: IEqualityComparer<TKeyColumn>
+  nameWithType: IEqualityComparer<TKeyColumn>
+  fullName: System.Collections.Generic.IEqualityComparer<TKeyColumn>
+  nameWithType.vb: IEqualityComparer(Of TKeyColumn)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of TKeyColumn)
+  name.vb: IEqualityComparer(Of TKeyColumn)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKeyColumn
+    nameWithType: TKeyColumn
+    fullName: TKeyColumn
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKeyColumn
+    nameWithType: TKeyColumn
+    fullName: TKeyColumn
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEqualityComparer{{TKeyRow}}
+  commentId: '!:System.Collections.Generic.IEqualityComparer{`1}'
+  definition: System.Collections.Generic.IEqualityComparer`1
+  name: IEqualityComparer<TKeyRow>
+  nameWithType: IEqualityComparer<TKeyRow>
+  fullName: System.Collections.Generic.IEqualityComparer<TKeyRow>
+  nameWithType.vb: IEqualityComparer(Of TKeyRow)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of TKeyRow)
+  name.vb: IEqualityComparer(Of TKeyRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKeyRow
+    nameWithType: TKeyRow
+    fullName: TKeyRow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKeyRow
+    nameWithType: TKeyRow
+    fullName: TKeyRow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEqualityComparer`1
+  isExternal: true
+  name: IEqualityComparer<>
+  nameWithType: IEqualityComparer<>
+  fullName: System.Collections.Generic.IEqualityComparer<>
+  nameWithType.vb: IEqualityComparer(Of )
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of )
+  name.vb: IEqualityComparer(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.KeyedMatrix`3.AddColumn*
   commentId: Overload:SuperOffice.Util.KeyedMatrix`3.AddColumn
   isExternal: true
@@ -4423,8 +2098,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Predicate{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
-  commentId: T:System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}}
-  parent: System
+  commentId: '!:System.Predicate{SuperOffice.Util.MatrixItem{`0,`1,`2}}'
   definition: System.Predicate`1
   name: Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>
   nameWithType: Predicate<MatrixItem<TKeyColumn, TKeyRow, TItem>>
@@ -4509,14 +2183,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Predicate`1
-  commentId: T:System.Predicate`1
   isExternal: true
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
@@ -4526,9 +2199,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4541,15 +2214,14 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
 - uid: System.Action{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
-  commentId: T:System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}}
-  parent: System
+  commentId: '!:System.Action{SuperOffice.Util.MatrixItem{`0,`1,`2}}'
   definition: System.Action`1
   name: Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>
   nameWithType: Action<MatrixItem<TKeyColumn, TKeyRow, TItem>>
@@ -4634,14 +2306,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
@@ -4651,9 +2322,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4666,9 +2337,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4772,42 +2443,8 @@ references:
   fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.GetEnumerator
   nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).GetEnumerator
   fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).GetEnumerator
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}.GetEnumerator
-  commentId: M:System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{`0,`1,`2}}.GetEnumerator
-  parent: System.Collections.Generic.IEnumerable{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
-  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
-  name: GetEnumerator()
-  nameWithType: IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>.GetEnumerator()
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>.GetEnumerator()
-  nameWithType.vb: IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)).GetEnumerator()
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)).GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable<MatrixItem<TKeyColumn, TKeyRow, TItem>>.GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable<SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>>.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable(Of MatrixItem(Of TKeyColumn, TKeyRow, TItem)).GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable(Of SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)).GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerator{SuperOffice.Util.MatrixItem{{TKeyColumn},{TKeyRow},{TItem}}}
-  commentId: T:System.Collections.Generic.IEnumerator{SuperOffice.Util.MatrixItem{`0,`1,`2}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerator{SuperOffice.Util.MatrixItem{`0,`1,`2}}'
   definition: System.Collections.Generic.IEnumerator`1
   name: IEnumerator<MatrixItem<TKeyColumn, TKeyRow, TItem>>
   nameWithType: IEnumerator<MatrixItem<TKeyColumn, TKeyRow, TItem>>
@@ -4891,47 +2528,14 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: IEnumerable<T>.GetEnumerator()
-  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable<T>.GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable(Of T).GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerator`1
-  commentId: T:System.Collections.Generic.IEnumerator`1
   isExternal: true
-  name: IEnumerator<T>
-  nameWithType: IEnumerator<T>
-  fullName: System.Collections.Generic.IEnumerator<T>
-  nameWithType.vb: IEnumerator(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
-  name.vb: IEnumerator(Of T)
+  name: IEnumerator<>
+  nameWithType: IEnumerator<>
+  fullName: System.Collections.Generic.IEnumerator<>
+  nameWithType.vb: IEnumerator(Of )
+  fullName.vb: System.Collections.Generic.IEnumerator(Of )
+  name.vb: IEnumerator(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
@@ -4941,9 +2545,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4956,59 +2560,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Util.KeyedMatrix`3.System#Collections#IEnumerable#GetEnumerator*
-  commentId: Overload:SuperOffice.Util.KeyedMatrix`3.System#Collections#IEnumerable#GetEnumerator
-  isExternal: true
-  name: IEnumerable.GetEnumerator
-  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>.IEnumerable.GetEnumerator
-  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>.System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).System.Collections.IEnumerable.GetEnumerator
-  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem).System.Collections.IEnumerable.GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.IEnumerator
-  commentId: T:System.Collections.IEnumerator
-  parent: System.Collections
-  isExternal: true
-  name: IEnumerator
-  nameWithType: IEnumerator
-  fullName: System.Collections.IEnumerator
 - uid: SuperOffice.Util.KeyedMatrix`3.Item*
   commentId: Overload:SuperOffice.Util.KeyedMatrix`3.Item
   isExternal: true

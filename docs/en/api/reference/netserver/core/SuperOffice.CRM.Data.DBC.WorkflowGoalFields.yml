@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  id: DBC.WorkflowGoalFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.GoalType
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Registered
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Updated
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowGoalId
+  - SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowId
+  langs:
+  - csharp
+  - vb
+  name: DBC.WorkflowGoalFields
+  nameWithType: DBC.WorkflowGoalFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for WorkflowGoal, A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.\n"
+  syntax:
+    content: 'public static class WorkflowGoalFields : Object'
+    content.vb: >-
+      Public Module WorkflowGoalFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowGoalId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowGoalId
+  id: WorkflowGoalId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowGoalId
+  nameWithType: DBC.WorkflowGoalFields.WorkflowGoalId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowGoalId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.WorkflowGoalId: Primary key\n"
+  syntax:
+    content: public const string WorkflowGoalId = "workflow_goal_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowGoalId As String = "workflow_goal_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: DBC.WorkflowGoalFields.WorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.WorkflowId: The flow this goal belongs to\n"
+  syntax:
+    content: public const string WorkflowId = "workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowId As String = "workflow_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.GoalType
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.GoalType
+  id: GoalType
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: GoalType
+  nameWithType: DBC.WorkflowGoalFields.GoalType
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.GoalType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.GoalType: A goal that will conclude the workflow\n"
+  syntax:
+    content: public const string GoalType = "goal_type"
+    return:
+      type: System.String
+    content.vb: Public Const GoalType As String = "goal_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.WorkflowGoalFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.WorkflowGoalFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.WorkflowGoalFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.WorkflowGoalFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.WorkflowGoalFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.WorkflowGoalFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowGoalFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowGoal.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

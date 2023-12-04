@@ -7,6 +7,7 @@ items:
   - SuperOffice.CRM.Notification.AppointmentAlarmBroker
   - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
   - SuperOffice.CRM.Notification.DeviceInfo
+  - SuperOffice.CRM.Notification.NotificationEventHandler
   - SuperOffice.CRM.Notification.PushNotificationServiceManager
   langs:
   - csharp
@@ -18,6 +19,12 @@ items:
   assemblies:
   - SoDataBase
 references:
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler
+  commentId: T:SuperOffice.CRM.Notification.NotificationEventHandler
+  isExternal: true
+  name: NotificationEventHandler
+  nameWithType: NotificationEventHandler
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler
 - uid: SuperOffice.CRM.Notification.AppointmentAlarmBroker
   commentId: T:SuperOffice.CRM.Notification.AppointmentAlarmBroker
   isExternal: true

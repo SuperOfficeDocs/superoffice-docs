@@ -8,13 +8,14 @@ items:
   - SuperOffice.Data.AppointmentPrivate.PrivateGroup
   - SuperOffice.Data.AppointmentPrivate.PrivateUser
   - SuperOffice.Data.AppointmentPrivate.Public
+  - SuperOffice.Data.AppointmentPrivate.value__
   langs:
   - csharp
   - vb
   name: AppointmentPrivate
   nameWithType: AppointmentPrivate
   fullName: SuperOffice.Data.AppointmentPrivate
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -23,19 +24,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nValue for field &apos;private&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.private\n"
   syntax:
-    content: 'public enum AppointmentPrivate : short'
-    content.vb: Public Enum AppointmentPrivate As Short
+    content: 'public sealed class AppointmentPrivate : Enum'
+    content.vb: >-
+      Public NotInheritable Class AppointmentPrivate
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.AppointmentPrivate.EnumUtil.MapEnums``2
-  - SuperOffice.Data.AppointmentPrivate.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentPrivate)
-  - SuperOffice.Data.AppointmentPrivate.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.AppointmentPrivate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.AppointmentPrivate.value__
+  commentId: F:SuperOffice.Data.AppointmentPrivate.value__
+  id: value__
+  parent: SuperOffice.Data.AppointmentPrivate
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentPrivate.value__
+  fullName: SuperOffice.Data.AppointmentPrivate.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.AppointmentPrivate.Public
   commentId: F:SuperOffice.Data.AppointmentPrivate.Public
   id: Public
@@ -55,9 +91,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: This appointment can be read by anyone\n"
   syntax:
-    content: Public = 0
+    content: public const AppointmentPrivate Public
     return:
       type: SuperOffice.Data.AppointmentPrivate
+    content.vb: Public Const Public As AppointmentPrivate
   modifiers.csharp:
   - public
   - const
@@ -83,9 +120,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: This appointment can only be read/seen by the owner\n"
   syntax:
-    content: PrivateUser = 1
+    content: public const AppointmentPrivate PrivateUser
     return:
       type: SuperOffice.Data.AppointmentPrivate
+    content.vb: Public Const PrivateUser As AppointmentPrivate
   modifiers.csharp:
   - public
   - const
@@ -111,9 +149,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: This appointment can only be read by members of the owners group\n"
   syntax:
-    content: PrivateGroup = 2
+    content: public const AppointmentPrivate PrivateGroup
     return:
       type: SuperOffice.Data.AppointmentPrivate
+    content.vb: Public Const PrivateGroup As AppointmentPrivate
   modifiers.csharp:
   - public
   - const
@@ -127,6 +166,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.AppointmentPrivate.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -154,84 +200,6 @@ references:
     name: MapEnums(Of AppointmentPrivate, To)
     nameWithType: EnumUtil.MapEnums(Of AppointmentPrivate, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentPrivate, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.AppointmentPrivate.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentPrivate)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<AppointmentPrivate>(AppointmentPrivate)
-  nameWithType: ObjectExtensions.AssignByReflection<AppointmentPrivate>(AppointmentPrivate)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppointmentPrivate>(SuperOffice.Data.AppointmentPrivate)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentPrivate)(AppointmentPrivate)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppointmentPrivate)(SuperOffice.Data.AppointmentPrivate)
-  name.vb: AssignByReflection(Of AppointmentPrivate)(AppointmentPrivate)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<AppointmentPrivate>
-    nameWithType: ObjectExtensions.AssignByReflection<AppointmentPrivate>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppointmentPrivate>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.AppointmentPrivate
-    name: AppointmentPrivate
-    nameWithType: AppointmentPrivate
-    fullName: SuperOffice.Data.AppointmentPrivate
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of AppointmentPrivate)
-    nameWithType: ObjectExtensions.AssignByReflection(Of AppointmentPrivate)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppointmentPrivate)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.AppointmentPrivate
-    name: AppointmentPrivate
-    nameWithType: AppointmentPrivate
-    fullName: SuperOffice.Data.AppointmentPrivate
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.AppointmentPrivate.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<AppointmentPrivate>()
-  nameWithType: ObjectExtensions.GraphCopy<AppointmentPrivate>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppointmentPrivate>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentPrivate)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppointmentPrivate)()
-  name.vb: GraphCopy(Of AppointmentPrivate)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<AppointmentPrivate>
-    nameWithType: ObjectExtensions.GraphCopy<AppointmentPrivate>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppointmentPrivate>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of AppointmentPrivate)
-    nameWithType: ObjectExtensions.GraphCopy(Of AppointmentPrivate)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppointmentPrivate)
     isExternal: true
   - name: (
     nameWithType: (
@@ -273,6 +241,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -318,103 +292,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -461,18 +338,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.AppointmentPrivate
   commentId: T:SuperOffice.Data.AppointmentPrivate
   parent: SuperOffice.Data

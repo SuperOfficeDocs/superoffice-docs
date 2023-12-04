@@ -262,7 +262,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.AudienceLayoutEntity.CreatedDate*
   modifiers.csharp:
   - public
@@ -295,7 +295,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.AudienceLayoutEntity.UpdatedDate*
   modifiers.csharp:
   - public
@@ -378,13 +378,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AudienceAgent
   commentId: T:SuperOffice.CRM.Services.AudienceAgent
   isExternal: true
@@ -398,12 +391,6 @@ references:
   name: IAudienceAgent
   nameWithType: IAudienceAgent
   fullName: SuperOffice.CRM.Services.IAudienceAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AudienceLayoutEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AudienceLayoutEntity.#ctor
   isExternal: true
@@ -423,6 +410,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AudienceLayoutEntity.AudienceLayoutId*
   commentId: Overload:SuperOffice.CRM.Services.AudienceLayoutEntity.AudienceLayoutId
   isExternal: true
@@ -455,8 +448,6 @@ references:
   nameWithType: AudienceLayoutEntity.CreatedDate
   fullName: SuperOffice.CRM.Services.AudienceLayoutEntity.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

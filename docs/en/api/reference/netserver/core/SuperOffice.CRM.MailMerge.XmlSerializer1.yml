@@ -25,6 +25,7 @@ items:
     content: 'public abstract class XmlSerializer1 : XmlSerializer'
     content.vb: >-
       Public MustInherit Class XmlSerializer1
+
           Inherits XmlSerializer
   inheritance:
   - System.Object

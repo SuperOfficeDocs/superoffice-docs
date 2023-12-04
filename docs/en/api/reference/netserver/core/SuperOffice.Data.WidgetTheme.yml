@@ -7,13 +7,14 @@ items:
   children:
   - SuperOffice.Data.WidgetTheme.Classic
   - SuperOffice.Data.WidgetTheme.Modern
+  - SuperOffice.Data.WidgetTheme.value__
   langs:
   - csharp
   - vb
   name: WidgetTheme
   nameWithType: WidgetTheme
   fullName: SuperOffice.Data.WidgetTheme
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -22,19 +23,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nChat Topic widget_theme: classic(0) or modern(1).\nThis Enum is used by:  chat_topic.widget_theme\n"
   syntax:
-    content: 'public enum WidgetTheme : short'
-    content.vb: Public Enum WidgetTheme As Short
+    content: 'public sealed class WidgetTheme : Enum'
+    content.vb: >-
+      Public NotInheritable Class WidgetTheme
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.WidgetTheme.EnumUtil.MapEnums``2
-  - SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetTheme)
-  - SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.WidgetTheme.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WidgetTheme.value__
+  commentId: F:SuperOffice.Data.WidgetTheme.value__
+  id: value__
+  parent: SuperOffice.Data.WidgetTheme
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WidgetTheme.value__
+  fullName: SuperOffice.Data.WidgetTheme.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.WidgetTheme.Classic
   commentId: F:SuperOffice.Data.WidgetTheme.Classic
   id: Classic
@@ -54,9 +90,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Set widget theme to classic\n"
   syntax:
-    content: Classic = 0
+    content: public const WidgetTheme Classic
     return:
       type: SuperOffice.Data.WidgetTheme
+    content.vb: Public Const Classic As WidgetTheme
   modifiers.csharp:
   - public
   - const
@@ -82,9 +119,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Set widget theme to modern\n"
   syntax:
-    content: Modern = 1
+    content: public const WidgetTheme Modern
     return:
       type: SuperOffice.Data.WidgetTheme
+    content.vb: Public Const Modern As WidgetTheme
   modifiers.csharp:
   - public
   - const
@@ -98,6 +136,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.WidgetTheme.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -125,84 +170,6 @@ references:
     name: MapEnums(Of WidgetTheme, To)
     nameWithType: EnumUtil.MapEnums(Of WidgetTheme, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WidgetTheme, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetTheme)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<WidgetTheme>(WidgetTheme)
-  nameWithType: ObjectExtensions.AssignByReflection<WidgetTheme>(WidgetTheme)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WidgetTheme>(SuperOffice.Data.WidgetTheme)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WidgetTheme)(WidgetTheme)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WidgetTheme)(SuperOffice.Data.WidgetTheme)
-  name.vb: AssignByReflection(Of WidgetTheme)(WidgetTheme)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<WidgetTheme>
-    nameWithType: ObjectExtensions.AssignByReflection<WidgetTheme>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WidgetTheme>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.WidgetTheme
-    name: WidgetTheme
-    nameWithType: WidgetTheme
-    fullName: SuperOffice.Data.WidgetTheme
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of WidgetTheme)
-    nameWithType: ObjectExtensions.AssignByReflection(Of WidgetTheme)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WidgetTheme)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.WidgetTheme
-    name: WidgetTheme
-    nameWithType: WidgetTheme
-    fullName: SuperOffice.Data.WidgetTheme
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.WidgetTheme.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<WidgetTheme>()
-  nameWithType: ObjectExtensions.GraphCopy<WidgetTheme>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WidgetTheme>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WidgetTheme)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WidgetTheme)()
-  name.vb: GraphCopy(Of WidgetTheme)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<WidgetTheme>
-    nameWithType: ObjectExtensions.GraphCopy<WidgetTheme>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WidgetTheme>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of WidgetTheme)
-    nameWithType: ObjectExtensions.GraphCopy(Of WidgetTheme)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WidgetTheme)
     isExternal: true
   - name: (
     nameWithType: (
@@ -244,6 +211,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -289,103 +262,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -432,18 +308,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.WidgetTheme
   commentId: T:SuperOffice.Data.WidgetTheme
   parent: SuperOffice.Data

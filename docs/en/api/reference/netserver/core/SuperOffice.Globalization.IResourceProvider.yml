@@ -28,6 +28,7 @@ items:
     content: 'public interface IResourceProvider : IPlugin'
     content.vb: >-
       Public Interface IResourceProvider
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.Globalization.IResourceProvider.EnumUtil.MapEnums``2

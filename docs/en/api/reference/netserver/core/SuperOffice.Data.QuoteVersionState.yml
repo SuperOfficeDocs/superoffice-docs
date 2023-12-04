@@ -15,13 +15,14 @@ items:
   - SuperOffice.Data.QuoteVersionState.Sent
   - SuperOffice.Data.QuoteVersionState.Sold
   - SuperOffice.Data.QuoteVersionState.Unknown
+  - SuperOffice.Data.QuoteVersionState.value__
   langs:
   - csharp
   - vb
   name: QuoteVersionState
   nameWithType: QuoteVersionState
   fullName: SuperOffice.Data.QuoteVersionState
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -30,21 +31,56 @@ items:
   namespace: SuperOffice.Data
   summary: "\nState of a Quote Version\nThis Enum is used by:  QuoteVersion.State; QuoteVersion.ArchivedState\n"
   syntax:
-    content: 'public enum QuoteVersionState : short'
-    content.vb: Public Enum QuoteVersionState As Short
+    content: 'public sealed class QuoteVersionState : Enum'
+    content.vb: >-
+      Public NotInheritable Class QuoteVersionState
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.QuoteVersionState.EnumUtil.MapEnums``2
   - SuperOffice.Data.QuoteVersionState.SuperOffice.CRM.QuoteVersionStateExtensions.IsDraft
   - SuperOffice.Data.QuoteVersionState.SuperOffice.CRM.QuoteVersionStateExtensions.IsSent
-  - SuperOffice.Data.QuoteVersionState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.QuoteVersionState)
-  - SuperOffice.Data.QuoteVersionState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.QuoteVersionState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.QuoteVersionState.value__
+  commentId: F:SuperOffice.Data.QuoteVersionState.value__
+  id: value__
+  parent: SuperOffice.Data.QuoteVersionState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: QuoteVersionState.value__
+  fullName: SuperOffice.Data.QuoteVersionState.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.QuoteVersionState.Unknown
   commentId: F:SuperOffice.Data.QuoteVersionState.Unknown
   id: Unknown
@@ -64,9 +100,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: State unknown\n"
   syntax:
-    content: Unknown = 0
+    content: public const QuoteVersionState Unknown
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const Unknown As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -92,9 +129,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Draft that has been calculated, and ERP has verified it as OK\n"
   syntax:
-    content: Draft = 1
+    content: public const QuoteVersionState Draft
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const Draft As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -120,9 +158,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: This is a draft that has not been calculated, prices and other attributes may be &apos;invalid&apos; relative to ERP system rules\n"
   syntax:
-    content: DraftNotCalculated = 2
+    content: public const QuoteVersionState DraftNotCalculated
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const DraftNotCalculated As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -148,9 +187,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Draft has been checked, and there was a problem that needs (human) approval\n"
   syntax:
-    content: DraftNeedsApproval = 3
+    content: public const QuoteVersionState DraftNeedsApproval
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const DraftNeedsApproval As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -176,9 +216,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Draft with potential problems has been human-approved\n"
   syntax:
-    content: DraftApproved = 4
+    content: public const QuoteVersionState DraftApproved
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const DraftApproved As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -204,9 +245,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Draft has been checked, there was a problem, and (human) approval was NOT granted\n"
   syntax:
-    content: DraftNotApproved = 5
+    content: public const QuoteVersionState DraftNotApproved
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const DraftNotApproved As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -232,9 +274,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Sent to customer, and is now a legally binding document\n"
   syntax:
-    content: Sent = 6
+    content: public const QuoteVersionState Sent
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const Sent As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -260,9 +303,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Archived - previous state saved in ArchivedState, newer versions exist\n"
   syntax:
-    content: Archived = 7
+    content: public const QuoteVersionState Archived
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const Archived As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -288,9 +332,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Version was rejected be the customer - we lost the sale\n"
   syntax:
-    content: Lost = 8
+    content: public const QuoteVersionState Lost
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const Lost As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -316,9 +361,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: Quote was accepted and the sale is &apos;Sold&apos;\n"
   syntax:
-    content: Sold = 9
+    content: public const QuoteVersionState Sold
     return:
       type: SuperOffice.Data.QuoteVersionState
+    content.vb: Public Const Sold As QuoteVersionState
   modifiers.csharp:
   - public
   - const
@@ -332,6 +378,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.QuoteVersionState.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -428,84 +481,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.QuoteVersionState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.QuoteVersionState)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<QuoteVersionState>(QuoteVersionState)
-  nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionState>(QuoteVersionState)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.QuoteVersionState>(SuperOffice.Data.QuoteVersionState)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteVersionState)(QuoteVersionState)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.QuoteVersionState)(SuperOffice.Data.QuoteVersionState)
-  name.vb: AssignByReflection(Of QuoteVersionState)(QuoteVersionState)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<QuoteVersionState>
-    nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionState>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.QuoteVersionState>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.QuoteVersionState
-    name: QuoteVersionState
-    nameWithType: QuoteVersionState
-    fullName: SuperOffice.Data.QuoteVersionState
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of QuoteVersionState)
-    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteVersionState)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.QuoteVersionState)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.QuoteVersionState
-    name: QuoteVersionState
-    nameWithType: QuoteVersionState
-    fullName: SuperOffice.Data.QuoteVersionState
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.QuoteVersionState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<QuoteVersionState>()
-  nameWithType: ObjectExtensions.GraphCopy<QuoteVersionState>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.QuoteVersionState>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteVersionState)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.QuoteVersionState)()
-  name.vb: GraphCopy(Of QuoteVersionState)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<QuoteVersionState>
-    nameWithType: ObjectExtensions.GraphCopy<QuoteVersionState>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.QuoteVersionState>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of QuoteVersionState)
-    nameWithType: ObjectExtensions.GraphCopy(Of QuoteVersionState)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.QuoteVersionState)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Data.QuoteVersionState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -540,6 +515,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -672,103 +653,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -821,18 +705,19 @@ references:
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.QuoteVersionState
   commentId: T:SuperOffice.Data.QuoteVersionState
   parent: SuperOffice.Data

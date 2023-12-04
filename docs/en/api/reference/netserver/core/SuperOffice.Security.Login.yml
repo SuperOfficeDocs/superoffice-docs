@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Login
+  commentId: N:SuperOffice.Security.Login
+  id: SuperOffice.Security.Login
+  children:
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Security.Login
+  nameWithType: SuperOffice.Security.Login
+  fullName: SuperOffice.Security.Login
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  commentId: T:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  isExternal: true
+  name: VideoMeetingPostLoginPlugin
+  nameWithType: VideoMeetingPostLoginPlugin
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin

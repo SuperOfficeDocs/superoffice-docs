@@ -1,0 +1,573 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  id: DBC.WorkflowInstanceFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.ContactId
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.CurrentStep
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.DropoutReason
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.LastCommunicationStep
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.PersonId
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Registered
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Status
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepLevel
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepStarted
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Updated
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Variables
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WaitUntil
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowId
+  - SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowInstanceId
+  langs:
+  - csharp
+  - vb
+  name: DBC.WorkflowInstanceFields
+  nameWithType: DBC.WorkflowInstanceFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for WorkflowInstance, A set of properties related to the workflow instance of one participant going through the flow\n"
+  syntax:
+    content: 'public static class WorkflowInstanceFields : Object'
+    content.vb: >-
+      Public Module WorkflowInstanceFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowInstanceId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowInstanceId
+  id: WorkflowInstanceId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceId
+  nameWithType: DBC.WorkflowInstanceFields.WorkflowInstanceId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowInstanceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.WorkflowInstanceId: Primary key\n"
+  syntax:
+    content: public const string WorkflowInstanceId = "workflow_instance_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowInstanceId As String = "workflow_instance_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: DBC.WorkflowInstanceFields.WorkflowId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WorkflowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.WorkflowId: The flow this instance belongs to\n"
+  syntax:
+    content: public const string WorkflowId = "workflow_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowId As String = "workflow_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.WorkflowInstanceFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.Status: Status of the workflow instance\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.WorkflowInstanceFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.PersonId: Person ID of person going through the flow\n"
+  syntax:
+    content: public const string PersonId = "person_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.WorkflowInstanceFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.ContactId: Contact ID of contact contact going through the flow\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Variables
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Variables
+  id: Variables
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: DBC.WorkflowInstanceFields.Variables
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Variables
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.Variables: Instance data and variables\n"
+  syntax:
+    content: public const string Variables = "variables"
+    return:
+      type: System.String
+    content.vb: Public Const Variables As String = "variables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.WorkflowInstanceFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.WorkflowInstanceFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.WorkflowInstanceFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.WorkflowInstanceFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.WorkflowInstanceFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.CurrentStep
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.CurrentStep
+  id: CurrentStep
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: CurrentStep
+  nameWithType: DBC.WorkflowInstanceFields.CurrentStep
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.CurrentStep
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.CurrentStep: Next step to be executed when conditions are met\n"
+  syntax:
+    content: public const string CurrentStep = "current_step"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentStep As String = "current_step"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WaitUntil
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WaitUntil
+  id: WaitUntil
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: WaitUntil
+  nameWithType: DBC.WorkflowInstanceFields.WaitUntil
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.WaitUntil
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.WaitUntil: Don&apos;t evaluate conditions until given time (set by a waiting step, and status Suspended). An event may change the wait_until or status to Running.\n"
+  syntax:
+    content: public const string WaitUntil = "wait_until"
+    return:
+      type: System.String
+    content.vb: Public Const WaitUntil As String = "wait_until"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.LastCommunicationStep
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.LastCommunicationStep
+  id: LastCommunicationStep
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: LastCommunicationStep
+  nameWithType: DBC.WorkflowInstanceFields.LastCommunicationStep
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.LastCommunicationStep
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.LastCommunicationStep: Last completed step with email/sms to customer\n"
+  syntax:
+    content: public const string LastCommunicationStep = "last_communication_step"
+    return:
+      type: System.String
+    content.vb: Public Const LastCommunicationStep As String = "last_communication_step"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.DropoutReason
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.DropoutReason
+  id: DropoutReason
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: DropoutReason
+  nameWithType: DBC.WorkflowInstanceFields.DropoutReason
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.DropoutReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.DropoutReason: Reason for dropout/failure\n"
+  syntax:
+    content: public const string DropoutReason = "dropout_reason"
+    return:
+      type: System.String
+    content.vb: Public Const DropoutReason As String = "dropout_reason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepStarted
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepStarted
+  id: StepStarted
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: StepStarted
+  nameWithType: DBC.WorkflowInstanceFields.StepStarted
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepStarted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.StepStarted: The currently executing step was started at this time\n"
+  syntax:
+    content: public const string StepStarted = "step_started"
+    return:
+      type: System.String
+    content.vb: Public Const StepStarted As String = "step_started"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepLevel
+  id: StepLevel
+  parent: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields
+  langs:
+  - csharp
+  - vb
+  name: StepLevel
+  nameWithType: DBC.WorkflowInstanceFields.StepLevel
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowInstanceFields.StepLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowInstance.StepLevel: Some steps have multiple levels, this indicates what level is reached\n"
+  syntax:
+    content: public const string StepLevel = "step_level"
+    return:
+      type: System.String
+    content.vb: Public Const StepLevel As String = "step_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

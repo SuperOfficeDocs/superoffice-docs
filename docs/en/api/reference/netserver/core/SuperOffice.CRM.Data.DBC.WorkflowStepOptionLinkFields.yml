@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  id: DBC.WorkflowStepOptionLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Registered
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Updated
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepId
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionId
+  - SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionLinkId
+  langs:
+  - csharp
+  - vb
+  name: DBC.WorkflowStepOptionLinkFields
+  nameWithType: DBC.WorkflowStepOptionLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for WorkflowStepOptionLink, Link steps to other steps through step options\n"
+  syntax:
+    content: 'public static class WorkflowStepOptionLinkFields : Object'
+    content.vb: >-
+      Public Module WorkflowStepOptionLinkFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionLinkId
+  id: WorkflowStepOptionLinkId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionLinkId
+  nameWithType: DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionLinkId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.WorkflowStepOptionLinkId: Primary key\n"
+  syntax:
+    content: public const string WorkflowStepOptionLinkId = "workflow_step_option_link_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowStepOptionLinkId As String = "workflow_step_option_link_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionId
+  id: WorkflowStepOptionId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionId
+  nameWithType: DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepOptionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.WorkflowStepOptionId: The workflow step option to connect to\n"
+  syntax:
+    content: public const string WorkflowStepOptionId = "workflow_step_option_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowStepOptionId As String = "workflow_step_option_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepId
+  id: WorkflowStepId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepId
+  nameWithType: DBC.WorkflowStepOptionLinkFields.WorkflowStepId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.WorkflowStepId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.WorkflowStepId: A workflow step connected to the option\n"
+  syntax:
+    content: public const string WorkflowStepId = "workflow_step_id"
+    return:
+      type: System.String
+    content.vb: Public Const WorkflowStepId As String = "workflow_step_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.WorkflowStepOptionLinkFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.WorkflowStepOptionLinkFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.WorkflowStepOptionLinkFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.WorkflowStepOptionLinkFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.WorkflowStepOptionLinkFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.WorkflowStepOptionLinkFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nWorkflowStepOptionLink.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

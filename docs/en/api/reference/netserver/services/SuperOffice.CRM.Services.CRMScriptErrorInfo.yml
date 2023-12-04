@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  commentId: T:SuperOffice.CRM.Services.CRMScriptErrorInfo
+  id: CRMScriptErrorInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.#ctor
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString
+  - SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptErrorInfo
+  nameWithType: CRMScriptErrorInfo
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nObject containing error information for a CRMScript\n<p></p>\nCarrier object for CRMScriptErrorInfo.\nServices for the CRMScriptErrorInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICRMScriptAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class CRMScriptErrorInfo : Carrier'
+    content.vb: >-
+      Public Class CRMScriptErrorInfo
+
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  - linkId: SuperOffice.CRM.Services.ICRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.CRMScriptErrorInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptErrorInfo()
+  nameWithType: CRMScriptErrorInfo.CRMScriptErrorInfo()
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.CRMScriptErrorInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CRMScriptErrorInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CRMScriptErrorInfo.ToString()
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CRMScriptErrorInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
+  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: CRMScriptErrorInfo.ErrorMessage
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescriptive message of the script failed \n"
+  syntax:
+    content: public virtual string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorMessage As String
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  id: ErrorLine
+  parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorLine
+  nameWithType: CRMScriptErrorInfo.ErrorLine
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe line number where the error occured \n"
+  syntax:
+    content: public virtual int ErrorLine { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErrorLine As Integer
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+  commentId: P:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+  id: ErrorCharacterPosition
+  parent: SuperOffice.CRM.Services.CRMScriptErrorInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorCharacterPosition
+  nameWithType: CRMScriptErrorInfo.ErrorCharacterPosition
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe character position on the ErrorLine, if available \n"
+  syntax:
+    content: public virtual int ErrorCharacterPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErrorCharacterPosition As Integer
+  overload: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.CRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICRMScriptAgent
+  nameWithType: ICRMScriptAgent
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.#ctor
+  isExternal: true
+  name: CRMScriptErrorInfo
+  nameWithType: CRMScriptErrorInfo.CRMScriptErrorInfo
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.CRMScriptErrorInfo
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CRMScriptErrorInfo.ToString
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: CRMScriptErrorInfo.ErrorMessage
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorMessage
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+  isExternal: true
+  name: ErrorLine
+  nameWithType: CRMScriptErrorInfo.ErrorLine
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorLine
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition
+  isExternal: true
+  name: ErrorCharacterPosition
+  nameWithType: CRMScriptErrorInfo.ErrorCharacterPosition
+  fullName: SuperOffice.CRM.Services.CRMScriptErrorInfo.ErrorCharacterPosition

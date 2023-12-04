@@ -27,6 +27,7 @@ items:
     content: 'public class TimeZoneService : WcfClientBase<ITimeZoneService>'
     content.vb: >-
       Public Class TimeZoneService
+
           Inherits WcfClientBase(Of ITimeZoneService)
   inheritance:
   - System.Object
@@ -368,6 +369,7 @@ references:
   nameWithType: TimeZoneService.InitBinding
   fullName: SuperOffice.License.TimeZone.TimeZoneService.InitBinding
 - uid: System.ServiceModel.BasicHttpBinding
+  commentId: '!:System.ServiceModel.BasicHttpBinding'
   isExternal: true
   name: BasicHttpBinding
   nameWithType: BasicHttpBinding

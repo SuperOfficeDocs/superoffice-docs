@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  id: ProgressHandler
+  parent: SuperOffice.CRM.BatchProcessing.Plugins
+  children:
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo)
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ProgressHandler
+  nameWithType: ProgressHandler
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: 'public class ProgressHandler : Object, UdefPublishHelper.IProgressHandler'
+    content.vb: >-
+      Public Class ProgressHandler
+          Inherits Object
+          Implements UdefPublishHelper.IProgressHandler
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  extensionMethods:
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
+  commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
+  id: bti
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: bti
+  nameWithType: ProgressHandler.bti
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.bti
+  type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public BatchTaskInfo bti
+    return:
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    content.vb: Public bti As BatchTaskInfo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor(SuperOffice.CRM.Services.BatchTaskInfo)
+  id: '#ctor(SuperOffice.CRM.Services.BatchTaskInfo)'
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: ProgressHandler(BatchTaskInfo)
+  nameWithType: ProgressHandler.ProgressHandler(BatchTaskInfo)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.ProgressHandler(SuperOffice.CRM.Services.BatchTaskInfo)
+  type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public ProgressHandler(BatchTaskInfo pBti)
+    parameters:
+    - id: pBti
+      type: SuperOffice.CRM.Services.BatchTaskInfo
+    content.vb: Public Sub New(pBti As BatchTaskInfo)
+  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
+  id: IncrementProgress(System.Int32)
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: IncrementProgress(Int32)
+  nameWithType: ProgressHandler.IncrementProgress(Int32)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress(System.Int32)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public void IncrementProgress(int numOperationsDone)
+    parameters:
+    - id: numOperationsDone
+      type: System.Int32
+    content.vb: Public Sub IncrementProgress(numOperationsDone As Integer)
+  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress*
+  implements:
+  - SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
+  id: SetProgressDescription(System.String)
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: SetProgressDescription(String)
+  nameWithType: ProgressHandler.SetProgressDescription(String)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription(System.String)
+  type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public void SetProgressDescription(string description)
+    parameters:
+    - id: description
+      type: System.String
+    content.vb: Public Sub SetProgressDescription(description As String)
+  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription*
+  implements:
+  - SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
+  commentId: P:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
+  id: NumOperations
+  parent: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  langs:
+  - csharp
+  - vb
+  name: NumOperations
+  nameWithType: ProgressHandler.NumOperations
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
+  type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.CRM.BatchProcessing.Plugins
+  syntax:
+    content: public int NumOperations { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumOperations As Integer
+  overload: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations*
+  implements:
+  - SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.BatchProcessing.Plugins
+  commentId: N:SuperOffice.CRM.BatchProcessing.Plugins
+  isExternal: true
+  name: SuperOffice.CRM.BatchProcessing.Plugins
+  nameWithType: SuperOffice.CRM.BatchProcessing.Plugins
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  commentId: T:SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UdefPublishHelper.IProgressHandler
+  nameWithType: UdefPublishHelper.IProgressHandler
+  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProgressHandler, To>()
+  nameWithType: EnumUtil.MapEnums<ProgressHandler, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProgressHandler, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To)()
+  name.vb: MapEnums(Of ProgressHandler, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProgressHandler, To>
+    nameWithType: EnumUtil.MapEnums<ProgressHandler, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProgressHandler, To)
+    nameWithType: EnumUtil.MapEnums(Of ProgressHandler, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProgressHandler, To>()
+  nameWithType: Converters.MapEnums<ProgressHandler, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProgressHandler, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To)()
+  name.vb: MapEnums(Of ProgressHandler, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProgressHandler, To>
+    nameWithType: Converters.MapEnums<ProgressHandler, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProgressHandler, To)
+    nameWithType: Converters.MapEnums(Of ProgressHandler, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Services.BatchTaskInfo
+  isExternal: true
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.#ctor
+  isExternal: true
+  name: ProgressHandler
+  nameWithType: ProgressHandler.ProgressHandler
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.ProgressHandler
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress
+  isExternal: true
+  name: IncrementProgress
+  nameWithType: ProgressHandler.IncrementProgress
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.IncrementProgress
+- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+  commentId: M:SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+  parent: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  isExternal: true
+  name: IncrementProgress(Int32)
+  nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress(Int32)
+  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+    name: IncrementProgress
+    nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress
+    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
+    name: IncrementProgress
+    nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress
+    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription
+  isExternal: true
+  name: SetProgressDescription
+  nameWithType: ProgressHandler.SetProgressDescription
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.SetProgressDescription
+- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+  commentId: M:SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+  parent: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  isExternal: true
+  name: SetProgressDescription(String)
+  nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription(String)
+  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+    name: SetProgressDescription
+    nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription
+    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
+    name: SetProgressDescription
+    nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription
+    fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations*
+  commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
+  isExternal: true
+  name: NumOperations
+  nameWithType: ProgressHandler.NumOperations
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.NumOperations
+- uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
+  commentId: P:SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
+  parent: SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  isExternal: true
+  name: NumOperations
+  nameWithType: UdefPublishHelper.IProgressHandler.NumOperations
+  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations

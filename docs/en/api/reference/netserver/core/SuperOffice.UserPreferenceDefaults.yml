@@ -7,13 +7,17 @@ items:
   children:
   - SuperOffice.UserPreferenceDefaults.AllDayEndTime
   - SuperOffice.UserPreferenceDefaults.AllDayStartTime
+  - SuperOffice.UserPreferenceDefaults.DefaultAlarmTime
   - SuperOffice.UserPreferenceDefaults.DefaultHistoryListSize
   - SuperOffice.UserPreferenceDefaults.FilterCompletedFromTodo
   - SuperOffice.UserPreferenceDefaults.GetAdvanceDays
   - SuperOffice.UserPreferenceDefaults.LunchEndTime
   - SuperOffice.UserPreferenceDefaults.LunchStartTime
+  - SuperOffice.UserPreferenceDefaults.NotifyAttendeesByMail
   - SuperOffice.UserPreferenceDefaults.PollingInterval
+  - SuperOffice.UserPreferenceDefaults.ShowWeekNumbersInCalendars
   - SuperOffice.UserPreferenceDefaults.SilentAfter
+  - SuperOffice.UserPreferenceDefaults.UnsafeFileTypes
   - SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.Int32,System.Int32)
   - SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String,System.String)
   langs:
@@ -31,18 +35,13 @@ items:
   namespace: SuperOffice
   summary: "\nDefines user preference default values\n"
   syntax:
-    content: public static class UserPreferenceDefaults
-    content.vb: Public Module UserPreferenceDefaults
+    content: 'public static class UserPreferenceDefaults : Object'
+    content.vb: >-
+      Public Module UserPreferenceDefaults
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -311,6 +310,122 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.UserPreferenceDefaults.UnsafeFileTypes
+  commentId: F:SuperOffice.UserPreferenceDefaults.UnsafeFileTypes
+  id: UnsafeFileTypes
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: UnsafeFileTypes
+  nameWithType: UserPreferenceDefaults.UnsafeFileTypes
+  fullName: SuperOffice.UserPreferenceDefaults.UnsafeFileTypes
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  summary: "\nDefault unsafe file types\n"
+  syntax:
+    content: public const string UnsafeFileTypes = "msi,exe,com,bat,cmd,ps1,dll,scr,ocx,vbs,js"
+    return:
+      type: System.String
+    content.vb: Public Const UnsafeFileTypes As String = "msi,exe,com,bat,cmd,ps1,dll,scr,ocx,vbs,js"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.DefaultAlarmTime
+  commentId: F:SuperOffice.UserPreferenceDefaults.DefaultAlarmTime
+  id: DefaultAlarmTime
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAlarmTime
+  nameWithType: UserPreferenceDefaults.DefaultAlarmTime
+  fullName: SuperOffice.UserPreferenceDefaults.DefaultAlarmTime
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  summary: "\nDefault alarm lead time for DefaultAlarmTime preference. (Minutes)\n"
+  syntax:
+    content: public const int DefaultAlarmTime = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const DefaultAlarmTime As Integer = 15
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.ShowWeekNumbersInCalendars
+  commentId: F:SuperOffice.UserPreferenceDefaults.ShowWeekNumbersInCalendars
+  id: ShowWeekNumbersInCalendars
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: ShowWeekNumbersInCalendars
+  nameWithType: UserPreferenceDefaults.ShowWeekNumbersInCalendars
+  fullName: SuperOffice.UserPreferenceDefaults.ShowWeekNumbersInCalendars
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  summary: "\nDefault value for the show week numbers in calendars preference.\n"
+  syntax:
+    content: public const bool ShowWeekNumbersInCalendars = false
+    return:
+      type: System.Boolean
+    content.vb: Public Const ShowWeekNumbersInCalendars As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.NotifyAttendeesByMail
+  commentId: F:SuperOffice.UserPreferenceDefaults.NotifyAttendeesByMail
+  id: NotifyAttendeesByMail
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: NotifyAttendeesByMail
+  nameWithType: UserPreferenceDefaults.NotifyAttendeesByMail
+  fullName: SuperOffice.UserPreferenceDefaults.NotifyAttendeesByMail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  summary: "\nDefault value for the &quot;send email to attendees&quot; preference.\n"
+  syntax:
+    content: public const bool NotifyAttendeesByMail = true
+    return:
+      type: System.Boolean
+    content.vb: Public Const NotifyAttendeesByMail As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String,System.String)
   commentId: M:SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String,System.String)
   id: ValueOrDefault(System.String,System.String)
@@ -401,285 +516,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -700,12 +536,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SuperOffice.UserPreferenceDefaults.ValueOrDefault*
-  commentId: Overload:SuperOffice.UserPreferenceDefaults.ValueOrDefault
-  isExternal: true
-  name: ValueOrDefault
-  nameWithType: UserPreferenceDefaults.ValueOrDefault
-  fullName: SuperOffice.UserPreferenceDefaults.ValueOrDefault
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -713,3 +543,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.UserPreferenceDefaults.ValueOrDefault*
+  commentId: Overload:SuperOffice.UserPreferenceDefaults.ValueOrDefault
+  isExternal: true
+  name: ValueOrDefault
+  nameWithType: UserPreferenceDefaults.ValueOrDefault
+  fullName: SuperOffice.UserPreferenceDefaults.ValueOrDefault

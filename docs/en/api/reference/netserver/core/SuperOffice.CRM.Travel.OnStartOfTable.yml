@@ -15,7 +15,7 @@ items:
   name: OnStartOfTable
   nameWithType: OnStartOfTable
   fullName: SuperOffice.CRM.Travel.OnStartOfTable
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,23 +24,24 @@ items:
   namespace: SuperOffice.CRM.Travel
   summary: "\nCalled before the first row of a new table is copied\n"
   syntax:
-    content: public delegate ProcessingOption OnStartOfTable(TableModel table);
-    parameters:
-    - id: table
-      type: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
-    return:
-      type: SuperOffice.CRM.Travel.ProcessingOption
-      description: true to continue, false to cancel
-    content.vb: Public Delegate Function OnStartOfTable(table As TableModel) As ProcessingOption
+    content: 'public sealed class OnStartOfTable : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class OnStartOfTable
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Travel.OnStartOfTable.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Travel.OnStartOfTable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Travel.OnStartOfTable.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.CRM.Travel.OnStartOfTable.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -178,6 +179,13 @@ references:
   name: SuperOffice.CRM.Travel
   nameWithType: SuperOffice.CRM.Travel
   fullName: SuperOffice.CRM.Travel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Travel.OnStartOfTable.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -246,18 +254,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: TableModel
-  nameWithType: TableModel
-  fullName: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
-- uid: SuperOffice.CRM.Travel.ProcessingOption
-  commentId: T:SuperOffice.CRM.Travel.ProcessingOption
-  parent: SuperOffice.CRM.Travel
-  isExternal: true
-  name: ProcessingOption
-  nameWithType: ProcessingOption
-  fullName: SuperOffice.CRM.Travel.ProcessingOption
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -361,13 +363,6 @@ references:
   name: OnStartOfTable
   nameWithType: OnStartOfTable.OnStartOfTable
   fullName: SuperOffice.CRM.Travel.OnStartOfTable.OnStartOfTable
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -375,18 +370,24 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Travel.OnStartOfTable.Invoke*
   commentId: Overload:SuperOffice.CRM.Travel.OnStartOfTable.Invoke
   isExternal: true
   name: Invoke
   nameWithType: OnStartOfTable.Invoke
   fullName: SuperOffice.CRM.Travel.OnStartOfTable.Invoke
+- uid: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
+  isExternal: true
+  name: TableModel
+  nameWithType: TableModel
+  fullName: SuperOffice.CD.DSL.V1.DatabaseModel.TableModel
+- uid: SuperOffice.CRM.Travel.ProcessingOption
+  commentId: T:SuperOffice.CRM.Travel.ProcessingOption
+  parent: SuperOffice.CRM.Travel
+  isExternal: true
+  name: ProcessingOption
+  nameWithType: ProcessingOption
+  fullName: SuperOffice.CRM.Travel.ProcessingOption
 - uid: SuperOffice.CRM.Travel.OnStartOfTable.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Travel.OnStartOfTable.BeginInvoke
   isExternal: true
@@ -394,15 +395,11 @@ references:
   nameWithType: OnStartOfTable.BeginInvoke
   fullName: SuperOffice.CRM.Travel.OnStartOfTable.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

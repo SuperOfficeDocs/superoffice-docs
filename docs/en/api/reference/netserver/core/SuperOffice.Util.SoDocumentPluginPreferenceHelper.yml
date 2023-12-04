@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  commentId: T:SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  id: SoDocumentPluginPreferenceHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider
+  - SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider
+  - SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider(SuperOffice.Util.SoDocumentPlugin)
+  - SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider(SuperOffice.Util.SoDocumentPlugin)
+  langs:
+  - csharp
+  - vb
+  name: SoDocumentPluginPreferenceHelper
+  nameWithType: SoDocumentPluginPreferenceHelper
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nClass used to assist storing and retrieving of DocumentPlugin-related preferences.\n"
+  syntax:
+    content: 'public static class SoDocumentPluginPreferenceHelper : Object'
+    content.vb: >-
+      Public Module SoDocumentPluginPreferenceHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider
+  commentId: M:SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider
+  id: GetCurrentProvider
+  parent: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentProvider()
+  nameWithType: SoDocumentPluginPreferenceHelper.GetCurrentProvider()
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static SoDocumentPlugin GetCurrentProvider()
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared Function GetCurrentProvider As SoDocumentPlugin
+  overload: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider
+  commentId: M:SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider
+  id: GetPreferredProvider
+  parent: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPreferredProvider()
+  nameWithType: SoDocumentPluginPreferenceHelper.GetPreferredProvider()
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static SoDocumentPlugin GetPreferredProvider()
+    return:
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared Function GetPreferredProvider As SoDocumentPlugin
+  overload: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider(SuperOffice.Util.SoDocumentPlugin)
+  commentId: M:SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider(SuperOffice.Util.SoDocumentPlugin)
+  id: SetCurrentProvider(SuperOffice.Util.SoDocumentPlugin)
+  parent: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentProvider(SoDocumentPlugin)
+  nameWithType: SoDocumentPluginPreferenceHelper.SetCurrentProvider(SoDocumentPlugin)
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider(SuperOffice.Util.SoDocumentPlugin)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SetCurrentProvider(SoDocumentPlugin plugin)
+    parameters:
+    - id: plugin
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared Sub SetCurrentProvider(plugin As SoDocumentPlugin)
+  overload: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider(SuperOffice.Util.SoDocumentPlugin)
+  commentId: M:SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider(SuperOffice.Util.SoDocumentPlugin)
+  id: SetPreferredProvider(SuperOffice.Util.SoDocumentPlugin)
+  parent: SuperOffice.Util.SoDocumentPluginPreferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: SetPreferredProvider(SoDocumentPlugin)
+  nameWithType: SoDocumentPluginPreferenceHelper.SetPreferredProvider(SoDocumentPlugin)
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider(SuperOffice.Util.SoDocumentPlugin)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void SetPreferredProvider(SoDocumentPlugin plugin)
+    parameters:
+    - id: plugin
+      type: SuperOffice.Util.SoDocumentPlugin
+    content.vb: Public Shared Sub SetPreferredProvider(plugin As SoDocumentPlugin)
+  overload: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider*
+  commentId: Overload:SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider
+  isExternal: true
+  name: GetCurrentProvider
+  nameWithType: SoDocumentPluginPreferenceHelper.GetCurrentProvider
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetCurrentProvider
+- uid: SuperOffice.Util.SoDocumentPlugin
+  commentId: T:SuperOffice.Util.SoDocumentPlugin
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SoDocumentPlugin
+  nameWithType: SoDocumentPlugin
+  fullName: SuperOffice.Util.SoDocumentPlugin
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider*
+  commentId: Overload:SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider
+  isExternal: true
+  name: GetPreferredProvider
+  nameWithType: SoDocumentPluginPreferenceHelper.GetPreferredProvider
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.GetPreferredProvider
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider*
+  commentId: Overload:SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider
+  isExternal: true
+  name: SetCurrentProvider
+  nameWithType: SoDocumentPluginPreferenceHelper.SetCurrentProvider
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetCurrentProvider
+- uid: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider*
+  commentId: Overload:SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider
+  isExternal: true
+  name: SetPreferredProvider
+  nameWithType: SoDocumentPluginPreferenceHelper.SetPreferredProvider
+  fullName: SuperOffice.Util.SoDocumentPluginPreferenceHelper.SetPreferredProvider

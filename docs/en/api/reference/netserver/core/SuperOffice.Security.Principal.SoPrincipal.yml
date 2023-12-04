@@ -5,7 +5,7 @@ items:
   id: SoPrincipal
   parent: SuperOffice.Security.Principal
   children:
-  - SuperOffice.Security.Principal.SoPrincipal.#ctor(System.IdentityModel.Tokens.SecurityToken[])
+  - SuperOffice.Security.Principal.SoPrincipal.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
   - SuperOffice.Security.Principal.SoPrincipal.Associate
   - SuperOffice.Security.Principal.SoPrincipal.AssociateId
   - SuperOffice.Security.Principal.SoPrincipal.Authenticate
@@ -38,6 +38,7 @@ items:
   - SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String)
   - SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String,System.String)
   - SuperOffice.Security.Principal.SoPrincipal.HomeCountryId
+  - SuperOffice.Security.Principal.SoPrincipal.Identities
   - SuperOffice.Security.Principal.SoPrincipal.Identity
   - SuperOffice.Security.Principal.SoPrincipal.IsInCompany(System.Int32)
   - SuperOffice.Security.Principal.SoPrincipal.IsInProject(System.Int32)
@@ -58,9 +59,7 @@ items:
   - SuperOffice.Security.Principal.SoPrincipal.SetCachedItem(System.String,System.Object,System.Double)
   - SuperOffice.Security.Principal.SoPrincipal.SetPrincipalCarrier(SuperOffice.CRM.Services.SoPrincipalCarrier)
   - SuperOffice.Security.Principal.SoPrincipal.State
-  - SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
   - SuperOffice.Security.Principal.SoPrincipal.TimeZone
-  - SuperOffice.Security.Principal.SoPrincipal.Tokens
   - SuperOffice.Security.Principal.SoPrincipal.ToString
   - SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String,System.Object@)
   - SuperOffice.Security.Principal.SoPrincipal.UserName
@@ -83,28 +82,19 @@ items:
     content: 'public abstract class SoPrincipal : MarshalByRefObject, IPrincipal'
     content.vb: >-
       Public MustInherit Class SoPrincipal
+
           Inherits MarshalByRefObject
+
           Implements IPrincipal
   inheritance:
   - System.Object
-  - System.MarshalByRefObject
   derivedClasses:
   - SuperOffice.Security.Principal.SoLocalPrincipal
   implements:
   - System.Security.Principal.IPrincipal
-  inheritedMembers:
-  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  - System.MarshalByRefObject.GetLifetimeService
-  - System.MarshalByRefObject.InitializeLifetimeService
-  - System.MarshalByRefObject.CreateObjRef(System.Type)
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Security.Principal.SoPrincipal.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.SoPrincipal.SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
   - SuperOffice.Security.Principal.SoPrincipal.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -114,16 +104,16 @@ items:
   - Public
   - MustInherit
   - Class
-- uid: SuperOffice.Security.Principal.SoPrincipal.#ctor(System.IdentityModel.Tokens.SecurityToken[])
-  commentId: M:SuperOffice.Security.Principal.SoPrincipal.#ctor(System.IdentityModel.Tokens.SecurityToken[])
-  id: '#ctor(System.IdentityModel.Tokens.SecurityToken[])'
+- uid: SuperOffice.Security.Principal.SoPrincipal.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.Security.Principal.SoPrincipal.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})'
   parent: SuperOffice.Security.Principal.SoPrincipal
   langs:
   - csharp
   - vb
-  name: SoPrincipal(SecurityToken[])
-  nameWithType: SoPrincipal.SoPrincipal(SecurityToken[])
-  fullName: SuperOffice.Security.Principal.SoPrincipal.SoPrincipal(System.IdentityModel.Tokens.SecurityToken[])
+  name: SoPrincipal(IEnumerable<ClaimsIdentity>)
+  nameWithType: SoPrincipal.SoPrincipal(IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.Security.Principal.SoPrincipal.SoPrincipal(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
   type: Constructor
   source:
     path: SoCore
@@ -134,19 +124,19 @@ items:
   summary: "\nDefault constructor for the identity.\n"
   remarks: "\n\n"
   syntax:
-    content: protected SoPrincipal(SecurityToken[] tokens)
+    content: protected SoPrincipal(IEnumerable<ClaimsIdentity> identities)
     parameters:
-    - id: tokens
-      type: System.IdentityModel.Tokens.SecurityToken[]
-    content.vb: Protected Sub New(tokens As SecurityToken())
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    content.vb: Protected Sub New(identities As IEnumerable(Of ClaimsIdentity))
   overload: SuperOffice.Security.Principal.SoPrincipal.#ctor*
-  nameWithType.vb: SoPrincipal.SoPrincipal(SecurityToken())
+  nameWithType.vb: SoPrincipal.SoPrincipal(IEnumerable(Of ClaimsIdentity))
   modifiers.csharp:
   - protected
   modifiers.vb:
   - Protected
-  fullName.vb: SuperOffice.Security.Principal.SoPrincipal.SoPrincipal(System.IdentityModel.Tokens.SecurityToken())
-  name.vb: SoPrincipal(SecurityToken())
+  fullName.vb: SuperOffice.Security.Principal.SoPrincipal.SoPrincipal(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: SoPrincipal(IEnumerable(Of ClaimsIdentity))
 - uid: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
   commentId: M:SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword(System.String)
   id: SetAssociatePassword(System.String)
@@ -165,26 +155,12 @@ items:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: >-
-      [Obsolete("Method not supported in 7", true)]
-
-      protected void SetAssociatePassword(string password)
+    content: protected void SetAssociatePassword(string password)
     parameters:
     - id: password
       type: System.String
-    content.vb: >-
-      <Obsolete("Method not supported in 7", True)>
-
-      Protected Sub SetAssociatePassword(password As String)
+    content.vb: Protected Sub SetAssociatePassword(password As String)
   overload: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Method not supported in 7
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -218,8 +194,6 @@ items:
       description: True if the user is member for this role
     content.vb: Public Overridable Function IsInRole(role As String) As Boolean
   overload: SuperOffice.Security.Principal.SoPrincipal.IsInRole*
-  implements:
-  - System.Security.Principal.IPrincipal.IsInRole(System.String)
   modifiers.csharp:
   - public
   - virtual
@@ -811,7 +785,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.Security.Principal.SoPrincipal.ToString*
   modifiers.csharp:
   - public
@@ -941,7 +914,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: "\nClear all items from the cahce;\n"
+  summary: "\nClear all items from the session cache;\n"
   syntax:
     content: public virtual void ClearCache()
     content.vb: Public Overridable Sub ClearCache
@@ -971,26 +944,14 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nCheck for key in cache\n"
   syntax:
-    content: >-
-      [Obsolete("Using CacheKeyExist followed by GetCachedItem is unsafe. Please use TryGetCachedItem instead")]
-
-      public virtual bool CacheKeyExist(string key)
+    content: public virtual bool CacheKeyExist(string key)
     parameters:
     - id: key
       type: System.String
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("Using CacheKeyExist followed by GetCachedItem is unsafe. Please use TryGetCachedItem instead")>
-
-      Public Overridable Function CacheKeyExist(key As String) As Boolean
+    content.vb: Public Overridable Function CacheKeyExist(key As String) As Boolean
   overload: SuperOffice.Security.Principal.SoPrincipal.CacheKeyExist*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Using CacheKeyExist followed by GetCachedItem is unsafe. Please use TryGetCachedItem instead
   modifiers.csharp:
   - public
   - virtual
@@ -1034,16 +995,16 @@ items:
   - Overridable
   fullName.vb: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem(System.String, ByRef System.Object)
   name.vb: TryGetCachedItem(String, ByRef Object)
-- uid: SuperOffice.Security.Principal.SoPrincipal.Tokens
-  commentId: P:SuperOffice.Security.Principal.SoPrincipal.Tokens
-  id: Tokens
+- uid: SuperOffice.Security.Principal.SoPrincipal.Identities
+  commentId: P:SuperOffice.Security.Principal.SoPrincipal.Identities
+  id: Identities
   parent: SuperOffice.Security.Principal.SoPrincipal
   langs:
   - csharp
   - vb
-  name: Tokens
-  nameWithType: SoPrincipal.Tokens
-  fullName: SuperOffice.Security.Principal.SoPrincipal.Tokens
+  name: Identities
+  nameWithType: SoPrincipal.Identities
+  fullName: SuperOffice.Security.Principal.SoPrincipal.Identities
   type: Property
   source:
     path: SoCore
@@ -1052,51 +1013,18 @@ items:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public SecurityToken[] Tokens { get; }
+    content: public IEnumerable<ClaimsIdentity> Identities { get; }
     parameters: []
     return:
-      type: System.IdentityModel.Tokens.SecurityToken[]
-    content.vb: Public ReadOnly Property Tokens As SecurityToken()
-  overload: SuperOffice.Security.Principal.SoPrincipal.Tokens*
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    content.vb: Public ReadOnly Property Identities As IEnumerable(Of ClaimsIdentity)
+  overload: SuperOffice.Security.Principal.SoPrincipal.Identities*
   modifiers.csharp:
   - public
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
-  commentId: P:SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
-  id: System#Security#Principal#IPrincipal#Identity
-  isEii: true
-  parent: SuperOffice.Security.Principal.SoPrincipal
-  langs:
-  - csharp
-  - vb
-  name: IPrincipal.Identity
-  nameWithType: SoPrincipal.IPrincipal.Identity
-  fullName: SuperOffice.Security.Principal.SoPrincipal.System.Security.Principal.IPrincipal.Identity
-  type: Property
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Security.Principal
-  syntax:
-    content: IIdentity IPrincipal.Identity { get; }
-    parameters: []
-    return:
-      type: System.Security.Principal.IIdentity
-    content.vb: ReadOnly WriteOnly Property System.Security.Principal.IPrincipal.Identity As IIdentity Implements IPrincipal.Identity
-  overload: SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity*
-  implements:
-  - System.Security.Principal.IPrincipal.Identity
-  nameWithType.vb: SoPrincipal.System.Security.Principal.IPrincipal.Identity
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-  name.vb: System.Security.Principal.IPrincipal.Identity
 - uid: SuperOffice.Security.Principal.SoPrincipal.Identity
   commentId: P:SuperOffice.Security.Principal.SoPrincipal.Identity
   id: Identity
@@ -1147,6 +1075,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
+  summary: "\nTimeZone selected by user in Diary. The selection is available only when BaseTzLocation is set (timezone handling ON).\nOnly a few date fields on appointment/recurrencerule are influenced by this setting, see <see cref=\"!:SuperOffice.CD.DSL.Database.DbModelConstants.TimeZoneConvert\"></see> setting.\nUI uses Defaults.DefaultTimezone preference as initial choice.\n"
   syntax:
     content: public int TimeZone { get; set; }
     parameters: []
@@ -1303,26 +1232,12 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nSecret used with type <xref href=\"SuperOffice.Security.Principal.SoPrincipal.UserType\" data-throw-if-not-resolved=\"false\"></xref> CRM5 in <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref>.\nOnly valid 24 hours after it was created.\n"
   syntax:
-    content: >-
-      [Obsolete("CRM5Secret is no longer in use. Call the SoCredentials() method if you need a session ticket; its .Ticket property will work as 'user name' in NetServer authentications", true)]
-
-      public string CRM5Secret { get; }
+    content: public string CRM5Secret { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete("CRM5Secret is no longer in use. Call the SoCredentials() method if you need a session ticket; its .Ticket property will work as 'user name' in NetServer authentications", True)>
-
-      Public ReadOnly Property CRM5Secret As String
+    content.vb: Public ReadOnly Property CRM5Secret As String
   overload: SuperOffice.Security.Principal.SoPrincipal.CRM5Secret*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: CRM5Secret is no longer in use. Call the SoCredentials() method if you need a session ticket; its .Ticket property will work as 'user name' in NetServer authentications
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -1692,26 +1607,12 @@ items:
   summary: "\nCan this user create and manage external persons\n"
   remarks: "\nExternal persons (e.g. <xref href=\"SuperOffice.Security.Principal.SoPrincipal.UserType\" data-throw-if-not-resolved=\"false\"></xref> of ExternalPerson) can only manage external persons belonging to the same contact (e.g. company).  Hence, only <xref href=\"SuperOffice.Security.Principal.SoPrincipal.UserType\" data-throw-if-not-resolved=\"false\"></xref> of Employee and System can manage external persons on all companies in the database.\n"
   syntax:
-    content: >-
-      [Obsolete("Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class", true)]
-
-      public bool CanCreateExternalPerson { get; }
+    content: public bool CanCreateExternalPerson { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class", True)>
-
-      Public ReadOnly Property CanCreateExternalPerson As Boolean
+    content.vb: Public ReadOnly Property CanCreateExternalPerson As Boolean
   overload: SuperOffice.Security.Principal.SoPrincipal.CanCreateExternalPerson*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -1861,26 +1762,12 @@ items:
   namespace: SuperOffice.Security.Principal
   summary: "\nLicense granted to the site and user.\n"
   syntax:
-    content: >-
-      [Obsolete("Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class", true)]
-
-      public ProductLicense License { get; }
+    content: public ProductLicense License { get; }
     parameters: []
     return:
       type: SuperOffice.License.ProductLicense
-    content.vb: >-
-      <Obsolete("Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class", True)>
-
-      Public ReadOnly Property License As ProductLicense
+    content.vb: Public ReadOnly Property License As ProductLicense
   overload: SuperOffice.Security.Principal.SoPrincipal.License*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -1967,26 +1854,12 @@ items:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: >-
-      [Obsolete("Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class", true)]
-
-      public bool IsSaintEnabled { get; }
+    content: public bool IsSaintEnabled { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class", True)>
-
-      Public ReadOnly Property IsSaintEnabled As Boolean
+    content.vb: Public ReadOnly Property IsSaintEnabled As Boolean
   overload: SuperOffice.Security.Principal.SoPrincipal.IsSaintEnabled*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use one of the HasLicense() methods instead; standard license names are in the SoLicenseNames class
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - get
@@ -2131,412 +2004,11 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.MarshalByRefObject
-  commentId: T:System.MarshalByRefObject
-  parent: System
-  isExternal: true
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Security.Principal.IPrincipal
-  commentId: T:System.Security.Principal.IPrincipal
-  parent: System.Security.Principal
   isExternal: true
   name: IPrincipal
   nameWithType: IPrincipal
   fullName: System.Security.Principal.IPrincipal
-- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: MemberwiseClone(Boolean)
-  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
-  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    nameWithType: MarshalByRefObject.MemberwiseClone
-    fullName: System.MarshalByRefObject.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    nameWithType: MarshalByRefObject.MemberwiseClone
-    fullName: System.MarshalByRefObject.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.GetLifetimeService
-  commentId: M:System.MarshalByRefObject.GetLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: GetLifetimeService()
-  nameWithType: MarshalByRefObject.GetLifetimeService()
-  fullName: System.MarshalByRefObject.GetLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    nameWithType: MarshalByRefObject.GetLifetimeService
-    fullName: System.MarshalByRefObject.GetLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    nameWithType: MarshalByRefObject.GetLifetimeService
-    fullName: System.MarshalByRefObject.GetLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.InitializeLifetimeService
-  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: InitializeLifetimeService()
-  nameWithType: MarshalByRefObject.InitializeLifetimeService()
-  fullName: System.MarshalByRefObject.InitializeLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    nameWithType: MarshalByRefObject.InitializeLifetimeService
-    fullName: System.MarshalByRefObject.InitializeLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    nameWithType: MarshalByRefObject.InitializeLifetimeService
-    fullName: System.MarshalByRefObject.InitializeLifetimeService
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  name: CreateObjRef(Type)
-  nameWithType: MarshalByRefObject.CreateObjRef(Type)
-  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-    name: CreateObjRef
-    nameWithType: MarshalByRefObject.CreateObjRef
-    fullName: System.MarshalByRefObject.CreateObjRef
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
-    name: CreateObjRef
-    nameWithType: MarshalByRefObject.CreateObjRef
-    fullName: System.MarshalByRefObject.CreateObjRef
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Type
-    name: Type
-    nameWithType: Type
-    fullName: System.Type
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.Security.Principal.SoPrincipal.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2564,6 +2036,37 @@ references:
     name: MapEnums(Of SoPrincipal, To)
     nameWithType: EnumUtil.MapEnums(Of SoPrincipal, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoPrincipal, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipal.SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+  commentId: M:SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  parent: SuperOffice.Security.Principal.SoPrincipalExtensions
+  definition: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  name: IsValid()
+  nameWithType: SoPrincipalExtensions.IsValid()
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
     isExternal: true
   - name: (
     nameWithType: (
@@ -2611,12 +2114,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Security.Principal
-  commentId: N:System.Security.Principal
-  isExternal: true
-  name: System.Security.Principal
-  nameWithType: System.Security.Principal
-  fullName: System.Security.Principal
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -2662,6 +2159,53 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
+- uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  isExternal: true
+  name: IsValid(SoPrincipal)
+  nameWithType: SoPrincipalExtensions.IsValid(SoPrincipal)
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoPrincipal
+    name: SoPrincipal
+    nameWithType: SoPrincipal
+    fullName: SuperOffice.Security.Principal.SoPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid(SuperOffice.Security.Principal.SoPrincipal)
+    name: IsValid
+    nameWithType: SoPrincipalExtensions.IsValid
+    fullName: SuperOffice.Security.Principal.SoPrincipalExtensions.IsValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoPrincipal
+    name: SoPrincipal
+    nameWithType: SoPrincipal
+    fullName: SuperOffice.Security.Principal.SoPrincipal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoPrincipalExtensions
+  commentId: T:SuperOffice.Security.Principal.SoPrincipalExtensions
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipalExtensions
+  nameWithType: SoPrincipalExtensions
+  fullName: SuperOffice.Security.Principal.SoPrincipalExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -2720,32 +2264,87 @@ references:
   name: SoPrincipal
   nameWithType: SoPrincipal.SoPrincipal
   fullName: SuperOffice.Security.Principal.SoPrincipal.SoPrincipal
-- uid: System.IdentityModel.Tokens.SecurityToken[]
-  isExternal: true
-  name: SecurityToken[]
-  nameWithType: SecurityToken[]
-  fullName: System.IdentityModel.Tokens.SecurityToken[]
-  nameWithType.vb: SecurityToken()
-  fullName.vb: System.IdentityModel.Tokens.SecurityToken()
-  name.vb: SecurityToken()
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ClaimsIdentity>
+  nameWithType: IEnumerable<ClaimsIdentity>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
+  nameWithType.vb: IEnumerable(Of ClaimsIdentity)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity)
+  name.vb: IEnumerable(Of ClaimsIdentity)
   spec.csharp:
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: System.IdentityModel.Tokens.SecurityToken
-    name: SecurityToken
-    nameWithType: SecurityToken
-    fullName: System.IdentityModel.Tokens.SecurityToken
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword*
   commentId: Overload:SuperOffice.Security.Principal.SoPrincipal.SetAssociatePassword
   isExternal: true
@@ -2765,47 +2364,6 @@ references:
   name: IsInRole
   nameWithType: SoPrincipal.IsInRole
   fullName: SuperOffice.Security.Principal.SoPrincipal.IsInRole
-- uid: System.Security.Principal.IPrincipal.IsInRole(System.String)
-  commentId: M:System.Security.Principal.IPrincipal.IsInRole(System.String)
-  parent: System.Security.Principal.IPrincipal
-  isExternal: true
-  name: IsInRole(String)
-  nameWithType: IPrincipal.IsInRole(String)
-  fullName: System.Security.Principal.IPrincipal.IsInRole(System.String)
-  spec.csharp:
-  - uid: System.Security.Principal.IPrincipal.IsInRole(System.String)
-    name: IsInRole
-    nameWithType: IPrincipal.IsInRole
-    fullName: System.Security.Principal.IPrincipal.IsInRole
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Security.Principal.IPrincipal.IsInRole(System.String)
-    name: IsInRole
-    nameWithType: IPrincipal.IsInRole
-    fullName: System.Security.Principal.IPrincipal.IsInRole
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -2967,8 +2525,7 @@ references:
   nameWithType: SoPrincipal.GetGrantedLicenses
   fullName: SuperOffice.Security.Principal.SoPrincipal.GetGrantedLicenses
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Services.GrantedModuleLicense}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Services.GrantedModuleLicense}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Services.GrantedModuleLicense}'
   definition: System.Collections.Generic.List`1
   name: List<GrantedModuleLicense>
   nameWithType: List<GrantedModuleLicense>
@@ -3011,14 +2568,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -3028,9 +2584,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3043,46 +2599,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -3135,34 +2654,12 @@ references:
   name: TryGetCachedItem
   nameWithType: SoPrincipal.TryGetCachedItem
   fullName: SuperOffice.Security.Principal.SoPrincipal.TryGetCachedItem
-- uid: SuperOffice.Security.Principal.SoPrincipal.Tokens*
-  commentId: Overload:SuperOffice.Security.Principal.SoPrincipal.Tokens
+- uid: SuperOffice.Security.Principal.SoPrincipal.Identities*
+  commentId: Overload:SuperOffice.Security.Principal.SoPrincipal.Identities
   isExternal: true
-  name: Tokens
-  nameWithType: SoPrincipal.Tokens
-  fullName: SuperOffice.Security.Principal.SoPrincipal.Tokens
-- uid: SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity*
-  commentId: Overload:SuperOffice.Security.Principal.SoPrincipal.System#Security#Principal#IPrincipal#Identity
-  isExternal: true
-  name: IPrincipal.Identity
-  nameWithType: SoPrincipal.IPrincipal.Identity
-  fullName: SuperOffice.Security.Principal.SoPrincipal.System.Security.Principal.IPrincipal.Identity
-  nameWithType.vb: SoPrincipal.System.Security.Principal.IPrincipal.Identity
-  name.vb: System.Security.Principal.IPrincipal.Identity
-- uid: System.Security.Principal.IPrincipal.Identity
-  commentId: P:System.Security.Principal.IPrincipal.Identity
-  parent: System.Security.Principal.IPrincipal
-  isExternal: true
-  name: Identity
-  nameWithType: IPrincipal.Identity
-  fullName: System.Security.Principal.IPrincipal.Identity
-- uid: System.Security.Principal.IIdentity
-  commentId: T:System.Security.Principal.IIdentity
-  parent: System.Security.Principal
-  isExternal: true
-  name: IIdentity
-  nameWithType: IIdentity
-  fullName: System.Security.Principal.IIdentity
+  name: Identities
+  nameWithType: SoPrincipal.Identities
+  fullName: SuperOffice.Security.Principal.SoPrincipal.Identities
 - uid: SuperOffice.Security.Principal.SoPrincipal.Identity*
   commentId: Overload:SuperOffice.Security.Principal.SoPrincipal.Identity
   isExternal: true

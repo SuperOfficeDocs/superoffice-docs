@@ -76,7 +76,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nSet which columns should actually be returned, must be a subset of the <a href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.yml#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_GetAvailableColumns\">GetAvailableColumns</a> result\n"
+  summary: "\nSet which columns should actually be returned, must be a subset of the <a href=\"GetAvailableColumns\">GetAvailableColumns</a> result\n"
   syntax:
     content: void SetDesiredColumns(params string[] columnIds)
     parameters:
@@ -327,8 +327,7 @@ references:
   nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}'
   definition: System.Collections.Generic.List`1
   name: List<ArchiveColumnInfo>
   nameWithType: List<ArchiveColumnInfo>
@@ -371,14 +370,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -388,9 +386,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -403,18 +401,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
   isExternal: true

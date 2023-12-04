@@ -283,28 +283,14 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nGet a line from the international address\n"
   syntax:
-    content: >-
-      [Obsolete("FAD international addresses are handled through a separate system, see FadTags.cs", true)]
-
-      string GetInternationalAddress(int lineNo)
+    content: string GetInternationalAddress(int lineNo)
     parameters:
     - id: lineNo
       type: System.Int32
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete("FAD international addresses are handled through a separate system, see FadTags.cs", True)>
-
-      Function GetInternationalAddress(lineNo As Integer) As String
+    content.vb: Function GetInternationalAddress(lineNo As Integer) As String
   overload: SuperOffice.CRM.IPersonInfo.GetInternationalAddress*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: FAD international addresses are handled through a separate system, see FadTags.cs
-    - type: System.Boolean
-      value: true
 - uid: SuperOffice.CRM.IPersonInfo.PersonId
   commentId: P:SuperOffice.CRM.IPersonInfo.PersonId
   id: PersonId

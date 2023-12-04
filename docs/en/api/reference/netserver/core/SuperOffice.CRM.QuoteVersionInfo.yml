@@ -37,6 +37,8 @@ items:
   - SuperOffice.CRM.QuoteVersionInfo.QuoteVersionId
   - SuperOffice.CRM.QuoteVersionInfo.Rank
   - SuperOffice.CRM.QuoteVersionInfo.Reason
+  - SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId
+  - SuperOffice.CRM.QuoteVersionInfo.RequestComment
   - SuperOffice.CRM.QuoteVersionInfo.SentDate
   - SuperOffice.CRM.QuoteVersionInfo.State
   - SuperOffice.CRM.QuoteVersionInfo.Status
@@ -56,18 +58,13 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nRepresent a version of a quote\n<p></p>\nA quote is divided into one or more versions (or revisions, if you like), so a quote have 1..n QuoteVersions. \nI.e. a QuoteVersion always have a quote.\n<p></p>\nEven if versioning is disabled, a single version will exist.  When versioning is disabled, new versions are not created\n, but the only one is reused.\n"
   syntax:
-    content: public class QuoteVersionInfo
-    content.vb: Public Class QuoteVersionInfo
+    content: 'public class QuoteVersionInfo : Object'
+    content.vb: >-
+      Public Class QuoteVersionInfo
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.QuoteVersionInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.QuoteVersionInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.QuoteVersionInfo)
@@ -439,7 +436,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property SentDate As Date
+    content.vb: Public Property SentDate As DateTime
   overload: SuperOffice.CRM.QuoteVersionInfo.SentDate*
   modifiers.csharp:
   - public
@@ -501,7 +498,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property ExpirationDate As Date
+    content.vb: Public Property ExpirationDate As DateTime
   overload: SuperOffice.CRM.QuoteVersionInfo.ExpirationDate*
   modifiers.csharp:
   - public
@@ -966,7 +963,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property ApprovedRegisteredDate As Date
+    content.vb: Public Property ApprovedRegisteredDate As DateTime
   overload: SuperOffice.CRM.QuoteVersionInfo.ApprovedRegisteredDate*
   modifiers.csharp:
   - public
@@ -1152,7 +1149,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property LastRecalculated As Date
+    content.vb: Public Property LastRecalculated As DateTime
   overload: SuperOffice.CRM.QuoteVersionInfo.LastRecalculated*
   modifiers.csharp:
   - public
@@ -1183,8 +1180,70 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property Updated As Date
+    content.vb: Public Property Updated As DateTime
   overload: SuperOffice.CRM.QuoteVersionInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId
+  id: RequestAssociateId
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: RequestAssociateId
+  nameWithType: QuoteVersionInfo.RequestAssociateId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nUser choosen to approve this quote version\n"
+  syntax:
+    content: public int RequestAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RequestAssociateId As Integer
+  overload: SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.QuoteVersionInfo.RequestComment
+  commentId: P:SuperOffice.CRM.QuoteVersionInfo.RequestComment
+  id: RequestComment
+  parent: SuperOffice.CRM.QuoteVersionInfo
+  langs:
+  - csharp
+  - vb
+  name: RequestComment
+  nameWithType: QuoteVersionInfo.RequestComment
+  fullName: SuperOffice.CRM.QuoteVersionInfo.RequestComment
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReason for why this quoteversion should be approved\n"
+  syntax:
+    content: public string RequestComment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequestComment As String
+  overload: SuperOffice.CRM.QuoteVersionInfo.RequestComment*
   modifiers.csharp:
   - public
   - get
@@ -1205,285 +1264,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.QuoteVersionInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2020,8 +1800,6 @@ references:
   nameWithType: QuoteVersionInfo.SentDate
   fullName: SuperOffice.CRM.QuoteVersionInfo.SentDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -2177,3 +1955,15 @@ references:
   name: Updated
   nameWithType: QuoteVersionInfo.Updated
   fullName: SuperOffice.CRM.QuoteVersionInfo.Updated
+- uid: SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId
+  isExternal: true
+  name: RequestAssociateId
+  nameWithType: QuoteVersionInfo.RequestAssociateId
+  fullName: SuperOffice.CRM.QuoteVersionInfo.RequestAssociateId
+- uid: SuperOffice.CRM.QuoteVersionInfo.RequestComment*
+  commentId: Overload:SuperOffice.CRM.QuoteVersionInfo.RequestComment
+  isExternal: true
+  name: RequestComment
+  nameWithType: QuoteVersionInfo.RequestComment
+  fullName: SuperOffice.CRM.QuoteVersionInfo.RequestComment

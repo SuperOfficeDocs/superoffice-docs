@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.#ctor
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyId
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyCode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyMode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.DashboardTileDefinitionId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.DefaultHeight
@@ -28,6 +28,7 @@ items:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.Updated
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.Usage
   langs:
   - csharp
   - vb
@@ -44,18 +45,13 @@ items:
   summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the dashboard_tile_definition table.\n"
   remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class DashboardTileDefinitionRecordData
-    content.vb: Public Class DashboardTileDefinitionRecordData
+    content: 'public class DashboardTileDefinitionRecordData : Object'
+    content.vb: >-
+      Public Class DashboardTileDefinitionRecordData
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData)
@@ -279,7 +275,7 @@ items:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -333,7 +329,7 @@ items:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -415,33 +411,6 @@ items:
     return:
       type: System.Int32
     content.vb: Public SelectionId As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyId
-  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyId
-  id: CurrencyId
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData
-  langs:
-  - csharp
-  - vb
-  name: CurrencyId
-  nameWithType: DashboardTileDefinitionRecordData.CurrencyId
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyId
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nCurrency of sale \n"
-  syntax:
-    content: public int CurrencyId
-    return:
-      type: System.Int32
-    content.vb: Public CurrencyId As Integer
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -662,6 +631,60 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyCode
+  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyCode
+  id: CurrencyCode
+  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CurrencyCode
+  nameWithType: DashboardTileDefinitionRecordData.CurrencyCode
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.CurrencyCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrency code \n"
+  syntax:
+    content: public string CurrencyCode
+    return:
+      type: System.String
+    content.vb: Public CurrencyCode As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.Usage
+  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.Usage
+  id: Usage
+  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Usage
+  nameWithType: DashboardTileDefinitionRecordData.Usage
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.Usage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhere this tile can be used \n"
+  syntax:
+    content: public DashTileUsage Usage
+    return:
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Public Usage As DashTileUsage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.#ctor
   id: '#ctor'
@@ -701,285 +724,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1445,8 +1189,6 @@ references:
   nameWithType: DashTileEntityType
   fullName: SuperOffice.Data.DashTileEntityType
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1472,6 +1214,13 @@ references:
   name: DashTileMeasure
   nameWithType: DashTileMeasure
   fullName: SuperOffice.Data.DashTileMeasure
+- uid: SuperOffice.Data.DashTileUsage
+  commentId: T:SuperOffice.Data.DashTileUsage
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.Data.DashTileUsage
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordData.#ctor
   isExternal: true

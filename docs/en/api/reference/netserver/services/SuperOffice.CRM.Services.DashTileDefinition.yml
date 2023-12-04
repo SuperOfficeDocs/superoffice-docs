@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.DashTileDefinition.#ctor
-  - SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  - SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode
   - SuperOffice.CRM.Services.DashTileDefinition.CurrencyMode
   - SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
   - SuperOffice.CRM.Services.DashTileDefinition.DefaultHeight
@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Services.DashTileDefinition.TileType
   - SuperOffice.CRM.Services.DashTileDefinition.ToString
   - SuperOffice.CRM.Services.DashTileDefinition.ToString(System.String)
+  - SuperOffice.CRM.Services.DashTileDefinition.Usage
   langs:
   - csharp
   - vb
@@ -481,16 +482,16 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
-  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
-  id: CurrencyId
+- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode
+  id: CurrencyCode
   parent: SuperOffice.CRM.Services.DashTileDefinition
   langs:
   - csharp
   - vb
-  name: CurrencyId
-  nameWithType: DashTileDefinition.CurrencyId
-  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  name: CurrencyCode
+  nameWithType: DashTileDefinition.CurrencyCode
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode
   type: Property
   source:
     path: SuperOffice.Services
@@ -498,14 +499,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nCurrency of sale \n"
+  summary: "\nCurrency code \n"
   syntax:
-    content: public virtual int CurrencyId { get; set; }
+    content: public virtual string CurrencyCode { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Overridable Property CurrencyId As Integer
-  overload: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId*
+      type: System.String
+    content.vb: Public Overridable Property CurrencyCode As String
+  overload: SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode*
   modifiers.csharp:
   - public
   - virtual
@@ -712,6 +713,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Usage
+  commentId: P:SuperOffice.CRM.Services.DashTileDefinition.Usage
+  id: Usage
+  parent: SuperOffice.CRM.Services.DashTileDefinition
+  langs:
+  - csharp
+  - vb
+  name: Usage
+  nameWithType: DashTileDefinition.Usage
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Usage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhere this tile can be used \n"
+  syntax:
+    content: public virtual DashTileUsage Usage { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Public Overridable Property Usage As DashTileUsage
+  overload: SuperOffice.CRM.Services.DashTileDefinition.Usage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.DashTileDefinition.ProviderName
   commentId: P:SuperOffice.CRM.Services.DashTileDefinition.ProviderName
   id: ProviderName
@@ -752,13 +786,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.DashAgent
   commentId: T:SuperOffice.CRM.Services.DashAgent
   isExternal: true
@@ -772,12 +799,6 @@ references:
   name: IDashAgent
   nameWithType: IDashAgent
   fullName: SuperOffice.CRM.Services.IDashAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.DashTileDefinition.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.#ctor
   isExternal: true
@@ -797,6 +818,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId*
   commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.DashboardTileDefinitionId
   isExternal: true
@@ -841,7 +868,6 @@ references:
   nameWithType: DashTileDefinition.TileType
   fullName: SuperOffice.CRM.Services.DashTileDefinition.TileType
 - uid: SuperOffice.Data.DashTileType
-  commentId: '!:SuperOffice.Data.DashTileType'
   isExternal: true
   name: DashTileType
   nameWithType: DashTileType
@@ -882,12 +908,12 @@ references:
   name: DashTileCurrencyMode
   nameWithType: DashTileCurrencyMode
   fullName: SuperOffice.Data.DashTileCurrencyMode
-- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId*
-  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+- uid: SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode
   isExternal: true
-  name: CurrencyId
-  nameWithType: DashTileDefinition.CurrencyId
-  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyId
+  name: CurrencyCode
+  nameWithType: DashTileDefinition.CurrencyCode
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.CurrencyCode
 - uid: SuperOffice.CRM.Services.DashTileDefinition.Measure*
   commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.Measure
   isExternal: true
@@ -930,6 +956,18 @@ references:
   name: MeasureByField
   nameWithType: DashTileDefinition.MeasureByField
   fullName: SuperOffice.CRM.Services.DashTileDefinition.MeasureByField
+- uid: SuperOffice.CRM.Services.DashTileDefinition.Usage*
+  commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.Usage
+  isExternal: true
+  name: Usage
+  nameWithType: DashTileDefinition.Usage
+  fullName: SuperOffice.CRM.Services.DashTileDefinition.Usage
+- uid: SuperOffice.Data.DashTileUsage
+  commentId: '!:SuperOffice.Data.DashTileUsage'
+  isExternal: true
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.Data.DashTileUsage
 - uid: SuperOffice.CRM.Services.DashTileDefinition.ProviderName*
   commentId: Overload:SuperOffice.CRM.Services.DashTileDefinition.ProviderName
   isExternal: true

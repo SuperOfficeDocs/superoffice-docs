@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.PrefDescCacheExtensions
+  commentId: T:SuperOffice.Data.PrefDescCacheExtensions
+  id: PrefDescCacheExtensions
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.PrefDescCacheExtensions.InSection(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  - SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  - SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  langs:
+  - csharp
+  - vb
+  name: PrefDescCacheExtensions
+  nameWithType: PrefDescCacheExtensions
+  fullName: SuperOffice.Data.PrefDescCacheExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: 'public static class PrefDescCacheExtensions : Object'
+    content.vb: >-
+      Public Module PrefDescCacheExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.PrefDescCacheExtensions.InSection(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.InSection(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  id: InSection(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData},System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: InSection(IEnumerable<PrefDescRecordData>, String)
+  nameWithType: PrefDescCacheExtensions.InSection(IEnumerable<PrefDescRecordData>, String)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.InSection(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IEnumerable<PrefDescRecordData> InSection(this IEnumerable<PrefDescRecordData> descriptions, string section)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    - id: section
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InSection(descriptions As IEnumerable(Of PrefDescRecordData), section As String) As IEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.InSection*
+  nameWithType.vb: PrefDescCacheExtensions.InSection(IEnumerable(Of PrefDescRecordData), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.InSection(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData), System.String)
+  name.vb: InSection(IEnumerable(Of PrefDescRecordData), String)
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  id: OnlyUserLevel(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnlyUserLevel(IEnumerable<PrefDescRecordData>)
+  nameWithType: PrefDescCacheExtensions.OnlyUserLevel(IEnumerable<PrefDescRecordData>)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IEnumerable<PrefDescRecordData> OnlyUserLevel(this IEnumerable<PrefDescRecordData> descriptions)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OnlyUserLevel(descriptions As IEnumerable(Of PrefDescRecordData)) As IEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel*
+  nameWithType.vb: PrefDescCacheExtensions.OnlyUserLevel(IEnumerable(Of PrefDescRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData))
+  name.vb: OnlyUserLevel(IEnumerable(Of PrefDescRecordData))
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  commentId: M:SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  id: OrderBySectionThenId(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.PrefDescCacheExtensions
+  langs:
+  - csharp
+  - vb
+  name: OrderBySectionThenId(IEnumerable<PrefDescRecordData>)
+  nameWithType: PrefDescCacheExtensions.OrderBySectionThenId(IEnumerable<PrefDescRecordData>)
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static IOrderedEnumerable<PrefDescRecordData> OrderBySectionThenId(this IEnumerable<PrefDescRecordData> descriptions)
+    parameters:
+    - id: descriptions
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    return:
+      type: System.Linq.IOrderedEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OrderBySectionThenId(descriptions As IEnumerable(Of PrefDescRecordData)) As IOrderedEnumerable(Of PrefDescRecordData)
+  overload: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId*
+  nameWithType.vb: PrefDescCacheExtensions.OrderBySectionThenId(IEnumerable(Of PrefDescRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData))
+  name.vb: OrderBySectionThenId(IEnumerable(Of PrefDescRecordData))
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.PrefDescCacheExtensions.InSection*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.InSection
+  isExternal: true
+  name: InSection
+  nameWithType: PrefDescCacheExtensions.InSection
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.InSection
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PrefDescRecordData>
+  nameWithType: IEnumerable<PrefDescRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>
+  nameWithType.vb: IEnumerable(Of PrefDescRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData)
+  name.vb: IEnumerable(Of PrefDescRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    nameWithType: PrefDescRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    nameWithType: PrefDescRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel
+  isExternal: true
+  name: OnlyUserLevel
+  nameWithType: PrefDescCacheExtensions.OnlyUserLevel
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OnlyUserLevel
+- uid: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId*
+  commentId: Overload:SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId
+  isExternal: true
+  name: OrderBySectionThenId
+  nameWithType: PrefDescCacheExtensions.OrderBySectionThenId
+  fullName: SuperOffice.Data.PrefDescCacheExtensions.OrderBySectionThenId
+- uid: System.Linq.IOrderedEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}
+  commentId: '!:System.Linq.IOrderedEnumerable{SuperOffice.CRM.Rows.PrefDescRecordData}'
+  definition: System.Linq.IOrderedEnumerable`1
+  name: IOrderedEnumerable<PrefDescRecordData>
+  nameWithType: IOrderedEnumerable<PrefDescRecordData>
+  fullName: System.Linq.IOrderedEnumerable<SuperOffice.CRM.Rows.PrefDescRecordData>
+  nameWithType.vb: IOrderedEnumerable(Of PrefDescRecordData)
+  fullName.vb: System.Linq.IOrderedEnumerable(Of SuperOffice.CRM.Rows.PrefDescRecordData)
+  name.vb: IOrderedEnumerable(Of PrefDescRecordData)
+  spec.csharp:
+  - uid: System.Linq.IOrderedEnumerable`1
+    name: IOrderedEnumerable
+    nameWithType: IOrderedEnumerable
+    fullName: System.Linq.IOrderedEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    nameWithType: PrefDescRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IOrderedEnumerable`1
+    name: IOrderedEnumerable
+    nameWithType: IOrderedEnumerable
+    fullName: System.Linq.IOrderedEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.PrefDescRecordData
+    name: PrefDescRecordData
+    nameWithType: PrefDescRecordData
+    fullName: SuperOffice.CRM.Rows.PrefDescRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.IOrderedEnumerable`1
+  commentId: '!:System.Linq.IOrderedEnumerable`1'
+  isExternal: true
+  name: IOrderedEnumerable<>
+  nameWithType: IOrderedEnumerable<>
+  fullName: System.Linq.IOrderedEnumerable<>
+  nameWithType.vb: IOrderedEnumerable(Of )
+  fullName.vb: System.Linq.IOrderedEnumerable(Of )
+  name.vb: IOrderedEnumerable(Of )
+  spec.csharp:
+  - uid: System.Linq.IOrderedEnumerable`1
+    name: IOrderedEnumerable
+    nameWithType: IOrderedEnumerable
+    fullName: System.Linq.IOrderedEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IOrderedEnumerable`1
+    name: IOrderedEnumerable
+    nameWithType: IOrderedEnumerable
+    fullName: System.Linq.IOrderedEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

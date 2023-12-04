@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepSplit
+  id: WorkflowStepSplit
+  parent: SuperOffice.CRM.Workflow
+  children:
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings(System.String)
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit.Save
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSplit
+  nameWithType: WorkflowStepSplit
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: 'public class WorkflowStepSplit : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepSplit
+
+          Inherits WorkflowStepBase
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Workflow.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.Row
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
+  - SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
+  extensionMethods:
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Workflow.WorkflowStepSplit.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepSplit.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  id: '#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)'
+  parent: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepSplit(WorkflowStepRow, WorkflowInstanceRow)
+  nameWithType: WorkflowStepSplit.WorkflowStepSplit(WorkflowStepRow, WorkflowInstanceRow)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.WorkflowStepSplit(SuperOffice.CRM.Rows.WorkflowStepRow, SuperOffice.CRM.Rows.WorkflowInstanceRow)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowStepSplit(WorkflowStepRow row, WorkflowInstanceRow instanceRow)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.WorkflowStepRow
+    - id: instanceRow
+      type: SuperOffice.CRM.Rows.WorkflowInstanceRow
+    content.vb: Public Sub New(row As WorkflowStepRow, instanceRow As WorkflowInstanceRow)
+  overload: SuperOffice.CRM.Workflow.WorkflowStepSplit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.Save
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepSplit.Save
+  id: Save
+  parent: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: WorkflowStepSplit.Save()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.Save()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public override void Save()
+    content.vb: Public Overrides Sub Save
+  overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+  overload: SuperOffice.CRM.Workflow.WorkflowStepSplit.Save*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute
+  id: Execute
+  parent: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: WorkflowStepSplit.Execute()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public override DateTime Execute()
+    return:
+      type: System.DateTime
+    content.vb: Public Overrides Function Execute As DateTime
+  overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+  overload: SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId
+  id: NextStepId
+  parent: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  langs:
+  - csharp
+  - vb
+  name: NextStepId()
+  nameWithType: WorkflowStepSplit.NextStepId()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public override int NextStepId()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function NextStepId As Integer
+  overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+  overload: SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings(System.String)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings(System.String)
+  id: GetSettings(System.String)
+  parent: SuperOffice.CRM.Workflow.WorkflowStepSplit
+  langs:
+  - csharp
+  - vb
+  name: GetSettings(String)
+  nameWithType: WorkflowStepSplit.GetSettings(String)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Workflow
+  syntax:
+    content: public static SplitSettings GetSettings(string settingsJson)
+    parameters:
+    - id: settingsJson
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Workflow.SplitSettings
+    content.vb: Public Shared Function GetSettings(settingsJson As String) As SplitSettings
+  overload: SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Workflow
+  commentId: N:SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SuperOffice.CRM.Workflow
+  nameWithType: SuperOffice.CRM.Workflow
+  fullName: SuperOffice.CRM.Workflow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Workflow.WorkflowStepBase
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: GoalReached()
+  nameWithType: WorkflowStepBase.GoalReached()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached
+    name: GoalReached
+    nameWithType: WorkflowStepBase.GoalReached
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached
+    name: GoalReached
+    nameWithType: WorkflowStepBase.GoalReached
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.GoalReached
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: ConditionsMet()
+  nameWithType: WorkflowStepBase.ConditionsMet()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet
+    name: ConditionsMet
+    nameWithType: WorkflowStepBase.ConditionsMet
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet
+    name: ConditionsMet
+    nameWithType: WorkflowStepBase.ConditionsMet
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.ConditionsMet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: NextStepId(Int32, Int32)
+  nameWithType: WorkflowStepBase.NextStepId(Int32, Int32)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+    name: NextStepId
+    nameWithType: WorkflowStepBase.NextStepId
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32,System.Int32)
+    name: NextStepId
+    nameWithType: WorkflowStepBase.NextStepId
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Row
+  commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.Row
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: Row
+  nameWithType: WorkflowStepBase.Row
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Row
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
+  commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: InstanceRow
+  nameWithType: WorkflowStepBase.InstanceRow
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
+  commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: Settings
+  nameWithType: WorkflowStepBase.Settings
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowStepSplit, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowStepSplit, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepSplit, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowStepSplit, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepSplit, To)()
+  name.vb: MapEnums(Of WorkflowStepSplit, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowStepSplit, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowStepSplit, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepSplit, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowStepSplit, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowStepSplit, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepSplit, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowStepSplit, To>()
+  nameWithType: Converters.MapEnums<WorkflowStepSplit, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepSplit, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowStepSplit, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepSplit, To)()
+  name.vb: MapEnums(Of WorkflowStepSplit, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowStepSplit, To>
+    nameWithType: Converters.MapEnums<WorkflowStepSplit, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepSplit, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowStepSplit, To)
+    nameWithType: Converters.MapEnums(Of WorkflowStepSplit, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepSplit, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.#ctor*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepSplit.#ctor
+  isExternal: true
+  name: WorkflowStepSplit
+  nameWithType: WorkflowStepSplit.WorkflowStepSplit
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.WorkflowStepSplit
+- uid: SuperOffice.CRM.Rows.WorkflowStepRow
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowStepRow
+  nameWithType: WorkflowStepRow
+  fullName: SuperOffice.CRM.Rows.WorkflowStepRow
+- uid: SuperOffice.CRM.Rows.WorkflowInstanceRow
+  commentId: T:SuperOffice.CRM.Rows.WorkflowInstanceRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowInstanceRow
+  nameWithType: WorkflowInstanceRow
+  fullName: SuperOffice.CRM.Rows.WorkflowInstanceRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: Save()
+  nameWithType: WorkflowStepBase.Save()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+    name: Save
+    nameWithType: WorkflowStepBase.Save
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+    name: Save
+    nameWithType: WorkflowStepBase.Save
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.Save*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepSplit.Save
+  isExternal: true
+  name: Save
+  nameWithType: WorkflowStepSplit.Save
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.Save
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: Execute()
+  nameWithType: WorkflowStepBase.Execute()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+    name: Execute
+    nameWithType: WorkflowStepBase.Execute
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+    name: Execute
+    nameWithType: WorkflowStepBase.Execute
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute
+  isExternal: true
+  name: Execute
+  nameWithType: WorkflowStepSplit.Execute
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.Execute
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+  commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+  parent: SuperOffice.CRM.Workflow.WorkflowStepBase
+  isExternal: true
+  name: NextStepId()
+  nameWithType: WorkflowStepBase.NextStepId()
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+    name: NextStepId
+    nameWithType: WorkflowStepBase.NextStepId
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+    name: NextStepId
+    nameWithType: WorkflowStepBase.NextStepId
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId
+  isExternal: true
+  name: NextStepId
+  nameWithType: WorkflowStepSplit.NextStepId
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.NextStepId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings*
+  commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings
+  isExternal: true
+  name: GetSettings
+  nameWithType: WorkflowStepSplit.GetSettings
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepSplit.GetSettings
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Workflow.SplitSettings
+  commentId: T:SuperOffice.CRM.Workflow.SplitSettings
+  parent: SuperOffice.CRM.Workflow
+  isExternal: true
+  name: SplitSettings
+  nameWithType: SplitSettings
+  fullName: SuperOffice.CRM.Workflow.SplitSettings

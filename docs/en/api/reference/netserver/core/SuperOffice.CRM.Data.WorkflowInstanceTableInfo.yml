@@ -1,0 +1,2111 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  commentId: T:SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  id: WorkflowInstanceTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceTableInfo
+  nameWithType: WorkflowInstanceTableInfo
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;workflow_instance&apos;: A set of properties related to the workflow instance of one participant going through the flow\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetWorkflowInstanceInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("workflow_instance")]
+
+      public class WorkflowInstanceTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("workflow_instance")>
+
+      Public Class WorkflowInstanceTableInfo
+
+          Inherits TableInfo
+
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  extensionMethods:
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.WorkflowInstanceTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: workflow_instance
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: WorkflowInstanceTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table WorkflowInstance in the database dictionary: workflow_instance\n"
+  syntax:
+    content: public const string DictionaryTableName = "workflow_instance"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "workflow_instance"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: WorkflowInstanceTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table WorkflowInstance in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: WorkflowInstanceTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: WorkflowInstanceTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId
+  id: WorkflowInstanceId
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkflowInstanceId
+  nameWithType: WorkflowInstanceTableInfo.WorkflowInstanceId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;workflow_instance_id&apos; in table &apos;workflow_instance&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo WorkflowInstanceId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property WorkflowInstanceId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
+  id: WorkflowId
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId
+  nameWithType: WorkflowInstanceTableInfo.WorkflowId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;workflow_id&apos; in table &apos;workflow_instance&apos;: Dictionary type FK, target: Workflow, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe flow this instance belongs to\n"
+  syntax:
+    content: public Int32FieldInfo WorkflowId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property WorkflowId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: WorkflowInstanceTableInfo.Status
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;status&apos; in table &apos;workflow_instance&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.WorkflowInstanceStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nStatus of the workflow instance\n"
+  syntax:
+    content: public WorkflowInstanceStatusFieldInfo Status { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+    content.vb: Public ReadOnly Property Status As WorkflowInstanceStatusFieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: WorkflowInstanceTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;person_id&apos; in table &apos;workflow_instance&apos;: Dictionary type FK, target: Person, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPerson ID of person going through the flow\n"
+  syntax:
+    content: public Int32FieldInfo PersonId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property PersonId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: WorkflowInstanceTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;contact_id&apos; in table &apos;workflow_instance&apos;: Dictionary type FK, target: Contact, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nContact ID of contact contact going through the flow\n"
+  syntax:
+    content: public Int32FieldInfo ContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ContactId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables
+  id: Variables
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Variables
+  nameWithType: WorkflowInstanceTableInfo.Variables
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;variables&apos; in table &apos;workflow_instance&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nInstance data and variables\n"
+  syntax:
+    content: public StringFieldInfo Variables { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Variables As StringFieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: WorkflowInstanceTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;workflow_instance&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: WorkflowInstanceTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;workflow_instance&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: WorkflowInstanceTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;workflow_instance&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: WorkflowInstanceTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;workflow_instance&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: WorkflowInstanceTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;workflow_instance&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep
+  id: CurrentStep
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrentStep
+  nameWithType: WorkflowInstanceTableInfo.CurrentStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;current_step&apos; in table &apos;workflow_instance&apos;: Dictionary type FK, target: WorkflowStep, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNext step to be executed when conditions are met\n"
+  syntax:
+    content: public Int32FieldInfo CurrentStep { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CurrentStep As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil
+  id: WaitUntil
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WaitUntil
+  nameWithType: WorkflowInstanceTableInfo.WaitUntil
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;wait_until&apos; in table &apos;workflow_instance&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDon&apos;t evaluate conditions until given time (set by a waiting step, and status Suspended). An event may change the wait_until or status to Running.\n"
+  syntax:
+    content: public DateTimeFieldInfo WaitUntil { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property WaitUntil As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep
+  id: LastCommunicationStep
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastCommunicationStep
+  nameWithType: WorkflowInstanceTableInfo.LastCommunicationStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;last_communication_step&apos; in table &apos;workflow_instance&apos;: Dictionary type FK, target: WorkflowStep, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast completed step with email/sms to customer\n"
+  syntax:
+    content: public Int32FieldInfo LastCommunicationStep { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LastCommunicationStep As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason
+  id: DropoutReason
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DropoutReason
+  nameWithType: WorkflowInstanceTableInfo.DropoutReason
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;dropout_reason&apos; in table &apos;workflow_instance&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReason for dropout/failure\n"
+  syntax:
+    content: public StringFieldInfo DropoutReason { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DropoutReason As StringFieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted
+  id: StepStarted
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StepStarted
+  nameWithType: WorkflowInstanceTableInfo.StepStarted
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;step_started&apos; in table &apos;workflow_instance&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe currently executing step was started at this time\n"
+  syntax:
+    content: public DateTimeFieldInfo StepStarted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property StepStarted As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel
+  id: StepLevel
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StepLevel
+  nameWithType: WorkflowInstanceTableInfo.StepLevel
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;step_level&apos; in table &apos;workflow_instance&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSome steps have multiple levels, this indicates what level is reached\n"
+  syntax:
+    content: public Int32FieldInfo StepLevel { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property StepLevel As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+  id: WorkflowId_InnerJoin_Workflow
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkflowId_InnerJoin_Workflow
+  nameWithType: WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key WorkflowId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WorkflowTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<WorkflowTableInfo> WorkflowId_InnerJoin_Workflow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+    content.vb: Public ReadOnly Property WorkflowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+  id: PersonId_InnerJoin_Person
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId_InnerJoin_Person
+  nameWithType: WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key PersonId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.PersonTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<PersonTableInfo> PersonId_InnerJoin_Person { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property PersonId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+  id: ContactId_InnerJoin_Contact
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId_InnerJoin_Contact
+  nameWithType: WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ContactId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ContactTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ContactTableInfo> ContactId_InnerJoin_Contact { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+  id: CurrentStep_InnerJoin_WorkflowStep
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrentStep_InnerJoin_WorkflowStep
+  nameWithType: WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key CurrentStep in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WorkflowStepTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<WorkflowStepTableInfo> CurrentStep_InnerJoin_WorkflowStep { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+    content.vb: Public ReadOnly Property CurrentStep_InnerJoin_WorkflowStep As TargetedInnerJoin(Of WorkflowStepTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+  id: LastCommunicationStep_InnerJoin_WorkflowStep
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastCommunicationStep_InnerJoin_WorkflowStep
+  nameWithType: WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key LastCommunicationStep in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WorkflowStepTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<WorkflowStepTableInfo> LastCommunicationStep_InnerJoin_WorkflowStep { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+    content.vb: Public ReadOnly Property LastCommunicationStep_InnerJoin_WorkflowStep As TargetedInnerJoin(Of WorkflowStepTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  id: LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  parent: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  nameWithType: WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key WorkflowInstanceId on this table, to SShipmentAddr.<xref href=\"SuperOffice.CRM.Data.SShipmentAddrTableInfo.WorkflowInstanceId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<SShipmentAddrTableInfo> LeftOuterJoin_SShipmentAddr_WorkflowInstanceId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentAddrTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_SShipmentAddr_WorkflowInstanceId As TargetedLeftOuterJoin(Of SShipmentAddrTableInfo)
+  overload: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowInstanceTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowInstanceTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To)()
+  name.vb: MapEnums(Of WorkflowInstanceTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowInstanceTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowInstanceTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowInstanceTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowInstanceTableInfo, To>()
+  nameWithType: Converters.MapEnums<WorkflowInstanceTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowInstanceTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To)()
+  name.vb: MapEnums(Of WorkflowInstanceTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowInstanceTableInfo, To>
+    nameWithType: Converters.MapEnums<WorkflowInstanceTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowInstanceTableInfo, To)
+    nameWithType: Converters.MapEnums(Of WorkflowInstanceTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.WorkflowInstanceTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: WorkflowInstanceTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: WorkflowInstanceTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: WorkflowInstanceTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Definition
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId
+  isExternal: true
+  name: WorkflowInstanceId
+  nameWithType: WorkflowInstanceTableInfo.WorkflowInstanceId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowInstanceId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowInstanceTableInfo.WorkflowId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status
+  isExternal: true
+  name: Status
+  nameWithType: WorkflowInstanceTableInfo.Status
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Status
+- uid: SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: WorkflowInstanceStatusFieldInfo
+  nameWithType: WorkflowInstanceStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.WorkflowInstanceStatusFieldInfo
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: WorkflowInstanceTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: WorkflowInstanceTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables
+  isExternal: true
+  name: Variables
+  nameWithType: WorkflowInstanceTableInfo.Variables
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Variables
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: WorkflowInstanceTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: WorkflowInstanceTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: WorkflowInstanceTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.Updated
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: WorkflowInstanceTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: WorkflowInstanceTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedCount
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep
+  isExternal: true
+  name: CurrentStep
+  nameWithType: WorkflowInstanceTableInfo.CurrentStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil
+  isExternal: true
+  name: WaitUntil
+  nameWithType: WorkflowInstanceTableInfo.WaitUntil
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WaitUntil
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep
+  isExternal: true
+  name: LastCommunicationStep
+  nameWithType: WorkflowInstanceTableInfo.LastCommunicationStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason
+  isExternal: true
+  name: DropoutReason
+  nameWithType: WorkflowInstanceTableInfo.DropoutReason
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.DropoutReason
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted
+  isExternal: true
+  name: StepStarted
+  nameWithType: WorkflowInstanceTableInfo.StepStarted
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepStarted
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel
+  isExternal: true
+  name: StepLevel
+  nameWithType: WorkflowInstanceTableInfo.StepLevel
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.StepLevel
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+  isExternal: true
+  name: WorkflowId_InnerJoin_Workflow
+  nameWithType: WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId_InnerJoin_Workflow
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<WorkflowTableInfo>
+  nameWithType: TargetedInnerJoin<WorkflowTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowTableInfo)
+  name.vb: TargetedInnerJoin(Of WorkflowTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    nameWithType: WorkflowTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
+    name: WorkflowTableInfo
+    nameWithType: WorkflowTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+  isExternal: true
+  name: PersonId_InnerJoin_Person
+  nameWithType: WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.PersonId_InnerJoin_Person
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<PersonTableInfo>
+  nameWithType: TargetedInnerJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedInnerJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+  isExternal: true
+  name: ContactId_InnerJoin_Contact
+  nameWithType: WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.ContactId_InnerJoin_Contact
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ContactTableInfo>
+  nameWithType: TargetedInnerJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedInnerJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+  isExternal: true
+  name: CurrentStep_InnerJoin_WorkflowStep
+  nameWithType: WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.CurrentStep_InnerJoin_WorkflowStep
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowStepTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<WorkflowStepTableInfo>
+  nameWithType: TargetedInnerJoin<WorkflowStepTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowStepTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of WorkflowStepTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.WorkflowStepTableInfo)
+  name.vb: TargetedInnerJoin(Of WorkflowStepTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    name: WorkflowStepTableInfo
+    nameWithType: WorkflowStepTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+  isExternal: true
+  name: LastCommunicationStep_InnerJoin_WorkflowStep
+  nameWithType: WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LastCommunicationStep_InnerJoin_WorkflowStep
+- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId*
+  commentId: Overload:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  isExternal: true
+  name: LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  nameWithType: WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.LeftOuterJoin_SShipmentAddr_WorkflowInstanceId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentAddrTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SShipmentAddrTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<SShipmentAddrTableInfo>
+  nameWithType: TargetedLeftOuterJoin<SShipmentAddrTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SShipmentAddrTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of SShipmentAddrTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.SShipmentAddrTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of SShipmentAddrTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    name: SShipmentAddrTableInfo
+    nameWithType: SShipmentAddrTableInfo
+    fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    name: SShipmentAddrTableInfo
+    nameWithType: SShipmentAddrTableInfo
+    fullName: SuperOffice.CRM.Data.SShipmentAddrTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )

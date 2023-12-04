@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ExportArchive
+  commentId: N:SuperOffice.ExportArchive
+  id: SuperOffice.ExportArchive
+  children:
+  - SuperOffice.ExportArchive.TicketBatchPluginBase
+  - SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.ExportArchive
+  nameWithType: SuperOffice.ExportArchive
+  fullName: SuperOffice.ExportArchive
+  type: Namespace
+  assemblies:
+  - SoBatchProcessing
+references:
+- uid: SuperOffice.ExportArchive.TicketBatchPluginBase
+  commentId: T:SuperOffice.ExportArchive.TicketBatchPluginBase
+  isExternal: true
+  name: TicketBatchPluginBase
+  nameWithType: TicketBatchPluginBase
+  fullName: SuperOffice.ExportArchive.TicketBatchPluginBase
+- uid: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+  commentId: T:SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+  parent: SuperOffice.ExportArchive
+  isExternal: true
+  name: TicketBatchPluginBase.TicketForwardSettings
+  nameWithType: TicketBatchPluginBase.TicketForwardSettings
+  fullName: SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings
+- uid: SuperOffice.ExportArchive
+  commentId: N:SuperOffice.ExportArchive
+  isExternal: true
+  name: SuperOffice.ExportArchive
+  nameWithType: SuperOffice.ExportArchive
+  fullName: SuperOffice.ExportArchive

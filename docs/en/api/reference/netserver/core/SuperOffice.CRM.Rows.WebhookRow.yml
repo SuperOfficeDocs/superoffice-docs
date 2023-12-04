@@ -7,10 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Rows.WebhookRow.#ctor(SuperOffice.CRM.Rows.WebhookRow.WebhookRowIdxBase)
   - SuperOffice.CRM.Rows.WebhookRow._currentApplicationToken
-  - SuperOffice.CRM.Rows.WebhookRow._currentConsecutiveErrors
+  - SuperOffice.CRM.Rows.WebhookRow._currentErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRow._currentEvents
   - SuperOffice.CRM.Rows.WebhookRow._currentHeaders
-  - SuperOffice.CRM.Rows.WebhookRow._currentLastError
   - SuperOffice.CRM.Rows.WebhookRow._currentName
   - SuperOffice.CRM.Rows.WebhookRow._currentProperties
   - SuperOffice.CRM.Rows.WebhookRow._currentRegistered
@@ -18,36 +17,15 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow._currentSecret
   - SuperOffice.CRM.Rows.WebhookRow._currentState
   - SuperOffice.CRM.Rows.WebhookRow._currentTargetUrl
-  - SuperOffice.CRM.Rows.WebhookRow._currentTotalCalls
-  - SuperOffice.CRM.Rows.WebhookRow._currentTotalErrors
   - SuperOffice.CRM.Rows.WebhookRow._currentType
   - SuperOffice.CRM.Rows.WebhookRow._currentUpdated
   - SuperOffice.CRM.Rows.WebhookRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.WebhookRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.WebhookRow._currentWebhookId
-  - SuperOffice.CRM.Rows.WebhookRow._onApplicationTokenChange
-  - SuperOffice.CRM.Rows.WebhookRow._onConsecutiveErrorsChange
-  - SuperOffice.CRM.Rows.WebhookRow._onEventsChange
-  - SuperOffice.CRM.Rows.WebhookRow._onHeadersChange
-  - SuperOffice.CRM.Rows.WebhookRow._onLastErrorChange
-  - SuperOffice.CRM.Rows.WebhookRow._onNameChange
-  - SuperOffice.CRM.Rows.WebhookRow._onPropertiesChange
-  - SuperOffice.CRM.Rows.WebhookRow._onRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.WebhookRow._onRegisteredChange
-  - SuperOffice.CRM.Rows.WebhookRow._onSecretChange
-  - SuperOffice.CRM.Rows.WebhookRow._onStateChange
-  - SuperOffice.CRM.Rows.WebhookRow._onTargetUrlChange
-  - SuperOffice.CRM.Rows.WebhookRow._onTotalCallsChange
-  - SuperOffice.CRM.Rows.WebhookRow._onTotalErrorsChange
-  - SuperOffice.CRM.Rows.WebhookRow._onTypeChange
-  - SuperOffice.CRM.Rows.WebhookRow._onUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.WebhookRow._onUpdatedChange
-  - SuperOffice.CRM.Rows.WebhookRow._onUpdatedCountChange
   - SuperOffice.CRM.Rows.WebhookRow._persistedApplicationToken
-  - SuperOffice.CRM.Rows.WebhookRow._persistedConsecutiveErrors
+  - SuperOffice.CRM.Rows.WebhookRow._persistedErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRow._persistedEvents
   - SuperOffice.CRM.Rows.WebhookRow._persistedHeaders
-  - SuperOffice.CRM.Rows.WebhookRow._persistedLastError
   - SuperOffice.CRM.Rows.WebhookRow._persistedName
   - SuperOffice.CRM.Rows.WebhookRow._persistedProperties
   - SuperOffice.CRM.Rows.WebhookRow._persistedRegistered
@@ -55,16 +33,14 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow._persistedSecret
   - SuperOffice.CRM.Rows.WebhookRow._persistedState
   - SuperOffice.CRM.Rows.WebhookRow._persistedTargetUrl
-  - SuperOffice.CRM.Rows.WebhookRow._persistedTotalCalls
-  - SuperOffice.CRM.Rows.WebhookRow._persistedTotalErrors
   - SuperOffice.CRM.Rows.WebhookRow._persistedType
   - SuperOffice.CRM.Rows.WebhookRow._persistedUpdated
   - SuperOffice.CRM.Rows.WebhookRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.WebhookRow._persistedUpdatedCount
   - SuperOffice.CRM.Rows.WebhookRow._persistedWebhookId
   - SuperOffice.CRM.Rows.WebhookRow.ApplicationToken
-  - SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors
   - SuperOffice.CRM.Rows.WebhookRow.CreateNew
+  - SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRow.Events
   - SuperOffice.CRM.Rows.WebhookRow.GetFromCustomSearch(SuperOffice.CRM.Rows.WebhookRow.CustomSearch)
   - SuperOffice.CRM.Rows.WebhookRow.GetFromIdxWebhookId(System.Int32)
@@ -79,29 +55,10 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow.IsNew
   - SuperOffice.CRM.Rows.WebhookRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.WebhookRow.Item(System.String)
-  - SuperOffice.CRM.Rows.WebhookRow.LastError
   - SuperOffice.CRM.Rows.WebhookRow.Name
-  - SuperOffice.CRM.Rows.WebhookRow.OnApplicationTokenChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnConsecutiveErrorsChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnEventsChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnHeadersChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnLastErrorChange
   - SuperOffice.CRM.Rows.WebhookRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Rows.WebhookRow.OnNameChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnPropertiesChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnRegisteredChange
   - SuperOffice.CRM.Rows.WebhookRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.WebhookRow.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Rows.WebhookRow.OnSecretChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnStateChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnTargetUrlChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnTotalCallsChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnTotalErrorsChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnTypeChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnUpdatedChange
-  - SuperOffice.CRM.Rows.WebhookRow.OnUpdatedCountChange
   - SuperOffice.CRM.Rows.WebhookRow.Properties
   - SuperOffice.CRM.Rows.WebhookRow.Registered
   - SuperOffice.CRM.Rows.WebhookRow.RegisteredAssociateId
@@ -114,8 +71,6 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow.TableInfo
   - SuperOffice.CRM.Rows.WebhookRow.TargetUrl
   - SuperOffice.CRM.Rows.WebhookRow.ToString
-  - SuperOffice.CRM.Rows.WebhookRow.TotalCalls
-  - SuperOffice.CRM.Rows.WebhookRow.TotalErrors
   - SuperOffice.CRM.Rows.WebhookRow.Type
   - SuperOffice.CRM.Rows.WebhookRow.Updated
   - SuperOffice.CRM.Rows.WebhookRow.UpdatedAssociateId
@@ -142,7 +97,9 @@ items:
     content: 'public class WebhookRow : TableRowBase, INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem'
     content.vb: >-
       Public Class WebhookRow
+
           Inherits TableRowBase
+
           Implements INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem
   inheritance:
   - System.Object
@@ -157,8 +114,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowBase._saveOwner
   - SuperOffice.CRM.Rows.TableRowBase._sentries
-  - SuperOffice.CRM.Rows.TableRowBase._onValueChange
   - SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+  - SuperOffice.CRM.Rows.TableRowBase._isSaving
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
@@ -177,6 +134,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Rows.TableRowBase.Validate
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice#Data#INestedPersist#OnPreIdUpdate
@@ -201,13 +162,17 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SqlType
   - SuperOffice.CRM.Rows.TableRowBase.IsSentryIgnored
   - SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
   - SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   - SuperOffice.CRM.Rows.TableRowBase.OnElementIdUpdate
   - SuperOffice.Data.SQL.PrivateSave.GetTableInfos
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -219,17 +184,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.WebhookRow.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.WebhookRow.SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.WebhookRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -507,114 +467,6 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._persistedTotalCalls
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedTotalCalls
-  id: _persistedTotalCalls
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedTotalCalls
-  nameWithType: WebhookRow._persistedTotalCalls
-  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedTotalCalls
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.TotalCalls\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _persistedTotalCalls
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedTotalCalls As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._persistedTotalErrors
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedTotalErrors
-  id: _persistedTotalErrors
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedTotalErrors
-  nameWithType: WebhookRow._persistedTotalErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedTotalErrors
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.TotalErrors\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _persistedTotalErrors
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedTotalErrors As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._persistedConsecutiveErrors
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedConsecutiveErrors
-  id: _persistedConsecutiveErrors
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedConsecutiveErrors
-  nameWithType: WebhookRow._persistedConsecutiveErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedConsecutiveErrors
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _persistedConsecutiveErrors
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedConsecutiveErrors As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._persistedLastError
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedLastError
-  id: _persistedLastError
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedLastError
-  nameWithType: WebhookRow._persistedLastError
-  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedLastError
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.LastError\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected string _persistedLastError
-    return:
-      type: System.String
-    content.vb: Protected _persistedLastError As String
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.Rows.WebhookRow._persistedRegistered
   commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedRegistered
   id: _persistedRegistered
@@ -637,7 +489,7 @@ items:
     content: protected DateTime _persistedRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _persistedRegistered As Date
+    content.vb: Protected _persistedRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -691,7 +543,7 @@ items:
     content: protected DateTime _persistedUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _persistedUpdated As Date
+    content.vb: Protected _persistedUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -746,6 +598,33 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedUpdatedCount As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.WebhookRow._persistedErrorsEmail
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedErrorsEmail
+  id: _persistedErrorsEmail
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedErrorsEmail
+  nameWithType: WebhookRow._persistedErrorsEmail
+  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedErrorsEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedErrorsEmail
+    return:
+      type: System.String
+    content.vb: Protected _persistedErrorsEmail As String
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1020,114 +899,6 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._currentTotalCalls
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentTotalCalls
-  id: _currentTotalCalls
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _currentTotalCalls
-  nameWithType: WebhookRow._currentTotalCalls
-  fullName: SuperOffice.CRM.Rows.WebhookRow._currentTotalCalls
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.TotalCalls\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _currentTotalCalls
-    return:
-      type: System.Int32
-    content.vb: Protected _currentTotalCalls As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._currentTotalErrors
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentTotalErrors
-  id: _currentTotalErrors
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _currentTotalErrors
-  nameWithType: WebhookRow._currentTotalErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow._currentTotalErrors
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.TotalErrors\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _currentTotalErrors
-    return:
-      type: System.Int32
-    content.vb: Protected _currentTotalErrors As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._currentConsecutiveErrors
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentConsecutiveErrors
-  id: _currentConsecutiveErrors
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _currentConsecutiveErrors
-  nameWithType: WebhookRow._currentConsecutiveErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow._currentConsecutiveErrors
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _currentConsecutiveErrors
-    return:
-      type: System.Int32
-    content.vb: Protected _currentConsecutiveErrors As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._currentLastError
-  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentLastError
-  id: _currentLastError
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _currentLastError
-  nameWithType: WebhookRow._currentLastError
-  fullName: SuperOffice.CRM.Rows.WebhookRow._currentLastError
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.LastError\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected string _currentLastError
-    return:
-      type: System.String
-    content.vb: Protected _currentLastError As String
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.Rows.WebhookRow._currentRegistered
   commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentRegistered
   id: _currentRegistered
@@ -1150,7 +921,7 @@ items:
     content: protected DateTime _currentRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _currentRegistered As Date
+    content.vb: Protected _currentRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1204,7 +975,7 @@ items:
     content: protected DateTime _currentUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _currentUpdated As Date
+    content.vb: Protected _currentUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1259,6 +1030,33 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.WebhookRow._currentErrorsEmail
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentErrorsEmail
+  id: _currentErrorsEmail
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _currentErrorsEmail
+  nameWithType: WebhookRow._currentErrorsEmail
+  fullName: SuperOffice.CRM.Rows.WebhookRow._currentErrorsEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentErrorsEmail
+    return:
+      type: System.String
+    content.vb: Protected _currentErrorsEmail As String
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1599,7 +1397,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.WebhookRow.ToString*
   modifiers.csharp:
   - public
@@ -2133,7 +1930,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Primary key \n"
-  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>		\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
+  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>        \n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
   syntax:
     content: public virtual int WebhookId { get; }
     parameters: []
@@ -2268,7 +2065,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: string. Name of plugin that handles this webhook. &apos;webhook&apos; for webhooks, which are handled by the system plugin. \n"
+  summary: "\n.NET type: string. Name of plugin that handles this webhook. &apos;webhook&apos; for HTTP POST notifications, &apos;crmscript&apos; for script invocations. \n"
   remarks: "\nOriginal type in dictionary:  String[101].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
     content: public virtual string Type { get; set; }
@@ -2455,142 +2252,6 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Rows.WebhookRow.TotalCalls
-  commentId: P:SuperOffice.CRM.Rows.WebhookRow.TotalCalls
-  id: TotalCalls
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: TotalCalls
-  nameWithType: WebhookRow.TotalCalls
-  fullName: SuperOffice.CRM.Rows.WebhookRow.TotalCalls
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: int. Number of times webhook has been invoked since registered. For statistical purposes. \n"
-  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
-  syntax:
-    content: public virtual int TotalCalls { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property TotalCalls As Integer
-  overload: SuperOffice.CRM.Rows.WebhookRow.TotalCalls*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-- uid: SuperOffice.CRM.Rows.WebhookRow.TotalErrors
-  commentId: P:SuperOffice.CRM.Rows.WebhookRow.TotalErrors
-  id: TotalErrors
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: TotalErrors
-  nameWithType: WebhookRow.TotalErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow.TotalErrors
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: int. Number of times webhook has returned error since registered. For statistical purposes. \n"
-  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
-  syntax:
-    content: public virtual int TotalErrors { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property TotalErrors As Integer
-  overload: SuperOffice.CRM.Rows.WebhookRow.TotalErrors*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-- uid: SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors
-  commentId: P:SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors
-  id: ConsecutiveErrors
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: ConsecutiveErrors
-  nameWithType: WebhookRow.ConsecutiveErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: int. Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, state is changed to TooManyErrors(3) to deactivate webhook. \n"
-  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
-  syntax:
-    content: public virtual int ConsecutiveErrors { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property ConsecutiveErrors As Integer
-  overload: SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-- uid: SuperOffice.CRM.Rows.WebhookRow.LastError
-  commentId: P:SuperOffice.CRM.Rows.WebhookRow.LastError
-  id: LastError
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: LastError
-  nameWithType: WebhookRow.LastError
-  fullName: SuperOffice.CRM.Rows.WebhookRow.LastError
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: string. Most recent error message received from target. HTTP Headers + body. To help with debugging webhooks. \n"
-  remarks: "\nOriginal type in dictionary:  String[4001].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
-  syntax:
-    content: public virtual string LastError { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Overridable Property LastError As String
-  overload: SuperOffice.CRM.Rows.WebhookRow.LastError*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
 - uid: SuperOffice.CRM.Rows.WebhookRow.Registered
   commentId: P:SuperOffice.CRM.Rows.WebhookRow.Registered
   id: Registered
@@ -2615,7 +2276,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Rows.WebhookRow.Registered*
   modifiers.csharp:
   - public
@@ -2683,7 +2344,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Rows.WebhookRow.Updated*
   modifiers.csharp:
   - public
@@ -2761,978 +2422,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Rows.WebhookRow._onNameChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onNameChange
-  id: _onNameChange
+- uid: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
+  commentId: P:SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
+  id: ErrorsEmail
   parent: SuperOffice.CRM.Rows.WebhookRow
   langs:
   - csharp
   - vb
-  name: _onNameChange
-  nameWithType: WebhookRow._onNameChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onNameChange
-  type: Event
+  name: ErrorsEmail
+  nameWithType: WebhookRow.ErrorsEmail
+  fullName: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
+  type: Property
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Name\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  summary: "\n.NET type: string. Email address to send error message to when this webhook state changes to too-many errors. \n"
+  remarks: "\nOriginal type in dictionary:  String[240].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
-    content: protected event OnFieldChange<string> _onNameChange
+    content: public virtual string ErrorsEmail { get; set; }
+    parameters: []
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onEventsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onEventsChange
-  id: _onEventsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onEventsChange
-  nameWithType: WebhookRow._onEventsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onEventsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Events\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onEventsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onEventsChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onTargetUrlChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onTargetUrlChange
-  id: _onTargetUrlChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onTargetUrlChange
-  nameWithType: WebhookRow._onTargetUrlChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onTargetUrlChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.TargetUrl\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onTargetUrlChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onTargetUrlChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onTypeChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onTypeChange
-  id: _onTypeChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onTypeChange
-  nameWithType: WebhookRow._onTypeChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Type\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onTypeChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onApplicationTokenChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onApplicationTokenChange
-  id: _onApplicationTokenChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onApplicationTokenChange
-  nameWithType: WebhookRow._onApplicationTokenChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onApplicationTokenChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.ApplicationToken\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onApplicationTokenChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onApplicationTokenChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onHeadersChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onHeadersChange
-  id: _onHeadersChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onHeadersChange
-  nameWithType: WebhookRow._onHeadersChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onHeadersChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Headers\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onHeadersChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onHeadersChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onPropertiesChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onPropertiesChange
-  id: _onPropertiesChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onPropertiesChange
-  nameWithType: WebhookRow._onPropertiesChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onPropertiesChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Properties\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onPropertiesChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onPropertiesChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onSecretChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onSecretChange
-  id: _onSecretChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onSecretChange
-  nameWithType: WebhookRow._onSecretChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onSecretChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Secret\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onSecretChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onSecretChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onStateChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onStateChange
-  id: _onStateChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onStateChange
-  nameWithType: WebhookRow._onStateChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onStateChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.State\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<WebhookState> _onStateChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.WebhookState}
-    content.vb: Protected Event _onStateChange As OnFieldChange(Of WebhookState)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onTotalCallsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onTotalCallsChange
-  id: _onTotalCallsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onTotalCallsChange
-  nameWithType: WebhookRow._onTotalCallsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onTotalCallsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.TotalCalls\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onTotalCallsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onTotalCallsChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onTotalErrorsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onTotalErrorsChange
-  id: _onTotalErrorsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onTotalErrorsChange
-  nameWithType: WebhookRow._onTotalErrorsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onTotalErrorsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.TotalErrors\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onTotalErrorsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onTotalErrorsChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onConsecutiveErrorsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onConsecutiveErrorsChange
-  id: _onConsecutiveErrorsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onConsecutiveErrorsChange
-  nameWithType: WebhookRow._onConsecutiveErrorsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onConsecutiveErrorsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onConsecutiveErrorsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onConsecutiveErrorsChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onLastErrorChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onLastErrorChange
-  id: _onLastErrorChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onLastErrorChange
-  nameWithType: WebhookRow._onLastErrorChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onLastErrorChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.LastError\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onLastErrorChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onLastErrorChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onRegisteredChange
-  id: _onRegisteredChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredChange
-  nameWithType: WebhookRow._onRegisteredChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Registered\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onRegisteredAssociateIdChange
-  id: _onRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredAssociateIdChange
-  nameWithType: WebhookRow._onRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.RegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onUpdatedChange
-  id: _onUpdatedChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedChange
-  nameWithType: WebhookRow._onUpdatedChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.Updated\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onUpdatedAssociateIdChange
-  id: _onUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedAssociateIdChange
-  nameWithType: WebhookRow._onUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.UpdatedAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow._onUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow._onUpdatedCountChange
-  id: _onUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedCountChange
-  nameWithType: WebhookRow._onUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow._onUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.WebhookRow.UpdatedCount\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnNameChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnNameChange
-  id: OnNameChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnNameChange
-  nameWithType: WebhookRow.OnNameChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Name is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnNameChange As OnFieldChange(Of String)
+      type: System.String
+    content.vb: Public Overridable Property ErrorsEmail As String
+  overload: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail*
   modifiers.csharp:
   - public
+  - virtual
+  - get
+  - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnEventsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnEventsChange
-  id: OnEventsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnEventsChange
-  nameWithType: WebhookRow.OnEventsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnEventsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Events is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnEventsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnEventsChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnTargetUrlChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnTargetUrlChange
-  id: OnTargetUrlChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnTargetUrlChange
-  nameWithType: WebhookRow.OnTargetUrlChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnTargetUrlChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TargetUrl is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnTargetUrlChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnTargetUrlChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnTypeChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnTypeChange
-  id: OnTypeChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnTypeChange
-  nameWithType: WebhookRow.OnTypeChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Type is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnTypeChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnApplicationTokenChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnApplicationTokenChange
-  id: OnApplicationTokenChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnApplicationTokenChange
-  nameWithType: WebhookRow.OnApplicationTokenChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnApplicationTokenChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ApplicationToken is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnApplicationTokenChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnApplicationTokenChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnHeadersChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnHeadersChange
-  id: OnHeadersChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnHeadersChange
-  nameWithType: WebhookRow.OnHeadersChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnHeadersChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Headers is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnHeadersChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnHeadersChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnPropertiesChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnPropertiesChange
-  id: OnPropertiesChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnPropertiesChange
-  nameWithType: WebhookRow.OnPropertiesChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnPropertiesChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Properties is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnPropertiesChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnPropertiesChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnSecretChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnSecretChange
-  id: OnSecretChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnSecretChange
-  nameWithType: WebhookRow.OnSecretChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnSecretChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Secret is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnSecretChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnSecretChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnStateChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnStateChange
-  id: OnStateChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnStateChange
-  nameWithType: WebhookRow.OnStateChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnStateChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when State is changing.\n"
-  syntax:
-    content: public event OnFieldChange<WebhookState> OnStateChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.WebhookState}
-    content.vb: Public Event OnStateChange As OnFieldChange(Of WebhookState)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnTotalCallsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnTotalCallsChange
-  id: OnTotalCallsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnTotalCallsChange
-  nameWithType: WebhookRow.OnTotalCallsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnTotalCallsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TotalCalls is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnTotalCallsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnTotalCallsChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnTotalErrorsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnTotalErrorsChange
-  id: OnTotalErrorsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnTotalErrorsChange
-  nameWithType: WebhookRow.OnTotalErrorsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnTotalErrorsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TotalErrors is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnTotalErrorsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnTotalErrorsChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnConsecutiveErrorsChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnConsecutiveErrorsChange
-  id: OnConsecutiveErrorsChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnConsecutiveErrorsChange
-  nameWithType: WebhookRow.OnConsecutiveErrorsChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnConsecutiveErrorsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ConsecutiveErrors is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnConsecutiveErrorsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnConsecutiveErrorsChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnLastErrorChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnLastErrorChange
-  id: OnLastErrorChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnLastErrorChange
-  nameWithType: WebhookRow.OnLastErrorChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnLastErrorChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when LastError is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnLastErrorChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnLastErrorChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnRegisteredChange
-  id: OnRegisteredChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredChange
-  nameWithType: WebhookRow.OnRegisteredChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Registered is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnRegisteredAssociateIdChange
-  id: OnRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredAssociateIdChange
-  nameWithType: WebhookRow.OnRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RegisteredAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnUpdatedChange
-  id: OnUpdatedChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedChange
-  nameWithType: WebhookRow.OnUpdatedChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Updated is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnUpdatedAssociateIdChange
-  id: OnUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedAssociateIdChange
-  nameWithType: WebhookRow.OnUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.WebhookRow.OnUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.WebhookRow.OnUpdatedCountChange
-  id: OnUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.WebhookRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedCountChange
-  nameWithType: WebhookRow.OnUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.WebhookRow.OnUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedCount is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -3810,13 +2533,6 @@ references:
   name: _sentries
   nameWithType: TableRowBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowBase._sentries
-- uid: SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  commentId: F:SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: _onValueChange
-  nameWithType: TableRowBase._onValueChange
-  fullName: SuperOffice.CRM.Rows.TableRowBase._onValueChange
 - uid: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -3824,6 +2540,13 @@ references:
   name: _relatedNestedPersistMembers
   nameWithType: TableRowBase._relatedNestedPersistMembers
   fullName: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+- uid: SuperOffice.CRM.Rows.TableRowBase._isSaving
+  commentId: F:SuperOffice.CRM.Rows.TableRowBase._isSaving
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: _isSaving
+  nameWithType: TableRowBase._isSaving
+  fullName: SuperOffice.CRM.Rows.TableRowBase._isSaving
 - uid: SuperOffice.CRM.Rows.TableRowBase._sqlType
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._sqlType
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -4562,6 +3285,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5278,13 +4165,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: OnValueChanged
-  nameWithType: TableRowBase.OnValueChanged
-  fullName: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5330,6 +4210,88 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -5361,6 +4323,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   commentId: E:SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -5375,6 +4401,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -5757,254 +4790,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.WebhookRow.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -6138,6 +4923,37 @@ references:
     name: ExecuteNonQuery
     nameWithType: QueryExectionExtensions.ExecuteNonQuery
     fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookRow.SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
+  commentId: M:SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookRow)
+  parent: SuperOffice.CRM.Rows.WebhookRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookRow)
+  name: ToRecordData()
+  nameWithType: WebhookRecordDataExtensions.ToRecordData()
+  fullName: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: WebhookRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: WebhookRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
     isExternal: true
   - name: (
     nameWithType: (
@@ -6394,6 +5210,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookRow)
+  commentId: M:SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookRow)
+  isExternal: true
+  name: ToRecordData(WebhookRow)
+  nameWithType: WebhookRecordDataExtensions.ToRecordData(WebhookRow)
+  fullName: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookRow)
+    name: ToRecordData
+    nameWithType: WebhookRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WebhookRow
+    name: WebhookRow
+    nameWithType: WebhookRow
+    fullName: SuperOffice.CRM.Rows.WebhookRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WebhookRow)
+    name: ToRecordData
+    nameWithType: WebhookRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.WebhookRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WebhookRow
+    name: WebhookRow
+    nameWithType: WebhookRow
+    fullName: SuperOffice.CRM.Rows.WebhookRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WebhookRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WebhookRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WebhookRecordDataExtensions
+  nameWithType: WebhookRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WebhookRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -6468,8 +5331,6 @@ references:
   nameWithType: WebhookState
   fullName: SuperOffice.Data.WebhookState
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -6780,37 +5641,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.WebhookRow.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.ToString
   isExternal: true
@@ -7371,30 +6201,6 @@ references:
   name: State
   nameWithType: WebhookRow.State
   fullName: SuperOffice.CRM.Rows.WebhookRow.State
-- uid: SuperOffice.CRM.Rows.WebhookRow.TotalCalls*
-  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.TotalCalls
-  isExternal: true
-  name: TotalCalls
-  nameWithType: WebhookRow.TotalCalls
-  fullName: SuperOffice.CRM.Rows.WebhookRow.TotalCalls
-- uid: SuperOffice.CRM.Rows.WebhookRow.TotalErrors*
-  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.TotalErrors
-  isExternal: true
-  name: TotalErrors
-  nameWithType: WebhookRow.TotalErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow.TotalErrors
-- uid: SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors*
-  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors
-  isExternal: true
-  name: ConsecutiveErrors
-  nameWithType: WebhookRow.ConsecutiveErrors
-  fullName: SuperOffice.CRM.Rows.WebhookRow.ConsecutiveErrors
-- uid: SuperOffice.CRM.Rows.WebhookRow.LastError*
-  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.LastError
-  isExternal: true
-  name: LastError
-  nameWithType: WebhookRow.LastError
-  fullName: SuperOffice.CRM.Rows.WebhookRow.LastError
 - uid: SuperOffice.CRM.Rows.WebhookRow.Registered*
   commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.Registered
   isExternal: true
@@ -7425,262 +6231,9 @@ references:
   name: UpdatedCount
   nameWithType: WebhookRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.WebhookRow.UpdatedCount
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<String>
-  nameWithType: OnFieldChange<String>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.String>
-  nameWithType.vb: OnFieldChange(Of String)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.String)
-  name.vb: OnFieldChange(Of String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange`1
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
+- uid: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
   isExternal: true
-  name: OnFieldChange<TValue>
-  nameWithType: OnFieldChange<TValue>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  nameWithType.vb: OnFieldChange(Of TValue)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
-  name.vb: OnFieldChange(Of TValue)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.WebhookState}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.WebhookState}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<WebhookState>
-  nameWithType: OnFieldChange<WebhookState>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.WebhookState>
-  nameWithType.vb: OnFieldChange(Of WebhookState)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.WebhookState)
-  name.vb: OnFieldChange(Of WebhookState)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.WebhookState
-    name: WebhookState
-    nameWithType: WebhookState
-    fullName: SuperOffice.Data.WebhookState
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.WebhookState
-    name: WebhookState
-    nameWithType: WebhookState
-    fullName: SuperOffice.Data.WebhookState
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int32>
-  nameWithType: OnFieldChange<Int32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
-  nameWithType.vb: OnFieldChange(Of Int32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
-  name.vb: OnFieldChange(Of Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DateTime>
-  nameWithType: OnFieldChange<DateTime>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
-  nameWithType.vb: OnFieldChange(Of DateTime)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
-  name.vb: OnFieldChange(Of DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: ErrorsEmail
+  nameWithType: WebhookRow.ErrorsEmail
+  fullName: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail

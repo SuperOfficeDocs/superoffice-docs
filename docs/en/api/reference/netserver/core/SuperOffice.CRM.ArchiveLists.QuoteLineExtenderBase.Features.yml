@@ -11,13 +11,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.None
   - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.NormalGui
   - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.Selection
+  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.value__
   langs:
   - csharp
   - vb
   name: QuoteLineExtenderBase.Features
   nameWithType: QuoteLineExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -25,29 +26,54 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: >-
-      [Flags]
-
-      public enum Features
+    content: 'public sealed class Features : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class Features
 
-      Public Enum Features
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)
-  - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: QuoteLineExtenderBase.Features.value__
+  fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.None
   commentId: F:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.None
   id: None
@@ -66,9 +92,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: None = 0
+    content: public const QuoteLineExtenderBase.Features None
     return:
       type: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
+    content.vb: Public Const None As QuoteLineExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -93,9 +120,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NormalGui = 1
+    content: public const QuoteLineExtenderBase.Features NormalGui
     return:
       type: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
+    content.vb: Public Const NormalGui As QuoteLineExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -120,9 +148,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: DeepForDocument = 2
+    content: public const QuoteLineExtenderBase.Features DeepForDocument
     return:
       type: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
+    content.vb: Public Const DeepForDocument As QuoteLineExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -147,9 +176,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Selection = 4
+    content: public const QuoteLineExtenderBase.Features Selection
     return:
       type: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
+    content.vb: Public Const Selection As QuoteLineExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -174,9 +204,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: DynamicSelection = 8
+    content: public const QuoteLineExtenderBase.Features DynamicSelection
     return:
       type: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
+    content.vb: Public Const DynamicSelection As QuoteLineExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -201,9 +232,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Find = 16
+    content: public const QuoteLineExtenderBase.Features Find
     return:
       type: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
+    content.vb: Public Const Find As QuoteLineExtenderBase.Features
   modifiers.csharp:
   - public
   - const
@@ -217,6 +249,13 @@ references:
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -244,84 +283,6 @@ references:
     name: MapEnums(Of QuoteLineExtenderBase.Features, To)
     nameWithType: EnumUtil.MapEnums(Of QuoteLineExtenderBase.Features, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<QuoteLineExtenderBase.Features>(QuoteLineExtenderBase.Features)
-  nameWithType: ObjectExtensions.AssignByReflection<QuoteLineExtenderBase.Features>(QuoteLineExtenderBase.Features)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteLineExtenderBase.Features)(QuoteLineExtenderBase.Features)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)
-  name.vb: AssignByReflection(Of QuoteLineExtenderBase.Features)(QuoteLineExtenderBase.Features)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<QuoteLineExtenderBase.Features>
-    nameWithType: ObjectExtensions.AssignByReflection<QuoteLineExtenderBase.Features>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
-    name: QuoteLineExtenderBase.Features
-    nameWithType: QuoteLineExtenderBase.Features
-    fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of QuoteLineExtenderBase.Features)
-    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteLineExtenderBase.Features)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
-    name: QuoteLineExtenderBase.Features
-    nameWithType: QuoteLineExtenderBase.Features
-    fullName: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<QuoteLineExtenderBase.Features>()
-  nameWithType: ObjectExtensions.GraphCopy<QuoteLineExtenderBase.Features>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteLineExtenderBase.Features)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)()
-  name.vb: GraphCopy(Of QuoteLineExtenderBase.Features)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<QuoteLineExtenderBase.Features>
-    nameWithType: ObjectExtensions.GraphCopy<QuoteLineExtenderBase.Features>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of QuoteLineExtenderBase.Features)
-    nameWithType: ObjectExtensions.GraphCopy(Of QuoteLineExtenderBase.Features)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features)
     isExternal: true
   - name: (
     nameWithType: (
@@ -363,6 +324,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -408,103 +375,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -551,18 +421,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
   commentId: T:SuperOffice.CRM.ArchiveLists.QuoteLineExtenderBase.Features
   parent: SuperOffice.CRM.ArchiveLists

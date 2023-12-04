@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver
+  commentId: T:SuperOffice.CRM.ICustomerServiceUrlResolver
+  id: ICustomerServiceUrlResolver
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
+  langs:
+  - csharp
+  - vb
+  name: ICustomerServiceUrlResolver
+  nameWithType: ICustomerServiceUrlResolver
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nInterface defining methods to be implemented for getting CS URLs and paths.\n"
+  syntax:
+    content: public interface ICustomerServiceUrlResolver
+    content.vb: Public Interface ICustomerServiceUrlResolver
+  extensionMethods:
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ICustomerServiceUrlResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
+  commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
+  id: GetCgiUrlInternal
+  parent: SuperOffice.CRM.ICustomerServiceUrlResolver
+  langs:
+  - csharp
+  - vb
+  name: GetCgiUrlInternal()
+  nameWithType: ICustomerServiceUrlResolver.GetCgiUrlInternal()
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: string GetCgiUrlInternal()
+    return:
+      type: System.String
+      description: Internal URL (hostname only) to CS
+    content.vb: Function GetCgiUrlInternal As String
+  overload: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal*
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
+  commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
+  id: GetCgiUrlExternal
+  parent: SuperOffice.CRM.ICustomerServiceUrlResolver
+  langs:
+  - csharp
+  - vb
+  name: GetCgiUrlExternal()
+  nameWithType: ICustomerServiceUrlResolver.GetCgiUrlExternal()
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: string GetCgiUrlExternal()
+    return:
+      type: System.String
+      description: External URL (hostname only) to CS
+    content.vb: Function GetCgiUrlExternal As String
+  overload: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal*
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
+  commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
+  id: GetCgiUrlDirect
+  parent: SuperOffice.CRM.ICustomerServiceUrlResolver
+  langs:
+  - csharp
+  - vb
+  name: GetCgiUrlDirect()
+  nameWithType: ICustomerServiceUrlResolver.GetCgiUrlDirect()
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: string GetCgiUrlDirect()
+    return:
+      type: System.String
+    content.vb: Function GetCgiUrlDirect As String
+  overload: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect*
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
+  commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
+  id: GetCgiBin
+  parent: SuperOffice.CRM.ICustomerServiceUrlResolver
+  langs:
+  - csharp
+  - vb
+  name: GetCgiBin()
+  nameWithType: ICustomerServiceUrlResolver.GetCgiBin()
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: string GetCgiBin()
+    return:
+      type: System.String
+      description: URL (without hostname) to CS scripts folder
+    content.vb: Function GetCgiBin As String
+  overload: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin*
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
+  commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
+  id: GetRegistryExtension
+  parent: SuperOffice.CRM.ICustomerServiceUrlResolver
+  langs:
+  - csharp
+  - vb
+  name: GetRegistryExtension()
+  nameWithType: ICustomerServiceUrlResolver.GetRegistryExtension()
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: string GetRegistryExtension()
+    return:
+      type: System.String
+      description: Extension used in CS URLs
+    content.vb: Function GetRegistryExtension As String
+  overload: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension*
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
+  commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
+  id: GetWwwFolder
+  parent: SuperOffice.CRM.ICustomerServiceUrlResolver
+  langs:
+  - csharp
+  - vb
+  name: GetWwwFolder()
+  nameWithType: ICustomerServiceUrlResolver.GetWwwFolder()
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: string GetWwwFolder()
+    return:
+      type: System.String
+      description: The www folder used in CS
+    content.vb: Function GetWwwFolder As String
+  overload: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder*
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ICustomerServiceUrlResolver, To>()
+  nameWithType: EnumUtil.MapEnums<ICustomerServiceUrlResolver, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ICustomerServiceUrlResolver, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ICustomerServiceUrlResolver, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ICustomerServiceUrlResolver, To)()
+  name.vb: MapEnums(Of ICustomerServiceUrlResolver, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ICustomerServiceUrlResolver, To>
+    nameWithType: EnumUtil.MapEnums<ICustomerServiceUrlResolver, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ICustomerServiceUrlResolver, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ICustomerServiceUrlResolver, To)
+    nameWithType: EnumUtil.MapEnums(Of ICustomerServiceUrlResolver, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ICustomerServiceUrlResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ICustomerServiceUrlResolver, To>()
+  nameWithType: Converters.MapEnums<ICustomerServiceUrlResolver, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ICustomerServiceUrlResolver, To>()
+  nameWithType.vb: Converters.MapEnums(Of ICustomerServiceUrlResolver, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ICustomerServiceUrlResolver, To)()
+  name.vb: MapEnums(Of ICustomerServiceUrlResolver, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ICustomerServiceUrlResolver, To>
+    nameWithType: Converters.MapEnums<ICustomerServiceUrlResolver, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ICustomerServiceUrlResolver, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ICustomerServiceUrlResolver, To)
+    nameWithType: Converters.MapEnums(Of ICustomerServiceUrlResolver, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ICustomerServiceUrlResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal*
+  commentId: Overload:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
+  isExternal: true
+  name: GetCgiUrlInternal
+  nameWithType: ICustomerServiceUrlResolver.GetCgiUrlInternal
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal*
+  commentId: Overload:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
+  isExternal: true
+  name: GetCgiUrlExternal
+  nameWithType: ICustomerServiceUrlResolver.GetCgiUrlExternal
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect*
+  commentId: Overload:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
+  isExternal: true
+  name: GetCgiUrlDirect
+  nameWithType: ICustomerServiceUrlResolver.GetCgiUrlDirect
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin*
+  commentId: Overload:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
+  isExternal: true
+  name: GetCgiBin
+  nameWithType: ICustomerServiceUrlResolver.GetCgiBin
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension*
+  commentId: Overload:SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
+  isExternal: true
+  name: GetRegistryExtension
+  nameWithType: ICustomerServiceUrlResolver.GetRegistryExtension
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
+- uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder*
+  commentId: Overload:SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
+  isExternal: true
+  name: GetWwwFolder
+  nameWithType: ICustomerServiceUrlResolver.GetWwwFolder
+  fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder

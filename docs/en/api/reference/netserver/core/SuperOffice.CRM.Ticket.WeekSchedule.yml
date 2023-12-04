@@ -1,0 +1,375 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.WeekSchedule
+  commentId: T:SuperOffice.CRM.Ticket.WeekSchedule
+  id: WeekSchedule
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.WeekSchedule.#ctor(SuperOffice.CRM.Rows.TicketPriorityRecordData)
+  - SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan(System.DateTime,System.TimeSpan)
+  - SuperOffice.CRM.Ticket.WeekSchedule.GetDifference(System.DateTime,System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: WeekSchedule
+  nameWithType: WeekSchedule
+  fullName: SuperOffice.CRM.Ticket.WeekSchedule
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: 'public class WeekSchedule : Object'
+    content.vb: >-
+      Public Class WeekSchedule
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.Ticket.WeekSchedule.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Ticket.WeekSchedule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.#ctor(SuperOffice.CRM.Rows.TicketPriorityRecordData)
+  commentId: M:SuperOffice.CRM.Ticket.WeekSchedule.#ctor(SuperOffice.CRM.Rows.TicketPriorityRecordData)
+  id: '#ctor(SuperOffice.CRM.Rows.TicketPriorityRecordData)'
+  parent: SuperOffice.CRM.Ticket.WeekSchedule
+  langs:
+  - csharp
+  - vb
+  name: WeekSchedule(TicketPriorityRecordData)
+  nameWithType: WeekSchedule.WeekSchedule(TicketPriorityRecordData)
+  fullName: SuperOffice.CRM.Ticket.WeekSchedule.WeekSchedule(SuperOffice.CRM.Rows.TicketPriorityRecordData)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nConstructor with optional currentDate resolver parameter\n"
+  syntax:
+    content: public WeekSchedule(TicketPriorityRecordData ticketPriorityRecordData)
+    parameters:
+    - id: ticketPriorityRecordData
+      type: SuperOffice.CRM.Rows.TicketPriorityRecordData
+      description: Ticket priority data
+    content.vb: Public Sub New(ticketPriorityRecordData As TicketPriorityRecordData)
+  overload: SuperOffice.CRM.Ticket.WeekSchedule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan(System.DateTime,System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan(System.DateTime,System.TimeSpan)
+  id: AddTimeSpan(System.DateTime,System.TimeSpan)
+  parent: SuperOffice.CRM.Ticket.WeekSchedule
+  langs:
+  - csharp
+  - vb
+  name: AddTimeSpan(DateTime, TimeSpan)
+  nameWithType: WeekSchedule.AddTimeSpan(DateTime, TimeSpan)
+  fullName: SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan(System.DateTime, System.TimeSpan)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nAdd timespan to given datetime based on weekly schedule\n"
+  syntax:
+    content: public DateTime AddTimeSpan(DateTime from, TimeSpan timespan)
+    parameters:
+    - id: from
+      type: System.DateTime
+      description: DateTime to add timestamp to
+    - id: timespan
+      type: System.TimeSpan
+      description: Timespan to add
+    return:
+      type: System.DateTime
+      description: Calculated DateTime with added timespan
+    content.vb: Public Function AddTimeSpan(from As DateTime, timespan As TimeSpan) As DateTime
+  overload: SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.GetDifference(System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Ticket.WeekSchedule.GetDifference(System.DateTime,System.DateTime)
+  id: GetDifference(System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Ticket.WeekSchedule
+  langs:
+  - csharp
+  - vb
+  name: GetDifference(DateTime, DateTime)
+  nameWithType: WeekSchedule.GetDifference(DateTime, DateTime)
+  fullName: SuperOffice.CRM.Ticket.WeekSchedule.GetDifference(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nGet difference in seconds between two dates based on priority schedule\n"
+  syntax:
+    content: public double GetDifference(DateTime from, DateTime to)
+    parameters:
+    - id: from
+      type: System.DateTime
+      description: From date
+    - id: to
+      type: System.DateTime
+      description: To date
+    return:
+      type: System.Double
+      description: Difference in seconds
+    content.vb: Public Function GetDifference(from As DateTime, to As DateTime) As Double
+  overload: SuperOffice.CRM.Ticket.WeekSchedule.GetDifference*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WeekSchedule, To>()
+  nameWithType: EnumUtil.MapEnums<WeekSchedule, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.WeekSchedule, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WeekSchedule, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.WeekSchedule, To)()
+  name.vb: MapEnums(Of WeekSchedule, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WeekSchedule, To>
+    nameWithType: EnumUtil.MapEnums<WeekSchedule, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.WeekSchedule, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WeekSchedule, To)
+    nameWithType: EnumUtil.MapEnums(Of WeekSchedule, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.WeekSchedule, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WeekSchedule, To>()
+  nameWithType: Converters.MapEnums<WeekSchedule, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.WeekSchedule, To>()
+  nameWithType.vb: Converters.MapEnums(Of WeekSchedule, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.WeekSchedule, To)()
+  name.vb: MapEnums(Of WeekSchedule, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WeekSchedule, To>
+    nameWithType: Converters.MapEnums<WeekSchedule, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.WeekSchedule, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WeekSchedule, To)
+    nameWithType: Converters.MapEnums(Of WeekSchedule, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.WeekSchedule, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.#ctor*
+  commentId: Overload:SuperOffice.CRM.Ticket.WeekSchedule.#ctor
+  isExternal: true
+  name: WeekSchedule
+  nameWithType: WeekSchedule.WeekSchedule
+  fullName: SuperOffice.CRM.Ticket.WeekSchedule.WeekSchedule
+- uid: SuperOffice.CRM.Rows.TicketPriorityRecordData
+  commentId: T:SuperOffice.CRM.Rows.TicketPriorityRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketPriorityRecordData
+  nameWithType: TicketPriorityRecordData
+  fullName: SuperOffice.CRM.Rows.TicketPriorityRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan*
+  commentId: Overload:SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan
+  isExternal: true
+  name: AddTimeSpan
+  nameWithType: WeekSchedule.AddTimeSpan
+  fullName: SuperOffice.CRM.Ticket.WeekSchedule.AddTimeSpan
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.CRM.Ticket.WeekSchedule.GetDifference*
+  commentId: Overload:SuperOffice.CRM.Ticket.WeekSchedule.GetDifference
+  isExternal: true
+  name: GetDifference
+  nameWithType: WeekSchedule.GetDifference
+  fullName: SuperOffice.CRM.Ticket.WeekSchedule.GetDifference
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

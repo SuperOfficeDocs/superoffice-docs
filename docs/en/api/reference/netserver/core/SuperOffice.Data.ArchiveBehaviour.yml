@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ArchiveBehaviour
+  commentId: T:SuperOffice.Data.ArchiveBehaviour
+  id: ArchiveBehaviour
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ArchiveBehaviour.InArchives
+  - SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
+  - SuperOffice.Data.ArchiveBehaviour.None
+  - SuperOffice.Data.ArchiveBehaviour.value__
+  langs:
+  - csharp
+  - vb
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: SuperOffice.Data.ArchiveBehaviour
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nBehaviour in archives\nThis Enum is used by:  TaskMenu.archiveBehaviour\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ArchiveBehaviour : Enum'
+    content.vb: >-
+      Public NotInheritable Class ArchiveBehaviour
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.ArchiveBehaviour.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ArchiveBehaviour.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ArchiveBehaviour.value__
+  commentId: F:SuperOffice.Data.ArchiveBehaviour.value__
+  id: value__
+  parent: SuperOffice.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ArchiveBehaviour.value__
+  fullName: SuperOffice.Data.ArchiveBehaviour.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ArchiveBehaviour.None
+  commentId: F:SuperOffice.Data.ArchiveBehaviour.None
+  id: None
+  parent: SuperOffice.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ArchiveBehaviour.None
+  fullName: SuperOffice.Data.ArchiveBehaviour.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const ArchiveBehaviour None
+    return:
+      type: SuperOffice.Data.ArchiveBehaviour
+    content.vb: Public Const None As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveBehaviour.InArchives
+  commentId: F:SuperOffice.Data.ArchiveBehaviour.InArchives
+  id: InArchives
+  parent: SuperOffice.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InArchives
+  nameWithType: ArchiveBehaviour.InArchives
+  fullName: SuperOffice.Data.ArchiveBehaviour.InArchives
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: RightClick in archives\n"
+  syntax:
+    content: public const ArchiveBehaviour InArchives
+    return:
+      type: SuperOffice.Data.ArchiveBehaviour
+    content.vb: Public Const InArchives As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
+  commentId: F:SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
+  id: MultiSelectInArchives
+  parent: SuperOffice.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: MultiSelectInArchives
+  nameWithType: ArchiveBehaviour.MultiSelectInArchives
+  fullName: SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: RightClick with multiselect in archives\n"
+  syntax:
+    content: public const ArchiveBehaviour MultiSelectInArchives
+    return:
+      type: SuperOffice.Data.ArchiveBehaviour
+    content.vb: Public Const MultiSelectInArchives As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.ArchiveBehaviour.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ArchiveBehaviour, To>()
+  nameWithType: EnumUtil.MapEnums<ArchiveBehaviour, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveBehaviour, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)()
+  name.vb: MapEnums(Of ArchiveBehaviour, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ArchiveBehaviour, To>
+    nameWithType: EnumUtil.MapEnums<ArchiveBehaviour, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ArchiveBehaviour, To)
+    nameWithType: EnumUtil.MapEnums(Of ArchiveBehaviour, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ArchiveBehaviour.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ArchiveBehaviour, To>()
+  nameWithType: Converters.MapEnums<ArchiveBehaviour, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>()
+  nameWithType.vb: Converters.MapEnums(Of ArchiveBehaviour, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)()
+  name.vb: MapEnums(Of ArchiveBehaviour, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ArchiveBehaviour, To>
+    nameWithType: Converters.MapEnums<ArchiveBehaviour, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ArchiveBehaviour, To)
+    nameWithType: Converters.MapEnums(Of ArchiveBehaviour, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.ArchiveBehaviour
+  commentId: T:SuperOffice.Data.ArchiveBehaviour
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: SuperOffice.Data.ArchiveBehaviour

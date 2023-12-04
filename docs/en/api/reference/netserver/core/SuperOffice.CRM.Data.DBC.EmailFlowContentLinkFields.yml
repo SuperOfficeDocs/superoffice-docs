@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  id: DBC.EmailFlowContentLinkFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowId
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Registered
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SMessageId
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Updated
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.EmailFlowContentLinkFields
+  nameWithType: DBC.EmailFlowContentLinkFields
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for EmailFlowContentLink, Link message content to an email workflow\n"
+  syntax:
+    content: 'public static class EmailFlowContentLinkFields : Object'
+    content.vb: >-
+      Public Module EmailFlowContentLinkFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
+  id: EmailFlowContentLinkId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowContentLinkId
+  nameWithType: DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.EmailFlowContentLinkId: Primary key\n"
+  syntax:
+    content: public const string EmailFlowContentLinkId = "email_flow_content_link_id"
+    return:
+      type: System.String
+    content.vb: Public Const EmailFlowContentLinkId As String = "email_flow_content_link_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SMessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SMessageId
+  id: SMessageId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: SMessageId
+  nameWithType: DBC.EmailFlowContentLinkFields.SMessageId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SMessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.SMessageId: The workflow step option to connect to\n"
+  syntax:
+    content: public const string SMessageId = "s_message_id"
+    return:
+      type: System.String
+    content.vb: Public Const SMessageId As String = "s_message_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowId
+  id: EmailFlowId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: EmailFlowId
+  nameWithType: DBC.EmailFlowContentLinkFields.EmailFlowId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.EmailFlowId: A workflow step connected to the option\n"
+  syntax:
+    content: public const string EmailFlowId = "email_flow_id"
+    return:
+      type: System.String
+    content.vb: Public Const EmailFlowId As String = "email_flow_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.EmailFlowContentLinkFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.EmailFlowContentLinkFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.EmailFlowContentLinkFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.EmailFlowContentLinkFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.EmailFlowContentLinkFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmailFlowContentLink.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

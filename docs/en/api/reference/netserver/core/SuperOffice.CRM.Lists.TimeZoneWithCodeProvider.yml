@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Lists
   children:
   - SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.#ctor
-  - SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems
+  - SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems(System.Boolean)
   - SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.PopulateFromReader(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},SuperOffice.Data.SoDataReader,System.Boolean,System.Boolean,System.Boolean)
   langs:
   - csharp
@@ -31,7 +31,9 @@ items:
       <MDOProviderPlugin("TimeZoneWithCode")>
 
       Public Class TimeZoneWithCodeProvider
+
           Inherits TimeZoneProvider
+
           Implements ISoListProvider, ISoList, IPlugin
   inheritance:
   - System.Object
@@ -41,21 +43,25 @@ items:
   - SuperOffice.CRM.Lists.ISoList
   inheritedMembers:
   - SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
+  - SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+  - SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+  - SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+  - SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
   - SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+  - SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  - SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
   - SuperOffice.CRM.Lists.TimeZoneProvider.GenerateName(System.String,System.Double)
   - SuperOffice.CRM.Lists.TimeZoneProvider.GenerateOffsetString(System.Double,System.String)
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoListProvider#HistoryInfo
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HistoryItems
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#RootItems
   - SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice#CRM#Lists#ISoList#HeadingItems
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.TimeZoneWithCodeProvider)
@@ -115,16 +121,16 @@ items:
   - Overrides
   fullName.vb: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.PopulateFromReader(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), SuperOffice.Data.SoDataReader, System.Boolean, System.Boolean, System.Boolean)
   name.vb: PopulateFromReader(List(Of ISoListItem), SoDataReader, Boolean, Boolean, Boolean)
-- uid: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems
-  commentId: M:SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems
-  id: AddItems
+- uid: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems(System.Boolean)
+  id: AddItems(System.Boolean)
   parent: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider
   langs:
   - csharp
   - vb
-  name: AddItems()
-  nameWithType: TimeZoneWithCodeProvider.AddItems()
-  fullName: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems()
+  name: AddItems(Boolean)
+  nameWithType: TimeZoneWithCodeProvider.AddItems(Boolean)
+  fullName: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -133,9 +139,12 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: protected override void AddItems()
-    content.vb: Protected Overrides Sub AddItems
-  overridden: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
+    content: protected override void AddItems(bool onlyReadHistory)
+    parameters:
+    - id: onlyReadHistory
+      type: System.Boolean
+    content.vb: Protected Overrides Sub AddItems(onlyReadHistory As Boolean)
+  overridden: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
   overload: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.AddItems*
   modifiers.csharp:
   - protected
@@ -210,6 +219,55 @@ references:
   name: ProviderName
   nameWithType: TimeZoneProvider.ProviderName
   fullName: SuperOffice.CRM.Lists.TimeZoneProvider.ProviderName
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _TZLocationTableInfo
+  nameWithType: TimeZoneProvider._TZLocationTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._TZLocationTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _countryTableInfo
+  nameWithType: TimeZoneProvider._countryTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._countryTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _TZStdRuleTableInfo
+  nameWithType: TimeZoneProvider._TZStdRuleTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._TZStdRuleTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _TZDstRuleTableInfo
+  nameWithType: TimeZoneProvider._TZDstRuleTableInfo
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._TZDstRuleTableInfo
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _homeItem
+  nameWithType: TimeZoneProvider._homeItem
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._homeItem
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _searchValue
+  nameWithType: TimeZoneProvider._searchValue
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._searchValue
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
+  commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: _forceFlatList
+  nameWithType: TimeZoneProvider._forceFlatList
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider._forceFlatList
 - uid: SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   commentId: F:SuperOffice.CRM.Lists.TimeZoneProvider._additionalInfo
   parent: SuperOffice.CRM.Lists.TimeZoneProvider
@@ -343,6 +401,208 @@ references:
     name: Boolean
     nameWithType: Boolean
     fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: OnBaseTimeItemCreated(SoListItem)
+  nameWithType: TimeZoneProvider.OnBaseTimeItemCreated(SoListItem)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+    name: OnBaseTimeItemCreated
+    nameWithType: TimeZoneProvider.OnBaseTimeItemCreated
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated(SuperOffice.CRM.Lists.SoListItem)
+    name: OnBaseTimeItemCreated
+    nameWithType: TimeZoneProvider.OnBaseTimeItemCreated
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.OnBaseTimeItemCreated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: BaseQuery()
+  nameWithType: TimeZoneProvider.BaseQuery()
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    name: BaseQuery
+    nameWithType: TimeZoneProvider.BaseQuery
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    name: BaseQuery
+    nameWithType: TimeZoneProvider.BaseQuery
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.BaseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: IsSameCountry(SoListItem, SoListItem)
+  nameWithType: TimeZoneProvider.IsSameCountry(SoListItem, SoListItem)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem, SuperOffice.CRM.Lists.SoListItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+    name: IsSameCountry
+    nameWithType: TimeZoneProvider.IsSameCountry
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry(SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListItem)
+    name: IsSameCountry
+    nameWithType: TimeZoneProvider.IsSameCountry
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.IsSameCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+  parent: SuperOffice.CRM.Lists.TimeZoneProvider
+  isExternal: true
+  name: GetCountryHeader(String, SoListItem, SoListHeading)
+  nameWithType: TimeZoneProvider.GetCountryHeader(String, SoListItem, SoListHeading)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String, SuperOffice.CRM.Lists.SoListItem, SuperOffice.CRM.Lists.SoListHeading)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+    name: GetCountryHeader
+    nameWithType: TimeZoneProvider.GetCountryHeader
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListHeading
+    name: SoListHeading
+    nameWithType: SoListHeading
+    fullName: SuperOffice.CRM.Lists.SoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader(System.String,SuperOffice.CRM.Lists.SoListItem,SuperOffice.CRM.Lists.SoListHeading@)
+    name: GetCountryHeader
+    nameWithType: TimeZoneProvider.GetCountryHeader
+    fullName: SuperOffice.CRM.Lists.TimeZoneProvider.GetCountryHeader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.SoListHeading
+    name: SoListHeading
+    nameWithType: SoListHeading
+    fullName: SuperOffice.CRM.Lists.SoListHeading
     isExternal: true
   - name: )
     nameWithType: )
@@ -497,285 +757,6 @@ references:
   fullName: SuperOffice.CRM.Lists.TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.HeadingItems
   nameWithType.vb: TimeZoneProvider.SuperOffice.CRM.Lists.ISoList.HeadingItems
   name.vb: SuperOffice.CRM.Lists.ISoList.HeadingItems
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1265,8 +1246,7 @@ references:
   nameWithType: TimeZoneWithCodeProvider.PopulateFromReader
   fullName: SuperOffice.CRM.Lists.TimeZoneWithCodeProvider.PopulateFromReader
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.Collections.Generic.List`1
   name: List<ISoListItem>
   nameWithType: List<ISoListItem>
@@ -1323,14 +1303,13 @@ references:
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1340,9 +1319,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1355,33 +1334,27 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-- uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
-  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
+- uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
   parent: SuperOffice.CRM.Lists.TimeZoneProvider
   isExternal: true
-  name: AddItems()
-  nameWithType: TimeZoneProvider.AddItems()
-  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems()
+  name: AddItems(Boolean)
+  nameWithType: TimeZoneProvider.AddItems(Boolean)
+  fullName: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
     name: AddItems
     nameWithType: TimeZoneProvider.AddItems
     fullName: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
@@ -1389,11 +1362,16 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
+  - uid: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems(System.Boolean)
     name: AddItems
     nameWithType: TimeZoneProvider.AddItems
     fullName: SuperOffice.CRM.Lists.TimeZoneProvider.AddItems
@@ -1401,6 +1379,11 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

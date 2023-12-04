@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  id: DBC.TargetDimensionFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.AssignmentLevel
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.DimensionListField
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.EntityType
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.MeasurementUnit
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.Registered
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.SelectedDimensions
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.TargetDimensionId
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.Updated
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TargetDimensionFields
+  nameWithType: DBC.TargetDimensionFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TargetDimension, Defining target dimension\n"
+  syntax:
+    content: 'public static class TargetDimensionFields : Object'
+    content.vb: >-
+      Public Module TargetDimensionFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.TargetDimensionId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.TargetDimensionId
+  id: TargetDimensionId
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: TargetDimensionId
+  nameWithType: DBC.TargetDimensionFields.TargetDimensionId
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.TargetDimensionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.TargetDimensionId: Primary key\n"
+  syntax:
+    content: public const string TargetDimensionId = "target_dimension_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetDimensionId As String = "target_dimension_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.EntityType
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: DBC.TargetDimensionFields.EntityType
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.EntityType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.EntityType: Entity type for this set of targets (Sale, Project, Selection, Appointment...)\n"
+  syntax:
+    content: public const string EntityType = "entity_type"
+    return:
+      type: System.String
+    content.vb: Public Const EntityType As String = "entity_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.MeasurementUnit
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.MeasurementUnit
+  id: MeasurementUnit
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: MeasurementUnit
+  nameWithType: DBC.TargetDimensionFields.MeasurementUnit
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.MeasurementUnit
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.MeasurementUnit: What to measure (Amount, Count, Profit...\n"
+  syntax:
+    content: public const string MeasurementUnit = "measurement_unit"
+    return:
+      type: System.String
+    content.vb: Public Const MeasurementUnit As String = "measurement_unit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.AssignmentLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.AssignmentLevel
+  id: AssignmentLevel
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: AssignmentLevel
+  nameWithType: DBC.TargetDimensionFields.AssignmentLevel
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.AssignmentLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.AssignmentLevel: What level this dimension can be assigned to (Company, Group, Associate)\n"
+  syntax:
+    content: public const string AssignmentLevel = "assignment_level"
+    return:
+      type: System.String
+    content.vb: Public Const AssignmentLevel As String = "assignment_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.DimensionListField
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.DimensionListField
+  id: DimensionListField
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: DimensionListField
+  nameWithType: DBC.TargetDimensionFields.DimensionListField
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.DimensionListField
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.DimensionListField: List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...)\n"
+  syntax:
+    content: public const string DimensionListField = "dimension_list_field"
+    return:
+      type: System.String
+    content.vb: Public Const DimensionListField As String = "dimension_list_field"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.SelectedDimensions
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.SelectedDimensions
+  id: SelectedDimensions
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: SelectedDimensions
+  nameWithType: DBC.TargetDimensionFields.SelectedDimensions
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.SelectedDimensions
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.SelectedDimensions: id&apos;s of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions)\n"
+  syntax:
+    content: public const string SelectedDimensions = "selected_dimensions"
+    return:
+      type: System.String
+    content.vb: Public Const SelectedDimensions As String = "selected_dimensions"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TargetDimensionFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TargetDimensionFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TargetDimensionFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TargetDimensionFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TargetDimensionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TargetDimensionFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TargetDimensionFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetDimension.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

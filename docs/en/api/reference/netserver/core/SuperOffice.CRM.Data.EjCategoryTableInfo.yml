@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Data.EjCategoryTableInfo.CategoryMaster
   - SuperOffice.CRM.Data.EjCategoryTableInfo.CategoryMaster_InnerJoin_Ejuser
   - SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
+  - SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
   - SuperOffice.CRM.Data.EjCategoryTableInfo.Definition
   - SuperOffice.CRM.Data.EjCategoryTableInfo.DelegateCounter
   - SuperOffice.CRM.Data.EjCategoryTableInfo.DelegateMethod
@@ -35,6 +36,7 @@ items:
   - SuperOffice.CRM.Data.EjCategoryTableInfo.LeftOuterJoin_Ticket_OrigHumanCategoryId
   - SuperOffice.CRM.Data.EjCategoryTableInfo.LeftOuterJoin_Ticket_SuggestedCategoryId
   - SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
+  - SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
   - SuperOffice.CRM.Data.EjCategoryTableInfo.Name
   - SuperOffice.CRM.Data.EjCategoryTableInfo.NotificationEmail
   - SuperOffice.CRM.Data.EjCategoryTableInfo.ParentId
@@ -66,7 +68,9 @@ items:
       <DatabaseTable("ej_category")>
 
       Public Class EjCategoryTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -88,12 +92,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.EjCategoryTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.EjCategoryTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -188,26 +186,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.EjCategoryTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -298,7 +282,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;parent_id&apos; in table &apos;ej_category&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe parent category for this category. -1 if this is a toplevel category.\n"
+  summary: "\nField &apos;parent_id&apos; in table &apos;ej_category&apos;: Dictionary type FK, target: EjCategory, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe parent category for this category. -1 if this is a toplevel category.\n"
   syntax:
     content: public Int32FieldInfo ParentId { get; }
     parameters: []
@@ -360,7 +344,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;category_master&apos; in table &apos;ej_category&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe user associated with this category.\n"
+  summary: "\nField &apos;category_master&apos; in table &apos;ej_category&apos;: Dictionary type FK, target: Ejuser, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe user associated with this category.\n"
   syntax:
     content: public Int32FieldInfo CategoryMaster { get; }
     parameters: []
@@ -529,68 +513,6 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
-  commentId: P:SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
-  id: ClosingStatus
-  parent: SuperOffice.CRM.Data.EjCategoryTableInfo
-  langs:
-  - csharp
-  - vb
-  name: ClosingStatus
-  nameWithType: EjCategoryTableInfo.ClosingStatus
-  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;closing_status&apos; in table &apos;ej_category&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketCategoryClosingStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAn integer indicating if new requests should have the &apos;close request&apos; in this category checked as default, or if the users preferences should be selected.\n"
-  syntax:
-    content: public TicketCategoryClosingStatusFieldInfo ClosingStatus { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
-    content.vb: Public ReadOnly Property ClosingStatus As TicketCategoryClosingStatusFieldInfo
-  overload: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
-  commentId: P:SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
-  id: MsgClosingStatus
-  parent: SuperOffice.CRM.Data.EjCategoryTableInfo
-  langs:
-  - csharp
-  - vb
-  name: MsgClosingStatus
-  nameWithType: EjCategoryTableInfo.MsgClosingStatus
-  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;msg_closing_status&apos; in table &apos;ej_category&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TicketCategoryClosingStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAn integer indicating if new messages should have the &apos;close request&apos; in this category checked as default, or if the users preferences should be selected.\n"
-  syntax:
-    content: public TicketCategoryClosingStatusFieldInfo MsgClosingStatus { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
-    content.vb: Public ReadOnly Property MsgClosingStatus As TicketCategoryClosingStatusFieldInfo
-  overload: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: SuperOffice.CRM.Data.EjCategoryTableInfo.AssignmentLag
   commentId: P:SuperOffice.CRM.Data.EjCategoryTableInfo.AssignmentLag
   id: AssignmentLag
@@ -639,7 +561,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;reply_template&apos; in table &apos;ej_category&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReply template to merge with messages posted in this category\n"
+  summary: "\nField &apos;reply_template&apos; in table &apos;ej_category&apos;: Dictionary type FK, target: ReplyTemplate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReply template to merge with messages posted in this category\n"
   syntax:
     content: public Int32FieldInfo ReplyTemplate { get; }
     parameters: []
@@ -678,6 +600,68 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property NotificationEmail As StringFieldInfo
   overload: SuperOffice.CRM.Data.EjCategoryTableInfo.NotificationEmail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
+  commentId: P:SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
+  id: ClosingStatus
+  parent: SuperOffice.CRM.Data.EjCategoryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ClosingStatus
+  nameWithType: EjCategoryTableInfo.ClosingStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;closing_status&apos; in table &apos;ej_category&apos;: Dictionary type FK, target: TicketStatus, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault status for new tickets, if 0 then there is a fallback to a user-dependent value\n"
+  syntax:
+    content: public Int32FieldInfo ClosingStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ClosingStatus As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
+  commentId: P:SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
+  id: MsgClosingStatus
+  parent: SuperOffice.CRM.Data.EjCategoryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MsgClosingStatus
+  nameWithType: EjCategoryTableInfo.MsgClosingStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;msg_closing_status&apos; in table &apos;ej_category&apos;: Dictionary type FK, target: TicketStatus, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault status for new messages, if 0 then there is a fallback to a user-dependent value\n"
+  syntax:
+    content: public Int32FieldInfo MsgClosingStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MsgClosingStatus As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus*
   modifiers.csharp:
   - public
   - get
@@ -771,6 +755,68 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ReplyTemplateTableInfo}
     content.vb: Public ReadOnly Property ReplyTemplate_InnerJoin_ReplyTemplate As TargetedInnerJoin(Of ReplyTemplateTableInfo)
   overload: SuperOffice.CRM.Data.EjCategoryTableInfo.ReplyTemplate_InnerJoin_ReplyTemplate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
+  commentId: P:SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
+  id: ClosingStatus_InnerJoin_TicketStatus
+  parent: SuperOffice.CRM.Data.EjCategoryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ClosingStatus_InnerJoin_TicketStatus
+  nameWithType: EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ClosingStatus in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TicketStatusTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<TicketStatusTableInfo> ClosingStatus_InnerJoin_TicketStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketStatusTableInfo}
+    content.vb: Public ReadOnly Property ClosingStatus_InnerJoin_TicketStatus As TargetedInnerJoin(Of TicketStatusTableInfo)
+  overload: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
+  commentId: P:SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
+  id: MsgClosingStatus_InnerJoin_TicketStatus
+  parent: SuperOffice.CRM.Data.EjCategoryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MsgClosingStatus_InnerJoin_TicketStatus
+  nameWithType: EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key MsgClosingStatus in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TicketStatusTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<TicketStatusTableInfo> MsgClosingStatus_InnerJoin_TicketStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketStatusTableInfo}
+    content.vb: Public ReadOnly Property MsgClosingStatus_InnerJoin_TicketStatus As TargetedInnerJoin(Of TicketStatusTableInfo)
+  overload: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus*
   modifiers.csharp:
   - public
   - get
@@ -1295,8 +1341,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -1629,254 +1673,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.EjCategoryTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2188,25 +1984,6 @@ references:
   name: ExternalName
   nameWithType: EjCategoryTableInfo.ExternalName
   fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.ExternalName
-- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus*
-  commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
-  isExternal: true
-  name: ClosingStatus
-  nameWithType: EjCategoryTableInfo.ClosingStatus
-  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
-- uid: SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
-  commentId: T:SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  name: TicketCategoryClosingStatusFieldInfo
-  nameWithType: TicketCategoryClosingStatusFieldInfo
-  fullName: SuperOffice.Data.SQL.TicketCategoryClosingStatusFieldInfo
-- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus*
-  commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
-  isExternal: true
-  name: MsgClosingStatus
-  nameWithType: EjCategoryTableInfo.MsgClosingStatus
-  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
 - uid: SuperOffice.CRM.Data.EjCategoryTableInfo.AssignmentLag*
   commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.AssignmentLag
   isExternal: true
@@ -2225,6 +2002,18 @@ references:
   name: NotificationEmail
   nameWithType: EjCategoryTableInfo.NotificationEmail
   fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.NotificationEmail
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus*
+  commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
+  isExternal: true
+  name: ClosingStatus
+  nameWithType: EjCategoryTableInfo.ClosingStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus*
+  commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
+  isExternal: true
+  name: MsgClosingStatus
+  nameWithType: EjCategoryTableInfo.MsgClosingStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus
 - uid: SuperOffice.CRM.Data.EjCategoryTableInfo.ParentId_InnerJoin_EjCategory*
   commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.ParentId_InnerJoin_EjCategory
   isExternal: true
@@ -2414,6 +2203,62 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus*
+  commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
+  isExternal: true
+  name: ClosingStatus_InnerJoin_TicketStatus
+  nameWithType: EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.ClosingStatus_InnerJoin_TicketStatus
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketStatusTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketStatusTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<TicketStatusTableInfo>
+  nameWithType: TargetedInnerJoin<TicketStatusTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TicketStatusTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TicketStatusTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.TicketStatusTableInfo)
+  name.vb: TargetedInnerJoin(Of TicketStatusTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.TicketStatusTableInfo
+    name: TicketStatusTableInfo
+    nameWithType: TicketStatusTableInfo
+    fullName: SuperOffice.CRM.Data.TicketStatusTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.TicketStatusTableInfo
+    name: TicketStatusTableInfo
+    nameWithType: TicketStatusTableInfo
+    fullName: SuperOffice.CRM.Data.TicketStatusTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus*
+  commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
+  isExternal: true
+  name: MsgClosingStatus_InnerJoin_TicketStatus
+  nameWithType: EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
+  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo.MsgClosingStatus_InnerJoin_TicketStatus
 - uid: SuperOffice.CRM.Data.EjCategoryTableInfo.LeftOuterJoin_Ticket_Category*
   commentId: Overload:SuperOffice.CRM.Data.EjCategoryTableInfo.LeftOuterJoin_Ticket_Category
   isExternal: true

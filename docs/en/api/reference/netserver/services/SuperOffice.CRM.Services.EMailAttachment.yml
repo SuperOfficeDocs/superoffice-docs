@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Services.EMailAttachment.Encoding
   - SuperOffice.CRM.Services.EMailAttachment.Filename
   - SuperOffice.CRM.Services.EMailAttachment.Id
+  - SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension
   - SuperOffice.CRM.Services.EMailAttachment.Size
   - SuperOffice.CRM.Services.EMailAttachment.Stream
   - SuperOffice.CRM.Services.EMailAttachment.ToString
@@ -370,6 +371,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension
+  id: IsSafeFileExtension
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: IsSafeFileExtension
+  nameWithType: EMailAttachment.IsSafeFileExtension
+  fullName: SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf the user should be allowed to download and perform other actions on the attachment. \n"
+  syntax:
+    content: public virtual bool IsSafeFileExtension { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSafeFileExtension As Boolean
+  overload: SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAttachment.Stream
   commentId: P:SuperOffice.CRM.Services.EMailAttachment.Stream
   id: Stream
@@ -410,13 +444,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.EMailAgent
   commentId: T:SuperOffice.CRM.Services.EMailAgent
   isExternal: true
@@ -430,12 +457,6 @@ references:
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.CRM.Services.IEMailAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAttachment.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.#ctor
   isExternal: true
@@ -455,6 +476,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAttachment.Description*
   commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Description
   isExternal: true
@@ -504,6 +531,19 @@ references:
   name: Disposition
   nameWithType: EMailAttachment.Disposition
   fullName: SuperOffice.CRM.Services.EMailAttachment.Disposition
+- uid: SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension
+  isExternal: true
+  name: IsSafeFileExtension
+  nameWithType: EMailAttachment.IsSafeFileExtension
+  fullName: SuperOffice.CRM.Services.EMailAttachment.IsSafeFileExtension
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.EMailAttachment.Stream*
   commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Stream
   isExternal: true

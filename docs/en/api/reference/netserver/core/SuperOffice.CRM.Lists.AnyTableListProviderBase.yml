@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.#ctor
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
@@ -44,9 +45,12 @@ items:
   namespace: SuperOffice.CRM.Lists
   summary: "\nBase class for flat &quot;MDO Lists&quot; for any tables, that does not support filtering through group and heading link, etc...\n"
   syntax:
-    content: 'public abstract class AnyTableListProviderBase : ISoListProvider, ISoList, IPlugin'
+    content: 'public abstract class AnyTableListProviderBase : Object, ISoListProvider, ISoList, IPlugin'
     content.vb: >-
       Public MustInherit Class AnyTableListProviderBase
+
+          Inherits Object
+
           Implements ISoListProvider, ISoList, IPlugin
   inheritance:
   - System.Object
@@ -55,6 +59,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaintTicketCategoryProvider
   - SuperOffice.CRM.Lists.AddressFormatListProvider
   - SuperOffice.CRM.Lists.AppointmentListProvider
+  - SuperOffice.CRM.Lists.AppointmentResource
   - SuperOffice.CRM.Lists.AttachmentListProvider
   - SuperOffice.CRM.Lists.AvailableReportsProvider
   - SuperOffice.CRM.Lists.ConsentPurposeProvider
@@ -64,17 +69,20 @@ items:
   - SuperOffice.CRM.Lists.DocumentListProvider
   - SuperOffice.CRM.Lists.EjCategoryProvider
   - SuperOffice.CRM.Lists.EmailAddressProvider
+  - SuperOffice.CRM.Lists.EmailFlowListProvider
   - SuperOffice.CRM.Lists.EmailFolderProvider
+  - SuperOffice.CRM.Lists.EmailPhoneProvider
   - SuperOffice.CRM.Lists.FormFolderProvider
   - SuperOffice.CRM.Lists.FunctionRightsListProvider
   - SuperOffice.CRM.Lists.KbEntryListProvider
   - SuperOffice.CRM.Lists.LegalBaseListProvider
+  - SuperOffice.CRM.Lists.MailingDomainsProvider
+  - SuperOffice.CRM.Lists.MailingSubscriptionTypeProvider
   - SuperOffice.CRM.Lists.OwnerContactProvider
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider
   - SuperOffice.CRM.Lists.PersonPhoneProvider
   - SuperOffice.CRM.Lists.PersonUrlProvider
   - SuperOffice.CRM.Lists.PhoneSearchProvider
-  - SuperOffice.CRM.Lists.PrefDescLineProvider
   - SuperOffice.CRM.Lists.PriceListProvider
   - SuperOffice.CRM.Lists.QuoteDocuments
   - SuperOffice.CRM.Lists.RolesListProvider
@@ -83,27 +91,24 @@ items:
   - SuperOffice.CRM.Lists.SaleListProviderOrg
   - SuperOffice.CRM.Lists.SaleTypeCategoryListProvider
   - SuperOffice.CRM.Lists.SatellitesProvider
+  - SuperOffice.CRM.Lists.ShipmentLinksListProvider
   - SuperOffice.CRM.Lists.ShipmentTypeProvider
+  - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
   - SuperOffice.CRM.Lists.StatusDefProvider
   - SuperOffice.CRM.Lists.SuggestedAppointmentProvider
   - SuperOffice.CRM.Lists.SuggestedDocumentProvider
+  - SuperOffice.CRM.Lists.TaskMenuGroupProvider
+  - SuperOffice.CRM.Lists.TicketAlertProvider
   - SuperOffice.CRM.Lists.TicketListProvider
   - SuperOffice.CRM.Lists.TicketPriorityListProvider
   - SuperOffice.CRM.Lists.TicketTicketStatusProvider
+  - SuperOffice.CRM.Lists.TicketTypeProvider
   - SuperOffice.CRM.Lists.UserGroupProvider
   - SuperOffice.CRM.Lists.UserPlanProvider
   - SuperOffice.CRM.Lists.WebPanelGroupProvider
   implements:
   - SuperOffice.CRM.Lists.ISoListProvider
   - SuperOffice.CRM.Lists.ISoList
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -696,6 +701,37 @@ items:
   - set
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  id: ExcludeHistory
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ExcludeHistory
+  nameWithType: AnyTableListProviderBase.ExcludeHistory
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nif true, history will be excluded.\n"
+  syntax:
+    content: protected bool ExcludeHistory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Property ExcludeHistory As Boolean
+  overload: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   id: SearchValue
@@ -909,7 +945,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: "\nThe amin table info of the query.  This is used by subclasses (e.g. this class) when restricting history data.\n"
+  summary: "\nThe main table info of the query.  This is used by subclasses (e.g. this class) when restricting history data.\n"
   syntax:
     content: protected abstract TableInfo TableInfo { get; }
     parameters: []
@@ -953,285 +989,6 @@ references:
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1592,8 +1349,7 @@ references:
   nameWithType: AnyTableListProviderBase.GetHistoryItems
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.Collections.Generic.List`1
   name: List<ISoListItem>
   nameWithType: List<ISoListItem>
@@ -1636,14 +1392,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1653,9 +1408,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1668,18 +1423,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems*
   commentId: Overload:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
   isExternal: true
@@ -1811,6 +1560,12 @@ references:
   name: OnlyReadHistory
   nameWithType: AnyTableListProviderBase.OnlyReadHistory
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory*
+  commentId: Overload:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
+  isExternal: true
+  name: ExcludeHistory
+  nameWithType: AnyTableListProviderBase.ExcludeHistory
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue*
   commentId: Overload:SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   isExternal: true
@@ -1883,8 +1638,7 @@ references:
   nameWithType: ISoList.HeadingItems
   fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}'
   definition: System.Collections.Generic.List`1
   name: List<ISoListHeading>
   nameWithType: List<ISoListHeading>

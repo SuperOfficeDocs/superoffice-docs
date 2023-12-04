@@ -1,0 +1,833 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  commentId: T:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  id: AttachmentFilesystemPlugin
+  parent: SuperOffice.CRM.Attachment
+  children:
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.#ctor
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData(System.IO.Stream)
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AttachmentFilesystemPlugin
+  nameWithType: AttachmentFilesystemPlugin
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: >-
+      [AttachmentPlugin("FileAttachment")]
+
+      public class AttachmentFilesystemPlugin : Object, IAttachmentPlugin, IPlugin
+    content.vb: >-
+      <AttachmentPlugin("FileAttachment")>
+
+      Public Class AttachmentFilesystemPlugin
+
+          Inherits Object
+
+          Implements IAttachmentPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin
+  extensionMethods:
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+    ctor: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: FileAttachment
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId(System.Int32)
+  commentId: M:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId(System.Int32)
+  id: SetAttachmentId(System.Int32)
+  parent: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  langs:
+  - csharp
+  - vb
+  name: SetAttachmentId(Int32)
+  nameWithType: AttachmentFilesystemPlugin.SetAttachmentId(Int32)
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: public void SetAttachmentId(int attachmentId)
+    parameters:
+    - id: attachmentId
+      type: System.Int32
+    content.vb: Public Sub SetAttachmentId(attachmentId As Integer)
+  overload: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId*
+  implements:
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists
+  commentId: M:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists
+  id: AttachmentExists
+  parent: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  langs:
+  - csharp
+  - vb
+  name: AttachmentExists()
+  nameWithType: AttachmentFilesystemPlugin.AttachmentExists()
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: public bool AttachmentExists()
+    return:
+      type: System.Boolean
+    content.vb: Public Function AttachmentExists As Boolean
+  overload: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists*
+  implements:
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData
+  commentId: M:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData
+  id: GetData
+  parent: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  langs:
+  - csharp
+  - vb
+  name: GetData()
+  nameWithType: AttachmentFilesystemPlugin.GetData()
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: public Stream GetData()
+    return:
+      type: System.IO.Stream
+    content.vb: Public Function GetData As Stream
+  overload: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData*
+  implements:
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData(System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData(System.IO.Stream)
+  id: SaveData(System.IO.Stream)
+  parent: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  langs:
+  - csharp
+  - vb
+  name: SaveData(Stream)
+  nameWithType: AttachmentFilesystemPlugin.SaveData(Stream)
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData(System.IO.Stream)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: public void SaveData(Stream data)
+    parameters:
+    - id: data
+      type: System.IO.Stream
+    content.vb: Public Sub SaveData(data As Stream)
+  overload: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData*
+  implements:
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete
+  commentId: M:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete
+  id: Delete
+  parent: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: AttachmentFilesystemPlugin.Delete()
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: public void Delete()
+    content.vb: Public Sub Delete
+  overload: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete*
+  implements:
+  - SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.#ctor
+  commentId: M:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+  langs:
+  - csharp
+  - vb
+  name: AttachmentFilesystemPlugin()
+  nameWithType: AttachmentFilesystemPlugin.AttachmentFilesystemPlugin()
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentFilesystemPlugin()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: public AttachmentFilesystemPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Attachment
+  commentId: N:SuperOffice.CRM.Attachment
+  isExternal: true
+  name: SuperOffice.CRM.Attachment
+  nameWithType: SuperOffice.CRM.Attachment
+  fullName: SuperOffice.CRM.Attachment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  commentId: T:SuperOffice.CRM.Attachment.IAttachmentPlugin
+  parent: SuperOffice.CRM.Attachment
+  isExternal: true
+  name: IAttachmentPlugin
+  nameWithType: IAttachmentPlugin
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AttachmentFilesystemPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<AttachmentFilesystemPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AttachmentFilesystemPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To)()
+  name.vb: MapEnums(Of AttachmentFilesystemPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AttachmentFilesystemPlugin, To>
+    nameWithType: EnumUtil.MapEnums<AttachmentFilesystemPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AttachmentFilesystemPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of AttachmentFilesystemPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AttachmentFilesystemPlugin>(AttachmentFilesystemPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<AttachmentFilesystemPlugin>(AttachmentFilesystemPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin>(SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AttachmentFilesystemPlugin)(AttachmentFilesystemPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)(SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)
+  name.vb: AssignByReflection(Of AttachmentFilesystemPlugin)(AttachmentFilesystemPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AttachmentFilesystemPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<AttachmentFilesystemPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+    name: AttachmentFilesystemPlugin
+    nameWithType: AttachmentFilesystemPlugin
+    fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AttachmentFilesystemPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AttachmentFilesystemPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+    name: AttachmentFilesystemPlugin
+    nameWithType: AttachmentFilesystemPlugin
+    fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AttachmentFilesystemPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<AttachmentFilesystemPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AttachmentFilesystemPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)()
+  name.vb: GraphCopy(Of AttachmentFilesystemPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AttachmentFilesystemPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<AttachmentFilesystemPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AttachmentFilesystemPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of AttachmentFilesystemPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AttachmentFilesystemPlugin, To>()
+  nameWithType: Converters.MapEnums<AttachmentFilesystemPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of AttachmentFilesystemPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To)()
+  name.vb: MapEnums(Of AttachmentFilesystemPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AttachmentFilesystemPlugin, To>
+    nameWithType: Converters.MapEnums<AttachmentFilesystemPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AttachmentFilesystemPlugin, To)
+    nameWithType: Converters.MapEnums(Of AttachmentFilesystemPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId*
+  commentId: Overload:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId
+  isExternal: true
+  name: SetAttachmentId
+  nameWithType: AttachmentFilesystemPlugin.SetAttachmentId
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SetAttachmentId
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  isExternal: true
+  name: SetAttachmentId(Int32)
+  nameWithType: IAttachmentPlugin.SetAttachmentId(Int32)
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+    name: SetAttachmentId
+    nameWithType: IAttachmentPlugin.SetAttachmentId
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId(System.Int32)
+    name: SetAttachmentId
+    nameWithType: IAttachmentPlugin.SetAttachmentId
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SetAttachmentId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists*
+  commentId: Overload:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists
+  isExternal: true
+  name: AttachmentExists
+  nameWithType: AttachmentFilesystemPlugin.AttachmentExists
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentExists
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  isExternal: true
+  name: AttachmentExists()
+  nameWithType: IAttachmentPlugin.AttachmentExists()
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+    name: AttachmentExists
+    nameWithType: IAttachmentPlugin.AttachmentExists
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+    name: AttachmentExists
+    nameWithType: IAttachmentPlugin.AttachmentExists
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.AttachmentExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData*
+  commentId: Overload:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData
+  isExternal: true
+  name: GetData
+  nameWithType: AttachmentFilesystemPlugin.GetData
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.GetData
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  isExternal: true
+  name: GetData()
+  nameWithType: IAttachmentPlugin.GetData()
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+    name: GetData
+    nameWithType: IAttachmentPlugin.GetData
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+    name: GetData
+    nameWithType: IAttachmentPlugin.GetData
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData*
+  commentId: Overload:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData
+  isExternal: true
+  name: SaveData
+  nameWithType: AttachmentFilesystemPlugin.SaveData
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.SaveData
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
+  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  isExternal: true
+  name: SaveData(Stream)
+  nameWithType: IAttachmentPlugin.SaveData(Stream)
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
+    name: SaveData
+    nameWithType: IAttachmentPlugin.SaveData
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData(System.IO.Stream)
+    name: SaveData
+    nameWithType: IAttachmentPlugin.SaveData
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.SaveData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete*
+  commentId: Overload:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: AttachmentFilesystemPlugin.Delete
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.Delete
+- uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+  commentId: M:SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+  parent: SuperOffice.CRM.Attachment.IAttachmentPlugin
+  isExternal: true
+  name: Delete()
+  nameWithType: IAttachmentPlugin.Delete()
+  fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+    name: Delete
+    nameWithType: IAttachmentPlugin.Delete
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+    name: Delete
+    nameWithType: IAttachmentPlugin.Delete
+    fullName: SuperOffice.CRM.Attachment.IAttachmentPlugin.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.#ctor
+  isExternal: true
+  name: AttachmentFilesystemPlugin
+  nameWithType: AttachmentFilesystemPlugin.AttachmentFilesystemPlugin
+  fullName: SuperOffice.CRM.Attachment.AttachmentFilesystemPlugin.AttachmentFilesystemPlugin

@@ -1,0 +1,1015 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEngine
+  id: WorkflowEngine
+  parent: SuperOffice.CRM.WorkFlow
+  children:
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.#ctor
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved(System.Int32[],System.Int32[])
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk(System.Int32,System.Int32[])
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.Run
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEngine
+  nameWithType: WorkflowEngine
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: 'public class WorkflowEngine : Object'
+    content.vb: >-
+      Public Class WorkflowEngine
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowEngine)
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.WorkFlow.WorkflowEngine.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  id: DoEventHandler(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: DoEventHandler(WorkflowEvent)
+  nameWithType: WorkflowEngine.DoEventHandler(WorkflowEvent)
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static WorkflowEventResult DoEventHandler(WorkflowEvent e)
+    parameters:
+    - id: e
+      type: SuperOffice.CRM.WorkFlow.WorkflowEvent
+    return:
+      type: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    content.vb: Public Shared Function DoEventHandler(e As WorkflowEvent) As WorkflowEventResult
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  id: DoSaleEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: DoSaleEvent(WorkflowEvent, WorkflowTriggerType)
+  nameWithType: WorkflowEngine.DoSaleEvent(WorkflowEvent, WorkflowTriggerType)
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent, SuperOffice.Data.WorkflowTriggerType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static WorkflowEventResult DoSaleEvent(WorkflowEvent e, WorkflowTriggerType triggerType)
+    parameters:
+    - id: e
+      type: SuperOffice.CRM.WorkFlow.WorkflowEvent
+    - id: triggerType
+      type: SuperOffice.Data.WorkflowTriggerType
+    return:
+      type: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    content.vb: Public Shared Function DoSaleEvent(e As WorkflowEvent, triggerType As WorkflowTriggerType) As WorkflowEventResult
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  id: DoContactEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent,SuperOffice.Data.WorkflowTriggerType)
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: DoContactEvent(WorkflowEvent, WorkflowTriggerType)
+  nameWithType: WorkflowEngine.DoContactEvent(WorkflowEvent, WorkflowTriggerType)
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent, SuperOffice.Data.WorkflowTriggerType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static WorkflowEventResult DoContactEvent(WorkflowEvent e, WorkflowTriggerType triggerType)
+    parameters:
+    - id: e
+      type: SuperOffice.CRM.WorkFlow.WorkflowEvent
+    - id: triggerType
+      type: SuperOffice.Data.WorkflowTriggerType
+    return:
+      type: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    content.vb: Public Shared Function DoContactEvent(e As WorkflowEvent, triggerType As WorkflowTriggerType) As WorkflowEventResult
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  id: DoAddToProjectEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: DoAddToProjectEvent(WorkflowEvent)
+  nameWithType: WorkflowEngine.DoAddToProjectEvent(WorkflowEvent)
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static WorkflowEventResult DoAddToProjectEvent(WorkflowEvent e)
+    parameters:
+    - id: e
+      type: SuperOffice.CRM.WorkFlow.WorkflowEvent
+    return:
+      type: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    content.vb: Public Shared Function DoAddToProjectEvent(e As WorkflowEvent) As WorkflowEventResult
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  id: DoLinkClickedEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: DoLinkClickedEvent(WorkflowEvent)
+  nameWithType: WorkflowEngine.DoLinkClickedEvent(WorkflowEvent)
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static WorkflowEventResult DoLinkClickedEvent(WorkflowEvent e)
+    parameters:
+    - id: e
+      type: SuperOffice.CRM.WorkFlow.WorkflowEvent
+    return:
+      type: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    content.vb: Public Shared Function DoLinkClickedEvent(e As WorkflowEvent) As WorkflowEventResult
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  id: DoFormSubmissionEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: DoFormSubmissionEvent(WorkflowEvent)
+  nameWithType: WorkflowEngine.DoFormSubmissionEvent(WorkflowEvent)
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent(SuperOffice.CRM.WorkFlow.WorkflowEvent)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static WorkflowEventResult DoFormSubmissionEvent(WorkflowEvent e)
+    parameters:
+    - id: e
+      type: SuperOffice.CRM.WorkFlow.WorkflowEvent
+    return:
+      type: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+    content.vb: Public Shared Function DoFormSubmissionEvent(e As WorkflowEvent) As WorkflowEventResult
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
+  id: TryAddPersonsToWorkFlow(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: TryAddPersonsToWorkFlow(Int32, Int32[])
+  nameWithType: WorkflowEngine.TryAddPersonsToWorkFlow(Int32, Int32[])
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static bool[] TryAddPersonsToWorkFlow(int workflowId, int[] personIds)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    return:
+      type: System.Boolean[]
+    content.vb: Public Shared Function TryAddPersonsToWorkFlow(workflowId As Integer, personIds As Integer()) As Boolean()
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow*
+  nameWithType.vb: WorkflowEngine.TryAddPersonsToWorkFlow(Int32, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow(System.Int32, System.Int32())
+  name.vb: TryAddPersonsToWorkFlow(Int32, Int32())
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk(System.Int32,System.Int32[])
+  id: FilterOk(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: FilterOk(Int32, Int32[])
+  nameWithType: WorkflowEngine.FilterOk(Int32, Int32[])
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static HashSet<int> FilterOk(int workflowId, int[] personIds)
+    parameters:
+    - id: workflowId
+      type: System.Int32
+    - id: personIds
+      type: System.Int32[]
+    return:
+      type: System.Collections.Generic.HashSet{System.Int32}
+    content.vb: Public Shared Function FilterOk(workflowId As Integer, personIds As Integer()) As HashSet(Of Integer)
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk*
+  nameWithType.vb: WorkflowEngine.FilterOk(Int32, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk(System.Int32, System.Int32())
+  name.vb: FilterOk(Int32, Int32())
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved(System.Int32[],System.Int32[])
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved(System.Int32[],System.Int32[])
+  id: BlockListApproved(System.Int32[],System.Int32[])
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: BlockListApproved(Int32[], Int32[])
+  nameWithType: WorkflowEngine.BlockListApproved(Int32[], Int32[])
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved(System.Int32[], System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static HashSet<int> BlockListApproved(int[] selections, params int[] personIds)
+    parameters:
+    - id: selections
+      type: System.Int32[]
+    - id: personIds
+      type: System.Int32[]
+    return:
+      type: System.Collections.Generic.HashSet{System.Int32}
+    content.vb: Public Shared Function BlockListApproved(selections As Integer(), ParamArray personIds As Integer()) As HashSet(Of Integer)
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved*
+  nameWithType.vb: WorkflowEngine.BlockListApproved(Int32(), Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved(System.Int32(), System.Int32())
+  name.vb: BlockListApproved(Int32(), Int32())
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.Run
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.Run
+  id: Run
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: Run()
+  nameWithType: WorkflowEngine.Run()
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.Run()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public static DateTime Run()
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function Run As DateTime
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.Run*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.#ctor
+  commentId: M:SuperOffice.CRM.WorkFlow.WorkflowEngine.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.WorkFlow.WorkflowEngine
+  langs:
+  - csharp
+  - vb
+  name: WorkflowEngine()
+  nameWithType: WorkflowEngine.WorkflowEngine()
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.WorkflowEngine()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.WorkFlow
+  syntax:
+    content: public WorkflowEngine()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.WorkFlow.WorkflowEngine.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.WorkFlow
+  commentId: N:SuperOffice.CRM.WorkFlow
+  isExternal: true
+  name: SuperOffice.CRM.WorkFlow
+  nameWithType: SuperOffice.CRM.WorkFlow
+  fullName: SuperOffice.CRM.WorkFlow
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowEngine, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowEngine, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEngine, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowEngine, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEngine, To)()
+  name.vb: MapEnums(Of WorkflowEngine, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowEngine, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowEngine, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEngine, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowEngine, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowEngine, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEngine, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.WorkFlow.WorkflowEngine)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WorkflowEngine>(WorkflowEngine)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowEngine>(WorkflowEngine)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowEngine>(SuperOffice.CRM.WorkFlow.WorkflowEngine)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowEngine)(WorkflowEngine)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowEngine)(SuperOffice.CRM.WorkFlow.WorkflowEngine)
+  name.vb: AssignByReflection(Of WorkflowEngine)(WorkflowEngine)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowEngine>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowEngine>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.WorkFlow.WorkflowEngine>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.WorkFlow.WorkflowEngine
+    name: WorkflowEngine
+    nameWithType: WorkflowEngine
+    fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowEngine)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowEngine)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.WorkFlow.WorkflowEngine)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.WorkFlow.WorkflowEngine
+    name: WorkflowEngine
+    nameWithType: WorkflowEngine
+    fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WorkflowEngine>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowEngine>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowEngine>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowEngine)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowEngine)()
+  name.vb: GraphCopy(Of WorkflowEngine)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowEngine>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowEngine>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.WorkFlow.WorkflowEngine>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowEngine)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowEngine)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.WorkFlow.WorkflowEngine)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowEngine, To>()
+  nameWithType: Converters.MapEnums<WorkflowEngine, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEngine, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowEngine, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEngine, To)()
+  name.vb: MapEnums(Of WorkflowEngine, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowEngine, To>
+    nameWithType: Converters.MapEnums<WorkflowEngine, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.WorkFlow.WorkflowEngine, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowEngine, To)
+    nameWithType: Converters.MapEnums(Of WorkflowEngine, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.WorkFlow.WorkflowEngine, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler
+  isExternal: true
+  name: DoEventHandler
+  nameWithType: WorkflowEngine.DoEventHandler
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoEventHandler
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEvent
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEvent
+  parent: SuperOffice.CRM.WorkFlow
+  isExternal: true
+  name: WorkflowEvent
+  nameWithType: WorkflowEvent
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEvent
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEventResult
+  parent: SuperOffice.CRM.WorkFlow
+  isExternal: true
+  name: WorkflowEventResult
+  nameWithType: WorkflowEventResult
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent
+  isExternal: true
+  name: DoSaleEvent
+  nameWithType: WorkflowEngine.DoSaleEvent
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoSaleEvent
+- uid: SuperOffice.Data.WorkflowTriggerType
+  commentId: T:SuperOffice.Data.WorkflowTriggerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.Data.WorkflowTriggerType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent
+  isExternal: true
+  name: DoContactEvent
+  nameWithType: WorkflowEngine.DoContactEvent
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoContactEvent
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent
+  isExternal: true
+  name: DoAddToProjectEvent
+  nameWithType: WorkflowEngine.DoAddToProjectEvent
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoAddToProjectEvent
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent
+  isExternal: true
+  name: DoLinkClickedEvent
+  nameWithType: WorkflowEngine.DoLinkClickedEvent
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoLinkClickedEvent
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent
+  isExternal: true
+  name: DoFormSubmissionEvent
+  nameWithType: WorkflowEngine.DoFormSubmissionEvent
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.DoFormSubmissionEvent
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow
+  isExternal: true
+  name: TryAddPersonsToWorkFlow
+  nameWithType: WorkflowEngine.TryAddPersonsToWorkFlow
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.TryAddPersonsToWorkFlow
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean[]
+  isExternal: true
+  name: Boolean[]
+  nameWithType: Boolean[]
+  fullName: System.Boolean[]
+  nameWithType.vb: Boolean()
+  fullName.vb: System.Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk
+  isExternal: true
+  name: FilterOk
+  nameWithType: WorkflowEngine.FilterOk
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.FilterOk
+- uid: System.Collections.Generic.HashSet{System.Int32}
+  commentId: '!:System.Collections.Generic.HashSet{System.Int32}'
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<Int32>
+  nameWithType: HashSet<Int32>
+  fullName: System.Collections.Generic.HashSet<System.Int32>
+  nameWithType.vb: HashSet(Of Int32)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.Int32)
+  name.vb: HashSet(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved
+  isExternal: true
+  name: BlockListApproved
+  nameWithType: WorkflowEngine.BlockListApproved
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.BlockListApproved
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.Run*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.Run
+  isExternal: true
+  name: Run
+  nameWithType: WorkflowEngine.Run
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.Run
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.WorkFlow.WorkflowEngine.#ctor*
+  commentId: Overload:SuperOffice.CRM.WorkFlow.WorkflowEngine.#ctor
+  isExternal: true
+  name: WorkflowEngine
+  nameWithType: WorkflowEngine.WorkflowEngine
+  fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine.WorkflowEngine

@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  id: DBC.TicketTypePriorityFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Registered
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketPriorityId
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypeId
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypePriorityId
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Updated
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TicketTypePriorityFields
+  nameWithType: DBC.TicketTypePriorityFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TicketTypePriority, Link table defining what Priorities are relevant to a particular Ticket type\n"
+  syntax:
+    content: 'public static class TicketTypePriorityFields : Object'
+    content.vb: >-
+      Public Module TicketTypePriorityFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypePriorityId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypePriorityId
+  id: TicketTypePriorityId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: TicketTypePriorityId
+  nameWithType: DBC.TicketTypePriorityFields.TicketTypePriorityId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypePriorityId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.TicketTypePriorityId: Primary key\n"
+  syntax:
+    content: public const string TicketTypePriorityId = "ticket_type_priority_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTypePriorityId As String = "ticket_type_priority_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypeId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypeId
+  id: TicketTypeId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeId
+  nameWithType: DBC.TicketTypePriorityFields.TicketTypeId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.TicketTypeId: Ticket type \n"
+  syntax:
+    content: public const string TicketTypeId = "ticket_type_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketTypeId As String = "ticket_type_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketPriorityId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketPriorityId
+  id: TicketPriorityId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityId
+  nameWithType: DBC.TicketTypePriorityFields.TicketPriorityId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.TicketPriorityId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.TicketPriorityId: Ticket priority\n"
+  syntax:
+    content: public const string TicketPriorityId = "ticket_priority_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketPriorityId As String = "ticket_priority_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TicketTypePriorityFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TicketTypePriorityFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TicketTypePriorityFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TicketTypePriorityFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TicketTypePriorityFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TicketTypePriorityFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketTypePriority.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

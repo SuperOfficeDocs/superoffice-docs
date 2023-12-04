@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TargetChangeFields
+  id: DBC.TargetChangeFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.FieldIdentifier
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.Registered
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetChangeId
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetRevisionId
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.Updated
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeFrom
+  - SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeTo
+  langs:
+  - csharp
+  - vb
+  name: DBC.TargetChangeFields
+  nameWithType: DBC.TargetChangeFields
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TargetChange, A single field change.\n"
+  syntax:
+    content: 'public static class TargetChangeFields : Object'
+    content.vb: >-
+      Public Module TargetChangeFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetChangeId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetChangeId
+  id: TargetChangeId
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: TargetChangeId
+  nameWithType: DBC.TargetChangeFields.TargetChangeId
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetChangeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.TargetChangeId: Primary key\n"
+  syntax:
+    content: public const string TargetChangeId = "target_change_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetChangeId As String = "target_change_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetRevisionId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetRevisionId
+  id: TargetRevisionId
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: TargetRevisionId
+  nameWithType: DBC.TargetChangeFields.TargetRevisionId
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.TargetRevisionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.TargetRevisionId: The revision history changeset this change belongs to\n"
+  syntax:
+    content: public const string TargetRevisionId = "target_revision_id"
+    return:
+      type: System.String
+    content.vb: Public Const TargetRevisionId As String = "target_revision_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.FieldIdentifier
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.FieldIdentifier
+  id: FieldIdentifier
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: FieldIdentifier
+  nameWithType: DBC.TargetChangeFields.FieldIdentifier
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.FieldIdentifier
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.FieldIdentifier: What field was changed - target_group.period_type or target_assignment_value.month01.target_value or target_assignment_value.quarter01.target_value etc.\n"
+  syntax:
+    content: public const string FieldIdentifier = "field_identifier"
+    return:
+      type: System.String
+    content.vb: Public Const FieldIdentifier As String = "field_identifier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TargetChangeFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TargetChangeFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TargetChangeFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TargetChangeFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TargetChangeFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeFrom
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeFrom
+  id: ValueChangeFrom
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: ValueChangeFrom
+  nameWithType: DBC.TargetChangeFields.ValueChangeFrom
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeFrom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.ValueChangeFrom: Previous value\n"
+  syntax:
+    content: public const string ValueChangeFrom = "value_change_from"
+    return:
+      type: System.String
+    content.vb: Public Const ValueChangeFrom As String = "value_change_from"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeTo
+  commentId: F:SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeTo
+  id: ValueChangeTo
+  parent: SuperOffice.CRM.Data.DBC.TargetChangeFields
+  langs:
+  - csharp
+  - vb
+  name: ValueChangeTo
+  nameWithType: DBC.TargetChangeFields.ValueChangeTo
+  fullName: SuperOffice.CRM.Data.DBC.TargetChangeFields.ValueChangeTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTargetChange.ValueChangeTo: New value\n"
+  syntax:
+    content: public const string ValueChangeTo = "value_change_to"
+    return:
+      type: System.String
+    content.vb: Public Const ValueChangeTo As String = "value_change_to"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -12,13 +12,14 @@ items:
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.NewCredentials
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Service
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Unlock
+  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.value__
   langs:
   - csharp
   - vb
   name: WindowsIdentityHelper.LogonType
   nameWithType: WindowsIdentityHelper.LogonType
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -27,19 +28,54 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nLogon type used with LogonUser.\n"
   syntax:
-    content: public enum LogonType
-    content.vb: Public Enum LogonType
+    content: 'public sealed class LogonType : Enum'
+    content.vb: >-
+      Public NotInheritable Class LogonType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.EnumUtil.MapEnums``2
-  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)
-  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.value__
+  commentId: F:SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.value__
+  id: value__
+  parent: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WindowsIdentityHelper.LogonType.value__
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Util
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Interactive
   commentId: F:SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.Interactive
   id: Interactive
@@ -59,9 +95,10 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for users who will be interactively using the machine, such as a user being logged on by a terminal server, remote shell, or similar process. This logon type has the additional expense of caching logon information for disconnected operation, and is therefore inappropriate for some client/server applications, such as a mail server.\n"
   syntax:
-    content: Interactive = 2
+    content: public const WindowsIdentityHelper.LogonType Interactive
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    content.vb: Public Const Interactive As WindowsIdentityHelper.LogonType
   modifiers.csharp:
   - public
   - const
@@ -87,9 +124,10 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for high performance servers to authenticate clear text passwords. LogonUser does not cache credentials for this logon type. \n"
   syntax:
-    content: Network = 3
+    content: public const WindowsIdentityHelper.LogonType Network
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    content.vb: Public Const Network As WindowsIdentityHelper.LogonType
   modifiers.csharp:
   - public
   - const
@@ -115,9 +153,10 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for batch servers, where processes may be executing on behalf of a user without their direct intervention; or for higher performance servers that process many clear-text authentication attempts at a time, such as mail or web servers. LogonUser does not cache credentials for this logon type.\n"
   syntax:
-    content: Batch = 4
+    content: public const WindowsIdentityHelper.LogonType Batch
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    content.vb: Public Const Batch As WindowsIdentityHelper.LogonType
   modifiers.csharp:
   - public
   - const
@@ -143,9 +182,10 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nIndicates a service-type logon. The account provided must have the service privilege enabled.\n"
   syntax:
-    content: Service = 5
+    content: public const WindowsIdentityHelper.LogonType Service
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    content.vb: Public Const Service As WindowsIdentityHelper.LogonType
   modifiers.csharp:
   - public
   - const
@@ -171,9 +211,10 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nThis logon type is intended for GINA DLLs logging on users who will be interactively using the machine. This logon type allows a unique audit record to be generated that shows when the workstation was unlocked. \n"
   syntax:
-    content: Unlock = 7
+    content: public const WindowsIdentityHelper.LogonType Unlock
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    content.vb: Public Const Unlock As WindowsIdentityHelper.LogonType
   modifiers.csharp:
   - public
   - const
@@ -199,9 +240,10 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nWindows 2000/XP: This logon type preserves the name and password in the authentication packages, allowing the server to make connections to other network servers while impersonating the client. This allows a server to accept clear text credentials from a client, call LogonUser, verify that the user can access the system across the network, and still communicate with other servers. \n"
   syntax:
-    content: NetworkCleartext = 8
+    content: public const WindowsIdentityHelper.LogonType NetworkCleartext
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    content.vb: Public Const NetworkCleartext As WindowsIdentityHelper.LogonType
   modifiers.csharp:
   - public
   - const
@@ -227,9 +269,10 @@ items:
   namespace: SuperOffice.Security.Util
   summary: "\nWindows 2000/XP: This logon type allows the caller to clone its current token and specify new credentials for outbound connections. The new logon session has the same local identify, but uses different credentials for other network connections. This logon type is supported only by the LOGON32_PROVIDER_WINNT50 logon provider. \n"
   syntax:
-    content: NewCredentials = 9
+    content: public const WindowsIdentityHelper.LogonType NewCredentials
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+    content.vb: Public Const NewCredentials As WindowsIdentityHelper.LogonType
   modifiers.csharp:
   - public
   - const
@@ -243,6 +286,13 @@ references:
   name: SuperOffice.Security.Util
   nameWithType: SuperOffice.Security.Util
   fullName: SuperOffice.Security.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -270,84 +320,6 @@ references:
     name: MapEnums(Of WindowsIdentityHelper.LogonType, To)
     nameWithType: EnumUtil.MapEnums(Of WindowsIdentityHelper.LogonType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<WindowsIdentityHelper.LogonType>(WindowsIdentityHelper.LogonType)
-  nameWithType: ObjectExtensions.AssignByReflection<WindowsIdentityHelper.LogonType>(WindowsIdentityHelper.LogonType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Util.WindowsIdentityHelper.LogonType>(SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WindowsIdentityHelper.LogonType)(WindowsIdentityHelper.LogonType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)(SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)
-  name.vb: AssignByReflection(Of WindowsIdentityHelper.LogonType)(WindowsIdentityHelper.LogonType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<WindowsIdentityHelper.LogonType>
-    nameWithType: ObjectExtensions.AssignByReflection<WindowsIdentityHelper.LogonType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Util.WindowsIdentityHelper.LogonType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
-    name: WindowsIdentityHelper.LogonType
-    nameWithType: WindowsIdentityHelper.LogonType
-    fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of WindowsIdentityHelper.LogonType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of WindowsIdentityHelper.LogonType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
-    name: WindowsIdentityHelper.LogonType
-    nameWithType: WindowsIdentityHelper.LogonType
-    fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<WindowsIdentityHelper.LogonType>()
-  nameWithType: ObjectExtensions.GraphCopy<WindowsIdentityHelper.LogonType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Util.WindowsIdentityHelper.LogonType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WindowsIdentityHelper.LogonType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)()
-  name.vb: GraphCopy(Of WindowsIdentityHelper.LogonType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<WindowsIdentityHelper.LogonType>
-    nameWithType: ObjectExtensions.GraphCopy<WindowsIdentityHelper.LogonType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Util.WindowsIdentityHelper.LogonType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of WindowsIdentityHelper.LogonType)
-    nameWithType: ObjectExtensions.GraphCopy(Of WindowsIdentityHelper.LogonType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -389,6 +361,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -434,103 +412,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -577,18 +458,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
   parent: SuperOffice.Security.Util

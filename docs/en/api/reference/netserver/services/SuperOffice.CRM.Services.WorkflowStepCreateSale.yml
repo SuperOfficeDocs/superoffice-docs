@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepCreateSale
+  id: WorkflowStepCreateSale
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
+  - SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateSale
+  nameWithType: WorkflowStepCreateSale
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStep in workflow.\n<p></p>\nCarrier object for WorkflowStepCreateSale.\nServices for the WorkflowStepCreateSale Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WorkflowStepCreateSale : WorkflowStepBase'
+    content.vb: >-
+      Public Class WorkflowStepCreateSale
+
+          Inherits WorkflowStepBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.WorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  - linkId: SuperOffice.CRM.Services.IWorkflowAgent
+    commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.WorkflowStepBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  - SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  - SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepCreateSale()
+  nameWithType: WorkflowStepCreateSale.WorkflowStepCreateSale()
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.WorkflowStepCreateSale()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WorkflowStepCreateSale()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkflowStepCreateSale.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WorkflowStepCreateSale.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: WorkflowStepCreateSale.Title
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale title \n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
+  id: SaleType
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: SaleType
+  nameWithType: WorkflowStepCreateSale.SaleType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale type \n"
+  syntax:
+    content: public virtual int SaleType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleType As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
+  id: Stage
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: WorkflowStepCreateSale.Stage
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale stage \n"
+  syntax:
+    content: public virtual int Stage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Stage As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
+  id: Amount
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: WorkflowStepCreateSale.Amount
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale amount \n"
+  syntax:
+    content: public virtual double Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Amount As Double
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
+  id: Currency
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: WorkflowStepCreateSale.Currency
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale currency \n"
+  syntax:
+    content: public virtual int Currency { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Currency As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: WorkflowStepCreateSale.Description
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale description \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
+  id: Project
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: WorkflowStepCreateSale.Project
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRelated project \n"
+  syntax:
+    content: public virtual int Project { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Project As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType
+  id: SaleDateType
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: SaleDateType
+  nameWithType: WorkflowStepCreateSale.SaleDateType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale date selection type \n"
+  syntax:
+    content: public virtual WorkflowSaleDateType SaleDateType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WorkflowSaleDateType
+    content.vb: Public Overridable Property SaleDateType As WorkflowSaleDateType
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
+  id: Date
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: WorkflowStepCreateSale.Date
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale date \n"
+  syntax:
+    content: public virtual DateTime Date { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Date As DateTime
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
+  id: Owner
+  parent: SuperOffice.CRM.Services.WorkflowStepCreateSale
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: WorkflowStepCreateSale.Owner
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale owner \n"
+  syntax:
+    content: public virtual int Owner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Owner As Integer
+  overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.WorkflowStepBase
+  commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WorkflowStepBase
+  nameWithType: WorkflowStepBase
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowStepId
+  nameWithType: WorkflowStepBase.WorkflowStepId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: WorkflowId
+  nameWithType: WorkflowStepBase.WorkflowId
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.StepType
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: StepType
+  nameWithType: WorkflowStepBase.StepType
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.StepType
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.Rank
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: Rank
+  nameWithType: WorkflowStepBase.Rank
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.Rank
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
+  isExternal: true
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor
+  isExternal: true
+  name: WorkflowStepCreateSale
+  nameWithType: WorkflowStepCreateSale.WorkflowStepCreateSale
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.WorkflowStepCreateSale
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString()
+  nameWithType: WorkflowStepBase.ToString()
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WorkflowStepCreateSale.ToString
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.WorkflowStepBase
+  isExternal: true
+  name: ToString(String)
+  nameWithType: WorkflowStepBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
+    name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
+  isExternal: true
+  name: Title
+  nameWithType: WorkflowStepCreateSale.Title
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
+  isExternal: true
+  name: SaleType
+  nameWithType: WorkflowStepCreateSale.SaleType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
+  isExternal: true
+  name: Stage
+  nameWithType: WorkflowStepCreateSale.Stage
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
+  isExternal: true
+  name: Amount
+  nameWithType: WorkflowStepCreateSale.Amount
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: WorkflowStepCreateSale.Currency
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
+  isExternal: true
+  name: Description
+  nameWithType: WorkflowStepCreateSale.Description
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
+  isExternal: true
+  name: Project
+  nameWithType: WorkflowStepCreateSale.Project
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType
+  isExternal: true
+  name: SaleDateType
+  nameWithType: WorkflowStepCreateSale.SaleDateType
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleDateType
+- uid: SuperOffice.Data.WorkflowSaleDateType
+  commentId: '!:SuperOffice.Data.WorkflowSaleDateType'
+  isExternal: true
+  name: WorkflowSaleDateType
+  nameWithType: WorkflowSaleDateType
+  fullName: SuperOffice.Data.WorkflowSaleDateType
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
+  isExternal: true
+  name: Date
+  nameWithType: WorkflowStepCreateSale.Date
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
+  isExternal: true
+  name: Owner
+  nameWithType: WorkflowStepCreateSale.Owner
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner

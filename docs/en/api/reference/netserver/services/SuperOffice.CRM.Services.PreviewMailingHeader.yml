@@ -169,7 +169,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartDate As Date
+    content.vb: Public Overridable Property StartDate As DateTime
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate*
   modifiers.csharp:
   - public
@@ -648,13 +648,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.MarketingAgent
   commentId: T:SuperOffice.CRM.Services.MarketingAgent
   isExternal: true
@@ -668,12 +661,6 @@ references:
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.CRM.Services.IMarketingAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.#ctor
   isExternal: true
@@ -693,6 +680,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.StartDate
   isExternal: true
@@ -700,8 +693,6 @@ references:
   nameWithType: PreviewMailingHeader.StartDate
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

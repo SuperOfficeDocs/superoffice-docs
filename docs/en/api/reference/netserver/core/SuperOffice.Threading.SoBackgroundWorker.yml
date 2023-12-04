@@ -40,6 +40,7 @@ items:
     content: 'public class SoBackgroundWorker : Component'
     content.vb: >-
       Public Class SoBackgroundWorker
+
           Inherits Component
   inheritance:
   - System.Object

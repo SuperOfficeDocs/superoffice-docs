@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.MDOListTableCaches
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCaches
+  id: MDOListTableCaches
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MDOListTableCaches
+  nameWithType: MDOListTableCaches
+  fullName: SuperOffice.CRM.Cache.MDOListTableCaches
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nFactory methods to get a strongly-typed MDO table cache, from runtime information\n"
+  syntax:
+    content: 'public static class MDOListTableCaches : Object'
+    content.vb: >-
+      Public Module MDOListTableCaches
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
+  id: GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Cache.MDOListTableCaches
+  langs:
+  - csharp
+  - vb
+  name: GetCacheForTable(TableInfo)
+  nameWithType: MDOListTableCaches.GetCacheForTable(TableInfo)
+  fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nGet a strongly-typed MDO table cache for a TableInfo (as long as it actually is an MDO table)\n"
+  syntax:
+    content: public static MDOListTableCacheBase GetCacheForTable(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.CRM.Cache.MDOListTableCacheBase
+    content.vb: Public Shared Function GetCacheForTable(table As TableInfo) As MDOListTableCacheBase
+  overload: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
+  id: GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.CRM.Cache.MDOListTableCaches
+  langs:
+  - csharp
+  - vb
+  name: GetCacheForTable(SoTable)
+  nameWithType: MDOListTableCaches.GetCacheForTable(SoTable)
+  fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nGet a strongly-typed MDO table cache for an SoTable (as long as it actually is an MDO table)\n"
+  syntax:
+    content: public static MDOListTableCacheBase GetCacheForTable(SoTable table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    return:
+      type: SuperOffice.CRM.Cache.MDOListTableCacheBase
+    content.vb: Public Shared Function GetCacheForTable(table As SoTable) As MDOListTableCacheBase
+  overload: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(System.String)
+  commentId: M:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(System.String)
+  id: GetCacheForTable(System.String)
+  parent: SuperOffice.CRM.Cache.MDOListTableCaches
+  langs:
+  - csharp
+  - vb
+  name: GetCacheForTable(String)
+  nameWithType: MDOListTableCaches.GetCacheForTable(String)
+  fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: "\nGet a strongly-typed MDO table cache for a table name (as long as it actually is an MDO table)\n"
+  syntax:
+    content: public static MDOListTableCacheBase GetCacheForTable(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Cache.MDOListTableCacheBase
+    content.vb: Public Shared Function GetCacheForTable(tableName As String) As MDOListTableCacheBase
+  overload: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable*
+  commentId: Overload:SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable
+  isExternal: true
+  name: GetCacheForTable
+  nameWithType: MDOListTableCaches.GetCacheForTable
+  fullName: SuperOffice.CRM.Cache.MDOListTableCaches.GetCacheForTable
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
+  commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: MDOListTableCacheBase
+  nameWithType: MDOListTableCacheBase
+  fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  id: ServiceCollectionExtensions
+  parent: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  langs:
+  - csharp
+  - vb
+  name: ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  syntax:
+    content: 'public static class ServiceCollectionExtensions : Object'
+    content.vb: >-
+      Public Module ServiceCollectionExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  id: AddScopedTypesFromAssembly``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddScopedTypesFromAssembly<TBaseType>(IServiceCollection, Assembly)
+  nameWithType: ServiceCollectionExtensions.AddScopedTypesFromAssembly<TBaseType>(IServiceCollection, Assembly)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly<TBaseType>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Reflection.Assembly)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: "\nAdd all types identified by <xref href=\"Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.GetCreateableTypesFromAssembly%60%601(System.Reflection.Assembly)\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"Microsoft.Extensions.DependencyInjection.IServiceCollection\" data-throw-if-not-resolved=\"false\"></xref>\nusing <xref href=\"Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped(Microsoft.Extensions.DependencyInjection.IServiceCollection%2cSystem.Type)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static IServiceCollection AddScopedTypesFromAssembly<TBaseType>(this IServiceCollection serviceCollection, Assembly assemby)
+    parameters:
+    - id: serviceCollection
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: Service collection to add types to.
+    - id: assemby
+      type: System.Reflection.Assembly
+      description: Assembly to parse
+    typeParameters:
+    - id: TBaseType
+      description: Base types to look for implementations of.
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddScopedTypesFromAssembly(Of TBaseType)(serviceCollection As IServiceCollection, assemby As Assembly) As IServiceCollection
+  overload: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly*
+  nameWithType.vb: ServiceCollectionExtensions.AddScopedTypesFromAssembly(Of TBaseType)(IServiceCollection, Assembly)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly(Of TBaseType)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Reflection.Assembly)
+  name.vb: AddScopedTypesFromAssembly(Of TBaseType)(IServiceCollection, Assembly)
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly
+  isExternal: true
+  name: AddScopedTypesFromAssembly
+  nameWithType: ServiceCollectionExtensions.AddScopedTypesFromAssembly
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddScopedTypesFromAssembly
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Reflection.Assembly
+  isExternal: true
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Data.UpsertNomatchAction.DeleteRow
   - SuperOffice.Data.UpsertNomatchAction.NoChange
+  - SuperOffice.Data.UpsertNomatchAction.value__
   - SuperOffice.Data.UpsertNomatchAction.ZeroColumns
   langs:
   - csharp
@@ -14,7 +15,7 @@ items:
   name: UpsertNomatchAction
   nameWithType: UpsertNomatchAction
   fullName: SuperOffice.Data.UpsertNomatchAction
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -23,19 +24,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nUpsert: Action to take on target table rows that do not match any incoming keys\n"
   syntax:
-    content: public enum UpsertNomatchAction
-    content.vb: Public Enum UpsertNomatchAction
+    content: 'public sealed class UpsertNomatchAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class UpsertNomatchAction
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.UpsertNomatchAction.EnumUtil.MapEnums``2
-  - SuperOffice.Data.UpsertNomatchAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UpsertNomatchAction)
-  - SuperOffice.Data.UpsertNomatchAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.UpsertNomatchAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.UpsertNomatchAction.value__
+  commentId: F:SuperOffice.Data.UpsertNomatchAction.value__
+  id: value__
+  parent: SuperOffice.Data.UpsertNomatchAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UpsertNomatchAction.value__
+  fullName: SuperOffice.Data.UpsertNomatchAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.UpsertNomatchAction.NoChange
   commentId: F:SuperOffice.Data.UpsertNomatchAction.NoChange
   id: NoChange
@@ -55,9 +91,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: No action, leave target table row unchanged\n"
   syntax:
-    content: NoChange = 0
+    content: public const UpsertNomatchAction NoChange
     return:
       type: SuperOffice.Data.UpsertNomatchAction
+    content.vb: Public Const NoChange As UpsertNomatchAction
   modifiers.csharp:
   - public
   - const
@@ -83,9 +120,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Zero/default-value the targeted &apos;columns&apos; in all non-matching rows\n"
   syntax:
-    content: ZeroColumns = 1
+    content: public const UpsertNomatchAction ZeroColumns
     return:
       type: SuperOffice.Data.UpsertNomatchAction
+    content.vb: Public Const ZeroColumns As UpsertNomatchAction
   modifiers.csharp:
   - public
   - const
@@ -111,9 +149,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Delete the entire row, for all non-matching-row\n"
   syntax:
-    content: DeleteRow = 2
+    content: public const UpsertNomatchAction DeleteRow
     return:
       type: SuperOffice.Data.UpsertNomatchAction
+    content.vb: Public Const DeleteRow As UpsertNomatchAction
   modifiers.csharp:
   - public
   - const
@@ -127,6 +166,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.UpsertNomatchAction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -154,84 +200,6 @@ references:
     name: MapEnums(Of UpsertNomatchAction, To)
     nameWithType: EnumUtil.MapEnums(Of UpsertNomatchAction, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.UpsertNomatchAction, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.UpsertNomatchAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.UpsertNomatchAction)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<UpsertNomatchAction>(UpsertNomatchAction)
-  nameWithType: ObjectExtensions.AssignByReflection<UpsertNomatchAction>(UpsertNomatchAction)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.UpsertNomatchAction>(SuperOffice.Data.UpsertNomatchAction)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UpsertNomatchAction)(UpsertNomatchAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.UpsertNomatchAction)(SuperOffice.Data.UpsertNomatchAction)
-  name.vb: AssignByReflection(Of UpsertNomatchAction)(UpsertNomatchAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<UpsertNomatchAction>
-    nameWithType: ObjectExtensions.AssignByReflection<UpsertNomatchAction>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.UpsertNomatchAction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.UpsertNomatchAction
-    name: UpsertNomatchAction
-    nameWithType: UpsertNomatchAction
-    fullName: SuperOffice.Data.UpsertNomatchAction
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of UpsertNomatchAction)
-    nameWithType: ObjectExtensions.AssignByReflection(Of UpsertNomatchAction)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.UpsertNomatchAction)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.UpsertNomatchAction
-    name: UpsertNomatchAction
-    nameWithType: UpsertNomatchAction
-    fullName: SuperOffice.Data.UpsertNomatchAction
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.UpsertNomatchAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<UpsertNomatchAction>()
-  nameWithType: ObjectExtensions.GraphCopy<UpsertNomatchAction>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.UpsertNomatchAction>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of UpsertNomatchAction)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.UpsertNomatchAction)()
-  name.vb: GraphCopy(Of UpsertNomatchAction)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<UpsertNomatchAction>
-    nameWithType: ObjectExtensions.GraphCopy<UpsertNomatchAction>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.UpsertNomatchAction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of UpsertNomatchAction)
-    nameWithType: ObjectExtensions.GraphCopy(Of UpsertNomatchAction)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.UpsertNomatchAction)
     isExternal: true
   - name: (
     nameWithType: (
@@ -273,6 +241,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -318,103 +292,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -461,18 +338,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.UpsertNomatchAction
   commentId: T:SuperOffice.Data.UpsertNomatchAction
   parent: SuperOffice.Data

@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
   - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
   - SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
   - SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
   - SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
   - SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
@@ -172,6 +173,31 @@ items:
   nameWithType.vb: IAssociateAgent.SaveNote(Int32, String())
   fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32, System.String())
   name.vb: SaveNote(Int32, String())
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
+  id: GetEncryptionKey
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEncryptionKey()
+  nameWithType: IAssociateAgent.GetEncryptionKey()
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet unique key made from AssociateId and dbTag used for local storage encryption operations.\n"
+  syntax:
+    content: string GetEncryptionKey()
+    return:
+      type: System.String
+      description: encryptionKey
+    content.vb: Function GetEncryptionKey As String
+  overload: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey*
 - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
   id: GetAssociateList(System.Int32[])
@@ -342,6 +368,19 @@ references:
   name: SaveNote
   nameWithType: IAssociateAgent.SaveNote
   fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey*
+  commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
+  isExternal: true
+  name: GetEncryptionKey
+  nameWithType: IAssociateAgent.GetEncryptionKey
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList*
   commentId: Overload:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList
   isExternal: true

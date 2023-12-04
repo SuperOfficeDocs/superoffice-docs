@@ -14,10 +14,10 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize(System.IO.MemoryStream)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields
-  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(System.Boolean)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields
-  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String)
-  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String,System.String)
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(System.Boolean)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields
@@ -54,18 +54,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public class BulkUpdateSystem
-    content.vb: Public Class BulkUpdateSystem
+    content: 'public class BulkUpdateSystem : Object'
+    content.vb: >-
+      Public Class BulkUpdateSystem
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EnumUtil.MapEnums``2
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
@@ -877,16 +872,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String)
-  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String)
-  id: GetAvailableFields(System.String)
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String,System.String)
+  id: GetAvailableFields(System.String,System.String)
   parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
   langs:
   - csharp
   - vb
-  name: GetAvailableFields(String)
-  nameWithType: BulkUpdateSystem.GetAvailableFields(String)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String)
+  name: GetAvailableFields(String, String)
+  nameWithType: BulkUpdateSystem.GetAvailableFields(String, String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String, System.String)
   type: Method
   source:
     path: SoDataBase
@@ -895,13 +890,15 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static FieldValueInfo[] GetAvailableFields(string i_TableName)
+    content: public static FieldValueInfo[] GetAvailableFields(string i_TableName, string context = "")
     parameters:
     - id: i_TableName
       type: System.String
+    - id: context
+      type: System.String
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableFields(i_TableName As String) As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableFields(i_TableName As String, context As String = "") As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields*
   modifiers.csharp:
   - public
@@ -909,16 +906,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields
-  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields
-  id: GetAvailableContactFields
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(System.Boolean)
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(System.Boolean)
+  id: GetAvailableContactFields(System.Boolean)
   parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
   langs:
   - csharp
   - vb
-  name: GetAvailableContactFields()
-  nameWithType: BulkUpdateSystem.GetAvailableContactFields()
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields()
+  name: GetAvailableContactFields(Boolean)
+  nameWithType: BulkUpdateSystem.GetAvailableContactFields(Boolean)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -927,10 +924,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static FieldValueInfo[] GetAvailableContactFields()
+    content: public static FieldValueInfo[] GetAvailableContactFields(bool isForEmailFlow = false)
+    parameters:
+    - id: isForEmailFlow
+      type: System.Boolean
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableContactFields As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableContactFields(isForEmailFlow As Boolean = False) As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields*
   modifiers.csharp:
   - public
@@ -938,16 +938,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields
-  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields
-  id: GetAvailablePersonFields
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(System.Boolean)
+  commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(System.Boolean)
+  id: GetAvailablePersonFields(System.Boolean)
   parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
   langs:
   - csharp
   - vb
-  name: GetAvailablePersonFields()
-  nameWithType: BulkUpdateSystem.GetAvailablePersonFields()
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields()
+  name: GetAvailablePersonFields(Boolean)
+  nameWithType: BulkUpdateSystem.GetAvailablePersonFields(Boolean)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(System.Boolean)
   type: Method
   source:
     path: SoDataBase
@@ -956,10 +956,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static FieldValueInfo[] GetAvailablePersonFields()
+    content: public static FieldValueInfo[] GetAvailablePersonFields(bool bIsForEmailFlow = false)
+    parameters:
+    - id: bIsForEmailFlow
+      type: System.Boolean
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailablePersonFields As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailablePersonFields(bIsForEmailFlow As Boolean = False) As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields*
   modifiers.csharp:
   - public
@@ -1180,285 +1183,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1845,8 +1569,7 @@ references:
   nameWithType: UDefType
   fullName: SuperOffice.Data.UDefType
 - uid: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}'
   definition: System.Collections.Generic.List`1
   name: List<FieldValueInfo>
   nameWithType: List<FieldValueInfo>
@@ -1895,14 +1618,13 @@ references:
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1912,9 +1634,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1927,18 +1649,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields
   isExternal: true
@@ -2073,18 +1789,11 @@ references:
   nameWithType: BulkUpdateSystem.Deserialize
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize
 - uid: System.IO.MemoryStream
-  commentId: T:System.IO.MemoryStream
-  parent: System.IO
+  commentId: '!:System.IO.MemoryStream'
   isExternal: true
   name: MemoryStream
   nameWithType: MemoryStream
   fullName: System.IO.MemoryStream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage
   isExternal: true

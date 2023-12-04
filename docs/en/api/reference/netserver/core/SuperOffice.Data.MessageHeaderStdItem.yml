@@ -1,0 +1,510 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.MessageHeaderStdItem
+  commentId: T:SuperOffice.Data.MessageHeaderStdItem
+  id: MessageHeaderStdItem
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.MessageHeaderStdItem.CustomerReadFAQ
+  - SuperOffice.Data.MessageHeaderStdItem.Forward
+  - SuperOffice.Data.MessageHeaderStdItem.NoAutoReply
+  - SuperOffice.Data.MessageHeaderStdItem.None
+  - SuperOffice.Data.MessageHeaderStdItem.ReplyTemplate
+  - SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  - SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  - SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  - SuperOffice.Data.MessageHeaderStdItem.value__
+  langs:
+  - csharp
+  - vb
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: SuperOffice.Data.MessageHeaderStdItem
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nStandard/predefined values for ticket message header\n"
+  syntax:
+    content: 'public sealed class MessageHeaderStdItem : Enum'
+    content.vb: >-
+      Public NotInheritable Class MessageHeaderStdItem
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.MessageHeaderStdItem.EnumUtil.MapEnums``2
+  - SuperOffice.Data.MessageHeaderStdItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.MessageHeaderStdItem.value__
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.value__
+  id: value__
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MessageHeaderStdItem.value__
+  fullName: SuperOffice.Data.MessageHeaderStdItem.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.MessageHeaderStdItem.None
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.None
+  id: None
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MessageHeaderStdItem.None
+  fullName: SuperOffice.Data.MessageHeaderStdItem.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: A standard header without predefined meaning\n"
+  syntax:
+    content: public const MessageHeaderStdItem None
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const None As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageHeaderStdItem.Forward
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.Forward
+  id: Forward
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: MessageHeaderStdItem.Forward
+  fullName: SuperOffice.Data.MessageHeaderStdItem.Forward
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Forward\n"
+  syntax:
+    content: public const MessageHeaderStdItem Forward
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const Forward As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  id: UnnamedAttachmentBlocked
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: UnnamedAttachmentBlocked
+  nameWithType: MessageHeaderStdItem.UnnamedAttachmentBlocked
+  fullName: SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Message contains certain attachments we simply do not import\n"
+  syntax:
+    content: public const MessageHeaderStdItem UnnamedAttachmentBlocked
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const UnnamedAttachmentBlocked As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageHeaderStdItem.NoAutoReply
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.NoAutoReply
+  id: NoAutoReply
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: NoAutoReply
+  nameWithType: MessageHeaderStdItem.NoAutoReply
+  fullName: SuperOffice.Data.MessageHeaderStdItem.NoAutoReply
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: NoAutoReply\n"
+  syntax:
+    content: public const MessageHeaderStdItem NoAutoReply
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const NoAutoReply As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  id: SentAutoReplyToCustomersA
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: SentAutoReplyToCustomersA
+  nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersA
+  fullName: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Auto-reply sent to customers A\n"
+  syntax:
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersA
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const SentAutoReplyToCustomersA As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  id: SentAutoReplyToCustomersB
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: SentAutoReplyToCustomersB
+  nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersB
+  fullName: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Auto-reply sent to customers B\n"
+  syntax:
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersB
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const SentAutoReplyToCustomersB As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageHeaderStdItem.CustomerReadFAQ
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.CustomerReadFAQ
+  id: CustomerReadFAQ
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: CustomerReadFAQ
+  nameWithType: MessageHeaderStdItem.CustomerReadFAQ
+  fullName: SuperOffice.Data.MessageHeaderStdItem.CustomerReadFAQ
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Customer read FAQ\n"
+  syntax:
+    content: public const MessageHeaderStdItem CustomerReadFAQ
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const CustomerReadFAQ As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MessageHeaderStdItem.ReplyTemplate
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: MessageHeaderStdItem.ReplyTemplate
+  fullName: SuperOffice.Data.MessageHeaderStdItem.ReplyTemplate
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: This message was generated from reply template\n"
+  syntax:
+    content: public const MessageHeaderStdItem ReplyTemplate
+    return:
+      type: SuperOffice.Data.MessageHeaderStdItem
+    content.vb: Public Const ReplyTemplate As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.MessageHeaderStdItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MessageHeaderStdItem, To>()
+  nameWithType: EnumUtil.MapEnums<MessageHeaderStdItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MessageHeaderStdItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)()
+  name.vb: MapEnums(Of MessageHeaderStdItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MessageHeaderStdItem, To>
+    nameWithType: EnumUtil.MapEnums<MessageHeaderStdItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MessageHeaderStdItem, To)
+    nameWithType: EnumUtil.MapEnums(Of MessageHeaderStdItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.MessageHeaderStdItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MessageHeaderStdItem, To>()
+  nameWithType: Converters.MapEnums<MessageHeaderStdItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of MessageHeaderStdItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)()
+  name.vb: MapEnums(Of MessageHeaderStdItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MessageHeaderStdItem, To>
+    nameWithType: Converters.MapEnums<MessageHeaderStdItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MessageHeaderStdItem, To)
+    nameWithType: Converters.MapEnums(Of MessageHeaderStdItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.MessageHeaderStdItem
+  commentId: T:SuperOffice.Data.MessageHeaderStdItem
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: SuperOffice.Data.MessageHeaderStdItem

@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.TicketPriorityEntity.#ctor
   - SuperOffice.CRM.Services.TicketPriorityEntity.ChangedOwner
   - SuperOffice.CRM.Services.TicketPriorityEntity.Deadline
+  - SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
   - SuperOffice.CRM.Services.TicketPriorityEntity.Flags
   - SuperOffice.CRM.Services.TicketPriorityEntity.FriStart
   - SuperOffice.CRM.Services.TicketPriorityEntity.FriStop
@@ -579,7 +580,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property MonStart As Date
+    content.vb: Public Overridable Property MonStart As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.MonStart*
   modifiers.csharp:
   - public
@@ -606,13 +607,13 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nThe work hour sstop for Mondays. Note that only the time part of the DateTime is used \n"
+  summary: "\nThe work hour start for Mondays. Note that only the time part of the DateTime is used \n"
   syntax:
     content: public virtual DateTime MonStop { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property MonStop As Date
+    content.vb: Public Overridable Property MonStop As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.MonStop*
   modifiers.csharp:
   - public
@@ -645,7 +646,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property TueStart As Date
+    content.vb: Public Overridable Property TueStart As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TueStart*
   modifiers.csharp:
   - public
@@ -678,7 +679,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property TueStop As Date
+    content.vb: Public Overridable Property TueStop As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.TueStop*
   modifiers.csharp:
   - public
@@ -711,7 +712,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WedStart As Date
+    content.vb: Public Overridable Property WedStart As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.WedStart*
   modifiers.csharp:
   - public
@@ -744,7 +745,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WedStop As Date
+    content.vb: Public Overridable Property WedStop As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.WedStop*
   modifiers.csharp:
   - public
@@ -777,7 +778,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ThuStart As Date
+    content.vb: Public Overridable Property ThuStart As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStart*
   modifiers.csharp:
   - public
@@ -810,7 +811,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ThuStop As Date
+    content.vb: Public Overridable Property ThuStop As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.ThuStop*
   modifiers.csharp:
   - public
@@ -843,7 +844,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FriStart As Date
+    content.vb: Public Overridable Property FriStart As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.FriStart*
   modifiers.csharp:
   - public
@@ -876,7 +877,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FriStop As Date
+    content.vb: Public Overridable Property FriStop As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.FriStop*
   modifiers.csharp:
   - public
@@ -909,7 +910,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SatStart As Date
+    content.vb: Public Overridable Property SatStart As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SatStart*
   modifiers.csharp:
   - public
@@ -942,7 +943,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SatStop As Date
+    content.vb: Public Overridable Property SatStop As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SatStop*
   modifiers.csharp:
   - public
@@ -975,7 +976,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SunStart As Date
+    content.vb: Public Overridable Property SunStart As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SunStart*
   modifiers.csharp:
   - public
@@ -1008,7 +1009,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SunStop As Date
+    content.vb: Public Overridable Property SunStop As DateTime
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.SunStop*
   modifiers.csharp:
   - public
@@ -1035,14 +1036,47 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nDates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime \n"
+  summary: "\nDates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year \n"
   syntax:
     content: public virtual DateTime[] NonDates { get; set; }
     parameters: []
     return:
       type: System.DateTime[]
-    content.vb: Public Overridable Property NonDates As Date()
+    content.vb: Public Overridable Property NonDates As DateTime()
   overload: SuperOffice.CRM.Services.TicketPriorityEntity.NonDates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
+  commentId: P:SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
+  id: EscalationLevels
+  parent: SuperOffice.CRM.Services.TicketPriorityEntity
+  langs:
+  - csharp
+  - vb
+  name: EscalationLevels
+  nameWithType: TicketPriorityEntity.EscalationLevels
+  fullName: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEscalation levels bound to the parent priority \n"
+  syntax:
+    content: public virtual TicketPriorityEscalationLevelEntity[] EscalationLevels { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity[]
+    content.vb: Public Overridable Property EscalationLevels As TicketPriorityEscalationLevelEntity()
+  overload: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels*
   modifiers.csharp:
   - public
   - virtual
@@ -1058,13 +1092,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ListAgent
   commentId: T:SuperOffice.CRM.Services.ListAgent
   isExternal: true
@@ -1078,12 +1105,6 @@ references:
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.#ctor
   isExternal: true
@@ -1103,6 +1124,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId*
   commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.TicketPriorityId
   isExternal: true
@@ -1206,8 +1233,6 @@ references:
   nameWithType: TicketPriorityEntity.MonStart
   fullName: SuperOffice.CRM.Services.TicketPriorityEntity.MonStart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1318,6 +1343,38 @@ references:
     name: DateTime
     nameWithType: DateTime
     fullName: System.DateTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels*
+  commentId: Overload:SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
+  isExternal: true
+  name: EscalationLevels
+  nameWithType: TicketPriorityEntity.EscalationLevels
+  fullName: SuperOffice.CRM.Services.TicketPriorityEntity.EscalationLevels
+- uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity[]
+  isExternal: true
+  name: TicketPriorityEscalationLevelEntity[]
+  nameWithType: TicketPriorityEscalationLevelEntity[]
+  fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity[]
+  nameWithType.vb: TicketPriorityEscalationLevelEntity()
+  fullName.vb: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity()
+  name.vb: TicketPriorityEscalationLevelEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+    name: TicketPriorityEscalationLevelEntity
+    nameWithType: TicketPriorityEscalationLevelEntity
+    fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
+    name: TicketPriorityEscalationLevelEntity
+    nameWithType: TicketPriorityEscalationLevelEntity
+    fullName: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
     isExternal: true
   - name: ()
     nameWithType: ()

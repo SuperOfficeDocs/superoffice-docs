@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SoCore.Shared.CRM.Services
+  commentId: N:SoCore.Shared.CRM.Services
+  id: SoCore.Shared.CRM.Services
+  children:
+  - SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  - SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  langs:
+  - csharp
+  - vb
+  name: SoCore.Shared.CRM.Services
+  nameWithType: SoCore.Shared.CRM.Services
+  fullName: SoCore.Shared.CRM.Services
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneInterpretation
+  parent: SoCore.Shared.CRM.Services
+  isExternal: true
+  name: TimeZoneInterpretation
+  nameWithType: TimeZoneInterpretation
+  fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation
+- uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  commentId: T:SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+  isExternal: true
+  name: TimeZoneHintAttribute
+  nameWithType: TimeZoneHintAttribute
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+- uid: SoCore.Shared.CRM.Services
+  commentId: N:SoCore.Shared.CRM.Services
+  isExternal: true
+  name: SoCore.Shared.CRM.Services
+  nameWithType: SoCore.Shared.CRM.Services
+  fullName: SoCore.Shared.CRM.Services

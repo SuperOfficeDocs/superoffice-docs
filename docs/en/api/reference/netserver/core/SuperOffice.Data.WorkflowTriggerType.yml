@@ -1,0 +1,690 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WorkflowTriggerType
+  commentId: T:SuperOffice.Data.WorkflowTriggerType
+  id: WorkflowTriggerType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WorkflowTriggerType.AddedMessage
+  - SuperOffice.Data.WorkflowTriggerType.AddedToProject
+  - SuperOffice.Data.WorkflowTriggerType.AddedToSelection
+  - SuperOffice.Data.WorkflowTriggerType.CreatedRequest
+  - SuperOffice.Data.WorkflowTriggerType.FormSubmitted
+  - SuperOffice.Data.WorkflowTriggerType.LinkClicked
+  - SuperOffice.Data.WorkflowTriggerType.None
+  - SuperOffice.Data.WorkflowTriggerType.OrderPlaced
+  - SuperOffice.Data.WorkflowTriggerType.PersonCreated
+  - SuperOffice.Data.WorkflowTriggerType.PersonUpdated
+  - SuperOffice.Data.WorkflowTriggerType.SaleCreated
+  - SuperOffice.Data.WorkflowTriggerType.SaleLost
+  - SuperOffice.Data.WorkflowTriggerType.SaleSold
+  - SuperOffice.Data.WorkflowTriggerType.StartedChat
+  - SuperOffice.Data.WorkflowTriggerType.value__
+  langs:
+  - csharp
+  - vb
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.Data.WorkflowTriggerType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nWorkflow Trigger Type\nThis Enum is used by:  workflow_trigger.trigger_type\n"
+  syntax:
+    content: 'public sealed class WorkflowTriggerType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowTriggerType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.WorkflowTriggerType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WorkflowTriggerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowTriggerType.value__
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowTriggerType.value__
+  fullName: SuperOffice.Data.WorkflowTriggerType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.WorkflowTriggerType.None
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.None
+  id: None
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WorkflowTriggerType.None
+  fullName: SuperOffice.Data.WorkflowTriggerType.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const WorkflowTriggerType None
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const None As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.PersonCreated
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.PersonCreated
+  id: PersonCreated
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: PersonCreated
+  nameWithType: WorkflowTriggerType.PersonCreated
+  fullName: SuperOffice.Data.WorkflowTriggerType.PersonCreated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: PersonCreated\n"
+  syntax:
+    content: public const WorkflowTriggerType PersonCreated
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const PersonCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.PersonUpdated
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: WorkflowTriggerType.PersonUpdated
+  fullName: SuperOffice.Data.WorkflowTriggerType.PersonUpdated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: PersonUpdated\n"
+  syntax:
+    content: public const WorkflowTriggerType PersonUpdated
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const PersonUpdated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.AddedToProject
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.AddedToProject
+  id: AddedToProject
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: AddedToProject
+  nameWithType: WorkflowTriggerType.AddedToProject
+  fullName: SuperOffice.Data.WorkflowTriggerType.AddedToProject
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: AddedToProject\n"
+  syntax:
+    content: public const WorkflowTriggerType AddedToProject
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const AddedToProject As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.CreatedRequest
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.CreatedRequest
+  id: CreatedRequest
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: CreatedRequest
+  nameWithType: WorkflowTriggerType.CreatedRequest
+  fullName: SuperOffice.Data.WorkflowTriggerType.CreatedRequest
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: CreatedRequest\n"
+  syntax:
+    content: public const WorkflowTriggerType CreatedRequest
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const CreatedRequest As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.LinkClicked
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.LinkClicked
+  id: LinkClicked
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: LinkClicked
+  nameWithType: WorkflowTriggerType.LinkClicked
+  fullName: SuperOffice.Data.WorkflowTriggerType.LinkClicked
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n5: LinkClicked\n"
+  syntax:
+    content: public const WorkflowTriggerType LinkClicked
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const LinkClicked As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.AddedToSelection
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.AddedToSelection
+  id: AddedToSelection
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: AddedToSelection
+  nameWithType: WorkflowTriggerType.AddedToSelection
+  fullName: SuperOffice.Data.WorkflowTriggerType.AddedToSelection
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n6: AddedToSelection\n"
+  syntax:
+    content: public const WorkflowTriggerType AddedToSelection
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const AddedToSelection As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.FormSubmitted
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.FormSubmitted
+  id: FormSubmitted
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: FormSubmitted
+  nameWithType: WorkflowTriggerType.FormSubmitted
+  fullName: SuperOffice.Data.WorkflowTriggerType.FormSubmitted
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n7: FormSubmitted\n"
+  syntax:
+    content: public const WorkflowTriggerType FormSubmitted
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const FormSubmitted As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.AddedMessage
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.AddedMessage
+  id: AddedMessage
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: AddedMessage
+  nameWithType: WorkflowTriggerType.AddedMessage
+  fullName: SuperOffice.Data.WorkflowTriggerType.AddedMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: AddedMessage\n"
+  syntax:
+    content: public const WorkflowTriggerType AddedMessage
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const AddedMessage As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.StartedChat
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.StartedChat
+  id: StartedChat
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: StartedChat
+  nameWithType: WorkflowTriggerType.StartedChat
+  fullName: SuperOffice.Data.WorkflowTriggerType.StartedChat
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n9: StartedChat\n"
+  syntax:
+    content: public const WorkflowTriggerType StartedChat
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const StartedChat As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.OrderPlaced
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.OrderPlaced
+  id: OrderPlaced
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: OrderPlaced
+  nameWithType: WorkflowTriggerType.OrderPlaced
+  fullName: SuperOffice.Data.WorkflowTriggerType.OrderPlaced
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n10: OrderPlaced\n"
+  syntax:
+    content: public const WorkflowTriggerType OrderPlaced
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const OrderPlaced As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.SaleCreated
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.SaleCreated
+  id: SaleCreated
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: SaleCreated
+  nameWithType: WorkflowTriggerType.SaleCreated
+  fullName: SuperOffice.Data.WorkflowTriggerType.SaleCreated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n11: SaleCreated\n"
+  syntax:
+    content: public const WorkflowTriggerType SaleCreated
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const SaleCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.SaleSold
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.SaleSold
+  id: SaleSold
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: SaleSold
+  nameWithType: WorkflowTriggerType.SaleSold
+  fullName: SuperOffice.Data.WorkflowTriggerType.SaleSold
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: SaleSold\n"
+  syntax:
+    content: public const WorkflowTriggerType SaleSold
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const SaleSold As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WorkflowTriggerType.SaleLost
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.SaleLost
+  id: SaleLost
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: SaleLost
+  nameWithType: WorkflowTriggerType.SaleLost
+  fullName: SuperOffice.Data.WorkflowTriggerType.SaleLost
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n13: SaleLost\n"
+  syntax:
+    content: public const WorkflowTriggerType SaleLost
+    return:
+      type: SuperOffice.Data.WorkflowTriggerType
+    content.vb: Public Const SaleLost As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.WorkflowTriggerType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WorkflowTriggerType, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowTriggerType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTriggerType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)()
+  name.vb: MapEnums(Of WorkflowTriggerType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowTriggerType, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowTriggerType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowTriggerType, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowTriggerType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WorkflowTriggerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowTriggerType, To>()
+  nameWithType: Converters.MapEnums<WorkflowTriggerType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowTriggerType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)()
+  name.vb: MapEnums(Of WorkflowTriggerType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowTriggerType, To>
+    nameWithType: Converters.MapEnums<WorkflowTriggerType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowTriggerType, To)
+    nameWithType: Converters.MapEnums(Of WorkflowTriggerType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.WorkflowTriggerType
+  commentId: T:SuperOffice.Data.WorkflowTriggerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: SuperOffice.Data.WorkflowTriggerType

@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.DurationTimeHelper
+  commentId: T:SuperOffice.Util.DurationTimeHelper
+  id: DurationTimeHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.DurationTimeHelper.CompareDurations(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Double,System.Double)
+  - SuperOffice.Util.DurationTimeHelper.DurationColumnName
+  - SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue(System.DateTime,System.DateTime)
+  - SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue(System.DateTime,System.DateTime,System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: DurationTimeHelper
+  nameWithType: DurationTimeHelper
+  fullName: SuperOffice.Util.DurationTimeHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: 'public static class DurationTimeHelper : Object'
+    content.vb: >-
+      Public Module DurationTimeHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.DurationTimeHelper.DurationColumnName
+  commentId: F:SuperOffice.Util.DurationTimeHelper.DurationColumnName
+  id: DurationColumnName
+  parent: SuperOffice.Util.DurationTimeHelper
+  langs:
+  - csharp
+  - vb
+  name: DurationColumnName
+  nameWithType: DurationTimeHelper.DurationColumnName
+  fullName: SuperOffice.Util.DurationTimeHelper.DurationColumnName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string DurationColumnName = "duration"
+    return:
+      type: System.String
+    content.vb: Public Const DurationColumnName As String = "duration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue(System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue(System.DateTime,System.DateTime)
+  id: GetDurationColumnValue(System.DateTime,System.DateTime)
+  parent: SuperOffice.Util.DurationTimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDurationColumnValue(DateTime, DateTime)
+  nameWithType: DurationTimeHelper.GetDurationColumnValue(DateTime, DateTime)
+  fullName: SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static TimeSpan GetDurationColumnValue(DateTime start, DateTime end)
+    parameters:
+    - id: start
+      type: System.DateTime
+    - id: end
+      type: System.DateTime
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared Function GetDurationColumnValue(start As DateTime, end As DateTime) As TimeSpan
+  overload: SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue(System.DateTime,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue(System.DateTime,System.DateTime,System.DateTime)
+  id: GetTimeInQueueColumnValue(System.DateTime,System.DateTime,System.DateTime)
+  parent: SuperOffice.Util.DurationTimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTimeInQueueColumnValue(DateTime, DateTime, DateTime)
+  nameWithType: DurationTimeHelper.GetTimeInQueueColumnValue(DateTime, DateTime, DateTime)
+  fullName: SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue(System.DateTime, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static TimeSpan GetTimeInQueueColumnValue(DateTime requested, DateTime start, DateTime end)
+    parameters:
+    - id: requested
+      type: System.DateTime
+    - id: start
+      type: System.DateTime
+    - id: end
+      type: System.DateTime
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared Function GetTimeInQueueColumnValue(requested As DateTime, start As DateTime, end As DateTime) As TimeSpan
+  overload: SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.DurationTimeHelper.CompareDurations(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Double,System.Double)
+  commentId: M:SuperOffice.Util.DurationTimeHelper.CompareDurations(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Double,System.Double)
+  id: CompareDurations(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Double,System.Double)
+  parent: SuperOffice.Util.DurationTimeHelper
+  langs:
+  - csharp
+  - vb
+  name: CompareDurations(ArchiveRestrictionInfo, Double, Double)
+  nameWithType: DurationTimeHelper.CompareDurations(ArchiveRestrictionInfo, Double, Double)
+  fullName: SuperOffice.Util.DurationTimeHelper.CompareDurations(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, System.Double, System.Double)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static bool CompareDurations(ArchiveRestrictionInfo restriction, double a, double b)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CompareDurations(restriction As ArchiveRestrictionInfo, a As Double, b As Double) As Boolean
+  overload: SuperOffice.Util.DurationTimeHelper.CompareDurations*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue*
+  commentId: Overload:SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue
+  isExternal: true
+  name: GetDurationColumnValue
+  nameWithType: DurationTimeHelper.GetDurationColumnValue
+  fullName: SuperOffice.Util.DurationTimeHelper.GetDurationColumnValue
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue*
+  commentId: Overload:SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue
+  isExternal: true
+  name: GetTimeInQueueColumnValue
+  nameWithType: DurationTimeHelper.GetTimeInQueueColumnValue
+  fullName: SuperOffice.Util.DurationTimeHelper.GetTimeInQueueColumnValue
+- uid: SuperOffice.Util.DurationTimeHelper.CompareDurations*
+  commentId: Overload:SuperOffice.Util.DurationTimeHelper.CompareDurations
+  isExternal: true
+  name: CompareDurations
+  nameWithType: DurationTimeHelper.CompareDurations
+  fullName: SuperOffice.Util.DurationTimeHelper.CompareDurations
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists

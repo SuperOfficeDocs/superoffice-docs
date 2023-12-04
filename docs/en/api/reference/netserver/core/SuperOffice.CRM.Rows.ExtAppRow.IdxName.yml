@@ -26,7 +26,9 @@ items:
     content: 'public class IdxName : ExtAppRow.ExtAppRowIdx, ICloneable, ISentryIgnorable'
     content.vb: >-
       Public Class IdxName
+
           Inherits ExtAppRow.ExtAppRowIdx
+
           Implements ICloneable, ISentryIgnorable
   inheritance:
   - System.Object
@@ -40,22 +42,6 @@ items:
   - System.ICloneable
   - SuperOffice.CRM.Security.ISentryIgnorable
   inheritedMembers:
-  - SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-  - SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow(SuperOffice.CRM.Rows.ITableRowLoadHandler)
-  - SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-  - SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-  - SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ExtAppTableInfo
-  - SuperOffice.CRM.Rows.IdxBase{SuperOffice.CRM.Data.ExtAppTableInfo}.TableInfo
-  - SuperOffice.CRM.Rows.IdxBase.OnIndexChanged
-  - SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck
-  - SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck
-  - SuperOffice.CRM.Rows.IdxBase.InnerOrderBy
-  - SuperOffice.CRM.Rows.IdxBase.InnerGroupBy
-  - SuperOffice.CRM.Rows.IdxBase.InnerJoinRestriction
-  - SuperOffice.CRM.Rows.IdxBase.InnerReturnFields
-  - SuperOffice.CRM.Rows.IdxBase.JoinRestriction
-  - SuperOffice.CRM.Rows.IdxBase.ReturnFields
-  - SuperOffice.CRM.Rows.IdxBase.IsSentryIgnored
   - SuperOffice.Data.SQL.PrivateSelect._isDistinct
   - SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
   - SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo)
@@ -70,11 +56,15 @@ items:
   - SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
   - SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
   - SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+  - SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
+  - SuperOffice.Data.SQL.PrivateSelect.InnerOrderBy
   - SuperOffice.Data.SQL.PrivateSelect.IsDistinct
   - SuperOffice.Data.SQL.PrivateSelect.ForceRecompile
-  - SuperOffice.Data.SQL.PrivateSelect.ForceJoinOrder
+  - SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
+  - SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
   - SuperOffice.Data.SQL.PrivateSelect.SqlType
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -86,12 +76,6 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ExtAppRow.IdxName.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
@@ -295,8 +279,6 @@ references:
   nameWithType: ExtAppRow.ExtAppRowIdx
   fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdx
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -308,308 +290,6 @@ references:
   name: ISentryIgnorable
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
-- uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-  commentId: M:SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-  parent: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase
-  isExternal: true
-  name: ToExtAppRow()
-  nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRow()
-  fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    name: ToExtAppRow
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    name: ToExtAppRow
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow(SuperOffice.CRM.Rows.ITableRowLoadHandler)
-  commentId: M:SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow(SuperOffice.CRM.Rows.ITableRowLoadHandler)
-  parent: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase
-  isExternal: true
-  name: ToExtAppRow(ITableRowLoadHandler)
-  nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRow(ITableRowLoadHandler)
-  fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow(SuperOffice.CRM.Rows.ITableRowLoadHandler)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow(SuperOffice.CRM.Rows.ITableRowLoadHandler)
-    name: ToExtAppRow
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler
-    name: ITableRowLoadHandler
-    nameWithType: ITableRowLoadHandler
-    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow(SuperOffice.CRM.Rows.ITableRowLoadHandler)
-    name: ToExtAppRow
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler
-    name: ITableRowLoadHandler
-    nameWithType: ITableRowLoadHandler
-    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-  commentId: M:SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-  parent: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase
-  isExternal: true
-  name: ToExtAppRows()
-  nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRows()
-  fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    name: ToExtAppRows
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    name: ToExtAppRows
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-  commentId: M:SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-  parent: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase
-  isExternal: true
-  name: ToExtAppRows(ITableRowLoadHandlerFactory)
-  nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRows(ITableRowLoadHandlerFactory)
-  fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-    name: ToExtAppRows
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
-    name: ITableRowLoadHandlerFactory
-    nameWithType: ITableRowLoadHandlerFactory
-    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
-    name: ToExtAppRows
-    nameWithType: ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ToExtAppRows
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
-    name: ITableRowLoadHandlerFactory
-    nameWithType: ITableRowLoadHandlerFactory
-    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ExtAppTableInfo
-  commentId: P:SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ExtAppTableInfo
-  parent: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase
-  isExternal: true
-  name: ExtAppTableInfo
-  nameWithType: ExtAppRow.ExtAppRowIdxBase.ExtAppTableInfo
-  fullName: SuperOffice.CRM.Rows.ExtAppRow.ExtAppRowIdxBase.ExtAppTableInfo
-- uid: SuperOffice.CRM.Rows.IdxBase{SuperOffice.CRM.Data.ExtAppTableInfo}.TableInfo
-  commentId: P:SuperOffice.CRM.Rows.IdxBase{SuperOffice.CRM.Data.ExtAppTableInfo}.TableInfo
-  parent: SuperOffice.CRM.Rows.IdxBase{SuperOffice.CRM.Data.ExtAppTableInfo}
-  definition: SuperOffice.CRM.Rows.IdxBase`1.TableInfo
-  name: TableInfo
-  nameWithType: IdxBase<ExtAppTableInfo>.TableInfo
-  fullName: SuperOffice.CRM.Rows.IdxBase<SuperOffice.CRM.Data.ExtAppTableInfo>.TableInfo
-  nameWithType.vb: IdxBase(Of ExtAppTableInfo).TableInfo
-  fullName.vb: SuperOffice.CRM.Rows.IdxBase(Of SuperOffice.CRM.Data.ExtAppTableInfo).TableInfo
-- uid: SuperOffice.CRM.Rows.IdxBase.OnIndexChanged
-  commentId: M:SuperOffice.CRM.Rows.IdxBase.OnIndexChanged
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: OnIndexChanged()
-  nameWithType: IdxBase.OnIndexChanged()
-  fullName: SuperOffice.CRM.Rows.IdxBase.OnIndexChanged()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.IdxBase.OnIndexChanged
-    name: OnIndexChanged
-    nameWithType: IdxBase.OnIndexChanged
-    fullName: SuperOffice.CRM.Rows.IdxBase.OnIndexChanged
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.IdxBase.OnIndexChanged
-    name: OnIndexChanged
-    nameWithType: IdxBase.OnIndexChanged
-    fullName: SuperOffice.CRM.Rows.IdxBase.OnIndexChanged
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck
-  commentId: M:SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: BeginIgnoreSentryCheck()
-  nameWithType: IdxBase.BeginIgnoreSentryCheck()
-  fullName: SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck
-    name: BeginIgnoreSentryCheck
-    nameWithType: IdxBase.BeginIgnoreSentryCheck
-    fullName: SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck
-    name: BeginIgnoreSentryCheck
-    nameWithType: IdxBase.BeginIgnoreSentryCheck
-    fullName: SuperOffice.CRM.Rows.IdxBase.BeginIgnoreSentryCheck
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck
-  commentId: M:SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: EndIgnoreSentryCheck()
-  nameWithType: IdxBase.EndIgnoreSentryCheck()
-  fullName: SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck
-    name: EndIgnoreSentryCheck
-    nameWithType: IdxBase.EndIgnoreSentryCheck
-    fullName: SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck
-    name: EndIgnoreSentryCheck
-    nameWithType: IdxBase.EndIgnoreSentryCheck
-    fullName: SuperOffice.CRM.Rows.IdxBase.EndIgnoreSentryCheck
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.IdxBase.InnerOrderBy
-  commentId: P:SuperOffice.CRM.Rows.IdxBase.InnerOrderBy
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: InnerOrderBy
-  nameWithType: IdxBase.InnerOrderBy
-  fullName: SuperOffice.CRM.Rows.IdxBase.InnerOrderBy
-- uid: SuperOffice.CRM.Rows.IdxBase.InnerGroupBy
-  commentId: P:SuperOffice.CRM.Rows.IdxBase.InnerGroupBy
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: InnerGroupBy
-  nameWithType: IdxBase.InnerGroupBy
-  fullName: SuperOffice.CRM.Rows.IdxBase.InnerGroupBy
-- uid: SuperOffice.CRM.Rows.IdxBase.InnerJoinRestriction
-  commentId: P:SuperOffice.CRM.Rows.IdxBase.InnerJoinRestriction
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: InnerJoinRestriction
-  nameWithType: IdxBase.InnerJoinRestriction
-  fullName: SuperOffice.CRM.Rows.IdxBase.InnerJoinRestriction
-- uid: SuperOffice.CRM.Rows.IdxBase.InnerReturnFields
-  commentId: P:SuperOffice.CRM.Rows.IdxBase.InnerReturnFields
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: InnerReturnFields
-  nameWithType: IdxBase.InnerReturnFields
-  fullName: SuperOffice.CRM.Rows.IdxBase.InnerReturnFields
-- uid: SuperOffice.CRM.Rows.IdxBase.JoinRestriction
-  commentId: P:SuperOffice.CRM.Rows.IdxBase.JoinRestriction
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: JoinRestriction
-  nameWithType: IdxBase.JoinRestriction
-  fullName: SuperOffice.CRM.Rows.IdxBase.JoinRestriction
-- uid: SuperOffice.CRM.Rows.IdxBase.ReturnFields
-  commentId: P:SuperOffice.CRM.Rows.IdxBase.ReturnFields
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: ReturnFields
-  nameWithType: IdxBase.ReturnFields
-  fullName: SuperOffice.CRM.Rows.IdxBase.ReturnFields
-- uid: SuperOffice.CRM.Rows.IdxBase.IsSentryIgnored
-  commentId: P:SuperOffice.CRM.Rows.IdxBase.IsSentryIgnored
-  parent: SuperOffice.CRM.Rows.IdxBase
-  isExternal: true
-  name: IsSentryIgnored
-  nameWithType: IdxBase.IsSentryIgnored
-  fullName: SuperOffice.CRM.Rows.IdxBase.IsSentryIgnored
 - uid: SuperOffice.Data.SQL.PrivateSelect._isDistinct
   commentId: F:SuperOffice.Data.SQL.PrivateSelect._isDistinct
   parent: SuperOffice.Data.SQL.PrivateSelect
@@ -1076,6 +756,20 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
+  commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: InnerReturnFields
+  nameWithType: PrivateSelect.InnerReturnFields
+  fullName: SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
+- uid: SuperOffice.Data.SQL.PrivateSelect.InnerOrderBy
+  commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerOrderBy
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: InnerOrderBy
+  nameWithType: PrivateSelect.InnerOrderBy
+  fullName: SuperOffice.Data.SQL.PrivateSelect.InnerOrderBy
 - uid: SuperOffice.Data.SQL.PrivateSelect.IsDistinct
   commentId: P:SuperOffice.Data.SQL.PrivateSelect.IsDistinct
   parent: SuperOffice.Data.SQL.PrivateSelect
@@ -1090,13 +784,20 @@ references:
   name: ForceRecompile
   nameWithType: PrivateSelect.ForceRecompile
   fullName: SuperOffice.Data.SQL.PrivateSelect.ForceRecompile
-- uid: SuperOffice.Data.SQL.PrivateSelect.ForceJoinOrder
-  commentId: P:SuperOffice.Data.SQL.PrivateSelect.ForceJoinOrder
+- uid: SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
+  commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  name: ForceJoinOrder
-  nameWithType: PrivateSelect.ForceJoinOrder
-  fullName: SuperOffice.Data.SQL.PrivateSelect.ForceJoinOrder
+  name: InnerGroupBy
+  nameWithType: PrivateSelect.InnerGroupBy
+  fullName: SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
+- uid: SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
+  commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: InnerJoinRestriction
+  nameWithType: PrivateSelect.InnerJoinRestriction
+  fullName: SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
 - uid: SuperOffice.Data.SQL.PrivateSelect.SqlType
   commentId: P:SuperOffice.Data.SQL.PrivateSelect.SqlType
   parent: SuperOffice.Data.SQL.PrivateSelect
@@ -1111,6 +812,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -1493,254 +1201,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.ExtAppRow.IdxName.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1972,14 +1432,6 @@ references:
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-- uid: SuperOffice.CRM.Rows.IdxBase`1.TableInfo
-  commentId: P:SuperOffice.CRM.Rows.IdxBase`1.TableInfo
-  isExternal: true
-  name: TableInfo
-  nameWithType: IdxBase<TTableInfo>.TableInfo
-  fullName: SuperOffice.CRM.Rows.IdxBase<TTableInfo>.TableInfo
-  nameWithType.vb: IdxBase(Of TTableInfo).TableInfo
-  fullName.vb: SuperOffice.CRM.Rows.IdxBase(Of TTableInfo).TableInfo
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true

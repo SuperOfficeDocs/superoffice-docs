@@ -11,13 +11,14 @@ items:
   - SuperOffice.Data.DocTmplQuoteType.MainDocument
   - SuperOffice.Data.DocTmplQuoteType.None
   - SuperOffice.Data.DocTmplQuoteType.QuoteLines
+  - SuperOffice.Data.DocTmplQuoteType.value__
   langs:
   - csharp
   - vb
   name: DocTmplQuoteType
   nameWithType: DocTmplQuoteType
   fullName: SuperOffice.Data.DocTmplQuoteType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -26,19 +27,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nIs this document template some kind of quote document, and if so what\nThis Enum is used by:  DocTmpl.quoteDocType\n"
   syntax:
-    content: 'public enum DocTmplQuoteType : short'
-    content.vb: Public Enum DocTmplQuoteType As Short
+    content: 'public sealed class DocTmplQuoteType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocTmplQuoteType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.DocTmplQuoteType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.DocTmplQuoteType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplQuoteType)
-  - SuperOffice.Data.DocTmplQuoteType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.DocTmplQuoteType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.DocTmplQuoteType.value__
+  commentId: F:SuperOffice.Data.DocTmplQuoteType.value__
+  id: value__
+  parent: SuperOffice.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocTmplQuoteType.value__
+  fullName: SuperOffice.Data.DocTmplQuoteType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.DocTmplQuoteType.None
   commentId: F:SuperOffice.Data.DocTmplQuoteType.None
   id: None
@@ -58,9 +94,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: This document template is in no way related to Quote Management\n"
   syntax:
-    content: None = 0
+    content: public const DocTmplQuoteType None
     return:
       type: SuperOffice.Data.DocTmplQuoteType
+    content.vb: Public Const None As DocTmplQuoteType
   modifiers.csharp:
   - public
   - const
@@ -86,9 +123,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: This is a template for the offer mail body\n"
   syntax:
-    content: MailBody = 1
+    content: public const DocTmplQuoteType MailBody
     return:
       type: SuperOffice.Data.DocTmplQuoteType
+    content.vb: Public Const MailBody As DocTmplQuoteType
   modifiers.csharp:
   - public
   - const
@@ -114,9 +152,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: This is a template for the main offer document, document instances will be referred through Quote.DocumentId\n"
   syntax:
-    content: MainDocument = 2
+    content: public const DocTmplQuoteType MainDocument
     return:
       type: SuperOffice.Data.DocTmplQuoteType
+    content.vb: Public Const MainDocument As DocTmplQuoteType
   modifiers.csharp:
   - public
   - const
@@ -142,9 +181,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: This is a template for the AsposeWords merge process, generating the offer line details\n"
   syntax:
-    content: QuoteLines = 3
+    content: public const DocTmplQuoteType QuoteLines
     return:
       type: SuperOffice.Data.DocTmplQuoteType
+    content.vb: Public Const QuoteLines As DocTmplQuoteType
   modifiers.csharp:
   - public
   - const
@@ -170,9 +210,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: This is a template for the mail body of the order confirmation\n"
   syntax:
-    content: ConfirmationMailBody = 4
+    content: public const DocTmplQuoteType ConfirmationMailBody
     return:
       type: SuperOffice.Data.DocTmplQuoteType
+    content.vb: Public Const ConfirmationMailBody As DocTmplQuoteType
   modifiers.csharp:
   - public
   - const
@@ -198,9 +239,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: This is a template for the lines document that is an attachment to the confirmation mail\n"
   syntax:
-    content: ConfirmationLines = 5
+    content: public const DocTmplQuoteType ConfirmationLines
     return:
       type: SuperOffice.Data.DocTmplQuoteType
+    content.vb: Public Const ConfirmationLines As DocTmplQuoteType
   modifiers.csharp:
   - public
   - const
@@ -214,6 +256,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.DocTmplQuoteType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -241,84 +290,6 @@ references:
     name: MapEnums(Of DocTmplQuoteType, To)
     nameWithType: EnumUtil.MapEnums(Of DocTmplQuoteType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DocTmplQuoteType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DocTmplQuoteType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplQuoteType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DocTmplQuoteType>(DocTmplQuoteType)
-  nameWithType: ObjectExtensions.AssignByReflection<DocTmplQuoteType>(DocTmplQuoteType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplQuoteType>(SuperOffice.Data.DocTmplQuoteType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocTmplQuoteType)(DocTmplQuoteType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplQuoteType)(SuperOffice.Data.DocTmplQuoteType)
-  name.vb: AssignByReflection(Of DocTmplQuoteType)(DocTmplQuoteType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DocTmplQuoteType>
-    nameWithType: ObjectExtensions.AssignByReflection<DocTmplQuoteType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplQuoteType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DocTmplQuoteType
-    name: DocTmplQuoteType
-    nameWithType: DocTmplQuoteType
-    fullName: SuperOffice.Data.DocTmplQuoteType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DocTmplQuoteType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DocTmplQuoteType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplQuoteType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DocTmplQuoteType
-    name: DocTmplQuoteType
-    nameWithType: DocTmplQuoteType
-    fullName: SuperOffice.Data.DocTmplQuoteType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DocTmplQuoteType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DocTmplQuoteType>()
-  nameWithType: ObjectExtensions.GraphCopy<DocTmplQuoteType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplQuoteType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocTmplQuoteType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplQuoteType)()
-  name.vb: GraphCopy(Of DocTmplQuoteType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DocTmplQuoteType>
-    nameWithType: ObjectExtensions.GraphCopy<DocTmplQuoteType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplQuoteType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DocTmplQuoteType)
-    nameWithType: ObjectExtensions.GraphCopy(Of DocTmplQuoteType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplQuoteType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -360,6 +331,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -405,103 +382,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -548,18 +428,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.DocTmplQuoteType
   commentId: T:SuperOffice.Data.DocTmplQuoteType
   parent: SuperOffice.Data

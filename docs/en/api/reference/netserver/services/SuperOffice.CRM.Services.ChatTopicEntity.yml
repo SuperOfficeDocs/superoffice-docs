@@ -20,6 +20,8 @@ items:
   - SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
   - SuperOffice.CRM.Services.ChatTopicEntity.Name
   - SuperOffice.CRM.Services.ChatTopicEntity.OfflineCollectConsent
+  - SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength
+  - SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit
   - SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours
   - SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled
   - SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept
@@ -28,10 +30,15 @@ items:
   - SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority
   - SuperOffice.CRM.Services.ChatTopicEntity.ToString
   - SuperOffice.CRM.Services.ChatTopicEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm
+  - SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes
+  - SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes
   - SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatMinutes
   - SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatMinutes
   - SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage
   - SuperOffice.CRM.Services.ChatTopicEntity.Widget
+  - SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating
+  - SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText
   langs:
   - csharp
   - vb
@@ -349,7 +356,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastAccept As Date
+    content.vb: Public Overridable Property LastAccept As DateTime
   overload: SuperOffice.CRM.Services.ChatTopicEntity.LastAccept*
   modifiers.csharp:
   - public
@@ -953,6 +960,237 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes
+  id: WarnChatMessageMinutes
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnChatMessageMinutes
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContains the user notify time in minutes for new chat messages \n"
+  syntax:
+    content: public virtual int WarnChatMessageMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnChatMessageMinutes As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes
+  id: WarnManagerChatMessageMinutes
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnManagerChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnManagerChatMessageMinutes
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContains the manager notify time in minutes for new chat messages \n"
+  syntax:
+    content: public virtual int WarnManagerChatMessageMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnManagerChatMessageMinutes As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm
+  id: UseQueueOfflineForm
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: UseQueueOfflineForm
+  nameWithType: ChatTopicEntity.UseQueueOfflineForm
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUse offline form capability from chat queue \n"
+  syntax:
+    content: public virtual bool UseQueueOfflineForm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseQueueOfflineForm As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit
+  id: OfflineFormTimeLimit
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormTimeLimit
+  nameWithType: ChatTopicEntity.OfflineFormTimeLimit
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe number of minutes in the queue before the offline form is available \n"
+  syntax:
+    content: public virtual int OfflineFormTimeLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OfflineFormTimeLimit As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength
+  id: OfflineFormQueueLength
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormQueueLength
+  nameWithType: ChatTopicEntity.OfflineFormQueueLength
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe number of customers in the queue before the offline form is available \n"
+  syntax:
+    content: public virtual int OfflineFormQueueLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OfflineFormQueueLength As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating
+  id: WidgetEnableRating
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WidgetEnableRating
+  nameWithType: ChatTopicEntity.WidgetEnableRating
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEnable rating functionality in the chat widgte \n"
+  syntax:
+    content: public virtual bool WidgetEnableRating { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property WidgetEnableRating As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText
+  id: WidgetRatingText
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WidgetRatingText
+  nameWithType: ChatTopicEntity.WidgetRatingText
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe text to be displayed in the widget next to the rating stars \n"
+  syntax:
+    content: public virtual string WidgetRatingText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WidgetRatingText As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -960,13 +1198,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ChatAgent
   commentId: T:SuperOffice.CRM.Services.ChatAgent
   isExternal: true
@@ -1123,12 +1354,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -1155,6 +1380,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId*
   commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId
   isExternal: true
@@ -1206,8 +1437,6 @@ references:
   nameWithType: ChatTopicEntity.LastAccept
   fullName: SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1369,3 +1598,45 @@ references:
   name: OfflineCollectConsent
   nameWithType: ChatTopicEntity.OfflineCollectConsent
   fullName: SuperOffice.CRM.Services.ChatTopicEntity.OfflineCollectConsent
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes
+  isExternal: true
+  name: WarnChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnChatMessageMinutes
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnChatMessageMinutes
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes
+  isExternal: true
+  name: WarnManagerChatMessageMinutes
+  nameWithType: ChatTopicEntity.WarnManagerChatMessageMinutes
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerChatMessageMinutes
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm
+  isExternal: true
+  name: UseQueueOfflineForm
+  nameWithType: ChatTopicEntity.UseQueueOfflineForm
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.UseQueueOfflineForm
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit
+  isExternal: true
+  name: OfflineFormTimeLimit
+  nameWithType: ChatTopicEntity.OfflineFormTimeLimit
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormTimeLimit
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength
+  isExternal: true
+  name: OfflineFormQueueLength
+  nameWithType: ChatTopicEntity.OfflineFormQueueLength
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OfflineFormQueueLength
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating
+  isExternal: true
+  name: WidgetEnableRating
+  nameWithType: ChatTopicEntity.WidgetEnableRating
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WidgetEnableRating
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText
+  isExternal: true
+  name: WidgetRatingText
+  nameWithType: ChatTopicEntity.WidgetRatingText
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WidgetRatingText

@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.License
   children:
   - SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider)
+  - SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
   - SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.LicenseInfo)
   - SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.SerialNumberChange)
   - SuperOffice.License.SignatureCreator.Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
@@ -28,6 +29,7 @@ items:
     content: 'public class SignatureCreator : SignatureValidator'
     content.vb: >-
       Public Class SignatureCreator
+
           Inherits SignatureValidator
   inheritance:
   - System.Object
@@ -40,20 +42,15 @@ items:
   - SuperOffice.License.SignatureValidator.Validate(System.String,System.String,SuperOffice.License.ModuleLicense)
   - SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.LicenseInfo)
   - SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey)
+  - SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
   - SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
   - SuperOffice.License.SignatureValidator.ComputeHash(System.String,System.String,SuperOffice.License.ModuleLicense)
   - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.LicenseInfo)
   - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey)
+  - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
   - SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
   - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
   - SuperOffice.License.SignatureValidator.PublicKey
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.SignatureCreator.EnumUtil.MapEnums``2
   - SuperOffice.License.SignatureCreator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -88,6 +85,38 @@ items:
     - id: privateKey
       type: System.Security.Cryptography.DSACryptoServiceProvider
     content.vb: Public Sub New(publicKey As SignedPublicKey, privateKey As DSACryptoServiceProvider)
+  overload: SuperOffice.License.SignatureCreator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
+  commentId: M:SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
+  id: '#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)'
+  parent: SuperOffice.License.SignatureCreator
+  langs:
+  - csharp
+  - vb
+  name: SignatureCreator(SignedPublicKey, DSACryptoServiceProvider, ILogger)
+  nameWithType: SignatureCreator.SignatureCreator(SignedPublicKey, DSACryptoServiceProvider, ILogger)
+  fullName: SuperOffice.License.SignatureCreator.SignatureCreator(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider, Microsoft.Extensions.Logging.ILogger)
+  type: Constructor
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: public SignatureCreator(SignedPublicKey publicKey, DSACryptoServiceProvider privateKey, ILogger logger)
+    parameters:
+    - id: publicKey
+      type: SuperOffice.License.SignedPublicKey
+    - id: privateKey
+      type: System.Security.Cryptography.DSACryptoServiceProvider
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+    content.vb: Public Sub New(publicKey As SignedPublicKey, privateKey As DSACryptoServiceProvider, logger As ILogger)
   overload: SuperOffice.License.SignatureCreator.#ctor*
   modifiers.csharp:
   - public
@@ -394,6 +423,63 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+  commentId: M:SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+  parent: SuperOffice.License.SignatureValidator
+  isExternal: true
+  name: Validate(SignedPublicKey, ILogger)
+  nameWithType: SignatureValidator.Validate(SignedPublicKey, ILogger)
+  fullName: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger)
+  spec.csharp:
+  - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+    name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.License.SignedPublicKey
+    name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.ILogger
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+    name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.License.SignedPublicKey
+    name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.ILogger
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
   commentId: M:SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
   parent: SuperOffice.License.SignatureValidator
@@ -590,6 +676,63 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+  commentId: M:SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+  parent: SuperOffice.License.SignatureValidator
+  isExternal: true
+  name: ComputeHash(SignedPublicKey, ILogger)
+  nameWithType: SignatureValidator.ComputeHash(SignedPublicKey, ILogger)
+  fullName: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger)
+  spec.csharp:
+  - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+    name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.License.SignedPublicKey
+    name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.ILogger
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+    name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.License.SignedPublicKey
+    name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.ILogger
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
   commentId: M:SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
   parent: SuperOffice.License.SignatureValidator
@@ -679,285 +822,6 @@ references:
   name: PublicKey
   nameWithType: SignatureValidator.PublicKey
   fullName: SuperOffice.License.SignatureValidator.PublicKey
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.License.SignatureCreator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -1141,18 +1005,15 @@ references:
   nameWithType: SignedPublicKey
   fullName: SuperOffice.License.SignedPublicKey
 - uid: System.Security.Cryptography.DSACryptoServiceProvider
-  commentId: T:System.Security.Cryptography.DSACryptoServiceProvider
-  parent: System.Security.Cryptography
   isExternal: true
   name: DSACryptoServiceProvider
   nameWithType: DSACryptoServiceProvider
   fullName: System.Security.Cryptography.DSACryptoServiceProvider
-- uid: System.Security.Cryptography
-  commentId: N:System.Security.Cryptography
+- uid: Microsoft.Extensions.Logging.ILogger
   isExternal: true
-  name: System.Security.Cryptography
-  nameWithType: System.Security.Cryptography
-  fullName: System.Security.Cryptography
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
 - uid: SuperOffice.License.SignatureCreator.Sign*
   commentId: Overload:SuperOffice.License.SignatureCreator.Sign
   isExternal: true

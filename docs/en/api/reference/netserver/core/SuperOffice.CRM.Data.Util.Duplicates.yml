@@ -5,6 +5,7 @@ items:
   id: SuperOffice.CRM.Data.Util.Duplicates
   children:
   - SuperOffice.CRM.Data.Util.Duplicates.ContactDepartmentDuplicateRulePluginAttribute
+  - SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule
   - SuperOffice.CRM.Data.Util.Duplicates.ContactDuplicateRulePluginAttribute
   - SuperOffice.CRM.Data.Util.Duplicates.ContactNameDepartmentDuplicateRule
   - SuperOffice.CRM.Data.Util.Duplicates.ContactNameDuplicateRule
@@ -50,6 +51,12 @@ references:
   name: ContactNameDepartmentDuplicateRule
   nameWithType: ContactNameDepartmentDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDepartmentDuplicateRule
+- uid: SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule
+  commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule
+  isExternal: true
+  name: ContactDomainDuplicateRule
+  nameWithType: ContactDomainDuplicateRule
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   isExternal: true

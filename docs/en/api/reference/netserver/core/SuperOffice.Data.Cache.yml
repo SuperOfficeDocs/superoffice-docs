@@ -4,19 +4,17 @@ items:
   commentId: N:SuperOffice.Data.Cache
   id: SuperOffice.Data.Cache
   children:
-  - SuperOffice.Data.Cache.CacheAttribute
-  - SuperOffice.Data.Cache.CacheBase
-  - SuperOffice.Data.Cache.CacheBase.CacheState
+  - SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
   - SuperOffice.Data.Cache.CacheBaseV2
-  - SuperOffice.Data.Cache.CacheEventHandler
+  - SuperOffice.Data.Cache.CacheFlusher
   - SuperOffice.Data.Cache.CacheManager
   - SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
-  - SuperOffice.Data.Cache.CacheType
   - SuperOffice.Data.Cache.CacheV2Attribute
-  - SuperOffice.Data.Cache.IFlushable
+  - SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  - SuperOffice.Data.Cache.ICacheFlusher
   - SuperOffice.Data.Cache.IFlushableV2
-  - SuperOffice.Data.Cache.SoCache
-  - SuperOffice.Data.Cache.XCacheBase
+  - SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+  - SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
   langs:
   - csharp
   - vb
@@ -27,27 +25,6 @@ items:
   assemblies:
   - SoDataBase
 references:
-- uid: SuperOffice.Data.Cache.CacheEventHandler
-  commentId: T:SuperOffice.Data.Cache.CacheEventHandler
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: CacheEventHandler
-  nameWithType: CacheEventHandler
-  fullName: SuperOffice.Data.Cache.CacheEventHandler
-- uid: SuperOffice.Data.Cache.CacheBase
-  commentId: T:SuperOffice.Data.Cache.CacheBase
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: CacheBase
-  nameWithType: CacheBase
-  fullName: SuperOffice.Data.Cache.CacheBase
-- uid: SuperOffice.Data.Cache.CacheBase.CacheState
-  commentId: T:SuperOffice.Data.Cache.CacheBase.CacheState
-  parent: SuperOffice.Data.Cache
-  isExternal: true
-  name: CacheBase.CacheState
-  nameWithType: CacheBase.CacheState
-  fullName: SuperOffice.Data.Cache.CacheBase.CacheState
 - uid: SuperOffice.Data.Cache.CacheBaseV2
   commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
@@ -75,20 +52,19 @@ references:
   name: CacheManager.DisableAutoUpdateScope
   nameWithType: CacheManager.DisableAutoUpdateScope
   fullName: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
-- uid: SuperOffice.Data.Cache.CacheType
-  commentId: T:SuperOffice.Data.Cache.CacheType
+- uid: SuperOffice.Data.Cache.ICacheFlusher
+  commentId: T:SuperOffice.Data.Cache.ICacheFlusher
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: CacheType
-  nameWithType: CacheType
-  fullName: SuperOffice.Data.Cache.CacheType
-- uid: SuperOffice.Data.Cache.IFlushable
-  commentId: T:SuperOffice.Data.Cache.IFlushable
-  parent: SuperOffice.Data.Cache
+  name: ICacheFlusher
+  nameWithType: ICacheFlusher
+  fullName: SuperOffice.Data.Cache.ICacheFlusher
+- uid: SuperOffice.Data.Cache.CacheFlusher
+  commentId: T:SuperOffice.Data.Cache.CacheFlusher
   isExternal: true
-  name: IFlushable
-  nameWithType: IFlushable
-  fullName: SuperOffice.Data.Cache.IFlushable
+  name: CacheFlusher
+  nameWithType: CacheFlusher
+  fullName: SuperOffice.Data.Cache.CacheFlusher
 - uid: SuperOffice.Data.Cache.IFlushableV2
   commentId: T:SuperOffice.Data.Cache.IFlushableV2
   parent: SuperOffice.Data.Cache
@@ -96,26 +72,33 @@ references:
   name: IFlushableV2
   nameWithType: IFlushableV2
   fullName: SuperOffice.Data.Cache.IFlushableV2
-- uid: SuperOffice.Data.Cache.SoCache
-  commentId: T:SuperOffice.Data.Cache.SoCache
-  isExternal: true
-  name: SoCache
-  nameWithType: SoCache
-  fullName: SuperOffice.Data.Cache.SoCache
-- uid: SuperOffice.Data.Cache.XCacheBase
-  commentId: T:SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+  commentId: T:SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: XCacheBase
-  nameWithType: XCacheBase
-  fullName: SuperOffice.Data.Cache.XCacheBase
-- uid: SuperOffice.Data.Cache.CacheAttribute
-  commentId: T:SuperOffice.Data.Cache.CacheAttribute
+  name: IFlushCacheAndBroadcastPlugin
+  nameWithType: IFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.IFlushCacheAndBroadcastPlugin
+- uid: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+  commentId: T:SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
   parent: SuperOffice.Data.Cache
   isExternal: true
-  name: CacheAttribute
-  nameWithType: CacheAttribute
-  fullName: SuperOffice.Data.Cache.CacheAttribute
+  name: FlushCacheAndBroadcastPluginAttribute
+  nameWithType: FlushCacheAndBroadcastPluginAttribute
+  fullName: SuperOffice.Data.Cache.FlushCacheAndBroadcastPluginAttribute
+- uid: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+  commentId: T:SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+  isExternal: true
+  name: OnsiteFlushCacheAndBroadcastPlugin
+  nameWithType: OnsiteFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.OnsiteFlushCacheAndBroadcastPlugin
+- uid: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  commentId: T:SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: BaseFlushCacheAndBroadcastPlugin
+  nameWithType: BaseFlushCacheAndBroadcastPlugin
+  fullName: SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true

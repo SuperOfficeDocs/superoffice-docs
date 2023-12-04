@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.#ctor(SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DashboardTileDefinitionRowIdxBase)
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyId
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyCode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyMode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentDashboardTileDefinitionId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentDefaultHeight
@@ -28,28 +28,8 @@ items:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentUpdated
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentUpdatedCount
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyModeChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultHeightChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultWidthChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDescriptionChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityNameChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityTypeChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onLayoutConfigChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureByFieldChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureFieldChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onNameChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSecondarySelectionIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSelectionIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSortByChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onTileTypeChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedCountChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyId
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentUsage
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyCode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyMode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedDashboardTileDefinitionId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedDefaultHeight
@@ -71,8 +51,9 @@ items:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedUpdated
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedUpdatedCount
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedUsage
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CreateNew
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyMode
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DashboardTileDefinitionId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DashboardTileDefinitionTableInfo
@@ -98,30 +79,9 @@ items:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.MeasureByField
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.MeasureField
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Name
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyModeChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultHeightChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultWidthChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDescriptionChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityNameChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityTypeChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnLayoutConfigChange
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureByFieldChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureFieldChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnNameChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredChange
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSecondarySelectionIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSelectionIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSortByChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnTileTypeChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedChange
-  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedCountChange
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Registered
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.RegisteredAssociateId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Reset
@@ -137,6 +97,7 @@ items:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Updated
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.UpdatedAssociateId
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.UpdatedCount
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   langs:
   - csharp
@@ -157,7 +118,9 @@ items:
     content: 'public class DashboardTileDefinitionRow : TableRowBase, INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem'
     content.vb: >-
       Public Class DashboardTileDefinitionRow
+
           Inherits TableRowBase
+
           Implements INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem
   inheritance:
   - System.Object
@@ -172,8 +135,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowBase._saveOwner
   - SuperOffice.CRM.Rows.TableRowBase._sentries
-  - SuperOffice.CRM.Rows.TableRowBase._onValueChange
   - SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+  - SuperOffice.CRM.Rows.TableRowBase._isSaving
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
@@ -192,6 +155,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Rows.TableRowBase.Validate
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice#Data#INestedPersist#OnPreIdUpdate
@@ -216,13 +183,17 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SqlType
   - SuperOffice.CRM.Rows.TableRowBase.IsSentryIgnored
   - SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
   - SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   - SuperOffice.CRM.Rows.TableRowBase.OnElementIdUpdate
   - SuperOffice.Data.SQL.PrivateSave.GetTableInfos
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -234,17 +205,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -463,7 +429,7 @@ items:
     content: protected DateTime _persistedRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _persistedRegistered As Date
+    content.vb: Protected _persistedRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -517,7 +483,7 @@ items:
     content: protected DateTime _persistedUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _persistedUpdated As Date
+    content.vb: Protected _persistedUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -599,33 +565,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedSelectionId As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyId
-  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyId
-  id: _persistedCurrencyId
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedCurrencyId
-  nameWithType: DashboardTileDefinitionRow._persistedCurrencyId
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyId
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _persistedCurrencyId
-    return:
-      type: System.Int32
-    content.vb: Protected _persistedCurrencyId As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -846,6 +785,60 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyCode
+  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyCode
+  id: _persistedCurrencyCode
+  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCurrencyCode
+  nameWithType: DashboardTileDefinitionRow._persistedCurrencyCode
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedCurrencyCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _persistedCurrencyCode
+    return:
+      type: System.String
+    content.vb: Protected _persistedCurrencyCode As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedUsage
+  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedUsage
+  id: _persistedUsage
+  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedUsage
+  nameWithType: DashboardTileDefinitionRow._persistedUsage
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._persistedUsage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DashTileUsage _persistedUsage
+    return:
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Protected _persistedUsage As DashTileUsage
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentDashboardTileDefinitionId
   commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentDashboardTileDefinitionId
   id: _currentDashboardTileDefinitionId
@@ -1057,7 +1050,7 @@ items:
     content: protected DateTime _currentRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _currentRegistered As Date
+    content.vb: Protected _currentRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1111,7 +1104,7 @@ items:
     content: protected DateTime _currentUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _currentUpdated As Date
+    content.vb: Protected _currentUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1193,33 +1186,6 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentSelectionId As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyId
-  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyId
-  id: _currentCurrencyId
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _currentCurrencyId
-  nameWithType: DashboardTileDefinitionRow._currentCurrencyId
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyId
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  syntax:
-    content: protected int _currentCurrencyId
-    return:
-      type: System.Int32
-    content.vb: Protected _currentCurrencyId As Integer
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1436,6 +1402,60 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentMeasureByField As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyCode
+  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyCode
+  id: _currentCurrencyCode
+  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCurrencyCode
+  nameWithType: DashboardTileDefinitionRow._currentCurrencyCode
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentCurrencyCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected string _currentCurrencyCode
+    return:
+      type: System.String
+    content.vb: Protected _currentCurrencyCode As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentUsage
+  commentId: F:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentUsage
+  id: _currentUsage
+  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+  langs:
+  - csharp
+  - vb
+  name: _currentUsage
+  nameWithType: DashboardTileDefinitionRow._currentUsage
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._currentUsage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected DashTileUsage _currentUsage
+    return:
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Protected _currentUsage As DashTileUsage
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1776,7 +1796,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.ToString*
   modifiers.csharp:
   - public
@@ -2310,7 +2329,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Primary key \n"
-  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>		\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
+  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>        \n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
   syntax:
     content: public virtual int DashboardTileDefinitionId { get; }
     parameters: []
@@ -2344,7 +2363,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: string. The name of the tile \n"
-  remarks: "\nOriginal type in dictionary:  String[4001].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  String[4001].\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -2352,6 +2371,10 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Name*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2378,7 +2401,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: string. Detailed description \n"
-  remarks: "\nOriginal type in dictionary:  String[4001].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  String[4001].\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -2386,6 +2409,10 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Description*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2412,7 +2439,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Default width when added to a dashboard \n"
-  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual int DefaultWidth { get; set; }
     parameters: []
@@ -2420,6 +2447,10 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DefaultWidth As Integer
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DefaultWidth*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2446,7 +2477,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Default height when added to a dashboard \n"
-  remarks: "\nOriginal type in dictionary:  Int.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  Int.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual int DefaultHeight { get; set; }
     parameters: []
@@ -2454,6 +2485,10 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DefaultHeight As Integer
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DefaultHeight*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2480,7 +2515,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: DashTileType. Dashboard tile type \n"
-  remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  Enum.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value ((short)0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual DashTileType TileType { get; set; }
     parameters: []
@@ -2488,6 +2523,10 @@ items:
       type: SuperOffice.Data.DashTileType
     content.vb: Public Overridable Property TileType As DashTileType
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.TileType*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2514,7 +2553,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: DashTileEntityType. Dashboard entity type \n"
-  remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  Enum.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value ((short)0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual DashTileEntityType EntityType { get; set; }
     parameters: []
@@ -2522,6 +2561,10 @@ items:
       type: SuperOffice.Data.DashTileEntityType
     content.vb: Public Overridable Property EntityType As DashTileEntityType
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.EntityType*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2548,14 +2591,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: DateTime. Registered when in UTC  \n"
-  remarks: "\nOriginal type in dictionary:  UtcDateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  UtcDateTime.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (DateTime.MinValue)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Registered*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2582,7 +2629,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Registered by whom \n"
-  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual int RegisteredAssociateId { get; set; }
     parameters: []
@@ -2590,6 +2637,10 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.RegisteredAssociateId*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2616,14 +2667,18 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: DateTime. Last updated when in UTC  \n"
-  remarks: "\nOriginal type in dictionary:  UtcDateTime.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  UtcDateTime.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (DateTime.MinValue)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Updated*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2650,7 +2705,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Last updated by whom \n"
-  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual int UpdatedAssociateId { get; set; }
     parameters: []
@@ -2658,6 +2713,10 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property UpdatedAssociateId As Integer
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.UpdatedAssociateId*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2684,7 +2743,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: short. Number of updates made to this record \n"
-  remarks: "\nOriginal type in dictionary:  UShort.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  UShort.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value ((Int16)0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual short UpdatedCount { get; set; }
     parameters: []
@@ -2692,6 +2751,10 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.UpdatedCount*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2718,7 +2781,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Selection holding the criterias for the tile definition \n"
-  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual int SelectionId { get; set; }
     parameters: []
@@ -2726,40 +2789,10 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SelectionId As Integer
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SelectionId*
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId
-  commentId: P:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId
-  id: CurrencyId
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: CurrencyId
-  nameWithType: DashboardTileDefinitionRow.CurrencyId
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId
-  type: Property
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\n.NET type: int. Currency of sale \n"
-  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
-  syntax:
-    content: public virtual int CurrencyId { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Overridable Property CurrencyId As Integer
-  overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2786,7 +2819,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: DashTileCurrencyMode. Dashboard currency mode \n"
-  remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  Enum.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value ((short)0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual DashTileCurrencyMode CurrencyMode { get; set; }
     parameters: []
@@ -2794,6 +2827,10 @@ items:
       type: SuperOffice.Data.DashTileCurrencyMode
     content.vb: Public Overridable Property CurrencyMode As DashTileCurrencyMode
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyMode*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2820,7 +2857,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: string. Sort by field \n"
-  remarks: "\nOriginal type in dictionary:  String[256].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  String[256].\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual string SortBy { get; set; }
     parameters: []
@@ -2828,6 +2865,10 @@ items:
       type: System.String
     content.vb: Public Overridable Property SortBy As String
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SortBy*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2854,7 +2895,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: DashTileMeasure. Dashboard measure type (Count, Sum, Avg, etc.) \n"
-  remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  Enum.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value ((short)0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual DashTileMeasure Measure { get; set; }
     parameters: []
@@ -2862,6 +2903,10 @@ items:
       type: SuperOffice.Data.DashTileMeasure
     content.vb: Public Overridable Property Measure As DashTileMeasure
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Measure*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2888,7 +2933,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: string. Field to be measured \n"
-  remarks: "\nOriginal type in dictionary:  String[256].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  String[256].\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual string MeasureField { get; set; }
     parameters: []
@@ -2896,6 +2941,10 @@ items:
       type: System.String
     content.vb: Public Overridable Property MeasureField As String
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.MeasureField*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2922,7 +2971,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Selection holding the replaced or changed criterias (period comparisons etc) \n"
-  remarks: "\nOriginal type in dictionary:  FK.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  FK.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (0)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual int SecondarySelectionId { get; set; }
     parameters: []
@@ -2930,6 +2979,10 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SecondarySelectionId As Integer
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SecondarySelectionId*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2956,7 +3009,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: string. The JSON formatted layout config \n"
-  remarks: "\nOriginal type in dictionary:  Clob.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  Clob.\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual string LayoutConfig { get; set; }
     parameters: []
@@ -2964,6 +3017,10 @@ items:
       type: System.String
     content.vb: Public Overridable Property LayoutConfig As String
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.LayoutConfig*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -2990,7 +3047,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: string. The entity measured by this tile, defines what provider to use \n"
-  remarks: "\nOriginal type in dictionary:  String[256].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  String[256].\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual string EntityName { get; set; }
     parameters: []
@@ -2998,6 +3055,10 @@ items:
       type: System.String
     content.vb: Public Overridable Property EntityName As String
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.EntityName*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -3024,7 +3085,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: string. Field to group by \n"
-  remarks: "\nOriginal type in dictionary:  String[256].\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  remarks: "\nOriginal type in dictionary:  String[256].\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
     content: public virtual string MeasureByField { get; set; }
     parameters: []
@@ -3032,6 +3093,10 @@ items:
       type: System.String
     content.vb: Public Overridable Property MeasureByField As String
   overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.MeasureByField*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
   - virtual
@@ -3040,1140 +3105,78 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onNameChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onNameChange
-  id: _onNameChange
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode
+  commentId: P:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode
+  id: CurrencyCode
   parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
   langs:
   - csharp
   - vb
-  name: _onNameChange
-  nameWithType: DashboardTileDefinitionRow._onNameChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onNameChange
-  type: Event
+  name: CurrencyCode
+  nameWithType: DashboardTileDefinitionRow.CurrencyCode
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode
+  type: Property
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Name\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
+  summary: "\n.NET type: string. Currency code \n"
+  remarks: "\nOriginal type in dictionary:  String[4].\n<p>You need to have Read access to get the value of this field. If you do not have access, you will get a blank value (string.Empty)</p>\n<p>You need to have Write access to set this field to a new value (Sentry will throw exception otherwise)</p>\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n"
   syntax:
-    content: protected event OnFieldChange<string> _onNameChange
+    content: public virtual string CurrencyCode { get; set; }
+    parameters: []
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDescriptionChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDescriptionChange
-  id: _onDescriptionChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onDescriptionChange
-  nameWithType: DashboardTileDefinitionRow._onDescriptionChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDescriptionChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Description\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onDescriptionChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onDescriptionChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultWidthChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultWidthChange
-  id: _onDefaultWidthChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onDefaultWidthChange
-  nameWithType: DashboardTileDefinitionRow._onDefaultWidthChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultWidthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DefaultWidth\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onDefaultWidthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onDefaultWidthChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultHeightChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultHeightChange
-  id: _onDefaultHeightChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onDefaultHeightChange
-  nameWithType: DashboardTileDefinitionRow._onDefaultHeightChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onDefaultHeightChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.DefaultHeight\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onDefaultHeightChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onDefaultHeightChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onTileTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onTileTypeChange
-  id: _onTileTypeChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onTileTypeChange
-  nameWithType: DashboardTileDefinitionRow._onTileTypeChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onTileTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.TileType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DashTileType> _onTileTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileType}
-    content.vb: Protected Event _onTileTypeChange As OnFieldChange(Of DashTileType)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityTypeChange
-  id: _onEntityTypeChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onEntityTypeChange
-  nameWithType: DashboardTileDefinitionRow._onEntityTypeChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.EntityType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DashTileEntityType> _onEntityTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileEntityType}
-    content.vb: Protected Event _onEntityTypeChange As OnFieldChange(Of DashTileEntityType)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredChange
-  id: _onRegisteredChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredChange
-  nameWithType: DashboardTileDefinitionRow._onRegisteredChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Registered\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredAssociateIdChange
-  id: _onRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredAssociateIdChange
-  nameWithType: DashboardTileDefinitionRow._onRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.RegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedChange
-  id: _onUpdatedChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedChange
-  nameWithType: DashboardTileDefinitionRow._onUpdatedChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Updated\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedAssociateIdChange
-  id: _onUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedAssociateIdChange
-  nameWithType: DashboardTileDefinitionRow._onUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.UpdatedAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedCountChange
-  id: _onUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedCountChange
-  nameWithType: DashboardTileDefinitionRow._onUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.UpdatedCount\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSelectionIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSelectionIdChange
-  id: _onSelectionIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onSelectionIdChange
-  nameWithType: DashboardTileDefinitionRow._onSelectionIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSelectionIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SelectionId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onSelectionIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onSelectionIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyIdChange
-  id: _onCurrencyIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCurrencyIdChange
-  nameWithType: DashboardTileDefinitionRow._onCurrencyIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onCurrencyIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onCurrencyIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyModeChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyModeChange
-  id: _onCurrencyModeChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onCurrencyModeChange
-  nameWithType: DashboardTileDefinitionRow._onCurrencyModeChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onCurrencyModeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyMode\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DashTileCurrencyMode> _onCurrencyModeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileCurrencyMode}
-    content.vb: Protected Event _onCurrencyModeChange As OnFieldChange(Of DashTileCurrencyMode)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSortByChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSortByChange
-  id: _onSortByChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onSortByChange
-  nameWithType: DashboardTileDefinitionRow._onSortByChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSortByChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SortBy\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onSortByChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onSortByChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureChange
-  id: _onMeasureChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onMeasureChange
-  nameWithType: DashboardTileDefinitionRow._onMeasureChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Measure\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DashTileMeasure> _onMeasureChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileMeasure}
-    content.vb: Protected Event _onMeasureChange As OnFieldChange(Of DashTileMeasure)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureFieldChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureFieldChange
-  id: _onMeasureFieldChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onMeasureFieldChange
-  nameWithType: DashboardTileDefinitionRow._onMeasureFieldChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureFieldChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.MeasureField\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onMeasureFieldChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onMeasureFieldChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSecondarySelectionIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSecondarySelectionIdChange
-  id: _onSecondarySelectionIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onSecondarySelectionIdChange
-  nameWithType: DashboardTileDefinitionRow._onSecondarySelectionIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onSecondarySelectionIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SecondarySelectionId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onSecondarySelectionIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onSecondarySelectionIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onLayoutConfigChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onLayoutConfigChange
-  id: _onLayoutConfigChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onLayoutConfigChange
-  nameWithType: DashboardTileDefinitionRow._onLayoutConfigChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onLayoutConfigChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.LayoutConfig\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onLayoutConfigChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onLayoutConfigChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityNameChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityNameChange
-  id: _onEntityNameChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onEntityNameChange
-  nameWithType: DashboardTileDefinitionRow._onEntityNameChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onEntityNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.EntityName\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onEntityNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onEntityNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureByFieldChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureByFieldChange
-  id: _onMeasureByFieldChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: _onMeasureByFieldChange
-  nameWithType: DashboardTileDefinitionRow._onMeasureByFieldChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow._onMeasureByFieldChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DashboardTileDefinitionRow.MeasureByField\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onMeasureByFieldChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onMeasureByFieldChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnNameChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnNameChange
-  id: OnNameChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnNameChange
-  nameWithType: DashboardTileDefinitionRow.OnNameChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Name is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnNameChange As OnFieldChange(Of String)
+      type: System.String
+    content.vb: Public Overridable Property CurrencyCode As String
+  overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if the set method is accessed without having the Write access right to the field
   modifiers.csharp:
   - public
+  - virtual
+  - get
+  - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDescriptionChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDescriptionChange
-  id: OnDescriptionChange
+  - Overridable
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage
+  commentId: P:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage
+  id: Usage
   parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
   langs:
   - csharp
   - vb
-  name: OnDescriptionChange
-  nameWithType: DashboardTileDefinitionRow.OnDescriptionChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDescriptionChange
-  type: Event
+  name: Usage
+  nameWithType: DashboardTileDefinitionRow.Usage
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage
+  type: Property
   source:
     path: SoDataBase
     isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Description is changing.\n"
+  summary: "\n.NET type: DashTileUsage. Where this tile can be used \n"
+  remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
   syntax:
-    content: public event OnFieldChange<string> OnDescriptionChange
+    content: public virtual DashTileUsage Usage { get; set; }
+    parameters: []
     return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnDescriptionChange As OnFieldChange(Of String)
+      type: SuperOffice.Data.DashTileUsage
+    content.vb: Public Overridable Property Usage As DashTileUsage
+  overload: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage*
   modifiers.csharp:
   - public
+  - virtual
+  - get
+  - set
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultWidthChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultWidthChange
-  id: OnDefaultWidthChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnDefaultWidthChange
-  nameWithType: DashboardTileDefinitionRow.OnDefaultWidthChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultWidthChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when DefaultWidth is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnDefaultWidthChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnDefaultWidthChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultHeightChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultHeightChange
-  id: OnDefaultHeightChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnDefaultHeightChange
-  nameWithType: DashboardTileDefinitionRow.OnDefaultHeightChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnDefaultHeightChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when DefaultHeight is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnDefaultHeightChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnDefaultHeightChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnTileTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnTileTypeChange
-  id: OnTileTypeChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnTileTypeChange
-  nameWithType: DashboardTileDefinitionRow.OnTileTypeChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnTileTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when TileType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DashTileType> OnTileTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileType}
-    content.vb: Public Event OnTileTypeChange As OnFieldChange(Of DashTileType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityTypeChange
-  id: OnEntityTypeChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnEntityTypeChange
-  nameWithType: DashboardTileDefinitionRow.OnEntityTypeChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when EntityType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DashTileEntityType> OnEntityTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileEntityType}
-    content.vb: Public Event OnEntityTypeChange As OnFieldChange(Of DashTileEntityType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredChange
-  id: OnRegisteredChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredChange
-  nameWithType: DashboardTileDefinitionRow.OnRegisteredChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Registered is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredAssociateIdChange
-  id: OnRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredAssociateIdChange
-  nameWithType: DashboardTileDefinitionRow.OnRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RegisteredAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedChange
-  id: OnUpdatedChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedChange
-  nameWithType: DashboardTileDefinitionRow.OnUpdatedChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Updated is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedAssociateIdChange
-  id: OnUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedAssociateIdChange
-  nameWithType: DashboardTileDefinitionRow.OnUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedCountChange
-  id: OnUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedCountChange
-  nameWithType: DashboardTileDefinitionRow.OnUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedCount is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSelectionIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSelectionIdChange
-  id: OnSelectionIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnSelectionIdChange
-  nameWithType: DashboardTileDefinitionRow.OnSelectionIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSelectionIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SelectionId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnSelectionIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnSelectionIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyIdChange
-  id: OnCurrencyIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCurrencyIdChange
-  nameWithType: DashboardTileDefinitionRow.OnCurrencyIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CurrencyId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnCurrencyIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnCurrencyIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyModeChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyModeChange
-  id: OnCurrencyModeChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnCurrencyModeChange
-  nameWithType: DashboardTileDefinitionRow.OnCurrencyModeChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnCurrencyModeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when CurrencyMode is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DashTileCurrencyMode> OnCurrencyModeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileCurrencyMode}
-    content.vb: Public Event OnCurrencyModeChange As OnFieldChange(Of DashTileCurrencyMode)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSortByChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSortByChange
-  id: OnSortByChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnSortByChange
-  nameWithType: DashboardTileDefinitionRow.OnSortByChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSortByChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SortBy is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnSortByChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnSortByChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureChange
-  id: OnMeasureChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnMeasureChange
-  nameWithType: DashboardTileDefinitionRow.OnMeasureChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Measure is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DashTileMeasure> OnMeasureChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileMeasure}
-    content.vb: Public Event OnMeasureChange As OnFieldChange(Of DashTileMeasure)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureFieldChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureFieldChange
-  id: OnMeasureFieldChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnMeasureFieldChange
-  nameWithType: DashboardTileDefinitionRow.OnMeasureFieldChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureFieldChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when MeasureField is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnMeasureFieldChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnMeasureFieldChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSecondarySelectionIdChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSecondarySelectionIdChange
-  id: OnSecondarySelectionIdChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnSecondarySelectionIdChange
-  nameWithType: DashboardTileDefinitionRow.OnSecondarySelectionIdChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnSecondarySelectionIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SecondarySelectionId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnSecondarySelectionIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnSecondarySelectionIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnLayoutConfigChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnLayoutConfigChange
-  id: OnLayoutConfigChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnLayoutConfigChange
-  nameWithType: DashboardTileDefinitionRow.OnLayoutConfigChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnLayoutConfigChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when LayoutConfig is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnLayoutConfigChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnLayoutConfigChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityNameChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityNameChange
-  id: OnEntityNameChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnEntityNameChange
-  nameWithType: DashboardTileDefinitionRow.OnEntityNameChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnEntityNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when EntityName is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnEntityNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnEntityNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureByFieldChange
-  commentId: E:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureByFieldChange
-  id: OnMeasureByFieldChange
-  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
-  langs:
-  - csharp
-  - vb
-  name: OnMeasureByFieldChange
-  nameWithType: DashboardTileDefinitionRow.OnMeasureByFieldChange
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.OnMeasureByFieldChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when MeasureByField is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnMeasureByFieldChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnMeasureByFieldChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -4251,13 +3254,6 @@ references:
   name: _sentries
   nameWithType: TableRowBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowBase._sentries
-- uid: SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  commentId: F:SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: _onValueChange
-  nameWithType: TableRowBase._onValueChange
-  fullName: SuperOffice.CRM.Rows.TableRowBase._onValueChange
 - uid: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -4265,6 +3261,13 @@ references:
   name: _relatedNestedPersistMembers
   nameWithType: TableRowBase._relatedNestedPersistMembers
   fullName: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+- uid: SuperOffice.CRM.Rows.TableRowBase._isSaving
+  commentId: F:SuperOffice.CRM.Rows.TableRowBase._isSaving
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: _isSaving
+  nameWithType: TableRowBase._isSaving
+  fullName: SuperOffice.CRM.Rows.TableRowBase._isSaving
 - uid: SuperOffice.CRM.Rows.TableRowBase._sqlType
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._sqlType
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5003,6 +4006,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5719,13 +4886,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: OnValueChanged
-  nameWithType: TableRowBase.OnValueChanged
-  fullName: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5771,6 +4931,88 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -5802,6 +5044,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   commentId: E:SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -5816,6 +5122,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -6198,254 +5511,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -6579,6 +5644,37 @@ references:
     name: ExecuteNonQuery
     nameWithType: QueryExectionExtensions.ExecuteNonQuery
     fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileDefinitionRow)
+  parent: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileDefinitionRow)
+  name: ToRecordData()
+  nameWithType: DashboardTileDefinitionRecordDataExtensions.ToRecordData()
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
     isExternal: true
   - name: (
     nameWithType: (
@@ -6835,6 +5931,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileDefinitionRow)
+  commentId: M:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileDefinitionRow)
+  isExternal: true
+  name: ToRecordData(DashboardTileDefinitionRow)
+  nameWithType: DashboardTileDefinitionRecordDataExtensions.ToRecordData(DashboardTileDefinitionRow)
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileDefinitionRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileDefinitionRow)
+    name: ToRecordData
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DashboardTileDefinitionRow)
+    name: ToRecordData
+    nameWithType: DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    name: DashboardTileDefinitionRow
+    nameWithType: DashboardTileDefinitionRow
+    fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DashboardTileDefinitionRecordDataExtensions
+  nameWithType: DashboardTileDefinitionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -6916,8 +6059,6 @@ references:
   nameWithType: DashTileEntityType
   fullName: SuperOffice.Data.DashTileEntityType
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -6943,6 +6084,13 @@ references:
   name: DashTileMeasure
   nameWithType: DashTileMeasure
   fullName: SuperOffice.Data.DashTileMeasure
+- uid: SuperOffice.Data.DashTileUsage
+  commentId: T:SuperOffice.Data.DashTileUsage
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: SuperOffice.Data.DashTileUsage
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7242,37 +6390,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.ToString
   isExternal: true
@@ -7785,6 +6902,12 @@ references:
   name: Name
   nameWithType: DashboardTileDefinitionRow.Name
   fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Name
+- uid: SuperOffice.Exceptions.SoSentryException
+  commentId: T:SuperOffice.Exceptions.SoSentryException
+  isExternal: true
+  name: SoSentryException
+  nameWithType: SoSentryException
+  fullName: SuperOffice.Exceptions.SoSentryException
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Description*
   commentId: Overload:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Description
   isExternal: true
@@ -7851,12 +6974,6 @@ references:
   name: SelectionId
   nameWithType: DashboardTileDefinitionRow.SelectionId
   fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.SelectionId
-- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId*
-  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId
-  isExternal: true
-  name: CurrencyId
-  nameWithType: DashboardTileDefinitionRow.CurrencyId
-  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyId
 - uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyMode*
   commentId: Overload:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyMode
   isExternal: true
@@ -7905,394 +7022,15 @@ references:
   name: MeasureByField
   nameWithType: DashboardTileDefinitionRow.MeasureByField
   fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.MeasureByField
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<String>
-  nameWithType: OnFieldChange<String>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.String>
-  nameWithType.vb: OnFieldChange(Of String)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.String)
-  name.vb: OnFieldChange(Of String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange`1
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode
   isExternal: true
-  name: OnFieldChange<TValue>
-  nameWithType: OnFieldChange<TValue>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  nameWithType.vb: OnFieldChange(Of TValue)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
-  name.vb: OnFieldChange(Of TValue)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int32>
-  nameWithType: OnFieldChange<Int32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
-  nameWithType.vb: OnFieldChange(Of Int32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
-  name.vb: OnFieldChange(Of Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileType}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileType}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DashTileType>
-  nameWithType: OnFieldChange<DashTileType>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DashTileType>
-  nameWithType.vb: OnFieldChange(Of DashTileType)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DashTileType)
-  name.vb: OnFieldChange(Of DashTileType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    nameWithType: DashTileType
-    fullName: SuperOffice.Data.DashTileType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    nameWithType: DashTileType
-    fullName: SuperOffice.Data.DashTileType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileEntityType}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileEntityType}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DashTileEntityType>
-  nameWithType: OnFieldChange<DashTileEntityType>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DashTileEntityType>
-  nameWithType.vb: OnFieldChange(Of DashTileEntityType)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DashTileEntityType)
-  name.vb: OnFieldChange(Of DashTileEntityType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DashTileEntityType
-    name: DashTileEntityType
-    nameWithType: DashTileEntityType
-    fullName: SuperOffice.Data.DashTileEntityType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DashTileEntityType
-    name: DashTileEntityType
-    nameWithType: DashTileEntityType
-    fullName: SuperOffice.Data.DashTileEntityType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DateTime>
-  nameWithType: OnFieldChange<DateTime>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
-  nameWithType.vb: OnFieldChange(Of DateTime)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
-  name.vb: OnFieldChange(Of DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileCurrencyMode}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileCurrencyMode}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DashTileCurrencyMode>
-  nameWithType: OnFieldChange<DashTileCurrencyMode>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DashTileCurrencyMode>
-  nameWithType.vb: OnFieldChange(Of DashTileCurrencyMode)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DashTileCurrencyMode)
-  name.vb: OnFieldChange(Of DashTileCurrencyMode)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DashTileCurrencyMode
-    name: DashTileCurrencyMode
-    nameWithType: DashTileCurrencyMode
-    fullName: SuperOffice.Data.DashTileCurrencyMode
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DashTileCurrencyMode
-    name: DashTileCurrencyMode
-    nameWithType: DashTileCurrencyMode
-    fullName: SuperOffice.Data.DashTileCurrencyMode
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileMeasure}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DashTileMeasure}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DashTileMeasure>
-  nameWithType: OnFieldChange<DashTileMeasure>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DashTileMeasure>
-  nameWithType.vb: OnFieldChange(Of DashTileMeasure)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DashTileMeasure)
-  name.vb: OnFieldChange(Of DashTileMeasure)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DashTileMeasure
-    name: DashTileMeasure
-    nameWithType: DashTileMeasure
-    fullName: SuperOffice.Data.DashTileMeasure
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DashTileMeasure
-    name: DashTileMeasure
-    nameWithType: DashTileMeasure
-    fullName: SuperOffice.Data.DashTileMeasure
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: CurrencyCode
+  nameWithType: DashboardTileDefinitionRow.CurrencyCode
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.CurrencyCode
+- uid: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage*
+  commentId: Overload:SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage
+  isExternal: true
+  name: Usage
+  nameWithType: DashboardTileDefinitionRow.Usage
+  fullName: SuperOffice.CRM.Rows.DashboardTileDefinitionRow.Usage

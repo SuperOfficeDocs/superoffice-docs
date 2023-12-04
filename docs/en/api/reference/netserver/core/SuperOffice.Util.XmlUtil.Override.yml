@@ -7,13 +7,14 @@ items:
   children:
   - SuperOffice.Util.XmlUtil.Override.DoNotOverride
   - SuperOffice.Util.XmlUtil.Override.Override
+  - SuperOffice.Util.XmlUtil.Override.value__
   langs:
   - csharp
   - vb
   name: XmlUtil.Override
   nameWithType: XmlUtil.Override
   fullName: SuperOffice.Util.XmlUtil.Override
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -22,19 +23,54 @@ items:
   namespace: SuperOffice.Util
   summary: "\nShould existing values be overridden or not\n"
   syntax:
-    content: public enum Override
-    content.vb: Public Enum Override
+    content: 'public sealed class Override : Enum'
+    content.vb: >-
+      Public NotInheritable Class Override
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Util.XmlUtil.Override.EnumUtil.MapEnums``2
-  - SuperOffice.Util.XmlUtil.Override.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.XmlUtil.Override)
-  - SuperOffice.Util.XmlUtil.Override.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Util.XmlUtil.Override.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Util.XmlUtil.Override.value__
+  commentId: F:SuperOffice.Util.XmlUtil.Override.value__
+  id: value__
+  parent: SuperOffice.Util.XmlUtil.Override
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: XmlUtil.Override.value__
+  fullName: SuperOffice.Util.XmlUtil.Override.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.XmlUtil.Override.Override
   commentId: F:SuperOffice.Util.XmlUtil.Override.Override
   id: Override
@@ -54,9 +90,10 @@ items:
   namespace: SuperOffice.Util
   summary: "\nOverride any existing value\n"
   syntax:
-    content: Override = 0
+    content: public const XmlUtil.Override Override
     return:
       type: SuperOffice.Util.XmlUtil.Override
+    content.vb: Public Const Override As XmlUtil.Override
   modifiers.csharp:
   - public
   - const
@@ -82,9 +119,10 @@ items:
   namespace: SuperOffice.Util
   summary: "\nDo not override an existing value (no update will be made)\n"
   syntax:
-    content: DoNotOverride = 1
+    content: public const XmlUtil.Override DoNotOverride
     return:
       type: SuperOffice.Util.XmlUtil.Override
+    content.vb: Public Const DoNotOverride As XmlUtil.Override
   modifiers.csharp:
   - public
   - const
@@ -98,6 +136,13 @@ references:
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.XmlUtil.Override.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -125,84 +170,6 @@ references:
     name: MapEnums(Of XmlUtil.Override, To)
     nameWithType: EnumUtil.MapEnums(Of XmlUtil.Override, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Util.XmlUtil.Override, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.XmlUtil.Override.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.XmlUtil.Override)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<XmlUtil.Override>(XmlUtil.Override)
-  nameWithType: ObjectExtensions.AssignByReflection<XmlUtil.Override>(XmlUtil.Override)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.XmlUtil.Override>(SuperOffice.Util.XmlUtil.Override)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of XmlUtil.Override)(XmlUtil.Override)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.XmlUtil.Override)(SuperOffice.Util.XmlUtil.Override)
-  name.vb: AssignByReflection(Of XmlUtil.Override)(XmlUtil.Override)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<XmlUtil.Override>
-    nameWithType: ObjectExtensions.AssignByReflection<XmlUtil.Override>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.XmlUtil.Override>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Util.XmlUtil.Override
-    name: XmlUtil.Override
-    nameWithType: XmlUtil.Override
-    fullName: SuperOffice.Util.XmlUtil.Override
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of XmlUtil.Override)
-    nameWithType: ObjectExtensions.AssignByReflection(Of XmlUtil.Override)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.XmlUtil.Override)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Util.XmlUtil.Override
-    name: XmlUtil.Override
-    nameWithType: XmlUtil.Override
-    fullName: SuperOffice.Util.XmlUtil.Override
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.XmlUtil.Override.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<XmlUtil.Override>()
-  nameWithType: ObjectExtensions.GraphCopy<XmlUtil.Override>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.XmlUtil.Override>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of XmlUtil.Override)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.XmlUtil.Override)()
-  name.vb: GraphCopy(Of XmlUtil.Override)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<XmlUtil.Override>
-    nameWithType: ObjectExtensions.GraphCopy<XmlUtil.Override>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.XmlUtil.Override>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of XmlUtil.Override)
-    nameWithType: ObjectExtensions.GraphCopy(Of XmlUtil.Override)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.XmlUtil.Override)
     isExternal: true
   - name: (
     nameWithType: (
@@ -244,6 +211,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -289,103 +262,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -438,6 +314,13 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Util.XmlUtil.Override
   commentId: T:SuperOffice.Util.XmlUtil.Override
   parent: SuperOffice.Util

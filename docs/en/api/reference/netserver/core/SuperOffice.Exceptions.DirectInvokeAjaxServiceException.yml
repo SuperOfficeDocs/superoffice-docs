@@ -1,0 +1,346 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  commentId: T:SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  id: DirectInvokeAjaxServiceException
+  parent: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor(System.Int32,System.String)
+  - SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor(System.Net.HttpStatusCode,System.String)
+  - SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode
+  langs:
+  - csharp
+  - vb
+  name: DirectInvokeAjaxServiceException
+  nameWithType: DirectInvokeAjaxServiceException
+  fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: 'public class DirectInvokeAjaxServiceException : Exception'
+    content.vb: >-
+      Public Class DirectInvokeAjaxServiceException
+
+          Inherits Exception
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Exceptions.DirectInvokeAjaxServiceException.EnumUtil.MapEnums``2
+  - SuperOffice.Exceptions.DirectInvokeAjaxServiceException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor(System.Net.HttpStatusCode,System.String)
+  commentId: M:SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor(System.Net.HttpStatusCode,System.String)
+  id: '#ctor(System.Net.HttpStatusCode,System.String)'
+  parent: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  langs:
+  - csharp
+  - vb
+  name: DirectInvokeAjaxServiceException(HttpStatusCode, String)
+  nameWithType: DirectInvokeAjaxServiceException.DirectInvokeAjaxServiceException(HttpStatusCode, String)
+  fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.DirectInvokeAjaxServiceException(System.Net.HttpStatusCode, System.String)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public DirectInvokeAjaxServiceException(HttpStatusCode httpStatusCode, string message)
+    parameters:
+    - id: httpStatusCode
+      type: System.Net.HttpStatusCode
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(httpStatusCode As HttpStatusCode, message As String)
+  overload: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor(System.Int32,System.String)
+  commentId: M:SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor(System.Int32,System.String)
+  id: '#ctor(System.Int32,System.String)'
+  parent: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  langs:
+  - csharp
+  - vb
+  name: DirectInvokeAjaxServiceException(Int32, String)
+  nameWithType: DirectInvokeAjaxServiceException.DirectInvokeAjaxServiceException(Int32, String)
+  fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.DirectInvokeAjaxServiceException(System.Int32, System.String)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public DirectInvokeAjaxServiceException(int code, string message)
+    parameters:
+    - id: code
+      type: System.Int32
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(code As Integer, message As String)
+  overload: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode
+  commentId: P:SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode
+  id: HttpStatusCode
+  parent: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
+  langs:
+  - csharp
+  - vb
+  name: HttpStatusCode
+  nameWithType: DirectInvokeAjaxServiceException.HttpStatusCode
+  fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public HttpStatusCode HttpStatusCode { get; set; }
+    parameters: []
+    return:
+      type: System.Net.HttpStatusCode
+    content.vb: Public Property HttpStatusCode As HttpStatusCode
+  overload: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DirectInvokeAjaxServiceException, To>()
+  nameWithType: EnumUtil.MapEnums<DirectInvokeAjaxServiceException, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DirectInvokeAjaxServiceException, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To)()
+  name.vb: MapEnums(Of DirectInvokeAjaxServiceException, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DirectInvokeAjaxServiceException, To>
+    nameWithType: EnumUtil.MapEnums<DirectInvokeAjaxServiceException, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DirectInvokeAjaxServiceException, To)
+    nameWithType: EnumUtil.MapEnums(Of DirectInvokeAjaxServiceException, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DirectInvokeAjaxServiceException, To>()
+  nameWithType: Converters.MapEnums<DirectInvokeAjaxServiceException, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To>()
+  nameWithType.vb: Converters.MapEnums(Of DirectInvokeAjaxServiceException, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To)()
+  name.vb: MapEnums(Of DirectInvokeAjaxServiceException, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DirectInvokeAjaxServiceException, To>
+    nameWithType: Converters.MapEnums<DirectInvokeAjaxServiceException, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DirectInvokeAjaxServiceException, To)
+    nameWithType: Converters.MapEnums(Of DirectInvokeAjaxServiceException, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.DirectInvokeAjaxServiceException, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor*
+  commentId: Overload:SuperOffice.Exceptions.DirectInvokeAjaxServiceException.#ctor
+  isExternal: true
+  name: DirectInvokeAjaxServiceException
+  nameWithType: DirectInvokeAjaxServiceException.DirectInvokeAjaxServiceException
+  fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.DirectInvokeAjaxServiceException
+- uid: System.Net.HttpStatusCode
+  isExternal: true
+  name: HttpStatusCode
+  nameWithType: HttpStatusCode
+  fullName: System.Net.HttpStatusCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode*
+  commentId: Overload:SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode
+  isExternal: true
+  name: HttpStatusCode
+  nameWithType: DirectInvokeAjaxServiceException.HttpStatusCode
+  fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.HttpStatusCode

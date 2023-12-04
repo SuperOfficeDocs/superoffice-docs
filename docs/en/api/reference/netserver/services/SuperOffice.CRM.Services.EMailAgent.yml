@@ -57,6 +57,7 @@ items:
   - SuperOffice.CRM.Services.EMailAgent.GetEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
   - SuperOffice.CRM.Services.EMailAgent.GetEmailsAsString(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String[])
   - SuperOffice.CRM.Services.EMailAgent.GetEMailSOInfo(System.Int32)
+  - SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
   - SuperOffice.CRM.Services.EMailAgent.GetFolderEMailCount(SuperOffice.CRM.Services.EMailConnectionInfo,System.Boolean)
   - SuperOffice.CRM.Services.EMailAgent.GetFolderHasNewEMail(SuperOffice.CRM.Services.EMailConnectionInfo)
   - SuperOffice.CRM.Services.EMailAgent.GetFolderInfo(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[])
@@ -79,6 +80,7 @@ items:
   - SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedPreviewAttachmentFromId(System.Int32,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.EMailAgent.HasMXRecord(System.String)
   - SuperOffice.CRM.Services.EMailAgent.HasNewMail(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.EMailAgent.HasSPFRecord(System.String,System.String)
   - SuperOffice.CRM.Services.EMailAgent.LatestItemIdByFolder(System.Int32)
   - SuperOffice.CRM.Services.EMailAgent.MarkAsRead(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.Boolean)
   - SuperOffice.CRM.Services.EMailAgent.MarkEmailsAsRead(System.Int32[],System.Boolean)
@@ -88,6 +90,7 @@ items:
   - SuperOffice.CRM.Services.EMailAgent.RefreshFolder(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[])
   - SuperOffice.CRM.Services.EMailAgent.RefreshFolderForAssociate(System.String[])
   - SuperOffice.CRM.Services.EMailAgent.RelayMessage(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String,System.String,System.String[])
+  - SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients(System.String)
   - SuperOffice.CRM.Services.EMailAgent.Save(SuperOffice.CRM.Services.EMailEntity)
   - SuperOffice.CRM.Services.EMailAgent.SaveDraft(SuperOffice.CRM.Services.EMailEntity)
   - SuperOffice.CRM.Services.EMailAgent.SaveEMail(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailEntity)
@@ -137,19 +140,110 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IEMailAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IEMailAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
+  id: CreateDefaultEMailAccount
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultEMailAccount()
+  nameWithType: EMailAgent.CreateDefaultEMailAccount()
+  fullName: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new EMailAccount.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public EMailAccount CreateDefaultEMailAccount()
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: New EMailAccount with default values
+    content.vb: Public Function CreateDefaultEMailAccount As EMailAccount
+  overload: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  id: SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveEMailAccount(EMailAccount)
+  nameWithType: EMailAgent.SaveEMailAccount(EMailAccount)
+  fullName: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty\n"
+  syntax:
+    content: public EMailAccount SaveEMailAccount(EMailAccount eMailAccount)
+    parameters:
+    - id: eMailAccount
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: The EMailAccount that is saved.
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: New or updated EMailAccount
+    content.vb: Public Function SaveEMailAccount(eMailAccount As EMailAccount) As EMailAccount
+  overload: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount(System.Int32)
+  id: DeleteEMailAccount(System.Int32)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteEMailAccount(Int32)
+  nameWithType: EMailAgent.DeleteEMailAccount(Int32)
+  fullName: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the EMailAccount\n"
+  syntax:
+    content: public void DeleteEMailAccount(int eMailAccountId)
+    parameters:
+    - id: eMailAccountId
+      type: System.Int32
+      description: The identity of the EMailAccount
+    content.vb: Public Sub DeleteEMailAccount(eMailAccountId As Integer)
+  overload: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAddress
   commentId: M:SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAddress
   id: CreateDefaultEMailAddress
@@ -460,16 +554,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
-  commentId: M:SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
-  id: CreateDefaultEMailAccount
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailAccount(System.Int32)
+  id: GetEMailAccount(System.Int32)
   parent: SuperOffice.CRM.Services.EMailAgent
   langs:
   - csharp
   - vb
-  name: CreateDefaultEMailAccount()
-  nameWithType: EMailAgent.CreateDefaultEMailAccount()
-  fullName: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount()
+  name: GetEMailAccount(Int32)
+  nameWithType: EMailAgent.GetEMailAccount(Int32)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount(System.Int32)
   type: Method
   source:
     path: SuperOffice.Services
@@ -477,83 +571,117 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "\nLoading default values into a new EMailAccount.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  summary: "\nGets a EMailAccount object.                        \n"
   syntax:
-    content: public EMailAccount CreateDefaultEMailAccount()
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: New EMailAccount with default values
-    content.vb: Public Function CreateDefaultEMailAccount As EMailAccount
-  overload: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount*
-  implements:
-  - SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  commentId: M:SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  id: SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  parent: SuperOffice.CRM.Services.EMailAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveEMailAccount(EMailAccount)
-  nameWithType: EMailAgent.SaveEMailAccount(EMailAccount)
-  fullName: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nUpdates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty\n"
-  syntax:
-    content: public EMailAccount SaveEMailAccount(EMailAccount eMailAccount)
-    parameters:
-    - id: eMailAccount
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: The EMailAccount that is saved.
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: New or updated EMailAccount
-    content.vb: Public Function SaveEMailAccount(eMailAccount As EMailAccount) As EMailAccount
-  overload: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount*
-  implements:
-  - SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount(System.Int32)
-  id: DeleteEMailAccount(System.Int32)
-  parent: SuperOffice.CRM.Services.EMailAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteEMailAccount(Int32)
-  nameWithType: EMailAgent.DeleteEMailAccount(Int32)
-  fullName: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the EMailAccount\n"
-  syntax:
-    content: public void DeleteEMailAccount(int eMailAccountId)
+    content: public EMailAccount GetEMailAccount(int eMailAccountId)
     parameters:
     - id: eMailAccountId
       type: System.Int32
-      description: The identity of the EMailAccount
-    content.vb: Public Sub DeleteEMailAccount(eMailAccountId As Integer)
-  overload: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount*
+      description: The identifier of the EMailAccount object
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: EMailAccount
+    content.vb: Public Function GetEMailAccount(eMailAccountId As Integer) As EMailAccount
+  overload: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount*
   implements:
-  - SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  - SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  id: GetEMailAccountFromEMailAddress(System.String)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAccountFromEMailAddress(String)
+  nameWithType: EMailAgent.GetEMailAccountFromEMailAddress(String)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the email account corresponding to this email address (for the current associate).\n"
+  syntax:
+    content: public EMailAccount GetEMailAccountFromEMailAddress(string fromAddress)
+    parameters:
+    - id: fromAddress
+      type: System.String
+      description: The address associated with this email account
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: Found or empty email account
+    content.vb: Public Function GetEMailAccountFromEMailAddress(fromAddress As String) As EMailAccount
+  overload: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
+  id: GetCurrentAccountId
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentAccountId()
+  nameWithType: EMailAgent.GetCurrentAccountId()
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet current accountId (last logged into should normally be current) for logged in associate\n"
+  syntax:
+    content: public int GetCurrentAccountId()
+    return:
+      type: System.Int32
+      description: Id of current account
+    content.vb: Public Function GetCurrentAccountId As Integer
+  overload: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
+  id: GetCurrentAccount
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentAccount()
+  nameWithType: EMailAgent.GetCurrentAccount()
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet current account (last logged into should normally be current) for logged in associate\n"
+  syntax:
+    content: public EMailAccount GetCurrentAccount()
+    return:
+      type: SuperOffice.CRM.Services.EMailAccount
+      description: Id of current account
+    content.vb: Public Function GetCurrentAccount As EMailAccount
+  overload: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -657,6 +785,79 @@ items:
   overload: SuperOffice.CRM.Services.EMailAgent.HasMXRecord*
   implements:
   - SuperOffice.CRM.Services.IEMailAgent.HasMXRecord(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.HasSPFRecord(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.HasSPFRecord(System.String,System.String)
+  id: HasSPFRecord(System.String,System.String)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: HasSPFRecord(String, String)
+  nameWithType: EMailAgent.HasSPFRecord(String, String)
+  fullName: SuperOffice.CRM.Services.EMailAgent.HasSPFRecord(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn true if target domain contains a SPF record which is under the given SPF record\n"
+  syntax:
+    content: public bool HasSPFRecord(string sourceSpf, string targetDomain)
+    parameters:
+    - id: sourceSpf
+      type: System.String
+      description: The SPF to match from
+    - id: targetDomain
+      type: System.String
+      description: The domain to verify if it has at least one SPF record contained in the source SPF
+    return:
+      type: System.Boolean
+      description: True if a match is found
+    content.vb: Public Function HasSPFRecord(sourceSpf As String, targetDomain As String) As Boolean
+  overload: SuperOffice.CRM.Services.EMailAgent.HasSPFRecord*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients(System.String)
+  id: ResolveEMailRecipients(System.String)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: ResolveEMailRecipients(String)
+  nameWithType: EMailAgent.ResolveEMailRecipients(String)
+  fullName: SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nResolve separate emails from single string. Also lookup persons by emails.\n"
+  syntax:
+    content: public EMailAddress[] ResolveEMailRecipients(string emailAddress)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The string to lookup emails from
+    return:
+      type: SuperOffice.CRM.Services.EMailAddress[]
+      description: Resolved EMail recipients
+    content.vb: Public Function ResolveEMailRecipients(emailAddress As String) As EMailAddress()
+  overload: SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1920,6 +2121,39 @@ items:
   overload: SuperOffice.CRM.Services.EMailAgent.GetEmailMessageIds*
   implements:
   - SuperOffice.CRM.Services.IEMailAgent.GetEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  id: GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetExtendedEmailMessageIds(EMailConnectionInfoExtended)
+  nameWithType: EMailAgent.GetExtendedEmailMessageIds(EMailConnectionInfoExtended)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets not only the Message-Id&apos;s but also the UID&apos;s and the uniquevalidity property in this format-> uvalidity:uid:MsgId - and this format should be understood by GetEmailsAsString() and DeleteExtended().\n"
+  syntax:
+    content: public string[] GetExtendedEmailMessageIds(EMailConnectionInfoExtended connectionInfoExtended)
+    parameters:
+    - id: connectionInfoExtended
+      type: SuperOffice.CRM.Services.EMailConnectionInfoExtended
+    return:
+      type: System.String[]
+    content.vb: Public Function GetExtendedEmailMessageIds(connectionInfoExtended As EMailConnectionInfoExtended) As String()
+  overload: SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3434,138 +3668,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailAccount(System.Int32)
-  id: GetEMailAccount(System.Int32)
-  parent: SuperOffice.CRM.Services.EMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetEMailAccount(Int32)
-  nameWithType: EMailAgent.GetEMailAccount(Int32)
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGets a EMailAccount object.                        \n"
-  syntax:
-    content: public EMailAccount GetEMailAccount(int eMailAccountId)
-    parameters:
-    - id: eMailAccountId
-      type: System.Int32
-      description: The identifier of the EMailAccount object
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: EMailAccount
-    content.vb: Public Function GetEMailAccount(eMailAccountId As Integer) As EMailAccount
-  overload: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount*
-  implements:
-  - SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  id: GetEMailAccountFromEMailAddress(System.String)
-  parent: SuperOffice.CRM.Services.EMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetEMailAccountFromEMailAddress(String)
-  nameWithType: EMailAgent.GetEMailAccountFromEMailAddress(String)
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nReturns the email account corresponding to this email address (for the current associate).\n"
-  syntax:
-    content: public EMailAccount GetEMailAccountFromEMailAddress(string fromAddress)
-    parameters:
-    - id: fromAddress
-      type: System.String
-      description: The address associated with this email account
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: Found or empty email account
-    content.vb: Public Function GetEMailAccountFromEMailAddress(fromAddress As String) As EMailAccount
-  overload: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress*
-  implements:
-  - SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
-  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
-  id: GetCurrentAccountId
-  parent: SuperOffice.CRM.Services.EMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetCurrentAccountId()
-  nameWithType: EMailAgent.GetCurrentAccountId()
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet current accountId (last logged into should normally be current) for logged in associate\n"
-  syntax:
-    content: public int GetCurrentAccountId()
-    return:
-      type: System.Int32
-      description: Id of current account
-    content.vb: Public Function GetCurrentAccountId As Integer
-  overload: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId*
-  implements:
-  - SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
-  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
-  id: GetCurrentAccount
-  parent: SuperOffice.CRM.Services.EMailAgent
-  langs:
-  - csharp
-  - vb
-  name: GetCurrentAccount()
-  nameWithType: EMailAgent.GetCurrentAccount()
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount()
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nGet current account (last logged into should normally be current) for logged in associate\n"
-  syntax:
-    content: public EMailAccount GetCurrentAccount()
-    return:
-      type: SuperOffice.CRM.Services.EMailAccount
-      description: Id of current account
-    content.vb: Public Function GetCurrentAccount As EMailAccount
-  overload: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount*
-  implements:
-  - SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Services.EMailAgent.GetReadySyncEmailAccounts
   commentId: M:SuperOffice.CRM.Services.EMailAgent.GetReadySyncEmailAccounts
   id: GetReadySyncEmailAccounts
@@ -3696,13 +3798,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IEMailAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IEMailAgent}
   parent: SuperOffice.CRM.Services
@@ -3748,8 +3843,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -3810,291 +3903,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IEMailAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IEMailAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IEMailAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -4174,6 +3982,157 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of TAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
+  isExternal: true
+  name: CreateDefaultEMailAccount
+  nameWithType: EMailAgent.CreateDefaultEMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: CreateDefaultEMailAccount()
+  nameWithType: IEMailAgent.CreateDefaultEMailAccount()
+  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+    name: CreateDefaultEMailAccount
+    nameWithType: IEMailAgent.CreateDefaultEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+    name: CreateDefaultEMailAccount
+    nameWithType: IEMailAgent.CreateDefaultEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAccount
+  commentId: T:SuperOffice.CRM.Services.EMailAccount
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EMailAccount
+  nameWithType: EMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAccount
+- uid: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount
+  isExternal: true
+  name: SaveEMailAccount
+  nameWithType: EMailAgent.SaveEMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: SaveEMailAccount(EMailAccount)
+  nameWithType: IEMailAgent.SaveEMailAccount(EMailAccount)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+    name: SaveEMailAccount
+    nameWithType: IEMailAgent.SaveEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.EMailAccount
+    name: EMailAccount
+    nameWithType: EMailAccount
+    fullName: SuperOffice.CRM.Services.EMailAccount
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
+    name: SaveEMailAccount
+    nameWithType: IEMailAgent.SaveEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.EMailAccount
+    name: EMailAccount
+    nameWithType: EMailAccount
+    fullName: SuperOffice.CRM.Services.EMailAccount
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount
+  isExternal: true
+  name: DeleteEMailAccount
+  nameWithType: EMailAgent.DeleteEMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: DeleteEMailAccount(Int32)
+  nameWithType: IEMailAgent.DeleteEMailAccount(Int32)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+    name: DeleteEMailAccount
+    nameWithType: IEMailAgent.DeleteEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
+    name: DeleteEMailAccount
+    nameWithType: IEMailAgent.DeleteEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAddress*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAddress
   isExternal: true
@@ -4614,115 +4573,24 @@ references:
   name: EMailSOInfo
   nameWithType: EMailSOInfo
   fullName: SuperOffice.CRM.Services.EMailSOInfo
-- uid: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailAccount
   isExternal: true
-  name: CreateDefaultEMailAccount
-  nameWithType: EMailAgent.CreateDefaultEMailAccount
-  fullName: SuperOffice.CRM.Services.EMailAgent.CreateDefaultEMailAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
+  name: GetEMailAccount
+  nameWithType: EMailAgent.GetEMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
   parent: SuperOffice.CRM.Services.IEMailAgent
   isExternal: true
-  name: CreateDefaultEMailAccount()
-  nameWithType: IEMailAgent.CreateDefaultEMailAccount()
-  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount()
+  name: GetEMailAccount(Int32)
+  nameWithType: IEMailAgent.GetEMailAccount(Int32)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-    name: CreateDefaultEMailAccount
-    nameWithType: IEMailAgent.CreateDefaultEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-    name: CreateDefaultEMailAccount
-    nameWithType: IEMailAgent.CreateDefaultEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.EMailAccount
-  commentId: T:SuperOffice.CRM.Services.EMailAccount
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  name: EMailAccount
-  nameWithType: EMailAccount
-  fullName: SuperOffice.CRM.Services.EMailAccount
-- uid: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount
-  isExternal: true
-  name: SaveEMailAccount
-  nameWithType: EMailAgent.SaveEMailAccount
-  fullName: SuperOffice.CRM.Services.EMailAgent.SaveEMailAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  isExternal: true
-  name: SaveEMailAccount(EMailAccount)
-  nameWithType: IEMailAgent.SaveEMailAccount(EMailAccount)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-    name: SaveEMailAccount
-    nameWithType: IEMailAgent.SaveEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.EMailAccount
-    name: EMailAccount
-    nameWithType: EMailAccount
-    fullName: SuperOffice.CRM.Services.EMailAccount
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount(SuperOffice.CRM.Services.EMailAccount)
-    name: SaveEMailAccount
-    nameWithType: IEMailAgent.SaveEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEMailAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Services.EMailAccount
-    name: EMailAccount
-    nameWithType: EMailAccount
-    fullName: SuperOffice.CRM.Services.EMailAccount
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount
-  isExternal: true
-  name: DeleteEMailAccount
-  nameWithType: EMailAgent.DeleteEMailAccount
-  fullName: SuperOffice.CRM.Services.EMailAgent.DeleteEMailAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  isExternal: true
-  name: DeleteEMailAccount(Int32)
-  nameWithType: IEMailAgent.DeleteEMailAccount(Int32)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-    name: DeleteEMailAccount
-    nameWithType: IEMailAgent.DeleteEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
+    name: GetEMailAccount
+    nameWithType: IEMailAgent.GetEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
     isExternal: true
   - name: (
     nameWithType: (
@@ -4736,10 +4604,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
-    name: DeleteEMailAccount
-    nameWithType: IEMailAgent.DeleteEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
+    name: GetEMailAccount
+    nameWithType: IEMailAgent.GetEMailAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
     isExternal: true
   - name: (
     nameWithType: (
@@ -4752,13 +4620,134 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress
+  isExternal: true
+  name: GetEMailAccountFromEMailAddress
+  nameWithType: EMailAgent.GetEMailAccountFromEMailAddress
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetEMailAccountFromEMailAddress(String)
+  nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress(String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+    name: GetEMailAccountFromEMailAddress
+    nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
+    name: GetEMailAccountFromEMailAddress
+    nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
+  isExternal: true
+  name: GetCurrentAccountId
+  nameWithType: EMailAgent.GetCurrentAccountId
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetCurrentAccountId()
+  nameWithType: IEMailAgent.GetCurrentAccountId()
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+    name: GetCurrentAccountId
+    nameWithType: IEMailAgent.GetCurrentAccountId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+    name: GetCurrentAccountId
+    nameWithType: IEMailAgent.GetCurrentAccountId
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
+  isExternal: true
+  name: GetCurrentAccount
+  nameWithType: EMailAgent.GetCurrentAccount
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetCurrentAccount()
+  nameWithType: IEMailAgent.GetCurrentAccount()
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+    name: GetCurrentAccount
+    nameWithType: IEMailAgent.GetCurrentAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+    name: GetCurrentAccount
+    nameWithType: IEMailAgent.GetCurrentAccount
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.EMailAgent.GetPersonEntitiesFromEmailAddress*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetPersonEntitiesFromEmailAddress
   isExternal: true
@@ -4806,13 +4795,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: SuperOffice.CRM.Services.PersonEntity[]
   isExternal: true
   name: PersonEntity[]
@@ -4966,6 +4948,142 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.EMailAgent.HasSPFRecord*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.HasSPFRecord
+  isExternal: true
+  name: HasSPFRecord
+  nameWithType: EMailAgent.HasSPFRecord
+  fullName: SuperOffice.CRM.Services.EMailAgent.HasSPFRecord
+- uid: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: HasSPFRecord(String, String)
+  nameWithType: IEMailAgent.HasSPFRecord(String, String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
+    name: HasSPFRecord
+    nameWithType: IEMailAgent.HasSPFRecord
+    fullName: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord(System.String,System.String)
+    name: HasSPFRecord
+    nameWithType: IEMailAgent.HasSPFRecord
+    fullName: SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients
+  isExternal: true
+  name: ResolveEMailRecipients
+  nameWithType: EMailAgent.ResolveEMailRecipients
+  fullName: SuperOffice.CRM.Services.EMailAgent.ResolveEMailRecipients
+- uid: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: ResolveEMailRecipients(String)
+  nameWithType: IEMailAgent.ResolveEMailRecipients(String)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+    name: ResolveEMailRecipients
+    nameWithType: IEMailAgent.ResolveEMailRecipients
+    fullName: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients(System.String)
+    name: ResolveEMailRecipients
+    nameWithType: IEMailAgent.ResolveEMailRecipients
+    fullName: SuperOffice.CRM.Services.IEMailAgent.ResolveEMailRecipients
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAddress[]
+  isExternal: true
+  name: EMailAddress[]
+  nameWithType: EMailAddress[]
+  fullName: SuperOffice.CRM.Services.EMailAddress[]
+  nameWithType.vb: EMailAddress()
+  fullName.vb: SuperOffice.CRM.Services.EMailAddress()
+  name.vb: EMailAddress()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailFromId
   isExternal: true
@@ -6017,18 +6135,10 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
 - uid: SuperOffice.CRM.Services.EMailAgent.FindAddress*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.FindAddress
   isExternal: true
@@ -6076,32 +6186,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.EMailAddress[]
-  isExternal: true
-  name: EMailAddress[]
-  nameWithType: EMailAddress[]
-  fullName: SuperOffice.CRM.Services.EMailAddress[]
-  nameWithType.vb: EMailAddress()
-  fullName.vb: SuperOffice.CRM.Services.EMailAddress()
-  name.vb: EMailAddress()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.EMailAddress
-    name: EMailAddress
-    nameWithType: EMailAddress
-    fullName: SuperOffice.CRM.Services.EMailAddress
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.EMailAddress
-    name: EMailAddress
-    nameWithType: EMailAddress
-    fullName: SuperOffice.CRM.Services.EMailAddress
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentId*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentId
   isExternal: true
@@ -7315,6 +7399,53 @@ references:
     name: GetEmailMessageIds
     nameWithType: IEMailAgent.GetEmailMessageIds
     fullName: SuperOffice.CRM.Services.IEMailAgent.GetEmailMessageIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfoExtended
+    name: EMailConnectionInfoExtended
+    nameWithType: EMailConnectionInfoExtended
+    fullName: SuperOffice.CRM.Services.EMailConnectionInfoExtended
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds
+  isExternal: true
+  name: GetExtendedEmailMessageIds
+  nameWithType: EMailAgent.GetExtendedEmailMessageIds
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetExtendedEmailMessageIds
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  name: GetExtendedEmailMessageIds(EMailConnectionInfoExtended)
+  nameWithType: IEMailAgent.GetExtendedEmailMessageIds(EMailConnectionInfoExtended)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+    name: GetExtendedEmailMessageIds
+    nameWithType: IEMailAgent.GetExtendedEmailMessageIds
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfoExtended
+    name: EMailConnectionInfoExtended
+    nameWithType: EMailConnectionInfoExtended
+    fullName: SuperOffice.CRM.Services.EMailConnectionInfoExtended
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds(SuperOffice.CRM.Services.EMailConnectionInfoExtended)
+    name: GetExtendedEmailMessageIds
+    nameWithType: IEMailAgent.GetExtendedEmailMessageIds
+    fullName: SuperOffice.CRM.Services.IEMailAgent.GetExtendedEmailMessageIds
     isExternal: true
   - name: (
     nameWithType: (
@@ -9823,174 +9954,6 @@ references:
     nameWithType: Int32
     fullName: System.Int32
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount*
-  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailAccount
-  isExternal: true
-  name: GetEMailAccount
-  nameWithType: EMailAgent.GetEMailAccount
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  isExternal: true
-  name: GetEMailAccount(Int32)
-  nameWithType: IEMailAgent.GetEMailAccount(Int32)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-    name: GetEMailAccount
-    nameWithType: IEMailAgent.GetEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount(System.Int32)
-    name: GetEMailAccount
-    nameWithType: IEMailAgent.GetEMailAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress*
-  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress
-  isExternal: true
-  name: GetEMailAccountFromEMailAddress
-  nameWithType: EMailAgent.GetEMailAccountFromEMailAddress
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddress
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  isExternal: true
-  name: GetEMailAccountFromEMailAddress(String)
-  nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress(String)
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-    name: GetEMailAccountFromEMailAddress
-    nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress(System.String)
-    name: GetEMailAccountFromEMailAddress
-    nameWithType: IEMailAgent.GetEMailAccountFromEMailAddress
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddress
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId*
-  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
-  isExternal: true
-  name: GetCurrentAccountId
-  nameWithType: EMailAgent.GetCurrentAccountId
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountId
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  isExternal: true
-  name: GetCurrentAccountId()
-  nameWithType: IEMailAgent.GetCurrentAccountId()
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-    name: GetCurrentAccountId
-    nameWithType: IEMailAgent.GetCurrentAccountId
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-    name: GetCurrentAccountId
-    nameWithType: IEMailAgent.GetCurrentAccountId
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccountId
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount*
-  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
-  isExternal: true
-  name: GetCurrentAccount
-  nameWithType: EMailAgent.GetCurrentAccount
-  fullName: SuperOffice.CRM.Services.EMailAgent.GetCurrentAccount
-- uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-  parent: SuperOffice.CRM.Services.IEMailAgent
-  isExternal: true
-  name: GetCurrentAccount()
-  nameWithType: IEMailAgent.GetCurrentAccount()
-  fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-    name: GetCurrentAccount
-    nameWithType: IEMailAgent.GetCurrentAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-    name: GetCurrentAccount
-    nameWithType: IEMailAgent.GetCurrentAccount
-    fullName: SuperOffice.CRM.Services.IEMailAgent.GetCurrentAccount
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )

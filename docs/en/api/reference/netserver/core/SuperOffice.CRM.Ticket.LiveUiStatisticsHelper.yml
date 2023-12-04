@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+  commentId: T:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+  id: LiveUiStatisticsHelper
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: LiveUiStatisticsHelper
+  nameWithType: LiveUiStatisticsHelper
+  fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nGrafana statistics mechanism for the Ticket Live UI\n"
+  syntax:
+    content: 'public static class LiveUiStatisticsHelper : Object'
+    content.vb: >-
+      Public Module LiveUiStatisticsHelper
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32)
+  id: CollectCounter(System.String,System.Int32)
+  parent: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+  langs:
+  - csharp
+  - vb
+  name: CollectCounter(String, Int32)
+  nameWithType: LiveUiStatisticsHelper.CollectCounter(String, Int32)
+  fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: "\nCollect a counter, with specified increment, for LiveUI on behalf of current tenant\n"
+  syntax:
+    content: public static void CollectCounter(string counter, int increment)
+    parameters:
+    - id: counter
+      type: System.String
+    - id: increment
+      type: System.Int32
+    content.vb: Public Shared Sub CollectCounter(counter As String, increment As Integer)
+  overload: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter*
+  commentId: Overload:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter
+  isExternal: true
+  name: CollectCounter
+  nameWithType: LiveUiStatisticsHelper.CollectCounter
+  fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

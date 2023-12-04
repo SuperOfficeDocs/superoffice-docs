@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  id: WorkflowStepOptionLinkRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData})
+  - SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow)
+  langs:
+  - csharp
+  - vb
+  name: WorkflowStepOptionLinkRecordDataExtensions
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: 'public static class WorkflowStepOptionLinkRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module WorkflowStepOptionLinkRecordDataExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<WorkflowStepOptionLinkTableInfo>)
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.FromSelect(TargetedSelect<WorkflowStepOptionLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;WorkflowStepOptionLinkTableInfo>, execute it and return an IEnumerable&lt;WorkflowStepOptionLinkRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<WorkflowStepOptionLinkRecordData> FromSelect(this TargetedSelect<WorkflowStepOptionLinkTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of WorkflowStepOptionLinkTableInfo)) As IEnumerable(Of WorkflowStepOptionLinkRecordData)
+  overload: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect*
+  nameWithType.vb: WorkflowStepOptionLinkRecordDataExtensions.FromSelect(TargetedSelect(Of WorkflowStepOptionLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of WorkflowStepOptionLinkTableInfo))
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<WorkflowStepOptionLinkTableInfo>)
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.FromRecord(TargetedDataRecord<WorkflowStepOptionLinkTableInfo>)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;WorkflowStepOptionLinkTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { WorkflowStepOptionLinkItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static WorkflowStepOptionLinkRecordData FromRecord(this TargetedDataRecord<WorkflowStepOptionLinkTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of WorkflowStepOptionLinkTableInfo)) As WorkflowStepOptionLinkRecordData
+  overload: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord*
+  nameWithType.vb: WorkflowStepOptionLinkRecordDataExtensions.FromRecord(TargetedDataRecord(Of WorkflowStepOptionLinkTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of WorkflowStepOptionLinkTableInfo))
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(WorkflowStepOptionLinkRecordData)
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert(WorkflowStepOptionLinkRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this WorkflowStepOptionLinkRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As WorkflowStepOptionLinkRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData})
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<WorkflowStepOptionLinkRecordData>)
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInserts(IEnumerable<WorkflowStepOptionLinkRecordData>)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<WorkflowStepOptionLinkRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of WorkflowStepOptionLinkRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts*
+  nameWithType.vb: WorkflowStepOptionLinkRecordDataExtensions.ToInserts(IEnumerable(Of WorkflowStepOptionLinkRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData))
+  name.vb: ToInserts(IEnumerable(Of WorkflowStepOptionLinkRecordData))
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(WorkflowStepOptionLinkRow)
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToRecordData(WorkflowStepOptionLinkRow)
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static WorkflowStepOptionLinkRecordData ToRecordData(this WorkflowStepOptionLinkRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow
+    return:
+      type: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As WorkflowStepOptionLinkRow) As WorkflowStepOptionLinkRecordData
+  overload: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<WorkflowStepOptionLinkTableInfo>
+  nameWithType: TargetedSelect<WorkflowStepOptionLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo>
+  nameWithType.vb: TargetedSelect(Of WorkflowStepOptionLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo)
+  name.vb: TargetedSelect(Of WorkflowStepOptionLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    name: WorkflowStepOptionLinkTableInfo
+    nameWithType: WorkflowStepOptionLinkTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    name: WorkflowStepOptionLinkTableInfo
+    nameWithType: WorkflowStepOptionLinkTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<WorkflowStepOptionLinkRecordData>
+  nameWithType: IEnumerable<WorkflowStepOptionLinkRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData>
+  nameWithType.vb: IEnumerable(Of WorkflowStepOptionLinkRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData)
+  name.vb: IEnumerable(Of WorkflowStepOptionLinkRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    name: WorkflowStepOptionLinkRecordData
+    nameWithType: WorkflowStepOptionLinkRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    name: WorkflowStepOptionLinkRecordData
+    nameWithType: WorkflowStepOptionLinkRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<WorkflowStepOptionLinkTableInfo>
+  nameWithType: TargetedDataRecord<WorkflowStepOptionLinkTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of WorkflowStepOptionLinkTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo)
+  name.vb: TargetedDataRecord(Of WorkflowStepOptionLinkTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    name: WorkflowStepOptionLinkTableInfo
+    nameWithType: WorkflowStepOptionLinkTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    name: WorkflowStepOptionLinkTableInfo
+    nameWithType: WorkflowStepOptionLinkTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowStepOptionLinkTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowStepOptionLinkRecordData
+  nameWithType: WorkflowStepOptionLinkRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData
+  isExternal: true
+  name: ToRecordData
+  nameWithType: WorkflowStepOptionLinkRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow
+  commentId: T:SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowStepOptionLinkRow
+  nameWithType: WorkflowStepOptionLinkRow
+  fullName: SuperOffice.CRM.Rows.WorkflowStepOptionLinkRow

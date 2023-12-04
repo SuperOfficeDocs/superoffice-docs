@@ -268,7 +268,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: ReadOnly Property Registered As Date
+    content.vb: ReadOnly Property Registered As DateTime
   overload: SuperOffice.CRM.IDocumentTemplateInfo.Registered*
   modifiers.csharp:
   - get
@@ -297,7 +297,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: ReadOnly Property Updated As Date
+    content.vb: ReadOnly Property Updated As DateTime
   overload: SuperOffice.CRM.IDocumentTemplateInfo.Updated*
   modifiers.csharp:
   - get
@@ -609,8 +609,6 @@ references:
   nameWithType: IDocumentTemplateInfo.Registered
   fullName: SuperOffice.CRM.IDocumentTemplateInfo.Registered
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.#ctor(System.DateTime,System.DateTime)
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
+  - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString
   langs:
   - csharp
@@ -24,17 +25,13 @@ items:
   namespace: SuperOffice.CRM.Entities
   summary: "\nInformation about start and end time of an appointment to find conflicts for.\n"
   syntax:
-    content: public class ConflictTime
-    content.vb: Public Class ConflictTime
+    content: 'public class ConflictTime : Object'
+    content.vb: >-
+      Public Class ConflictTime
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -71,7 +68,7 @@ items:
     - id: endTime
       type: System.DateTime
       description: End time (i.e. both date and time) for the appointment.
-    content.vb: Public Sub New(startTime As Date, endTime As Date)
+    content.vb: Public Sub New(startTime As DateTime, endTime As DateTime)
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.#ctor*
   modifiers.csharp:
   - public
@@ -100,7 +97,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString*
   modifiers.csharp:
   - public
@@ -108,6 +104,33 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
+  commentId: M:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
+  id: ToShortDateTimeString
+  parent: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+  langs:
+  - csharp
+  - vb
+  name: ToShortDateTimeString()
+  nameWithType: ConflictDetector.ConflictTime.ToShortDateTimeString()
+  fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string ToShortDateTimeString()
+    return:
+      type: System.String
+    content.vb: Public Function ToShortDateTimeString As String
+  overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
   commentId: P:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
   id: StartTime
@@ -131,7 +154,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property StartTime As Date
+    content.vb: Public ReadOnly Property StartTime As DateTime
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime*
   modifiers.csharp:
   - public
@@ -162,7 +185,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property EndTime As Date
+    content.vb: Public ReadOnly Property EndTime As DateTime
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime*
   modifiers.csharp:
   - public
@@ -184,254 +207,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -610,43 +385,10 @@ references:
   nameWithType: ConflictDetector.ConflictTime.ConflictTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ConflictTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString*
   commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString
   isExternal: true
@@ -660,6 +402,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString*
+  commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
+  isExternal: true
+  name: ToShortDateTimeString
+  nameWithType: ConflictDetector.ConflictTime.ToShortDateTimeString
+  fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime*
   commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
   isExternal: true

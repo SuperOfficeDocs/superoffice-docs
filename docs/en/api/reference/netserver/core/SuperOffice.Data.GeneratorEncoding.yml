@@ -18,6 +18,7 @@ items:
   - SuperOffice.Data.GeneratorEncoding.Text
   - SuperOffice.Data.GeneratorEncoding.Url
   - SuperOffice.Data.GeneratorEncoding.UrlUnicode
+  - SuperOffice.Data.GeneratorEncoding.value__
   - SuperOffice.Data.GeneratorEncoding.Xml
   langs:
   - csharp
@@ -25,7 +26,7 @@ items:
   name: GeneratorEncoding
   nameWithType: GeneratorEncoding
   fullName: SuperOffice.Data.GeneratorEncoding
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -34,19 +35,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\n\n"
   syntax:
-    content: public enum GeneratorEncoding
-    content.vb: Public Enum GeneratorEncoding
+    content: 'public sealed class GeneratorEncoding : Enum'
+    content.vb: >-
+      Public NotInheritable Class GeneratorEncoding
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.GeneratorEncoding.EnumUtil.MapEnums``2
-  - SuperOffice.Data.GeneratorEncoding.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.GeneratorEncoding)
-  - SuperOffice.Data.GeneratorEncoding.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.GeneratorEncoding.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.GeneratorEncoding.value__
+  commentId: F:SuperOffice.Data.GeneratorEncoding.value__
+  id: value__
+  parent: SuperOffice.Data.GeneratorEncoding
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: GeneratorEncoding.value__
+  fullName: SuperOffice.Data.GeneratorEncoding.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.GeneratorEncoding.Text
   commentId: F:SuperOffice.Data.GeneratorEncoding.Text
   id: Text
@@ -66,9 +102,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Plain text document.\n"
   syntax:
-    content: Text = 0
+    content: public const GeneratorEncoding Text
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const Text As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -94,9 +131,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Html encoded document, it is not strictly parsed.\n"
   syntax:
-    content: Html = 1
+    content: public const GeneratorEncoding Html
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const Html As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -122,9 +160,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: XML Document, it is not strictly parsed\n"
   syntax:
-    content: Xml = 2
+    content: public const GeneratorEncoding Xml
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const Xml As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -150,9 +189,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Microsoft word document.\n"
   syntax:
-    content: MsWord = 3
+    content: public const GeneratorEncoding MsWord
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const MsWord As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -178,9 +218,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Microsoft Excel document.\n"
   syntax:
-    content: MsExcel = 4
+    content: public const GeneratorEncoding MsExcel
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const MsExcel As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -206,9 +247,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Microsoft Powerpoint document\n"
   syntax:
-    content: MsPowerpoint = 5
+    content: public const GeneratorEncoding MsPowerpoint
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const MsPowerpoint As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -234,9 +276,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Microsoft office documents zipped (Office 2007)\n"
   syntax:
-    content: MsOffice2007 = 6
+    content: public const GeneratorEncoding MsOffice2007
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const MsOffice2007 As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -262,9 +305,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Microsoft office xml documents (content of zipped x files)\n"
   syntax:
-    content: MsOffice2007Xml = 7
+    content: public const GeneratorEncoding MsOffice2007Xml
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const MsOffice2007Xml As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -290,9 +334,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: The tags result are url-encoded (ansi), the source itself is treated as plain text.\n"
   syntax:
-    content: Url = 8
+    content: public const GeneratorEncoding Url
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const Url As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -318,9 +363,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: The tags result are url-encoded (unicode), the source itself is treated as plain text.\n"
   syntax:
-    content: UrlUnicode = 9
+    content: public const GeneratorEncoding UrlUnicode
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const UrlUnicode As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -346,9 +392,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: Adobe pdf format\n"
   syntax:
-    content: Pdf = 10
+    content: public const GeneratorEncoding Pdf
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const Pdf As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -374,9 +421,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: RFC822 Mime-content. Handles the actual mime part, but leaves a normal Text-generator to handle the actual content embedded within the MIME-layers.\n"
   syntax:
-    content: Mime = 11
+    content: public const GeneratorEncoding Mime
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const Mime As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -402,9 +450,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: OpenOffice/LibreOffice documents (zipped)\n"
   syntax:
-    content: OpenDocument = 12
+    content: public const GeneratorEncoding OpenDocument
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const OpenDocument As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -430,9 +479,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n13: OpenOffice/LibreOffice documents (contents of zipped files)\n"
   syntax:
-    content: OpenDocumentXml = 13
+    content: public const GeneratorEncoding OpenDocumentXml
     return:
       type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Const OpenDocumentXml As GeneratorEncoding
   modifiers.csharp:
   - public
   - const
@@ -446,6 +496,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.GeneratorEncoding.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -473,84 +530,6 @@ references:
     name: MapEnums(Of GeneratorEncoding, To)
     nameWithType: EnumUtil.MapEnums(Of GeneratorEncoding, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.GeneratorEncoding, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.GeneratorEncoding.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.GeneratorEncoding)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<GeneratorEncoding>(GeneratorEncoding)
-  nameWithType: ObjectExtensions.AssignByReflection<GeneratorEncoding>(GeneratorEncoding)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.GeneratorEncoding>(SuperOffice.Data.GeneratorEncoding)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of GeneratorEncoding)(GeneratorEncoding)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.GeneratorEncoding)(SuperOffice.Data.GeneratorEncoding)
-  name.vb: AssignByReflection(Of GeneratorEncoding)(GeneratorEncoding)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<GeneratorEncoding>
-    nameWithType: ObjectExtensions.AssignByReflection<GeneratorEncoding>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.GeneratorEncoding>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.GeneratorEncoding
-    name: GeneratorEncoding
-    nameWithType: GeneratorEncoding
-    fullName: SuperOffice.Data.GeneratorEncoding
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of GeneratorEncoding)
-    nameWithType: ObjectExtensions.AssignByReflection(Of GeneratorEncoding)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.GeneratorEncoding)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.GeneratorEncoding
-    name: GeneratorEncoding
-    nameWithType: GeneratorEncoding
-    fullName: SuperOffice.Data.GeneratorEncoding
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.GeneratorEncoding.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<GeneratorEncoding>()
-  nameWithType: ObjectExtensions.GraphCopy<GeneratorEncoding>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.GeneratorEncoding>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of GeneratorEncoding)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.GeneratorEncoding)()
-  name.vb: GraphCopy(Of GeneratorEncoding)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<GeneratorEncoding>
-    nameWithType: ObjectExtensions.GraphCopy<GeneratorEncoding>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.GeneratorEncoding>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of GeneratorEncoding)
-    nameWithType: ObjectExtensions.GraphCopy(Of GeneratorEncoding)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.GeneratorEncoding)
     isExternal: true
   - name: (
     nameWithType: (
@@ -592,6 +571,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -637,103 +622,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -780,18 +668,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.GeneratorEncoding
   commentId: T:SuperOffice.Data.GeneratorEncoding
   parent: SuperOffice.Data

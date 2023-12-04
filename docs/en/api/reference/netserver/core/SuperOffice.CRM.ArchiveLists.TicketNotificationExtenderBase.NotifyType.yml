@@ -1,0 +1,618 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  id: TicketNotificationExtenderBase.NotifyType
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ActiveTickets
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatAlert
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatMessageAlert
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatSessionTransfered
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Custom
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Hotlist
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicket
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicketMessage
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NotifyAll
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketActivated
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketEscalated
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketTakeOver
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketNotificationExtenderBase.NotifyType
+  nameWithType: TicketNotificationExtenderBase.NotifyType
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCopied from eJournal.sln.Notify.h\n"
+  syntax:
+    content: 'public sealed class NotifyType : Enum'
+    content.vb: >-
+      Public NotInheritable Class NotifyType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketNotificationExtenderBase.NotifyType.value__
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicket
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicket
+  id: NewTicket
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: NewTicket
+  nameWithType: TicketNotificationExtenderBase.NotifyType.NewTicket
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicket
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType NewTicket
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const NewTicket As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicketMessage
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicketMessage
+  id: NewTicketMessage
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketMessage
+  nameWithType: TicketNotificationExtenderBase.NotifyType.NewTicketMessage
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NewTicketMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType NewTicketMessage
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const NewTicketMessage As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketEscalated
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketEscalated
+  id: TicketEscalated
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: TicketEscalated
+  nameWithType: TicketNotificationExtenderBase.NotifyType.TicketEscalated
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketEscalated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType TicketEscalated
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const TicketEscalated As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketActivated
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketActivated
+  id: TicketActivated
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: TicketActivated
+  nameWithType: TicketNotificationExtenderBase.NotifyType.TicketActivated
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketActivated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType TicketActivated
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const TicketActivated As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatAlert
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatAlert
+  id: ChatAlert
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ChatAlert
+  nameWithType: TicketNotificationExtenderBase.NotifyType.ChatAlert
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatAlert
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType ChatAlert
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const ChatAlert As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ActiveTickets
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ActiveTickets
+  id: ActiveTickets
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ActiveTickets
+  nameWithType: TicketNotificationExtenderBase.NotifyType.ActiveTickets
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ActiveTickets
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType ActiveTickets
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const ActiveTickets As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketTakeOver
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketTakeOver
+  id: TicketTakeOver
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: TicketTakeOver
+  nameWithType: TicketNotificationExtenderBase.NotifyType.TicketTakeOver
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.TicketTakeOver
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType TicketTakeOver
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const TicketTakeOver As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatMessageAlert
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatMessageAlert
+  id: ChatMessageAlert
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ChatMessageAlert
+  nameWithType: TicketNotificationExtenderBase.NotifyType.ChatMessageAlert
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatMessageAlert
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType ChatMessageAlert
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const ChatMessageAlert As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatSessionTransfered
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatSessionTransfered
+  id: ChatSessionTransfered
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionTransfered
+  nameWithType: TicketNotificationExtenderBase.NotifyType.ChatSessionTransfered
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.ChatSessionTransfered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType ChatSessionTransfered
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const ChatSessionTransfered As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Hotlist
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Hotlist
+  id: Hotlist
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: Hotlist
+  nameWithType: TicketNotificationExtenderBase.NotifyType.Hotlist
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Hotlist
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType Hotlist
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const Hotlist As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Custom
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Custom
+  id: Custom
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: TicketNotificationExtenderBase.NotifyType.Custom
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.Custom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType Custom
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const Custom As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NotifyAll
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NotifyAll
+  id: NotifyAll
+  parent: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: NotifyAll
+  nameWithType: TicketNotificationExtenderBase.NotifyType.NotifyAll
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.NotifyAll
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const TicketNotificationExtenderBase.NotifyType NotifyAll
+    return:
+      type: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+    content.vb: Public Const NotifyAll As TicketNotificationExtenderBase.NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketNotificationExtenderBase.NotifyType, To>()
+  nameWithType: EnumUtil.MapEnums<TicketNotificationExtenderBase.NotifyType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To)()
+  name.vb: MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketNotificationExtenderBase.NotifyType, To>
+    nameWithType: EnumUtil.MapEnums<TicketNotificationExtenderBase.NotifyType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketNotificationExtenderBase.NotifyType, To>()
+  nameWithType: Converters.MapEnums<TicketNotificationExtenderBase.NotifyType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To)()
+  name.vb: MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketNotificationExtenderBase.NotifyType, To>
+    nameWithType: Converters.MapEnums<TicketNotificationExtenderBase.NotifyType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)
+    nameWithType: Converters.MapEnums(Of TicketNotificationExtenderBase.NotifyType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: TicketNotificationExtenderBase.NotifyType
+  nameWithType: TicketNotificationExtenderBase.NotifyType
+  fullName: SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase.NotifyType

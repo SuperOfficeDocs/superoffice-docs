@@ -852,13 +852,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.SelectionAgent
   commentId: T:SuperOffice.CRM.Services.SelectionAgent
   isExternal: true
@@ -872,12 +865,6 @@ references:
   name: ISelectionAgent
   nameWithType: ISelectionAgent
   fullName: SuperOffice.CRM.Services.ISelectionAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.MailMergeSettings.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MailMergeSettings.#ctor
   isExternal: true
@@ -897,6 +884,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.MailMergeSettings.SelectionId*
   commentId: Overload:SuperOffice.CRM.Services.MailMergeSettings.SelectionId
   isExternal: true

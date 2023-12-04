@@ -16,6 +16,7 @@ items:
   - SuperOffice.Data.DurationUnit.Quarter
   - SuperOffice.Data.DurationUnit.Second
   - SuperOffice.Data.DurationUnit.Unknown
+  - SuperOffice.Data.DurationUnit.value__
   - SuperOffice.Data.DurationUnit.Week
   - SuperOffice.Data.DurationUnit.Year
   langs:
@@ -24,7 +25,7 @@ items:
   name: DurationUnit
   nameWithType: DurationUnit
   fullName: SuperOffice.Data.DurationUnit
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -33,19 +34,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nUnits of duration - from seconds to centuries\nThis Enum is used by:  ProjType.durationUnit; SaleType.durationUnit\n"
   syntax:
-    content: 'public enum DurationUnit : short'
-    content.vb: Public Enum DurationUnit As Short
+    content: 'public sealed class DurationUnit : Enum'
+    content.vb: >-
+      Public NotInheritable Class DurationUnit
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.DurationUnit.EnumUtil.MapEnums``2
-  - SuperOffice.Data.DurationUnit.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DurationUnit)
-  - SuperOffice.Data.DurationUnit.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.DurationUnit.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.DurationUnit.value__
+  commentId: F:SuperOffice.Data.DurationUnit.value__
+  id: value__
+  parent: SuperOffice.Data.DurationUnit
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DurationUnit.value__
+  fullName: SuperOffice.Data.DurationUnit.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.DurationUnit.Unknown
   commentId: F:SuperOffice.Data.DurationUnit.Unknown
   id: Unknown
@@ -65,9 +101,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Duration is unknown\n"
   syntax:
-    content: Unknown = 0
+    content: public const DurationUnit Unknown
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Unknown As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -93,9 +130,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Duration is in Seconds\n"
   syntax:
-    content: Second = 1
+    content: public const DurationUnit Second
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Second As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -121,9 +159,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Duration is in Minutes\n"
   syntax:
-    content: Minute = 2
+    content: public const DurationUnit Minute
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Minute As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -149,9 +188,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Duration is in Hours\n"
   syntax:
-    content: Hour = 3
+    content: public const DurationUnit Hour
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Hour As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -177,9 +217,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Duration is in Days\n"
   syntax:
-    content: Day = 4
+    content: public const DurationUnit Day
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Day As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -205,9 +246,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Duration is in Weeks\n"
   syntax:
-    content: Week = 5
+    content: public const DurationUnit Week
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Week As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -233,9 +275,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Duration is in Months\n"
   syntax:
-    content: Month = 6
+    content: public const DurationUnit Month
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Month As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -261,9 +304,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Duration is in Quarters\n"
   syntax:
-    content: Quarter = 7
+    content: public const DurationUnit Quarter
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Quarter As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -289,9 +333,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Duration is in HalfYears\n"
   syntax:
-    content: HalfYear = 8
+    content: public const DurationUnit HalfYear
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const HalfYear As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -317,9 +362,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: Duration is in Years\n"
   syntax:
-    content: Year = 9
+    content: public const DurationUnit Year
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Year As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -345,9 +391,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: Duration is in Decades\n"
   syntax:
-    content: Decade = 10
+    content: public const DurationUnit Decade
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Decade As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -373,9 +420,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: Duration is in Centurys\n"
   syntax:
-    content: Century = 11
+    content: public const DurationUnit Century
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Century As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -401,9 +449,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: Duration is in Milleniums\n"
   syntax:
-    content: Millenium = 12
+    content: public const DurationUnit Millenium
     return:
       type: SuperOffice.Data.DurationUnit
+    content.vb: Public Const Millenium As DurationUnit
   modifiers.csharp:
   - public
   - const
@@ -417,6 +466,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.DurationUnit.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -444,84 +500,6 @@ references:
     name: MapEnums(Of DurationUnit, To)
     nameWithType: EnumUtil.MapEnums(Of DurationUnit, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DurationUnit, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DurationUnit.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DurationUnit)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DurationUnit>(DurationUnit)
-  nameWithType: ObjectExtensions.AssignByReflection<DurationUnit>(DurationUnit)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DurationUnit>(SuperOffice.Data.DurationUnit)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DurationUnit)(DurationUnit)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DurationUnit)(SuperOffice.Data.DurationUnit)
-  name.vb: AssignByReflection(Of DurationUnit)(DurationUnit)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DurationUnit>
-    nameWithType: ObjectExtensions.AssignByReflection<DurationUnit>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DurationUnit>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DurationUnit
-    name: DurationUnit
-    nameWithType: DurationUnit
-    fullName: SuperOffice.Data.DurationUnit
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DurationUnit)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DurationUnit)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DurationUnit)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.DurationUnit
-    name: DurationUnit
-    nameWithType: DurationUnit
-    fullName: SuperOffice.Data.DurationUnit
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.DurationUnit.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DurationUnit>()
-  nameWithType: ObjectExtensions.GraphCopy<DurationUnit>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DurationUnit>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DurationUnit)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DurationUnit)()
-  name.vb: GraphCopy(Of DurationUnit)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DurationUnit>
-    nameWithType: ObjectExtensions.GraphCopy<DurationUnit>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DurationUnit>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DurationUnit)
-    nameWithType: ObjectExtensions.GraphCopy(Of DurationUnit)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DurationUnit)
     isExternal: true
   - name: (
     nameWithType: (
@@ -563,6 +541,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -608,103 +592,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -751,18 +638,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.DurationUnit
   commentId: T:SuperOffice.Data.DurationUnit
   parent: SuperOffice.Data

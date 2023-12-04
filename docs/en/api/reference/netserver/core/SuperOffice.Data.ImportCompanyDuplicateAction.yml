@@ -8,13 +8,14 @@ items:
   - SuperOffice.Data.ImportCompanyDuplicateAction.Skip
   - SuperOffice.Data.ImportCompanyDuplicateAction.UseBlankName
   - SuperOffice.Data.ImportCompanyDuplicateAction.UsePersonName
+  - SuperOffice.Data.ImportCompanyDuplicateAction.value__
   langs:
   - csharp
   - vb
   name: ImportCompanyDuplicateAction
   nameWithType: ImportCompanyDuplicateAction
   fullName: SuperOffice.Data.ImportCompanyDuplicateAction
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -23,19 +24,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nAction for blank companys for import\n"
   syntax:
-    content: public enum ImportCompanyDuplicateAction
-    content.vb: Public Enum ImportCompanyDuplicateAction
+    content: 'public sealed class ImportCompanyDuplicateAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class ImportCompanyDuplicateAction
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ImportCompanyDuplicateAction.EnumUtil.MapEnums``2
-  - SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportCompanyDuplicateAction)
-  - SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.value__
+  commentId: F:SuperOffice.Data.ImportCompanyDuplicateAction.value__
+  id: value__
+  parent: SuperOffice.Data.ImportCompanyDuplicateAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ImportCompanyDuplicateAction.value__
+  fullName: SuperOffice.Data.ImportCompanyDuplicateAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ImportCompanyDuplicateAction.UseBlankName
   commentId: F:SuperOffice.Data.ImportCompanyDuplicateAction.UseBlankName
   id: UseBlankName
@@ -55,9 +91,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Use blank name\n"
   syntax:
-    content: UseBlankName = 1
+    content: public const ImportCompanyDuplicateAction UseBlankName
     return:
       type: SuperOffice.Data.ImportCompanyDuplicateAction
+    content.vb: Public Const UseBlankName As ImportCompanyDuplicateAction
   modifiers.csharp:
   - public
   - const
@@ -83,9 +120,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Use person name\n"
   syntax:
-    content: UsePersonName = 2
+    content: public const ImportCompanyDuplicateAction UsePersonName
     return:
       type: SuperOffice.Data.ImportCompanyDuplicateAction
+    content.vb: Public Const UsePersonName As ImportCompanyDuplicateAction
   modifiers.csharp:
   - public
   - const
@@ -111,9 +149,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Skip\n"
   syntax:
-    content: Skip = 3
+    content: public const ImportCompanyDuplicateAction Skip
     return:
       type: SuperOffice.Data.ImportCompanyDuplicateAction
+    content.vb: Public Const Skip As ImportCompanyDuplicateAction
   modifiers.csharp:
   - public
   - const
@@ -127,6 +166,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ImportCompanyDuplicateAction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -154,84 +200,6 @@ references:
     name: MapEnums(Of ImportCompanyDuplicateAction, To)
     nameWithType: EnumUtil.MapEnums(Of ImportCompanyDuplicateAction, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ImportCompanyDuplicateAction, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportCompanyDuplicateAction)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ImportCompanyDuplicateAction>(ImportCompanyDuplicateAction)
-  nameWithType: ObjectExtensions.AssignByReflection<ImportCompanyDuplicateAction>(ImportCompanyDuplicateAction)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ImportCompanyDuplicateAction>(SuperOffice.Data.ImportCompanyDuplicateAction)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ImportCompanyDuplicateAction)(ImportCompanyDuplicateAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ImportCompanyDuplicateAction)(SuperOffice.Data.ImportCompanyDuplicateAction)
-  name.vb: AssignByReflection(Of ImportCompanyDuplicateAction)(ImportCompanyDuplicateAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ImportCompanyDuplicateAction>
-    nameWithType: ObjectExtensions.AssignByReflection<ImportCompanyDuplicateAction>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ImportCompanyDuplicateAction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ImportCompanyDuplicateAction
-    name: ImportCompanyDuplicateAction
-    nameWithType: ImportCompanyDuplicateAction
-    fullName: SuperOffice.Data.ImportCompanyDuplicateAction
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ImportCompanyDuplicateAction)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ImportCompanyDuplicateAction)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ImportCompanyDuplicateAction)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ImportCompanyDuplicateAction
-    name: ImportCompanyDuplicateAction
-    nameWithType: ImportCompanyDuplicateAction
-    fullName: SuperOffice.Data.ImportCompanyDuplicateAction
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ImportCompanyDuplicateAction>()
-  nameWithType: ObjectExtensions.GraphCopy<ImportCompanyDuplicateAction>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ImportCompanyDuplicateAction>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ImportCompanyDuplicateAction)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ImportCompanyDuplicateAction)()
-  name.vb: GraphCopy(Of ImportCompanyDuplicateAction)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ImportCompanyDuplicateAction>
-    nameWithType: ObjectExtensions.GraphCopy<ImportCompanyDuplicateAction>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ImportCompanyDuplicateAction>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ImportCompanyDuplicateAction)
-    nameWithType: ObjectExtensions.GraphCopy(Of ImportCompanyDuplicateAction)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ImportCompanyDuplicateAction)
     isExternal: true
   - name: (
     nameWithType: (
@@ -273,6 +241,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -318,103 +292,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -461,18 +338,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.ImportCompanyDuplicateAction
   commentId: T:SuperOffice.Data.ImportCompanyDuplicateAction
   parent: SuperOffice.Data

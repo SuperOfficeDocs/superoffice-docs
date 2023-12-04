@@ -24,6 +24,7 @@ items:
   - SuperOffice.CRM.Services.ChatSessionEntity.Person
   - SuperOffice.CRM.Services.ChatSessionEntity.Project
   - SuperOffice.CRM.Services.ChatSessionEntity.Rank
+  - SuperOffice.CRM.Services.ChatSessionEntity.Rating
   - SuperOffice.CRM.Services.ChatSessionEntity.Sale
   - SuperOffice.CRM.Services.ChatSessionEntity.SessionKey
   - SuperOffice.CRM.Services.ChatSessionEntity.Status
@@ -652,7 +653,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenRequested As Date
+    content.vb: Public Overridable Property WhenRequested As DateTime
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested*
   modifiers.csharp:
   - public
@@ -685,7 +686,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenStarted As Date
+    content.vb: Public Overridable Property WhenStarted As DateTime
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenStarted*
   modifiers.csharp:
   - public
@@ -718,7 +719,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenEnded As Date
+    content.vb: Public Overridable Property WhenEnded As DateTime
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenEnded*
   modifiers.csharp:
   - public
@@ -751,7 +752,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenIdle As Date
+    content.vb: Public Overridable Property WhenIdle As DateTime
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenIdle*
   modifiers.csharp:
   - public
@@ -784,7 +785,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenFetched As Date
+    content.vb: Public Overridable Property WhenFetched As DateTime
   overload: SuperOffice.CRM.Services.ChatSessionEntity.WhenFetched*
   modifiers.csharp:
   - public
@@ -1157,6 +1158,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.ChatSessionEntity.Rating
+  commentId: P:SuperOffice.CRM.Services.ChatSessionEntity.Rating
+  id: Rating
+  parent: SuperOffice.CRM.Services.ChatSessionEntity
+  langs:
+  - csharp
+  - vb
+  name: Rating
+  nameWithType: ChatSessionEntity.Rating
+  fullName: SuperOffice.CRM.Services.ChatSessionEntity.Rating
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRating of this chat conversation given by the customer \n"
+  syntax:
+    content: public virtual int Rating { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rating As Integer
+  overload: SuperOffice.CRM.Services.ChatSessionEntity.Rating*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1164,13 +1198,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.ChatAgent
   commentId: T:SuperOffice.CRM.Services.ChatAgent
   isExternal: true
@@ -1327,12 +1354,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IArchiveAgent
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
@@ -1359,6 +1380,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId*
   commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.ChatSessionId
   isExternal: true
@@ -1484,8 +1511,6 @@ references:
   nameWithType: ChatSessionEntity.WhenRequested
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.WhenRequested
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -1614,3 +1639,9 @@ references:
   name: ChatbotIsActive
   nameWithType: ChatSessionEntity.ChatbotIsActive
   fullName: SuperOffice.CRM.Services.ChatSessionEntity.ChatbotIsActive
+- uid: SuperOffice.CRM.Services.ChatSessionEntity.Rating*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSessionEntity.Rating
+  isExternal: true
+  name: Rating
+  nameWithType: ChatSessionEntity.Rating
+  fullName: SuperOffice.CRM.Services.ChatSessionEntity.Rating

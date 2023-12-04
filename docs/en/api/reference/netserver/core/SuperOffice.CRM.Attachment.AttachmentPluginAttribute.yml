@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  commentId: T:SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  id: AttachmentPluginAttribute
+  parent: SuperOffice.CRM.Attachment
+  children:
+  - SuperOffice.CRM.Attachment.AttachmentPluginAttribute.#ctor(System.String)
+  - SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzureLocationPath
+  - SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzurePlugin
+  - SuperOffice.CRM.Attachment.AttachmentPluginAttribute.FilePlugin
+  langs:
+  - csharp
+  - vb
+  name: AttachmentPluginAttribute
+  nameWithType: AttachmentPluginAttribute
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  summary: "\nMarker attribute for Service Attachment plugins. Well-known names are defined as string constants.\n"
+  syntax:
+    content: 'public class AttachmentPluginAttribute : PluginAttribute'
+    content.vb: >-
+      Public Class AttachmentPluginAttribute
+
+          Inherits PluginAttribute
+  inheritance:
+  - System.Object
+  - SuperOffice.Factory.PluginAttribute
+  extensionMethods:
+  - SuperOffice.CRM.Attachment.AttachmentPluginAttribute.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Attachment.AttachmentPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.FilePlugin
+  commentId: F:SuperOffice.CRM.Attachment.AttachmentPluginAttribute.FilePlugin
+  id: FilePlugin
+  parent: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: FilePlugin
+  nameWithType: AttachmentPluginAttribute.FilePlugin
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.FilePlugin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  summary: "\nName of attachment plugin that handles Files\n"
+  syntax:
+    content: public const string FilePlugin = "FileAttachment"
+    return:
+      type: System.String
+    content.vb: Public Const FilePlugin As String = "FileAttachment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzurePlugin
+  commentId: F:SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzurePlugin
+  id: AzurePlugin
+  parent: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: AzurePlugin
+  nameWithType: AttachmentPluginAttribute.AzurePlugin
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzurePlugin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  summary: "\nName of attachment plugin that handles Azure Blobs in SuperOffice Online\n"
+  syntax:
+    content: public const string AzurePlugin = "OnlineAzureAttachment"
+    return:
+      type: System.String
+    content.vb: Public Const AzurePlugin As String = "OnlineAzureAttachment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzureLocationPath
+  commentId: F:SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzureLocationPath
+  id: AzureLocationPath
+  parent: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: AzureLocationPath
+  nameWithType: AttachmentPluginAttribute.AzureLocationPath
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AzureLocationPath
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  summary: "\nAzure attachment location path value\n"
+  syntax:
+    content: public const string AzureLocationPath = "azure"
+    return:
+      type: System.String
+    content.vb: Public Const AzureLocationPath As String = "azure"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.Attachment.AttachmentPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.Attachment.AttachmentPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: AttachmentPluginAttribute(String)
+  nameWithType: AttachmentPluginAttribute.AttachmentPluginAttribute(String)
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AttachmentPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Attachment
+  syntax:
+    content: public AttachmentPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Attachment
+  commentId: N:SuperOffice.CRM.Attachment
+  isExternal: true
+  name: SuperOffice.CRM.Attachment
+  nameWithType: SuperOffice.CRM.Attachment
+  fullName: SuperOffice.CRM.Attachment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Factory.PluginAttribute
+  commentId: T:SuperOffice.Factory.PluginAttribute
+  parent: SuperOffice.Factory
+  isExternal: true
+  name: PluginAttribute
+  nameWithType: PluginAttribute
+  fullName: SuperOffice.Factory.PluginAttribute
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AttachmentPluginAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<AttachmentPluginAttribute, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AttachmentPluginAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To)()
+  name.vb: MapEnums(Of AttachmentPluginAttribute, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AttachmentPluginAttribute, To>
+    nameWithType: EnumUtil.MapEnums<AttachmentPluginAttribute, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AttachmentPluginAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of AttachmentPluginAttribute, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AttachmentPluginAttribute, To>()
+  nameWithType: Converters.MapEnums<AttachmentPluginAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of AttachmentPluginAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To)()
+  name.vb: MapEnums(Of AttachmentPluginAttribute, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AttachmentPluginAttribute, To>
+    nameWithType: Converters.MapEnums<AttachmentPluginAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AttachmentPluginAttribute, To)
+    nameWithType: Converters.MapEnums(Of AttachmentPluginAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Attachment.AttachmentPluginAttribute, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  isExternal: true
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.CRM.Attachment.AttachmentPluginAttribute.#ctor
+  isExternal: true
+  name: AttachmentPluginAttribute
+  nameWithType: AttachmentPluginAttribute.AttachmentPluginAttribute
+  fullName: SuperOffice.CRM.Attachment.AttachmentPluginAttribute.AttachmentPluginAttribute

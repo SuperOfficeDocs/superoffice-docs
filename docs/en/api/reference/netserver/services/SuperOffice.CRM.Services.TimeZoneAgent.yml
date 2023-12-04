@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailable
   - SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZones
   - SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneId
+  - SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
   - SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZonePreference
   - SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
   - SuperOffice.CRM.Services.TimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
@@ -51,19 +52,43 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
+  id: GetDefaultTimeZoneInformation
+  parent: SuperOffice.CRM.Services.TimeZoneAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultTimeZoneInformation()
+  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformation()
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)\n"
+  syntax:
+    content: public PreferredTimeZone GetDefaultTimeZoneInformation()
+    return:
+      type: SuperOffice.CRM.Services.PreferredTimeZone
+      description: Get information about the current, preferred timezone for the current user.
+    content.vb: Public Function GetDefaultTimeZoneInformation As PreferredTimeZone
+  overload: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation*
+  implements:
+  - SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
   commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
   id: InitializeTimeZoneData
@@ -277,7 +302,7 @@ items:
     return:
       type: System.DateTime
       description: Time of last update
-    content.vb: Public Function TimeOfLastTimeZoneUpdate As Date
+    content.vb: Public Function TimeOfLastTimeZoneUpdate As DateTime
   overload: SuperOffice.CRM.Services.TimeZoneAgent.TimeOfLastTimeZoneUpdate*
   implements:
   - SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
@@ -446,13 +471,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ITimeZoneAgent}
   parent: SuperOffice.CRM.Services
@@ -498,8 +516,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
@@ -560,291 +576,6 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ITimeZoneAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of ITimeZoneAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ITimeZoneAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
@@ -924,6 +655,50 @@ references:
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of TAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation*
+  commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
+  isExternal: true
+  name: GetDefaultTimeZoneInformation
+  nameWithType: TimeZoneAgent.GetDefaultTimeZoneInformation
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformation
+- uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+  commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+  parent: SuperOffice.CRM.Services.ITimeZoneAgent
+  isExternal: true
+  name: GetDefaultTimeZoneInformation()
+  nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation()
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+    name: GetDefaultTimeZoneInformation
+    nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation
+    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+    name: GetDefaultTimeZoneInformation
+    nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation
+    fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferredTimeZone
+  commentId: T:SuperOffice.CRM.Services.PreferredTimeZone
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreferredTimeZone
+  nameWithType: PreferredTimeZone
+  fullName: SuperOffice.CRM.Services.PreferredTimeZone
 - uid: SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData*
   commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.InitializeTimeZoneData
   isExternal: true
@@ -1031,6 +806,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData*
   commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.UpdateTimeZoneData
   isExternal: true
@@ -1267,8 +1048,6 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

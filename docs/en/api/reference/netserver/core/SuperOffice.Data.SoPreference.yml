@@ -45,18 +45,13 @@ items:
   summary: "\nReads user preferences at several levels, returning the preference value that is defined at the lowest level.\n<p>\nA user preference defined at level 5 is more specific than a preference read at level 2.\n</p>\n"
   remarks: "\nCaching is done using the SoPrincipal-based cache mechanism. This is emptied on every roundtrip.\nThat is intentional, to avoid stale data. In the interest of performance, we read complete sections,\nso if you ask for one preference we read-ahead all the preferences in that section and cache them for this\nroundtrip.\n<p></p>\nWe assume that the <see cref=\"!:SetCachedItem\"></see> in CurrentPrincipal will accept multiple Set calls\non the same item, and that the latest value will be the one that survives.\n"
   syntax:
-    content: public static class SoPreference
-    content.vb: Public Module SoPreference
+    content: 'public static class SoPreference : Object'
+    content.vb: >-
+      Public Module SoPreference
+
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -213,28 +208,14 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: >-
-      [Obsolete("Please do not manipulate preferences by ID, only use section/key", true)]
-
-      public static UserPreferenceCacheObject GetSectionAndKeyFromId(int primaryId)
+    content: public static UserPreferenceCacheObject GetSectionAndKeyFromId(int primaryId)
     parameters:
     - id: primaryId
       type: System.Int32
     return:
       type: SuperOffice.Data.UserPreferenceCacheObject
-    content.vb: >-
-      <Obsolete("Please do not manipulate preferences by ID, only use section/key", True)>
-
-      Public Shared Function GetSectionAndKeyFromId(primaryId As Integer) As UserPreferenceCacheObject
+    content.vb: Public Shared Function GetSectionAndKeyFromId(primaryId As Integer) As UserPreferenceCacheObject
   overload: SuperOffice.Data.SoPreference.GetSectionAndKeyFromId*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Please do not manipulate preferences by ID, only use section/key
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -549,7 +530,7 @@ items:
     return:
       type: System.DateTime
       description: User preference.  If the user preference does not excist, the defualtValue is returned.
-    content.vb: Public Shared Function GetDateTime(section As String, key As String, defaultValue As Date) As Date
+    content.vb: Public Shared Function GetDateTime(section As String, key As String, defaultValue As DateTime) As DateTime
   overload: SuperOffice.Data.SoPreference.GetDateTime*
   modifiers.csharp:
   - public
@@ -587,7 +568,7 @@ items:
     return:
       type: System.DateTime
       description: User preference.  If the user preference does not excist, midnight January 1st, 1970 is returned.
-    content.vb: Public Shared Function GetDateTime(section As String, key As String) As Date
+    content.vb: Public Shared Function GetDateTime(section As String, key As String) As DateTime
   overload: SuperOffice.Data.SoPreference.GetDateTime*
   modifiers.csharp:
   - public
@@ -701,7 +682,7 @@ items:
     - id: value
       type: System.DateTime
       description: New value, will overwrite the old or create a new record if no associate-level preference existed for the current associate
-    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As Date)
+    content.vb: Public Shared Sub SetPreference(section As String, key As String, value As DateTime)
   overload: SuperOffice.Data.SoPreference.SetPreference*
   modifiers.csharp:
   - public
@@ -976,13 +957,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "\nCache lifetime for user preferences; note that the cache used will expire when principal is recycled (roundtrip end if in typical Web context)\n"
+  summary: "\nCache lifetime in seconds for user preferences; note that the cache used will expire when principal is recycled (roundtrip end if in typical Web context)\n"
   syntax:
     content: public static double CacheLifetime { get; set; }
     parameters: []
     return:
       type: System.Double
-      description: The cache lifetime.
+      description: The cache lifetime in seconds (default 60).
     content.vb: Public Shared Property CacheLifetime As Double
   overload: SuperOffice.Data.SoPreference.CacheLifetime*
   modifiers.csharp:
@@ -1007,285 +988,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1433,8 +1135,6 @@ references:
   nameWithType: SoPreference.GetDateTime
   fullName: SuperOffice.Data.SoPreference.GetDateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

@@ -302,8 +302,6 @@ references:
   nameWithType: IFastSerializationTypeSurrogate.SupportsType
   fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
   name: Type
   nameWithType: Type

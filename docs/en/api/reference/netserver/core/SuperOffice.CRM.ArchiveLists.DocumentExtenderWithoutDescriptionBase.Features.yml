@@ -16,13 +16,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.Sale
   - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.Shallow
   - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.Udef
+  - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.value__
   langs:
   - csharp
   - vb
   name: DocumentExtenderWithoutDescriptionBase.Features
   nameWithType: DocumentExtenderWithoutDescriptionBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
-  type: Enum
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -30,29 +31,54 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: >-
-      [Flags]
-
-      public enum Features
+    content: 'public sealed class Features : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class Features
 
-      Public Enum Features
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)
-  - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocumentExtenderWithoutDescriptionBase.Features.value__
+  fullName: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.None
   commentId: F:SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.None
   id: None
@@ -71,9 +97,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: None = 0
+    content: public const DocumentExtenderWithoutDescriptionBase.Features None
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const None As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -98,9 +125,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Associate = 2
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Associate
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Associate As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -125,9 +153,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Contact = 4
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Contact
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Contact As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -152,9 +181,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Person = 8
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Person
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Person As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -179,9 +209,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Project = 16
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Project
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Project As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -206,9 +237,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Udef = 32
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Udef
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Udef As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -233,9 +265,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Sale = 64
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Sale
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Sale As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -260,9 +293,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Publish = 128
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Publish
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Publish As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -287,9 +321,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Shallow = 162
+    content: public const DocumentExtenderWithoutDescriptionBase.Features Shallow
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const Shallow As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -314,9 +349,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: All = 254
+    content: public const DocumentExtenderWithoutDescriptionBase.Features All
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const All As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -341,9 +377,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: FindOrSelection = 254
+    content: public const DocumentExtenderWithoutDescriptionBase.Features FindOrSelection
     return:
       type: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
+    content.vb: Public Const FindOrSelection As DocumentExtenderWithoutDescriptionBase.Features
   modifiers.csharp:
   - public
   - const
@@ -357,6 +394,13 @@ references:
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -384,84 +428,6 @@ references:
     name: MapEnums(Of DocumentExtenderWithoutDescriptionBase.Features, To)
     nameWithType: EnumUtil.MapEnums(Of DocumentExtenderWithoutDescriptionBase.Features, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<DocumentExtenderWithoutDescriptionBase.Features>(DocumentExtenderWithoutDescriptionBase.Features)
-  nameWithType: ObjectExtensions.AssignByReflection<DocumentExtenderWithoutDescriptionBase.Features>(DocumentExtenderWithoutDescriptionBase.Features)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features>(SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocumentExtenderWithoutDescriptionBase.Features)(DocumentExtenderWithoutDescriptionBase.Features)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)(SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)
-  name.vb: AssignByReflection(Of DocumentExtenderWithoutDescriptionBase.Features)(DocumentExtenderWithoutDescriptionBase.Features)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<DocumentExtenderWithoutDescriptionBase.Features>
-    nameWithType: ObjectExtensions.AssignByReflection<DocumentExtenderWithoutDescriptionBase.Features>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
-    name: DocumentExtenderWithoutDescriptionBase.Features
-    nameWithType: DocumentExtenderWithoutDescriptionBase.Features
-    fullName: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of DocumentExtenderWithoutDescriptionBase.Features)
-    nameWithType: ObjectExtensions.AssignByReflection(Of DocumentExtenderWithoutDescriptionBase.Features)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
-    name: DocumentExtenderWithoutDescriptionBase.Features
-    nameWithType: DocumentExtenderWithoutDescriptionBase.Features
-    fullName: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<DocumentExtenderWithoutDescriptionBase.Features>()
-  nameWithType: ObjectExtensions.GraphCopy<DocumentExtenderWithoutDescriptionBase.Features>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocumentExtenderWithoutDescriptionBase.Features)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)()
-  name.vb: GraphCopy(Of DocumentExtenderWithoutDescriptionBase.Features)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<DocumentExtenderWithoutDescriptionBase.Features>
-    nameWithType: ObjectExtensions.GraphCopy<DocumentExtenderWithoutDescriptionBase.Features>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of DocumentExtenderWithoutDescriptionBase.Features)
-    nameWithType: ObjectExtensions.GraphCopy(Of DocumentExtenderWithoutDescriptionBase.Features)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features)
     isExternal: true
   - name: (
     nameWithType: (
@@ -503,6 +469,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -548,103 +520,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -691,18 +566,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
   commentId: T:SuperOffice.CRM.ArchiveLists.DocumentExtenderWithoutDescriptionBase.Features
   parent: SuperOffice.CRM.ArchiveLists

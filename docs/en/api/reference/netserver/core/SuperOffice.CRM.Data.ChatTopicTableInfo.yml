@@ -41,11 +41,14 @@ items:
   - SuperOffice.CRM.Data.ChatTopicTableInfo.LeftOuterJoin_Notify_ChatTopicId
   - SuperOffice.CRM.Data.ChatTopicTableInfo.LunchStart
   - SuperOffice.CRM.Data.ChatTopicTableInfo.LunchStop
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage
   - SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningNewChat
   - SuperOffice.CRM.Data.ChatTopicTableInfo.MonEnabled
   - SuperOffice.CRM.Data.ChatTopicTableInfo.MonStart
   - SuperOffice.CRM.Data.ChatTopicTableInfo.MonStop
   - SuperOffice.CRM.Data.ChatTopicTableInfo.Name
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit
   - SuperOffice.CRM.Data.ChatTopicTableInfo.PriorityId
   - SuperOffice.CRM.Data.ChatTopicTableInfo.PriorityId_InnerJoin_TicketPriority
   - SuperOffice.CRM.Data.ChatTopicTableInfo.RuntimeDefinition
@@ -66,16 +69,27 @@ items:
   - SuperOffice.CRM.Data.ChatTopicTableInfo.TzLocationId_InnerJoin_TZLocation
   - SuperOffice.CRM.Data.ChatTopicTableInfo.UseLunchHours
   - SuperOffice.CRM.Data.ChatTopicTableInfo.UseOpeningHours
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WarningNewChat
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WedEnabled
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WedStart
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WedStop
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WelcomeMessage
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentUseFirstname
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAutoFaq
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetColor
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableTicket
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFont
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetLanguage
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetOfflineFields
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetOfflineHeader
@@ -86,6 +100,7 @@ items:
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetPostTranscript
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetPreForm
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetPreMessage
+  - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRequiredFields
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetShowAgentPhoto
   - SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetShowLogo
@@ -116,7 +131,9 @@ items:
       <DatabaseTable("chat_topic")>
 
       Public Class ChatTopicTableInfo
+
           Inherits TableInfo
+
           Implements ICloneable
   inheritance:
   - System.Object
@@ -138,12 +155,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.ChatTopicTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.ChatTopicTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -238,26 +249,12 @@ items:
   namespace: SuperOffice.CRM.Data
   summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.ChatTopicTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
   modifiers.csharp:
   - public
   - static
@@ -379,7 +376,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;language_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe reference to the associated customer language. NULL or -1 if not set.\n"
+  summary: "\nField &apos;language_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: CustLang, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe reference to the associated customer language. NULL or -1 if not set.\n"
   syntax:
     content: public Int32FieldInfo LanguageId { get; }
     parameters: []
@@ -1061,7 +1058,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;category_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCategory on ticket created from off-line request\n"
+  summary: "\nField &apos;category_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: EjCategory, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nCategory on ticket created from off-line request\n"
   syntax:
     content: public Int32FieldInfo CategoryId { get; }
     parameters: []
@@ -1092,7 +1089,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;priority_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPriority on ticket created from off-line request\n"
+  summary: "\nField &apos;priority_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: TicketPriority, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPriority on ticket created from off-line request\n"
   syntax:
     content: public Int32FieldInfo PriorityId { get; }
     parameters: []
@@ -1185,7 +1182,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;kb_category_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRoot folder for FAQ suggestions\n"
+  summary: "\nField &apos;kb_category_id&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: KbCategory, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRoot folder for FAQ suggestions\n"
   syntax:
     content: public Int32FieldInfo KbCategoryId { get; }
     parameters: []
@@ -1495,7 +1492,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;tzLocationId&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimezone used for the start/stop times for this topic.\n"
+  summary: "\nField &apos;tzLocationId&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: TZLocation, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimezone used for the start/stop times for this topic.\n"
   syntax:
     content: public Int32FieldInfo TzLocationId { get; }
     parameters: []
@@ -2270,7 +2267,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;bot_register_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to register/unregister chatbot. 0 if there is no bot\n"
+  summary: "\nField &apos;bot_register_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: Ejscript, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to register/unregister chatbot. 0 if there is no bot\n"
   syntax:
     content: public Int32FieldInfo BotRegisterScriptid { get; }
     parameters: []
@@ -2301,7 +2298,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;bot_session_created_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to run on new session.\n"
+  summary: "\nField &apos;bot_session_created_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: Ejscript, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to run on new session.\n"
   syntax:
     content: public Int32FieldInfo BotSessionCreatedScriptid { get; }
     parameters: []
@@ -2332,7 +2329,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;bot_session_changed_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to run when session state changes.\n"
+  summary: "\nField &apos;bot_session_changed_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: Ejscript, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to run when session state changes.\n"
   syntax:
     content: public Int32FieldInfo BotSessionChangedScriptid { get; }
     parameters: []
@@ -2363,7 +2360,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "\nField &apos;bot_message_received_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to run when new messages received from customer.\n"
+  summary: "\nField &apos;bot_message_received_scriptid&apos; in table &apos;chat_topic&apos;: Dictionary type FK, target: Ejscript, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nScript id to run when new messages received from customer.\n"
   syntax:
     content: public Int32FieldInfo BotMessageReceivedScriptid { get; }
     parameters: []
@@ -2495,6 +2492,471 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property WidgetAgentUseFirstname As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentUseFirstname*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage
+  id: WarningChatMessage
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WarningChatMessage
+  nameWithType: ChatTopicTableInfo.WarningChatMessage
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;warning_chat_message&apos; in table &apos;chat_topic&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nContains the user notify time in minutes for new chat messages\n"
+  syntax:
+    content: public Int32FieldInfo WarningChatMessage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property WarningChatMessage As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage
+  id: ManagerWarningChatMessage
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ManagerWarningChatMessage
+  nameWithType: ChatTopicTableInfo.ManagerWarningChatMessage
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;manager_warning_chat_message&apos; in table &apos;chat_topic&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nContains the manager notify time in minutes for new chat messages\n"
+  syntax:
+    content: public Int32FieldInfo ManagerWarningChatMessage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ManagerWarningChatMessage As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit
+  id: OfflineFormTimeLimit
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormTimeLimit
+  nameWithType: ChatTopicTableInfo.OfflineFormTimeLimit
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;offline_form_time_limit&apos; in table &apos;chat_topic&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe number of minutes in the queue before the offline form is available\n"
+  syntax:
+    content: public Int32FieldInfo OfflineFormTimeLimit { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property OfflineFormTimeLimit As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength
+  id: OfflineFormQueueLength
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OfflineFormQueueLength
+  nameWithType: ChatTopicTableInfo.OfflineFormQueueLength
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;offline_form_queue_length&apos; in table &apos;chat_topic&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe number of customers in the queue before the offline form is available\n"
+  syntax:
+    content: public Int32FieldInfo OfflineFormQueueLength { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property OfflineFormQueueLength As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating
+  id: WidgetEnableRating
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetEnableRating
+  nameWithType: ChatTopicTableInfo.WidgetEnableRating
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_enable_rating&apos; in table &apos;chat_topic&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSetting this to true will enable rating support in the chat widget\n"
+  syntax:
+    content: public UInt16FieldInfo WidgetEnableRating { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property WidgetEnableRating As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText
+  id: WidgetRatingText
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetRatingText
+  nameWithType: ChatTopicTableInfo.WidgetRatingText
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_rating_text&apos; in table &apos;chat_topic&apos;: Dictionary type String[1025], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe text to be displayed in the widget next to the rating stars\n"
+  syntax:
+    content: public StringFieldInfo WidgetRatingText { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetRatingText As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor
+  id: WidgetBadgeColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetBadgeColor
+  nameWithType: ChatTopicTableInfo.WidgetBadgeColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_badge_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget badge\n"
+  syntax:
+    content: public StringFieldInfo WidgetBadgeColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetBadgeColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor
+  id: WidgetBadgeTextColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetBadgeTextColor
+  nameWithType: ChatTopicTableInfo.WidgetBadgeTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_badge_text_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget badge text\n"
+  syntax:
+    content: public StringFieldInfo WidgetBadgeTextColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetBadgeTextColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor
+  id: WidgetCustMsgColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetCustMsgColor
+  nameWithType: ChatTopicTableInfo.WidgetCustMsgColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_cust_msg_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget customer message\n"
+  syntax:
+    content: public StringFieldInfo WidgetCustMsgColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetCustMsgColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor
+  id: WidgetCustMsgTextColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetCustMsgTextColor
+  nameWithType: ChatTopicTableInfo.WidgetCustMsgTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_cust_msg_text_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget customer message text\n"
+  syntax:
+    content: public StringFieldInfo WidgetCustMsgTextColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetCustMsgTextColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor
+  id: WidgetAgentMsgColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentMsgColor
+  nameWithType: ChatTopicTableInfo.WidgetAgentMsgColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_agent_msg_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget agent message\n"
+  syntax:
+    content: public StringFieldInfo WidgetAgentMsgColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetAgentMsgColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor
+  id: WidgetAgentMsgTextColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetAgentMsgTextColor
+  nameWithType: ChatTopicTableInfo.WidgetAgentMsgTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_agent_msg_text_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget agent message text\n"
+  syntax:
+    content: public StringFieldInfo WidgetAgentMsgTextColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetAgentMsgTextColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize
+  id: WidgetFontSize
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetFontSize
+  nameWithType: ChatTopicTableInfo.WidgetFontSize
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_font_size&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional size for chat widget font\n"
+  syntax:
+    content: public StringFieldInfo WidgetFontSize { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetFontSize As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor
+  id: WidgetButtonColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetButtonColor
+  nameWithType: ChatTopicTableInfo.WidgetButtonColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_button_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget button\n"
+  syntax:
+    content: public StringFieldInfo WidgetButtonColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetButtonColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor
+  commentId: P:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor
+  id: WidgetButtonTextColor
+  parent: SuperOffice.CRM.Data.ChatTopicTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WidgetButtonTextColor
+  nameWithType: ChatTopicTableInfo.WidgetButtonTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;widget_button_text_color&apos; in table &apos;chat_topic&apos;: Dictionary type String[17], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional color for chat widget button text\n"
+  syntax:
+    content: public StringFieldInfo WidgetButtonTextColor { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property WidgetButtonTextColor As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor*
   modifiers.csharp:
   - public
   - get
@@ -2895,8 +3357,6 @@ references:
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
@@ -3229,254 +3689,6 @@ references:
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Data.ChatTopicTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -4181,6 +4393,96 @@ references:
   name: WidgetAgentUseFirstname
   nameWithType: ChatTopicTableInfo.WidgetAgentUseFirstname
   fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentUseFirstname
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage
+  isExternal: true
+  name: WarningChatMessage
+  nameWithType: ChatTopicTableInfo.WarningChatMessage
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WarningChatMessage
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage
+  isExternal: true
+  name: ManagerWarningChatMessage
+  nameWithType: ChatTopicTableInfo.ManagerWarningChatMessage
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.ManagerWarningChatMessage
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit
+  isExternal: true
+  name: OfflineFormTimeLimit
+  nameWithType: ChatTopicTableInfo.OfflineFormTimeLimit
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormTimeLimit
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength
+  isExternal: true
+  name: OfflineFormQueueLength
+  nameWithType: ChatTopicTableInfo.OfflineFormQueueLength
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.OfflineFormQueueLength
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating
+  isExternal: true
+  name: WidgetEnableRating
+  nameWithType: ChatTopicTableInfo.WidgetEnableRating
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetEnableRating
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText
+  isExternal: true
+  name: WidgetRatingText
+  nameWithType: ChatTopicTableInfo.WidgetRatingText
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetRatingText
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor
+  isExternal: true
+  name: WidgetBadgeColor
+  nameWithType: ChatTopicTableInfo.WidgetBadgeColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeColor
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor
+  isExternal: true
+  name: WidgetBadgeTextColor
+  nameWithType: ChatTopicTableInfo.WidgetBadgeTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetBadgeTextColor
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor
+  isExternal: true
+  name: WidgetCustMsgColor
+  nameWithType: ChatTopicTableInfo.WidgetCustMsgColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgColor
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor
+  isExternal: true
+  name: WidgetCustMsgTextColor
+  nameWithType: ChatTopicTableInfo.WidgetCustMsgTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetCustMsgTextColor
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor
+  isExternal: true
+  name: WidgetAgentMsgColor
+  nameWithType: ChatTopicTableInfo.WidgetAgentMsgColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgColor
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor
+  isExternal: true
+  name: WidgetAgentMsgTextColor
+  nameWithType: ChatTopicTableInfo.WidgetAgentMsgTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetAgentMsgTextColor
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize
+  isExternal: true
+  name: WidgetFontSize
+  nameWithType: ChatTopicTableInfo.WidgetFontSize
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetFontSize
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor
+  isExternal: true
+  name: WidgetButtonColor
+  nameWithType: ChatTopicTableInfo.WidgetButtonColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonColor
+- uid: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor*
+  commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor
+  isExternal: true
+  name: WidgetButtonTextColor
+  nameWithType: ChatTopicTableInfo.WidgetButtonTextColor
+  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo.WidgetButtonTextColor
 - uid: SuperOffice.CRM.Data.ChatTopicTableInfo.LanguageId_InnerJoin_CustLang*
   commentId: Overload:SuperOffice.CRM.Data.ChatTopicTableInfo.LanguageId_InnerJoin_CustLang
   isExternal: true

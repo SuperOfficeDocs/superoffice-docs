@@ -20,6 +20,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.Diagnostics
   - SuperOffice.Configuration.ConfigFile.Documents
   - SuperOffice.Configuration.ConfigFile.Downloads
+  - SuperOffice.Configuration.ConfigFile.Factory
   - SuperOffice.Configuration.ConfigFile.FeatureToggles
   - SuperOffice.Configuration.ConfigFile.Globalization
   - SuperOffice.Configuration.ConfigFile.GoogleRecaptcha
@@ -38,6 +39,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.Security.Sentry
   - SuperOffice.Configuration.ConfigFile.Security.SoPasswordCredentialPlugin
   - SuperOffice.Configuration.ConfigFile.Services
+  - SuperOffice.Configuration.ConfigFile.Smtp
   - SuperOffice.Configuration.ConfigFile.SoFormsAuthentication
   - SuperOffice.Configuration.ConfigFile.SubClients
   - SuperOffice.Configuration.ConfigFile.SuperId
@@ -156,6 +158,12 @@ references:
   name: ConfigFile.Downloads
   nameWithType: ConfigFile.Downloads
   fullName: SuperOffice.Configuration.ConfigFile.Downloads
+- uid: SuperOffice.Configuration.ConfigFile.Factory
+  commentId: T:SuperOffice.Configuration.ConfigFile.Factory
+  isExternal: true
+  name: ConfigFile.Factory
+  nameWithType: ConfigFile.Factory
+  fullName: SuperOffice.Configuration.ConfigFile.Factory
 - uid: SuperOffice.Configuration.ConfigFile.FeatureToggles
   commentId: T:SuperOffice.Configuration.ConfigFile.FeatureToggles
   isExternal: true
@@ -264,6 +272,12 @@ references:
   name: ConfigFile.Services
   nameWithType: ConfigFile.Services
   fullName: SuperOffice.Configuration.ConfigFile.Services
+- uid: SuperOffice.Configuration.ConfigFile.Smtp
+  commentId: T:SuperOffice.Configuration.ConfigFile.Smtp
+  isExternal: true
+  name: ConfigFile.Smtp
+  nameWithType: ConfigFile.Smtp
+  fullName: SuperOffice.Configuration.ConfigFile.Smtp
 - uid: SuperOffice.Configuration.ConfigFile.SoFormsAuthentication
   commentId: T:SuperOffice.Configuration.ConfigFile.SoFormsAuthentication
   isExternal: true

@@ -15,7 +15,7 @@ items:
   name: DiagnoseMethod
   nameWithType: DiagnoseMethod
   fullName: SuperOffice.Diagnostics.DiagnoseMethod
-  type: Delegate
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,21 +24,24 @@ items:
   namespace: SuperOffice.Diagnostics
   summary: "\nDelegate used by <xref href=\"SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)\" data-throw-if-not-resolved=\"false\"></xref> to carry out scaffolding logic.\n"
   syntax:
-    content: public delegate void DiagnoseMethod(Diagnostic scaffolder);
-    parameters:
-    - id: scaffolder
-      type: SuperOffice.Diagnostics.Diagnostic
-      description: Object to report scaffolding results to.
-    content.vb: Public Delegate Sub DiagnoseMethod(scaffolder As Diagnostic)
+    content: 'public sealed class DiagnoseMethod : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class DiagnoseMethod
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Diagnostics.DiagnoseMethod.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.DiagnoseMethod.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Diagnostics.DiagnoseMethod.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Diagnostics.DiagnoseMethod.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -172,6 +175,13 @@ references:
   name: SuperOffice.Diagnostics
   nameWithType: SuperOffice.Diagnostics
   fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Diagnostics.DiagnoseMethod.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -240,13 +250,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Diagnostics.Diagnostic
-  commentId: T:SuperOffice.Diagnostics.Diagnostic
-  parent: SuperOffice.Diagnostics
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: Diagnostic
-  nameWithType: Diagnostic
-  fullName: SuperOffice.Diagnostics.Diagnostic
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -350,13 +359,6 @@ references:
   name: DiagnoseMethod
   nameWithType: DiagnoseMethod.DiagnoseMethod
   fullName: SuperOffice.Diagnostics.DiagnoseMethod.DiagnoseMethod
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -364,18 +366,19 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Diagnostics.DiagnoseMethod.Invoke*
   commentId: Overload:SuperOffice.Diagnostics.DiagnoseMethod.Invoke
   isExternal: true
   name: Invoke
   nameWithType: DiagnoseMethod.Invoke
   fullName: SuperOffice.Diagnostics.DiagnoseMethod.Invoke
+- uid: SuperOffice.Diagnostics.Diagnostic
+  commentId: T:SuperOffice.Diagnostics.Diagnostic
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: Diagnostic
+  nameWithType: Diagnostic
+  fullName: SuperOffice.Diagnostics.Diagnostic
 - uid: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke*
   commentId: Overload:SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke
   isExternal: true
@@ -383,15 +386,11 @@ references:
   nameWithType: DiagnoseMethod.BeginInvoke
   fullName: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

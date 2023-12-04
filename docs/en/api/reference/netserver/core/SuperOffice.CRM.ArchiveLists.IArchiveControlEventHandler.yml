@@ -33,6 +33,7 @@ items:
     content: 'public interface IArchiveControlEventHandler : IPlugin'
     content.vb: >-
       Public Interface IArchiveControlEventHandler
+
           Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EnumUtil.MapEnums``2

@@ -223,7 +223,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Date As Date
+    content.vb: Public Overridable Property Date As DateTime
   overload: SuperOffice.CRM.Services.DayInformationListItem.Date*
   modifiers.csharp:
   - public
@@ -240,13 +240,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
@@ -260,12 +253,6 @@ references:
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.DayInformationListItem.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DayInformationListItem.#ctor
   isExternal: true
@@ -285,6 +272,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation*
   commentId: Overload:SuperOffice.CRM.Services.DayInformationListItem.ActivityInformation
   isExternal: true
@@ -318,8 +311,6 @@ references:
   nameWithType: DayInformationListItem.Date
   fullName: SuperOffice.CRM.Services.DayInformationListItem.Date
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime

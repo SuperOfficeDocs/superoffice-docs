@@ -15,7 +15,7 @@ items:
   name: OnSaved
   nameWithType: OnSaved
   fullName: SuperOffice.Data.OnSaved
-  type: Delegate
+  type: Class
   source:
     path: SoDataBase
     isExternal: true
@@ -24,24 +24,24 @@ items:
   namespace: SuperOffice.Data
   summary: "\nDelegate describing that an element was saved to the database\n"
   syntax:
-    content: public delegate void OnSaved(INestedPersist element, bool didSucceed);
-    parameters:
-    - id: element
-      type: SuperOffice.Data.INestedPersist
-      description: Element that was saved to the database
-    - id: didSucceed
-      type: System.Boolean
-      description: True if the save operation succeeded.
-    content.vb: Public Delegate Sub OnSaved(element As INestedPersist, didSucceed As Boolean)
+    content: 'public sealed class OnSaved : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class OnSaved
+
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.OnSaved.EnumUtil.MapEnums``2
   - SuperOffice.Data.OnSaved.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - delegate
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Delegate
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.OnSaved.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Data.OnSaved.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -179,6 +179,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.OnSaved.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -247,20 +254,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.Data.INestedPersist
-  commentId: T:SuperOffice.Data.INestedPersist
-  parent: SuperOffice.Data
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: INestedPersist
-  nameWithType: INestedPersist
-  fullName: SuperOffice.Data.INestedPersist
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -352,12 +351,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -370,13 +363,6 @@ references:
   name: OnSaved
   nameWithType: OnSaved.OnSaved
   fullName: SuperOffice.Data.OnSaved.OnSaved
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -390,6 +376,20 @@ references:
   name: Invoke
   nameWithType: OnSaved.Invoke
   fullName: SuperOffice.Data.OnSaved.Invoke
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Data.OnSaved.BeginInvoke*
   commentId: Overload:SuperOffice.Data.OnSaved.BeginInvoke
   isExternal: true
@@ -397,15 +397,11 @@ references:
   nameWithType: OnSaved.BeginInvoke
   fullName: SuperOffice.Data.OnSaved.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
   name: IAsyncResult
   nameWithType: IAsyncResult

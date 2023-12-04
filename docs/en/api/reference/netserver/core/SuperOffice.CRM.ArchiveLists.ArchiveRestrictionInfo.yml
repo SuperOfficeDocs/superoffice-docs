@@ -101,21 +101,17 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nThis class carries information about a restriction on the query of an archive provider\n"
   syntax:
-    content: 'public sealed class ArchiveRestrictionInfo : ICloneable'
+    content: 'public sealed class ArchiveRestrictionInfo : Object, ICloneable'
     content.vb: >-
       Public NotInheritable Class ArchiveRestrictionInfo
+
+          Inherits Object
+
           Implements ICloneable
   inheritance:
   - System.Object
   implements:
   - System.ICloneable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
@@ -243,35 +239,6 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
-  id: Clone
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-  langs:
-  - csharp
-  - vb
-  name: Clone()
-  nameWithType: ArchiveRestrictionInfo.Clone()
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone()
-  type: Method
-  source:
-    path: SoCore
-    isExternal: true
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public object Clone()
-    return:
-      type: System.Object
-    content.vb: Public Function Clone As Object
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone*
-  implements:
-  - System.ICloneable.Clone
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.#ctor
   id: '#ctor'
@@ -735,7 +702,7 @@ items:
     return:
       type: System.DateTime
       description: Integer value
-    content.vb: Public Function GetDateTimeValue(index As Integer) As Date
+    content.vb: Public Function GetDateTimeValue(index As Integer) As DateTime
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetDateTimeValue*
   exceptions:
   - type: System.IndexOutOfRangeException
@@ -871,7 +838,7 @@ items:
     return:
       type: System.DateTime[]
       description: Array of values
-    content.vb: Public Function GetDateTimeValueArray As Date()
+    content.vb: Public Function GetDateTimeValueArray As DateTime()
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetDateTimeValueArray*
   modifiers.csharp:
   - public
@@ -1116,7 +1083,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToString*
   modifiers.csharp:
   - public
@@ -2532,6 +2498,33 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
+  id: Clone
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ArchiveRestrictionInfo.Clone()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Function Clone As Object
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Name
   commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Name
   id: Name
@@ -2949,260 +2942,10 @@ references:
   nameWithType: Object
   fullName: System.Object
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -3711,43 +3454,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
-  isExternal: true
-  name: Clone
-  nameWithType: ArchiveRestrictionInfo.Clone
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    nameWithType: ICloneable.Clone
-    fullName: System.ICloneable.Clone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.#ctor
   isExternal: true
@@ -3868,8 +3574,6 @@ references:
   nameWithType: ArchiveRestrictionInfo.GetDateTimeValue
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetDateTimeValue
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -4025,37 +3729,6 @@ references:
   name: AddSubRestriction
   nameWithType: ArchiveRestrictionInfo.AddSubRestriction
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.AddSubRestriction
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToString*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToString
   isExternal: true
@@ -4167,8 +3840,7 @@ references:
   nameWithType: ArchiveRestrictionInfo.PrefixRestrictions
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.PrefixRestrictions
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<ArchiveRestrictionInfo>
   nameWithType: IEnumerable<ArchiveRestrictionInfo>
@@ -4211,14 +3883,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -4228,9 +3899,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4243,18 +3914,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.EliminateEmptyValueRestrictions*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.EliminateEmptyValueRestrictions
   isExternal: true
@@ -4286,8 +3951,7 @@ references:
   nameWithType: ArchiveRestrictionInfo.ToNameArray
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameArray
 - uid: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  commentId: T:System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  parent: System
+  commentId: '!:System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}'
   definition: System.Predicate`1
   name: Predicate<ArchiveRestrictionInfo>
   nameWithType: Predicate<ArchiveRestrictionInfo>
@@ -4330,14 +3994,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Predicate`1
-  commentId: T:System.Predicate`1
   isExternal: true
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
@@ -4347,9 +4010,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4362,15 +4025,14 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}'
   definition: System.Collections.Generic.List`1
   name: List<ArchiveRestrictionInfo>
   nameWithType: List<ArchiveRestrictionInfo>
@@ -4413,14 +4075,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -4430,9 +4091,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4445,9 +4106,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4458,8 +4119,7 @@ references:
   nameWithType: ArchiveRestrictionInfo.ToNameDictionary
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToNameDictionary
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, ArchiveRestrictionInfo>
   nameWithType: Dictionary<String, ArchiveRestrictionInfo>
@@ -4518,14 +4178,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -4535,15 +4194,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4556,21 +4215,20 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.ICollection{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.ICollection{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}'
   definition: System.Collections.Generic.ICollection`1
   name: ICollection<ArchiveRestrictionInfo>
   nameWithType: ICollection<ArchiveRestrictionInfo>
@@ -4613,14 +4271,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
   isExternal: true
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
   spec.csharp:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
@@ -4630,9 +4287,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -4645,9 +4302,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -4664,8 +4321,7 @@ references:
   nameWithType: ArchiveRestrictionInfo.ToKeyDictionary
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.ToKeyDictionary
 - uid: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<Int32, ArchiveRestrictionInfo>
   nameWithType: Dictionary<Int32, ArchiveRestrictionInfo>
@@ -4747,6 +4403,12 @@ references:
   name: GetBaseNameFromComplexName
   nameWithType: ArchiveRestrictionInfo.GetBaseNameFromComplexName
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.GetBaseNameFromComplexName
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: ArchiveRestrictionInfo.Clone
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Clone
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Name*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.Name
   isExternal: true

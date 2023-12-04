@@ -618,13 +618,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.MDOAgent
   commentId: T:SuperOffice.CRM.Services.MDOAgent
   isExternal: true
@@ -638,12 +631,6 @@ references:
   name: IMDOAgent
   nameWithType: IMDOAgent
   fullName: SuperOffice.CRM.Services.IMDOAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList*
   commentId: Overload:SuperOffice.CRM.Services.MDOListItem.GetFlattenedList
   isExternal: true
@@ -677,8 +664,7 @@ references:
     nameWithType: ()
     fullName: ()
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.MDOListItem}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.MDOListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.MDOListItem}'
   definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<MDOListItem>
   nameWithType: IEnumerable<MDOListItem>
@@ -721,14 +707,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
@@ -738,9 +723,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -753,21 +738,14 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
-  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}'
   definition: System.Collections.Generic.ICollection`1
   name: ICollection<MDOListItem>
   nameWithType: ICollection<MDOListItem>
@@ -810,14 +788,13 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
   isExternal: true
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
   spec.csharp:
   - uid: System.Collections.Generic.ICollection`1
     name: ICollection
@@ -827,9 +804,9 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -842,9 +819,9 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
@@ -867,6 +844,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.MDOListItem.Id*
   commentId: Overload:SuperOffice.CRM.Services.MDOListItem.Id
   isExternal: true

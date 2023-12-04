@@ -39,37 +39,6 @@ items:
   - SuperOffice.CRM.Rows.DocTmplRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.DocTmplRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.DocTmplRow._nodeType
-  - SuperOffice.CRM.Rows.DocTmplRow._onAcceleratorChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onAutoeventIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onDefaultOrefChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onDefaultPublishTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onDeletedChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onDirectionChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onEmailSubjectChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onFilenameChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onIncludeSignatureChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onIntentIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onInvitationDocTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onLoadTemplateFromPluginChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onMimeTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onNameChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onPrivacyDocTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onQuoteDocTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onRankChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onRecordTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onRegisteredChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onRegkeyEditChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onRegkeyOpenChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onRegkeyPrintChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onSaveInDbChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailAddressChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailModeChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onShowCurrentsChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onTooltipChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onUpdatedChange
-  - SuperOffice.CRM.Rows.DocTmplRow._onUpdatedCountChange
   - SuperOffice.CRM.Rows.DocTmplRow._persistedAccelerator
   - SuperOffice.CRM.Rows.DocTmplRow._persistedAutoeventId
   - SuperOffice.CRM.Rows.DocTmplRow._persistedDefaultOref
@@ -134,40 +103,9 @@ items:
   - SuperOffice.CRM.Rows.DocTmplRow.LoadTemplateFromPlugin
   - SuperOffice.CRM.Rows.DocTmplRow.MimeType
   - SuperOffice.CRM.Rows.DocTmplRow.Name
-  - SuperOffice.CRM.Rows.DocTmplRow.OnAcceleratorChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnAutoeventIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnDefaultOrefChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnDefaultPublishTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnDeletedChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnDirectionChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnEmailSubjectChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnFilenameChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnIncludeSignatureChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnIntentIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnInvitationDocTypeChange
   - SuperOffice.CRM.Rows.DocTmplRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Rows.DocTmplRow.OnLoadTemplateFromPluginChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnMimeTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnNameChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnPrivacyDocTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnQuoteDocTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnRankChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnRecordTypeChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredAssociateIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyEditChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyOpenChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyPrintChange
   - SuperOffice.CRM.Rows.DocTmplRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.DocTmplRow.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Rows.DocTmplRow.OnSaveInDbChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailAddressChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailModeChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnShowCurrentsChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnTooltipChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedAssociateIdChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedChange
-  - SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedCountChange
   - SuperOffice.CRM.Rows.DocTmplRow.PrivacyDocType
   - SuperOffice.CRM.Rows.DocTmplRow.QuoteDocType
   - SuperOffice.CRM.Rows.DocTmplRow.Rank
@@ -212,7 +150,9 @@ items:
     content: 'public class DocTmplRow : TableRowBase, INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem, IMDOListElement'
     content.vb: >-
       Public Class DocTmplRow
+
           Inherits TableRowBase
+
           Implements INestedPersist, ISoDataLookup, ISentryIgnorable, ISoItem, IMDOListElement
   inheritance:
   - System.Object
@@ -228,8 +168,8 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowBase._saveOwner
   - SuperOffice.CRM.Rows.TableRowBase._sentries
-  - SuperOffice.CRM.Rows.TableRowBase._onValueChange
   - SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+  - SuperOffice.CRM.Rows.TableRowBase._isSaving
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
@@ -248,6 +188,10 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.CRM.Rows.TableRowBase.Save
   - SuperOffice.CRM.Rows.TableRowBase.Delete
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.CRM.Rows.TableRowBase.Validate
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice#Data#INestedPersist#OnPreIdUpdate
@@ -272,13 +216,17 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SqlType
   - SuperOffice.CRM.Rows.TableRowBase.IsSentryIgnored
   - SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-  - SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
   - SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   - SuperOffice.CRM.Rows.TableRowBase.OnElementIdUpdate
   - SuperOffice.Data.SQL.PrivateSave.GetTableInfos
+  - SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  - SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
   - SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
+  - SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  - SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
   - SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
@@ -290,17 +238,12 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.DocTmplRow.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.DocTmplRow.SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.DocTmplRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -735,7 +678,7 @@ items:
     content: protected DateTime _persistedRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _persistedRegistered As Date
+    content.vb: Protected _persistedRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -789,7 +732,7 @@ items:
     content: protected DateTime _persistedUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _persistedUpdated As Date
+    content.vb: Protected _persistedUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1599,7 +1542,7 @@ items:
     content: protected DateTime _currentRegistered
     return:
       type: System.DateTime
-    content.vb: Protected _currentRegistered As Date
+    content.vb: Protected _currentRegistered As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1653,7 +1596,7 @@ items:
     content: protected DateTime _currentUpdated
     return:
       type: System.DateTime
-    content.vb: Protected _currentUpdated As Date
+    content.vb: Protected _currentUpdated As DateTime
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -2434,7 +2377,6 @@ items:
     return:
       type: System.String
     content.vb: Public Overrides Function ToString As String
-  overridden: System.Object.ToString
   overload: SuperOffice.CRM.Rows.DocTmplRow.ToString*
   modifiers.csharp:
   - public
@@ -3067,7 +3009,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: "\n.NET type: int. Primary key \n"
-  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>		\n<p>Writeable if you have list- or general admin functional rights, or a superoffice code signature</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
+  remarks: "\nOriginal type in dictionary:  PK.\n<p>This field is the primary key and can only be read, never written.</p>        \n<p>Writeable if you have list- or general admin functional rights, or a superoffice code signature</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n"
   syntax:
     content: public virtual int DocTmplId { get; }
     parameters: []
@@ -3643,7 +3585,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Rows.DocTmplRow.Registered*
   exceptions:
   - type: System.Security.SecurityException
@@ -3719,7 +3661,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Rows.DocTmplRow.Updated*
   exceptions:
   - type: System.Security.SecurityException
@@ -4265,1680 +4207,6 @@ items:
   modifiers.vb:
   - Public
   - Overridable
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onNameChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onNameChange
-  id: _onNameChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onNameChange
-  nameWithType: DocTmplRow._onNameChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Name\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onRankChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onRankChange
-  id: _onRankChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onRankChange
-  nameWithType: DocTmplRow._onRankChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onRankChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Rank\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onRankChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onRankChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onTooltipChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onTooltipChange
-  id: _onTooltipChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onTooltipChange
-  nameWithType: DocTmplRow._onTooltipChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onTooltipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Tooltip\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onTooltipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onTooltipChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onDeletedChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onDeletedChange
-  id: _onDeletedChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onDeletedChange
-  nameWithType: DocTmplRow._onDeletedChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onDeletedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Deleted\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onDeletedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onDeletedChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onFilenameChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onFilenameChange
-  id: _onFilenameChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onFilenameChange
-  nameWithType: DocTmplRow._onFilenameChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onFilenameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Filename\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onFilenameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onFilenameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onAutoeventIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onAutoeventIdChange
-  id: _onAutoeventIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onAutoeventIdChange
-  nameWithType: DocTmplRow._onAutoeventIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onAutoeventIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.AutoeventId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onAutoeventIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onAutoeventIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onRecordTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onRecordTypeChange
-  id: _onRecordTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onRecordTypeChange
-  nameWithType: DocTmplRow._onRecordTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onRecordTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.RecordType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DocTmplType> _onRecordTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplType}
-    content.vb: Protected Event _onRecordTypeChange As OnFieldChange(Of DocTmplType)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onDirectionChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onDirectionChange
-  id: _onDirectionChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onDirectionChange
-  nameWithType: DocTmplRow._onDirectionChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onDirectionChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Direction\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DocTmplDirection> _onDirectionChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplDirection}
-    content.vb: Protected Event _onDirectionChange As OnFieldChange(Of DocTmplDirection)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onSaveInDbChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onSaveInDbChange
-  id: _onSaveInDbChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onSaveInDbChange
-  nameWithType: DocTmplRow._onSaveInDbChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onSaveInDbChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.SaveInDb\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onSaveInDbChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onSaveInDbChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onDefaultOrefChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onDefaultOrefChange
-  id: _onDefaultOrefChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onDefaultOrefChange
-  nameWithType: DocTmplRow._onDefaultOrefChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onDefaultOrefChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.DefaultOref\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onDefaultOrefChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onDefaultOrefChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onRegkeyOpenChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onRegkeyOpenChange
-  id: _onRegkeyOpenChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegkeyOpenChange
-  nameWithType: DocTmplRow._onRegkeyOpenChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onRegkeyOpenChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.RegkeyOpen\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onRegkeyOpenChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onRegkeyOpenChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onRegkeyEditChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onRegkeyEditChange
-  id: _onRegkeyEditChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegkeyEditChange
-  nameWithType: DocTmplRow._onRegkeyEditChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onRegkeyEditChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.RegkeyEdit\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onRegkeyEditChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onRegkeyEditChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onRegkeyPrintChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onRegkeyPrintChange
-  id: _onRegkeyPrintChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegkeyPrintChange
-  nameWithType: DocTmplRow._onRegkeyPrintChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onRegkeyPrintChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.RegkeyPrint\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onRegkeyPrintChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onRegkeyPrintChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onAcceleratorChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onAcceleratorChange
-  id: _onAcceleratorChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onAcceleratorChange
-  nameWithType: DocTmplRow._onAcceleratorChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onAcceleratorChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Accelerator\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onAcceleratorChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onAcceleratorChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onRegisteredChange
-  id: _onRegisteredChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredChange
-  nameWithType: DocTmplRow._onRegisteredChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Registered\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onRegisteredAssociateIdChange
-  id: _onRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onRegisteredAssociateIdChange
-  nameWithType: DocTmplRow._onRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.RegisteredAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onUpdatedChange
-  id: _onUpdatedChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedChange
-  nameWithType: DocTmplRow._onUpdatedChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.Updated\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type DateTime.\n"
-  syntax:
-    content: protected event OnFieldChange<DateTime> _onUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Protected Event _onUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onUpdatedAssociateIdChange
-  id: _onUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedAssociateIdChange
-  nameWithType: DocTmplRow._onUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.UpdatedAssociateId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onUpdatedCountChange
-  id: _onUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onUpdatedCountChange
-  nameWithType: DocTmplRow._onUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.UpdatedCount\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onDefaultPublishTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onDefaultPublishTypeChange
-  id: _onDefaultPublishTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onDefaultPublishTypeChange
-  nameWithType: DocTmplRow._onDefaultPublishTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onDefaultPublishTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.DefaultPublishType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<PublishType> _onDefaultPublishTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.PublishType}
-    content.vb: Protected Event _onDefaultPublishTypeChange As OnFieldChange(Of PublishType)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onIntentIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onIntentIdChange
-  id: _onIntentIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onIntentIdChange
-  nameWithType: DocTmplRow._onIntentIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onIntentIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.IntentId\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onIntentIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onIntentIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onMimeTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onMimeTypeChange
-  id: _onMimeTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onMimeTypeChange
-  nameWithType: DocTmplRow._onMimeTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onMimeTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.MimeType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onMimeTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onMimeTypeChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onLoadTemplateFromPluginChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onLoadTemplateFromPluginChange
-  id: _onLoadTemplateFromPluginChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onLoadTemplateFromPluginChange
-  nameWithType: DocTmplRow._onLoadTemplateFromPluginChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onLoadTemplateFromPluginChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.LoadTemplateFromPlugin\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type int.\n"
-  syntax:
-    content: protected event OnFieldChange<int> _onLoadTemplateFromPluginChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Protected Event _onLoadTemplateFromPluginChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onQuoteDocTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onQuoteDocTypeChange
-  id: _onQuoteDocTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onQuoteDocTypeChange
-  nameWithType: DocTmplRow._onQuoteDocTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onQuoteDocTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.QuoteDocType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DocTmplQuoteType> _onQuoteDocTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplQuoteType}
-    content.vb: Protected Event _onQuoteDocTypeChange As OnFieldChange(Of DocTmplQuoteType)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onPrivacyDocTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onPrivacyDocTypeChange
-  id: _onPrivacyDocTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onPrivacyDocTypeChange
-  nameWithType: DocTmplRow._onPrivacyDocTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onPrivacyDocTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.PrivacyDocType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DocTmplPrivacyType> _onPrivacyDocTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplPrivacyType}
-    content.vb: Protected Event _onPrivacyDocTypeChange As OnFieldChange(Of DocTmplPrivacyType)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onEmailSubjectChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onEmailSubjectChange
-  id: _onEmailSubjectChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onEmailSubjectChange
-  nameWithType: DocTmplRow._onEmailSubjectChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onEmailSubjectChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.EmailSubject\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onEmailSubjectChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onEmailSubjectChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onIncludeSignatureChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onIncludeSignatureChange
-  id: _onIncludeSignatureChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onIncludeSignatureChange
-  nameWithType: DocTmplRow._onIncludeSignatureChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onIncludeSignatureChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.IncludeSignature\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onIncludeSignatureChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onIncludeSignatureChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onShowCurrentsChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onShowCurrentsChange
-  id: _onShowCurrentsChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onShowCurrentsChange
-  nameWithType: DocTmplRow._onShowCurrentsChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onShowCurrentsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.ShowCurrents\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<short> _onShowCurrentsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Protected Event _onShowCurrentsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailModeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailModeChange
-  id: _onSenderEmailModeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onSenderEmailModeChange
-  nameWithType: DocTmplRow._onSenderEmailModeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailModeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.SenderEmailMode\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<SenderMailMode> _onSenderEmailModeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.SenderMailMode}
-    content.vb: Protected Event _onSenderEmailModeChange As OnFieldChange(Of SenderMailMode)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailAddressChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailAddressChange
-  id: _onSenderEmailAddressChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onSenderEmailAddressChange
-  nameWithType: DocTmplRow._onSenderEmailAddressChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onSenderEmailAddressChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.SenderEmailAddress\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type string.\n"
-  syntax:
-    content: protected event OnFieldChange<string> _onSenderEmailAddressChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Protected Event _onSenderEmailAddressChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow._onInvitationDocTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow._onInvitationDocTypeChange
-  id: _onInvitationDocTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: _onInvitationDocTypeChange
-  nameWithType: DocTmplRow._onInvitationDocTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow._onInvitationDocTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.DocTmplRow.InvitationDocType\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
-  syntax:
-    content: protected event OnFieldChange<DocTmplInvitationType> _onInvitationDocTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplInvitationType}
-    content.vb: Protected Event _onInvitationDocTypeChange As OnFieldChange(Of DocTmplInvitationType)
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnNameChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnNameChange
-  id: OnNameChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnNameChange
-  nameWithType: DocTmplRow.OnNameChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnNameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Name is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnNameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnNameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnRankChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnRankChange
-  id: OnRankChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnRankChange
-  nameWithType: DocTmplRow.OnRankChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnRankChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Rank is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnRankChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnRankChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnTooltipChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnTooltipChange
-  id: OnTooltipChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnTooltipChange
-  nameWithType: DocTmplRow.OnTooltipChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnTooltipChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Tooltip is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnTooltipChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnTooltipChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnDeletedChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnDeletedChange
-  id: OnDeletedChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnDeletedChange
-  nameWithType: DocTmplRow.OnDeletedChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnDeletedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Deleted is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnDeletedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnDeletedChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnFilenameChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnFilenameChange
-  id: OnFilenameChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnFilenameChange
-  nameWithType: DocTmplRow.OnFilenameChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnFilenameChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Filename is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnFilenameChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnFilenameChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnAutoeventIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnAutoeventIdChange
-  id: OnAutoeventIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnAutoeventIdChange
-  nameWithType: DocTmplRow.OnAutoeventIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnAutoeventIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when AutoeventId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnAutoeventIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnAutoeventIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnRecordTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnRecordTypeChange
-  id: OnRecordTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnRecordTypeChange
-  nameWithType: DocTmplRow.OnRecordTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnRecordTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RecordType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DocTmplType> OnRecordTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplType}
-    content.vb: Public Event OnRecordTypeChange As OnFieldChange(Of DocTmplType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnDirectionChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnDirectionChange
-  id: OnDirectionChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnDirectionChange
-  nameWithType: DocTmplRow.OnDirectionChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnDirectionChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Direction is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DocTmplDirection> OnDirectionChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplDirection}
-    content.vb: Public Event OnDirectionChange As OnFieldChange(Of DocTmplDirection)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnSaveInDbChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnSaveInDbChange
-  id: OnSaveInDbChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnSaveInDbChange
-  nameWithType: DocTmplRow.OnSaveInDbChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnSaveInDbChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SaveInDb is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnSaveInDbChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnSaveInDbChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnDefaultOrefChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnDefaultOrefChange
-  id: OnDefaultOrefChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnDefaultOrefChange
-  nameWithType: DocTmplRow.OnDefaultOrefChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnDefaultOrefChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when DefaultOref is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnDefaultOrefChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnDefaultOrefChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyOpenChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyOpenChange
-  id: OnRegkeyOpenChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegkeyOpenChange
-  nameWithType: DocTmplRow.OnRegkeyOpenChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyOpenChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RegkeyOpen is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnRegkeyOpenChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnRegkeyOpenChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyEditChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyEditChange
-  id: OnRegkeyEditChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegkeyEditChange
-  nameWithType: DocTmplRow.OnRegkeyEditChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyEditChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RegkeyEdit is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnRegkeyEditChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnRegkeyEditChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyPrintChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyPrintChange
-  id: OnRegkeyPrintChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegkeyPrintChange
-  nameWithType: DocTmplRow.OnRegkeyPrintChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnRegkeyPrintChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RegkeyPrint is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnRegkeyPrintChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnRegkeyPrintChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnAcceleratorChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnAcceleratorChange
-  id: OnAcceleratorChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnAcceleratorChange
-  nameWithType: DocTmplRow.OnAcceleratorChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnAcceleratorChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Accelerator is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnAcceleratorChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnAcceleratorChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredChange
-  id: OnRegisteredChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredChange
-  nameWithType: DocTmplRow.OnRegisteredChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Registered is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnRegisteredChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnRegisteredChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredAssociateIdChange
-  id: OnRegisteredAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnRegisteredAssociateIdChange
-  nameWithType: DocTmplRow.OnRegisteredAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnRegisteredAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when RegisteredAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnRegisteredAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnRegisteredAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedChange
-  id: OnUpdatedChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedChange
-  nameWithType: DocTmplRow.OnUpdatedChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when Updated is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DateTime> OnUpdatedChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-    content.vb: Public Event OnUpdatedChange As OnFieldChange(Of Date)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedAssociateIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedAssociateIdChange
-  id: OnUpdatedAssociateIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedAssociateIdChange
-  nameWithType: DocTmplRow.OnUpdatedAssociateIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedAssociateIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedAssociateId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnUpdatedAssociateIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnUpdatedAssociateIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedCountChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedCountChange
-  id: OnUpdatedCountChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnUpdatedCountChange
-  nameWithType: DocTmplRow.OnUpdatedCountChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnUpdatedCountChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when UpdatedCount is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnUpdatedCountChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnUpdatedCountChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnDefaultPublishTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnDefaultPublishTypeChange
-  id: OnDefaultPublishTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnDefaultPublishTypeChange
-  nameWithType: DocTmplRow.OnDefaultPublishTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnDefaultPublishTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when DefaultPublishType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<PublishType> OnDefaultPublishTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.PublishType}
-    content.vb: Public Event OnDefaultPublishTypeChange As OnFieldChange(Of PublishType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnIntentIdChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnIntentIdChange
-  id: OnIntentIdChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnIntentIdChange
-  nameWithType: DocTmplRow.OnIntentIdChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnIntentIdChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when IntentId is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnIntentIdChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnIntentIdChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnMimeTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnMimeTypeChange
-  id: OnMimeTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnMimeTypeChange
-  nameWithType: DocTmplRow.OnMimeTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnMimeTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when MimeType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnMimeTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnMimeTypeChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnLoadTemplateFromPluginChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnLoadTemplateFromPluginChange
-  id: OnLoadTemplateFromPluginChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnLoadTemplateFromPluginChange
-  nameWithType: DocTmplRow.OnLoadTemplateFromPluginChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnLoadTemplateFromPluginChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when LoadTemplateFromPlugin is changing.\n"
-  syntax:
-    content: public event OnFieldChange<int> OnLoadTemplateFromPluginChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-    content.vb: Public Event OnLoadTemplateFromPluginChange As OnFieldChange(Of Integer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnQuoteDocTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnQuoteDocTypeChange
-  id: OnQuoteDocTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnQuoteDocTypeChange
-  nameWithType: DocTmplRow.OnQuoteDocTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnQuoteDocTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when QuoteDocType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DocTmplQuoteType> OnQuoteDocTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplQuoteType}
-    content.vb: Public Event OnQuoteDocTypeChange As OnFieldChange(Of DocTmplQuoteType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnPrivacyDocTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnPrivacyDocTypeChange
-  id: OnPrivacyDocTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnPrivacyDocTypeChange
-  nameWithType: DocTmplRow.OnPrivacyDocTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnPrivacyDocTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when PrivacyDocType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DocTmplPrivacyType> OnPrivacyDocTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplPrivacyType}
-    content.vb: Public Event OnPrivacyDocTypeChange As OnFieldChange(Of DocTmplPrivacyType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnEmailSubjectChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnEmailSubjectChange
-  id: OnEmailSubjectChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnEmailSubjectChange
-  nameWithType: DocTmplRow.OnEmailSubjectChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnEmailSubjectChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when EmailSubject is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnEmailSubjectChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnEmailSubjectChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnIncludeSignatureChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnIncludeSignatureChange
-  id: OnIncludeSignatureChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnIncludeSignatureChange
-  nameWithType: DocTmplRow.OnIncludeSignatureChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnIncludeSignatureChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when IncludeSignature is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnIncludeSignatureChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnIncludeSignatureChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnShowCurrentsChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnShowCurrentsChange
-  id: OnShowCurrentsChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnShowCurrentsChange
-  nameWithType: DocTmplRow.OnShowCurrentsChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnShowCurrentsChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when ShowCurrents is changing.\n"
-  syntax:
-    content: public event OnFieldChange<short> OnShowCurrentsChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-    content.vb: Public Event OnShowCurrentsChange As OnFieldChange(Of Short)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailModeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailModeChange
-  id: OnSenderEmailModeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnSenderEmailModeChange
-  nameWithType: DocTmplRow.OnSenderEmailModeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailModeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SenderEmailMode is changing.\n"
-  syntax:
-    content: public event OnFieldChange<SenderMailMode> OnSenderEmailModeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.SenderMailMode}
-    content.vb: Public Event OnSenderEmailModeChange As OnFieldChange(Of SenderMailMode)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailAddressChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailAddressChange
-  id: OnSenderEmailAddressChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnSenderEmailAddressChange
-  nameWithType: DocTmplRow.OnSenderEmailAddressChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnSenderEmailAddressChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when SenderEmailAddress is changing.\n"
-  syntax:
-    content: public event OnFieldChange<string> OnSenderEmailAddressChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-    content.vb: Public Event OnSenderEmailAddressChange As OnFieldChange(Of String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: SuperOffice.CRM.Rows.DocTmplRow.OnInvitationDocTypeChange
-  commentId: E:SuperOffice.CRM.Rows.DocTmplRow.OnInvitationDocTypeChange
-  id: OnInvitationDocTypeChange
-  parent: SuperOffice.CRM.Rows.DocTmplRow
-  langs:
-  - csharp
-  - vb
-  name: OnInvitationDocTypeChange
-  nameWithType: DocTmplRow.OnInvitationDocTypeChange
-  fullName: SuperOffice.CRM.Rows.DocTmplRow.OnInvitationDocTypeChange
-  type: Event
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: "\nEvent raised when InvitationDocType is changing.\n"
-  syntax:
-    content: public event OnFieldChange<DocTmplInvitationType> OnInvitationDocTypeChange
-    return:
-      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplInvitationType}
-    content.vb: Public Event OnInvitationDocTypeChange As OnFieldChange(Of DocTmplInvitationType)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
@@ -6023,13 +4291,6 @@ references:
   name: _sentries
   nameWithType: TableRowBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowBase._sentries
-- uid: SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  commentId: F:SuperOffice.CRM.Rows.TableRowBase._onValueChange
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: _onValueChange
-  nameWithType: TableRowBase._onValueChange
-  fullName: SuperOffice.CRM.Rows.TableRowBase._onValueChange
 - uid: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6037,6 +4298,13 @@ references:
   name: _relatedNestedPersistMembers
   nameWithType: TableRowBase._relatedNestedPersistMembers
   fullName: SuperOffice.CRM.Rows.TableRowBase._relatedNestedPersistMembers
+- uid: SuperOffice.CRM.Rows.TableRowBase._isSaving
+  commentId: F:SuperOffice.CRM.Rows.TableRowBase._isSaving
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: _isSaving
+  nameWithType: TableRowBase._isSaving
+  fullName: SuperOffice.CRM.Rows.TableRowBase._isSaving
 - uid: SuperOffice.CRM.Rows.TableRowBase._sqlType
   commentId: F:SuperOffice.CRM.Rows.TableRowBase._sqlType
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6775,6 +5043,170 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: TableRowBase.add_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: TableRowBase.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: TableRowBase.remove_OnElementSaved
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: TableRowBase.add_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: TableRowBase.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: TableRowBase.remove_OnElementIdUpdate
+    fullName: SuperOffice.CRM.Rows.TableRowBase.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7491,13 +5923,6 @@ references:
   name: IsMarkedForDelete
   nameWithType: TableRowBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowBase.IsMarkedForDelete
-- uid: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
-  parent: SuperOffice.CRM.Rows.TableRowBase
-  isExternal: true
-  name: OnValueChanged
-  nameWithType: TableRowBase.OnValueChanged
-  fullName: SuperOffice.CRM.Rows.TableRowBase.OnValueChanged
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   commentId: E:SuperOffice.CRM.Rows.TableRowBase.OnElementSaved
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7543,6 +5968,88 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: add_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.add_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: add_OnUpdateField
+    nameWithType: PrivateSave.add_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.add_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: remove_OnUpdateField(UpdateField)
+  nameWithType: PrivateSave.remove_OnUpdateField(UpdateField)
+  fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField(SuperOffice.Data.SQL.UpdateField)
+    name: remove_OnUpdateField
+    nameWithType: PrivateSave.remove_OnUpdateField
+    fullName: SuperOffice.Data.SQL.PrivateSave.remove_OnUpdateField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.UpdateField
+    name: UpdateField
+    nameWithType: UpdateField
+    fullName: SuperOffice.Data.SQL.UpdateField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   commentId: M:SuperOffice.Data.SQL.PrivateSave.CloneToBasicUpdatingQuery
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -7574,6 +6081,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  commentId: M:SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: SetTicketLogAction(TicketLogAction, String)
+  nameWithType: PrivateSave.SetTicketLogAction(TicketLogAction, String)
+  fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction(SuperOffice.Data.TicketLogAction,System.String)
+    name: SetTicketLogAction
+    nameWithType: PrivateSave.SetTicketLogAction
+    fullName: SuperOffice.Data.SQL.PrivateSave.SetTicketLogAction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketLogAction
+    name: TicketLogAction
+    nameWithType: TicketLogAction
+    fullName: SuperOffice.Data.TicketLogAction
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  commentId: P:SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
+  parent: SuperOffice.Data.SQL.PrivateSave
+  isExternal: true
+  name: DoNotWriteTraveltransactionLog
+  nameWithType: PrivateSave.DoNotWriteTraveltransactionLog
+  fullName: SuperOffice.Data.SQL.PrivateSave.DoNotWriteTraveltransactionLog
 - uid: SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   commentId: E:SuperOffice.Data.SQL.PrivateSave.OnUpdateField
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -7588,6 +6159,13 @@ references:
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: SqlCommand.AdditionalInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
@@ -7970,254 +6548,6 @@ references:
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.DocTmplRow.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -8351,6 +6681,37 @@ references:
     name: ExecuteNonQuery
     nameWithType: QueryExectionExtensions.ExecuteNonQuery
     fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRow.SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
+  commentId: M:SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DocTmplRow)
+  parent: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DocTmplRow)
+  name: ToRecordData()
+  nameWithType: DocTmplRecordDataExtensions.ToRecordData()
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: DocTmplRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
+    name: ToRecordData
+    nameWithType: DocTmplRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
     isExternal: true
   - name: (
     nameWithType: (
@@ -8607,6 +6968,53 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DocTmplRow)
+  commentId: M:SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DocTmplRow)
+  isExternal: true
+  name: ToRecordData(DocTmplRow)
+  nameWithType: DocTmplRecordDataExtensions.ToRecordData(DocTmplRow)
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DocTmplRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DocTmplRow)
+    name: ToRecordData
+    nameWithType: DocTmplRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplRow
+    name: DocTmplRow
+    nameWithType: DocTmplRow
+    fullName: SuperOffice.CRM.Rows.DocTmplRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.DocTmplRow)
+    name: ToRecordData
+    nameWithType: DocTmplRecordDataExtensions.ToRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions.ToRecordData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplRow
+    name: DocTmplRow
+    nameWithType: DocTmplRow
+    fullName: SuperOffice.CRM.Rows.DocTmplRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DocTmplRecordDataExtensions
+  nameWithType: DocTmplRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.DocTmplRecordDataExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -8695,8 +7103,6 @@ references:
   nameWithType: DocTmplDirection
   fullName: SuperOffice.Data.DocTmplDirection
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
@@ -9048,37 +7454,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.Rows.DocTmplRow.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.DocTmplRow.ToString
   isExternal: true
@@ -9813,526 +8188,3 @@ references:
   name: InvitationDocType
   nameWithType: DocTmplRow.InvitationDocType
   fullName: SuperOffice.CRM.Rows.DocTmplRow.InvitationDocType
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<String>
-  nameWithType: OnFieldChange<String>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.String>
-  nameWithType.vb: OnFieldChange(Of String)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.String)
-  name.vb: OnFieldChange(Of String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange`1
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange`1
-  isExternal: true
-  name: OnFieldChange<TValue>
-  nameWithType: OnFieldChange<TValue>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<TValue>
-  nameWithType.vb: OnFieldChange(Of TValue)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of TValue)
-  name.vb: OnFieldChange(Of TValue)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int16>
-  nameWithType: OnFieldChange<Int16>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int16>
-  nameWithType.vb: OnFieldChange(Of Int16)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int16)
-  name.vb: OnFieldChange(Of Int16)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int16
-    name: Int16
-    nameWithType: Int16
-    fullName: System.Int16
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<Int32>
-  nameWithType: OnFieldChange<Int32>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.Int32>
-  nameWithType.vb: OnFieldChange(Of Int32)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32)
-  name.vb: OnFieldChange(Of Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplType}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplType}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DocTmplType>
-  nameWithType: OnFieldChange<DocTmplType>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DocTmplType>
-  nameWithType.vb: OnFieldChange(Of DocTmplType)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DocTmplType)
-  name.vb: OnFieldChange(Of DocTmplType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DocTmplType
-    name: DocTmplType
-    nameWithType: DocTmplType
-    fullName: SuperOffice.Data.DocTmplType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DocTmplType
-    name: DocTmplType
-    nameWithType: DocTmplType
-    fullName: SuperOffice.Data.DocTmplType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplDirection}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplDirection}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DocTmplDirection>
-  nameWithType: OnFieldChange<DocTmplDirection>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DocTmplDirection>
-  nameWithType.vb: OnFieldChange(Of DocTmplDirection)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DocTmplDirection)
-  name.vb: OnFieldChange(Of DocTmplDirection)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DocTmplDirection
-    name: DocTmplDirection
-    nameWithType: DocTmplDirection
-    fullName: SuperOffice.Data.DocTmplDirection
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DocTmplDirection
-    name: DocTmplDirection
-    nameWithType: DocTmplDirection
-    fullName: SuperOffice.Data.DocTmplDirection
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DateTime>
-  nameWithType: OnFieldChange<DateTime>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<System.DateTime>
-  nameWithType.vb: OnFieldChange(Of DateTime)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of System.DateTime)
-  name.vb: OnFieldChange(Of DateTime)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: System.DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.PublishType}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.PublishType}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<PublishType>
-  nameWithType: OnFieldChange<PublishType>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.PublishType>
-  nameWithType.vb: OnFieldChange(Of PublishType)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.PublishType)
-  name.vb: OnFieldChange(Of PublishType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.PublishType
-    name: PublishType
-    nameWithType: PublishType
-    fullName: SuperOffice.Data.PublishType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.PublishType
-    name: PublishType
-    nameWithType: PublishType
-    fullName: SuperOffice.Data.PublishType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplQuoteType}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplQuoteType}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DocTmplQuoteType>
-  nameWithType: OnFieldChange<DocTmplQuoteType>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DocTmplQuoteType>
-  nameWithType.vb: OnFieldChange(Of DocTmplQuoteType)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DocTmplQuoteType)
-  name.vb: OnFieldChange(Of DocTmplQuoteType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DocTmplQuoteType
-    name: DocTmplQuoteType
-    nameWithType: DocTmplQuoteType
-    fullName: SuperOffice.Data.DocTmplQuoteType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DocTmplQuoteType
-    name: DocTmplQuoteType
-    nameWithType: DocTmplQuoteType
-    fullName: SuperOffice.Data.DocTmplQuoteType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplPrivacyType}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplPrivacyType}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DocTmplPrivacyType>
-  nameWithType: OnFieldChange<DocTmplPrivacyType>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DocTmplPrivacyType>
-  nameWithType.vb: OnFieldChange(Of DocTmplPrivacyType)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DocTmplPrivacyType)
-  name.vb: OnFieldChange(Of DocTmplPrivacyType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DocTmplPrivacyType
-    name: DocTmplPrivacyType
-    nameWithType: DocTmplPrivacyType
-    fullName: SuperOffice.Data.DocTmplPrivacyType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DocTmplPrivacyType
-    name: DocTmplPrivacyType
-    nameWithType: DocTmplPrivacyType
-    fullName: SuperOffice.Data.DocTmplPrivacyType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.SenderMailMode}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.SenderMailMode}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<SenderMailMode>
-  nameWithType: OnFieldChange<SenderMailMode>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.SenderMailMode>
-  nameWithType.vb: OnFieldChange(Of SenderMailMode)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.SenderMailMode)
-  name.vb: OnFieldChange(Of SenderMailMode)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.SenderMailMode
-    name: SenderMailMode
-    nameWithType: SenderMailMode
-    fullName: SuperOffice.Data.SenderMailMode
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.SenderMailMode
-    name: SenderMailMode
-    nameWithType: SenderMailMode
-    fullName: SuperOffice.Data.SenderMailMode
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplInvitationType}
-  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.DocTmplInvitationType}
-  parent: SuperOffice.CRM.Rows
-  definition: SuperOffice.CRM.Rows.OnFieldChange`1
-  name: OnFieldChange<DocTmplInvitationType>
-  nameWithType: OnFieldChange<DocTmplInvitationType>
-  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.DocTmplInvitationType>
-  nameWithType.vb: OnFieldChange(Of DocTmplInvitationType)
-  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.DocTmplInvitationType)
-  name.vb: OnFieldChange(Of DocTmplInvitationType)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SuperOffice.Data.DocTmplInvitationType
-    name: DocTmplInvitationType
-    nameWithType: DocTmplInvitationType
-    fullName: SuperOffice.Data.DocTmplInvitationType
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
-    name: OnFieldChange
-    nameWithType: OnFieldChange
-    fullName: SuperOffice.CRM.Rows.OnFieldChange
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SuperOffice.Data.DocTmplInvitationType
-    name: DocTmplInvitationType
-    nameWithType: DocTmplInvitationType
-    fullName: SuperOffice.Data.DocTmplInvitationType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )

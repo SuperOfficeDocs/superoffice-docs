@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ISelfTest
+  commentId: T:SuperOffice.Diagnostics.ISelfTest
+  id: ISelfTest
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+  langs:
+  - csharp
+  - vb
+  name: ISelfTest
+  nameWithType: ISelfTest
+  fullName: SuperOffice.Diagnostics.ISelfTest
+  type: Interface
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nInterface to be implemented by SelfTests. SelfTests must be registered by the service provider and is\nresolved by <xref href=\"SuperOffice.Factory.ServiceProviderFactory.TryCreateTypes(System.Type%2cSystem.Collections.Generic.IEnumerable%7bSystem.Object%7d%40)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public interface ISelfTest
+    content.vb: Public Interface ISelfTest
+  extensionMethods:
+  - SuperOffice.Diagnostics.ISelfTest.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.ISelfTest.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+  commentId: M:SuperOffice.Diagnostics.ISelfTest.DoTest(System.String@)
+  id: DoTest(System.String@)
+  parent: SuperOffice.Diagnostics.ISelfTest
+  langs:
+  - csharp
+  - vb
+  name: DoTest(out String)
+  nameWithType: ISelfTest.DoTest(out String)
+  fullName: SuperOffice.Diagnostics.ISelfTest.DoTest(out System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCarry out selftest. \n"
+  syntax:
+    content: bool DoTest(out string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to add to log if someting fails
+    return:
+      type: System.Boolean
+      description: True if test is passes
+    content.vb: Function DoTest(ByRef message As String) As Boolean
+  overload: SuperOffice.Diagnostics.ISelfTest.DoTest*
+  nameWithType.vb: ISelfTest.DoTest(ByRef String)
+  fullName.vb: SuperOffice.Diagnostics.ISelfTest.DoTest(ByRef System.String)
+  name.vb: DoTest(ByRef String)
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: SuperOffice.Diagnostics.ISelfTest.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISelfTest, To>()
+  nameWithType: EnumUtil.MapEnums<ISelfTest, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ISelfTest, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISelfTest, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ISelfTest, To)()
+  name.vb: MapEnums(Of ISelfTest, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISelfTest, To>
+    nameWithType: EnumUtil.MapEnums<ISelfTest, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ISelfTest, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISelfTest, To)
+    nameWithType: EnumUtil.MapEnums(Of ISelfTest, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ISelfTest, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ISelfTest.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISelfTest, To>()
+  nameWithType: Converters.MapEnums<ISelfTest, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ISelfTest, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISelfTest, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ISelfTest, To)()
+  name.vb: MapEnums(Of ISelfTest, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISelfTest, To>
+    nameWithType: Converters.MapEnums<ISelfTest, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ISelfTest, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISelfTest, To)
+    nameWithType: Converters.MapEnums(Of ISelfTest, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ISelfTest, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.ISelfTest.DoTest*
+  commentId: Overload:SuperOffice.Diagnostics.ISelfTest.DoTest
+  isExternal: true
+  name: DoTest
+  nameWithType: ISelfTest.DoTest
+  fullName: SuperOffice.Diagnostics.ISelfTest.DoTest
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

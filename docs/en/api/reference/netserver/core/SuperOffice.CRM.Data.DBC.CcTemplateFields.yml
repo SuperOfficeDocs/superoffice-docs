@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  commentId: T:SuperOffice.CRM.Data.DBC.CcTemplateFields
+  id: DBC.CcTemplateFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.Body
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.CcTemplateId
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.Key
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.Registered
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.Type
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.Updated
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.CcTemplateFields
+  nameWithType: DBC.CcTemplateFields
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for CcTemplate, This table contains templates for the customer center\n"
+  syntax:
+    content: 'public static class CcTemplateFields : Object'
+    content.vb: >-
+      Public Module CcTemplateFields
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.CcTemplateId
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.CcTemplateId
+  id: CcTemplateId
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: CcTemplateId
+  nameWithType: DBC.CcTemplateFields.CcTemplateId
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.CcTemplateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.CcTemplateId: Primary key\n"
+  syntax:
+    content: public const string CcTemplateId = "cc_template_id"
+    return:
+      type: System.String
+    content.vb: Public Const CcTemplateId As String = "cc_template_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.Key
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.Key
+  id: Key
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: DBC.CcTemplateFields.Key
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.Key
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.Key: The key to this template, normally the local path and filename\n"
+  syntax:
+    content: public const string Key = "key"
+    return:
+      type: System.String
+    content.vb: Public Const Key As String = "key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.Body
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.Body
+  id: Body
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: DBC.CcTemplateFields.Body
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.Body
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.Body: The HTML body for this template\n"
+  syntax:
+    content: public const string Body = "body"
+    return:
+      type: System.String
+    content.vb: Public Const Body As String = "body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.CcTemplateFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.Type: What kind of template is in this row\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.CcTemplateFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.CcTemplateFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.CcTemplateFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.CcTemplateFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.CcTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.CcTemplateFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.CcTemplateFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nCcTemplate.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

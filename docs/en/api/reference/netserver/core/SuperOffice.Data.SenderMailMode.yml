@@ -9,13 +9,14 @@ items:
   - SuperOffice.Data.SenderMailMode.UseLoggedInUser
   - SuperOffice.Data.SenderMailMode.UseOurContact
   - SuperOffice.Data.SenderMailMode.UseSupportContact
+  - SuperOffice.Data.SenderMailMode.value__
   langs:
   - csharp
   - vb
   name: SenderMailMode
   nameWithType: SenderMailMode
   fullName: SuperOffice.Data.SenderMailMode
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -24,19 +25,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nSender email mode\nThis Enum is used by:  DocTmpl.senderEmailMode\n"
   syntax:
-    content: 'public enum SenderMailMode : short'
-    content.vb: Public Enum SenderMailMode As Short
+    content: 'public sealed class SenderMailMode : Enum'
+    content.vb: >-
+      Public NotInheritable Class SenderMailMode
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SenderMailMode.EnumUtil.MapEnums``2
-  - SuperOffice.Data.SenderMailMode.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SenderMailMode)
-  - SuperOffice.Data.SenderMailMode.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.SenderMailMode.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SenderMailMode.value__
+  commentId: F:SuperOffice.Data.SenderMailMode.value__
+  id: value__
+  parent: SuperOffice.Data.SenderMailMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SenderMailMode.value__
+  fullName: SuperOffice.Data.SenderMailMode.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SenderMailMode.UseDefaultSender
   commentId: F:SuperOffice.Data.SenderMailMode.UseDefaultSender
   id: UseDefaultSender
@@ -56,9 +92,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Use default sender, saved in template SenderEmailAddress\n"
   syntax:
-    content: UseDefaultSender = 0
+    content: public const SenderMailMode UseDefaultSender
     return:
       type: SuperOffice.Data.SenderMailMode
+    content.vb: Public Const UseDefaultSender As SenderMailMode
   modifiers.csharp:
   - public
   - const
@@ -84,9 +121,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Use persons our contact email address\n"
   syntax:
-    content: UseOurContact = 1
+    content: public const SenderMailMode UseOurContact
     return:
       type: SuperOffice.Data.SenderMailMode
+    content.vb: Public Const UseOurContact As SenderMailMode
   modifiers.csharp:
   - public
   - const
@@ -112,9 +150,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Use persons support contact.\n"
   syntax:
-    content: UseSupportContact = 2
+    content: public const SenderMailMode UseSupportContact
     return:
       type: SuperOffice.Data.SenderMailMode
+    content.vb: Public Const UseSupportContact As SenderMailMode
   modifiers.csharp:
   - public
   - const
@@ -140,9 +179,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Use logged in user.\n"
   syntax:
-    content: UseLoggedInUser = 3
+    content: public const SenderMailMode UseLoggedInUser
     return:
       type: SuperOffice.Data.SenderMailMode
+    content.vb: Public Const UseLoggedInUser As SenderMailMode
   modifiers.csharp:
   - public
   - const
@@ -156,6 +196,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SenderMailMode.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -183,84 +230,6 @@ references:
     name: MapEnums(Of SenderMailMode, To)
     nameWithType: EnumUtil.MapEnums(Of SenderMailMode, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SenderMailMode, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SenderMailMode.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SenderMailMode)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SenderMailMode>(SenderMailMode)
-  nameWithType: ObjectExtensions.AssignByReflection<SenderMailMode>(SenderMailMode)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SenderMailMode>(SuperOffice.Data.SenderMailMode)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SenderMailMode)(SenderMailMode)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SenderMailMode)(SuperOffice.Data.SenderMailMode)
-  name.vb: AssignByReflection(Of SenderMailMode)(SenderMailMode)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SenderMailMode>
-    nameWithType: ObjectExtensions.AssignByReflection<SenderMailMode>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SenderMailMode>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SenderMailMode
-    name: SenderMailMode
-    nameWithType: SenderMailMode
-    fullName: SuperOffice.Data.SenderMailMode
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SenderMailMode)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SenderMailMode)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SenderMailMode)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SenderMailMode
-    name: SenderMailMode
-    nameWithType: SenderMailMode
-    fullName: SuperOffice.Data.SenderMailMode
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.SenderMailMode.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SenderMailMode>()
-  nameWithType: ObjectExtensions.GraphCopy<SenderMailMode>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SenderMailMode>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SenderMailMode)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SenderMailMode)()
-  name.vb: GraphCopy(Of SenderMailMode)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SenderMailMode>
-    nameWithType: ObjectExtensions.GraphCopy<SenderMailMode>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SenderMailMode>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SenderMailMode)
-    nameWithType: ObjectExtensions.GraphCopy(Of SenderMailMode)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SenderMailMode)
     isExternal: true
   - name: (
     nameWithType: (
@@ -302,6 +271,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -347,103 +322,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -490,18 +368,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.SenderMailMode
   commentId: T:SuperOffice.Data.SenderMailMode
   parent: SuperOffice.Data

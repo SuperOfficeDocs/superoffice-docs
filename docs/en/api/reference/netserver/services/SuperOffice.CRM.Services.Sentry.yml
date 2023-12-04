@@ -138,13 +138,6 @@ references:
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: SuperOffice.CRM.Services.SentryAgent
   commentId: T:SuperOffice.CRM.Services.SentryAgent
   isExternal: true
@@ -158,12 +151,6 @@ references:
   name: ISentryAgent
   nameWithType: ISentryAgent
   fullName: SuperOffice.CRM.Services.ISentryAgent
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Sentry.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Sentry.#ctor
   isExternal: true
@@ -183,3 +170,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

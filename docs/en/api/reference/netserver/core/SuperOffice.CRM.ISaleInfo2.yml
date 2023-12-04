@@ -33,6 +33,7 @@ items:
     content: 'public interface ISaleInfo2 : ISaleInfo'
     content.vb: >-
       Public Interface ISaleInfo2
+
           Inherits ISaleInfo
   inheritedMembers:
   - SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
@@ -89,7 +90,7 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: ReadOnly Property PublishActiveDate As Date
+    content.vb: ReadOnly Property PublishActiveDate As DateTime
   overload: SuperOffice.CRM.ISaleInfo2.PublishActiveDate*
   modifiers.csharp:
   - get
@@ -926,18 +927,10 @@ references:
   nameWithType: ISaleInfo2.PublishActiveDate
   fullName: SuperOffice.CRM.ISaleInfo2.PublishActiveDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.ISaleInfo2.Source*
   commentId: Overload:SuperOffice.CRM.ISaleInfo2.Source
   isExternal: true
@@ -951,6 +944,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.ISaleInfo2.HasGuide*
   commentId: Overload:SuperOffice.CRM.ISaleInfo2.HasGuide
   isExternal: true

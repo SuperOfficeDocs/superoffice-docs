@@ -38,6 +38,9 @@ items:
   - SuperOffice.CRM.QuoteConnectorBase.OnBeforeCreateQuoteVersion(SuperOffice.CRM.QuoteVersionContextInfo)
   - SuperOffice.CRM.QuoteConnectorBase.OnBeforeDeleteQuote(SuperOffice.CRM.QuoteInfo,SuperOffice.CRM.ISaleInfo,SuperOffice.CRM.IContactInfo)
   - SuperOffice.CRM.QuoteConnectorBase.OnQuoteLineChanged(SuperOffice.CRM.QuoteAlternativeContextInfo,SuperOffice.CRM.QuoteLineInfo,System.String[])
+  - SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  - SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  - SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
   - SuperOffice.CRM.QuoteConnectorBase.PlaceOrder(SuperOffice.CRM.QuoteAlternativeContextInfo)
   - SuperOffice.CRM.QuoteConnectorBase.RecalculateQuoteAlternative(SuperOffice.CRM.QuoteAlternativeContextInfo)
   - SuperOffice.CRM.QuoteConnectorBase.TestConnection(System.Collections.Generic.Dictionary{System.String,System.String})
@@ -61,23 +64,19 @@ items:
   namespace: SuperOffice.CRM
   summary: "\nA base class with som typical quote functionality: Price calculations from the <xref href=\"SuperOffice.CRM.QuoteCalculation\" data-throw-if-not-resolved=\"false\"></xref> helper class.\n"
   syntax:
-    content: 'public abstract class QuoteConnectorBase : IQuoteConnector, IDisposable, IPlugin'
+    content: 'public abstract class QuoteConnectorBase : Object, IQuoteConnector2, IQuoteConnector, IDisposable, IPlugin'
     content.vb: >-
       Public MustInherit Class QuoteConnectorBase
-          Implements IQuoteConnector, IDisposable, IPlugin
+
+          Inherits Object
+
+          Implements IQuoteConnector2, IQuoteConnector, IDisposable, IPlugin
   inheritance:
   - System.Object
   implements:
+  - SuperOffice.CRM.IQuoteConnector2
   - SuperOffice.CRM.IQuoteConnector
   - System.IDisposable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.QuoteConnectorBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.QuoteConnectorBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -887,8 +886,6 @@ items:
     content: public virtual void Dispose()
     content.vb: Public Overridable Sub Dispose
   overload: SuperOffice.CRM.QuoteConnectorBase.Dispose*
-  implements:
-  - System.IDisposable.Dispose
   modifiers.csharp:
   - public
   - virtual
@@ -1560,6 +1557,117 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.QuoteConnectorBase.CanUserWriteToField(System.String, SuperOffice.CRM.QuoteLineInfo, System.Collections.Generic.HashSet(Of System.String))
   name.vb: CanUserWriteToField(String, QuoteLineInfo, HashSet(Of String))
+- uid: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  id: OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.QuoteConnectorBase
+  langs:
+  - csharp
+  - vb
+  name: OnQuoteVersionRequestApproval(QuoteVersionContextInfo)
+  nameWithType: QuoteConnectorBase.OnQuoteVersionRequestApproval(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReturns quote version unchanged.\n"
+  syntax:
+    content: public virtual QuoteVersionResponseInfo OnQuoteVersionRequestApproval(QuoteVersionContextInfo context)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+      description: Quote version
+    return:
+      type: SuperOffice.CRM.QuoteVersionResponseInfo
+      description: Unchanged quote version
+    content.vb: Public Overridable Function OnQuoteVersionRequestApproval(context As QuoteVersionContextInfo) As QuoteVersionResponseInfo
+  overload: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval*
+  implements:
+  - SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  id: OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.QuoteConnectorBase
+  langs:
+  - csharp
+  - vb
+  name: OnQuoteVersionApproved(QuoteVersionContextInfo)
+  nameWithType: QuoteConnectorBase.OnQuoteVersionApproved(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReturns quote version unchanged.\n"
+  syntax:
+    content: public virtual QuoteVersionResponseInfo OnQuoteVersionApproved(QuoteVersionContextInfo context)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+      description: Quote version
+    return:
+      type: SuperOffice.CRM.QuoteVersionResponseInfo
+      description: Unchanged quote version
+    content.vb: Public Overridable Function OnQuoteVersionApproved(context As QuoteVersionContextInfo) As QuoteVersionResponseInfo
+  overload: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved*
+  implements:
+  - SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  id: OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.QuoteConnectorBase
+  langs:
+  - csharp
+  - vb
+  name: OnQuoteVersionRejected(QuoteVersionContextInfo)
+  nameWithType: QuoteConnectorBase.OnQuoteVersionRejected(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReturns quote version unchanged.\n"
+  syntax:
+    content: public virtual QuoteVersionResponseInfo OnQuoteVersionRejected(QuoteVersionContextInfo context)
+    parameters:
+    - id: context
+      type: SuperOffice.CRM.QuoteVersionContextInfo
+      description: Quote version
+    return:
+      type: SuperOffice.CRM.QuoteVersionResponseInfo
+      description: Unchanged quote version
+    content.vb: Public Overridable Function OnQuoteVersionRejected(context As QuoteVersionContextInfo) As QuoteVersionResponseInfo
+  overload: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected*
+  implements:
+  - SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.QuoteConnectorBase.#ctor
   commentId: M:SuperOffice.CRM.QuoteConnectorBase.#ctor
   id: '#ctor'
@@ -1632,6 +1740,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: SuperOffice.CRM.IQuoteConnector2
+  commentId: T:SuperOffice.CRM.IQuoteConnector2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IQuoteConnector2
+  nameWithType: IQuoteConnector2
+  fullName: SuperOffice.CRM.IQuoteConnector2
 - uid: SuperOffice.CRM.IQuoteConnector
   commentId: T:SuperOffice.CRM.IQuoteConnector
   parent: SuperOffice.CRM
@@ -1640,291 +1755,10 @@ references:
   nameWithType: IQuoteConnector
   fullName: SuperOffice.CRM.IQuoteConnector
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.QuoteConnectorBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -2103,8 +1937,7 @@ references:
   nameWithType: QuoteConnectorBase.InsertCaption
   fullName: SuperOffice.CRM.QuoteConnectorBase.InsertCaption
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataInfo}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, FieldMetadataInfo>
   nameWithType: Dictionary<String, FieldMetadataInfo>
@@ -2177,14 +2010,13 @@ references:
   nameWithType: String
   fullName: System.String
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
@@ -2194,15 +2026,15 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2215,24 +2047,18 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: SuperOffice.CRM.QuoteConnectorBase.InitializeConnection*
   commentId: Overload:SuperOffice.CRM.QuoteConnectorBase.InitializeConnection
   isExternal: true
@@ -2407,8 +2233,7 @@ references:
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, String>
   nameWithType: Dictionary<String, String>
@@ -2603,8 +2428,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: System.Collections.Generic.Dictionary{System.String,System.Boolean}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Boolean}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.Boolean}'
   definition: System.Collections.Generic.Dictionary`2
   name: Dictionary<String, Boolean>
   nameWithType: Dictionary<String, Boolean>
@@ -3470,37 +3294,6 @@ references:
   name: Dispose
   nameWithType: QuoteConnectorBase.Dispose
   fullName: SuperOffice.CRM.QuoteConnectorBase.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    nameWithType: IDisposable.Dispose
-    fullName: System.IDisposable.Dispose
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.QuoteConnectorBase.GetConfigurationFields*
   commentId: Overload:SuperOffice.CRM.QuoteConnectorBase.GetConfigurationFields
   isExternal: true
@@ -4660,6 +4453,147 @@ references:
   name: CanUserWriteToField
   nameWithType: QuoteConnectorBase.CanUserWriteToField
   fullName: SuperOffice.CRM.QuoteConnectorBase.CanUserWriteToField
+- uid: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval
+  isExternal: true
+  name: OnQuoteVersionRequestApproval
+  nameWithType: QuoteConnectorBase.OnQuoteVersionRequestApproval
+  fullName: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRequestApproval
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector2
+  isExternal: true
+  name: OnQuoteVersionRequestApproval(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector2.OnQuoteVersionRequestApproval(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnQuoteVersionRequestApproval
+    nameWithType: IQuoteConnector2.OnQuoteVersionRequestApproval
+    fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnQuoteVersionRequestApproval
+    nameWithType: IQuoteConnector2.OnQuoteVersionRequestApproval
+    fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRequestApproval
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved
+  isExternal: true
+  name: OnQuoteVersionApproved
+  nameWithType: QuoteConnectorBase.OnQuoteVersionApproved
+  fullName: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionApproved
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector2
+  isExternal: true
+  name: OnQuoteVersionApproved(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector2.OnQuoteVersionApproved(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnQuoteVersionApproved
+    nameWithType: IQuoteConnector2.OnQuoteVersionApproved
+    fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnQuoteVersionApproved
+    nameWithType: IQuoteConnector2.OnQuoteVersionApproved
+    fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionApproved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected*
+  commentId: Overload:SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected
+  isExternal: true
+  name: OnQuoteVersionRejected
+  nameWithType: QuoteConnectorBase.OnQuoteVersionRejected
+  fullName: SuperOffice.CRM.QuoteConnectorBase.OnQuoteVersionRejected
+- uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  commentId: M:SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  parent: SuperOffice.CRM.IQuoteConnector2
+  isExternal: true
+  name: OnQuoteVersionRejected(QuoteVersionContextInfo)
+  nameWithType: IQuoteConnector2.OnQuoteVersionRejected(QuoteVersionContextInfo)
+  fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnQuoteVersionRejected
+    nameWithType: IQuoteConnector2.OnQuoteVersionRejected
+    fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected(SuperOffice.CRM.QuoteVersionContextInfo)
+    name: OnQuoteVersionRejected
+    nameWithType: IQuoteConnector2.OnQuoteVersionRejected
+    fullName: SuperOffice.CRM.IQuoteConnector2.OnQuoteVersionRejected
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.QuoteVersionContextInfo
+    name: QuoteVersionContextInfo
+    nameWithType: QuoteVersionContextInfo
+    fullName: SuperOffice.CRM.QuoteVersionContextInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.QuoteConnectorBase.#ctor*
   commentId: Overload:SuperOffice.CRM.QuoteConnectorBase.#ctor
   isExternal: true

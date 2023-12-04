@@ -7,13 +7,14 @@ items:
   children:
   - SuperOffice.Data.OrderBySortType.ASC
   - SuperOffice.Data.OrderBySortType.DESC
+  - SuperOffice.Data.OrderBySortType.value__
   langs:
   - csharp
   - vb
   name: OrderBySortType
   nameWithType: OrderBySortType
   fullName: SuperOffice.Data.OrderBySortType
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -22,19 +23,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nHow to sort the Order by statement.\n"
   syntax:
-    content: public enum OrderBySortType
-    content.vb: Public Enum OrderBySortType
+    content: 'public sealed class OrderBySortType : Enum'
+    content.vb: >-
+      Public NotInheritable Class OrderBySortType
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.OrderBySortType.EnumUtil.MapEnums``2
-  - SuperOffice.Data.OrderBySortType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.OrderBySortType)
-  - SuperOffice.Data.OrderBySortType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.OrderBySortType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.OrderBySortType.value__
+  commentId: F:SuperOffice.Data.OrderBySortType.value__
+  id: value__
+  parent: SuperOffice.Data.OrderBySortType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: OrderBySortType.value__
+  fullName: SuperOffice.Data.OrderBySortType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.OrderBySortType.ASC
   commentId: F:SuperOffice.Data.OrderBySortType.ASC
   id: ASC
@@ -54,9 +90,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Sort the Order by Ascending\n"
   syntax:
-    content: ASC = 0
+    content: public const OrderBySortType ASC
     return:
       type: SuperOffice.Data.OrderBySortType
+    content.vb: Public Const ASC As OrderBySortType
   modifiers.csharp:
   - public
   - const
@@ -82,9 +119,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Sort the Order by Descending\n"
   syntax:
-    content: DESC = 1
+    content: public const OrderBySortType DESC
     return:
       type: SuperOffice.Data.OrderBySortType
+    content.vb: Public Const DESC As OrderBySortType
   modifiers.csharp:
   - public
   - const
@@ -98,6 +136,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.OrderBySortType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -125,84 +170,6 @@ references:
     name: MapEnums(Of OrderBySortType, To)
     nameWithType: EnumUtil.MapEnums(Of OrderBySortType, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.OrderBySortType, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.OrderBySortType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.OrderBySortType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<OrderBySortType>(OrderBySortType)
-  nameWithType: ObjectExtensions.AssignByReflection<OrderBySortType>(OrderBySortType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.OrderBySortType>(SuperOffice.Data.OrderBySortType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OrderBySortType)(OrderBySortType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.OrderBySortType)(SuperOffice.Data.OrderBySortType)
-  name.vb: AssignByReflection(Of OrderBySortType)(OrderBySortType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<OrderBySortType>
-    nameWithType: ObjectExtensions.AssignByReflection<OrderBySortType>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.OrderBySortType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.OrderBySortType
-    name: OrderBySortType
-    nameWithType: OrderBySortType
-    fullName: SuperOffice.Data.OrderBySortType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of OrderBySortType)
-    nameWithType: ObjectExtensions.AssignByReflection(Of OrderBySortType)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.OrderBySortType)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.OrderBySortType
-    name: OrderBySortType
-    nameWithType: OrderBySortType
-    fullName: SuperOffice.Data.OrderBySortType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.OrderBySortType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<OrderBySortType>()
-  nameWithType: ObjectExtensions.GraphCopy<OrderBySortType>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.OrderBySortType>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of OrderBySortType)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.OrderBySortType)()
-  name.vb: GraphCopy(Of OrderBySortType)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<OrderBySortType>
-    nameWithType: ObjectExtensions.GraphCopy<OrderBySortType>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.OrderBySortType>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of OrderBySortType)
-    nameWithType: ObjectExtensions.GraphCopy(Of OrderBySortType)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.OrderBySortType)
     isExternal: true
   - name: (
     nameWithType: (
@@ -244,6 +211,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -289,103 +262,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -432,18 +308,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.OrderBySortType
   commentId: T:SuperOffice.Data.OrderBySortType
   parent: SuperOffice.Data

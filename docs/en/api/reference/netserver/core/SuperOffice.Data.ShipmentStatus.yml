@@ -18,6 +18,7 @@ items:
   - SuperOffice.Data.ShipmentStatus.Started
   - SuperOffice.Data.ShipmentStatus.StatusFailed
   - SuperOffice.Data.ShipmentStatus.TooManyRecipients
+  - SuperOffice.Data.ShipmentStatus.value__
   - SuperOffice.Data.ShipmentStatus.Waiting
   langs:
   - csharp
@@ -25,7 +26,7 @@ items:
   name: ShipmentStatus
   nameWithType: ShipmentStatus
   fullName: SuperOffice.Data.ShipmentStatus
-  type: Enum
+  type: Class
   source:
     path: SoCore
     isExternal: true
@@ -34,19 +35,54 @@ items:
   namespace: SuperOffice.Data
   summary: "\nStatus for shipment (started, cancelled etc)\nThis Enum is used by:  s_shipment.status\n"
   syntax:
-    content: 'public enum ShipmentStatus : short'
-    content.vb: Public Enum ShipmentStatus As Short
+    content: 'public sealed class ShipmentStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShipmentStatus
+
+          Inherits
+
+
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ShipmentStatus.EnumUtil.MapEnums``2
-  - SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentStatus)
-  - SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.Data.ShipmentStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
-  - enum
+  - sealed
+  - class
   modifiers.vb:
   - Public
-  - Enum
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ShipmentStatus.value__
+  commentId: F:SuperOffice.Data.ShipmentStatus.value__
+  id: value__
+  parent: SuperOffice.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShipmentStatus.value__
+  fullName: SuperOffice.Data.ShipmentStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ShipmentStatus.None
   commentId: F:SuperOffice.Data.ShipmentStatus.None
   id: None
@@ -66,9 +102,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n0: Initial status, shipment is left alone, can be used for working with shipment\n"
   syntax:
-    content: None = 0
+    content: public const ShipmentStatus None
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const None As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -94,9 +131,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n1: Finished, no errors.\n"
   syntax:
-    content: Ok = 1
+    content: public const ShipmentStatus Ok
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const Ok As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -122,9 +160,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n2: Stopped by user.\n"
   syntax:
-    content: Canceled = 2
+    content: public const ShipmentStatus Canceled
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const Canceled As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -150,9 +189,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n3: Ready for execution, in the queue.\n"
   syntax:
-    content: Waiting = 3
+    content: public const ShipmentStatus Waiting
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const Waiting As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -178,9 +218,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n4: Executing (sending).\n"
   syntax:
-    content: Started = 4
+    content: public const ShipmentStatus Started
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const Started As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -206,9 +247,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n5: Finished, had some errors.\n"
   syntax:
-    content: StatusFailed = 5
+    content: public const ShipmentStatus StatusFailed
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const StatusFailed As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -234,9 +276,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n6: Retrying the addresses which did not work\n"
   syntax:
-    content: Retry = 6
+    content: public const ShipmentStatus Retry
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const Retry As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -262,9 +305,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n7: Between waiting and starting. Used when we populate the recipient lists.\n"
   syntax:
-    content: Populating = 7
+    content: public const ShipmentStatus Populating
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const Populating As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -290,9 +334,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n8: Deleted\n"
   syntax:
-    content: Deleted = 8
+    content: public const ShipmentStatus Deleted
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const Deleted As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -318,9 +363,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n9: Awaiting ejournalCron to start populate\n"
   syntax:
-    content: AwaitPopulate = 9
+    content: public const ShipmentStatus AwaitPopulate
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const AwaitPopulate As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -346,9 +392,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n10: eJournalCron has started populateOnly after someone saved choose recipients screen.\n"
   syntax:
-    content: PopulatingOnly = 10
+    content: public const ShipmentStatus PopulatingOnly
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const PopulatingOnly As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -374,9 +421,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n11: eJournalCron has started populating, but by user request it is canceled. Now we finish populating, and then set status back to none.\n"
   syntax:
-    content: PopulateAborted = 11
+    content: public const ShipmentStatus PopulateAborted
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const PopulateAborted As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -402,9 +450,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n12: \n"
   syntax:
-    content: PopulateError = 12
+    content: public const ShipmentStatus PopulateError
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const PopulateError As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -430,9 +479,10 @@ items:
   namespace: SuperOffice.Data
   summary: "\n13: \n"
   syntax:
-    content: TooManyRecipients = 13
+    content: public const ShipmentStatus TooManyRecipients
     return:
       type: SuperOffice.Data.ShipmentStatus
+    content.vb: Public Const TooManyRecipients As ShipmentStatus
   modifiers.csharp:
   - public
   - const
@@ -446,6 +496,13 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ShipmentStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -473,84 +530,6 @@ references:
     name: MapEnums(Of ShipmentStatus, To)
     nameWithType: EnumUtil.MapEnums(Of ShipmentStatus, To)
     fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentStatus, To)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ShipmentStatus>(ShipmentStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<ShipmentStatus>(ShipmentStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ShipmentStatus>(SuperOffice.Data.ShipmentStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ShipmentStatus)(ShipmentStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ShipmentStatus)(SuperOffice.Data.ShipmentStatus)
-  name.vb: AssignByReflection(Of ShipmentStatus)(ShipmentStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ShipmentStatus>
-    nameWithType: ObjectExtensions.AssignByReflection<ShipmentStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ShipmentStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ShipmentStatus
-    name: ShipmentStatus
-    nameWithType: ShipmentStatus
-    fullName: SuperOffice.Data.ShipmentStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ShipmentStatus)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ShipmentStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ShipmentStatus)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.ShipmentStatus
-    name: ShipmentStatus
-    nameWithType: ShipmentStatus
-    fullName: SuperOffice.Data.ShipmentStatus
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Data.ShipmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ShipmentStatus>()
-  nameWithType: ObjectExtensions.GraphCopy<ShipmentStatus>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ShipmentStatus>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ShipmentStatus)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ShipmentStatus)()
-  name.vb: GraphCopy(Of ShipmentStatus)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ShipmentStatus>
-    nameWithType: ObjectExtensions.GraphCopy<ShipmentStatus>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ShipmentStatus>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ShipmentStatus)
-    nameWithType: ObjectExtensions.GraphCopy(Of ShipmentStatus)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ShipmentStatus)
     isExternal: true
   - name: (
     nameWithType: (
@@ -592,6 +571,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -637,103 +622,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -780,18 +668,19 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ShipmentStatus
   commentId: T:SuperOffice.Data.ShipmentStatus
   parent: SuperOffice.Data
